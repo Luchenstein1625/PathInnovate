@@ -37,3 +37,43 @@ class TestTAAI2(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestInnovate(unittest.TestCase):
+    def test_rules_choose_techniques(self):
+        from copilot.innovate import select_components, innovate, to_markdown
+        ids = {c["id"] for c in select_components("predecir el riesgo de fraude con datos historicos")}
+        self.assertIn("tabular", ids); self.assertIn("autonomia", ids); self.assertIn("texto", ids)
+        ids = {c["id"] for c in select_components("asignar turnos y responder consultas de clientes")}
+        self.assertTrue({"asignar", "texto"} <= ids)
+
+    def test_evidence_and_markdown(self):
+        from copilot.innovate import innovate, to_markdown
+        class Fake:
+            def search(self, q, k=2, per_file=1):
+                return [{"course": "16", "session": "S1", "file": "a.vtt", "loc": "00:01:00"}]
+        r = innovate("asistente de atencion de reclamos", Fake())
+        self.assertEqual(r["verificacion"]["componentes_sin_evidencia_en_clases"], [])
+        self.assertIn("Propuesta de innovacion", to_markdown(r))
+        self.assertIn("SIN EVIDENCIA", to_markdown(innovate("asistente de reclamos", None)))
+
+
+class TestLLM(unittest.TestCase):
+    def test_openai_compatible_call_mocked(self):
+        import io, json, os
+        from unittest import mock
+        from copilot import llm
+        env = {"LLM_PROVIDER": "huggingface", "LLM_MODEL": "m", "HF_TOKEN": "t"}
+        resp = io.BytesIO(json.dumps({"choices": [{"message": {"content": "hola"}}]}).encode())
+        with mock.patch.dict(os.environ, env), mock.patch("copilot.llm.load_env"), \
+             mock.patch("urllib.request.urlopen", return_value=resp) as u:
+            self.assertEqual(llm.complete("x"), "hola")
+            self.assertIn("router.huggingface.co", u.call_args[0][0].full_url)
+
+    def test_missing_config_exits(self):
+        import os
+        from unittest import mock
+        from copilot import llm
+        with mock.patch.dict(os.environ, {}, clear=True), mock.patch("copilot.llm.load_env"):
+            with self.assertRaises(SystemExit):
+                llm.complete("x")

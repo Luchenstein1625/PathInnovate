@@ -78,6 +78,10 @@ def cmd_ask(args):
     if not hits:
         print("Sin resultados. Prueba con otras palabras o sin filtros.")
         return
+    if args.llm:
+        from .llm import complete
+        print(complete(build_prompt(args.question, hits)))
+        return
     if args.prompt:
         prompt = build_prompt(args.question, hits)
         print(prompt)
@@ -134,6 +138,22 @@ def cmd_plan(args):
     print(text)
 
 
+def cmd_innovate(args):
+    from . import innovate as inn
+    try:
+        idx = Index(args.data)
+    except SystemExit:
+        idx = None
+        print("! Sin indice: la propuesta saldra sin evidencia de clases (ejecuta `ingest`).")
+    md = inn.to_markdown(inn.innovate(args.idea, idx, args.queries))
+    if args.llm:
+        md += "\n\n## Critica del LLM\n" + inn.llm_refine(md)
+    Path(args.out).mkdir(parents=True, exist_ok=True)
+    path = Path(args.out) / "innovacion.md"
+    path.write_text(md, encoding="utf-8")
+    print(md + f"\n\n(guardado en {path})")
+
+
 def main(argv=None):
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -158,6 +178,7 @@ def main(argv=None):
     s.add_argument("--rescan", action="store_true", help="vuelve a recorrer la carpeta y rehace el inventario")
     s.set_defaults(fn=cmd_ingest)
     s = sub.add_parser("ask")
+    s.add_argument("--llm", action="store_true", help="responde con el LLM configurado en .env usando las fuentes")
     s.add_argument("question")
     s.add_argument("-k", type=int, default=6)
     s.add_argument("--course", action="append", help="filtra por curso (ej. 16); se puede repetir")
@@ -176,6 +197,11 @@ def main(argv=None):
     s.add_argument("draft", help="borrador del informe (.md, .txt, .docx o .pdf)")
     s.set_defaults(fn=cmd_check)
     sub.add_parser("plan").set_defaults(fn=cmd_plan)
+    s = sub.add_parser("innovate", help="de una idea a una propuesta con tecnicas, evidencia de clases y presupuesto")
+    s.add_argument("idea")
+    s.add_argument("--queries", type=int, default=50000, help="consultas mensuales")
+    s.add_argument("--llm", action="store_true", help="agrega critica de un LLM (requiere ANTHROPIC_API_KEY)")
+    s.set_defaults(fn=cmd_innovate)
 
     args = p.parse_args(argv)
     args.fn(args)

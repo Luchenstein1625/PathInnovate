@@ -47,3 +47,9 @@ python -m copilot.engine_taai2 traceability
 1. **Informe PDF (20 a 35 páginas):** Utilizar las salidas en JSON del comando `plan` y `budget` como respaldo directo de las secciones 2 a 8 del informe.
 2. **Anexo A:** Copiar la tabla Markdown generada por el comando `traceability`.
 3. **Anexo B:** Exportar los resultados de `budget` a la planilla Excel requerida.
+
+## Comando `innovate` (idea -> propuesta)
+```bash
+python -m copilot innovate "su idea" [--queries 50000] [--llm]
+```
+Elige componentes y tecnicas por reglas (texto -> SLM/LLM+RAG; datos tabulares -> Random Forest/Boosting; asignacion -> optimizacion; normas -> verificador simbolico; procesos -> planificador), cita evidencia de las clases indexadas (o marca SIN EVIDENCIA), compara 3 alternativas de presupuesto y escribe `output/innovacion.md`. `--llm` agrega una critica con la API de Anthropic (configurar `.env` como `.env.example`: openai, huggingface o anthropic; tambien `ask --llm`). Las reglas y cifras son un punto de partida: el grupo debe justificarlas.
