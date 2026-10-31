@@ -1,0 +1,11 @@
+# Material del magíster, índices y salidas: no subir a repositorios
+data/
+output/
+.venv/
+__pycache__/
+*.pyc
+.env
+# Magister (copia local del material del curso; no subir)
+MAGISTER/
+Magister/
+*.zip

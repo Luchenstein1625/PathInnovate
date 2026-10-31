@@ -1,0 +1,5 @@
+﻿nombre,horas_dia_habil,horas_fin_de_semana,fortalezas,dias_sin_disponibilidad
+Integrante 1,3.0,5.0,arquitectura;llm,
+Integrante 2,3.0,5.0,agentes;simbolico;planificacion,
+Integrante 3,3.0,5.0,finanzas;negocio;riesgo,
+Integrante 4,3.0,5.0,cloud;optimizacion;escritura,

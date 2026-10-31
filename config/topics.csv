@@ -1,0 +1,26 @@
+﻿sesion,id,topico,palabras_clave,secciones
+S1,S1.1,"Tipos de modelo: LLM causal, MLM, multimodal, SLM, de dominio",LLM;SLM;modelo fundacional;foundation model;multimodal;VLM;masked language model;modelo de dominio;xLM,2
+S1,S1.2,"Adaptación: ICL, RAG, LoRA/PEFT, destilación",in-context learning;RAG;retrieval augmented;LoRA;PEFT;fine tuning;ajuste fino;destilacion;distillation,2
+S1,S1.3,"Contexto, tokens y costo por consulta",ventana de contexto;context window;tokens;tokenizacion;costo por token;precio por token,2;8
+S1,S1.4,Representación distribuida vs simbólica,embeddings;representacion distribuida;representacion simbolica;espacio latente,2
+S2,S2.1,"Arquitectura agentic: agentes, hubs, orquestador, memoria, herramientas",agente;multiagente;orquestador;hub;tool use;herramientas;memoria;MCP,3
+S2,S2.2,Niveles de autonomía y humano en el circuito,autonomia;human in the loop;humano en el circuito;supervision,3
+S2,S2.3,Confiabilidad de la cadena (precisión por paso a precisión del flujo),confiabilidad;error compuesto;precision por paso;cadena de agentes;fiabilidad,3
+S2,S2.4,Sistemas complejos y dinámica entre agentes,sistemas complejos;emergencia;simulacion basada en agentes;auto organizacion,3
+S2,S2.5,"Gobernanza, trazabilidad y auditoría",gobernanza;trazabilidad;auditoria;EU AI Act;AI Act;regulacion,3;9
+S3,S3.1,"Reglas duras, ontologías y grafos de conocimiento",ontologia;grafo de conocimiento;knowledge graph;reglas;restricciones,4
+S3,S3.2,"Neurosimbólico, grounding y verificación",neurosimbolico;neuro symbolic;grounding;verificacion;verificador;alucinacion,4
+S3,S3.3,Razonamiento lógico (proposicional y de primer orden),logica proposicional;logica de primer orden;inferencia;prolog;razonamiento simbolico,4
+S4,S4.1,Planificación clásica: STRIPS / PDDL,STRIPS;PDDL;planificacion;precondiciones;efectos,5
+S4,S4.2,HTN y replanificación,HTN;tareas jerarquicas;replanificacion;hierarchical task network,5
+S4,S4.3,LLM como planificador vs planificador simbólico,planificacion con LLM;chain of thought;ReAct;plan and solve,5
+S5,S5.1,Formulación de optimización y problemas NP-duros,optimizacion;funcion objetivo;restricciones;NP duro;NP hard;espacio de busqueda,6
+S5,S5.2,"Metaheurísticas: SA, GA, PSO, búsqueda local",simulated annealing;recocido simulado;algoritmo genetico;genetic algorithm;PSO;enjambre;busqueda local;metaheuristica;hormigas,6
+S5,S5.3,IA generativa en optimización (FunSearch),FunSearch;AlphaEvolve;optimizacion con LLM,6
+S5,S5.4,"Despliegue: Cloud Run, Hugging Face Hub, Finbot, CI/CD",Cloud Run;Hugging Face;HF Hub;Finbot;CI/CD;despliegue;docker;rollback;observabilidad,7
+S6,S6.1,"Economía de la IA: CAPEX, OPEX, TCO, punto de equilibrio",TCO;CAPEX;OPEX;VAN;punto de equilibrio;costo total;economia de la IA,8
+S6,S6.2,Estrategia y modelo de negocio,modelo de negocio;AI as a service;plataforma;big tech;startups;captura de valor;estrategia,10
+S6,S6.3,"Mercado, tendencias y precios de modelos",precio de tokens;costo de inferencia;tendencias;scaling laws;modelo abierto;open source,10
+S6,S6.4,Riesgos: dependencia y concentración de proveedores,dependencia tecnologica;concentracion de proveedores;vendor lock in;riesgo;seguridad,9
+S6,S6.5,Tokens y activos descentralizados,token;blockchain;descentralizado;cripto;DAO,10
+T,T.1,"Evaluación: métricas, set fijo, juez y piloto",evaluacion;benchmark;LLM as judge;metricas;piloto;conjunto de evaluacion,11

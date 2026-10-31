@@ -1,0 +1,21 @@
+﻿id,seccion,horas,depende_de,dia_limite,perfil
+ARQ,Arquitectura base y reparto de componentes,4,,3,arquitectura
+XLS,Excel de supuestos (estructura),3,ARQ,3,finanzas
+S01,Sec. 1 La solución y el problema,5,ARQ,3,negocio
+S02,Sec. 2 Modelos fundacionales (S1),7,ARQ,5,llm
+S03,"Sec. 3 Autonomía, agentes y gobernanza (S2)",7,ARQ,5,agentes
+S04,Sec. 4 Razonamiento simbólico (S3),5,ARQ,6,simbolico
+S05,Sec. 5 Planificación (S4),5,ARQ,6,planificacion
+S06,Sec. 6 Optimización (S5),6,ARQ,7,optimizacion
+S07,Sec. 7 Despliegue y operación,6,ARQ,7,cloud
+S08,Sec. 8 Presupuesto (S6),9,S02;S07;XLS,11,finanzas
+S09,Sec. 9 Factibilidad y riesgos,7,S03;S08,11,riesgo
+S10,Sec. 10 Estrategia y modelo de negocio,5,S08,11,negocio
+S11,Sec. 11 Plan de evaluación,5,S02;S03;S04;S05;S06,11,llm
+S12,Sec. 12 Recomendación,3,S08;S09;S10;S11,13,escritura
+S00,Sec. 0 Resumen ejecutivo,3,S12,13,escritura
+AA,Anexo A Tabla de trazabilidad,4,S11,13,escritura
+AB,Anexo B Excel completo con fuentes y fechas,5,S08,12,finanzas
+AC,Anexo C Declaración de uso de IA,2,S12,14,escritura
+AD,Anexo D Aportes por integrante,1,S12,14,escritura
+REV,Lectura cruzada y PDF final,5,S00;AA;AB;AC;AD,14,escritura
