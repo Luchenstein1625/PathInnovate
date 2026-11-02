@@ -21,9 +21,10 @@ class GroundingVerifier:
         return (not bad and len(cited) > 0), [f"Cita inexistente [{c}] detectada." for c in sorted(bad)]
 
     @staticmethod
-    def verify_facts(response_text: str, context_chunks: List[Dict[str, Any]]) -> Tuple[bool, List[str]]:
-        """Toda cifra de la respuesta (sin contar las citas [n]) debe estar en algun fragmento."""
-        ctx = _n(" ".join(c["text"] for c in context_chunks)).replace(",", ".")
+    def verify_facts(response_text: str, context_chunks: List[Dict[str, Any]], user_text: str = "") -> Tuple[bool, List[str]]:
+        """Toda cifra de la respuesta (sin contar las citas [n]) debe estar en algun fragmento
+        o en la pregunta del usuario (user_text): repetir un dato que el usuario dio no es una invencion."""
+        ctx = _n(" ".join([c["text"] for c in context_chunks] + [user_text])).replace(",", ".")
         ctx_nums = {x.replace(",", ".") for x in _NUM.findall(ctx)}
         loose = [x.replace(",", ".") for x in _NUM.findall(re.sub(r"\[\d+\]", " ", _n(response_text)))]
         miss = sorted({x for x in loose if x not in ctx_nums})

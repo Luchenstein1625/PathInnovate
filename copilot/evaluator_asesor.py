@@ -15,7 +15,7 @@ RANK = {"NO_IA": 0, "REGLAS": 1, "ML_TABULAR": 2, "API_RAG": 2, "SLM_PROPIO": 3,
 ETQ = ", ".join(RANK)
 COMP = ("REGLAS", "ML_TABULAR", "API_RAG", "SLM_PROPIO", "VERIFICADOR", "HUMANO")
 _BASE = ("Eres un orientador que recomienda la solución de IA MÁS SIMPLE que resuelve el problema de un emprendedor. "
-         f"Primera línea exacta: RECOMENDACION: <ETIQUETA> (una de {ETQ}) cuando se pide elegir una solución; o, si se pide una arquitectura o comparar opciones, COMPONENTES: <lista separada por comas con etiquetas de {', '.join(COMP)}>, solo los necesarios. Luego 1 o 2 frases que lo justifiquen")
+         f"Primera línea exacta: RECOMENDACION: <ETIQUETA> (una de {ETQ}) cuando se pide elegir una solución; o, si se pide una arquitectura, comparar opciones o la necesidad combina varias capacidades (responder, predecir, ejecutar acciones, cumplir normativa), COMPONENTES: <lista separada por comas con etiquetas de {', '.join(COMP)}>, solo los necesarios. Luego 1 o 2 frases que lo justifiquen")
 SYS_ASESOR = _BASE + f", citando [n]. Usa SOLO el contexto. Si el contexto no alcanza, responde solo RECOMENDACION: {NOINFO}.\nContexto:\n{{ctx}}"
 SYS_SOLO = _BASE + "."
 
@@ -30,6 +30,11 @@ def parse(ans):
     m = re.search(r"COMPONENTES:\s*(.*)", first)
     if m:
         return "C", {t for t in re.findall(r"[A-Z_]+", m.group(1)) if t in COMP}
+    r = re.search(r"RECOMENDACI[OÓ]N:\s*(.*)", first)
+    if r:  # el modelo listó varios componentes pero usó el prefijo RECOMENDACION
+        toks = {t for t in re.findall(r"[A-Z_]+", r.group(1).split(". ")[0]) if t in COMP}
+        if len(toks) >= 2:
+            return "C", toks
     lab = label(ans)
     return ("R", lab) if lab else (None, None)
 
@@ -39,13 +44,13 @@ def fmt_ok(ans):
     return (k == "R" and (v in RANK or v == NOINFO)) or (k == "C" and bool(v))
 
 
-def _check(ans, chunks):
+def _check(ans, chunks, user_text=""):
     if parse(ans) == ("R", NOINFO):
         return True, []
     if not fmt_ok(ans):
         return False, ["Formato: falta una línea RECOMENDACION o COMPONENTES con etiquetas válidas"]
     ok1, e1 = GroundingVerifier.verify_citations(ans, chunks)
-    ok2, e2 = GroundingVerifier.verify_facts(ans, chunks)
+    ok2, e2 = GroundingVerifier.verify_facts(ans, chunks, user_text)
     return ok1 and ok2, e1 + e2
 
 
@@ -55,15 +60,19 @@ def score(q, ans, chunks, needs_cit):
     ab = (kind, val) == ("R", NOINFO)
     pr, gr = RANK.get(lab), RANK.get(gold)
     cit = None if not needs_cit else (True if ab else GroundingVerifier.verify_citations(ans, chunks)[0])
-    facts = True if ab else GroundingVerifier.verify_facts(ans, chunks)[0]
+    facts = True if ab else GroundingVerifier.verify_facts(ans, chunks, q.get("q", ""))[0]
     sob = pr is not None and gr is not None and pr > gr
     sub = pr is not None and gr is not None and pr < gr
     ok = lab == gold
-    if q.get("gold_set"):  # arquitectura compuesta: se compara el conjunto de componentes
-        gs = set(q["gold_set"]); ps = val if kind == "C" else set()
+    gs = set(q["gold_set"]) if q.get("gold_set") else (
+        set(re.findall(r"[A-Z_]+", gold.split(":", 1)[1])) & set(COMP) if gold.startswith("COMPONENTES:") else None)
+    parcial = None
+    if gs:  # arquitectura compuesta: se compara el conjunto de componentes (con credito parcial Jaccard)
+        ps = val if kind == "C" else ({val} & set(COMP) if kind == "R" else set())
         ok, sob, sub = ps == gs, bool(ps - gs), bool(gs - ps) and not ab
+        parcial = round(len(ps & gs) / len(ps | gs), 3) if (ps | gs) else 0.0
     return {"gold": gold, "etiqueta": lab, "abstained": ab, "citas_ok": cit, "cifras_ok": facts, "correcta": ok,
-            "sobredim": sob, "subdim": sub,
+            "sobredim": sob, "subdim": sub, "parcial": parcial,
             "invento_fuera": gold == NOINFO and not ab, "alucinacion": (not ab) and (not facts),
             "sin_cita": bool(needs_cit and not ab and not cit)}
 
@@ -79,18 +88,18 @@ def _run_one(cfg, runner, q, chunks):
         return (*pack(runner.generate_local_hf(q["q"], sysp)), 0, False)
     gen = runner.generate_local_hf if cfg == "hibrido_local" else runner.generate_openai
     ans, lat, cost, tok = pack(gen(q["q"], sysp)); retries, repaired = 0, False
-    ok, issues = _check(ans, chunks)
+    ok, issues = _check(ans, chunks, q["q"])
     if not ok and fmt_ok(ans):                # 1) reparación simbólica de citas
         fixed = GroundingVerifier.attach_citations(ans, chunks)
-        if fixed != ans and _check(fixed, chunks)[0]:
+        if fixed != ans and _check(fixed, chunks, q["q"])[0]:
             ans, ok, repaired = fixed, True, True
     if not ok:                                  # 2) reintento con retroalimentación
         retries = 1
         a2, l2, c2, t2 = pack(gen(f"{q['q']}\n\nTu respuesta anterior tuvo problemas: {'; '.join(issues)}. Corrige usando solo el contexto.", sysp))
         lat += l2; cost += c2; tok = (tok[0] + t2[0], tok[1] + t2[1]); ans = a2
-        if not _check(ans, chunks)[0]:
+        if not _check(ans, chunks, q["q"])[0]:
             fixed = GroundingVerifier.attach_citations(ans, chunks)
-            if fmt_ok(ans) and fixed != ans and _check(fixed, chunks)[0]:
+            if fmt_ok(ans) and fixed != ans and _check(fixed, chunks, q["q"])[0]:
                 ans, repaired = fixed, True
             else:
                 ans = f"RECOMENDACION: {NOINFO}"  # 3) abstención
@@ -99,10 +108,12 @@ def _run_one(cfg, runner, q, chunks):
 
 def _extra(rows):
     resp = [r for r in rows if r["gold"] != NOINFO]; n = len(resp) or 1; fuera = [r for r in rows if r["gold"] == NOINFO] or [None]
+    comp = [r for r in rows if r.get("parcial") is not None]
     return {"n_con_respuesta": len(resp), "sobredimensionadas": round(sum(r["sobredim"] for r in resp) / n, 3),
             "subdimensionadas": round(sum(r["subdim"] for r in resp) / n, 3),
             "inventa_fuera_de_corpus": round(sum(bool(r and r["invento_fuera"]) for r in fuera) / len(fuera), 3),
-            "n_sobredim": sum(r["sobredim"] for r in resp), "n_correctas": sum(r["correcta"] for r in rows)}
+            "n_sobredim": sum(r["sobredim"] for r in resp), "n_correctas": sum(r["correcta"] for r in rows),
+            "n_compuestas": len(comp), "parcial_compuestas": round(sum(r["parcial"] for r in comp) / len(comp), 3) if comp else None}
 
 
 def run_benchmark_asesor(runner, preguntas, corpus, repeats=1, include_local=True, k=5) -> Dict[str, Any]:

@@ -1,0 +1,6 @@
+[
+  {"id": "R-NUEVA-1", "text": "Si el negocio es muy pequeño (pocas personas) y el problema es responder sobre un catálogo o lista corta y estable (por ejemplo, 12 productos), NO entrene ni contrate un modelo propio: basta una FAQ publicada o un bot de REGLAS. Un modelo propio solo se justifica con volumen muy alto o datos que no pueden salir de la empresa."},
+  {"id": "R-NUEVA-2", "text": "Si hay normativa estricta o datos sensibles que no pueden salir de la organización (banca, salud, seguros), un SLM_PROPIO no basta por sí solo: debe ir acompañado de REGLAS duras, un VERIFICADOR de las respuestas y HUMANO en los casos sensibles."},
+  {"id": "R-NUEVA-3", "text": "Si el asistente además de responder debe ejecutar acciones irreversibles (reembolsos, cambios de datos), use API_RAG para responder y agregue REGLAS, VERIFICADOR y HUMANO que apruebe la acción; un agente autónomo sin esos controles es sobredimensionado y riesgoso."},
+  {"id": "R-NUEVA-4", "text": "Si el asistente debe responder con documentos y además predecir o priorizar con un historial tabular de casos (por ejemplo, 12 o más meses de datos), combine API_RAG para responder con ML_TABULAR para predecir, y agregue un VERIFICADOR."}
+]
