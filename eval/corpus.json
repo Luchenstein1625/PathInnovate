@@ -1,0 +1,18 @@
+[
+{"id":"c1","text":"Entrega del informe: domingo 8 de noviembre de 2026, hasta las 23:59 (hora de Chile)."},
+{"id":"c2","text":"Extensión del informe: 20 a 35 páginas sin anexos, letra 11 pt."},
+{"id":"c3","text":"Atraso: se descuentan 1,5 puntos por cada día de atraso, hasta la nota 1,0. Nota mínima de aprobación del curso: 4,0."},
+{"id":"c4","text":"Grupos de 3 a 4 integrantes. Un informe por grupo; todos reciben la misma nota salvo desbalance evidente en el anexo D."},
+{"id":"c5","text":"La tarea vale el 45 % de la nota del módulo (10 % participación, 15 % taller, 30 % examen, 45 % tarea)."},
+{"id":"c6","text":"Presupuesto: CAPEX y OPEX a 12 y 36 meses. Comparar al menos dos alternativas (API comercial vs. modelo abierto propio vs. construir/aliarse), con TCO, punto de equilibrio o VAN y análisis de sensibilidad sobre las tres variables que más pesan."},
+{"id":"c7","text":"Todos los supuestos del presupuesto van en una tabla y en el Excel anexo, con la fuente de cada cifra y la fecha de consulta de los precios."},
+{"id":"c8","text":"Anexos obligatorios: A tabla de trazabilidad del syllabus; B supuestos del presupuesto (hoja de cálculo); C declaración de uso de IA; D aportes por integrante."},
+{"id":"c9","text":"Formato: un solo PDF llamado TAAI2_Tarea_Grupo-N_Apellidos.pdf con portada (nombre de la solución, integrantes, fecha). El Excel del anexo B se adjunta aparte."},
+{"id":"c10","text":"Rúbrica: cobertura teórica del syllabus 30 puntos; presupuesto 20; factibilidad y riesgos 20; coherencia técnica 15; calidad del informe 10; trabajo de equipo y declaraciones 5. Total 100."},
+{"id":"c11","text":"La nota es lineal: 100 puntos = 7,0; 60 puntos = 4,0; menos de 60, proporcional hacia 1,0."},
+{"id":"c12","text":"La solución debe usar al menos un modelo fundacional adaptado, tomar o proponer decisiones con algún grado de autonomía, y tener un dueño y un presupuesto plausibles."},
+{"id":"c13","text":"Factibilidad: evaluar las cuatro dimensiones técnica, económica, operacional y legal/regulatoria; cada riesgo con probabilidad, impacto, mitigación y dueño."},
+{"id":"c14","text":"Uso de IA: permitido y esperado, siempre declarado en el anexo C. Errores, cifras inventadas o citas inexistentes se evalúan como propios."},
+{"id":"c15","text":"Estructura del informe: secciones 0 a 12, desde el resumen ejecutivo hasta la recomendación (ir / no ir / pivotar)."},
+{"id":"c16","text":"Plan de evaluación: métricas por componente, conjunto de evaluación fijo, juez (humano, LLM-as-judge o benchmark), piloto con criterios de éxito y de parada."}
+]

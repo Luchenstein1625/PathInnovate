@@ -1,0 +1,86 @@
+[
+ {
+  "id": "r1",
+  "text": "Regla del grupo (supuesto a validar): si el problema se resuelve con una herramienta que ya existe, como una agenda online, un formulario, una plantilla fija, recordatorios de pago o un recordatorio programado, la recomendación es NO_IA: no se necesita inteligencia artificial."
+ },
+ {
+  "id": "r2",
+  "text": "Regla del grupo (supuesto a validar): para preguntas frecuentes con respuestas fijas, cuando hay menos de 50 preguntas distintas (horarios, dirección, precios, pedidos, servicios), la recomendación es REGLAS: un menú o respuestas predefinidas, sin modelo de lenguaje."
+ },
+ {
+  "id": "r3",
+  "text": "Regla del grupo (supuesto a validar): cuando el contenido es amplio o cambia seguido (catálogo de productos, propiedades, políticas, manuales, documentos internos), el volumen es menor de 100.000 consultas al mes y no hay datos sensibles, la recomendación es API_RAG: una API de modelo de lenguaje con recuperación de documentos (RAG)."
+ },
+ {
+  "id": "r4",
+  "text": "Regla del grupo (supuesto a validar): para predecir o clasificar a partir de datos en planilla (ventas, inventario, reservas, bajas de clientes) con al menos 12 meses de historial, la recomendación es ML_TABULAR: un modelo de aprendizaje automático clásico, no un modelo de lenguaje."
+ },
+ {
+  "id": "r5",
+  "text": "Regla del grupo (supuesto a validar): cuando los datos sensibles no pueden salir de la organización, o el volumen sostenido supera 5 millones de consultas al mes, y existe personal técnico, la recomendación es SLM_PROPIO: un modelo pequeño autoalojado en servidores propios."
+ },
+ {
+  "id": "r6",
+  "text": "Regla del grupo (supuesto a validar): solo cuando el sistema debe ejecutar acciones de varios pasos (ejecutar reembolsos, enviar correos de confirmación, reasignar rutas, modificar registros), la recomendación es AGENTE, siempre con una persona que apruebe o valide cada acción."
+ },
+ {
+  "id": "r7",
+  "text": "Regla del grupo (supuesto a validar): no se justifica entrenar un modelo propio ni hacer ajuste fino con menos de 1.000 ejemplos etiquetados ni sin personal técnico; en esos casos basta REGLAS o API_RAG."
+ },
+ {
+  "id": "r8",
+  "text": "Regla del grupo (supuesto a validar): los equipos sin personal técnico deben preferir servicios administrados (una API) antes que infraestructura propia."
+ },
+ {
+  "id": "r9",
+  "text": "Regla del grupo (supuesto a validar): con menos de 100.000 consultas al mes, la infraestructura propia rara vez compensa frente a una API."
+ },
+ {
+  "id": "r10",
+  "text": "Medición del grupo (corrida del 2026-11-01): una consulta con API y RAG cuesta alrededor de 0,000036 dólares; el costo dominante suele ser el tiempo de las personas."
+ },
+ {
+  "id": "r11",
+  "text": "Antes de invertir, se prueba con 30 a 50 casos reales y se compara el resultado con lo que hace hoy una persona."
+ },
+ {
+  "id": "r12",
+  "text": "Los datos personales de clientes no deben enviarse a terceros sin un acuerdo de tratamiento de datos."
+ },
+ {
+  "id": "r13",
+  "text": "Principio de PathInnovate: recomendar la solución más simple que resuelva el problema; la complejidad adicional solo se justifica con evidencia."
+ },
+ {
+  "id": "r14",
+  "text": "Orden de complejidad creciente de las soluciones: NO_IA, REGLAS, ML_TABULAR y API_RAG, SLM_PROPIO, AGENTE."
+ },
+ {
+  "id": "r15",
+  "text": "Regla del grupo (supuesto a validar): un agente de atención al cliente que solo informa (horarios, políticas, catálogo) necesita API_RAG y VERIFICADOR para comprobar citas y cifras; no necesita ML_TABULAR ni SLM_PROPIO."
+ },
+ {
+  "id": "r16",
+  "text": "Regla del grupo (supuesto a validar): un agente de atención que además clasifica o prioriza casos con datos históricos en planilla (reclamos, bajas de clientes) combina API_RAG, ML_TABULAR y VERIFICADOR."
+ },
+ {
+  "id": "r17",
+  "text": "Regla del grupo (supuesto a validar): un agente que ejecuta acciones con consecuencias (reembolsos, cambios de datos de clientes, cobros) debe combinar API_RAG, REGLAS (límites y normativa), VERIFICADOR y HUMANO que apruebe cada acción."
+ },
+ {
+  "id": "r18",
+  "text": "Regla del grupo (supuesto a validar): en banca, salud o seguros, con normativa estricta y datos sensibles que no pueden salir de la organización y con personal técnico, la arquitectura es SLM_PROPIO, REGLAS, VERIFICADOR y HUMANO."
+ },
+ {
+  "id": "r19",
+  "text": "El VERIFICADOR combina reglas duras con verificación de citas y cifras: reduce las respuestas sin respaldo, pero puede rechazar cálculos válidos y exige mantener las reglas actualizadas."
+ },
+ {
+  "id": "r20",
+  "text": "Definiciones: RAG es un modelo de lenguaje que responde con documentos recuperados; ML_TABULAR es aprendizaje automático clásico sobre datos en planilla; neuro-simbólico es la combinación de un modelo (neuro) con reglas y verificación (simbólico)."
+ },
+ {
+  "id": "r21",
+  "text": "Regla del grupo (supuesto a validar): un agente de atención que solo responde preguntas frecuentes, con menos de 50 preguntas distintas, necesita únicamente REGLAS: no requiere RAG, ML_TABULAR ni verificador."
+ }
+]

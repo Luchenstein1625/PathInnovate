@@ -1,0 +1,18 @@
+[
+{"id":"q1","q":"¿Cuándo vence la entrega del informe y a qué hora?","gold":["8 de noviembre","23:59"]},
+{"id":"q2","q":"¿Qué extensión debe tener el informe?","gold":["\\b20\\b","\\b35\\b"]},
+{"id":"q3","q":"¿Cuántos puntos se descuentan por cada día de atraso?","gold":["1[.,]5"]},
+{"id":"q4","q":"¿Cuántos integrantes puede tener un grupo?","gold":["\\b3\\b","\\b4\\b"]},
+{"id":"q5","q":"¿Qué porcentaje de la nota del módulo vale la tarea?","gold":["45"]},
+{"id":"q6","q":"¿A cuántos meses debe proyectarse el presupuesto?","gold":["\\b12\\b","\\b36\\b"]},
+{"id":"q7","q":"¿Cuáles son los anexos obligatorios?","gold":["trazabilidad","supuestos","uso de ia","aportes"]},
+{"id":"q8","q":"¿Cómo debe llamarse el archivo PDF del informe?","gold":["taai2_tarea_grupo-n_apellidos"]},
+{"id":"q9","q":"¿Cuántos puntos vale la coherencia técnica en la rúbrica?","gold":["\\b15\\b"]},
+{"id":"q10","q":"¿Cuál es la nota mínima de aprobación del curso?","gold":["4[.,]0"]},
+{"id":"q11","q":"¿Qué nota equivale a 60 puntos?","gold":["4[.,]0"]},
+{"id":"q12","q":"¿Qué dimensiones de factibilidad hay que evaluar?","gold":["tecnic","econom","operacional","legal"]},
+{"id":"q13","q":"¿Qué debe tener cada riesgo identificado?","gold":["probabilidad","impacto","mitigacion","dueno"]},
+{"id":"q14","q":"¿Qué pasa si el informe incluye cifras inventadas o citas inexistentes?","gold":["propios"]},
+{"id":"q15","q":"¿Cuál es el teléfono del profesor?","abstain":true},
+{"id":"q16","q":"¿Cuántos dólares exactos debe costar la solución elegida?","abstain":true}
+]

@@ -1,0 +1,226 @@
+[
+ {
+  "id": "a1",
+  "q": "Tengo una panadería y los clientes preguntan siempre lo mismo por WhatsApp: horario, dirección y si hacemos pedidos. ¿Necesito un bot con IA entrenada?",
+  "gold": "REGLAS",
+  "regla": "r2"
+ },
+ {
+  "id": "a2",
+  "q": "Mi taller mecánico recibe unas 20 consultas diarias con las mismas 15 preguntas sobre precios de mantención. Quiero automatizarlas.",
+  "gold": "REGLAS",
+  "regla": "r2"
+ },
+ {
+  "id": "a3",
+  "q": "Quiero un chatbot para mi peluquería que informe horarios y servicios; son menos de 30 preguntas distintas.",
+  "gold": "REGLAS",
+  "regla": "r2"
+ },
+ {
+  "id": "a4",
+  "q": "Un vendedor me ofreció un sistema de IA a medida, carísimo, para responder 10 preguntas frecuentes de mi tienda. ¿Lo necesito?",
+  "gold": "REGLAS",
+  "regla": "r2"
+ },
+ {
+  "id": "a5",
+  "q": "Mi tienda online tiene 5.000 productos y políticas de devolución que cambian cada mes. Quiero un asistente que responda con esa información; recibo unas 3.000 consultas al mes y no manejo datos sensibles.",
+  "gold": "API_RAG",
+  "regla": "r3"
+ },
+ {
+  "id": "a6",
+  "q": "Mi estudio de abogados quiere un asistente que busque en 400 documentos de procedimientos internos, sin datos de clientes, y responda al equipo; unas 500 consultas al mes.",
+  "gold": "API_RAG",
+  "regla": "r3"
+ },
+ {
+  "id": "a7",
+  "q": "Una inmobiliaria pequeña quiere un asistente que responda sobre sus propiedades en venta, que cambian cada semana; unas 8.000 consultas al mes.",
+  "gold": "API_RAG",
+  "regla": "r3"
+ },
+ {
+  "id": "a8",
+  "q": "Mi academia de idiomas tiene un manual extenso de políticas y quiere que los alumnos lo consulten por chat; unas 2.000 consultas al mes y sin datos sensibles.",
+  "gold": "API_RAG",
+  "regla": "r3"
+ },
+ {
+  "id": "a9",
+  "q": "Mi panadería tiene dos años de ventas diarias en una planilla y quiero predecir cuánto pan hornear mañana.",
+  "gold": "ML_TABULAR",
+  "regla": "r4"
+ },
+ {
+  "id": "a10",
+  "q": "Una tienda de ropa con 3 años de datos de ventas por producto quiere anticipar qué reponer cada mes.",
+  "gold": "ML_TABULAR",
+  "regla": "r4"
+ },
+ {
+  "id": "a11",
+  "q": "Una empresa de suscripciones con 24 meses de historial quiere predecir qué clientes se van a dar de baja.",
+  "gold": "ML_TABULAR",
+  "regla": "r4"
+ },
+ {
+  "id": "a12",
+  "q": "Un restaurante con 18 meses de datos de reservas quiere estimar cuántos clientes vendrán cada fin de semana.",
+  "gold": "ML_TABULAR",
+  "regla": "r4"
+ },
+ {
+  "id": "a13",
+  "q": "Una clínica quiere un asistente con las fichas de sus pacientes y esos datos sensibles no pueden salir de sus servidores. Tiene un equipo de TI propio.",
+  "gold": "SLM_PROPIO",
+  "regla": "r5"
+ },
+ {
+  "id": "a14",
+  "q": "Una cadena con más de 8 millones de consultas al mes de clientes quiere reducir su costo por consulta y tiene un equipo técnico de 6 personas.",
+  "gold": "SLM_PROPIO",
+  "regla": "r5"
+ },
+ {
+  "id": "a15",
+  "q": "Un estudio contable debe procesar datos tributarios confidenciales de clientes sin enviarlos a terceros; cuenta con personal técnico.",
+  "gold": "SLM_PROPIO",
+  "regla": "r5"
+ },
+ {
+  "id": "a16",
+  "q": "Quiero un sistema que, cuando un cliente pida un reembolso, revise la compra, ejecute el reembolso en mi sistema y envíe el correo de confirmación, con un encargado que apruebe cada caso.",
+  "gold": "AGENTE",
+  "regla": "r6"
+ },
+ {
+  "id": "a17",
+  "q": "Mi negocio de repartos necesita que el sistema reasigne rutas y avise a los conductores, con un supervisor que valide cada cambio.",
+  "gold": "AGENTE",
+  "regla": "r6"
+ },
+ {
+  "id": "a18",
+  "q": "Quiero agendar citas de mi consulta kinesiológica y ya uso una agenda online. ¿Necesito IA?",
+  "gold": "NO_IA",
+  "regla": "r1"
+ },
+ {
+  "id": "a19",
+  "q": "Necesito enviar recordatorios de pago a mis clientes cada mes con una plantilla fija. ¿Hace falta un modelo de IA?",
+  "gold": "NO_IA",
+  "regla": "r1"
+ },
+ {
+  "id": "a20",
+  "q": "Quiero que mis clientes llenen un formulario de contacto y que me llegue por correo. ¿Qué IA necesito?",
+  "gold": "NO_IA",
+  "regla": "r1"
+ },
+ {
+  "id": "a21",
+  "q": "Quiero entrenar mi propio modelo de lenguaje para mi emprendimiento de 3 personas que vende velas, solo para responder consultas sobre los 12 aromas que tenemos.",
+  "gold": "REGLAS",
+  "regla": "r2"
+ },
+ {
+  "id": "a22",
+  "q": "Mi pyme sin personal técnico quiere hacer ajuste fino de un modelo con 200 ejemplos de conversaciones para atender clientes con un catálogo que cambia seguido.",
+  "gold": "API_RAG",
+  "regla": "r3"
+ },
+ {
+  "id": "a23",
+  "q": "¿Cuál es el tipo de cambio del dólar hoy?",
+  "gold": "NO_HAY_INFORMACION"
+ },
+ {
+  "id": "a24",
+  "q": "¿Cuánto cuesta exactamente contratar a un desarrollador en Santiago?",
+  "gold": "NO_HAY_INFORMACION"
+ },
+ {
+  "id": "a25",
+  "q": "¿Qué artículo de qué ley chilena regula los datos personales de mis clientes?",
+  "gold": "NO_HAY_INFORMACION"
+ },
+ {
+  "id": "c1",
+  "q": "¿Qué arquitectura se recomienda para un agente de atención al cliente: solo RAG, ML clásico o neuro-simbólico?",
+  "gold": "COMPONENTES: API_RAG + VERIFICADOR",
+  "gold_set": [
+   "API_RAG",
+   "VERIFICADOR"
+  ],
+  "regla": "r15"
+ },
+ {
+  "id": "c2",
+  "q": "Quiero un agente de atención que responda políticas y además priorice los reclamos según 18 meses de historial de casos en una planilla.",
+  "gold": "COMPONENTES: API_RAG + ML_TABULAR + VERIFICADOR",
+  "gold_set": [
+   "API_RAG",
+   "ML_TABULAR",
+   "VERIFICADOR"
+  ],
+  "regla": "r16"
+ },
+ {
+  "id": "c3",
+  "q": "Mi tienda quiere un agente que responda consultas y además ejecute reembolsos y cambios de datos de clientes.",
+  "gold": "COMPONENTES: API_RAG + REGLAS + VERIFICADOR + HUMANO",
+  "gold_set": [
+   "API_RAG",
+   "REGLAS",
+   "VERIFICADOR",
+   "HUMANO"
+  ],
+  "regla": "r17"
+ },
+ {
+  "id": "c4",
+  "q": "Un banco necesita un agente de atención con normativa estricta y datos sensibles que no pueden salir de sus servidores; tiene equipo técnico.",
+  "gold": "COMPONENTES: SLM_PROPIO + REGLAS + VERIFICADOR + HUMANO",
+  "gold_set": [
+   "SLM_PROPIO",
+   "REGLAS",
+   "VERIFICADOR",
+   "HUMANO"
+  ],
+  "regla": "r18"
+ },
+ {
+  "id": "c5",
+  "q": "Una aseguradora quiere un asistente con datos de salud de clientes que no pueden salir de la organización y debe cumplir normativa; cuenta con personal técnico.",
+  "gold": "COMPONENTES: SLM_PROPIO + REGLAS + VERIFICADOR + HUMANO",
+  "gold_set": [
+   "SLM_PROPIO",
+   "REGLAS",
+   "VERIFICADOR",
+   "HUMANO"
+  ],
+  "regla": "r18"
+ },
+ {
+  "id": "c6",
+  "q": "¿Un agente que solo responde 15 preguntas frecuentes de mi pyme necesita RAG, ML clásico o neuro-simbólico?",
+  "gold": "COMPONENTES: REGLAS",
+  "gold_set": [
+   "REGLAS"
+  ],
+  "regla": "r21"
+ },
+ {
+  "id": "c7",
+  "q": "Quiero que mi asistente de ventas responda con el catálogo y además prediga qué clientes se darán de baja con 24 meses de historial.",
+  "gold": "COMPONENTES: API_RAG + ML_TABULAR + VERIFICADOR",
+  "gold_set": [
+   "API_RAG",
+   "ML_TABULAR",
+   "VERIFICADOR"
+  ],
+  "regla": "r16"
+ }
+]

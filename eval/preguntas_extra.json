@@ -1,0 +1,19 @@
+[
+{"id":"q17","q":"¿Cuánto vale el examen en la nota del módulo?","gold":["\\b30\\b"]},
+{"id":"q18","q":"¿Cuánto vale la participación en la nota del módulo?","gold":["\\b10\\b"]},
+{"id":"q19","q":"¿Cuánto vale el taller en la nota del módulo?","gold":["\\b15\\b"]},
+{"id":"q20","q":"¿Cuántos puntos vale la cobertura teórica del syllabus?","gold":["\\b30\\b"]},
+{"id":"q21","q":"¿Cuántos puntos vale el presupuesto en la rúbrica?","gold":["\\b20\\b"]},
+{"id":"q22","q":"¿Cuántos puntos vale la calidad del informe?","gold":["\\b10\\b"]},
+{"id":"q23","q":"¿Cuántos puntos vale el trabajo de equipo y declaraciones?","gold":["\\b5\\b"]},
+{"id":"q24","q":"¿Qué letra tiene el anexo de la declaración de uso de IA?","gold":["\\bc\\b"]},
+{"id":"q25","q":"¿Qué nota equivale a 100 puntos?","gold":["7[.,]0"]},
+{"id":"q26","q":"¿Qué opciones tiene la recomendación final?","gold":["pivotar","no ir"]},
+{"id":"q27","q":"¿Qué alternativas hay que comparar en el presupuesto?","gold":["api comercial","modelo abierto"]},
+{"id":"q28","q":"¿Qué tipos de juez pueden usarse en el plan de evaluación?","gold":["humano","llm-as-judge"]},
+{"id":"q29","q":"¿Qué otros componentes tiene la nota del módulo además de la tarea?","gold":["participacion","taller","examen"]},
+{"id":"q30","q":"¿Hasta qué número llegan las secciones del informe?","gold":["\\b12\\b"]},
+{"id":"q31","q":"¿Cuál es el correo electrónico del profesor?","abstain":true},
+{"id":"q32","q":"¿En qué ciudad se dicta el magíster?","abstain":true},
+{"id":"q33","q":"¿Cuánto cuesta la matrícula del magíster?","abstain":true}
+]

@@ -1,0 +1,12 @@
+[
+{"id":"d1","q":"¿Cuál es el máximo de páginas del informe y qué tamaño de letra debe usar?","gold":["\\b35\\b","\\b11\\b"]},
+{"id":"d2","q":"¿Cuál es el nombre del archivo PDF y qué debe incluir la portada?","gold":["taai2_tarea_grupo-n_apellidos","integrantes"]},
+{"id":"d3","q":"¿Cuántos puntos se descuentan si el grupo entrega con 3 días de atraso?","gold":["4[.,]5"]},
+{"id":"d4","q":"¿Cuántos puntos se descuentan si el grupo entrega con 4 días de atraso?","gold":["\\b6\\b"]},
+{"id":"d5","q":"¿Qué nota corresponde a 80 puntos?","gold":["5[.,]5"]},
+{"id":"d6","q":"¿Cuántas páginas debe tener el anexo A?","abstain":true},
+{"id":"d7","q":"¿Cuál es el plazo para apelar la nota?","abstain":true},
+{"id":"d8","q":"¿Cuándo es la fecha del examen?","abstain":true},
+{"id":"d9","q":"¿En qué plataforma se sube el PDF del informe?","abstain":true},
+{"id":"d10","q":"¿Qué software de gestión de referencias exige el profesor?","abstain":true}
+]
