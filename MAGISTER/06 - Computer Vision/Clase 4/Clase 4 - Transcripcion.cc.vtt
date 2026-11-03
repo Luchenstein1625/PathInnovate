@@ -1,0 +1,3515 @@
+WEBVTT
+
+01:50:02.000 --> 01:50:09.000
+Periódicas que nos facilitan la construcción de series temporales y en este caso, etiquetas para entrenar a los modelos.
+
+01:50:09.000 --> 01:50:19.000
+Para más tarde y en términos de los costos. Las cámaras fijas bien colocadas cuestan menos que los vuelos frecuentes y consumen poca energía. Si se diseñan bien.
+
+01:50:19.000 --> 01:50:29.000
+Como mínimo, producto viable. El objetivo y el alcance de esto es detectar y priorizar parches que serían estas pequeñas zonas con posibles estrés hídrico.
+
+01:50:29.000 --> 01:50:36.000
+Usando Cámaras R. G. B de alta resolución. Y producir la alerta georreferenciales y un dashboard simple.
+
+01:50:36.000 --> 01:50:44.000
+El alcance sería poder. Volar sobre 3 a 5 hectáreas diarias por semana.
+
+01:50:44.000 --> 01:50:49.000
+Análisis con modelos heburísticos y con Mls con modelos de más ligeros.
+
+01:50:49.000 --> 01:50:54.000
+Con índice de r G. B. I chang de techo. En términos de los que, apellidos, operativos.
+
+01:50:54.000 --> 01:51:02.000
+Tenemos de la eficiencia de monitoreo, los K. P. I en términos de las hectáreas inspeccionadas por hora de tiempo, vuelos, mapas, alertas.
+
+01:51:02.000 --> 01:51:10.000
+La meta inicial sería que sea mayor a 50 hectáreas. Y menor a 2 ciclos completos de R, G. B.
+
+01:51:10.000 --> 01:51:19.000
+En términos de la detección de estrés hídrico, enfermedades. Mi idea sería tener un récord mayor igual a un 0. 85 por 100.
+
+01:51:19.000 --> 01:51:24.000
+Detección de parches con estrés y un tiempo de detección menor a 24 h. El Grand true que sería en este caso.
+
+01:51:24.000 --> 01:51:32.000
+La certeza que lo que queremos tener se refiere a la información precisa y verificada que sirve como referencia para evaluar la exactitud.
+
+01:51:32.000 --> 01:51:44.000
+De los modelos de inteligencia artificial. Y como categoría en términos de la reducción de costos, se pretende reducir en un 30 por 100 en las horas de inspección manual.
+
+01:51:44.000 --> 01:51:49.000
+Disminuir un 15 por 100 El riesgo en sectores no críticos.
+
+01:51:49.000 --> 01:51:54.000
+Y en términos de los algoritmos, a utilizar la idea es rescatar lo mejor de ambos mundos.
+
+01:51:54.000 --> 01:51:58.000
+Tanto, lo que nos va a ofrecer trabajar con cámara y dron.
+
+01:51:58.000 --> 01:52:09.000
+Y en este aspecto vamos a utilizar redes neuronales convulcionales. Que son las más usadas en el campo de la visión artificial para clasificar y la detección de objetos.
+
+01:52:09.000 --> 01:52:13.000
+Gracias a su capacidad para aprender patrones complejos y la imagen.
+
+01:52:13.000 --> 01:52:21.000
+Y también estábamos evaluando yolo. Y Fuster, R. Cnn.
+
+01:52:21.000 --> 01:52:28.000
+Esto tiene enfoque y aplicaciones distintas. Yo lo es un detector en una sola pasada, es decir, ocupa una sola red neuronal.
+
+01:52:28.000 --> 01:52:38.000
+Es rápido para detección en tiempo real. Mientras que Fuster, R. S. N. N. Utiliza un proceso de 2 pasos propuestos de región y luego de.
+
+01:52:38.000 --> 01:52:49.000
+Detección. En estos algoritmos pudimos encontrar que en el caso de Yolo es extremadamente rápido, como dijimos para tiempo real.
+
+01:52:49.000 --> 01:52:55.000
+Pasteur es más lento. Pero tiene una mejor precisión a la hora de evaluar las imágenes en la aplicabilidad.
+
+01:52:55.000 --> 01:53:02.000
+Yo lo para tiempo real y factor, en este caso. R. C. N. N optimizado para el análisis detallado.
+
+01:53:02.000 --> 01:53:07.000
+Yo, si bien tiene costos computacionales mucho más bajos que faster de rené.
+
+01:53:07.000 --> 01:53:12.000
+La complejidad de implementación, también en el caso de iolo es sencilla.
+
+01:53:12.000 --> 01:53:22.000
+After, si bien un poco más compleja, pero se apuesta. A la precisión, dado que queremos reconocer plagas, por ejemplo, detectar y tomar.
+
+01:53:22.000 --> 01:53:28.000
+Acciones tempranas. Frente a los problemas que hoy nos encontramos.
+
+01:53:28.000 --> 01:53:35.000
+Como decía Isabel, la idea de esta propuesta es ser. Tanto, resilente a los cambios.
+
+01:53:35.000 --> 01:53:40.000
+Que hoy día estamos sufriendo. Y poder tomar acciones tempranas.
+
+01:53:40.000 --> 01:53:47.000
+Y, adicionalmente, obviamente se añaden los costos y la reducción de costo en términos de.
+
+01:53:47.000 --> 01:53:53.000
+De los riegos, la el poder, manejar una. Una mejor cosecha.
+
+01:53:53.000 --> 01:54:02.000
+Y dejarnos competitivamente mejor posicionados en el mercado.
+
+01:54:02.000 --> 01:54:10.000
+Respecto del análisis comercial, alto nivel. El segmento son productores de vino premium que buscan mantener altos estándares de calidad.
+
+01:54:10.000 --> 01:54:16.000
+También podemos enfocarnos en viñas medianas y grandes que tengan interés por la digitalización y la eficiencia operativa.
+
+01:54:16.000 --> 01:54:29.000
+Estamos buscando beneficios económicos para los viñedos. Por lo tanto, la idea es reducir los costos operativos, tener mayor competitividad en los mercados internacionales y poder escalar también el sistema a otros cultivos agrícolas, por ejemplo, como la cereza que.
+
+01:54:29.000 --> 01:54:39.000
+Algo muy cotizado también en los países asiáticos. ¿cuál sería el siguiente paso comercial? Poder validar el producto en una prueba piloto, en una viña interesada y poder establecer también.
+
+01:54:39.000 --> 01:54:46.000
+Alianzas con los centros de innovación agrícola. Y, por supuesto, buscar el financiamiento público privado para poder escalar el desarrollo.
+
+01:54:46.000 --> 01:54:51.000
+Y una algo que no está acá expuesto porque en realidad esto está presentado como una poca.
+
+01:54:51.000 --> 01:55:04.000
+Si bien sabemos que existen algunos desarrollos en el mercado. Están enfocados en una analítica descriptiva y nosotros queremos el segundo o tercer paso, buscar una analítica mucho más restrictiva.
+
+01:55:04.000 --> 01:55:13.000
+Es decir, puede anticiparnos a condiciones climáticas, enfermedades. Etcétera, para poder diferenciarnos también de los competidores en el mercado.
+
+01:55:13.000 --> 01:55:25.000
+Respecto del costo de la solución: alto nivel. Estamos pensando que esto podría dependiendo de la dificultad cierto y del viñedo podría rondar entre los 17 000 y los 48 000 dólares, dependiendo también de la complejidad o el.
+
+01:55:25.000 --> 01:55:31.000
+La calidad de las cámaras que 1 utilice. Pero creemos que es un valor bastante asequible.
+
+01:55:31.000 --> 01:55:42.000
+Y y es algo que realmente se necesita. Así que. Bueno, eso sería nuestra presentación.
+
+01:55:42.000 --> 01:55:54.000
+Y a.
+
+01:55:54.000 --> 01:56:00.000
+Que que. Lo que era un proceso.
+
+01:56:00.000 --> 01:56:09.000
+O.
+
+01:56:09.000 --> 01:56:14.000
+Mismo perdón. La primera sugerencia algo más visual para el diagrama de arquitectura.
+
+01:56:14.000 --> 01:56:18.000
+Arquitectura de sistema. Y lo segundo para el algoritmo Computer Vision.
+
+01:56:18.000 --> 01:56:23.000
+Busquen porque debe haber un algoritmo, algún repositorio. Cierto que detecte.
+
+01:56:23.000 --> 01:56:30.000
+Estrés hídrico. ¿por qué? Porque es un tema de color. Qué diferente detectar un objeto.
+
+01:56:30.000 --> 01:56:37.000
+Usted estarías mirando toda una imagen. Que tiene un estrés hídrico de tal característica.
+
+01:56:37.000 --> 01:56:42.000
+Me imagino más eso que un objeto. Que tenga estrés.
+
+01:56:42.000 --> 01:57:07.000
+Vale. Ya vamos al recreo. Gracias.
+
+01:57:07.000 --> 01:57:13.000
+Los días. Sí, Sí.
+
+01:57:13.000 --> 01:57:19.000
+No. Y.
+
+01:57:19.000 --> 01:57:30.000
+Y no.
+
+01:57:30.000 --> 01:57:35.000
+No, no.
+
+01:57:35.000 --> 01:57:41.000
+No, no. Y.
+
+01:57:41.000 --> 01:57:54.000
+Sí.
+
+01:57:54.000 --> 01:58:01.000
+En este caso. Sí cuando provocan o grasas.
+
+01:58:01.000 --> 01:58:11.000
+A a. Gracias.
+
+01:58:11.000 --> 01:58:20.000
+No, no. No, no.
+
+01:58:20.000 --> 01:58:27.000
+Y. Y.
+
+01:58:27.000 --> 01:58:29.000
+Sacando.
+
+01:58:29.000 --> 01:58:40.000
+He.
+
+01:58:40.000 --> 01:58:48.000
+Y a. Bueno, hay que decidir.
+
+01:58:48.000 --> 01:58:53.000
+La otra. El drone a todo el campo.
+
+01:58:53.000 --> 01:58:59.000
+O el satélite oiga a.
+
+01:58:59.000 --> 01:59:13.000
+El.
+
+01:59:13.000 --> 01:59:31.000
+O módulos. Hola. Buenos días.
+
+01:59:31.000 --> 01:59:38.000
+Y. No, no.
+
+01:59:38.000 --> 01:59:43.000
+No. Por ejemplo.
+
+01:59:43.000 --> 01:59:57.000
+Y. Sí.
+
+01:59:57.000 --> 02:00:05.000
+Allá. Tenemos 4. Celular.
+
+02:00:05.000 --> 02:00:13.000
+A. Gracias.
+
+02:00:13.000 --> 02:00:20.000
+Y M.
+
+02:00:20.000 --> 02:00:31.000
+A.
+
+02:00:31.000 --> 02:00:36.000
+Y ahora se me dice. No es.
+
+02:00:36.000 --> 02:00:41.000
+Por ejemplo. Cámaras.
+
+02:00:41.000 --> 02:00:58.000
+A a. A la.
+
+02:00:58.000 --> 02:01:06.000
+Y a.
+
+02:01:06.000 --> 02:01:16.000
+Sí.
+
+02:01:16.000 --> 02:01:18.000
+Es.
+
+02:01:18.000 --> 02:01:35.000
+Pero la subida e.
+
+02:01:35.000 --> 02:02:05.000
+No, no. No, no.
+
+02:02:06.000 --> 02:02:11.000
+No, no. Y.
+
+02:02:11.000 --> 02:02:18.000
+Y no. A la.
+
+02:02:18.000 --> 02:02:25.000
+No, no. Sí.
+
+02:02:25.000 --> 02:02:36.000
+A a. Y.
+
+02:02:36.000 --> 02:02:42.000
+No, no.
+
+02:02:42.000 --> 02:02:48.000
+A la.
+
+02:02:48.000 --> 02:02:56.000
+Y a. En el.
+
+02:02:56.000 --> 02:03:01.000
+No, no. Y no.
+
+02:03:01.000 --> 02:03:21.000
+Sí. Es que.
+
+02:03:21.000 --> 02:03:36.000
+Aplausos.
+
+02:03:36.000 --> 02:03:49.000
+Y si. A a.
+
+02:03:49.000 --> 02:03:55.000
+Y.
+
+02:03:55.000 --> 02:04:03.000
+A.
+
+02:04:03.000 --> 02:04:10.000
+Y. Y.
+
+02:04:10.000 --> 02:04:17.000
+Y después. Y.
+
+02:04:17.000 --> 02:04:22.000
+Y. Y.
+
+02:04:22.000 --> 02:04:28.000
+A ver.
+
+02:04:28.000 --> 02:04:34.000
+A a. Y luego.
+
+02:04:34.000 --> 02:04:42.000
+Y.
+
+02:04:42.000 --> 02:04:47.000
+No.
+
+02:04:47.000 --> 02:04:55.000
+A ver. En la escuela.
+
+02:04:55.000 --> 02:05:02.000
+Y. No, no.
+
+02:05:02.000 --> 02:05:08.000
+Y a. No, no.
+
+02:05:08.000 --> 02:05:14.000
+Y. No, no.
+
+02:05:14.000 --> 02:05:22.000
+O no. Y no.
+
+02:05:22.000 --> 02:05:26.000
+Y.
+
+02:05:26.000 --> 02:05:34.000
+Y no. Cerrando.
+
+02:05:34.000 --> 02:05:41.000
+O sea. No, no.
+
+02:05:41.000 --> 02:05:47.000
+A. No.
+
+02:05:47.000 --> 02:05:55.000
+No. Estrenar.
+
+02:05:55.000 --> 02:06:00.000
+No, no. No, no.
+
+02:06:00.000 --> 02:06:02.000
+Y también creo que el.
+
+02:06:02.000 --> 02:06:11.000
+A la. La gente está.
+
+02:06:11.000 --> 02:06:15.000
+No, no.
+
+02:06:15.000 --> 02:06:22.000
+No, no. Y a.
+
+02:06:22.000 --> 02:06:29.000
+No, no.
+
+02:06:29.000 --> 02:06:32.000
+No, no.
+
+02:06:32.000 --> 02:06:40.000
+Y a. A la.
+
+02:06:40.000 --> 02:06:47.000
+Sí. No, no.
+
+02:06:47.000 --> 02:06:53.000
+No, no. Sí, Sí.
+
+02:06:53.000 --> 02:07:01.000
+A la.
+
+02:07:01.000 --> 02:07:09.000
+O no.
+
+02:07:09.000 --> 02:07:21.000
+A a.
+
+02:07:21.000 --> 02:07:22.000
+No, no.
+
+02:07:22.000 --> 02:07:30.000
+Sí, Sí. En noviembre.
+
+02:07:30.000 --> 02:07:38.000
+Que a. No, no.
+
+02:07:38.000 --> 02:07:45.000
+Online. Todo lo que.
+
+02:07:45.000 --> 02:07:54.000
+Más. Y.
+
+02:07:54.000 --> 02:07:58.000
+Sí.
+
+02:07:58.000 --> 02:08:05.000
+La noche. No, no.
+
+02:08:05.000 --> 02:08:13.000
+Y a.
+
+02:08:13.000 --> 02:08:20.000
+Y a. Y.
+
+02:08:20.000 --> 02:08:30.000
+No, no. ¿por qué?
+
+02:08:30.000 --> 02:08:38.000
+Y. El el tiempo variado.
+
+02:08:38.000 --> 02:08:50.000
+No, no. Slash.
+
+02:08:50.000 --> 02:08:59.000
+No.
+
+02:08:59.000 --> 02:09:01.000
+No.
+
+02:09:01.000 --> 02:09:08.000
+A a.
+
+02:09:08.000 --> 02:09:13.000
+Y ya.
+
+02:09:13.000 --> 02:09:23.000
+Ah, claro. Lo voy a comentar, pero igual.
+
+02:09:23.000 --> 02:09:29.000
+No, no.
+
+02:09:29.000 --> 02:09:39.000
+No, no. No, no.
+
+02:09:39.000 --> 02:09:53.000
+No, no.
+
+02:09:53.000 --> 02:09:54.000
+No, no.
+
+02:09:54.000 --> 02:10:02.000
+A. Sí, Sí.
+
+02:10:02.000 --> 02:10:09.000
+Y si. No, no.
+
+02:10:09.000 --> 02:10:16.000
+Online. Y.
+
+02:10:16.000 --> 02:10:21.000
+Como tal. Ayudar. Wolcome Back.
+
+02:10:21.000 --> 02:10:22.000
+¿cómo están todo? Bien, Gonzalo. Luis Araya Óscar Sánchez, Juan Pablo Min.
+
+02:10:22.000 --> 02:10:27.000
+Todo bien. Profe.
+
+02:10:27.000 --> 02:10:36.000
+Usted no ha presentado todavía. Bien.
+
+02:10:36.000 --> 02:10:40.000
+No, todavía no profe.
+
+02:10:40.000 --> 02:10:49.000
+No, no.
+
+02:10:49.000 --> 02:10:50.000
+No es. José Luis.
+
+02:10:50.000 --> 02:10:54.000
+Y. Sí, Bien, Bien.
+
+02:10:54.000 --> 02:11:07.000
+A ver. Veamos en el chat. Cuál es el grupo que viene a.
+
+02:11:07.000 --> 02:11:12.000
+Ya se prepara. Matías guiera, Richard Howell, Emmanuel Lago, Marcino y Rodrigo Valenzuela.
+
+02:11:12.000 --> 02:11:21.000
+Aplausos.
+
+02:11:21.000 --> 02:11:33.000
+Que están acá o están online.
+
+02:11:33.000 --> 02:11:36.000
+Yo estoy acá.
+
+02:11:36.000 --> 02:11:37.000
+Esperemos que voy a ir a buscar a los que faltan.
+
+02:11:37.000 --> 02:12:02.000
+Online profe.
+
+02:12:02.000 --> 02:12:07.000
+Pero bueno.
+
+02:12:07.000 --> 02:12:15.000
+No, no.
+
+02:12:15.000 --> 02:12:21.000
+Voy a probar. Entré, no.
+
+02:12:21.000 --> 02:12:25.000
+Compró la barza. Pero no.
+
+02:12:25.000 --> 02:12:30.000
+Este es el foco. Personas, con.
+
+02:12:30.000 --> 02:12:35.000
+Sí.
+
+02:12:35.000 --> 02:12:42.000
+Dentro de ella.
+
+02:12:42.000 --> 02:12:50.000
+El Grupo 9. Ocho, noé Ocho. Eh: Dame un segundo.
+
+02:12:50.000 --> 02:12:56.000
+Era el nuevo. No.
+
+02:12:56.000 --> 02:13:02.000
+Grupo, 9, toda razón. Tiene Grupo. Noé.
+
+02:13:02.000 --> 02:13:32.000
+Tú presentas ahí. Sí.
+
+02:13:32.000 --> 02:13:38.000
+Nombre del equipo. Nombre del.
+
+02:13:38.000 --> 02:13:48.000
+Técnicos. No, no.
+
+02:13:48.000 --> 02:13:54.000
+Hola. Richard. Me escuchan.
+
+02:13:54.000 --> 02:13:56.000
+Sí, Sí, les escuchamos perfectamente. No sé.
+
+02:13:56.000 --> 02:14:04.000
+Perfecto. Vamos a poner el nombre del equipo Richard Howell.
+
+02:14:04.000 --> 02:14:07.000
+Lagomarsino. Mar, sino.
+
+02:14:07.000 --> 02:14:10.000
+Aquí también.
+
+02:14:10.000 --> 02:14:16.000
+Matías guerra. ¿quién me va a presentar. O quién no. Rodrigo, Venezuela.
+
+02:14:16.000 --> 02:14:22.000
+Rodrigo arezzuela a. Tú a ver. Rodrigo, tú vas a estar.
+
+02:14:22.000 --> 02:14:29.000
+Sí, ya. Vamos.
+
+02:14:29.000 --> 02:14:39.000
+Muy buenas tardes a todos. Nuestro Grupo, compuesto por matías guerra. Richard Hawell, Emanuel, Lagor Marcino y quien les habla, Rodrigo Valenzuela.
+
+02:14:39.000 --> 02:14:47.000
+Vamos a exponer sobre el uso de Computer Vision. En identificación preventiva de incendios forestales.
+
+02:14:47.000 --> 02:15:01.000
+Nos planteamos como desafío. Que producto del aumento de las temperaturas a nivel global. Queremos mejorar con Computer Vision la identificación de los principales focos de incendio forestal.
+
+02:15:01.000 --> 02:15:07.000
+Por lo tanto, nosotros hicimos un análisis de factores sociales, económicos y tecnológicos.
+
+02:15:07.000 --> 02:15:20.000
+Para identificar el Pop. En este caso, como factores sociales, podemos destacar que los incendios forestales afectan a ciertas comunidades. La mayoría de las comunidades.
+
+02:15:20.000 --> 02:15:30.000
+Cercana a los incendios forestales, destruyen el patrimonio público o genera enfermedades respiratorias, además de otras externalidades.
+
+02:15:30.000 --> 02:15:40.000
+Como factores tecnológicos. Podemos destacar que los satélites podrían ayudar a identificar con mayor precisión las áreas extensas de incendios.
+
+02:15:40.000 --> 02:15:53.000
+En sectores remotos y como factores económicos. Resalta que viñas forestales agrícolas y gobiernos estarían dispuestos a pagar por esto.
+
+02:15:53.000 --> 02:15:59.000
+Por lo tanto. El product opportunity gap.
+
+02:15:59.000 --> 02:16:09.000
+Existe. Existe la oportunidad de crear un producto basado en computer vision para detectar incendios forestales.
+
+02:16:09.000 --> 02:16:14.000
+Por lo tanto, nosotros. Para la arquitectura del sistema de propuesta.
+
+02:16:14.000 --> 02:16:21.000
+Quisimos identificar los datos requeridos, el modelo inicial y las métricas de éxito.
+
+02:16:21.000 --> 02:16:29.000
+En este sentido. Como datos requeridos, tenemos en primer lugar los datos históricos de las zonas afectadas.
+
+02:16:29.000 --> 02:16:36.000
+También un gran volumen de imágenes para entrenar el modelo y el uso de data aumentation.
+
+02:16:36.000 --> 02:16:45.000
+La adquisición de información es fundamental. De sistemas cruzados de datos relevantes y también las consideraciones éticas.
+
+02:16:45.000 --> 02:16:50.000
+De la protección de la vida de las personas y el medioambiente.
+
+02:16:50.000 --> 02:16:56.000
+Como modelo inicial destaca en primer lugar, Yolo Yoli lo quan.
+
+02:16:56.000 --> 02:17:08.000
+En segundo lugar, un deep learning con machine learning. También el redimensionamiento, la normalización, anotación de datos y balance de clases para.
+
+02:17:08.000 --> 02:17:15.000
+Para mejorar el entrenamiento. Y también el learning rate o Badch Size.
+
+02:17:15.000 --> 02:17:21.000
+Y también, por supuesto, relacionado con lo primero, anchos específicos de Yolo.
+
+02:17:21.000 --> 02:17:28.000
+Como métricas de éxito. Están los K, P, Is. Un ejemplo de esto serían el.
+
+02:17:28.000 --> 02:17:39.000
+Edone Score o el mar. Como indicadores de negocios, tenemos la reducción de las emisiones de 2 o también el aumento de la detección temprana.
+
+02:17:39.000 --> 02:17:45.000
+En tercer lugar, los criterios de aceptación para los falsos positivos menores a 10 por 100.
+
+02:17:45.000 --> 02:17:55.000
+Y para la validación de usuarios es ciertas pruebas pilotos, feedback de usuarios o también la itineración, la iteración en el sistema.
+
+02:17:55.000 --> 02:18:01.000
+Por lo tanto, ¿qué algoritmo utilizaríamos. Si este es tradicional, machine learning.
+
+02:18:01.000 --> 02:18:05.000
+Nosotros respondemos a esta pregunta con que machir learning en particular.
+
+02:18:05.000 --> 02:18:19.000
+Con una C, N, N con arquitectura Yolo. Que son buenas para la detección en tiempo real. En nuestro caso, enfocado tanto a humo fuego y fuentes de calor, entre otros aspectos, de la luz.
+
+02:18:19.000 --> 02:18:25.000
+Y acá. Tenemos un esquema que explicativo de cómo funcionaría esto.
+
+02:18:25.000 --> 02:18:39.000
+Sobre todo con Joluo. Y yo lo 11. Ergo para el análisis comercial que hicimos elaborar una matriz de priorización en valor, ver su factibilidad.
+
+02:18:39.000 --> 02:18:49.000
+En este sentido en la primera parte de la matriz. Respecto del alto valor y la alta factibilidad, que son los quique queens.
+
+02:18:49.000 --> 02:18:59.000
+Tenemos, en primer lugar, que primero la detección de humo de fuego y las fotos de calor con cámaras fijas y drones.
+
+02:18:59.000 --> 02:19:04.000
+Por un ejemplo, esta semana de. De este de este.
+
+02:19:04.000 --> 02:19:10.000
+Punto. Es la imagen que podemos ver.
+
+02:19:10.000 --> 02:19:16.000
+En la donde están las cámaras para la detección de humo que utilizaríamos para.
+
+02:19:16.000 --> 02:19:25.000
+Para la detección de incendios forestales, así como como muestra el tiempo en el que avanza el incendio en 45 s en 100. 80 s.
+
+02:19:25.000 --> 02:19:35.000
+O en 6 min. En segundo lugar, la integración de sistemas de alerta temprana muy importante y también el análisis en tiempo real con torres y cámaras.
+
+02:19:35.000 --> 02:19:49.000
+Con el sistema York. En segundo lugar, de la matriz de priorización. Tenemos aquellos aspectos de alto valor y baja factibilidad que sería proyectos estratégicos para este sistema.
+
+02:19:49.000 --> 02:19:55.000
+En primer lugar, tenemos la predicción del comportamiento del fuego. Como vemos en la imagen que.
+
+02:19:55.000 --> 02:20:00.000
+Describe el movimiento del fuego abajo. De los puntos.
+
+02:20:00.000 --> 02:20:08.000
+En segundo lugar, una edición de imágenes satelitales en tiempo real, ya que aquí quisimos buscar una imagen de cómo serían o cómo se verían para el sistema.
+
+02:20:08.000 --> 02:20:15.000
+Las imágenes satelitales. Acá podemos ver como con el sistema. Yo lo detecta las temperaturas.
+
+02:20:15.000 --> 02:20:21.000
+La dirección del humo con las imágenes satelitales y de alguna.
+
+02:20:21.000 --> 02:20:26.000
+Y, de esta forma identificas, los compuestos del humo, etc. Las características del incendio.
+
+02:20:26.000 --> 02:20:36.000
+Para atacar en el momento o prevenir un incendio mayor. Y también la suma de inteligencia artificial. Más Internet of Things.
+
+02:20:36.000 --> 02:20:49.000
+Para la predicción automática. Y acá hay un esquema de cómo funcionaría. Primero, entre la imagen se analizan las características de color o el contorno del análisis.
+
+02:20:49.000 --> 02:20:58.000
+A través, por ejemplo, de un Bounding Box. Y finalmente pasa a un C n N concatenado.
+
+02:20:58.000 --> 02:21:08.000
+Y para detectar el fuego y el humo, así como si no hay fuego.
+
+02:21:08.000 --> 02:21:17.000
+También para los aspectos de bajo valor y alta factibilidad. El primer lugar, identificamos la clasificación de imágenes históricas.
+
+02:21:17.000 --> 02:21:24.000
+A las cuales utilizaríamos el dato aumentation. Tenemos esta imagen.
+
+02:21:24.000 --> 02:21:34.000
+La esquema. La izquierda, la esquina inferior derecha. Que va analizando el comportamiento del humo y del incendio y proyectándolo.
+
+02:21:34.000 --> 02:21:42.000
+También el reconocimiento de vídeos grabados. Como lo vemos en la imagen superior a la anteriormente descrita.
+
+02:21:42.000 --> 02:21:47.000
+Y, en tercer lugar, la detección de áreas quemadas post incendios.
+
+02:21:47.000 --> 02:21:53.000
+Cómo vemos en la imagen desde la dirección del humo en la imagen inferior al tercer punto.
+
+02:21:53.000 --> 02:22:00.000
+Y de algún modo, cómo ciertos factores, como el viento y otros, van influyendo en esto.
+
+02:22:00.000 --> 02:22:06.000
+Y, finalmente, para los aspectos de bajo valor y baja factibilidad, o sea, a considerar al.
+
+02:22:06.000 --> 02:22:11.000
+En la aplicación de este sistema. Tenemos, en primer lugar, la identificación de las causas del incendio.
+
+02:22:11.000 --> 02:22:18.000
+Que son son imágenes. Pero al final son análisis ex post del instinent.
+
+02:22:18.000 --> 02:22:24.000
+Y, en segundo lugar, la detección de la baja visibilidad sin sensorias.
+
+02:22:24.000 --> 02:22:36.000
+Y acá tenemos imágenes y esquemas descriptivos de este punto. Quisimos agregar a esto que, bueno, este es un sistema que ya está en.
+
+02:22:36.000 --> 02:22:43.000
+Vigente. De hecho, nosotros que tenemos este problema reiteradamente todos los veranos, así como.
+
+02:22:43.000 --> 02:22:51.000
+En el hemisferio norte lo tienen California, Canadá y otros. Países afectados por el calentamiento global.
+
+02:22:51.000 --> 02:22:59.000
+Este es un sistema que ya está siendo implementado. Y la diferenciación de lo que nosotros preveremos es la expresión.
+
+02:22:59.000 --> 02:23:04.000
+Del sistema de humo y de temperatura a través de yolo.
+
+02:23:04.000 --> 02:23:11.000
+Ya que, en el fondo lo que hay que aumentar es la prevención del sistema para la precisión.
+
+02:23:11.000 --> 02:23:19.000
+En la prevención de los incendios forestales. Y acá. Tenemos distintas fuentes, sobre todo de.
+
+02:23:19.000 --> 02:23:27.000
+Diarios y artículos en inglés. Que han ocurrido o han implementado este sistema en California.
+
+02:23:27.000 --> 02:23:31.000
+Es una de las zonas de mayor vanguardia en la implementación.
+
+02:23:31.000 --> 02:23:42.000
+De esto. Muchas gracias.
+
+02:23:42.000 --> 02:23:51.000
+Y el análisis comercial. Rodrigo, Nosotros usamos la matriz de priorización para el análisis comercial.
+
+02:23:51.000 --> 02:24:04.000
+Queríamos nombrar que, en cuanto al precio. Una cuestión que nos expusimos en la exposición. El precio está calculado, es de 355 000 dólares en 5 años de aplicación.
+
+02:24:04.000 --> 02:24:11.000
+Que en el fondo es el precio que para los gobiernos que han implementado este sistema.
+
+02:24:11.000 --> 02:24:18.000
+Ya lo otro que. Es bien, está superbueno.
+
+02:24:18.000 --> 02:24:24.000
+Pero es, creo yo, en vez de instinto detectar, como el antes, durante y después.
+
+02:24:24.000 --> 02:24:31.000
+Eso? ¿cómo lo piensan? Resolver. Porque una imagen completamente diferente de lo que pasó. Post.
+
+02:24:31.000 --> 02:24:39.000
+Soltó incendios. Lo que está pasando en múltiples y previo puede ser parecido lo del Grupo Isabel.
+
+02:24:39.000 --> 02:24:43.000
+Isabel es estrés hídrico. No sé. En cuál de las 3 etapas te estás enfocando.
+
+02:24:43.000 --> 02:24:52.000
+Que por eso lo pusimos El. Por eso le pusimos en baja factibilidad porque nos interesaba en verdad llegar a la detección temprana.
+
+02:24:52.000 --> 02:24:56.000
+Entonces, ahí queríamos expulsar. Ya que ya existían muchos.
+
+02:24:56.000 --> 02:25:06.000
+Algoritmos, que están usándose principalmente con la detección de humo. Me interesaba también agregar el complemento, el uso de la detección de calor.
+
+02:25:06.000 --> 02:25:16.000
+También para validar el hecho de que se pueda. Que pueden haber incendios reales, porque también es otro problema que veíamos que era muy común en este aspecto.
+
+02:25:16.000 --> 02:25:21.000
+Los duelos son muy buenos y todo, pero tienen. Su tasa de imprecisiones, entonces.
+
+02:25:21.000 --> 02:25:29.000
+Si le podíamos poner otra cara. En este caso eran los del espectro de la luz, la comprobación con el calor. Ahí va a poder poner esa alerta.
+
+02:25:29.000 --> 02:25:34.000
+Alerta temprana y con una. Doble capa de validación.
+
+02:25:34.000 --> 02:25:38.000
+Que obviamente también está la validación de humanos que, cuando llega.
+
+02:25:38.000 --> 02:25:42.000
+Alguna otra fuente.
+
+02:25:42.000 --> 02:25:53.000
+Exactamente complementando con lo que dice Manuel. Nosotros nos enfocamos en la alerta preventiva, porque básicamente el análisis en el incendio, después del incendio.
+
+02:25:53.000 --> 02:25:59.000
+No fomentaría la prevención de los incendios forestales, sino que sería más bien un análisis del daño.
+
+02:25:59.000 --> 02:26:10.000
+Y, por lo tanto, el sistema. Yo, lo que nosotros estamos usando, o sea que nosotros proponemos, está enfocado en la alerta temprana para prevenir los incendios forestales.
+
+02:26:10.000 --> 02:26:15.000
+Perfecto. Bien.
+
+02:26:15.000 --> 02:26:19.000
+Y Richard. Algo que decir.
+
+02:26:19.000 --> 02:26:25.000
+Y mencionar también que, sobre el análisis financiero, como bien había mencionado el equipo.
+
+02:26:25.000 --> 02:26:33.000
+Realizarlo. Hicimos la comparación también con solo guardias y sobre la afectación que podría tener esto.
+
+02:26:33.000 --> 02:26:40.000
+En un spam de 5 años. Con.
+
+02:26:40.000 --> 02:26:51.000
+1 000 hectáreas y solo guardias tendría un costo aproximadamente. Hicimos el cálculo en en dólares, aproximadamente un.
+
+02:26:51.000 --> 02:27:01.000
+Uno punto 7 000 000 de dólares. Y la afectación podría tener.
+
+02:27:01.000 --> 02:27:05.000
+Uno, 1, perdón, 2, 5 000 000 de dólares. Entonces tenemos un R o I.
+
+02:27:05.000 --> 02:27:13.000
+Bastante bueno, aproximadamente, de unos 600 por 100, más o menos con la factibilidad.
+
+02:27:13.000 --> 02:27:15.000
+Económica.
+
+02:27:15.000 --> 02:27:24.000
+Perfecto. De hecho, les comento que. En febrero, yo estuve desplegado en el maule por incendios forestales.
+
+02:27:24.000 --> 02:27:28.000
+Y fui a Conaf y con Af. No tiene cámaras instaladas.
+
+02:27:28.000 --> 02:27:36.000
+Y necesitan esta solución. Y cómo lo están haciendo hoy día, con la conapi con la Corporación Nacional de la Madera konami, algo así.
+
+02:27:36.000 --> 02:27:41.000
+Y con Araujo, que es una empresa privada que está aceptada sobre los Arauco.
+
+02:27:41.000 --> 02:27:47.000
+Ellos le están disponiendo de cámara. Con detección de humo.
+
+02:27:47.000 --> 02:27:55.000
+Solamente. Y para eso pusieron nosotros el hallado, que es complejo, porque estamos hablando de miles y miles de hectáreas no se ponen.
+
+02:27:55.000 --> 02:28:01.000
+Una cámara muy grande en la punta de un cerro, mirando como el horizonte y por se.
+
+02:28:01.000 --> 02:28:07.000
+Detecta algún humo. Entonces es súper? Hay 2. Hay 2 cosas que quería contarles con eso que.
+
+02:28:07.000 --> 02:28:13.000
+La corona lo necesita. No tiene el sistema. Está dispuesto a hacerlo.
+
+02:28:13.000 --> 02:28:20.000
+Entonces ahí tienen una oportunidad. Y lo segundo, lo difícil que es instalar esto, porque.
+
+02:28:20.000 --> 02:28:29.000
+El layout de integración de este modelo es difícil porque no sabemos dónde va a suceder entonces.
+
+02:28:29.000 --> 02:28:35.000
+Como decía. Matía, o Emmanuel.
+
+02:28:35.000 --> 02:28:36.000
+Sí, Bueno.
+
+02:28:36.000 --> 02:28:50.000
+Manuel, quizá enfocarse en la fase preventiva y en la fase donde tengo más tiempo, todo el año antes de que llegue el verano para ir detectando zonas de alto.
+
+02:28:50.000 --> 02:28:51.000
+Lo que. No, no.
+
+02:28:51.000 --> 02:28:57.000
+Probabilidad de incendio. O si no llega el momento como tal en esa imagen, ya es tarde. No tenían las cámaras, no tenía ni los lugares. No tenía.
+
+02:28:57.000 --> 02:28:59.000
+Arquitectura va a crear para hacerlo. Y va a estar detectando. Se está quemando? Tiene hectáreas. ¿de qué te sirve detectarlo.
+
+02:28:59.000 --> 02:29:05.000
+La verdad. Profe que por no.
+
+02:29:05.000 --> 02:29:08.000
+Ya ya se quemó. No sé. Ah, no, sí.
+
+02:29:08.000 --> 02:29:16.000
+Ohh. Sí, sí que yo no. El equipo por nuestra parte, igual lo habíamos empezado, pero igual.
+
+02:29:16.000 --> 02:29:25.000
+Deseamos ya tener probabilidades, todas por cómo. Cómo se están moviendo los vientos, el calor, el vidrio, cómo está seca cierta zona o alejadas del agua.
+
+02:29:25.000 --> 02:29:31.000
+Como cristiano, que igual, debería haber como modelo. Prueba elíptico para eso. Pero eso pensaba que era como llegar como.
+
+02:29:31.000 --> 02:29:39.000
+Con drones, porque, por ejemplo, también hemos visto que el año pasado alumnos de escuelas de ingeniería de Chile habían hecho unos drones solares. También.
+
+02:29:39.000 --> 02:29:43.000
+Que servían para recorrer los bosques. Por eso habíamos pensado que era como.
+
+02:29:43.000 --> 02:29:52.000
+Ese valor de ir a detectarlo al kilómetro. Está avanzando. Antes de que ojalá antes que se hiciera la gran humareda o marea.
+
+02:29:52.000 --> 02:29:56.000
+Claro, pero al final, lo lo que estás detectando es humo.
+
+02:29:56.000 --> 02:30:02.000
+Se puede ahí. También se podría caracterizar ese humo, porque hay.
+
+02:30:02.000 --> 02:30:11.000
+Hay técnicas para entender el cono del humo. Tiene un nombre, y este cono según el viento, cómo se mueve, que porte es, y lo vais parametrizando.
+
+02:30:11.000 --> 02:30:23.000
+Pero eso es un modelo matemático de humo. Otra cosa muy distinta de detectar 2 zonas de probabilidad de incendio.
+
+02:30:23.000 --> 02:30:31.000
+Tiene que ver justamente con la temperatura. Nosotros, en el fondo, estudiamos la posibilidad de implementar un sistema que.
+
+02:30:31.000 --> 02:30:38.000
+Básicamente utilizando yolo. Generas Banding Box.
+
+02:30:38.000 --> 02:30:45.000
+De temperatura altas y bajas, y obviamente, las temperaturas más altas en el suelo, en los bosques, etcétera.
+
+02:30:45.000 --> 02:30:51.000
+Pueden ser, tienen una alta probabilidad de ser un incendio forestal o convertir cenas.
+
+02:30:51.000 --> 02:30:57.000
+Más allá del humo que puede ser que ya es un incendio que ha comenzado.
+
+02:30:57.000 --> 02:31:06.000
+Si tienen las características adecuadas. Y el humo vendría a ser una situación ya ex post del cual no necesitas el sistema.
+
+02:31:06.000 --> 02:31:09.000
+Para saber que algo se está quemando. Tienen que decidir. Quizá.
+
+02:31:09.000 --> 02:31:10.000
+En qué fase van a van a hacer luego. Al principio, creo yo.
+
+02:31:10.000 --> 02:31:13.000
+Mhm.
+
+02:31:13.000 --> 02:31:16.000
+Preventivo claro. Porque, además, que ahí hay más imágenes.
+
+02:31:16.000 --> 02:31:19.000
+Siempre.
+
+02:31:19.000 --> 02:31:26.000
+Exacto. Ya vamos con el equipo. Diez. Por favor.
+
+02:31:26.000 --> 02:31:31.000
+Ah, perdón.
+
+02:31:31.000 --> 02:31:40.000
+Equipo, Diez. En el chat están puestos.
+
+02:31:40.000 --> 02:31:50.000
+Bien Luis Araya Rodrigo González. Deja anotar el nombre.
+
+02:31:50.000 --> 02:31:51.000
+Me escuchan. Yo, yo, Luis.
+
+02:31:51.000 --> 02:32:01.000
+Quién va a exponer. Hola, Luis.
+
+02:32:01.000 --> 02:32:02.000
+Rodrigo, estás ahí. Vale, vamos.
+
+02:32:02.000 --> 02:32:03.000
+Esparto. Buenas noches.
+
+02:32:03.000 --> 02:32:06.000
+Sí, Profesor: Me encanta también.
+
+02:32:06.000 --> 02:32:12.000
+Sí. Bueno, Bueno, buenas noches. Nuestro proyecto se titula detección de robo y fragos bancario.
+
+02:32:12.000 --> 02:32:18.000
+Mediante patrones de comportamiento y microexpresiones. En el equipo. Somos Rodrigo González.
+
+02:32:18.000 --> 02:32:27.000
+Miguel Ortega, Rodrigo Roland, y quien les habla Luis Garaya.
+
+02:32:27.000 --> 02:32:34.000
+El desafío que planteamos busca detectar 3 grandes riesgos que hablamos en alguna ocasión durante la clase.
+
+02:32:34.000 --> 02:32:40.000
+Uno era el Skimming, ¿cierto? Que era la instalación de este aparatos para clonar las tarjetas.
+
+02:32:40.000 --> 02:32:45.000
+Hemos visto qué ha pasado en en los bancos de Chira, Argentina y España.
+
+02:32:45.000 --> 02:32:50.000
+El show del surfing que le llaman a cuando Oriente espía desde atrás.
+
+02:32:50.000 --> 02:32:55.000
+Para obtener datos de tu clave, o ese tipo de cosas, ya.
+
+02:32:55.000 --> 02:32:59.000
+Y lo otro, el tema de las microexpresiones como para vi para en.
+
+02:32:59.000 --> 02:33:05.000
+Para detectar esta. Estos rasgos a través de los gestos de tensión, evasión o ansiedad.
+
+02:33:05.000 --> 02:33:17.000
+Ya que podían indicar un intento de fraude o robo. Nuestro sistema tiene los siguientes indicadores inspirados en referencias internacionales.
+
+02:33:17.000 --> 02:33:22.000
+Una tasa de detección del. De del 85 superior en pilotos.
+
+02:33:22.000 --> 02:33:27.000
+Un valor considerado estándar en proyectos de visión artificial aplicado seguridad.
+
+02:33:27.000 --> 02:33:32.000
+Falsos positivos. Cercanos al 6 por 100.
+
+02:33:32.000 --> 02:33:38.000
+En línea en recomendaciones de organismos reguladores en Estados Unidos. Que buscan evitar saturación de alertas.
+
+02:33:38.000 --> 02:33:42.000
+Y reducción del tiempo de reacción en un 60 por 100.
+
+02:33:42.000 --> 02:33:52.000
+También un tiempo de diferencia de 150 milisegun. Esto quiere decir que la vida procesa cada imagen en menos de una décima de segundo.
+
+02:33:52.000 --> 02:33:57.000
+Esto se basa en referencias de plataformas. Técnicas.
+
+02:33:57.000 --> 02:34:05.000
+Que definen como un rango viable para sistemas en tiempo real.
+
+02:34:05.000 --> 02:34:16.000
+Tenemos. Bueno. Las restricciones que tenemos pueden ser técnicas a nivel de la iluminación y y de los de las cámaras que.
+
+02:34:16.000 --> 02:34:22.000
+Diversas que puedan tener cada 1 de los. De las de las cajas de seguridad, cierto.
+
+02:34:22.000 --> 02:34:27.000
+El tema de la privacidad. También con el tema de los.
+
+02:34:27.000 --> 02:34:35.000
+De la de la retención de la de la información. Cierto de tratar de anonimar al cliente que está siendo afectado en este caso.
+
+02:34:35.000 --> 02:34:40.000
+E integración de esto de estas alertas con si emisor que.
+
+02:34:40.000 --> 02:34:50.000
+Que tienen los registros de los logs de los de los cajeros en tiempo real.
+
+02:34:50.000 --> 02:34:57.000
+En el en cuanto a la análisis, ese tipo. En lo social, buscamos reforzar.
+
+02:34:57.000 --> 02:35:01.000
+La seguridad sin estigmatiza al cliente, porque podría darse de que.
+
+02:35:01.000 --> 02:35:06.000
+Se piensa que es de ciertos sectores, ocurren más casos como ese tipo de cosas.
+
+02:35:06.000 --> 02:35:15.000
+En lo ético: aplicar privacidad por diseño. En el tema de la protección de datos, cierto inspirado en normativas europeas.
+
+02:35:15.000 --> 02:35:21.000
+En lo tecnológico. S Consideramos que las cámaras tienen. Calidad, muy distintas.
+
+02:35:21.000 --> 02:35:34.000
+Eso hace que el procesamiento de ella sea muy clave. En cuanto al Poc, las personas incluyen, tenemos a los clientes, que son los personajes que se incluyen cajeros, guardias y analistas de seguridad.
+
+02:35:34.000 --> 02:35:39.000
+En cuanto a la organización de hoy de coordinar áreas de seguridad, de operaciones.
+
+02:35:39.000 --> 02:35:44.000
+Y cumplimientos normativos. Y en gobernanza.
+
+02:35:44.000 --> 02:35:48.000
+Tomamos referencia de Google regulares bancarios de Estados Unidos, que obligan a registrar todo el evento de seguridad para.
+
+02:35:48.000 --> 02:35:54.000
+Para ser auditados posteriormente.
+
+02:35:54.000 --> 02:35:59.000
+En cuanto a la arquitectura del sistema, lo quiero explicar yo muy, muy a.
+
+02:35:59.000 --> 02:36:04.000
+Muy a grandes rasgos, las cámaras. Envían vídeos de estos cajeros y sucursales.
+
+02:36:04.000 --> 02:36:12.000
+Estos vídeos se limpian y mejoran. Mediante los algoritmos que hemos visto a lo largo de las clases. Cierto.
+
+02:36:12.000 --> 02:36:21.000
+Se extraen rasgos importantes como los rostros, expresiones. To ti, todo lo que tiene conectado a un microexpresiones. ¿cierto? La inteligencia artificial analiza esta información.
+
+02:36:21.000 --> 02:36:31.000
+Detecta estas micropensiones, puedes detectar. Como rasgos de ansiedad y objetos extraños, como los skimmers que les habla. Había hablado en un comienzo.
+
+02:36:31.000 --> 02:36:37.000
+Se genera un puntaje de riesgo. Y si este porcentaje de riesgo es alto, se envibol está el centro de seguridad.
+
+02:36:37.000 --> 02:36:47.000
+A través de los sistemas, mencionó anteriormente del Xiaomi Visual. Que que están en que son con la información en línea del Banco, ya.
+
+02:36:47.000 --> 02:36:53.000
+Y todo quedaría registrado para una posterior auditoría.
+
+02:36:53.000 --> 02:37:03.000
+En cuanto al algoritmo, tal como vimos en las clases. Anteriores vimos los tradicionales. ¿cierto?
+
+02:37:03.000 --> 02:37:14.000
+Para detectar los movimientos, los bordes de y características de. De la imagen, ¿cierto? Y luego tenemos los más modelos que son las redes neuronales neuronales y.
+
+02:37:14.000 --> 02:37:22.000
+Y detectores de objetos como Yolo. Para este caso. La propuesta que pensamos era utilizar un enfoque híbrido.
+
+02:37:22.000 --> 02:37:28.000
+Usar los métodos clásicos para limpiar la señal. Y después aplicar los Me, los modelos modelos para detectar.
+
+02:37:28.000 --> 02:37:32.000
+La de forma avanzada en los movimientos y los gestos y los rasgos de.
+
+02:37:32.000 --> 02:37:40.000
+De lo que estamos viendo en las imágenes. Además, incluye un sistema de seguimiento de personas para volar, proximidad y permanencia.
+
+02:37:40.000 --> 02:37:45.000
+Un ejemplo que hay de este tipo de cosas está en China, donde los bancos ya.
+
+02:37:45.000 --> 02:37:54.000
+Usan reconocimiento facial, inteligencia artificial para identificar comportamientos. Sospechosos.
+
+02:37:54.000 --> 02:38:01.000
+Sí, sigo me sigo oyendo, ¿cierto? Sí. No me cayó.
+
+02:38:01.000 --> 02:38:02.000
+Claro. Aya: Gracias.
+
+02:38:02.000 --> 02:38:06.000
+Y a. Escuchamos bien.
+
+02:38:06.000 --> 02:38:15.000
+Ya en cuanto al análisis comercial. Nuestra propuesta.
+
+02:38:15.000 --> 02:38:23.000
+Bueno, los beneficios del sistema son. Producir incidentes, mejora la confianza del cliente y acelerar la respuesta del Centro de Seguridad.
+
+02:38:23.000 --> 02:38:36.000
+Los riesgos, la inversión inicial en cámara y servidores. La capacitación de los equipos y la aceptación social. Respecto a esta al tema de la privacidad de los datos, como les comentaba en un momento por el tema de.
+
+02:38:36.000 --> 02:38:42.000
+De que el cliente debería quedar anónimo de esta información de las imágenes. Y todo eso.
+
+02:38:42.000 --> 02:38:47.000
+Y nuestra vergüenza propuesta de empezar con un piloto en una o 2 sucursales.
+
+02:38:47.000 --> 02:38:53.000
+Midiendo indicadores con la tasa de detección, los falsos positivos. Y el tiempo de respuesta del Centro de Seguridad.
+
+02:38:53.000 --> 02:39:04.000
+Si la meta se cumple, se justifica escalera el sistema. Y hay casos muy concretos respecto al tema de, por ejemplo, el impacto económico que han tenido este tipo de cosas, porque.
+
+02:39:04.000 --> 02:39:07.000
+Por ejemplo, en en cuanto al tema del de los fraudes.
+
+02:39:07.000 --> 02:39:14.000
+En el 2 000. 23. Las pérdidas por fraude con tarjeta fueron de más de 3. 33 000 000 000 de dólares, por ejemplo.
+
+02:39:14.000 --> 02:39:21.000
+Y en Latinoamérica Andamos con números muy, muy cercanos. Mhm.
+
+02:39:21.000 --> 02:39:30.000
+Creo que no, que es casi. No, no puse. Pero, en conclusión, para este sistema de fraude buscamos utilizar un sistema Ibi como modugular.
+
+02:39:30.000 --> 02:39:39.000
+Y ético basado un poco en las normativas que. Que hemos investigado a nivel internacional que han ido apareciendo en algunos que han ido picando.
+
+02:39:39.000 --> 02:39:44.000
+Algunas cosas para esta detección de fraudes. A nivel global.
+
+02:39:44.000 --> 02:39:53.000
+Y y tratando también de aline alinear un poco. El tema de los modelos a utilizar y de los algoritmos en medial de lo que hemos estado viendo.
+
+02:39:53.000 --> 02:40:04.000
+En el curso hasta el día de hoy.
+
+02:40:04.000 --> 02:40:06.000
+Eso.
+
+02:40:06.000 --> 02:40:10.000
+Faltó el cierre ya. Y.
+
+02:40:10.000 --> 02:40:11.000
+Sugerencias. Y están todos ahí. Ayuda. Ok.
+
+02:40:11.000 --> 02:40:16.000
+Sí que no. Sí.
+
+02:40:16.000 --> 02:40:18.000
+Rodríguez. Sí.
+
+02:40:18.000 --> 02:40:19.000
+Sí.
+
+02:40:19.000 --> 02:40:24.000
+Una sugerencia, primero, que quizás se podrían conversar con los otros grupos que están en algo similar, cosa que poder.
+
+02:40:24.000 --> 02:40:31.000
+Fusionar trabajo, complementar habilidades, etcétera. Eso creo que yo, que es importante.
+
+02:40:31.000 --> 02:40:44.000
+Segundo, el desafío trata de o traten perdón de abstraerlo un poco más Está todavía muy tangible como sistema de detección de microfraude.
+
+02:40:44.000 --> 02:40:50.000
+Mediante expresiones en banco de sucursales. El desafío debe ser más abstracto. Por ejemplo.
+
+02:40:50.000 --> 02:40:57.000
+Van hacia hacia una banca más segura o hacia una banca transparente. No sé.
+
+02:40:57.000 --> 02:40:58.000
+Ok. Ok.
+
+02:40:58.000 --> 02:41:06.000
+To Wards hacia algo. Es muy importante lo que dijiste a la pasada Luis con respecto al sesgo social.
+
+02:41:06.000 --> 02:41:20.000
+En en casos como el de usted. Las redes neuronales tienen que tratar de tener la la suficiente variabilidad para que no esté sesgada, sobre todo por.
+
+02:41:20.000 --> 02:41:26.000
+Comuna o por cosas. O barreras sociales que.
+
+02:41:26.000 --> 02:41:33.000
+Que force sensor un resultado en un en cierta ubicuidad en el sexto lugar.
+
+02:41:33.000 --> 02:41:34.000
+Claro.
+
+02:41:34.000 --> 02:41:39.000
+Ok. Con respecto a la forma, por favor.
+
+02:41:39.000 --> 02:41:45.000
+Traten de hacer el análisis comercial un poquito y en arquitectura un poquito más amigable.
+
+02:41:45.000 --> 02:41:54.000
+Y visible, o sea. Diagramas, cajas, flujo, proceso. Esto versus esto antes después.
+
+02:41:54.000 --> 02:42:00.000
+Porque he partido muy bien con los indicadores, pero después esos indicadores hay que demostrarlo.
+
+02:42:00.000 --> 02:42:08.000
+El enlace comercial, el indicador que estaba buscando mejorar El indicador que me dijo que hay una brecha o los 3 indicadores brecha.
+
+02:42:08.000 --> 02:42:13.000
+Se podría resolver a tal porcentaje e x porcentaje. Debido a esto.
+
+02:42:13.000 --> 02:42:14.000
+Ok.
+
+02:42:14.000 --> 02:42:36.000
+Pero muy bien, vamos con el equipo. Once.
+
+02:42:36.000 --> 02:42:37.000
+Okay, goodal, Professor.
+
+02:42:37.000 --> 02:42:49.000
+Quién es. Hola, Quiénes son ustedes los nombres? Por favor.
+
+02:42:49.000 --> 02:42:50.000
+Más 1 pasar 1. No, no.
+
+02:42:50.000 --> 02:42:59.000
+Masaru.
+
+02:42:59.000 --> 02:43:00.000
+Yo te yo te doy mesero. Somos Mazaro, González Giliana Rivera.
+
+02:43:00.000 --> 02:43:04.000
+¿qué más.
+
+02:43:04.000 --> 02:43:12.000
+Víctor Romero Rodrigo Sáenz y Bastian Mujádev.
+
+02:43:12.000 --> 02:43:18.000
+Ya.
+
+02:43:18.000 --> 02:43:19.000
+Sí.
+
+02:43:19.000 --> 02:43:28.000
+Mm-hmm. Okay. Bueno, sisimos cuchado obi en cierto. Okay, perfecto. Buena ver, para iniciar y para un poco de contexto sobre a que sector estamos enfocca en la solucion del proyecto.
+
+02:43:28.000 --> 02:43:29.000
+Como. Uh, no.
+
+02:43:29.000 --> 02:43:30.000
+Por si acaso, no estamos viendo su presentación.
+
+02:43:30.000 --> 02:43:37.000
+Más. Ahora no se ve el la P, P, T.
+
+02:43:37.000 --> 02:43:47.000
+Hace un rato. Sabía, pero recién dejó de verse.
+
+02:43:47.000 --> 02:43:48.000
+Sí, ahí Sí, Sí. Eh, Más salud.
+
+02:43:48.000 --> 02:43:53.000
+Sí, ahí Sí.
+
+02:43:53.000 --> 02:44:11.000
+Sector minero para reson poco de contexto. La solucion que queremos dar la aporte la seguridad del…
+
+02:44:11.000 --> 02:44:17.000
+Del entorno y la interaccion entre machinas, ya, bueno, maquinas otomo elicasicos.
+
+02:44:17.000 --> 02:44:33.000
+Una fa una minera. Did you esto el proyecto consiste en desarroller un herramienta que nos ahuy a preber.
+
+02:44:33.000 --> 02:44:46.000
+Los atropellos, ento una fauna miner, no. Mas criticos de estas de las finas mineras con las colecion los atropellos.
+
+02:44:46.000 --> 02:45:00.000
+Y que pues rep percute en un costo social. Reputacional y economico para todra no solamente para la…
+
+02:45:00.000 --> 02:45:05.000
+Le empresa que encarada de la Fauna, sino o de la hayena, pero.
+
+02:45:05.000 --> 02:45:14.000
+Si no tambien para los trabajadores, no? Tenemos la introduccion y objetivos.
+
+02:45:14.000 --> 02:45:20.000
+El analysis context contextual. La architecture el sisema y el analisis commercial.
+
+02:45:20.000 --> 02:45:28.000
+Okay. Coparte les afio central el proyecto lo que busjes reducid el riesgo de atropellos ensna hombres maquinas en faanas mineras.
+
+02:45:28.000 --> 02:45:33.000
+En esen tornado de las… Bueno de las faianas mineras.
+
+02:45:33.000 --> 02:45:45.000
+Lo que ocurre mucho y es muy usual… Es que… no solamente en el de grandes machinarias, sinova a nivel de communetas.
+
+02:45:45.000 --> 02:46:01.000
+Hay mucho polvo, nos… utilizando el vehicularo, no lobra persevero, no lobra.
+
+02:46:01.000 --> 02:46:10.000
+Pues, visualizar a las personas otros trabajores encuentran cerca, no? Esto que nuestro productos el linea.
+
+02:46:10.000 --> 02:46:17.000
+Con estado necesidad, y busjamos implementer una solucion de vision por computad en tiempo real.
+
+02:46:17.000 --> 02:46:31.000
+Para justamente prevenir estos incidentes. Prospecto el analysis set, en baseo el entorno minero, pues en lo parte social, este producto raspunidan necesidad critica de seguria laboral.
+
+02:46:31.000 --> 02:46:36.000
+Considerando un la cultura seguria, la sepacion del sistema por syndicatos.
+
+02:46:36.000 --> 02:46:46.000
+La queues muy importante y afecta… afectabasante al tema de la interaccion entre tambien empresa y…
+
+02:46:46.000 --> 02:46:57.000
+Y el sector de los trabajadores, no? En lo economico, le inversion inicial, basicamente nosotros lo que vamos utilizar son camaras.
+
+02:46:57.000 --> 02:47:04.000
+But, uh, then there is the… tener esta capacidad de un poder visualizar y identificar.
+
+02:47:04.000 --> 02:47:12.000
+Posse acccientes. Se compensa con la reduccion de los costos, dado que estos accentes cuando ocurren.
+
+02:47:12.000 --> 02:47:28.000
+Son, los costas que se terminantrasladando no solamentes una economico, si no tambien son reputacionales para la… para la empresa, no? Embacia esto a un coste de solamente de utilizar cadamaradas, utilizar un sistema de intelligencia artificial que nos permita.
+
+02:47:28.000 --> 02:47:37.000
+Identificar y prevenir esos accentes el coste respecto al beneficio que podamos obtener es sumamente.
+
+02:47:37.000 --> 02:47:47.000
+In Menzo. En lo tecnologico, los principales de safios. But, uh, desarroller serramienta, no, como lo mencione anteriormente responde…
+
+02:47:47.000 --> 02:47:57.000
+Estas fadenas mineras. Relacion al polvo, a las vibracraciones que ocuren, al clima extremo que se presentan en algunas.
+
+02:47:57.000 --> 02:48:11.000
+And I want to find a specificas. Es lo mas relevante a nivel de quizas difficultades tecnologicas que podamos tener para ayo a cabo proyecto.
+
+02:48:11.000 --> 02:48:20.000
+Prevencion de accidentes, sino que esto genero una confianzad al interactuar.
+
+02:48:20.000 --> 02:48:25.000
+Pues la matina con el hombre, y que, pues el usuario.
+
+02:48:25.000 --> 02:48:38.000
+Este seguro de que utilizar el vehiculo, tambien va a tener esa capacidad de… pre venier estos accent.
+
+02:48:38.000 --> 02:48:46.000
+Problema oportunia objetivo. Prospecto al problema, como lo mencione estos…
+
+02:48:46.000 --> 02:49:02.000
+Es un proyecto que, pues… llegos, o a todos las limitaciones que se puede tener en estas faenas.
+
+02:49:02.000 --> 02:49:08.000
+La oportunidad es aplicar pues la vision por computador en temporreal para automatizarlo percepcion de eso entorno.
+
+02:49:08.000 --> 02:49:15.000
+A traves de camaras, detectar no solamente personas, sino tambien vehiculos que puedan generar accientes.
+
+02:49:15.000 --> 02:49:28.000
+Y con ellos generar a alertas tempranas para justamente evitar estos accidentes. Como parte el objetivo, tenemos estar loyar de implementar un system sistemano de vision artificial que detecte riesgo activertas preemptivas.
+
+02:49:28.000 --> 02:49:43.000
+La probabilia de que ocuran esos accidentes. Alright. En relacion el architectura del sistema propuesto el primer.
+
+02:49:43.000 --> 02:50:00.000
+No solamente en vehiculos, cambioneta sino tambien en vehicularos, alto… que transportan altos pesos.
+
+02:50:00.000 --> 02:50:06.000
+El segundo, la segunda fase del architecture es el preparosamiento, no?
+
+02:50:06.000 --> 02:50:31.000
+El polvo, que esta de noche. Implementaremos .
+
+02:50:31.000 --> 02:50:39.000
+Tambien utilizarremos en estimacion de histania justamente para levantar estas aliertas tempranas.
+
+02:50:39.000 --> 02:50:51.000
+A lusario que esta mandejando el vehiculo, no? Us justamente.
+
+02:50:51.000 --> 02:50:59.000
+Para evitar, pues… a traves de senales son sonoras, o visuales.
+
+02:50:59.000 --> 02:51:06.000
+Y tambien que se que tenga esta capacidades notificar el usuario, por es que estamos.
+
+02:51:06.000 --> 02:51:18.000
+Que esta manejando elucido. Buscar esces a justa de calidad.
+
+02:51:18.000 --> 02:51:27.000
+Not la normalizacion debrio el contrarse en relacion a todo el entorno de… El ecosystema que puedener una faiana miner.
+
+02:51:27.000 --> 02:51:35.000
+Un patron identificar patrones que nos permitan… tener una… una la posilia identificar.
+
+02:51:35.000 --> 02:51:41.000
+Estos posiles acccientes en personas o maquinaria que esta cercana, no, el usuarido.
+
+02:51:41.000 --> 02:51:57.000
+If the money handling at the moment. Basicamente, lo que usjamos con esal horizmo es, puesque se procesa en imagenes a laid.
+
+02:51:57.000 --> 02:52:02.000
+But, uh, tener en tiempo real estas aliertas, que se van air generando.
+
+02:52:02.000 --> 02:52:08.000
+La personalizacion, porque puedenarse con atose especifico solamente de las faines mineras, no?
+
+02:52:08.000 --> 02:52:21.000
+Buses o machinarias o todo… Auto instrumento, persona que pod suponer un peligro para la faire.
+
+02:52:21.000 --> 02:52:37.000
+El mercado objeto claramente son las empresas mineras. Y tambien esto se puederia expandir a empresas por esta lesado que tambien manejan alta cantidad de pues de vehiculos.
+
+02:52:37.000 --> 02:52:48.000
+Laborora. No? La ferte valor e respecto este proyecto es un sistema.
+
+02:52:48.000 --> 02:53:03.000
+Que ,amente preener accentes. La necesidad critica es como lo mencione el principio, la reducion de atropellos y cosi accentes, evitando costas asociados.
+
+02:53:03.000 --> 02:53:12.000
+No solamente a las multas economicas, sino tambien a las detenciones de una fallen ano, porque esos accentes pueden general que tod la fallen a separalice.
+
+02:53:12.000 --> 02:53:28.000
+Demandas y danos reputacional. Antenimiento.
+
+02:53:28.000 --> 02:53:35.000
+Alright, respecto el estimacion de costos y beneficios li inversion inicial como lo mencione es unicamente son camaras.
+
+02:53:35.000 --> 02:53:50.000
+Doulars. Y los beneficios esperados, es… Principalmente evitar estos accentes.
+
+02:53:50.000 --> 02:54:01.000
+De mas deceion 1. Sin contar las perdidas humanas y las reputacion que tambien termina afectando economicamente a las empresas, no?
+
+02:54:01.000 --> 02:54:20.000
+Respecto al Roy, esper un retorno inversion en menos y un ano dado que se pued… y esperamos que con este… conramienta se puedan reducir esos accidentes, y eso seria como que el abilizo ganze que podamos tener.
+
+02:54:20.000 --> 02:54:31.000
+Prospecto a tener este sistema install a uno. Y me mejor a continuas, pues los datos para los analyses, optimizacion de la segurid.
+
+02:54:31.000 --> 02:54:38.000
+Yes, O Serio.
+
+02:54:38.000 --> 02:54:43.000
+Cuánto el total que le llegó le o sea, le llegó, Le.
+
+02:54:43.000 --> 02:54:48.000
+Ustedes llegaron.
+
+02:54:48.000 --> 02:54:50.000
+Como? Nicholbe?
+
+02:54:50.000 --> 02:54:59.000
+A qué total? ¿cuál es el monto comercial que dieron.
+
+02:54:59.000 --> 02:55:00.000
+Sí.
+
+02:55:00.000 --> 02:55:14.000
+Del Montado commercial por de inversion. Por la installacion en biculo.
+
+02:55:14.000 --> 02:55:25.000
+Lo que te lo que no entendí Sí. Porque como Edge Computering, Bi Cloud, pero ¿dónde estaría instalado por vehículo solamente cámara y después conectado a una central.
+
+02:55:25.000 --> 02:55:36.000
+En las sonaz donde… may not be severely upset tiene, o menos visivila tiene lus fario conductor.
+
+02:55:36.000 --> 02:55:45.000
+Y eso estaria conectasi tambien a una central, no, que va a procesar esta informacion para el… para tener esas aliertas tempranas.
+
+02:55:45.000 --> 02:55:52.000
+Que tambien estaran y saladras de un… They will nest, uh… de una herramienta en el mismo vehicularo, para que lus fario, tambien poder tener esa detection de…
+
+02:55:52.000 --> 02:55:55.000
+Bueno.
+
+02:55:55.000 --> 02:55:57.000
+They possibly accidente.
+
+02:55:57.000 --> 02:56:02.000
+Puedes poner la slid de arquitectura.
+
+02:56:02.000 --> 02:56:07.000
+2. Occaso.
+
+02:56:07.000 --> 02:56:15.000
+Ya. Entonces es un sistema híbrido que está basado en sensores.
+
+02:56:15.000 --> 02:56:22.000
+Y también en Computer Vision. Que se procesa.
+
+02:56:22.000 --> 02:56:24.000
+Localmente en la Cámara, ¿cierto? Y que en la Cámara soy capaz de reconocer, reconocer persona y vehículo.
+
+02:56:24.000 --> 02:56:30.000
+Mm-hmm.
+
+02:56:30.000 --> 02:56:42.000
+Y, además, hace una correlación o agrega otra fuente multimodal. De sensores viendo distancia, clasificación de eventos, entonces conecto lo que estoy mirando, con lo que estoy.
+
+02:56:42.000 --> 02:56:45.000
+Percibiendo en términos de distancia. Cierto.
+
+02:56:45.000 --> 02:56:48.000
+See, accepted.
+
+02:56:48.000 --> 02:56:55.000
+Y luego género alerta. Y esa alerta debe ser. Por lo menos con la experiencia que tengo en detección de incancables.
+
+02:56:55.000 --> 02:57:03.000
+Se debe conectar con un sistema de gestión, un sistema de transporte, unos sistemas de conductores, alguien que esté.
+
+02:57:03.000 --> 02:57:10.000
+Que se le alerte más que solamente un poco up o notificación, sino que se conecta un sistema de.
+
+02:57:10.000 --> 02:57:17.000
+De control de actividad, control de tareas. Alguno de usted está trabajando en minería.
+
+02:57:17.000 --> 02:57:23.000
+Me refiero a cómo se conecta esto con un sistema que ya está existiendo.
+
+02:57:23.000 --> 02:57:29.000
+Porque si no hay otro sistema estanco. Me entienden.
+
+02:57:29.000 --> 02:57:30.000
+Mazaru.
+
+02:57:30.000 --> 02:57:40.000
+Si de hecho ahi tenemos a… el proposad a su experiencia, no en el sector minero.
+
+02:57:40.000 --> 02:57:48.000
+Entonces, este… See, el maso menos, queriamos, tener esa…
+
+02:57:48.000 --> 02:57:56.000
+Esta presentacion para levantar que esas nas… alternativas, prospecto al heramienta que pugamos es aroyar.
+
+02:57:56.000 --> 02:58:07.000
+Perfecto. Ya algo. Rodrigo.
+
+02:58:07.000 --> 02:58:12.000
+Están ahí. Llamamos equipo, 2. Entonces.
+
+02:58:12.000 --> 02:58:17.000
+Gracias al equipo. Once.
+
+02:58:17.000 --> 02:58:23.000
+Miren ahí, solo solo un complemento profesor. Estoy acá. Por si acaso no es online.
+
+02:58:23.000 --> 02:58:32.000
+A ver. Son un complemento si le sirve, si lo van a llevar a cabo, yo les recomendaría que que la alerta.
+
+02:58:32.000 --> 02:58:35.000
+Es la conectaron directo al sistema de radio de la mina.
+
+02:58:35.000 --> 02:58:39.000
+Porque siempre hay un canal para para movimiento de Equip, para.
+
+02:58:39.000 --> 02:58:44.000
+Valga la redundancia en movimiento de equipos móviles. Y entonces allí podrían.
+
+02:58:44.000 --> 02:58:48.000
+Notificar. Y así los equipos móviles diciendo la patente o algo.
+
+02:58:48.000 --> 02:58:52.000
+Dicen, se ordena detención inmediata de tal equipo y así se evita el accidente.
+
+02:58:52.000 --> 02:59:04.000
+Solo como por. Perfecto.
+
+02:59:04.000 --> 02:59:15.000
+Equipo. ¿12? Quiénes son? Acá. Ya.
+
+02:59:15.000 --> 02:59:27.000
+Muy bien, partimos. Vamos a presentar acá el proyecto de visión para panorámica para la detección temprana de daños en vehículos de importación.
+
+02:59:27.000 --> 02:59:32.000
+Para este proyecto me acompaña acá. Alejandro Ponce, quien es ingeniero civil industrial.
+
+02:59:32.000 --> 02:59:42.000
+A mí me acompaña Juan Pablo Amín, que es ingeniero civil de informática, y me presento mi nombre. Es Camilo durango. Soy ingeniero en computación e informática.
+
+02:59:42.000 --> 02:59:49.000
+Cuál es el contexto de nuestro proyecto? Este es un trabajo para la empresa Inshcap.
+
+02:59:49.000 --> 02:59:56.000
+Hay un Skatepe Inske. Muy bien. Eso es un importador británica de vehículos con presencia en todo el mundo.
+
+02:59:56.000 --> 03:00:01.000
+Y tiene presencia en Chile desde el año. Dos 1 023. Cuando adquirió Derco Center.
+
+03:00:01.000 --> 03:00:11.000
+En los vehículos llegan a Chile a través del puerto de San Antonio y una vez que arriban acá a a nuestro país son almacenados en el centro de distribución.
+
+03:00:11.000 --> 03:00:20.000
+Loboza camino al aeropuerto de la Comuna de Budawell. Cuál es el desafío a resolver acá con visión computacional.
+
+03:00:20.000 --> 03:00:29.000
+Lo que pasa es que durante todo el proceso o la cadena de distribución, tanto sea en el origen, en el puerto o en el mismo centro de distribución.
+
+03:00:29.000 --> 03:00:34.000
+Hay mucha manualidad, como pueden ver en la imagen en la imagen que estaba a la izquierda.
+
+03:00:34.000 --> 03:00:40.000
+Los autos son transportados en los camiones que pueden ver en las carreteras o en los distintos caminos.
+
+03:00:40.000 --> 03:00:44.000
+Y eso se hace desde la fábrica hasta el puerto de origen.
+
+03:00:44.000 --> 03:00:50.000
+Se suben de forma manual a cada 1, a los barcos que suelen tener incluso hasta.
+
+03:00:50.000 --> 03:00:56.000
+La capacidad para 2 empresas distintas de de importación. Pero todo ese proceso de carga y descarga se hace a mano.
+
+03:00:56.000 --> 03:01:05.000
+Al al ser manual el traslado de cada una de las de las unidades fine alguna, grúa sin algún equipamiento.
+
+03:01:05.000 --> 03:01:11.000
+Digamos, más robusto, tienden a a causarse daños. ¿y cuál es el problema? Es que estos daños no son detectados a tiempo.
+
+03:01:11.000 --> 03:01:20.000
+Hay retrasos en la entrega de los clientes a al cliente final, al momento de que se ejecuta una venta de alguno de los productos.
+
+03:01:20.000 --> 03:01:29.000
+Y las pérdidas pueden ascender entre los 120 0 hasta los 180 000 dólares. Al no concretar los plazos, al no concretar una venta.
+
+03:01:29.000 --> 03:01:35.000
+O al no detectarla, digamos los daños a tiempo. En las distintas unidades.
+
+03:01:35.000 --> 03:01:41.000
+Cuál es la propuesta que tenemos nosotros para poder resolver este desafío.
+
+03:01:41.000 --> 03:01:50.000
+Es con un constante monitoreo visual automático, se analizará cuáles unidades tienen algún daño y así poder planificar de mejor forma las reparaciones.
+
+03:01:50.000 --> 03:01:55.000
+Cosa que la solución sea de forma oportuna antes de que presenten un riesgo para la entrega del vehículo.
+
+03:01:55.000 --> 03:02:01.000
+Dentro de la primera versión es: ¿puedes realizar un M. V, P, a través de drones.
+
+03:02:01.000 --> 03:02:05.000
+Vale cosa de poder ir monitoreando un par de veces al día.
+
+03:02:05.000 --> 03:02:12.000
+Todo el centro de distribución y poder, digamos, detectar cuales unidades presentan daño y poder entregar algún informe.
+
+03:02:12.000 --> 03:02:20.000
+Esperamos que una versión futura sea con cámaras de vigilancia, como fue el feedback que recibimos durante la presentación inicial.
+
+03:02:20.000 --> 03:02:27.000
+Pero esto requiere mayor esfuerzo. Como bien dice abajo, hay que tocar la operación del centro de distribución.
+
+03:02:27.000 --> 03:02:34.000
+Poder tener temas logísticos. El tema de la electricidad, el soporte, también que recibirían estas cámaras.
+
+03:02:34.000 --> 03:02:40.000
+Y si es que están conectadas al actual sistema de sistema de seguridad.
+
+03:02:40.000 --> 03:02:52.000
+El modelo de arquitectura del del sistema y el algoritmo a usar. Lo tratamos de representar acá en un diagrama bien simple, el drone capturaría las imágenes. Y estas.
+
+03:02:52.000 --> 03:02:59.000
+Se almacenarían en una base de datos. Para luego ser integrado con la plataforma Roboflow.
+
+03:02:59.000 --> 03:03:07.000
+Y así poder, digamos ser entrenado con el algoritmo de yo lo versión. Ocho.
+
+03:03:07.000 --> 03:03:17.000
+Para el procesamiento y el marketing learning. Hay 2 sistemas Bach que 1 sería el cons el contraste que necesitan las imágenes para generar una mayor fuente de datos.
+
+03:03:17.000 --> 03:03:25.000
+De entrenamiento y un segundo bach que finalmente entrega el informe a las distintas unidades para poder.
+
+03:03:25.000 --> 03:03:30.000
+Planificar la ma, la la reparación de la de las distintas unidades.
+
+03:03:30.000 --> 03:03:37.000
+Otros 2 sistemas serían quickside, que es un dadge que podría pre presentar, digamos, distintas métricas para la reparación.
+
+03:03:37.000 --> 03:03:43.000
+Y el histórico de la de las unidades. Y también Atenas, de a Wf para el historial de estos informes.
+
+03:03:43.000 --> 03:03:50.000
+Los voy a dejar ahora con Juan Pablo y quien les va a presentar una de la solución.
+
+03:03:50.000 --> 03:04:04.000
+Gracias. Camilo. Bueno, nosotros, finalmente, como bien lo mencionaba Camilo anteriormente, Parte de la arquitectura es utilizar la plataforma Robo flow. ¿por qué esta plataforma? Porque es una plataforma muy completa y muy utilizada para todo lo que es.
+
+03:04:04.000 --> 03:04:17.000
+El etiquetado y clasificación de objetos ya en imágenes, porque este el 1 de los modelos que utiliza Robert Row Flow es yo, lo versionó 8.
+
+03:04:17.000 --> 03:04:27.000
+Ya al menos la versión gratuita que utilizamos nosotros. Y entonces yo lo está basado en redes neuronales. Un modelo basado en redes neuronales convolucionales.
+
+03:04:27.000 --> 03:04:33.000
+Muy utilizada para identificar y clasificar objetos en imágenes. Entonces, en esta línea.
+
+03:04:33.000 --> 03:04:39.000
+Nosotros utilizamos esta plataforma. Ya donde pudimos categorizar 3 tipos de daños, ya abollones.
+
+03:04:39.000 --> 03:04:53.000
+Rayones, rayones suaves y rayones o superficiales y rayones profundos. Para lo cual finalmente utilizamos. Recolectamos, subimos y etiquetamos manualmente. 100 Uno: imágenes ya.
+
+03:04:53.000 --> 03:05:03.000
+Debemos comentarles que partimos con poquitas con 10 imágenes. Después fuimos subiendo, subiendo a 20, porque, claro, la precisión del modelo. Una vez que era entrenador, era bastante baja.
+
+03:05:03.000 --> 03:05:10.000
+Ya. Y y a partir de eso, de las 100, 1 imágenes que subimos al final dejamos finalmente.
+
+03:05:10.000 --> 03:05:22.000
+90 90 imágenes para todo lo que era el entrenamiento. Seis imágenes para todo lo que era la fase de validación y 5 imágenes para todo lo que era la fase de testing. Ya.
+
+03:05:22.000 --> 03:05:29.000
+Esto después pasó por una etapa de pre procesamiento, carga y, finalmente, tratamiento del modelo.
+
+03:05:29.000 --> 03:05:34.000
+Arrojando como resultado final una precisión de casi un 97 por 100.
+
+03:05:34.000 --> 03:05:44.000
+Entonces, eso, ¿qué significa que este prototipo, esta versión beta. Nos permitió identificar daños en el 97 por 100 de las.
+
+03:05:44.000 --> 03:05:54.000
+Y imágenes. Ya. Y a partir de esto, este modelo después, la intención era tomarlo, exportarlo desde la plataforma Row Flow.
+
+03:05:54.000 --> 03:06:02.000
+Y utilizarlo finalmente en Python. Ya para la detección en tiempo real de los daños que le mencionaba. Camilo anteriormente.
+
+03:06:02.000 --> 03:06:08.000
+Aquí. Camilo: Te voy a quitar un segundo la pantalla solamente para mostrarle.
+
+03:06:08.000 --> 03:06:13.000
+A los compañeros. Cómo se ve.
+
+03:06:13.000 --> 03:06:16.000
+No sé si se ve la pantalla. Se está viendo. Sí, ya.
+
+03:06:16.000 --> 03:06:27.000
+Ahí como Uds. Pueden ver de forma muy, muy rápida. Acá Están las 100. Uno imágenes en 3 secciones de las primeras 2 de 50 imágenes, cada una y la última de una, la instalación, una.
+
+03:06:27.000 --> 03:06:33.000
+Y por cada una de las imágenes con Camilo. Y con Alejandro fuimos etiquetando en la plataforma Row Flow.
+
+03:06:33.000 --> 03:06:40.000
+Manualmente dónde estaban los daños. Y lo fuimos clasificando en las 3 clases que eran abollones.
+
+03:06:40.000 --> 03:06:45.000
+Y rayones superficiales y rayones profundos. De hecho, hay, por ejemplo, la imagen número 1.
+
+03:06:45.000 --> 03:07:01.000
+La imagen. Número 2, se fijan, acá Hay un abollón. La imagen número 3 tiene un rayón profundo que lo que está delimitado en color verde y un abollón en color rojo, y así, por cada una de las imágenes.
+
+03:07:01.000 --> 03:07:09.000
+Mhm. ¿por qué pregunta comercial, ¿Por qué esta empresa está interesada en cosas con auto.
+
+03:07:09.000 --> 03:07:15.000
+Porque la empresa importa, pero no se se perdón para cerrar La pregunta.
+
+03:07:15.000 --> 03:07:20.000
+No es parte de la empresa aseguradora encargada de esa parte.
+
+03:07:20.000 --> 03:07:30.000
+O el sí sí no es que la unidad se tiene que reparar. Quien paga el arreglo de otro tema.
+
+03:07:30.000 --> 03:07:36.000
+Y finalmente, más allá de quién paga el arreglo? Finalmente, son los tiempos incurridos en arreglar las unidades.
+
+03:07:36.000 --> 03:07:45.000
+Porque si a usted le vendemos un vehículo y le prometimos, por ejemplo, la entrega para pasado mañana y producto. No sé si tiene una una mogollón grande, Por ejemplo.
+
+03:07:45.000 --> 03:07:53.000
+Nos vamos en desarrolladores de pintura. Van a ser más de más de de 3 días. Entonces ahí es donde finalmente está el valor agregado de esta de esta propuesta.
+
+03:07:53.000 --> 03:07:59.000
+Por último, y para no quitarles más tiempo, solamente mostrarles aquí las distintas.
+
+03:07:59.000 --> 03:08:04.000
+Los distintos entrenamientos de los modelos. Y este fue el que finalmente le mostramos como resultado.
+
+03:08:04.000 --> 03:08:16.000
+Alcanzamos una precisión de casi un 97 por 100. Y y con un tiempo de procesamiento de casi 47, con cuántas imágenes con 100, 1 profes.
+
+03:08:16.000 --> 03:08:25.000
+Ahora al aplicarle la funcionalidad de pre procesamiento que tiene Robo Flow Es a cierto, una imágenes se transformaron en 200.
+
+03:08:25.000 --> 03:08:37.000
+87 ya. Y el aumen. Lo que está como una de las conclusiones que sacamos es que, en la medida que aumentábamos la cantidad de imágenes mejoraba considerablemente la la precisión.
+
+03:08:37.000 --> 03:08:51.000
+Los distintos tutoriales tutoriales que también que consultamos, decían que en promedio, para poder para que el el modelo quede muy bien entrenado. Se debían tomar entre 1 000 y 2 000 uni imágenes y de muy buena calidad.
+
+03:08:51.000 --> 03:09:04.000
+Ya. Y eso te devuelvo ahí. Camilo para pasarle la palabra a Alejandro.
+
+03:09:04.000 --> 03:09:10.000
+Espérate que se cae ahí. Vaya.
+
+03:09:10.000 --> 03:09:18.000
+No soy. De ellos.
+
+03:09:18.000 --> 03:09:28.000
+Bueno. A mí lo rural.
+
+03:09:28.000 --> 03:09:35.000
+Ahí sí. Bueno, como vimos anteriormente manual de estas reparaciones, no informada, asciende.
+
+03:09:35.000 --> 03:09:46.000
+Alrededor de 120 0 a 180 000 dólares. Y con el flujo de caja que hicimos hace 5 años, podríamos estar hasta ahorrando un 90 por 100.
+
+03:09:46.000 --> 03:09:55.000
+Con misión computacional. ¿qué consideramos nosotros dentro de cada año? El primer año, el más caro, porque hay un equipo de trabajo.
+
+03:09:55.000 --> 03:10:00.000
+Que el gasto más fuerte lo estamos estimando en unos 40 000 dólares.
+
+03:10:00.000 --> 03:10:08.000
+Y toda la compra de drones. Y luego los primeros almacenamientos y procesamiento de.
+
+03:10:08.000 --> 03:10:13.000
+Después, desde el año 2 hacia el 5, el equipo de trabajo inicial.
+
+03:10:13.000 --> 03:10:20.000
+Se cambia por un equipo en mansión que de 2 personas y desde ahí es que los costos salen.
+
+03:10:20.000 --> 03:10:31.000
+Un poco más bajo. Ahí tenemos un estimado total de esos 100. Casi 10 000 dólares a 5 años.
+
+03:10:31.000 --> 03:10:53.000
+Eso. Muchas gracias.
+
+03:10:53.000 --> 03:11:04.000
+Y no. Estaba dentro del trabajo inicial, la presentación final, pero no lo agregamos acá en la Appt.
+
+03:11:04.000 --> 03:11:16.000
+Pero la primera presentación alcista.
+
+03:11:16.000 --> 03:11:35.000
+Sí. ¿por qué creemos que hay una una oportunidad profe? Porque el hoy en día, la detección, cuando las unidades, como explicaba camilo cuando son trasladadas, desde vamos en la última parte del trayecto desde el puerto, finalmente hasta el centro de distribución. En loosa.
+
+03:11:35.000 --> 03:11:39.000
+La unidades pueden tener daño. Entonces, ¿qué pasa? Una de las unidades que puede venir en el camión.
+
+03:11:39.000 --> 03:11:52.000
+Pueden ir con algún daño, ya. Y si esa unidad se la vendimos a usted, se la prometimos para 3 días. Ese daño recién puede ser detectado manualmente por una persona que es la que se pasea por finalmente por por los patios.
+
+03:11:52.000 --> 03:12:03.000
+Detectando la unidad. Entonces, si esos daños fueran identificados tempranamente. Permitiría. Sobre todo cuando tenemos desarrolladores de pintura, No sé si alguien ha llevado acá sus vehículos a.
+
+03:12:03.000 --> 03:12:16.000
+Ya claro. Efectivamente, no es algo, no es algo rápido. Ya las unidades se tienen que desarrollar, pintar, pasar por hornos y, finalmente, los tiempos de entrega y, por consiguiente, la experiencia de usuario. Si a usted le dijimos que la unidad se va a entregar mañana o pasado mañana.
+
+03:12:16.000 --> 03:12:20.000
+Y después le decimos que se la vamos a entregar en una semana o 2 semanas después.
+
+03:12:20.000 --> 03:12:28.000
+Efectivamente, hoy día la compra de un auto sigue siendo tan importante como la compra de una casa. Entonces, obviamente, Para nosotros, la experiencia de usuario es lo más importante.
+
+03:12:28.000 --> 03:12:38.000
+De ahí la importancia de detectar esto a tiempo, corregirlo y no esperar recién a que la persona detecte la unidad para dicho eso, entonces hay un proceso completo de entrega.
+
+03:12:38.000 --> 03:12:47.000
+Y hay parte donde se ejecuta, donde se generan. Más defectos que en otros. ¿cierto? Esa es una cosa que hay que identificar.
+
+03:12:47.000 --> 03:12:52.000
+Y lo segundo que después de que tú identificas esos defectos y tenés.
+
+03:12:52.000 --> 03:12:58.000
+200 defectos, hay que tratar de hacer un manual de calidad del defecto.
+
+03:12:58.000 --> 03:13:06.000
+O sea, decir acá, el tipo de falla es. Estos 8 defectos típicos, el lateral, hay 3 frontales. Estos 2.
+
+03:13:06.000 --> 03:13:12.000
+Así mucho más fácil. Entrenar el modelo Sabiendo hasta 7 características.
+
+03:13:12.000 --> 03:13:19.000
+Ya porque si no desde un mogollón a un rayón, ¿cuál es la diferencia? Cuando Rayón, cuando saboyón.
+
+03:13:19.000 --> 03:13:24.000
+Hay que hacer un manual de calidad. Y esto también es interesante porque para la empresa de seguros.
+
+03:13:24.000 --> 03:13:31.000
+De hecho, yo he. Escuchado. Voy a decir que es muy interesante, por ejemplo, para B, 6 seguros.
+
+03:13:31.000 --> 03:13:38.000
+Tú entra el auto y tú evalúas qué defectos tiene. Y debido a esa evaluación, tú dices.
+
+03:13:38.000 --> 03:13:44.000
+Está. Aminorado su precio en 1 800 dólares. Por ejemplo.
+
+03:13:44.000 --> 03:13:52.000
+No sé qué estoy haciendo. Es transformando manual de calidad de defecto en un precio o acciones por realizar.
+
+03:13:52.000 --> 03:14:02.000
+Está ahí, conectando una inspección de calidad con mantenimiento con acciones, una orden de trabajo, por ejemplo.
+
+03:14:02.000 --> 03:14:07.000
+Así que está súper interesante. Bien.
+
+03:14:07.000 --> 03:14:15.000
+Vamos por el, si no me equivoco. Bien. Alejandro.
+
+03:14:15.000 --> 03:14:16.000
+Seguí manejando o no. Bien.
+
+03:14:16.000 --> 03:14:20.000
+Sí, porque ha estado. Hola. Profe. ¿qué tal. Vale. Perfecto.
+
+03:14:20.000 --> 03:14:25.000
+Vamos. Un grupo, Tres se. Se escuchaba.
+
+03:14:25.000 --> 03:14:26.000
+Escucha. Hay 2. Hay 2 grupos parecidos. Hoy.
+
+03:14:26.000 --> 03:14:31.000
+Nuestro Grupo se ve bien. Ahh! Ya.
+
+03:14:31.000 --> 03:14:32.000
+Faltamos 2. Yo soy el Catorce.
+
+03:14:32.000 --> 03:14:38.000
+¿quién ¿Quién va a presentar ahora? Anthony: Bueno, tengo 13. Ahh: Sí, He.
+
+03:14:38.000 --> 03:14:48.000
+Alejandro Alejandro. Pero dejémosla. Ya Dale Dale, tú Alejandro. Te.
+
+03:14:48.000 --> 03:14:51.000
+Bueno, Bueno, Okay, Perfecto. Muchísimas gracias. Nuestro Grupo somos. Jorge Martínez, Samuel Gisel y.
+
+03:14:51.000 --> 03:14:54.000
+No, no.
+
+03:14:54.000 --> 03:14:59.000
+Alejandro, que les habla El proyecto se trata de parque Black, cardinal.
+
+03:14:59.000 --> 03:15:04.000
+Estás, no, no, ahora no están presentando por si acaso disculpa. Alejandro.
+
+03:15:04.000 --> 03:15:05.000
+Ahora sacaste la presentación. Estás tú horas. Solamente. Y.
+
+03:15:05.000 --> 03:15:11.000
+No se ve atrás mío. Ahh, que está aquí detrás mío. Dígame chico.
+
+03:15:11.000 --> 03:15:12.000
+Está aquí, detrás mío.
+
+03:15:12.000 --> 03:15:16.000
+Ah, yo. Ah, está incluido. Ah, Guau. Bien. Guau! Ahí sí que me me perdí.
+
+03:15:16.000 --> 03:15:22.000
+Claro. Es muy moderno que se.
+
+03:15:22.000 --> 03:15:23.000
+Guau!
+
+03:15:23.000 --> 03:15:31.000
+La de la tecnología perfecto. Bueno. ¿cuál es el contexto de esto? Esto Se trata de la venta de un terreno que nos llegó a un terreno en la Patagonia.
+
+03:15:31.000 --> 03:15:42.000
+Y el objetivo es poder aumentar el valor del terreno, ya que el mercado inmobiliario en Chile estaba súper deprimido. Es complicado para la gente que tiene terrenos, poder.
+
+03:15:42.000 --> 03:15:50.000
+Comercializarlos, y normalmente la narrativa tiene que ver solamente con imágenes, fotos bonitas, 1 que otro día. Ojalá que esté relativamente bien hecho.
+
+03:15:50.000 --> 03:16:01.000
+Pero no conectan de ninguna manera con una narrativa. S G. Ni tiene ningún tipo de métricas verificables que nos puedan llevar a un mercado internacional donde pueda haber un mercado.
+
+03:16:01.000 --> 03:16:11.000
+Muchísimo más interesante. Entonces el desafío consiste en incrementar en más de un 50 por 100 el precio de venta final real.
+
+03:16:11.000 --> 03:16:18.000
+De este parque parque. Black Carpenter. Frente a inversionistas internacionales de alto patrimonio.
+
+03:16:18.000 --> 03:16:26.000
+O hay networks individuales que se llaman o fondos interesados en Sg. ¿y cómo lo vamos a hacer a través de modelos de sinander standing.
+
+03:16:26.000 --> 03:16:42.000
+Que nos permitan visualizar en sistemas tipo Google Earth, etcétera. Para 2 2 variables claves, que son la resiliencia climática y la capacidad de absorción de 2 en la Patagonia frente a otras zonas que pudieran ser.
+
+03:16:42.000 --> 03:16:52.000
+Igualmente interesante. Cuáles son los factores sociales, económicos, tecnológicos que avalan todo esto? Bueno, desde el lado económico.
+
+03:16:52.000 --> 03:16:58.000
+Existe mayor interés actualmente por terrenos que tengan baja vulnerabilidad climática. Esto es.
+
+03:16:58.000 --> 03:17:14.000
+Digamos, si vamos a comprar un terreno a nivel internacional, tenemos que pensar a largo plazo y dado que tenemos un potente calentamiento global. Si pensamos de aquí al año 2 050. Por supuesto que la Patagonia es mucho más resiliente que, por ejemplo, un terreno que podría ser equivalente en términos de absorción de carbono.
+
+03:17:14.000 --> 03:17:25.000
+Como, por ejemplo, un terreno en, digamos, Brasil. Etcétera, entonces eso nos permite diferenciarnos muy bien y aumentar, por supuesto, el viril en su país de los potenciales clientes.
+
+03:17:25.000 --> 03:17:31.000
+Desde el lado social. Hay muchísimo más interés en estrategias. S. G.
+
+03:17:31.000 --> 03:17:39.000
+Y de proyectos con impacto ambiental verificable. Y ahí está el punto. Precisamente a nivel internacional existen metodologías, tipo perra y otras.
+
+03:17:39.000 --> 03:17:45.000
+Que y y organizaciones que se encargan de hacer estas consultorías.
+
+03:17:45.000 --> 03:17:55.000
+Y luego certificar que los bosques, efectivamente. Capturan el carbono, un una cantidad de toneladas de carbón. Sin embargo.
+
+03:17:55.000 --> 03:18:04.000
+Estos estudios son bastante caros. Estamos hablando del orden de los 100 000 dólares para un terreno de estas características, más o menos 100. 1 550 hectáreas.
+
+03:18:04.000 --> 03:18:08.000
+Y, por lo tanto, hay una buena oportunidad, si es que a través de tecnologías de plataformas.
+
+03:18:08.000 --> 03:18:18.000
+Pues la plataforma satelidalers. Se puede tener una intuición de que efectivamente puede estar esta oportunidad para posteriormente sí hacer.
+
+03:18:18.000 --> 03:18:25.000
+Estos estos estudios ya de manera oficial con Br y los otros estándares.
+
+03:18:25.000 --> 03:18:33.000
+Internationals. Entonces la oportunidad. El product oportunity Gap está en construir un dashboard interactivo.
+
+03:18:33.000 --> 03:18:39.000
+Que nos permite integrar estos datos de manera dinámica, y queremos manejarlo de manera.
+
+03:18:39.000 --> 03:18:45.000
+Muy ordenadita muy comercial. No queremos mostrar toda la data ni poner una plataforma extremadamente complicada.
+
+03:18:45.000 --> 03:18:49.000
+Sino que simplemente queremos tener una narrativa que, a través de sus paneles tipo.
+
+03:18:49.000 --> 03:18:59.000
+Powerbbie nos permita integrar toda la potencia de esta plataforma que va a salir de Google, Alpha Earth.
+
+03:18:59.000 --> 03:19:04.000
+Para sacar estos 2 datos que son de tanto interés. Ahora, la captura de Co. Dos.
+
+03:19:04.000 --> 03:19:09.000
+Por hectárea es muy importante porque esto nos permite calcular un flujo, un roi de un flujo futuro.
+
+03:19:09.000 --> 03:19:18.000
+Que funciona a modo de arriendo prácticamente. Es decir, si yo logro tener la métrica que me indica que, efectivamente, una una hectárea de este lugar.
+
+03:19:18.000 --> 03:19:27.000
+Captura X toneladas. Yo con eso puedo calcular cuánto vale un bono potencialmente de carbono, Y esto lo puedo integrar.
+
+03:19:27.000 --> 03:19:35.000
+A mi valor presente del terreno, es decir, ya no vale 2 000 000 de dólares, sino que además vale 2 000 000 de dólares. Más 300 000 dólares anuales.
+
+03:19:35.000 --> 03:19:47.000
+Que yo puedo obtener en estos foros. Y, por el otro lado, la resiliencia climática proyectada aquel año. Dos 1 050, es superimportante, porque es una ventaja competitiva a largo plazo importantísima y muy muy fuerte.
+
+03:19:47.000 --> 03:19:55.000
+De Chile y de la Patagonia, particularmente versus otros potenciales lugares que un inversionista internacional podría evaluar, como, por ejemplo, Nueva Zelanda.
+
+03:19:55.000 --> 03:20:05.000
+Brasil, África Oriental, etcétera, porque tenemos menos probabilidad. De de que el lugar se seque.
+
+03:20:05.000 --> 03:20:15.000
+En pocas palabras. Respecto a la arquitectura, tenemos 3 capas principales. La primera tiene que ver con el almacenamiento y procesamiento. Esto sería todo en la plataforma de Google Cloud.
+
+03:20:15.000 --> 03:20:23.000
+Junto con Google Eartengine. Luego respecto a la data. Tenemos esta nueva fuente de datos de Alphair Foundations.
+
+03:20:23.000 --> 03:20:38.000
+Que tienes estos embadings de de información satelital junto con otros satélites, un poquito más tradicionales, como Coppernight lanza de existen varios otros, realmente algunos con data gratuita, otros con data más depurada y que hay que comprar.
+
+03:20:38.000 --> 03:20:49.000
+Y, finalmente, la capa de visualización y comparación que esto, por supuesto, embebido en la página web del sitio, y es: se va a limpiar con con sitios de de eastings internacionales de de propiedades.
+
+03:20:49.000 --> 03:20:59.000
+Tenemos Google Studio. Por un lado, Live Map, que es una plataforma que nos permite montar sobre esto en un planeotoide que se puede mover en 3 D.
+
+03:20:59.000 --> 03:21:04.000
+Todas las capas de datos de de Google, Alpha Alphire, Foundations.
+
+03:21:04.000 --> 03:21:13.000
+Y, por último, una plataforma para visualizar solamente lo preciso, ya que no no queremos que el potencial cliente tenga acceso a demasiada información.
+
+03:21:13.000 --> 03:21:17.000
+Qué puede hacerse, ya sea en logro, Studio. O bien en Power By.
+
+03:21:17.000 --> 03:21:31.000
+Respecto a los algoritmos. Lo que más nos interesan son, bueno, la elección de cambios para poder comparar cómo se está comportando un lugar en un momento versus el año siguiente, etcétera. Podemos tener esta línea temporal.
+
+03:21:31.000 --> 03:21:40.000
+Análisis de líneas de tiempo. Y también la segunda interpretation, que nos perdón segmentation, que nos permitiría.
+
+03:21:40.000 --> 03:21:49.000
+Medir, por ejemplo, las áreas verdes, el canopy sí que se trata de cultivos, si es que se trata de agua.
+
+03:21:49.000 --> 03:21:55.000
+Digamos cuál es, cuál es la el el terre, el terreno que tenemos y.
+
+03:21:55.000 --> 03:22:03.000
+En base a eso, se pueden hacer las estimaciones. Y finalmente, el análisis comercial. Bueno.
+
+03:22:03.000 --> 03:22:20.000
+El problema que que se identifica es que. Y no se trata solamente de un caso, sino que muchos casos donde realmente en Chile hay gente tratando de vender sus sus campus, sus terrenos, pero lo hacen solamente con esta narrativa, que es meramente visual meramente de fotos.
+
+03:22:20.000 --> 03:22:25.000
+Sin acceder a todo este potencial de los mercados. S. G.
+
+03:22:25.000 --> 03:22:31.000
+Que realmente tienen. Tienen un compeling event. A veces son empresas en China, en Europa que tienen.
+
+03:22:31.000 --> 03:22:37.000
+Ciertos tiempos en los cuales tienen que cumplir con metas de de descontaminación a nivel global.
+
+03:22:37.000 --> 03:22:42.000
+Y si no las cumples simplemente o tienen que pagar más impuestos o tienen que hacer modificaciones a la planta, o bien.
+
+03:22:42.000 --> 03:22:50.000
+Pueden ya pasar a comprar estos terrenos, y con eso meter su huella de carbono, entonces, es muy potente desde ese lado.
+
+03:22:50.000 --> 03:22:56.000
+Y eso es también la la relevancia empresarial. Y a través de esto creemos que podemos.
+
+03:22:56.000 --> 03:23:01.000
+Justificar un un alza importante del precio, por lo menos del 50 por 100 del terreno.
+
+03:23:01.000 --> 03:23:11.000
+Ya que accedemos a mercados internacionales. Los actores aquí que se ven afectados son: bueno, el el propietario, por supuesto que va a poder posicionar su terreno muchísimo mejor.
+
+03:23:11.000 --> 03:23:21.000
+Por el lado de los compradores también es súper atractivo, porque en vez de tener un terreno que no se sabe si realmente vale la pena o solo un estudio o no de ver, reinvertir esos 100 000 dólares.
+
+03:23:21.000 --> 03:23:27.000
+Ya tenemos aquí. Me das clic met claras. Que dan todos los indicios que el terreno tiene no tiene.
+
+03:23:27.000 --> 03:23:46.000
+Lo que se necesita para para avanzar en estos próximos pasos. Y todo eso se estima satelitalmente, es sin tener que incurrir en tantos costos, entonces finalmente la oportunidad acá es moverse desde un océano rojo que se le llama comercialmente, que es esto que tengo un mar lleno de pirañas infectadas y que todo el mundo está pirañas, tiburones, cocodrilo. Está la escoba.
+
+03:23:46.000 --> 03:23:52.000
+Y todo el mundo está compitiendo salvajemente a lo que se llama un océano azul, que es cuando tengo.
+
+03:23:52.000 --> 03:23:59.000
+Bueno, todo el mundo ve hasta aquí. Y y tengo muchísima gente que me quiere comprar. Yo soy el único que tiene ese producto exclusivo.
+
+03:23:59.000 --> 03:24:06.000
+Así que eso es. Y Y la visión de esto es bueno tener este prototipo con este parque en particular.
+
+03:24:06.000 --> 03:24:15.000
+Black Carpenter. Y luego esto poder escalarlo y llevarlo a. Bueno, la realidad es que hay cientos de terrenos en el sur que están en estas condiciones. Así.
+
+03:24:15.000 --> 03:24:24.000
+No es para nada fácil encontrar potenci perdón difícil encontrar potenciales clientes.
+
+03:24:24.000 --> 03:24:32.000
+Eso sería. Muchísimas gracias.
+
+03:24:32.000 --> 03:24:36.000
+Claro.
+
+03:24:36.000 --> 03:24:45.000
+África, Alejandro. Equipo Jorge Martínez y Samuel.
+
+03:24:45.000 --> 03:24:49.000
+Creo que es Egg.
+
+03:24:49.000 --> 03:24:57.000
+Emprendimiento, sostenibilidad, gournas son políticas que se han creado a nivel internacional nivel de la o N u.
+
+03:24:57.000 --> 03:25:04.000
+Y son objetivos globales a la selección de 20, 30, 2 042 1 050.
+
+03:25:04.000 --> 03:25:13.000
+Y la idea es que, básicamente, si tenemos una una empresa que está contaminando, puede neta meterse esa contaminación cumpliendo estos objetivos.
+
+03:25:13.000 --> 03:25:14.000
+Perfecto.
+
+03:25:14.000 --> 03:25:25.000
+Y son adjetivos que están bien delimitados. Tienen. Hay una matriz gigante con objetivos. Hay, por ejemplo, objetivos, por ejemplo, de de mantener especies en peligro, entonces ahí también se pueden agregar otros flujos distintos.
+
+03:25:25.000 --> 03:25:34.000
+Si es que nosotros probamos. Que estos terrenos tienen una diversidad de flores, de fauna específica. Eso también se puede ir alineando con estos otros.
+
+03:25:34.000 --> 03:25:40.000
+Objetivos y van a van funcionando a modo de acelerador. Es decir, contra más de estos puntos, 1 pueda probar.
+
+03:25:40.000 --> 03:25:42.000
+Ya.
+
+03:25:42.000 --> 03:25:45.000
+Más flujos puede obtener con estos bonos de carbón.
+
+03:25:45.000 --> 03:25:52.000
+Excelente. Segunda pregunta y sugerencia, o para dónde creo que va a pasar.
+
+03:25:52.000 --> 03:25:53.000
+Que cuando tú quieres hacer para segmentación semántica con piel vision perfecto.
+
+03:25:53.000 --> 03:25:57.000
+Mhm.
+
+03:25:57.000 --> 03:26:05.000
+La detección aceptó para conteo de árboles. También. Y luego una correlación con absorbe co 2 también.
+
+03:26:05.000 --> 03:26:09.000
+Lo que sí creo que lo más probable es que tú tengas que escalar a 3 D.
+
+03:26:09.000 --> 03:26:15.000
+No sé, va a tener que transformar lo que estás escaneando, mapeando.
+
+03:26:15.000 --> 03:26:30.000
+Y convertirlo en mapas digitales de delegación. Nortomosaico. No sé en gemelos digitales. ¿por qué? Porque cuando quieras comparar bosques.
+
+03:26:30.000 --> 03:26:31.000
+Sí, claro.
+
+03:26:31.000 --> 03:26:39.000
+Con solo imágenes. No sé si seas capaz. No sé. Yo creo que la detección del cambio más bien está entre entre comparar archivos, 3 D con archivos, 3 D.
+
+03:26:39.000 --> 03:26:52.000
+Es posible? Sí, sí. De hecho, estuvimos viendo que hay varias empresas que que tienen esta data y se dedican a esto, pero son estudios como que envían gente. Tienen estos sistemas como que me como que me mostraste de de Gaia.
+
+03:26:52.000 --> 03:26:53.000
+Con la terrestres. Claro.
+
+03:26:53.000 --> 03:27:04.000
+Con sensores. Claro. Y además de esto, toman muestras de de terreno y y toman una cantidad de ostras gigante. O sea, es realmente un tremendo proyecto, digamos.
+
+03:27:04.000 --> 03:27:05.000
+Exacto. Y dónde está? Jorge, es que el experto en.
+
+03:27:05.000 --> 03:27:11.000
+Poder capturar todo esto y toma.
+
+03:27:11.000 --> 03:27:15.000
+Discurso públicos.
+
+03:27:15.000 --> 03:27:20.000
+Por ahí. No sé si está por acá online.
+
+03:27:20.000 --> 03:27:25.000
+Ya. Ya viene Alejandro.
+
+03:27:25.000 --> 03:27:26.000
+Perfecto. Muchas gracias.
+
+03:27:26.000 --> 03:27:33.000
+Vamos con el equipo.
+
+03:27:33.000 --> 03:27:37.000
+Equipo. Catorce Quiénes son?
+
+03:27:37.000 --> 03:27:40.000
+A cada profesor.
+
+03:27:40.000 --> 03:27:45.000
+Ah de nuevo. Y.
+
+03:27:45.000 --> 03:27:46.000
+Paula.
+
+03:27:46.000 --> 03:27:51.000
+Otra. Sí por acá oí un paréntesis. Alejandro me encantó tu presentación.
+
+03:27:51.000 --> 03:27:52.000
+Y.
+
+03:27:52.000 --> 03:27:53.000
+O fabulosa. En verdad lograste captar mi atención todo el rato sin ningún tipo de distracción.
+
+03:27:53.000 --> 03:27:59.000
+Muchas gracias.
+
+03:27:59.000 --> 03:28:00.000
+Feliz.
+
+03:28:00.000 --> 03:28:04.000
+Teléfonos. Muchas gracias.
+
+03:28:04.000 --> 03:28:07.000
+Y. Mhm.
+
+03:28:07.000 --> 03:28:09.000
+De paula. Quién va? ¿te acompaña?
+
+03:28:09.000 --> 03:28:16.000
+Sí es que a. Bueno, mi equipo está conformado por Oscar Sánchez.
+
+03:28:16.000 --> 03:28:17.000
+Ok. Ya.
+
+03:28:17.000 --> 03:28:26.000
+Luis y Paula Milanés sí que le está hablando. Acá le estoy por Inter, compañero, que es el que va a mostrar la presentación.
+
+03:28:26.000 --> 03:28:30.000
+Nando, estás por ahí.
+
+03:28:30.000 --> 03:28:33.000
+A Oca Sánchez lo Vi.
+
+03:28:33.000 --> 03:28:36.000
+Sí. No, Sí, Luis.
+
+03:28:36.000 --> 03:28:37.000
+También está bueno.
+
+03:28:37.000 --> 03:28:45.000
+Si no está listo. Tengo 1. Tengo 1. ¿están listos? Óscar.
+
+03:28:45.000 --> 03:28:46.000
+Podemos ir nosotros. Con Fabián.
+
+03:28:46.000 --> 03:28:49.000
+Benjamino está mutilado.
+
+03:28:49.000 --> 03:28:53.000
+Que está que está allá en la sala.
+
+03:28:53.000 --> 03:29:01.000
+Ya vamos con ustedes. Entonces, mientras Paula hace. Se prepara.
+
+03:29:01.000 --> 03:29:08.000
+Y en la salida Benjamín. Vamos. Benjamín cataldo, ¿Quién más.
+
+03:29:08.000 --> 03:29:10.000
+Sí va. Fabián, que está en la sala.
+
+03:29:10.000 --> 03:29:18.000
+Estamos. Acá ¿Me escucha? Sí, Sí. Bueno, nuestro Grupo se conforma por Benjamín. Caraldo.
+
+03:29:18.000 --> 03:29:23.000
+Andrés Santiago. Que paga conmigo. Y mi nombre es Fabián. Cor.
+
+03:29:23.000 --> 03:29:27.000
+Mhm. Bueno, nuestro.
+
+03:29:27.000 --> 03:29:32.000
+Nuestra visión sobre este problema se basa en una empresa ficticia.
+
+03:29:32.000 --> 03:29:36.000
+Que se complementa un poco con el. Con el equipo de arriba de.
+
+03:29:36.000 --> 03:29:48.000
+Que presentó también un problema. Entonces nosotros tenemos una empresa ficticia que la denominamos auto fin.
+
+03:29:48.000 --> 03:29:54.000
+Ok, ya tus auto fin. Lo que hace es. Compra es una empresa de crédito automotriz. Entonces.
+
+03:29:54.000 --> 03:29:57.000
+Compra vehículos a los importadores. Ok. Y lo distribuye a las concesionarias de todo el país.
+
+03:29:57.000 --> 03:30:02.000
+Bailar.
+
+03:30:02.000 --> 03:30:11.000
+Entonces, cuando un concesionario vende un automóvil a través de un cliente con un crédito de auto fin.
+
+03:30:11.000 --> 03:30:20.000
+La empresa debe transferir parte del valor del vehículo. Y descontando el pie ya pagado por el cliente.
+
+03:30:20.000 --> 03:30:28.000
+En sus inicios, Autofin desarrolló una plataforma web. Principalmente para gestionar este proceso, pero.
+
+03:30:28.000 --> 03:30:34.000
+Fue diseñado para manejar aproximadamente un 65 por 100 del. Del volumen que enfrenta la compañía.
+
+03:30:34.000 --> 03:30:41.000
+Entonces, como resultado actual, generar estos costos operativos. Y un uso ineficiente de recurso. El motivo es por qué.
+
+03:30:41.000 --> 03:30:49.000
+Es porque, para verificar el stock de los vehículos. Y evitar que se vendan vehículos.
+
+03:30:49.000 --> 03:30:55.000
+Sin el pago correspondiente. Empresa envía inspectores, Ok, a cada una de las concesionarias.
+
+03:30:55.000 --> 03:31:01.000
+Y revisan cada unidad correspondiente a través de un identificador único de los automóviles, que es el B, I, M.
+
+03:31:01.000 --> 03:31:07.000
+Tú sabes lo que es el B I, N. Y lo registra manualmente en este sitio.
+
+03:31:07.000 --> 03:31:17.000
+Con su propio celular. Uno de los principales problemas es que cada vez que se conectan al sitio Web, se cargan todos los automóviles dentro de ese sitio.
+
+03:31:17.000 --> 03:31:24.000
+Y da la gran cantidad de vehículos de esta compañía, no les permite realizar un proceso ágil y también abarca.
+
+03:31:24.000 --> 03:31:30.000
+Todas las concesiones del país. Dentro de nuestro análisis correspondiente.
+
+03:31:30.000 --> 03:31:36.000
+De ese tipo, podemos indicar que. Existen problemas.
+
+03:31:36.000 --> 03:31:42.000
+En la El existen problemas en la facturación. Por venta no paga a tiempo, ya.
+
+03:31:42.000 --> 03:31:48.000
+Hay baja conectividad en terreno a dificultar la carga y validación de datos.
+
+03:31:48.000 --> 03:31:54.000
+Hay un ingreso manual del B. I, N Ok. Por parte de los inspectores que propensos de errores humanos.
+
+03:31:54.000 --> 03:32:03.000
+También existe una falta de geolocalización precisa. A partir de las de la ubicación de las concesionarias.
+
+03:32:03.000 --> 03:32:07.000
+Hay una actualización también de información que es lente, ya que la hacen 2 veces al día.
+
+03:32:07.000 --> 03:32:15.000
+Y hay una escalerabilidad también que insuficiente de la plataforma actual, ya que no tienen escala de habilidad.
+
+03:32:15.000 --> 03:32:22.000
+Y finalmente, cada lectura del B I M lo tiene que aprobar una jepadura que no participa de este proceso.
+
+03:32:22.000 --> 03:32:28.000
+Entonces lo que queremos hacer nosotros es generar una solución integral, ya.
+
+03:32:28.000 --> 03:32:36.000
+Que potencie la rentabilidad de autofin. Eso es nuestro objetivo. Sí que asumimos el desafío de construir una solución.
+
+03:32:36.000 --> 03:32:39.000
+Que que es que sea una herramienta y no ahora vale.
+
+03:32:39.000 --> 03:32:45.000
+Que les permita validar el stock en tiempo real. Minimizando completamente los errores.
+
+03:32:45.000 --> 03:32:52.000
+Y optimizar la supervisión también a los inspectores, ya que vamos a detectar ventas que no se hayan liquidado.
+
+03:32:52.000 --> 03:32:59.000
+Y vamos a reducir los costos y la necesidad de supervisión manual más que todo.
+
+03:32:59.000 --> 03:33:06.000
+Sí que el detalle de nuestra solución se va a basar en un escareo Venus, r y geolocalización.
+
+03:33:06.000 --> 03:33:12.000
+Que a partir del proceso del flujo actual, nos va a permitir a los inspectores que trabajen sin conexión.
+
+03:33:12.000 --> 03:33:18.000
+Integrar esa esa esa, esa. Información de los.
+
+03:33:18.000 --> 03:33:24.000
+Que hacen manualmente, pero integrándola. Al sistema cuando tengas conexión.
+
+03:33:24.000 --> 03:33:30.000
+Dentro del flujo manual que nosotros tenemos. Hay una inspección manual del B. I M, Hay un registro.
+
+03:33:30.000 --> 03:33:38.000
+Y con autotrac que es el nombre de nuestra solución. Lo que queremos hacer es capturar automáticamente el.
+
+03:33:38.000 --> 03:33:46.000
+La geolocalización. Y también determinar la alerta tempranas para poder detener al inspector. Si la autovía la suspendió.
+
+03:33:46.000 --> 03:33:54.000
+Okay, los datos queremos sincronizarlos también en tiempo real. Para poder que la información fluya.
+
+03:33:54.000 --> 03:34:02.000
+Online. Dentro de los modelos de Ida. Nosotros detectamos el reconocimiento del B I M.
+
+03:34:02.000 --> 03:34:12.000
+Mediante el modelo de Yolong en la versión 8 0. Con el objetivo, porque queremos determinar la imagen del bien correspondiente y también también queremos.
+
+03:34:12.000 --> 03:34:21.000
+Tomar la información de las patentes del auto para generar la entrada y salida a las concesionarias, con el objetivo de ver dónde se encuentran los autos que son.
+
+03:34:21.000 --> 03:34:26.000
+Usaos. Ok, que también es parte de la. Del negocio.
+
+03:34:26.000 --> 03:34:34.000
+Vamos a ocupar tenso Flow para optimizar los modelos que se ejecuten mediante dispositivos móviles, que nos ayuda bastante.
+
+03:34:34.000 --> 03:34:44.000
+Y vamos a optimizar también los modelos en el entrenamiento correspondiente del análisis de los datos que son más pesados. Vamos a ocupar Google, Cloud Platform.
+
+03:34:44.000 --> 03:34:54.000
+Ok. Como dije en un principio, nuestro objetivo es maximizar las ventas y nuestro modelo va a analizar un inventario en tiempo real.
+
+03:34:54.000 --> 03:35:03.000
+Con ese objetivo de analizar la logística completa. Y verificarlo los vehículos que puedan ser transferidos a concesionarias que tengan mayor.
+
+03:35:03.000 --> 03:35:17.000
+Rentabilidad y también los que tengan mayor demanda. Y como valor agregado, vamos al producto. Vamos a considerar también la previsión de precios de los repuestos, de los autos.
+
+03:35:17.000 --> 03:35:22.000
+En nuestra arquitectura. Está basada en una arquitectura.
+
+03:35:22.000 --> 03:35:27.000
+De 3 capas. Que se refleja.
+
+03:35:27.000 --> 03:35:38.000
+Específicamente en la cabeza de dispositivo móvil. Una aplicación móvil que íbamos a desarrollar con flatter tanto para I U. S. Y Android.
+
+03:35:38.000 --> 03:35:45.000
+Computer Vision. Vamos a ocupar un tenso froom light y un X runtime para el reconocimiento del B I M automático.
+
+03:35:45.000 --> 03:35:51.000
+En modo flame, vamos a sincronizar automáticamente la conexión a Internet cuando se conecte.
+
+03:35:51.000 --> 03:35:57.000
+Dentro de la capa de servicios, la 9. La segunda capa. Vamos a hacer un procesamiento con Ia avanzado.
+
+03:35:57.000 --> 03:36:07.000
+Nos vamos a en Google principalmente. Y la información del Pin. A nivel de datos, la vamos a almacenar en una base de datos Sqlserver en la nube.
+
+03:36:07.000 --> 03:36:12.000
+También vamos a poner apis de integración que son api refull.
+
+03:36:12.000 --> 03:36:16.000
+Que van a estar seguradas y con framework dejango en Python.
+
+03:36:16.000 --> 03:36:23.000
+Para comunicar la aplicación móvil con la base de datos y también los servicios que tiene integrados.
+
+03:36:23.000 --> 03:36:29.000
+Y finalmente, la sincronización. Badge. De los procesos diarios que la hacen a través de un core.
+
+03:36:29.000 --> 03:36:37.000
+Genera también un sistema de alerta que que va a enviar en tiempo real todos los movimientos de los vehículos a la inspección.
+
+03:36:37.000 --> 03:36:43.000
+Vale. A nivel de impacto cuantificable.
+
+03:36:43.000 --> 03:36:50.000
+Dentro del 100 por 100 de los costos operativos. Nosotros estimamos que se baja principalmente en.
+
+03:36:50.000 --> 03:37:01.000
+Allí llegamos a un 62 por 100. Por lo tanto, hay una reducción de los costos operativos. También hay una rebaja bastante significativa en los tiempos de inspección.
+
+03:37:01.000 --> 03:37:08.000
+Y completamente las tasa de errores. Temas que puedan ser de infraestructuras.
+
+03:37:08.000 --> 03:37:14.000
+La la probabilidad de que genera errores. Con esto es muy poco.
+
+03:37:14.000 --> 03:37:22.000
+En relación a estos costos y retornos de inversión, calculamos una inversión inicial de un cable de 650 Uf.
+
+03:37:22.000 --> 03:37:37.000
+Que una inversión única por el desarrollo y la implementación. Y lo y los costos operativos o ovex correspondientes a 40 o F por un total de un año, que incluye mantenimiento, licencia y servicios club.
+
+03:37:37.000 --> 03:37:43.000
+Si quieres aceptar nuestra visión, autotrac. Con un software integral para para venderlo.
+
+03:37:43.000 --> 03:37:53.000
+Muchas gracias.
+
+03:37:53.000 --> 03:38:03.000
+Cuando hay movimientos de los autos entre las concesionarias. Y se genera principalmente de la misma marca.
+
+03:38:03.000 --> 03:38:13.000
+Eso va a. La entrada y salida del auto de la revisión correspondiente para poder resolver dónde se venden los vehículos con mayor prioridad.
+
+03:38:13.000 --> 03:38:19.000
+Y de el objetivo también. Si hay una persona que está validando este proceso.
+
+03:38:19.000 --> 03:38:25.000
+Y que no participe de él al momento de tomar la fotografía correspondiente del B I.
+
+03:38:25.000 --> 03:38:31.000
+Ok, a través del software permitiría identificar en qué concesiones está sin necesidad de.
+
+03:38:31.000 --> 03:38:53.000
+De seleccionar. Exacto. Mhm.
+
+03:38:53.000 --> 03:38:58.000
+Venga Eso me refiero. Ajá.
+
+03:38:58.000 --> 03:39:03.000
+Se pueden para otras cosas como la herramienta. Y.
+
+03:39:03.000 --> 03:39:09.000
+Okay. Allí. Podría ser a.
+
+03:39:09.000 --> 03:39:13.000
+Vale. Muy bien.
+
+03:39:13.000 --> 03:39:23.000
+A la.
+
+03:39:23.000 --> 03:39:31.000
+Lo saquearon. Con un saco.
+
+03:39:31.000 --> 03:39:38.000
+Hola. Paula están ahí. Estaban mutiados.
+
+03:39:38.000 --> 03:39:43.000
+Ay, sí, Luis Fernando Fuentes. Oscar Sánchez y.
+
+03:39:43.000 --> 03:39:50.000
+Paula Milanesi. No lo escuchamos.
+
+03:39:50.000 --> 03:39:52.000
+Acá estamos. Pro.
+
+03:39:52.000 --> 03:39:56.000
+A qué tal? Perfecto.
+
+03:39:56.000 --> 03:40:01.000
+Ya parte un momento, entonces. Bueno, como les mencionaba.
+
+03:40:01.000 --> 03:40:09.000
+En nuestro equipo está conformado por Oscar Sánchez, Luis Fuentes y Paula Milanes, ¿Y quién les habla.
+
+03:40:09.000 --> 03:40:15.000
+Ya Bueno. Primero, vamos a partir identificando el desafío del problema.
+
+03:40:15.000 --> 03:40:28.000
+En donde ahí avanza la la lámina porfa. En donde, básicamente, hoy, en Chile la seguridad de los condominios depende principalmente guardas.
+
+03:40:28.000 --> 03:40:36.000
+Y procesos muy manuales, ya. Esto significa costos elevados, errores humanos, ingreso no autorizados.
+
+03:40:36.000 --> 03:40:42.000
+Y ausencia de registros confiables. Ya. Además, también no existen mecanismos automáticos.
+
+03:40:42.000 --> 03:40:50.000
+Que regulen riesgos internos, como, por ejemplo, el exceso de velocidad dentro de los espacios comunes. Dentro de estas comunidades.
+
+03:40:50.000 --> 03:40:57.000
+Ya esto básicamente genera una vulnerabilidad en la seguridad de los residentes y los visitantes.
+
+03:40:57.000 --> 03:41:04.000
+Además de generar en algunos casos. Altos costos operativos en personal de control.
+
+03:41:04.000 --> 03:41:12.000
+Ya la otra. La lámina la. Después. Bueno, tenemos la oportunidad de innovar con con I a R.
+
+03:41:12.000 --> 03:41:22.000
+Ya ante un desafío de tal magnitud. Proponemos un sistema inteligente de control de acceso con I a y Computer Bitcoin.
+
+03:41:22.000 --> 03:41:29.000
+Capaz de paliar identidades mediante reconocimiento facial. Lecturas de matrículas con Lpr.
+
+03:41:29.000 --> 03:41:36.000
+Monitorear control de velocidad y tránsito peatonal. Mejorando la seguridad vial interna.
+
+03:41:36.000 --> 03:41:42.000
+Y también bueno, generando registros auditables para la trazabilidad y respaldo ante incidentes.
+
+03:41:42.000 --> 03:41:51.000
+Esto también nos va a permitir tomar decisiones inmediatas en Ets Computer incluso cuando estén offline.
+
+03:41:51.000 --> 03:41:59.000
+Ya hoy día. Bueno, el el mercado es enorme en donde está contabilizado de manera informal.
+
+03:41:59.000 --> 03:42:04.000
+Aproximadamente un 1 000 000 de condominios habitacionales en Chile, ya lo cual.
+
+03:42:04.000 --> 03:42:09.000
+Tiene un un 15 anual de la demanda de seguridad privada.
+
+03:42:09.000 --> 03:42:20.000
+Ya en donde nuestra propuesta de valor es clara. Por por medio de un sistema que aumente la protección, reduzca los costos, quizás en en un 80 por 100.
+
+03:42:20.000 --> 03:42:29.000
+Alcanzando un rol superior al 500 por 100. Y se pague en menos de 2 meses.
+
+03:42:29.000 --> 03:42:35.000
+La otra lámina.
+
+03:42:35.000 --> 03:42:42.000
+Bueno, la solución prácticamente consta de. Tres módulos.
+
+03:42:42.000 --> 03:42:51.000
+Todo caso, esta solución es hacer una solución. Paz. Se está efectuando los los procesos en Ashle.
+
+03:42:51.000 --> 03:42:55.000
+Pero el primer Mock Up lo tenemos omprend. De modo hecho.
+
+03:42:55.000 --> 03:43:00.000
+Y acá en los 3 módulos. Lo que hace la solución detecta.
+
+03:43:00.000 --> 03:43:09.000
+Por Here Skate, el reconocimiento facial para próximamente al número que es que escale y usar prácticamente Facebook Learning basado en Yolo.
+
+03:43:09.000 --> 03:43:15.000
+Y el reconocimiento de animales es to es tanto como vehículos animales. Se utiliza.
+
+03:43:15.000 --> 03:43:22.000
+Yo lo la arquitectura está basada en microservicios. Es portal Estado que está actualmente.
+
+03:43:22.000 --> 03:43:28.000
+A fin de que pueda ser una solución. Portable para aquellos en.
+
+03:43:28.000 --> 03:43:36.000
+Clientes que no deseen consumir un servicio, paz. Por tema capaz de expensas en costos futuros o por temor en tema de privacidad de datos.
+
+03:43:36.000 --> 03:43:44.000
+Y esto se puede implementar de forma. Tanto local en su infraestructura que tenga.
+
+03:43:44.000 --> 03:43:49.000
+Los modelos di de ir a prácticamente son Harkey sket. En este caso son el machine learning tradicional confeder connection.
+
+03:43:49.000 --> 03:43:56.000
+Y el modelo de jolo es la versión nano más ultra lítics, obviamente, y yo se reemplazado para detección de plagas.
+
+03:43:56.000 --> 03:44:08.000
+Patita se utiliza la técnica de filtrado gaussiano. Actualmente no he estado, no está aplicado porque se utiliza en el en el test estamos utilizando hackees kate, hay que decir, detecta prácticamente los rostros, pero no así.
+
+03:44:08.000 --> 03:44:14.000
+Genera un patrón de ver Impase Match respecto de los patrones que.
+
+03:44:14.000 --> 03:44:19.000
+Que tienen prácticamente el los rostros de de las personas que deben ir registrando.
+
+03:44:19.000 --> 03:44:33.000
+En el sistema.
+
+03:44:33.000 --> 03:44:38.000
+De Jay Óscar.
+
+03:44:38.000 --> 03:44:43.000
+Falta buscar. Te saltaste ahí una lámina.
+
+03:44:43.000 --> 03:44:46.000
+Palo. Me escuchan. Ahh.
+
+03:44:46.000 --> 03:44:48.000
+Sí, ahí está Oscar.
+
+03:44:48.000 --> 03:44:50.000
+Escuchamos.
+
+03:44:50.000 --> 03:44:55.000
+Perfecto. Muy bien, creo que es la que está anterior a este.
+
+03:44:55.000 --> 03:45:02.000
+Dando, por favor. Que es el oportunity.
+
+03:45:02.000 --> 03:45:10.000
+Ya perfecto, bien en la oportunidad del producto, prácticamente consiste en proponer un sistema modular.
+
+03:45:10.000 --> 03:45:15.000
+De Computer Vision, que combine el control de acceso seguro interna y monitoreo.
+
+03:45:15.000 --> 03:45:22.000
+En un solo ecosistema. Lo que va a permitir es validar el acceso de peatones de vehículos.
+
+03:45:22.000 --> 03:45:29.000
+Y de vehículos a través del reconocimiento facial y lectura de matrículas por Lpr.
+
+03:45:29.000 --> 03:45:36.000
+También va a monitorear ciertos comportamientos a nivel de seguridad, como la detección de velocidades o tránsito no autorizado.
+
+03:45:36.000 --> 03:45:44.000
+A su vez, va a generar registros auditables o históricos. Útiles para la administración y para las aseguradoras.
+
+03:45:44.000 --> 03:45:51.000
+Iba a funcionar con excomputing, garantizando decisiones inmediatas, incluso sin conexión a Internet. En este caso, Flight.
+
+03:45:51.000 --> 03:45:57.000
+El impacto esperado que tiene este sistema es de, obviamente, generar.
+
+03:45:57.000 --> 03:46:08.000
+Mayor seguridad y una reducción en los delitos e infracciones. Ahorrar costos y también disminuir dependencia de de guardias.
+
+03:46:08.000 --> 03:46:21.000
+O ronderos, y el valor agregado es para la comunidad, generando una confianza y percepción de seguridad.
+
+03:46:21.000 --> 03:46:31.000
+Bueno. Con respecto a los factores sociales, pudimos identificar la creciente demanda en la seguridad privada en los condominios, al igual que también la creación.
+
+03:46:31.000 --> 03:46:38.000
+De de estos mismos. La necesidad también de respetar la privacidad y la protección de datos personales.
+
+03:46:38.000 --> 03:46:45.000
+También tenemos la regulación y el cumplimiento del reglamento interno que existe en cada 1 de estos condominios.
+
+03:46:45.000 --> 03:46:55.000
+Como factor tecnológico. Pudimos identificar los avances en reconocimiento facial y de matrículas en entornos no controlados.
+
+03:46:55.000 --> 03:47:01.000
+La integración de ios, sensores y barreras automáticas, y el uso de herramientas open source de Computer vision.
+
+03:47:01.000 --> 03:47:12.000
+Ya con sistema yolo. A nivel de factor económico, podemos mencionar la reducción de gasto en seguridad privada, disminución de pérdidas económicas por delito.
+
+03:47:12.000 --> 03:47:24.000
+Y posibles bajas en primas de seguros por mejores estándares de control.
+
+03:47:24.000 --> 03:47:36.000
+Con respecto un poco al análisis comercial. Les les mencionaba un poco el tamaño del mercado, el cual está identificado alrededor del 1 000 000 de condominios.
+
+03:47:36.000 --> 03:47:42.000
+El cual no es una cifra exacta, No, no está cuantificado en en un lugar.
+
+03:47:42.000 --> 03:47:48.000
+De manera oficial, pero solo lo que está. Y es en el sistema.
+
+03:47:48.000 --> 03:47:56.000
+En donde la oportunidad de mercado está muy latente porque la gente por esta sensación de inseguridad está invirtiendo en este tipo de.
+
+03:47:56.000 --> 03:48:04.000
+Herramientas para mejorar su entorno, sus hogares. Los los clientes.
+
+03:48:04.000 --> 03:48:11.000
+Inicialmente sería en este caso los condominios habitacionales. Ya con una propuesta de valor.
+
+03:48:11.000 --> 03:48:15.000
+En donde buscamos entregar a los condominios un sistema de seguridad inteligente.
+
+03:48:15.000 --> 03:48:20.000
+Que aumente la protección de los residentes y busque la reducción de los costos.
+
+03:48:20.000 --> 03:48:26.000
+En un con un retorno perdón en poco tiempo con tecnología escalable al futuro.
+
+03:48:26.000 --> 03:48:32.000
+Y también en el fondo, que sea una solución de baja inversión con un con un alto impacto.
+
+03:48:32.000 --> 03:48:39.000
+Como por medio de tecnología de de Ets, Computer. Con algoritmos de visión artificial.
+
+03:48:39.000 --> 03:48:50.000
+Y también, como mencionaba nando. Escalable a otros usos, como por ejemplo en el futuro, podría ser detección de armas, reconocimiento a mascotas.
+
+03:48:50.000 --> 03:48:58.000
+Entre otro tipo de. De uso igual dependiendo de la necesidad, en el fondo de de la empresa como tal.
+
+03:48:58.000 --> 03:49:04.000
+Con respecto al modelo de ingreso, vamos a ocupar el de revenue revenue perdomo model.
+
+03:49:04.000 --> 03:49:11.000
+En la cual, bueno, vamos a tener una venta inicial de un hardware con la instalación.
+
+03:49:11.000 --> 03:49:18.000
+Un fin mensual que va a corresponder a la mantención. Que, bueno, ahí más adelante van a ver una tablita.
+
+03:49:18.000 --> 03:49:25.000
+Entre 3 a 8 veces mensuales, según. Dependiendo el número de cámaras que haya en el condominio.
+
+03:49:25.000 --> 03:49:32.000
+Y servicios adicionales. Como, por ejemplo, no sé, actualizaciones, monitoreos, remotos.
+
+03:49:32.000 --> 03:49:38.000
+Reportes analíticos, etcétera. Bueno con respecto al análisis de la competencia.
+
+03:49:38.000 --> 03:49:44.000
+Nuestra competencia directa. Hoy día representan las empresas de seguridad tradicionales.
+
+03:49:44.000 --> 03:49:50.000
+Ya con bueno. La competencia tecnológica: perdón.
+
+03:49:50.000 --> 03:49:55.000
+Con sistemas de cámara de circuitos cerrados de T V sin a.
+
+03:49:55.000 --> 03:50:00.000
+Y portones eléctricos estándar. La ventaja diferencial.
+
+03:50:00.000 --> 03:50:06.000
+Básicamente se reduce a la al. Costos menores de seguridad tradicional.
+
+03:50:06.000 --> 03:50:14.000
+Y la travis trazabilidad, perdón y la I, A, que básicamente el circuito de cámara cerrada.
+
+03:50:14.000 --> 03:50:19.000
+No ofrece. Con respecto a los riesgos y las barreras de entrada.
+
+03:50:19.000 --> 03:50:25.000
+Perdón. Tenemos la regulación. Por el cumplimiento de la ley de protección de datos.
+
+03:50:25.000 --> 03:50:31.000
+La aceptación social por la percepción de la seguridad de los condominios.
+
+03:50:31.000 --> 03:50:39.000
+Y la tecnología que claramente dependemos de las condiciones ambientales. Que pueden afectar el desempeño de esta.
+
+03:50:39.000 --> 03:50:45.000
+En síntesis, ofrecen una solución de bajo costo, con un alto impacto y un retorno casi inmediato.
+
+03:50:45.000 --> 03:50:50.000
+Que transforma la seguridad en condominios y abre las puertas a un negocio escalable.
+
+03:50:50.000 --> 03:50:57.000
+En cualquier pa en cualquier parte del país. Acá como muestra.
+
+03:50:57.000 --> 03:51:04.000
+La lámina. Nosotros. Lo que quisimos hacer. Fue hacer una comparación del caso A y el caso e.
+
+03:51:04.000 --> 03:51:15.000
+En donde tomamos un condominio con 100 casas. Con un acceso en donde, en el caso a tenemos 3 guardias con turnos rotativos. 24 7.
+
+03:51:15.000 --> 03:51:22.000
+Con un costo anual de 28 000 ochocien. 28 000 000 perdón, 800 000. Y en el caso B.
+
+03:51:22.000 --> 03:51:29.000
+El mismo condominio, con las mismas características. Pero con 2 guardias en turnos a M y Pm.
+
+03:51:29.000 --> 03:51:39.000
+Ya con un coste de 19 000 200. Para no entrar mucho en detalle. Lo que les quiero mencionar que nosotros aquí establecimos una.
+
+03:51:39.000 --> 03:51:47.000
+Una tabla en el fondo de costos. En donde hicimos la la comparación, sacamos el roll.
+
+03:51:47.000 --> 03:51:57.000
+En donde nos dio un rol superior a 500. ¿qué quiere decir que en en escenarios conservadores, es un proyecto altamente rentable y atractivo.
+
+03:51:57.000 --> 03:52:06.000
+Ya en donde también tenemos un retorno de inversión de 1, coma 6 meses que no no alcanzan a ser 2 meses.
+
+03:52:06.000 --> 03:52:14.000
+Lo cual lo lo hace muy atractivo. En cuanto al el precio, vers el servicio y la.
+
+03:52:14.000 --> 03:52:23.000
+La la ventaja que ofrece.
+
+03:52:23.000 --> 03:52:25.000
+Que, por favor. Perfecto. Hablemos de la arquitectura del sistema a mayor detalle.
+
+03:52:25.000 --> 03:52:30.000
+No, no.
+
+03:52:30.000 --> 03:52:39.000
+Prácticamente es una estructura modular en el microservicio que está. Digamos que dividida en en 2 capas.
+
+03:52:39.000 --> 03:52:44.000
+Donde tenemos un back end donde hay un módulo de orquestrator que coordina los procesos de detección.
+
+03:52:44.000 --> 03:52:52.000
+Y a su vez, estaría conectado con el yo, los versión 8 donde identifica los objetos, principales personas, vehículos, placas.
+
+03:52:52.000 --> 03:53:02.000
+Animales, etcétera, el de los especializados, que prácticamente son aquellos que se encargan de reconocimiento facial y de y de los vehículos.
+
+03:53:02.000 --> 03:53:05.000
+Y, obviamente, una base de datos que centraliza en los registros de accesos y eventos.
+
+03:53:05.000 --> 03:53:11.000
+De las identidades. Por otra parte, en la en la otra Pa: en la otra etapa, en la otra.
+
+03:53:11.000 --> 03:53:18.000
+Perdón. Capa Tenemos el Front. Que prácticamente donde interactúa el usuario, donde esto se conecta a través de un fast Api.
+
+03:53:18.000 --> 03:53:28.000
+Que sirve como interfaz de comunicación entre el Backend y Dashboard. Y esto se conecta al Warh Hubs como tal, que permite enviar alertas integrarse con otros sistemas, como un 100, por ejemplo.
+
+03:53:28.000 --> 03:53:36.000
+Y a su vez lo presentan un Dashboard Webk, donde se visualizan los accesos, las alertas y las estadísticas en tiempo real, que es lo que prácticamente estaría viendo.
+
+03:53:36.000 --> 03:53:50.000
+El Warner Welcome, jefe. Y los casos de usos visibles prácticamente son vehículos detectados en carreteras contra estabilidad, que es prácticamente lo que se entrega y reconocimiento facial para velar residentes y visitantes con decisión inmediata.
+
+03:53:50.000 --> 03:53:59.000
+Exceso permitido o enviado como tal. Ahí extra. Le voy a dar el paso. Bueno, que me dé una imagen donde ustedes pueden ver donde prácticamente ya hay una pop.
+
+03:53:59.000 --> 03:54:14.000
+Creará. A continuación, Louis. Y Y la idea es que puedan ver cómo funciona nuestro sistema.
+
+03:54:14.000 --> 03:54:20.000
+Bueno basada en la arquitectura anterior. Nosotros levantamos un G, S I, P: Hay.
+
+03:54:20.000 --> 03:54:25.000
+Para emular lo que sería prácticamente la interfaz de usuario. Como pueden ver, es un.
+
+03:54:25.000 --> 03:54:31.000
+Sistema de registro actualmente que cuenta con un blashboard donde están prácticamente registrado lo que serían mascotas.
+
+03:54:31.000 --> 03:54:35.000
+Residentes y o vehículos resistentes. En el módulo de residentes.
+
+03:54:35.000 --> 03:54:38.000
+Dando.
+
+03:54:38.000 --> 03:54:44.000
+Se puede ver que es es superamigable, lo que permite agregar.
+
+03:54:44.000 --> 03:54:47.000
+Prácticamente los residentes. Y letras.
+
+03:54:47.000 --> 03:54:54.000
+Disculpa. Fernando no se está viendo la interfaz web. Estamos viendo todavía la presentación.
+
+03:54:54.000 --> 03:54:56.000
+Ahh okay Dame un segundo.
+
+03:54:56.000 --> 03:54:58.000
+Deja de presentarle y vuelve a presentar por. Sí.
+
+03:54:58.000 --> 03:55:03.000
+Una plataforma web.
+
+03:55:03.000 --> 03:55:10.000
+Vamos.
+
+03:55:10.000 --> 03:55:13.000
+Okay. Ahora se ve.
+
+03:55:13.000 --> 03:55:14.000
+Sí, ahí Sí.
+
+03:55:14.000 --> 03:55:16.000
+Eso.
+
+03:55:16.000 --> 03:55:26.000
+Bien, Bueno. Esta interfaz Suele se se levantó con el Facevity, basado en la arquitectura que mostró Óscar anteriormente. Esto Paraba, por ejemplo.
+
+03:55:26.000 --> 03:55:34.000
+Siendo que actualmente es un M. V. P. Está montado con Facevipi, pero puede ser escalable, siendo que se Monte Nation para utilizarlo y.
+
+03:55:34.000 --> 03:55:44.000
+Aplicarle un modelo de paz den dentro de una web. En sí. Lo modular es que puedes registrar vehículos tanto mascotas como recientes.
+
+03:55:44.000 --> 03:55:49.000
+Y cuenta con un módulo. Es súper amigable para poder hacer el registro de cada 1.
+
+03:55:49.000 --> 03:55:52.000
+Todo esto persiste en la base de datos en donde se pretende.
+
+03:55:52.000 --> 03:56:03.000
+Generar luz en Beering Tant. Todos los los imped vector. Para poder hacer el Match al momento de hacer el monitor monitoreo en línea.
+
+03:56:03.000 --> 03:56:10.000
+Se cuenta con este modelo, que es totalmente. Está desactivado porque.
+
+03:56:10.000 --> 03:56:15.000
+Hay un debate, pero. Este es el que utiliza Herkes Kate.
+
+03:56:15.000 --> 03:56:19.000
+Que prácticamente se me se me cayó, pero tengo otro sistema andando.
+
+03:56:19.000 --> 03:56:25.000
+Y creo que está. No sé si lo pueden ver.
+
+03:56:25.000 --> 03:56:28.000
+Y. Sí.
+
+03:56:28.000 --> 03:56:29.000
+No lo hemos podido ver.
+
+03:56:29.000 --> 03:56:37.000
+Bueno. Bueno y hay acá también se registra lo que es el tema de las infracciones.
+
+03:56:37.000 --> 03:56:38.000
+Excelente. Equipo. Bien, aplauso. Por favor.
+
+03:56:38.000 --> 03:56:46.000
+Dado que el municipio.
+
+03:56:46.000 --> 03:56:53.000
+Muy bien, Paula Óscar y Luis Fernando. Bueno.
+
+03:56:53.000 --> 03:56:57.000
+Hacía una jornada larga. Me alegra lo que yo esperaba.
+
+03:56:57.000 --> 03:57:03.000
+Ahora tengo una clase de 2 h esperando por usted. No, No.
+
+03:57:03.000 --> 03:57:09.000
+Sin querer queriendo. Creo que los hice explorar mucho en términos de compiler, vision.
+
+03:57:09.000 --> 03:57:16.000
+Y de soluciones reales y aplicaciones reales que podemos. Que podemos trabajar. Cierto como.
+
+03:57:16.000 --> 03:57:23.000
+Como ingeniero en Computer Vision. Déjen. Para cerrar el curso, déjenme compartir pantalla.
+
+03:57:23.000 --> 03:57:37.000
+Un segundo. Gracias. Paula.
+
+03:57:37.000 --> 03:57:47.000
+No, no.
+
+03:57:47.000 --> 03:57:55.000
+Mhm.
+
+03:57:55.000 --> 03:58:03.000
+Este pantallita.
+
+03:58:03.000 --> 03:58:07.000
+Y. Se me encerró mi pantallita.
+
+03:58:07.000 --> 03:58:37.000
+Dejemos a cerrar.
+
+03:58:55.000 --> 03:59:10.000
+Creo. María, el computador, tanto presentaciones. Risas.
+
+03:59:10.000 --> 03:59:25.000
+Y a.
+
+03:59:25.000 --> 03:59:30.000
+Bueno para cerrar. Se lo voy a compartir esto en un web curso.
+
+03:59:30.000 --> 03:59:37.000
+Pero por lo que veo en sus presentaciones, la mayoría. Estuvo mirando. ¿cierto? Lo que.
+
+03:59:37.000 --> 03:59:42.000
+Lo que nos faltó, que son básicamente el resto de las redes neuronales.
+
+03:59:42.000 --> 03:59:46.000
+Vemos solamente con Vision era Network, que básicamente el 90 por 100.
+
+03:59:46.000 --> 03:59:53.000
+De las redes rurales para cumplir visión, pero que se han ido soltó extendiendo.
+
+03:59:53.000 --> 04:00:00.000
+Se han ido extendiendo durante. Lo último, al menos 10 años.
+
+04:00:00.000 --> 04:00:09.000
+Vamos, vamos, vamos, vamos. Entonces se lo voy a subir al web curso, pero básicamente.
+
+04:00:09.000 --> 04:00:20.000
+Estamos después de cumplir misión tradicional. Avanzamos a redes neuronales. Ya sea a través de filtros, cierto que automáticamente aprenden.
+
+04:00:20.000 --> 04:00:30.000
+Los valores del filtro para poder procesar la imagen. A redes neuronales.
+
+04:00:30.000 --> 04:00:37.000
+Tradicionales. De dónde nacen, que es básicamente de 3 grandes.
+
+04:00:37.000 --> 04:00:41.000
+Ay. De 3 grandes significaciones.
+
+04:00:41.000 --> 04:00:49.000
+De la red biológica. Una es de los pesos ponderados, que es la que me gustaría decir antes de que se vayan.
+
+04:00:49.000 --> 04:00:56.000
+De los pesos ponderados.
+
+04:00:56.000 --> 04:01:00.000
+En mi pantalla. Los zoom, ¿cierto? Lo online.
+
+04:01:00.000 --> 04:01:02.000
+No profe.
+
+04:01:02.000 --> 04:01:03.000
+No profe.
+
+04:01:03.000 --> 04:01:06.000
+Ahora. Ahora, Sí.
+
+04:01:06.000 --> 04:01:13.000
+No.
+
+04:01:13.000 --> 04:01:16.000
+Ahora.
+
+04:01:16.000 --> 04:01:17.000
+Ahora está cargando. Está cargando. Ahora, Sí.
+
+04:01:17.000 --> 04:01:18.000
+No, por ejemplo.
+
+04:01:18.000 --> 04:01:20.000
+Ay, Por eso yo estoy agregando.
+
+04:01:20.000 --> 04:01:23.000
+Dice.
+
+04:01:23.000 --> 04:01:33.000
+Perfecto.
+
+04:01:33.000 --> 04:01:39.000
+Ya? Bueno, ahí les voy a subir los problemas de regla: redes neuronales en escenarios complejos.
+
+04:01:39.000 --> 04:01:47.000
+Los típicos modelos que se ocupan en redes neuronales, como detección de objetos, filmación de distancia, segmentación semántica.
+
+04:01:47.000 --> 04:01:50.000
+¿qué pasa con él de ponerle un nombre? Todo este tipo de inbox.
+
+04:01:50.000 --> 04:01:56.000
+La línea de tiempo de Eai I Machine Learning. Y cómo se ha ido mejorando.
+
+04:01:56.000 --> 04:02:03.000
+La inspiración del cerebro humano en términos de corteza visual. ¿qué pasa que hoy día la red neuronales más avanzada.
+
+04:02:03.000 --> 04:02:11.000
+Lo que están haciendo es que las primeras capas están sacando las primeras características de la imagen y las siguientes capas.
+
+04:02:11.000 --> 04:02:16.000
+Está avanzando en reconocer los objetos más complejos de la imagen.
+
+04:02:16.000 --> 04:02:25.000
+Entonces hay una jerarquización adentro de la red neuronal. Segundo cierto, estamos creando rehenes neuronales donde.
+
+04:02:25.000 --> 04:02:33.000
+Desde hace más de 100 años estamos ponderando las entradas y por eso que existen los pesos por los Waits, una función.
+
+04:02:33.000 --> 04:02:39.000
+De peso que está ponderando un input en este caso de la.
+
+04:02:39.000 --> 04:02:47.000
+Junto con eso hay funciones de activación. Haciendo que el aprendizaje y el procesamiento esté dentro de la red neuronal.
+
+04:02:47.000 --> 04:02:52.000
+O sea, salir del paradigma donde el procesador está separado de la memoria.
+
+04:02:52.000 --> 04:03:01.000
+La típica, cierto máquina enseñada para los informáticos, computación. Hoy día, la memoria. Yo estoy. El aprendizaje está dentro de la red neuronal.
+
+04:03:01.000 --> 04:03:11.000
+Ese es un aprouge totalmente diferente. Y de cómo nace esto. Hace más de 150 años. ¿cierto? Un tipo que se llama Alexander Weine.
+
+04:03:11.000 --> 04:03:19.000
+Dijo la red neurona perdón. El cerebro está. Modelado matemáticamente como conexiones.
+
+04:03:19.000 --> 04:03:24.000
+Conexiones que conectan una neurona con otra o células con otras.
+
+04:03:24.000 --> 04:03:32.000
+No sé. Los resultados de activación de esa neurona van a depender de los inputs.
+
+04:03:32.000 --> 04:03:40.000
+Que le llegue Entonces, diferentes inputs pueden generar diferentes outputs, por ejemplo, B y C pueden generarse prima.
+
+04:03:40.000 --> 04:03:46.000
+C y A, pues, general de prima, etcétera. Eso hace más de 150 años se transformó.
+
+04:03:46.000 --> 04:03:56.000
+En que diferentes pensadores y filósofos, nosotros empezaron pensar que. No solamente son los inputs que es diferente, que genera un output, sino que.
+
+04:03:56.000 --> 04:04:03.000
+La intensidad de ese input. O sea, una activación de células, puede tener diferentes intensidades con.
+
+04:04:03.000 --> 04:04:09.000
+Con células o neuronas que están cercanas. Posteriormente a eso.
+
+04:04:09.000 --> 04:04:17.000
+Dijimos ya igual como las redes neuronales, entonces estoy capturando. A la neurona más cercana.
+
+04:04:17.000 --> 04:04:24.000
+Donde yo tengo alguna algún tipo de activación y me estoy enlazando a ella. Entonces yo me enlazo.
+
+04:04:24.000 --> 04:04:33.000
+Y pondero mi activación según lo que yo tengo cercano, y por eso es que se empiezan a crear parámetros que son los pesos de estas redes neuronales.
+
+04:04:33.000 --> 04:04:40.000
+Ok, igual como lo hace una neurona cuando es activada o desactivada.
+
+04:04:40.000 --> 04:04:45.000
+Esto es una función matemática que se llama puertas bullianas. Donde digo, por ejemplo, sí.
+
+04:04:45.000 --> 04:04:50.000
+Se activa arriba y se activa abajo, ¿cierto? Activase. La neurona.
+
+04:04:50.000 --> 04:05:00.000
+Si se activa abajo, pero no se activa, No se activa la neurona siguiente o no versus o explicable, y se y se empieza a transform.
+
+04:05:00.000 --> 04:05:09.000
+Esta pequeña teoría de coleccionismo. En puertas bolivianas, o sea, funciones matemáticas que van explicando la interacción.
+
+04:05:09.000 --> 04:05:17.000
+De una neurona con otra. Ok, en ceros y unos. Así nace, sino, cierto. Hace más de 50 años.
+
+04:05:17.000 --> 04:05:25.000
+Las los símbolos de las puertas julianas. Y con esa puerta abulera. Por ejemplo, cuando yo estoy tocando el hielo.
+
+04:05:25.000 --> 04:05:33.000
+Si yo saco de toco el hielo de inmediato. Voy a sentir Quizás calor. No voy a sentir frío.
+
+04:05:33.000 --> 04:05:40.000
+Pero si mantengo el dedo en el hielo. O sea, un delay. En mi percepción voy a sentir la sensación de frío.
+
+04:05:40.000 --> 04:05:47.000
+Eso mismo, están tratando de imitar las redes neuronales. Y cómo, Principalmente porque.
+
+04:05:47.000 --> 04:05:58.000
+Uno de estos matemáticos, específicamente Donald Heard. Además de entender el conexionismo, dijo, acá hay que crear modelos o mecanismos o algoritmos de aprendizaje.
+
+04:05:58.000 --> 04:06:02.000
+Por ejemplo, la ponderación que yo le doy a mi input.
+
+04:06:02.000 --> 04:06:11.000
+Nueva va a depender de la ponderación anterior. Más una taza de aprendizaje por la interacción de la neurona.
+
+04:06:11.000 --> 04:06:16.000
+Ya. Y así. Rosenvlot lo transformó.
+
+04:06:16.000 --> 04:06:21.000
+Es el coleccionismo que se había aprendido durante 100 años mal.
+
+04:06:21.000 --> 04:06:36.000
+La el mecanismo de aprendizaje de. De Jeff, ¿cierto? O 1 de estos lógicos o filósofos matemáticos de los años 50 que dijo, esto es una asociación. Esto de conexiones bullianas.
+
+04:06:36.000 --> 04:06:42.000
+Y eso transformó a la primera red neuronal que se llamó Perceptron.
+
+04:06:42.000 --> 04:06:51.000
+Que básicamente tener inputs fotosensoriales. Que están conectados y ponderados a unidades asociativas.
+
+04:06:51.000 --> 04:06:58.000
+Y luego otras ponderaciones generan resultados. Una una red subtoneuronal de diferentes capas.
+
+04:06:58.000 --> 04:07:07.000
+Que luego de esto se dieron cuenta que el aprendizaje no podía ser lineal, sino que había que tener una diferenciación. O sea, tiene que haber.
+
+04:07:07.000 --> 04:07:13.000
+Una una taza de error. Había que comparar la ponderación que yo le estaba exigiendo cierto con un.
+
+04:07:13.000 --> 04:07:24.000
+Out deseado? La respuesta. Y así el perceptor comienza a tomar forma y conecto los inputs de la red.
+
+04:07:24.000 --> 04:07:34.000
+Ponderados con su peso y que llegan en una sumatoria a una función de activación.
+
+04:07:34.000 --> 04:07:42.000
+Esa fue una reactivación. Como les dije en la casa anterior, decide si avanzar o no igual. ¿cómo avanza una neurona a la siguiente.
+
+04:07:42.000 --> 04:07:48.000
+Y salgo del clásico sectorización entre proceso programa o data, sino que acá.
+
+04:07:48.000 --> 04:07:59.000
+Estoy haciendo que en todas las unidades. Están las conexiones al programa. Son las conexiones y las conexiones son la memoria.
+
+04:07:59.000 --> 04:08:08.000
+Ok. Y así, después de esto, se dieron cuenta que la cantidad de datos que pasa cuando género solamente una capa es tan grande.
+
+04:08:08.000 --> 04:08:16.000
+Que el gasto computacional era gigante. Imagínense una imagen que de 240 píxeles por 240.
+
+04:08:16.000 --> 04:08:23.000
+Por 5 nodos de resultados. Por ejemplo, las 5 flores. Que dijimos que podíamos.
+
+04:08:23.000 --> 04:08:32.000
+Detectar serían más de 175 000 parámetros por aprender. O sea, 150, 165 000.
+
+04:08:32.000 --> 04:08:38.000
+Pesos cierto parametrizables. Y debido a eso, se empezaron a agregar capas de información.
+
+04:08:38.000 --> 04:08:45.000
+Para poder densificar esa información. Para poder achicar esa información y que el gasto computacional sea menor.
+
+04:08:45.000 --> 04:08:50.000
+Y con eso entramos debido a eso, entramos las redes convulsionales.
+
+04:08:50.000 --> 04:08:53.000
+A través de filtros, como lo vimos en la clase anterior.
+
+04:08:53.000 --> 04:09:07.000
+Desde una arquitectura como la Net, que fue Jean Leco. Para detectar psico Numbers o Alex Net, que redujo el 26 al 15 por 100 ocupando la base de datos de imagenet.
+
+04:09:07.000 --> 04:09:13.000
+Ya. Esto. Ya lo vimos redes neuronales, y acá están los.
+
+04:09:13.000 --> 04:09:22.000
+La extensión de las conclusiones era un networks, Por ejemplo, es agregarle una región entonces antes de.
+
+04:09:22.000 --> 04:09:25.000
+En general la convulsión completa de la red neuronal. Yo detecto.
+
+04:09:25.000 --> 04:09:29.000
+No sé, pero ese que está pegada la imagen del del.
+
+04:09:29.000 --> 04:09:31.000
+Del del zoom. Creo que está pegada a la imagen del S u M.
+
+04:09:31.000 --> 04:09:39.000
+Cómo. Ya.
+
+04:09:39.000 --> 04:09:41.000
+Ahora, Sí.
+
+04:09:41.000 --> 04:09:50.000
+No sigue lo de neuronas de. Biológicas artificiales.
+
+04:09:50.000 --> 04:09:51.000
+Hay. Bueno.
+
+04:09:51.000 --> 04:09:57.000
+Ya Bueno. Conecto terminamos. Lamentablemente, se extendió un poco más de lo que yo esperaba.
+
+04:09:57.000 --> 04:10:03.000
+Pero se lo voy a subir por buen curso. Así que, bueno, muchas gracias a todos. Ha sido un gusto estar con.
+
+04:10:03.000 --> 04:10:06.000
+Nos vemos en la.
+
+04:10:06.000 --> 04:10:08.000
+Gracias. Profe Buenas noches.
+
+04:10:08.000 --> 04:10:09.000
+Gracias, profesor. Muy entretenido el curso. Muchísimas gracias.
+
+04:10:09.000 --> 04:10:10.000
+Chao.
+
+04:10:10.000 --> 04:10:14.000
+Gracias. No. Gracias a usted. Buenas noches. Carolina. Gracias Alejandro.
+
+04:10:14.000 --> 04:10:16.000
+Ahora gracias al profesor.
+
+04:10:16.000 --> 04:10:22.000
+No fue el mejor cierre que quería, pero Ah se desechó a perder todo. Vemos que estén bien chao, chao.
+
+04:10:22.000 --> 04:10:23.000
+Ahora está. Procura consultar.
+
+04:10:23.000 --> 04:10:27.000
+Y en.
+
+04:10:27.000 --> 04:10:34.000
+Sí, aparte de las presentaciones, hay que integrar las correcciones o quedan para el aprendizaje personal.
+
+04:10:34.000 --> 04:10:39.000
+No integre las correcciones pueden subir la tarea. Nuevamente, creo que tienen.
+
+04:10:39.000 --> 04:10:44.000
+Hasta hoy día es lunes hasta el viernes para subirlo. Un buen.
+
+04:10:44.000 --> 04:10:49.000
+Pero eso es voluntario, aparte del cola del voluntario voluntario, ya.
+
+04:10:49.000 --> 04:10:53.000
+Gracias. Yo les voy a subir la lo que les conté Hoy día.
+
+04:10:53.000 --> 04:10:59.000
+Para para cada equipo ya y acuérdense de subir la la tarea número.
+
+04:10:59.000 --> 04:11:05.000
+Chao, Felipe profesor. Era para que escuchen los del Zomme igual.
+
+04:11:05.000 --> 04:11:11.000
+La próxima tarea. Se entrega el día jueves. La última tarea.
+
+04:11:11.000 --> 04:11:16.000
+No tenía 1. La fecha. Vale.
+
+04:11:16.000 --> 04:11:22.000
+La de la de procedimiento. Abajo.
+
+04:11:22.000 --> 04:11:28.000
+Alejandro, nos vemos cuídate. Chao, chao.
+
+04:11:28.000 --> 04:11:34.000
+Chao. Chao, chao.
+
+04:11:34.000 --> 04:11:54.000
+A a. Chao Chao. Gracias. Nos vemos con.
+
+04:11:54.000 --> 04:12:05.000
+Oye, igual que lo sigamos viendo mándame un. Me llamo octubre porque en septiembre.
+
+04:12:05.000 --> 04:12:11.000
+Sí, sí tenía. Y.
+
+04:12:11.000 --> 04:12:17.000
+Puedes subir de nuevo con las cosas que yo les sugerí.
+
+04:12:17.000 --> 04:12:23.000
+Espero que la presentación. Presentación en Pdf, No, no sí por Pablo.
+
+04:12:23.000 --> 04:12:35.000
+Un poco
+

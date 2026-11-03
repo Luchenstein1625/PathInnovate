@@ -1,0 +1,10015 @@
+Bien, hoy día vamos a entretenernos con varias cosas, algunas conceptuales y vamos a, en la segunda parte,
+a entrar directo a ejercicios que tienen que ver con prácticamente todos los conceptos de los que hemos estado hablando.
+Vamos a hablar de búsqueda parcial, el método de Monte Carlo, que entendemos por aprendizaje con refuerzo.
+Bueno, ya derechamente metidos en el concepto de meteorística, los algoritmos basados en poblaciones y algoritmos adaptativos y aprendizaje.
+Y de ahí ya nos saltamos a técnicas particulares como los genéticos, las abejas y las hormigas.
+Son algoritmos que usamos para resolver problemas de optimización.
+Bueno, quiero reiterar que si hay algún concepto o alguna palabra, algún término que les suene como que no saben de qué se trata,
+o tienen cualquier confusión, por favor, interrúmpanme.
+Yo llevo un montón de años usando términos que para mí son cotidianos, pero seguramente no para todo el mundo.
+Así que, si me entusiasmo, me avisan.
+Si hay algún concepto o alguna técnica, por ejemplo, estoy inventando, podría ser el método de Monte Carlo,
+si ya lo vieron, me dicen y lo saltamos.
+Si voy muy rápido, también me cuentan.
+La idea es que, más que pasar el contenido punto a punto, prefiero que lleguemos a un 80%,
+que yo creo que lo va a ser todo igual, pero bien entendido.
+Que no les queden esos vacíos que...
+¿Y qué habrá querido decir este viejito con tal cosa?
+Que no tengan ningún miedo.
+Habitualmente soy pacífico.
+Bien.
+Vamos a partir amenizando la tarde con un cuento, como siempre.
+Siempre tengo un cuento.
+Estos son como los comerciales del YouTube que a uno le gustan tanto.
+Les conté que había un señor Nutt, Donald Nutt, quien nació en el año 1938, que es ese viejito de ahí.
+Los que yo pongo siempre son más viejos que yo.
+Es un poco...
+Es para hacer el contraste.
+El Nutt tiene el ejemérito todavía activo.
+A su tierna edad todavía está activo.
+Es profesor en la Universidad de Stanford.
+Y hace, por la friolera de años, dijo, voy a escribir siete libros que hablen sobre la computación.
+Algoritmos, matemáticas y ordenación y búsqueda.
+Eran los tres primeros libros.
+Fue edición más potente la de 1973, que son tres libracos así, aunque él prometió siete libros.
+Dijo, el cuarto va a ser de compiladores.
+Pero esa parte evolucionó.
+Y dijo, cuando termine de escribir ya va a estar pasado de moda.
+No voy a escribir de lenguaje.
+Y decidió no escribir ni una cosa más.
+Se quedó en esos tres libros.
+Y con una confianza en sí mismo, digna de menor causa.
+Él dijo, en este libro, el tercer tomo, están todos los algoritmos que uno puede necesitar para...
+ordenar y buscar.
+Si alguien descubre alguna vez un algoritmo que no encaje en la familia que yo he definido, me avisa.
+Eso fue el 73.
+Pero todavía no lo han encontrado.
+También se tenía mucha confianza en la calidad de su libro.
+Y dijo, si hay una persona que encuentre un error, por ejemplo, una coma.
+Porque hay ciertas reglas.
+Por ejemplo, Oxford tiene ciertas formas de poner coma.
+Si hay un error de una coma, yo le pago dos dólares por error a la gente que lo descubre.
+Gastón Gonek, que es un uruguayo que es un profesor en Waterloo, descubrió un error y tiene un cheque de Donald Duck de dos dólares en su oficina, en un cuadrito.
+En sus ratos de ocio, él toca órgano.
+Son esos hobbies medios extraños.
+Él no toca guitarra.
+Y es un órgano.
+Bueno, este señor está asociado a un problema que les voy a presentar.
+El mono es distractor.
+Lo puse para que no estuviera tan vacía la slide nomás.
+Pero es el problema de los matrimonios estables.
+¿Han escuchado el regreso?
+¿De matrimonio han escuchado?
+Este es el problema.
+También los conceptos.
+El problema es cuando se juntan.
+Supongamos que tenemos una lista de un conjunto.
+No necesariamente hombres y mujeres, pero siempre se ilustra con hombres y mujeres.
+Hay un número igual de hombres y de mujeres.
+Y se le pide a cada uno de ellos que haga una lista ordenando a los caballeros, a las mononas, por orden de preferencia.
+A las señoritas se les pide que hagan exactamente lo mismo.
+Ordenar a los mononos por orden de preferencia.
+La idea es construir un emparejamiento en base a las preferencias.
+No, no todos van a salir con la primera elección porque pueden ser conflictivas.
+La idea es que no existan, no exista una pareja tal que el señor prefiera a otra señorita
+y la señorita lo prefiera a él más que a sus respectivas parejas actuales.
+Si esa condición se cumple, si yo no encuentro, entonces tengo los matrimonios estables
+porque no hay un riesgo de que un externo reemplace a alguna de las parejas ya existentes.
+¿Tienen una cara de incredulidad ustedes?
+Bueno, pero esto la verdad es que a la primera no funciona, no es necesariamente una cuestión que funcione a la primera.
+Pero si se itera, y hay un algoritmo que hace esto, si se itera, sí existe una solución.
+Bueno, ya, ese es el problema general.
+¿Qué es lo que hacen las señoritas y los caballeros?
+Bueno, pues, el día sábado estaba dibujando este slide y no sabía qué nombres poner.
+Y se me ocurrió poner, no sé, Janet, Evelyn, José Antonio, y después pensé que si me salía José Antonio con Janet,
+la cosa no iba a funcionar, así que opté por unos nombres un poco más extraños, me metí en internet, nombres extraños.
+Esos son los nombres.
+Los caballeros y las señoritas.
+Y cada uno hace su lista.
+Se fijan que los dos primeros señores coinciden en la elección de la monona.
+Así que no será, satisfecha su elección en un 100%.
+Para las señoritas, exactamente lo mismo.
+Y lo que hay que hacer es iterar.
+En el año 1962, Shapley, en realidad, junto con Gale, y después Shapley con Roth,
+probaron, matemáticamente, que existe una solución algorítmica a este problema.
+Y se llama algoritmo de la aceptación diferida, porque hay que iterar hasta que se encuentra la estabilidad en las parejas.
+Shapley se ganó el Nobel de Economía, en el 2012.
+Porque esto no solo sirve para juntar parejas, sino que va a estudiar sistemas económicos.
+Tal como pasó con Nash, con la teoría de equilibrio de precios.
+Ese era el señor Shapley, el ganador del Nobel.
+Puse esa foto, a él se lo llevó el altísimo ya hace pocos años.
+Y ya estaba bien viejito.
+Preferí poner esta.
+Antes de seguir, les voy a dar dos razones por las que puse este ejemplo.
+Que parece no tener mucho que ver con lo que estamos viendo.
+Una, que sí, el problema de las parejas estables, como vamos a ver en las aplicaciones que voy a mencionar,
+sí tiene sentido para muchas cosas en las que nosotros trabajamos cotidianamente.
+Y lo otro es que, bueno, Donald Nutt es una especie de gurú.
+Es como que un hincha del fútbol no sepa quién es Messi.
+Entonces, de alguna manera creo que tienen que conocerlo.
+Y la otra razón es que Nutt estuvo el año 1976 en Chile.
+Cuando partía al Departamento de Ciencia y Computación de la Universidad de Chile,
+trajeron a Nutt.
+En ese entonces Nutt tenía 38 años.
+Y fue promovido, fue anunciada su charla,
+y él iba a hablar sobre los matrimonios estables.
+Se llenó la sala de conferencias y los periodistas nunca entendieron las cosas que él estaba hablando,
+porque era muy matemático.
+Y ellos hacían preguntas como,
+¿de qué depende la estabilidad de un matrimonio?
+Eso fue un bochorno, pero no le tradujeron todo al señor Nutt, en todo caso.
+¿Qué aplicaciones tiene este problema?
+Nutt, que cree que lo estoy pelando.
+Disculpen el exabrusto telefónico este.
+Una aplicación es esta que están viendo aquí,
+asignación de estudiantes, postulantes, con universidad,
+sobre todo en el sistema norteamericano de aceptación,
+que hay distintas maneras de aceptar estudiantes.
+Entonces, estos emparejamientos,
+porque los estudiantes postulan a varias universidades,
+las universidades revisan,
+no hay una P, no sé cuánto se llama la hora ya,
+esa.
+No hay de esas cosas de admisión así como global,
+cada una decide sus reglas de ingreso,
+y se puede trabajar con distintos criterios para distintas universidades.
+Seguramente, todos conocen o conocemos gente que ha estudiado medicina
+y que hace un internado en alguna parte,
+y que hay algunas cosas que se pelean,
+el hospital, el lugar, la especialidad.
+Ese juego también se puede resolver a través de este problema.
+Es una optimización de asignación de recursos.
+Por eso lo mencioné como un problema de optimización.
+Asignación de usuarios a un servicio de internet.
+Aquí hay un compromiso de lo que a mí me gustaría,
+con un compromiso de la compañía que ofrece el servicio,
+que tiene que ver con el costo de ofrecerme a mí ese servicio.
+Esto también es un problema de matrimonio estable.
+Obviamente, como mencionaron ustedes tan graciosamente,
+Tinderpan.
+Y ahora ya vamos a entrar a tierra derecha.
+Esto así está en el programa.
+Un concepto que es bastante útil para resolver problemas
+en los cuales no tenemos toda la información que necesitamos
+y que es la simulación.
+Y en la simulación les voy a contar
+de qué se trata este método de maticarlo.
+¿En qué consiste?
+¿Qué es lo que hacemos?
+Modelamos probabilidades.
+La probabilidad de que ocurra algo.
+Sobre todo en presencia de variables aleatorias,
+donde no podemos controlar todas las variables de un fenómeno,
+entonces utilizamos este método de Montecal,
+lo que se llama así por el casino de Montecal.
+¿Qué es lo que permite evaluar?
+Rías y Hugo.
+Fundamentalmente, Rías y Hugo.
+La probabilidad de que ocurra un evento dado a un conjunto de otros eventos.
+Esto tiene un sustento matemático bien importante atrás,
+pero no vamos a entrar ahí.
+Como hay un computador poderoso en estos días,
+no en la época en que se inventa este método.
+Este método es del año 44.
+44.
+Yo diría que casi con esa actitud del año 44.
+Había máquinas, había computadores, claro.
+Esas máquinas grandes que se usaban para cálculos principalmente balísticos.
+Si uno maneja muchos datos y muchas probabilidades,
+si uno tiene mucha información,
+la verdad es que en teoría podría saber
+si va a ganar o no la batería, pero eso es en teoría.
+En base a algo que se llama la ley de los grandes números.
+¿Han escuchado hablar de eso?
+En la ley de los grandes números,
+si yo tengo un conjunto muy grande de datos,
+las probabilidades de distribución de estos datos
+tienden a exactamente a normalizarse.
+Entonces, si yo, la teoría en que se basa Monte Carlo,
+es que si yo tengo muchos, muchos, muchos datos,
+la verdad es que tengo una idea de lo que va a suceder.
+Si yo tiro 10 veces una moneda,
+si yo tiro una moneda al aire,
+la probabilidad de que caiga cara o caiga sello es 50%,
+mi primera tirada.
+Pero si yo he tirado nueve veces la moneda y ha caído cara,
+y voy a tirar una décima,
+la probabilidad de que sea sello es más alta que el 10%,
+en función de la ley de los grandes números.
+Ese es todo el juego de este método.
+¿Por qué es importante?
+Porque hay muchos casos en que tenemos que simular fenómenos.
+No tenemos ni los elementos ni los sistemas para probarlos in situ.
+Y para eso se hace una simulación.
+Y la simulación consiste en tomar un sistema
+por el que queremos analizar su comportamiento,
+investigar cuáles son las propiedades,
+cuáles son las características de este sistema real.
+La otra es, en realidad el sistema real no es llegar y agarrarlo,
+porque, no sé,
+supongamos que estemos hablando de armas nucleares.
+No es llegar a armar una bomba,
+y cómo funcionará esta,
+tirémosela a los rusos,
+para ver qué pasa.
+Entonces lo que se hace es un modelo.
+Y un modelo es una suposición,
+es una simplificación.
+Y no es exactamente el sistema,
+pero nos da una indicación de cómo se va a comportar.
+Hay que hacer,
+en un modelo se hacen abstracciones,
+se hacen simplificaciones.
+Uno podría hacer esta pregunta,
+no sé,
+en primero básico.
+Yo quiero
+tirar un cable de energía eléctrica
+que va desde Santiago a Rancagua.
+Supongamos que desde Santiago a Rancagua hay,
+no sé,
+90 kilómetros.
+Entonces la pregunta sería,
+¿cuántos cables necesito yo
+para tirarlo a la línea recta?
+Bueno, 90 kilómetros de cable.
+Pero eso se une con una historia
+que nos pasa todas las veces
+que viajamos en tren o en bus,
+que es que vemos los cables
+que se van guateando,
+como que baja y sube.
+Son más de 90 kilómetros
+entonces de cables.
+Claro,
+es más.
+Pero hacemos una abstracción.
+Eso es lo que hace la simulación.
+Esas cuestiones las desprecian.
+Un poco más,
+un poco menos.
+No,
+siempre un poco más
+por la necesidad de la catenaria.
+Si hay un temblor
+y si está muy tirante la cosa,
+hasta ahí no más llegamos.
+Bueno,
+entonces nosotros usamos modelos
+que son simplificaciones.
+Ese modelo puede ser físico,
+podemos armar una maqueta
+en un laboratorio
+o puede ser un modelo matemático.
+¿Dónde armamos maquetas?
+En laboratorios normalmente
+los laboratorios
+que construyen sistemas aerodinámicos.
+No solo aviones,
+sino que autos también.
+Donde se prueban, por ejemplo,
+las alas,
+los túneles de viento,
+se construye un modelo físico
+y se prueban.
+Pero se puede hacer
+puramente matemático,
+lo que es bastante más
+complejo,
+difícil,
+porque ya tenemos que decidir
+qué opción vamos a tomar.
+Vamos a considerar
+todos los componentes,
+en cuyo caso
+tendríamos que hacer
+una solución analítica.
+Y nos imaginamos
+que la cantidad de ecuaciones
+y la cantidad de soluciones
+podrían llegar a ser muy grandes.
+O
+podemos optar también
+por simular.
+Esto se va a comportar
+más o menos de esta forma.
+Simplificamos nuestro problema.
+Y ese es el punto
+que nos interesa
+a nosotros hoy,
+porque la mayoría
+de los problemas
+asociados
+a inteligencia artificial
+tienen que ver
+con optimización,
+mejorar algo.
+Y esa optimización
+habitualmente
+tiene una complejidad
+que no es tratable
+computacionalmente
+como ya
+hemos visto
+en un par de clases
+anteriores.
+Bueno,
+en la simulación
+tal como hacíamos
+en los árboles
+de búsqueda
+con poda,
+no siempre vamos
+a encontrar
+la solución ideal,
+porque ahí estamos
+haciendo muchos supuestos,
+pero estamos
+entendiendo el fenómeno.
+Ahora,
+mientras más raros
+tenemos,
+mejor.
+Más certera
+es nuestra
+apreciación
+del fenómeno.
+Hacemos muchos
+experimentos,
+simulamos,
+y cuando tenemos
+muchos experimentos
+decimos,
+no,
+esto ya está
+bastante probado,
+yo creo que
+funciona bien,
+siempre hay un margen
+para el error.
+Recuerden,
+el hecho
+de usar computadores,
+la gente
+de los 80
+creía que
+tener un computador
+era sinónimo
+de resolver
+todos los problemas.
+Nunca fue así.
+Pero
+sabemos que
+si analizamos
+muchos,
+muchos datos,
+si tenemos
+mucha información,
+y esto pasa
+en todos lados,
+nuestras decisiones
+serán más certeras.
+Y como
+siempre hacemos
+algo que
+cuando tenemos
+un algoritmo
+o tenemos
+un procedimiento
+de solución,
+probemos lo que
+pasa con
+y empezamos
+a poner
+números.
+Ah,
+funciona con
+sí,
+sí funciona.
+Y funcionará
+con este otro
+numerito
+cuando jugamos
+con los números.
+Y a partir
+de eso
+podemos extraer
+conclusiones.
+Existe el riesgo,
+por supuesto,
+de lo que se llama
+generalización
+prematura.
+cuando uno se
+entusiasma
+mucho y
+dice el 1
+es primo,
+3 es primo,
+el 5 es primo,
+el 7 es primo,
+todos los impares son primos.
+Justo cuando
+íbamos a descubrir
+que no.
+Por lo tanto,
+necesitamos
+habitualmente
+muchos datos
+para respaldar
+nuestra
+suposición.
+¿Qué se usa
+en estos métodos
+de simulación?
+Datos al azar.
+Para ver si es cierto
+que funciona.
+Cuando nosotros
+construimos
+típicamente un sistema
+computacional
+y queremos
+probarlo,
+probar
+significa
+tratar
+de encontrar
+el error.
+Ese es el objetivo
+de la prueba.
+Si yo no encuentro
+un error,
+por ejemplo,
+en un sistema
+computacional,
+mi labor
+como buscador
+de errores
+no está bien hecha.
+Yo puedo decir
+cuando encontré
+un error,
+pero si no lo encuentro,
+no quiere decir
+que no lo haya.
+Entonces,
+para eso
+usamos
+muchos datos
+y toda la potencia
+computacional
+que tenemos
+hoy día
+para apoyarnos
+y
+obtener ciertas
+conclusiones.
+¿Qué es lo que
+hacemos
+en estas
+simulaciones?
+Identificamos
+frecuencias
+de un evento
+y analizamos
+datos.
+Y estos datos
+alimentan
+nuestro modelo.
+Vamos a ver
+con monitos
+cómo funciona
+esto.
+Me interesa
+que entiendan
+solo el concepto
+del método
+Montecarlo.
+No lo vamos
+a usar
+por si acaso
+para que lo
+descarten al tiro.
+Cuando
+antes de este
+método
+Montecarlo,
+cuando teníamos
+una
+suposición,
+por ejemplo,
+¿cuánto
+vivía
+el hombre
+de Nardenthal?
+¿cuánto
+vivía
+de Nardenthal?
+Encontraron
+un hueso
+de
+un tipo
+que parecía
+haber muerto
+a los 32
+y el otro
+a los 12.
+en promedio
+vivía 27
+es un poco
+bruta
+nuestra
+suposición
+pero eso
+hacíamos
+de hecho
+lo seguimos
+haciendo
+lo que hace
+Montecarlo
+es considerar
+estos números
+separados
+como las muestras
+como estos
+distintos
+eventos
+que alimentan
+nuestro
+sistema
+simulamos
+con números
+que aparentemente
+son más
+realistas
+después
+de tener
+todos los
+resultados
+lo que hace
+el método
+Montecarlo
+es promediar
+pero
+no parte
+promediando
+hay una
+sutil diferencia
+en términos
+de la precisión
+o
+cómo se refleja
+una realidad
+eso va a depender
+de la naturaleza
+del problema
+¿qué es lo que
+hace
+Montecarlo?
+bueno, ese es el casino
+esa es la ruleta
+esta es la inspiración
+del nombre
+¿qué es lo que
+hacemos con
+nuestra ruleta?
+generamos números
+para automatizar
+el cálculo
+para tener
+esta gran
+muestra
+de valores
+porque puede
+que nosotros
+hagamos una muestra
+y tengamos
+pocos valores
+a ustedes
+bueno
+no se les debe
+haber pasado
+voy a volver
+y voy a llegar
+aquí rápidamente
+para mostrar
+esto
+¿cómo partimos
+esto?
+y fue esto
+hablé de simulación
+y si ustedes
+se fijan
+los que están
+encerrados
+en estas redondelas
+amarillas
+son los mismos
+usamos elementos
+incluso repetidos
+para alimentar
+nuestro modelo
+esa es parte
+de la simulación
+y si uno
+le saca
+esas redondelas
+amarillas
+se ve como
+una multitud
+claramente
+bueno
+eso sirve
+para todo
+obviamente
+bien
+de
+Stanislav
+Ulán
+probablemente
+no han escuchado
+hablar
+porque de un húngaro
+era
+de John
+von Neumann
+probablemente
+sí
+asociado
+a los computadores
+uno hablaba
+de la máquina
+de von Neumann
+otro húngaro
+húngaro alemán
+bueno en esa época
+eran todos
+mayores alemanes
+todos terminaron
+en Estados Unidos
+y se le ocurrió
+la idea
+en aquella época
+en aquella época
+no había
+visa waiver
+entonces
+se le ocurrió
+la idea
+a
+Ulán
+cuando estaba
+enfermito
+se resfrió
+y trabajaba
+con un grupo
+de científicos
+entre otros
+seguramente
+le suena el nombre
+Oppenheimer
+o el nombre
+Niels Bohr
+de cuando uno
+estudiaba química
+se acuerdan
+y este señor
+se resfrió
+y estaban
+en
+Alamogordo
+que es donde
+se construyó
+la bomba atómica
+ahí estaba
+el grupo
+de científicos
+que estaba
+haciendo
+la bomba atómica
+seguramente
+conocen la historia
+pero ahí
+tuvieron que
+reclutar
+digamos
+los cerebros
+más brillantes
+de la época
+y
+los tenían
+prácticamente
+secuestrados
+los tipos
+no podían salir
+vivían
+en ese
+campamento
+en sus casitas
+con su familia
+pues si no
+no se iban
+se resfrió
+como les digo
+a este señor
+y para entretenerse
+empezó a jugar
+al solitario
+no
+no
+no
+no
+no
+con
+clic
+clic
+no con
+mouse
+y
+empezó a pensar
+en este
+en esta idea
+de
+¿cómo puedo
+yo
+predecir
+con un cierto
+grado
+de probabilidad
+cuál es
+la carta
+que va a salir
+no había
+mundial de clubes
+no había
+nada
+en esa época
+entonces
+él se entretenía
+con los
+naipes
+llegó al día
+siguiente
+o cuando
+se recuperó
+de su
+de su
+refrio
+y les contó
+entusiasmado
+se me ocurrió
+un método
+así
+como estadístico
+von Neumann
+le dijo
+es una
+porquería
+no sirve
+mal
+y
+Niels Bohr
+dijo
+es bien
+interesante
+porque el
+movimiento
+del electrón
+como estaban
+con la cosa
+atómica
+bueno
+en 24
+la von Neumann
+dijo
+en realidad
+sí
+parece que
+tiene
+utilidad
+y ahí
+lo santificaron
+y se transformó
+en el método
+de Monte Carlo
+que es hoy
+nace ahí
+de un tipo
+resfriado
+mientras estaban
+haciendo la bomba atómica
+que no es menor
+que es lo que
+dijo
+yo hago muchas pruebas
+muchas pruebas
+la probabilidad
+de que salgan
+determinadas cartas
+puede determinarse
+con una cierta aproximación
+ahora si yo hago
+muchas muchas muchas
+muchas pruebas
+como un número
+fantásticamente gran
+entonces yo puedo tener
+una mucho mejor
+aproximación
+a propósito
+de la ley
+de los grandes números
+de cuál es la carta
+que va a salir
+ese es el
+Hulam
+cuando ya no estaba
+resfriado
+y ahí está
+con von Neumann
+con su
+computador
+no recuerdo
+cuántos millones
+de dólares
+costó
+ese computador
+pero
+tiene menos potencia
+que cualquier celular
+de los que usemos
+incluyendo el celular
+Cholga
+que se abriera
+entonces esta es una técnica
+cuantitativa
+le ponemos numeritos
+y usa estadística
+la técnica estadística
+es importante
+junto con
+los computadores
+entonces combina
+la posibilidad
+de crear
+números
+típicamente aleatorios
+con la potencia
+computacional
+y usa un modelo
+matemático
+hay una teoría matemática
+como les decía
+detrás de esto
+y
+ve cómo se comportan
+estos sistemas
+es una proyección
+cosas que nos parecen
+en principio
+impredecibles
+cuando sabemos
+que hay sistemas
+que van cambiando
+en el tiempo
+entonces podemos simular
+a través de lo que se llaman
+los eventos discretos
+se ocurre un evento
+termina este evento
+y pasamos a otro
+probablemente
+distinto
+tratamos entonces
+olvídense la cosa
+matemática
+tratamos de
+utilizar
+la potencia
+computacional
+la capacidad
+de generar
+muchos números
+para establecer
+una hipótesis
+de comportamiento
+o de valores
+que surgirían
+y esto
+lo usamos
+para hacer análisis
+y esto se usa
+para hacer
+proyecciones
+de hecho
+el método
+de voltecar
+su base
+de uso
+es la simulación
+hablamos de números
+cédulos aleatorios
+en general
+porque no son aleatorios
+realmente los números
+no existe el random
+perfecto
+esto lo aprende uno
+cuando hace análisis
+del algoritmo
+el algoritmo
+el random
+siempre es un programa
+siempre tiene una semilla
+y está dada por
+los mejores random
+tienen ciclos de
+200.000 números
+y se empiezan a repetir
+de nuevo
+random
+simulado
+¿cómo funciona
+este método
+Montecarlo?
+primero
+modelo matemático
+es decir
+establezco
+las restricciones
+tal como lo haría
+con
+un conjunto
+de ecuaciones
+sujeto a
+ciertas restricciones
+¿cierto?
+esto debe ser
+menor que esto
+en términos de ecuación
+establezco
+un modelo
+matemático
+sencillo
+luego
+¿cuáles son
+las variables
+más importantes?
+aquí
+ya hay un pequeño
+truco
+aquellas variables
+que no son
+importantes
+en ese momento
+para mí
+yo las voy a hacer
+y empiezo a hacer
+simplificaciones
+en el modelo
+para que sea
+más fácil
+procesar
+luego
+experimento
+con
+muestras
+a ver
+dije
+este es el modelo
+si pasan
+tales entradas
+si generarían
+tales salidas
+estas variables
+no las voy a considerar
+y ahora veo
+qué pasa
+cuando le doy
+muchos valores
+y obtengo resultados
+y una vez que
+obtengo resultados
+tengo
+observaciones
+¡ah!
+pasa esto
+determino
+patrones
+por lo tanto
+como ya les doy
+una vez soplado
+esto lo puedo
+acoplar perfectamente
+a una red de neuronas
+y trabajar en
+reconocimiento
+de patrones
+claro
+naturalmente
+a mayor cantidad
+de elementos
+mi resultado
+es más preciso
+si uno quiere
+hacerse una idea
+de
+un fenómeno
+cualquiera sea este
+necesita
+muchos datos
+o muchos objetos
+asociados
+al fenómeno
+uno puede conocer
+a un chino
+colorín
+pero si no conoce
+más chinos
+no puede deducir
+que los chinos
+son colorines
+entonces
+dicen
+no, no, no
+debes
+que habinar
+a otros chinos
+bueno
+en el caso
+de la simulación
+puede ser el mismo
+porque son todos
+iguales
+para nosotros
+pero tienes
+mucha más información
+y descubres
+que aquí el caso
+único
+en realidad
+es una rareza
+una excepción
+pero para eso
+se necesitan
+muchos elementos
+de análisis
+¿dónde se aplica
+este método
+de Montecaldo?
+todo
+criptografía
+y flujo
+y flujo
+de tráfico
+típico
+de
+carreteras
+¿cierto?
+diseño
+de reactores
+nucleares
+que le habían
+la sacado
+pero bueno
+está de moda
+ecología
+econometría
+evolución estelar
+ahí les voy a contar
+una historia
+de la evolución
+estelar
+cortita
+para no distraerlos
+tanto
+pronóstico
+de valores
+bursátiles
+prospecciones
+de petróleo
+radioterapia
+contra el cáncer
+teoría de fila
+muchos
+muchos
+fenómenos
+es interesante
+eso de la evolución
+estelar
+yo conocí
+un astrónomo
+trabajé con un astrónomo
+trabajamos con un astrónomo
+en un proyecto
+en el norte
+y a mí me daba risa
+lo que él hacía
+pero él se lo tomaba
+muy en serio
+porque
+él estudiaba
+la evolución
+de las galaxias
+y qué pasaba
+cuando chocaban
+y eso como
+cada cuánto pasa
+le pregunté yo
+no se sabe
+la verdad
+porque
+tenemos la idea
+de qué pasó
+pero que va a pasar
+va a pasar
+vamos a chocar
+con Andrómeda
+la Vía Láctea
+nosotros
+pero vamos a estar
+viejitos
+porque va a ser
+como en unos
+cuatro millones
+de años más
+cuando le contesto
+a mi nieto
+casi se puso
+a llorar
+porque íbamos a chocar
+con Andrómeda
+lo más probable
+es que pasemos
+entre medio
+del uno
+del otro
+sin darnos cuenta
+la materia
+es mucho menos densa
+de lo que nosotros
+creemos
+claro
+cuando nos llega
+un tortazo
+decimos
+no
+si es más densa
+pero si tenemos
+un átomo
+y el átomo
+es una naranja
+el núcleo
+del átomo
+es una naranja
+el hidrógeno
+por ejemplo
+el electrón
+que gira
+está a 15 metros
+y el de tamaño
+de la cabeza
+de un alfiler
+esa magnitud
+está mostrando
+que choquen dos átomos
+ha sido
+como difícil
+bueno
+la cosa
+es que
+este
+este indio
+porque
+desde la india
+yo le dije
+tú eres hindú
+no me dijo
+soy indio
+hinduismo
+religio
+él
+analizaba
+choques de galaxias
+así que está bien
+esperanzado
+porque en algunos
+millones de años
+más se va a dar
+él va a estar
+un poco mayor
+seguramente
+a esas alturas
+pero
+no le importa
+bueno
+los fenómenos estelares
+son así de
+de entretenidos
+además
+de radioderapia
+contra el cáncer
+vamos a hablar después
+por distintas razones
+nosotros
+como estamos metidos
+en este mundo
+de la IA
+ustedes
+seguramente
+cuando ustedes
+cuentan
+que están haciendo
+un diplomado
+en inteligencia
+artificial
+inteligencia
+artificial
+y lo empiezan
+a mirar raro
+algo así
+como si uno tuviera
+COVID
+pero distinto
+no
+este nos va a robar
+el alma
+con los computadores
+y la verdad
+es que
+está presente
+en tantas áreas
+que
+conocer un poco
+de dónde
+cuáles son
+los distintos campos
+en que la inteligencia
+artificial
+no es malo
+lo hablo
+como cultura
+general
+no como la necesidad
+de analizar
+cada fenómeno
+no sé si escucharon
+hace
+un par de días
+salió una
+una investigación
+en Chile
+para patentar
+un tratamiento
+contra el cáncer
+el gástrico
+el colon
+y un psiquiatra
+y estamos avanzados
+no nos fue muy bien
+en la eliminatoria
+pero para estas otras cosas
+somos mejores
+entusiasma
+el ver que
+técnicas
+como estas
+que no son
+cuestiones dispersas
+no es un ladrillo
+que uno suelta
+en una laguna
+sino que es parte
+de un constructo
+mayor
+y tener la comprensión
+de estos fenómenos mayores
+es muy gratificante
+intelectualmente
+que es lo que pienso yo
+bueno
+como les decía
+esto se aplica
+cuando los problemas
+son complejos
+no tenemos millones
+y millones
+y millones
+de datos
+ni tenemos millones
+y millones
+de personas
+para probar
+por lo tanto
+hacemos unos muestreos
+y esos muestreos
+si son intensos
+nos permiten
+estimar mejor
+nosotros hicimos un estudio
+hace
+dos años
+a ver
+si
+presentamos el 2022
+un estudio
+sobre el impacto
+del lenguaje
+en las personas
+usamos técnicas
+de inteligencia artificial
+pero
+asociado al COVID
+cómo
+hablar del COVID
+afectaba
+a distintas poblaciones
+y eso tiene que ver
+con distintos países
+y lo hicimos
+en el ámbito
+iberoamericano
+entonces teníamos
+muchas muestras
+de Perú
+de Argentina
+de Brasil
+no tanta
+España
+y descubrimos
+que habían términos
+que causaban
+mucho más terror
+en otras
+y para eso
+usábamos simulación
+y usábamos
+extensiones de números
+para llegar
+a descubrir
+una conclusión
+que
+lo presentamos
+en España
+y le dijimos
+miren
+en España
+ustedes
+el COVID
+genera
+en grado
+de susto
+un 8
+del 1 al 10
+y en Chile
+un 7
+del 1 al 10
+y la razón
+voy a preguntar
+¿cuál es la razón?
+no sé cuál es la razón
+pero yo creo
+que la pandemia
+los impactó
+mucho más fuerte
+a ellos
+nosotros la vivimos
+hoy día
+es casi un sueño
+y hace
+dos años
+estábamos encerrados
+y nos parece
+un sueño
+no sé si
+probablemente
+muchos de ustedes
+conocen Madrid
+han pasado
+por la Gran Vía
+que es como
+el paseo
+ahumada
+pero con menos
+patos malos
+yo en marzo
+del 2020
+estaba en Madrid
+tratando
+de agarrar un avión
+para venirme a Chile
+y pasé en taxi
+por la Gran Vía
+y no había
+nadie
+a las 11
+de la mañana
+nadie
+esa fue una experiencia
+llegué al aeropuerto
+los argentinos
+ya habían suspendido
+los vuelos
+había una familia
+de seis argentinos
+y dijeron
+la única posibilidad
+es irnos en LAN
+vamos a comprar
+pasajes en LAN
+porque por último
+en Santiago
+a Buenos Aires
+caminamos
+pero de Madrid
+está medio difícil
+y en aquella época
+le dijeron
+claro como no
+3.000 dólares
+cada pasaje
+pues que pagarlo
+entonces les vendieron
+unos pasajes
+de turistas
+y como yo tenía
+kilómetros acumulados
+me dice
+usted se quiere ir
+en business
+y yo dice
+ya bueno
+ya que insiste
+business
+¿cuándo?
+se yo
+la de carreta
+cuando era chico
+y dije
+me voy a acomodar
+una tele
+de este porte
+voy a ver
+las mejores películas
+en grande
+con un buen whisky
+comí
+me acomodé
+y desperté
+en Santiago
+bueno
+son cosas que pasan
+si no
+no son triunfos
+nosotros usamos
+hoy día
+el método
+de Montecarlo
+en un montón de áreas
+en informática
+en finanzas
+incluso
+en fenómenos sociales
+hoy día
+está de boda
+el análisis
+de los fenómenos sociales
+sobre todo
+fenómenos
+asociados
+a la psicología
+tenemos un grupo
+de investigación
+iberoamericano
+somos 93
+ciudadanos
+de 12 países
+donde hay una mezcla
+de computólogos
+y psicólogos
+para ver
+comportamientos
+y eso nos permite
+por ejemplo
+determinar
+niveles de agresividad
+las personas
+partimos
+estudiando
+el bullying
+en los colegios
+y llegamos a esto
+ya
+esto es un grupo
+multidisciplinario
+bien interesante
+y ahí usamos
+fenómenos
+sociales
+para modelarlos
+a través de
+Montecarlo
+o sea
+siempre que hay
+una probabilidad
+o elementos
+aleatorios
+que no podemos
+controlar
+usamos Montecarlo
+como una manera
+de aproximarnos
+a un resultado
+a una valorización
+poniéndolo
+muy sencillo
+esto es lo que
+hace Montecarlo
+entiendo que hay
+un juego
+que yo no
+no conozco
+probablemente
+ustedes tampoco
+en el que
+uno tira dados
+y parece que tienen
+que sumar
+un cierto número
+no sé si eso
+tiene un nombre
+se da en
+las películas
+típico de
+Bond
+tira los dados
+bueno
+el juego a póker
+pero
+tira los dados
+y los dados
+tienen que sumar
+una cierta cantidad
+supongamos que
+queremos ver
+cuál es la probabilidad
+y lo que se hace
+es analizar
+ese juego
+con Montecarlo
+entonces
+se tira
+muchas veces
+varias tiradas
+y vemos cuánto
+va sumando
+la escala del dado
+la parte que está
+hacia arriba
+tenemos un registro
+y de nuevo
+en la ley
+de los grandes números
+podemos decir
+hay una cierta
+probabilidad
+mayor que otra
+de que salga
+tal suma
+lo que hacen
+los seguidores
+de la lotería
+que hacen
+todos unos análisis
+elementos
+mucho más
+complejos
+ahora
+tenemos
+tenemos
+entonces
+ahora
+tenemos
+una lista
+un listado
+con la cantidad
+de veces
+que la suma
+fue
+2
+3
+hasta 12
+tenemos
+los numeritos
+al lado
+y eso
+nos da
+una distribución
+y esa distribución
+nos permite
+estimar
+dónde está
+la suma
+que yo
+ando buscando
+en qué parte
+de esta curva
+cuál es su probabilidad
+y se juega
+a esa probabilidad
+podemos usar
+Excel
+para esto
+vamos a suponer
+que se están
+haciendo consultas
+fíjense
+que esto
+podría ser
+para ponernos
+muy actuales
+cómo
+se distribuyeron
+las consultas
+en los
+200 días
+anteriores
+a las elecciones
+primarias
+respecto de los
+locales de votación
+primero
+sería o no
+sería vocal
+son consultas
+al servicio
+electoral
+podemos usar
+ese mismo
+método
+para
+las elecciones
+de fin de año
+para ver
+por ejemplo
+no lo hicieron así
+entiendo
+está todo automatizado
+pero podríamos
+potenciar
+la atención
+del humano
+cuando un
+usuario
+hace una solicitud
+y que no le salga
+si usted es morenito
+marque 1
+si a usted le gusta
+el colo colo
+marque 2
+si su suegra
+le pegó
+hoy día
+marque 2
+para evitar
+todas esas cosas
+uno podría tener
+un interlocutor humano
+cuya distribución
+va a ser igual
+que en las
+cajas de atención
+de supermercados
+o en las mangas
+de los aeropuertos
+vamos a hacer
+una tabla
+que tiene consultas
+a este sistema
+diario
+hay frecuencias
+absolutas
+ciertos días
+por frecuencia
+frecuencias
+relativas
+y las frecuencias
+acumuladas
+entonces
+hay cero consultas
+en los últimos
+200 días
+hubo cero consultas
+en 10 días
+eso representa
+un 5%
+hubo una consulta
+en 20 días
+hubo dos consultas
+en 40 días
+tres consultas
+en 60 días
+cuatro consultas
+en 40 días
+y cinco
+en 30 días
+y eso nos da
+todos los 200 días
+tenemos nuestra distribución
+y sabemos
+más o menos
+cómo responder
+tenemos una frecuencia
+relativa
+y una frecuencia
+acumulada
+esto es una planilla
+excel
+si tampoco es
+ciencia
+rocket science
+¿puedo interpretar
+entonces
+la frecuencia
+relativa
+como una probabilidad
+la probabilidad
+que se den
+tres consultas
+en un día
+es 0,3
+de acuerdo a la tabla
+de acuerdo a lo que vimos aquí
+tres consultas
+ahí está
+es 0,3
+en 60 días
+paso eso
+supongamos que queremos
+conocer
+el número medio
+esperado
+suponemos que se va a repetir
+este mismo fenómeno
+de consulta
+hay muchos servicios
+que tienen
+PICS
+de consulta
+en ciertas épocas
+podemos hacer
+ese cálculo
+medio
+siendo todo
+un valor
+medio
+pero también
+podemos
+usar
+esta simulación
+y establecer
+un intervalo
+de 0 a 0,05
+como probabilidad
+para el evento
+0
+sea nuevo
+consulta
+y tener
+esta tabla
+cuáles son
+las probabilidades
+de que ocurra
+la consulta
+en esta
+planilla Excel
+que tienen
+áreas
+esto
+no
+no
+no
+no
+no traten de seguirlo
+al 100%
+porque
+lo voy a usar
+como una palanca
+nomás
+para cuando veamos
+algoritmos genéticos
+que ahí lo voy a explicar
+mucho
+con mucho más detalle
+esto de las áreas
+asociadas a los valores
+que es mucho más relevante
+entonces tenemos
+una probabilidad
+cierto
+que es lo mismo
+que teníamos arriba
+pero puesta ahí
+con colores
+entonces
+generamos un número
+de salud aleatorio
+que es lo que hacemos
+estamos haciendo
+un experimento
+y el resultado
+y el resultado
+nos dice
+a qué suceso
+estará asociado
+eso es lo que tenemos
+hoy
+supongamos que
+el computador
+nos da un número
+aleatorio
+uno solo
+ese es el valor
+que vamos a ejercitar
+para ver cómo funciona
+nuestro sistema
+número de consultas
+al sistema
+con una probabilidad
+que está expresada
+ahí en esa
+en esa área
+de colores
+y ese número
+02567
+es menor que 3
+y por lo tanto
+cae
+porque esto está
+normalizado entre 0 y 1
+cae en ese intervalo
+y ese número
+025
+nos dice
+ah
+es el evento 2
+el que corresponde
+a esa área
+por lo tanto
+yo digo que mi probabilidad
+es
+que se hagan
+dos consultas
+y así voy a ir teniendo
+las distintas distribuciones
+como no hay un componente
+aleatorio
+que nosotros
+podamos a priori
+definir
+simulamos
+cuando no tenemos valores
+simulamos
+seguramente
+cuando construyeron
+el metro
+nos llamaron
+a toda la chusma
+vamos corriendo
+por la vía
+para ver
+de qué tamaño
+van a ser los coches
+es una simulación
+demandas
+oferta y demanda
+se hace mucho
+en planificación
+vial
+era necesario
+que les explicara
+este método
+de Montecarlo
+como una manera
+de mostrarles
+que existen
+herramientas
+que nos permiten
+trabajar con números
+aleatorios
+para resolver
+aquellos problemas
+sobre los que no tenemos
+la información precisa
+pero que podamos
+establecer un modelo
+que seamos capaces
+de utilizar
+y ahora voy a hablar
+un poquitito
+de aprendizaje
+con refuerzo
+y nos empezamos
+a acercar ya
+a áreas más
+no sé si más conocidas
+seguramente
+les pregunté
+si ya habían
+sufrido con las redes
+neuronales
+me dijeron que no tanto
+pero
+un poco para allá
+va esto
+no solo redes neuronales
+por supuesto
+¿qué es lo que es?
+¿en qué se basa
+más bien?
+se basa en que
+las personas
+y los animales
+¿cierto?
+aprendemos
+nuestro quehacer
+e interacción
+con el ambiente
+los monos
+cuando llegan
+los monos
+inocentes
+digamos
+no conocedores
+los monos chicos
+llegan a un árbol
+se comen los frutos
+que hay en el árbol
+los rojos
+y los verdes
+los monos viejos
+se comen los rojos
+que están maduros
+los monos que no saben
+se comen los verdes
+están un poco más amargos
+aprenden
+en esa interacción
+que los rojos
+son más ricos
+es como algunos
+aprenden con los enchufes
+que le da la corriente
+a la tercera
+ya no le da
+el aprendizaje
+es activo
+el aprendizaje
+se da por interacción
+habitualmente
+con el ambiente
+y estas interacciones
+ocurren
+una
+tras otra
+y mi interacción
+siguiente
+depende
+de lo que me pasó
+antes
+y yo meto los dedos
+en el hecho
+y no
+yo sé que da la corriente
+entonces uno va aprendiendo
+muchas veces
+sin que le enseñen
+nosotros somos
+criaturas
+más dependientes
+pero
+¿han visto nacer
+culebras?
+hacen de un huevo
+y cuando ese huevo
+eclosiona
+culebras
+¿ustedes creen
+que la mamá
+la empiece a llevar?
+no
+voy a salir para allá
+que le voy a atropellar
+un auto
+cada culebra
+arreglará como
+aprenden
+por interacción
+con el ambiente
+mucho más rápido
+que nosotros
+claro
+cuando aprendemos
+el sentido
+de aprender
+es para hacer algo
+la cosa básica
+es la supervivencia
+nosotros aprendemos
+principalmente
+para sobrevivir
+y una vez que sobrevivimos
+podemos aprender
+para
+otro tipo de
+objetivos
+y podemos aprender
+sin ejemplo
+o sea
+supongamos que queremos
+transformarnos
+en los magos
+de las finanzas
+con el manejo
+accionario
+nadie nos va a decir
+un conjunto de pasos
+que hay que seguir
+esto se aprende
+un poco
+en la interacción
+nos va a ir bien
+nos va a ir mal
+instinto
+suerte
+llámenlo como quieran
+pero hay una cantidad
+grande de elementos
+que no podemos manejar
+y aprendemos
+para obtener
+una recompensa
+¿cuál es la recompensa?
+dejar de tener hambre
+para el mono
+comerse los frutos
+más sabrosos
+y para el
+aspirante
+a
+manejador de acciones
+tener
+por ejemplo
+a sus clientes
+más satisfechos
+con las utilidades
+de la venta
+el manejo
+de compra y venta
+de acciones
+esas son las recompensas
+es decir
+el aprendizaje
+tiene un objetivo
+y el objetivo
+es la recompensa
+y la recompensa
+es un bienestar
+tenemos un agente
+tenemos
+una observación
+miramos el mundo
+la gente mira
+lo que pasa
+y en base a eso
+toma una acción
+cuando uno observa
+el mundo
+y vienen las llamas
+vienen las llamas
+es casi instintivo
+en todos los animales
+escapar del fuego
+la acción es
+escapar
+posiblemente
+no nos enseñaron
+a hacer eso
+es un poco
+intuitivo
+estamos mejor preparados
+que otros
+bueno
+el terremoto
+del 2010
+no sé si lo suena
+a Dichato
+una localidad
+cerca de Concepción
+es una
+una población
+de pescadores
+y de verano
+y cuando vino
+el tsunami
+de haber entrado
+unas
+cuatro o cinco cuadras
+casi diciendo
+desaparecer
+Dichato
+yo pasé por ahí
+como una semana después
+y era una cosa
+espantosa
+había una
+una manzana
+entera
+de esta de casa
+que antiguamente
+había
+que estaban todos
+los bulldozers
+ya habían amontonado
+los escombros
+estaban apilados
+en la mitad
+de la manzana
+no murió nadie
+por esa salida
+la gente
+era
+fin de verano
+en el último día
+el último sábado
+de verano
+o sea
+el carrete
+incluso los curados
+escaparon
+ni un ochoro
+no
+a mí en el agua
+no me hace nada
+yo nado mejor
+con tsunami
+no, nada
+todos escaparon
+casi
+instintivo
+pero es un aprendizaje
+ese aprendizaje
+es un aprendizaje
+intentivo
+no sé de dónde
+lo traemos
+pero escapamos
+del peligro
+entonces
+¿cuál es nuestro
+objetivo
+en este pasar
+y cuál es el objetivo
+de los sistemas
+que estamos construyendo?
+mejorar
+la recompensa
+es decir
+obtener mejores resultados
+estos resultados
+pueden ser económicos
+o de otro tipo
+la hipótesis
+de la recompensa
+nosotros
+aprendemos
+para algo
+ahora yo digo
+nosotros
+los sistemas
+aprenden para algo
+nosotros les enseñamos
+a los sistemas
+para un objetivo
+¿cuál?
+obtener recompensas
+cualquier resultado
+de una acción
+lo que busca
+es maximizar
+las recompensas
+que hemos
+eso es
+el retorno
+ejemplo
+de acción
+y recompensa
+volar un aeroplano
+esa es la acción
+la recompensa
+¿cuánto tiempo
+me demoré?
+¿llegué a tiempo
+recorrer la distancia
+que necesitaba?
+manejo de inversiones
+mi objetivo
+es ganar
+dinero
+y
+no tirarme a ojos
+cerrados
+a la piscina
+usar elementos
+que me permitan
+indicaciones
+indicadores
+de
+maximización
+de ganancias
+la caminata
+de un robot
+¿a qué distancia
+llega?
+¿a qué velocidad
+se mueve el robot?
+los primeros robots
+japoneses
+estoy hablando
+de la década
+del 80
+era un robot
+que ustedes
+le tiraban
+una pelota
+de béisbol
+o de tenis
+una pelota
+de deporte
+y el robot
+estaba parado
+a 4 metros
+y uno
+la pelota
+se la tiraba
+con un bote
+y el robot
+movía
+su bracito
+robótico
+y la agarra
+a veces
+a veces no
+hoy día
+todo la agarra
+mejoraron
+su rendimiento
+y si el robot
+en vez de agarrar
+pelotas
+lo ponemos
+a parar
+la invasión
+de los zombies
+los murciélagos
+lo que sea
+o balas
+juegos de video
+ganar
+claro
+ganar
+que es ganar
+maximizar
+el puntaje
+aquí hay algo
+bien interesante
+que les voy a decir
+a continuación
+que tiene que ver
+con
+cómo
+aprendemos
+nosotros
+a hacer
+estas cosas
+todos estos
+mecanismos
+que acabo de mencionar
+son aprendizaje
+con refuerzo
+¿cuándo se refuerza?
+cuando tengo
+una recompensa
+positiva
+cuando la fruta
+que elegí
+es sabrosa
+y no es venenosa
+vamos aprendiendo
+en Nueva Zelanda
+hay 27 tipos
+distintos
+de lechugas
+algunas de ellas
+son venenosas
+los nativos
+saben cuáles son
+así que
+si van a Nueva Zelanda
+no agarran
+la primera lechuga
+y se hagan
+ensalada
+porque
+pregunten primero
+ellos aprendieron
+la recompensa
+es que pueden
+seleccionar
+en este proceso
+de aprendizaje
+la lechuga
+que les permite
+seguir vivos
+¿por qué?
+¿por qué queremos
+aprender?
+cuando digo queremos
+ya estoy como máquina
+¿por qué las máquinas
+querrían aprender?
+¿por qué queremos
+que las máquinas
+aprendan?
+para que encuentren
+soluciones
+por ejemplo
+un programa
+que juegue
+en JDRS
+y un robot
+que trabaje
+en una
+empresa de manufactura
+automóvil
+perfecto
+aprende
+ah pero ya
+esa es su función
+pero y si queremos
+que aprenda
+para que este programa
+además
+de jugar a JDRS
+se adapte al usuario
+hay programas
+de JDRS
+que hacen eso
+y los robots
+para navegar
+en terrenos desconocidos
+en el año
+1976
+por ahí
+por julio
+junio
+julio
+llegó
+el primer
+artilugio terrícola
+a Marte
+Viking 1
+el Viking 1
+fue todo
+un acontecimiento
+en aquella época
+yo trabajaba
+en la estación
+de rastreo
+de satélite
+de la NASA
+y la llegada
+de esta máquina
+de este satélite
+que se posó
+en Marte
+no se hizo
+ver cuando llegó
+sino que se posó
+en Marte
+se suspendieron
+las comunicaciones
+de todas las estaciones
+asociadas a la NASA
+en el mundo
+para que todos
+pudiéramos seguir
+en vivo
+la llegada
+la NASA realiza
+montones de actividades
+como rastreo
+de satélites
+diarios
+y cosas de ese tipo
+pero
+este era un fenómeno
+único
+y esa máquina
+llegó
+y se posó
+estuvimos como
+tres días
+hablando
+de los impactos
+chacha
+hoy día
+seguramente
+habrás escuchado
+las máquinas
+los robots
+exploradores
+llegan
+a Marte
+y se desplazan
+bueno
+pasados
+algunos años
+y se encuentran
+con obstáculos
+que no
+no se les puede enseñar
+reglas generales
+si pillo una piedra
+trate de dar la vuelta
+por el lado
+no trate de subirse
+ahora
+si hay un precipicio
+al lado
+mejor váyase
+por otra
+no sé
+cosas como esa
+ahora
+a esta máquina
+que simplemente
+tomaba datos
+se le enseñó
+a adaptarse
+al ambiente
+esa es adaptación
+para mejorar
+la captura
+de datos
+por ejemplo
+y eso es lo que permite
+el aprendizaje
+permite pasar
+de un robot
+que está simplemente
+en una fábrica
+en una manufactura
+poniendo un perno
+en la rueda
+de un automóvil
+a un robot
+que es capaz
+de eludir
+un obstáculo
+es interesante
+como ha evolucionado
+esto del aprendizaje
+de las máquinas
+que son cosas sencillas
+tampoco es para morirse
+podemos hacer algoritmos
+y podemos hacer algoritmos
+adaptativos
+algoritmos que cambien
+de acuerdo a la situación
+que enfrentan
+bueno
+ese es la parte
+ese es el corazón
+de este
+de este módulo
+que tenemos
+que tienen ustedes
+conmigo
+cuáles son los mecanismos
+astutos
+que se usan hoy
+algunos de ellos
+la gracia
+es que estos robots
+de ahora
+los explorers
+ya no son los
+observadores
+son exploradores
+que aprenden
+capturan información
+así tal como nosotros
+aprendemos que
+el calor extrepo
+es algo que no nos gusta
+es típico el fuego
+y nos alejamos
+y tenemos
+distintas velocidades
+de reacción
+porque la velocidad
+de reacción
+también debe estar
+asociada
+el tiempo de respuesta
+en los sistemas
+es importante
+por eso hoy día
+se puede hacer
+como les decía
+ese robot torpe
+que se le pasaba
+la pelota a veces
+o nosotros mismos
+si fuéramos
+extraordinariamente torpe
+y si uno se afirma
+dice
+¡ay!
+que está caliente
+que está guay
+no, bueno
+dice
+¡oh!
+¡cálleme!
+y esas cosas
+se las podemos meter
+a las máquinas
+hoy día
+si esto es extraordinario
+¿qué es lo que hacemos
+hoy día
+con estas cosas
+aprendizaje
+a resolver problemas
+utilizamos
+aspectos científicos
+utilizamos
+modelos matemáticos
+físicos
+claro
+para tomar decisiones
+en función de
+lo que podemos
+capturar del ambiente
+y ese marco
+ese es un dominio
+porque esto
+es bien importante
+nosotros
+no diseñamos
+sistemas
+para que sean
+exitosos
+en todo
+cada vez son
+más especializados
+y ese es nuestro
+marco
+ese es el mundo
+en el que vale esto
+fuera de eso
+no sabemos
+reaccionar
+no lo hacemos
+entonces tenemos
+que ver
+¿qué pasa
+con los tiempos?
+me refiero
+a tiempos
+de respuesta
+¿cuánto podemos
+observar hacia adelante?
+¿cuánto podemos
+planificar?
+¿qué es lo que pasa
+si tomamos
+un determinado
+conjunto de acciones?
+¿qué pasa
+si nos tiramos
+de un avión
+y se nos olvidó
+ponernos el paracaídas?
+bueno
+eso es una sola vez
+pero
+uno puede planificar
+estas cosas
+analizamos
+y juntamos
+experiencias
+nosotros somos
+coleccionistas
+de experiencias
+proyectamos
+proyectamos
+a futuro
+y manejamos
+la incertidumbre
+no estamos seguros
+pero creemos
+que
+¿se acuerdan
+del ejemplo
+que les conté
+en la primera clase
+de los futbolistas
+que tenían que entrar
+todos con el pie derecho?
+no es parte
+de la experiencia
+no es parte
+del aprendizaje
+eso es ridículo
+entonces tenemos
+que separar
+lo ridículo
+de lo concreto
+¿les suena el Atari?
+ahí tenemos
+al jugador
+de Atari
+interactuando
+con el mundo
+ese mundo
+ese
+ese mundo
+es el ambiente
+el mundo
+del Atari
+y ese
+joven
+señorita
+que está ahí
+es
+el agente
+que mira
+el mundo
+y dice
+si yo hago tal cosa
+obtengo tal recompensa
+no me come
+el mono malo
+o si yo le disparo
+a la nave
+la mato
+antes que
+típico juego
+de ataque
+que hace el ambiente
+recibe
+la acción
+modifica el ambiente
+y le cuenta
+al usuario
+qué pasó
+con su acción
+la recompensa
+es una
+realimentación
+es lo que el ambiente
+le dice
+al jugador
+piénsenlo como el Atari
+piénsenlo como un juego
+nos dice
+que también
+lo estamos haciendo
+avanzamos
+avanzamos
+quemando etapas
+avanzamos por el laberinto
+del Pac-Man
+sin que nos pillen
+los malos
+y sabemos
+dónde están
+las vitaminas
+vamos aprendiendo
+vamos interactuando
+con ese ambiente
+qué es lo que
+busca la gente
+maximizar la ganancia
+en todos los pasos
+mientras más puntos
+mejor
+mejor
+mejor
+y en cada etapa
+cada paso que da
+es
+una acción
+que tiene una recompensa
+no todas las recompensas
+son positivas
+aquí están
+una suma
+pero es
+la adición
+con posible sustracción
+de recompensas
+y eso
+ese conjunto
+es lo que se llama
+retorno
+estaban esos juegos
+infinitos
+cierto que uno
+no terminaba
+jamás
+o yo no sabía
+que tenían
+tenían o no fin
+pero la gracia
+era hacer más puntos
+que el que estaba
+jugando al lado mío
+esto es importante
+el aprendizaje
+con reforzamiento
+y se da
+en la red neuronal
+se basa
+en la hipótesis
+de la recompensa
+y en la recompensa
+lo que hace
+la red neuronal
+es
+fortalecer
+o privilegiar
+aquellas conexiones
+que nos permiten
+un mejor comportamiento
+eso se le llama
+la ecuación
+de los pesos
+de la red neuronal
+que permite
+que la próxima vez
+yo elija ese camino
+y eso se va a parecer
+a otras cosas
+que vamos a
+no me voy a meter
+en redes neuronales
+porque el profe
+de redes neuronales
+se puede enojar
+tenemos un valor
+hay una recompensa
+como la
+esto no es
+tan importante
+porque
+la verdad
+que lo que
+me interesa
+es que asocian
+lo que es
+aprendizaje
+con acciones
+y recompensas
+es todo el ciclo
+que matemáticamente
+eso sea
+la esperanza
+de que yo tenga
+unas ganancias mayores
+en la etapa T
+esto es una cosa
+un constructo matemático
+pero nos interesa
+que nuestra recompensa
+acumulada
+a lo largo
+de mis distintas acciones
+que pueden ser
+las etapas del juego
+sea máxima
+naturalmente
+que depende
+de las acciones
+que tome
+una gente
+nosotros vamos
+aprendiendo
+en todos los juegos
+la meta es
+maximizar el valor
+claro
+alguien me puede decir
+no hay que matar al malo
+si claro
+pero eso es maximizar el valor
+es una metáfora
+de nuestra maximización
+esto es
+probablemente
+lo más relevante
+que se da en los juegos
+probablemente
+ustedes lo sufrieron
+pero sobre todo
+la generación
+más jóvenes
+que seguramente
+pueden ser sus hijos
+que juegan
+PS4
+o PS5
+ya
+que
+se manejan
+con una lógica
+bastante distinta
+a la nuestra
+esos juegos
+son parte
+de su mundo
+en esta conversación
+que les decía yo
+que teníamos
+en este proyecto
+iberoamericano
+los psicólogos
+lo que pasa
+es que nosotros
+nosotros los viejos
+bueno yo más viejo
+primero hablaban
+de longevidad
+y yo era el lobo
+y después hablaban
+del comportamiento
+de los jóvenes
+y decían
+que nosotros
+o sea ellos
+los adultos
+no los entendían
+porque
+ya pasaron
+la generación Z
+hasta la generación
+alfa
+y para ellos
+su entorno
+vía internet
+ese es el mundo
+para nosotros
+no
+para nosotros
+eso es una
+es una abstracción
+para ellos
+es parte de la vida
+sus amigos
+pueden ser amigos
+virtuales
+y pueden
+ser confidentes
+absolutos
+y nunca se han visto
+eso puede suceder
+es un mundo
+al que nosotros
+no estamos acostumbrados
+sus recompensas
+son distintas
+tenemos que
+ayudarnos a ello
+¿qué es lo que hace
+uno en un juego?
+o en esta interacción
+con un ambiente
+maximizar el valor
+de nuestras recompensas
+siempre
+ese es el objetivo
+podemos usarlo
+para aprendizaje
+toda acción
+tiene una consecuencia
+de largo plazo
+de largo plazo
+uno puede postergar
+la recompensa
+no es el
+el traga traga
+en el juego
+del ajedrez
+hay una estrategia
+que se llama
+el come come
+que es simplemente
+salir y cada vez
+que uno puede comer
+una pieza
+se la come
+habitualmente pierde
+pero se llama así
+el come come
+y eso es
+no pensar
+en postergar
+una acción
+para que dé
+un beneficio futuro
+un cambio
+un sacrificio
+un sacrificio
+en vez de irnos
+soplados
+en el helicóptero
+tratando de llegar
+reabastezcamos
+petróleo
+no sé lo que es
+no va a llegar
+tan rápido
+no
+pero
+hacemos
+tomamos una acción
+para que nos garantice
+una ganancia futura
+que es simplemente
+llegar
+jugadas defensivas
+en el juego
+las estrategias
+futboleras
+de los años 30
+eran
+se llamaba
+sistema W
+1-3-2-5
+que era la formación
+clásica
+y siempre
+los 5
+estaban adelante
+hoy día
+se habla
+de los polifuncionales
+cuando hay que defender
+todos atrás
+caramba
+en aquella época
+el delantero
+no
+eso es problema
+el defensor
+¿han cambiado
+las estrategias?
+sí
+estamos
+aprendiendo
+a que hay ciertas cosas
+que se pueden postergar
+como beneficio
+como ganancia
+a veces
+aprendemos
+una nueva habilidad
+con algún
+por algún
+objetivo
+puede ser hasta
+lúdico
+o aprendemos
+un idioma
+siempre hay un objetivo
+detrás de esto
+no porque
+voy a llegar
+a Moscú
+hablando ruso
+además que Moscú
+no está muy atractivo
+estos días
+cuando tenemos
+entonces
+estados
+asociados
+con acciones
+lo que tenemos
+es una política
+y
+no le cuenten a nadie
+esto
+pero una política
+es un grafo
+donde los nodos
+son estados
+y las transiciones
+son las acciones
+y bajo ciertas condiciones
+en un nodo
+de un grafo
+nosotros
+podemos partir
+para un lado
+o para otro
+y esa es nuestra política
+que va a estar
+decidido
+en base a
+criterios
+que nosotros
+nos tendremos que dar
+de acuerdo al problema
+esto es un poco
+filosófico
+pero
+todo esto
+que yo les estoy contando
+que les debe parecer
+natural
+es lo que estamos
+tratando de meterle
+a las máquinas
+tenemos un ambiente
+donde estamos
+jugando
+tenemos una recompensa
+¿cuál es la recompensa?
+la meta
+llegar a la meta
+tenemos el agente
+el que está jugando
+o el operador
+de este sistema
+que tiene un estado
+tiene una política
+quiere decir
+tiene
+criterios para decidir
+qué acción tomar
+puede
+valorar
+la función
+es estimar
+cuál es el costo-beneficio
+de una
+determinada acción
+sí
+puede proyectar
+a largo plazo
+sí
+lo hacemos
+y un modelo
+¿qué es lo que hacemos?
+¿qué es lo que hace
+el agente?
+mire el estado
+recibe información
+del estado
+eso le ofrece
+política
+dado este escenario
+estas son las acciones
+posibles
+entonces se mueve
+el agente
+que ya observó
+se mueve
+al siguiente estado
+y una vez más
+evalúa
+va evaluando
+paso a paso
+sus acciones
+un robot
+un sistema
+que aprende
+un sistema
+de aprendizaje
+automático
+hace eso
+y en el ambiente
+también el ambiente
+tiene un estado
+no lo vemos
+todo
+habitualmente
+no lo vemos
+típico en los juegos
+y en la vida
+no lo vemos
+todo
+y si fuera visible
+hay tanta
+información
+como hoy día
+cuando buscamos
+algo en internet
+ahora que tampoco
+hay que creerle
+tanto
+una vez
+hicieron un experimento
+de decir
+¿cómo se multiplicaban
+los números
+los romanos?
+5 por 2
+5 por 5
+es más fácil
+¿cómo sabían
+cuánto hacían?
+y había toda una técnica
+o como contaban
+los quechua
+los aztecas
+que tenían la base
+texadecima
+o
+base 20
+y otros
+base 60
+como el reloj
+¿de dónde vienen
+todas esas cosas?
+mi teoría
+era que
+los antiguos
+tenían base 20
+era porque usaban
+los veos
+y usaban los
+como usaban chalapas
+entonces también
+se les veían los veos
+puede que sea
+cierto
+puede que sea
+un carril mío
+no sé
+es una teoría
+bueno
+el ambiente
+si es visible
+tampoco nos sirve
+todo
+todo
+todo
+todo
+todo
+no recolectamos
+todo
+ahí está
+la gente
+interactuando
+con el ambiente
+¿y cuál es el estado
+de la gente
+del estado
+donde está
+parado ahora?
+que es una secuencia
+de observaciones
+acciones
+y recompensas
+y en base a eso
+de nuevo
+una observación
+una acción
+una recompensa
+es una secuencia
+y esa
+esa secuencia
+es la historia
+de lo que hizo
+la gente
+que nos permite
+reconstruir
+su pasar
+y si esto
+lo unimos ahora
+a simulación
+fíjense la potencia
+tenemos una gente
+que hace cosas
+y se manda
+un cóndoro
+no
+no era eso
+andú
+andú
+andú
+eliminamos ese camino
+lo podamos
+y partimos
+por otro lado
+podemos usar
+el alfabeto
+es decir
+las herramientas
+tecnológicas
+están
+hay dos tipos
+de ambientes
+los que son
+completamente
+observables
+y los que no
+lo son
+lo que observa
+es todo
+y ve todo
+sabe todo
+lo que pasa
+es como Trump
+en un estado
+cualquiera
+uno observa
+y ve el ambiente
+completo
+y hay ambientes
+que
+no son
+observables
+por cierto
+la cámara
+de un robot
+la cámara
+que me está
+siguiendo a mí
+sabe
+entre comillas
+donde yo estoy
+porque tengo
+el artilugio
+golgando
+pero la cámara
+misma
+no sabe
+donde está
+ella
+cuando juega
+en póker
+una gente
+que juega
+en póker
+solo ve
+las cartas
+que están
+en la mesa
+no ve
+las que tiene
+el otro jugador
+el ambiente
+es parcialmente
+observable
+y para eso
+están las políticas
+entonces
+como tenemos
+ambientes
+que son
+observables
+ambientes
+que no son
+100% observables
+tenemos que definir
+una política
+que son
+acciones
+que uno puede hacer
+en función
+de ciertas condiciones
+esa es la política
+de una gente
+es el mapeamiento
+desde el estado
+de la gente
+a la acción
+yo estoy aquí
+por lo tanto
+las acciones posibles
+para mí son
+A, B, C, D
+100,000
+más que sea
+la política
+puede ser
+determinística
+si yo hago
+tal acción
+ese es el estado
+o puede ser
+estocástica
+existe una probabilidad
+de que
+un robot
+esto es importante
+y que es lo que hace
+el modelo
+de la gente
+entonces
+ya lo
+le suministramos
+reglas
+le suministramos
+visiones
+observaciones
+del mundo
+en el que está
+y
+a partir de eso
+predice
+lo que va a suceder
+a continuación
+y en función
+de eso
+llego a tal estado
+y en tal estado
+hay tal recompensa
+y por lo tanto
+esa es la acción
+que voy a tomar
+evalúa
+a priori
+pero
+como no todo
+lo que brilla
+es oro
+puede que ese estado
+próximo sea muy prometedor
+pero a partir de ahí
+puede que lleguemos
+a un callejón
+sin salida
+o una situación
+peligrosa
+puede que nos coma
+el monito
+del pacman
+¿para qué usamos
+estos problemas
+de aprendizaje?
+predicción
+claro
+siempre es bueno
+poder
+tener una estimación
+de acciones
+posibles
+futuras
+control
+si tenemos
+la posibilidad
+de tener
+varias acciones
+piénsenlo
+como un robot
+que está haciendo esto
+como una máquina
+está aprendiendo
+entre comillas
+busca
+la mejor acción
+la evalúa
+y hace una predicción
+y si
+somos capaces
+de hacer la predicción
+un paso más allá
+y un paso más allá
+podemos avanzar
+en este árbol
+la predicción
+y el control
+son necesarias
+la evaluación
+de la
+de nuestra predicción
+es la que nos determina
+cuál es nuestra acción
+de control
+es decir
+la estimación
+de la recompensa
+es lo que dice
+a nuestra política
+qué acción
+debemos tomar
+qué camino
+en el aprendizaje
+no sólo de máquina
+de nosotros también
+el ambiente
+inicialmente
+suele ser desconocido
+cuando hablamos
+de aprendizaje
+y lo que hace
+el agente
+este robot
+esta máquina
+este sensor
+es interactuar
+con el ambiente
+y para eso
+se planifica
+y planificación
+es
+este es el modelo
+del ambiente
+si funciona
+y se planifica
+dentro de ese mundo
+no fuera de él
+qué es lo que necesita
+la gente
+por si quieren
+construir un robot
+este fin de semana
+políticas
+desde un estado
+pasamos a
+una probabilidad
+de que se produzca
+A
+se fijan
+que eso es un grafo
+de nuevo
+hay valores
+de funciones
+costos
+por ejemplo
+hay distintos modelos
+conjuntos de acciones
+que podemos
+tomar
+y actualizaciones
+de estado
+una vez que
+hacemos un cambio
+de estado
+nosotros podemos
+planificar a priori
+este modelo
+del que yo le estoy contando
+que no son
+otros cosas
+que un conjunto
+de reglas
+cuando los tiene
+la máquina
+o el robot
+lo dejamos solos
+y el modelo
+más completo
+probablemente
+o mejor hecho
+va a ser más exitoso
+que uno que tiene
+una salida
+profesor
+si
+las políticas
+son las acciones
+o son
+son las decisiones
+de acción
+en base a una evaluación
+del estado
+del ambiente
+en ese momento
+y las políticas
+en una red negrada
+porque estamos
+haciendo el paralelo
+con las redes neuronales
+pero lo que se hace
+solo en el aprendizaje
+pero no
+pero
+la pregunta iba
+en cómo se definen
+las políticas
+si no le estoy
+ingresando
+todo el tiempo
+que hacer
+en función
+de una acción
+no me muevo
+de un punto
+u otro
+me voy a adelantar
+un poquitito
+lo han visto
+en redes neuronales
+¿sí?
+en una red neuronal
+imaginémonos
+una malla
+con posibles acciones
+que tiene un objetivo
+una meta
+entonces yo tengo
+un camino
+de acción
+cuando las redes
+son las más fáciles
+que se llaman
+las supervisadas
+yo puedo decir
+no, está malo esto
+entonces
+imagínense
+que yo propago
+una acción
+para obtener
+el resultado
+y llego al resultado
+final
+de esta red neuronal
+y yo digo
+no, eso está malo
+entonces un aprendizaje
+supervisado
+lo que hace
+la red neuronal
+es decir
+¡ah!
+entonces
+retrocede
+y la pregunta es
+¿qué debería haber hecho yo
+para dar la respuesta
+correcta?
+y lo que hace
+es modificar
+se llaman
+los pesos
+de los arcos
+claro
+pero son
+los caminos
+distintos
+por los que yo llego
+a distintos objetivos
+y al modificar eso
+modifico la conducta
+de la red
+pero eso se llama
+supervisado
+es decir
+hay alguien
+que le pega
+un cosquecho
+y dice
+no, no es así
+también hay
+las no supervisadas
+no siempre se aprende
+supervisada
+las culebras
+no son supervisadas
+por ejemplo
+esas que nacen
+no sé
+¿qué un poco más?
+ok
+volvamos al ejemplo
+con el Atari
+tenemos ahí
+el joystick
+el Atari
+profesor
+¿sí?
+disculpe
+¿puede terminar ese ejemplo
+con la analogía
+del no supervisado
+por favor?
+ok
+en el no supervisado
+en la red neuronal
+en el no supervisado
+no tengo backtracking
+simplemente me quedo
+con los resultados
+es más barato
+pero me puedo equivocar
+profesor
+pero no
+no aprende
+sí
+yo uso
+esa experiencia
+para cargarla
+en mi base
+de ejemplos fallidos
+eso es
+meter el diablo
+en un chuve
+en caluga
+está más claro
+ok
+volvamos al Atari
+esto
+bueno
+yo puse el Atari
+pero
+usen la PS5
+ustedes
+¿han visto
+hermanos
+sobrinos
+hijos
+jugando?
+se compran unos juegos
+que no sé cuánto valen
+pero baratos no son
+bueno la PS5
+tampoco
+se compran los juegos
+los usan
+y empiezan
+a jugar
+oh
+me llegó tal juego
+el de FIFA no
+porque ese es más fácil
+pero
+llegan juegos
+típicos de
+monstruos
+que hay que dispararles
+pequeño paréntesis
+mi hijo tiene
+una PS
+no sé cuánto
+me dijo
+juega
+un día
+bueno
+todavía se ríen de mí
+porque yo me tiraba
+de un puente
+y tenía que caer
+sobre un tren
+y nunca salté a tiempo
+porque siempre
+caía
+y el tren ya había pasado
+entonces me moría
+y él me dijo
+no tenéis que apretar
+este y este botón
+para saltar
+y salté
+y caí arriba del tren
+y sale un bandido
+detrás de un barril
+y me dispara
+no encontré
+lo más injusto
+que había
+no he jugado más
+bueno
+las reglas del juego
+son desconocidas
+ninguno de estos juegos
+viene con manual
+se aprende
+de la interacción
+un robot
+puede aprender
+de la interacción
+los niños lo hacen
+¿cómo
+supo
+el piojo chico
+que para que el karateka
+saltara
+y le hiciera
+la pata voladora
+y no sé qué
+tenía que darle
+el dedo chico
+la tecla
+no sé cuánto
+este con el dedo
+con la pata
+a la otra
+y eso generaba
+una acción
+y eso lo aprendió
+buscando
+eso no supervisaba
+y depende
+de lo que veo
+en una pantalla
+mi acción
+y se entusiasman
+y le transpiran las manos
+y no quieren ir a comer
+bueno
+todas esas cosas
+que ustedes
+deben haber escuchado
+alguna
+se da
+en este
+en este mecanismo
+de aprendizaje
+permiso
+voy a llevar
+un coper
+y
+bueno
+lo que viene ahora
+en el curso
+hoy
+próximo lunes
+ya vamos a entrar
+a cosas
+que les deben sonar
+un poco más cercanas
+que el montecal
+que la simulación
+no que la teoria
+y es
+sistemas
+que se adaptan
+estos que dicen
+ah
+son inteligentes
+que no son inteligentes
+pero no importa
+digamos que
+son parte de
+y estos
+son algoritmos
+que interactúan
+con el ambiente
+tal como
+se ilustra
+con esos animalitos
+es parte
+de la evolución
+de las especies
+adaptarse
+o morir
+esto lo vamos a ver
+bien en detalle
+probablemente ya
+en la segunda parte
+los algoritmos
+genéticos
+¿qué es lo que es
+este
+algoritmo
+adaptativo?
+son reglas
+vamos a poner
+un programito
+que se ajusta
+ajusta sus acciones
+en función
+de cómo van
+variando
+los datos
+de entrada
+y empieza a sonar raro
+pero es sencillo
+como
+como la mayoría
+de las cosas
+en matemática
+en física
+en computación
+en particular
+hay nombres
+que son
+evidentes
+evidentes
+y que la verdad
+no
+no lo son
+tanto
+las redes neuronales
+que son constructos
+gigantes
+¿saben cuándo
+se inventaron?
+1945
+se juntó
+un biólogo
+con un matemático
+Maculof
+y Pits
+y uno dijo
+hoy tengo una
+una célula
+y el matemático
+se acabó
+un modelo
+si le llega
+un estímulo
+se excite
+y si no le llega
+no se excite
+se empezaron
+a jugar
+con las células
+y lo inhibitorio
+y lo excitatorio
+hicieron un modelito
+matemático
+esa es la red neuronal
+que ahora tiene
+millones de neuronas
+es otra historia
+pero el comienzo
+es así de sencillo
+no hay nada
+tan creativo
+detrás de esto
+bueno
+entonces
+lo que hace
+este procedimiento
+este
+este sistema
+que se está ejecutando
+es adaptarse
+de acuerdo
+a como vienen
+los datos de entrada
+recuerda que
+en la primera clase
+yo les dije
+que nosotros
+siempre ejecutábamos
+la resolución
+de las ecuaciones
+de segundo grado
+de la misma forma
+menos b
+más menos raíz de
+en fin
+es como una poesía
+y eso lo cambiaba
+pero ahora parece
+que hay cambios
+en función de
+los datos
+y eso lo hace interesante
+ese es un sistema
+que se adapta
+y este sistema
+que se adapta
+va mejorando
+por lo tanto
+su funcionamiento
+en el tiempo
+como nosotros
+nosotros
+somos bien parecidos
+a estos sistemas
+que tienen
+tienen un tiempo
+de aprendizaje
+no sé si ha pasado
+que les cambian
+de lado una puerta
+alguna vez
+y uno tiende a ir
+por donde estaba
+antiguamente
+la chapa
+que ya no está
+que está
+también nos vamos
+adaptando
+de hecho
+nos adaptamos
+a la conducción
+recuerdan
+cuando aprendieron
+a manejar
+supongamos
+que sea un auto
+mecánico
+pero la clásica
+la pregunta básica
+es lo que yo hice
+y como paso
+de primera a segunda
+como si yo
+en que momento
+y la respuesta
+tú te vas a dar cuenta
+y así éramos
+eso no lo podemos
+explicar
+no lo podemos
+enseñar
+a alguien
+el punto 3
+hace referencia
+a que va cambiando
+los pesos
+dentro del modelo
+para que entregue
+un resultado distinto
+en ese sentido
+se va adaptando
+puede ser pesos
+en el caso
+de la red neuronal
+efectivamente
+son pesos
+en el caso
+de otros sistemas
+más complejos
+son reglas
+y son decisiones
+y muchas veces
+aleatorias
+con una evaluación
+que es lo que hace
+que cambie el modelo
+lo vamos a ver
+lo vamos a ver
+en la segunda mitad
+porque tiene que ver
+con el genético
+en principio
+lo que digo
+lo vamos a ver
+como dije
+hay parámetros
+que tiene un sistema
+y que eso se van a ir
+modificando
+por ejemplo
+para contestar
+la artiro
+mejor la
+por ejemplo
+tenemos un conjunto
+de variables
+y yo digo
+a ver
+estoy construyendo
+cajas
+de cartón
+corrugado
+este es un ejemplo
+y hay
+800 tipos
+distintos
+de cajas
+de embalaje
+que yo vendo
+y tengo que planificar
+entonces voy a poner
+para considerar
+mi planificación
+voy a decir
+es importante
+el tipo
+de material
+como dicen
+si es una flauta
+o dos flautas
+la primera vez
+que me dijeron
+el cartón
+corrugado
+que tiene
+las culebritas
+por un lado
+o por los dos
+entonces dependiendo
+de que sucede
+eso es relevante
+o no
+en algunos casos
+no es tan relevante
+el proveedor
+ok
+lo voy a considerar
+el costo
+el tiempo
+en que
+el proveedor
+me entregue
+el producto
+la distancia
+a la que está
+el cliente
+que me pide
+en fin
+otro montón
+de objetivos
+de variables
+y yo hago
+una planificación
+y este sistema
+me arroja valores
+esto tiene un costo
+de tanto
+o un tiempo
+de tanto
+o una evaluación
+no necesariamente
+económica
+una mezcla económica
+tiempo
+hasta que me doy cuenta
+que en realidad
+el sistema
+empezamos nosotros
+a alimentarlo
+de manera tal
+que
+el valor
+de ciertas variables
+empieza a ser
+irrelevante
+no influye
+en mi modelo
+pese a que es una variable
+de entrada
+porque las considero todas
+trato de ver el mundo
+completo
+y en el
+y en el avanzar
+que es lo mismo
+que hacemos nosotros
+cuando tenemos
+un conjunto de datos
+y descubrimos
+que para tomar
+ciertas decisiones
+hay variables
+que
+no son tan relevantes
+y que las podemos
+despreciar
+en realidad
+o en el estadio
+si me tengo que poner
+el jean azul
+o el jean plomito
+bueno
+si soy como
+los brasileños
+pero descubro
+que ese tipo
+de variables
+no son importantes
+o en el automóvil
+voy a llevar
+tengo la radio
+en determinada
+ubicación
+en el dial
+y estoy usando
+no sé
+un líquido
+limpia
+el balsapito
+de tal marca
+me preparo todo
+la benzina
+la presión
+de neumático
+y bueno
+y el agua
+el zapito
+y que marca
+le vamos a poner
+y descubrimos
+que en realidad
+eso no es relevante
+para nuestro viaje
+o descubrimos
+que la radio
+que está sonando
+que es un parámetro
+del mundo
+tampoco es relevante
+y empezamos
+a modificar
+esos parámetros
+el aire acondicionado
+el sistema
+de aire acondicionado
+del automóvil
+ustedes conocieron
+los escarabajos
+los antiguos escarabajos
+que eran hechos
+en Brasil
+esos tenían
+un sistema
+de calefacción
+deprimente
+un sistema
+de calefacción
+deprimente
+porque ustedes
+le ponían
+el radio acelerador
+estaba toda la noche
+andando
+y a la mañana siguiente
+estaba un poquito tibio
+porque en Brasil
+no hace frío
+entonces calefacción
+es ridícula
+ese tipo de cosas
+que con el
+con el quehacer
+del tiempo
+con el avanzar
+del sistema
+descubrimos
+que son irrelevantes
+en lo que
+un sistema
+puede hacer
+solo
+es ir eliminando
+le enseñamos
+a eliminar
+aquellas variables
+que no son relevantes
+porque cuando hace
+propuestas de solución
+y considera
+todas estas variables
+nos damos cuenta
+que no importa
+el valor que tenga
+determinada variable
+que los elementos
+son otros
+o lo puede aprender
+y en este caso
+el aire acondicionado
+la temperatura
+por ejemplo
+en Brasil
+es irrelevante
+para efectos
+de calefacción
+pero para nosotros
+sí
+sobre todo
+en estos días
+no sé
+si aclaro
+un poquito
+lo vamos a retomar
+en genético
+¿para qué nos sirve esto?
+esta capacidad
+de aprendizaje
+o esta capacidad
+de desechar
+lo que no nos sirve
+para enfrentar
+ambientes
+para los que
+no nos enseñaron
+a reaccionar
+¿dónde se usan
+para el análisis
+de datos complejos?
+lo que queremos
+es que haga lo mismo
+que nosotros
+que en una situación
+desconocida
+tomemos una acción
+que igual permita
+maximizar nuestras ganancias
+como por ejemplo
+la subsistencia
+no
+solo en los chistes
+de Condorito
+sale
+espero que a ninguno
+de ustedes
+o familiares
+le haya caído
+un piano en la cabeza
+pero si uno ve
+un piano
+colgando de un edificio
+solo por precaución
+va a hacerle el quite
+no porque
+siquiera lo haya visto
+entonces
+incorpora
+elementos
+y elimina
+otros que son
+irrelevantes
+profesor
+por ejemplo
+en un problema
+que sea complejo
+o que haya muchos datos
+uno podría por ejemplo
+usar el método
+de Monte Carlo
+para generar como datos
+y usar el método
+el algoritmo
+de adaptación
+para ver
+qué variables
+tienen relevancia
+y cuáles no
+entonces así uno va como
+creando sus datos
+y a la vez va filtrando
+las variables
+de hecho
+de hecho lo vamos
+creo que lo alcanzo
+a mencionar
+antes del
+del Sauer
+podemos mezclar
+podemos mezclar
+técnicas
+voy a ver
+yo el algoritmo
+genético
+aislado
+hoy día
+solo
+no como
+con todas
+sus combinatorias
+pero si existe
+la posibilidad
+de hacer los híbridos
+que es lo que está
+hoy día
+dándose
+se hibridiza
+es decir
+se combinan
+distintas técnicas
+hasta para la generación
+de datos
+como vamos a ver
+entonces
+lo que hacemos
+primero
+siempre
+siempre
+siempre
+siempre
+debemos entender
+el problema
+una vez que entendemos
+el problema
+podemos modelar
+y modelar
+significa cosas
+tan sencillas
+como decir
+estas son las entradas
+estas son las salidas
+y hay ciertas reglas
+que siempre deben cumplirse
+ese es nuestro primer paso
+del modelo
+después podemos empezar
+a ser un poco
+más finos
+¿por qué los hacemos así?
+porque
+probablemente
+estos productos
+computacionales
+el software
+sean los únicos
+a los que se les exige
+adaptabilidad
+y la capacidad
+de actualizarse
+nadie construye
+un sistema
+para que
+hoy
+cambió la ley
+el IVA
+bajó
+de 20
+a 18
+no
+hay que hacer
+el sistema
+de nuevo
+bueno
+hubo algunos hábiles
+que dijeron
+que cambió
+de 20
+a 18
+mucha pega
+en toda la parte
+donde dice
+02
+póngale
+018
+y después
+hay unos
+02
+ahí
+que no tenían
+que ver
+con el IVA
+entonces
+no, no, no
+ponga
+todo el 018
+en 02
+y ya nunca más
+se pudo usar
+ese sistema
+nosotros construimos
+sistemas
+para que duren
+y los adaptamos
+cada día más
+si uno se compra
+un auto
+no catalítico
+y se pasa
+catalítico
+no, ¿a dónde
+el mecánico
+dice
+oye, ponle un catalítico
+o tengo un televisor
+de tales características
+un 4K
+y no se lo llevo
+al técnico
+para que me transforme
+en 8K
+esos productos
+son
+están
+rígidos
+pero el software
+tiene más exigencias
+un algoritmo
+adaptativo
+se ajusta
+en función
+de lo que
+observa
+del ambiente
+adaptación
+lo mismo que hacemos
+nosotros
+al adaptarnos
+observamos un ambiente
+y cambiamos
+en función
+de ese ambiente
+¿cuál es el ambiente
+del algoritmo?
+su entrada
+entran datos
+eso es lo que
+no sabe
+de dónde viene
+no sabe
+qué significa
+nosotros
+los interpretamos
+y ahí viene otra cosa
+que es súper importante
+que también vamos a tocar
+luego
+en representación
+profesor
+una pregunta
+con los algoritmos
+adaptativos
+solo
+nos permiten
+podar
+no
+a lo mejor
+cambiar
+la variable
+de entrada
+tomando otra
+que pudiera ser mejor
+priorizándola
+que era la pregunta
+que hizo él
+que yo puedo
+disminuir su importancia
+o tomar una nueva
+porque eso nos va a permitir
+que en el tiempo
+este software
+siga estando vigente
+si no se transforma
+una cosa estática
+que solo me sirve
+en una condición puntual
+rígida
+¿cómo se evalúa esto?
+a través de la realimentación
+el sistema
+responde
+esa respuesta
+se evalúa
+¿fue buena o fue mala?
+¿fue buena?
+la guardo
+es un camino
+que yo
+acabo de descubrir
+pero que es útil
+lo mismo que hacemos nosotros
+cuando
+tomamos una acción
+y que si no funciona
+guardamos
+en la memoria
+a diferencia
+de la máquina
+nosotros también
+guardamos las malas
+para no volver a repetir
+¿dónde se usan
+estos adaptativos?
+fíjense
+en predicción financiera
+las condiciones
+financieras
+hoy son distintas
+las de hace
+40, 50 años
+hoy día
+somos dependientes
+absolutamente
+del mundo
+se nos refrieó
+un jiqui
+y subió el petróleo
+y si sube el petróleo
+suben las lechugas
+y bajó el dólar
+pero siguen subiendo
+las lechugas
+porque no están
+indexadas
+según el vendedor
+de lechugas
+al dólar
+se casa la Camila Parker
+suben las lechugas
+contra
+Cristiano Ronaldo
+en Arabia
+suben las PAP
+siempre suben
+bueno
+pero son
+estamos
+estamos un poco
+lo que quiero
+lo que quiero decir
+con eso
+con esa broma
+es que estamos
+sumamente globalizados
+sobre todo
+en el aspecto financiero
+todo está
+absolutamente relacionado
+¿qué es lo que
+entonces debe hacer
+el sistema?
+ser capaz de ajustarse
+a alguna fluctuación
+que se produzca
+reaccionar
+al mercado
+y eso no está
+nada de fácil
+entonces
+¿cómo lo hace
+este sistema?
+considera
+digamos que
+construyamos un sistema
+con mil variables
+así entre nosotros
+un sistema
+bacán
+vamos a echar un año
+pero va a ser un sistema
+que realice todo
+y vamos a tomar
+decisiones malas
+al principio
+buenas
+las buenas
+las vamos a ir guardando
+entonces el sistema
+va a combinar
+las buenas
+y va a combinar
+parte de esta buena
+con parte de esta otra buena
+pero a lo mejor
+esta que parece mala
+no la vamos a desechar
+porque es un ejemplo
+que también nos sirve
+para aprender
+recuerden que nosotros
+también guardamos
+las cosas malas
+pero ¿en qué minuto
+yo le ingreso
+previamente
+el algoritmo
+para que automáticamente
+empiece a aprender
+o
+sé que hay
+mecanismos supervisados
+no supervisados
+pero
+en este caso
+¿de cuál estamos hablando?
+¿o en qué minuto
+uno interviene
+para que
+empiece a hacer
+captar los datos
+para poder ajustar
+el modelo?
+en las redes neuronales
+podemos hablar
+del supervisado
+y no supervisado
+pero ahí
+dejémoslo ahí
+por ahora
+pero
+en estos que vamos
+a ver a continuación
+nosotros
+no
+no
+no
+no somos tan creativos
+sino que dependemos
+de un conjunto
+de datos iniciales
+y trabajamos
+sobre esos datos
+iniciales
+los vamos transformando
+y vemos si
+satisfacen
+nuestros requerimientos
+o no
+no
+no quiero
+no quiero
+adelantarme
+pero
+voy a buscar algo
+para explicarlo
+un poco mejor
+está un poco
+tenebroso esto
+me quedó
+medio
+me quedó
+medio
+etrusca
+la explicación
+estoy a cargo
+de
+la cría de tortugas
+tengo un criadero
+de tortugas
+y tengo
+identificadas
+mis tortugas
+con distintos
+parámetros
+la edad
+el tamaño
+sexo
+hábitos alimenticios
+esos
+esos son datos
+de entrada
+yo los tengo
+y eso
+me permite
+evaluar la población
+porque voy un poco
+allá en la adaptación
+la adaptación
+es
+que no es
+no son los mismos datos
+sino que yo los
+cambio
+voy a modificar
+y voy a poder
+evaluar tortugas
+diferentes
+pero voy a ver
+cómo se comportan
+voy a medir
+y al medir
+estos valores
+diferentes
+voy a decir
+ah
+este era mejor
+que este otro
+por lo tanto
+voy a poder
+desechar
+estas tortugas
+y quedarme
+con las mejores
+o quedarme
+con las anteriores
+y siempre voy a ir
+mejorando esta
+población
+que no son tortugas
+que son soluciones
+computacionales
+que son nuestras salidas
+nuestra representación
+del mundo
+y yo a partir
+de una representación
+del mundo
+que tiene ciertas
+características
+voy a hacer
+una evolución
+que me permita
+que esa representación
+me satisface
+me guste más
+es una manera
+poco tusca
+pero
+pero en el
+en el ejemplo
+de la tortuga
+hay un
+equipo
+por decirlo
+así
+que va a estar
+probando
+que la voy a estar
+alimentando
+o la voy a estar
+poniendo más o menos
+al sol
+o la voy a estar
+mandando al agua
+etcétera
+en el ejemplo
+computacional
+¿cuál sería
+ese ambiente?
+programadores
+claro
+no
+en el ambiente
+en el ambiente
+computacional
+es
+¿en cuánto rato
+los voy a tener
+al sol?
+¿qué alimento
+le voy a dar
+a la tortuga?
+¿en qué lugar
+los voy a poner
+para el avariamento?
+esas combinaciones
+de información
+el tipo que le da agua
+le da agua
+y no sabe más
+es la entrada
+del algoritmo
+claro
+está el algoritmo
+que hace
+que esto
+se adapte
+que evolucione
+eso nos va a quedar
+clarito
+clarito
+después
+eso
+seguro
+robótica
+partimos con robots
+que hacen
+cosas
+podemos
+en robótica
+generar un sistema
+adaptativo
+por ejemplo
+incorporar
+nueva rutina
+para que hagan
+otras cosas
+porque tienen
+todas las capacidades
+instaladas
+como nosotros
+le incorporamos
+capacidades
+a través de
+algoritmos
+programas
+potenciamos
+su actividad
+de manera que pueda
+seleccionar
+en un momento dado
+cual de estos
+algoritmos
+o subalgoritmos
+o máquinas internas
+usar
+como nosotros
+nos enseñaron
+que para abrir
+un
+un frasco de conserva
+hay que pegarle
+tres veces
+son algunas técnicas
+no, no
+usamos un abridor
+de frasco
+claro
+y una vez que
+aprendemos a usarlo
+ya sabemos
+que tenemos que
+hacer esa herramienta
+pero si al principio
+no sabemos
+¿cómo la creamos?
+¿qué es lo que tengo
+de entrada
+un frasco cerrado?
+¿qué es lo que quiero
+como resultado
+un frasco abierto?
+¿cómo lo hago?
+y esas herramientas
+son los algoritmos
+en el caso del robot
+hay que suministrarle
+una máquina
+que le permita
+hacer esto
+que le permita
+abrir la puerta
+que le permita
+detectar
+¿qué es lo que se busca
+con estos algoritmos
+adaptativos?
+que funcione mejor
+que sean más ágiles
+que den respuesta
+en menos tiempo
+aquí vamos a parar
+porque ya
+se nos está entibiando
+el
+ustedes saben qué
+y
+voy a hablar
+del marketing
+personalizado
+como ejemplo
+en que estos algoritmos
+permiten
+y esto ustedes
+lo saben
+que les cambie
+la recomendación
+de un sistema
+en función
+de lo que han hecho
+bueno
+ya vimos el ejemplo
+de Netflix
+esta película
+es 86%
+para usted
+o son los sistemas
+de recomendación
+compren un libro
+de un autor
+japonés
+y lo van a llenar
+de recomendaciones
+de autores japoneses
+sistemas de recomendación
+se llaman eso
+son sistemas
+que se adaptan
+a la entrada
+al cliente
+y le empiezan a ofrecer
+cosas que a lo mejor
+no habían ofrecido antes
+eso es adaptación
+entonces
+cuando mejora
+esta estrategia
+de marketing
+y uno dice
+oh y me conoce
+Netflix
+o me conoce
+Amazon
+o
+compren su Lenovo
+por internet
+si cada mail
+que les manda Lenovo
+fueran 10 dólares
+andarían
+todo en un Ferrari
+ya
+hagamos una pausa
+aquí
+y
+seguimos
+en unos minutos
+sí
+claro
+ajá
+¿como son
+árboles
+sí
+¿como son
+presiones
+de grupos
+o tienen que ver
+con un tema
+concreto?
+no
+no
+no
+¿un grupo?
+¿ustedes?
+¿con el algoritmo?
+sí
+claro
+¿algoritmo
+presidencial
+de fuentes
+por el
+hay
+en
+en
+en
+un
+un
+un
+un
+un
+un
+un
+un
+un
+un
+un
+Gracias.
+Gracias.
+Gracias.
+¿Te recuerdo qué fue?
+Que me decía, ¿qué le pareció su visita a nuestra tienda?
+Bueno, nos tienen rodeados.
+¿Cuáles son las ventajas y desventajas?
+Vamos a avanzar un poquitito, vamos a poner un poco más de velocidad.
+Estos sistemas se pueden adaptar a condiciones cambiantes.
+Yo sé que hasta aquí, esta parte de cómo se produce el cambio o cómo se produce realmente la evolución, nos tiene medio intrigados.
+Pero les garantizo que en media hora, después de la pausa, vamos a estar tan clarísimos que ustedes me lo van a reexplicar a mí.
+Bueno, la resiliencia, ¿cierto? Cambia la condición y el sistema puede adaptarse.
+Podemos mejorar la capacidad de predecir, ¿verdad?
+Estos mismos sistemas de recomendación, obviamente que están mejorando y están analizando siempre los datos de los usuarios.
+Hay mecanismos absolutamente impresionantes que uno dice, ¿cómo lo hicieron?
+Pero es solo manejo de datos.
+¿Se acuerdan que hubo hace varios años ya una epidemia, una gripe, la H1N1?
+¿Les suena?
+Que aquí, no recuerdo cuál era, pero que en el aeropuerto instalaron máquinas para...
+No sirvieron mucho, pero en fin, salieron en la tele.
+Bueno, eso fue un brote de esta gripe que se propagó.
+¿Y sabían ustedes que Google predijo, más que predijo, sí, se puede decir, predijo dónde iba a estallar esta gripe,
+dónde se iba a gatillar, cuando ya había partido el fenómeno, con una anticipación de entre una semana y diez días?
+¿Y por qué?
+Porque la gente empezó a googlear síntomas.
+Y en una región cualquiera, muchas, muchas preguntas que tenían las mismas palabras,
+¡ah! Dijeron los astutos de Google.
+¡Vaya epidemia!
+La OMS, que ha hecho un poco después.
+Por lo tanto, hay que unirlos.
+Sí, todo lo que van a ver aquí, se ve de repente medio teórico, medio árido, pero la verdad es que es de suma utilidad.
+Estamos hablando de evolución.
+Y yo sé que es la parte que los tiene más complicados, pero vamos a avanzar en eso.
+Bien.
+¿Cuáles son las desventajas?
+Los sistemas pueden ser muy complejos.
+Aquí se requiere, bueno, un poquitito de experiencia.
+Por eso es fundamental cuando uno desarrolla estos sistemas, para un área específica del quehacer, que exista un experto.
+Si yo voy a trabajar, por ejemplo, sobre programación de coladas metalúrgicas en la gran minería del cobre,
+tiene que haber alguien que entienda este fenómeno.
+No puedo hacerlo desde afuera.
+Lo otro es que puede haber un sesgo algorítmico.
+Es esa cosa que es natural al ser humano, que si nosotros resolvemos un problema de manera creativa,
+creemos que esa forma creativa sirve para todo.
+Y la verdad es que no es así.
+Y a veces nos encerramos en un algoritmo que nos gustó tanto, que nos damos el trabajo de pensar qué hay de diferente en este caso particular.
+Y la cantidad de recursos computacionales, que puede no ser tan compleja.
+Hoy día las máquinas son extraordinariamente potentes y para la mayoría de las aplicaciones
+que no deberían representar un costo muy alto.
+Nosotros hemos modelado sistemas reales
+que operan en un par de horas con soluciones, con una base de datos gigantesca.
+Bueno, a veces nos hemos modelado un par de días, pero las respuestas son increíbles.
+La velocidad, la cantidad, la calidad de la respuesta.
+Cuando uno habla de algoritmo adaptativo, probablemente no vaya a ser la diferencia ahora,
+porque no ese es el punto de lo que viene.
+Pero hay varias cosas que están relacionadas.
+Aprendizaje con refuerzo.
+¿Recuerdan que hablábamos de recompensa en el aprendizaje?
+La pregunta es, ¿cómo maximizamos la recompensa?
+Es lo que hacen los jóvenes cuando juegan.
+Ellos maximizan la recompensa porque compiten.
+¿Quién hace más puntos?
+Ni siquiera saben cuál es la meta.
+Pero la meta parcial es tener más puntos,
+que son caminos hacia otra meta de mayor recompensa.
+Como anticipé, así como de pasadita,
+las redes neuronales tienen mucho que hacer aquí en esto de algoritmo adaptativo.
+Porque lo que hace es adaptar sus pesos.
+Es un grafo que es como decirlo de alguna manera bruta,
+para no meterme en redes neuronales,
+este es un grafo en el cual los caminos que resultan ser exitosos,
+los pavimentamos de manera que el que venga detrás lo siga.
+Como hacen las hormigas, que no pavimentan pero hacen algo parecido.
+Y el corazón de la clase de hoy, que es algoritmo genético.
+Es una técnica de búsqueda y optimización
+inspirada en el compañero Carlitos Darwin.
+Todo lo que es algoritmo adaptativo hoy día es central a la inteligencia artificial.
+Hablamos de aprendizaje, hablamos de adaptación,
+hablamos de resiliencia cuando cambia el ambiente.
+Y somos capaces de resistir estas crujideras,
+estas pequeñas tormentas en la solución de problemas.
+Esa es central para allá, pero tanto en sistemas simbólicos como sub-simbólicos.
+Sí, en ambos.
+En ambos.
+Bueno, a partir de estos algoritmos adaptativos que se están abriendo,
+como vamos a ver también más adelante,
+muchas formas nuevas de hacerlo hoy día,
+podemos ponernos bastante creativos.
+Y como mencionaba en la primera parte,
+podemos hibridizar.
+Es decir, no quedarnos en una sola técnica,
+sino que combinarla de manera de hacerlo más eficiente.
+Esto es solamente cultura general.
+Acaba de salir en una revista que se publicó ahora,
+esta semana, la semana pasada en realidad,
+unos microbots.
+Robots.
+Del grosor de un cabello.
+Que a través de una fibra óptica se llevan a...
+Bueno, en este caso estaban tratando sinusitis.
+Y es posible neutralizar una infección interna en el ser humano.
+No es invasiva.
+Y tejidos con infección, con algún material de infección,
+no son un obstáculo,
+como lo son en los tratamientos convencionales,
+que además suelen ser más invasivos.
+Esto se acaba de publicar la semana pasada.
+Lo puse en él,
+porque cuando yo era muy joven,
+tenía un amigo que estaba haciendo su defensa de doctorado
+en un tema absolutamente teórico.
+Matemático total.
+Universo de Herbrand y cosas raras.
+Y un profesor de la comisión.
+Y ¿cuál es tu opinión de la nueva arquitectura de los procesadores?
+Y él contestó.
+Porque eso había salido en una revista de computación,
+communication de ACM en el mes anterior.
+Contestó.
+Y a la salida le pregunta al profesor.
+¿Y por qué me preguntaste eso,
+que no tiene nada que ver con lo que yo hago?
+Y le dijo,
+porque tú estás estudiando informática
+y no puedes ignorar lo que hay alrededor de la informática,
+que está conectada con todo.
+Y eso es parte de él.
+Como cultura general.
+Me encanta eso.
+Esto es meteorística.
+El corazón de las meteorísticas.
+Recuerden que este curso es
+Heurísticas, Técnicas de Búsqueda
+y Meteorística.
+Las meteorísticas
+consideran estos algoritmos basados en poblaciones.
+Ahora estoy haciendo el rodeo como de la cueca.
+Me estoy dando la vuelta larga
+para llegar finalmente a los algoritmos genéticos.
+Pero
+vamos a trabajar con poblaciones.
+Que eso es lo que cambia.
+En las redes neuronales cambian los pesos.
+No cambian las instrucciones.
+Cambian las poblaciones.
+Los datos.
+Voy a explicarlo.
+Tenemos una población
+como
+por ejemplo
+que le puse a alguien allá afuera.
+Supongamos que yo tengo
+un conjunto de números.
+Alguien me dio números.
+Porque yo colecciono números.
+Y digo
+¡Ah!
+Pero aquí hay pocos números primos.
+En realidad hay uno o dos nomás.
+No me gusta mucho
+este conjunto de datos.
+Entonces agarro ese conjunto de datos
+y lo pongo en esta cajita
+que es mi algoritmo
+y que los modifique.
+Que le haga cambios de algún tipo.
+Y ahora van a haber
+dos o tres números primos.
+Y van a decir
+¡Ah!
+No me gusta más.
+Y hago
+desecho la población anterior
+el conjunto que me habían dado
+y me quedo con esta otra
+que tiene tres números primos.
+Porque me gustan los números primos.
+Y eso es lo que yo quiero.
+Y por lo tanto
+ese mismo criterio
+lo puedo usar
+para seguir
+y seguir
+y seguir generando
+un sistema ideal
+en el que
+todos los números son primos.
+Porque la población
+va a evolucionar.
+Vamos a ver
+cómo evoluciona.
+A través de los algoritmos genéticos.
+Lo primero que hacemos
+es inicializar
+una población.
+Siempre que vamos a resolver
+un problema de este tipo
+tenemos una población inicial
+generamos soluciones
+y
+esta población nueva
+los hijitos
+digamos
+de esta población
+los juntamos
+y tenemos una población
+más grande.
+Obviamente
+entendemos
+que hay un límite
+que no podemos
+aumentar, aumentar, aumentar
+por capacidad de memoria
+por último.
+Entonces
+tendremos que tener
+un criterio
+para elegir
+aquellos que más me gustan
+y voy eliminando
+los que me gustan menos.
+Y digo
+ah
+yo tenía 100 números
+de los cuales
+4 eran primos
+y después
+hice unas maniobras
+computacionales
+de transformación
+ahora tengo
+24 números primos
+ese es mucho mejor
+como todos los otros.
+Y
+hago otro paso
+de manera
+tratar de incrementar
+los números primos
+variando
+a esta población.
+¿Cómo?
+Vamos a verlo
+porque hay mecanismos
+que nos permiten
+hacer eso.
+¿Cuándo paramos
+en esta búsqueda?
+Cuando decimos
+no, ya tenemos
+primos suficientes.
+¿Se conforma con eso?
+Sí, esa es la solución.
+Paremos.
+Entonces
+lo que se produjo
+fue
+una evolución
+de mi población
+porque
+en esta población
+esa es la solución.
+La solución
+está en la población
+no está en el algoritmo.
+el algoritmo
+es una máquina
+que
+hace cosas
+siempre hace las mismas
+que es la gracia
+de las meteorísticas.
+Ustedes arman
+el corazón
+de un programa
+que hace esto
+porque vamos a ver
+que hace el algoritmo
+genético
+y
+no se preocupan
+de más
+el resto son datos
+y cómo ustedes
+miden los datos
+por lo cual es la calidad.
+Eso es todo.
+¿La población
+son datos?
+Sí.
+¿Cómo un ejemplo?
+¿Puede
+ver un ejemplo, por favor?
+Los números
+que de los cuales
+algunos eran primos
+o
+por decir
+la población
+es una población
+de vacas
+y
+y
+toros
+que producen
+terneritos.
+Y yo
+dijo
+y la población
+siguiente
+¿cómo va a ser?
+Entonces
+¿qué es lo que hacían
+los ganaderos?
+Traían un toro holandés
+¿cierto?
+Y salía mejor
+el ganado
+en la siguiente generación.
+¿Cuál era la solución
+para él?
+Su nueva población
+de ganado.
+Iba a tener
+otra calidad
+otra composición.
+Entonces
+iba a incentivar
+como vamos a ver
+que
+ponerles mejor
+nota
+a aquellos
+animales
+más rentables.
+¿Este modelo
+te permite
+elegir
+la mejor forma
+como los datos?
+Modificar los datos
+para que se acerquen
+a lo que yo quiero.
+Por ejemplo
+tengo una curva
+puede ser matemático
+tengo una curva
+¿qué es lo que hace
+este algoritmo?
+Permite
+mejorar
+el máximo
+de esa curva.
+Maximizar
+o minimizar
+depende
+de cuál sea
+el objetivo.
+¿Y este
+vendría siendo
+un
+algoritmo
+adaptativo
+o es completamente
+un algoritmo?
+Es parte
+de los algoritmos
+adaptativos.
+es uno de los
+es uno de los
+adaptativos.
+Sí, hay mucho
+mucho
+mucho
+Sí
+Bueno
+no me haga mucho
+caso porque
+me voy a adelantar
+un poco
+pero
+un adaptativo
+son los
+algoritmos
+de hormigas
+las colonias
+de abejas
+el tratamiento
+con bacterias
+la programación
+genética
+y
+la resistencia
+bacteriana
+de las que
+les voy a hablar
+más
+pero más
+adelante
+el otro
+lunes
+que vienen
+¿Cómo funciona
+una meteorística
+basada en
+poblaciones?
+Y eso es lo que
+vamos a ver
+la población
+es nuestra
+solución
+fíjense que
+tengo
+este es mi
+mundo
+hoy
+esta es mi
+realidad
+donde yo
+tengo
+ciertos
+individuos
+que son
+parte de
+una solución
+y ¿qué es lo
+que hago?
+genero una
+población
+a partir de
+esta
+la modifico
+de alguna
+manera
+voy a
+modificar
+esa información
+porque esto
+es información
+esto es una
+matriz
+esto es un
+arreglo
+esto es un
+conjunto
+de datos
+lo voy a
+modificar
+de alguna
+forma
+curiosa
+que vamos
+a ver
+luego
+y voy
+a generar
+una nueva
+población
+posiblemente
+diferente
+seguramente
+diferente
+a partir
+de esta
+base
+y la voy
+a evaluar
+esta
+es mejor
+que la
+anterior
+¿no?
+¿qué es
+mejor
+o habitualmente
+reemplazo
+a lo
+original
+y ¿qué es lo
+que tengo
+ahora?
+prácticamente
+la misma
+estructura que
+tenía
+originalmente
+pero de
+mejor calidad
+eso fue
+lo que hice
+sí
+el algoritmo
+es capaz
+de cambio
+de población
+¿es capaz
+de modificar
+el algoritmo
+o el algoritmo
+siempre se mantiene intacto?
+el algoritmo
+se mantiene intacto
+lo que modifico
+es la población
+puedo cambiar
+funciones
+parcialmente
+cosas como
+esa
+en el
+en un
+algoritmo
+que desarrollamos
+nosotros
+no hace mucho
+lo que hacemos
+también es cambiar
+el algoritmo
+pero es relativamente
+sencillo
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+podríamos decir que sí
+porque las
+las soluciones van mejorando
+aprende
+más que el algoritmo
+aprender
+el resultado
+es algo que a nosotros
+nos dice
+aprendieron
+porque nuestros resultados
+son mejores
+nuestro mundo
+nuestro dominio
+es
+el nuevo
+el que se da
+después de que hicimos
+este
+esta generación
+de una población nueva
+la evaluamos
+y la insertamos
+en la
+en la antigua
+y de ahí
+vamos a tener un criterio
+como les decía
+porque esto no puede crecer
+indefinidamente
+entonces tengo que tener un criterio
+voy a eliminar a los más malos
+pero la verdad es que no los elimino a todos
+no es una cosa así
+ya de aquí para abajo
+no
+no quiero adelantar
+les voy a explicar después las razones
+de por qué pasa todo esto
+eh
+tengan paciencia en este
+en este
+esto es como cuando parte el tren a tirones
+pero ya vamos a entrar a la parte
+sin tantas fallas
+hay dos formas de generar
+y reemplazar la población
+sin memoria
+esto significa que con independiente
+de lo que yo tenía
+generé
+una población
+este conjunto de soluciones nuevas
+y reemplazo totalmente
+a la vieja
+que es lo que nos pasa a nosotros
+nosotros somos generaciones
+que vamos a ir desapareciendo
+pero también
+hay otra que es
+con memoria
+que podemos usar la historia
+y decir
+esta solución que era buena
+es de los viejos
+sí
+pero es buena
+¿por qué la vamos a perder?
+y la mantenemos
+esos son criterios distintos
+generamos
+una población
+de soluciones
+y
+cuando
+decimos
+vamos a reemplazar
+al anterior
+decimos
+sí pero
+a los buenos
+dejémoslo
+eso tiene un nombre
+se llama elitismo
+lo inventaron los alemanes
+casi todos estos
+algoritmos
+como les mencionaba
+se impidan en la naturaleza
+las colonias de hormigas
+las abejas
+los sistemas inmunes
+artificiales
+esos son sistemas
+que
+todos
+trabajan con
+poblaciones
+¿cómo funciona
+una metabolística?
+sí
+yo también
+sí
+cuando representamos
+un fenómeno
+en el que las soluciones
+tienen poca duración
+en el tiempo
+por ejemplo
+yo estoy representando
+por decir
+una barbaridad
+estoy representando
+ganados
+como el ejemplo
+que puse
+no puedo mantener
+eternamente
+al toro reproductor
+porque después
+de 100 generaciones
+el pobrecito
+ya no
+no sé si me entiende
+la metáfora
+bueno
+este es
+este es el template
+esto es lo que hace
+una meteorística
+generamos una población
+y aquí entramos
+un ciclo
+genera una nueva población
+selecciona la nueva población
+que es la antigua
+con la nueva
+ahí puede filtrar
+aumenta el tiempo
+da otro giro
+hasta aquí
+nos aburramos
+no
+hasta que lleguemos
+a una solución
+o
+digamos
+si ya hemos dado
+hartas vueltas
+en fin
+aquí hay varios criterios
+¿cómo va a ser la detención?
+¿cuál es la salida
+de este
+de esta iteración?
+que vamos a tener
+una población
+mejor
+no importa lo que
+significa por ahora
+mejor
+es algo que evaluamos
+nosotros
+y con nuestro criterio
+de evaluación
+nos gusta más
+que la anterior
+¿cuál es la diferencia
+entre estas distintas
+meteorísticas?
+mencioné
+las hormigas
+las abejas
+o genéticos
+son
+la forma
+en que se hace
+la selección
+y la memoria
+que se usa
+por ejemplo
+en los algoritmos
+evolutivos
+como los genéticos
+lo que se tiene
+es una población
+de individuos
+en las colonias
+de hormigas
+lo que se guarda
+es una matriz
+de feromonas
+una matriz
+en la cual
+nosotros representamos
+la matriz
+representa un grafo
+en el cual
+los caminos
+las líneas
+que unen
+estos estados
+van a representar
+la cantidad
+de feromonas
+que hay
+que son los caminos
+más deseables
+para que las hormigas
+pasen
+es una forma
+de representar
+el resultado
+cuando tenemos
+un enjambre
+de partículas
+lo que se usa
+son propiedades
+del tipo físico
+de las partículas
+las partículas
+que son más pesadas
+en términos físicos
+tienden a
+a hundirse
+en un plano
+supongamos que tenemos
+un plano
+una tela
+entonces si tenemos
+una partícula
+muy pesada
+esa partícula
+tiende a traer
+a las otras bolitas
+de acero
+que andan
+produciendo
+por atracción
+y si estas
+representan
+buenas soluciones
+todas las soluciones
+que se parezcan
+las voy a poder juntar
+voy a poder separar
+áreas de buenas
+como áreas
+de malas soluciones
+ese es uno
+de los tantos
+algoritmos
+que se usan
+las colonias
+de abejas
+claro
+lo que importa
+son las abejas
+mismas
+la población
+de abejas
+yo les decía
+las abejas
+bailan
+y no bailan
+de contentas
+bailan
+de trabajo
+sistemas inmunes
+los anticuerpos
+ahí tenemos
+una población
+que queremos
+mejorar los anticuerpos
+¿cierto?
+entonces la siguiente
+tenemos mejores anticuerpos
+potenciados
+tal vez
+con vitaminas
+con vacunas
+no lo sé
+pero decimos
+ah vamos a hacer
+tales cambios
+se pueden hacer
+con los anticuerpos
+se pueden hacer
+tales operaciones
+la memoria de búsqueda
+¿dónde?
+¿dónde estoy
+buscando?
+el concepto
+de generación
+tengo un conjunto
+de datos
+doy un paso
+de evolución
+hago unas operaciones
+y tengo una población
+nueva
+eso es una nueva
+generación
+y
+¿cómo elijo
+la solución
+a partir de
+estas dos
+de la vieja
+y la nueva?
+como les decía
+que hay
+formas distintas
+puedo hacer
+un reemplazo
+total
+o puedo hacer
+un reemplazo
+parcial
+guardando
+las mejores
+soluciones
+que es
+lo que uno hace
+en la mayoría
+de las ocasiones
+pero depende
+del problema
+que está representando
+porque si no
+cae
+bueno el problema
+del toro viejito
+y lo vamos a matar
+del corazón
+una de las
+de las gracias
+o desgracias
+de esto
+es que
+elegir
+la población
+inicial
+es crítico
+pero no es difícil
+que es lo que
+se usa aquí
+principalmente
+la diversificación
+pensémoslo
+de esta manera
+si nosotros
+todos los humanos
+fuéramos exactamente
+iguales
+y reaccionamos
+exactamente
+iguales
+a un ataque
+de algún virus
+si un virus
+mata a uno
+lo mata a todos
+es nuestra diversidad
+genética
+la que nos salva
+tiene que ver
+con ese concepto clásico
+no poner todos los huevos
+en la misma canasta
+por último
+algunos caerán
+otros no
+pero esa diversificación
+genética
+es la que permite
+la subsistencia
+del espíritu
+si
+nosotros decimos
+y llevamos a poner
+estoy exportando
+piras
+todos
+del mismo tipo
+si todas las peras
+son iguales
+las posibilidades
+de mejora
+si yo las mezclo
+las combino
+me dan la misma pera
+no hay
+un mejoramiento
+pero si
+esta pera
+la mezclo
+con esta pera
+de esta otra especie
+o
+este animal
+que tiene
+tales características
+lo cruzo
+con este otro animal
+que tiene
+estas otras características
+caramba
+a lo mejor
+se puede producir
+una mejora
+es lo que pasa
+con las plantitas
+es muy habitual
+que cuando uno dice
+ya
+vamos a generar
+una población inicial
+una alternativa
+es generarla
+al azar
+que no es tan mala
+como la genero
+no
+generémosla
+así
+aleatoriamente
+pero la otra es
+imaginémonos
+que este es un espacio
+de soluciones
+imaginémonos
+que esta pizarra
+es un espacio
+de soluciones
+donde tengo
+una solución
+aquí
+una aquí
+una aquí
+distribuidas
+lo ideal
+es que estén
+distribuidas
+porque si yo tengo
+todas las soluciones
+metidas en un rincón
+todo lo que pueda surgir
+de lo que yo modifique
+se va a aparecer
+mucho
+pierdo
+la riqueza
+de nuevas soluciones
+por lo tanto
+cuando tengo
+este espacio
+de búsqueda
+yo puedo
+dar el valor
+inicial
+y en esta
+la solución
+inicial
+que yo voy a inventar
+es que
+uno está aquí
+el otro va a estar
+al medio
+el otro va a estar
+arriba
+de manera de cubrir
+el mayor
+dominio posible
+la mayor área
+esas son las soluciones
+que yo voy a usar
+de muestra
+eso significa
+esto de último aquí
+que dos soluciones
+no sean vecinas
+no sean tan vecinas
+que se van a aparecer
+ojalá que estén
+a una distancia mayor
+para que sea distinto
+en algún aspecto
+imaginémonos
+un mundo n-dimensional
+donde n es cada una
+de las variables
+que influyen
+bueno
+nos basta con
+tridimensional
+la población inicial
+es la base
+de partida
+de estos algoritmos
+¿cómo lo generamos?
+como les decía
+al principio
+random
+aleatoriamente
+decimos ya
+esta es la solución
+debo decir que
+aunque parece un poco
+al lote
+el esfuerzo
+de hacer algo distinto
+a veces no compensa
+y la solución
+random inicial
+es bastante aceptable
+tiene que haber
+una diversificación
+secuencial
+es decir
+en este espacio
+de soluciones
+no están todas
+amontonaditas
+en el mismo lado
+diversificación
+paralela
+¿qué significa?
+que podemos hacer
+una forma
+de elegir un grupo
+otra forma
+de elegir otro grupo
+lo que estamos generando
+es una población
+estamos generando
+puntos
+soluciones
+podemos generar
+de forma independiente
+inicialización
+heurística
+podemos usar
+búsqueda local
+darle un valor inicial
+esto no es relevante
+este es otro estilo
+que es
+de la población
+una parte
+inicializarla
+de una forma
+por ejemplo
+esa parte Q
+azulita
+con random
+y el P-Q
+el resto de la población
+con una diversificación
+secuencia
+con criterios distintos
+y tengo
+poblaciones diversas
+la diversificación
+de la población
+inicial
+es la clave
+en el éxito
+de un
+algoritmo
+de este tipo
+¿y cuándo
+detenernos?
+¿cómo sabemos
+cuándo
+parar?
+hay dos formas
+decir
+antes
+vamos a ejecutar
+10.000 ciclos
+y vamos a parar
+ahí
+ahí sabemos
+exactamente
+en qué momento
+vamos a detener
+la ejecución
+de nuestro
+algoritmo
+cuando haga
+10.000
+iteraciones
+o
+hacemos un procedimiento
+adaptativo
+no sabemos
+cuándo vamos
+a parar
+pero
+por decir
+algo
+que es lo que
+uno hace habitualmente
+si pasan
+muchas generaciones
+50
+100
+y no se producen
+mejoras
+uno dice
+no esto ya no va a mejorar
+más
+y para
+eso es un poco
+más dinámico
+algoritmos
+evolutivos
+que es lo que estamos
+hablando ahora
+aquí hay varios tipos
+y voy a
+aquí voy a hacer
+la sinopsis
+de lo que viene
+justo antes
+de los genéticos
+esto parte
+con Mendel
+¿se acuerdan
+del monje
+de las arvejitas
+y de las cosas
+que nos pasaban
+y que las gallinas
+de cogote pelado
+con las castellanas
+bueno
+las leyes
+de la herencia
+es una de las
+fuentes
+de inspiración
+de estos
+algoritmos
+evolutivos
+como les decía
+Carlitos Darwin
+la evolución
+de las especies
+esto es vital
+para los genéticos
+hay algunos
+que cuestionan
+todavía esto
+pero parece ser
+que la ley
+del más fuerte
+si se cumple
+que el pescado
+más grande
+se come
+al pescado
+más chico
+pero no se los
+come todo
+por una
+razón estadística
+el Fogel
+en 1960
+habló de
+programación
+evolutiva
+que son sistemas
+en los cuales
+se van produciendo
+mutaciones
+arbitrarias
+en las soluciones
+después de eso
+Holland
+que es el que
+vamos a ver luego
+es el que
+produce los
+algoritmos
+genéticos
+en base a
+la teoría
+de la evolución
+de las especies
+de Darwin
+en el año
+91
+Marco Dorigo
+inventa
+estas hormigas
+artificiales
+el año 92
+John Cosa
+un viejo
+que le gustaba
+la música
+le gusta
+el piano
+tenía cuatro
+en su casa
+es un poco
+mucho
+pero bueno
+le gusta
+el piano
+inventa
+la programación
+genética
+de la que
+no vamos
+a hablar
+Ingo Regenberg
+y Schwefel
+también
+ya el 94
+hablan de
+estrategias
+evolutivas
+que es un paso
+más allá
+de los genéticos
+aquí lo clave
+siguen siendo
+los genéticos
+las hormigas
+y las colonias
+de abejas
+de Derbys
+Karaboga
+él es de
+una universidad
+en Turquía
+el año 2005
+si no hace tanto
+el año 2010
+Pacino
+inventa
+algoritmo
+sobre bacterias
+la quimiotaxis
+y usa
+como inspiración
+las bacterias
+y como se desplazan
+en búsqueda
+del alimento
+y eso
+lo plasma
+en un algoritmo
+el magister
+lo vamos a ver
+o lo van a ver
+espero
+con más detalle
+y
+este humilde
+obrero
+trabajando
+con su grupo
+de trabajo
+generamos
+algoritmos
+basados
+en resistencia
+bacteriana
+y ahí
+les voy a explicar
+por qué
+no es bueno
+automedicarse
+porque las bacterias
+son unos
+vicios
+extraordinarios
+a mí la gente
+me dice
+¿cómo se les ocurrió
+esto de las bacterias?
+y no
+no lo van a creer
+pero el origen
+de todo esto
+es el vino
+estábamos leyendo
+un artículo
+del efecto
+de la levadura
+en el vino
+y yo quedé
+fascinado
+con las levaduras
+y partía
+a hablar
+con los biotecnólogos
+ojo
+eso
+las levaduras
+tienen material
+y dijo
+pero eso no es importante
+las bacterias
+son las que la llevan
+no pero nosotros
+no sabemos
+nada de bacterias
+y él
+cosas que se pueden hacer
+en una universidad
+se gastó
+una semana entera
+todas las tardes
+para irnos a enseñar
+sobre bacterias
+y a partir de eso
+generamos algoritmos
+de bacterias
+y nos ha ido
+sumamente bien
+bueno
+¿cuál es la idea
+de los algoritmos
+evolutivos?
+la competencia
+nos acercamos
+cada vez más
+a Darwin
+son algoritmos
+que se basan
+en la evolución
+de las especies
+en la población
+de individuos
+es decir
+esto que les he venido
+contando
+hay individuos
+y van cambiando
+en cada etapas
+cada paso
+del algoritmo
+y van
+en teoría
+mejorando
+entonces
+repitiendo
+lo de la meteorística
+tenemos una población
+donde vamos
+a seleccionar
+lo que llamamos
+padres
+esos padres
+se van a reproducir
+van a tener hijitos
+y esos hijitos
+van a ir a la población
+como reemplazo
+y ahí será
+algún criterio nuestro
+que usaremos
+para mantener
+la población a raya
+que no se nos disparen
+salvando los mejores
+o cambiándolos todos
+¿cuáles son las metáforas
+que tenemos para esto?
+la evolución
+para solucionar
+el problema
+el individuo
+es una solución
+el fitness
+es una función
+que mide
+cuando pasamos
+de una población
+a otra
+en la generación
+pues bueno
+este cambio
+¿es mejor esta población
+de ahora
+o es mejor la anterior?
+y si es mejor la anterior
+¿qué hacemos?
+bueno
+estamos libres
+así que
+eliminamos la nueva
+nos quedamos con la vieja
+con la vieja población
+un elemento
+de la solución
+y un alelo
+que es un valor
+que eso
+por ahora
+no me pesquen tanto
+porque ya vamos a entrar
+bien
+en resumen
+y vamos a la tarea
+y a la prueba
+resulta que la mayoría
+de los problemas
+de optimización
+son intratables
+para la mayoría
+de los problemas
+grandes
+reales
+de optimización
+tenemos que usar
+métodos aproximados
+y eso son
+las meteorísticas
+que son mecanismos
+que permiten
+hacer una optimización
+aproximada
+nos da soluciones
+que puede que no sean
+la óptima
+pero que no satisfacen
+puede que no nos den
+nunca el óptimo
+bueno
+pero nos sirve
+si nos sirve
+es mejor que lo que tenía
+fantástico
+el problema
+es que nos dicen
+y a cuánto estamos
+más o menos
+cuánto faltará
+para la solución
+óptima
+a lo mejor
+con
+medio
+minuto
+más de ejecución
+del computador
+o unos dos mil años
+no se
+no sabría decirte
+es tan
+dinámico
+como es
+y ahora
+vamos a entrar
+en los genéticos
+y
+vamos a hablar
+de
+la tarea
+y de
+la prueba
+sí profesor
+muchas gracias
+como el próximo lunes
+tenemos la
+la entrega
+al trabajo
+y la prueba
+también
+en relación
+al trabajo
+a la tarea
+usted
+tiene una rúdrica
+y esta rúdrica
+tiene
+bueno
+una introducción
+descripción del problema
+presentación técnica
+algoritmo
+código fuente
+conclusión
+y referencia
+todo
+eso por ejemplo
+no sé
+la introducción
+por ejemplo
+es con un mínimo
+de palabras
+por ejemplo
+es un párrafo
+es un párrafo
+en Chile
+ya tenemos
+dos premios Nobel
+basta
+en literatura
+de literatura
+cortito
+cortito
+ya
+entonces
+cada uno
+de estos puntos
+finalmente
+algo bien
+preciso
+y llevado
+finalmente
+a la búsqueda
+en cultura
+y búsqueda
+así es
+o sea
+el trabajo
+no debería ser
+la tarea
+más de 4 páginas
+5 páginas
+lo habitual
+está entre
+alrededor
+de 5 páginas
+por el algoritmo
+porque uno
+le pone
+comentarios
+y las conclusiones
+son lo más
+relevante
+siempre
+siempre
+lo que ustedes
+deduzcan de esto
+me han preguntado
+les voy a decir
+a todos
+porque me han preguntado
+y la idea
+no es pillarlo
+pero
+¿y qué
+qué esperan?
+¿qué es lo que se espera
+de este recorrido?
+porque
+yo lo recorro así
+lo recorro hasta
+y no sé cuál es mejor
+no sé
+yo les dije
+no sé cuál es mejor
+pero una de las conclusiones
+a las que deberían llegar
+es que
+esta
+esta búsqueda
+en anchura
+y en profundidad
+le falta algo
+le falta conocimiento
+no son búsquedas informadas
+por lo tanto
+podríamos mejorarlo
+haciendo búsquedas informadas
+luego
+lo que ustedes
+concluyen
+que
+mi esperanza
+sobre la tarea
+es que
+descubren que hay
+y nunca se les va a olvidar
+en anchura
+en profundidad
+porque
+se les va a haber
+entretenido
+no había ningún bocado
+entre ustedes
+fin de semana
+jugando con esto
+y
+y
+para aquí
+para descubrir
+nunca más olvidarse
+lo que hay que buscar
+en anchura
+en profundidad
+y
+lo otro
+para darse cuenta
+que
+la búsqueda
+a ciegas
+no es
+tan eficiente
+como la búsqueda informada
+esos son los aspectos centrales
+de ahí que busquen
+a Carlitos
+que le quedó
+que se ve
+morobá
+que se ve
+moromero
+que es más bonito
+el árbol
+y eso
+y tienen
+un montón de cosas
+que ustedes
+decidieron
+listo
+muchas gracias
+y la segunda pregunta
+respecto a la prueba
+la prueba
+va a ser el próximo lunes
+en el segundo bloque
+después del break
+después del Sauer
+sí
+después del Sauer
+profesor
+y la prueba
+no sé
+va a ser escrita
+con alternativa
+nos vamos a conectar
+a algún link
+estoy súper complicado
+porque
+yo este curso
+lo hice antes
+en
+de cuerpo ausente
+para hacer la diferencia
+y
+era fácil
+porque yo
+le subía la prueba
+hacía la prueba
+me mandaban la prueba
+por correo
+ahora
+ustedes son
+son hartos
+más que los que veo aquí
+somos 60
+los demás
+están allá
+están conectados
+entonces
+bueno
+es una alternativa
+pero igual
+tenemos que estar aquí
+temprano
+ahora
+podemos hacer
+lo siguiente
+primero
+la prueba
+no es
+no es para generar
+ese estrés
+ok
+entonces
+a los que no están
+presentes aquí
+a los que hay que invocar
+de alguna manera
+a la prueba
+va a ser difícil
+porque
+yo les voy a repartir
+bueno
+ustedes ya cacharon
+por el pelo
+y otros aspectos
+que yo soy
+de los que entrega
+hojitas
+con roneo
+entre medio
+y con una regla
+para pegarle
+a los que copiaban
+pero
+vamos a hacer
+stencil también
+entonces
+me parece
+que lo más sano
+es
+que yo
+les dé a todos
+exactamente
+el mismo tipo
+de pruebas
+si todos tienen
+su computadora
+digital
+lo pueden hacer
+aquí
+porque alguien
+tiene que quedarse
+para responder
+las preguntas
+del pueblo
+o sea
+yo les puedo
+dejar la prueba
+y decir
+ya
+entonces
+me lo entregan
+más rato
+ir al McDonald's
+igual
+no sé
+sería
+de mi parte
+entonces
+si quieren
+vienen
+si quieren
+traen su computador
+lo instalan
+lo resuelven
+los que están
+en sus hogares
+con pantuflas
+también lo pueden resolver
+y
+me la mandan
+por correo
+si quieren
+yo le pedí hojas
+a Patricio
+pero no sé
+qué vamos a hacer
+con las hojas
+se las puedo devolver
+entonces ustedes
+lo llenan
+en
+en un
+Word
+y me lo mandan
+al correo
+entonces
+no es
+una prueba
+es una prueba
+resumitiva
+no es con alternativa
+o con
+no
+no es con alternativa
+y mis pruebas
+con alternativa
+son
+justifique
+por qué su elección
+y que
+les parramos igual
+así que
+para qué
+para qué
+les vamos a dar
+sí
+ahí
+en WebC
+uno puede crear
+como un buzón
+de carga
+donde cada uno
+puede con su usuario
+cargar
+la prueba
+individual
+sí
+para que no le lleguen
+60 correos
+de repente
+no me importa
+no
+alguien que me escriba
+sí
+me mandan el correo
+nomás
+y la tarea
+igual
+la tarea
+de ese mismo día
+el mismo día
+7
+yo
+habitualmente
+corrijo
+relativamente rápido
+o sea
+una vez que
+empiezo a corregir
+y me voy poniendo
+enojón
+no paro
+no paro
+no paro
+una cosa así
+una mala costumbre
+entonces
+eso podemos hacer
+con la prueba
+si están aquí
+fantástico
+espero que estén aquí
+para el Sauer
+sí
+ahora sí
+porque además
+que nos vamos
+y nos vamos a despedir
+no nos vamos a nunca más
+tal vez
+bueno el magistrado
+a lo mejor
+depende
+digamos antes
+de las 23.59
+del día
+lunes
+7
+yo viajo
+la semana
+ese fin de semana
+siguiente
+entonces
+no voy a llevar
+las pruebas
+que voy a hacer
+en la costa azul
+con pruebas
+sí
+sí
+porque además
+el transfer
+si no me deje
+tengo que caminar
+de aquí al aeropuerto
+que me quedo
+un poco lejos
+profesor
+¿hay alguna pauta
+para la prueba
+de la prueba
+no
+todos los contenidos
+de las tres
+sí
+pero
+por favor
+no se
+no se calienten
+el mate
+la prueba
+no es para pillarlo
+pueden usar
+todo el material
+que tienen
+disponible
+yo
+no quiero
+que se aprendan
+nada de memoria
+sino que entiendan
+posiblemente
+yo les pregunte
+para echarles una pista
+algo así como
+de su trabajo
+usted trabaja
+usted trabaja
+usted trabaja
+usted trabaja
+sí
+identifique un problema
+que pueda tratar
+utilizando
+por ejemplo
+árboles
+y por qué
+ahí no importa
+que estén
+juntitos
+sentados
+uno trabaja
+en el poder judicial
+y el otro
+en el ejército
+así que
+de su trabajo
+claro
+pueden decir
+no
+somos todos
+militares
+todos
+o sea
+uno
+uno se pone
+en esa situación
+pero
+la idea
+la idea
+no es
+tirarles una pregunta
+a ver si estudiaron
+porque
+o sea
+nadie
+nadie los mandó
+para acá
+ustedes vienen
+porque les interesó
+les gusta
+y eso
+eso a mí me da
+me da mucho gusto
+o sea
+están para aprenderse
+y si quieren aprender
+van a estudiar
+se van a juntar
+van a mirar
+que ir a preguntarle
+este viejo
+es impredecible
+Inés
+tú que lo
+cacháis
+y el Inés
+va a decir
+no
+siempre fue impredecible
+y ahora está peor
+por los años
+entonces
+la prueba
+tiene
+el objetivo
+de preguntarse
+un par de conceptos
+los tienen
+bien
+claro
+y son capaces
+de aplicarlo
+a distintas situaciones
+la prueba
+es
+es para hacer
+en una hora
+así que si
+empiezan a demorar
+más
+uno empieza a
+pensar que
+se quedaron
+dormidos
+los que están
+en la casa
+la idea es que
+en el check
+en ese mismo día
+entonces yo
+no duermo
+ese día
+y corrijo
+y corrijo
+como la hormiguita
+seguramente
+no vamos a alcanzar
+a ver muchas cosas
+en detalle
+pero lo que veamos
+creo que les quede
+clarito
+pueden mandarme
+correos
+cuando quieran
+contesto
+relativamente rápido
+veo siempre
+mi correo
+a menos que esté jugando
+el deporte
+es concepción
+no, no
+cualquier duda
+no tengan ningún
+empacho
+en la prueba
+por supuesto
+también me pueden
+preguntar
+los que estén
+aquí
+los que estén
+en sus
+en sus casas
+también
+así que
+mándenme
+correos
+sin miedo
+quedó más o menos
+querido
+profesor
+disculpe
+disculpe
+no me quedó
+no me quedó
+claro
+cómo se va
+a realizar
+la entrega
+de la prueba
+para aquellos
+que están en línea
+se va a llegar
+en el mismo
+momento
+por correo
+sí
+terminando
+el plazo
+fatal
+me la envían
+por correo
+no
+no
+no
+me refiero
+me refiero
+a la prueba
+que usted va a entregar
+para rendirla
+porque en sala
+va a entregar el papel
+a los alumnos
+pero los que están
+en línea
+no
+no
+no
+no
+la voy a
+la voy a
+presentar ahí
+como una
+ppt más
+ah ya
+perfecto
+o sea
+la van a
+la van a poder
+ver
+perfecto
+perfecto
+también
+la puedo
+subir
+el correo
+no
+tengo
+así como
+subo
+las clases
+todos
+tienen acceso
+verdad
+entonces
+la puedo
+subir
+a la hora
+del pico
+sour
+vamos a hacer
+el sour
+más cortito
+para que les quede
+más tiempo
+para prueba
+probablemente
+y para que yo no
+tenga que caminar
+hasta el airport
+y
+ya
+se las puedo
+subir
+es más fácil
+en realidad
+que estarla
+proyectando
+así tienen
+un recuerdo
+bien
+dicho eso
+vamos a ir
+a hablar
+de algoritmos
+genéticos
+los he amenazado
+con esto
+toda la clase
+ya
+ha llegado
+la hora
+de cumplir
+bien
+qué es lo que es
+un algoritmo
+genético
+es uno
+que se basa
+en un fenómeno
+natural
+y ese fenómeno
+natural
+es la evolución
+de las especies
+cuando
+Holland
+parte con esta idea
+en 1975
+los computadores
+no eran tan
+poderosos
+pero hoy día
+se pueden trabajar
+poblaciones
+gigantescas
+gracias a la
+computación
+paralela
+por lo tanto
+estos algoritmos
+genéticos
+tienen aplicación
+práctica
+yo voy a mostrarles
+algunos ejemplos
+de cosas
+reales
+resueltas
+con algoritmos
+genéticos
+problemas
+no triviales
+pero entretenidos
+a morir
+según Darwin
+los más
+adecuados
+son los que
+viven
+adaptación
+yo creo que
+si agarramos
+la evolución
+las especies
+evolucionan
+nosotros como especie
+evolucionamos
+los seres humanos
+las hormigas
+aparentemente
+no
+parece que las hormigas
+alcanzaron
+su estado
+tope
+en la evolución
+para garantizar
+la supervivencia
+hace
+algunos miles
+de años
+pero nosotros
+todavía no estamos
+adaptando
+somos físicamente
+distintos
+a como éramos
+antes
+los primeros
+homínidos
+Lucy se llama
+una
+en Etiopía
+quiere una
+cosa de este
+por ti
+y ahí han ido
+creciendo
+algunos
+les pasan la mano
+pero esa es otra
+historia
+hay evolución
+hay cambio
+nosotros estamos
+cambiando
+permanentemente
+si soltamos
+un chilote
+del siglo XVII
+en la Alameda
+se nos muere
+envenenado
+por las micros
+no habría evolucionado
+nosotros hemos ido
+evolucionando
+hemos perdido
+ciertas capacidades
+nos ponemos
+más piti
+tenemos que usar
+el lente
+el
+el nerd
+en tal
+estaba sonado
+o sea
+se ponía piti
+y si lo comía
+el león
+no lo veía
+y se ponía
+sordo
+para peor
+no lo escuchaba
+hoy día nos ponemos
+un audífono
+ahí viene el león
+hemos perdido
+capacidades
+que hemos tenido
+que ir supliendo
+de alguna forma
+es decir
+estamos en cambio
+en los algoritmos
+genéticos
+que es lo que tenemos
+soluciones
+que son las soluciones
+una población
+de individuos
+y estos individuos
+tenemos una
+población
+y esos individuos
+sufren cambios
+durante este proceso
+de un paso
+seguido de otro paso
+seguido de otro paso
+que es una evolución
+y
+sufre una
+transformación
+unaria
+que afecta
+al solo
+un solo
+individuo
+no es una operación
+binaria
+o ternaria
+o lo que sea
+usa un solo elemento
+que es el caso
+de la mutación
+donde
+se cambia
+la característica
+pero en el cruzamiento
+cuando se
+toman
+individuos machos
+individuos
+o sea
+espécimen macho
+espécimen hembra
+de la misma especie
+y ellos se cruzan
+y tienen hijitos
+esos hijitos
+van a heredar
+parte del material
+genético
+del papi
+parte del material
+genético
+de la mamí
+y seguramente
+van a ser distintos
+y eso
+tal vez
+sean mejores
+esa es la clave
+del algoritmo
+genético
+apostamos
+a que una
+transformación
+podría
+generar
+mejores
+individuos
+o sea
+mejores
+soluciones
+en el caso
+del cruzamiento
+los individuos
+compiten
+por sobrevivir
+quien se cruza
+el león
+más
+cototo
+los monos
+el mono
+jefe
+hasta que el león
+se pone viejo
+llega un león
+joven
+y la población
+va cambiando
+por lo tanto
+el que se cruza
+primero
+es el más bacán
+porque
+es una cosa
+de supervivencia
+porque
+como salió
+por decir así
+bueno para la música
+el león
+es un poeta
+entonces a lo mejor
+sus hijos
+también van a salir
+buenos para la música
+y poeta
+uno hace esa apuesta
+son otro tipo
+de características
+obviamente
+pero
+se espera
+que los buenos
+individuos
+evaluados
+según lo que queramos
+propaguen
+sus características
+a los hijos
+que puedan tener
+esto es una apuesta
+obviamente
+los hijos de Bach
+nos salieron
+todos músicos
+un par
+no
+otros bien
+dejadito
+de la mano
+de Dios
+entonces
+en estos
+algoritmos
+genéticos
+donde tenemos
+una población
+que para nosotros
+hagámosla bien
+bien simplecita
+esta población
+es un conjunto
+de ceros y unos
+ese es un individuo
+tiene un uno
+un cero
+un uno
+un uno
+ese es un individuo
+y ese es bueno
+depende lo que represente
+ese uno y cero
+y si lo cambiamos
+cambiamos
+unas pocas cosas
+vamos a ver
+cómo lo podemos cambiar
+y le cambiamos
+algunas cosas
+y decimos
+y este es mejor
+el que el otro
+bastante mejor
+y este otro se va
+y démonos con el bueno
+eso hacemos con los genéticos
+y esas soluciones
+son las que
+compiten
+¿cómo compiten?
+la mejor solución
+queda
+mejor posicionada
+que la mala solución
+tenemos un mecanismo
+de selección
+tenemos una población
+donde ya tenemos
+varios de estos individuos
+y como estas cadenitas
+de ceros y unos
+tenemos hartos de eso
+y
+seleccionamos individuos
+hagámoslo
+más erótico
+tomamos un individuo
+y tomamos un individuo
+y los cruzamos
+y esos tienen hijitos
+ya vamos a ver
+cómo se hace eso
+y esos hijitos
+van a heredar características
+y a quiénes
+vamos a seleccionar
+a los más bacanes
+obvio
+esta es la parte triste
+del cuento
+porque
+si fuera así
+así nomás
+siempre
+los más bacanes
+serían
+elegidos
+y uno
+sentadito
+ahí esperando
+salir a bailar
+a ver si es que
+pero
+fue sabio
+el compañero
+Holland
+y dijo
+aquí hay una probabilidad
+o sea
+los feitos
+también
+tienen
+démosle una posibilidad
+no muy grande
+pero démosle una posibilidad
+de ser elegido
+democrático
+el Holland
+y eso
+permite
+que algunas características
+que estaban
+en estos individuos
+ahí nomás
+que los otros no tenían
+también se propaguen
+en la población
+vamos a ir viendo
+cómo
+cómo opera
+entonces
+tenemos individuos
+elegimos
+papi
+mami
+hijitos
+hijitos reemplazan
+a los papis
+a lo mejor a todos
+a lo mejor a algunos
+tenemos una población nueva
+repetimos el proceso
+elegimos
+a los cuales son los más bacanes
+estos
+y este
+no lo dejamos
+ya
+los cruzamos
+hijitos de nuevo
+y los evaluamos
+mejor esta población
+que la anterior
+la dejamos
+vamos a dejar
+y eso
+va haciendo que mejore
+nuestro estado de soluciones
+sí
+pero
+los que no son tan buenos
+y dejan
+es porque tiene
+alguna característica
+yes
+yes
+porque las poblaciones
+se evalúan
+los individuos
+se evalúan
+por eso digo
+puedo elegir
+al más bacán
+al mejor
+esa evaluación
+es la que me permite decir
+esto es para acá
+esto es para allá
+pero podría suceder
+por lo tanto
+que el más bacán
+en promedio
+tenga ciertas características
+pero no sea el mejor
+en cada característica
+que uno
+que solo tiene una característica
+y el resto las tiene malas
+pudiera ser
+que tuviera algunas características
+malas
+pero que en
+en la media
+como dices
+su valor
+sí igual
+se compensa
+claro
+por ejemplo
+no es muy inteligente
+pero tiene plantas
+pero tiene plantas
+qué características
+claro
+o sea
+uno
+ahí
+ahí es donde uno
+pondera
+pondera
+estas distintas
+características
+del individuo
+dice no
+no le voy a dar
+ninguna
+ningún valor
+a tal característica
+y esto
+es lo que puede ir evolucionando
+al principio
+puede interesarme
+que sea
+bueno
+va la velona
+cosa así
+después ya no
+y esas características
+van cambiando
+en el tiempo
+y mi evaluación
+va cambiando
+yo podría atender
+en un ejemplo
+tener una persona
+la más inteligente
+y por otro lado
+el que tiene
+la mejor musculatura
+ajá
+y esperar
+que genera una población
+en que ambos
+atributos
+se maximicen
+en la población
+que estoy generando
+eso es lo que estaría buscando
+exactamente
+y ahí entonces
+lo evalúo
+y en todas
+las variables
+que evalúo
+sale
+por lo tanto
+su
+su evaluación
+es alta
+y como su evaluación
+es alta
+ese va a ser
+candidato
+a reproducirse
+más veces
+que el que
+no es tan bueno
+y esa es una gracia
+¿cómo lo hacemos?
+súper simple
+el señor Holland
+trabajando
+en el año 75
+con sus alumnos
+de doctorado
+desarrolló
+este concepto
+él venía
+hacía rato
+hablando de Darwin
+y se le ocurrió
+usar esta metáfora
+de la evolución natural
+la evolución de las especies
+para plasmarla
+en un algoritmo
+se dice que todavía
+hay gente
+que no sabe muy bien
+por qué funciona
+Michalevich
+es un
+polaco
+norteamericano
+que
+es la envidia
+de toda
+la
+la población
+de investigadores
+en genéticos
+porque él
+trabajaba
+en Estados Unidos
+seguidor
+de
+muy cercano
+a Holland
+trabajó en genéticos
+y él los empezó
+a aplicar
+en la industria
+para optimizar
+procesos
+y ganó
+una cantidad
+de plata
+que ni les cuento
+tanto es así
+que
+la universidad
+de Adelaide
+en Australia
+lo contrató
+para que fuera
+a
+formar
+el departamento
+de
+computación
+evolutiva
+y formara
+a los australianos
+ahí
+es como llevar
+a Messi
+un contrato
+razonablemente
+bueno
+cosa que no pudiera
+decir que no
+estábamos en una
+conferencia
+y mi Jalevich
+estaba explicando
+esto
+y un profesor
+no tan pesado
+como da extra
+pero casi
+pero igual
+es el sustento
+matemático
+de esto
+porque yo
+no le veo
+y mi Jalevich
+le dijo
+puede que no lo tenga
+hay unos teoremas
+puede que no lo tenga
+pero yo me he hecho rico
+no sé si te sirve
+este es el que inventó
+los algoritmos
+genéticos
+también ya se los
+llevó el señor
+pero tiene que haber
+quinta recreo
+no es cierto
+siempre
+siempre he encontrado
+yo esa característica
+en el finado
+no sé por qué
+entonces
+¿qué es lo que son
+los genéticos?
+son algoritmos
+tocásticos
+probabilísticos
+cuyos métodos
+se basan en
+la herencia genética
+y la evolución
+de Darwin
+eso es todo
+lo que hacen
+los algoritmos genéticos
+y lo hacen
+súper bien
+¿dónde se aplican
+estas cositas?
+en optimización
+por supuesto
+programación automática
+machine learning
+economía
+sistemas inmunes
+ecología
+genética
+poblacional
+evolución
+y aprendizaje
+sistemas sociales
+yo lo he usado
+para bullying
+bullying en colegio
+le voy a explicar
+después
+pero
+pero
+se puede
+el individuo
+el individuo
+en la distribución
+de los alumnos
+en la sala
+se hace una prueba
+y se ve
+quienes tienen
+más o menos rechazo
+y si esto es igual
+que los profes viejos
+usaban algo
+que
+se llama algo así
+como el sociograma
+si
+no sé
+a ustedes
+no les debe
+haber pasado
+pero
+en aquellas épocas
+el profe agarraba
+al padre
+desordenado
+y lo sentaba
+para que no
+fuera un foco
+de
+perversión
+lujuria
+y desorden
+y eso mismo
+decimos nosotros
+con los genéticos
+mejorábamos
+las configuraciones
+donde los individuos
+que no estaban bien
+calificados
+como muy disciplinados
+se sentaban
+primero
+acerca del control
+y segundo
+separados
+y eso
+podíamos
+identificarlo
+les voy a explicar
+un ejemplo
+de los que tengo
+que funcionó
+funcionó bien
+y aquí empezamos
+a hablar
+en cosas ya
+en términos
+más biológicos
+cromosomas
+¿qué es el cromosoma?
+un candidato
+a solución
+una solución
+es un cromosoma
+y habitualmente
+es un conjunto
+que tiene puro
+uno y cero
+que representa
+algo
+que ya veremos
+que es
+porque es más fácil
+representarlo
+de esta manera
+y a esta solución
+le llamamos
+cromosoma
+¿quién es?
+¿perdón?
+no
+no
+no
+o sea
+está implícito
+en el
+en los valores
+y tiene que ver
+más bien con
+computaciones
+y esas cosas
+pero
+pero está bien
+porque me está siguiendo
+y los genes
+son
+un bloque
+por ejemplo
+puede ser
+un solo bit
+o un bloque
+de bits
+imaginémonos
+que tenemos
+un string
+una cadena
+de ceros y unos
+y tenemos
+vamos a decir
+que estas son
+las características
+de
+de un conejo
+y me interesa
+que el conejo
+tenga
+no sé
+patas largas
+ojos azules
+cola corta
+son características
+distintas
+yo las voy a codificar
+y voy a codificar
+le da el conejo
+y le da el conejo
+lo voy a codificar
+en binario
+voy a dejar
+cuatro bits
+no creo
+que un conejo
+viva más de 15 años
+no sé
+si hubo Nachi
+habría que preguntarle
+entonces
+todas las combinaciones
+me van a dar
+las posibles
+distintas edades
+esa es una característica
+y después
+al lado
+voy a tener
+otra que va a ser
+el peso
+que puede tener
+otro número de bits
+y todo
+cada uno de estos
+es un gen
+un gen
+es una parte
+del cromosoma
+que representa
+una característica
+esto es muy biológico
+y en vez de ser
+el color de ojos
+del conejo
+es una característica
+de mi individuo
+que yo quiero privilegiar
+entonces cuando
+haga un cambio
+porque aquí voy a estar sujeto
+les hablé de una operación
+unaria
+la mutación es unaria
+agarro el cromosoma
+y
+le cambio un bit
+le cambio
+le da el conejo
+en la mutación
+me salió
+más viejo
+más joven
+o los cruzo
+junto conejo
+con coneja
+no parto el gen
+por la mitad
+sino que reparto
+la mitad
+los genes para allá
+o unos pocos
+y unos pocos
+para acá
+y los hijos
+heredarán
+partes de
+se fijan que la solución
+ya empieza a ser más agarrable
+como solución
+de esta población
+profesor
+eso es como el crossing over biológico
+perdón
+eso es como el crossing over biológico
+exactamente
+hay dos individuos
+que intercambian material genético
+y generan hijos
+que heredan
+ese material genético
+de distintas proporciones
+del padre y de la madre
+en un cross over binario
+muchas gracias
+no
+nada
+y el alelo
+es el valor
+que tiene
+esta unidad mínima
+de información
+un uno
+o un cero
+y cuando nosotros
+cambiamos eso
+cambiamos valores
+cambiamos la edad del conejo
+cambiamos el largo
+la cola
+los años
+el peso
+esto es
+lo que nosotros
+llamamos
+cruzamiento
+en el cruzamiento
+se intercambia
+el material genético
+entre padres
+los padres
+siguen siendo cromosomas
+este es el individuo
+un cromosoma
+entonces tenemos
+dos padres
+el amarillito
+con rojo
+y el
+si
+borado
+violeta
+yo tengo
+yo veo en tres colores
+nomás
+si soy hombre
+y el azul
+ese lo veo
+y
+entonces
+lo que hacemos
+es
+cruzamiento
+mezclamos el padre
+y la madre
+y ahora
+los hijos
+que son los que están
+más a la derecha
+el
+amarillo con azulito
+tiene la mitad
+de la madre
+y la mitad del padre
+y el otro hijo
+tiene
+la mitad del padre
+y la mitad de la madre
+toda la información
+en los hijos
+que tenían los padres
+y por qué
+lo hacemos así
+o por qué se hace así
+para no perder
+información genética
+importante
+ahora el cruzamiento
+puede ser en cualquier
+punto
+no solo en la mitad
+como les dije
+no partiendo un gene
+por la mitad
+entonces ahí tengo
+los hijos
+y ahora
+evalúo
+los hijos
+respecto a los mismos
+parámetros
+que usé para valorar
+los padres
+y puede que tenga
+individuos mejores
+después de este
+cruzamiento
+o peores
+ahora
+en la población
+genética
+aquí hay un padre
+y una madre
+pero en una población
+genética
+puede haber 100
+y ahí tengo que
+tener un criterio
+para elegir
+cuáles son los padres
+y ustedes ya
+adivinaron
+el cromosoma
+más buen mozón
+ese se va a cruzar
+varios meses
+con la cromosoma
+más buen mozón
+también
+pero el cromosoma
+más feíro
+le puede caer
+por azar
+o sea
+eso de
+que cuando no llueve
+gotea
+también corre
+valogenético
+¿qué es lo que
+es la mutación?
+el cambio
+de un gen
+elegimos al azar
+como la edad
+o como el color
+de ojos
+si tenemos
+siete colores
+de ojos
+tenemos tres bits
+uno
+uno
+uno
+esos son
+ojos verdes
+y el
+uno
+uno
+cero
+es el cafecito
+cambiamos al último
+y pasó de ojos verdes
+a cafecito
+bueno
+malo
+no sé
+pero cambió
+produjimos una mutación
+en un solo individuo
+pero entendieron
+que la mutación
+es en uno solo
+y el cruzamiento
+toma dos
+que intercambian material genético
+y producen hijitos
+que tienen ese material genético
+lo que no significa
+que ahí no pueda haber una mutación
+y se perdió una característica
+pero esa misma
+característica que se perdió
+por mutación
+más adelante
+se puede recuperar
+y ahí
+tal vez tenga que parecerse más
+con los genes recesivos
+y dominantes
+porque un recesivo
+como va a ser poco elegido
+se pierde
+en el tiempo
+pero mientras ese individuo
+esté vivo
+puede ser elegido
+y si es elegido
+ahí
+aquí estoy yo
+con su característica
+recesiva
+que es un poco
+como funciona
+la biología
+¿lo qué?
+perdón
+¿qué te refieres
+con el vírido genético?
+¿sí?
+¿ya?
+¿ya?
+¿sí?
+ahora
+estamos abiertos
+aquí
+uno puede ser hasta promiscuo
+en esta cosa
+claro
+porque uno dice
+tiene el padre
+tiene la madre
+pero eso
+tiene la madre
+y tiene tres padres
+y estamos todos
+un poquito de cada uno
+para el hijo
+no se da
+pero
+pero
+pero en el genético
+uno está libre
+de ponerse creativo
+entonces
+hay dos conceptos
+el genotipo
+que es la codificación
+es la característica
+digámoslo así
+numérica
+es el
+1 0 1 0 1
+y el fenotipo
+que es la manifestación
+en nuestro problema
+de esa codificación
+que puede ser
+ojos azules
+esa es la diferencia
+entre el genotipo
+y el fenotipo
+el fenotipo
+es la característica
+que se manifiesta
+naturalmente
+aquí los padres
+son el elemento
+relevante
+son los que vamos
+a elegir
+para que tengan
+hijitos
+y sus hijitos
+serán los descendientes
+de esos padres
+cuando se crucen
+con monitos
+entonces
+el cromosoma
+es el string
+completo
+ese es el individuo
+ese que tiene
+1 0 0
+1 0 0
+ese es
+el cromosoma
+nuestra solución
+un elemento
+dentro de ese cromosoma
+el segundo 1
+en la segunda
+es un gen
+esos son los genotipos
+la codificación
+de
+y cuál es el fenotipo
+es la manifestación
+el color
+la forma
+que está asociado
+a la codificación
+porque nosotros
+nosotros vamos a trabajar
+en un computador
+no trabajamos
+con ojos azules
+trabajamos con una secuencia
+de bits
+lo codificaba así
+no necesariamente bits
+pueden ser otras cosas
+pero es más fácil
+explicarlo así
+cuáles son los componentes
+que tiene un genético
+este algoritmo
+que nos permite
+resolver estos problemas
+primero
+una representación
+genética
+el cromosoma
+y el gen
+cuáles son las partes
+de ese cromosoma
+que nos dicen algo
+el individuo
+es el cromosoma
+secuencias
+de 0
+0 y 1
+grupos de estos
+serán genes
+característica 1
+característica 2
+de distinto largo
+ese es un gen
+con distintos valores
+tenemos que tener
+una forma
+de crear
+la población inicial
+¿se acuerdan
+antes del café?
+lo vimos
+un poco
+a la rápida
+la creación
+de la población
+inicial
+que podía ser
+la mitad
+random
+la otra mitad
+con selección
+secuencial
+digamos
+para no calentarnos
+mucho el mate
+hoy día
+digamos que se puede
+generar random
+toda la población
+y que es lo que tenemos
+un conjunto
+de cromosomas
+hartos
+digamos
+estos son
+mi población inicial
+eso obedece
+al paso
+inicializar
+de T
+la población
+en el tiempo T
+que es lo que tengo
+individuos
+hartos
+una función
+de evaluación
+porque una vez
+que tengo
+todos los individuos
+¿cómo sé yo
+cuáles son los buenos?
+tengo que tener
+algún criterio
+los que tengan
+estas características
+más estas características
+y eso lo puedo
+ponderar
+puede ser
+estatura
+peso
+y alguna otra cosa
+entonces
+la estatura
+sí
+es súper relevante
+eso va a tener
+un valor de
+50%
+en mi ponderación
+del individuo
+el peso
+no
+el 5%
+es variable
+yo decido
+cómo lo evalúo
+pero lo que interesa
+es que
+una vez que tengo
+este cromosoma
+este individuo
+lo puedo evaluar
+de alguna forma
+en base
+a sus características
+y los operadores
+hay tres tipos
+de operadores
+en el
+algoritmo
+a propósito
+tengo un
+escribimos un apunte
+hace un tiempo
+atrás
+para explicar
+esto
+de algoritmos
+genéticos
+así como
+aprenda
+algoritmos
+genéticos
+sin matemáticas
+sentado
+en su jardín
+una cosa así
+se los voy a subir
+a la red
+que están
+en fascículos
+¿qué es lo que hacen
+los operadores?
+alteran a la población
+¿cómo?
+haciendo
+selección de padres
+se cruzan los
+padres
+eso genera hijos
+para simplificar
+la vida
+también no puede
+poder ser creativo
+pero
+toma dos cromosomas
+y tiene dos hijos
+para ordenar
+un poco
+si nos ponemos
+muy numerosos
+cambia la figura
+y no mejora
+el rendimiento
+en general
+el cruzamiento
+es ese
+agarramos dos padres
+y tenemos
+dos hijitos
+que van a redar
+parte de ese material
+genético
+¿sí?
+profesor
+profesor
+disculpe
+¿esos son
+los únicos
+operadores
+genéticos
+que existen?
+¿son tres?
+estos son
+los fundamentales
+yo había escuchado
+de alguna forma
+un método
+como eugenesia
+de seleccionar
+a los mejores padres
+más hábitos
+y cruzarlos
+pero dentro
+de la selección
+de padres
+existe igual
+la eutanasia
+como por ejemplo
+matar a los más débiles
+sí
+¿y eso entraría
+padres?
+¿perdón?
+¿eso entraría
+como operador
+de selección de padres
+el matar a los
+pocos hostos?
+así es
+podemos usar
+un criterio
+que también es
+probabilístico
+¿ah?
+no es aquí
+los más malos
+se mueren todos
+o sea
+que se mueran
+los feos
+no
+pero
+digamos
+que los feos
+se van a morir
+con mayor probabilidad
+que los lindos
+entonces
+es una eliminación
+probabilística
+igual que el caso
+de la eliminación
+de un cromosoma
+que identificamos
+por ejemplo
+como súper importante
+en la evaluación
+entonces
+en la práctica
+con la evolución
+que vamos a hacer
+de la población
+se va a morir solo
+va a desaparecer
+pero como
+no queremos
+que desaparezca
+totalmente
+porque en alguna
+aplicación
+esto sí podría
+ser útil
+y la carcasa
+que ustedes
+construyen
+del algoritmo
+genético
+es la misma
+ya sea
+van a trabajar
+sobre bullying
+van a movilizar
+camiones
+o van a trabajar
+sobre imágenes
+de eucaliptus
+glóbulus
+la estructura
+del programa
+es la misma
+¿qué es lo que cambia?
+la población
+la estructura
+las características
+y
+lo fundamental
+la función de evaluación
+pero sí
+está bien
+es parte
+no hay limitaciones
+a las operaciones
+que uno puede hacer
+esto es lo fundamental
+el resto son variaciones
+el cruzamiento
+vamos a verlo también
+no es tan
+puede ser distinto
+sí, en el fondo
+o sea, para terminar
+la idea
+que no había usado
+el micrófono
+claro
+hablaba de eugenesia
+porque salió esta noticia
+y claro
+presenta los problemas
+éticos
+pertinentes
+y la gente
+lo discute
+pero
+en el fondo
+esto podría acelerar
+el proceso genético
+propio de la naturaleza
+que siempre es como
+de errores
+y aciertos
+nosotros lo haríamos
+como más rápido
+con el algoritmo
+sí
+pero la verdad
+es que
+yo no
+bueno
+no conozco
+tanto en profundidad
+pero
+también
+sé de algunos
+experimentos
+que se han hecho
+en bichos inferiores
+en los cuales
+la eliminación
+de una característica
+aparentemente nociva
+ha afectado
+el comportamiento
+general
+del bicho
+sin que
+se tenga
+una clara explicación
+del porqué
+entonces
+es un poco
+difícil jugar a Dios
+es un poco
+lo que dicen
+muchos científicos
+pero sí
+o sea
+aquí
+en términos teóricos
+estamos abiertos
+no constituye
+un problema
+la metáfora
+es el problema
+pudiera hacerlo
+pudiera hacerlo
+claro
+pero una vez más
+depende de
+nuestros criterios
+de evaluación
+por eso les he hablado
+del elitismo
+que esto fue creado
+en Alemania
+uno puede
+jugar
+todo lo que quiera
+con eso
+bueno
+tiene que haber
+un criterio
+de supervivencia
+cuáles son los que viven
+bueno
+obviamente
+los mejores individuos
+la
+la
+la finesa va a estar
+en qué proporción
+de los buenos individuos
+digamos que vamos a dejar
+que el 90%
+de los que sobreviven
+son buenos
+y el 10%
+que sean ahí no más
+¿para qué?
+para mantener
+la diversidad
+genética
+porque la diversidad
+genética
+es lo que permite
+la mantención
+de la especie
+entonces
+tenemos
+distintas cosas
+que considerar
+en este algoritmo
+genético
+es eso
+todo el resto
+de lo que viene
+es maquillaje
+valores para los parámetros
+tamaño de la población
+¿cuántos individuos
+vamos a tener
+en la población?
+¿100 hijitos?
+¿1000?
+¿2000?
+¿5 es como poco?
+porque la variabilidad
+genética
+sufre
+pero
+en problemas
+reales
+nosotros hemos usado
+300, 400, 500
+hasta 2000
+en poblaciones
+de ese tamaño
+y funciona súper bien
+¿cuál es la probabilidad
+de aplicación
+de un operador genético?
+y aquí viene
+una mala noticia
+para los buenos mozos
+dijimos que usábamos
+un criterio
+como ese
+para elegir
+al padre
+y se elige
+al James Bond
+del momento
+y a la monona
+del momento
+que no sé cuál es
+dice
+para elegir
+para que tengan
+hijitos
+y uno tira así
+un dadito
+barrio
+una moneda
+cayó
+no se van a cruzar
+cenar
+no tienen
+hijitos
+porque los operadores
+no se aplican
+en un 100%
+hay una probabilidad
+de aplicación
+claro
+digamos
+80%
+90%
+pero y si cae
+en ese 10%
+no se van a reproducir
+podemos jugar
+con eso
+esa probabilidad
+es interesante
+todo en función
+de esta variabilidad
+genérica
+esa es la probabilidad
+igual que la mutación
+este individuo
+este gen
+este uno
+este cero
+lo que sea
+vamos buscando
+este es el que salió
+elegido para mutar
+y si es cero
+cambia a uno
+y si es uno
+no se queda
+no más
+porque igual
+la mutación
+no lo afectó
+por ejemplo
+aquí hay mil criterios
+distintos
+entonces
+ya bien parecido
+al template
+que vimos
+en la deurística
+que es lo que tenemos
+una población
+que inicializamos
+una evaluación
+tenemos la población
+y cada
+cada individuo
+en esta población
+tiene un valor
+una evaluación
+este tiene un 80
+este tiene un 90
+este un 45
+este tiene un 20
+por ejemplo
+son notas
+en base a sus características
+a la evaluación
+que nosotros hagamos
+en esta suma
+ponderada
+de los distintos genes
+entonces
+mientras no terminemos
+nuestro genético
+¿qué hace?
+elige padre
+elige dos
+y los recombina
+los cruza
+cruza
+y luego
+que están cruzados
+y tienen los hijitos
+mutación
+todo con probabilidades
+la probabilidad
+de cruzamiento
+en general
+se deja alta
+en los genéticos
+sobre el 90
+incluso sobre
+el 100
+no sobre el 100
+100
+no sobre el 90
+habitualmente
+mutación
+2%
+eso es lo clásico
+con eso
+se genera
+una nueva población
+al evaluar
+la población
+tenemos una lista
+ordenada
+de padres
+e hijitos
+de nuevo
+con sus valores
+y aquí
+los más malos
+se van a ir
+yendo
+y los más buenos
+con probabilidades
+van a ir salvándose
+y la nueva población
+es los sobrevivientes
+¿cómo se hace la reproducción?
+partimos en la población
+aquí
+tenemos esta población inicial
+recuerden
+la generamos aleatoriamente
+tenemos un conjunto
+de cromosomas
+y esa población
+vamos a
+hacer una
+selección
+y la selección
+va a decir
+este se cruza
+con este
+este es la mamá
+este es el papá
+vamos a descartar
+de la población
+los
+que no sobrevivieron
+los padres
+hacen que se crucen
+se cruzan los padres
+eso genera hijitos
+y ahí hacemos mutación
+con una probabilidad baja
+porque no se muten
+mucho
+y los evaluamos
+y al evaluarlos
+los metemos en la población
+y aquí ahora tenemos
+una población
+que es el doble
+del original
+por lo tanto
+la achicamos
+¿y qué es lo que eliminamos?
+los más malos
+también probabilísticamente
+no es que
+de aquí para abajo
+se mueren todos
+sino con alta probabilidad
+los malos
+se van a morir
+pero
+les dejamos
+una probabilidad
+de supervivencia
+para que sigan participando
+con su aporte genético
+una vez más
+me voy a adelantar
+pero
+las bacterias
+cuando mueren
+digamos que el antibiótico
+las hace pebre
+por decirlo
+de alguna manera
+y andan pedazos
+flotando en el ambiente
+las otras bacterias
+que están vivas
+las agarran
+esos pedazos
+y los guardan
+por si las usaran
+más a él
+no, si esto es
+extraordinario
+población
+¿qué pueden ser
+estos cromosomas?
+¿cómo se forman
+estos individuos?
+lo que les había dicho
+recién
+un string de bits
+puede ser un conjunto
+de ceros y unos
+nada más
+pero también
+podrían ser
+números reales
+ser mutaciones
+de elementos
+o sea
+pedacitos
+listas de reglas
+elementos de programa
+o sea
+que los puedo
+mezclar
+y
+este programa
+con este otro
+módulo
+los pongo
+de distinto orden
+y esto funciona
+si funciona
+y hay un algoritmo
+que se llama
+tierra
+y a partir de un
+programa de
+no sé
+de 200 líneas
+se reduce
+finalmente
+a un programa
+como de 40 líneas
+y funciona bastante bien
+eso
+eso le hizo
+John Cosa
+al señor
+de los pianos
+una lista
+de reglas
+mi cromosoma
+es esta regla
+el orden
+en que las aplico
+ya pensaron
+que si hay
+cruzamiento
+bueno
+el cruzamiento
+puede ser
+un poco complicado
+pero
+creemos
+que funcionan
+y que pasan
+todas las reglas
+para los hijos
+pero en un orden
+distinto
+si funciona bien
+esta regla
+es una receta
+creamos una receta nueva
+lo adoptamos
+si no se desicia
+entonces este algoritmo
+genético
+que
+del que he hablado
+tanto
+es un algoritmo
+probabilístico
+la probabilidad
+de que se crucen
+la probabilidad
+de que vivo
+que muera
+la probabilidad
+de que haya
+una mutación
+es un algoritmo
+que funciona
+en base a probabilidades
+y que lo que hace
+en un momento
+T
+cualquiera
+es tener
+una población
+de soluciones
+en el tiempo
+T
+la población
+va a ser
+el conjunto
+de X1
+X2
+X en individuos
+cada individuo
+de la población
+es una solución
+al problema
+posible
+un candidato
+a solución
+y esa la podemos
+poner en una estructura
+de datos cualquiera
+en un árbol
+en un gráfico
+en una lista
+lo mismo que tenemos
+hasta ahora
+sin calentarnos
+más a la cabeza
+el proceso
+de reproducción
+entonces
+sí claro
+sí
+todas son
+cromosomas
+o sea
+este X
+X y de T
+es un vector
+en el tiempo
+T
+claro
+el X
+es una lista
+y el XN
+es otra lista
+y cada uno
+de estos
+es de conjunto
+de listas
+en el tiempo
+T
+lo que importa
+es que
+en el tiempo
+T
+hay una población
+y lo podemos
+poner en una estructura
+de datos
+mantengamos la lista
+para que nos vamos
+a molestar
+tanto
+en la reproducción
+entonces
+seleccionábamos
+los padres
+¿cierto?
+¿cómo lo hacíamos?
+mirábamos
+en la población
+este me tinca
+para papá
+este me tinca
+para mamá
+y los elijo
+no es que me tinque
+yo les voy a mostrar
+que hay un mecanismo
+que permite hacer eso
+que me fui en astuto
+y una vez que los elijo
+se transforman
+en los padres
+y esos padres
+se cruzan
+y tienen hijitos
+tal vez
+porque recuerden
+que
+a lo mejor no
+si no tienen
+la suerte
+de que les sale
+el numerito
+de la rifa
+no se cruzan
+en el cruzamiento
+ya tenemos
+al padre
+y la madre
+y el cruzamiento
+no es en el medio
+no necesariamente
+es en cualquier parte
+que no sea en los extremos
+obviamente
+en algún punto
+intermedio
+entonces
+el hijo puede tener
+el hijo uno
+más de la madre
+que del padre
+y el hijo dos al revés
+pueden parecerse
+y ese punto
+se elige al azar
+es al azar
+dice
+ah ¿cuánto tiene
+este 18 elementos?
+ya voy a tirar
+un random
+de hasta 16
+aquí va a ser
+el punto del cruz
+o restringir
+lo que sea
+de la mitad
+pero no mucho más allá
+sí, yo tengo
+y fíjense
+como lo
+bueno
+aquí lo puse
+de una manera distinta
+ese
+ese animal rojo
+y ese animal blanco
+son los padres
+y los padres
+son P1
+y P2
+y esa es la codificación
+que representa
+algo
+ese 0,1,1
+algo representará
+entonces
+se van a cruzar
+P1 y P2
+que son los padres
+que elegí
+y mi random
+me dice que el punto
+de cruce
+está
+justo después
+de el segundo
+gen
+y por lo tanto
+yo genero
+mi hijo uno
+que tiene
+la primera mitad
+del padre uno
+y la segunda mitad
+del padre dos
+y el hijo dos
+que tiene
+la primera mitad
+o porción
+del padre dos
+y la segunda parte
+del padre uno
+y ahí tengo
+dos hijos
+y está ilustrado
+en los monitos
+de abajo
+se cruza
+ese animal rojo
+con el blanco
+y qué es lo que va a dar
+los hijos
+posiblemente sean
+un rojo
+y un blanco
+con rojo
+ahí se produjo
+una variación
+y después
+ese blanco
+con rojo
+se cruza
+con un rojo
+y tenemos
+el cuasi rojo
+que se va a cruzar
+con el otro
+semi rojo
+para dar
+un rojo
+diferente
+con características
+y así es como
+van cambiando
+las características
+de los individuos
+cada padre
+en cada generación
+va aportando
+material genético
+para incorporarlo
+en una eventual solución
+yo no digo
+que esas soluciones
+sean buenas o malas
+esos son los que se produjeron
+¿de qué dependerá
+que sean buenas o malas?
+de lo que yo quiera
+y de cómo yo lo evalúe
+de mi evaluación
+que yo haga
+de las características
+resultantes
+el cruzamiento
+es una operación
+de orden superior
+vamos a considerar
+solo dos elementos
+para no
+para no enredarnos
+mucho
+que es
+es un producto cruz
+en el cruzamiento
+tenemos
+dos
+padres
+que se cruzan
+y en el caso nuestro
+vamos a generar
+los hijos
+eso es todo
+ahí lo puse
+un poco
+un poquito
+más matemático
+por si alguien quiere hacer
+el álgebra de esto
+que no creo
+y después viene la mutación
+otro operador
+interesante
+¿y qué hace la mutación?
+aquí se cruzaron
+nacieron los hijitos
+y aquí están los hijitos
+para la nueva población
+y antes de irlos
+a meter a la nueva población
+nosotros decimos
+¿y este
+tendrá mutación o no?
+depende más
+probabilidad 2%
+y se me dice
+sí
+y me cae
+en el 2%
+y después el hijo
+¿cuál?
+y ese gen
+ese 0 o ese 1
+también
+es una mutación
+y ese cambio
+es aleatorio
+yo no lo controlo
+aquí el algoritmo
+ya está
+operando
+solo
+yo le di
+estas reglas
+la mutación
+¿qué es lo que es?
+lo mismo que
+en nosotros
+es un cambio
+local
+si antes
+tenemos el
+el string de arriba
+ese 1
+cambia un 0
+después de la mutación
+y si los números
+son reales
+la mutación
+puede ser la que aparece
+abajo
+antes de la mutación
+es 69 de cuarto
+y después de la mutación
+es 67 de 5
+¿qué significa eso?
+no sé
+pero es un cambio
+es una mutación
+profesor
+¿sí?
+ambos
+cambios
+o sea
+el cruzamiento
+y la mutación
+ocurren
+al mismo tiempo
+en los hijos?
+no
+primero el cruzamiento
+y la mutación
+se hace en los hijos
+así es
+por eso están
+esas etapas secuenciales
+inicialización
+selección
+de padres
+cruzamiento
+mutación
+inserción
+en la nueva población
+y evaluación
+de la nueva población
+para ver quién se va
+biológicamente
+sí
+podía
+¿cuál es la gracia
+de la mutación?
+como les decía
+nos cambia un valor
+este gen
+que había desaparecido
+que no
+lo puede
+hacer resurgir
+porque de repente
+ese gen recesivo
+podría ser
+una buena característica
+ante determinados eventos
+a lo mejor
+algún gen recesivo
+¿por qué no?
+podría ser importante
+en el combate
+a alguna enfermedad
+particular
+no sabemos
+yo no sé
+pero se me ocurre
+que uno está abierto
+a ese tipo de
+situaciones
+entonces la mutación
+también aquí
+un poco más algebraico
+es simplemente
+un individuo
+que sufre un cambio
+elegimos un individuo
+con cierta probabilidad
+se generó el cambio
+eso es todo
+y la evaluación
+agarra
+a los hijos
+mutados
+ya
+aquí se cruzaron
+tuvieron hijitos
+y ahora
+entran a la evaluación
+los hijos
+y tienen
+un valor
+de cuán buenos son
+para ir a competir
+a la población
+esta evaluación
+esta evaluación
+es el único nexo
+fíjense
+entre un genético
+y el problema
+todo lo que yo expliqué
+hasta aquí
+sirve
+para cualquier
+problema
+¿qué es lo que cambia?
+el campo específico
+que es
+y la evaluación
+que yo voy a hacer
+¿qué representa qué?
+¡ah!
+todo el resto
+del mecanismo
+como les dije
+funciona igual
+es extraordinariamente
+potente
+¿qué es el fitness?
+el fitness es
+de gimnasio
+es una evaluación
+de cuán bueno
+es un individuo
+cuán bueno
+es un elemento
+entonces tenemos
+dos individuos
+la primera línea
+y decimos
+que tienen un fitness
+de uno
+y los elementos
+de abajo
+tienen un fitness
+de ocho
+¡ah!
+y decimos
+¿cuál será bueno
+o cuál será mal?
+depende
+de lo que estemos midiendo
+y qué queremos medir
+en el caso de arriba
+lo que estamos midiendo
+es
+¿cuántos
+elementos distintos
+hay en los dos strings?
+uno
+el primero
+en el caso de abajo
+¿cuántos elementos distintos?
+ocho
+¿cuál es mejor?
+depende
+de decir lo que quiera yo
+¿quiero que sean todos distintos?
+¿o quiero que se parezcan todos?
+eso me puede servir
+para medir la población inicial
+¿cuán distintos son
+mientras el ritmo es distinto?
+no
+sí
+coincidencia
+sí
+sí
+así es
+así es
+de hecho yo puedo
+hablar sectores
+de la población
+pero no lo puedo meter
+todavía
+bueno
+y una vez que tenemos
+esta población
+recuerden
+seleccionamos los padres
+se cruzaron
+tuvieron hijitos
+los hijitos
+sufrieron mutaciones
+sufrieron renavaluaciones
+entraron a la población
+y ahora tenemos
+una población temporalmente grande
+pero que tenemos que disminuir
+porque no lo acaban tanto
+y tenemos que descartar
+¿a cuáles?
+los más malos
+pero una vez más
+no es rajatable
+cuando hay un reemplazo total
+que es una forma
+de hacer esto
+que es bastante habitual
+la población vieja
+se va a complicar
+algo así como la generación dorada
+no sé si
+no sé si me explico
+y se reemplaza totalmente
+pero hay otras
+el elitismo
+si hay algunos individuos
+que son buenos
+aquí los vamos a perder
+y esto
+lo que ayuda el elitismo
+a que la población
+o las soluciones
+nunca decaen
+la calidad es monótona
+y creciente
+porque los mejores
+van a estar siempre presentes
+no los vamos a reemplazar
+hasta que aparezca otro
+que es mejor
+eso es el elitismo
+según eso
+tendríamos jugando
+al León el Sánchez
+y al Chamaco Valdés
+todavía
+ahora
+¿cómo hacemos los programas?
+hay libertad absoluta
+podemos cambiar
+las estructuras de datos
+los operadores genéticos
+que me consultaban
+al inicio
+estos tres
+también podemos
+ser creativos
+variar
+¿cómo manejamos restricciones?
+¿cuáles son las condiciones
+que vamos a usar?
+tamaño de la población
+ya lo vimos
+probabilidad de aplicación
+de operadores
+¿cuál es la probabilidad
+de cruzamiento?
+normalmente alta
+¿cuál es la probabilidad
+de puntuación?
+normalmente baja
+podemos
+podemos hacer muchos cambios
+aquí
+la idea central
+no cambia
+tenemos una población
+de individuos
+esos individuos
+se van transformando
+porque van teniendo hijos
+y durante este proceso
+los individuos
+luchan
+por la subsistencia
+ese
+luchan
+es
+que
+los mejores
+siempre van a estar
+tratando de sobrevivir
+ese tratando de sobrevivir
+ponganle todas las comillas
+que quieran
+pero no es
+otra cosa
+que una población
+un string
+que represente
+una solución
+y
+que va cambiando
+en el tiempo
+eventualmente
+e idealmente
+mejorando la calidad
+de nuestra solución
+en un ejemplo
+abstracto
+yo tengo
+individuos
+distribuidos
+de cierta forma
+esto no
+no les dice
+mucho seguramente
+pero hay una población
+de puntitos rojos
+son funciones
+que yo quiero maximizar
+entonces
+a través de un
+algoritmo genético
+lo que hago yo
+es hacer la evolución
+de manera que
+los hijos
+vayan
+vayan
+siendo
+posiblemente
+máximos
+respecto de la generación
+anterior
+y eso se van
+manteniendo
+eso no significa
+que todos los malos
+se van a perder
+simplemente es un cambio
+eso es algo
+que dijo
+Bill Gates
+en 94
+y efectivamente
+la genética
+es una cosa
+extraordinariamente
+compleja
+e interesante
+veamos este ejemplo
+para dejarles
+unas preguntas
+puestas
+arriba de la mesa
+tenemos un tablero
+está dibujado
+así que no tienen que ser
+muy imaginativos
+además que ya están cansados
+y ese tablero
+tiene n por n
+espacios
+lo que queremos
+es que todos los vecinos
+sean de distinto color
+tenemos nuestra población
+inicial
+es el tablero
+desordenado
+el ideal
+es este
+no siempre vamos a conseguir
+el ideal
+puede ser
+puede que sí
+tenemos entonces
+ese tablero
+y ahora
+me entienden la idea
+¿no?
+ahora
+vienen las preguntas
+respecto de este bonito
+¿qué son los cromosomas?
+la manera en que está
+coloreado
+el tablero
+es mi población
+inicial
+los cromosomas
+no son
+0 y 1
+es más fácil
+son numeritos
+1, 2, 3, 4
+los colores
+vamos a tener
+cuatro valores
+recuerden
+lo de los
+grafos planarios
+o los mapas
+de los que hablamos
+los números
+de la matriz
+tienen
+uno de esos
+cuatro colores
+este string
+puede ser
+representado
+como
+una sola cadena
+larga
+donde pongo
+una fila
+al lado
+de la otra
+y tengo cuidado
+de ver cuál
+no se puede
+no puede tener
+el mismo color
+puede ser una matriz
+el cruzamiento
+vamos a manipular
+la matriz
+¿cómo podemos
+manipular
+la matriz?
+elegimos un punto
+de cruzamiento
+y ya
+trabajémoslo
+como matriz
+y seamos
+más chulos
+tiramos una línea
+en la mitad
+con otra matriz
+que tenga
+otros colores
+y vamos
+a cruzar
+y vamos a juntar
+la mitad
+de esta matriz
+con la mitad
+del otro hijo
+del otro padre
+perdón
+para tener
+un hijo
+distinto
+y lo vamos
+a evaluar
+no, es un ejemplo
+es un ejemplo
+la mutación
+también al azar
+si lo hicimos
+cambiamos un color
+por lo mejor
+echamos a perder
+la matriz
+donde estaba todo bien
+y era todo distinto
+va a quedar uno igual
+¿cómo se va a reflejar eso?
+en la evaluación
+la evaluación del hijo
+ya no va a ser tan buena
+pregunta
+¿cuál sería
+el fitness
+de esta matriz?
+es decir
+¿cómo lo evalúan ustedes?
+¿cómo dirían
+esta matriz
+¿bueno o esta es mala?
+hay varias formas
+¿cuál fue?
+Sí, pero el cruzamiento es distinto
+El cruzamiento es distinto
+Les voy a así anunciar nomás
+Supongamos que tengo una trayectoria
+Un conjunto de ciudades que recorro
+Que es un individuo
+Mi cromosoma es
+Parto en Nueva York, ¿cierto?
+Me voy a Miami
+Y así
+Llego así
+Y vuelvo a ir
+Hace un cromosoma
+Y el otro
+El otro va a partir
+Por qué lado
+Digamos, de Georgia a Alabama
+Y va a cruzar por arriba hasta la Jamanache
+De alguna forma
+Los cruzo
+Y los cruzo tal como hemos visto ahora
+No nos va a resultar
+Porque seguramente vamos a tener repetidos
+Algunos puntos
+Y algunos otros se nos van a perder
+Necesitamos un cruzamiento distinto
+Pero se puede hacer
+Hay un cruzamiento que hace eso
+En este caso el tablero de colores
+¿Cuál va a ser el genotipo?
+El color
+El color
+Y el genotipo es el 1, 2, 0, 1, 2, 3
+¿Y cuál sería ese?
+El cromosoma es el tablero completo
+Ese es el individuo
+Profesor, una pregunta
+En aplicaciones, por ejemplo, de color y eso
+Por ejemplo, podríamos colocar la mutación en 0%
+Si el color es como el resultado
+Y no queremos mutación de color
+Es que no se
+Pudiera ser
+Pero va a depender
+Va a depender de la evaluación
+Pero
+No la estamos viendo
+La estamos acompañando paso a paso
+O sea, me refiero
+¿La mutación en el fondo
+Puede generar un color distinto?
+O sea, no me refiero a este ejemplo
+Sino
+En el fondo uno
+Dependiendo de la aplicación
+Podría disminuir o aumentar
+La mutación, ¿cierto?
+Puede ser
+Puede ser
+Pero como es a ciegas
+La verdad es que la mutación
+Uno no la está dirigiendo
+Porque no sabe si va a favorecer
+O desfavorecer al individuo
+¿Y en qué beneficia la mutación
+En la práctica, en su experiencia?
+En la recuperación de alguna característica
+Minimal que se haya perdido
+En el transcurso de la evolución
+¿Pero la mutación no crea nuevas características?
+No
+¿Le cambia el valor a alguna característica?
+O sea, porque en la evolución
+En el fondo la mutación
+Te genera otra característica
+Que no venía siendo
+No sé si me explico
+Sí
+No, aquí lo que cambia es el valor
+O sea, el individuo tiene dos ojitos
+Que puede ser azul, es café
+Pero no tiene tres
+Exacto
+Pero por ejemplo
+Siguiendo esa analogía
+Uno no podría usar la mutación
+Para, por ejemplo
+Para ingresar innovación en la población
+Por ejemplo
+Un color diferente
+Que te beneficie
+Como un estímulo externo
+Sí, pero en este caso
+Estamos hablando de una estructura
+Esto es un grafo planal
+La mejor distribución
+Es con cuatro colores
+O sea, en el fondo
+Esta mutación
+Lo que hace es que gane un gen
+Que es recesivo
+O lo pierde
+O lo pierde
+Bueno
+Aquí hay varias cosas
+Que uno puede hacer
+Yo creo que estamos
+Medio estomados
+En el tiempo
+Vamos a tratar de cerrar
+La parte
+Tenemos un grafo
+Por ejemplo
+¿Cuál es la mejor ruta
+De transporte?
+¿Recuerdan que les decía
+Cómo recorrer los camiones
+De la basura
+Una trayectoria
+Para que vas a ir recogiendo
+Basura en todas las casas?
+Bueno
+Como en todos los individuos
+El fitness
+Que en la evaluación
+Nos dice
+Cuáles son los mejores
+Y los peores
+Y esos son usados
+Para
+La producción
+De la generación
+Siguiente
+Aquí
+Uno se puede poner
+Creativo
+Todo lo creativo
+Que queda
+Haciendo distintos
+Tipos de operación
+En un grafo
+El cruzamiento
+No necesariamente
+El cruzamiento
+Porque hace puntuación
+Cambiamos una lista
+Hagamos una lista
+Y nos queda desconectado
+Ah, se tiene mala evaluación
+Por ejemplo
+Si tenemos un árbol
+Queremos que siga
+Haciendo un árbol
+O sea que haya conectividad
+Por ejemplo
+A ver
+Ya, vamos a dejarlo hasta aquí
+Porque estamos en la hora ya
+Ya viene la teleserie
+No
+Y vamos a seguir
+El próximo lunes
+Traigan su gomita
+Su lápiz
+Para la prueba
+Traigan sus computadores
+Y la prueba
+Va a estar ahí
+En el entretiempo
+Arriba
+En el curso
+Para que la puedan hacer
+Bueno
+Ha sido un gusto
+Espero que
+Espero que hayan
+Entrado más
+A este campo
+De los genéticos
+Que no haya sido tan árido
+Y por supuesto
+Consultas lo que quieras
+¿Sí?
+¿Cuál es el apunte?
+¿Los de genéticos?
+Sí, claro
+Sí, siempre estoy subiendo
+Sí
+No sé si hoy día
+Mañana
+Sí
+Ah, bueno
+Lo que pasa es que
+El esqueleto
+Yo subí el esqueleto
+Que es lo
+Aquí tengo más monito
+Porque siempre estoy haciendo cambios
+Pero
+Lo subo
+Lo subo
+Lo subo
+Los sábados
+Y después
+Como llego aquí tempranito
+Estoy
+Algo así
+Bien
+Que
+Que les vaya
+Estupendo
+Nos vemos
+Nos vemos el lunes
+Nos vemos el lunes
+Nos vemos el lunes

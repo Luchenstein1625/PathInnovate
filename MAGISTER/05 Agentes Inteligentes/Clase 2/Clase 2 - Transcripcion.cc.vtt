@@ -1,0 +1,3092 @@
+WEBVTT
+
+02:02:35.000 --> 02:02:42.000
+Las mujeres, Ok, porque porque él todavía no asocia ¿cierto? Exactamente el concepto. Por lo tanto, si aquí yo tengo un.
+
+02:02:42.000 --> 02:02:49.000
+Caballo. Y digo, tiene 4 patas, igual que la Mesa. Entonces le puedo poner a los 2 el símbolo tumbélé.
+
+02:02:49.000 --> 02:02:59.000
+Por decir alguna cosa que está acá. Luego tiene que ser específicos suficientes para distinguir al caballo de la mesa.
+
+02:02:59.000 --> 02:03:07.000
+O sea, no basta con las 4 patas. Pero, por otro lado, tiene que ser específico, suficiente o general, perdón suficiente.
+
+02:03:07.000 --> 02:03:12.000
+De forma que yo les decía: Veo esta mesa, ya y veo.
+
+02:03:12.000 --> 02:03:25.000
+Esto que está acá. Que no tiene tanto 4 patas ni nada igual. Este es un tipo de mesa o alada, etcétera. Y esos ciertos somos súper buenos haciendo lo humano. Ese es parte de lo que investigamos con.
+
+02:03:25.000 --> 02:03:32.000
+Sergio chaño, y tenemos toda una teoría matemática probabilística para hacer 50 000 enjuagues matemáticos.
+
+02:03:32.000 --> 02:03:42.000
+Y entender mejor esto y cómo somos tan bueno en hacerlo. Es por eso que es como lógico decir, sabe que más enseñémoslo a los computadores.
+
+02:03:42.000 --> 02:03:47.000
+A hacerlo sea el ejemplo que vamos a ver. Acá un ejemplo también muy sencillo.
+
+02:03:47.000 --> 02:03:52.000
+Cierto que, por ejemplo. Disculpen.
+
+02:03:52.000 --> 02:03:56.000
+Yo voy a acá a tener estos 3 objetos.
+
+02:03:56.000 --> 02:04:00.000
+Y ese objeto es definido por el símbolo vaso.
+
+02:04:00.000 --> 02:04:11.000
+Ya tengo un jarro con agua, y eso es un jarro con agua. Ahí lo simplifica y lo que sería jarro, agua y jarro con agua. O sea, le estoy poniendo un solo símbolo.
+
+02:04:11.000 --> 02:04:15.000
+Y después una acción que también son conceptos, que es.
+
+02:04:15.000 --> 02:04:22.000
+Tomar. Agua, entonces. La idea aquí. Entonces, ¿cuál es la siguiente.
+
+02:04:22.000 --> 02:04:26.000
+Que nosotros vamos a. Al mundo percibirlo.
+
+02:04:26.000 --> 02:04:35.000
+Ponerle labels rótulos, ya. Y poder ya tomar decisiones y razonar con esos rótulos.
+
+02:04:35.000 --> 02:04:45.000
+Por ejemplo, tengo el rótulo vaso jarro con agua, tomar agua, ¿cierto? Y, por ejemplo, quiero tomar agua, lo que significa que voy a tener que razonar.
+
+02:04:45.000 --> 02:04:50.000
+Con esto que está. Acá, lo que significa.
+
+02:04:50.000 --> 02:04:57.000
+Que tengo que solucionar 2 problemas. Primero, el problema de transducción.
+
+02:04:57.000 --> 02:05:01.000
+Cuál es la idea? Acá, como les dije que yo tengo.
+
+02:05:01.000 --> 02:05:10.000
+En este caso muy simplificado. Jarro con agua. ¿cierto? Tomar agua. A eso les pongo esos símbolos, que son fonemas, pues.
+
+02:05:10.000 --> 02:05:19.000
+Y todos decimos, Sí, pero si entendemos sí, pero no el elemental, porque si yo digo vaso, ustedes van a entender que es un vaso y no alguna otra.
+
+02:05:19.000 --> 02:05:24.000
+Cosa, Ok. Y, por lo tanto, ya este problema de traducción.
+
+02:05:24.000 --> 02:05:33.000
+Es complicado. Y ese problema. Además, tenemos que ejecutarlo en un tiempo suficientemente corto.
+
+02:05:33.000 --> 02:05:38.000
+Para que sea útil. Me explico si yo voy a hacer un computador.
+
+02:05:38.000 --> 02:05:53.000
+Que haga esta cuestión elemental de decir: tengo cierto, un vaso, una jarra y quiero tomar agua y, por lo tanto, voy a pescar la jarra. Le voy a echar al vaso y me la voy a tomar no saco nada con decir: Sabes ¿qué más voy a hacer? La traducción perfecta.
+
+02:05:53.000 --> 02:06:03.000
+Pero muy a moda de 15 min en hacerla. No puede ser, entonces tiene que ser un tiempo bastante pequeño. Por lo tanto, eso ya.
+
+02:06:03.000 --> 02:06:08.000
+Okay. Es un desafío. Y ahí tenemos visión artificial.
+
+02:06:08.000 --> 02:06:14.000
+Reconocimiento o aprendizaje, etcétera. Pero esa es la mitad del problema.
+
+02:06:14.000 --> 02:06:21.000
+La otra mitad del problema es que. Estos símbolos. Yo los tengo que poder manipular.
+
+02:06:21.000 --> 02:06:31.000
+Para razonar. O sea, no basta que yo los traduzca, sino que los traduzca a una forma que yo pueda razonar.
+
+02:06:31.000 --> 02:06:36.000
+Con ello. Por ejemplo, tengo vaso y jarro con agua.
+
+02:06:36.000 --> 02:06:41.000
+Por lo tanto, soy yo gasónico. A voy a tomar el jarro y le voy a echar.
+
+02:06:41.000 --> 02:06:48.000
+Agua al vaso para llenarlo. Y después, cierto, voy a tomar el agua, lo que significa agarro. El vaso.
+
+02:06:48.000 --> 02:06:56.000
+Tomo el agua. Nuevamente, usted me dicen profe, pero que se está ahogando en un vaso de agua, abogar elemental.
+
+02:06:56.000 --> 02:07:05.000
+Cresta claro para nosotros es elemental. Pero la pregunta es: ¿Cómo eso lo metemos en un computador.
+
+02:07:05.000 --> 02:07:12.000
+Para que pueda razonar de esa forma. Y ojo. Aquí está la falacia de Chip tío que se guste buen decir.
+
+02:07:12.000 --> 02:07:21.000
+We don't for oiga, no venga. Si Chat Gpt hace cuestiones sorprendentes, pues entonces no me venga a decir que esto no se puede hacer.
+
+02:07:21.000 --> 02:07:24.000
+Ok. Pero el problema que tenemos con Chat Gpt.
+
+02:07:24.000 --> 02:07:30.000
+Que está Chipit no está haciendo esto. Es un tonto.
+
+02:07:30.000 --> 02:07:40.000
+Entrenado con muchísimos datos que predice cierto la secuencia de palabras y puntos.
+
+02:07:40.000 --> 02:07:43.000
+Entonces se dan cuenta. Ese es el gran problema. Aquí no aquí queremos.
+
+02:07:43.000 --> 02:07:53.000
+Que la máquina razone. Pero ojo a que no se vayan aquí diciendo el profesor y dijo que Chachipit no sirve para nada, porque sería una mentira. También.
+
+02:07:53.000 --> 02:07:56.000
+La pregunta es, desde un punto de vista pragmático.
+
+02:07:56.000 --> 02:08:05.000
+Profa. A mí no me interesa que mi chica haga el sistema web. Si Chachipit, tú decías, oiga, quiero una fotografía de una persona que ella y me la hace.
+
+02:08:05.000 --> 02:08:12.000
+Que razone o no, que usted diga que es un tonto rápido, cierto y que concatena palabras y aquella.
+
+02:08:12.000 --> 02:08:16.000
+Le da lo mismo. Me solución el problema totalmente de acuerdo.
+
+02:08:16.000 --> 02:08:22.000
+Lo que estoy diciendo aquí que aquí somos mucho más ambiciosos y queremos que el sistema.
+
+02:08:22.000 --> 02:08:33.000
+Haga eso. Razone explícitamente. Y eso es súper complicado de hacer. Y se movieron. Fíjense 30 años en descubrir que crezca.
+
+02:08:33.000 --> 02:08:38.000
+Era recomplicado. Hacerlo. Okay. Bien.
+
+02:08:38.000 --> 02:08:49.000
+Como entonces. Básicamente pensamos en hacer esto. Y aquí hay una serie de símbolos. Me voy a ir acá porque, como les digo.
+
+02:08:49.000 --> 02:08:53.000
+No quiero dejar. A los que están en línea.
+
+02:08:53.000 --> 02:09:02.000
+Sin que les pueda apuntar. Cada una de estas cosas.
+
+02:09:02.000 --> 02:09:05.000
+Here I will say that.
+
+02:09:05.000 --> 02:09:12.000
+Es que vamos a codificar en el computador una teoría que estipule la mejor o mejores acciones.
+
+02:09:12.000 --> 02:09:17.000
+O secuencia de acciones que vamos a hacer.
+
+02:09:17.000 --> 02:09:24.000
+In formalizándolo. Esto desde el punto de vista, cierto o teoría, he predicado, y todo esto.
+
+02:09:24.000 --> 02:09:34.000
+Tenemos lo siguiente: rho. Es esa teoría que normalmente esto ya deriva en un conjunto de reglas.
+
+02:09:34.000 --> 02:09:39.000
+Y, por lo tanto, fíjense que acá. Si ustedes se acuerdan.
+
+02:09:39.000 --> 02:09:46.000
+En el agente reflexivo, simple. Se acuerdan era un conjunto de reglas que se gatilleaban por.
+
+02:09:46.000 --> 02:09:49.000
+Pay percepto. Y aquí estamos.
+
+02:09:49.000 --> 02:09:57.000
+Partiendo más o menos igual. Tenemos una teoría que normalmente tenemos reglas para manipular.
+
+02:09:57.000 --> 02:10:09.000
+Esos símbolos. Después tenemos este delta. Este Delta ya es una base atológica que describe el estado actual del mundo. ¿qué significa esto.
+
+02:10:09.000 --> 02:10:19.000
+Significa que yo voy a percibí esto. Ya. Y esa percepciones las voy a transformar en esa base de datos en símbolo.
+
+02:10:19.000 --> 02:10:23.000
+Es decir, yo capturó el video de esto. Ya.
+
+02:10:23.000 --> 02:10:27.000
+Y generalizo, y digo perfecto este tipo de videos que yo extraigo, que.
+
+02:10:27.000 --> 02:10:36.000
+Cuatro patas. ¿y qué sé yo ¿cierto? A eso le pongo el símbolo Mesa, y eso está en mi base de datos.
+
+02:10:36.000 --> 02:10:41.000
+Y, finalmente, hacés el conjunto de acciones que pueden ejecutar.
+
+02:10:41.000 --> 02:10:48.000
+Un agente. Fíjense que cada vez voy. Esta cuestión, que era grandilocuente.
+
+02:10:48.000 --> 02:10:55.000
+Achitándola, o sea, aquí oye, sabéis que más el razonamiento va a ser un conjunto.
+
+02:10:55.000 --> 02:10:57.000
+De acciones que va a ejecutar ya.
+
+02:10:57.000 --> 02:11:02.000
+Ill. Agente. Y entonces aquí tenemos.
+
+02:11:02.000 --> 02:11:10.000
+Cierto, este símbolo, que está acá. Que significa que cierto se puede decir.
+
+02:11:10.000 --> 02:11:16.000
+Free, ya. Desde el conjunto base: datos delta.
+
+02:11:16.000 --> 02:11:22.000
+Aplicando la teoría Row. Es decir, yo voy a ejecutar la acción.
+
+02:11:22.000 --> 02:11:31.000
+Free, para la cual, en el fondo. Voy a tomar el estado actual del mundo codificado en esta base de datos.
+
+02:11:31.000 --> 02:11:37.000
+Y voy a deducir bajo esta teoría ro, que es un conjunto de reglas.
+
+02:11:37.000 --> 02:11:41.000
+¿qué voy a hacer. Y esto es una simplificación.
+
+02:11:41.000 --> 02:11:48.000
+Bastante grande. Ahora, en un principio, lo que se pensó es: partamos chiquitito. En ese tiempo, los computadores.
+
+02:11:48.000 --> 02:11:54.000
+No tenía mucho poder de cómputo. Y después, cuando tengamos más poder de cómputo, vamos agrandando.
+
+02:11:54.000 --> 02:12:00.000
+Cierto delta C y vamos a llegar a algo morrocotumamente.
+
+02:12:00.000 --> 02:12:07.000
+Grande. Y vamos a ver que, desgraciadamente, eso. No se cumplió bien.
+
+02:12:07.000 --> 02:12:13.000
+Veamos ahora el bucle de control que va a tener este agente.
+
+02:12:13.000 --> 02:12:22.000
+Nuevamente lo vamos a ver con esto. Antes les daba un ejemplo, y me iba al detalle cada una de estas cosas.
+
+02:12:22.000 --> 02:12:28.000
+Pero no lo hago ahora. Por 2 motivos: ya: eficiencia, eficacia.
+
+02:12:28.000 --> 02:12:31.000
+Lo que pasaba era que.
+
+02:12:31.000 --> 02:12:38.000
+Gastábamos mucho tiempo. Segundo ya no era muy eficaz, porque.
+
+02:12:38.000 --> 02:12:51.000
+Porque casi el ejemplo los conducía. A no entender bien y decirme profe. Pero usted está hablando, y esta cuestión tanto que se llenó la boca con agente razonadores simbólico.
+
+02:12:51.000 --> 02:12:55.000
+Y lo que está haciendo finalmente, creando en el fondo un agente.
+
+02:12:55.000 --> 02:13:04.000
+Ya, ehh! Reflexivo, simple, prácticamente. Y, por lo tanto, ya el ejemplo era.
+
+02:13:04.000 --> 02:13:14.000
+Sacado de la literatura era un ejemplo verdadero. Pero no se entendía totalmente, y es por eso que prefiero, en cambio.
+
+02:13:14.000 --> 02:13:17.000
+Dejarlo acá en alto nivel.
+
+02:13:17.000 --> 02:13:23.000
+He can say, el primer Bucle. Para todas las acciones.
+
+02:13:23.000 --> 02:13:28.000
+Que la gente puede ejecutar. Ya veo. Sí.
+
+02:13:28.000 --> 02:13:37.000
+Desde mi percepción del mundo. Bajo la teoría que me indica, ¿qué puedo hacer? Yo puedo hacer la acción a.
+
+02:13:37.000 --> 02:13:41.000
+Y, por lo tanto, retorno a.
+
+02:13:41.000 --> 02:13:49.000
+Terminé la primera pasada del bucle de control. Si no logro encontrar una acción a.
+
+02:13:49.000 --> 02:13:54.000
+Que el estado actual del mundo bajo la teoría Row me indique.
+
+02:13:54.000 --> 02:14:01.000
+Si la puedo ejecutar. Paso puede decir así como un dúplex negativo.
+
+02:14:01.000 --> 02:14:05.000
+Para todo accionar que está dentro del conjunto de posibles acciones. Veo.
+
+02:14:05.000 --> 02:14:11.000
+Si puedo no deducir que no se puede ejecutar la acción.
+
+02:14:11.000 --> 02:14:18.000
+Y, por lo tanto, retorno. Esa acción. Y termino, y sin ninguna de estas 2.
+
+02:14:18.000 --> 02:14:23.000
+Padre me retornan una acción. ¿a qué puedo ejecutar entonces? El retorno nulo.
+
+02:14:23.000 --> 02:14:30.000
+O sea, no pueden contar nada que pueda hacer, a lo menos ya como está ahora.
+
+02:14:30.000 --> 02:14:35.000
+El mundo. Entonces. Por qué están en este orden? Porque, claro, lo ideal.
+
+02:14:35.000 --> 02:14:43.000
+Que yo diga: el mundo está de cierta forma. Después les voy a dar el ejemplo con la Mesa. Ya puedo ejecutar. Esto lo ejecutó. Por lo tanto.
+
+02:14:43.000 --> 02:14:48.000
+Si es que no puedo encontrar esta acción, veo algo que.
+
+02:14:48.000 --> 02:14:57.000
+La teoría. No me diga que no puedo ejecutar, lo cual es absurdo en el sentido, cierto que yo puedo ejecutar algo que puedo ocultar, porque no me sirve por mi objetivo.
+
+02:14:57.000 --> 02:15:04.000
+Pero para que la gente no se quede ahí esperando que el mundo cambie o qué? Bueno, igual.
+
+02:15:04.000 --> 02:15:08.000
+Lo hago. Ok. Eso es esto que está acá. Entonces.
+
+02:15:08.000 --> 02:15:14.000
+Nuevamente. Lo voy ejemplificar con la Mesa. Que un ejemplo súper sencillo.
+
+02:15:14.000 --> 02:15:18.000
+Ya, pero que creo que ayuda a entender este bucle.
+
+02:15:18.000 --> 02:15:30.000
+Imaginemos que nuevamente me dijeron Canessa. Toma la mesa, que está allá Péscala, sin arrastrarla por el suelo, porque no quiero que quede cierto marcado el bonito suelo.
+
+02:15:30.000 --> 02:15:37.000
+Y ponla en el otro extremo. Por lo tanto, yo percibo esto. Digo esto es Mesa.
+
+02:15:37.000 --> 02:15:41.000
+Esto es suelo. Tengo que dejarla allá.
+
+02:15:41.000 --> 02:15:46.000
+Veo mis acciones. Por ejemplo, mis acciones pueden ser: ¿se acuerdan ir a.
+
+02:15:46.000 --> 02:15:58.000
+Buscar un carrito, ir a buscar un montacarga. Pedirle ayuda, a alguien, moverme, etcétera. Entonces empiezo a buscar esto, que está acá, y digo a perfecto.
+
+02:15:58.000 --> 02:16:04.000
+Mi acción. Cierto es que yo creo que la puedo arrastrar la Mesa. Perdón, la puedo tomar.
+
+02:16:04.000 --> 02:16:14.000
+Y llevarla a un lado a otro y, por lo tanto, la acción que puede ejecutar en este momento es moverme hacia la mesa y, por lo tanto, me muevo hacia la mesa.
+
+02:16:14.000 --> 02:16:19.000
+Estoy en mi mesa. Fíjense que cambié el mundo, ¿cierto? Porque yo estaba ahí en la mesa. Acá.
+
+02:16:19.000 --> 02:16:24.000
+El mundo y vuelvo a ejecutar el bucle. Y digo.
+
+02:16:24.000 --> 02:16:30.000
+Perfecto. Entonces, Ok. ¿cuál es la próxima acción, dado que estoy aquí, etcétera, etc.
+
+02:16:30.000 --> 02:16:36.000
+Puedo levantar la mesa. Voy a levantar la mesa.
+
+02:16:36.000 --> 02:16:43.000
+Y digo, Chupa, ya. Puedo levantar la Mesa. Por lo tanto, la próxima acción.
+
+02:16:43.000 --> 02:16:49.000
+Era levantar la mesa. Imaginemos que no puedo lucir nada más. Entonces me voy al.
+
+02:16:49.000 --> 02:16:54.000
+Segunda parte del lupo del Loop. ¿qué es lo que puedo deducir que.
+
+02:16:54.000 --> 02:17:00.000
+¿qué puedo no deducir que no puedo hacer si yo estoy acá, ya sé que no puedo levantar la mesa.
+
+02:17:00.000 --> 02:17:05.000
+Pero podría deducir. De que, efectivamente, nada me impide.
+
+02:17:05.000 --> 02:17:17.000
+Ir a buscar un carrito. Y, por lo tanto, en este caso, afortunadamente muy sencillo. Digo perfecto. No puedo deducir que no puedo ir a buscar un carrito y, por lo tanto.
+
+02:17:17.000 --> 02:17:22.000
+Voy a buscar el carrito. Sitúe así, de suerte.
+
+02:17:22.000 --> 02:17:28.000
+Que esa acción ya no especificada que no puedo ejecutar, me va a permitir.
+
+02:17:28.000 --> 02:17:33.000
+Ok. Lidiar con mi objetivo final.
+
+02:17:33.000 --> 02:17:38.000
+Imaginemos que, por algún motivo, ya también en mi base aquí.
+
+02:17:38.000 --> 02:17:42.000
+Está otra acción que yo.
+
+02:17:42.000 --> 02:17:47.000
+We'll see que no puedo hacer. No puedo deducir dúplex negativo que no puedo hacer.
+
+02:17:47.000 --> 02:17:57.000
+A pedir un café. Y, por lo tanto, dado que no puedo ejecutar esta cuestión, me voy a pedir un café.
+
+02:17:57.000 --> 02:18:11.000
+Eso es lo que diría. El segundo loop. Ustedes me preguntaban profi y con el café va a sacar más fuerza que ya le sirve para el objetivo pescar esta mesa no pudo, pero a lo menos hice algo. Y ojalá que después cierto de tomar el café.
+
+02:18:11.000 --> 02:18:18.000
+Sin queriendo aparezca otra acción que puede ejecutar aquí y allá, etcétera, etcétera.
+
+02:18:18.000 --> 02:18:23.000
+Reconozco que el ejemplo. Lo que significa.
+
+02:18:23.000 --> 02:18:28.000
+De que nuevamente supe. Es difícil entender esto respecto de un arquitectura.
+
+02:18:28.000 --> 02:18:33.000
+Reflexiva, simple. Ok. Pero.
+
+02:18:33.000 --> 02:18:39.000
+La gracia que tiene es que se entiende este bucle mejore. Evidentemente que esto es más complicado.
+
+02:18:39.000 --> 02:18:46.000
+Ya cuando el delta, la base ato que mueve el mundo con los símbolos es.
+
+02:18:46.000 --> 02:18:52.000
+Tiene más entradas. ¿cierto? Es mucho más versátil. Cuando la teoría ahorró.
+
+02:18:52.000 --> 02:18:59.000
+Es también más amplia, y cuando el conjunto de acciones también es bastante.
+
+02:18:59.000 --> 02:19:08.000
+Más amplio. Y sobre esto podemos ver. Podemos montar un meta mecanismo en el cual, efectivamente, si es que.
+
+02:19:08.000 --> 02:19:21.000
+Hay varias acciones que yo pueda deducir. Puedo sacar todas las posibles acciones, Ok. Y de esas elegir según el objetivo, etcétera. Es decir, si tenía la acción que nada me impide ir a tomar un café.
+
+02:19:21.000 --> 02:19:29.000
+O pedir ayuda. Algo que priorice. Me dice: Canes, ahí está. No harto un café. Lo podía hacer, porque nada te lo impide.
+
+02:19:29.000 --> 02:19:38.000
+Pero eso no va. En la consecución del objetivo que mueve la mesa. En cambio, pedir ayuda a alguien sí va.
+
+02:19:38.000 --> 02:19:45.000
+Pero eso en general. Nuevamente lo que sí quiero que saquen de en limpio. Esto.
+
+02:19:45.000 --> 02:19:50.000
+De que ustedes comprenderán. Que modelara.
+
+02:19:50.000 --> 02:19:57.000
+Computacionalmente esto en un computador. El gran problema que tenemos que explota.
+
+02:19:57.000 --> 02:20:03.000
+Ya explota computacionalmente y, por lo tanto, del tarro.
+
+02:20:03.000 --> 02:20:14.000
+Así se vuelve. Tan grande, y su interacción es que es prácticamente inmanejable. Aunque tengamos cierto un súper computador.
+
+02:20:14.000 --> 02:20:19.000
+O algo así y, por lo tanto, ese es el problema que tenemos con esto de.
+
+02:20:19.000 --> 02:20:25.000
+Nuevamente tratar de imitar. Ya el razonamiento simbólico explícito.
+
+02:20:25.000 --> 02:20:29.000
+Y ahí es donde la maravilla del L. L, m.
+
+02:20:29.000 --> 02:20:35.000
+Que sin ese razonamiento explícito. Con una cuestión mucho más entre comillas, tonta.
+
+02:20:35.000 --> 02:20:40.000
+Perfect.
+
+02:20:40.000 --> 02:20:48.000
+Bien dicho eso, entonces. Pasamos.
+
+02:20:48.000 --> 02:20:56.000
+¿a qué hora es la próxima un recreo.
+
+02:20:56.000 --> 02:21:06.000
+Perdón, 19 55, ya o sea. Me quedan. Me avisan, por favor, en 12 min más, porque si no seguro que me paso.
+
+02:21:06.000 --> 02:21:13.000
+Dado que tenemos ese problema de razonar. Simbólicamente. Entonces.
+
+02:21:13.000 --> 02:21:15.000
+Después se vio y se dijo: Sabes qué? Más.
+
+02:21:15.000 --> 02:21:25.000
+La verdad, que no necesariamente. Para que una gente sea útil, necesita razonar simbólicamente.
+
+02:21:25.000 --> 02:21:28.000
+Y, por lo tanto, podemos razonar. Pueda.
+
+02:21:28.000 --> 02:21:35.000
+De nuevo un poquitito imitando lo anterior, pero un poco a más alto nivel.
+
+02:21:35.000 --> 02:21:38.000
+Y aquí ¿qué es lo que vamos a hacer.
+
+02:21:38.000 --> 02:21:46.000
+Básicamente. Vamos a tener 2 bloques que va a tener el agente. Primero, lo que se llama deliberación.
+
+02:21:46.000 --> 02:21:54.000
+Qué significa eso? ¿cierto? Decidir. Como dice y qué situación, qué estado queremos lograr.
+
+02:21:54.000 --> 02:22:05.000
+O sea, por decir así, subobjetivos, una tarea grande, mover la mesa de un lado a otro. ¿cierto? La vamos a descomponer en una serie.
+
+02:22:05.000 --> 02:22:11.000
+De subtarea, y para cada una de esas subtareas vamos a usar razonamiento, medios.
+
+02:22:11.000 --> 02:22:18.000
+Fines para ver cómo lograr cada 1 de esos Estados.
+
+02:22:18.000 --> 02:22:26.000
+Dicho eso, aquí hay una distinción importante. ¿en qué situación que queremos lograr aquí le vamos a poner el nombre de.
+
+02:22:26.000 --> 02:22:36.000
+Intencione. Y ahí hay. Una distinción importante. Les dejo un tiempo para que lean.
+
+02:22:36.000 --> 02:22:39.000
+Cierto, esta cita de Bradman. Él fue el que empezó a.
+
+02:22:39.000 --> 02:22:47.000
+Y pensar en esto de. Cierto, la el modelo de razonamiento práctico se los dejo.
+
+02:22:47.000 --> 02:23:17.000
+Para que lo lean. Y si hay alguna pregunta, ya me la hacen. Por favor.
+
+02:23:19.000 --> 02:23:22.000
+Y por eso que esta arquitectura se llama B.
+
+02:23:22.000 --> 02:23:30.000
+De porque diferencia entre deseo e intenciones. Deseos son potenciales cosas que yo voy a hacer.
+
+02:23:30.000 --> 02:23:35.000
+Y de ese conjunto de deseo, yo selecciono alguna.
+
+02:23:35.000 --> 02:23:41.000
+Pongo esfuerzo para ejecutarlo. Y, por lo tanto, esa distinción.
+
+02:23:41.000 --> 02:23:46.000
+Es por eso que puse esta lámina tan explícita va a ser importante.
+
+02:23:46.000 --> 02:23:54.000
+De hacer. Primero, distinguir entre deseo, intención. Cierto es.
+
+02:23:54.000 --> 02:24:03.000
+La deliberación. ¿qué quiero hacer? Y después necesitábamos otro razonamiento medio fin.
+
+02:24:03.000 --> 02:24:10.000
+Es decir, la idea es que vamos de alguna forma y después va a haber un ejemplo concreto.
+
+02:24:10.000 --> 02:24:21.000
+Típico es una tarea típica de la inteligencia artificial de los años 90, etcétera. Ya vamos a ver cómo representa el objetivo: la intención a lograr.
+
+02:24:21.000 --> 02:24:27.000
+La representación de las acciones que yo puedo ejecutar como agente y la representación del ambiente.
+
+02:24:27.000 --> 02:24:36.000
+Y con esto el agente va a generar un plan para lograr el objetivo. Lo que es cierto en palabras.
+
+02:24:36.000 --> 02:24:41.000
+Portal, intelligence artificial, programación automática. Es decir, tenemos una cajita.
+
+02:24:41.000 --> 02:24:46.000
+A esa cajita le entregaba un objetivo, una intención o una tarea.
+
+02:24:46.000 --> 02:24:56.000
+Los Estados del ambiente como a mi mundo, ya las posibles acciones que yo puedo hacer. Y esa caja planificadora entrega un plan.
+
+02:24:56.000 --> 02:25:08.000
+Para lograr el objetivo. Fíjense que acá. Entonces no estamos razonando directamente ya en forma simbólica. Lo estamos haciendo en forma más.
+
+02:25:08.000 --> 02:25:14.000
+Fue dragmática. Por lo tanto, un poco más. De por decir así bajo.
+
+02:25:14.000 --> 02:25:19.000
+Nivel. Ahora bien. La pregunta es.
+
+02:25:19.000 --> 02:25:31.000
+La que está acá perfecto. Tenemos un enfoque. ¿cuál va a ser la idea? Pero la pregunta es: ¿cómo representamos objetivo? Estado, el ambiente, acciones, el plan, etcétera.
+
+02:25:31.000 --> 02:25:37.000
+Y aquí está, como les digo. Una tarea y un sistema.
+
+02:25:37.000 --> 02:25:44.000
+Que se ocupa y todavía se sigue ocupando. Ya desde la década de los 90 para.
+
+02:25:44.000 --> 02:25:50.000
+Ver esto, que está acá investigarlo, etcétera. Hay algunas otras tareas mucho más complicadas.
+
+02:25:50.000 --> 02:25:56.000
+Ya con un ambiente mucho más dinámico, etcétera. Pero creo que con la que les voy a presentar acá.
+
+02:25:56.000 --> 02:26:02.000
+Basta y sobra para que entiendan la idea detrás de esto.
+
+02:26:02.000 --> 02:26:08.000
+Y puedan comparar la diferenciarla de agentes razonadores. Simbólico, bien.
+
+02:26:08.000 --> 02:26:16.000
+Aceptamos con esto el famoso Blogs World. Y si lo buscan en Internet, van a encontrar 50 000.
+
+02:26:16.000 --> 02:26:21.000
+A lo mejor unos 50 000 pero muchísimos papers de estos, que está.
+
+02:26:21.000 --> 02:26:27.000
+Acá. ¿cuál es la idea? Tengo un brazo robótico.
+
+02:26:27.000 --> 02:26:32.000
+Tengo 3 bloques. Ya por decirlo así, A, B, C.
+
+02:26:32.000 --> 02:26:37.000
+Que son de igual tamaño. Y tengo una mesa.
+
+02:26:37.000 --> 02:26:41.000
+Y lo que vamos es. Vamos a manipular esos bloques y después les voy a dar algunas.
+
+02:26:41.000 --> 02:26:49.000
+Anécdotas de esto que está acá. Bien, entonces, para eso necesitamos una ontología.
+
+02:26:49.000 --> 02:26:54.000
+Que nos represente los Estados de este mundo, que fíjense que un mundo.
+
+02:26:54.000 --> 02:26:58.000
+Bastante sencillito. Ok.
+
+02:26:58.000 --> 02:27:02.000
+Y aquí están las premisas. Para hacer eso, las premisas lógicas.
+
+02:27:02.000 --> 02:27:08.000
+On X y significa el objeto X está sobre el objeto I.
+
+02:27:08.000 --> 02:27:12.000
+On Table X, el objeto X está sobre la mesa.
+
+02:27:12.000 --> 02:27:16.000
+Clear. Ex nada está sobre el objeto X.
+
+02:27:16.000 --> 02:27:24.000
+Holding X, el brazo robótico sostiene el objeto X y arm empty. El brazo no está sosteniendo.
+
+02:27:24.000 --> 02:27:29.000
+Al entonces. El ejemplo anterior.
+
+02:27:29.000 --> 02:27:36.000
+Se acuerdan del bloque A estaba sobre el B. El B está sobre la mesa. El C está.
+
+02:27:36.000 --> 02:27:39.000
+Cierto, también soy de la Mesa y, por lo tanto.
+
+02:27:39.000 --> 02:27:45.000
+Ese mundo. Esa situación la podemos describir con las premisas anteriores.
+
+02:27:45.000 --> 02:27:50.000
+Do you get to know sort of bloquear UN acoma B.
+
+02:27:50.000 --> 02:27:55.000
+A está sobre B on Table B de Ve está sobre la mesa. Un table C.
+
+02:27:55.000 --> 02:28:02.000
+Se está sobre la mesa, y eso sería una descripción con la antología anterior.
+
+02:28:02.000 --> 02:28:10.000
+Para describir en qué estado del mundo está este famoso cierto, el mundo de los bloques.
+
+02:28:10.000 --> 02:28:16.000
+Y otra cosa importante es la que está acá su posición de mundo cerrado.
+
+02:28:16.000 --> 02:28:22.000
+Que significa que lo que no estipulemos acá es siempre falso, y con eso nos evitamos.
+
+02:28:22.000 --> 02:28:28.000
+Problema cierto de Ciro ¿y qué podría pasar si, etcétera.
+
+02:28:28.000 --> 02:28:34.000
+Después viene. Ya el objetivo, el objetivo. Entonces lo escribimos como.
+
+02:28:34.000 --> 02:28:43.000
+Ya el estado futuro deseado del. Sistema y, por ejemplo, ya.
+
+02:28:43.000 --> 02:28:46.000
+Si queremos llegar a eso, que el bloque Ab y C.
+
+02:28:46.000 --> 02:28:53.000
+Ten sobre la mesa. Entonces ahí hay un predicado lógico para hacer eso.
+
+02:28:53.000 --> 02:29:00.000
+Y cierto, el ilógico ontable B. Y lógico ontable. C.
+
+02:29:00.000 --> 02:29:09.000
+Y aquí viene primera: anécdota. La primera vez que vi este curso en el doctorado ingeniería informática en la Santa María.
+
+02:29:09.000 --> 02:29:16.000
+Juanito Zamora. Me encontré con él hace. Una semana atrás, me dijo.
+
+02:29:16.000 --> 02:29:21.000
+Profe, pero es que aquí la descripción del mundo está incompleta.
+
+02:29:21.000 --> 02:29:28.000
+¿por qué resulta. De que usted dice on table A y B y C.
+
+02:29:28.000 --> 02:29:33.000
+Que esa configuración. Pero podría ser A, B, C.
+
+02:29:33.000 --> 02:29:37.000
+O C, B A Ok. Todas las posibles combinaciones.
+
+02:29:37.000 --> 02:29:46.000
+Yo me acuerdo que le dije: Juanito. Totalmente de acuerdo, pero aquí, para mantener sencillo el ejemplo, etcétera, y que lo podáis programar.
+
+02:29:46.000 --> 02:29:52.000
+Que lo hizo y súper bien, dejémoslo así. Me acuerdo que Juan me dijo: Profe.
+
+02:29:52.000 --> 02:29:56.000
+No me insulte buen estudiante, doctorado y todo yo.
+
+02:29:56.000 --> 02:30:03.000
+Le voy a hacer otros predicados aquí y allá, y voy a hacer que el sistema también usted pueda definir.
+
+02:30:03.000 --> 02:30:09.000
+Ok. Bloques a izquierda y derecha. Okay. Yo le dije: Oye la ontología, ningún problema.
+
+02:30:09.000 --> 02:30:16.000
+Pero para los que saben de complejidad computacional, ¿cuál es el problema que es tu problema? Np: completo.
+
+02:30:16.000 --> 02:30:20.000
+Lo que significa que escala no polinonialmente. Me explico.
+
+02:30:20.000 --> 02:30:25.000
+Cuando 1 le pone unos pocos más acciones y predicado.
+
+02:30:25.000 --> 02:30:29.000
+Ya esto no es que tú digas la complejidad escala.
+
+02:30:29.000 --> 02:30:33.000
+Dos, 3 predicados más, entonces lo multiplicaste por 2.
+
+02:30:33.000 --> 02:30:39.000
+Y la complejidad del problema escala por 2, sino que escala por 50 60, 100 veces.
+
+02:30:39.000 --> 02:30:46.000
+Y, por lo tanto, tu sistema Juanito lo podía hacer, pero va a estar pensando 50 h.
+
+02:30:46.000 --> 02:30:55.000
+O etcétera. Ok. A los que Juan hoy, en ese tiempo era muy joven. Uno cuando jóvenes rosados, ¿cierto? Aquella médico.
+
+02:30:55.000 --> 02:31:03.000
+Una fe, no se preocupe. Pa. Cuándo quiere la tarea? Yo le dije: Miren la tarea normal. La quiero para 2 semanas.
+
+02:31:03.000 --> 02:31:06.000
+Deme un mes y yo le hago el otro. Yo le dije.
+
+02:31:06.000 --> 02:31:10.000
+Juanito. Si es así. Te pongo un 100 en el.
+
+02:31:10.000 --> 02:31:18.000
+Sea simplemente después te puedo ir para la casa. Sé que no está ahí todo porque te gusta la cuestión cachai. Pero tenía un 100.
+
+02:31:18.000 --> 02:31:25.000
+Y pasaba 3 semanas. Me hice profe. Aquí está la tarea, pero sabe que más no lo pude hacer.
+
+02:31:25.000 --> 02:31:34.000
+Ok, de nuevo, cosas que aparentemente son sencillas ya se vuelven rápidamente súper complicadas.
+
+02:31:34.000 --> 02:31:38.000
+Les cuento. Esto pasó. Juanito ya es profesor.
+
+02:31:38.000 --> 02:31:50.000
+Asistente que haya en una universidad, etcétera, etcétera. Y ves que no encontramos, me decía, y profe, y usted ha tratado o no oye. Yo he venido a tiempo, yo decía: No, ¿qué más? Juan?
+
+02:31:50.000 --> 02:31:53.000
+No he tenido tiempo hasta que en un verano.
+
+02:31:53.000 --> 02:31:59.000
+Seen its O en los. Dije: Oh, esta cuestión no me la puede ganar.
+
+02:31:59.000 --> 02:32:04.000
+Y, por lo tanto, efectivamente lo implementé. Ahí está el famoso.
+
+02:32:04.000 --> 02:32:09.000
+Isabel ¿cierto? El famoso día Linkedin, que hizo robótico mejorado.
+
+02:32:09.000 --> 02:32:13.000
+A que también se los voy a presentar. Permítanme.
+
+02:32:13.000 --> 02:32:16.000
+Capechuga, Ok.
+
+02:32:16.000 --> 02:32:20.000
+Bien, Isabel. Okay, ¿qué pasa?
+
+02:32:20.000 --> 02:32:27.000
+De que saben cuál era la clave. Juanito no se dio cuenta de nuevo, no porque sea.
+
+02:32:27.000 --> 02:32:30.000
+Medio inteligente que yo, ni mucho menos le falta experiencia.
+
+02:32:30.000 --> 02:32:37.000
+Que cuando yo empiezo a hacer esto y empecé a cambiarla, ver la ontología. Y parte igual que esto, entonces habría 1 como.
+
+02:32:37.000 --> 02:32:43.000
+Os Ave A está a la derecha, a la izquierda debe aquella y todo.
+
+02:32:43.000 --> 02:32:49.000
+Y se mamó. Un lío. Era simplemente. Problema era cambiar la ontología.
+
+02:32:49.000 --> 02:32:54.000
+Y, por lo tanto, ¿qué les cuento esto? Y con esto nos vamos a la segunda pausa.
+
+02:32:54.000 --> 02:33:00.000
+Porque cosas tan elementales como. Establecer una ontología.
+
+02:33:00.000 --> 02:33:12.000
+Para un problema. Tan importante que te hace que algo que escale en E. P completo ya no escale en E. P completo y, por lo tanto, lo puedas hacer.
+
+02:33:12.000 --> 02:33:23.000
+Son profes, sí. Cómo se puede relacionar esto? O sea, yo está poniendo esto con la de la clase basada con el cambio de paradigma.
+
+02:33:23.000 --> 02:33:31.000
+Perfecto. Debería acordarme tu nombre. ¿qué pasa? Rodrigo.
+
+02:33:31.000 --> 02:33:36.000
+De que simple y igual. Les doy el tiempo extra. No se preocupe.
+
+02:33:36.000 --> 02:33:43.000
+Me gusta súper buenas preguntas. Bien, bien, veo una pregunta: deberían ser todos académicos.
+
+02:33:43.000 --> 02:33:49.000
+Porque esas son las cuestiones que a 1 le dicen y que estoy pensando en esta.
+
+02:33:49.000 --> 02:33:52.000
+Cuestión y para que, pero son las cosas que 1 piensa.
+
+02:33:52.000 --> 02:33:57.000
+Te cuento? Rodrigo: no. Desde entonces, la idea, la idea.
+
+02:33:57.000 --> 02:33:59.000
+Estemos transitados.
+
+02:33:59.000 --> 02:34:06.000
+Esta arquitectura, porque hay cambio de paradigmas. Primero, imitemos cómo los humanos entre comillas pensamos.
+
+02:34:06.000 --> 02:34:11.000
+¿cierto? Y después. Entonces, como eso es muy difícil.
+
+02:34:11.000 --> 02:34:17.000
+Pensemos cómo pensamos más pragmáticamente. De más bajo nivel. Cachai.
+
+02:34:17.000 --> 02:34:21.000
+Entonces ya todo el problema de símbolos y pensar se reduce.
+
+02:34:21.000 --> 02:34:28.000
+Me entendí o no a un nivel más bajo, más asequible, más tractable, computacionalmente.
+
+02:34:28.000 --> 02:34:33.000
+Y después. Entonces. Vimos que incluso eso es medio complicado. Por todo lo que acabo señal.
+
+02:34:33.000 --> 02:34:37.000
+Y llegó Rodney Brooks y que su hijo saben qué más.
+
+02:34:37.000 --> 02:34:45.000
+Disculpa la palabra bullshit con esta cuestión. Podemos hacer a gente mucho más sencillo, reactivo.
+
+02:34:45.000 --> 02:34:51.000
+Que hagan cuestiones re importantes y no vamos a tener problemas de Np, completitud a aquella, etcétera.
+
+02:34:51.000 --> 02:34:56.000
+Y, por lo tanto, quedémonos ahí. Y pasó mucho tiempo hasta que.
+
+02:34:56.000 --> 02:35:01.000
+Llegaron ciertos los L L, m. Que es nuevamente un paradigma diferente.
+
+02:35:01.000 --> 02:35:06.000
+Fíjate que, excepto una red neuronal que entre comillas aprende.
+
+02:35:06.000 --> 02:35:16.000
+Cierto secuencia de palabras, acciones. Voy a decir acción en forma suelta, etcétera, etcétera, etc. Por lo tanto, ahí no.
+
+02:35:16.000 --> 02:35:23.000
+Estamos ni pensando ni simbólica, ni pragmáticamente. Ni tenemos un conjunto.
+
+02:35:23.000 --> 02:35:32.000
+Fijo, cierto y explícito de regla. Sino que simplemente decimos Ya y tú ves, ¿qué crees? Está.
+
+02:35:32.000 --> 02:35:38.000
+Cierto asociáis entre sí. Y ahí viene la alucinaciones y todas estas cuestiones aquí y allá.
+
+02:35:38.000 --> 02:35:43.000
+¿por qué? Porque no es un sistema totalmente definido.
+
+02:35:43.000 --> 02:35:49.000
+Y aquí es donde entramos nuevamente, como yo te decía, y lo voy a dejar planteado solamente.
+
+02:35:49.000 --> 02:35:54.000
+En un. La pregunta casi filosófica.
+
+02:35:54.000 --> 02:36:00.000
+Que yo me hago. A mí de nuevo, veo chatgpt.
+
+02:36:00.000 --> 02:36:04.000
+Y de nuevo, desde un punto de vista teórico. Cachai, digo mia.
+
+02:36:04.000 --> 02:36:15.000
+Pulse, lo entendí una gran cuestión. Disculpen de nuevo. No lo estoy mirando en menos. Por favor. Ahora no me diga nada, y el Atman te gustaría tener la cantidad de 1 000 000 de alma no.
+
+02:36:15.000 --> 02:36:23.000
+Pero no lo estoy desacreditando. Académicamente hablando académica, teóricamente hablando, no pragmáticamente.
+
+02:36:23.000 --> 02:36:27.000
+Ok, pero la segunda derivada de ese pensamiento es.
+
+02:36:27.000 --> 02:36:44.000
+Todavía no lo podemos contestar. Estamos en pañales. Y qué pasa si lo que tenemos adentro? Nosotros acá, bueno, realmente eso? Porque sabemos que las neuronas son cuestiones imbéciles, pues lo que pasa es que tenemos 1 000 000 de 1 000 000 y con conexiones raras. ¿y qué sé yo, Cachai.
+
+02:36:44.000 --> 02:36:51.000
+Entonces, nuevamente, sí. Changi p: T: esa cuestión. Es porque a lo mejor, efectivamente.
+
+02:36:51.000 --> 02:36:56.000
+Si tuviéramos, entendíamos lo que hace nuestra cabeza a lo mejor es un Chat Gpt.
+
+02:36:56.000 --> 02:37:02.000
+Pero muchísimo más poderosos. Y a eso, como te digo, se reduce todo.
+
+02:37:02.000 --> 02:37:08.000
+Y lo que yo vivo de Ah, vamos a hacer un sistema que razone simbólicamente este todo.
+
+02:37:08.000 --> 02:37:14.000
+Oye la base neuronal. Es así de todo.
+
+02:37:14.000 --> 02:37:19.000
+Y eso, como te digo, lo que estamos tratando de estudiar aquí allá, etcétera. Los que nos embolamos en la parte más.
+
+02:37:19.000 --> 02:37:27.000
+Teóricas y que se. Y de nuevo, si tú me decís, ¿cuál es mi respuesta a eso? Reconozco el as.
+
+02:37:27.000 --> 02:37:33.000
+Neurociencia está tan empañado? ¿en qué puna. Nos falta muchísimo en adelante.
+
+02:37:33.000 --> 02:37:38.000
+Probablemente me entendían. Unas décadas más. Puede que ya tengamos.
+
+02:37:38.000 --> 02:37:41.000
+A lo menos no podamos imitar lo que está acá.
+
+02:37:41.000 --> 02:37:45.000
+Pero que entendamos para dónde va la cuestión.
+
+02:37:45.000 --> 02:37:50.000
+Gotcha. Y de hecho, Sergio chañó el otro día me decía.
+
+02:37:50.000 --> 02:37:54.000
+Efectivamente, un niño a los 5 años.
+
+02:37:54.000 --> 02:37:56.000
+Exponiéndose a muchísimo.
+
+02:37:56.000 --> 02:38:05.000
+Orden de magnitud, menos datos. Qué Chatgpt, ¿cierto? Tiene mucho más contenido conceptual que Chatgypt.
+
+02:38:05.000 --> 02:38:10.000
+Hay cuenta. Entonces, nuevamente, la cosa va por entender mejor.
+
+02:38:10.000 --> 02:38:14.000
+La eficiencia que tenemos acá adentro. Que hay.
+
+02:38:14.000 --> 02:38:21.000
+Significa que Chachipt, nuevamente, como te digo, es la idea. Es el paradigma. A lo mejor a seguir.
+
+02:38:21.000 --> 02:38:26.000
+By sus paradigmas, que suenan más convincentes, que son más.
+
+02:38:26.000 --> 02:38:34.000
+Bonitos teóricamente. Pero que a lo mejor, nuevamente me entendí, nos llevan y lo que pasa en investigación.
+
+02:38:34.000 --> 02:38:37.000
+Uno llega a. Cuestiones que finalmente decís. Llegué.
+
+02:38:37.000 --> 02:38:43.000
+Acá y no sé cómo avanzar y cierro lo que pasó con teoría del cabo en la década del 60.
+
+02:38:43.000 --> 02:38:46.000
+Parece no la teoría del caos, y aquella sí.
+
+02:38:46.000 --> 02:38:51.000
+Funcionó para muchas cosas, para entender los temas caóticos, el tiempo, aquella etc.
+
+02:38:51.000 --> 02:38:57.000
+Pero no fue él o Kachai. Okay, se creía que iba.
+
+02:38:57.000 --> 02:39:04.000
+That's Chupai. Todo esto ya son las 8. Se da cuenta. Así que salimos, por favor, por.
+
+02:39:04.000 --> 02:39:09.000
+Cuando se supone aquí. En.
+
+02:39:09.000 --> 02:39:15.000
+Y hasta las. 20, 15.
+
+02:39:15.000 --> 02:39:32.000
+Y volver, quedase.
+
+02:39:32.000 --> 02:39:40.000
+Reanudar la grabación. Y voy a compartir.
+
+02:39:40.000 --> 02:39:53.000
+Y aquí habíamos quedado. Bien, digo de aquí en adelante, si me lo permite mi garganta, espero poder aguantar la hora.
+
+02:39:53.000 --> 02:39:59.000
+Cuánto 30 la hora y cuarto, que queda aproximadamente, les pido paciencia.
+
+02:39:59.000 --> 02:40:11.000
+Probablemente voy a hablar un poquitito más bajo. Con una alergia horrible. Me pesca la garganta. Ya he estado mejor de lo que pensaba, pero aún así estoy preocupado.
+
+02:40:11.000 --> 02:40:19.000
+No poder terminar la clase? Creo que sí. Bien estábamos viendo. ¿se acuerdan la arquitectura Vedi.
+
+02:40:19.000 --> 02:40:27.000
+Con el famoso blocks. World. Y estábamos viendo cómo con la ontología podíamos, a su vez.
+
+02:40:27.000 --> 02:40:34.000
+Ya establecer un cierto objetivo. Lo.
+
+02:40:34.000 --> 02:40:41.000
+Que hay que. Aquí. Eh: poder representar.
+
+02:40:41.000 --> 02:40:49.000
+Acciones. En el caso de las acciones, cada acción tiene un nombre que puede tomar argumento. Sea, es una función con.
+
+02:40:49.000 --> 02:41:00.000
+Argumento que tiene una lista de precondiciones. Cosas tienen que ser verdaderas para que se pueda ejecutar la acción. Una lista de borrado.
+
+02:41:00.000 --> 02:41:06.000
+They, they básicamente hechos cosas que se vuelven falsos.
+
+02:41:06.000 --> 02:41:19.000
+Que se vuelven perdón. Se vuelve, no edgar o falso después que la acción se ejecutó y una lista agregación o un At list de la lista de hechos que se vuelven verdaderos al ejecutar.
+
+02:41:19.000 --> 02:41:27.000
+Cada una de las acciones. Veamos aquí las acciones posibles. Por ejemplo, la acción S. T. A. C. Fíjense que.
+
+02:41:27.000 --> 02:41:36.000
+Acá, pues lo tenemos el. El nombre de la acción Stack X Coma, y esos son los argumentos de entrada.
+
+02:41:36.000 --> 02:41:42.000
+Ya que van a ser A, B, C. Las precondiciones es que.
+
+02:41:42.000 --> 02:41:48.000
+El objeto y. Esté C, L e R no tenga nada encima.
+
+02:41:48.000 --> 02:41:56.000
+Que el brazo esté sosteniendo el objeto X. Después que se ejecute la acción, lo que se va a volver.
+
+02:41:56.000 --> 02:42:04.000
+Falso es que, evidentemente, ya. El objeto y va a tener algo encima.
+
+02:42:04.000 --> 02:42:12.000
+Y el brazo ya va a dejar de sostener X. Y lo que se va a volver verdadero es que el brazo va.
+
+02:42:12.000 --> 02:42:16.000
+I started vacío y X va a estar sobre I.
+
+02:42:16.000 --> 02:42:23.000
+Que sea todo lo que vemos.
+
+02:42:23.000 --> 02:42:29.000
+Exactamente. Acá si tengo a coma B: ¿cierto?
+
+02:42:29.000 --> 02:42:35.000
+Y aquí sustituimos. Ha con B. La precondición es que ve.
+
+02:42:35.000 --> 02:42:40.000
+Esté con nada encima para poder estaquear a sobre este.
+
+02:42:40.000 --> 02:42:48.000
+Que el bodazo sostenga, al objeto X, que en este caso sería a.
+
+02:42:48.000 --> 02:42:54.000
+Después que se ejecute la acción. 100 ve que es la variable de acá. El argumento acá.
+
+02:42:54.000 --> 02:43:00.000
+Efectivamente va a tener algo encima. Por lo tanto, esto se va a volver falso.
+
+02:43:00.000 --> 02:43:05.000
+El objeto X ya no ha sido tomado por el brazo.
+
+02:43:05.000 --> 02:43:10.000
+Lo que se volvió verdaderos, que el brazo ya no va a sostener, al objeto.
+
+02:43:10.000 --> 02:43:15.000
+X que en este caso que en este caso es A. Por eso que es Alm Empi.
+
+02:43:15.000 --> 02:43:20.000
+M x. A va a estar sobre el objeto.
+
+02:43:20.000 --> 02:43:26.000
+B y así sucesivamente. Tenemos, por ejemplo, la acción contraria.
+
+02:43:26.000 --> 02:43:29.000
+Unstuck, unstuck. X.
+
+02:43:29.000 --> 02:43:33.000
+La condición para que se ejecute X tiene que estar sobre y.
+
+02:43:33.000 --> 02:43:39.000
+X no tiene que tener nada encima de él, y el brazo tiene que estar vacío.
+
+02:43:39.000 --> 02:43:44.000
+Una vez que se ejecute ¿cierto? Ya X, no hasta sobre.
+
+02:43:44.000 --> 02:43:52.000
+El brazo ya no va a estar vacío. Y se agrega que el brazo va a sostener.
+
+02:43:52.000 --> 02:44:00.000
+Al objeto X y el objeto, y va a estar sin nada encima.
+
+02:44:00.000 --> 02:44:07.000
+Después tenemos la acción: pick up. Que es tomar aquí recibe un solo argumento: X.
+
+02:44:07.000 --> 02:44:18.000
+Las precondiciones para poder ejecutar, pick up. Es que X esté sin nada encima para poder tomarlo, ya que X, además te sobre la mesa.
+
+02:44:18.000 --> 02:44:27.000
+Ya que el brazo esté vacío. Después de que se ejecuta la acción, pick up.
+
+02:44:27.000 --> 02:44:33.000
+Lo que se ahoga de faso. Lo que se ahole es falso es que X no está sobre la mesa y como.
+
+02:44:33.000 --> 02:44:38.000
+El brazo va a tener así o va a tener tomado el objeto X ya no va a estar.
+
+02:44:38.000 --> 02:44:45.000
+Vacío y se va a agregar, como verdadero que el brazo va a sostener al objeto X.
+
+02:44:45.000 --> 02:44:54.000
+Después tenemos esta otra acción que es Put Down poner sobre la mesa ya para que se pueda hacer eso, el brazo va a tener que tener.
+
+02:44:54.000 --> 02:44:57.000
+Al objeto X tomado. Después que se ejecute.
+
+02:44:57.000 --> 02:45:03.000
+Ya el brazo no va a tener al objeto X tomado y se va a hacer verdadero.
+
+02:45:03.000 --> 02:45:12.000
+Que el objeto X no va a tener nada sobre él. Va a estar sobre la mesa y el brazo va a estar con el brazo, va a estar.
+
+02:45:12.000 --> 02:45:23.000
+Vacío. Ahora bien, ahí ya tenemos visto. Como modelar el mundo como modelar lo objetivo y las acciones posibles.
+
+02:45:23.000 --> 02:45:26.000
+Cómo vamos a modelar en el fondo un plan.
+
+02:45:26.000 --> 02:45:32.000
+Fíjense que tengo un estado inicial y quiero llegar a un octavo objetivo a G.
+
+02:45:32.000 --> 02:45:37.000
+Y, por lo tanto, ¿qué voy a hacer? Acá en general.
+
+02:45:37.000 --> 02:45:44.000
+Para planificar en forma. Sencilla. Voy a ver qué acciones puedo ejecutar.
+
+02:45:44.000 --> 02:45:51.000
+Y, por lo tanto, pacto con la acción, 1 y después la acción. Uno me permite llegar al estado.
+
+02:45:51.000 --> 02:45:55.000
+Cierto que está después de la acción 1, o sea.
+
+02:45:55.000 --> 02:46:00.000
+Que estoy acá. Y lo mismo con el resto de las acciones.
+
+02:46:00.000 --> 02:46:07.000
+Lo que significa que cada una de estas acciones, alguna acción que yo puedo ejecutar.
+
+02:46:07.000 --> 02:46:12.000
+De las definía anteriormente. Y aquí yo: ¿por qué abro.
+
+02:46:12.000 --> 02:46:17.000
+Agudo para buscar diferentes posibilidades o formas de llegar a G.
+
+02:46:17.000 --> 02:46:21.000
+Pero una vez que yo he abierto todas estas posibilidades.
+
+02:46:21.000 --> 02:46:29.000
+Luego las voy cerrando. Para llegar a Egi, o sea, aquí, para planificar.
+
+02:46:29.000 --> 02:46:39.000
+Estamos haciendo algo intuitivamente, bastante sencillo. Hago todas mis posibles acciones expando todo lo que puedo hacer.
+
+02:46:39.000 --> 02:46:46.000
+Y después comprimo. Con otras acciones para llegar a este.
+
+02:46:46.000 --> 02:46:55.000
+Objetivo. Esto que dice, acá que. Es una un plan. Es una lista de acciones con variables reemplazadas por el constante.
+
+02:46:55.000 --> 02:46:59.000
+¿qué quiere decir esto que. Una de estas acciones.
+
+02:46:59.000 --> 02:47:04.000
+Que tiene aquí una variable. La voy a reemplazar ya.
+
+02:47:04.000 --> 02:47:09.000
+Por una constante, por ejemplo, a 1 podría ser ya picapuso.
+
+02:47:09.000 --> 02:47:16.000
+Ah. Y esta acción de acá pick a B y esta acción de aquí podría hacerse top down.
+
+02:47:16.000 --> 02:47:21.000
+C, etc. Eso es lo que quiere decir. 8, 2.
+
+02:47:21.000 --> 02:47:25.000
+Cómo. Por lo tanto, voy a ir logrando los objetivos.
+
+02:47:25.000 --> 02:47:31.000
+Tengo un objetivo inicial. Tengo un stack, una pila de objetivos.
+
+02:47:31.000 --> 02:47:38.000
+Para lograr el objetivo 1, por ejemplo, en este stack pongo los subobjetivos para lograr ese objetivo.
+
+02:47:38.000 --> 02:47:48.000
+Por ejemplo, si yo quiero ya mover. Un bloque de una posición a otra, y ese bloque tiene encima a otro.
+
+02:47:48.000 --> 02:47:58.000
+Significa que este objetivo de mover el bloque. Por ejemplo, B va a tener el subojetivo anterior de.
+
+02:47:58.000 --> 02:48:02.000
+Tomar el bloque a que está sobre el B y así sucesivamente.
+
+02:48:02.000 --> 02:48:08.000
+Y eso es cierto. Lo que estoy haciendo es lograr.
+
+02:48:08.000 --> 02:48:16.000
+O decida. Sí. Navegar esto, que está acá Ok, ir abriendo acciones. Y después.
+
+02:48:16.000 --> 02:48:21.000
+Cerrando acciones. Y eso lo voy haciendo a través de estos.
+
+02:48:21.000 --> 02:48:29.000
+Stocks en general. Esa es la. Idea de este, de esta arquitectura.
+
+02:48:29.000 --> 02:48:34.000
+Dicho eso. Ya. Eh, lo que voy a hacer entonces.
+
+02:48:34.000 --> 02:48:38.000
+Is, that.
+
+02:48:38.000 --> 02:48:45.000
+Diferentes loops de control de un agente vedi. Vamos a comenzar a ver un loop sencillo.
+
+02:48:45.000 --> 02:48:54.000
+Después lo vamos a ir. Lo vamos a ir complejizando. No voy a llegar a un loop.
+
+02:48:54.000 --> 02:48:58.000
+Súper súper complejo. Me voy a detener cuando aparezcan las 3 letras.
+
+02:48:58.000 --> 02:49:05.000
+B, B, I, y de ahí entonces vamos a mostrar algunos ejemplos que Isabel, cierto.
+
+02:49:05.000 --> 02:49:11.000
+Ya vio el net logo para mostrar que esto efectivamente.
+
+02:49:11.000 --> 02:49:15.000
+Función. Aquí está el primer loop, el más sencillo.
+
+02:49:15.000 --> 02:49:21.000
+Ya tengo un loop ya continuo. Observo el mundo.
+
+02:49:21.000 --> 02:49:26.000
+Después de observar el mundo. Actualizo mi modelo interno del mundo.
+
+02:49:26.000 --> 02:49:31.000
+Es decir, cierto, tengo preceptos del mundo. Y yo, en base a eso.
+
+02:49:31.000 --> 02:49:36.000
+Puedo decir cómo está el mundo. Percibo ¿cierto? Una mesa.
+
+02:49:36.000 --> 02:49:40.000
+Otra, y que la empresa está en esta posición.
+
+02:49:40.000 --> 02:49:44.000
+Después del libero. Respecto a qué intención tengo que alcanzar.
+
+02:49:44.000 --> 02:49:56.000
+Siguientemente, es decir. Si hubo objetivos, mover la mesa de un lado para otro, entonces la pregunta es: ¿qué objetivos tengo que cumplir para eso y cuál es el objetivo.
+
+02:49:56.000 --> 02:50:01.000
+Que ahora tengo que lograr. Por ejemplo, cierto, si mi plan es acercar la Mesa.
+
+02:50:01.000 --> 02:50:07.000
+Mal de llevarla de un lado para otro. Entonces mi primer objetivo ya va a ser acercarme.
+
+02:50:07.000 --> 02:50:12.000
+A la mesa. Y para eso, entonces, en el paso 5.
+
+02:50:12.000 --> 02:50:22.000
+Ya hago razonamiento medio fin para. Poder lograr un plan para lograr mi intención. Lo que quiero hacer ahora.
+
+02:50:22.000 --> 02:50:33.000
+Si mi intención, cierto inicial es moverme. Al lado de la mesa. Entonces mi plan va a ser: sabes qué más canesa navega en dirección a la mesa hasta llegar a.
+
+02:50:33.000 --> 02:50:39.000
+Suficientemente cerca de él y ejecutamos entonces el plan.
+
+02:50:39.000 --> 02:50:45.000
+En este caso sería una parte del plan y después sería tomar la mesa y después llevar la mesa.
+
+02:50:45.000 --> 02:50:56.000
+Cierto y dejarla en algún otro lugar. Dicho eso ya, para ir conectando esto con agentes generativo, muchas veces el paso a lo menos 2 y 3.
+
+02:50:56.000 --> 02:51:02.000
+Se usa o se hace usando el Lm, o sea, yo vengo.
+
+02:51:02.000 --> 02:51:07.000
+La imagen. En el fondo, ¿cierto? Le asignó símbolo. Y con un L L, m.
+
+02:51:07.000 --> 02:51:14.000
+Eh, hago el razonamiento para observar el mundo y para actualizar el modelo interno.
+
+02:51:14.000 --> 02:51:20.000
+Del mundo. Aquí. Entonces tenemos.
+
+02:51:20.000 --> 02:51:27.000
+Una pasada más en detalle de ese bucle de control que partimos viéndolo.
+
+02:51:27.000 --> 02:51:34.000
+Bastante en el fondo en general. Primero, ya parto, definiendo ya.
+
+02:51:34.000 --> 02:51:41.000
+Unas creencias iniciales. ¿qué son las creencias. Son, ya.
+
+02:51:41.000 --> 02:51:48.000
+Los perceptos que me indican cómo está el mundo, ¿por qué no ponerle precepto y ponerle creencia.
+
+02:51:48.000 --> 02:51:51.000
+Porque fíjense que una cosa es lo que yo percibo.
+
+02:51:51.000 --> 02:51:57.000
+Y otra cosa. El modelo mental que yo me armo de ese mundo.
+
+02:51:57.000 --> 02:52:00.000
+Es decir, yo puedo aquí?
+
+02:52:00.000 --> 02:52:02.000
+Percibir una mesa.
+
+02:52:02.000 --> 02:52:07.000
+Yeah percibir ¿dónde está la Mesa, que está a mi derecha?
+
+02:52:07.000 --> 02:52:13.000
+Ya, pero por ejemplo, yo podría no percibir la mesa.
+
+02:52:13.000 --> 02:52:19.000
+Está. Fíjense totalmente ya pegada a esta parte, que está acá.
+
+02:52:19.000 --> 02:52:29.000
+Lo que significa, ya de que. Cuando yo me acerque a la Mesa y vea que la Mesa está totalmente pegada a la otra mesa.
+
+02:52:29.000 --> 02:52:33.000
+No voy a poder ya meter los dedos aquí.
+
+02:52:33.000 --> 02:52:38.000
+Para tomar el lo que significa nuevamente, que es por eso.
+
+02:52:38.000 --> 02:52:47.000
+Que yo distingo entre los perfectos, que es lo que percibo directamente y lo que yo creo que está en el estado del mundo.
+
+02:52:47.000 --> 02:52:53.000
+Y después de hacer eso, entonces la creencias iniciales, voy al loop de control.
+
+02:52:53.000 --> 02:53:01.000
+Tomo un siguiente precepto. Y actualice el estado del mundo con esa función. B, R. F.
+
+02:53:01.000 --> 02:53:04.000
+Believe, revision, function.
+
+02:53:04.000 --> 02:53:07.000
+Como el estado actual del mundo. Todos los preceptos.
+
+02:53:07.000 --> 02:53:13.000
+Los meto, esa función. Y actualizo mi estado del mundo en el paso 4.
+
+02:53:13.000 --> 02:53:16.000
+En el paso 5.
+
+02:53:16.000 --> 02:53:24.000
+Delibero. ¿qué significa eso. Que actualice el estado de mi mundo. Ya lo que voy a hacer es.
+
+02:53:24.000 --> 02:53:35.000
+Generar la próxima acción que hoy ejecutar. De nuevo aquí recuérdense que aquí nosotros distinguimos entre deseos.
+
+02:53:35.000 --> 02:53:42.000
+E intenciones. Por lo tanto, en este momento, en esta, en este look todavía simplificado.
+
+02:53:42.000 --> 02:53:47.000
+Ya. Lo que voy a decir es que simplemente voy a.
+
+02:53:47.000 --> 02:53:53.000
+De mi mundo actualizado, decir cuál es mi próxima intención. Lo que voy a hacer.
+
+02:53:53.000 --> 02:54:02.000
+To yo vengo, veo esta mesa.
+
+02:54:02.000 --> 02:54:08.000
+Y, por lo tanto, me acerco a la Mesa. No hay, por decirlo así, deseos que compitan.
+
+02:54:08.000 --> 02:54:11.000
+Qué es lo que vamos a ver a continuación?
+
+02:54:11.000 --> 02:54:15.000
+Y una vez hecho eso cierto, tengo la función.
+
+02:54:15.000 --> 02:54:22.000
+Ya planificación plan en el paso 6. Que tomo el estado del mundo.
+
+02:54:22.000 --> 02:54:30.000
+Tomo mi intención ejecutar y desarrollo un plan. Para poder ejecutar.
+
+02:54:30.000 --> 02:54:37.000
+Que se próxima intención. Y ejecutó el plan. Y con eso vuelvo cierto al look de arriba.
+
+02:54:37.000 --> 02:54:44.000
+Ya vuelvo a tomar otro, excepto vuelvo a actualizar el estado del mundo. Vuelvo a deliberar.
+
+02:54:44.000 --> 02:54:51.000
+Word va a planificar y sigo ejecutando. En el ejemplo que veíamos.
+
+02:54:51.000 --> 02:54:56.000
+Mi objetivo es tomar la mesa y trasladarla al otro costado.
+
+02:54:56.000 --> 02:55:02.000
+Por lo tanto, ya como sé que estoy aquí, y la Mesa está allá delibero, y digo.
+
+02:55:02.000 --> 02:55:05.000
+Para ir a tomar la mesa. Tengo que moverme hacia allá.
+
+02:55:05.000 --> 02:55:11.000
+Ya y, por lo tanto, planifico para hacer eso, ya lo que significa que tendré.
+
+02:55:11.000 --> 02:55:20.000
+Dar una cierta cantidad de pasos. Para llegar a esta mesa una vez que ejecute esto, vuelvo a percibir.
+
+02:55:20.000 --> 02:55:32.000
+Ya veo mi posición. Veo la Mesa. En el paso 4. Por lo tanto, actualizo con ese precepto, ya con la fusión Brf Believe Reviri Vision Function, donde estoy.
+
+02:55:32.000 --> 02:55:36.000
+Por lo tanto, delibero. Mi deliberación es.
+
+02:55:36.000 --> 02:55:46.000
+Perfecto. Puedo tomar la mezcla. Por lo tanto, hago un plan para tomar la Mesa, que será cierto. No la puedo pescar. Así. La voy a pescar. Asá.
+
+02:55:46.000 --> 02:55:55.000
+Ejecuto eso, y así sigo hasta ya lograr. El objetivo.
+
+02:55:55.000 --> 02:56:03.000
+Te quiero lograr. Ahora bien.
+
+02:56:03.000 --> 02:56:08.000
+Aquí está la función de liberación, y ahí está la función de planificación que.
+
+02:56:08.000 --> 02:56:14.000
+Veía, ahora. Metamos un poquito más de detalle a esto.
+
+02:56:14.000 --> 02:56:20.000
+Cómo delibera en general un agente primero, y ahí es donde vamos a tener el deseo.
+
+02:56:20.000 --> 02:56:32.000
+De qué opciones están disponibles, ¿qué acciones. Yo puedo ejecutar, elige entre ellas y se compromete con alguna, es decir, de todas las cosas que yo puedo hacer.
+
+02:56:32.000 --> 02:56:41.000
+Que son deseos. Ya me comprometo con alcanzar. Algunas de ellas.
+
+02:56:41.000 --> 02:56:47.000
+Y, por lo tanto, de liberación. ¿cierto? Vamos a incluir 2 funciones más.
+
+02:56:47.000 --> 02:56:53.000
+Primero, ya generar esas opciones. O sea dado.
+
+02:56:53.000 --> 02:56:58.000
+Lo que yo puedo hacer ver qué cosas puedo hacer.
+
+02:56:58.000 --> 02:57:05.000
+Y eso va a nacer. Los deseos. Y después de esos deseos, voy a filtrar algunos con la función filter.
+
+02:57:05.000 --> 02:57:14.000
+Para ya de esos deseos, convertir solamente alguno en intenciones.
+
+02:57:14.000 --> 02:57:18.000
+Y entonces, hasta aquí va a llegar nuestro look de control.
+
+02:57:18.000 --> 02:57:24.000
+Hay una serie de otros refinamientos, más que podríamos ver, como les digo, pero.
+
+02:57:24.000 --> 02:57:42.000
+Nos quedaríamos demasiado iterando en esto. Tenemos bastantes otras cosas que ver, pero aquí ya hay un loop de control que podemos usar y que les voy a mostrar funcionando, cierto en el famoso blogs World, en el logo que vamos a ver.
+
+02:57:42.000 --> 02:57:45.000
+Piense que aquí, en el paso 2 y 3.
+
+02:57:45.000 --> 02:57:52.000
+Que hacemos. Partimos por un. Bilif inicial, o sea, una creencia inicial de cómo está el mundo.
+
+02:57:52.000 --> 02:57:58.000
+Y parto con una intención inicial. ¿qué es lo primero que voy a hacer.
+
+02:57:58.000 --> 02:58:02.000
+Eso cierto, se lo proveo a la gente. Y después pacto con el look de control.
+
+02:58:02.000 --> 02:58:09.000
+Que en general vemos parecido a la anterior. Tomo el siguiente precepto.
+
+02:58:09.000 --> 02:58:14.000
+Con la B. R. F. Delivery solution function. Tomo ese precepto.
+
+02:58:14.000 --> 02:58:19.000
+Y tomó el estado anterior, que inicialmente va a ser vesero. Después va a ir cambiando.
+
+02:58:19.000 --> 02:58:23.000
+Ya y actualizo el estado en que está el mundo.
+
+02:58:23.000 --> 02:58:27.000
+Eso en la línea 6 en la línea 7.
+
+02:58:27.000 --> 02:58:36.000
+Tomo. El estado actualizado del mundo y tomo las intenciones. Lo que estoy tratando.
+
+02:58:36.000 --> 02:58:43.000
+Quiero hacer y con la función options. Creo, nuevas posibles acciones.
+
+02:58:43.000 --> 02:58:50.000
+Que yo podría hacer. Y una vez teniendo eso.
+
+02:58:50.000 --> 02:58:53.000
+En el paso 8 tomo el estado actualizado del mundo.
+
+02:58:53.000 --> 02:58:57.000
+Las acciones que yo podría ejecutar, que son los de.
+
+02:58:57.000 --> 02:59:06.000
+La acciones que, efectivamente estoy intentando ejecutar, y con eso, con la función filtro actualizo y.
+
+02:59:06.000 --> 02:59:11.000
+Las cosas que yo. Estoy haciendo, intentar hacer.
+
+02:59:11.000 --> 02:59:18.000
+Y basándome en eso mismo. Por lo tanto, aplico las nuevas intenciones actualizadas.
+
+02:59:18.000 --> 02:59:23.000
+Y bajo. La percepción actualizada del mundo.
+
+02:59:23.000 --> 02:59:37.000
+La aplico la función de planificación. Y ya creo, un plan, y ejecutó ese plan, y así sigo sucesivamente en ese loop hasta o hasta alcanzar el objetivo de.
+
+02:59:37.000 --> 02:59:43.000
+Dice: veamos esto nuevamente con el ejemplo ya de la Mesa.
+
+02:59:43.000 --> 02:59:50.000
+Mi intención. Perdón. Mi creencia inicial es que yo estoy cierto parado en esta parte.
+
+02:59:50.000 --> 02:59:57.000
+De la sala. Mi intención inicial es.
+
+02:59:57.000 --> 03:00:04.000
+Bení, tomar esa mesa y llevadla a. Ya donde me pidieron al otro extremo de la mesa.
+
+03:00:04.000 --> 03:00:11.000
+Por lo tanto, escaneo. Esto veo esa mesa que está acá. No estoy cerca de la Mesa.
+
+03:00:11.000 --> 03:00:24.000
+Y, por lo tanto, ya. Veo las opciones que tengo disponibles. Por ejemplo, una acción disponible acercarme a la mesa. Otra opción disponible sería moverme hacia adelante, en moverme hacia.
+
+03:00:24.000 --> 03:00:28.000
+Mi izquierda, etc.
+
+03:00:28.000 --> 03:00:31.000
+You basado en eso. Entonces. Filtro mis deseos.
+
+03:00:31.000 --> 03:00:38.000
+Ya mi opción. Y digo: Sabes qué más. Creo que para.
+
+03:00:38.000 --> 03:00:44.000
+Con para alcanzar mi objetivo, mi 0. Tengo que moverme a la Mesa.
+
+03:00:44.000 --> 03:00:51.000
+Y, por lo tanto, ciertos filtro. Esto. Y digo, mi próxima intención es moverme hacia.
+
+03:00:51.000 --> 03:00:58.000
+La mesa y basado en eso, y teniendo en cuenta el estado actual del mundo planifico.
+
+03:00:58.000 --> 03:01:02.000
+Lo que se acuerdan. Lo que yo les dije, resulta que siguió paso.
+
+03:01:02.000 --> 03:01:14.000
+Me muevo el interruptor que está. Cierto, en esa caja va a aparecer una escotilla, se va a abrir y un hoyo. Entonces la planificación es, sabes que más me muevo hacia esta dirección.
+
+03:01:14.000 --> 03:01:20.000
+Para dejar atrás a ese interruptor. Y después me muevo en el sentido.
+
+03:01:20.000 --> 03:01:30.000
+Dames. Una vez que alcancé eso. Nuevamente mi percepción me indica que estoy al lado de la Mesa. Actualizo cierto.
+
+03:01:30.000 --> 03:01:34.000
+Mis creencias o del Estado del mundo. Ya aplico la función, opciones.
+
+03:01:34.000 --> 03:01:39.000
+Opción sería agarrar la mesa, cierto, por los costados.
+
+03:01:39.000 --> 03:01:46.000
+Izquierdo, derecho o delante, trasero, etcétera, etcétera. De eso ya el hijo.
+
+03:01:46.000 --> 03:01:54.000
+Una intención y, por ejemplo, el intenso sería, sabes qué más no voy a tomar la mesa efectivamente, por los costados que están acá.
+
+03:01:54.000 --> 03:01:59.000
+Ejecutó el plan de tomar la mesa alguna forma. Y así voy.
+
+03:01:59.000 --> 03:02:05.000
+Ejecutando esto hasta que la próxima intención sea traslada a la mesa.
+
+03:02:05.000 --> 03:02:12.000
+Navega hacia allá y después deja la mesa en el suelo, etcétera, etcétera, etcétera.
+
+03:02:12.000 --> 03:02:17.000
+Inmediatamente este loop. Por decirlo así, básico donde ya aparece.
+
+03:02:17.000 --> 03:02:20.000
+Believe, desire and intention.
+
+03:02:20.000 --> 03:02:24.000
+Y la verdad que lo podemos sofisticar bastante más.
+
+03:02:24.000 --> 03:02:27.000
+En una serie de instancias. Pero, como les digo.
+
+03:02:27.000 --> 03:02:35.000
+Get. Prefiero no ver porque necesitaríamos bastante más tiempo para verla. Prefiero darle.
+
+03:02:35.000 --> 03:02:43.000
+En cambio, un ejemplo para que entiendan esto. Sí, sí, profesor: Yo me confundí un poquito entre intención y deseo.
+
+03:02:43.000 --> 03:02:54.000
+Porque cuando planteo la intención 0, yo me imaginaba que era el deseo 0 de trasladar la mesa de un Estado a un Estado B y que las intenciones eran como las acciones que yo podía ejecutar.
+
+03:02:54.000 --> 03:03:04.000
+Como opciones para poder movilizar todo al revés. Al parecer. Eh, Isabel también me llama.
+
+03:03:04.000 --> 03:03:09.000
+Isabel. Do no tengo nada con el saber 1 a esto. Solamente.
+
+03:03:09.000 --> 03:03:14.000
+Isabel 2 oye. Isabel: efectivamente te cuento. ¿cuál es la diferencia.
+
+03:03:14.000 --> 03:03:21.000
+Fíjate que en vez de que la gente. Simplemente diga: Sabéis que más cuál es la.
+
+03:03:21.000 --> 03:03:25.000
+Próxima intención, o sea, qué es lo que yo puedo hacer.
+
+03:03:25.000 --> 03:03:32.000
+Para alcanzar mi objetivo. Aquí lo abro un poquitito, y digo, Sabes qué? Más que acciones puedo hacer.
+
+03:03:32.000 --> 03:03:37.000
+Y de esas yo elijo. Cuál voy a ejecutar, que me permita alcanzar.
+
+03:03:37.000 --> 03:03:44.000
+El objetivo diseño, es decir. Me voy a ir para atrás. Mira lo que estamos haciendo. Acá.
+
+03:03:44.000 --> 03:03:55.000
+Estamos explorando y explotando en el fondo. Estoy haciendo esto. Fíjate de que con los deseos me abro, te das cuenta, digo, hay que más que cuestiones puedo hacer.
+
+03:03:55.000 --> 03:04:03.000
+Cachai, con la intención. Me cierro. Claro, porque yo te podría ser como te decía: ¿Te acuerdas? Podría ser yo? Podría tener.
+
+03:04:03.000 --> 03:04:10.000
+Un deseo de tomarme un café, pero claramente cierto. Lo puedo hacer, pero eso no.
+
+03:04:10.000 --> 03:04:22.000
+Contribuye a mi objetivo, que es talar la mesa Ok, o sea lo que permite la diferencia entre deseo e intención. Esto que está acá? La pregunta es bueno.
+
+03:04:22.000 --> 03:04:31.000
+Y por qué no hacemos un plan directo. Por varios motivos. Primero, porque tendríamos que pensar lo que está allí. Esto es más pragmático.
+
+03:04:31.000 --> 03:04:36.000
+We're hace 20 000 cosas, ¿cierto? Y de eso elijo algunas de ellas.
+
+03:04:36.000 --> 03:04:39.000
+Segunda cuestión, porque si esto es dinámico aquí allá.
+
+03:04:39.000 --> 03:04:49.000
+Ya no queremos que sea tan cerrado, porque, claro, el mundo está así. A lo mejor necesita ser a 1 y después transitar para arriba para llegar al objetivo.
+
+03:04:49.000 --> 03:05:00.000
+En este momento se puede. Pero ¿qué pasa. Me entendí 1. Si yo llego acá como yo te decía ya, y resulta que voy a pescar la Messi, me doy cuenta que no soy capaz de subirla.
+
+03:05:00.000 --> 03:05:10.000
+Entonces ahí fíjate que. Si tengo otros deseos u otras posibles acciones, ya me permite en el fondo, replanificar, o sea, yo llegué.
+
+03:05:10.000 --> 03:05:14.000
+Mi intención era tomar la mesa. No puedo. ¿cuál otros deseos tengo.
+
+03:05:14.000 --> 03:05:23.000
+De nuevo cosas que podría hacer. Pedirle ayuda a usted, ir a buscar un carrito o ir a buscar un montacarga, y de eso voy a elegir.
+
+03:05:23.000 --> 03:05:27.000
+Uno de ellos y ponte que yo diga de nuevo por la función.
+
+03:05:27.000 --> 03:05:38.000
+Esta que tenemos acá. Que es.
+
+03:05:38.000 --> 03:05:41.000
+Aquí el filter. Ya yo digo: Sabes que más.
+
+03:05:41.000 --> 03:05:47.000
+Mi mejor intención. Lo voy a hacer finalmente, todas las cosas que puedo hacer.
+
+03:05:47.000 --> 03:05:52.000
+Ir a buscar el montacar. Y ahí sigo. Eso es.
+
+03:05:52.000 --> 03:06:00.000
+Ok. Entonces, esa es la que permite esto como mezclar exploración y explotación. La intención evalúa más.
+
+03:06:00.000 --> 03:06:07.000
+No, no, no, no, no, no te cuento. Los deseos son cosas potenciales que tú puedes hacer.
+
+03:06:07.000 --> 03:06:12.000
+Pero no estoy personalizando. Vendí cosas potenciales que puede hacer el agente y la intención.
+
+03:06:12.000 --> 03:06:20.000
+Es lo que tú filtraste y elegiste que vas a hacer. Por eso una intención, o sea, el agente.
+
+03:06:20.000 --> 03:06:27.000
+Va a tener compromiso a de todas esas cosas que pueda hacer. Voy a hacer esta cacha y voy a comprometerme a hacer.
+
+03:06:27.000 --> 03:06:34.000
+Que la pueda lograr hacer o no otra cosa. En cambio, los otros son potencialidades, cuestiones que puedo hacer.
+
+03:06:34.000 --> 03:06:39.000
+De nuevo me abro con los deseos y después me cierro con la intención.
+
+03:06:39.000 --> 03:06:45.000
+Ahora el ejemplo que le estoy dando acá, evidentemente, que es un ejemplo muy sencillo.
+
+03:06:45.000 --> 03:06:50.000
+Porque fíjate que acá ya el plan. Puede tener varias.
+
+03:06:50.000 --> 03:06:56.000
+Donde aquí, etcétera, o sea, yo puedo tener varios deseos y después filtrar.
+
+03:06:56.000 --> 03:07:00.000
+De esos deseos varias intenciones y acomodarlos todos en un plan.
+
+03:07:00.000 --> 03:07:05.000
+Ok. Y porque en un loop, y me voy dando un loop en esto, porque.
+
+03:07:05.000 --> 03:07:13.000
+Como el ambiente es dinámico, aquella, etcétera. O hay cosas que no he podido percibir. Y percibo solamente como yo te decía: cuando llego a la.
+
+03:07:13.000 --> 03:07:20.000
+Capaz de de de de asirla, de tomarla, levantarla del suelo y, por lo tanto, voy a replanificarla.
+
+03:07:20.000 --> 03:07:26.000
+Eh? Don Alejandro llegó.
+
+03:07:26.000 --> 03:07:33.000
+Yo ya hasta la había citado que usted me iba a ayudar, cierto, con la frontera eficiente para esto y todas esas cosas.
+
+03:07:33.000 --> 03:07:39.000
+Por supuesto, ya. Pero la próxima no la clase. Parece que el de este lunes nosotros recién vamos a estar con.
+
+03:07:39.000 --> 03:07:58.000
+Los nombres. Ah, claro, están dentro de las posibles acciones que tú le definiste.
+
+03:07:58.000 --> 03:08:03.000
+Tiene. Los definí.
+
+03:08:03.000 --> 03:08:07.000
+Then you own up.
+
+03:08:07.000 --> 03:08:15.000
+Como llegaste y no viste la desde el principio del ejemplo. Por eso que está en medio de esto, pero no la acción. Es de cierto. Yo las defino.
+
+03:08:15.000 --> 03:08:22.000
+Vamos a hacer esto inmediatamente, pues les digo: les voy a mostrar en los famosos blogs implementados.
+
+03:08:22.000 --> 03:08:28.000
+En el logo. Y después vamos a hacer un ejercicio de especificación.
+
+03:08:28.000 --> 03:08:32.000
+Ojalá que alcance. Yo tengo otra otra consulta.
+
+03:08:32.000 --> 03:08:49.000
+Al ver estos loop. Y entendiendo que esto de alguna forma lo vamos a plasmar en una gente real o en la combinación de varios ejemplares, como nosotros. Implementamos esto a través, por ejemplo, del de la utilización de modelos, el Lm o Higginface.
+
+03:08:49.000 --> 03:08:59.000
+¿cómo le damos esa intencionalidad. Porque el abanico de deseo es amplio, pero me imagino que la intencionalidad va a través de asignarle peso. Me imagino.
+
+03:08:59.000 --> 03:09:02.000
+De diferentes formas. No el likes a el que te cuento.
+
+03:09:02.000 --> 03:09:07.000
+¿cómo lo vamos a dar primero. Lo voy a ver en forma.
+
+03:09:07.000 --> 03:09:12.000
+Glásica, por decir así: Cachai. A un blogs world.
+
+03:09:12.000 --> 03:09:19.000
+Se toque un escenario bastante simple. Claro, se entiende. Pero tú decís Una.
+
+03:09:19.000 --> 03:09:28.000
+Elemental. Y aún así no está elemental. Y al final vamos a ver esto con agente generativos, con el Lm y que siguió.
+
+03:09:28.000 --> 03:09:32.000
+Reconozco, no va aquí, no para que llegue a programarlo.
+
+03:09:32.000 --> 03:09:38.000
+Pero yo diría que no va a estar tan lejos, porque es cuestión que tengáis una pipa poder moverte con Chachipitty, lo podría yo hacer.
+
+03:09:38.000 --> 03:09:42.000
+Entendí o no. Así que esa es la idea. Ahora.
+
+03:09:42.000 --> 03:09:47.000
+Lo que hacemos que en el logo hemos creado librerías F. D. I.
+
+03:09:47.000 --> 03:09:52.000
+Y de comunicación. Y esos son de 1.
+
+03:09:52.000 --> 03:10:01.000
+Griego y qué sé yo. Yo he creado algunas librerías para ser también lo que vamos a llamar la arquitectura, subsumisión, que son las gentes reactivos, etcétera.
+
+03:10:01.000 --> 03:10:06.000
+O sea, no tenéis que meterte tú a hacer todas estas cuestiones desde 0. Eso es lo que te permite.
+
+03:10:06.000 --> 03:10:11.000
+Te lo reconozco, sea. Lo que yo no he hecho.
+
+03:10:11.000 --> 03:10:13.000
+Fue lo que he hecho y lo que no he hecho.
+
+03:10:13.000 --> 03:10:16.000
+Lo que no he hecho es a través, pero sé que lo puedo hacer.
+
+03:10:16.000 --> 03:10:25.000
+Que el próximo año. Otras vacaciones, más que quedan sin invertidas en esto estoy tentado por no con una Api.
+
+03:10:25.000 --> 03:10:36.000
+Implementar a agentes generativos. Pero con Netflog. Tú mecís. Pero cristales con el globo es que me gusta mucho, porque es.
+
+03:10:36.000 --> 03:10:42.000
+Muy bien documentado, muy estable. Tú podías. Isabel.
+
+03:10:42.000 --> 03:10:51.000
+Feedback. Dion rápidamente. O las que te he mostrado con diferentes niveles de detalles. Entonces el descued y un Api lo.
+
+03:10:51.000 --> 03:11:03.000
+Tai con Chat Gpt y estas cuestiones, que la así, de alguna forma, la podéis hacer directamente, como te digo, con modelos más generativos.
+
+03:11:03.000 --> 03:11:08.000
+Por ejemplo, podría ser. Sí, alguien más tenía una.
+
+03:11:08.000 --> 03:11:16.000
+Yeah, entonces de que me tocan un poco más de agua, porque ya la garganta.
+
+03:11:16.000 --> 03:11:23.000
+¿qué voy a hacer? Acá. Antes de esto.
+
+03:11:23.000 --> 03:11:34.000
+Voy a ir a simplemente. Mostrar.
+
+03:11:34.000 --> 03:11:40.000
+Esto funcionando para que vean que funciona. Evidentemente, en una situación.
+
+03:11:40.000 --> 03:11:47.000
+Bastante. Sencilla, ya ojo.
+
+03:11:47.000 --> 03:11:56.000
+Siempre que hay crédito a quien lo hace. Este modelo inicial, lo hizo Don Juanito Juanito Zamora.
+
+03:11:56.000 --> 03:12:03.000
+En ese tiempo, estudiante mío de el doctorado ingeniería informática de la Santamaría.
+
+03:12:03.000 --> 03:12:07.000
+Vamos a ver esto. Y después les voy a mostrar mi modelo.
+
+03:12:07.000 --> 03:12:12.000
+Mejorado, ya que tiene además, y que podemos especificar.
+
+03:12:12.000 --> 03:12:25.000
+Por decirlo así, bloque izquierda, a derecha. Entonces acá inicializamos el ambiente. Aquí están los 3 bloques. Evidentemente, esto es una figurita no más para mostrar el brazo robótico, pero no tiene mayor sentido.
+
+03:12:25.000 --> 03:12:32.000
+Como lo hizo Juanito. Acá. Primero establecemos el estado final que queremos lograr.
+
+03:12:32.000 --> 03:12:34.000
+Aprieto acá y por favor.
+
+03:12:34.000 --> 03:12:38.000
+See. Yeah, Isabel, I.
+
+03:12:38.000 --> 03:12:45.000
+Me dice. ¿cómo quiere posicionar estos bloques para que queden fíjate el estado final.
+
+03:12:45.000 --> 03:12:54.000
+Como qué quieres que queden al final.
+
+03:12:54.000 --> 03:12:57.000
+No acuérda que no puedes poner izquierda a derecha.
+
+03:12:57.000 --> 03:13:09.000
+O exponerlos sobre la o montado.
+
+03:13:09.000 --> 03:13:15.000
+Listo asignar objetivos. Ahí está con la ontología. Fíjense usted.
+
+03:13:15.000 --> 03:13:26.000
+De cierto. Del blogsware. Lo que está. Fíjense. Se toca aquí. En este caso Ya Juanito le puso cierto 10, 11 y 12.
+
+03:13:26.000 --> 03:13:35.000
+O el bloque rojo verde y un bloque azul. Entonces C, L e R, 12 bloque azul no tiene nada encima. Un 12 10.
+
+03:13:35.000 --> 03:13:45.000
+O sea, significa que el bloque azul está. Sobre el bloque rojo que el número 10 Arm Empty.
+
+03:13:45.000 --> 03:13:50.000
+Un 10 11 que significa cierto bloque rojo. Está sobre.
+
+03:13:50.000 --> 03:13:55.000
+El bloque verde y un table 11, que es cierto, el bloque.
+
+03:13:55.000 --> 03:14:00.000
+Whether they start so de la mesa.
+
+03:14:00.000 --> 03:14:12.000
+Doña Isabel. Entonces, ahora la posición inicial así lo hizo Juanito o en yo, Luis, al Rey, porque fue Manchao, ya.
+
+03:14:12.000 --> 03:14:17.000
+Sí.
+
+03:14:17.000 --> 03:14:23.000
+Acuérdate. Estoy cometiendo la falacia de que aquí no podemos precisar inscribir derechas, pero no importa, ya.
+
+03:14:23.000 --> 03:14:35.000
+Dale. Dale, no más ya después.
+
+03:14:35.000 --> 03:14:36.000
+Eso.
+
+03:14:36.000 --> 03:14:41.000
+Yeah.
+
+03:14:41.000 --> 03:14:44.000
+Y lo voy a correr rápido, digamos, para que.
+
+03:14:44.000 --> 03:14:51.000
+Aquí está la cantidad de movimiento. Y ahí está. Ok.
+
+03:14:51.000 --> 03:14:57.000
+Ahora de nuevo. Lo que podría no ser ustedes, si quieren entender mejor.
+
+03:14:57.000 --> 03:15:00.000
+Lo voy a hacer acá. ¿cierto? Es ir justamente.
+
+03:15:00.000 --> 03:15:08.000
+Esta ventanita, que está acá. Fíjense que está la deliberación y la razonamiento medio fit.
+
+03:15:08.000 --> 03:15:11.000
+¿cierto? Viento, 0, opciones disponibles.
+
+03:15:11.000 --> 03:15:15.000
+Pick up. Once, pick up 12 pickup, 10.
+
+03:15:15.000 --> 03:15:20.000
+Mejor suelen encontrar bien ejecuta, pick up 10, y así.
+
+03:15:20.000 --> 03:15:34.000
+Va haciendo esto hasta. Llegar cierto a esto que está acá. Ahora bien, lo que yo le decía Isabel es de que, efectivamente, ya yo no distingo aquí, izquierda y derecha.
+
+03:15:34.000 --> 03:15:39.000
+En esto, que está acá. Y, por lo tanto.
+
+03:15:39.000 --> 03:15:45.000
+Okay. Esa es una limitación que tiene este modelo, que está acá, pero.
+
+03:15:45.000 --> 03:15:50.000
+Funciona ahora hay veces en que de repente, esto, que está acá.
+
+03:15:50.000 --> 03:16:01.000
+Ya como tenemos, deseo intenciones, ya podemos entrar. En un loop, es decir, ya de que podemos básicamente hacer un movimiento.
+
+03:16:01.000 --> 03:16:03.000
+Darnos cuenta que nos sirvió.
+
+03:16:03.000 --> 03:16:10.000
+Yeah. Volved a ser. El movimiento contrario y así sucesivamente. ¿hasta qué.
+
+03:16:10.000 --> 03:16:15.000
+Yet to nos iluminemos y digamos, a esta cuestión. Nos está llevando a un.
+
+03:16:15.000 --> 03:16:22.000
+Cierto o un iterador, y, por lo tanto, tenemos que ir para otro lado. Voy.
+
+03:16:22.000 --> 03:16:29.000
+Debería aquí. Creo que aquí tengo una condición súper complicada en la que pasa esto. Déjenme ver.
+
+03:16:29.000 --> 03:16:40.000
+Si lo encuentro. Si no lo encuentro, tendría que hacerlo a ojo, pero.
+
+03:16:40.000 --> 03:16:46.000
+Acá está aquí. La tengo venta.
+
+03:16:46.000 --> 03:16:51.000
+Beab.
+
+03:16:51.000 --> 03:16:55.000
+Aquí, entonces. Inicializar.
+
+03:16:55.000 --> 03:17:04.000
+Cabo final. B, R, A. Perdone. No estoy ya.
+
+03:17:04.000 --> 03:17:10.000
+De R a azul. Rojo!
+
+03:17:10.000 --> 03:17:12.000
+Wait.
+
+03:17:12.000 --> 03:17:17.000
+Asignar objetivo. Y el inicial rap.
+
+03:17:17.000 --> 03:17:20.000
+O sea.
+
+03:17:20.000 --> 03:17:25.000
+By the way, perdón! Estado inicial.
+
+03:17:25.000 --> 03:17:30.000
+By the way. Soul.
+
+03:17:30.000 --> 03:17:34.000
+Beautiful!
+
+03:17:34.000 --> 03:17:42.000
+Veamos, qué pasa? Se dan cuenta 24 movimientos y, efectivamente, acá.
+
+03:17:42.000 --> 03:17:50.000
+No es totalmente eficiente, sino que de repente. Probablemente ejecutamos.
+
+03:17:50.000 --> 03:17:56.000
+Más movimientos de lo estrictamente necesario. ¿por qué? Porque estamos haciendo algunos.
+
+03:17:56.000 --> 03:18:02.000
+Loops. Voy a volver a repetir esto. Voy a.
+
+03:18:02.000 --> 03:18:10.000
+Ya bajar la velocidad para que sea más evidente lo que yo les he contado final.
+
+03:18:10.000 --> 03:18:15.000
+Azul. Rojo!
+
+03:18:15.000 --> 03:18:26.000
+Whether they signal objetivo: posición de Estado inicial. Sería el verde.
+
+03:18:26.000 --> 03:18:33.000
+El azul. El rojo aquí con el globo no puede.
+
+03:18:33.000 --> 03:18:38.000
+¿cierto? Poner una velocidad bastante más.
+
+03:18:38.000 --> 03:18:41.000
+Lenta. La voy a poner súper lenta, y después la voy a ir.
+
+03:18:41.000 --> 03:18:49.000
+Aumentando.
+
+03:18:49.000 --> 03:18:56.000
+We cantar un poquito.
+
+03:18:56.000 --> 03:19:01.000
+Ben, Miren.
+
+03:19:01.000 --> 03:19:12.000
+Ahí. Por fin logró un.
+
+03:19:12.000 --> 03:19:20.000
+Ven, se está haciendo movimientos.
+
+03:19:20.000 --> 03:19:50.000
+Más. ¿cuál es la última? Fueron 24 movimientos.
+
+03:19:52.000 --> 03:19:55.000
+Medium. Yeah.
+
+03:19:55.000 --> 03:20:05.000
+Okay.
+
+03:20:05.000 --> 03:20:15.000
+Y aumentar un poquito de.
+
+03:20:15.000 --> 03:20:21.000
+34 movimientos sean cuanto sea. Efectivamente, esto no es óptimo.
+
+03:20:21.000 --> 03:20:25.000
+Aseguro que siempre van a llegar, o sea, siempre.
+
+03:20:25.000 --> 03:20:29.000
+Va a llegar al Estado final. Pero no es óptimo. ¿por qué?
+
+03:20:29.000 --> 03:20:35.000
+Porque justamente estamos explorando. Abrimos esto. Y de ahí tratamos de.
+
+03:20:35.000 --> 03:20:40.000
+Llegar. Y como lo vamos haciendo de a poco, eso significa que no es.
+
+03:20:40.000 --> 03:20:48.000
+Óptimo. De hecho. Se acuerdan que la primera vez que hicimos este caso fueron 24 movimientos.
+
+03:20:48.000 --> 03:21:00.000
+Y aquí fueron 34. Efectivamente. ¿por qué ser así, yo siempre 24, porque esto entre comillas no es determinístico, es decir, como los.
+
+03:21:00.000 --> 03:21:05.000
+Estoy pensando, lo pude pensar de una forma por los movimientos que hice.
+
+03:21:05.000 --> 03:21:09.000
+En otra corrida. Puedo hacerlo de alguna otra forma que podría hacer.
+
+03:21:09.000 --> 03:21:14.000
+Más óptima, pero. Me pego que podía ser mejor.
+
+03:21:14.000 --> 03:21:25.000
+O podría ser peor. Ok. Porque porque solamente como le digo, siempre abrimos las opciones, y de ahí escogemos y creemos que vamos llegando, pero después nos pisamos.
+
+03:21:25.000 --> 03:21:29.000
+La huasqui. Vemos que no es por ahí, y seguimos itando.
+
+03:21:29.000 --> 03:21:36.000
+Ah! El otro modelo. Y esto es solamente, como les digo.
+
+03:21:36.000 --> 03:21:45.000
+Para que no digan que les dio un modelo y que no lo usamos.
+
+03:21:45.000 --> 03:21:50.000
+Es el famoso. Cierto el que yo puedo darme.
+
+03:21:50.000 --> 03:21:57.000
+Y esto de nuevo, no nos puede decir que Juanito es que yo soy más encachao que Juanito, ni mucho menos, etcétera, etcétera.
+
+03:21:57.000 --> 03:22:06.000
+Como les conté acá la ontología. Era la clave para variable. ¿cómo representar el mundo.
+
+03:22:06.000 --> 03:22:11.000
+Y entonces déjenme que me siente para hacer lo con tranquilidad.
+
+03:22:11.000 --> 03:22:16.000
+Y ni si la sed ambiente. Y aquí, claro, partimos más lógicos. ¿cierto?
+
+03:22:16.000 --> 03:22:21.000
+Posicionar estado inicial. Voy a usar exactamente el mismo que teníamos antes.
+
+03:22:21.000 --> 03:22:25.000
+Rojo, azul, verde. Rojo, azul.
+
+03:22:25.000 --> 03:22:28.000
+Whether they después viene el azul.
+
+03:22:28.000 --> 03:22:30.000
+Hello!
+
+03:22:30.000 --> 03:22:33.000
+Verde.
+
+03:22:33.000 --> 03:22:40.000
+Ill azul. Y el rojo.
+
+03:22:40.000 --> 03:22:46.000
+Posicionar estado, final. El final era.
+
+03:22:46.000 --> 03:22:52.000
+Azul. Rojo!
+
+03:22:52.000 --> 03:22:57.000
+Verde. Establecer objetivos.
+
+03:22:57.000 --> 03:23:04.000
+Y acá. Es la lo que les voy a explicar es la diferencia.
+
+03:23:04.000 --> 03:23:09.000
+Que I primero, la ontología acá es bastante más.
+
+03:23:09.000 --> 03:23:13.000
+Entre comillas intuitiva. Que se entiende. Tengo.
+
+03:23:13.000 --> 03:23:20.000
+Ya el número del blog. O sea, el color del blog.
+
+03:23:20.000 --> 03:23:26.000
+Y después esas 2. Dos, 1, ya son básicamente.
+
+03:23:26.000 --> 03:23:29.000
+Okay. Lo que hacen.
+
+03:23:29.000 --> 03:23:41.000
+If Dad las coordenadas Xy que tenemos acá. Cero, 1, 2, 1, 2. Por lo tanto, ya ¿cuál era el objetivo que aquí lo puse con esta.
+
+03:23:41.000 --> 03:23:48.000
+Día. Si se fijan rojo, 201. O sea, rojo, 201, 2.
+
+03:23:48.000 --> 03:23:54.000
+Ya y 0. Uno, o sea, está. Esto.
+
+03:23:54.000 --> 03:24:02.000
+Acá arriba después B de de 2 2. ¿cierto? Cero. Uno, 201, 2. Aquí, tiene que estar.
+
+03:24:02.000 --> 03:24:07.000
+El blog verde y azul, 2, 0. Significa que está.
+
+03:24:07.000 --> 03:24:13.000
+Cero, 1, 2, ¿cierto? Y en la coordenada y.
+
+03:24:13.000 --> 03:24:20.000
+Cero. Por lo tanto, esa es. Ya el gol sentence antes era con otra ontología.
+
+03:24:20.000 --> 03:24:26.000
+Y que esto distancia total al objetivo. Es que sumamos las distancias. Manhattan.
+
+03:24:26.000 --> 03:24:31.000
+Que hay de donde están estos bloques, a donde tienen que estar al final.
+
+03:24:31.000 --> 03:24:35.000
+Me explico, este bloque está aquí y tiene que estar. Acá.
+
+03:24:35.000 --> 03:24:38.000
+Ok, entonces tengo 1, 2.
+
+03:24:38.000 --> 03:24:47.000
+Please, punto de instancia manejada. Después, este bloque está aquí.
+
+03:24:47.000 --> 03:24:48.000
+Entiende que estar acá. Tengo 1. Dos, ya.
+
+03:24:48.000 --> 03:24:50.000
+No.
+
+03:24:50.000 --> 03:24:56.000
+De distancia. Manhattan, teníamos. Por lo tanto, 1, 2, 3, más, 2.
+
+03:24:56.000 --> 03:25:00.000
+Son 2. Y finalmente, el rojo. Tiene que estar acá 1, 2 veces.
+
+03:25:00.000 --> 03:25:05.000
+Cinco.
+
+03:25:05.000 --> 03:25:13.000
+Dos, ya. Ve esa distancia a Manhattan 1 y 2. Por lo tanto, 2, 5 más.
+
+03:25:13.000 --> 03:25:19.000
+Más 200 da un total de distancia al objetivo de.
+
+03:25:19.000 --> 03:25:26.000
+Siete. Voy a inicializar acá.
+
+03:25:26.000 --> 03:25:32.000
+Y sea de. Cierto. Y esto lo que yo hice, lo estoy haciendo: simulación, paso.
+
+03:25:32.000 --> 03:25:40.000
+A paso. Aquí tengo cierto los movimientos, las acciones disponibles que tengo.
+
+03:25:40.000 --> 03:25:50.000
+Y aquí ejecutó cierto el plan que podría. Permitirme alcanzar o disminuir esta distancia.
+
+03:25:50.000 --> 03:25:56.000
+Al objetivo. En este caso ¿cierto? Estoy haciendo esto que está acá.
+
+03:25:56.000 --> 03:26:02.000
+El siguiente: aquí. El otro acá y el último aquí.
+
+03:26:02.000 --> 03:26:07.000
+Y, efectivamente logramos hacer esto. Cuatro, movimiento.
+
+03:26:07.000 --> 03:26:19.000
+Ya no siempre se va a lograr. En esa cantidad de movimiento. Se acuerden la otra vez. Fue 24 y 34. Aquí es 4. Si lo vuelvo a ejecutar.
+
+03:26:19.000 --> 03:26:26.000
+Lo voy a hacer cierto a lo mejor. Podría obtener un performance que un poquitito inferior.
+
+03:26:26.000 --> 03:26:32.000
+Pero la gracia que tenemos acá. Es que primero, efectivamente.
+
+03:26:32.000 --> 03:26:38.000
+Podemos ya establecer el orden de los bloques en izquierda derecha.
+
+03:26:38.000 --> 03:26:48.000
+Y al tener esa ontología. El pensamiento o la cantidad de opciones.
+
+03:26:48.000 --> 03:26:55.000
+Traducir esa opción. Los deseos en intenciones es bastante más sencillo.
+
+03:26:55.000 --> 03:27:02.000
+De hecho, voy a. Por si acaso volver a hacer esto, a ver si nos da.
+
+03:27:02.000 --> 03:27:08.000
+Igual de bien, probablemente no va a ser. Tan tan bien pero ajustado, inicial.
+
+03:27:08.000 --> 03:27:15.000
+Cierto. R, A, B. R. A. B, el Verde.
+
+03:27:15.000 --> 03:27:19.000
+El azul. El rojo.
+
+03:27:19.000 --> 03:27:24.000
+Posicionar estado, final. Lo voy a poner ahora. Acá.
+
+03:27:24.000 --> 03:27:30.000
+El azul. El rojo.
+
+03:27:30.000 --> 03:27:36.000
+El Verde. Establecer objetivo y lo voy a hacer no paso a paso. Lo voy a hacer.
+
+03:27:36.000 --> 03:27:45.000
+Rápidamente iniciar. Me lo hizo también en 4 movimientos, o sea.
+
+03:27:45.000 --> 03:28:00.000
+Hasta el momento ya lo está haciendo bastante. Bien ¿qué otras cosas más les cuento? Uno puede hacer? Acá solamente para que usted experimenten ya después en su casa.
+
+03:28:00.000 --> 03:28:07.000
+Aquí. Tengo este parámetro. Épsilon. ¿y qué indica? Épsilon épsilon indica.
+
+03:28:07.000 --> 03:28:12.000
+Ya que yo le puedo meter aleatoriedad al sistema.
+
+03:28:12.000 --> 03:28:18.000
+O sea, en vez de que el sistema efectivamente cierto, vea qué opciones tengo que son los deseo.
+
+03:28:18.000 --> 03:28:27.000
+Filtre y diga de esta opción, es probablemente la próxima movida, el próximo movimiento, mejor sería este, y así vaya iterando.
+
+03:28:27.000 --> 03:28:33.000
+Ya si yo varío el epsilón, lo que hace el Epsilon ya al hacer mayores.
+
+03:28:33.000 --> 03:28:40.000
+Yo de vez en cuando puedo explorar. Y en B de seguir.
+
+03:28:40.000 --> 03:28:50.000
+Ya el sistema. Y hacer la y perdón, y convertir el deseo que me parece más óptimo.
+
+03:28:50.000 --> 03:28:57.000
+De convertirlo en intención. Me lo salto y ejecuto alguna. Otra acción.
+
+03:28:57.000 --> 03:29:01.000
+Usted me dirán profe, pero ¿por qué crees que hacer eso?
+
+03:29:01.000 --> 03:29:07.000
+Porque ustedes no crean ya. En un promedio debe ser, y en situaciones.
+
+03:29:07.000 --> 03:29:13.000
+Que haya una movida aleatoriamente, o sea, que yo tiene un dado y diga: Voy a hacer esta cuestión. ¿por qué? Porque sí.
+
+03:29:13.000 --> 03:29:21.000
+Ya hace de que en algunas situaciones. Eso configure y deja el sistema en un Estado.
+
+03:29:21.000 --> 03:29:32.000
+Que le permita llegar al objetivo más rápido. Que si nos ponemos a pensar siempre en forma, por decirlo así, racional.
+
+03:29:32.000 --> 03:29:38.000
+O sea, ¿cuál es la idea? Acá. La idea es que debería siempre si yo.
+
+03:29:38.000 --> 03:29:45.000
+Aplico el pensamiento racional, llegar a mi objetivo en la menor cantidad de movimientos posible.
+
+03:29:45.000 --> 03:29:50.000
+Pero pueden, igual que en el otro sistema, producirse algunos bucles.
+
+03:29:50.000 --> 03:29:56.000
+Y, por lo tanto, para no tener eso, si yo ajustó ese epsilón.
+
+03:29:56.000 --> 03:30:07.000
+Y claramente, no hacer. En 1. ¿por qué? Porque ahí siempre lo haría en forma aleatoria, pero tampoco en 0, sino que un Epsilon chiquitito ya.
+
+03:30:07.000 --> 03:30:11.000
+Yo, de vez en cuando puedo hacer alguna movida aleatoria. Y eso.
+
+03:30:11.000 --> 03:30:18.000
+A casualidad le va a permitir llegar mejor al objetivo. En este caso, son.
+
+03:30:18.000 --> 03:30:23.000
+Menos cantidad de movimiento. Y ahí entonces tengo el balance entre exploración.
+
+03:30:23.000 --> 03:30:29.000
+Y explotación que yo les contaba al principio de esta.
+
+03:30:29.000 --> 03:30:31.000
+Class. Mmm.
+
+03:30:31.000 --> 03:30:36.000
+De nuevo. Ya estamos más o menos en.
+
+03:30:36.000 --> 03:30:44.000
+Oda y, por lo tanto, como quiero seguir avanzando un poquito no voy a seguir explorando con esto, pero bienvenido sea cierto que usted.
+
+03:30:44.000 --> 03:30:46.000
+Nuevamente.
+
+03:30:46.000 --> 03:30:57.000
+Explore in algunas otras configuraciones iniciales y finales, y varían cierto, el Épsilon, por ejemplo, ya aquí voy a poner Epsilon en 1.
+
+03:30:57.000 --> 03:31:02.000
+Voy a volver a poner. La configuración inicial.
+
+03:31:02.000 --> 03:31:06.000
+Que era verde, pero. Y sana ambiente.
+
+03:31:06.000 --> 03:31:14.000
+Si no estado inicial, era. El verde, el azul.
+
+03:31:14.000 --> 03:31:19.000
+Y el rojo. Estado final.
+
+03:31:19.000 --> 03:31:24.000
+Que era acá. Azul.
+
+03:31:24.000 --> 03:31:29.000
+Verde. Y, por ejemplo, aquí el epsilón Nes, 1 significa que.
+
+03:31:29.000 --> 03:31:40.000
+Siempre lo voy a hacer aleatoriamente. Lo que significa de que seguro que va a ser mucho más de 4 movimientos.
+
+03:31:40.000 --> 03:31:46.000
+Oh, yeah, ah, porque no lo quiero hacer paso a paso. Porque si no me voy a demorar mucho.
+
+03:31:46.000 --> 03:31:48.000
+Okay.
+
+03:31:48.000 --> 03:31:57.000
+If fíjense ¿cierto? Que ahí está iterando. No está pensando. ¿cierto? Está siendo totalmente aleatorio.
+
+03:31:57.000 --> 03:32:02.000
+Por lo tanto, se dan cuenta. Llegó en 167 movimientos.
+
+03:32:02.000 --> 03:32:09.000
+Dado que la opción de no son tan grandes, el mundo es sencillo, ¿cierto?
+
+03:32:09.000 --> 03:32:14.000
+Caso ya, evidentemente, que está muy lejos. Las 4 movimientos que serían.
+
+03:32:14.000 --> 03:32:22.000
+Cercano al óptimo. Aquí recién realizamos ciertos 167. Pero podemos llegar.
+
+03:32:22.000 --> 03:32:30.000
+Cuál es la conclusión. Por lo tanto. Siempre un poquitito aleatoriedad en los sistemas. No es malo.
+
+03:32:30.000 --> 03:32:36.000
+Ah, pero tenemos que balancear, explotar y explorar, y, lógicamente, que aquí.
+
+03:32:36.000 --> 03:32:44.000
+Con un epsilon igual a 1 es. Demasiado ya, pero si ponemos un poco más, podríamos, en algunas situaciones, mejorar.
+
+03:32:44.000 --> 03:32:51.000
+Esto que está acá. No sé si hay alguna duda o pregunta.
+
+03:32:51.000 --> 03:32:56.000
+Está horas de la noche. Probablemente cómo se define en este caso el Epsilon.
+
+03:32:56.000 --> 03:33:01.000
+La verdad que no quería que me gusta de ahí eso.
+
+03:33:01.000 --> 03:33:04.000
+They es más complicado de lo que yo te contaba.
+
+03:33:04.000 --> 03:33:09.000
+Isabel, y es el éxito. Es una constante de.
+
+03:33:09.000 --> 03:33:19.000
+Que permite ajustar. Cuando en el tiempo tú va aumentando la probabilidad de explorar una movida aleatoria, o sea, no es constante.
+
+03:33:19.000 --> 03:33:28.000
+No es que tú, si lo ponis. En el 1 va a ser así y en 0 también, pero.
+
+03:33:28.000 --> 03:33:33.000
+Si tú, por ejemplo, pone el epsilón en punto 6 Pd, 4, o lo que sea.
+
+03:33:33.000 --> 03:33:38.000
+Reconozco que nos significa que la probabilidad de que tú hagas una movida aleatoria.
+
+03:33:38.000 --> 03:33:45.000
+Es de un 63, 4 por 100. Sino que es bastante más complicado.
+
+03:33:45.000 --> 03:33:52.000
+Te voy a. A pedir. Voy a hacer otro ejemplo. Así, cualquiera.
+
+03:33:52.000 --> 03:33:56.000
+Súper rápido.
+
+03:33:56.000 --> 03:34:06.000
+Mostraste esto. Estado final.
+
+03:34:06.000 --> 03:34:15.000
+Objetivo y aquí, simulación, paso a paso. Entonces vamos viendo.
+
+03:34:15.000 --> 03:34:24.000
+Fíjate que ¿cuál es la idea? Acá. Mira lo que hice, ¿hay probabilidad de movimiento aleatorio igual a 0. Ok, ¿cuál es la lógica.
+
+03:34:24.000 --> 03:34:30.000
+Que al principio. Cuando tú tienes muchas opciones.
+
+03:34:30.000 --> 03:34:32.000
+Ya cuando partes con esto.
+
+03:34:32.000 --> 03:34:36.000
+Explor y decir: Sabes que voy a hacer cualquiera de estas.
+
+03:34:36.000 --> 03:34:39.000
+No es muy bueno porque está ahí muy lejos. Tu objetivo.
+
+03:34:39.000 --> 03:34:47.000
+Pero a medida que vas convergiendo el objetivo, ahí te podías quedar atrapado en un movimiento.
+
+03:34:47.000 --> 03:34:53.000
+Que son bucles que son mal. Y ahí. Entonces tú vas aumentando esa probabilidad.
+
+03:34:53.000 --> 03:34:58.000
+Cómo y qué es lo que regula esa probabilidad, que es el épsil.
+
+03:34:58.000 --> 03:35:06.000
+Y, por lo tanto, mira, voy a ponerle. Acá fíjate.
+
+03:35:06.000 --> 03:35:13.000
+Y, por ejemplo, fíjate. La probabilidad de movimiento aleatorio.
+
+03:35:13.000 --> 03:35:19.000
+Subió enormemente. O sea, al principio no tiene ninguna. Y después cada vez va.
+
+03:35:19.000 --> 03:35:23.000
+Subiendo hasta llegar cierto a que todo es aleatorio.
+
+03:35:23.000 --> 03:35:28.000
+Por eso que, evidentemente, esa constante haberla puesto en punto 60 y tantos muchísimos, o sea.
+
+03:35:28.000 --> 03:35:34.000
+La idea es poner esa constante. Probablemente el épsilon en punto 1 algo así, o sea.
+
+03:35:34.000 --> 03:35:40.000
+Que harto tiempo. Esto vaya pensando, lo haga lógicamente, razonablemente.
+
+03:35:40.000 --> 03:35:49.000
+Y a medida que va transcurriendo el tiempo. Y va pasando mucho tiempo y no he llegado al objetivo. Eso significa que algo raro está pasando.
+
+03:35:49.000 --> 03:35:57.000
+Que mi agente no está entre comillas. Cachai. Pensando bien para llegar al objetivo. Y ahí le digo: hay temas, compares.
+
+03:35:57.000 --> 03:36:05.000
+Ya ponte a hacer algunas cuestiones aleatorias, pero ya estáis cerca el objetivo. Por lo tanto, como el empujoncito final.
+
+03:36:05.000 --> 03:36:13.000
+Digamos, explora más para que. Y como te digo, más complicado de lo que yo te había dicho, no quería explicar eso, pero.
+
+03:36:13.000 --> 03:36:23.000
+Nobleza obliga. Y así pues, ves, por ejemplo, en la próxima va a ser fíjate. Punto 869, y así.
+
+03:36:23.000 --> 03:36:28.000
+Va a ir aumentando, hasta llegar a. Cierto, prácticamente.
+
+03:36:28.000 --> 03:36:37.000
+Uno de acuerdo. Sea quien. Ocho movimientos. Llegó a que esto de aquí en adelante, es totalmente.
+
+03:36:37.000 --> 03:36:42.000
+Aleatorio. De hecho, esta cubita que está acá. En este gráfico y te indica.
+
+03:36:42.000 --> 03:36:52.000
+Como adiós, la probabilidad de movimiento aleatorio multiplicado por 10 para escalarlo. Con la otra cuestión que.
+
+03:36:52.000 --> 03:37:00.000
+Pero va cierto subiendo exponencialmente entonces. Efectivamente, si tú pones esto.
+
+03:37:00.000 --> 03:37:07.000
+Bastante más chiquitito. Ejemplo, lo voy a poner ahí en esto. Evidentemente que ahí.
+
+03:37:07.000 --> 03:37:12.000
+Ya. Nuevamente, voy a poner cualquier cuestión.
+
+03:37:12.000 --> 03:37:17.000
+Hello!
+
+03:37:17.000 --> 03:37:24.000
+Al final. Poner acá.
+
+03:37:24.000 --> 03:37:30.000
+Y, por lo tanto, aquí, efectivamente, fíjate que eso va variando en.
+
+03:37:30.000 --> 03:37:39.000
+Más lentamente. ¿qué es lo que vas a ver esta curva que está aquí? Esa curva se está aumentando. La probabilidad de movimiento aleatorio.
+
+03:37:39.000 --> 03:37:45.000
+Pero bastante más. Suavemente, lo que significa cierto de que.
+
+03:37:45.000 --> 03:37:51.000
+En algunas situaciones. Eso va. A favorecer te das cuenta. Y ahí llegamos.
+
+03:37:51.000 --> 03:37:55.000
+So if you get the que está pendiente, es bastante más pequeña.
+
+03:37:55.000 --> 03:38:01.000
+Y, por lo tanto, dependiendo de las situaciones, tú puedes regular eso.
+
+03:38:01.000 --> 03:38:09.000
+Eso es la idea. De mi ser profe. Pero y resulta que en este caso, ¿cuál es el épsilon adecuado? Yo.
+
+03:38:09.000 --> 03:38:16.000
+Se los dejo entre comillas con. Como tarea cierto para usted, y ahí van a encontrar que, igual.
+
+03:38:16.000 --> 03:38:24.000
+En promedio, muchas situaciones, tener un épsilon chiquitito, o sea, después de varios movimientos, como tú decías, esta gente está perdido.
+
+03:38:24.000 --> 03:38:26.000
+Así que métele algo a la teoría es bueno.
+
+03:38:26.000 --> 03:38:30.000
+Yeah.
+
+03:38:30.000 --> 03:38:37.000
+No les voy a explicar la curva roja cuestión que ustedes experimentan en que Jason, a cuenta que cresta.
+
+03:38:37.000 --> 03:38:44.000
+Ya es esta curva roja que está acá. Es la verdad. La distancia Manhattan, al objetivo.
+
+03:38:44.000 --> 03:38:50.000
+Y, por lo tanto, fíjense que reventa la distancia, aumenta o disminuye hasta llegar a.
+
+03:38:50.000 --> 03:39:04.000
+Cero.
+
+03:39:04.000 --> 03:39:13.000
+Bien, vaya. And si igual, no puedo desperdiciar los 12 min que nos quedan o 3.
+
+03:39:13.000 --> 03:39:18.000
+Les voy a contar y probablemente el ejercicio. No sé si lo alcanzamos hacer hoy día.
+
+03:39:18.000 --> 03:39:22.000
+Pero podemos ver el video explicarlo. Y lo vemos la próxima clase.
+
+03:39:22.000 --> 03:39:28.000
+Les voy a mostrar ya el bicho. El Convenio de Fecho Gótix ya es un vídeo.
+
+03:39:28.000 --> 03:39:39.000
+En que vamos a ver estos carritos, que se mueven en una en un bodega de Dhl para mover carga dentro de la bodega de un lado para otro.
+
+03:39:39.000 --> 03:39:47.000
+Quién sé bien y lo que les voy a pedir. Entonces, después que macroespecifiquemos un modelo B D I para.
+
+03:39:47.000 --> 03:39:54.000
+Aquí está el loop de control que vimos, y ahí les voy a pedir efectivamente, que digamos.
+
+03:39:54.000 --> 03:39:56.000
+Cuáles son los posibles believes.
+
+03:39:56.000 --> 03:39:59.000
+Desires, intentions.
+
+03:39:59.000 --> 03:40:03.000
+¿cuál es el believe inicial. ¿cuál es cierto la intención.
+
+03:40:03.000 --> 03:40:19.000
+Inicial y. Después eso lo segundo, ya que son las funciones de Rf Option, filter, plan, etcétera. La verdad que son siempre iguales. Por lo tanto, esa parte de la pregunta es media como.
+
+03:40:19.000 --> 03:40:25.000
+Como solamente para que se acuerden que hacen cada una de esas funciones.
+
+03:40:25.000 --> 03:40:32.000
+Por lo tanto, les cuento que este mismo ejemplo, después lo vamos a usar cuando veamos la arquitectura.
+
+03:40:32.000 --> 03:40:39.000
+Reactivo, entonces. Espero que todo funcione bien para irme tranquilo.
+
+03:40:39.000 --> 03:40:52.000
+Howe: Yeah, voy a. Poner este vídeo, que está acá.
+
+03:40:52.000 --> 03:41:00.000
+Por favor, los que están en línea me dicen: si se ve el vídeo y si se escucha.
+
+03:41:00.000 --> 03:41:04.000
+Ahora vamos.
+
+03:41:04.000 --> 03:41:08.000
+When I think about how robotics can impact the logistics, industry.
+
+03:41:08.000 --> 03:41:17.000
+I look at robots as an enhancement to the capability of people, enabling them to do tasks faster save energy, and get a higher efficiency.
+
+03:41:17.000 --> 03:41:24.000
+Digital. We are piloting and implementing the 1st wave of collaborative robots in a work.
+
+03:41:24.000 --> 03:41:25.000
+Okay.
+
+03:41:25.000 --> 03:41:32.000
+Solutions, such as the transfer robots from fetch, can empower workers and help us to achieve higher levels of safety and productivity in a warehouse.
+
+03:41:32.000 --> 03:41:40.000
+By food or automating unnecessary fogs, like moving a goods from Point A to B. We can give the employees more rewarding responsibilities.
+
+03:41:40.000 --> 03:41:46.000
+Al work. Most of our customers are focused on a fast return on investment. This means deploying systems rapidly and.
+
+03:41:46.000 --> 03:41:55.000
+Maintaining them very simply by enabling our customers to set up fast and flexible workflows, so that a worker can load a robot very simply.
+
+03:41:55.000 --> 03:41:58.000
+Press a button and have it go to its destination.
+
+03:41:58.000 --> 03:42:05.000
+For us. Safety comes 1st on the workforce, and as the robust combined data from multiple sensors to get a picture of their surroundings.
+
+03:42:05.000 --> 03:42:14.000
+They work safely with and around people. What we found positive. Most of the system was implemented in only a few days, and we did not need to install any additional hardware.
+
+03:42:14.000 --> 03:42:19.000
+So you can manage multiple robots on a single map which gives great real-time visibility.
+
+03:42:19.000 --> 03:42:23.000
+You don't need to know any programming in order to manage the feat.
+
+03:42:23.000 --> 03:42:27.000
+Intuitive software teachers uses how to orchestrate the robots, to work together.
+
+03:42:27.000 --> 03:42:35.000
+In a dynamic environment. Our robotic system is up and running, and has already saved our operators. Walking up to 32 kilometers per day.
+
+03:42:35.000 --> 03:42:41.000
+What a. S. Quite impressive is the flexibility of the solution, and how easy it is to adjust to our needs.
+
+03:42:41.000 --> 03:42:46.000
+Together with our partners, we will accelerate the widespread adoption of robots across Thol.
+
+03:42:46.000 --> 03:42:52.000
+To improve productivity and quality for customers, as well as enhanced safety for employees.
+
+03:42:52.000 --> 03:43:06.000
+We're excited for what's Silter Company?
+
+03:43:06.000 --> 03:43:11.000
+In Formula One. We put on race weekends at the.
+
+03:43:11.000 --> 03:43:18.000
+Bien, les cuento. Entonces. Eh? Porque de nuevo, creo que.
+
+03:43:18.000 --> 03:43:21.000
+Podemos empezar el ejercicio, pero no creo que lo terminemos.
+
+03:43:21.000 --> 03:43:28.000
+Les voy a dar justamente. Mejor unos minutos para que lo piensen, y después vamos a empezar a.
+
+03:43:28.000 --> 03:43:32.000
+Voy a empezar a escribir estas cosas. ¿qué es lo que quiero? Por favor.
+
+03:43:32.000 --> 03:43:39.000
+Se recuerden lo que hacían. Estos robotitos y, por lo tanto.
+
+03:43:39.000 --> 03:43:46.000
+¿cuál es la idea que, acordándose de que nosotros podemos implementar esto usando esta arquitectura.
+
+03:43:46.000 --> 03:43:51.000
+Partamos por cuáles podrían ser, y de nuevo, en cualquier orden.
+
+03:43:51.000 --> 03:43:56.000
+Cuáles podrían ser las creencias que tienen que tener estos robots.
+
+03:43:56.000 --> 03:44:01.000
+Los deseos, las intenciones. Ya ¿cuál?
+
+03:44:01.000 --> 03:44:11.000
+Serían la creencia inicial. El la intención inicial.
+
+03:44:11.000 --> 03:44:16.000
+Cuál serían los robos, o sea, los preceptos que tienen que tener estos aparatitos.
+
+03:44:16.000 --> 03:44:25.000
+Ya ¿qué les parece? Si. Eh: partimos con el ejercicio. Lo completamos. Probablemente la próxima.
+
+03:44:25.000 --> 03:44:29.000
+Plus by the tamo, entonces con.
+
+03:44:29.000 --> 03:44:33.000
+They can marry the aquí tengo la pluma.
+
+03:44:33.000 --> 03:44:36.000
+Yeah, by the time of Poll.
+
+03:44:36.000 --> 03:44:43.000
+Esto que se acuerdan son las.
+
+03:44:43.000 --> 03:44:49.000
+Creencia. Pero aquí le vamos a poner los Estados.
+
+03:44:49.000 --> 03:44:54.000
+Del. Mundo.
+
+03:44:54.000 --> 03:45:03.000
+¿qué creencias podemos tener en estos robots. Estados del mundo.
+
+03:45:03.000 --> 03:45:10.000
+Para lo para que hagan lo que tienen, que lo que vimos en el video.
+
+03:45:10.000 --> 03:45:17.000
+O sea cierto. Posición.
+
+03:45:17.000 --> 03:45:21.000
+Veíamos que los robots se van de un lado para otro y, por lo tanto, una de sus.
+
+03:45:21.000 --> 03:45:29.000
+Creencia. Acepto en la posición donde. Probablemente están.
+
+03:45:29.000 --> 03:45:35.000
+Y otra creencia. Perdón!
+
+03:45:35.000 --> 03:45:40.000
+Ya, pero eso un cambio posición. Por lo tanto, yo lo puedo escribir, ¿cierto? Como.
+
+03:45:40.000 --> 03:45:46.000
+Cambios de posición son desplazamientos.
+
+03:45:46.000 --> 03:45:48.000
+¿cierto? Perfecto ocupado. No.
+
+03:45:48.000 --> 03:45:53.000
+Se está con carga, no está con carga.
+
+03:45:53.000 --> 03:46:01.000
+O carga. No cadera en cuanto a carga de lo que tiene, acá.
+
+03:46:01.000 --> 03:46:13.000
+Que otra cuestión más fundamental. Pero eso ¿cierto? Es más, en el fondo, un deseo, una cosa que yo puedo hacer.
+
+03:46:13.000 --> 03:46:20.000
+¿cierto? Perdón. Pero eso en el fondo. Isabel, do.
+
+03:46:20.000 --> 03:46:27.000
+No necesariamente porque el robo lea lo mismo que están los productos no sí que estén con este cargado, no cargado.
+
+03:46:27.000 --> 03:46:37.000
+Pero ¿se acuerdan lo que hacían los operadores. Pero que venían y apretaban, cargaban y apretaban un botón.
+
+03:46:37.000 --> 03:46:41.000
+Entonces probablemente. Llamad.
+
+03:46:41.000 --> 03:46:47.000
+Yo llamo al robot, ¿cierto? Y yo. Entre comillas.
+
+03:46:47.000 --> 03:46:52.000
+Despacho a una cierta posición. Ok.
+
+03:46:52.000 --> 03:47:04.000
+Otra cuestión más que se veía. Y que ellos decían: la seguridad. Primero.
+
+03:47:04.000 --> 03:47:10.000
+Y pensé que. ¿qué creencias del mundo puedo tener.
+
+03:47:10.000 --> 03:47:19.000
+El enrique, el el espacio físico, donde donde va a estar operando el robot. Ya la bodega no va a salir de ese.
+
+03:47:19.000 --> 03:47:23.000
+Hay 2 cosas: una en posición, pero lo otro cierto.
+
+03:47:23.000 --> 03:47:29.000
+Existencia. De obstáculo.
+
+03:47:29.000 --> 03:47:36.000
+Y esos obstáculos. Ustedes se acuerdan. Podían ser. Básicamente otros robots se acuerdan.
+
+03:47:36.000 --> 03:47:42.000
+O espacia restringido seres humanos. ¿por qué le estoy dando estos detalles?
+
+03:47:42.000 --> 03:47:52.000
+Porque yo programé esto efectivamente en el Glow. Lo que significa que, como tuve que ir mal detalle. Si esto tengo súper claras estas cosas, pero.
+
+03:47:52.000 --> 03:47:57.000
+Después las vamos a ver con más detalle, porque aquí estamos macro especificando si hecho Party.
+
+03:47:57.000 --> 03:48:03.000
+Ok. Y queda una cuestióncita más que vimos al final del vídeo.
+
+03:48:03.000 --> 03:48:04.000
+Profesor y el peso, el peso de carga máximo.
+
+03:48:04.000 --> 03:48:11.000
+Sí. Al tiro cádega de la batería.
+
+03:48:11.000 --> 03:48:17.000
+Ok, el peso máximo, por ejemplo, totalmente de acuerdo.
+
+03:48:17.000 --> 03:48:24.000
+Oh, tú tienes un sensor de carga. Cual peso máximo o.
+
+03:48:24.000 --> 03:48:33.000
+Simplemente tú lo especificas. Si tú pones una plaquita que diga no más de tantos kilos, qué sé yo, pero sería mucho mejor como tú bien, dices.
+
+03:48:33.000 --> 03:48:39.000
+Tener un peso máximo. Y si yo le meto 500 kilos que con mega saque más.
+
+03:48:39.000 --> 03:48:45.000
+E imposible. A acordarse esto. Moel, el estado del mundo.
+
+03:48:45.000 --> 03:48:57.000
+Los deseos, acá. Acciones que puedo ejecutar, porque las intenciones ciertos son deseos convertidos en intenciones.
+
+03:48:57.000 --> 03:49:02.000
+Acciones que puedo ejecutar. Y aquí viene, por ejemplo, Isabel, 1.
+
+03:49:02.000 --> 03:49:12.000
+Ill desplazarse. Cierto que otra cosa más.
+
+03:49:12.000 --> 03:49:13.000
+Desplazarse a un lugar a otro. Probablemente a lo mejor.
+
+03:49:13.000 --> 03:49:16.000
+Cargar, descargar.
+
+03:49:16.000 --> 03:49:21.000
+¿cierto? Planificar.
+
+03:49:21.000 --> 03:49:29.000
+Ruta, ya. Acciones cargadas.
+
+03:49:29.000 --> 03:49:31.000
+Batería.
+
+03:49:31.000 --> 03:49:38.000
+Yeah. Atended.
+
+03:49:38.000 --> 03:49:43.000
+Llamado cierto, o sea, alguien me tiene que llamar cierto.
+
+03:49:43.000 --> 03:49:46.000
+Ya. Otra acción podría ser. La contraria.
+
+03:49:46.000 --> 03:49:49.000
+Peor, obstáculo.
+
+03:49:49.000 --> 03:49:52.000
+Perfecto, despachar.
+
+03:49:52.000 --> 03:49:55.000
+I'll.
+
+03:49:55.000 --> 03:50:00.000
+Destino. Evitar obstáculos. Me dijiste.
+
+03:50:00.000 --> 03:50:01.000
+Esquivar.
+
+03:50:01.000 --> 03:50:03.000
+Sí, activar.
+
+03:50:03.000 --> 03:50:05.000
+Perfect.
+
+03:50:05.000 --> 03:50:08.000
+¿cierto?
+
+03:50:08.000 --> 03:50:12.000
+Ops obstáculo. Ya, y creo que.
+
+03:50:12.000 --> 03:50:16.000
+Por ahí, andaría.
+
+03:50:16.000 --> 03:50:29.000
+Terminemos. Entonces, ¿qué sería el row. Que son acordarse los pedeceptos, lo que yo puedo percibir. ¿qué tengo que percibir? Acá.
+
+03:50:29.000 --> 03:50:34.000
+Para poder navegar en la bodega.
+
+03:50:34.000 --> 03:50:39.000
+Cierto sea coordenadas. Xy. Si, por ejemplo, pongo en Equis y.
+
+03:50:39.000 --> 03:50:48.000
+Pero lo que sí es justamente Juan Pablo. Es un lugar restringido. Tengo una bodega. Por lo tanto, tengo que definir X y.
+
+03:50:48.000 --> 03:50:56.000
+Y lógicamente, ya que con eso probablemente tengo que poner algún límite dentro de la bodega, etc.
+
+03:50:56.000 --> 03:51:06.000
+Después para esquivar obstáculos ciertos, ya. Percibir.
+
+03:51:06.000 --> 03:51:12.000
+Obstáculo y, como quiero ser llamado. Probablemente.
+
+03:51:12.000 --> 03:51:18.000
+Señal de. Llamado.
+
+03:51:18.000 --> 03:51:25.000
+Estado. De carga.
+
+03:51:25.000 --> 03:51:28.000
+De la batería. Ok.
+
+03:51:28.000 --> 03:51:37.000
+Las funciones B, R, F Options, Filter y Plan son las clásicas. Por cierto, aquí Brf: delivery, Vision function.
+
+03:51:37.000 --> 03:51:43.000
+Como el robo. Como el estado del mundo. Y actualizo mi estado del mundo.
+
+03:51:43.000 --> 03:51:53.000
+De la opciones. ¿cierto? Tomo el estado del mundo. Tomo las intenciones que estoy ejecutando ahora y digo qué cosas yo podría hacer de las que están acá.
+
+03:51:53.000 --> 03:52:03.000
+Filter. Tomo. Los deseos, intenciones y el estado del mundo. Y digo, está de toda esta.
+
+03:52:03.000 --> 03:52:09.000
+Deseo. Esta es la que hoy ejecutar. Y para ejecutar estas intenciones.
+
+03:52:09.000 --> 03:52:15.000
+Planifico y ejecutó, y voy haciendo el loop en un.
+
+03:52:15.000 --> 03:52:19.000
+En un en un bucle. Continuo.
+
+03:52:19.000 --> 03:52:26.000
+Les cuento. Creo que con esto estamos más o menos. Reconozco que aceleré. O sea, puse, apto.
+
+03:52:26.000 --> 03:52:32.000
+De mi cosecha, pero creo que ya con esto ustedes deberían.
+
+03:52:32.000 --> 03:52:39.000
+Quedar con una mejor sensación, feeling. ¿cómo va siendo 1? Esto.
+
+03:52:39.000 --> 03:52:47.000
+En la próxima clase. Vamos a seguir con. Las arquitecturas reactivas.
+
+03:52:47.000 --> 03:52:53.000
+Yeah, y esto mismo se los voy a pedir. No perdón antes que tengo otro ejemplo más.
+
+03:52:53.000 --> 03:52:58.000
+El sistema de abastecimiento en línea. Vamos a hacer esto mismo la próxima clase.
+
+03:52:58.000 --> 03:53:01.000
+Ya, y después vamos a ir a la, a las.
+
+03:53:01.000 --> 03:53:10.000
+Arquitectura reactiva. Vamos a hacer lo mismo con el fecho robotix, y les voy a mostrar una simulación.
+
+03:53:10.000 --> 03:53:14.000
+Que tengo de esto, que está acá para que vean que, efectivamente.
+
+03:53:14.000 --> 03:53:21.000
+Funciona y vamos a terminar con la arquitectura. Híbridas para gente y.
+
+03:53:21.000 --> 03:53:27.000
+Generativo, y con eso terminaríamos este segundo gran bloque. Cierto que son la arquitectura.
+
+03:53:27.000 --> 03:53:32.000
+Para gente, y de ahí nos metemos en sistemas multi agentes donde.
+
+03:53:32.000 --> 03:53:36.000
+Vamos a pedirle ayuda a. Alejándolo. ¿cierto? Paz.
+
+03:53:36.000 --> 03:53:43.000
+Ver negociaciones, etcétera, etcétera. Y les agradezco que hace 2 min.
+
+03:53:43.000 --> 03:53:48.000
+Más cierto la paciencia que tienen. Todos estamos súper agotados. Así que.
+
+03:53:48.000 --> 03:53:52.000
+Chao. Nos vemos el próximo. Próximo lunes mañana. Entonces le subo los vídeos de estos.
+
+03:53:52.000 --> 03:53:56.000
+Okay.
+
+03:53:56.000 --> 03:54:01.000
+Y pongo Isabel, Uno.
+
+03:54:01.000 --> 03:54:04.000
+Correct. Gracias. Chao. Chao, los que están en línea.
+
+03:54:04.000 --> 03:54:07.000
+Estaba profeta. Sir.
+
+03:54:07.000 --> 03:54:08.000
+Don't know in hoy día. Oh!
+
+03:54:08.000 --> 03:54:10.000
+Okay. No. Problem.
+
+03:54:10.000 --> 03:54:11.000
+Thank you.
+
+03:54:11.000 --> 03:54:24.000
+Churchill, nos vemos.
+

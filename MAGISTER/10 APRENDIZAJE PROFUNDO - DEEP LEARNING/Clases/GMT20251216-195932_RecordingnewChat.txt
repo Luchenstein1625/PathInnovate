@@ -1,0 +1,7 @@
+01:23:06	Mauricio A. Valle:	1. Modifique la primera parte de la generación de muestras sintéticas, para que ambos clusters queden solapados (averigue en Internet cómo hacerlo). Luego vuelva a correr entrenar el perceptrón con los nuevo datos. Grafique el decision boundary. Explique qué sucede.
+2. Modifique la función 'perceptron' para que además vaya almacenando la función de pérdida en cada iteración.
+3. Para los más computines. Modifique la función para que vaya registrando la evolución de los parámetros a lo largo de las iteraciones.
+01:25:15	Mauricio A. Valle:	print(f"Tasa de mal clasificados es: {miss_l[len(miss_l)-1 ] / m:.3f}")
+01:51:58	Mauricio A. Valle:	https://github.com/MAValle/deepLearning_intro_course
+01:57:59	Mauricio A. Valle:	model.predict(np.array([[2.5]]))
+01:58:06	SERGIO CONTARDO RODRIGUEZ:	import numpy as npmodel.predict(np.array([2.5]))

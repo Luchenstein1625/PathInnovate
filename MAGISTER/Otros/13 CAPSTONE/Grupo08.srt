@@ -1,0 +1,2264 @@
+1
+00:00:02,770 --> 00:00:03,610
+Ya, profesor.
+
+2
+00:00:19,180 --> 00:00:22,700
+Ya. Primero, pasemos a asistencia a Luis y Rodrigo, online.
+
+3
+00:00:23,540 --> 00:00:24,000
+¿Hay otra voz?
+
+4
+00:00:24,880 --> 00:00:25,780
+Ya. Súper.
+
+5
+00:00:31,180 --> 00:00:35,100
+Muy buenas tardes. Vamos a presentar Performance Intelligence Copilot,
+
+6
+00:00:35,300 --> 00:00:39,020
+un proyecto desarrollado para Banco BSI dentro del Magisterio de Inteligencia Artificial.
+
+7
+00:00:39,520 --> 00:00:44,240
+Nosotros somos el Grupo 8, integrado por Luis Araya, Rodrigo González y Hernán Medina.
+
+8
+00:00:45,160 --> 00:00:49,360
+El objetivo de esta propuesta es aplicar inteligencia artificial para automatizar el análisis
+
+9
+00:00:49,360 --> 00:00:53,180
+y acelerar decisiones sobre pruebas de rendimiento computacional.
+
+10
+00:00:56,330 --> 00:00:57,550
+Contexto y evolución de proyecto.
+
+11
+00:00:58,310 --> 00:01:02,010
+Para entender el proyecto, partamos por la operación bancaria.
+
+12
+00:01:02,470 --> 00:01:08,170
+En Banco BSI los clientes acceden a servicios financieros a través de canales web, aplicaciones móviles y API.
+
+13
+00:01:08,990 --> 00:01:13,830
+Todos estos canales deben responder de forma continua, estable y rápida.
+
+14
+00:01:13,830 --> 00:01:26,890
+La capacidad que permite garantizar esta estabilidad antes de liberar un cambio a producción son las pruebas de rendimiento, las cuales miden tiempos de respuesta, tasas de errores y principalmente capacidades de carga.
+
+15
+00:01:28,050 --> 00:01:30,830
+Este proyecto tuvo una evolución importante en la primera presentación.
+
+16
+00:01:31,610 --> 00:01:39,010
+Nosotros planteamos predecir la capacidad y la infraestructura cloud, pero era un enfoque demasiado amplio para la data que nosotros teníamos disponible como equipo.
+
+17
+00:01:39,010 --> 00:02:00,610
+Por eso reorientamos el proyecto hacia algo más concreto, un copiloto para analizar pruebas ejecutadas en Gatling, esto es súper importante, que es la herramienta corporativa usada para simular cargas de usuarios, integrando configuraciones, resultados e historia para poder entregar una recomendación explicable al equipo que esté ejecutando la prueba.
+
+18
+00:02:00,610 --> 00:02:12,610
+Así llegamos al problema real, donde la prueba se ejecuta de forma automatizada, pero preparar la evidencia, interpretarla y acordar la siguiente acción sigue requiriendo tiempo y criterio humano especializado.
+
+19
+00:02:12,610 --> 00:02:34,620
+El problema de negocio. Este problema tiene una magnitud operativa concreta. El equipo técnico procesa actualmente 330 casos de pruebas en Gatling al mes repartido por 11 pipelines activos, alcanzando más o menos 3.960 casos o ejecuciones de escenario al año.
+
+20
+00:02:34,620 --> 00:02:51,120
+El costo de este desarrollo técnico por prueba llega a 34,5 unidades de fomento por ciclo completo. De ese esfuerzo, el 86% se concentra en la automatización con 19,8 UF y la mantención con 9,9 UF.
+
+21
+00:02:51,120 --> 00:02:56,880
+sin embargo el cuello de botella recurrente está en la operación directa
+
+22
+00:02:56,880 --> 00:03:00,840
+el diseño de una prueba de estrés la verdad es que tiene dos ámbitos
+
+23
+00:03:00,840 --> 00:03:07,180
+primero se requiere el diseño que requiere 2,4 UF y la ejecución de la misma prueba son 2,4 UF más
+
+24
+00:03:07,180 --> 00:03:14,760
+sumando un total de 4,8 UF por prueba de estrés aproximadamente 180 mil pesos por caso
+
+25
+00:03:14,760 --> 00:03:18,760
+a multiplicarlo por las 3.960 pruebas anuales que se generan
+
+26
+00:03:18,760 --> 00:03:25,640
+Este esfuerzo operativo directo acumula 19.000 UEF aproximadamente al año, cerca de 718 millones de pesos.
+
+27
+00:03:26,160 --> 00:03:33,020
+Ahí se enfoca nuestro copiloto en liberar tiempo de interpretación y análisis manual de esa operación directa.
+
+28
+00:03:36,380 --> 00:03:41,620
+En cuanto a lo que sería el objetivo, alcance y CAPEI frente a esta problemática,
+
+29
+00:03:41,880 --> 00:03:46,480
+el objetivo general es integrar configuración, resultados, sectorial de Gatling
+
+30
+00:03:46,480 --> 00:03:51,140
+para recomendar la siguiente acción técnica con trazabilidad y evaluación humana.
+
+31
+00:03:51,700 --> 00:03:55,420
+pasando de horas a minutos. Estos esos tienen tres pilares fundamentales.
+
+32
+00:03:56,020 --> 00:03:59,080
+Por un lado tenemos un pipeline confiable para lo que sería la ingesta de data,
+
+33
+00:03:59,980 --> 00:04:04,120
+un motor explicable para dar recomendaciones de mantener, revisar o evolucionar,
+
+34
+00:04:04,700 --> 00:04:07,440
+y una evaluación controlada sin sobreajustes.
+
+35
+00:04:08,420 --> 00:04:13,240
+Para medir el éxito, decidimos cinco indicadores sobre el conjunto de variables operacionales,
+
+36
+00:04:13,240 --> 00:04:21,500
+llamado Operational Core. La cobertura alcanzó un 96,6%, superando la meta que teníamos en inicio, un 95%.
+
+37
+00:04:21,500 --> 00:04:29,380
+El macro F1 operacional, es decir, la métrica que evalúa la precisión equilibrada entre todas las categorías sin dejarse acercar por la más frecuente,
+
+38
+00:04:30,060 --> 00:04:35,520
+llegó a un 0,5187, cumpliendo la meta mayor o igual a 0,55.
+
+39
+00:04:36,640 --> 00:04:41,940
+El balance acuración operacional, la tasa promedio de acertos por clase, logró un 0,62.
+
+40
+00:04:43,000 --> 00:04:48,820
+La desviación estándar del macro F1 fue de 0,1738, lo que está dentro del límite de 0,20.
+
+41
+00:04:48,820 --> 00:04:53,120
+y la mejora sobre el baseline fue 0,1820.
+
+42
+00:04:53,980 --> 00:04:57,220
+El alcance de la prueba de concepto entrega recomendaciones explicables
+
+43
+00:04:57,220 --> 00:05:01,320
+no modifica ni ejecuta pruebas sin aprobación humana, lo cual es clave.
+
+44
+00:05:01,800 --> 00:05:07,840
+En cuanto a la metodología y arquitectura,
+
+45
+00:05:08,940 --> 00:05:13,220
+para esto diseñamos un flujo híbrido que va desde la evidencia hasta la decisión trazable.
+
+46
+00:05:13,760 --> 00:05:15,900
+En el diagrama observamos cuatro bloques activos,
+
+47
+00:05:16,540 --> 00:05:18,340
+entrada con configuración y métricas,
+
+48
+00:05:19,080 --> 00:05:20,880
+preparación con normalización y etiquetado,
+
+49
+00:05:20,880 --> 00:05:23,340
+inteligencia contraiglas y motion learning
+
+50
+00:05:23,340 --> 00:05:26,440
+lo que tendría que ser la salida con la recomendación explicable
+
+51
+00:05:26,440 --> 00:05:29,940
+aquí la API de recomendaciones e interfaz visual
+
+52
+00:05:29,940 --> 00:05:32,980
+se muestran como evolución objetiva futura
+
+53
+00:05:32,980 --> 00:05:36,080
+en lo que sería la metodología explícita
+
+54
+00:05:36,080 --> 00:05:39,900
+las entradas son configuración, métricas assertion
+
+55
+00:05:39,900 --> 00:05:42,440
+es decir, las validaciones automáticas que confirman
+
+56
+00:05:42,440 --> 00:05:43,860
+si la prueba cumple sus criterios
+
+57
+00:05:43,860 --> 00:05:46,720
+y warning count o control de advertencia
+
+58
+00:05:46,720 --> 00:05:50,320
+la variable objetivo es recommendation actions
+
+59
+00:05:50,320 --> 00:06:05,240
+Por un lado, el modelo base es un decision tree classifier, un árbol de decisión que divide los datos mediante condiciones lógicas, configurado con profundidad 4, y pesos de clase balanceados para que las categorías menos frecuentes no queden invisibles.
+
+60
+00:06:06,640 --> 00:06:17,200
+Las reglas expertas generan la etiqueta objetiva. El variante Operational Core excluye assertions y warnings para medir la generalización operativa real.
+
+61
+00:06:18,180 --> 00:06:23,360
+La evaluación usó 30 particiones de validación cruzada estatificada con 25% de prueba.
+
+62
+00:06:28,040 --> 00:06:33,600
+Y por un lado, en cuanto a lo que sería la descripción y visualización, caracterizamos el data a ser validado.
+
+63
+00:06:34,400 --> 00:06:38,260
+Debemos señalar con claridad una limitación estadística fundamental.
+
+64
+00:06:38,260 --> 00:06:46,620
+La muestra útil es pequeña y consta de 28 registros consolidados tras omitir un duplicado de 29 ejecuciones realizadas.
+
+65
+00:06:46,620 --> 00:06:56,740
+La distribución de clases está desbalanceada, con 20 casos de evolucionar y 8 de revisar, además del descarte de la columna del percentil 90 por espermación.
+
+66
+00:06:57,600 --> 00:07:07,760
+Las variables cumplen roles específicos. La tasa de error es la señal operacional, la latencia es el percentil 95 y el tiempo de respuesta es el 95% de solicitudes.
+
+67
+00:07:07,760 --> 00:07:13,200
+El margen SLA es una variable derivada que expresa la derecha frente al límite acordado
+
+68
+00:07:13,200 --> 00:07:16,960
+y las acertas y fallidas indican reglas técnicas incumplidas
+
+69
+00:07:16,960 --> 00:07:22,160
+Los datos provienen de 30 carpetas de pruebas repartidas en 11 microservicios
+
+70
+00:07:22,160 --> 00:07:27,300
+y con 28 datos no buscamos demostrar la generalización en un universo distinto
+
+71
+00:07:27,300 --> 00:07:31,620
+sino acreditar lo que sería la calidad, limpieza y procedencia de la muestra
+
+72
+00:07:31,620 --> 00:07:37,980
+para poder fundamentar lo que serían las pruebas de concepto
+
+73
+00:07:37,980 --> 00:07:41,020
+En cuanto a lo que sería la exploración multivariable,
+
+74
+00:07:41,920 --> 00:07:45,400
+allí exploramos las variables para validar las señales dentro de la muestra,
+
+75
+00:07:45,880 --> 00:07:47,580
+la tasa de error si separa la clase,
+
+76
+00:07:48,420 --> 00:07:50,900
+y los casos de revisión concentran los errores más altos,
+
+77
+00:07:51,160 --> 00:07:53,140
+mientras los de evolución permanecen cerca de cero.
+
+78
+00:07:54,300 --> 00:07:58,760
+Allí el margen entre el percentil 95 y el SLA también distingue el cumplimiento,
+
+79
+00:07:59,220 --> 00:08:02,720
+desplazándose a valores positivos cuando la latencia supera el límite establecido.
+
+80
+00:08:03,720 --> 00:08:07,160
+En lo que serían las falladas, Sertion, muestra una distribución asimétrica,
+
+81
+00:08:07,160 --> 00:08:08,720
+que se concentra en pocos casos.
+
+82
+00:08:09,760 --> 00:08:12,460
+Aquí confirmamos que las reglas técnicas pesan, aunque parezca poco.
+
+83
+00:08:13,900 --> 00:08:17,880
+Por su parte, la matriz de correlación demuestra que las variables proxys se mueven juntas,
+
+84
+00:08:18,340 --> 00:08:19,560
+reflejando coherencia interna.
+
+85
+00:08:20,600 --> 00:08:25,640
+En conclusión de esto, esta exploración nos demostró que las señales ayudan a separar clases en esta muestra,
+
+86
+00:08:26,220 --> 00:08:30,620
+aunque su comportamiento fuera el motor de reglas debe seguir validándose a futuro con matadas.
+
+87
+00:08:34,950 --> 00:08:38,730
+En cuanto a los ETLs y el procesamiento de ingeniería de atributos,
+
+88
+00:08:38,730 --> 00:08:42,810
+Construir un proceso de preparación de datos auditable en cuatro pasos
+
+89
+00:08:42,810 --> 00:08:47,530
+Primero, filtrar columnas válidas eliminando metadatos que no utilizaremos
+
+90
+00:08:47,530 --> 00:08:49,350
+Y la variable vacía del percentil
+
+91
+00:08:49,350 --> 00:08:51,050
+O sea, datos vacíos también no eliminamos
+
+92
+00:08:51,050 --> 00:08:55,510
+Segundo, imputar valores faltantes usando la mediana en variables numéricas
+
+93
+00:08:55,510 --> 00:08:58,050
+Y una categoría explícita en cualitativas
+
+94
+00:08:58,050 --> 00:09:03,390
+Tercero, codificar variables categóricas con Watched Coding
+
+95
+00:09:03,390 --> 00:09:07,870
+Técnica que transforma categorías en columnas bilarias absolutas de 0 y 1
+
+96
+00:09:07,870 --> 00:09:10,950
+Y cuarto, entrenar el árbol de decisión.
+
+97
+00:09:11,850 --> 00:09:15,710
+En ingeniería de atributos, creamos la variable SLA-MARGIN-MS.
+
+98
+00:09:16,710 --> 00:09:24,470
+Restando la latencia del 95% del objetivo estricto, un resultado positivo indica incumplimiento.
+
+99
+00:09:24,610 --> 00:09:32,230
+Es decir, al SLA establecido que se mencionó antes, la brecha que se estableció en lo que mencionó Rodrigo recién, se le resta este porcentaje.
+
+100
+00:09:32,230 --> 00:09:51,230
+Como controles metodológicos, no aplicamos un detector automático de autenticidad para conservar ejecuciones reales de la banca, y excluimos acechons y metadatos en Operational Core para evitar que haya fugada de información, que hace que el modelo memorice la respuesta en lugar de aprender los patrones generales.
+
+101
+00:09:51,230 --> 00:10:03,550
+¿Qué aporta el árbol hoy en día?
+
+102
+00:10:05,550 --> 00:10:11,410
+Al elaborar el árbol entrenado, las variantes que incluyen variables cercanas a las reglas all features
+
+103
+00:10:11,410 --> 00:10:15,510
+alcanzan un macro 1, F1 de 1
+
+104
+00:10:15,510 --> 00:10:17,050
+¿Esto qué quiere decir?
+
+105
+00:10:17,050 --> 00:10:23,050
+Las macro F1 son las que nos indican en Machine Learning si el modelo es exhaustivo
+
+106
+00:10:23,050 --> 00:10:24,910
+y es preciso en lo que va a entregar
+
+107
+00:10:24,910 --> 00:10:30,290
+entonces si es 1, esto va a hacer que el modelo no responda por defecto en memoria
+
+108
+00:10:30,290 --> 00:10:33,290
+es por ello que volvimos a correr este modelo
+
+109
+00:10:33,290 --> 00:10:37,610
+y lo aplicamos con el conjunto de reglas operacionales
+
+110
+00:10:37,610 --> 00:10:39,890
+y el desempeño bajó a 0,95
+
+111
+00:10:39,890 --> 00:10:43,490
+mostrando que la señal puramente operativa es más compleja por sí sola
+
+112
+00:10:43,490 --> 00:10:46,950
+al analizar la importancia de variables aprendidas por el árbol
+
+113
+00:10:46,950 --> 00:10:52,090
+sin proxys, es decir, sin variables próximas que nos inflen esta información
+
+114
+00:10:52,090 --> 00:10:55,850
+observamos que el modelo atorga un 50% de peso a la tasa de error
+
+115
+00:10:55,850 --> 00:10:58,950
+y otro 50% al tiempo mínimo de respuesta
+
+116
+00:10:58,950 --> 00:11:01,330
+esto confirma que el porcentaje de falla y la latencia
+
+117
+00:11:01,330 --> 00:11:05,530
+son variables importantes dentro de la muestra y dentro de la clasificación
+
+118
+00:11:05,530 --> 00:11:15,040
+en cuanto a la evaluación del modelo
+
+119
+00:11:15,040 --> 00:11:17,800
+profundizando en la evaluación de los 28 casos
+
+120
+00:11:17,800 --> 00:11:20,080
+bajo 30 particiones estratíficas
+
+121
+00:11:20,080 --> 00:11:24,180
+la variante operacional CORE obtiene 0,5
+
+122
+00:11:24,180 --> 00:11:26,620
+mientras que las otras variables
+
+123
+00:11:26,620 --> 00:11:33,640
+el balance y el F1 nos muestran claramente que el modelo es capaz de detectar
+
+124
+00:11:33,640 --> 00:11:39,940
+o identificar incluso los bloques pequeños de información para estratificarlos,
+
+125
+00:11:40,840 --> 00:11:43,540
+no solo los que se repiten más dentro de la base.
+
+126
+00:11:44,440 --> 00:11:51,500
+Al compararlo con el baseline mayoritario, que este clasifica solo los que encuentran más repetidos,
+
+127
+00:11:51,640 --> 00:11:55,120
+se confirma que nuestro modelo aporta un valor predictivo real sobre la casa minoritaria.
+
+128
+00:11:56,620 --> 00:11:58,080
+Y en cuanto al gráfico nos muestra lo mismo.
+
+129
+00:11:58,620 --> 00:12:04,840
+Si se ven las clases por separado, con todos los features y con los proxys, que son los dos primeros,
+
+130
+00:12:05,320 --> 00:12:09,820
+nos entregan una clase cercana a uno, que es decir, que con esa variable podríamos definir las otras,
+
+131
+00:12:10,260 --> 00:12:17,640
+pero en cambio cuando tenemos el correctional score, ese valor disminuye porque este va a identificar todas las clases que estén dentro de la base.
+
+132
+00:12:19,530 --> 00:12:22,470
+Aquí quiero mostrar un ejemplo pequeño de cómo se ejecutaría esto.
+
+133
+00:12:22,470 --> 00:12:31,470
+nosotros obtenemos los resultados de las pruebas, hacemos la ingesta, el árbol de decisión y el machine learning analiza toda esta información y genera esta recomendación.
+
+134
+00:12:31,790 --> 00:12:42,210
+¿Y qué ocurre en el pipeline? En el pipeline durante la ejecución va a enviar esta alerta al equipo de CUA para que haga su probación y revise lo que se está presentando ahí de acuerdo a la clasificación que definimos.
+
+135
+00:12:46,000 --> 00:12:51,700
+En el impacto operativo, la situación actual demanda 4.8 EFs por prueba entre diseño y ejecución.
+
+136
+00:12:51,700 --> 00:12:56,260
+Con el copiloto de la preparación analítica y recomendación se automatiza en minutos
+
+137
+00:12:56,260 --> 00:12:59,200
+entre evidencia explicable al equipo de CUA para probar con mayor rapidez.
+
+138
+00:12:59,840 --> 00:13:06,140
+La base histórica anal de esta operación directa suma 19.000 UEFs, unos 718 millones de pesos,
+
+139
+00:13:07,080 --> 00:13:10,840
+al igual que los 3.960 casos al año.
+
+140
+00:13:11,760 --> 00:13:16,320
+Bajo un escenario preliminar con supuestos del 50% de cobertura y 75% de reducción en esfuerzo,
+
+141
+00:13:16,320 --> 00:13:23,360
+El impacto estima unos 7.000 UF de reducción, es decir, estaría ahorrando unos 270 millones de pesos.
+
+142
+00:13:23,980 --> 00:13:28,980
+Supongamos que es un supuesto porque esto debemos aplicar este piloto en algo real aún.
+
+143
+00:13:30,520 --> 00:13:34,320
+Y como conclusión, para finalizar la prueba de concepto,
+
+144
+00:13:35,160 --> 00:13:39,220
+transforma salidas no estructuradas de Gatling en datos procesables
+
+145
+00:13:39,220 --> 00:13:42,780
+y demuestra que un árbol interpretable puede aprender las decisiones del motor experto.
+
+146
+00:13:42,960 --> 00:13:46,180
+Al limitar el núcleo presional, supera al baseline.
+
+147
+00:13:46,320 --> 00:13:48,040
+y fija una base explicable.
+
+148
+00:13:48,420 --> 00:13:50,720
+Los próximos pasos contemplan variar las recomendaciones
+
+149
+00:13:50,720 --> 00:13:53,240
+directamente con especialistas de rendimiento del banco,
+
+150
+00:13:53,700 --> 00:13:55,960
+ampliar el dataset histórico con nuevos etiquetados
+
+151
+00:13:55,960 --> 00:13:58,760
+y medir el tipo de respuestas reales de análisis del piloto.
+
+152
+00:13:59,360 --> 00:14:00,860
+Este proyecto entrega una base sólida
+
+153
+00:14:00,860 --> 00:14:02,960
+para decisiones de rendimiento más consistente y agil en B6.
+
+154
+00:14:03,520 --> 00:14:05,140
+Muchas gracias por su atención.
+
+155
+00:14:08,450 --> 00:14:09,270
+Bien, muchas gracias.
+
+156
+00:14:13,190 --> 00:14:15,350
+Vamos con...
+
+157
+00:14:16,110 --> 00:14:16,930
+Es buena la intro.
+
+158
+00:14:16,930 --> 00:14:18,950
+creo que en la lámina
+
+159
+00:14:18,950 --> 00:14:19,830
+2
+
+160
+00:14:19,830 --> 00:14:23,250
+porque cada vez van a tener menos tiempo para poder hacer la intro
+
+161
+00:14:23,250 --> 00:14:24,210
+entonces
+
+162
+00:14:24,210 --> 00:14:26,770
+salvo en la defensa donde van a tener
+
+163
+00:14:26,770 --> 00:14:27,830
+un poco más de espacio pero
+
+164
+00:14:27,830 --> 00:14:30,810
+en la presentación 3 vería alguna forma
+
+165
+00:14:30,810 --> 00:14:32,730
+de mezclar la 2 con la 3
+
+166
+00:14:32,730 --> 00:14:34,670
+básicamente se entiende
+
+167
+00:14:34,670 --> 00:14:36,770
+la idea de la lámina 2 de que hay que
+
+168
+00:14:36,770 --> 00:14:38,010
+hacer
+
+169
+00:14:38,010 --> 00:14:40,030
+estas pruebas etcétera
+
+170
+00:14:40,030 --> 00:14:42,770
+pero falta como el orden de
+
+171
+00:14:42,770 --> 00:14:44,970
+magnitud que es lo que está en la lámina 3
+
+172
+00:14:44,970 --> 00:14:46,030
+que ustedes después ponen hoy
+
+173
+00:14:46,030 --> 00:14:48,130
+mira, si es que pueden ir a la lámina 3
+
+174
+00:14:48,130 --> 00:14:50,110
+esta es la cantidad de pruebas por año
+
+175
+00:14:50,110 --> 00:14:51,990
+este es lo que nos cuesta, entonces vean
+
+176
+00:14:51,990 --> 00:14:54,090
+alguna forma de poder tomar alguno de estos
+
+177
+00:14:54,090 --> 00:14:55,770
+datos, eso y ponerlo
+
+178
+00:14:55,770 --> 00:14:58,210
+en verdad nosotros hacemos hartas pruebas
+
+179
+00:14:58,210 --> 00:15:00,210
+y cada una
+
+180
+00:15:00,210 --> 00:15:01,990
+de esas pruebas nos cuesta esto y en caso
+
+181
+00:15:01,990 --> 00:15:04,070
+que las pruebas se retracen, eso impacta
+
+182
+00:15:04,070 --> 00:15:06,110
+directamente a la capacidad
+
+183
+00:15:06,110 --> 00:15:07,890
+del negocio de seguir
+
+184
+00:15:07,890 --> 00:15:09,290
+innovando, una cosa de ese estilo
+
+185
+00:15:09,290 --> 00:15:11,970
+vamos a la lámina 4 que es la del
+
+186
+00:15:11,970 --> 00:15:13,950
+objetivo, y aquí me parece que todavía
+
+187
+00:15:13,950 --> 00:15:15,230
+hay trabajo que hacer
+
+188
+00:15:15,230 --> 00:15:24,670
+lo que pasa es que ahí no teníamos determinado
+
+189
+00:15:24,670 --> 00:15:26,550
+qué tipo de KPIs buscamos, entonces los KPIs
+
+190
+00:15:26,550 --> 00:15:28,150
+que buscamos o que pusimos ahí
+
+191
+00:15:28,150 --> 00:15:30,330
+son relacionados todo a temas de
+
+192
+00:15:30,330 --> 00:15:31,610
+machine learning, entonces por ejemplo
+
+193
+00:15:31,610 --> 00:15:34,130
+el de cobertura
+
+194
+00:15:34,130 --> 00:15:36,510
+mide cuánto de los
+
+195
+00:15:36,510 --> 00:15:38,370
+datos que nosotros teníamos estaban correctos
+
+196
+00:15:38,370 --> 00:15:39,590
+como para parecer procesados
+
+197
+00:15:39,590 --> 00:15:41,630
+el operacional
+
+198
+00:15:41,630 --> 00:15:44,750
+pero voy a conversar de los objetivos antes de que
+
+199
+00:15:44,750 --> 00:15:48,290
+Esos KPIs todavía son secundarios, pero hablemos primero de los objetivos.
+
+200
+00:15:48,290 --> 00:15:54,990
+Entonces, este integrar configuración, resultados e historial para recomendar la siguiente acción técnica,
+
+201
+00:15:55,790 --> 00:16:00,650
+es como que hace mucho énfasis en la integración de datos, que son muy poquitos datos.
+
+202
+00:16:01,090 --> 00:16:05,850
+Entonces, creo que tienen que reestructurar ese objetivo general.
+
+203
+00:16:06,230 --> 00:16:10,610
+Y solo para entender, ¿qué sería la acción técnica, la siguiente acción técnica?
+
+204
+00:16:10,610 --> 00:16:14,830
+Ahí está la aprobación
+
+205
+00:16:14,830 --> 00:16:16,670
+del mismo CUA, porque nosotros
+
+206
+00:16:16,670 --> 00:16:18,070
+vamos a entregar esta recomendación
+
+207
+00:16:18,070 --> 00:16:20,310
+con la idea de, más adelante, entregar
+
+208
+00:16:20,310 --> 00:16:22,370
+la prueba lista y que ellos aprueben
+
+209
+00:16:22,370 --> 00:16:24,490
+o revisen lo que se está entrando
+
+210
+00:16:24,490 --> 00:16:26,990
+porque, esencialmente
+
+211
+00:16:26,990 --> 00:16:29,330
+lo que pasa en las pruebas es que
+
+212
+00:16:29,330 --> 00:16:31,390
+o se subdimensionan
+
+213
+00:16:31,390 --> 00:16:33,110
+las pruebas, se generan pruebas
+
+214
+00:16:33,110 --> 00:16:34,950
+que no son el objetivo
+
+215
+00:16:34,950 --> 00:16:36,470
+de los TPS o de la
+
+216
+00:16:36,470 --> 00:16:38,950
+EWSLA del banco, entonces las pruebas siempre
+
+217
+00:16:38,950 --> 00:16:40,890
+pasan como correcta. Y al momento
+
+218
+00:16:40,890 --> 00:16:42,530
+de pasar a producción, empiezan a fallar.
+
+219
+00:16:44,450 --> 00:16:46,210
+Entonces la idea es que esta revisión histórica
+
+220
+00:16:46,210 --> 00:16:51,630
+les indica a ellos
+
+221
+00:16:51,630 --> 00:16:52,830
+que esta prueba
+
+222
+00:16:52,830 --> 00:16:54,690
+nos deja acorde a lo que se necesita del banco.
+
+223
+00:16:55,250 --> 00:16:56,970
+Entonces ese es el tránsito que ustedes tienen.
+
+224
+00:16:56,970 --> 00:16:58,710
+Como las pruebas que son acorde
+
+225
+00:16:58,710 --> 00:17:00,490
+y las pruebas que no son acorde. ¿Eso?
+
+226
+00:17:02,610 --> 00:17:03,130
+Sí.
+
+227
+00:17:03,830 --> 00:17:07,170
+Y tienen 28 pruebas. Eso es lo que entendí.
+
+228
+00:17:07,170 --> 00:17:09,010
+Tienen 28 pruebas, de las cuales
+
+229
+00:17:09,010 --> 00:17:12,050
+20 son acorde y 8 son no acorde
+
+230
+00:17:12,050 --> 00:17:12,990
+¿Esa es la distribución?
+
+231
+00:17:14,070 --> 00:17:14,910
+Claro, sí
+
+232
+00:17:14,910 --> 00:17:19,620
+Pero es que ustedes no van a
+
+233
+00:17:19,620 --> 00:17:21,320
+Eso es lo que me cuesta entender
+
+234
+00:17:21,320 --> 00:17:23,020
+Ustedes no van a hacer una recomendación
+
+235
+00:17:23,020 --> 00:17:25,520
+De cuál es la siguiente decisión técnica
+
+236
+00:17:25,520 --> 00:17:26,760
+Ustedes lo que van a decir es
+
+237
+00:17:26,760 --> 00:17:29,400
+¿Esta prueba es acorde o no es acorde?
+
+238
+00:17:30,060 --> 00:17:31,820
+¿Cómo sería la siguiente
+
+239
+00:17:31,820 --> 00:17:33,660
+Decisión técnica?
+
+240
+00:17:34,480 --> 00:17:36,260
+Por esta etapa
+
+241
+00:17:36,260 --> 00:17:37,540
+De esta presentación
+
+242
+00:17:37,540 --> 00:17:39,580
+del proyecto
+
+243
+00:17:39,580 --> 00:17:41,580
+hoy, pero la idea es que esto también entregue
+
+244
+00:17:41,580 --> 00:17:43,760
+la prueba que debería ejecutarse
+
+245
+00:17:43,760 --> 00:17:45,840
+para que cumpla con las condiciones
+
+246
+00:17:45,840 --> 00:17:49,840
+Ah, ya, pero entonces ahí hay un problema
+
+247
+00:17:49,840 --> 00:17:51,500
+el objetivo general tiene que ser
+
+248
+00:17:51,500 --> 00:17:53,640
+el objetivo general del proyecto, no el objetivo
+
+249
+00:17:53,640 --> 00:17:54,760
+de lo que tienen hasta ahora
+
+250
+00:17:54,760 --> 00:17:55,860
+entonces
+
+251
+00:17:55,860 --> 00:17:59,980
+hay un problema quizás
+
+252
+00:17:59,980 --> 00:18:00,820
+sí, el objetivo
+
+253
+00:18:00,820 --> 00:18:05,420
+el objetivo general
+
+254
+00:18:05,420 --> 00:18:07,640
+y todos los objetivos específicos
+
+255
+00:18:07,640 --> 00:18:10,160
+son del proyecto completo, no de lo que llevan
+
+256
+00:18:10,160 --> 00:18:12,080
+hasta ahora, no es que en cada
+
+257
+00:18:12,080 --> 00:18:13,720
+presentación tengan que ir cambiando
+
+258
+00:18:13,720 --> 00:18:15,300
+entonces ya, eso es lo que
+
+259
+00:18:15,300 --> 00:18:17,820
+eso creo que soluciona parte del problema, tienen que
+
+260
+00:18:17,820 --> 00:18:19,980
+reconfigurar los objetivos específicos
+
+261
+00:18:19,980 --> 00:18:22,020
+entonces después, ese pipeline
+
+262
+00:18:22,020 --> 00:18:23,880
+confiable, sáquenlo
+
+263
+00:18:23,880 --> 00:18:25,240
+dale Hernán
+
+264
+00:18:25,240 --> 00:18:28,140
+no, claro, o sea quería complementar
+
+265
+00:18:28,140 --> 00:18:30,100
+un poco lo que está diciendo Luis, el objetivo de esto
+
+266
+00:18:30,100 --> 00:18:31,200
+final, final, final
+
+267
+00:18:31,200 --> 00:18:33,580
+es justamente hoy día
+
+268
+00:18:33,580 --> 00:18:35,040
+en el escenario en el que estamos
+
+269
+00:18:35,040 --> 00:18:37,200
+estamos tomando la data histórica del
+
+270
+00:18:37,200 --> 00:18:39,420
+baseline, ¿cierto? Y estamos determinando
+
+271
+00:18:39,420 --> 00:18:41,380
+si una nueva prueba
+
+272
+00:18:41,380 --> 00:18:42,300
+cumple o no cumple.
+
+273
+00:18:43,220 --> 00:18:45,000
+Listo. El objetivo final
+
+274
+00:18:45,000 --> 00:18:46,920
+es eso y además poder
+
+275
+00:18:46,920 --> 00:18:48,460
+entregarle al analista
+
+276
+00:18:48,460 --> 00:18:51,000
+las configuraciones de capacidades
+
+277
+00:18:51,000 --> 00:18:53,000
+que tiene que tener la prueba programada
+
+278
+00:18:53,000 --> 00:18:54,900
+para que responda al escenario bancario
+
+279
+00:18:54,900 --> 00:18:56,740
+el que está siendo sometido. Por ejemplo, no sé,
+
+280
+00:18:56,820 --> 00:18:59,360
+la cantidad de NO, la cantidad de CPU, el porcentaje,
+
+281
+00:18:59,360 --> 00:19:01,440
+el throughput, latencia, los TPS,
+
+282
+00:19:01,620 --> 00:19:03,340
+etcétera, etcétera, etcétera. ¿Y cómo van a
+
+283
+00:19:03,340 --> 00:19:03,740
+hacer eso?
+
+284
+00:19:06,480 --> 00:19:08,620
+con la ingesta de información
+
+285
+00:19:08,620 --> 00:19:10,300
+que tiene la propia prueba.
+
+286
+00:19:11,560 --> 00:19:13,560
+Pero ustedes tienen un histórico de...
+
+287
+00:19:13,560 --> 00:19:13,920
+Entonces,
+
+288
+00:19:15,560 --> 00:19:17,000
+es como...
+
+289
+00:19:17,000 --> 00:19:19,120
+Ustedes tienen el histórico de las configuraciones de la prueba
+
+290
+00:19:19,120 --> 00:19:21,820
+y si aplica o no aplica.
+
+291
+00:19:22,540 --> 00:19:24,300
+Y después ustedes en la primera etapa van a decir,
+
+292
+00:19:24,740 --> 00:19:26,380
+van a recibir una nueva prueba y van a decir,
+
+293
+00:19:26,500 --> 00:19:27,760
+ah, en verdad, aplica o no aplica.
+
+294
+00:19:28,240 --> 00:19:29,500
+Y después para las que no aplica,
+
+295
+00:19:29,940 --> 00:19:31,800
+van a decir, ah, entonces la configuración
+
+296
+00:19:31,800 --> 00:19:33,880
+debiera ser esta la correcta.
+
+297
+00:19:33,880 --> 00:19:36,480
+¿tienen suficiente información
+
+298
+00:19:36,480 --> 00:19:37,340
+para poder hacer eso?
+
+299
+00:19:38,280 --> 00:19:40,340
+mi única preocupación es que ustedes están trabajando con un data
+
+300
+00:19:40,340 --> 00:19:41,660
+que tiene 28 filas
+
+301
+00:19:41,660 --> 00:19:43,640
+¿sí? y
+
+302
+00:19:43,640 --> 00:19:46,460
+la idea suena buena, creo que tienen que
+
+303
+00:19:46,460 --> 00:19:48,080
+transformar esta conversación que estamos teniendo
+
+304
+00:19:48,080 --> 00:19:49,360
+en el objetivo específico
+
+305
+00:19:49,360 --> 00:19:52,960
+cerramos esa conversación
+
+306
+00:19:52,960 --> 00:19:53,640
+antes de pasar a la otra
+
+307
+00:19:53,640 --> 00:19:55,900
+el pipeline confiable
+
+308
+00:19:55,900 --> 00:19:56,700
+sacaría
+
+309
+00:19:56,700 --> 00:19:59,520
+ese motor explicable
+
+310
+00:19:59,520 --> 00:20:01,360
+que no dice nada
+
+311
+00:20:01,360 --> 00:20:03,200
+digan, primero vamos a construir
+
+312
+00:20:03,200 --> 00:20:05,440
+un modelo de clasificación binario que permite establecer
+
+313
+00:20:05,440 --> 00:20:07,200
+si es que la prueba aplica o no aplica
+
+314
+00:20:07,200 --> 00:20:09,120
+esa es la primera, después la segunda
+
+315
+00:20:09,120 --> 00:20:11,320
+es, ahí sería
+
+316
+00:20:11,320 --> 00:20:13,000
+como la recomendación, que en verdad
+
+317
+00:20:13,000 --> 00:20:15,260
+debería ser como quizás la optimización
+
+318
+00:20:15,260 --> 00:20:17,140
+no sé cómo lo van a hacer, pero ahí después
+
+319
+00:20:17,140 --> 00:20:19,120
+debería ser la recomendación de los
+
+320
+00:20:19,120 --> 00:20:21,300
+parámetros operacionales de la prueba
+
+321
+00:20:21,300 --> 00:20:23,440
+y después un tercer objetivo que es la evaluación
+
+322
+00:20:23,440 --> 00:20:25,240
+¿ya? entonces creo que
+
+323
+00:20:25,240 --> 00:20:26,300
+resumiría el
+
+324
+00:20:26,300 --> 00:20:29,180
+el proyecto
+
+325
+00:20:29,180 --> 00:20:31,020
+de esa forma, yo primero estimo
+
+326
+00:20:31,020 --> 00:20:33,100
+si es que aplica o no aplica, después
+
+327
+00:20:33,100 --> 00:20:35,440
+hago la recomendación de los parámetros
+
+328
+00:20:35,440 --> 00:20:37,100
+o la optimización de los parámetros, ahí tienen que
+
+329
+00:20:37,100 --> 00:20:38,860
+decidir cómo lo van a hacer y después finalmente
+
+330
+00:20:38,860 --> 00:20:40,200
+hago la evaluación, ¿ya?
+
+331
+00:20:41,360 --> 00:20:42,920
+Ya, esa es la primera, entonces
+
+332
+00:20:42,920 --> 00:20:44,080
+ahí hay
+
+333
+00:20:44,080 --> 00:20:46,360
+parte de las preocupaciones
+
+334
+00:20:46,360 --> 00:20:49,320
+resuelta
+
+335
+00:20:49,320 --> 00:20:51,380
+y después van a tener
+
+336
+00:20:51,380 --> 00:20:53,320
+mi preocupación es que tienen esos 28 datos
+
+337
+00:20:53,320 --> 00:20:55,160
+¿ya? y eso va a generar
+
+338
+00:20:55,160 --> 00:20:57,100
+muchísimas preguntas en la defensa, estoy pensando
+
+339
+00:20:57,100 --> 00:20:58,740
+en la defensa, no estoy pensando en la presentación
+
+340
+00:20:58,740 --> 00:21:00,980
+Estoy pensando que la defensa sea muy legal
+
+341
+00:21:00,980 --> 00:21:04,380
+Y van a decir, mira, todo lo que nosotros estamos queriendo hacer
+
+342
+00:21:04,380 --> 00:21:06,060
+Lo hicimos con 28 datos
+
+343
+00:21:06,060 --> 00:21:07,520
+Y ahí van a salir
+
+344
+00:21:07,520 --> 00:21:08,960
+Mil millones y medio de preguntas
+
+345
+00:21:08,960 --> 00:21:11,320
+¿Cuál es el dataset ideal
+
+346
+00:21:11,320 --> 00:21:13,820
+Para presentar en esa fecha?
+
+347
+00:21:14,100 --> 00:21:15,360
+¿Cómo va a reunirlo en este momento?
+
+348
+00:21:15,840 --> 00:21:17,960
+Es que no sé cuántos van a poder tener
+
+349
+00:21:17,960 --> 00:21:19,340
+Y eso es lo que
+
+350
+00:21:19,340 --> 00:21:21,800
+Por eso pondría una alerta
+
+351
+00:21:21,800 --> 00:21:22,420
+Porque
+
+352
+00:21:22,420 --> 00:21:26,140
+No tiene que ver con un volumen como ideal
+
+353
+00:21:26,140 --> 00:21:27,200
+Pero
+
+354
+00:21:27,200 --> 00:21:29,820
+pero ciertamente
+
+355
+00:21:29,820 --> 00:21:31,820
+los modelos estadísticos que van a querer utilizar
+
+356
+00:21:31,820 --> 00:21:33,560
+para la estimación pero probablemente
+
+357
+00:21:33,560 --> 00:21:35,700
+para la optimización van a requerir
+
+358
+00:21:35,700 --> 00:21:37,660
+de un volumen o de una variabilidad más grande
+
+359
+00:21:37,660 --> 00:21:38,280
+de la que tienen
+
+360
+00:21:38,280 --> 00:21:41,800
+entonces no existe un número
+
+361
+00:21:41,800 --> 00:21:43,400
+mágico que yo les pueda decir no, pero en verdad
+
+362
+00:21:43,400 --> 00:21:45,400
+no son 28
+
+363
+00:21:45,400 --> 00:21:46,600
+son 1000
+
+364
+00:21:46,600 --> 00:21:49,900
+pero tienen que ver
+
+365
+00:21:49,900 --> 00:21:51,740
+cómo resolver el problema
+
+366
+00:21:51,740 --> 00:21:53,800
+en un universo de datos
+
+367
+00:21:53,800 --> 00:21:54,900
+muy muy
+
+368
+00:21:54,900 --> 00:21:56,680
+acotado
+
+369
+00:21:56,680 --> 00:21:59,580
+¿Tienen alguna estimación de cuántos datos podrían tener?
+
+370
+00:21:59,760 --> 00:22:02,200
+¿Cuántos más? Porque ustedes dicen al final de la presentación
+
+371
+00:22:02,200 --> 00:22:03,860
+No, mira, estamos recopilando más datos
+
+372
+00:22:03,860 --> 00:22:05,500
+¿Tienen alguna idea de cuántos más?
+
+373
+00:22:08,920 --> 00:22:10,760
+Lo que cuesta entender
+
+374
+00:22:10,760 --> 00:22:12,660
+Es que ustedes dicen al principio
+
+375
+00:22:12,660 --> 00:22:14,420
+No, nosotros hacemos muchas pruebas
+
+376
+00:22:14,420 --> 00:22:15,740
+Y como que hacemos esto
+
+377
+00:22:15,740 --> 00:22:17,400
+Y a la empresa le cuesta mucha plata
+
+378
+00:22:17,400 --> 00:22:20,860
+Y después como que eso decanta en tener 28 pruebas
+
+379
+00:22:20,860 --> 00:22:22,880
+Pero ustedes al principio dijeron que son muchas pruebas
+
+380
+00:22:22,880 --> 00:22:23,360
+¿Por qué?
+
+381
+00:22:23,660 --> 00:22:25,580
+Porque eso no se traduce en el data rate
+
+382
+00:22:25,580 --> 00:22:29,000
+Ah, ya, no, lo que pasa es que fue por la cantidad
+
+383
+00:22:29,000 --> 00:22:31,300
+de información que nos pasaron para la POP
+
+384
+00:22:31,300 --> 00:22:31,960
+nada más
+
+385
+00:22:31,960 --> 00:22:33,220
+pero
+
+386
+00:22:33,220 --> 00:22:34,320
+pero
+
+387
+00:22:34,320 --> 00:22:39,120
+o sea, es que como esta POP era como
+
+388
+00:22:39,120 --> 00:22:40,840
+era una POP
+
+389
+00:22:40,840 --> 00:22:42,500
+pero la idea es que
+
+390
+00:22:42,500 --> 00:22:45,140
+ya una vez, no sé, evaluado eso
+
+391
+00:22:45,140 --> 00:22:47,160
+conseguir más información
+
+392
+00:22:47,160 --> 00:22:49,000
+de esos mismos 330 casos
+
+393
+00:22:49,000 --> 00:22:50,840
+que se mencionan
+
+394
+00:22:50,840 --> 00:22:51,920
+Eso, porque usted, o sea
+
+395
+00:22:51,920 --> 00:22:54,780
+el universo completo de pruebas son 300
+
+396
+00:22:54,780 --> 00:22:55,420
+lo que tú dijiste
+
+397
+00:22:55,420 --> 00:22:55,820
+es eso, ¿no?
+
+398
+00:22:57,060 --> 00:22:57,280
+Sí,
+
+399
+00:22:57,280 --> 00:22:57,780
+más o menos.
+
+400
+00:22:58,740 --> 00:22:58,920
+¿Ah?
+
+401
+00:22:59,400 --> 00:22:59,660
+Sí.
+
+402
+00:23:00,280 --> 00:23:01,820
+Son 300 mensuales.
+
+403
+00:23:02,920 --> 00:23:03,000
+Sí.
+
+404
+00:23:03,280 --> 00:23:03,560
+Es que,
+
+405
+00:23:03,740 --> 00:23:04,200
+claro,
+
+406
+00:23:04,320 --> 00:23:05,040
+eso es lo que no,
+
+407
+00:23:05,300 --> 00:23:06,600
+si tienen 300 mensuales
+
+408
+00:23:06,600 --> 00:23:06,840
+y tienen,
+
+409
+00:23:06,960 --> 00:23:07,100
+no sé,
+
+410
+00:23:07,700 --> 00:23:08,520
+con solamente tener
+
+411
+00:23:08,520 --> 00:23:09,900
+un año de información
+
+412
+00:23:09,900 --> 00:23:10,600
+ya van a tener
+
+413
+00:23:10,600 --> 00:23:12,480
+como más de 3.000 datos.
+
+414
+00:23:13,080 --> 00:23:13,160
+¿Ya?
+
+415
+00:23:13,680 --> 00:23:13,900
+Entonces,
+
+416
+00:23:14,240 --> 00:23:15,280
+tengan cuidado con eso.
+
+417
+00:23:15,780 --> 00:23:16,520
+Entiendo que
+
+418
+00:23:16,520 --> 00:23:17,820
+no es lo que hicimos
+
+419
+00:23:17,820 --> 00:23:18,660
+para esta presentación,
+
+420
+00:23:18,760 --> 00:23:19,860
+pero tiene que pensar
+
+421
+00:23:19,860 --> 00:23:20,400
+que esto es como
+
+422
+00:23:20,400 --> 00:23:21,080
+el avance parcial
+
+423
+00:23:21,080 --> 00:23:22,400
+de su proyecto completo.
+
+424
+00:23:22,520 --> 00:23:22,800
+No, sí,
+
+425
+00:23:22,880 --> 00:23:23,700
+estoy tratando de...
+
+426
+00:23:23,700 --> 00:23:25,400
+por eso también por ahí va a tener como avanzado
+
+427
+00:23:25,400 --> 00:23:25,940
+los modelos
+
+428
+00:23:25,940 --> 00:23:28,800
+bien
+
+429
+00:23:28,800 --> 00:23:31,880
+pero si es factible conseguirle
+
+430
+00:23:31,880 --> 00:23:33,380
+los 3.000 datos de
+
+431
+00:23:33,380 --> 00:23:35,720
+información para aumentar
+
+432
+00:23:35,720 --> 00:23:36,980
+la base de análisis
+
+433
+00:23:36,980 --> 00:23:39,380
+entonces después en la lámina
+
+434
+00:23:39,380 --> 00:23:41,780
+5
+
+435
+00:23:41,780 --> 00:23:43,440
+que es esta
+
+436
+00:23:43,440 --> 00:23:45,840
+entonces en esta lámina saquen cosas que están
+
+437
+00:23:45,840 --> 00:23:47,940
+fuera, ya, su metodología
+
+438
+00:23:47,940 --> 00:23:49,540
+debe ser lo que ustedes van a hacer
+
+439
+00:23:49,540 --> 00:23:51,480
+no lo que después alguien más va a hacer
+
+440
+00:23:51,480 --> 00:23:53,400
+entonces entiendo yo que por ejemplo
+
+441
+00:23:53,400 --> 00:23:55,300
+pues la API de recomendación y la interfaz
+
+442
+00:23:55,300 --> 00:23:57,560
+de visualización y aprobación está afuera,
+
+443
+00:23:57,660 --> 00:23:59,100
+¿cierto? No lo van a hacer.
+
+444
+00:23:59,980 --> 00:24:01,600
+Entonces, sáquenlo. Y después lo pueden
+
+445
+00:24:01,600 --> 00:24:03,620
+mencionar en la presentación 3 y en la defensa
+
+446
+00:24:03,620 --> 00:24:05,520
+como trabajo futuro y ahí tienen que
+
+447
+00:24:05,520 --> 00:24:07,460
+elaborar respecto a eso. Pero por ahora
+
+448
+00:24:07,460 --> 00:24:09,260
+solamente quédense con lo que ustedes van a hacer.
+
+449
+00:24:09,680 --> 00:24:09,740
+¿Ya?
+
+450
+00:24:12,320 --> 00:24:13,540
+Después, asumiendo que van a
+
+451
+00:24:13,540 --> 00:24:14,320
+tener más datos,
+
+452
+00:24:14,560 --> 00:24:17,580
+la resolución de ese
+
+453
+00:24:17,580 --> 00:24:19,640
+problema de clasificación binaria, que es
+
+454
+00:24:19,640 --> 00:24:21,520
+como esta primera idea de aplica o no
+
+455
+00:24:21,520 --> 00:24:23,600
+aplica, tiene que tener más modelos para poder
+
+456
+00:24:23,600 --> 00:24:25,560
+hacer eso. No pueden tener solamente un
+
+457
+00:24:25,560 --> 00:24:27,520
+árbol. Tendrán un árbol y
+
+458
+00:24:27,520 --> 00:24:29,460
+una regresión logística y otro modelo más.
+
+459
+00:24:29,660 --> 00:24:30,760
+Un modelo sencillo.
+
+460
+00:24:31,260 --> 00:24:33,660
+Entonces, tienen que tener más para poder comparar.
+
+461
+00:24:34,120 --> 00:24:35,660
+Ustedes dicen, en alguna
+
+462
+00:24:35,660 --> 00:24:37,560
+parte no comparamos con un modelo baseline
+
+463
+00:24:37,560 --> 00:24:39,640
+que es como estimar
+
+464
+00:24:39,640 --> 00:24:41,440
+la clase mayoritaria, creo que ese es el baseline.
+
+465
+00:24:41,940 --> 00:24:43,840
+Eso tiene que
+
+466
+00:24:43,840 --> 00:24:45,800
+tener más que eso. No puede ser solo eso.
+
+467
+00:24:46,260 --> 00:24:47,560
+Entonces, tienen que tener al menos tres modelos
+
+468
+00:24:47,560 --> 00:24:48,060
+para poder comparar.
+
+469
+00:24:48,060 --> 00:24:51,380
+si es que más que nada
+
+470
+00:24:51,380 --> 00:24:53,280
+como esta era la primera época y no teníamos
+
+471
+00:24:53,280 --> 00:24:54,320
+un antecedente anterior
+
+472
+00:24:54,320 --> 00:24:56,980
+pero claramente
+
+473
+00:24:56,980 --> 00:24:59,860
+después en la siguiente presentación
+
+474
+00:24:59,860 --> 00:25:01,780
+nos vamos a medir contra lo que hicimos hoy día
+
+475
+00:25:01,780 --> 00:25:03,720
+eso, pero de nuevo
+
+476
+00:25:03,720 --> 00:25:05,980
+los objetivos y la metodología
+
+477
+00:25:05,980 --> 00:25:08,320
+es la que aplica para todo el proyecto
+
+478
+00:25:08,320 --> 00:25:10,000
+entonces ahí ustedes ya deben
+
+479
+00:25:10,000 --> 00:25:12,260
+haber incorporado todos los detalles de lo que van a hacer
+
+480
+00:25:12,260 --> 00:25:14,040
+no de lo que van a hacer hasta ahora
+
+481
+00:25:14,040 --> 00:25:15,780
+entonces creo que ese es el
+
+482
+00:25:15,780 --> 00:25:19,020
+malentendido principal es
+
+483
+00:25:19,020 --> 00:25:21,760
+la lámina de objetivo y la lámina de metodología
+
+484
+00:25:21,760 --> 00:25:22,780
+y esto para todos los grupos
+
+485
+00:25:22,780 --> 00:25:25,500
+es todo ese diseño que van a hacer completo
+
+486
+00:25:25,500 --> 00:25:27,680
+del proyecto y después obviamente van a ir cumpliendo
+
+487
+00:25:27,680 --> 00:25:28,320
+fase a fase
+
+488
+00:25:28,320 --> 00:25:31,460
+entonces por ejemplo aquí cuando hablan de
+
+489
+00:25:31,460 --> 00:25:33,840
+de esas reglas
+
+490
+00:25:33,840 --> 00:25:35,640
+más árbol, en verdad esa debería ser
+
+491
+00:25:35,640 --> 00:25:37,440
+la resolución de un problema de clasificación binaria
+
+492
+00:25:37,440 --> 00:25:39,200
+y ahí en esa cajita van a poner
+
+493
+00:25:39,200 --> 00:25:40,720
+vamos a probar tres modelos distintos
+
+494
+00:25:40,720 --> 00:25:43,540
+después
+
+495
+00:25:43,540 --> 00:25:47,700
+Pues, no voy a hacer mucho énfasis en los datos porque son muy chiquititos,
+
+496
+00:25:48,440 --> 00:25:52,060
+pero son extraños que hagan, sobre un dato de 28 datos,
+
+497
+00:25:52,800 --> 00:25:55,580
+hagan una validación que usaba de 30 particiones.
+
+498
+00:25:56,060 --> 00:25:56,120
+¿Ya?
+
+499
+00:25:56,380 --> 00:25:57,220
+Eso es medio extraño.
+
+500
+00:25:58,620 --> 00:26:02,300
+Es como que en cada partición lo que dejaron es un dato y ese es el testeo.
+
+501
+00:26:04,950 --> 00:26:05,070
+¿Sí?
+
+502
+00:26:05,070 --> 00:26:10,570
+O sea, lo que hacía el modelo era tomar 21 casos para entrenarse
+
+503
+00:26:10,570 --> 00:26:11,870
+y los otros 7 hacía pruebas.
+
+504
+00:26:11,870 --> 00:26:13,990
+decía ya con este entrenamiento
+
+505
+00:26:13,990 --> 00:26:15,410
+¿cómo me responden estos 7 casos?
+
+506
+00:26:16,070 --> 00:26:17,690
+y así lo hacía por cada una de las particiones
+
+507
+00:26:17,690 --> 00:26:20,570
+pero ahí no van a ser
+
+508
+00:26:20,570 --> 00:26:22,290
+30 particiones, no serían menos
+
+509
+00:26:22,290 --> 00:26:24,030
+entonces ahí hay algo
+
+510
+00:26:24,030 --> 00:26:25,330
+como medio extraño
+
+511
+00:26:25,330 --> 00:26:27,150
+en esa validación cruzada
+
+512
+00:26:27,150 --> 00:26:30,190
+después la lámina 8, vamos a algunas cosas
+
+513
+00:26:30,190 --> 00:26:32,530
+positivas, con una buena lámina
+
+514
+00:26:32,530 --> 00:26:33,270
+¿ya? o sea
+
+515
+00:26:33,270 --> 00:26:33,950
+esa
+
+516
+00:26:33,950 --> 00:26:37,990
+eso es como básicamente lo que uno
+
+517
+00:26:37,990 --> 00:26:40,110
+quería, o sea, hoy qué es lo que van a hacer, por qué lo van
+
+518
+00:26:40,110 --> 00:26:42,150
+CL, etc. O sea, una buena
+
+519
+00:26:42,150 --> 00:26:43,630
+lámina en términos del procesamiento.
+
+520
+00:26:44,450 --> 00:26:45,650
+Después, en la
+
+521
+00:26:45,650 --> 00:26:47,970
+en el modelo
+
+522
+00:26:47,970 --> 00:26:50,370
+y esto también les va a servir en la presentación 3
+
+523
+00:26:50,370 --> 00:26:52,350
+muestren el árbol
+
+524
+00:26:52,350 --> 00:26:53,970
+porque una de las partes que ustedes
+
+525
+00:26:53,970 --> 00:26:55,490
+están diciendo es que
+
+526
+00:26:55,490 --> 00:26:58,290
+el árbol es interpretable y da las razones
+
+527
+00:26:58,290 --> 00:27:00,110
+de por qué una prueba aplica o no aplica
+
+528
+00:27:00,110 --> 00:27:02,090
+que tiene
+
+529
+00:27:02,090 --> 00:27:03,930
+todo el sentido del mundo, pero muestren el árbol
+
+530
+00:27:03,930 --> 00:27:05,970
+muestren el árbol como les quedó, cosa que
+
+531
+00:27:05,970 --> 00:27:07,770
+ustedes puedan decir, ah, miren, en verdad
+
+532
+00:27:07,770 --> 00:27:10,130
+una prueba no aplica
+
+533
+00:27:10,130 --> 00:27:11,410
+cuando, no sé
+
+534
+00:27:11,410 --> 00:27:14,250
+pasa esto, esto y esto
+
+535
+00:27:14,250 --> 00:27:16,170
+entonces muestren ese árbol
+
+536
+00:27:16,170 --> 00:27:17,290
+y después
+
+537
+00:27:17,290 --> 00:27:21,870
+como es un problema de clasificación binaria también
+
+538
+00:27:21,870 --> 00:27:23,470
+cuando hagan la evaluación
+
+539
+00:27:23,470 --> 00:27:26,670
+simplifiquen la evaluación y muestren la matriz de confusión
+
+540
+00:27:26,670 --> 00:27:27,670
+muestren
+
+541
+00:27:27,670 --> 00:27:30,010
+el F1 score, la precisión
+
+542
+00:27:30,010 --> 00:27:30,690
+el recall
+
+543
+00:27:30,690 --> 00:27:33,870
+hay maneras mucho más sencillas
+
+544
+00:27:33,870 --> 00:27:36,230
+como que se complican mucho en términos de cómo mostrar la evaluación
+
+545
+00:27:36,230 --> 00:27:38,590
+es más directa porque es un problema de clasificación binaria
+
+546
+00:27:38,590 --> 00:27:40,910
+entonces muestran la matriz de clasificación
+
+547
+00:27:40,910 --> 00:27:43,170
+en el conjunto de entrenamiento, en el conjunto de testeo
+
+548
+00:27:43,170 --> 00:27:45,050
+y después muestran cuál es el F1 score
+
+549
+00:27:45,050 --> 00:27:47,210
+en cada uno de esos conjuntos
+
+550
+00:27:47,210 --> 00:27:49,090
+cuál es la precisión, el recall de la clase que ustedes
+
+551
+00:27:49,090 --> 00:27:50,970
+quieren estimar, que en este caso es
+
+552
+00:27:50,970 --> 00:27:52,930
+el no aplica, esa es la clase que a ustedes
+
+553
+00:27:52,930 --> 00:27:54,850
+les interesa, no importa que el modelo lo haga
+
+554
+00:27:54,850 --> 00:27:57,310
+muy bien en las que aplica
+
+555
+00:27:57,310 --> 00:27:58,590
+porque eso no es el objetivo
+
+556
+00:27:58,590 --> 00:27:59,570
+del proyecto
+
+557
+00:27:59,570 --> 00:28:00,970
+entonces
+
+558
+00:28:00,970 --> 00:28:03,790
+tiene que darle una
+
+559
+00:28:03,790 --> 00:28:07,130
+las dos preocupaciones principales son en términos
+
+560
+00:28:07,130 --> 00:28:08,910
+de los objetivos específicos y del tamaño
+
+561
+00:28:08,910 --> 00:28:11,030
+del dataset, pero me parece que
+
+562
+00:28:11,030 --> 00:28:12,910
+ambas tienen caminos
+
+563
+00:28:12,910 --> 00:28:15,170
+de cómo resolverse
+
+564
+00:28:15,170 --> 00:28:17,190
+¿ya? Eso sería por mi lado
+
+565
+00:28:17,190 --> 00:28:17,950
+Muchísimas gracias
+
+566
+00:28:17,950 --> 00:28:21,750
+Gracias profesor
+

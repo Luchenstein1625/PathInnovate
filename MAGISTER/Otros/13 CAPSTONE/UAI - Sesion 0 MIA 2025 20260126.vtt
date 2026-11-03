@@ -1,0 +1,7829 @@
+WEBVTT
+
+00:00:00.430 --> 00:00:06.790
+Bienvenidos entonces a esta sesión de, esta es la primera excepción del Capstone, el que
+
+00:00:06.790 --> 00:00:15.470
+da el inicio, el curso del Capstone, importante su proceso de decir del magista de la inteligencia,
+
+00:00:17.630 --> 00:00:23.990
+en inteligencia artificial. ¿Qué es la idea? Lo puede explicar entonces en una presentación de
+
+00:00:23.990 --> 00:00:29.110
+más o menos una hora, una hora y media. ¿Qué consta este Capstone? ¿Cuáles son las
+
+00:00:29.110 --> 00:00:33.990
+condiciones del Capstone? ¿Cuáles son los requisitos? ¿Cuáles son las expectativas? ¿Y cómo se
+
+00:00:33.990 --> 00:00:41.030
+desarrollo este curso de Capstone? Lo más probable es que gran parte de las preguntas que tengan
+
+00:00:41.030 --> 00:00:47.470
+estén cubiertas a lo largo de la presentación, pero lo que vamos a hacer es que no vamos a esperar
+
+00:00:47.470 --> 00:00:52.150
+a que cierre la presentación, a que ustedes puedan hacer la pregunta, así que de que alguien tiene
+
+00:00:52.150 --> 00:00:57.190
+algún punto de la presentación, alguna duda, le dante la manito zoom y la vamos a resolver
+
+00:00:57.190 --> 00:01:02.190
+el inmediato. Como le decía, en general, gran parte de las preguntas están cubiertas en la
+
+00:01:02.190 --> 00:01:10.110
+presentación, pero no tiene mucho sentido esperar a tener la respuesta. ¿Qué es su proyecto
+
+00:01:10.110 --> 00:01:17.430
+de Capstone? Es básicamente el cierre de su magista en la inteligencia artificial. La
+
+00:01:17.430 --> 00:01:21.310
+idea es que puedan, es un proyecto investigativo, se han aplicado, en el que puedan aplicar
+
+00:01:21.430 --> 00:01:30.030
+todas las cosas que han aprendido a lo largo del programa en un proyecto real. Su oportunidad de
+
+00:01:30.030 --> 00:01:37.510
+poder ya sea profundizar en alguna temática del programa o profundizar en algún industria
+
+00:01:37.510 --> 00:01:45.910
+que más les interese. Es a libre disposición de ustedes la elección de su Capstone proyecto.
+
+00:01:46.510 --> 00:01:53.910
+Como le decía, les da la oportunidad de poder aplicar gran parte o parte de las skills que
+
+00:01:53.910 --> 00:01:58.350
+aprenden a hablar del programa y también les da la oportunidad de aprender nuevas. Hay
+
+00:01:58.350 --> 00:02:06.670
+obviamente cosas que por el alcance del magista quizás no están cubiertas en
+
+00:02:06.670 --> 00:02:10.590
+toda la profundidad que ustedes quisiesen y por lo tanto esta es una de las oportunidades
+
+00:02:10.590 --> 00:02:14.190
+para que ustedes puedan profundizar ese conocimiento vía aprendizaje también
+
+00:02:14.190 --> 00:02:20.750
+independiente. El Capstone proyecto, como les decía, es un proyecto de investigación
+
+00:02:20.750 --> 00:02:26.430
+aplicada que ustedes hacen con una empresa real. Esa empresa real ustedes la deciden.
+
+00:02:26.430 --> 00:02:33.150
+Ustedes identifican la empresa y potencialmente cierran su proyecto de Capstone. Esa empresa
+
+00:02:33.150 --> 00:02:39.230
+puede o no ser una empresa en la que algunos de los integrantes del grupo trabajen.
+
+00:02:40.590 --> 00:02:46.990
+Obviamente las recomendaciones que ojalá sea una de esas una de esas empresas
+
+00:02:46.990 --> 00:02:52.470
+solamente porque facilitan el acceso a los datos y el conocimiento del negocio, pero
+
+00:02:52.470 --> 00:03:03.830
+no está limitado a eso. En las primeras versiones del Capstone, yo iría el 100%
+
+00:03:03.830 --> 00:03:12.870
+era empresas de algunos de los integrantes y por un esfuerzo conjunto que
+
+00:03:12.870 --> 00:03:16.870
+hemos hecho que ha hecho el director del programa junto con varios de los
+
+00:03:16.870 --> 00:03:24.030
+académicos que forman parte hemos ido como recopilando oportunidades desde
+
+00:03:24.030 --> 00:03:28.430
+la industria para ofrecer Capstone en mi vida que no estén directamente ligados a
+
+00:03:28.430 --> 00:03:32.150
+personas que trabajen en esas organizaciones. Yo iría y yo iría que la
+
+00:03:32.150 --> 00:03:38.270
+proporción es de un 75-25. 75% de los Capstone siguen siendo en empresas donde
+
+00:03:38.270 --> 00:03:44.590
+uno de los integrantes participa y un 25 corresponde a empresas nuevas que
+
+00:03:44.590 --> 00:03:49.190
+efectivamente son ya sea buscadas por ustedes, buscadas y gestionadas por
+
+00:03:49.190 --> 00:03:56.670
+usted o ustedes vieron un aviso que publiqué hace poquito en un abcurso.
+
+00:03:56.670 --> 00:04:00.110
+Son oportunidades que de alguna manera recopilamos los académicos y
+
+00:04:00.110 --> 00:04:07.670
+académicas del programa y que quedan disponibles a partir de la sección de
+
+00:04:07.670 --> 00:04:13.670
+avisos de webcurso. Obviamente el hacerlo en una empresa en la que
+
+00:04:13.670 --> 00:04:17.470
+alguno de ustedes trabaje tiene varios pros en términos como necesidad de
+
+00:04:17.470 --> 00:04:20.990
+acceso a la información, en términos del conocimiento del negocio, etcétera y
+
+00:04:20.990 --> 00:04:28.310
+también tiene algunos contra y yo diría que uno de los contra es el
+
+00:04:28.310 --> 00:04:31.870
+estar anclado a una de las personas, potencialmente esa persona deja de
+
+00:04:31.870 --> 00:04:35.070
+trabajar en la organización, lo que nos ha pasado muy poquitos veces pero ha
+
+00:04:35.070 --> 00:04:40.070
+pasado en que al dejar de trabajar en la organización se pierden los
+
+00:04:40.070 --> 00:04:43.350
+privilegios de acceso a la información y por tanto finalmente se termina
+
+00:04:43.350 --> 00:04:47.950
+cayéndose Capstone por esa razón. Es ahí donde uno de los grandes
+
+00:04:47.950 --> 00:04:55.190
+pro de hacer una empresa que no es de ninguno de ustedes es que tienen un
+
+00:04:55.190 --> 00:04:57.990
+poco de independencia. Cierra un acuerdo con esta empresa y por lo
+
+00:04:58.030 --> 00:05:01.190
+tanto tiene un compromiso con trabajar con ella independiente de que
+
+00:05:01.190 --> 00:05:05.710
+alguien esté vinculado como contractualmente por la misma y el
+
+00:05:05.710 --> 00:05:12.030
+otro gran pro diría yo es esta idea de que como que parten todos desde el
+
+00:05:12.030 --> 00:05:16.230
+mismo nivel y aquí me refiero con eso es que si alguien imagínense que
+
+00:05:16.230 --> 00:05:19.950
+somos un grupo de cuatro yo soy quien participa o quien trabaja en la
+
+00:05:19.950 --> 00:05:24.510
+empresa, logro convencer a todo mi grupo que efectivamente el proyecto en
+
+00:05:24.510 --> 00:05:27.550
+mi empresa es atractivo, probablemente yo tenga más conocimiento
+
+00:05:27.550 --> 00:05:31.390
+de ustedes sobre el negocio y pese a que ustedes puedan ir capacitando
+
+00:05:31.390 --> 00:05:35.030
+probablemente ese va a existir todavía un cap. Cosa que no pasa
+
+00:05:37.030 --> 00:05:39.510
+si es que vamos todos a una empresa nueva, todos vamos a tener que
+
+00:05:39.510 --> 00:05:42.670
+aprender los procesos de negocio, todos vamos a tener que como
+
+00:05:42.670 --> 00:05:47.390
+entender el objetivo, el cual queremos abordar, etcétera,
+
+00:05:47.390 --> 00:05:50.590
+etcétera. Obviamente el gran contra tiene que ver con los
+
+00:05:50.590 --> 00:05:58.080
+accesos de información y ahí es donde ustedes van a
+
+00:05:58.240 --> 00:06:02.480
+tener vía en idea, vía que si yo la universidad les puede proveer
+
+00:06:02.480 --> 00:06:04.560
+una carta que puede certificar que ustedes están haciendo el
+
+00:06:04.560 --> 00:06:09.640
+capstone, pero y soy bien claro en eso, la universidad no puede
+
+00:06:09.640 --> 00:06:14.520
+firmar en ideas por ustedes, ni la universidad, ni ninguno de
+
+00:06:14.520 --> 00:06:18.160
+los trascentes que son parte, ojo con eso ese uno de los
+
+00:06:18.160 --> 00:06:25.360
+grandes contras. Si el grupo, yo en un par de semanas les
+
+00:06:25.440 --> 00:06:29.240
+voy a publicar vía web cursos y les voy a preguntar, voy a ser
+
+00:06:29.240 --> 00:06:36.760
+con una especie de catástro de los grupos y de sus proyectos
+
+00:06:36.760 --> 00:06:44.120
+de caso. Solo manté para poder identificar algún grupo o
+
+00:06:44.120 --> 00:06:49.240
+alguna persona que pudiese no tener proyecto y en ese caso lo
+
+00:06:49.240 --> 00:06:52.240
+que hacemos es que Orlando intenta a partir de sus redes de
+
+00:06:52.240 --> 00:06:55.280
+contacto más obviamente todas las oportunidades que vamos
+
+00:06:55.360 --> 00:06:59.840
+a ir publicando, que espero sean varias para ver cómo pueden
+
+00:06:59.840 --> 00:07:04.000
+finalmente no quedarse sin proyecto al final, pero soy bien
+
+00:07:04.000 --> 00:07:06.240
+enfático en esto, aunque efectivamente la responsabilidad
+
+00:07:06.240 --> 00:07:10.000
+de tener un capstone es la responsabilidad del grupo, la
+
+00:07:10.000 --> 00:07:15.320
+universidad no provee capstone, ya. Bien, he hablado del
+
+00:07:15.320 --> 00:07:17.520
+grupo y hasta el momento no he mencionado el grupo, pero
+
+00:07:17.520 --> 00:07:22.240
+son grupos de tres o cuatro personas, sin excepciones, ya.
+
+00:07:23.200 --> 00:07:27.000
+Dale, Javier. Hola. Hola, hola.
+
+00:07:30.000 --> 00:07:34.360
+Y si quisiéramos hacer un, en el caso de una empresa nueva, si
+
+00:07:34.360 --> 00:07:38.760
+quisiéramos hacer un negocio nuevo, ocupando, eso es válido?
+
+00:07:46.580 --> 00:07:51.580
+Podría ser válido, pero la única restricción, Javier, es
+
+00:07:51.580 --> 00:07:55.300
+que tienen que implementar la solución con datos existentes o
+
+00:07:55.300 --> 00:08:02.060
+con procesos existentes, si es que, si es que logran que pese
+
+00:08:02.060 --> 00:08:04.820
+que la empresa no tenga operación, que ha pasado, pese
+
+00:08:04.820 --> 00:08:06.260
+que la empresa no tenga operación, pero ustedes ya
+
+00:08:06.260 --> 00:08:09.060
+tengan información, ya sea pública o de la misma
+
+00:08:09.060 --> 00:08:12.020
+organización que puedan utilizar para hacer el capstone, creo
+
+00:08:12.020 --> 00:08:14.220
+que no habría problema. Ya estoy tratando de pensar de
+
+00:08:14.220 --> 00:08:17.020
+ejemplos, y hemos tenido un par de ejemplos de empresas
+
+00:08:17.020 --> 00:08:20.420
+que todavía no, no lanzan al mercado, pero que por ejemplo
+
+00:08:20.420 --> 00:08:24.100
+utilizan información pública y por ejemplo los alumnos del
+
+00:08:24.100 --> 00:08:28.820
+capstone hicieron, analicité esa información pública para
+
+00:08:28.820 --> 00:08:32.260
+soportar con un proceso de negocio futuro de la compañía, pero
+
+00:08:32.260 --> 00:08:34.660
+la idea es que necesiten, Javier, información que puedan
+
+00:08:34.660 --> 00:08:37.420
+analizar para que puedan mostrar el impacto de la solución, el
+
+00:08:37.420 --> 00:08:40.420
+impacto potencial de esa solución. Ahí, hay alguna
+
+00:08:40.420 --> 00:08:45.140
+instancia como para, más interna, para pimponear la
+
+00:08:45.140 --> 00:08:49.580
+idea, porque en el grupo que tenemos nosotros hemos
+
+00:08:49.580 --> 00:08:52.260
+pimponeado y hemos visto a la fertilidad incluso de
+
+00:08:52.260 --> 00:08:55.140
+llegar a un MVP, hay que meterle plata y todo pero, pero
+
+00:08:55.140 --> 00:08:59.060
+se puede, vemos la oportunidad de mercado, eh, pero
+
+00:08:59.060 --> 00:09:02.740
+necesitamos como ese OK, como para poder seguir avanzando,
+
+00:09:02.740 --> 00:09:06.340
+porque hay que, hay que invertir. Eso, ustedes, o sea, me
+
+00:09:06.340 --> 00:09:09.060
+podría mandar un correo con la información, yo les puedo
+
+00:09:09.060 --> 00:09:12.980
+dar feedback respecto del, de la idea y podríamos incluso
+
+00:09:12.980 --> 00:09:15.540
+copiar a Rolando para ver si que Rolando también puede
+
+00:09:15.540 --> 00:09:19.780
+dar su feedback respecto de eso, ¿Ya? Ya, gracias. Dale
+
+00:09:19.860 --> 00:09:28.280
+Roderigo. Hola, Eric, yo tenía ahí un tema con respecto
+
+00:09:28.280 --> 00:09:31.880
+a los integrantes, nosotros somos cinco y hemos trabajado
+
+00:09:31.880 --> 00:09:35.560
+todo el año, los cinco, pero ahí dice excluyente, o sea,
+
+00:09:35.560 --> 00:09:41.240
+sin excepciones, es verdad eso o si es que no sé, si nada
+
+00:09:41.240 --> 00:09:43.400
+hemos trabajado o se puede hacer algo ahí, no sé,
+
+00:09:43.400 --> 00:09:47.480
+siempre se puede, pero solamente a modo de consulta.
+
+00:09:47.800 --> 00:09:51.800
+En verdad no hay, o sea, no hay excepciones en, en el
+
+00:09:51.800 --> 00:09:54.520
+grupo de cinco, en verdad, porque son grupos muy grandes,
+
+00:09:54.520 --> 00:10:00.120
+¿Ya? El máximo es cuatro, efectivamente. ¿Ya?
+
+00:10:00.120 --> 00:10:02.040
+Yo entiendo que pueden haber seguido, o sea, que
+
+00:10:02.040 --> 00:10:03.640
+pegan trabajando, que ya se conozcan, pero
+
+00:10:03.640 --> 00:10:06.360
+lamentablemente el límite superior es de cuatro en
+
+00:10:06.360 --> 00:10:10.120
+el caso del capso. ¿Ya?
+
+00:10:12.120 --> 00:10:15.240
+Bien, entonces, ¿Tienen? Ah, dale, hermano.
+
+00:10:15.320 --> 00:10:18.280
+Sí, bueno, cortitos, aprovecho, como no hay excepciones,
+
+00:10:18.280 --> 00:10:22.760
+yo la verdad que me vengo integrando de el, del día
+
+00:10:22.760 --> 00:10:27.080
+2019-2020, no podría solo, así que aprovecho de
+
+00:10:27.080 --> 00:10:29.800
+comentarles a los compañeros que quedo disponibles.
+
+00:10:29.800 --> 00:10:32.680
+Bien, no es eso, muchísimas gracias.
+
+00:10:35.080 --> 00:10:37.560
+Ideal, si es que puedes publicar un webcursos,
+
+00:10:37.560 --> 00:10:39.160
+obviamente está la grabación, pero si quieres
+
+00:10:39.160 --> 00:10:42.360
+puedes publicar un webcursos y me imagino que no
+
+00:10:42.440 --> 00:10:48.360
+eres el único, y de semana podrás tratar de
+
+00:10:48.360 --> 00:10:52.440
+encontrar algún grupo. Como yo te decía,
+
+00:10:52.440 --> 00:10:55.000
+voy a, en un par de semanas más, lanzar un
+
+00:10:55.000 --> 00:10:57.320
+catástro, y desde ese catástro, ustedes
+
+00:10:57.320 --> 00:10:59.000
+la idea es que contesten independiente, si
+
+00:10:59.000 --> 00:11:01.000
+tengan grupo e independiente, si tengan
+
+00:11:01.000 --> 00:11:03.160
+equipo o no, ¿Ya? Entonces, para poder
+
+00:11:03.160 --> 00:11:05.160
+hacer como el mix de ambos. Quizá van a
+
+00:11:05.160 --> 00:11:06.520
+haber grupos que no tienen proyecto, y
+
+00:11:06.520 --> 00:11:07.960
+quizá van a haber personas que no tienen
+
+00:11:07.960 --> 00:11:10.680
+grupo, ¿Ya? Vamos a tratar de apoyar en
+
+00:11:10.680 --> 00:11:15.800
+todas esas coordinaciones, ¿Ya?
+
+00:11:17.080 --> 00:11:21.960
+Bien, entonces son grupos de tres o cuatro,
+
+00:11:21.960 --> 00:11:26.360
+y que, desde ahora, y siendo ya
+
+00:11:26.360 --> 00:11:29.080
+transparente, nuestra recomendación es
+
+00:11:29.080 --> 00:11:32.520
+que desde hoy le dediquen ocho horas
+
+00:11:32.520 --> 00:11:35.160
+semanales por persona, ¿Ya? Y ¿Por qué
+
+00:11:35.160 --> 00:11:37.160
+digo desde hoy? Y como yo lo mencionaba
+
+00:11:37.160 --> 00:11:39.000
+Javier, hay que hacer un pimponero de
+
+00:11:39.000 --> 00:11:41.080
+las ideas, hay que hacer coordinación
+
+00:11:41.080 --> 00:11:43.560
+respecto de confidencialidad de datos, hay
+
+00:11:43.560 --> 00:11:44.520
+que juntarse con las
+
+00:11:44.520 --> 00:11:46.920
+licarneaciones, etcétera, etcétera, ¿Ya?
+
+00:11:46.920 --> 00:11:50.520
+Entonces, ¿Qué es lo que tiende a pasar
+
+00:11:50.520 --> 00:11:52.200
+desde el punto de vista de los
+
+00:11:52.200 --> 00:11:54.520
+resultados? Grupos que se acercan a
+
+00:11:54.520 --> 00:11:57.480
+esta, como,
+
+00:11:57.480 --> 00:12:00.520
+a esta dedicación, desde hoy, que
+
+00:12:00.520 --> 00:12:01.960
+inicia, como le decía al principio de
+
+00:12:01.960 --> 00:12:03.560
+la presentación, inicia su proceso de
+
+00:12:03.560 --> 00:12:05.400
+capstone, tienden a tener mejores
+
+00:12:05.400 --> 00:12:06.760
+resultados que aquellos que de alguna
+
+00:12:06.840 --> 00:12:10.040
+manera hacen cargan más tiempo al
+
+00:12:10.040 --> 00:12:13.880
+final del caso, ¿Ya? Entonces,
+
+00:12:13.880 --> 00:12:15.320
+mi recomendación es que desde hoy
+
+00:12:15.320 --> 00:12:16.920
+más o menos tengan ese presupuesto de
+
+00:12:16.920 --> 00:12:19.400
+horas, tengan esa dedicación, tengan
+
+00:12:19.400 --> 00:12:20.840
+ustedes reuniones internas en las que
+
+00:12:20.840 --> 00:12:22.600
+puedan conversar en este caso, ¿Cuáles
+
+00:12:22.600 --> 00:12:24.280
+son los proyectos que quieren abordar
+
+00:12:24.280 --> 00:12:25.480
+y después van a ir conversando
+
+00:12:25.480 --> 00:12:27.240
+respecto de los adjuances y del
+
+00:12:27.240 --> 00:12:28.440
+feedback que vayan obteniendo de
+
+00:12:28.440 --> 00:12:32.200
+cada una de las presentaciones, ¿Ya?
+
+00:12:32.200 --> 00:12:33.400
+El proyecto, como lo decía antes, te
+
+00:12:33.400 --> 00:12:34.760
+viene a tratar de resolver un problema
+
+00:12:34.760 --> 00:12:36.680
+práctico, ¿Ya? Ya sea en una área
+
+00:12:36.680 --> 00:12:38.360
+específica o de un alcance más
+
+00:12:38.360 --> 00:12:41.000
+corporativo, ¿Ya? Y obviamente
+
+00:12:41.000 --> 00:12:42.520
+deberá ser resuelto con los
+
+00:12:42.520 --> 00:12:43.640
+conocimientos que han adquirido al
+
+00:12:43.640 --> 00:12:45.560
+largo del programa o un complemento
+
+00:12:45.560 --> 00:12:49.480
+de esos, de esos mismos.
+
+00:12:49.480 --> 00:12:51.640
+La asistencia, hay este curso de
+
+00:12:51.640 --> 00:12:55.720
+capstone, ¿Ya? Es obligatoria, ¿Ya?
+
+00:12:55.720 --> 00:12:57.880
+Las presentaciones son grupales
+
+00:12:57.880 --> 00:13:02.360
+con, con nota grupal también, ¿Ya?
+
+00:13:02.360 --> 00:13:03.880
+Vamos a tener tres presentaciones
+
+00:13:04.200 --> 00:13:09.240
+parciales y esas tres presentaciones
+
+00:13:09.240 --> 00:13:11.080
+parciales tienen que aprobar esas tres
+
+00:13:11.080 --> 00:13:12.680
+presentaciones parciales para poder
+
+00:13:12.680 --> 00:13:16.120
+acceder a la defensa, ¿Ya? Y después
+
+00:13:16.120 --> 00:13:17.880
+la nota del capstone se promueve con la
+
+00:13:17.880 --> 00:13:20.120
+nota de la defensa para efectivamente
+
+00:13:20.120 --> 00:13:22.440
+ser parte de, de su nota final del
+
+00:13:22.440 --> 00:13:26.040
+magistro, ¿Ya? Para todos aquellos
+
+00:13:26.040 --> 00:13:27.720
+a quienes, aquellos y aquellas que
+
+00:13:27.720 --> 00:13:29.480
+les haya ido bien o que les esté
+
+00:13:29.480 --> 00:13:31.480
+y ando bien en el magistro, este es
+
+00:13:31.480 --> 00:13:32.840
+una buena oportunidad para poder
+
+00:13:32.840 --> 00:13:34.120
+seguir manteniendo ese buen
+
+00:13:34.120 --> 00:13:36.360
+desempeño, ¿Ya? Y ¿Por qué digo seguir
+
+00:13:36.360 --> 00:13:38.680
+manteniendo? Porque este es un 20% de
+
+00:13:38.680 --> 00:13:40.600
+su nota total, ¿Ya? O sea, lo que
+
+00:13:40.600 --> 00:13:42.120
+ustedes hacen entre el capstone y su
+
+00:13:42.120 --> 00:13:44.600
+defensa es un 20% de lo que va a ser
+
+00:13:44.600 --> 00:13:47.160
+el desempeño general de su, de su
+
+00:13:47.160 --> 00:13:49.560
+magistro. Y para quienes aquí, o sea, y
+
+00:13:49.560 --> 00:13:51.720
+para quienes no les ha ido tan bien,
+
+00:13:51.720 --> 00:13:53.480
+esta es una buena oportunidad de
+
+00:13:53.480 --> 00:13:54.760
+mejorar significativamente su
+
+00:13:54.760 --> 00:13:56.040
+desempeño, ¿Por qué? Porque ese
+
+00:13:56.040 --> 00:13:59.320
+20% concentrado en un curso, más la
+
+00:13:59.320 --> 00:14:00.840
+defensa. Yo les voy a explicar después
+
+00:14:00.840 --> 00:14:03.640
+qué significa esta defensa, ¿Ya? Pero
+
+00:14:03.640 --> 00:14:05.720
+son tres presentaciones parciales que
+
+00:14:05.720 --> 00:14:08.440
+ya están agendadas cada una de ellas
+
+00:14:08.440 --> 00:14:13.640
+y no se deberán mover a no ser de
+
+00:14:13.640 --> 00:14:16.360
+temas muy, muy, como excepcionales,
+
+00:14:16.360 --> 00:14:18.040
+que hasta el momento yo por lo menos
+
+00:14:18.040 --> 00:14:19.960
+que participo en varios, en varios
+
+00:14:19.960 --> 00:14:21.640
+cursos de capstone, en este programa
+
+00:14:21.640 --> 00:14:22.920
+y en el programa de ciencia y datos
+
+00:14:22.920 --> 00:14:25.000
+nunca ha pasado, ¿Ya? Entonces en ese
+
+00:14:25.000 --> 00:14:26.760
+sentido las, las, las fechas están
+
+00:14:26.760 --> 00:14:30.040
+un poco escritas en piedra, ¿Ya?
+
+00:14:30.120 --> 00:14:32.040
+Este no es el 7 de marzo, sino que es el
+
+00:14:32.040 --> 00:14:36.040
+26 de, de enero, todas las demás
+
+00:14:36.040 --> 00:14:38.920
+fechas sí están correctas, ya lunes 3 y
+
+00:14:38.920 --> 00:14:41.880
+martes 14, de abril lunes 27 y martes
+
+00:14:41.880 --> 00:14:45.400
+28 de julio y después lunes 9 y martes
+
+00:14:45.400 --> 00:14:47.960
+10 de noviembre, ¿Ya? ¿Cuál es el foco de
+
+00:14:47.960 --> 00:14:49.640
+cada una de las presentaciones? La
+
+00:14:49.640 --> 00:14:50.760
+primera presentación es la
+
+00:14:50.760 --> 00:14:51.960
+definición del proyecto más la
+
+00:14:51.960 --> 00:14:53.800
+metodología tentativa. Ustedes van
+
+00:14:53.800 --> 00:14:55.480
+a explicar en esa, en esa primera
+
+00:14:55.480 --> 00:14:57.160
+presentación qué quieren hacer y
+
+00:14:57.160 --> 00:14:59.240
+cómo lo van a hacer, sin todavía
+
+00:14:59.320 --> 00:15:03.320
+obviamente hacerlo. Después, ¿Qué van a
+
+00:15:03.320 --> 00:15:05.320
+hacer en la segunda presentación? Ustedes
+
+00:15:05.320 --> 00:15:07.160
+definieron un objetivo en la primera,
+
+00:15:07.160 --> 00:15:08.280
+es decir, esto es lo que queremos
+
+00:15:08.280 --> 00:15:10.920
+hacer. Para la presentación 2, ya
+
+00:15:10.920 --> 00:15:13.320
+debían tener una solución completa
+
+00:15:13.320 --> 00:15:15.320
+obviamente una versión, una versión
+
+00:15:15.320 --> 00:15:17.320
+inicial de cómo resolver ese problema
+
+00:15:17.320 --> 00:15:19.320
+completo, de punta a punta, ojo con
+
+00:15:19.320 --> 00:15:21.400
+eso y que es el enfático en esto, no
+
+00:15:21.400 --> 00:15:22.680
+es que tengan que resolver la mitad
+
+00:15:22.680 --> 00:15:24.040
+del problema y después la
+
+00:15:24.040 --> 00:15:25.560
+presentación 3 tenga que mostrar la
+
+00:15:25.560 --> 00:15:27.640
+otra en cada problema. Lo que nos
+
+00:15:27.640 --> 00:15:29.160
+lo apuntamos que hoy día es la
+
+00:15:29.160 --> 00:15:30.360
+presentación, ustedes digan qué es
+
+00:15:30.360 --> 00:15:31.880
+lo que quieren hacer, es la
+
+00:15:31.880 --> 00:15:33.640
+presentación, lo hagan, perdón, la
+
+00:15:33.640 --> 00:15:35.320
+presentación 2 lo hagan, pero
+
+00:15:35.320 --> 00:15:37.960
+obviamente una solución baselar. Y es
+
+00:15:37.960 --> 00:15:40.600
+la presentación 3, o resuelvan de
+
+00:15:40.600 --> 00:15:41.880
+nuevo el problema completo, pero ahora
+
+00:15:41.880 --> 00:15:44.600
+es una versión más avanzada, ¿Ya? Y
+
+00:15:44.600 --> 00:15:46.360
+finalmente incorporan en esta
+
+00:15:46.360 --> 00:15:47.560
+presentación 3 una evaluación
+
+00:15:47.560 --> 00:15:55.080
+económica como de impacto, ¿Ya? La
+
+00:15:55.080 --> 00:15:57.400
+defensa del proyecto, entonces
+
+00:15:57.400 --> 00:16:00.440
+hay que definir quiénes son los
+
+00:16:00.440 --> 00:16:02.200
+los integrantes de esa comisión y
+
+00:16:02.200 --> 00:16:03.160
+yo los voy a explicar un poco más
+
+00:16:03.160 --> 00:16:05.080
+adelante quiénes son o cómo se
+
+00:16:05.080 --> 00:16:07.080
+eligen y la idea es que ustedes la
+
+00:16:07.080 --> 00:16:09.640
+pueden hacer más o menos un mes,
+
+00:16:09.640 --> 00:16:11.640
+dos meses posterior a su
+
+00:16:11.640 --> 00:16:13.960
+presentación 3. Obviamente sujeto a
+
+00:16:13.960 --> 00:16:15.080
+la producción de su profesor o
+
+00:16:15.080 --> 00:16:18.520
+profesora aquí, ¿Ya?
+
+00:16:18.520 --> 00:16:19.720
+Como decía la fecha de las
+
+00:16:19.720 --> 00:16:20.680
+presentaciones no se pueden
+
+00:16:20.680 --> 00:16:23.240
+cambiar y obviamente el no
+
+00:16:23.240 --> 00:16:25.960
+asistir o el no presentar tiene
+
+00:16:26.040 --> 00:16:28.280
+una una calificación la
+
+00:16:28.280 --> 00:16:33.240
+calificación B, ¿Ya?
+
+00:16:33.240 --> 00:16:35.160
+¿Qué es lo que sí puede pasar? Porque
+
+00:16:35.160 --> 00:16:36.840
+obviamente entiendo que este es un
+
+00:16:36.840 --> 00:16:39.480
+magistro profesional, lo que sí
+
+00:16:39.480 --> 00:16:43.160
+puede pasar es que
+
+00:16:43.160 --> 00:16:45.160
+ustedes no puedan presentar en una
+
+00:16:45.160 --> 00:16:46.680
+fecha en específico, entonces no
+
+00:16:46.680 --> 00:16:47.960
+sé, voy a poner el ejemplo a
+
+00:16:47.960 --> 00:16:49.880
+Javier que es uno de los que está
+
+00:16:49.880 --> 00:16:51.560
+en mi pantalla, entonces Javier
+
+00:16:51.560 --> 00:16:53.240
+yo le mando, yo voy a mandar los
+
+00:16:53.240 --> 00:16:54.920
+órdenes de las presentaciones
+
+00:16:55.000 --> 00:16:56.520
+para la presentación 2 y la
+
+00:16:56.520 --> 00:16:58.360
+presentación 3, no para la 1, para la
+
+00:16:58.360 --> 00:16:59.400
+1 los voy a dejar a ustedes
+
+00:16:59.400 --> 00:17:01.160
+auto-organizarse, ¿Ya? Entonces
+
+00:17:01.160 --> 00:17:02.680
+ustedes van a decir, ah mira,
+
+00:17:02.680 --> 00:17:04.200
+nosotros queremos ir primero y así
+
+00:17:04.200 --> 00:17:05.880
+basicamente, pero para las
+
+00:17:05.880 --> 00:17:06.840
+presentaciones 2 y las
+
+00:17:06.840 --> 00:17:08.280
+presentaciones 3 yo les voy a
+
+00:17:08.280 --> 00:17:10.120
+mandar los órdenes, ¿Ya? Y para
+
+00:17:10.120 --> 00:17:11.560
+ser bien transparente uno también
+
+00:17:11.560 --> 00:17:13.480
+sencillo, es el orden inverso
+
+00:17:13.480 --> 00:17:16.200
+a sus notas hasta ese punto,
+
+00:17:16.200 --> 00:17:18.040
+en la presentación 2 es el orden
+
+00:17:18.040 --> 00:17:21.080
+inverso de las presentaciones 1,
+
+00:17:21.080 --> 00:17:22.520
+para la presentación 3 es el
+
+00:17:22.520 --> 00:17:23.960
+orden inverso del promedio entre
+
+00:17:23.960 --> 00:17:25.400
+la presentación 1 y la presentación
+
+00:17:25.400 --> 00:17:28.120
+2. ¿Por qué? Porque quiero asegurarme
+
+00:17:28.120 --> 00:17:31.720
+que los grupos que peor les va
+
+00:17:32.440 --> 00:17:34.280
+tengan más dedicación o tengan
+
+00:17:34.280 --> 00:17:36.600
+más apoyo en el feedback de
+
+00:17:36.600 --> 00:17:40.920
+el de su proyecto, es así es sencillo.
+
+00:17:43.240 --> 00:17:44.440
+Por lo tanto para la presentación
+
+00:17:44.440 --> 00:17:46.280
+2 y 3 yo les voy a mandar el orden
+
+00:17:46.280 --> 00:17:47.720
+y alguien podría decir, por ejemplo
+
+00:17:47.720 --> 00:17:49.240
+Javier que justo tiene un
+
+00:17:49.240 --> 00:17:50.920
+compromiso en el trabajo, tiene un
+
+00:17:50.920 --> 00:17:52.840
+viaje o lo que sea, que no puede
+
+00:17:52.920 --> 00:17:54.360
+presentar en la sesión del lunes
+
+00:17:54.360 --> 00:17:55.720
+27, que era la que había sido
+
+00:17:55.720 --> 00:17:57.560
+asignado, sino que su grupo
+
+00:17:57.560 --> 00:18:00.760
+quiere presentar en el martes
+
+00:18:00.760 --> 00:18:02.440
+28. No hay ningún problema con
+
+00:18:02.440 --> 00:18:03.720
+eso, ustedes me pueden mandar un
+
+00:18:03.720 --> 00:18:05.320
+correo cuando yo mande el orden,
+
+00:18:05.320 --> 00:18:06.600
+me dicen profesores, es posible
+
+00:18:06.600 --> 00:18:09.400
+que dad la justificación adecuada
+
+00:18:09.400 --> 00:18:10.680
+y pues dicen, es posible que puedan
+
+00:18:10.680 --> 00:18:13.560
+mover al día siguiente o al día
+
+00:18:13.560 --> 00:18:15.480
+previo, cualquiera sea de la
+
+00:18:15.480 --> 00:18:17.400
+opción. ¿Ya? Eso sí es posible
+
+00:18:17.400 --> 00:18:18.920
+porque obviamente entiendo que
+
+00:18:18.920 --> 00:18:20.440
+pueden tener compromisos personales
+
+00:18:20.440 --> 00:18:24.520
+o profesionales, pero lo que
+
+00:18:24.520 --> 00:18:25.640
+sí es que tienen que presentar
+
+00:18:25.640 --> 00:18:28.280
+alguna desatorfecha, ¿Ya? Si no
+
+00:18:29.960 --> 00:18:32.760
+va a ser calificado con no tan bien. ¿Ya?
+
+00:18:32.760 --> 00:18:34.120
+Los grupos deben presentar su
+
+00:18:34.120 --> 00:18:37.160
+proyecto acorde a la rúbrica,
+
+00:18:37.160 --> 00:18:38.600
+y la rúbrica ya está publicada
+
+00:18:38.600 --> 00:18:39.800
+en webcursos, ustedes la pueden
+
+00:18:39.800 --> 00:18:41.160
+descargar y pueden mirar
+
+00:18:41.160 --> 00:18:44.600
+cuál es esa rúbrica y está
+
+00:18:44.600 --> 00:18:46.360
+también en webcursos y lo vamos
+
+00:18:46.360 --> 00:18:48.120
+a revisar un poco más adelante,
+
+00:18:48.200 --> 00:18:50.680
+están los buzones de entrega
+
+00:18:50.680 --> 00:18:52.120
+para cada una de las presentaciones.
+
+00:18:53.160 --> 00:18:54.840
+Todos los grupos deben subir
+
+00:18:54.840 --> 00:18:56.680
+todas las presentaciones
+
+00:18:56.680 --> 00:18:58.440
+antes del inicio de la primera
+
+00:18:58.440 --> 00:19:00.520
+sesión de esa presentación,
+
+00:19:00.520 --> 00:19:02.360
+quiere decir para la presentación
+
+00:19:02.360 --> 00:19:03.720
+1, todos los grupos tienen que
+
+00:19:03.720 --> 00:19:06.440
+subir las presentaciones
+
+00:19:06.440 --> 00:19:08.600
+antes del lunes 13 a la 5 de la
+
+00:19:08.600 --> 00:19:10.600
+tarde, lo mismo van la presentación
+
+00:19:10.600 --> 00:19:12.280
+2, antes del lunes 27,
+
+00:19:12.280 --> 00:19:13.880
+independiente del día en el que
+
+00:19:13.880 --> 00:19:16.280
+presente, ¿Ya? Dale Inés.
+
+00:19:18.200 --> 00:19:19.320
+Profesor, tengo una duda con las
+
+00:19:19.320 --> 00:19:23.320
+fechas, porque es 7 de marzo 9.
+
+00:19:25.080 --> 00:19:26.920
+La primera es la que está mala,
+
+00:19:26.920 --> 00:19:28.280
+la primera es 26 de enero.
+
+00:19:28.280 --> 00:19:29.160
+¿Y al 9?
+
+00:19:29.160 --> 00:19:30.280
+No, 26, o sea...
+
+00:19:30.280 --> 00:19:31.880
+Ah, perdón, 26 de enero,
+
+00:19:32.920 --> 00:19:34.120
+y ahí después es abril,
+
+00:19:34.120 --> 00:19:35.320
+parte en abril 13.
+
+00:19:36.360 --> 00:19:37.560
+Ok, ya es así el lunes.
+
+00:19:38.680 --> 00:19:39.160
+¿Está bien?
+
+00:19:39.160 --> 00:19:40.120
+Vale.
+
+00:19:40.120 --> 00:19:40.680
+No, de nada.
+
+00:19:40.680 --> 00:19:41.480
+Chico, gracias.
+
+00:19:41.480 --> 00:19:42.600
+Dale, dale Víctor.
+
+00:19:45.030 --> 00:19:46.710
+Hola, Profes, oiga, duda,
+
+00:19:47.670 --> 00:19:50.950
+entiendo que el proyecto Capstone
+
+00:19:50.950 --> 00:19:53.270
+queda finalmente como formato
+
+00:19:53.270 --> 00:19:56.230
+paper, posterior a, por ejemplo,
+
+00:19:56.230 --> 00:19:58.070
+soccurriendo el caso que aprobábamos
+
+00:19:58.070 --> 00:19:59.510
+y todo existiría, la posibilidad
+
+00:19:59.510 --> 00:20:02.070
+de publicarlo, o algo por el estilo?
+
+00:20:02.070 --> 00:20:05.910
+Ustedes pueden publicarlo,
+
+00:20:05.910 --> 00:20:06.950
+y están en la libertad, porque es
+
+00:20:06.950 --> 00:20:08.310
+su proyecto de investigación.
+
+00:20:09.270 --> 00:20:10.310
+Lo único que tienen que tener
+
+00:20:10.310 --> 00:20:11.750
+obviamente cuidado, Víctor, es que
+
+00:20:11.750 --> 00:20:13.670
+esa publicación no vaya en contra
+
+00:20:13.670 --> 00:20:15.590
+de lo que ustedes ya acordaron
+
+00:20:15.590 --> 00:20:16.550
+con la empresa en términos de
+
+00:20:16.550 --> 00:20:17.830
+confidencialidad de información.
+
+00:20:18.550 --> 00:20:19.670
+Pero es un paper suyo,
+
+00:20:21.270 --> 00:20:22.310
+es un...
+
+00:20:23.350 --> 00:20:24.390
+La investigación se entrega
+
+00:20:24.390 --> 00:20:25.670
+en un formato de paper, pero solo
+
+00:20:25.670 --> 00:20:26.870
+con fines de acreditación.
+
+00:20:28.230 --> 00:20:29.430
+No esperamos que ustedes vayan
+
+00:20:29.430 --> 00:20:30.790
+y lo publiquen, si es que después
+
+00:20:30.790 --> 00:20:32.150
+quieren seguir trabajando
+
+00:20:32.150 --> 00:20:33.510
+y quieren trabajar, de cara una
+
+00:20:33.510 --> 00:20:34.950
+publicación, completamente
+
+00:20:34.950 --> 00:20:37.350
+libertado a ustedes y me imagino
+
+00:20:37.350 --> 00:20:38.710
+que su profesor o profesor allí
+
+00:20:38.710 --> 00:20:41.510
+va a estar feliz de apoyarlos en eso,
+
+00:20:41.510 --> 00:20:43.190
+pero solamente es un formato
+
+00:20:43.190 --> 00:20:45.190
+de entrega, no necesariamente
+
+00:20:45.270 --> 00:20:47.590
+un requisito de publicación.
+
+00:20:48.790 --> 00:20:49.750
+Dale, David.
+
+00:20:51.910 --> 00:20:53.190
+Hola, profe, ¿qué tal?
+
+00:20:53.750 --> 00:20:54.550
+Se escucha bien, ¿verdad?
+
+00:20:54.550 --> 00:20:55.110
+Se escucha.
+
+00:20:55.110 --> 00:20:55.910
+Estoy muy...
+
+00:20:55.910 --> 00:20:56.950
+Super.
+
+00:20:56.950 --> 00:20:58.630
+Pasé que yo venía en el día
+
+00:20:58.630 --> 00:21:00.470
+y yo ya hice un proyecto de cápsulas.
+
+00:21:00.470 --> 00:21:02.230
+Se tengo una urla ahí como...
+
+00:21:02.230 --> 00:21:03.830
+Ya me la evaluaron, la defendimos.
+
+00:21:04.870 --> 00:21:06.550
+Entonces, no sé si es como un
+
+00:21:06.550 --> 00:21:09.830
+cápsula por año o toda la
+
+00:21:09.830 --> 00:21:11.750
+suerte que hice el cápsula
+
+00:21:11.750 --> 00:21:12.710
+antes, no sé.
+
+00:21:13.510 --> 00:21:15.350
+Pero ¿cuándo hiciste un proyecto
+
+00:21:15.350 --> 00:21:16.950
+de cápsula? No entiendo.
+
+00:21:16.950 --> 00:21:17.910
+Lo hice...
+
+00:21:17.910 --> 00:21:18.870
+Lo base es que yo esteré al
+
+00:21:18.870 --> 00:21:20.790
+maquister y
+
+00:21:20.790 --> 00:21:22.070
+hicimos cápsulas en el primer
+
+00:21:22.070 --> 00:21:24.470
+año, lo defendimos y
+
+00:21:24.470 --> 00:21:26.470
+no pude continuar por no tener
+
+00:21:26.470 --> 00:21:27.830
+una carrera como compatible
+
+00:21:27.830 --> 00:21:30.070
+con el perfil de la
+
+00:21:30.070 --> 00:21:31.110
+acreditación.
+
+00:21:31.110 --> 00:21:32.870
+Ahora, algo revaluaron mi
+
+00:21:32.870 --> 00:21:34.790
+posibilidad y me enteré
+
+00:21:34.790 --> 00:21:35.910
+como al mía.
+
+00:21:35.910 --> 00:21:37.910
+Yo ya hice un cápsula.
+
+00:21:37.910 --> 00:21:39.910
+Ella preste el cápsula
+
+00:21:39.910 --> 00:21:41.430
+del mía, es distinto.
+
+00:21:42.230 --> 00:21:43.350
+Entonces, siempre han sido dos
+
+00:21:43.350 --> 00:21:43.910
+cápsulas.
+
+00:21:44.870 --> 00:21:46.630
+No sé si al otro, quizás por...
+
+00:21:47.670 --> 00:21:48.790
+Quizás le llamara un capstone,
+
+00:21:48.790 --> 00:21:50.070
+pero este es el capstone de
+
+00:21:50.070 --> 00:21:51.110
+cierre del programa.
+
+00:21:51.670 --> 00:21:53.510
+Si lo hiciste en el primer
+
+00:21:53.510 --> 00:21:56.550
+año, no sé qué habrá sido.
+
+00:21:56.550 --> 00:21:59.110
+Le podemos preguntar a Rolando,
+
+00:21:59.110 --> 00:22:00.630
+que es el director del programa,
+
+00:22:00.630 --> 00:22:01.670
+pero este es el capstone de
+
+00:22:01.670 --> 00:22:03.110
+cierre del programa y el que
+
+00:22:03.110 --> 00:22:04.390
+da pie a tu defensa.
+
+00:22:04.390 --> 00:22:05.830
+El otro no sea que da pie.
+
+00:22:06.630 --> 00:22:07.670
+Claro, es que se puede hacer
+
+00:22:07.670 --> 00:22:09.110
+en el primer año o en el
+
+00:22:09.110 --> 00:22:10.470
+segundo, yo voy a ver que
+
+00:22:10.470 --> 00:22:11.590
+es que el tiro no se lo pide.
+
+00:22:12.310 --> 00:22:13.910
+Ah, le podemos preguntar a Rolando,
+
+00:22:13.910 --> 00:22:15.190
+me puedes mandar un correo con eso
+
+00:22:15.190 --> 00:22:16.310
+y le podemos preguntar a la vez
+
+00:22:16.310 --> 00:22:18.310
+si es que es posible que puedas
+
+00:22:18.950 --> 00:22:20.310
+como validar ese capstone,
+
+00:22:20.310 --> 00:22:21.270
+una cosa de ese estilo.
+
+00:22:22.870 --> 00:22:23.670
+Ya, perfecto.
+
+00:22:23.670 --> 00:22:24.150
+Gracias.
+
+00:22:24.150 --> 00:22:24.710
+No de nada.
+
+00:22:27.270 --> 00:22:28.870
+Ay, como les decía, entonces tienen
+
+00:22:29.830 --> 00:22:31.430
+tienen que subir las presentaciones
+
+00:22:31.430 --> 00:22:32.870
+antes del inicio de la sesión
+
+00:22:33.510 --> 00:22:35.030
+asociada a esas presentaciones.
+
+00:22:35.670 --> 00:22:37.590
+Que es el lunes 13, el lunes 27,
+
+00:22:37.590 --> 00:22:39.030
+el lunes 9, si no lo hacen
+
+00:22:39.030 --> 00:22:40.230
+van a tener un punto menos
+
+00:22:40.230 --> 00:22:43.270
+el en la presentación.
+
+00:22:43.270 --> 00:22:44.550
+Ya revuelven que las notas
+
+00:22:44.550 --> 00:22:45.750
+es la presentación,
+
+00:22:45.750 --> 00:22:47.030
+o sea, cada una de las presentaciones
+
+00:22:47.030 --> 00:22:48.310
+parciales son grupales.
+
+00:22:48.310 --> 00:22:49.750
+Es la misma para todos los integrantes
+
+00:22:49.750 --> 00:22:50.550
+del grupo.
+
+00:22:50.550 --> 00:22:52.150
+Ya, ¿qué es lo que vamos a hacer?
+
+00:22:52.150 --> 00:22:53.670
+Entonces, ustedes van a presentar
+
+00:22:53.670 --> 00:22:55.110
+cada una de sus presentaciones
+
+00:22:55.110 --> 00:22:56.630
+parciales por 15 minutos.
+
+00:22:57.190 --> 00:23:00.310
+Ya, y yo voy a ser bien esticto
+
+00:23:00.310 --> 00:23:00.790
+en eso.
+
+00:23:00.790 --> 00:23:01.510
+¿Por qué?
+
+00:23:01.510 --> 00:23:02.710
+Porque esto es un entrenamiento
+
+00:23:02.710 --> 00:23:04.070
+de cada su defensa.
+
+00:23:04.070 --> 00:23:05.750
+En la defensa van a tener
+
+00:23:05.750 --> 00:23:07.030
+media hora y media hora
+
+00:23:07.670 --> 00:23:08.310
+solo.
+
+00:23:08.310 --> 00:23:09.430
+Ya, entonces,
+
+00:23:09.510 --> 00:23:11.510
+tienen que ser capaces de que el
+
+00:23:12.710 --> 00:23:15.190
+del mensaje y el discurso
+
+00:23:15.190 --> 00:23:16.710
+esté lo suficientemente coherente
+
+00:23:16.710 --> 00:23:17.430
+y conciso
+
+00:23:17.430 --> 00:23:18.310
+para que van a cumplir
+
+00:23:18.310 --> 00:23:19.830
+con esa limitación hasta el tiempo.
+
+00:23:19.830 --> 00:23:21.270
+Yo eso lo vamos a ir entrenando.
+
+00:23:21.270 --> 00:23:22.710
+Ya, ¿no es que ustedes van a llegar
+
+00:23:22.710 --> 00:23:23.350
+al capstone?
+
+00:23:23.350 --> 00:23:24.470
+O sea, van a llegar a la defensa
+
+00:23:24.470 --> 00:23:25.430
+y mágicamente
+
+00:23:25.430 --> 00:23:26.550
+van a saber cómo presentar
+
+00:23:26.550 --> 00:23:27.750
+todo en media hora.
+
+00:23:27.750 --> 00:23:30.070
+Es porque van a tener tres instancias
+
+00:23:30.070 --> 00:23:31.270
+en las que van a poder presentar
+
+00:23:31.270 --> 00:23:32.230
+por esos 15 minutos
+
+00:23:32.230 --> 00:23:33.350
+cronometrado
+
+00:23:33.350 --> 00:23:34.550
+y después yo les voy a dar
+
+00:23:34.550 --> 00:23:37.910
+feedback sobre esa presentación.
+
+00:23:37.910 --> 00:23:39.190
+Ya, como les decía,
+
+00:23:39.190 --> 00:23:40.390
+la asistencia obligatoria
+
+00:23:40.390 --> 00:23:41.510
+para la sesión completa
+
+00:23:42.310 --> 00:23:44.150
+independiente del día en el que presenta.
+
+00:23:44.150 --> 00:23:45.590
+Ya, de manera que ustedes puedan
+
+00:23:46.950 --> 00:23:48.230
+escuchar también el feedback
+
+00:23:48.230 --> 00:23:48.710
+para otros
+
+00:23:49.270 --> 00:23:50.790
+que le damos a otros grupos
+
+00:23:50.790 --> 00:23:51.750
+y que por lo tanto puede hacer
+
+00:23:51.750 --> 00:23:53.030
+también potencialmente
+
+00:23:53.030 --> 00:23:54.390
+útiles para ustedes.
+
+00:23:54.390 --> 00:23:57.430
+Ya, es como les decía antes
+
+00:23:57.430 --> 00:23:58.390
+responsabilidad a ustedes
+
+00:23:58.390 --> 00:24:00.070
+poder encontrar su capstone.
+
+00:24:00.070 --> 00:24:01.430
+Ya, la universidad no provee
+
+00:24:01.430 --> 00:24:02.870
+capstone y es difícil
+
+00:24:02.870 --> 00:24:04.150
+que los académicos
+
+00:24:06.070 --> 00:24:07.350
+yo no soy académico de plantas
+
+00:24:07.350 --> 00:24:08.150
+en la universidad
+
+00:24:08.150 --> 00:24:09.270
+pero es difícil que los académicos
+
+00:24:09.270 --> 00:24:10.230
+de plantas les puedan ayudar
+
+00:24:10.230 --> 00:24:11.110
+con capstone
+
+00:24:11.110 --> 00:24:12.390
+porque usualmente sus proyectos
+
+00:24:12.390 --> 00:24:13.750
+de investigación tienen tiempo
+
+00:24:13.750 --> 00:24:14.950
+de distintos, tienen alcance
+
+00:24:14.950 --> 00:24:15.990
+de distintos, entonces
+
+00:24:15.990 --> 00:24:17.190
+es un poco más complejo.
+
+00:24:17.190 --> 00:24:18.630
+Ya, como les decía su sí
+
+00:24:18.630 --> 00:24:19.430
+si es que hay alguien que
+
+00:24:19.430 --> 00:24:20.630
+efectivamente se vea
+
+00:24:20.630 --> 00:24:21.430
+en la urgencia
+
+00:24:23.270 --> 00:24:24.230
+puede levantar la mano
+
+00:24:24.230 --> 00:24:25.030
+enviar un correo
+
+00:24:25.030 --> 00:24:26.070
+y podemos ver controlando
+
+00:24:26.070 --> 00:24:26.950
+la posibilidad
+
+00:24:26.950 --> 00:24:27.910
+de poder ayudarlos
+
+00:24:27.910 --> 00:24:29.590
+pero no hay ningún compromiso
+
+00:24:29.590 --> 00:24:30.310
+con eso.
+
+00:24:30.310 --> 00:24:32.710
+Ya, como les decía
+
+00:24:32.710 --> 00:24:35.430
+en temas de dedicación
+
+00:24:35.430 --> 00:24:36.470
+mientras antes les dirían
+
+00:24:36.470 --> 00:24:37.270
+esas 8 horas
+
+00:24:37.270 --> 00:24:38.550
+por persona mejor
+
+00:24:38.550 --> 00:24:39.910
+para poder definir bien
+
+00:24:39.910 --> 00:24:42.310
+cuál es el capstone
+
+00:24:42.310 --> 00:24:43.270
+definir y entender
+
+00:24:43.270 --> 00:24:44.150
+cuál es la industria
+
+00:24:44.150 --> 00:24:45.190
+cuál es el proceso de negocio
+
+00:24:45.190 --> 00:24:46.470
+que van a poder abordar
+
+00:24:46.470 --> 00:24:47.830
+la relevancia que tiene ese proceso
+
+00:24:47.830 --> 00:24:48.230
+de negocio
+
+00:24:48.230 --> 00:24:49.830
+dentro del contexto de la organización
+
+00:24:49.830 --> 00:24:51.270
+o dentro del contexto de la industria
+
+00:24:52.390 --> 00:24:53.910
+como un poco lo que comenzaba
+
+00:24:53.910 --> 00:24:55.030
+lo que comentaba Javién
+
+00:24:55.030 --> 00:24:56.070
+al principio
+
+00:24:56.070 --> 00:24:57.350
+que el problema sea factible
+
+00:24:57.350 --> 00:24:58.070
+que caiga dentro
+
+00:24:58.070 --> 00:24:59.430
+de lo alcance del capstone
+
+00:25:01.110 --> 00:25:02.870
+y que ustedes puedan ser
+
+00:25:02.870 --> 00:25:04.070
+capaces de desarrollar
+
+00:25:04.150 --> 00:25:07.830
+le aquí hasta el 9 de noviembre
+
+00:25:07.830 --> 00:25:09.430
+ya tiene alrededor del que si yo
+
+00:25:09.430 --> 00:25:10.310
+más o menos 10 meses
+
+00:25:10.310 --> 00:25:11.190
+un poco menos que eso
+
+00:25:12.630 --> 00:25:16.070
+y es responsabilidad
+
+00:25:16.070 --> 00:25:17.510
+de ustedes también
+
+00:25:17.510 --> 00:25:19.510
+evaluar desde el día cero
+
+00:25:19.510 --> 00:25:21.030
+el acceso y la calidad de los datos
+
+00:25:23.830 --> 00:25:25.270
+particularmente porque nosotros
+
+00:25:25.270 --> 00:25:26.710
+como universidad
+
+00:25:26.710 --> 00:25:28.070
+no tenemos acceso a su dato
+
+00:25:28.070 --> 00:25:30.150
+y no vamos a tener acceso a su dato
+
+00:25:30.150 --> 00:25:31.670
+por lo tanto no hay ninguna ayuda
+
+00:25:31.670 --> 00:25:32.390
+que podamos proveer
+
+00:25:32.390 --> 00:25:33.430
+en términos de
+
+00:25:33.430 --> 00:25:34.950
+esa esa evaluación
+
+00:25:34.950 --> 00:25:36.150
+de la calidad y el acceso
+
+00:25:37.990 --> 00:25:38.550
+ojo con eso
+
+00:25:39.190 --> 00:25:41.590
+o sea ojo con lo que estaba mencionando
+
+00:25:42.150 --> 00:25:43.110
+ni la universidad
+
+00:25:44.790 --> 00:25:46.390
+ni sus profesores guías
+
+00:25:46.390 --> 00:25:48.230
+o su profesor guía o profesora guía
+
+00:25:50.390 --> 00:25:50.950
+va a tener
+
+00:25:51.670 --> 00:25:53.910
+te viene a tener acceso a esa información
+
+00:25:53.910 --> 00:25:55.910
+y es por eso que nadie de esas personas
+
+00:25:55.910 --> 00:25:57.830
+va a firmar un acuerdo de confidencialidad
+
+00:25:57.830 --> 00:25:58.390
+por ustedes
+
+00:26:01.830 --> 00:26:02.150
+las
+
+00:26:03.670 --> 00:26:05.670
+todo el proceso de capstone
+
+00:26:05.670 --> 00:26:08.070
+es cerrado a esta generación del capstone
+
+00:26:08.950 --> 00:26:12.070
+yo no les voy a compartir videos de capstone anteriores
+
+00:26:12.070 --> 00:26:13.110
+no les voy a compartir
+
+00:26:13.110 --> 00:26:14.710
+paper de capstone anteriores
+
+00:26:14.710 --> 00:26:16.710
+para que ustedes puedan ver como ejemplos
+
+00:26:16.710 --> 00:26:17.590
+porque lo que hacemos
+
+00:26:17.590 --> 00:26:18.550
+es que sólo ese paper
+
+00:26:18.550 --> 00:26:19.910
+que mencionarábamos antes
+
+00:26:19.910 --> 00:26:21.910
+es solamente con fina de agregitación
+
+00:26:21.910 --> 00:26:23.110
+es que nosotros le podemos mostrar
+
+00:26:23.110 --> 00:26:24.630
+a la comisión nacional de agregitación
+
+00:26:24.630 --> 00:26:26.870
+oye mira este es el resultado tangible
+
+00:26:26.870 --> 00:26:28.710
+de el aprendizaje
+
+00:26:28.710 --> 00:26:30.550
+de nuestros alumnos en el magistre
+
+00:26:30.550 --> 00:26:31.510
+y eso da pie a
+
+00:26:31.990 --> 00:26:34.070
+a poder buscar la acreditación
+
+00:26:34.070 --> 00:26:35.910
+que ya está la acreditación en el magistre
+
+00:26:35.910 --> 00:26:36.950
+en ciencia de datos
+
+00:26:36.950 --> 00:26:37.910
+y lo que estamos haciendo ahora
+
+00:26:37.910 --> 00:26:40.790
+es buscar la acreditación en este magistro
+
+00:26:40.790 --> 00:26:41.030
+ya
+
+00:26:43.910 --> 00:26:45.430
+las presentaciones son grabadas
+
+00:26:45.990 --> 00:26:49.750
+pero son solamente disponibles para ustedes
+
+00:26:49.750 --> 00:26:51.110
+y solamente para que puedan mirar
+
+00:26:51.110 --> 00:26:52.390
+el feed para que yo les voy a dar
+
+00:26:52.390 --> 00:26:53.990
+para que lo puedan revisar en detalle
+
+00:26:53.990 --> 00:26:54.950
+para que puedan mirar ustedes
+
+00:26:54.950 --> 00:26:56.310
+sus mismas presentaciones y digan
+
+00:26:56.310 --> 00:26:57.670
+oye mira hay cosas que podemos ajustar
+
+00:26:57.670 --> 00:26:58.950
+en el mensaje
+
+00:26:58.950 --> 00:27:00.070
+para que puedan mirar
+
+00:27:00.150 --> 00:27:01.670
+o revisar nuevamente
+
+00:27:01.670 --> 00:27:02.790
+presentaciones de otros grupos
+
+00:27:02.790 --> 00:27:03.350
+que ustedes digan
+
+00:27:03.350 --> 00:27:05.030
+oye mira la presentación buena
+
+00:27:05.030 --> 00:27:06.710
+la forma en como abordaron
+
+00:27:06.710 --> 00:27:07.830
+pero de nuevo vuelvo a destacar
+
+00:27:07.830 --> 00:27:09.350
+eso no queda disponible
+
+00:27:09.350 --> 00:27:11.830
+para generaciones posteriores del capson
+
+00:27:11.830 --> 00:27:13.510
+y obviamente ustedes no van a tener acceso
+
+00:27:13.510 --> 00:27:15.030
+a generaciones previas del capson
+
+00:27:15.030 --> 00:27:16.070
+como pueden tener una idea
+
+00:27:16.710 --> 00:27:17.830
+dale rodrigo
+
+00:27:20.010 --> 00:27:20.330
+hola
+
+00:27:21.290 --> 00:27:22.410
+mira me quedo dando vuelta
+
+00:27:22.410 --> 00:27:24.330
+ese tema que no está acreditado aún
+
+00:27:24.330 --> 00:27:24.890
+dijiste
+
+00:27:25.530 --> 00:27:26.730
+yo no sabía eso
+
+00:27:28.250 --> 00:27:28.970
+el magistre
+
+00:27:29.610 --> 00:27:30.650
+la universidad está acreditada
+
+00:27:30.650 --> 00:27:31.850
+el magistro no está acreditado
+
+00:27:33.210 --> 00:27:34.570
+de hecho el único magistro que tiene
+
+00:27:34.570 --> 00:27:35.450
+acreditado a la universidad
+
+00:27:35.450 --> 00:27:36.250
+el de ciencia de datos
+
+00:27:39.830 --> 00:27:41.590
+ya y qué problema no puede traer eso
+
+00:27:46.020 --> 00:27:48.340
+ningún problema puede traer o que
+
+00:27:50.020 --> 00:27:51.780
+qué quiere decir que no está acreditado
+
+00:27:52.900 --> 00:27:54.420
+en verdad los programas de
+
+00:27:54.420 --> 00:27:55.380
+no sé alguien quería
+
+00:27:56.260 --> 00:27:58.020
+que no venía la comisión nacional
+
+00:27:58.020 --> 00:27:59.300
+de acreditación
+
+00:27:59.300 --> 00:28:00.980
+a ver que el programa sea
+
+00:28:01.940 --> 00:28:03.540
+sustentable en términos de calidad
+
+00:28:04.260 --> 00:28:05.620
+porque la universidad no lo ha pedido
+
+00:28:05.620 --> 00:28:06.260
+es lo único
+
+00:28:07.060 --> 00:28:07.860
+el único que
+
+00:28:09.940 --> 00:28:11.620
+y si quiere la universidad puede venir
+
+00:28:11.620 --> 00:28:12.980
+y pedir la acreditación
+
+00:28:12.980 --> 00:28:14.580
+es una certificación no más nada más
+
+00:28:16.100 --> 00:28:17.780
+es que si fuera así tan fácil
+
+00:28:17.780 --> 00:28:19.300
+la deberían tener me imagino
+
+00:28:19.300 --> 00:28:20.180
+o sea yo pregunto
+
+00:28:20.740 --> 00:28:22.180
+porque si a mí me dicen oye tu magistro
+
+00:28:22.180 --> 00:28:24.340
+está acreditado no quizás pierde valor
+
+00:28:24.340 --> 00:28:25.060
+a eso es lo que voy
+
+00:28:26.420 --> 00:28:26.900
+Rodrigo
+
+00:28:26.900 --> 00:28:27.860
+por acá
+
+00:28:29.620 --> 00:28:30.660
+de lo que yo he averiguado
+
+00:28:30.660 --> 00:28:34.020
+la única imposibilidad sería como
+
+00:28:34.500 --> 00:28:36.580
+optar a becas de financiamiento
+
+00:28:37.300 --> 00:28:38.740
+sobre todo los programas de becas
+
+00:28:38.740 --> 00:28:40.100
+que son públicos
+
+00:28:40.100 --> 00:28:42.020
+esos programas exigen generalmente
+
+00:28:42.020 --> 00:28:44.020
+que los que los programas de hipográfico
+
+00:28:44.020 --> 00:28:45.300
+sean estén acreditados
+
+00:28:46.900 --> 00:28:47.860
+ah ya vale
+
+00:28:47.860 --> 00:28:48.980
+pero más allá de eso
+
+00:28:51.860 --> 00:28:52.180
+ya ya
+
+00:28:52.180 --> 00:28:52.820
+vale quiero
+
+00:28:52.820 --> 00:28:53.700
+la voz que me salta
+
+00:28:55.700 --> 00:28:57.460
+eh cuando yo estaba en la universidad
+
+00:28:57.460 --> 00:28:59.380
+que era el 2002
+
+00:28:59.380 --> 00:29:00.420
+se estaba acreditando
+
+00:29:00.420 --> 00:29:02.100
+y segundo sí se había acreditado
+
+00:29:03.060 --> 00:29:04.580
+yo también creo que está acreditado
+
+00:29:04.580 --> 00:29:05.300
+si
+
+00:29:05.300 --> 00:29:06.180
+si ahí o sea
+
+00:29:06.180 --> 00:29:08.020
+por eso a mí me debes ser un contigo
+
+00:29:08.020 --> 00:29:10.100
+si el magistro está acreditado
+
+00:29:10.100 --> 00:29:11.220
+a eso mandaron
+
+00:29:11.220 --> 00:29:12.420
+a eso mandaron ahí una noticia
+
+00:29:12.420 --> 00:29:14.980
+el 2002 o sea el 2022
+
+00:29:14.980 --> 00:29:16.580
+que estaba acreditado por 4 años
+
+00:29:18.580 --> 00:29:19.780
+entonces todavía está acreditado
+
+00:29:19.780 --> 00:29:20.660
+todo está acreditado
+
+00:29:20.660 --> 00:29:22.100
+y nosotros estamos en búsqueda
+
+00:29:22.100 --> 00:29:23.060
+de esa acreditación
+
+00:29:23.060 --> 00:29:23.540
+ya
+
+00:29:25.540 --> 00:29:27.220
+entonces solamente es por eso ya
+
+00:29:27.220 --> 00:29:28.820
+y vuelve a hacer el énfasis
+
+00:29:28.820 --> 00:29:30.100
+en que efectivamente
+
+00:29:30.100 --> 00:29:31.300
+toda la información
+
+00:29:31.460 --> 00:29:33.060
+solamente es para ustedes
+
+00:29:35.700 --> 00:29:36.660
+es solamente con fines
+
+00:29:36.660 --> 00:29:37.620
+de que ustedes puedan
+
+00:29:37.620 --> 00:29:39.140
+como mejorar su capstone
+
+00:29:39.140 --> 00:29:40.020
+pero lo que hay a disponible
+
+00:29:40.020 --> 00:29:40.580
+para nadie
+
+00:29:40.580 --> 00:29:41.380
+ni siquiera el paper
+
+00:29:41.380 --> 00:29:42.580
+que hablábamos antes
+
+00:29:42.580 --> 00:29:43.380
+ese paper también
+
+00:29:43.380 --> 00:29:44.980
+es solo con fines de acreditación
+
+00:29:44.980 --> 00:29:45.620
+ya
+
+00:29:45.620 --> 00:29:46.660
+dale andré
+
+00:29:48.420 --> 00:29:48.820
+dale
+
+00:29:48.820 --> 00:29:50.020
+no una consulta
+
+00:29:50.580 --> 00:29:52.260
+relacionando el tema del proyecto
+
+00:29:53.780 --> 00:29:55.380
+el foco de análisis
+
+00:29:55.380 --> 00:29:56.500
+está en el alcance
+
+00:29:56.500 --> 00:29:57.620
+los datos la
+
+00:29:58.580 --> 00:30:00.100
+la solución y sí
+
+00:30:00.180 --> 00:30:01.060
+y la problemática
+
+00:30:01.060 --> 00:30:03.220
+pero no no no entra ahí
+
+00:30:03.220 --> 00:30:04.580
+por ejemplo la viabilidad de
+
+00:30:05.620 --> 00:30:06.740
+financiera
+
+00:30:06.740 --> 00:30:07.780
+esa parte digamos
+
+00:30:07.780 --> 00:30:09.140
+que quizás es un proyecto
+
+00:30:09.140 --> 00:30:09.940
+puede sonar muy
+
+00:30:10.580 --> 00:30:11.940
+bueno en teoría
+
+00:30:11.940 --> 00:30:12.980
+puede tener todos datos
+
+00:30:12.980 --> 00:30:13.220
+pero
+
+00:30:14.900 --> 00:30:15.780
+no es factible
+
+00:30:16.500 --> 00:30:17.140
+implementar
+
+00:30:17.140 --> 00:30:17.460
+entonces
+
+00:30:17.460 --> 00:30:18.260
+si quieres saber
+
+00:30:18.260 --> 00:30:19.380
+cómo funciona
+
+00:30:19.380 --> 00:30:20.020
+y este aspecto
+
+00:30:20.020 --> 00:30:20.820
+si esto entra dentro
+
+00:30:21.620 --> 00:30:22.900
+dentro de la análisis
+
+00:30:23.460 --> 00:30:23.780
+o no
+
+00:30:25.060 --> 00:30:26.180
+la parte económica
+
+00:30:26.180 --> 00:30:27.220
+la parte digamos
+
+00:30:27.220 --> 00:30:28.180
+si algo que se puede
+
+00:30:28.180 --> 00:30:29.220
+lanzar el mercado
+
+00:30:29.220 --> 00:30:30.980
+no se puede escalar o no
+
+00:30:30.980 --> 00:30:31.460
+etc
+
+00:30:31.460 --> 00:30:33.460
+ya
+
+00:30:33.460 --> 00:30:34.740
+muy buena pregunta andré
+
+00:30:34.740 --> 00:30:36.180
+lo que nosotros esperamos es que
+
+00:30:36.180 --> 00:30:37.780
+su proyecto de investigación
+
+00:30:37.780 --> 00:30:39.620
+aplicada sea factible
+
+00:30:39.620 --> 00:30:40.740
+quiere decir que lo que ustedes
+
+00:30:40.740 --> 00:30:41.780
+van a analizar
+
+00:30:41.780 --> 00:30:43.700
+y lo que ustedes van a construir
+
+00:30:44.340 --> 00:30:45.940
+se pueda construir dentro
+
+00:30:45.940 --> 00:30:46.980
+del alcance que ustedes
+
+00:30:46.980 --> 00:30:47.940
+han definido
+
+00:30:47.940 --> 00:30:49.380
+pero usualmente queda fuera
+
+00:30:49.380 --> 00:30:50.500
+de la evaluación
+
+00:30:50.500 --> 00:30:51.540
+cualquier tema asociado
+
+00:30:51.540 --> 00:30:53.140
+a la implementación
+
+00:30:53.140 --> 00:30:53.780
+de esto
+
+00:30:53.780 --> 00:30:54.580
+en la
+
+00:30:54.580 --> 00:30:55.620
+como en la operación
+
+00:30:55.620 --> 00:30:56.580
+de la compañía
+
+00:30:56.580 --> 00:30:57.540
+y eso involucra parte
+
+00:30:57.540 --> 00:30:58.900
+de lo que tú mencionaste andré
+
+00:30:58.900 --> 00:30:59.780
+si es que fuera
+
+00:30:59.780 --> 00:31:00.900
+económicamente viable
+
+00:31:00.900 --> 00:31:02.420
+si es que para técnicamente viable
+
+00:31:02.420 --> 00:31:03.460
+e implementar
+
+00:31:03.460 --> 00:31:05.540
+todas esas cosas que van fuera del alcance
+
+00:31:05.540 --> 00:31:07.380
+y ahí por eso hice la énfasis al principio
+
+00:31:07.380 --> 00:31:08.980
+este es un proyecto de investigación
+
+00:31:08.980 --> 00:31:09.460
+aplicada
+
+00:31:09.460 --> 00:31:10.500
+no es que ustedes
+
+00:31:10.500 --> 00:31:11.860
+pues van a tomar un problema real
+
+00:31:11.860 --> 00:31:13.460
+y van a construir una solución
+
+00:31:13.460 --> 00:31:14.260
+como en
+
+00:31:15.460 --> 00:31:16.820
+un piloto de la solución
+
+00:31:16.820 --> 00:31:18.260
+pero nosotros no les pedimos
+
+00:31:18.260 --> 00:31:19.460
+que ese piloto a la solución
+
+00:31:19.460 --> 00:31:20.500
+vaya y simplemente
+
+00:31:21.140 --> 00:31:22.020
+en la
+
+00:31:25.700 --> 00:31:27.140
+en la empresa propiamente tal
+
+00:31:27.140 --> 00:31:28.100
+y por lo tanto se puedan maile
+
+00:31:28.100 --> 00:31:29.380
+los efectos que eso tenga
+
+00:31:29.380 --> 00:31:30.900
+porque además entendemos que eso queda fuera
+
+00:31:30.900 --> 00:31:32.020
+el alcance de ustedes
+
+00:31:32.020 --> 00:31:33.700
+ustedes pueden promover en la mejor solución
+
+00:31:33.700 --> 00:31:35.700
+pero si es que la organización no la prioriza
+
+00:31:35.700 --> 00:31:36.500
+si es que la unirse
+
+00:31:36.500 --> 00:31:37.940
+o sea si es que la organización
+
+00:31:37.940 --> 00:31:39.540
+no pone los recursos asociados a eso
+
+00:31:39.540 --> 00:31:41.140
+efectivamente eso queda fuera
+
+00:31:41.140 --> 00:31:42.100
+ya entonces
+
+00:31:42.100 --> 00:31:43.700
+siempre tengan en consideración
+
+00:31:43.700 --> 00:31:46.020
+esto es un proyecto de investigación aplicada
+
+00:31:46.020 --> 00:31:47.780
+donde obviamente ustedes van a tomar un problema real
+
+00:31:47.780 --> 00:31:49.380
+y van a crear una solución real
+
+00:31:49.380 --> 00:31:50.660
+pero eso no lo necesariamente implique
+
+00:31:50.660 --> 00:31:51.860
+y la solución real
+
+00:31:51.860 --> 00:31:53.700
+se implemente en esa organización
+
+00:31:53.700 --> 00:31:54.660
+y por lo tanto
+
+00:31:54.660 --> 00:31:56.260
+caigan todas el tipo de evaluaciones
+
+00:31:56.260 --> 00:31:58.020
+que sí pasan un proyecto real
+
+00:31:58.180 --> 00:32:02.260
+respecto de la factibilidad financiera
+
+00:32:02.260 --> 00:32:03.300
+la factibilidad técnica
+
+00:32:03.300 --> 00:32:04.980
+implementar esto en la arquitectura
+
+00:32:04.980 --> 00:32:06.020
+etcétera etcétera
+
+00:32:06.020 --> 00:32:07.700
+ya dale Jaime
+
+00:32:09.900 --> 00:32:10.860
+mala profe hola
+
+00:32:12.220 --> 00:32:14.620
+usted comentó que la universidad no va a firmar
+
+00:32:16.460 --> 00:32:17.820
+contrato de confiancialidad
+
+00:32:18.460 --> 00:32:19.900
+ni los profesores tampoco
+
+00:32:19.900 --> 00:32:20.140
+pero
+
+00:32:22.540 --> 00:32:25.100
+qué nivel de publicación va a tener el trabajo
+
+00:32:25.100 --> 00:32:27.340
+o qué nivel de exposición va a tener
+
+00:32:27.340 --> 00:32:28.780
+considerando que vamos a estar trabajando
+
+00:32:28.780 --> 00:32:30.220
+con datos privados de las empresas
+
+00:32:30.220 --> 00:32:31.900
+o sea la idea también es recordar
+
+00:32:31.900 --> 00:32:33.500
+que los datos no se venciten
+
+00:32:34.220 --> 00:32:35.100
+de la competencia
+
+00:32:35.100 --> 00:32:36.300
+o hay algún conflicto interés
+
+00:32:36.940 --> 00:32:37.740
+eso ninguno
+
+00:32:38.300 --> 00:32:39.740
+ninguno bueno la pregunta y
+
+00:32:41.820 --> 00:32:43.900
+ningún grado de publicación
+
+00:32:43.900 --> 00:32:44.700
+de nada
+
+00:32:44.700 --> 00:32:45.660
+como le decía yo
+
+00:32:45.660 --> 00:32:48.380
+los papers son solamente con fines de agregitación
+
+00:32:48.380 --> 00:32:49.980
+las presentaciones son solamente
+
+00:32:51.020 --> 00:32:52.220
+con fines de que ustedes
+
+00:32:52.220 --> 00:32:54.140
+pueden revisar esas presentaciones
+
+00:32:56.780 --> 00:32:58.460
+no hay ninguna publicación
+
+00:32:58.540 --> 00:32:59.740
+o sea no hay ningún material
+
+00:33:00.300 --> 00:33:03.260
+que salga de su generación de capstone
+
+00:33:03.260 --> 00:33:05.500
+y que quede en otras generaciones de capstone
+
+00:33:05.500 --> 00:33:07.660
+o que quede disponible en la biblioteca etcétera
+
+00:33:07.660 --> 00:33:08.700
+no hay nada de eso
+
+00:33:09.260 --> 00:33:09.980
+y por eso les
+
+00:33:10.860 --> 00:33:12.620
+y por eso sea el énfasis de que
+
+00:33:13.260 --> 00:33:15.020
+cuando alguien preguntó y ese paper
+
+00:33:15.020 --> 00:33:15.740
+que vamos a presentar
+
+00:33:15.740 --> 00:33:17.260
+nosotros lo pudriamos publicar
+
+00:33:17.260 --> 00:33:18.860
+perfectamente lo pudriamos publicar
+
+00:33:18.860 --> 00:33:20.700
+si es que efectivamente eso está en línea
+
+00:33:20.700 --> 00:33:21.980
+con los acuerdos que ustedes
+
+00:33:21.980 --> 00:33:24.140
+como con los acuerdos que
+
+00:33:24.140 --> 00:33:25.740
+que hicieron con la compañía en términos de
+
+00:33:26.300 --> 00:33:26.540
+de
+
+00:33:29.180 --> 00:33:30.460
+de confidencialidad de datos
+
+00:33:30.460 --> 00:33:31.500
+y por eso también les mencioné
+
+00:33:31.500 --> 00:33:32.700
+su profesor o profesor aquí
+
+00:33:32.700 --> 00:33:34.300
+nunca va a tener acceso a esos datos
+
+00:33:35.020 --> 00:33:36.780
+y por lo tanto no podría ser esa publicación
+
+00:33:37.420 --> 00:33:38.540
+por su laja por ejemplo
+
+00:33:38.540 --> 00:33:40.220
+ya no debiera pero tampoco podría
+
+00:33:40.220 --> 00:33:41.740
+porque ustedes en ningún momento
+
+00:33:41.740 --> 00:33:43.260
+van a tener que compartir esa información
+
+00:33:43.260 --> 00:33:44.620
+con su profesor o profesor aquí
+
+00:33:44.620 --> 00:33:45.100
+ya
+
+00:33:45.100 --> 00:33:46.940
+entonces en ese sentido
+
+00:33:46.940 --> 00:33:48.620
+no hay ninguna instancia
+
+00:33:48.620 --> 00:33:49.500
+en donde los datos
+
+00:33:49.500 --> 00:33:50.860
+ni los datos ni los resultados
+
+00:33:50.860 --> 00:33:52.220
+se comparten con nadie
+
+00:33:52.220 --> 00:33:52.700
+ya
+
+00:33:52.700 --> 00:33:53.900
+ni siquiera la defensa
+
+00:33:54.940 --> 00:33:56.300
+la defensa son todas privadas
+
+00:33:56.300 --> 00:33:57.660
+voy a conversar un poco más de defensa
+
+00:33:57.660 --> 00:33:58.540
+más adelante pero
+
+00:33:58.540 --> 00:33:59.660
+las defensas son privadas
+
+00:33:59.660 --> 00:34:00.620
+no son públicas
+
+00:34:00.620 --> 00:34:01.100
+ya
+
+00:34:01.100 --> 00:34:02.220
+y por lo tanto en esa defensa
+
+00:34:02.220 --> 00:34:03.820
+solo van a estar ustedes como grupos
+
+00:34:03.820 --> 00:34:05.260
+más su comisión es valor
+
+00:34:05.260 --> 00:34:06.060
+ya
+
+00:34:06.060 --> 00:34:07.500
+y de nuevo las
+
+00:34:07.500 --> 00:34:08.540
+las defensas
+
+00:34:09.180 --> 00:34:09.820
+quedan grabadas
+
+00:34:09.820 --> 00:34:10.780
+pero solamente con fines
+
+00:34:10.780 --> 00:34:11.900
+de nuevo de acreditación
+
+00:34:11.900 --> 00:34:13.500
+solo solamente para
+
+00:34:13.500 --> 00:34:15.740
+para poder valigar
+
+00:34:15.740 --> 00:34:16.860
+que efectivamente se hizo
+
+00:34:16.860 --> 00:34:17.900
+ese hito de
+
+00:34:17.900 --> 00:34:18.860
+de evaluación
+
+00:34:20.540 --> 00:34:21.500
+dale rodrigo
+
+00:34:23.180 --> 00:34:25.500
+si una consulta eric
+
+00:34:25.500 --> 00:34:25.900
+ahí
+
+00:34:27.660 --> 00:34:29.100
+a ver nosotros en el grupo hay
+
+00:34:29.100 --> 00:34:30.860
+hay un par de
+
+00:34:30.860 --> 00:34:32.300
+compañeros que trabajan en banca
+
+00:34:32.300 --> 00:34:32.780
+por ejemplo
+
+00:34:32.780 --> 00:34:33.900
+donde son
+
+00:34:33.900 --> 00:34:34.780
+súper estrictos
+
+00:34:34.780 --> 00:34:36.220
+con el acceso a la información
+
+00:34:37.020 --> 00:34:39.100
+ahí podría ser una alternativa
+
+00:34:39.100 --> 00:34:39.580
+el que
+
+00:34:41.340 --> 00:34:42.700
+la empresa nos entregue
+
+00:34:42.700 --> 00:34:44.540
+ya los datos anonimizados
+
+00:34:44.540 --> 00:34:45.820
+y nosotros trabajemos con eso
+
+00:34:46.460 --> 00:34:47.660
+no hay ningún problema con eso
+
+00:34:47.660 --> 00:34:48.300
+rodrigo
+
+00:34:48.300 --> 00:34:49.020
+ustedes pueden
+
+00:34:50.380 --> 00:34:51.020
+o sea
+
+00:34:51.020 --> 00:34:53.020
+les pueden pasar los datos anonimizados
+
+00:34:53.020 --> 00:34:54.380
+o ustedes lo pueden anonimizar
+
+00:34:55.580 --> 00:34:56.700
+incluyendo pueden anonimizar
+
+00:34:56.700 --> 00:34:57.900
+la empresa en las
+
+00:34:57.900 --> 00:34:59.900
+en las presentaciones del capson
+
+00:34:59.900 --> 00:35:00.700
+ustedes podrían decir
+
+00:35:00.700 --> 00:35:01.900
+hoy mira nosotros somos
+
+00:35:01.900 --> 00:35:03.900
+la empresa a de la industria
+
+00:35:03.900 --> 00:35:04.700
+o sea banca
+
+00:35:05.420 --> 00:35:06.300
+y
+
+00:35:06.300 --> 00:35:08.300
+y para mí que soy el profesor del capson
+
+00:35:08.300 --> 00:35:10.060
+y para todas las personas de la comisión
+
+00:35:10.060 --> 00:35:12.060
+en verdad es completamente indiferente
+
+00:35:12.060 --> 00:35:13.020
+no necesitamos saber
+
+00:35:13.020 --> 00:35:13.900
+cuál es la empresa
+
+00:35:14.140 --> 00:35:14.940
+ya
+
+00:35:14.940 --> 00:35:15.980
+perfecto
+
+00:35:15.980 --> 00:35:17.020
+solamente les vamos a pedir
+
+00:35:17.020 --> 00:35:18.300
+de escribir la empresa
+
+00:35:18.300 --> 00:35:19.100
+solamente para
+
+00:35:19.660 --> 00:35:20.460
+para tener una
+
+00:35:20.460 --> 00:35:21.180
+un
+
+00:35:21.180 --> 00:35:22.060
+como una idea
+
+00:35:22.940 --> 00:35:24.300
+de que tan importante es la empresa
+
+00:35:24.300 --> 00:35:26.060
+dentro de la industria
+
+00:35:26.780 --> 00:35:28.220
+y más o menos entender un poco
+
+00:35:28.220 --> 00:35:29.260
+de los procesos de negocio
+
+00:35:29.260 --> 00:35:29.580
+pero
+
+00:35:29.580 --> 00:35:31.420
+pero si es que ya ha pasado antes
+
+00:35:31.420 --> 00:35:31.980
+no es
+
+00:35:31.980 --> 00:35:32.860
+no es
+
+00:35:32.860 --> 00:35:33.900
+extraordinario
+
+00:35:33.900 --> 00:35:35.580
+si es que la empresa incluso les pide
+
+00:35:35.580 --> 00:35:36.460
+no mencionar
+
+00:35:36.460 --> 00:35:38.380
+la empresa como parte del capson
+
+00:35:38.380 --> 00:35:39.260
+eso también funciona
+
+00:35:39.260 --> 00:35:40.380
+y no hay ningún problema con eso
+
+00:35:42.220 --> 00:35:42.700
+gracias
+
+00:35:44.460 --> 00:35:45.100
+bien y hablado
+
+00:35:45.100 --> 00:35:46.700
+a todo el profesor o profesora guía
+
+00:35:47.580 --> 00:35:49.660
+y ese profesor o profesora guía
+
+00:35:49.660 --> 00:35:50.220
+se asigna
+
+00:35:51.100 --> 00:35:52.700
+posterior a la presentación 1
+
+00:35:52.700 --> 00:35:53.420
+ya
+
+00:35:53.420 --> 00:35:54.940
+entonces hasta la presentación 1
+
+00:35:54.940 --> 00:35:55.420
+ustedes
+
+00:35:57.420 --> 00:35:58.540
+es un trabajo más global
+
+00:35:58.540 --> 00:36:00.460
+yo les puedo dar mi feedback inicial
+
+00:36:00.460 --> 00:36:01.020
+pero
+
+00:36:01.020 --> 00:36:02.300
+pero yo no voy a por ejemplo
+
+00:36:02.300 --> 00:36:04.700
+revisar sus presentaciones parciales 1
+
+00:36:04.700 --> 00:36:06.060
+porque ese es mi trabajo como part
+
+00:36:06.060 --> 00:36:07.260
+como profesor del curso
+
+00:36:09.260 --> 00:36:10.540
+pero qué es lo que pasa
+
+00:36:10.540 --> 00:36:11.980
+posterior a la presentación 1
+
+00:36:11.980 --> 00:36:13.500
+que en este caso es a abrir
+
+00:36:13.500 --> 00:36:14.380
+entonces yo voy a
+
+00:36:14.380 --> 00:36:16.780
+vamos a hacer todas las sesiones de presentación 1
+
+00:36:16.780 --> 00:36:17.980
+y después lo que yo hago
+
+00:36:17.980 --> 00:36:20.060
+es pedirle a la facultad
+
+00:36:20.060 --> 00:36:21.340
+con el nombre
+
+00:36:21.340 --> 00:36:23.420
+y una breve descripción de sus proyectos
+
+00:36:23.420 --> 00:36:25.100
+que asigne un profesor guía
+
+00:36:25.100 --> 00:36:26.300
+un profesor o profesor guía
+
+00:36:26.300 --> 00:36:27.260
+que los ayude
+
+00:36:27.260 --> 00:36:29.420
+desde la presentación 1
+
+00:36:29.420 --> 00:36:31.340
+o sea posterior a la presentación 1
+
+00:36:31.340 --> 00:36:32.540
+hasta la defensa del cápsula
+
+00:36:33.180 --> 00:36:33.980
+ya
+
+00:36:33.980 --> 00:36:34.620
+y
+
+00:36:36.220 --> 00:36:37.260
+y ese profesor guía
+
+00:36:37.260 --> 00:36:38.780
+usualmente un profesor o profesor guía
+
+00:36:38.780 --> 00:36:40.300
+es un académico o académica
+
+00:36:40.300 --> 00:36:41.500
+de el
+
+00:36:41.500 --> 00:36:43.020
+ya sea del programa
+
+00:36:43.020 --> 00:36:44.380
+y si es que no hay disponibilidad
+
+00:36:44.380 --> 00:36:45.500
+en académicos del programa
+
+00:36:45.500 --> 00:36:47.020
+entonces son académicos de la facultad
+
+00:36:47.500 --> 00:36:47.740
+ya
+
+00:36:48.620 --> 00:36:49.340
+y el foco
+
+00:36:49.340 --> 00:36:50.780
+es solamente un apoyo
+
+00:36:50.780 --> 00:36:52.300
+ya es una guía
+
+00:36:52.300 --> 00:36:53.820
+que les puede ayudar en términos de
+
+00:36:53.820 --> 00:36:55.980
+como orientar el proyecto metodológicamente
+
+00:36:55.980 --> 00:36:58.380
+o como comunicar efectivamente el proyecto
+
+00:36:58.380 --> 00:37:00.060
+pero no es alguien que les va a hacer código
+
+00:37:00.060 --> 00:37:01.900
+ni es alguien que les va a revisar código
+
+00:37:02.620 --> 00:37:04.700
+y no es alguien que va a analizar los datos
+
+00:37:04.700 --> 00:37:06.060
+porque no debiera tener acceso
+
+00:37:06.620 --> 00:37:07.020
+ya
+
+00:37:07.020 --> 00:37:08.300
+o sea, ojo con eso
+
+00:37:08.300 --> 00:37:10.140
+su profesor guía tiene este rol
+
+00:37:10.140 --> 00:37:11.020
+más como de
+
+00:37:11.020 --> 00:37:11.260
+de
+
+00:37:11.260 --> 00:37:12.140
+de
+
+00:37:12.140 --> 00:37:14.060
+de apoyo
+
+00:37:14.700 --> 00:37:16.780
+y después tiene un rol activo
+
+00:37:16.780 --> 00:37:17.900
+en su proceso de
+
+00:37:17.900 --> 00:37:20.060
+de titulación
+
+00:37:20.060 --> 00:37:21.980
+porque es básicamente la persona que les da el visto bueno
+
+00:37:21.980 --> 00:37:23.100
+para poder ir a la defensa
+
+00:37:23.100 --> 00:37:25.100
+y voy a de nuevo a mencionar un poco de su manera
+
+00:37:25.340 --> 00:37:27.340
+bien
+
+00:37:27.340 --> 00:37:28.140
+bien
+
+00:37:28.140 --> 00:37:29.180
+entonces
+
+00:37:29.180 --> 00:37:32.970
+dale de francesco
+
+00:37:32.970 --> 00:37:33.770
+ehm
+
+00:37:33.770 --> 00:37:35.770
+una consulta respecto al profesor guía
+
+00:37:35.770 --> 00:37:36.570
+ehm
+
+00:37:36.570 --> 00:37:38.570
+si uno tiene algún proyecto
+
+00:37:38.570 --> 00:37:40.970
+que en general puede ser más afina
+
+00:37:40.970 --> 00:37:42.970
+la temática de un curso que ya tuvimos
+
+00:37:42.970 --> 00:37:44.970
+no se, por ejemplo si fuese de lenguaje natural
+
+00:37:44.970 --> 00:37:46.970
+en el caso del curso que tuvimos
+
+00:37:46.970 --> 00:37:47.530
+contigo
+
+00:37:47.530 --> 00:37:48.730
+imágenes con otro profesor
+
+00:37:48.730 --> 00:37:50.730
+con el que pudiésemos haber adelantado
+
+00:37:50.730 --> 00:37:51.930
+parte del trabajo
+
+00:37:51.930 --> 00:37:53.930
+o solo por afinidad
+
+00:37:53.930 --> 00:37:54.490
+eh
+
+00:37:54.490 --> 00:37:56.490
+recomiendas hacer algún acercamiento
+
+00:37:56.970 --> 00:37:58.970
+o es mejor esperar ese proceso
+
+00:37:58.970 --> 00:38:00.970
+en el que la universidad
+
+00:38:00.970 --> 00:38:02.970
+recomienda un
+
+00:38:02.970 --> 00:38:03.770
+profesor guía
+
+00:38:03.770 --> 00:38:05.770
+¿cuál es como el que se usa?
+
+00:38:05.770 --> 00:38:06.330
+eso
+
+00:38:06.330 --> 00:38:08.330
+osea, usualmente se usa el
+
+00:38:08.330 --> 00:38:10.330
+que mencioné yo, que ustedes esperan
+
+00:38:10.330 --> 00:38:12.330
+que les dan un profesor guía
+
+00:38:12.330 --> 00:38:14.330
+pero como tú bien mencionaste, si es que
+
+00:38:14.330 --> 00:38:16.330
+tú eras una buena onda con ese profesor
+
+00:38:16.330 --> 00:38:18.330
+o si en verdad vieron que
+
+00:38:18.330 --> 00:38:20.330
+tenías mucha experiencia en la industria
+
+00:38:20.330 --> 00:38:22.330
+en la cual ustedes quieren trabajar
+
+00:38:22.330 --> 00:38:24.330
+ustedes pueden hacer ese acercamiento
+
+00:38:24.330 --> 00:38:26.330
+previo y si le oyes a profesor
+
+00:38:26.330 --> 00:38:28.170
+por tanto al capsul
+
+00:38:28.170 --> 00:38:30.170
+entonces ustedes les pueden escribir, si oyes a profesor
+
+00:38:30.170 --> 00:38:32.170
+sabe que nos gustaría hacer
+
+00:38:32.170 --> 00:38:34.170
+este proyecto y nos gustaría que ustedes
+
+00:38:34.170 --> 00:38:36.170
+nos pudiera
+
+00:38:36.170 --> 00:38:38.170
+pudiera hacer nuestro
+
+00:38:38.170 --> 00:38:40.170
+profesor guía o profesora guía
+
+00:38:40.170 --> 00:38:42.170
+y ustedes me pueden mandar eso
+
+00:38:42.170 --> 00:38:44.170
+posterior a la presentación 1
+
+00:38:44.170 --> 00:38:46.170
+y me pueden mandar y si hoy
+
+00:38:46.170 --> 00:38:48.170
+mira acá tengo el correo
+
+00:38:48.170 --> 00:38:50.170
+donde el profesor efectivamente tiene
+
+00:38:50.170 --> 00:38:52.170
+como su visto bueno de que
+
+00:38:52.170 --> 00:38:54.170
+quiere ser parte de nuestro capsul
+
+00:38:54.170 --> 00:38:56.170
+y por lo tanto yo envío eso
+
+00:38:56.170 --> 00:38:58.170
+a la asignación, de igual forma
+
+00:38:58.170 --> 00:39:00.170
+la universidad va a volver a valir
+
+00:39:00.170 --> 00:39:02.170
+a decir, oiga
+
+00:39:02.170 --> 00:39:04.170
+sabe que este grupo me dijo
+
+00:39:04.170 --> 00:39:06.170
+que usted había dado acuerdo en ser
+
+00:39:06.170 --> 00:39:08.170
+el profesor guía y ahí queda cerrado
+
+00:39:08.170 --> 00:39:10.170
+y después yo los mando como en la lista oficial
+
+00:39:10.170 --> 00:39:12.170
+pero si ustedes quieren hacerse
+
+00:39:12.170 --> 00:39:14.170
+ese acercamiento bienvenido
+
+00:39:14.170 --> 00:39:16.170
+o sea, no hay ningún problema
+
+00:39:16.170 --> 00:39:18.170
+ya super, y una segunda consulta
+
+00:39:18.170 --> 00:39:20.170
+respecto al profesor guía
+
+00:39:20.170 --> 00:39:22.170
+que como compromiso
+
+00:39:22.170 --> 00:39:24.170
+se genera ahí en términos de
+
+00:39:24.170 --> 00:39:26.170
+entendiendo que hay un acompañamiento
+
+00:39:26.170 --> 00:39:28.170
+pero ahí se implica que uno puede
+
+00:39:28.170 --> 00:39:30.170
+me imagino que acá hay horas 12
+
+00:39:30.170 --> 00:39:32.170
+pero uno implica que se puede reunir
+
+00:39:32.170 --> 00:39:34.170
+una vez al mes con el profesor
+
+00:39:34.170 --> 00:39:36.170
+o eso queda muy a criterio
+
+00:39:36.170 --> 00:39:38.170
+lo pregunto para evitar
+
+00:39:38.170 --> 00:39:40.170
+persiguiendo un profe que se hace
+
+00:39:40.170 --> 00:39:42.170
+una agenda más compleja
+
+00:39:42.170 --> 00:39:44.170
+cuál es la obligación por el lado
+
+00:39:44.170 --> 00:39:46.170
+o el compromiso por el lado del profesor guía
+
+00:39:46.170 --> 00:39:48.170
+con respecto a los grupos que está acompañando
+
+00:39:48.170 --> 00:39:50.170
+bueno, bueno la pregunta
+
+00:39:50.170 --> 00:39:52.170
+y esto no es un favor
+
+00:39:52.170 --> 00:39:54.170
+antes era un favor
+
+00:39:54.170 --> 00:39:56.170
+respecto de los profesores y profesores guías
+
+00:39:56.170 --> 00:39:58.170
+pero desde hace un año ya no es un favor
+
+00:39:58.170 --> 00:40:00.170
+y con eso me refiero a que hay un compromiso
+
+00:40:00.170 --> 00:40:02.170
+por eso las preguntamos, les decimos
+
+00:40:02.170 --> 00:40:04.170
+usted quiere ser profesor guía
+
+00:40:04.170 --> 00:40:06.170
+y dicen obviamente sí o no
+
+00:40:06.170 --> 00:40:08.170
+y si es que dicen sí
+
+00:40:08.170 --> 00:40:10.170
+hay un compromiso de una reunión mensual
+
+00:40:10.170 --> 00:40:12.170
+con cada uno de los grupos
+
+00:40:12.170 --> 00:40:14.170
+a los cuales ese es el mínimo
+
+00:40:14.170 --> 00:40:16.170
+obviamente hay profesores guías que dicen
+
+00:40:16.170 --> 00:40:18.170
+hoy mira tengamos reuniones quincenales por ejemplo
+
+00:40:18.170 --> 00:40:20.170
+y con ellos define una frecuencia
+
+00:40:20.170 --> 00:40:22.170
+más
+
+00:40:22.170 --> 00:40:24.170
+un poco más
+
+00:40:24.170 --> 00:40:26.170
+como se guía
+
+00:40:26.170 --> 00:40:28.170
+lo mismo pasa con equipos
+
+00:40:28.170 --> 00:40:30.170
+que no les ha ido también en las presentaciones
+
+00:40:30.170 --> 00:40:32.170
+entonces le dice hoy mira, salga aquí el profesor
+
+00:40:32.170 --> 00:40:34.170
+no nos ha ido también, no nos dio
+
+00:40:34.170 --> 00:40:36.170
+también en la presentación uno, el lado
+
+00:40:36.170 --> 00:40:38.170
+nos puede ayudar un poco más
+
+00:40:38.170 --> 00:40:40.170
+y ahí somos
+
+00:40:40.170 --> 00:40:42.170
+conversaciones más particulares
+
+00:40:42.170 --> 00:40:44.170
+pero en
+
+00:40:44.170 --> 00:40:46.170
+como por compromiso
+
+00:40:46.170 --> 00:40:48.170
+porque hay un pago asociado a esto
+
+00:40:48.170 --> 00:40:50.170
+que es por compromiso es una reunión mensual
+
+00:40:50.170 --> 00:40:52.170
+y por lo tanto van a ser hasta el orden de
+
+00:40:52.170 --> 00:40:54.170
+seis reuniones
+
+00:40:54.170 --> 00:40:56.170
+si es que contamos desde
+
+00:40:56.170 --> 00:40:58.170
+el post presentación uno
+
+00:40:58.170 --> 00:41:00.170
+hasta la defensa
+
+00:41:00.170 --> 00:41:02.170
+de su proyecto
+
+00:41:02.170 --> 00:41:04.170
+buena pregunta
+
+00:41:04.170 --> 00:41:06.170
+creo que hay otra
+
+00:41:06.170 --> 00:41:08.170
+solamente sobre la
+
+00:41:08.170 --> 00:41:10.170
+bien, lo sepa muy bien
+
+00:41:10.170 --> 00:41:12.170
+no sé quién tenía una pregunta
+
+00:41:12.170 --> 00:41:14.170
+yo profe
+
+00:41:14.170 --> 00:41:16.170
+disculpe que no levante la mano y tengo un problema con el celular
+
+00:41:16.170 --> 00:41:18.170
+siguiendo el línea con la primera pregunta
+
+00:41:18.170 --> 00:41:20.170
+de francisco, a usted le molestaría
+
+00:41:20.170 --> 00:41:22.170
+si yo le enviará un mail con dos ideas
+
+00:41:22.170 --> 00:41:24.170
+que tengo relacionadas a capstone
+
+00:41:24.170 --> 00:41:26.170
+controlmente con usted
+
+00:41:26.170 --> 00:41:28.170
+hay como que
+
+00:41:28.170 --> 00:41:30.170
+no hay ningún problema porque ese es mi rol como
+
+00:41:30.170 --> 00:41:32.170
+profesor de capstone
+
+00:41:32.170 --> 00:41:34.170
+lo que sí, yo
+
+00:41:34.170 --> 00:41:36.170
+usualmente no estoy tan disponible a ser
+
+00:41:36.170 --> 00:41:38.170
+profesor guía porque porque se genera una especie
+
+00:41:38.170 --> 00:41:40.170
+como de conflicto interés
+
+00:41:40.170 --> 00:41:42.170
+es conflicto interés
+
+00:41:42.170 --> 00:41:44.170
+pero para la idea no más, si tengo estas dos ideas
+
+00:41:44.170 --> 00:41:46.170
+tengo para arriba, tengo para abajo
+
+00:41:46.170 --> 00:41:48.170
+y con eso estoy
+
+00:41:48.170 --> 00:41:50.170
+gracias profe
+
+00:41:50.170 --> 00:41:52.170
+porque ese es como mi sombrero
+
+00:41:52.170 --> 00:41:54.170
+de profesor de capstone
+
+00:41:54.170 --> 00:41:56.170
+que es este B curso
+
+00:41:56.170 --> 00:41:58.170
+en ese sentido me pueden mandar ideas para la faliación
+
+00:41:58.170 --> 00:42:00.170
+y cosas de otro estilo
+
+00:42:00.170 --> 00:42:02.170
+bien entonces
+
+00:42:02.170 --> 00:42:04.170
+¿cuál es la presentación uno que puedan explicar bien?
+
+00:42:04.170 --> 00:42:06.170
+¿qué es la empresa? ¿cuál es la empresa sin nombrarla
+
+00:42:06.170 --> 00:42:08.170
+o sin necesariamente nombrarla
+
+00:42:08.170 --> 00:42:10.170
+decir ¿cuál es la empresa?
+
+00:42:10.170 --> 00:42:12.170
+¿cuál es el problema de negocio que ustedes quieren abordar?
+
+00:42:12.170 --> 00:42:14.170
+¿por qué es ese problema relevante para la organización?
+
+00:42:16.170 --> 00:42:18.170
+y eso ojalá como números
+
+00:42:18.170 --> 00:42:20.170
+y en ese sentido la idea que
+
+00:42:20.170 --> 00:42:22.170
+para esa justificación
+
+00:42:22.170 --> 00:42:24.170
+es básicamente como el cárculo de servilleta
+
+00:42:24.170 --> 00:42:26.170
+ustedes pueden decir ah mira este es un proceso
+
+00:42:26.170 --> 00:42:28.170
+que donde más o menos
+
+00:42:28.170 --> 00:42:30.170
+se pierde el 10% del valor
+
+00:42:30.170 --> 00:42:32.170
+el valor total es esto, hacen las multiplicaciones
+
+00:42:32.170 --> 00:42:34.170
+y se enviren que hay una verdad una bolsa de plata
+
+00:42:34.170 --> 00:42:36.170
+que es del orden de 5 millones de dólares
+
+00:42:36.170 --> 00:42:38.170
+una cosa de ese estilo
+
+00:42:38.170 --> 00:42:40.170
+pero la idea es que tengan los números asociados
+
+00:42:40.170 --> 00:42:42.170
+porque ustedes pueden mostrar que efectivamente es un problema relevante
+
+00:42:42.170 --> 00:42:44.170
+y después tienen que definir
+
+00:42:44.170 --> 00:42:46.170
+cuáles son los objetivos
+
+00:42:46.170 --> 00:42:48.170
+y los objetivos son un objetivo general
+
+00:42:48.170 --> 00:42:50.170
+y ojo con esto
+
+00:42:50.170 --> 00:42:52.170
+no más allá de 4 objetivos específicos
+
+00:42:52.170 --> 00:42:54.170
+ojo con eso
+
+00:42:54.170 --> 00:42:56.170
+no se pongan creativos ni creatías
+
+00:42:56.170 --> 00:42:58.170
+ni menos ni más
+
+00:42:58.170 --> 00:43:00.170
+usualmente tu proyecto de investigación aplicada
+
+00:43:00.170 --> 00:43:02.170
+del alcance que tienen ustedes en términos de tiempo
+
+00:43:02.170 --> 00:43:04.170
+deberán tener entre 3 o 4 objetivos específicos
+
+00:43:06.170 --> 00:43:08.170
+ojo que los objetivos específicos son del orden
+
+00:43:08.170 --> 00:43:10.170
+son de la idea de un proyecto de investigación aplicada
+
+00:43:10.170 --> 00:43:12.170
+ustedes se hacen cargo de lo que ustedes pueden hacer
+
+00:43:12.170 --> 00:43:14.170
+eviten poner
+
+00:43:14.170 --> 00:43:16.170
+y lo digo explicitamente para que quede la grabación
+
+00:43:16.170 --> 00:43:18.170
+eviten poner cosas del orden
+
+00:43:18.170 --> 00:43:20.170
+de mejorar el rendimiento
+
+00:43:20.170 --> 00:43:22.170
+o mejorar la performance
+
+00:43:22.170 --> 00:43:24.170
+de las campañas de marketing
+
+00:43:24.170 --> 00:43:26.170
+un 10%
+
+00:43:26.170 --> 00:43:28.170
+porque quizá ese es el fin último que ustedes quieren lograr
+
+00:43:28.170 --> 00:43:30.170
+pero ustedes no van a poder demostrar
+
+00:43:30.170 --> 00:43:32.170
+eso a lo largo de su capstone
+
+00:43:32.170 --> 00:43:34.170
+y por lo tanto si yo lo voy a valorar
+
+00:43:34.170 --> 00:43:36.170
+respecto del cumplimiento de esos objetivos
+
+00:43:36.170 --> 00:43:38.170
+y ustedes la campaña de marketing
+
+00:43:38.170 --> 00:43:40.170
+rinde al 5% y no al 10%
+
+00:43:40.170 --> 00:43:42.170
+yo tendría que decir ah no cumplieron los objetivos
+
+00:43:42.170 --> 00:43:44.170
+entonces en verdad no se
+
+00:43:44.170 --> 00:43:46.170
+no aplica
+
+00:43:46.170 --> 00:43:48.170
+los objetivos son del orden
+
+00:43:48.170 --> 00:43:50.170
+son del tipo de un
+
+00:43:50.170 --> 00:43:52.170
+objetivo de proyecto de investigación aplicada
+
+00:43:52.170 --> 00:43:54.170
+diseñar comparar
+
+00:43:54.170 --> 00:43:56.170
+evaluar distintos
+
+00:43:56.170 --> 00:43:58.170
+distintos modelos de inteligencia artificial
+
+00:43:58.170 --> 00:44:00.170
+hacer la evaluación económica
+
+00:44:00.170 --> 00:44:02.170
+del problema
+
+00:44:02.170 --> 00:44:04.170
+por ejemplo imagínense que ganar etiquetar datos
+
+00:44:04.170 --> 00:44:06.170
+hacer el etiquetado o el diseño de la guía de anotación
+
+00:44:06.170 --> 00:44:08.170
+la implementación del etiquetado de datos
+
+00:44:08.170 --> 00:44:10.170
+cosas de ese estilo
+
+00:44:10.170 --> 00:44:12.170
+son objetivos que cantan en entregas repartiales
+
+00:44:12.170 --> 00:44:14.170
+y donde es eso de entregas repartiales
+
+00:44:14.170 --> 00:44:16.170
+dependen solamente de ustedes
+
+00:44:16.170 --> 00:44:18.170
+ya no pongan entre los objetivos
+
+00:44:18.170 --> 00:44:20.170
+no se la implementación don dachford
+
+00:44:20.170 --> 00:44:22.170
+en productivo porque si bien
+
+00:44:22.170 --> 00:44:24.170
+ustedes podrían estar
+
+00:44:24.170 --> 00:44:26.170
+muy cercanos a la organización
+
+00:44:26.170 --> 00:44:28.170
+las organizaciones pasan cosas
+
+00:44:28.170 --> 00:44:30.170
+las organizaciones priorizan y les priorizan la iniciativa
+
+00:44:30.170 --> 00:44:32.170
+y por lo tanto eso no debería afectar
+
+00:44:32.170 --> 00:44:34.170
+como una forma su
+
+00:44:34.170 --> 00:44:36.170
+su nota
+
+00:44:36.170 --> 00:44:38.170
+habiendo dicho eso
+
+00:44:38.170 --> 00:44:40.170
+si hay casos
+
+00:44:40.170 --> 00:44:42.170
+en los que ustedes podrían
+
+00:44:42.170 --> 00:44:44.170
+hacer como ciertos pilotos
+
+00:44:44.170 --> 00:44:46.170
+y ha pasado exitosamente
+
+00:44:46.170 --> 00:44:48.170
+en casos anteriores
+
+00:44:48.170 --> 00:44:50.170
+en donde ustedes
+
+00:44:50.170 --> 00:44:52.170
+hacen la solución
+
+00:44:52.170 --> 00:44:54.170
+y tienen como la suficiente
+
+00:44:54.170 --> 00:44:56.170
+cercanía con la organización
+
+00:44:56.170 --> 00:44:58.170
+para decir oye mira en verdad no solo es como parte
+
+00:44:58.170 --> 00:45:00.170
+de nuestro proyecto de investigación
+
+00:45:00.170 --> 00:45:02.170
+es que es un extra como parte
+
+00:45:02.170 --> 00:45:04.170
+de nuestro proyecto
+
+00:45:04.170 --> 00:45:06.170
+proyecto de investigación
+
+00:45:06.170 --> 00:45:08.170
+queremos hacer un piloto
+
+00:45:08.170 --> 00:45:10.170
+de lo que vamos a proponer
+
+00:45:10.170 --> 00:45:12.170
+y ahí vamos a poner un ejemplo
+
+00:45:12.170 --> 00:45:14.170
+en la generación pre y inmediatamente previa
+
+00:45:14.170 --> 00:45:16.170
+había un grupo que estaba trabajando con una municipalidad
+
+00:45:16.170 --> 00:45:18.170
+para poder hacer detección temprana
+
+00:45:18.170 --> 00:45:20.170
+de
+
+00:45:20.170 --> 00:45:22.170
+hacer detección temprana
+
+00:45:22.170 --> 00:45:24.170
+y asignación eficiente de fuerzas policiales
+
+00:45:24.170 --> 00:45:26.170
+o de guardias municipales
+
+00:45:26.170 --> 00:45:28.170
+y ellos
+
+00:45:28.170 --> 00:45:30.170
+porque la persona que trabaja trabaja en la municipalidad
+
+00:45:30.170 --> 00:45:32.170
+la municipalidad no es una organización tan grande
+
+00:45:32.170 --> 00:45:34.170
+entonces les dieron justo la oportunidad
+
+00:45:34.170 --> 00:45:36.170
+para poder probar y ellos como un objetivo
+
+00:45:36.170 --> 00:45:38.170
+específico tenían el hecho
+
+00:45:38.170 --> 00:45:40.170
+de poner esta solución en pro o sea como
+
+00:45:40.170 --> 00:45:42.170
+en testeo
+
+00:45:42.170 --> 00:45:44.170
+y entregar los resultados
+
+00:45:44.170 --> 00:45:46.170
+o la evaluación de ese testeo
+
+00:45:46.170 --> 00:45:48.170
+si es que efectivamente
+
+00:45:48.170 --> 00:45:50.170
+pueden llegar a esos como alcance
+
+00:45:50.170 --> 00:45:52.170
+es ideal porque obviamente
+
+00:45:52.170 --> 00:45:54.170
+eso les permite a ustedes ir
+
+00:45:54.170 --> 00:45:56.170
+y como modificar
+
+00:45:56.170 --> 00:45:58.170
+el proceso de negocio que querían efectivamente mejorar
+
+00:45:58.170 --> 00:46:00.170
+pero si es que no están tan seguros
+
+00:46:00.170 --> 00:46:02.170
+de que se va a hacer el escenario
+
+00:46:02.170 --> 00:46:04.170
+es mejor que lo saquen
+
+00:46:04.170 --> 00:46:06.170
+y hagan efectivamente los objetivos solamente
+
+00:46:06.170 --> 00:46:08.170
+como va a dar el punto de vista B
+
+00:46:08.170 --> 00:46:10.170
+de un proyecto de investigación
+
+00:46:12.170 --> 00:46:14.170
+ese es el que y después tienen que mostrar
+
+00:46:14.170 --> 00:46:16.170
+el como y el como me refiero
+
+00:46:16.170 --> 00:46:18.170
+es como van a resolver esto
+
+00:46:18.170 --> 00:46:20.170
+aquí de nuevo lo vuelvo a decir
+
+00:46:20.170 --> 00:46:22.170
+para que el la presentación
+
+00:46:22.170 --> 00:46:24.170
+no muestren ninguna metodología estándar
+
+00:46:24.170 --> 00:46:26.170
+no muestren clis
+
+00:46:26.170 --> 00:46:28.170
+no muestren KD
+
+00:46:28.170 --> 00:46:30.170
+no muestren ninguno de esos gráficos
+
+00:46:30.170 --> 00:46:32.170
+al primer grupo que con lo muestre
+
+00:46:32.170 --> 00:46:34.170
+efectivamente
+
+00:46:34.170 --> 00:46:36.170
+se van a ir de tirón de oreja, lo que queremos acá
+
+00:46:36.170 --> 00:46:38.170
+es la metodología específica
+
+00:46:38.170 --> 00:46:40.170
+para su proyecto
+
+00:46:40.170 --> 00:46:42.170
+ese paso a paso no puede ser
+
+00:46:42.170 --> 00:46:44.170
+un paso a paso genérico
+
+00:46:44.170 --> 00:46:46.170
+ese paso a paso tiene que ser una
+
+00:46:46.170 --> 00:46:48.170
+si lo quieren poner como un diagrama
+
+00:46:48.170 --> 00:46:50.170
+tiene que ser un diagrama que ustedes sacan a mano
+
+00:46:50.170 --> 00:46:52.170
+porque porque cada una de esas etapas
+
+00:46:52.170 --> 00:46:54.170
+es especial a su proyecto
+
+00:46:54.170 --> 00:46:56.170
+en función de cumplir los objetivos específicos
+
+00:46:56.170 --> 00:46:58.170
+que cada cumplir en los objetivos generales
+
+00:46:58.170 --> 00:47:00.170
+entonces no pueden poner
+
+00:47:00.170 --> 00:47:02.170
+ninguna imagen de la metodología genérica
+
+00:47:02.170 --> 00:47:04.170
+y decir esta es nuestra metodología
+
+00:47:04.170 --> 00:47:06.170
+y nuestra metodología es entender el negocio
+
+00:47:06.170 --> 00:47:08.170
+y después tomar los datos
+
+00:47:08.170 --> 00:47:10.170
+y limpiarlo es hacer el movimiento
+
+00:47:10.170 --> 00:47:12.170
+sacen cualquier cosa a eso
+
+00:47:12.170 --> 00:47:14.170
+obviamente se van a basar en algunas metodologías
+
+00:47:14.170 --> 00:47:16.170
+que son estandas
+
+00:47:16.170 --> 00:47:18.170
+pero la idea es que pueden poner específico
+
+00:47:18.170 --> 00:47:20.170
+cada uno de los pasos a pasos
+
+00:47:20.170 --> 00:47:22.170
+que ustedes es relevante
+
+00:47:22.170 --> 00:47:24.170
+incluyendo las técnicas o modelos
+
+00:47:24.170 --> 00:47:26.170
+incluyendo los métodos de evaluación
+
+00:47:28.170 --> 00:47:30.170
+y finalmente tienen que mostrar una gang
+
+00:47:30.170 --> 00:47:32.170
+que es una gang factible
+
+00:47:32.170 --> 00:47:34.170
+en tiempos
+
+00:47:38.170 --> 00:47:40.170
+recomendaciones también que vienen
+
+00:47:40.170 --> 00:47:42.170
+desde haber
+
+00:47:44.170 --> 00:47:46.170
+hecho capstone previos
+
+00:47:46.170 --> 00:47:48.170
+traten de
+
+00:47:50.170 --> 00:47:52.170
+como de
+
+00:47:52.170 --> 00:47:54.170
+despriorizar
+
+00:47:54.170 --> 00:47:56.170
+datos que no sean
+
+00:47:56.170 --> 00:47:58.170
+fácilmente accesibles
+
+00:47:58.170 --> 00:48:00.170
+esa es una primera o que tenga
+
+00:48:00.170 --> 00:48:02.170
+muy baja bulometría
+
+00:48:02.170 --> 00:48:04.170
+hay muchas veces que la organización
+
+00:48:04.170 --> 00:48:06.170
+particularmente cuando no trabajan
+
+00:48:06.170 --> 00:48:08.170
+en la organización que le presente
+
+00:48:08.170 --> 00:48:10.170
+le dice oye mira en verdad tenemos la fuente
+
+00:48:10.170 --> 00:48:12.170
+A, B, C, D
+
+00:48:12.170 --> 00:48:14.170
+y todas tienen muy buena calidad
+
+00:48:14.170 --> 00:48:16.170
+de datos
+
+00:48:16.170 --> 00:48:18.170
+pero mira todavía estamos coordinando los accesos
+
+00:48:18.170 --> 00:48:20.170
+y pasan semanas y semanas
+
+00:48:20.170 --> 00:48:22.170
+en las que ustedes no tienen acceso a los datos
+
+00:48:22.170 --> 00:48:24.170
+eso es
+
+00:48:24.170 --> 00:48:26.170
+como un indicativo
+
+00:48:26.170 --> 00:48:28.170
+de alerta
+
+00:48:28.170 --> 00:48:30.170
+ojalá tengan lo antes posible
+
+00:48:30.170 --> 00:48:32.170
+acceso a esa información
+
+00:48:32.170 --> 00:48:34.170
+entiendo que eso tiene que ver con que tan rápido pueda
+
+00:48:34.170 --> 00:48:36.170
+muer en la puerta de confidencialidad y todos esos temas
+
+00:48:36.170 --> 00:48:38.170
+pero tal vez por eso la idea es que
+
+00:48:38.170 --> 00:48:40.170
+empiecen a trabajar en eso desde hoy
+
+00:48:44.170 --> 00:48:46.170
+y también obviamente editan aquellos
+
+00:48:46.170 --> 00:48:48.170
+donde tengan muy baja bulometría
+
+00:48:48.170 --> 00:48:50.170
+y por lo tanto tengan poca opción
+
+00:48:50.170 --> 00:48:52.170
+de hacer cualquier como tema asociado
+
+00:48:52.170 --> 00:48:54.170
+fine tuning
+
+00:48:54.170 --> 00:48:56.170
+de lo que ustedes están haciendo o lo que ustedes están proponiendo
+
+00:48:56.170 --> 00:48:58.170
+la idea es que acá no solamente
+
+00:48:58.170 --> 00:49:00.170
+hagan llamados a APIs que ya existen
+
+00:49:00.170 --> 00:49:02.170
+es que debiera existir algún
+
+00:49:02.170 --> 00:49:04.170
+proceso como aprendizaje o customización
+
+00:49:04.170 --> 00:49:06.170
+de esas herramientas de inteligencia artificial
+
+00:49:06.170 --> 00:49:08.170
+de que ahora puede resolver el problema
+
+00:49:08.170 --> 00:49:10.170
+que quieran resolver
+
+00:49:10.170 --> 00:49:12.170
+queda fuera también del alcance
+
+00:49:12.170 --> 00:49:14.170
+que ustedes implementen algo que ya está
+
+00:49:14.170 --> 00:49:16.170
+previamente definido por la empresa
+
+00:49:16.170 --> 00:49:18.170
+nosotros tratamos de filtrar eso
+
+00:49:18.170 --> 00:49:20.170
+osea yo cuando hacemos los llamados
+
+00:49:20.170 --> 00:49:22.170
+a las
+
+00:49:22.170 --> 00:49:24.170
+a las organizaciones que nos puedan ofrecer
+
+00:49:24.170 --> 00:49:26.170
+proyectos de capstone
+
+00:49:26.170 --> 00:49:28.170
+nosotros revisamos las especificaciones
+
+00:49:28.170 --> 00:49:30.170
+o el resumen de eso
+
+00:49:30.170 --> 00:49:32.170
+y les mencionamos explícitamente
+
+00:49:32.170 --> 00:49:34.170
+que los alumnos
+
+00:49:34.170 --> 00:49:36.170
+y eso es algo que también ustedes debieran defender
+
+00:49:36.170 --> 00:49:38.170
+pero nosotros tratamos de hacer eso antes
+
+00:49:38.170 --> 00:49:40.170
+es que ustedes deben tener libertad
+
+00:49:40.170 --> 00:49:42.170
+en poder diseñar la metodología
+
+00:49:42.170 --> 00:49:44.170
+el cómo lo van a hacer
+
+00:49:44.170 --> 00:49:46.170
+no es que alguien les diga
+
+00:49:46.170 --> 00:49:48.170
+ah mira este es el problema y este es el método
+
+00:49:48.170 --> 00:49:50.170
+ahora lo único que hay que hacer es implementar ese método
+
+00:49:50.170 --> 00:49:52.170
+eso también queda fuera del alcance
+
+00:49:52.170 --> 00:49:54.170
+del capstone
+
+00:49:54.170 --> 00:49:56.170
+obviamente trata tal vez de que su proyecto
+
+00:49:56.170 --> 00:49:58.170
+sea agregado valor a la organización
+
+00:49:58.170 --> 00:50:00.170
+sea de alguna manera innovador
+
+00:50:00.170 --> 00:50:02.170
+ya sea a nivel empresa o a nivel industria
+
+00:50:02.170 --> 00:50:04.170
+y que ojalá puedan
+
+00:50:04.170 --> 00:50:06.170
+o todos los resultados
+
+00:50:06.170 --> 00:50:08.170
+que quieran presentar el proyecto
+
+00:50:08.170 --> 00:50:10.170
+deben ser mediados dentro del mismo
+
+00:50:10.170 --> 00:50:13.420
+etapa posterior
+
+00:50:13.420 --> 00:50:16.760
+lo que ya hemos mencionado
+
+00:50:16.760 --> 00:50:18.760
+parte de esto
+
+00:50:18.760 --> 00:50:20.760
+como les decía
+
+00:50:20.760 --> 00:50:22.760
+no basta con aplicar una solución
+
+00:50:22.760 --> 00:50:24.760
+que ya está establecida y solamente llamados
+
+00:50:24.760 --> 00:50:26.760
+API que puedan ser articulados
+
+00:50:26.760 --> 00:50:28.760
+la idea es que sea una aplicación nueva
+
+00:50:28.760 --> 00:50:30.760
+ya sea a nivel industria o a nivel empresa
+
+00:50:30.760 --> 00:50:32.760
+que puedan utilizar fuente de información
+
+00:50:32.760 --> 00:50:34.760
+es que puedan hacer algún tipo
+
+00:50:34.760 --> 00:50:36.760
+of fine tuning etc etc
+
+00:50:38.760 --> 00:50:40.760
+tengan en consideración
+
+00:50:40.760 --> 00:50:42.760
+y me imagino que todos aquellos
+
+00:50:42.760 --> 00:50:44.760
+quienes hayan trabajado
+
+00:50:44.760 --> 00:50:46.760
+un proyecto que investiga una aplicada
+
+00:50:46.760 --> 00:50:48.760
+previo y que van a tener como
+
+00:50:48.760 --> 00:50:50.760
+dos clientes que los van a estar
+
+00:50:50.760 --> 00:50:52.760
+tensionando a dos lados distintos
+
+00:50:52.760 --> 00:50:54.760
+mi rol como desde el punto de vista
+
+00:50:54.760 --> 00:50:56.760
+más académico es preocuparme
+
+00:50:56.760 --> 00:50:58.760
+de que efectivamente el proyecto de investigación
+
+00:50:58.760 --> 00:51:00.760
+sea robusto
+
+00:51:00.760 --> 00:51:02.760
+sea robusto en términos metodológicos
+
+00:51:02.760 --> 00:51:04.760
+sea bien implementado
+
+00:51:04.760 --> 00:51:06.760
+y obviamente desde el punto de vista
+
+00:51:06.760 --> 00:51:08.760
+de la industria les van a pedir
+
+00:51:08.760 --> 00:51:10.760
+que esto sea útil
+
+00:51:10.760 --> 00:51:12.760
+y van a tener esas tensiones
+
+00:51:12.760 --> 00:51:14.760
+hoy es que la empresa me dijeron
+
+00:51:14.760 --> 00:51:16.760
+que con una
+
+00:51:16.760 --> 00:51:18.760
+revisión lineal bastaba
+
+00:51:18.760 --> 00:51:20.760
+se puede bastar para ello porque efectivamente
+
+00:51:20.760 --> 00:51:22.760
+puede que hoy día hagan poco
+
+00:51:22.760 --> 00:51:24.760
+y no hay ningún problema con eso
+
+00:51:24.760 --> 00:51:26.760
+pero desde el punto de vista académico les vamos a pedir
+
+00:51:26.760 --> 00:51:28.760
+que hagan mucho más que eso
+
+00:51:28.760 --> 00:51:30.760
+y es posible
+
+00:51:30.760 --> 00:51:32.760
+y es también bien transparente en eso
+
+00:51:32.760 --> 00:51:34.760
+en que ustedes por ejemplo hagan
+
+00:51:34.760 --> 00:51:36.760
+más trabajo en su proyecto
+
+00:51:36.760 --> 00:51:38.760
+que presenten en las presentaciones
+
+00:51:38.760 --> 00:51:40.760
+parciales
+
+00:51:40.760 --> 00:51:42.760
+porque por esta misma tensión
+
+00:51:42.760 --> 00:51:44.760
+la empresa les puede decir
+
+00:51:44.760 --> 00:51:46.760
+además necesitamos hacer
+
+00:51:46.760 --> 00:51:48.760
+un análisis de otras fuentes
+
+00:51:48.760 --> 00:51:50.760
+de información
+
+00:51:50.760 --> 00:51:52.760
+y ahí ustedes como parte de ese proceso de negociación
+
+00:51:52.760 --> 00:51:54.760
+para poder cerrar el cap no pueden decir si
+
+00:51:54.760 --> 00:51:56.760
+en verdad podemos hacer eso
+
+00:51:56.760 --> 00:51:58.760
+pero que después quizás lo presentan
+
+00:51:58.760 --> 00:52:00.760
+y yo le puedo decir a mí en verdad
+
+00:52:00.760 --> 00:52:02.760
+hacer ese análisis tiene poco valor agregado
+
+00:52:02.760 --> 00:52:04.760
+lo que ustedes quieren hacer como metodología global
+
+00:52:04.760 --> 00:52:06.760
+lo pueden sacar
+
+00:52:06.760 --> 00:52:08.760
+y se van a quedar con esta sensación hoy pero estoy haciendo
+
+00:52:08.760 --> 00:52:10.760
+trabajo que es demás
+
+00:52:10.760 --> 00:52:12.760
+pero es parte de estas tensiones como
+
+00:52:12.760 --> 00:52:14.760
+academy industria
+
+00:52:14.760 --> 00:52:16.760
+obviamente la empresa quiere que esto funcione
+
+00:52:16.760 --> 00:52:18.760
+y que le genere valor
+
+00:52:18.760 --> 00:52:20.760
+pero eso dependiendo del estado de madurez analítica
+
+00:52:20.760 --> 00:52:22.760
+de la compañía podría ser todavía muy poco
+
+00:52:22.760 --> 00:52:24.760
+respecto de lo que nosotros lo esperamos
+
+00:52:24.760 --> 00:52:26.760
+y de todo lo que han aprendido a lo largo del magistro
+
+00:52:26.760 --> 00:52:28.760
+¿ya?
+
+00:52:28.760 --> 00:52:30.760
+que otro tema
+
+00:52:30.760 --> 00:52:32.760
+es que la presentación, osea perdón
+
+00:52:32.760 --> 00:52:34.760
+el proyecto tiene que ser bueno
+
+00:52:34.760 --> 00:52:36.760
+pero además tiene que parecer bueno
+
+00:52:36.760 --> 00:52:38.760
+y con eso me refiero
+
+00:52:38.760 --> 00:52:40.760
+tiene que haber también un aspecto como en términos de forma
+
+00:52:40.760 --> 00:52:42.760
+¿cómo lo presentan?
+
+00:52:42.760 --> 00:52:44.760
+en términos de que sus presentaciones sean visualmente atractivas
+
+00:52:44.760 --> 00:52:46.760
+que su discurso sea
+
+00:52:46.760 --> 00:52:48.760
+convincente y sea coherente
+
+00:52:48.760 --> 00:52:50.760
+etcétera etcétera
+
+00:52:50.760 --> 00:52:52.760
+entonces también vamos a evaluar
+
+00:52:52.760 --> 00:52:54.760
+o es parte del polínum de evaluación
+
+00:52:54.760 --> 00:52:56.760
+el cómo construyen eso
+
+00:52:56.760 --> 00:52:58.760
+no solamente que sea bueno
+
+00:52:58.760 --> 00:53:00.760
+sino además tiene que parecer bueno
+
+00:53:00.760 --> 00:53:02.760
+eso es la presentación 1
+
+00:53:02.760 --> 00:53:04.760
+solamente en términos de resumen ¿qué y cómo?
+
+00:53:04.760 --> 00:53:06.760
+¿qué quieren resolver?
+
+00:53:06.760 --> 00:53:08.760
+entre eso es más o menos por qué lo quieren resolver
+
+00:53:08.760 --> 00:53:10.760
+tiene que mostrar
+
+00:53:10.760 --> 00:53:12.760
+que esto es relevante y por qué es relevante
+
+00:53:12.760 --> 00:53:14.760
+y por mostrar cómo lo van a resolver
+
+00:53:14.760 --> 00:53:16.760
+sin todavía resolver
+
+00:53:16.760 --> 00:53:18.760
+¿cuáles son solamente consejos prácticos?
+
+00:53:18.760 --> 00:53:20.760
+ustedes para la presentación 1
+
+00:53:20.760 --> 00:53:22.760
+no tienen que mostrar ninguna análisis
+
+00:53:22.760 --> 00:53:24.760
+de los datos, yo les voy a mostrar la rúbrica
+
+00:53:24.760 --> 00:53:26.760
+pero en la rúbrica no hay ningún
+
+00:53:26.760 --> 00:53:28.760
+osea
+
+00:53:28.760 --> 00:53:30.760
+hay una análisis muy muy breve de los datos
+
+00:53:30.760 --> 00:53:32.760
+pero que no necesitas que tengan que meterse
+
+00:53:32.760 --> 00:53:34.760
+en esa mente
+
+00:53:34.760 --> 00:53:36.760
+pero
+
+00:53:36.760 --> 00:53:38.760
+de historias previas
+
+00:53:38.760 --> 00:53:40.760
+o de generaciones previas
+
+00:53:40.760 --> 00:53:42.760
+ustedes ya debieran tener
+
+00:53:42.760 --> 00:53:44.760
+acceso a los datos de la presentación
+
+00:53:44.760 --> 00:53:46.760
+ya debieran haberlos visto
+
+00:53:46.760 --> 00:53:48.760
+saber que existen cuántos son
+
+00:53:48.760 --> 00:53:50.760
+cómo están más menos
+
+00:53:50.760 --> 00:53:52.760
+es preocupante
+
+00:53:52.760 --> 00:53:54.760
+no es como limitante
+
+00:53:54.760 --> 00:53:56.760
+porque ustedes van a ver el polínum de evaluación
+
+00:53:56.760 --> 00:53:58.760
+no es que ustedes van a
+
+00:54:00.760 --> 00:54:02.760
+se van a echar
+
+00:54:02.760 --> 00:54:04.760
+la presentación 1 porque no tienen acceso a los datos
+
+00:54:04.760 --> 00:54:06.760
+pero sí es muy alarmante
+
+00:54:06.760 --> 00:54:08.760
+que todavía no lo hagan
+
+00:54:08.760 --> 00:54:10.760
+no lo he mencionado
+
+00:54:10.760 --> 00:54:12.760
+pero
+
+00:54:12.760 --> 00:54:14.760
+y particularmente pasa en la presentación 1
+
+00:54:14.760 --> 00:54:16.760
+que es donde se hace como una especie de quiebre
+
+00:54:16.760 --> 00:54:18.760
+es posible que ustedes
+
+00:54:18.760 --> 00:54:20.760
+cambien de proyecto
+
+00:54:20.760 --> 00:54:22.760
+y ha pasado
+
+00:54:22.760 --> 00:54:24.760
+no es lo normal
+
+00:54:24.760 --> 00:54:26.760
+pero tampoco es tan excepcional
+
+00:54:26.760 --> 00:54:28.760
+que ustedes
+
+00:54:28.760 --> 00:54:30.760
+presenten la presentación 1
+
+00:54:30.760 --> 00:54:32.760
+el feedback no sea tan positivo
+
+00:54:32.760 --> 00:54:34.760
+ustedes después miran el feedback
+
+00:54:34.760 --> 00:54:36.760
+digan si en verdad parece que aquí no hay mucho
+
+00:54:36.760 --> 00:54:38.760
+y vayan a buscar un segundo proyecto
+
+00:54:38.760 --> 00:54:40.760
+y de alguna manera se pongan
+
+00:54:40.760 --> 00:54:42.760
+en
+
+00:54:42.760 --> 00:54:44.760
+se pongan al día
+
+00:54:44.760 --> 00:54:46.760
+de cada la presentación 2
+
+00:54:46.760 --> 00:54:48.760
+ojo que las presentaciones como dijimos
+
+00:54:48.760 --> 00:54:50.760
+en términos de fecha no se mueven
+
+00:54:50.760 --> 00:54:52.760
+y en términos de expectoría tampoco
+
+00:54:52.760 --> 00:54:54.760
+el proyecto está bien, usted tiene la libertad
+
+00:54:54.760 --> 00:54:56.760
+poder hacer eso
+
+00:54:56.760 --> 00:54:58.760
+previa como aligación del director
+
+00:54:58.760 --> 00:55:00.760
+del programa
+
+00:55:00.760 --> 00:55:02.760
+pero lo único es que
+
+00:55:02.760 --> 00:55:04.760
+ustedes asumen la responsabilidad
+
+00:55:04.760 --> 00:55:06.760
+de ponerse al día en ese proyecto
+
+00:55:06.760 --> 00:55:08.760
+y que para la siguiente presentación
+
+00:55:08.760 --> 00:55:10.760
+sea la 2 o incluso la 3
+
+00:55:10.760 --> 00:55:12.760
+tienen que cumplir con exactamente
+
+00:55:12.760 --> 00:55:14.760
+lo que está con las expectativas
+
+00:55:14.760 --> 00:55:16.760
+que están contenidas en la rubrica
+
+00:55:16.760 --> 00:55:18.760
+ojo en eso
+
+00:55:18.760 --> 00:55:20.760
+usualmente el quiebre se da en la presentación 1
+
+00:55:20.760 --> 00:55:22.760
+y gran parte de los grupos
+
+00:55:22.760 --> 00:55:24.760
+tienen la posibilidad de ponerse al día
+
+00:55:24.760 --> 00:55:26.760
+y por lo tanto presentación 2 y presentación 3
+
+00:55:26.760 --> 00:55:28.760
+y termina teniendo un capstone
+
+00:55:28.760 --> 00:55:30.760
+relativamente exitoso
+
+00:55:30.760 --> 00:55:32.760
+ese es más o menos como lo que ha pasado
+
+00:55:32.760 --> 00:55:34.760
+en presentaciones 3
+
+00:55:34.760 --> 00:55:36.760
+entonces la presentación 1 que hay como
+
+00:55:36.760 --> 00:55:38.760
+la presentación 2 es que tienen que construir
+
+00:55:38.760 --> 00:55:40.760
+la solución baseline y de nuevo vuelve
+
+00:55:40.760 --> 00:55:42.760
+a ser explícito en esto, no es que
+
+00:55:42.760 --> 00:55:44.760
+imagínense que la presentación 1
+
+00:55:44.760 --> 00:55:46.760
+dijieron mira mi proyecto tiene
+
+00:55:46.760 --> 00:55:48.760
+4 objetivos
+
+00:55:48.760 --> 00:55:50.760
+que para la presentación 2 tengan que presentar
+
+00:55:50.760 --> 00:55:52.760
+los primeros 2
+
+00:55:52.760 --> 00:55:54.760
+tienen que presentar el cumplimiento de los 4
+
+00:55:54.760 --> 00:55:56.760
+pero una versión como
+
+00:55:56.760 --> 00:55:58.760
+sencilla, lo que
+
+00:55:58.760 --> 00:56:00.760
+queremos no se los entender
+
+00:56:00.760 --> 00:56:02.760
+es que es posible tener
+
+00:56:02.760 --> 00:56:04.760
+una solución factible
+
+00:56:04.760 --> 00:56:06.760
+hay veces que ustedes sueñan
+
+00:56:06.760 --> 00:56:08.760
+y el proyecto es muy grande
+
+00:56:08.760 --> 00:56:10.760
+en la presentación 2 se deben andar
+
+00:56:10.760 --> 00:56:12.760
+cuenta que efectivamente parece que no puedo
+
+00:56:12.760 --> 00:56:14.760
+construir esa solución baseline
+
+00:56:14.760 --> 00:56:16.760
+si no puedes construir esa solución baseline
+
+00:56:16.760 --> 00:56:18.760
+el proyecto tiene que ajustar el scope del proyecto
+
+00:56:18.760 --> 00:56:20.760
+pero vuelvo a repetir
+
+00:56:20.760 --> 00:56:22.760
+el
+
+00:56:22.760 --> 00:56:24.760
+el foco de la presentación 2
+
+00:56:24.760 --> 00:56:26.760
+es que ustedes puedan presentar que se pueden
+
+00:56:26.760 --> 00:56:28.760
+resolver el problema de punto a punto
+
+00:56:28.760 --> 00:56:30.760
+con una solución sencilla
+
+00:56:30.760 --> 00:56:32.760
+eso obviamente involucra un resumen
+
+00:56:32.760 --> 00:56:34.760
+de la presentación 1
+
+00:56:34.760 --> 00:56:36.760
+en términos que vuelvan a explicar
+
+00:56:36.760 --> 00:56:38.760
+cuál es la presa, cuál es el proceso de negocio
+
+00:56:38.760 --> 00:56:40.760
+porque eso incluso podría haber cambiado
+
+00:56:40.760 --> 00:56:42.760
+respecto a la presentación 1
+
+00:56:42.760 --> 00:56:44.760
+y lo más probable es que lo que digo sean distintos
+
+00:56:44.760 --> 00:56:46.760
+quizás no el problema
+
+00:56:46.760 --> 00:56:48.760
+ojalá no la industria
+
+00:56:48.760 --> 00:56:50.760
+ojalá no la empresa ni la industria
+
+00:56:50.760 --> 00:56:52.760
+pero es posible que los objetivos sean distintos
+
+00:56:52.760 --> 00:56:54.760
+tienen que volver a presentar eso
+
+00:56:54.760 --> 00:56:56.760
+de manera muy resumida porque
+
+00:56:56.760 --> 00:56:58.760
+van a tener exactamente los mismos 15 minutos
+
+00:56:58.760 --> 00:57:00.760
+ojo con eso lo mencioné
+
+00:57:00.760 --> 00:57:02.760
+algunas láminas hace atrás
+
+00:57:02.760 --> 00:57:04.760
+cada presentación parcial son 15 minutos
+
+00:57:04.760 --> 00:57:06.760
+y el reclamo que siempre van a hacer
+
+00:57:06.760 --> 00:57:08.760
+es oiga profesor pero cada vez tengo que presentar
+
+00:57:08.760 --> 00:57:10.760
+más en exactamente el mismo tiempo
+
+00:57:10.760 --> 00:57:12.760
+y es así
+
+00:57:12.760 --> 00:57:14.760
+para tener que presentar más y obviamente tienen que
+
+00:57:14.760 --> 00:57:16.760
+por eso tienen que hacerse como
+
+00:57:16.760 --> 00:57:18.760
+tienen que practicar lo suficiente
+
+00:57:18.760 --> 00:57:20.760
+para que sean capaces de condensar
+
+00:57:20.760 --> 00:57:22.760
+toda la información que hay que demostrar
+
+00:57:22.760 --> 00:57:24.760
+en esos 15 minutos
+
+00:57:24.760 --> 00:57:26.760
+pero de nuevo vuelve a hacer clícito en esto
+
+00:57:26.760 --> 00:57:28.760
+la presentación 2 es mostrar la solución
+
+00:57:28.760 --> 00:57:30.760
+baseline
+
+00:57:30.760 --> 00:57:32.760
+y después en la presentación 3
+
+00:57:32.760 --> 00:57:34.760
+es mostrar la presentación
+
+00:57:34.760 --> 00:57:36.760
+es mostrar la solución final
+
+00:57:36.760 --> 00:57:38.760
+es hacer todos los upgrade que sean necesarios
+
+00:57:38.760 --> 00:57:40.760
+de aquellos que fueron identificados
+
+00:57:40.760 --> 00:57:42.760
+en la presentación 1
+
+00:57:42.760 --> 00:57:44.760
+es posible que voy a poner ejemplo
+
+00:57:44.760 --> 00:57:46.760
+cuando hacen por ejemplo etiquetado datos
+
+00:57:46.760 --> 00:57:48.760
+que son cosas que vimos en mi curso
+
+00:57:48.760 --> 00:57:50.760
+obviamente el etiquetado dato
+
+00:57:50.760 --> 00:57:52.760
+o sea el etiquetado dato uno nos hace
+
+00:57:52.760 --> 00:57:54.760
+en versión inicial
+
+00:57:54.760 --> 00:57:56.760
+posible que ustedes hagan la versión final de la guía de la notación
+
+00:57:56.760 --> 00:57:58.760
+hagan el etiquetado dato y después
+
+00:57:58.760 --> 00:58:00.760
+la solución baseline por decirlo así
+
+00:58:00.760 --> 00:58:02.760
+es que los objetivos que vienen más aguas más abajo
+
+00:58:02.760 --> 00:58:04.760
+que si un modelo de reconocimiento antiajo
+
+00:58:04.760 --> 00:58:06.760
+un modelo de clasificación
+
+00:58:06.760 --> 00:58:08.760
+son un modelo sencillo
+
+00:58:08.760 --> 00:58:10.760
+es necesariamente que la solución completa
+
+00:58:10.760 --> 00:58:12.760
+en cada una de sus componentes sea la sencilla
+
+00:58:12.760 --> 00:58:14.760
+obviamente es un mix
+
+00:58:14.760 --> 00:58:16.760
+de lo que haga sentido
+
+00:58:16.760 --> 00:58:18.760
+dale Juan Pablo
+
+00:58:18.760 --> 00:58:20.760
+buenas tardes Eric
+
+00:58:20.760 --> 00:58:22.760
+como está una consulta respecto a estas presentaciones
+
+00:58:22.760 --> 00:58:24.760
+de 15 minutos me imagino que
+
+00:58:24.760 --> 00:58:26.760
+en esos 15 minutos está el desafío también
+
+00:58:26.760 --> 00:58:28.760
+de que presenten todos los integrantes del grupo
+
+00:58:28.760 --> 00:58:30.760
+cierto?
+
+00:58:30.760 --> 00:58:32.760
+si buen punto no lo mencioné todos los integrantes del grupo
+
+00:58:32.760 --> 00:58:36.040
+ya han presentado
+
+00:58:36.040 --> 00:58:38.040
+ya ahí la definición
+
+00:58:38.040 --> 00:58:40.040
+y
+
+00:58:40.040 --> 00:58:42.040
+no sé segmentación de la presentación la definí uno
+
+00:58:42.040 --> 00:58:44.040
+o sea quien va primero quien va segundo
+
+00:58:44.040 --> 00:58:46.040
+lo importante es que todos se expongan
+
+00:58:46.040 --> 00:58:48.040
+si, si
+
+00:58:48.040 --> 00:58:50.040
+listo gracias profe
+
+00:58:50.040 --> 00:58:55.620
+dale Fabien
+
+00:58:55.620 --> 00:58:57.620
+profe tengo una pregunta al punto anterior
+
+00:58:57.620 --> 00:58:59.620
+disculpe que se me llegué a internet
+
+00:58:59.620 --> 00:59:01.620
+en algún momento usted habló de una carta Gant
+
+00:59:01.620 --> 00:59:03.620
+al punto uno
+
+00:59:03.620 --> 00:59:05.620
+no dale
+
+00:59:05.620 --> 00:59:07.620
+dijo con un tiempo razonable
+
+00:59:07.620 --> 00:59:09.620
+pero eso tiene que
+
+00:59:09.620 --> 00:59:11.620
+ese tiempo de relación
+
+00:59:11.620 --> 00:59:13.620
+al tiempo de la empresa que uno está viendo
+
+00:59:13.620 --> 00:59:15.620
+o el tiempo que uno se demoraría a implementar
+
+00:59:15.620 --> 00:59:17.620
+por qué pregunto esto porque
+
+00:59:17.620 --> 00:59:19.620
+por ejemplo los que trabajamos en banco
+
+00:59:19.620 --> 00:59:21.620
+los tiempos banco igual son super
+
+00:59:21.620 --> 00:59:23.620
+extensos generalmente por todo el tema de política
+
+00:59:23.620 --> 00:59:25.620
+y toda la agrocracia que hay
+
+00:59:25.620 --> 00:59:27.620
+también porque obviamente cuida un estivo
+
+00:59:27.620 --> 00:59:29.620
+pero eso igual
+
+00:59:29.620 --> 00:59:31.620
+se podría ver raro como para afuera
+
+00:59:31.620 --> 00:59:33.620
+no sé
+
+00:59:33.620 --> 00:59:35.620
+siempre es harta la diferencia al tiempo
+
+00:59:35.620 --> 00:59:37.620
+o sea proyectos que probablemente en alguna empresa
+
+00:59:37.620 --> 00:59:39.620
+demoran seis meses
+
+00:59:39.620 --> 00:59:41.620
+acá fácil un año tanto
+
+00:59:41.620 --> 00:59:43.620
+por ejemplo
+
+00:59:43.620 --> 00:59:45.620
+los tiempos son los tiempos de su proyecto de investigación
+
+00:59:45.620 --> 00:59:47.620
+Fabien y por eso es lo que ustedes pueden manejar
+
+00:59:47.620 --> 00:59:49.620
+y por eso le decía
+
+00:59:49.620 --> 00:59:51.620
+dejen fuera del alcance
+
+00:59:51.620 --> 00:59:53.620
+y de nuevo vuelvo a ser enfático en eso
+
+00:59:53.620 --> 00:59:55.620
+dejen fuera del alcance cualquier tipo de
+
+00:59:55.620 --> 00:59:57.620
+implementación en la empresa
+
+00:59:59.620 --> 01:00:01.620
+si es que efectivamente no están
+
+01:00:01.620 --> 01:00:03.620
+como muy muy seguros
+
+01:00:03.620 --> 01:00:05.620
+o seguras de que esa implementación
+
+01:00:05.620 --> 01:00:07.620
+se puede hacer como parte de su proyecto
+
+01:00:07.620 --> 01:00:09.620
+y solo digo implementaciones parciales
+
+01:00:09.620 --> 01:00:11.620
+o pilotos o pruebas
+
+01:00:11.620 --> 01:00:13.620
+no hablo de la implementación completa
+
+01:00:13.620 --> 01:00:15.620
+al proyecto y entonces Fabien cuando llegó
+
+01:00:15.620 --> 01:00:17.620
+la gang es la gang de su proyecto de investigación
+
+01:00:17.620 --> 01:00:19.620
+y por lo tanto es la gang que va desde Olipía
+
+01:00:19.620 --> 01:00:21.620
+o en el caso de la presentación uno que va
+
+01:00:21.620 --> 01:00:23.620
+desde abril a
+
+01:00:23.620 --> 01:00:25.620
+el inicio de noviembre
+
+01:00:25.620 --> 01:00:27.620
+es la gang que ustedes tienen que mostrar
+
+01:00:27.620 --> 01:00:29.620
+muchas gracias
+
+01:00:29.620 --> 01:00:31.620
+y solamente para
+
+01:00:31.620 --> 01:00:33.620
+reforzano parte de la pregunta con Pablo
+
+01:00:33.620 --> 01:00:35.620
+todos presentan
+
+01:00:35.620 --> 01:00:37.620
+ustedes definen el orden de la presentación
+
+01:00:37.620 --> 01:00:39.620
+ustedes definen el tiempo
+
+01:00:39.620 --> 01:00:41.620
+ustedes han de hacerlo lo más equitativo posible
+
+01:00:41.620 --> 01:00:43.620
+y eso de nuevo es entrenamiento
+
+01:00:43.620 --> 01:00:45.620
+porque la defensa todos tienen que presentar
+
+01:00:45.620 --> 01:00:47.620
+entonces en la defensa del capson
+
+01:00:47.620 --> 01:00:49.620
+todos presentan la única diferencia
+
+01:00:49.620 --> 01:00:51.620
+que hay
+
+01:00:51.620 --> 01:00:53.620
+como que les voy adelantando todas las partes de la defensa
+
+01:00:53.620 --> 01:00:55.620
+pero en las presentaciones del capson
+
+01:00:55.620 --> 01:00:57.620
+yo les voy a hacer preguntas
+
+01:00:57.620 --> 01:00:59.620
+y ustedes pueden contestar
+
+01:00:59.620 --> 01:01:01.620
+cualquiera de las personas del grupo
+
+01:01:01.620 --> 01:01:03.620
+porque la nota es grupal
+
+01:01:03.620 --> 01:01:05.620
+yo no me voy a calentar la cabeza
+
+01:01:05.620 --> 01:01:07.620
+hoy Juan Pablo me puede explicar esta parte
+
+01:01:07.620 --> 01:01:09.620
+de la presentación, yo le voy a decir
+
+01:01:09.620 --> 01:01:11.620
+en verdad me pueden explicar
+
+01:01:11.620 --> 01:01:13.620
+eso en particular me pueden explicar
+
+01:01:13.620 --> 01:01:15.620
+esa parte de la metodología
+
+01:01:15.620 --> 01:01:17.620
+y ustedes mismos se van organizado
+
+01:01:17.620 --> 01:01:19.620
+porque entiendo
+
+01:01:19.620 --> 01:01:21.620
+que en algún punto van a dividir el trabajo
+
+01:01:21.620 --> 01:01:23.620
+soy realista en eso
+
+01:01:23.620 --> 01:01:25.620
+pero lo que si tienen que cuidar es que
+
+01:01:25.620 --> 01:01:27.620
+pese que dividen el trabajo
+
+01:01:27.620 --> 01:01:29.620
+todos están al tanto
+
+01:01:29.620 --> 01:01:31.620
+de los detalles finos
+
+01:01:31.620 --> 01:01:33.620
+del trabajo
+
+01:01:33.620 --> 01:01:35.620
+porque diferencia de lo que pasa en mi curso
+
+01:01:35.620 --> 01:01:37.620
+del capson, que son esas tres presentaciones parciales
+
+01:01:37.620 --> 01:01:39.620
+eso me refiero con mi curso del capson
+
+01:01:39.620 --> 01:01:41.620
+a diferencia de eso, donde yo les hago
+
+01:01:41.620 --> 01:01:43.620
+preguntas y ustedes contestan quien quiera
+
+01:01:43.620 --> 01:01:45.620
+en la defensa
+
+01:01:45.620 --> 01:01:47.620
+la comisión les hace preguntas
+
+01:01:47.620 --> 01:01:49.620
+y las preguntas son individuales
+
+01:01:49.620 --> 01:01:51.620
+porque la nota de la defensa es individual
+
+01:01:51.620 --> 01:01:53.620
+es distinto
+
+01:01:53.620 --> 01:01:55.620
+el enfoque
+
+01:01:55.620 --> 01:01:57.620
+a mi curso
+
+01:01:57.620 --> 01:01:59.620
+yo les hago preguntas y ustedes contestan
+
+01:01:59.620 --> 01:02:01.620
+yo evaluo el desempeño del grupo
+
+01:02:01.620 --> 01:02:03.620
+como la defensa
+
+01:02:03.620 --> 01:02:05.620
+es la instancia de
+
+01:02:05.620 --> 01:02:07.620
+evaluación final de su magister
+
+01:02:07.620 --> 01:02:09.620
+cuando digo su magister
+
+01:02:09.620 --> 01:02:11.620
+en términos individuales
+
+01:02:11.620 --> 01:02:13.620
+las preguntas son individuales y el desempeño es individual
+
+01:02:13.620 --> 01:02:15.620
+por eso es un mal negocio
+
+01:02:15.620 --> 01:02:17.620
+cuando hacen esta separación
+
+01:02:17.620 --> 01:02:19.620
+completa del trabajo
+
+01:02:19.620 --> 01:02:21.620
+y no tienen idea de lo que están haciendo
+
+01:02:21.620 --> 01:02:23.620
+los otros
+
+01:02:23.620 --> 01:02:25.620
+algunas veces yo lo puedo ver en las presentaciones
+
+01:02:25.620 --> 01:02:27.620
+porque efectivamente
+
+01:02:27.620 --> 01:02:29.620
+se nota mucho que hay alguien
+
+01:02:29.620 --> 01:02:31.620
+por ejemplo que está muy al tanto
+
+01:02:31.620 --> 01:02:33.620
+de los detalles finos de la implementación
+
+01:02:33.620 --> 01:02:35.620
+de parte de la metodología o de la metodología completa
+
+01:02:35.620 --> 01:02:37.620
+siempre hay personas que son un poco más técnicas
+
+01:02:37.620 --> 01:02:39.620
+y que tienden a tomar esos roles
+
+01:02:39.620 --> 01:02:41.620
+mis recomendaciones es que uno lo hagan
+
+01:02:41.620 --> 01:02:43.620
+ya, pese a que entiendo
+
+01:02:43.620 --> 01:02:45.620
+que en algún punto van a dividir el trabajo
+
+01:02:45.620 --> 01:02:47.620
+porque la forma del problema es un poco más eficiente
+
+01:02:47.620 --> 01:02:49.620
+de organizarse
+
+01:02:49.620 --> 01:02:51.620
+pero tal vez estar al tanto de los detalles
+
+01:02:51.620 --> 01:02:53.620
+porque en la defensa
+
+01:02:53.620 --> 01:02:55.620
+cuando van a ser individuales
+
+01:02:55.620 --> 01:02:57.620
+ahora si le van a preguntar, voy con Pablo
+
+01:02:57.620 --> 01:02:59.620
+me puedes decir
+
+01:02:59.620 --> 01:03:01.620
+como se hizo esta parte de la implementación de la metodología
+
+01:03:01.620 --> 01:03:03.620
+y Juan Pablo no puede decir
+
+01:03:03.620 --> 01:03:05.620
+es que en verdad yo no hice esa parte y la hizo
+
+01:03:05.620 --> 01:03:07.620
+porque si yo es Rodrigo
+
+01:03:07.620 --> 01:03:09.620
+porque quien va a sufrir la nota va a ser Juan Pablo
+
+01:03:09.620 --> 01:03:11.620
+ojo con eso
+
+01:03:11.620 --> 01:03:13.620
+hay, hay que hablar de la defensa
+
+01:03:13.620 --> 01:03:15.620
+aquí venía la slide de la defensa
+
+01:03:15.620 --> 01:03:17.620
+en la defensa tienen media hora
+
+01:03:17.620 --> 01:03:19.620
+media hora ustedes para presentar
+
+01:03:19.620 --> 01:03:21.620
+y esa media hora de nuevo
+
+01:03:21.620 --> 01:03:23.620
+fija
+
+01:03:23.620 --> 01:03:25.620
+yo voy a ir aumentando el nivel
+
+01:03:25.620 --> 01:03:27.620
+como de exigencia
+
+01:03:27.620 --> 01:03:29.620
+pero en cada una de las presentaciones
+
+01:03:29.620 --> 01:03:31.620
+cuando ustedes vayan en 14 minutos
+
+01:03:31.620 --> 01:03:33.620
+les voy a decir hoy les queda un minuto
+
+01:03:33.620 --> 01:03:35.620
+pero no los voy a detener
+
+01:03:35.620 --> 01:03:37.620
+ojo con eso, no los voy a detener
+
+01:03:37.620 --> 01:03:39.620
+porque entiendo que es parte de un proceso
+
+01:03:39.620 --> 01:03:41.620
+de entregaramiento
+
+01:03:41.620 --> 01:03:43.620
+pero si obviamente voy a ser cada vez más
+
+01:03:43.620 --> 01:03:45.620
+como enfático en eso
+
+01:03:45.620 --> 01:03:47.620
+oiga tienen que cuidar con los 15 minutos
+
+01:03:47.620 --> 01:03:49.620
+tienen que cuidar con los 15 minutos
+
+01:03:49.620 --> 01:03:51.620
+más entendiendo que es
+
+01:03:53.620 --> 01:03:55.620
+que es el desafío es creciente
+
+01:03:55.620 --> 01:03:57.620
+porque siempre van a tener 15 minutos
+
+01:03:57.620 --> 01:03:59.620
+y siempre van a tener más que mostrar
+
+01:03:59.620 --> 01:04:01.620
+la presentación 1 es la más fácil de cumplir
+
+01:04:01.620 --> 01:04:03.620
+en términos de los 15 minutos
+
+01:04:03.620 --> 01:04:05.620
+la 2 es un poco más difícil, la 3 es mucho más difícil
+
+01:04:05.620 --> 01:04:07.620
+porque imagínense teniendo que presentar
+
+01:04:07.620 --> 01:04:09.620
+la solución completa en 15 minutos
+
+01:04:09.620 --> 01:04:11.620
+pero solamente eso es para que
+
+01:04:11.620 --> 01:04:13.620
+para poder entrenarlos cuando vayan a la defensa
+
+01:04:13.620 --> 01:04:15.620
+para que la defensa efectivamente no les pase
+
+01:04:15.620 --> 01:04:17.620
+que les dan el warning
+
+01:04:17.620 --> 01:04:19.620
+de los 29 minutos o 28 minutos
+
+01:04:19.620 --> 01:04:21.620
+dependiendo de la comisión
+
+01:04:21.620 --> 01:04:23.620
+y después en el cabo los 30 minutos
+
+01:04:23.620 --> 01:04:25.620
+los van a cortar si o si
+
+01:04:25.620 --> 01:04:27.620
+y cuando los cortan, asumen que todo lo que no presentaron
+
+01:04:27.620 --> 01:04:29.620
+no lo hicieron, así es
+
+01:04:29.620 --> 01:04:31.620
+ojo con eso
+
+01:04:31.620 --> 01:04:33.620
+la presentación en el capson es de 30 minutos
+
+01:04:33.620 --> 01:04:35.620
+ustedes presentan 30 minutos
+
+01:04:35.620 --> 01:04:37.620
+y después van a tener una comisión de 3 personas
+
+01:04:37.620 --> 01:04:39.620
+cada una de esas 3 personas
+
+01:04:39.620 --> 01:04:41.620
+en promedio les va a preguntar por media hora
+
+01:04:41.620 --> 01:04:43.620
+y es por eso que la sesión de QALI
+
+01:04:43.620 --> 01:04:45.620
+son una hora y media
+
+01:04:45.620 --> 01:04:47.620
+más la media hora son en general
+
+01:04:47.620 --> 01:04:49.620
+una defensa dura 2 horas
+
+01:04:49.620 --> 01:04:51.620
+la asistencia obligatoria de nuevo
+
+01:04:51.620 --> 01:04:53.620
+para todos los miembros del grupo
+
+01:04:53.620 --> 01:04:55.620
+todos los miembros del grupo presentan
+
+01:04:55.620 --> 01:04:57.620
+pero la evaluación es individual
+
+01:04:57.620 --> 01:04:59.620
+ojo con eso
+
+01:04:59.620 --> 01:05:01.620
+ustedes tienen
+
+01:05:01.620 --> 01:05:03.620
+la posibilidad
+
+01:05:03.620 --> 01:05:05.620
+de sugerir a alguien para su comisión
+
+01:05:05.620 --> 01:05:07.620
+que pudiera ser como una especie de examinador
+
+01:05:07.620 --> 01:05:09.620
+desde la empresa
+
+01:05:09.620 --> 01:05:11.620
+la única restricción que tiene ese examinador
+
+01:05:11.620 --> 01:05:13.620
+o examinadora es que tiene
+
+01:05:13.620 --> 01:05:15.620
+que tener el grado de Magister
+
+01:05:15.620 --> 01:05:17.620
+no puede estar
+
+01:05:17.620 --> 01:05:19.620
+en proceso de tener el grado de Magister
+
+01:05:19.620 --> 01:05:21.620
+no puede
+
+01:05:21.620 --> 01:05:23.620
+tener
+
+01:05:23.620 --> 01:05:25.620
+una licenciatura con muchos años
+
+01:05:25.620 --> 01:05:27.620
+de experiencia, o sea ninguna de esas
+
+01:05:27.620 --> 01:05:29.620
+es valia porque
+
+01:05:29.620 --> 01:05:31.620
+y es solamente por un tema de nuevo como de proceso
+
+01:05:31.620 --> 01:05:33.620
+es como está participando
+
+01:05:33.620 --> 01:05:35.620
+en un proceso de titulación de Magister
+
+01:05:35.620 --> 01:05:37.620
+se exige que tenga ese grado
+
+01:05:37.620 --> 01:05:39.620
+académico
+
+01:05:39.620 --> 01:05:41.620
+mi recomendación antes de ir por la pregunta de Juan Pablo
+
+01:05:41.620 --> 01:05:43.620
+pues ustedes van a entablar una relación
+
+01:05:43.620 --> 01:05:45.620
+con alguien o con un equipo de la empresa
+
+01:05:45.620 --> 01:05:47.620
+mi recomendación bien honesta
+
+01:05:47.620 --> 01:05:49.620
+es traten de buscar esa persona
+
+01:05:49.620 --> 01:05:51.620
+con grado Magister dentro de ese grupo
+
+01:05:51.620 --> 01:05:53.620
+imagínense que nos están trabajando
+
+01:05:53.620 --> 01:05:55.620
+con el alias comercial
+
+01:05:55.620 --> 01:05:57.620
+y con ello ustedes van
+
+01:05:57.620 --> 01:05:59.620
+presentando avances, esos avances
+
+01:05:59.620 --> 01:06:01.620
+están siendo valiados, están siendo bien recibidos
+
+01:06:03.620 --> 01:06:05.620
+y
+
+01:06:05.620 --> 01:06:07.620
+cuando llega el momento de que yo esto voy a hacer
+
+01:06:07.620 --> 01:06:09.620
+más énfasis en la presentación 3
+
+01:06:09.620 --> 01:06:11.620
+que llegó el momento de proponer
+
+01:06:11.620 --> 01:06:13.620
+van a buscar ese grupo y dice
+
+01:06:13.620 --> 01:06:15.620
+hay alguien aquí con grado Magister
+
+01:06:15.620 --> 01:06:17.620
+no hay nadie
+
+01:06:17.620 --> 01:06:19.620
+pero alguien en finanzas tiene
+
+01:06:19.620 --> 01:06:21.620
+un grado Magister
+
+01:06:21.620 --> 01:06:23.620
+y ha pasado
+
+01:06:23.620 --> 01:06:25.620
+y por eso yo hago la recomendación que no lo hagan
+
+01:06:25.620 --> 01:06:27.620
+y van a esa persona y invitan a la gerenta
+
+01:06:27.620 --> 01:06:29.620
+de finanzas
+
+01:06:29.620 --> 01:06:31.620
+porque la gerenta de finanzas de la empresa
+
+01:06:31.620 --> 01:06:33.620
+tenía grado Magister
+
+01:06:33.620 --> 01:06:35.620
+sientan a la gerenta
+
+01:06:35.620 --> 01:06:37.620
+de finanzas pues la gerenta de finanzas no tiene idea
+
+01:06:37.620 --> 01:06:39.620
+su proyecto
+
+01:06:39.620 --> 01:06:41.620
+es posible que no esté ni siquiera de acuerdo
+
+01:06:41.620 --> 01:06:43.620
+con alguno de los supuestos del proyecto
+
+01:06:43.620 --> 01:06:45.620
+y la persona que supuestamente era como su
+
+01:06:45.620 --> 01:06:47.620
+la persona más cercana que tenía en la comisión
+
+01:06:47.620 --> 01:06:49.620
+termina como
+
+01:06:49.620 --> 01:06:51.620
+acabando los apalos en la defensa
+
+01:06:51.620 --> 01:06:53.620
+entonces mi recomendación es buscar
+
+01:06:53.620 --> 01:06:55.620
+ese equipo cercano
+
+01:06:55.620 --> 01:06:57.620
+si no encuentran nadie en ese equipo cercano
+
+01:06:57.620 --> 01:06:59.620
+no hay ningún problema, la universidad les va a poner
+
+01:06:59.620 --> 01:07:01.620
+un académico o académico de la facultad
+
+01:07:01.620 --> 01:07:03.620
+dale Juan Pablo, perdón por la demora
+
+01:07:03.620 --> 01:07:05.620
+no, no se preocupe profe
+
+01:07:05.620 --> 01:07:07.620
+no se, en realidad era por
+
+01:07:07.620 --> 01:07:09.620
+usted lo que va a responder
+
+01:07:09.620 --> 01:07:11.620
+es que, ¿qué pasa si finalmente
+
+01:07:11.620 --> 01:07:13.620
+uno termina? por ejemplo, yo pertenece al área
+
+01:07:13.620 --> 01:07:15.620
+de ahí de una compañía, entonces
+
+01:07:15.620 --> 01:07:17.620
+claro, de buscar a alguien
+
+01:07:17.620 --> 01:07:19.620
+del negocio que pasa si nadie de ese negocio
+
+01:07:19.620 --> 01:07:21.620
+cumple finalmente
+
+01:07:21.620 --> 01:07:23.620
+con el grao de mínimo de
+
+01:07:23.620 --> 01:07:25.620
+Magister, entonces
+
+01:07:25.620 --> 01:07:27.620
+claro, ahí usted me va a responder
+
+01:07:27.620 --> 01:07:29.620
+que no es que sea obligatorio
+
+01:07:29.620 --> 01:07:31.620
+si finalmente no se cuenta con alguien
+
+01:07:31.620 --> 01:07:33.620
+la universidad puede disponer
+
+01:07:33.620 --> 01:07:35.620
+ahí de esa persona
+
+01:07:35.620 --> 01:07:37.620
+la comisión son tres personas
+
+01:07:37.620 --> 01:07:39.620
+uno es tu profesor o profesora
+
+01:07:39.620 --> 01:07:41.620
+y el que va, si o si seguro
+
+01:07:41.620 --> 01:07:43.620
+lo otro es, ustedes pueden promener
+
+01:07:43.620 --> 01:07:45.620
+alguien de la empresa y si ustedes no proponen
+
+01:07:45.620 --> 01:07:47.620
+alguien de la empresa, la universidad les va a poner
+
+01:07:47.620 --> 01:07:49.620
+dos académicos de la facultad, es así es sencillo
+
+01:07:51.620 --> 01:07:53.620
+profe, otra pregunta ahí relacionado
+
+01:07:53.620 --> 01:07:55.620
+las sesiones de defensa
+
+01:07:55.620 --> 01:07:57.620
+son cerradas, por ejemplo
+
+01:07:57.620 --> 01:07:59.620
+me refiero, no puede ir por ejemplo el grupo
+
+01:07:59.620 --> 01:08:01.620
+familiar directo, nada, ninguna cosa
+
+01:08:01.620 --> 01:08:03.620
+solamente la comisión
+
+01:08:03.620 --> 01:08:05.620
+y de nuevo como lo dije
+
+01:08:05.620 --> 01:08:07.620
+antes Juan Pablo queda grabada
+
+01:08:07.620 --> 01:08:09.620
+la defensa, pero solo confina
+
+01:08:09.620 --> 01:08:11.620
+que la habitación no confía como de procedimiento
+
+01:08:11.620 --> 01:08:13.620
+no, porque se vaya a publicar después
+
+01:08:15.620 --> 01:08:17.620
+a diferencia de quizás otros magistas
+
+01:08:17.620 --> 01:08:19.620
+donde hacen defensas públicas como bien decía Juan Pablo
+
+01:08:19.620 --> 01:08:21.620
+pueden invitar a su amigo
+
+01:08:21.620 --> 01:08:23.620
+y para que nos vean presentando
+
+01:08:23.620 --> 01:08:25.620
+aquí en verdad no corre y las presentaciones
+
+01:08:25.620 --> 01:08:27.620
+son todas cerradas
+
+01:08:27.620 --> 01:08:29.620
+en el
+
+01:08:29.620 --> 01:08:31.620
+99.9% de los casos son presentaciones online
+
+01:08:35.620 --> 01:08:37.620
+ya sea porque miembros de la comisión
+
+01:08:37.620 --> 01:08:39.620
+pueden estar fuera de Chile
+
+01:08:39.620 --> 01:08:41.620
+o incluso personas del mismo magista
+
+01:08:41.620 --> 01:08:43.620
+pueden estar fuera de Chile
+
+01:08:43.620 --> 01:08:45.620
+y si es que
+
+01:08:45.620 --> 01:08:47.620
+pasa muy pocas veces, pero si es que todas las personas
+
+01:08:47.620 --> 01:08:49.620
+de la comisión están en Santiago
+
+01:08:49.620 --> 01:08:51.620
+y ustedes también están en Santiago, podrían coordinar
+
+01:08:51.620 --> 01:08:53.620
+para hacer una defensa física
+
+01:08:53.620 --> 01:08:55.620
+pero en la gran mayoría de los casos
+
+01:08:55.620 --> 01:08:57.620
+son defensas online, ya
+
+01:08:57.620 --> 01:08:59.620
+no, de nada
+
+01:08:59.620 --> 01:09:01.620
+y el entregable
+
+01:09:03.620 --> 01:09:05.620
+como decía aquí como este un magista profesional
+
+01:09:05.620 --> 01:09:07.620
+ustedes no hacen una tesis
+
+01:09:07.620 --> 01:09:09.620
+lo único que sí y uno de sus compañeros
+
+01:09:09.620 --> 01:09:11.620
+preguntó anteriormente, yo ya dejé publicado en los cursos
+
+01:09:11.620 --> 01:09:13.620
+un formato de paper
+
+01:09:13.620 --> 01:09:15.620
+ese formato de paper está
+
+01:09:15.620 --> 01:09:17.620
+en formato world o en formato latex
+
+01:09:17.620 --> 01:09:19.620
+cualquiera de los dos que quieren trabajar
+
+01:09:19.620 --> 01:09:21.620
+pero la idea de ese paper
+
+01:09:21.620 --> 01:09:23.620
+ustedes lo presentan antes de la defensa
+
+01:09:23.620 --> 01:09:25.620
+y ese es el paper con el cual
+
+01:09:25.620 --> 01:09:27.620
+su profesor guía
+
+01:09:27.620 --> 01:09:29.620
+les da el visto bueno
+
+01:09:29.620 --> 01:09:31.620
+y pide a la universidad
+
+01:09:31.620 --> 01:09:33.620
+que se inicia el proceso de titulación
+
+01:09:33.620 --> 01:09:35.620
+o de defensa
+
+01:09:35.620 --> 01:09:37.620
+o con eso, su profesor guía
+
+01:09:37.620 --> 01:09:39.620
+por eso mencionado antes
+
+01:09:39.620 --> 01:09:41.620
+es, y lo preguntaba Francisco
+
+01:09:41.620 --> 01:09:43.620
+en algún punto, ustedes tienen que entablar
+
+01:09:43.620 --> 01:09:45.620
+esa relación fluida con su profesor
+
+01:09:45.620 --> 01:09:47.620
+o profesor guía, ¿por qué?
+
+01:09:47.620 --> 01:09:49.620
+porque en algún punto, ese profesor o profesor guía
+
+01:09:49.620 --> 01:09:51.620
+primero
+
+01:09:51.620 --> 01:09:53.620
+esa profesión se comprometió
+
+01:09:53.620 --> 01:09:55.620
+entonces, voy a
+
+01:09:55.620 --> 01:09:57.620
+ir un paso atrás, esa persona se comprometió
+
+01:09:57.620 --> 01:09:59.620
+si ustedes por ejemplo
+
+01:09:59.620 --> 01:10:01.620
+envían un mail, envían dos mail
+
+01:10:01.620 --> 01:10:03.620
+tres mail, no recibieron respuestas
+
+01:10:03.620 --> 01:10:05.620
+es bien sencillo, me envían un mail a mí
+
+01:10:05.620 --> 01:10:07.620
+y decía oiga profesor, ¿sabes qué?
+
+01:10:07.620 --> 01:10:09.620
+el profesor tanto o la profesora tanto
+
+01:10:09.620 --> 01:10:11.620
+nos hemos intentado comunicar
+
+01:10:11.620 --> 01:10:13.620
+y hemos tenido respuestas que siguió en tres semanas
+
+01:10:13.620 --> 01:10:15.620
+no hay ningún problema con eso
+
+01:10:15.620 --> 01:10:17.620
+nosotros vamos a lo que mostrábamos en la academia
+
+01:10:17.620 --> 01:10:19.620
+es posible que algunas condiciones hayan cambiado
+
+01:10:19.620 --> 01:10:21.620
+que si yo, siempre puede pasar que
+
+01:10:21.620 --> 01:10:23.620
+tenga problemas personales, lo que sea
+
+01:10:23.620 --> 01:10:25.620
+y lo que vamos a hacer es una red asignación
+
+01:10:25.620 --> 01:10:27.620
+del profesor guía
+
+01:10:27.620 --> 01:10:29.620
+pero no se quieren, si es que no le responda
+
+01:10:29.620 --> 01:10:31.620
+el proyecto o sea, si es que no le responda el correo
+
+01:10:31.620 --> 01:10:33.620
+me digan, ah, que en verdad no lo respondieron
+
+01:10:33.620 --> 01:10:35.620
+¿por qué?
+
+01:10:35.620 --> 01:10:37.620
+¿por qué ese profesor o profesor guía en algún
+
+01:10:37.620 --> 01:10:39.620
+punto al final del proceso
+
+01:10:39.620 --> 01:10:41.620
+es quien por ustedes
+
+01:10:41.620 --> 01:10:43.620
+va, tiene que pedir
+
+01:10:43.620 --> 01:10:45.620
+que la universidad inicia el proceso de defensa
+
+01:10:45.620 --> 01:10:47.620
+entonces
+
+01:10:47.620 --> 01:10:49.620
+es mal negocio que nunca entablen esa relación
+
+01:10:49.620 --> 01:10:51.620
+y ese paper
+
+01:10:51.620 --> 01:10:53.620
+es particularmente el paper
+
+01:10:53.620 --> 01:10:55.620
+que ustedes le empiezan a su profesor guía
+
+01:10:55.620 --> 01:10:57.620
+ese profesor guía lo revisa
+
+01:10:57.620 --> 01:10:59.620
+lo corrige o sea, le manda feedback
+
+01:10:59.620 --> 01:11:01.620
+y con esa versión final es que le envió
+
+01:11:01.620 --> 01:11:03.620
+un correo a la universidad diciendo
+
+01:11:03.620 --> 01:11:05.620
+este grupo
+
+01:11:05.620 --> 01:11:07.620
+como visto bueno de que este grupo
+
+01:11:07.620 --> 01:11:09.620
+efectivamente está listo para defender
+
+01:11:09.620 --> 01:11:11.620
+e ir que se inicia el proceso de defensa
+
+01:11:11.620 --> 01:11:13.620
+y ese proceso de defensa es básicamente primero
+
+01:11:13.620 --> 01:11:15.620
+la universidad revisa sus papeles
+
+01:11:15.620 --> 01:11:17.620
+con sus papeles me refiero como antecedente
+
+01:11:17.620 --> 01:11:19.620
+a la universidad que no le dan al libro
+
+01:11:19.620 --> 01:11:21.620
+la biblioteca que tengan todos sus notas cerradas
+
+01:11:21.620 --> 01:11:23.620
+o sea que tengan todos sus cursos
+
+01:11:23.620 --> 01:11:25.620
+cerrados y sus notas en el sistema
+
+01:11:25.620 --> 01:11:27.620
+cosas de ese estilo
+
+01:11:27.620 --> 01:11:29.620
+y una vez que se cierra eso
+
+01:11:29.620 --> 01:11:31.620
+Antares, que usualmente quien coordina
+
+01:11:31.620 --> 01:11:33.620
+esto, Antares les va a mandar un mail de vuelta
+
+01:11:33.620 --> 01:11:35.620
+diciéndoles ok, aquí
+
+01:11:35.620 --> 01:11:37.620
+lo que conversamos con Juan Pablo Rocial
+
+01:11:37.620 --> 01:11:39.620
+quieren ustedes proponer a alguien
+
+01:11:39.620 --> 01:11:41.620
+en la comisión
+
+01:11:41.620 --> 01:11:43.620
+ese es el espacio en donde pueden decir ustedes si
+
+01:11:43.620 --> 01:11:45.620
+o no, si dicen si tienen que mandar
+
+01:11:45.620 --> 01:11:47.620
+el nombre, el cargo de la persona
+
+01:11:47.620 --> 01:11:49.620
+un correo de contacto y
+
+01:11:49.620 --> 01:11:51.620
+el certificado de título
+
+01:11:51.620 --> 01:11:53.620
+que acredite que efectivamente tienen el magista
+
+01:11:53.620 --> 01:11:55.620
+y
+
+01:11:55.620 --> 01:11:57.620
+Antares toma eso y genera la comisión
+
+01:11:57.620 --> 01:11:59.620
+y si ustedes dicen no, perfecto
+
+01:11:59.620 --> 01:12:01.620
+Antares toma eso también
+
+01:12:01.620 --> 01:12:03.620
+y genera la comisión con dos académicos
+
+01:12:03.620 --> 01:12:05.620
+o académicas para las famosas
+
+01:12:07.620 --> 01:12:11.610
+eso, dale Manuel
+
+01:12:11.610 --> 01:12:13.610
+Yo tengo una consulta de gobierno
+
+01:12:13.610 --> 01:12:15.610
+volviendo un poquito al tema de la cárcita acá
+
+01:12:15.610 --> 01:12:17.610
+que hay alguna forma de tener
+
+01:12:17.610 --> 01:12:19.610
+el detalle de los cursos que vamos a ver en el magista
+
+01:12:19.610 --> 01:12:21.610
+para ver
+
+01:12:21.610 --> 01:12:23.610
+qué puede haber ahí entre la sincronización
+
+01:12:23.610 --> 01:12:25.610
+con los temas de que quizá vamos a conocer ahí
+
+01:12:25.610 --> 01:12:27.610
+por ejemplo en tópico avanzados
+
+01:12:27.610 --> 01:12:29.610
+de I a 1 y 2, no sé qué abordamos ahí
+
+01:12:29.610 --> 01:12:31.610
+que está ahí algo que podemos aprender
+
+01:12:31.610 --> 01:12:33.610
+para justamente
+
+01:12:33.610 --> 01:12:35.610
+abordar nuestro proyecto
+
+01:12:35.610 --> 01:12:37.610
+y así considerarlo en la cárcita
+
+01:12:37.610 --> 01:12:39.610
+Pero ¿y ustedes no tienen un calendario en los cursos
+
+01:12:39.610 --> 01:12:41.610
+que vienen hacia adelante?
+
+01:12:41.610 --> 01:12:43.610
+Si, pero no sé qué temas ven
+
+01:12:43.610 --> 01:12:46.950
+Creo que le pueden pedir a Antares
+
+01:12:46.950 --> 01:12:48.950
+los sílabos que cada uno de esos cursos
+
+01:12:48.950 --> 01:12:50.950
+y en esos sílabos te vienen a ver
+
+01:12:50.950 --> 01:12:52.950
+más o menos los contenidos
+
+01:12:52.950 --> 01:12:54.950
+si no hay ningún problema que le puedan mandar Antares
+
+01:12:54.950 --> 01:12:56.950
+un correo pidiendo los sílabos
+
+01:12:56.950 --> 01:12:58.950
+porque cada uno de esos sílabos ya está
+
+01:12:58.950 --> 01:13:00.950
+¿sabes?
+
+01:13:00.950 --> 01:13:02.950
+Ah, ya
+
+01:13:02.950 --> 01:13:04.950
+Porque ustedes ya tienen más o menos la calendarización
+
+01:13:04.950 --> 01:13:06.950
+y con los sílabos pueden ver
+
+01:13:06.950 --> 01:13:08.950
+los tópicos que van a ver en cada uno de esos cursos
+
+01:13:08.950 --> 01:13:10.950
+más o menos
+
+01:13:10.950 --> 01:13:12.950
+¿sabes?
+
+01:13:12.950 --> 01:13:14.950
+Ah
+
+01:13:14.950 --> 01:13:20.340
+Entonces, teniendo en consideración
+
+01:13:20.340 --> 01:13:22.340
+sus como sus fechas
+
+01:13:22.340 --> 01:13:24.340
+Entonces, ustedes van a hacer la última
+
+01:13:24.340 --> 01:13:26.340
+presentación en inicios de noviembre
+
+01:13:26.340 --> 01:13:28.340
+¿sí?
+
+01:13:28.340 --> 01:13:30.340
+Entonces, un calendario realista
+
+01:13:30.340 --> 01:13:32.340
+para ustedes es
+
+01:13:32.340 --> 01:13:34.340
+ustedes hacen la presentación en inicios de noviembre
+
+01:13:34.340 --> 01:13:36.340
+y podrían defender
+
+01:13:36.340 --> 01:13:38.340
+en enero
+
+01:13:38.340 --> 01:13:40.340
+2027
+
+01:13:40.340 --> 01:13:42.340
+¿sí? Y ese podría ser una buena meta
+
+01:13:42.340 --> 01:13:44.340
+para ustedes, ese debería ser el calendario
+
+01:13:44.340 --> 01:13:46.340
+que ellos han seguido. Entonces, ustedes presentan
+
+01:13:46.340 --> 01:13:48.340
+la última presentación en inicios de noviembre
+
+01:13:48.340 --> 01:13:50.340
+obviamente yo les voy a dar feedback
+
+01:13:50.340 --> 01:13:52.340
+toman ese feedback, lo conversan con sus profesores
+
+01:13:52.340 --> 01:13:54.340
+profesores del guía, ahí van a tener una especie como
+
+01:13:54.340 --> 01:13:56.340
+plan corto de mejoras
+
+01:13:56.340 --> 01:13:58.340
+o qué cosas nos faltan para cubrir
+
+01:13:58.340 --> 01:14:00.340
+para poner cosas que efectivamente
+
+01:14:00.340 --> 01:14:02.340
+el profesor Eric nos dijo que tenía sentido
+
+01:14:02.340 --> 01:14:04.340
+ustedes obviamente pueden estar en desacuerda conmigo
+
+01:14:04.340 --> 01:14:06.340
+es decir, a verdad eso no lo vamos a incorporar
+
+01:14:06.340 --> 01:14:08.340
+lo que es absolutamente bien
+
+01:14:08.340 --> 01:14:10.340
+pero tienen que estar de acuerdo con sus profesores del guía
+
+01:14:10.340 --> 01:14:12.340
+es decir, no vamos a colocar esto
+
+01:14:12.340 --> 01:14:14.340
+por ABC
+
+01:14:14.340 --> 01:14:16.340
+y sus profesores del guía dicen sí, y tienen sentido
+
+01:14:16.340 --> 01:14:18.340
+no lo vamos a colocar, no es ningún problema
+
+01:14:18.340 --> 01:14:20.340
+pero desde la presentación 3 al cierre
+
+01:14:20.340 --> 01:14:22.340
+entonces ustedes se juntan con sus profesores del guía
+
+01:14:22.340 --> 01:14:24.340
+y dicen ya, este es una especie como plan corto
+
+01:14:24.340 --> 01:14:26.340
+de lo que nos queda para defender
+
+01:14:28.340 --> 01:14:30.340
+y la idea es que hagan eso
+
+01:14:30.340 --> 01:14:32.340
+noviembre y diciembre
+
+01:14:32.340 --> 01:14:34.340
+y después, o sea, y tengan la validación
+
+01:14:34.340 --> 01:14:36.340
+de sus profesores del guía antes de fin de año
+
+01:14:36.340 --> 01:14:38.340
+si eso pasa, después la coordinación
+
+01:14:38.340 --> 01:14:40.340
+de la defensa
+
+01:14:40.340 --> 01:14:42.340
+se demora en unas 3 semanas
+
+01:14:42.340 --> 01:14:44.340
+que es básicamente coordinaciones de agenda
+
+01:14:44.340 --> 01:14:46.340
+como, oye, al final son 4 entes
+
+01:14:46.340 --> 01:14:48.340
+que hay que ordenar, ustedes como grupo
+
+01:14:48.340 --> 01:14:50.340
+y cada una de las otras 3 personas
+
+01:14:50.340 --> 01:14:52.340
+encontrar una agenda y de ahí hacer la defensa
+
+01:14:52.340 --> 01:14:54.340
+entonces es realista
+
+01:14:54.340 --> 01:14:56.340
+para ustedes que puedan defender
+
+01:14:56.340 --> 01:14:58.340
+en enero de 2027
+
+01:14:58.340 --> 01:15:00.340
+ya, recuerden
+
+01:15:00.340 --> 01:15:02.340
+que la universidad está cerrada en febrero
+
+01:15:02.340 --> 01:15:04.340
+por lo tanto no van a poder hacer
+
+01:15:04.340 --> 01:15:06.340
+ninguna defensa en febrero
+
+01:15:06.340 --> 01:15:08.340
+por lo tanto si es que no la hacen en enero de 2027
+
+01:15:08.340 --> 01:15:10.340
+finalmente la van a terminar haciendo
+
+01:15:10.340 --> 01:15:12.340
+en marzo de 2027
+
+01:15:14.340 --> 01:15:16.340
+y después de eso
+
+01:15:16.340 --> 01:15:18.340
+porque siempre me hacen la pregunta
+
+01:15:18.340 --> 01:15:20.340
+después de eso ustedes pueden pedir el certificado de título
+
+01:15:20.340 --> 01:15:22.340
+no tienen que esperar hasta la ceremonia
+
+01:15:22.340 --> 01:15:24.340
+de graduación porque creo
+
+01:15:24.340 --> 01:15:26.340
+si más no recuerdo que ahora la agua
+
+01:15:26.340 --> 01:15:28.340
+hizo lo hace una ceremonia de titulación por año
+
+01:15:28.340 --> 01:15:30.340
+que es a final de año
+
+01:15:30.340 --> 01:15:32.340
+entonces ustedes quieran hacer como
+
+01:15:32.340 --> 01:15:34.340
+a las fotos y sacarse
+
+01:15:34.340 --> 01:15:36.340
+eso va a pasar a final de 2027
+
+01:15:36.340 --> 01:15:38.340
+pero obviamente si ustedes terminan
+
+01:15:38.340 --> 01:15:40.340
+que si yo el dinero termine
+
+01:15:40.340 --> 01:15:42.340
+en marzo de 2027
+
+01:15:42.340 --> 01:15:44.340
+una vez que esté todo cerrado el proceso académico
+
+01:15:44.340 --> 01:15:46.340
+que demora un par de semanas
+
+01:15:46.340 --> 01:15:48.340
+ustedes pueden enviar un mail solicitar su certificado de título
+
+01:15:48.340 --> 01:15:50.340
+y pueden tener el certificado de título
+
+01:15:50.340 --> 01:15:52.340
+mucho antes de que la graduación
+
+01:15:52.340 --> 01:15:55.660
+ya
+
+01:15:55.660 --> 01:15:57.660
+y creo que hemos conversado
+
+01:15:57.660 --> 01:15:59.660
+casi todo esto
+
+01:15:59.660 --> 01:16:01.660
+3 semanas
+
+01:16:01.660 --> 01:16:03.660
+obviamente para poder
+
+01:16:03.660 --> 01:16:05.660
+no lo he mencionado o creo que lo mencioné
+
+01:16:05.660 --> 01:16:07.660
+realmente es para poder a ustedes defender
+
+01:16:07.660 --> 01:16:09.660
+tienen que aprobar el curso capstone
+
+01:16:09.660 --> 01:16:11.660
+lo que quiere decir que tienen que tener
+
+01:16:11.660 --> 01:16:13.660
+un premio ponderado de las tres
+
+01:16:13.660 --> 01:16:15.660
+porque presentaciones parciales mayor o igual a cuatro
+
+01:16:19.290 --> 01:16:21.290
+dudas hasta el momento
+
+01:16:21.290 --> 01:16:25.240
+antes de mostrarle
+
+01:16:25.240 --> 01:16:27.240
+o sea no le puedan traer esto
+
+01:16:27.240 --> 01:16:29.240
+entonces estos son cada una de las componentes
+
+01:16:29.240 --> 01:16:31.240
+del proyecto
+
+01:16:31.240 --> 01:16:33.240
+una introducción que es parte de la presentación 1
+
+01:16:33.240 --> 01:16:35.240
+la descripción del problema es parte
+
+01:16:35.240 --> 01:16:37.240
+de la presentación 1
+
+01:16:37.240 --> 01:16:39.240
+los alcances
+
+01:16:39.240 --> 01:16:41.240
+y los entregables también
+
+01:16:41.240 --> 01:16:43.240
+parte de la presentación 1
+
+01:16:43.240 --> 01:16:45.240
+y la metodología obviamente también es parte de la presentación 1
+
+01:16:45.240 --> 01:16:47.240
+mostrar el cómo lo van a hacer
+
+01:16:47.240 --> 01:16:49.240
+y ese cómo tiene que estar avalado
+
+01:16:49.240 --> 01:16:51.240
+por una revisión bibliográfica
+
+01:16:51.240 --> 01:16:53.240
+ustedes dirán ah mira en verdad no sólo lo vamos a hacer de esta forma
+
+01:16:53.240 --> 01:16:55.240
+porque hemos visto casos similares
+
+01:16:55.240 --> 01:16:57.240
+tienen que
+
+01:16:57.240 --> 01:16:59.240
+citar esos casos similares y mostrarlos en la presentación 1
+
+01:16:59.240 --> 01:17:01.240
+decir ah ya
+
+01:17:01.240 --> 01:17:03.240
+esta es entonces la razón
+
+01:17:03.240 --> 01:17:05.240
+después la presentación 2
+
+01:17:05.240 --> 01:17:07.240
+es obviamente
+
+01:17:07.240 --> 01:17:09.240
+parte de lo que mostraron la presentación 1
+
+01:17:09.240 --> 01:17:11.240
+más el desarrollo metodológico
+
+01:17:11.240 --> 01:17:13.240
+el análisis exploratorio de los datos
+
+01:17:13.240 --> 01:17:15.240
+el preposizamiento, la construcción de la primera solución
+
+01:17:15.240 --> 01:17:17.240
+y después la presentación 3
+
+01:17:17.240 --> 01:17:19.240
+es obviamente la solución completa
+
+01:17:19.240 --> 01:17:21.240
+ya
+
+01:17:21.240 --> 01:17:23.240
+yo les dejé solamente
+
+01:17:23.240 --> 01:17:25.240
+yo les dejé ya en web cursos
+
+01:17:25.240 --> 01:17:27.240
+la rubrica
+
+01:17:27.240 --> 01:17:29.240
+y esta es la rubrica
+
+01:17:29.240 --> 01:17:31.240
+entonces ustedes tienen cada una
+
+01:17:31.240 --> 01:17:33.240
+de las componentes de la rubrica
+
+01:17:33.240 --> 01:17:35.240
+el peso relativo en la nota
+
+01:17:35.240 --> 01:17:37.240
+y como los indicadores
+
+01:17:37.240 --> 01:17:39.240
+de desempeño en esa rubrica
+
+01:17:39.240 --> 01:17:41.240
+que es lo que tienen que
+
+01:17:41.240 --> 01:17:43.240
+cubrir la introducción, descripción de la empresa
+
+01:17:43.240 --> 01:17:45.240
+el cliente y la industria
+
+01:17:45.240 --> 01:17:47.240
+que tienen que ser la justificación del problema
+
+01:17:47.240 --> 01:17:49.240
+descripción del problema correcta
+
+01:17:49.240 --> 01:17:51.240
+justificación, evaluación económica
+
+01:17:51.240 --> 01:17:53.240
+el potencial del proyecto
+
+01:17:53.240 --> 01:17:55.240
+entonces tienen que preocuparse
+
+01:17:55.240 --> 01:17:57.240
+para cada una de las presentaciones
+
+01:17:57.240 --> 01:17:59.240
+porque la rubrica es distinta para cada una
+
+01:17:59.240 --> 01:18:01.240
+de las presentaciones
+
+01:18:01.240 --> 01:18:03.240
+que abran todos los ámbitos de la rubrica
+
+01:18:03.240 --> 01:18:05.240
+y obviamente
+
+01:18:05.240 --> 01:18:07.240
+hagan las énfasis
+
+01:18:07.240 --> 01:18:09.240
+en aquellos donde el porcentaje es mayor
+
+01:18:09.240 --> 01:18:11.240
+ya
+
+01:18:11.240 --> 01:18:13.240
+esa es la forma
+
+01:18:13.240 --> 01:18:15.240
+si alguien tiene que decir
+
+01:18:15.240 --> 01:18:17.240
+nosotros tenemos 15 minutos y como partir ese tiempo
+
+01:18:17.240 --> 01:18:19.240
+tiene que partir de la función de
+
+01:18:19.240 --> 01:18:21.240
+la importancia relativa de cada una de las componentes de la rubrica
+
+01:18:21.240 --> 01:18:23.240
+osea el 20%
+
+01:18:23.240 --> 01:18:25.240
+de los 15 minutos
+
+01:18:25.240 --> 01:18:27.240
+deberá ser la introducción
+
+01:18:27.240 --> 01:18:29.240
+lo mismo para la justificación del problema
+
+01:18:29.240 --> 01:18:31.240
+pero tienen que preocuparse de que
+
+01:18:31.240 --> 01:18:33.240
+todos los
+
+01:18:33.240 --> 01:18:35.240
+ámbitos de la rubrica tienen que cumplirse
+
+01:18:35.240 --> 01:18:37.240
+para cada una de las distintas
+
+01:18:37.240 --> 01:18:39.240
+presentaciones
+
+01:18:39.240 --> 01:18:41.240
+y como les decía
+
+01:18:41.240 --> 01:18:43.240
+por ejemplo la presentación 1 va a mostrar la descripción del problema
+
+01:18:43.240 --> 01:18:45.240
+y la presentación va a volver
+
+01:18:45.240 --> 01:18:47.240
+a mostrar la descripción del problema
+
+01:18:47.240 --> 01:18:49.240
+va a volver a mostrar lo objetivo
+
+01:18:49.240 --> 01:18:51.240
+obviamente con menos relevancia
+
+01:18:51.240 --> 01:18:53.240
+pero tienen que preocuparse de que cada una de las presentaciones cura
+
+01:18:53.240 --> 01:18:55.240
+todos los ámbitos de la rubrica
+
+01:18:55.240 --> 01:18:57.240
+o con eso y lo mismo con la presentación 3
+
+01:18:57.240 --> 01:19:02.760
+y
+
+01:19:02.760 --> 01:19:10.230
+entonces
+
+01:19:10.230 --> 01:19:12.230
+solamente algunos detalles respecto de la presentación 1
+
+01:19:12.230 --> 01:19:14.230
+cuál es el problema que hay a resolver
+
+01:19:14.230 --> 01:19:16.230
+y por qué lo quieren resolver
+
+01:19:16.230 --> 01:19:18.230
+quién es el importante de ese problema de la organización
+
+01:19:18.230 --> 01:19:20.230
+trata de cuantificar
+
+01:19:20.230 --> 01:19:22.230
+y cuando digo cuantificar no es que vayan
+
+01:19:22.230 --> 01:19:24.230
+recuerden que para la presentación 1 es posible que tengan o no
+
+01:19:24.230 --> 01:19:26.230
+acceso a los datos ojalá tuvieran
+
+01:19:26.230 --> 01:19:28.230
+pero no es que tengan que hacer los cálculos respecto a los datos
+
+01:19:28.230 --> 01:19:30.230
+el cuantificable es básicamente
+
+01:19:30.230 --> 01:19:32.230
+el cálculo de servillera
+
+01:19:32.230 --> 01:19:34.230
+la organización pierden 10%
+
+01:19:34.230 --> 01:19:36.230
+de los clientes por año
+
+01:19:36.230 --> 01:19:38.230
+entonces cuánto es el CLB
+
+01:19:38.230 --> 01:19:40.230
+de los clientes, lo multiplico por un 10%
+
+01:19:40.230 --> 01:19:42.230
+más o menos la bolsa de plata que estamos perdiendo
+
+01:19:42.230 --> 01:19:44.230
+cada año es de este orden de magnitud
+
+01:19:46.230 --> 01:19:48.230
+y después es importante
+
+01:19:48.230 --> 01:19:50.230
+que en la presentación 1
+
+01:19:50.230 --> 01:19:52.230
+tienen que mencionar
+
+01:19:52.230 --> 01:19:54.230
+explícitamente
+
+01:19:56.230 --> 01:19:58.230
+investigaciones que resuelvan un problema
+
+01:19:58.230 --> 01:20:00.230
+similar o que apliquen técnicas similar
+
+01:20:00.230 --> 01:20:02.230
+a las que ustedes quieran resolver
+
+01:20:02.230 --> 01:20:04.230
+no puede ser
+
+01:20:04.230 --> 01:20:06.230
+porque es muy poco activo
+
+01:20:06.230 --> 01:20:08.230
+que alguien diga no encontré bibliografía
+
+01:20:08.230 --> 01:20:10.230
+relacionada a mi problema
+
+01:20:10.230 --> 01:20:12.230
+si es posible que alguien no haya resuelto
+
+01:20:12.230 --> 01:20:14.230
+exactamente el mismo problema
+
+01:20:14.230 --> 01:20:16.230
+pero lo más probable es que ya exista una solución
+
+01:20:16.230 --> 01:20:18.230
+a nivel industria
+
+01:20:18.230 --> 01:20:20.230
+es muy probable que exista una solución
+
+01:20:20.230 --> 01:20:22.230
+a nivel proceso
+
+01:20:22.230 --> 01:20:24.230
+o que ese tipo de métodos que ustedes quieran utilizar
+
+01:20:24.230 --> 01:20:26.230
+haya sido utilizados para cosas distintas
+
+01:20:26.230 --> 01:20:28.230
+pero de alguna manera
+
+01:20:28.230 --> 01:20:30.230
+relacionada
+
+01:20:30.230 --> 01:20:32.230
+tienen que poner esa revisión bibliográfica
+
+01:20:32.230 --> 01:20:34.230
+y comentarla como parte de la presentación
+
+01:20:34.230 --> 01:20:36.230
+ojo con este video no
+
+01:20:36.230 --> 01:20:38.230
+lo dejo explícito para que quede la grabación
+
+01:20:38.230 --> 01:20:40.230
+no es que tengan que hacer toda su presentación
+
+01:20:40.230 --> 01:20:42.230
+y después pon una lámina
+
+01:20:42.230 --> 01:20:44.230
+donde diga ahi esta es la bibliografía
+
+01:20:44.230 --> 01:20:46.230
+eso no es lo que esperamos como bibliografía
+
+01:20:46.230 --> 01:20:48.230
+tienen que la bibliografía de alguna manera
+
+01:20:48.230 --> 01:20:50.230
+meterla como parte de la presentación
+
+01:20:50.230 --> 01:20:52.230
+cuando digan ah mira, nosotros vamos a utilizar el modelo A
+
+01:20:52.230 --> 01:20:54.230
+el modelo B y el modelo C
+
+01:20:54.230 --> 01:20:56.230
+¿por qué? porque mira el modelo A
+
+01:20:56.230 --> 01:20:58.230
+ha sido utilizado en este tipo de aplicación
+
+01:20:58.230 --> 01:21:00.230
+y lo mencionan como parte de la justificación
+
+01:21:00.230 --> 01:21:02.230
+de su metodología
+
+01:21:02.230 --> 01:21:04.230
+es el foco de la revisión bibliográfica
+
+01:21:04.230 --> 01:21:07.480
+los objetivos
+
+01:21:07.480 --> 01:21:09.480
+y ahi estos son temas mas como de forma
+
+01:21:09.480 --> 01:21:11.480
+son verbos en infinitivo
+
+01:21:11.480 --> 01:21:13.480
+tienen que ser auditables y cumplir
+
+01:21:13.480 --> 01:21:15.480
+a lo largo del proyecto
+
+01:21:15.480 --> 01:21:17.480
+tienen que haber solo un objetivo general
+
+01:21:17.480 --> 01:21:19.480
+ojalá evitar
+
+01:21:19.480 --> 01:21:21.480
+que el objetivo general
+
+01:21:21.480 --> 01:21:23.480
+contenga palabras muy técnicas de la industria
+
+01:21:23.480 --> 01:21:25.480
+solamente
+
+01:21:25.480 --> 01:21:27.480
+para que uno pueda leer el objetivo principal
+
+01:21:27.480 --> 01:21:29.480
+o el objetivo general y puede entender
+
+01:21:29.480 --> 01:21:31.480
+qué es lo que quieren hacer
+
+01:21:31.480 --> 01:21:33.480
+después pueden hacer algunos como detalles
+
+01:21:33.480 --> 01:21:35.480
+o algunos como énfasis a lo largo de la presentación
+
+01:21:35.480 --> 01:21:37.480
+pero mis recomendaciones que eviten
+
+01:21:37.480 --> 01:21:39.480
+como demasiado
+
+01:21:39.480 --> 01:21:41.480
+tecnicismo en el título del proyecto
+
+01:21:41.480 --> 01:21:43.480
+los objetivos específicos no son etapas del proyecto
+
+01:21:43.480 --> 01:21:45.480
+sino que están asociados a entregables
+
+01:21:45.480 --> 01:21:47.480
+que generan valor
+
+01:21:49.480 --> 01:21:51.480
+es bueno
+
+01:21:51.480 --> 01:21:53.480
+que ustedes
+
+01:21:53.480 --> 01:21:55.480
+tengan la lámina de alcance
+
+01:21:55.480 --> 01:21:57.480
+y es bueno que ustedes puedan decir
+
+01:21:57.480 --> 01:21:59.480
+explícitamente
+
+01:21:59.480 --> 01:22:01.480
+en la presentación qué cosas van a hacer
+
+01:22:01.480 --> 01:22:03.480
+y qué cosas no van a hacer
+
+01:22:03.480 --> 01:22:05.480
+vamos a anunciar el proceso A
+
+01:22:05.480 --> 01:22:07.480
+pero vamos a dejar por ejemplo fuera
+
+01:22:07.480 --> 01:22:09.480
+el proceso B y el proceso C
+
+01:22:09.480 --> 01:22:11.480
+o vamos a hacer
+
+01:22:11.480 --> 01:22:13.480
+imagínense que vamos a hacer un modelo de pricing
+
+01:22:13.480 --> 01:22:15.480
+una empresa e-commerce
+
+01:22:15.480 --> 01:22:17.480
+vamos a hacer el modelo de pricing
+
+01:22:17.480 --> 01:22:19.480
+pero vamos a hacer el modelo de pricing
+
+01:22:19.480 --> 01:22:21.480
+solo para la categoría A y la categoría B
+
+01:22:21.480 --> 01:22:23.480
+porque son las demás relevancias
+
+01:22:23.480 --> 01:22:25.480
+en venta porque son las demás
+
+01:22:25.480 --> 01:22:27.480
+como transacciones o lo que sea
+
+01:22:27.480 --> 01:22:29.480
+y eso lo pueden decir no hay ningún problema
+
+01:22:29.480 --> 01:22:31.480
+ojo que nosotros no queremos
+
+01:22:31.480 --> 01:22:33.480
+que ustedes resuelvan el mismo problema
+
+01:22:33.480 --> 01:22:35.480
+muchas veces
+
+01:22:35.480 --> 01:22:37.480
+eso de repente pasa que
+
+01:22:37.480 --> 01:22:39.480
+dicen voy a seguir con el ejemplo de pricing
+
+01:22:39.480 --> 01:22:41.480
+vamos a hacer un modelo de pricing
+
+01:22:41.480 --> 01:22:43.480
+y vamos a hacer un modelo de pricing para 10 categorías
+
+01:22:43.480 --> 01:22:45.480
+y eso básicamente hacer
+
+01:22:45.480 --> 01:22:47.480
+un modelo de pricing y después hacer exactamente
+
+01:22:47.480 --> 01:22:49.480
+lo mismo 10 veces
+
+01:22:49.480 --> 01:22:51.480
+eso tiene poquito valor en términos como
+
+01:22:51.480 --> 01:22:53.480
+incremental
+
+01:22:53.480 --> 01:22:55.480
+es mucho mejor que ustedes elijan una categoría
+
+01:22:55.480 --> 01:22:57.480
+o un par de categorías para poder comparar
+
+01:22:57.480 --> 01:22:59.480
+que pagan un modelo muchísimo más robusto
+
+01:22:59.480 --> 01:23:01.480
+¿por qué? porque de nuevo este es un proyecto
+
+01:23:01.480 --> 01:23:03.480
+de investigación aplicada
+
+01:23:03.480 --> 01:23:05.480
+no queremos que les resuelvan el problema completo
+
+01:23:05.480 --> 01:23:07.480
+en la organización
+
+01:23:07.480 --> 01:23:09.480
+obviamente de nuevo vuelven a entrar
+
+01:23:09.480 --> 01:23:11.480
+en conflictos hasta tensiones
+
+01:23:11.480 --> 01:23:13.480
+probablemente la organización quiere que el modelo de pricing
+
+01:23:13.480 --> 01:23:15.480
+aplique para todas las categorías
+
+01:23:15.480 --> 01:23:17.480
+y para todos los productos
+
+01:23:17.480 --> 01:23:19.480
+pero eso es parte de lo que ustedes tienen que ir manejando
+
+01:23:19.480 --> 01:23:21.480
+como investigadores
+
+01:23:21.480 --> 01:23:23.480
+entonces bueno que ustedes digan lo que van a hacer
+
+01:23:23.480 --> 01:23:25.480
+y digan lo que no van a hacer
+
+01:23:25.480 --> 01:23:27.480
+mi recomendación es que digan también
+
+01:23:27.480 --> 01:23:29.480
+la ventana
+
+01:23:29.480 --> 01:23:31.480
+de tiempo que tienen términos de información
+
+01:23:31.480 --> 01:23:33.480
+oigan mira nosotros vamos a procesar información
+
+01:23:33.480 --> 01:23:35.480
+desde enero del 2020 hasta
+
+01:23:35.480 --> 01:23:37.480
+diciembre del 2025
+
+01:23:37.480 --> 01:23:39.480
+cosas de ese tipo
+
+01:23:39.480 --> 01:23:41.480
+si es que van a hacer alcance al nivel de producto
+
+01:23:41.480 --> 01:23:43.480
+obviamente
+
+01:23:43.480 --> 01:23:45.480
+si es que no están completamente seguros que pueden hacer
+
+01:23:45.480 --> 01:23:47.480
+cualquier tipo de implementación
+
+01:23:47.480 --> 01:23:49.480
+cualquier post en producción
+
+01:23:49.480 --> 01:23:51.480
+cualquier que se lleve o pueda de conceptos
+
+01:23:51.480 --> 01:23:53.480
+cualquier cosa que no estén seguros
+
+01:23:53.480 --> 01:23:55.480
+o muy seguros que nunca van a estar seguros
+
+01:23:55.480 --> 01:23:57.480
+pero que tengan muy seguros de que efectivamente
+
+01:23:57.480 --> 01:23:59.480
+lo pueden hacer
+
+01:24:03.480 --> 01:24:05.480
+bueno ahí hemos dicho la metodología
+
+01:24:05.480 --> 01:24:07.480
+o sea varios componentes de la presentación 2
+
+01:24:07.480 --> 01:24:09.480
+es la presentación 2
+
+01:24:09.480 --> 01:24:11.480
+perdón es la presentación 2
+
+01:24:11.480 --> 01:24:13.480
+si o si ya tienen que haber tenido acceso a los datos
+
+01:24:13.480 --> 01:24:15.480
+si no hay forma
+
+01:24:15.480 --> 01:24:17.480
+porque obviamente si no tienen acceso a los datos
+
+01:24:17.480 --> 01:24:19.480
+no van a poder hacer el análisis exploratorio
+
+01:24:19.480 --> 01:24:21.480
+no van a poder hacer que siga el propio procesamiento
+
+01:24:21.480 --> 01:24:23.480
+no van a poder construir la primera solución base
+
+01:24:23.480 --> 01:24:25.480
+ojo bueno eso
+
+01:24:25.480 --> 01:24:27.480
+para la presentación 2 si o si tienen que tener acceso a los datos
+
+01:24:27.480 --> 01:24:29.480
+lo que ya debe ser más o menos lógico
+
+01:24:29.480 --> 01:24:31.480
+porque es harto tiempo
+
+01:24:33.480 --> 01:24:35.480
+ahí
+
+01:24:35.480 --> 01:24:37.480
+formados en términos de citas
+
+01:24:37.480 --> 01:24:39.480
+obviamente recomendaciones de buscar las citas
+
+01:24:39.480 --> 01:24:41.480
+o de buscar las fuentes bibliográficas en inglés
+
+01:24:41.480 --> 01:24:43.480
+porque hay mucha más información disponible
+
+01:24:43.480 --> 01:24:47.110
+que en español
+
+01:24:47.110 --> 01:24:49.110
+eso es todo
+
+01:24:49.110 --> 01:24:51.110
+dudas adicionales
+
+01:24:57.620 --> 01:24:59.620
+profesor tengo una duda
+
+01:24:59.620 --> 01:25:01.620
+hay algún tiempo
+
+01:25:01.620 --> 01:25:03.620
+máximo
+
+01:25:03.620 --> 01:25:05.620
+al tener la presentación 1
+
+01:25:05.620 --> 01:25:07.620
+para enviar el grupo
+
+01:25:07.620 --> 01:25:09.620
+y el profesor guía
+
+01:25:09.620 --> 01:25:11.620
+o sea realmente
+
+01:25:11.620 --> 01:25:13.620
+cuando subamos la presentación
+
+01:25:13.620 --> 01:25:15.620
+ahí colocamos los nombres
+
+01:25:15.620 --> 01:25:17.620
+y el profesor guía
+
+01:25:17.620 --> 01:25:19.620
+ojo que el profesor guía lo van a tener post presentación 1
+
+01:25:19.620 --> 01:25:21.620
+así que hasta ese momento solo
+
+01:25:21.620 --> 01:25:23.620
+se tienen que preocupar de su grupo
+
+01:25:23.620 --> 01:25:25.620
+en
+
+01:25:25.620 --> 01:25:27.620
+por procedimiento
+
+01:25:27.620 --> 01:25:29.620
+ustedes pueden llegar a la presentación 1
+
+01:25:29.620 --> 01:25:31.620
+y ahí yo recién saber los grupos
+
+01:25:31.620 --> 01:25:33.620
+pues yo les voy a preguntar un par de
+
+01:25:33.620 --> 01:25:35.620
+o sea en un par de semanas más
+
+01:25:35.620 --> 01:25:37.620
+les voy a preguntar solo
+
+01:25:37.620 --> 01:25:39.620
+para ver si hay que levantar alguna alerta en términos de alguna persona
+
+01:25:39.620 --> 01:25:41.620
+que no tenga grupo o algún grupo
+
+01:25:41.620 --> 01:25:43.620
+que no tenga proyecto
+
+01:25:43.620 --> 01:25:45.620
+pero si ustedes están tranquilos
+
+01:25:45.620 --> 01:25:47.620
+con su grupo
+
+01:25:47.620 --> 01:25:49.620
+o sea están contentos con su grupo
+
+01:25:49.620 --> 01:25:51.620
+y están contentos con su proyecto pueden avanzar sin ningún problema
+
+01:25:51.620 --> 01:25:53.620
+no tienen que notificarme
+
+01:25:53.620 --> 01:25:55.620
+cuál es su grupo o notificarme cuál es su proyecto
+
+01:25:55.620 --> 01:25:57.620
+yo me voy a enterar en el estrictor
+
+01:25:57.620 --> 01:25:59.620
+sobre los proyectos en el momento que ustedes dan su presentación
+
+01:25:59.620 --> 01:26:01.620
+pero yo si solamente
+
+01:26:01.620 --> 01:26:03.620
+les voy a levantar ese listado
+
+01:26:03.620 --> 01:26:05.620
+solamente voy a poder hacer un cataracto así que hay alguien
+
+01:26:05.620 --> 01:26:07.620
+que necesita así ayuda
+
+01:26:07.620 --> 01:26:09.620
+solo por eso
+
+01:26:09.620 --> 01:26:11.620
+perfecto y dos consultas más una
+
+01:26:11.620 --> 01:26:13.620
+hay que se refiere
+
+01:26:13.620 --> 01:26:15.620
+el profesor guía
+
+01:26:15.620 --> 01:26:17.620
+yo sé que está en la depositividad
+
+01:26:17.620 --> 01:26:19.620
+pero
+
+01:26:19.620 --> 01:26:21.620
+si ya lo tú decimos definido
+
+01:26:21.620 --> 01:26:23.620
+corta o la universidad
+
+01:26:23.620 --> 01:26:25.620
+los dos o nosotros podemos verlo
+
+01:26:25.620 --> 01:26:27.620
+con el profesor
+
+01:26:27.620 --> 01:26:29.620
+ay al como conversamos con francisco
+
+01:26:29.620 --> 01:26:31.620
+ustedes lo pueden hacer conversaciones
+
+01:26:31.620 --> 01:26:33.620
+uno a uno con los profesores
+
+01:26:33.620 --> 01:26:35.620
+y no lo mencioné eso si cuando
+
+01:26:35.620 --> 01:26:37.620
+contestar la pregunta francisco
+
+01:26:37.620 --> 01:26:39.620
+pero ese profesor guía
+
+01:26:39.620 --> 01:26:41.620
+usualmente solo nos va a poder apoyar
+
+01:26:41.620 --> 01:26:43.620
+la presentación uno porque eso también es parte
+
+01:26:43.620 --> 01:26:45.620
+de la huerta con ellos es como
+
+01:26:45.620 --> 01:26:47.620
+si ustedes hacen el compromiso pero el compromiso
+
+01:26:47.620 --> 01:26:49.620
+es después de la presentación uno
+
+01:26:49.620 --> 01:26:51.620
+hasta la defensa
+
+01:26:51.620 --> 01:26:53.620
+oiga imagínense que ustedes mañana
+
+01:26:53.620 --> 01:26:55.620
+oiga mire ya tienen un tema
+
+01:26:55.620 --> 01:26:57.620
+y ubican a un profesor le dice
+
+01:26:57.620 --> 01:26:59.620
+profesor usted puede ser nuestro profesor guía
+
+01:26:59.620 --> 01:27:01.620
+no es que pueden empezar a agendar reuniones
+
+01:27:01.620 --> 01:27:03.620
+en febrero marzo
+
+01:27:03.620 --> 01:27:05.620
+porque efectivamente esto será dar pos
+
+01:27:05.620 --> 01:27:07.620
+presentación uno que es abrir
+
+01:27:07.620 --> 01:27:09.620
+entonces
+
+01:27:09.620 --> 01:27:11.620
+ojo en eso ustedes pueden hacer acercamientos
+
+01:27:11.620 --> 01:27:13.620
+y en la medida que tengan esos vistos buenos
+
+01:27:13.620 --> 01:27:15.620
+de los profesores lo único que hacen
+
+01:27:15.620 --> 01:27:17.620
+es que después me los puedan reenviar
+
+01:27:17.620 --> 01:27:19.620
+¿por qué? porque como conversamos
+
+01:27:19.620 --> 01:27:21.620
+antes con francisco eso después igual tiene que pasar
+
+01:27:21.620 --> 01:27:23.620
+por como por la
+
+01:27:23.620 --> 01:27:25.620
+validación de la universidad la universidad antal
+
+01:27:25.620 --> 01:27:27.620
+le va a volver a preguntar al profesor
+
+01:27:27.620 --> 01:27:29.620
+profesor es verdad que ustedes dio el visto bueno
+
+01:27:31.620 --> 01:27:33.620
+y con eso queda cerrado el compromiso
+
+01:27:33.620 --> 01:27:35.620
+de cada la universidad
+
+01:27:35.620 --> 01:27:39.350
+perfecto y la última pregunta
+
+01:27:39.350 --> 01:27:41.350
+sería
+
+01:27:41.350 --> 01:27:43.350
+hay algún recurso
+
+01:27:43.350 --> 01:27:45.350
+que podamos utilizar para consultar
+
+01:27:45.350 --> 01:27:47.350
+el tema
+
+01:27:47.350 --> 01:27:49.350
+que estamos cogiendo etcétera por ejemplo
+
+01:27:49.350 --> 01:27:51.350
+si tenemos dudas respecto a los datos
+
+01:27:51.350 --> 01:27:53.350
+etcétera
+
+01:27:53.350 --> 01:27:55.350
+que a los que vamos a poder tener acceso
+
+01:27:55.350 --> 01:27:57.350
+porque claro
+
+01:27:57.350 --> 01:27:59.350
+un eje de final con el P1
+
+01:27:59.350 --> 01:28:01.350
+en teoría esa sería ya
+
+01:28:01.350 --> 01:28:03.350
+el tema
+
+01:28:03.350 --> 01:28:05.350
+para todo el proyecto así hay
+
+01:28:05.350 --> 01:28:07.350
+un recurso
+
+01:28:07.350 --> 01:28:09.350
+de e-mail o algo a
+
+01:28:09.350 --> 01:28:11.350
+a ti profesor o otra persona que podamos consultar
+
+01:28:11.350 --> 01:28:13.350
+mi correo está abierto desde hoy día
+
+01:28:13.350 --> 01:28:15.350
+porque
+
+01:28:15.350 --> 01:28:17.350
+mi compromiso con ustedes está desde hoy día
+
+01:28:17.350 --> 01:28:19.350
+desde hoy día es nada adelante
+
+01:28:19.350 --> 01:28:21.350
+y por lo tanto me voy a mandar un correo
+
+01:28:21.350 --> 01:28:23.350
+como alguno de sus compañeros
+
+01:28:23.350 --> 01:28:25.350
+un profesor tenemos dos ideas
+
+01:28:25.350 --> 01:28:27.350
+no puedo dar feedback respecto a tu idea
+
+01:28:27.350 --> 01:28:29.350
+hoy día profesor
+
+01:28:29.350 --> 01:28:31.350
+no se tenemos este tema se le ocurre
+
+01:28:31.350 --> 01:28:33.350
+que datos podríamos pedir
+
+01:28:33.350 --> 01:28:35.350
+para ese tema también yo obviamente
+
+01:28:35.350 --> 01:28:37.350
+desde mi experiencia le puedo
+
+01:28:37.350 --> 01:28:39.350
+dar ese feedback no hay ningún problema
+
+01:28:39.350 --> 01:28:41.350
+con eso
+
+01:28:41.350 --> 01:28:43.350
+muchas gracias
+
+01:28:43.350 --> 01:28:46.630
+bien
+
+01:28:46.630 --> 01:28:48.630
+más preguntas
+
+01:28:48.630 --> 01:28:54.220
+bien
+
+01:28:54.220 --> 01:28:56.220
+empiezan a trabajar lo antes posible
+
+01:28:56.220 --> 01:28:58.220
+yo creo que es mi recomendación final
+
+01:28:58.220 --> 01:29:00.220
+y estén atentos particularmente
+
+01:29:00.220 --> 01:29:02.220
+a todos los grupos que no tengan
+
+01:29:02.220 --> 01:29:04.220
+proyecto
+
+01:29:04.220 --> 01:29:06.220
+hicimos este llamado
+
+01:29:06.220 --> 01:29:08.220
+el link en algunos que ya lo vieron
+
+01:29:08.220 --> 01:29:10.220
+han llegado a otras empresas
+
+01:29:10.220 --> 01:29:12.220
+yo tengo algunas reuniones
+
+01:29:12.220 --> 01:29:14.220
+para esta semana y la próxima
+
+01:29:14.220 --> 01:29:16.220
+y lo más probable es que
+
+01:29:16.220 --> 01:29:18.220
+vayan cayendo varios de esos temas
+
+01:29:18.220 --> 01:29:20.220
+todos esos temas para caer vía web cursos
+
+01:29:20.220 --> 01:29:22.220
+un web curso y yo voy a publicar
+
+01:29:22.220 --> 01:29:24.220
+un anuncio similar al que publique
+
+01:29:24.220 --> 01:29:26.220
+mira este es la empresa un breve resumen del proyecto
+
+01:29:26.220 --> 01:29:28.220
+y después un correo de contacto
+
+01:29:28.220 --> 01:29:30.220
+y ahí ustedes pasan directo no es que tengan
+
+01:29:30.220 --> 01:29:32.220
+que mandar un correo a mi para que yo les mando
+
+01:29:32.220 --> 01:29:34.220
+un correo a la empresa porque son verdadero
+
+01:29:34.220 --> 01:29:36.220
+lo que hace es que ralentiza el proceso
+
+01:29:36.220 --> 01:29:38.220
+ustedes van directamente a la persona
+
+01:29:38.220 --> 01:29:40.220
+obviamente yo ya tengo pre
+
+01:29:40.220 --> 01:29:42.220
+acordado con esa empresa
+
+01:29:42.220 --> 01:29:44.220
+que el proyecto va a quedar
+
+01:29:44.220 --> 01:29:46.220
+disponible
+
+01:29:46.220 --> 01:29:48.220
+y
+
+01:29:48.220 --> 01:29:50.220
+y por lo tanto pasan directo
+
+01:29:50.220 --> 01:29:52.220
+y ustedes dicen oiga mira saben que
+
+01:29:52.220 --> 01:29:54.220
+el profesor eddy que nos
+
+01:29:54.220 --> 01:29:56.220
+vio su contacto y estamos interesados
+
+01:29:56.220 --> 01:29:58.220
+en desarrollar nuestro tema
+
+01:29:58.220 --> 01:30:00.220
+con su empresa y ustedes pasan directo
+
+01:30:00.220 --> 01:30:02.220
+y ahí seguramente dicen oi si en verdad
+
+01:30:02.220 --> 01:30:04.220
+y ahí me agendarán reuniones
+
+01:30:04.220 --> 01:30:06.220
+tengan en consideración que ustedes
+
+01:30:06.220 --> 01:30:08.220
+no son los únicos luchando por decirlo así
+
+01:30:08.220 --> 01:30:10.220
+por ese tema
+
+01:30:10.220 --> 01:30:12.220
+también tenemos una generación de capstone
+
+01:30:12.220 --> 01:30:14.220
+del majite en data science
+
+01:30:14.220 --> 01:30:16.220
+que en algunos casos se cruzan
+
+01:30:16.220 --> 01:30:18.220
+en algunos casos quizás los temas son un poco más
+
+01:30:18.220 --> 01:30:20.220
+separados por el general
+
+01:30:20.220 --> 01:30:22.220
+hay más
+
+01:30:22.220 --> 01:30:24.220
+alumnos y alucinas peleando por eso
+
+01:30:24.220 --> 01:30:26.220
+los mismos que ustedes tienen publicado en su
+
+01:30:26.220 --> 01:30:28.220
+sección de aviso lo tienen otra generación
+
+01:30:28.220 --> 01:30:30.220
+del capstone de data science
+
+01:30:30.220 --> 01:30:32.220
+también
+
+01:30:34.220 --> 01:30:36.220
+más dudas
+
+01:30:38.220 --> 01:30:43.030
+bien
+
+01:30:43.030 --> 01:30:45.030
+eso sería todo entonces muchísimas gracias
+
+01:30:45.030 --> 01:30:47.030
+por su tiempo
+
+01:30:49.030 --> 01:30:51.030
+mi compromiso con ustedes inicia
+
+01:30:51.030 --> 01:30:53.030
+desde hoy día entonces cualquier duda
+
+01:30:53.030 --> 01:30:55.030
+cualquier cosa la que necesiten ayuda
+
+01:30:55.030 --> 01:30:57.030
+incluyendo el no
+
+01:30:57.030 --> 01:30:59.030
+tener equipo incluyendo
+
+01:30:59.030 --> 01:31:01.030
+el validaciones
+
+01:31:01.030 --> 01:31:03.030
+o como cierto feedback sobre el
+
+01:31:03.030 --> 01:31:05.030
+sobre el proyecto
+
+01:31:05.030 --> 01:31:07.030
+yo feliz de poder ayudarlo
+
+01:31:07.030 --> 01:31:09.030
+obviamente lo único que no voy a hacer
+
+01:31:09.030 --> 01:31:11.030
+es que no les voy a revisar su presentación 1
+
+01:31:11.030 --> 01:31:13.030
+porque es en mi rol como de
+
+01:31:13.030 --> 01:31:15.030
+la instancia de evaluación
+
+01:31:15.030 --> 01:31:17.030
+entonces no me manden la presentación 1
+
+01:31:17.030 --> 01:31:19.030
+que cosa usted agregaría o no
+
+01:31:19.030 --> 01:31:21.030
+yo como muy
+
+01:31:21.030 --> 01:31:23.030
+políticamente lo voy a decir que en verdad
+
+01:31:23.030 --> 01:31:25.030
+eso es parte de la instancia
+
+01:31:25.030 --> 01:31:27.030
+obviamente parte de la evaluación
+
+01:31:27.030 --> 01:31:29.030
+y así como mi compromiso inicia con ustedes
+
+01:31:29.030 --> 01:31:31.030
+que termina también en la presentación 3
+
+01:31:31.030 --> 01:31:33.030
+y por lo tanto
+
+01:31:33.030 --> 01:31:35.030
+nos revisó sus presentaciones
+
+01:31:35.030 --> 01:31:37.030
+de cada el capstone o sea de cada la defensa
+
+01:31:37.030 --> 01:31:39.030
+etcétera
+
+01:31:39.030 --> 01:31:41.030
+mi compromiso es hasta la presentación 3
+
+01:31:41.030 --> 01:31:43.030
+bien, eso
+
+01:31:43.030 --> 01:31:45.030
+muchísimas gracias el de aficionado lo mejor en su proyecto de capstone
+
+01:31:45.030 --> 01:31:47.030
+quedamos conectados via correo
+
+01:31:47.030 --> 01:31:49.030
+y nos volvemos a ver
+
+01:31:49.030 --> 01:31:51.030
+en abril que estés muy muy bien
+
+01:31:51.030 --> 01:31:53.030
+un abrazo grande
+

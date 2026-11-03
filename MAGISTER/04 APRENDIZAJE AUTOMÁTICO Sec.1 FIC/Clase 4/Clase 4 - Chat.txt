@@ -1,0 +1,4 @@
+03:05:15	Fernando Pinto:	plt.style.use('default')
+03:05:45	Fernando Pinto:	plt.style.use('seaborn-v0_8-darkgrid')
+03:33:30	Alma de SpeakerCoach:	Attention: Recording will stop in 2 minutes. You can re-invite to continue recording.
+04:35:40	INES CANALES VERDUGO:	gracias profe

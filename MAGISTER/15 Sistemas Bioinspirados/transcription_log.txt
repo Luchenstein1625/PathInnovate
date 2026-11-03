@@ -1,0 +1,1 @@
+2026-08-31T16:24:22.508722 | GMT20260824-205722_Recording_1600x800.mp4 | duracion=03:37:33 | tiempo=00:10:47 | velocidad=19.84x | segmentos=2579

@@ -1,0 +1,69 @@
+00:17:57	pmilanesia:	Hola
+00:18:34	pmilanesia:	no se escucha nada
+00:29:15	RODRIGO FABIÁN GONZALEZ SEPULVEDA:	Reacted to "Clase 1a Intro a las Cs Cog v 2025.pptx" with 👍
+00:29:23	Giuliano Rivera Bravo:	Reacted to "Clase 1a Intro a las Cs Cog v 2025.pptx" with 👍
+00:29:41	Luis Araya Bci:	Se ha reaccionado a "Clase 1a Intro a l..." con 👍
+00:35:24	Benjamin Cataldo:	Se escucha duplicado
+00:35:38	operador zoom:	Replying to "Se escucha duplicado"
+
+voy
+00:35:41	Miguel Ortega:	Si pueden apagar el mic para que no rebote el sonido (retorno)
+00:38:57	operador zoom:	como se escucha ahora?
+00:39:04	Benjamin Cataldo:	Bien
+00:39:16	operador zoom:	gracias
+00:42:49	Emanuel Lagomarsino:	Se me olvidó bajarla antes 😆
+00:43:07	Emanuel Lagomarsino:	No es como que verá el chat el profe, pero igual
+01:18:51	Alma de SpeakerCoach:	Talk to Fireflies:
+• Say: Hey Fireflies how can you help?
+• Type: /ff help
+to get started.
+01:30:20	FELIPE IZQUIERDO CHADWICK:	Da la impresión que la IA actualmente funciona bien para cualquier pregunta/problema que tiene reglas/restricciones definidas y parametrizables. ¿Qué pasa para los problemas en donde no hay reglas claras, por ejemplo, problemas del tipo psicológicos o de comportamiento humano?
+01:31:43	Miguel Ortega:	→ Planificación: ChatGPT
+→ Redacción: Claude
+→ Búsqueda: Perplexity
+→ Investigación: Gemini
+→ Imágenes: Midjourney
+→ Vídeo: Runway
+→ Habla a texto: Superwhisper
+→ Música: Suno / Riffusion
+→ Voces: ElevenLabs
+→ Avatar: HeyGen
+→ Notas de reuniones: tl;dv
+→ Notas de ventas: diio
+→ Ofimática con IA: Microsoft 365 / Google Workspace
+→ Presentaciones: Gamma
+→ Análisis de documentos: NotebookLM
+→ Automatización: Make / n8n
+→ Diseño: Canva
+→ Transcripciones: Vibe
+→ Edición de video: Premiere
+→ Shorts: OpusClip
+→ Subtítulos: Descript
+→ Código: VSCode + CodeGPT / Cursor
+→ Captura info clave: MyMind
+→ Leer después: Reader by Readwise
+→ Gestión de proyectos: Notion
+→ Navegador: Arc / Zen
+→ Contraseñas: Bitwarden
+→ Bookmarks: Raindrop
+→ Videollamadas: Zoom
+→ Blog: WordPress
+→ E-commerce: Shopify
+→ Pagos: MercadoPago (ojalá pronto Stripe)
+→ Suscripciones y pagos internacionales: Global66
+→ Newsletter: Beehiv / Substack
+→ Email marketing: Mailerlite
+→ Generación de audiencia: LinkedIn, YouTube, X
+01:31:56	Miguel Ortega:	Seguir a Rodrigo Rojo
+01:31:57	Miguel Ortega:	https://www.linkedin.com/in/rodrigorojo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALteecBO4UrgO4icxKmfwP4HK03ODVqJy0&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B8b4syQHuQRiNr%2B3hG98WOg%3D%3D
+01:32:12	Richard Howell:	Reacted to "→ Planificación: Cha..." with 👏
+01:32:21	RODRIGO FABIÁN GONZALEZ SEPULVEDA:	hola!, para quien habló recién, que ia utiliza con Python?
+01:32:35	pmilanesia:	Reacted to "→ Planificación: Cha..." with ❤️
+01:32:48	RODRIGO FABIÁN GONZALEZ SEPULVEDA:	Reacted to "→ Planificación: Cha..." with 👏
+01:35:12	Miguel Ortega:	MCP: https://docs.anthropic.com/es/docs/agents-and-tools/mcp
+01:46:55	Luis Araya Bci:	Se ha reaccionado a "→ Planificación:..." con 👏
+01:48:44	pmilanesia:	Profesor dejo de compartir la pantalla : (
+01:49:08	Richard Howell:	Si se ve la pantalla
+01:49:10	FELIPE IZQUIERDO CHADWICK:	Se ve bien
+03:54:11	Miguel Ortega:	Qué es IA Simbólica: https://www.datacamp.com/es/blog/what-is-symbolic-ai
+03:54:20	DANIEL FELIPE VILLAR SANCHEZ:	Reacted to "Qué es IA Simbólica:..." with ❤️

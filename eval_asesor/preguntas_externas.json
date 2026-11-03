@@ -1,0 +1,161 @@
+[
+  {
+    "id": "e1",
+    "q": "Tengo un puesto en una feria con 3 productos de precio fijo y los clientes solo preguntan cuánto cuestan. ¿Necesito inteligencia artificial?",
+    "gold": "NO_IA"
+  },
+  {
+    "id": "e2",
+    "q": "Quiero automatizar el cierre de caja diario de mi kiosco, que siempre es la suma de las ventas del día. ¿Qué me recomiendan?",
+    "gold": "NO_IA"
+  },
+  {
+    "id": "e3",
+    "q": "Mi peluquería agenda unas 8 citas al día por teléfono. ¿Vale la pena un asistente con IA?",
+    "gold": "NO_IA"
+  },
+  {
+    "id": "e4",
+    "q": "Tengo un taller con 5 clientes frecuentes y les aviso a mano cuando su pedido está listo. ¿Debería contratar un chatbot con IA?",
+    "gold": "NO_IA"
+  },
+  {
+    "id": "e5",
+    "q": "Mi librería recibe cientos de mensajes al mes con las mismas 20 preguntas sobre horarios, envíos, devoluciones y medios de pago. ¿Qué solución me conviene?",
+    "gold": "REGLAS"
+  },
+  {
+    "id": "e6",
+    "q": "Un colegio quiere un bot que responda sobre matrículas y fechas importantes; siempre son las mismas 25 preguntas oficiales.",
+    "gold": "REGLAS"
+  },
+  {
+    "id": "e7",
+    "q": "Una clínica dental quiere que sus pacientes confirmen o reagenden citas por WhatsApp con un menú fijo de opciones.",
+    "gold": "REGLAS"
+  },
+  {
+    "id": "e8",
+    "q": "Mi gimnasio quiere que un bot informe sobre planes y precios, que cambian una vez al año; son 12 preguntas frecuentes.",
+    "gold": "REGLAS"
+  },
+  {
+    "id": "e9",
+    "q": "Quiero derivar los correos de mi empresa a bodega o a ventas según palabras clave fijas; son solo dos destinos posibles.",
+    "gold": "REGLAS"
+  },
+  {
+    "id": "e10",
+    "q": "Mi tienda online tiene 3 años de compras de 40.000 clientes en una planilla y quiero predecir quiénes dejarán de comprar el próximo mes.",
+    "gold": "ML_TABULAR"
+  },
+  {
+    "id": "e11",
+    "q": "Una distribuidora tiene 5 años de ventas diarias por producto y quiere pronosticar la demanda semanal para comprar mejor.",
+    "gold": "ML_TABULAR"
+  },
+  {
+    "id": "e12",
+    "q": "Una financiera pequeña quiere estimar la probabilidad de mora usando 60.000 créditos pasados con ingreso, deuda y antigüedad del cliente.",
+    "gold": "ML_TABULAR"
+  },
+  {
+    "id": "e13",
+    "q": "Una constructora tiene 10.000 registros de entregas con clima, proveedor y tamaño de obra, y quiere anticipar cuáles se atrasarán.",
+    "gold": "ML_TABULAR"
+  },
+  {
+    "id": "e14",
+    "q": "Mi empresa tiene un manual interno de 300 páginas y quiero que mis empleados le hagan preguntas abiertas y reciban respuestas con la fuente.",
+    "gold": "API_RAG"
+  },
+  {
+    "id": "e15",
+    "q": "Una ONG tiene 80 documentos con requisitos de subsidios y las consultas son muy variadas; quiere responder citando los documentos.",
+    "gold": "API_RAG"
+  },
+  {
+    "id": "e16",
+    "q": "Una inmobiliaria quiere que un asistente responda preguntas abiertas sobre sus contratos de arriendo tipo, unas 40 páginas en total.",
+    "gold": "API_RAG"
+  },
+  {
+    "id": "e17",
+    "q": "Un equipo de soporte de software tiene una base de 500 artículos y quiere un asistente que responda a los clientes con enlaces a esos artículos.",
+    "gold": "API_RAG"
+  },
+  {
+    "id": "e18",
+    "q": "Una empresa de telecomunicaciones atiende 5 millones de consultas al mes, tiene equipo de machine learning y no quiere pagar por token ni enviar datos de clientes a terceros.",
+    "gold": "SLM_PROPIO"
+  },
+  {
+    "id": "e19",
+    "q": "Un call center con 3 millones de interacciones al mes y GPU propias quiere bajar el costo por consulta que hoy paga a una API.",
+    "gold": "SLM_PROPIO"
+  },
+  {
+    "id": "e20",
+    "q": "Una minera necesita un asistente para sus faenas, donde no hay internet confiable, con documentos internos y un equipo técnico propio.",
+    "gold": "SLM_PROPIO"
+  },
+  {
+    "id": "e21",
+    "q": "Quiero un sistema que lea los correos de proveedores, consulte el inventario, genere órdenes de compra y las envíe solo, dentro de un presupuesto aprobado.",
+    "gold": "AGENTE"
+  },
+  {
+    "id": "e22",
+    "q": "Una empresa de logística quiere que un sistema re-planifique rutas, reasigne conductores y avise a los clientes automáticamente cuando hay un retraso.",
+    "gold": "AGENTE"
+  },
+  {
+    "id": "e23",
+    "q": "Quiero un asistente que responda sobre mi catálogo y además recomiende el próximo producto según 2 años de historial de compras de mis clientes en una planilla.",
+    "gold": "COMPONENTES: API_RAG + ML_TABULAR",
+    "nota": "cerca de R-NUEVA-4 (RAG + tabular)"
+  },
+  {
+    "id": "e24",
+    "q": "Una aseguradora quiere un asistente que explique las coberturas usando las pólizas y que nunca prometa algo que la póliza no cubre.",
+    "gold": "COMPONENTES: API_RAG + REGLAS + VERIFICADOR",
+    "nota": "cerca de R-NUEVA-3 (controles)"
+  },
+  {
+    "id": "e25",
+    "q": "Un laboratorio clínico quiere un asistente sobre resultados de exámenes; por normativa los datos no pueden salir de sus servidores y una persona debe revisar los casos sensibles.",
+    "gold": "COMPONENTES: SLM_PROPIO + REGLAS + VERIFICADOR + HUMANO",
+    "nota": "cerca de R-NUEVA-2 (datos sensibles)"
+  },
+  {
+    "id": "e26",
+    "q": "Una tienda online quiere que su asistente responda consultas y además cambie direcciones de despacho, con aprobación de una persona antes de cada cambio.",
+    "gold": "COMPONENTES: API_RAG + REGLAS + VERIFICADOR + HUMANO",
+    "nota": "cerca de R-NUEVA-3 (acciones)"
+  },
+  {
+    "id": "e27",
+    "q": "Una pyme de seguros dentales quiere un bot que responda 15 preguntas fijas y, si la consulta no está en la lista, la pase a una persona.",
+    "gold": "COMPONENTES: REGLAS + HUMANO"
+  },
+  {
+    "id": "e28",
+    "q": "¿Cuál es la mejor marca de notebook para mi equipo de diseño?",
+    "gold": "NO_HAY_INFORMACION"
+  },
+  {
+    "id": "e29",
+    "q": "¿Cómo declaro el IVA de mi emprendimiento en el SII?",
+    "gold": "NO_HAY_INFORMACION"
+  },
+  {
+    "id": "e30",
+    "q": "¿Qué lenguaje de programación me conviene aprender primero?",
+    "gold": "NO_HAY_INFORMACION"
+  },
+  {
+    "id": "e31",
+    "q": "¿Cuánto cuesta contratar un community manager en Santiago?",
+    "gold": "NO_HAY_INFORMACION"
+  }
+]

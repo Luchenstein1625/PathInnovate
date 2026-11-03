@@ -1,0 +1,5 @@
+00:13:26	Jorge Martínez Lubiano:	yo no profe
+00:14:51	Juan Pablo Amín:	Excelente profesor, muchas gracias por subir todo el material del curso de 32 horas.
+00:18:16	Jorge Martínez Lubiano:	Reacted to "Excelente profesor, ..." with 💪🏻
+00:31:11	Miguel Carrasco:	https://colab.research.google.com/
+02:22:00	INES CANALES VERDUGO:	a=2b=3c=4d=12f=5resp=a*b+c-d**fprint('el resultado de',a,'*',b,'+',c,'-',d,'**',f,'es',resp)

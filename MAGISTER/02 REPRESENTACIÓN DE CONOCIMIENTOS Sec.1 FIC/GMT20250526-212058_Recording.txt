@@ -1,0 +1,12434 @@
+Ok, a partir de ahora estamos grabando entonces.
+Bueno, bienvenidos al curso de representación de conocimientos.
+Vamos a comenzar el curso de hoy dándole la bienvenida a todos.
+Es un grupo bastante ecléctico.
+Esta presentación sirve un propósito bien concreto,
+que generalmente en el día y en el mía hay una audiencia bien ecléctica.
+Tenemos médicos, abogados, periodistas, ingenieros de distintas especialidades, etc.
+Y entonces hay que encontrar como un denominador entre la parte técnica o demasiado técnica,
+que para algunos es demasiado técnica y para otros quizás no,
+con otros perfiles, digamos, que son con objetivos menos técnicos, digamos.
+Entonces ahí encontrar el curso medio es siempre un desafío.
+Y a mí me ayuda a saber más bien cómo es la composición del curso en ese sentido.
+Así que gracias por el tiempo que dedicaron a la presentación.
+Les estoy compartiendo el sílabus.
+No sé si lo están viendo.
+Sí, se visualiza.
+Ok, perfecto.
+Sí, Bruce.
+Entonces vamos a explicar un poco qué vamos a hacer en este curso, ¿ok?
+Como introducción a este curso cubre conceptos básicos de representación de conocimientos.
+Y esta área de representación de conocimientos es la parte más central de cualquier sistema de inteligencia artificial.
+Y en este curso vamos a explicar por qué eso es así.
+Entonces es un curso que está al comienzo, que es bien de base a todo sistema de inteligencia artificial.
+¿Ok?
+Les permitirá este curso también entender cómo la representación de conocimientos se consolidó de los años 50.
+No sé si tuvieron un curso introductorio, me parece, antes de este.
+La inteligencia artificial surge como una subrama de las ciencias de computación en los años 50.
+Y vivió un primer boom.
+Fue un desarrollo paulatino, ¿no?
+Entre los 50, 60, 70.
+Pero empezó a haber un boom en su desarrollo en los años 80.
+Llevó a un peak inicial en los años 90.
+Lo mismo que estamos viviendo hoy, y probablemente es una de las razones por las cuales muchos de ustedes se interesan en este tema y quieren aprender más.
+Esto es un déjà vu para mí.
+O sea, yo ya lo viví, pero lo viví a finales de los 80 y comienzos de los 90.
+¿Ok?
+Y no sé si estaban conscientes de eso, pero lo que vivimos hoy, toda la efervescencia, la expectativa que hay respecto a la inteligencia artificial, ya lo vivimos.
+Lo vivimos a finales de los 80 y 90 y tuvo un final no muy feliz.
+Después vino un periodo que se llama La Larga Noche de la Inteligencia Artificial, que demoró más de 10 años, casi 15 años inclusive.
+Vamos a entrar un poquito más en detalle cuando veamos el recuento histórico de lo que ha sido la representación de conocimientos.
+Y vivió un segundo renacimiento, propiamente tal, a partir del año 2005 o 2010 aproximadamente.
+Y vamos a explicar también a qué se vivió ese renacimiento.
+Y vamos a explicar si ahora realmente es distinto.
+¿Ok?
+Porque durante la primera ola, digamos, de la inteligencia artificial en los años 80 y 90, digamos, hubo mucha inversión, hubo mucha expectativa, pero muchas de estas no se cumplieron.
+Y eso conllevó a una larga noche de la inteligencia artificial.
+Entonces estamos viviendo una segunda era, digamos, en ese sentido, que tiene características bien especiales que vamos a estudiar más adelante.
+¿Ok?
+Entonces, este curso es importante porque representación de conocimiento es el gran desafío de todo sistema de inteligencia artificial.
+Y lo que pueda hacer o no pueda hacer, en gran parte va a depender de eso.
+¿Ok?
+Los objetivos son conocer qué es representación de conocimientos en inteligencia artificial.
+Los diversos métodos de representación.
+Vamos a ver que no hay uno, hay muchos.
+¿Ok?
+Entender por qué la representación de conocimientos es la piedra angular de todo sistema de inteligencia artificial, que es lo que les acabo de explicar.
+Y también entender las limitaciones de los modelos de representación y los lenguajes de representación y los formalismos de representación de conocimientos.
+Conocer cuáles siguen siendo hoy los obstáculos principales para hacer la realidad del sueño de la IEA.
+Así como entender algunos de los desafíos y oportunidades que se presentan hoy en día y de cara al futuro.
+¿Ok?
+La metodología va a ser, bueno, ustedes, la mayoría son profesionales.
+Muchos han tenido probablemente ya un primer acercamiento, sobre todo los informáticos, me imagino, entre ustedes han tenido un primer acercamiento.
+Probablemente tuvieran su curso de pregada o algún curso introductorio, pero no de representación de conocimientos propiamente tal.
+Por lo tanto, nuestra metodología va a ser clases teóricas para aquellos que muchas veces repasan algunos de los conocimientos que ya vieron, pero muchos no los han visto.
+Y tenemos que hacerlo, la clase de hoy va a ser fundamentalmente eso.
+Pero también práctica.
+Acabamos a ver algunos módulos prácticos de representación de conocimientos con algunos formalismos.
+El énfasis va a ser también la discusión en estilo de seminario durante la clase, así que me pueden interrumpir en cualquier minuto o hacer preguntas.
+La idea es que ustedes participen también en el desarrollo de la clase.
+Y mientras vamos introduciendo ciertos conceptos, vamos a ir haciendo quizzes en conjunto.
+Estos no tienen nota, pero vamos a hacer bastantes de estos quizzes muy pequeños, muy cortos, para ir chequeando si vamos aprendiendo los conceptos o no.
+La evaluación va a ser al final del curso, después de la tercera sesión, vamos a fijar una fecha, generalmente, no sé si en el caso de ustedes también es así,
+pero generalmente ha habido una delegada o un delegado al curso con el cual se coordina esto, y con el coordinador en este caso, que es Patricio,
+para ver cuándo podemos hacer un test escrito, de modo que ese va a ser el modo de evaluación de este curso.
+Consistiría en un test escrito al final del curso, es decir, después de la tercera sesión, a acordar con ustedes en términos de la fecha y del horario.
+Canvas, como les indiqué, en el IMED que les envío el fin de semana, les subí cuatro lecturas previas.
+No era necesario que las leyeran para la clase de hoy, pero sería interesante que las pudieran leer en el transcurso de la semana que viene.
+La primera y la segunda que aparecen aquí, que son estos dos artículos, son muy recientes, son de mi autoría junto con un coautor alemán,
+y cubren la perspectiva más macro de lo que es inteligencia artificial y sobre todo la conexión,
+y esto es muy importante, la conexión que tiene el renacimiento de la inteligencia artificial como disciplina, por un lado,
+y el surgimiento de las plataformas digitales.
+¿Ok? Hay una directa conexión y mucho de ese renacimiento de la inteligencia artificial se debe justamente al auge y el desarrollo a nivel global
+que han tenido las plataformas digitales.
+¿Alguien puede, alguien de aquí de ustedes, puede establecer esa conexión?
+O sea, ¿cuál es la conexión entre el surgimiento de las plataformas digitales por un lado y el auge que ha tenido la inteligencia artificial por el otro?
+¿El aumento de la capacidad de cómputo?
+Samuel dice el aumento de la capacidad de cómputo. ¿Ok? ¿Alguna otra idea?
+¿La cantidad de datos?
+¿Perdón?
+¿La cantidad de datos disponible para entrenar?
+¿Ok? ¿Quién dijo eso?
+Yo, Benjamín.
+Benjamín, muy bien. O sea, el nexo es justamente eso, y lo vamos a ver en más detalle,
+que vamos a ver que hay dos grandes paradigmas de representación de conocimientos.
+Uno que dominó por casi 50 años, o más incluso,
+que es el paradigma simbólico, que no lo voy a introducir en este minuto,
+pero lo vamos a introducir más adelante.
+Y luego, un nuevo paradigma,
+que es llamado el subsimbólico,
+que es reciente.
+Nace en realidad a fines de los 80, comienzos de los 90,
+pero realmente empezó a desarrollarse más aceleradamente,
+a partir del cambio del milenio,
+y fundamentalmente, con la aparición de las,
+o con la consolidación más bien de las plataformas digitales,
+después de la segunda década del actual milenio.
+¿Ok?
+Y la razón para ello, la conexión, es lo que dice Benjamín.
+Exactamente.
+O sea, vamos a ver que ese segundo paradigma
+está basado en datos.
+Parece que alguien está hablando ahí y no se muteó.
+Ok, entonces lo que decía era que,
+como muy bien dice Benjamín,
+la conexión está en los datos.
+O sea, las plataformas digitales han llevado al concepto de Big Data.
+Y esta Big Data es el combustible que nos ayuda a...
+a poder generar un nuevo paradigma subsimbólico
+de la inteligencia artificial,
+que es el que ustedes muy bien han...
+que Benjamín ha determinado acá,
+que está basado en datos propiamente.
+Entonces vamos a ver esos dos enfoques
+con mucho detalle.
+Estos dos artículos se los recomiendo.
+No son tan técnicos,
+son de fácil lectura
+y nos dicen cuál es la revolución
+de las plataformas digitales
+y cuál es el impacto que tiene
+en la inteligencia artificial.
+Esto es un bucle.
+O sea, una cosa retomenta a la otra.
+¿Ok?
+Y se introduce un nuevo modelo económico también
+que está basado en plataformas digitales.
+Así que esos dos se los recomiendo.
+son bastante recientes
+y ven la visión más macro
+de a dónde va la inteligencia artificial.
+No son artículos de representación de conocimientos
+propiamente,
+sino que son más de
+a dónde va la inteligencia artificial
+de cara al futuro.
+Este tercer artículo
+que les subí también a Canvas,
+que les recomiendo que lo leen,
+es bastante más técnico.
+Esto sí, 100% tiene que ver
+con representación de conocimientos
+y plantea,
+es bastante rupturista
+ese artículo,
+se publicó en el año 2016
+y plantea un tercer paradigma
+de inteligencia artificial,
+que no es el basado,
+no es el simbólico
+que yo les decía,
+tampoco el subsimbólico,
+que lo vamos a explicar más adelante,
+sino que es un paradigma híbrido.
+Es bastante reciente
+y que combina
+las ventajas de cada uno
+de estos dos
+aproximaciones,
+digamos,
+al tema de la inteligencia artificial,
+de inteligencia artificial,
+el simbólico y el subsimbólico,
+y también
+subsana algunos
+de sus efectos
+propiamente tal.
+Así que ese es bastante
+más técnico,
+probablemente
+para los que son
+ingenieros informáticos
+o de otras
+especialidades
+más accesibles,
+¿ok?
+Y hay una cuarta lectura
+que les subí,
+que no es
+no es un artículo mío,
+sino que es un artículo
+publicado en Nature,
+que es muy interesante
+porque nos dice,
+nos explica
+las limitaciones
+de los,
+de algo que ustedes
+hoy en día
+todo el mundo
+está usando,
+estos large language models,
+al estilo
+de
+ChatGPT
+en sus diversas versiones,
+y plantea
+cuáles son
+realmente
+los problemas
+que plantea
+ese nuevo paradigma
+y cómo
+se pueden subsanar.
+Así que
+esas cuatro lecturas
+las subí
+para que ustedes
+puedan
+ir
+profundizando más
+este tema
+a la par de
+cómo vamos avanzando
+con el curso.
+Hay un pequeño
+currículum mío
+aquí,
+muy breve,
+no me voy a detener
+en eso,
+al comienzo de la clase
+de hoy vi una
+breve reseña,
+y aquí está
+el sílabo
+de las tres sesiones,
+¿ok?
+Y la primera sesión
+es la sesión
+de hoy,
+conceptos de representación
+de conocimiento
+y razonamiento,
+que es bastante
+más teórica
+para sentar
+las bases teóricas
+de los conceptos
+que vamos a ver
+más adelante
+en el curso.
+Luego,
+en la sesión dos,
+vamos a entrar más
+en terreno
+con la representación
+de conocimientos
+propiamente tal,
+y vamos a ver
+lenguajes de representación
+de conocimientos,
+vamos a hacer un barrido
+por todo lo que ha sido
+el desarrollo
+de distintos
+formalismos
+de representación
+de conocimientos,
+a lo largo
+de lo que ha sido
+el desarrollo
+de la inteligencia
+artificial,
+¿ok?
+Y en la sesión tres,
+vamos a
+entrar con un paradigma
+que es probablemente
+el más ambicioso
+en términos
+de representación
+de conocimientos,
+lo vamos a explicar,
+lo vamos a enseñar,
+y vamos a ver
+algunos ejemplos
+también
+de representación
+de conocimientos
+con ese paradigma.
+Esta sesión dos
+va a ser también
+práctica y teórica,
+más práctica quizás,
+la sesión dos
+va a ser práctica
+y teórica también,
+vamos a dedicarle
+por lo menos
+una hora
+un ejercicio
+bastante más
+profundo
+de representación
+de conocimientos,
+y en la última clase,
+al final
+de la última clase
+vamos a ver
+dos modos
+que son
+casos de arquitectura
+de sistemas
+de inteligencia artificial,
+¿ok?
+y
+conclusiones,
+y esas conclusiones
+son,
+ahí hacemos
+el zoom out
+más bien,
+no el zoom in,
+sino que
+vamos de lo más micro
+a lo más macro
+y vamos a ver
+a dónde está yendo
+esto,
+cuáles son los desafíos
+y cuáles son
+los mitos
+y las realidades
+en el sentido
+de la inteligencia artificial
+y a dónde vamos,
+¿ok?
+¿Alguna pregunta
+respecto a nuestros sílabos?
+¿No?
+Por acá no.
+Ok,
+muy bien.
+Disculpe yo,
+disculpe profe yo.
+Claro.
+Dígame.
+¿Todos los textos
+están en subida?
+Los cuatro
+que les mandé,
+que les mencioné,
+sí.
+¿Ok?
+¿Esa era la pregunta?
+Sí.
+Muchas gracias.
+¿Alguna otra pregunta?
+¿No?
+Muy bien,
+vamos a ir al curso
+ahora propiamente tal.
+¿Están viendo ahora
+el curso?
+Sí,
+sí, profesor.
+Muy bien.
+Entonces,
+comencemos
+con la sesión uno
+del curso
+de representación
+de conocimientos,
+¿ok?
+Este es nuestro módulo uno,
+conceptos de representación
+de conocimientos.
+Ok.
+¿Qué vamos a ver acá?
+Vamos a ver
+que hay dos áreas,
+ustedes de hecho tienen,
+creo que tuvieron un curso,
+al menos solían tenerlo
+antes de este curso,
+el curso de ciencia cognitiva,
+¿no?
+¿Lo tuvieron ya o no?
+Sí,
+la arquitectura es cognitiva.
+Ok,
+muy bien.
+Ya lo tuvieron entonces,
+muy bien.
+Entonces,
+bueno,
+hay un nexo,
+a ver,
+esto de la inteligencia artificial
+tuvo dos desarrollos paralelos,
+uno que venía de la ingeniería,
+que es la inteligencia artificial
+como concepto,
+y que viene de una subespecialidad
+en el fondo
+de las ciencias de computación
+por un lado,
+y otro de la ciencia cognitiva
+que no viene de la ingeniería,
+viene de la psicología,
+¿ok?
+Y son dos esquemas que,
+si bien en teoría
+deberían complementarse,
+como que han tenido
+caminos paralelos
+donde uno no habla
+con el otro,
+¿ok?
+¿Por qué?
+Porque la ciencia cognitiva
+intenta entender
+cómo animales
+o humanos
+procesamos
+información,
+o sea,
+todo lo que es visión,
+todo lo que es lenguaje,
+todo lo que es robótica,
+que son áreas
+de la inteligencia artificial,
+¿cierto?
+Las intentan explicar
+desde el punto de vista
+de cómo los humanos
+hacemos eso.
+Entonces,
+por ejemplo,
+el tema del lenguaje,
+que es uno de los más complicados,
+los cientistas cognitivos
+intentaron explicarlo
+tratando de dilucidar
+cuáles son los algoritmos
+que los humanos
+aplicamos
+para procesar el conocimiento,
+y por esa vía
+después replicarlos
+en una máquina,
+¿ok?
+Ese es el enfoque
+más bien desde la psicología.
+En cambio,
+que la inteligencia artificial
+viene del enfoque ingenieril,
+o sea,
+poco se interesa
+en cómo los humanos
+hagan las cosas,
+sino que dice
+que con cálculo
+que yo lo pueda simular
+y que funcione,
+me basta.
+Y si los humanos
+lo hacen igual
+o distinto,
+no me interesa,
+¿ok?
+Entonces,
+esos son los dos caminos
+que se han enfrentado acá
+y hay investigadores
+que han dicho,
+bueno,
+pero en realidad
+si los humanos
+se han desarrollado
+como especie
+durante miles y miles de años
+y han logrado
+desarrollar ciertas capacidades
+cognitivas,
+digamos,
+en teoría
+por un tema
+de selección
+biológica,
+¿cierto?
+Se supone que
+esos algoritmos
+son los más elaborados
+para poder hacerlo,
+¿ok?
+Y por lo tanto
+si somos capaces
+de saber
+cómo lo hacen los humanos
+vamos a poder replicarlos
+de mejor manera
+en un computador.
+En tanto que
+los ingenieros,
+digamos,
+que han impulsado
+la inteligencia artificial
+han dicho,
+bueno,
+basta con simularlo
+sencillamente,
+no necesariamente
+el algoritmo
+tiene que ser
+exactamente el mismo,
+¿ok?
+Eso lo vamos a explicar
+en más detalle
+en este módulo.
+Vamos a entender
+lo que es una representación,
+vamos a ver temas
+muy muy complejos
+en inteligencia artificial
+que todavía están abiertos
+como qué es la realidad
+y qué es la conciencia
+representando la realidad
+y también el tema
+de agencia,
+¿ok?
+Eso es lo que nos va a ocupar
+en este módulo.
+Entonces vamos a algunos
+conceptos de representación
+de conocimientos.
+Inteligencia artificial
+y ciencia cognitiva.
+¿Ok?
+Entonces como les decía recién,
+la inteligencia artificial
+tiene su origen
+en la informática,
+en la ciencia de computación
+y en ingeniería,
+ingeniería informática.
+en los años 50,
+¿ok?
+Esta ciencia,
+por otro lado,
+la ciencia cognitiva
+tiene su origen
+en psicología cognitiva,
+¿ok?
+Y ambas disciplinas
+buscan solucionar problemas
+que son diferentes,
+pero que se complementan.
+La ciencia cognitiva
+estudia cómo
+animales o humanos
+procesan información
+y son capaces
+y son capaces
+de tener
+ciertas capacidades
+cognitivas
+que todos conocemos,
+sin importarse
+en implementarlas
+en un computador
+propiamente.
+¿Ok?
+En cambio,
+la inteligencia artificial
+es un poco
+todo al revés.
+Su foco principal
+es poder simular,
+implementar esto
+en una máquina,
+en este caso
+en un computador
+digital clásico,
+y por esa vía
+simular
+estas capacidades
+cognitivas,
+al punto tal
+de que
+el famoso
+experimento
+del test
+de Turing,
+que probablemente
+lo vieron
+con su profesor
+en ciencia cognitiva,
+con tal
+de que
+el algoritmo
+pasa el test
+de Turing,
+es satisfactorio
+desde el punto
+de vista
+de la inteligencia artificial,
+o era satisfactorio
+al comienzo,
+hoy vemos que
+no es tan así.
+¿Todos conocen
+lo que es el test
+de Turing?
+¿O alguien
+no lo conoce
+para poder
+explicarlo en detalle?
+La verdad,
+profesor,
+vimos
+un overview
+de lo que era
+el test
+de Turing.
+Ok,
+¿Alguien sabe
+quién fue
+Alan Turing?
+¿No?
+Un agente
+británico
+que fue capaz
+de codificar
+el código
+enigma,
+creo que se llamaba.
+Sí,
+bueno,
+más que agente,
+él era un
+matemático,
+quien la segunda
+guerra,
+Blantley Park,
+me parece que
+es el nombre
+del lugar,
+al sur de Londres,
+un lugar en donde
+se reunieron
+lingüistas,
+matemáticos,
+psicólogos,
+gente de distintas
+especialidades,
+a trabajar en conjunto
+con ese propósito
+de poder
+craquear
+el código
+enigma,
+¿no?
+Y Turing
+fue probablemente
+de todos ellos
+el más brillante
+en el sentido
+que desarrolló
+una máquina
+que no era
+un computador
+digital,
+pero que
+de alguna manera
+era un computador
+y creó
+teóricamente,
+o dio origen
+teóricamente
+al área
+a un área
+digamos
+de la informática
+o al computador
+pero desde un punto
+de vista teórico
+que es la máquina
+de Turing,
+¿ok?
+Y el test
+de Turing
+consiste en
+si a mí
+me separan
+de un agente
+que es una máquina
+en el fondo
+y solamente
+yo interactúo
+por la vía
+del lenguaje
+y me pongo
+a conversar
+en el fondo
+con él
+y si las preguntas
+que me das
+o las respuestas
+que me das
+yo digo
+estoy frente
+a un humano
+sin saber
+realmente
+si es un humano
+o no
+pero si digo
+exactamente
+me parece
+que es un humano
+está funcionando
+al menos
+también como
+como funcionaría
+un humano
+entonces
+ese algoritmo
+pasó alto
+ese Turing
+en el sentido
+de que
+todos
+o la gran mayoría
+concordarían
+que no estoy
+enfrente
+de una máquina
+si estoy
+conversando
+con una persona
+entonces
+desde ese punto
+de vista
+los cientistas
+de inteligencia artificial
+con que sus algoritmos
+mostrasen
+esa funcionalidad
+que las alcanzara
+a un nivel
+como que
+para que pasaran
+el test de Turing
+y se daban
+por satisfechos
+independientemente
+de si la máquina
+estaba entendiendo
+algo o no
+o si era
+una
+representación
+burda
+digamos
+de lo que
+realmente
+estaba pasando
+en el cerebro
+de una persona
+para el ingeniero
+de inteligencia artificial
+eso no
+era muy importante
+entonces
+eso es
+el test de Turing
+¿ok?
+en tanto que
+la ciencia cognitiva
+dice no
+realmente
+tenemos que entender
+cómo los humanos
+procesan esa información
+y eso nos va a dar
+luces después
+eventualmente
+a replicarlo
+en una máquina
+pero no es
+el objetivo
+principal
+de la ciencia cognitiva
+ahora
+ustedes ven
+que aquí
+hay una conexión
+o sea
+¿cuál sería
+el beneficio
+de conectar
+estas dos disciplinas?
+en otras palabras
+estas dos áreas
+que se desarrollaron
+en paralelo
+o en forma separada
+digamos
+¿vale la pena
+que se descunten?
+¿que se nutran
+la una con la otra?
+¿o no?
+yo creo que sí
+porque en la medida
+que yo entiendo
+cómo se procesa
+la información
+desde el punto de vista
+de los animales
+y los humanos
+también voy a poder
+simular de mejor manera
+cómo la inteligencia artificial
+va a estar
+trabajando
+y comportándose
+de cara a que parezca
+una interacción
+más natural
+claro
+muy bien
+tú tienes razón
+pero hay un punto
+que
+me voy a adelantar
+bastante
+a lo que vamos a ver
+porque esto lo vamos a ver
+más adelante
+pero es un buen momento
+para mencionarlo
+aquí hay un médico
+me parece ¿no?
+un solo médico
+creo que tenemos
+en el curso
+¿o no?
+un traumatólogo
+hay acá
+sí
+sí
+traumatólogo
+me repite su nombre
+por favor
+Anthony Saravia
+Anthony Saravia
+sí
+ok
+bueno
+la pregunta es la siguiente
+yo creo que lo decía
+lo que decía
+su compañero recién
+es válido
+o sea
+en la medida
+que nosotros
+entendamos
+cómo funciona
+un proceso
+cognitivo
+en el cerebro
+entonces
+si asumimos
+que ese proceso
+se ha desarrollado
+durante miles
+y miles
+de años
+podemos asumir
+de que quizás
+ha tenido
+un proceso
+de optimización
+en el tiempo
+y si lo logramos
+conocer
+entonces
+prácticamente
+si ustedes me dieron
+en ese algoritmo
+yo lo podría
+replicar
+en una máquina
+¿cierto?
+el punto es que
+la máquina
+no es un cerebro
+entonces
+ahí está
+el gran
+problema
+y hay indicios
+lo vamos a ver
+más adelante
+de que
+la computación
+clásica
+y cuando digo
+computación clásica
+es lo que existe
+hoy
+que partió
+en los años
+50
+porque Turing
+lo planteo
+teóricamente
+pero los primeros
+computadores
+se desarrollaron
+después de la
+Segunda Guerra Mundial
+y el desarrollo
+de Turing
+tuvo lugar
+durante la
+Segunda Guerra Mundial
+pero
+los computadores
+digital
+los primeros
+con la arquitectura
+famosa
+John von Neumann
+que fue la primera
+la que se usa
+hasta hoy día
+prácticamente
+surgen
+en los años
+50 y 60
+y
+y es lo que
+tenemos hoy
+cada vez con mayor
+capacidad de procesamiento
+obviamente
+pero
+conceptualmente
+es el mismo
+tipo de computación
+ok
+en cambio
+hay un área
+de la biología
+Anthony
+no sé si la conocía
+que se llama
+biología cuántica
+¿había escuchado
+la nota?
+no, no
+no la había escuchado
+ok
+es nueva
+no debe tener
+más de 15 años
+y la biología cuántica
+estudia
+ciertas
+propiedades
+de la mecánica
+cuántica
+que a nivel
+molecular
+o submolecular
+incluso
+dentro de la célula
+tiene lugar
+y que explicaría
+que explicaría
+cosas como
+el poder catalizador
+de las enzimas
+por ejemplo
+en un proceso
+de digestión
+o explicaría
+procesos de mutación
+a nivel de los genes
+o explicaría
+por qué las aves
+migratorias
+pueden
+pueden navegar
+ok
+entonces
+es un área
+bastante
+bastante
+nueva
+de la biología
+pero que ha tenido
+un desarrollo
+bastante acelerado
+y
+la tesis
+porque esto no está probado
+es una conjetura
+es que nuestro cerebro
+no actúa
+como un computador
+digital
+sino que hay procesos
+de la mecánica cuántica
+que están haciendo
+que esa capacidad
+de procesamiento
+que tenemos allí
+sea muy
+muy muy superior
+y esto es bastante
+contraintuitivo
+porque
+ustedes entenderán
+que hay una carrera
+actualmente
+para el desarrollo
+de los primeros
+computadores cuánticos
+y
+esa carrera
+se basa
+en
+no
+hacer
+que estos
+efectos
+de la mecánica
+cuántica
+desaparezcan
+y para eso
+hay que operar
+en
+estos computadores
+deben operar
+a ciertas
+temperaturas
+muy cerca
+del
+del
+del
+cero absoluto
+¿cierto?
+para que
+estas propiedades
+cuánticas
+no desaparezcan
+eso hay
+un término técnico
+para esto
+en física
+que se llama
+de coherencia
+no hay ningún físico
+me parece aquí
+en el curso
+eso significa
+que para que
+no colapsen
+y no dejen
+de funcionar
+pero la idea
+es que se mantengan
+porque esas propiedades
+de la mecánica cuántica
+me permiten tener
+una capacidad
+de cómputo
+mucho mayor
+en el computador
+¿no?
+entonces si eso es así
+el problema sería
+que yo puedo saber
+cuál es el alborismo
+pero a través
+de la ciencia cognitiva
+yo podría incluso
+llegar a descifrar
+cuál es el alborismo
+pero para poder
+implementarlo
+la capacidad de cómputo
+que retira
+es tan alta
+que un computador clásico
+no es capaz de hacerlo
+y aparentemente
+nosotros sí lo podemos hacer
+sin mayor esfuerzo
+y esto ustedes
+se van
+al cabo
+cuando terminemos
+estos cursos
+ustedes se van a dar cuenta
+que cosas que son tan banales
+aparentemente
+que nosotros hacemos
+con tanta facilidad
+son súper difíciles
+de hacer en un computador
+¿ok?
+y que requieren
+una capacidad de cómputo
+muy grande
+entonces hay ciertas barreras
+a ese desarrollo
+a esa conexión
+entre la ciencia cognitiva
+e inteligencia artificial
+que probablemente
+de aquí a unos 10, 20, 30 años más
+cuando los computadores cuánticos
+sean una realidad
+va a poder
+va a poder
+capitalizarse
+pero hoy en día
+es muy difícil
+en un
+en un computador clásico
+¿ok?
+ok
+ok
+entonces
+como definición
+¿cierto?
+¿qué es la IA?
+nosotros
+cuando yo
+recién partí con esto
+a finales de la década de 80
+hacíamos bromas
+y decíamos que la
+la
+en inglés
+¿cierto?
+AI
+sería
+anything impossible
+cualquier cosa que es imposible
+de lograr
+eso es la IA
+¿no?
+hoy en día
+obviamente no es tan así
+y la inteligencia artificial
+como concepto
+es una disciplina
+que es una
+como decía antes
+una subespecialidad
+de las ciencias de computación
+que busca replicar
+en máquinas
+y hoy en día
+cuando hablo de máquinas
+me estoy refiriendo
+a un computador digital clásico
+¿ok?
+¿qué significa eso?
+un computador digital clásico
+que opera con ceros y unos
+y que tiene una
+una
+opera con bits
+en el fondo
+al final del día
+todo se reduce a
+un código binario
+de ceros y unos
+¿ok?
+que tiene una capacidad
+de cómputa
+bastante limitada
+si lo comparamos
+con un computador
+cuántico
+que
+que no tiene
+opera con bits
+sino que opera con qubits
+que tienen
+la posibilidad
+de estar en
+lo que se llama
+superposición cuántica
+pueden
+pueden tener
+más de dos estados
+al mismo tiempo
+y eso hace
+que el poder de computación
+sea exponencialmente superior
+al de un computador clásico
+y todavía no existen
+existen prototipos
+obviamente
+pero no existe
+un computador clásico
+de commercial grade
+es decir
+que sea
+para diversos comerciales
+a gran escala
+eso todavía
+es tema
+de I más D más I
+y hay empresas
+que están a pasos forzados
+tratando de llegar
+a poder
+hacer eso realidad
+¿ok?
+entonces
+para nosotros
+hasta hoy
+la IA busca replicar
+¿cierto?
+en máquinas
+que son
+al final del día
+estos computadores clásicos
+que tenemos
+desde los años 50
+con toda la capacidad
+de computación
+y computación paralela
+que tenemos
+con arquitecturas
+como las que
+las que
+las que venden
+vidia
+¿cierto?
+e intenta replicar
+funciones cognitivas
+de seres humanos
+tales como
+visión
+lenguaje
+razonamiento
+robótica
+aprendizaje automático
+entre otras
+¿ok?
+algunas de estas
+con mayor éxito
+que otras
+que visión
+por ejemplo
+ha tenido mucho éxito
+lenguaje
+algunas áreas
+de lenguaje
+también
+pero
+razonamiento
+en general
+ahí estamos
+al debe
+y eso lo vamos a ver
+en más detalle
+más adelante
+y una área
+que ha tenido
+mucho
+desarrollo
+ha sido
+el área
+de aprendizaje automático
+que no es el propósito
+de este curso
+entrar muy en detalle
+en ese tema
+porque ustedes van a tener
+un curso
+especialmente dedicado
+al tema
+de aprendizaje automático
+y van a
+van a ver
+en detalle
+lo que es
+estas arquitecturas
+de aprendizaje profundo
+o deep learning
+como son
+las arquitecturas
+de
+large language models
+al estilo
+de chat GPT
+¿ok?
+pero como definición
+para nosotros
+la inteligencia
+artificial es eso
+es
+una disciplina
+que intenta
+replicar en máquinas
+funciones cognitivas
+de seres humanos
+tales como
+visión
+lenguaje
+razonamiento
+robótica
+aprendizaje automático
+entre otras muchas
+¿ok?
+en cambio
+la ciencia cognitiva
+busca entender
+cómo funciones cognitivas
+de seres humanos
+visión
+lenguaje
+razonamiento
+aprendizaje automático
+entre otras
+que son eventualmente
+las mismas
+¿cierto?
+operan pero no
+con un
+objetivo último
+de implementarlo
+en una máquina
+sino que
+intenta
+conocer cómo
+ellas operan
+en seres humanos
+¿ok?
+entonces
+si bien
+estas disciplinas
+buscan
+responder
+preguntas
+diferentes
+ambas
+adoptan
+un paradigma
+común
+como hipótesis
+de trabajo
+entonces aquí está
+nuestro primer
+quiz
+¿cuál es esa hipótesis?
+¿cuál es la hipótesis
+de trabajo
+que ustedes creen
+que
+ambas
+utilizan
+la misma hipótesis
+en eso
+sí que son
+idénticos
+todas parten
+del mismo
+working paradigm
+por así decir
+¿cuál es ese?
+¿alguien
+me puede ayudar
+con eso?
+puede ser
+que existe
+una forma
+de procesar
+información
+ok
+tú usaste
+el término
+procesar
+procesar
+información
+¿cierto?
+sí
+ok
+¿su nombre?
+Gonzalo
+Gonzalo
+justamente
+ese es
+el paradigma
+repítelo
+que existe
+una forma
+de procesar
+la información
+pero
+viene la pregunta
+o sea
+de la primera
+parte
+el sustantivo
+que utilizaste
+al final
+¿cuál es?
+o el verbo
+más bien
+es un verbo
+procesar
+información
+ok
+y ahora ponlo
+como sustantivos
+procesamiento
+procesamiento
+de información
+ok
+ahí está el paradigma
+el paradigma
+se llama
+el paradigma
+del procesamiento
+de información
+ese es el paradigma
+que las dos
+adoptan
+o sea
+¿qué significa eso?
+significa que tanto
+para la inteligencia artificial
+como para la ciencia cognitiva
+cualquier
+capacidad cognitiva
+en seres
+humanos
+en animales
+en insectos
+al final del día
+en cualquier ser vivo
+se traduce
+a procesamiento
+de información
+ok
+para ambas
+para ambas
+ramas de la ciencia
+la ciencia cognitiva
+y la inteligencia artificial
+parten de la misma base
+que cualquier proceso cognitivo
+al final del día
+se traduce
+a un
+procesamiento
+de información
+y por lo tanto
+lo que hay que
+si eso es así
+lo que tengo que dilucidar
+es cuál es el algoritmo
+que está
+detrás de eso
+porque el algoritmo
+lo que hace es procesar
+información
+ok
+es un método
+que me permite
+procesar información
+ok
+entonces
+la hipótesis
+de trabajo
+es esta
+la hipótesis
+del procesamiento
+de información
+según esa hipótesis
+las funciones
+cognitivas
+en humanos
+y otras especies
+emergen
+como resultado
+de procesamiento
+de información
+y esto lleva
+necesariamente
+a una etérea
+computacional
+de la mente
+en inglés
+computational theory
+of the mind
+que son comunes
+tanto a la
+inteligencia artificial
+como a la
+ciencia cognitiva
+ok
+entonces
+miren
+les doy
+un
+ejemplo
+de mi
+de mi
+de mi propia
+experiencia
+yo trabajé
+por algún
+tiempo
+te estoy
+hablando
+hace más
+de
+cuándo
+fue eso
+eso fue
+entre el 94
+y el 96
+aproximadamente
+en un centro
+de investigación
+en Alemania
+que se los mencioné
+en la
+introducción
+eso fue
+en el centro
+alemán
+de inteligencia artificial
+que estaba
+recién fundado
+en el año 88
+lo fundaron
+en 88
+creo que fue
+y también
+en otro centro
+en Friburgo
+que tenía
+el centro
+alemán
+de inteligencia artificial
+tenía foco
+en inteligencia artificial
+100%
+no había
+psicólogos
+pero
+el centro
+fuerte
+de ciencia
+cognitiva
+estaba
+más al sur
+en Alemania
+en
+la ciudad
+de Friburgo
+y
+ahí
+eran
+cientistas
+cognitivos
+ok
+y
+ellos
+estaban
+preocupados
+con el siguiente
+problema
+hay un área
+de ciencia
+cognitiva
+que se llama
+procesamiento
+de lenguaje
+ok
+y hay un área
+en la psicología
+que se llama
+psicolingüística
+ellos eran
+psicolingüistas
+en el fondo
+ok
+y lo que estaban
+dilucidando
+es como
+los humanos
+procesan
+el lenguaje natural
+el lenguaje
+que todos
+nosotros usamos
+ok
+y había dos teorías
+que competían
+una de la competida
+de una
+de una
+académica
+en
+en la costa este
+de Estados Unidos
+en Massachusetts
+Lynn Fraser
+se llamaba ella
+o se llama
+debe estar
+viva todavía
+y ella postulaba
+que era
+era un
+procesamiento
+serial
+es decir
+que nosotros
+el lenguaje
+es muy ambiguo
+entonces
+al
+al tratar
+de
+al interpretar
+el lenguaje
+natural
+nosotros
+siempre nos
+vamos
+con una
+interpretación
+y cuando
+esta se nos
+cae
+entonces
+reanalizamos
+y volvemos
+atrás
+por ejemplo
+cuando yo digo
+algo como
+el cazador
+le disparó
+al venado
+con
+y hemos
+leído
+hemos escuchado
+la frase
+hasta esa
+preposición
+con
+entonces
+estamos
+presuponiendo
+inmediatamente
+nuestro análisis
+hasta allí
+esta es una
+sentencia
+ambigua
+pero estamos
+presuponiendo
+que lo que viene
+después
+es el instrumento
+que está usando
+para poderle
+disparar al venado
+ok
+entonces
+es el análisis
+que está haciendo
+que está activo
+en el fondo
+cognitivamente
+hablando
+en nuestro cerebro
+en ese minuto
+pero si la sentencia
+continúa y dice
+el cazador
+le disparó
+al venado
+con
+su amigo
+cierto
+entonces
+se nos cae
+completamente
+el análisis
+ok
+porque lo que viene
+después
+lo está modificando
+no es una frase
+frase
+lo que se llama
+una frase
+preposicional
+o sea
+no está
+modificando
+el acto
+de
+de dispararle
+al venado
+con
+un instrumento
+no está
+modificando
+el verbo
+cierto
+sino que lo que
+está modificando
+es lo que viene
+más atrás
+es que
+el cazador
+no estaba solo
+con un amigo
+entonces nos cae
+completamente
+el análisis
+tenemos que volver
+atrás
+y reanalizar
+ok
+entonces
+esa era la teoría
+más
+de punta
+por decirlo así
+la teoría
+serial
+de Lynn Fraser
+de la psicolingüística
+y mis colegas
+en este centro
+en Friburgo
+postulado
+una teoría
+que era bastante
+distinta
+y sobre
+en Estados Unidos
+también se había sido
+postulada
+en la Universidad
+de Rochester
+por otros psicolingüistas
+y ellos decían
+no
+lo que sucede
+es
+que nosotros
+los humanos
+tenemos
+todos los
+todos los posibles
+análisis
+frente a una sentencia
+que es ambigua
+los tenemos
+activos
+están ahí
+compitiendo unos
+con otros
+no es que nosotros
+actemos por uno
+y después tengamos
+que reanalizar
+sino que están
+todos antiguos
+pero hay uno
+que está más saliente
+ok
+como que hay uno
+está más
+activo
+ok
+pero los otros
+están disponibles
+también
+entonces
+no se nos cae
+uno
+inmediatamente
+tenemos el otro
+para poder
+para poder
+responder
+frente a la ambigüedad
+ok
+y poder hacer sentido
+del lenguaje natural
+y esa no es la
+es una teoría
+que era
+era completamente
+nueva
+y que
+experimentalmente
+se comprobaba
+ok
+el punto es
+que de un punto
+de vista
+un punto de vista
+computacional
+ya no de ciencia
+cognitiva
+sino que de
+inteligencia artificial
+eso era
+no era muy bueno
+porque significaba
+que tenía que tener
+todos los análisis
+en paralelo
+activos
+o sea
+el capo
+de procesamiento
+era infinitamente
+mayor
+¿se dan cuenta?
+porque si yo voy
+por la que es más
+plausible
+yo tengo un solo
+análisis
+pero si tengo que
+tenerlos todos
+activos
+en memoria
+por así decir
+generarlos
+y mantenerlos
+en memoria
+entonces eso requiere
+mucho más capacidad
+de cómputo
+porque puedo tener
+n análisis
+en paralelo
+ok
+entonces eso no es deseable
+desde un punto de vista
+de inteligencia artificial
+porque computacionalmente
+eso me cuesta mucho más
+entonces uno de mis trabajos
+consistió en poder
+reconciliar
+estos dos
+enfoques
+desde el punto de vista
+de la inteligencia artificial
+implementar este sistema
+más en paralelo
+para lo que se llama
+interpretación incremental
+de lenguaje natural
+que incremental
+significa
+que yo no espero
+hasta el final
+de la sentencia
+para poder
+analizar
+una sentencia
+sino que voy
+analizando la palabra
+a palabra
+que es lo que nosotros
+hacemos
+nosotros humanos
+no esperamos
+a que alguien termine
+de hablar una sentencia
+para poder
+empezar a interpretar
+a entender
+es por eso
+que muchas veces
+podemos
+intuir lo que va a decir
+alguien
+o alguien no terminó
+de hablar
+y ya sabemos
+lo que viene
+o más o menos
+el sentido
+de lo que quiere decir
+es porque lo estamos
+haciendo palabra a palabra
+entonces
+ese ejemplo
+se los doy
+para
+para decirles
+que tiene sentido
+utilizar
+las teorías
+de la ciencia cognitiva
+en este caso
+de la psicolingüística
+¿cierto?
+para implementar
+algoritmos
+en un computador
+pero eso tiene
+un costo mayor
+y aparentemente
+nosotros los humanos
+asumimos ese costo mayor
+o sea
+aparentemente
+tenemos un computador
+que puede lidiar
+con esa ambigüedad
+mucho mejor
+que un computador
+digital
+¿ok?
+que lo hace
+hacer
+ahora yo lo puedo
+implementar también
+ese paralelismo
+digamos
+lo puedo implementar
+también en un computador
+digital
+pero me va a costar
+mucho más
+va a demorar
+mucho más tiempo
+es computacionalmente
+mucho más caro
+y desde ese punto de vista
+es menos enseñador
+¿se entiende la idea?
+entonces
+volviendo atrás
+ambas teorías
+utilizan
+esto como
+paradigma
+de trabajo
+o sea
+la teoría
+computacional
+de la mente
+o sea que en el fondo
+la mente
+es más bien
+una máquina
+que procesa
+información
+¿ok?
+y la pregunta
+es bueno
+¿es un computador
+clásico
+o un computador
+cuántico?
+nuestra mente
+bueno eso está
+hoy en día
+en terreno
+de articulación
+eso no se ha
+divinido
+¿ok?
+hay algunos
+que postulan
+que eso es así
+otros
+no lo saben
+digamos
+pero claramente
+nosotros podemos
+hacerlo
+sin mayor esfuerzo
+¿ok?
+y eso es raro
+es raro
+porque en una máquina
+que se supone
+es capaz de computar
+mucho mejor
+que nosotros
+nos cuesta mucho más
+y no somos capaces
+de hacerlo
+¿ok?
+entonces
+la ciencia cognitiva
+intenta descubrir
+los algoritmos
+que subyacen
+procesos cognitivos
+no con el ánimo
+de replicarlos
+en máquinas
+sino que más bien
+con el ánimo
+de entender
+y explicar
+estos procesos
+¿ok?
+eso ya lo habíamos dicho
+y por su parte
+la IA
+intenta diseñar
+e implementar
+algoritmos
+que imiten
+procesos cognitivos
+con el ánimo
+de replicarlos
+en máquinas
+computadores clásicos
+de Fondheim
+¿ok?
+que es todo lo que
+tenemos hoy en día
+sin interesarse
+en cómo
+dichos procesos
+ocurren
+en humanos
+u otras especies
+¿ok?
+ahora
+hay gente
+que trabaja
+en esta interfaz
+yo mismo
+he trabajado
+en esta interfaz
+de tratar
+de usar
+teorías
+que vienen
+de la
+de la
+ciencia cognitiva
+para implementar
+sistemas de inteligencia
+artificial
+pero eso
+es bastante
+más
+ambicioso
+es mucho más
+ambicioso
+desde un punto de vista
+computacional
+de poder hacer
+¿ok?
+entonces
+el debate
+en curso
+es
+si
+debe la IA
+la inteligencia artificial
+basarse
+en los algoritmos
+propuestos
+por la ciencia
+cognitiva
+para replicar
+funciones cognitivas
+en máquinas
+o sea
+deben sus algoritmos
+ser
+lo que se llama
+psychologically
+plausible
+¿ok?
+entonces
+¿qué significa eso?
+no hay ningún psicólogo
+acá en el curso
+me parece
+¿no?
+solíamos tener
+bastantes psicólogos
+en cursos anteriores
+¿no hay ningún?
+sí, sí hay
+¿hay?
+ok
+a ver
+de un punto de vista
+psicológico
+¿qué significaría
+que el algoritmo
+es psychologically
+plausible?
+¿qué podría significar eso?
+o sea
+que psicológicamente
+plausible
+yo entendería
+que se refiere
+a que finalmente
+lo que puede hacer
+el algoritmo
+es lo mismo
+que termina
+siendo la mente humana
+para el análisis
+y procesamiento
+de información
+¿qué?
+si no lo puede hacer
+la mente
+tampoco lo debería
+poder hacer
+el algoritmo
+ok
+o bien
+sí, claro
+y si lo hace
+lo hace
+siguiendo un algoritmo
+que está
+basado en alguna teoría
+de la psicología
+cognitiva
+que viene de la psicología
+cognitiva
+ok
+efectivamente
+ok
+ahora
+¿tiene sus ventajas?
+yo creo que
+ventajas tiene
+pero también tiene desventajas
+por ejemplo
+mucha
+no sé si han escuchado
+las teorías
+de Kahneman
+y Tversky
+David Kahneman
+el propio Nobel de Economía
+en los años 80
+creo que fue en los 80
+no sé si fue un poco después
+pero él ganó el premio Nobel
+justamente porque
+él le explicó
+que
+los cejos
+que tenemos los humanos
+cuando tenemos
+que tomar decisiones
+bajo incertidumbre
+ok
+y esos cejos
+nos llevan a tomar
+malas decisiones
+entonces
+por un lado
+hay quienes dicen
+bueno
+esto de la
+plausibilidad
+psicológica
+es importante
+es importante
+porque
+se supone
+que si los humanos
+hacen algo
+y eso ha devolucionado
+por cierto tiempo
+eso nos ha dado
+una ventaja evolutiva
+y por lo tanto
+una vez que nosotros
+descifremos esos algoritmos
+nos podemos descodificar
+en una máquina
+y eso nos daría
+una ventaja
+pero por otro lado
+después de
+Kahneman y Tversky
+con su teoría
+de prospectos
+que se llamó
+que se postuló
+primero en el año 79
+después
+fue una versión
+revisada
+en el año 82
+y ellos dicen
+sí, eso es así
+pero lamentablemente
+también los humanos
+cometen nuevos errores
+cuando tenemos que tomar
+decisiones
+por ese sentido
+somos aversos
+al riesgo
+cuando estamos
+en la zona
+de las ganancias
+cuando estamos ganando
+somos aversos al riesgo
+y todo lo contrario
+ocurre cuando estamos
+en la zona
+de las pérdidas
+somos propensos
+al riesgo
+cuando estamos perdiendo
+justamente
+para evitar las pérdidas
+y eso nos conduce
+a tomar malas decisiones
+entonces
+ellos refutaron
+a los homoeconómicos
+que había sido postulado
+por John von Neumann
+y Morgenstern
+en los años 40
+con su famosa
+teoría
+de
+expected utility
+teoría
+de utilidad esperada
+que
+en donde se basa
+gran parte
+de las teorías económicas
+hasta el día de hoy
+y fue
+causó un sismo
+y por eso ganaron
+el premio Nobel
+en su momento
+entonces
+esto es la
+plausibilidad psicológica
+puede tener ventajas
+pero en algunas ocasiones
+puede tener desventajas
+también
+porque los humanos
+aparentemente
+no
+somos perfectos
+en ese sentido
+y tenemos
+vayas
+tenemos cegos
+que nos hacen
+tomar malas decisiones
+en muchas
+situaciones
+entonces
+en general
+en general
+lo anterior
+no ha ocurrido
+y ambas disciplinas
+no han sido
+integradas
+o sea
+hasta el día de hoy
+esos
+esos
+esas dos disciplinas
+han sido
+han caminado
+por caminos paralelos
+con una gran salvedad
+y que es una salvedad
+súper importante
+y es que
+en los años
+y en los años 80
+haciendo una mímica
+de cómo funciona
+el cerebro
+se crearon
+o se inició
+en el área
+de Machine Learning
+en los albores
+del Machine Learning
+como lo conocemos hoy
+se postuló
+una arquitectura
+de redes neuronales
+que estaba basada
+en cómo funciona
+el cerebro
+sin embargo
+esto no estaba basado
+en una teoría
+psicológica
+o de ciencia cognitiva
+porque eso
+la ciencia cognitiva
+no lo ha descifrado
+hasta el día de hoy
+cómo funciona
+cómo funciona
+el cerebro
+en el fondo
+eso no lo sabemos
+hasta hoy
+o sea
+sabemos que existen
+las neuronas
+la fisiología
+que está detrás
+esto lo conocemos
+muy bien
+pero
+el conectoma
+es un proyecto
+futuro
+¿qué es el conectoma?
+ustedes se acordarán
+del genoma
+el genoma
+con todo el hype
+que tuvo
+con el gobierno
+de Bill Clinton
+cuando él estaba
+en el gobierno
+se descifró
+el genoma humano
+y se pensó
+que eso era una panacea
+que todas las enfermedades
+iban a poder ser
+descifradas
+digamos
+a priori
+leyendo el genoma
+y dando los genes
+de una persona
+y que eso iba a decir
+si uno se iba a enfermar
+de tal o cual cosa
+y por lo tanto
+profilácticamente
+podíamos intervenir
+mucho antes
+de que las enfermedades
+aparecieron
+y bueno
+todo esto
+del proyecto
+del genoma
+se vino a tierra
+cuando apareció
+una nueva teoría
+en biología
+que se llama
+la epigenética
+que nos dice
+que los genes
+están allí
+pero para que se expresen
+o no
+lo que realmente
+hace la diferencia
+es el entorno
+y bueno
+y ahí se nos cayó
+la teoría del genoma
+en términos predictivos
+propiamente tal
+y en día
+la gran pregunta
+en ciencia cognitiva
+y en brain sciences
+¿cierto?
+las ciencias del cerebro
+es el conectoma
+que no es el genoma
+sino que es el conectoma
+y el conectoma
+es o sea
+cómo
+distintos procesos
+cognitivos
+conectan
+ciertas regiones
+del cerebro
+y entender
+y entender el fenómeno
+de la plasticidad
+si podemos descifrar eso
+entonces podríamos
+hacer un salto cuántico
+según
+según
+algunos cientistas
+cognitivos
+y gente que trabaja
+en el área
+de brain sciences
+¿ok?
+entonces
+lo que se hizo
+en los años 80
+obviamente
+fue una
+se inspiró
+digamos
+en cómo funciona
+el cerebro
+lo que conocíamos
+del cerebro
+con estas arquitecturas
+de redes neuronales
+pero no está basado
+en ninguna teoría
+de la ciencia cognitiva
+porque hasta el día de hoy
+todavía no tenemos
+el conectoma
+descifrado
+y eso es un proyecto
+en el cual
+se está invirtiendo bastante
+algunos dicen
+que también va a fracasar
+como el tema del genoma
+por el tema
+de la plasticidad
+el cerebro
+es altamente plástico
+por lo tanto
+las conexiones
+pueden ser
+pueden reconectarse
+dinámicamente
+entonces
+tener un proyecto
+del conectoma
+tampoco va a tener
+mucho
+mucho que decir
+a futuro
+justamente
+por este tema
+de la gran plasticidad
+que tiene
+el cerebro
+lo cual hace
+que ese proyecto
+sea mucho más
+complejo
+de lo que uno piensa
+pero
+el punto acá
+es que
+se generaron
+estas redes neuronales
+y así surge
+en Machine Learning
+un paradigma
+nuevo
+que es el paradigma
+subsimbólico
+de la inteligencia artificial
+basado en
+arquitecturas
+de redes neuronales
+que insisto
+está inspirado
+en la ciencia cognitiva
+pero no está basado
+en la teoría
+de la ciencia cognitiva
+propiamente
+tal
+¿ok?
+y de eso
+vamos a hablar
+más adelante
+en la segunda
+sesión
+de este curso
+entonces
+muchos investigadores
+de inteligencia artificial
+no se interesan
+en la plausibilidad
+psicológica
+de sus algoritmos
+sino que más bien
+en que ellos funcionen
+y que sean eficientes
+en términos
+de complejidad
+computacional
+los que son informáticos
+saben lo que es eso
+de su curso
+de algoritmos
+y complejidad
+de algoritmos
+de los otros
+ingenieros
+que hay acá
+de otras áreas
+y de otras especialidades
+se los voy a explicar
+todo algoritmo
+tiene una
+complejidad asociada
+y esa complejidad
+tiene dos
+caras
+una es
+el tiempo
+que necesito
+para que el algoritmo
+compute
+y llegue a un final
+a un resultado
+y la memoria
+que necesita
+para poder
+almacenar información
+y llegar a ese resultado
+porque esto está basado
+en datos también
+¿ok?
+Entonces
+el algoritmo
+es más eficiente
+en la medida
+que sea menos complejo
+hay algoritmos
+que son altamente complejos
+y hay toda una teoría
+de complejidad
+de algoritmos
+donde hay una cierta
+categoría
+de problemas
+NP-hard
+y NP-complete
+no lo voy a definir acá
+porque esto no es
+un curso de teoría
+de complejidad
+de algoritmos
+pero lo que
+sí les voy a explicar
+es que
+uno trata de evitar
+algoritmos complejos
+porque
+porque mientras más complejo
+es el algoritmo
+es más difícil
+su implementación
+su implementación
+va a demorar más tiempo
+y hay algunos
+hay algunos
+que sencillamente
+demorarían
+años
+en poder ser
+resueltos
+en un
+computador clásico
+digital
+¿ok?
+Entonces
+la idea acá
+es que
+cuando digo
+cuando acá dice
+que funcionen bien
+que funcionen bien
+significa que los algoritmos
+sean poco complejos
+que no pasen
+un umbral
+de complejidad
+porque si pasan
+ese umbral
+y ese
+y es que empiezan
+a crecer
+exponencialmente
+en el tiempo
+y en el espacio
+en términos de memoria
+entonces
+ese algoritmo
+ya no me sirve
+¿ok?
+ya no me sirve
+porque para
+para muchos datos
+de entrada
+el algoritmo
+no va a ser
+eficiente
+va a morar
+mucho tiempo
+en terminar
+o capaz que no termine
+inclusive
+en un tiempo razonable
+¿ok?
+Entonces
+para la ciencia
+cognitiva
+esto parece no ser
+una restricción
+aparentemente
+todo lo que
+nos indica
+la evidencia
+empírica
+es que
+nosotros
+hacemos esas cosas
+complejas
+en poco tiempo
+y lo logremos resolver
+y por eso
+la conjetura
+de que el cerebro
+aparentemente
+pudiese ser
+un computador cuántico
+o pudiesen estar
+operando
+efectos de la mecánica
+cuántica
+que le den
+esa capacidad
+de cómputo
+tan increíble
+¿ok?
+pero nosotros
+no la tenemos
+en un computador
+mexicano
+y el computador
+más performante
+de envidia
+hoy
+que explota
+altamente
+para el paralelismo
+digamos
+es posible
+alcanzar ese nivel
+de
+concesamiento
+y por lo tanto
+ahí tenemos
+una restricción
+¿ok?
+ahí tenemos
+una cero restricción
+que probablemente
+recién va a poder ser
+va a poder ser
+eliminada
+esa restricción
+cuando surjan
+los computadores
+cuánticos
+de aquí
+a cuánto tiempo
+más
+todavía no sabemos
+¿se entiende
+ese concepto
+de eficiencia
+del algoritmo
+para los que no
+son informáticos?
+sí
+ok
+ok
+entonces
+resumiendo este tema
+¿qué argumentos
+podemos resumir
+a favor
+de integrar
+estas disciplinas
+y qué argumentos
+podemos resumir
+en contra
+¿ok?
+¿qué creen ustedes?
+bueno
+yo creo que
+que a favor
+está
+este
+este tema
+digamos
+de las influencias
+¿vale?
+que
+que se pueden sacar
+de un lado
+y del otro
+o sea
+lo que
+lo que
+lo que usted ha explicado
+de que
+de que
+desde la
+desde la
+exploración
+de la naturaleza
+se puede inspirar
+para
+poder
+ver
+nuevas
+nuevos modelos
+o nuevas
+nuevas formas
+de afrontar esto
+desde la perspectiva
+de la inteligencia
+artificial
+sí
+como para
+mirar
+fuera de la caja
+¿no es cierto?
+correcto
+y por otro lado
+al contra
+es que
+de alguna manera
+también
+establece
+ciertos
+ciertos
+límites
+¿no es cierto?
+si la inteligencia
+artificial
+funcionara
+como la
+ciencia
+cognitiva
+tendría que estar
+dentro de un marco
+de lo
+psicológicamente
+plausible
+¿verdad?
+y eso
+evitaría que
+que
+que se pudiese
+ampliar
+digamos
+esa búsqueda
+de soluciones
+alternativas
+diferentes
+exacto
+y en el fondo
+y en el fondo
+el problema
+acá
+subyacente
+en este debate
+en este debate
+es que
+nuestro instrumento
+es muy limitado
+aparentemente
+¿ok?
+cuando digo
+nuestro instrumento
+me refiero
+a un computador
+clásico digital
+claro
+lo ponen
+los recursos
+en el fondo
+claro
+o sea
+estamos tratando
+si queremos replicar
+lo que hace un humano
+entonces tenemos que tener
+un instrumento
+como lo tiene
+el humano
+también
+¿se entiende?
+¿no?
+pero un computador
+digital
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+no
+un cerebro
+de un humano
+incluso un animal
+en términos de capacidad
+de procesamiento
+y es paradójico
+porque ustedes me van a decir
+bueno pero
+el computador puede calcular cosas
+mucho más rápido que un humano
+claro
+efectivamente
+hay cosas que las hacen muy rápido
+y que nosotros demoraríamos mucho tiempo
+para calcular
+que no las podamos hacer
+y es por eso
+todo el auge
+de la informática
+y las
+ciencias de información
+desde los años 50
+eso es así
+pero
+aparentemente
+hay áreas
+en particular
+áreas de inteligencia artificial
+en donde
+ese instrumento
+que nosotros tenemos
+nos permite hacer cosas
+que todavía la biología
+no es capaz de explicar
+se puede conjeturar
+de que hay
+fenómenos cuánticos
+jugando ahí un rol importante
+pero no los conocemos hoy en día
+eso es todavía
+especulación
+pero la evidencia empírica
+podría sugerir eso
+podría sugerir eso
+de que el instrumento
+que nosotros tenemos
+es muy superior
+a algo tan burdo
+como un computador clásico
+hoy en día
+para simular este tipo de cosas
+ok
+es una vez que
+tengamos algo
+que sea
+una nueva clase
+de computación
+que es la computación cuántica
+hay autores
+en inteligencia artificial
+y en ciencia cognitiva
+que dicen
+que esta transición
+desde la ciencia cognitiva
+a la inteligencia artificial
+va a ser mucho más
+factible
+de lo que es hoy
+porque nuestro instrumento
+que tenemos hoy
+a disposición
+es todavía
+estar lejos
+de poder
+accesar
+ese nivel
+de funcionalidad
+ok
+ahora
+hay una segunda hipótesis
+que comparten
+tanto la inteligencia artificial
+como la ciencia cognitiva
+y el área
+también llamada
+brain sciences
+y esta es más profunda
+que
+aunque la hipótesis
+del procesamiento
+de información
+¿cuál sería esta?
+buena pregunta
+¿alguien se le ocurre?
+ok
+hay otra hipótesis
+que es más profunda
+todavía
+y es la siguiente
+tanto en ciencia cognitiva
+como en
+como en inteligencia artificial
+se asume que la conciencia
+emerge del sustrato material
+como resultado
+de funciones complejas
+del procesamiento
+de información
+en el cerebro
+o sea
+partiendo
+de esta primera
+hipótesis
+de trabajo
+de que todo
+es procesamiento
+de información
+entonces la pregunta
+es bueno
+¿qué es la conciencia?
+¿y cómo emerge?
+entonces
+tanto la ciencia cognitiva
+como la inteligencia artificial
+y esto es medicina igual
+así que Anthony
+nos va a corroborar esto
+cuando estudió
+este tipo de temas
+en la escuela de medicina
+se asume que la conciencia
+si yo le pregunto a un neurólogo
+a un neurocirujano
+¿cómo es la conciencia?
+me va a decir
+no sé lo que es
+pero sí sé cómo es
+emerge
+emerge a través de conexiones
+neuronales
+digamos en el cerebro
+que están procesando información
+y de alguna manera
+cuando esto
+adquiere un cierto nivel
+de complejidad
+y pasa a un cierto umbral
+entonces esa conciencia
+milagrosamente
+emerge de alguna manera
+que nadie hasta ahora
+hoy en día ha podido explicar
+eso es lo que a uno
+le enseñan en biología
+lo que Anthony
+también estudió probablemente
+cuando fue a la escuela
+de medicina
+y esa es la segunda
+hipótesis de trabajo
+según esa hipótesis
+de trabajo
+que se basa en la primera
+la conciencia
+no es una propiedad
+fundamental
+sino que emerge
+desde la materia
+como resultado
+de funciones
+que procesan
+información
+en el cerebro
+de un cierto nivel
+de complejidad
+para arriba
+¿ok?
+Anthony
+¿qué opina
+de esa
+hipótesis
+de trabajo
+vamos a decir?
+Claro
+se define
+como funciones
+cerebrales
+complejas
+y
+como recordando
+un poco
+el módulo anterior
+es difícil
+pensar
+de que
+todo esto
+de inteligencia
+artificial
+vaya a tener
+como conciencia
+que vaya a distinguir
+lo bueno
+de lo malo
+es el tema
+de saber
+hasta dónde
+va a estar
+el límite
+y revisaba
+también
+lo que tenía
+anteriormente
+cuando nombra
+de que
+se están buscando
+tener
+¿cómo se llama?
+algunas respuestas
+superiores
+a las actualmente
+humanas
+yo creo que
+pero
+ahí claro
+es un poco
+lo ético
+si todo esto
+vas a ver
+qué es el bien
+y qué es el mal
+exacto
+muy bien
+ahora
+esta es la
+teoría
+mainstream
+en ciencia
+cuando decimos
+mainstream
+una teoría
+es mainstream
+significa que es
+de corrientes
+principales
+como en los tiempos
+de Galileo
+la tierra
+era
+el sol
+giraba en torno
+a la tierra
+esa era la teoría
+mainstream
+y cualquiera
+que dijera
+que era al revés
+eso no era
+mainstream
+eso no era
+corriente principal
+y eso era
+herejía
+¿no entienden?
+entonces
+esto es mainstream
+que la conciencia
+emerge del sustrato
+material
+de esta manera
+como está explicado
+acá
+eso es la teoría
+mainstream
+que se enseña
+ustedes saben
+que es una escuela
+de psicología
+biología
+medicina
+¿cierto?
+en ciencias de la salud
+en general
+y también
+en ingeniería
+cuando hablamos
+de inteligencia artificial
+que no
+no es una
+disciplina
+que venga
+de la área
+de las ciencias
+de la vida
+pero
+pero de alguna manera
+la inteligencia artificial
+tiene un correlato
+con esto
+porque está tratando
+de simular
+funciones cognitivas
+de seres humanos
+de animales
+y por
+lo quiera o no
+se ve enfrentado
+también a este paradigma
+que viene de las ciencias
+de la salud
+en el fondo
+y de la biología
+entonces
+adopta ese paradigma
+y le viene bien también
+como que
+no le
+no le remece
+los cimientos
+a la inteligencia artificial
+perfectamente
+puede convivir
+pacíficamente
+con
+con todo lo que
+es el desarrollo
+generible en esta área
+ok
+pero
+lamentablemente
+nadie ha podido explicar
+como el milagro
+de que
+como la conciencia emerge
+como eso ocurre
+entonces la emergencia
+de conciencia
+desde el sustrato material
+se relaciona
+con el famoso
+mind-body problem
+en filosofía
+que afecta también
+a la inteligencia artificial
+y a la ciencia cognitiva
+ok
+y esto se le denomina
+la teoría
+o la visión
+materialista
+del universo
+un monismo
+materialista
+en el fondo
+ok
+y no el dualismo
+que plantea
+mind y body
+como entes separados
+en el fondo
+por eso decimos
+que un monismo
+es una sola cosa
+solo que nadie
+lo ha explicado
+como esto ocurre
+ok
+entonces
+este
+este mind-body problem
+que no está resuelto
+o sea
+no sabemos
+como la
+la
+el proceso
+de conciencia
+en la mente
+emerge
+desde el cuerpo
+desde
+desde
+procesos
+de
+desde
+desde algo
+que podemos
+denominar
+procesos
+o
+procesamiento
+de información
+de niveles
+inferiores
+entonces nos lleva
+a varios problemas
+ok
+tenemos un problema
+ontológico
+de
+de
+de
+de
+que significa
+estados mentales
+y estados físicos
+nos lleva
+a un problema
+causal
+ok
+de como uno
+causa el otro
+ok
+nos lleva
+al problema
+de conciencia
+que estamos
+explicando acá
+que es como emerge
+la conciencia
+nos lleva
+al problema
+del self
+como actor
+racional
+libre
+y autónomo
+nos lleva
+nos lleva
+a otro problema
+que también
+es un problema
+serio
+en en robot
+que la robótica
+tampoco lo ha logrado
+hasta ahora
+por lo menos
+nosotros sí
+los humanos
+lo lo lo lo
+lo lo vivimos
+todos los días
+pero
+en en máquinas
+esto no se ha podido
+replicar
+que es el
+embodiment
+problem
+es decir
+como como
+como necesidades
+de que un actor
+racional
+libre
+y autónomo
+tener un cuerpo
+para poder
+experienciar el mundo
+y sentirlo
+ok
+la robótica
+ha hecho
+algunos pasos
+en ese sentido
+otra vez
+de sensores
+etcétera
+pero no es
+no es ni de cerca
+lo que nosotros
+tenemos en términos
+de capacidad
+sensorial
+o de otros animales
+digamos
+otras especies
+ok
+y el problema
+de la intencionalidad
+como capacidad
+de un actor
+racional
+libre
+y autónomo
+de representar
+el mundo
+para actuar
+en él
+y modificarlo
+como aparentemente
+lo hacemos
+los humanos
+ok
+entonces
+si se dan cuenta
+ustedes
+acá tenemos
+varios problemas
+abiertos
+que no han sido
+resueltos
+ok
+y hablando
+del mundo
+porque fíjense
+que yo puse
+negritas acá
+representar
+el mundo
+lo voy a repetir
+acá
+el problema
+de la intencionalidad
+es decir
+como
+como una capacidad
+de un actor
+racional
+libre
+y autónomo
+de representar
+el mundo
+para qué
+para qué
+lo voy a representar
+para actuar
+en él
+y poder modificarlo
+y eso es el curso
+este curso
+cómo representar
+el mundo
+para qué
+para actuar
+en él
+y modificarlo
+que es lo que
+hacemos nosotros
+todos los días
+nosotros estamos
+representando
+el mundo
+todos los días
+para actuar
+en él
+y modificarlo
+y eso nosotros
+queremos poder hacer
+también en un sistema
+de inteligencia artificial
+y eso es algo
+súper complejo
+de hacer
+profe
+una consulta
+respecto de
+representar
+el mundo
+tiene que ver
+con la interpretación
+que le damos
+al mundo
+esto viene después
+ya
+ok
+ok
+primero tienes que
+tener una representación
+del mundo
+y después tienes que
+tener un lenguaje
+y un sistema
+de representación
+que te permite
+interpretar
+esa representación
+¿se entiende?
+ya
+perfecto
+sí sí sí
+ok
+bien
+entonces vamos
+a ir derecho
+a lo que es
+la representación
+ok
+vamos a entrar
+en terreno
+de lo que nos
+convoca acá
+entonces
+quiz número uno
+¿qué es una representación?
+vamos a la raíz
+etimológica
+¿qué significaría esto?
+volver a presentar
+volver a presentar
+muy bien
+volver a presentar
+¿cierto?
+interpretación
+eso es una
+volver a presentar
+exacto
+entonces
+esa representación
+significa
+volver a representar
+por lo tanto
+toda representación
+vuelve a presentar
+algo ya presentado
+y la pregunta es
+si lo representado
+es real o no
+o dicho de otra manera
+es lo que se presenta
+a nuestros sentidos
+tanto nuestros sentidos
+naturales
+como nuestros sentidos
+extendidos
+¿a través de qué?
+a través de tecnología
+¿ok?
+entonces
+¿por qué dice
+extendido?
+¿qué significaría
+extendido?
+por ejemplo
+nosotros
+utilizamos tecnología
+para poder
+extender
+nuestros sentidos
+utilizamos
+microscopios
+telescopios
+¿cierto?
+y cuando el metaverso
+se haga realidad
+entonces vamos a ver
+vamos a vivir
+en realidades
+virtuales
+aumentadas
+¿ok?
+entonces la pregunta es
+¿es eso que estamos
+representando real
+o no es más que
+una representación
+de otra representación?
+esa es la pregunta
+que les hago ahora
+de su experiencia
+¿es lo que representamos
+del mundo allá afuera?
+¿es real
+o no?
+depende del enfoque
+quebró la estrella
+como le
+eso
+de alguna manera
+está tratado de explicar
+que en este tema
+la cadena de Platón
+es decir
+uno sabe
+si la realidad
+son las sombras
+que uno está viendo
+en la cadena
+y la realidad
+es eso
+que está dando
+la sombra
+o lo que uno
+percibe
+es la realidad
+entonces
+¿por qué digo
+depende del enfoque?
+porque mi realidad
+puede que sea
+una realidad
+pero todos sabemos
+que
+la convención
+es que el color azul
+es azul
+pero no necesariamente
+sabemos si mi color azul
+es tu color azul
+probablemente
+hay una realidad
+única
+pero nadie
+la puede percibir
+como con esa realidad
+ok
+¿alguna otra opinión
+al respecto?
+yo creo que
+de alguna forma
+nosotros tenemos
+como una interpretación
+de la realidad
+a la cual
+tenemos cierto tipo
+de acceso
+como a través
+de una limitación
+estructural
+hay ciertas cosas
+que vamos a poder ver
+cosas que no vamos
+a poder ver
+pero nuestra interpretación
+o nuestra representación
+de la realidad
+no es exhaustiva
+porque
+el infrarrojo
+no lo podemos ver
+pero existe
+y ahí está
+entonces podemos llegar
+hasta cierto nivel
+y a partir de eso
+nosotros
+lo vivimos
+como una experiencia real
+pero
+como decías
+hace un rato
+no es exhaustiva
+hay muchas cosas
+que no estamos viendo
+y ahí además
+van apareciendo después
+todos los filtros
+personales
+para la interpretación
+ok
+muy bien
+eso está correcto
+me parece
+que quizás
+la representación
+humana
+la que hacemos
+es una simplificación
+basada en nuestra capacidad
+y en nuestra
+superposición
+de la realidad
+en el fondo
+cada quien percibe
+la realidad
+de una manera
+y además
+es una simplificación
+porque
+quizás no puede percibir
+por totalmente
+un estímulo
+por ejemplo
+si uno ve que algo
+echa humo
+uno piensa
+que está caliente
+pero no
+no lo vas a tocar
+entonces
+estás simplificando
+el problema
+para poder
+expresarlo
+de una manera
+y lo vas a dibujar
+con humo
+pero no vas a saber
+la temperatura
+entonces puedes
+extenderlo
+y colocarle un sensor
+pero en el fondo
+eso puede distorsionar
+el objeto
+etcétera
+entonces al final
+la representación
+es una simplificación
+de la realidad
+para poder expresarla
+de alguna manera
+ok
+muy bien
+yo estoy concuerdo
+con eso
+ahora la pregunta es
+¿por qué
+tiene que ser
+una simplificación?
+por la limitación
+humana
+porque si no
+se podría hacer
+una extensión
+en vez de una simplificación
+pero la limitación
+humana
+está en el medio
+¿no?
+la capacidad
+de procesamiento
+muy bien
+¿quién dijo capacidad
+de procesamiento ahí?
+acá
+Samuel
+muy bien
+hay varias razones
+por las cuales
+para simplificar
+el algoritmo
+usted mencionó
+que
+se lograba
+simplificar
+el algoritmo
+este era
+más eficiente
+lo que pasa
+es que acá
+a ver
+es bien complejo
+explicar esto
+pero
+efectivamente
+uno representa
+es una simplificación
+de la realidad
+por lo tanto
+llegamos a la conclusión
+de lo que estamos
+representando
+incluso
+olvídense de la inteligencia
+artificial por un minuto
+pensemos en nosotros
+como seres humanos
+y lo que estamos
+representando ahí
+es como decía
+su compañero acá
+una simplificación
+y eso tiene
+varias aristas
+primero
+si yo representara
+el mundo real
+tal y cual es
+no podríamos
+sobrevivir
+porque
+de partida
+sería completamente
+redundante
+aparentemente
+hay aquí
+un proceso
+de optimización
+de recursos
+en donde uno dice
+ok
+vamos a representar
+aquello que es
+estrictamente necesario
+para lograr
+nuestra sobrevivencia
+o supervivencia
+en un entorno
+que es dinámico
+que es cambiante
+que es complejo
+pero no más
+tampoco
+porque mientras más
+representamos
+más complejidad
+y esa complejidad
+no necesariamente
+nos está ayudando
+a sobrevivir
+entonces hay como
+un trade-off acá
+entre
+entre
+a mayor
+realidad
+representada
+no necesariamente
+nos da una ventaja
+en términos de nuestra
+supervivencia
+en el entorno
+que puede
+puede operar
+justamente
+en todo
+en sentido
+contrario
+en ese sentido
+¿no?
+y
+efectivamente
+como dicen ustedes
+hay especies
+que son capaces
+de representar
+cosas que nosotros
+no seríamos jamás
+capaces de representar
+porque para ellos
+eso le da una
+ventaja
+en términos de
+supervivencia
+entonces
+eso como primer
+punto
+a dejarlo
+claro
+¿ok?
+aparentemente
+entonces nosotros
+no representamos
+al mundo real
+tal y cual es
+y una razón
+biológica
+para esto
+que tiene que ver
+con nuestra
+supervivencia
+en un entorno
+complejo
+y cambiante
+¿ok?
+ahora
+hablemos
+de ese concepto
+de realidad
+porque cuando
+hablamos
+de representación
+de conocimientos
+tenemos que
+representar
+el mundo
+en el fondo
+y hay un concepto
+en inglés
+que se llama
+world knowledge
+o conocimiento
+del mundo
+entonces un poco
+adelantándome
+a lo que viene
+más adelante
+en el curso
+cuando nosotros
+hablamos
+de un sistema
+de inteligencia
+artificial
+en última instancia
+de hecho
+los dos artículos
+que ese artículo
+más técnico
+que les publiqué
+está publicado
+en la revista
+se les llama
+knowledge based systems
+o sistemas
+basados
+en el conocimiento
+de una revista
+bastante prestigiosa
+es de una
+de las
+más top
+en el área
+de inteligencia
+artificial
+y se ocupa
+del tema
+concretamente
+del sistema
+basado
+en el conocimiento
+es decir
+con el tema
+de representación
+de conocimientos
+y
+allí
+¿cierto?
+nos vemos
+con este problema
+de representar
+la realidad
+y distintas
+maneras
+de poder
+abocarnos
+a ese proceso
+de cómo
+podamos hacerlo
+a través
+de distintos
+lenguajes
+de representación
+así que
+los que quieran
+una lectura
+más técnica
+les sugiero
+que lean
+ese artículo
+quiz 2
+¿es el mundo
+que representamos
+realmente real
+o es simplemente
+una ilusión?
+bueno
+esto es más
+una pregunta
+un poco más
+filosófica
+pero
+¿qué dirían
+ustedes
+al respecto
+de esta pregunta?
+profesor
+yo
+¿me escucha?
+sí
+bueno
+yo lo personal
+por mi parte
+yo creo que
+la realidad
+igual es subjetivo
+no es exacto
+porque al final
+depende de la
+construcción mental
+de cada uno
+de nosotros
+el cual
+bueno
+tiene experiencias
+distintas
+limitaciones
+biológicas
+distintas
+cosa que hace
+que
+esa representación
+sea distinto
+para cada uno
+por lo tanto
+yo creo que
+hay distintas
+interpretaciones
+pensando en que
+por ejemplo
+el ser humano
+para simplificar
+no toma el espacio
+completo
+sino toma
+lo más importante
+igual que
+la IAP
+como que se
+alimenta
+de vectores
+de símbolos
+y
+no percibe
+como el ser humano
+el que al final
+toma decisión
+en base
+a la información
+que uno le entrega
+ok
+muy bien
+¿alguna otra opinión?
+yo creo
+que
+yo creo que
+es
+que si es real
+porque seguro
+que estábamos
+comentando
+recién
+más allá
+que la realidad
+esté como
+filtrada
+o como
+como condicionada
+como nuestra máquina
+a lo que
+podemos percibir
+no implica
+que lo que está
+afuera
+no sea real
+y sea una ilusión
+sino que
+es más bien
+o sea
+el
+lo que representamos
+está acondicionado
+pero
+estamos representando
+en base a algo
+que existe
+ok
+y había otra opinión
+acá
+sí
+yo quería decir
+que depende
+mucho
+de la
+percepción
+personal
+y de la
+percepción
+colectiva
+y las coincidencias
+de ambas
+nos hace discriminar
+si algo es real
+o una ilusión
+de la misma manera
+que la inteligencia
+artificial
+discrimina
+una información
+más cierta
+de otra
+en coincidencia
+con la cantidad
+de artículos
+que hay sobre eso
+o sea
+de opiniones
+si hay coincidencias
+un patrón
+ok
+usted es psicólogo
+¿no?
+no
+ingeniero comercial
+ingeniero comercial
+ok
+bueno
+entiende bastante
+de psicología
+efectivamente
+eso es real
+tiene que ver
+con psicología social
+lo que está
+planteando usted
+bueno
+esta pregunta
+obviamente
+nosotros
+somos los primeros
+en plantearnos
+esa pregunta
+en la ciencia cognitiva
+hay consenso
+en que la conciencia
+emerge del sustrato material
+eso ya lo vimos
+¿cierto?
+en nuestro cerebro
+a partir de sensores
+que perciben estímulos
+de la realidad externa
+por lo tanto
+la conciencia
+no sería una propiedad
+fundamental del universo
+sino que emerge
+desde el sustrato material
+ahora
+¿qué significa
+cuando acá
+decimos
+la conciencia
+como propiedad
+fundamental
+del universo
+¿qué significaría eso?
+profe
+pero una pregunta
+¿cómo habla esto
+con por ejemplo
+lo que ocurre
+con un esquizofrénico
+que alucina cosas?
+ok
+porque esa realidad
+su cerebro
+está haciendo
+creando una realidad
+una ilusión
+pero
+también es
+producto del
+del sustrato material
+como le dice usted
+bueno
+se tiene mucho que ver
+con lo que decía
+tu compañero recién
+que es ingeniero comercial
+no sé
+¿cuál era el nombre?
+Rodrigo
+Rodrigo
+muy bien
+Rodrigo
+tiene que ver
+lo que Rodrigo
+acaba de decir
+o sea
+y eso tiene que ver
+con las enfermedades mentales
+en el sentido
+de que bueno
+¿qué es eso?
+¿qué es una enfermedad mental?
+¿qué es la normalidad
+y la anormalidad?
+entonces hay una línea
+una línea gris
+ahí ¿no?
+y se basa en el consenso
+un poco
+lo que decía
+Rodrigo recién
+o sea
+si lo que nosotros
+observamos
+o vemos
+incluso
+Rodrigo
+me parece
+si lo entendí bien
+hay un sesgo
+incluso
+a forzar nuestra percepción
+o nuestra realidad
+de manera que encaje
+con
+con el mainstream
+con la mayoría
+para no
+para no
+ser vistos
+como fuera
+del
+del grupo
+o ser
+ser excluido
+así lo entendí
+Rodrigo ¿no?
+Sí
+en el fondo
+si coincide
+la visión personal
+con la general
+podría
+quiere decir
+que estamos hablando
+de una realidad
+entonces
+hay un consenso
+como ustedes dicen
+de acuerdo
+a lo que es la realidad
+y lo que
+en contrario
+sería la ilusión
+Sí
+efectivamente
+¿sí?
+Igual me parece
+que la
+que es interesante
+que la realidad
+igual
+tienes
+o sea
+la realidad
+que percibimos
+los humanos
+igual está limitada
+en base a nuestra
+capacidad biológica
+por ejemplo
+con la
+las luces
+infrarrojas
+por decir algo
+o los
+los radios frecuentes
+etcétera
+entonces
+es interesante
+que la realidad
+por especies
+hasta por
+o sea
+como que hay
+distintas capas
+de realidad
+o no sé
+cómo se define
+la realidad
+en base a
+claro
+como colectivo
+los humanos
+tenemos una realidad
+o es nuestro
+estándar de realidad
+pero quizás
+la realidad
+no sé
+visual
+para
+otro rango
+de visión
+o otro rango
+de longitud
+donde etcétera
+sería otra
+en el campo
+de visión artificial
+por decir algo
+me lo imagino así
+entonces
+cómo se definen
+las distintas realidades
+y estados de realidad
+exacto
+claro
+pero esa dinámica
+de grupo
+es importante también
+porque por ejemplo
+estamos en el mes de mayo
+y la mayoría
+de ustedes conocen
+que aquí en mayo
+hace más de 100 años
+¿cierto?
+hubo una batalla
+muy importante
+naval
+y que
+eso
+digamos
+esa catástrofe
+un poco
+del combate naval
+de Iquique
+produjo todo
+una percepción
+de la realidad
+completamente distinta
+no había mucha
+efervescencia
+por el tema
+de la guerra
+del pacífico
+en ese momento
+pero eso fue
+marcó un antes
+y un después
+después
+entonces eso
+tiene que ver
+un poco
+con lo que decían
+algunos de ustedes
+en el sentido
+de que esa realidad
+de alguna manera
+se clama
+tiene una dinámica
+propia de grupo
+en donde quien salía
+de esa realidad
+no es que fuera esquizofrénico
+ni mucho menos
+pero salía
+se convertía
+en un paria
+un poco
+por tener una percepción
+quizás distinta
+de esa realidad
+y no ajustarse
+a un conflicto
+a un consenso
+del grupo
+yo creo que
+igual como que
+el tema
+que plantean
+los compañeros
+como que
+yendo a la pregunta
+de lo que está
+destacado ahí
+es como
+son cosas distintas
+como el tema
+de la completitud
+y como
+que nosotros
+podemos percibir
+solamente algunas cosas
+y estamos limitados
+a nuestra capacidad
+de procesamiento
+es como una particularidad
+pero yo creo
+que el fondo
+de eso
+es que
+si ya dices
+que la propiedad
+o sea
+que la conciencia
+emerge de la materia
+presupone que la materia
+está ahí
+independiente de nosotros
+yo creo que
+ese es el caso
+interesante
+porque lo inverso
+sería como
+que nosotros
+creáramos la realidad
+en función
+de nuestra
+conciencia
+yo creo que
+yo creo que
+ese es el supuesto
+fuerte acá
+independiente
+que estemos
+como limitados
+a percibir solamente
+o a procesar
+y percibir
+parte de esa realidad
+como que presupone
+que está ahí
+independiente de nosotros
+sí, correcto
+ahora
+mi pregunta era
+¿qué significa
+que la conciencia
+sea propiedad
+fundamental
+del universo?
+¿qué significa eso?
+porque
+el mainstream
+parte de todo
+lo contrario
+la materia
+en última instancia
+es
+la propiedad
+fundamental
+esa es la
+teoría materialista
+del universo
+es lo que representa
+el mainstream
+¿ok?
+pero la
+contracara
+de eso
+la visión opuesta
+dice
+no, no es así
+la materia
+no es la propiedad
+fundamental
+del universo
+es la conciencia
+¿que la implicancia
+está al otro lado
+podría ser?
+¿como que la conciencia
+existe independiente
+de la materia?
+sí
+y más aún
+más que independiente
+es que da origen
+a la materia
+da origen
+a la materia
+claro
+eso sería como
+la implicancia
+que ya dure
+exacto
+eso no es
+mainstream
+para nada
+¿ok?
+pero eso
+¿qué se implicaría?
+tiene bastante
+implicancia
+independientemente
+de que nosotros
+lo consideremos
+válido o no
+es casi teológico
+eso
+¿cómo?
+es casi teológico
+plantearlo
+es que ambas
+son teológicas
+¿sabes por qué?
+es como un amigo
+físico
+en el cual yo tenía
+muchas discusiones
+al respecto
+y él me decía
+bueno la física
+va a plantear
+efectivamente
+que
+pretender que la conciencia
+sea una propiedad
+fundamental del universo
+que antes sea la materia
+es como
+es como una visión
+más religiosa
+si tú quieres
+del origen
+del universo
+de fe
+pero
+pero lo contrario
+también
+porque
+porque mi amigo
+físico decía
+bueno
+pero los físicos
+parten de la siguiente
+premisa
+dame un
+dame un milagro
+inicial
+que se llama
+Big Bang
+dame ese milagro
+inicial
+que nadie sabe
+de dónde viene
+ni pues no puede explicar
+y te explico
+todo el resto
+¿entiendes o no?
+o sea al final
+esa crítica
+en términos de que
+tiene una visión
+más religiosa
+teleológica
+si tú quieres
+se puede aplicar
+a ambas visiones
+¿ok?
+tanto a la
+la visión materialista
+como a la
+esta otra
+se llama
+la visión idealista
+del mundo
+que
+sugiere que
+la conciencia
+es
+sustrato
+sustrato
+fundamental
+y no la materia
+ahora
+eso
+eso tendría implicaciones
+importantes
+que
+implicaría
+por ejemplo
+que
+es como un programa
+de televisión
+es como decir
+mira
+el programa
+de televisión
+surge
+de
+las conexiones
+que hay
+en el
+televisor
+es una máquina
+compleja
+que tiene
+componentes
+cientos de componentes
+distintos
+¿cierto?
+y lo que tú estás viendo
+ahí en el programa
+de televisión
+emerge del sustrato
+material llamado
+televisión
+y de sus componentes
+que nadie sabe cómo
+en el caso de la televisión
+sí sabemos cómo
+porque
+porque es un invento
+que nosotros
+logramos
+desarrollar
+y lo usamos
+pero
+en la
+en la analogía
+sería como decir
+no sabemos cómo
+funciona el cerebro
+¿cierto?
+pero
+pero la conciencia
+emerge de alguna manera
+entonces sería todo lo contrario
+sería que
+la televisión
+es más que
+un vehículo
+un instrumento
+para interpretar
+una señal
+que viene desde afuera
+¿ok?
+entonces en el fondo
+desde ese punto de vista
+esta teoría
+que va en contra
+de la posición
+más materialista
+implica que nosotros
+estamos interpretando
+esa
+esa
+esa información
+de alguna manera
+o esa conciencia
+que está
+afuera
+¿no?
+profesor
+entonces se podría decir
+que la conciencia
+es la causa
+no causada
+como
+algo intrínseco
+y uniproxente
+que representa la realidad
+eso es la teoría
+claro
+eso sería
+la teoría idealista
+del
+del universo
+si tú quieras
+¿no?
+en el sentido de que
+ahí la conciencia
+sería la propiedad
+fundamental
+y asociado a eso
+está el tema de información
+y vamos a ir a ese punto
+más adelante
+porque es súper importante
+para nosotros
+definir
+¿ok?
+pero insisto
+la corriente
+principal en ciencia
+cognitiva
+y en IA
+y en la física
+asume que el mundo
+representado
+sí es real
+aunque nuestras percepciones
+sean subjetivas
+¿ok?
+y también asume
+que
+la visión
+materialista
+del universo
+es decir
+es decir
+que
+la materia
+es el sustrato
+fundamental
+y no la conciencia
+la conciencia
+emerge a partir
+de
+de la materia
+de alguna manera
+¿no?
+y de un proceso
+o de algoritmos
+que procesan
+información
+dentro de un
+de un cerebro
+que puede ser
+un cerebro humano
+o de algún animal
+de cualquier otra especie
+¿ok?
+sin embargo
+los físicos
+digamos
+cuando
+cuando surge
+la
+a ver
+una de las teorías
+más exitosas
+en física
+en términos
+de sus aplicaciones
+aplicaciones
+en la electrónica
+todo lo que tenemos
+en la electrónica
+desde
+sus comienzos
+hasta hoy
+son fruto
+de la
+mecánica cuántica
+entonces
+muchos
+físicos
+estaban tan perplejos
+por la mecánica cuántica
+que postulaban
+que
+postulaban
+que
+en el mundo cuántico
+más que hablar
+de materia
+tendrías que hablar
+de información
+y esa información
+de alguna manera
+produce
+o genera
+el sustrato material
+entonces la pregunta
+que le hacían a Einstein
+todo el tiempo
+era
+si la luna
+está allí
+cuando no la miramos
+es decir
+la luna
+está ahí
+cuando la miramos
+si vemos la luna
+la luna llena
+está allí
+pero cuando no la miramos
+está allí
+o no está allí
+entonces
+para explicar un poco
+lo contradictorio
+de la mecánica cuántica
+Einstein
+que se negaba a esto
+para Einstein
+la luna estaba allí
+independientemente
+de que la miramos
+o no
+pero
+el tema
+del entrelazamiento
+cuántico
+de dos partículas
+que están separadas
+años luz
+un cambio en una
+genera un cambio en otra
+para él
+era fantasmagórico
+él decía
+spooky action
+at a distance
+es decir
+acción fantasmal
+a distancia
+decía
+es imposible
+que ocurra
+porque debe viajar
+información
+de un lado
+de una partícula
+a la otra
+y nada puede viajar
+y eso no es instantáneo
+y nada puede viajar
+más rápido
+que la
+que la velocidad
+de la luz
+por lo tanto
+de acuerdo a su teoría
+de la relatividad
+general
+esa teoría
+estaba incompleta
+estaba errada
+de alguna manera
+la mecánica cuántica
+estaba incompleta
+y tenía que ser
+completada
+y él pasó
+el resto
+una vez ya famoso
+en Princeton
+pasó el resto
+de su día
+a tratar de probar
+de completar
+la teoría
+y probar
+porque estaba
+eso tiene que ver
+con la quinta ley
+de entrelazamiento cuántico
+y unicidad de conciencia
+como tal
+entrelazamiento cuántico
+exacto
+y bueno
+los físicos
+han pasado 100 años
+han pasado 100 años
+y los físicos
+experimentales
+han confirmado
+lo que tontea
+la mecánica cuántica
+una y otra vez
+es un tema
+que todavía
+se sigue debatiendo
+pero la evidencia
+empírica
+de que
+aparentemente
+el sustrato
+de información
+el que está
+subyacente allí
+es poderoso
+ok
+si bien
+es contraintuitivo
+para nosotros
+para nosotros
+es muy difícil
+de poder
+aceptar
+esa postura
+ok
+entonces
+hablando de representación
+y realidad
+en la corriente principal
+de investigación
+en ciencia cognitiva
+inteligencia artificial
+en la física
+la luna
+si está allí
+cuando la miramos
+o sea
+macrocosmos
+como realidad objetiva
+es decir
+la corriente principal
+en ciencia cognitiva
+en IA
+en inteligencia artificial
+y en la física
+asume que el mundo
+representado
+no solamente
+si es real
+sino que además
+es independiente
+al observador
+ok
+y hablando
+de la caverna
+de Platón
+que uno de ustedes
+mencionó recién
+no sé quién fue
+quién fue
+yo profesor
+si
+su nombre
+Javier Navarro
+Javier
+efectivamente
+la visión de Platón
+postula que la conciencia
+es una prioridad
+fundamental del universo
+es decir
+precede el sustrato material
+esta es la visión
+idealista del universo
+ya que Platón
+postulaba que la idea
+es decir
+la conciencia
+precede a la forma
+esta visión
+ha sido rechazada
+por la neurociencia
+y por la física
+si bien la física cuántica
+pone la visión
+materialista
+en tela de juicio
+en aparente
+a favor de la visión
+idealista
+o sea
+hay
+hay algunas interpretaciones
+de la mecánica cuántica
+para nada
+son mainstream
+¿cierto?
+la más mainstream
+yo diría
+es la interpretación
+de Copenhague
+que es la original
+y una nueva
+que es la teoría
+del multiverso
+¿ok?
+no voy a entrar
+en detalles
+porque nos escapa
+mucho a lo que
+nos convoca
+en esta clase
+pero
+también está
+la teoría
+de la simulación
+o sea que
+hay físicos
+que trabajan
+en temas
+de
+que tienen que ver
+con mecánica cuántica
+y con
+campos cuánticos
+digamos
+y hablan
+de esa tercera postura
+pero eso para nada
+es mainstream
+en la física
+hoy en día
+porque va muy a contrapelo
+de ver la física
+como ciencia
+digamos
+ciencia de la materia
+propiamente tal
+en su origen
+¿ok?
+ahora
+la física cuántica
+contradice esa postura
+y por ello
+se ha asumido
+que en el macrocosmo
+las leyes
+de la física cuántica
+colapsan
+y son relevadas
+por las leyes
+de la física clásica
+neutonana
+en el macrocosmo
+¿ok?
+entonces
+en el fondo
+hay un físico
+muy famoso
+Richard Feynman
+que hacía clases
+en Caltech
+y que solía venir
+a Brasil
+pero tenía colegas
+en Brasil
+y era famoso
+porque aprendió
+a tocar el bongo
+y sus colegas
+americanos
+les fascinaba
+porque era muy
+era un tipo
+con una personalidad
+muy excéntrica
+en ese sentido
+y él
+y en general
+es una postura
+muy muy
+usada
+en física
+él acuñó
+una frase
+que es muy famosa
+que en inglés
+es
+shut up
+and calculate
+es decir
+le decía
+a sus estudiantes
+miren
+la interpretación
+de la física cuántica
+olvídense de eso
+porque eso es
+pérdida de tiempo
+¿ok?
+lo único que nos interesa
+acá
+es que funciona
+para hacer nuestros cálculos
+y de origen
+al transistor
+y de origen
+a una serie
+de aplicaciones
+a las telecomunicaciones
+como las vemos hoy
+¿cierto?
+ha sido una de las teorías
+más exitosas
+en términos de aplicaciones
+comerciales
+en la humanidad
+en los últimos 100 años
+así que
+ocúpenla
+calculen
+y respecto
+de lo que significa
+filosóficamente
+o la interpretación
+de la mecánica cuántica
+shut up
+and calculate
+o sea
+cállense
+olvídense
+y sencillamente
+úsenla
+y calculen
+¿ok?
+eso es lo que él planteaba
+¿y por qué?
+es porque aparentemente
+la mecánica cuántica
+estaría en contradicción
+con
+que la postura
+de que el macrocosmos
+y las leyes de la física
+parten del sustrato
+material
+y aparentemente
+la física
+cuántica
+dice
+no
+está partiendo
+de un sustrato
+informacional
+no le llama
+conciencia
+pero le llama
+informacional
+donde todas las posibilidades
+están presentes
+como una distribución
+de probabilidades
+que son modeladas
+con la ecuación
+de Schroeder
+para los que
+estudiaron
+física
+en sus cursos
+de ingeniería
+que es la
+la típica
+función
+de onda
+¿ok?
+que no predice
+dónde están
+las partículas
+sino que predice
+solamente
+nos da información
+nos da probabilidad
+de dónde puede estar
+algo
+pero no
+con certeza
+dónde puede estar
+¿ok?
+bien
+quizás
+es el momento
+para hacer una pausa
+porque
+me dijo
+la coordinadora
+que se hace una pausa
+a las 7 de 30 minutos
+¿es correcto esto?
+sí profesor
+sí
+así es
+bien
+entonces
+les propongo
+que hagamos una pausa
+y volvemos
+a las 7 y media
+¿qué les parece?
+perfecto
+ok
+ok
+nos vemos
+más ratito
+entonces
+¿ok?
+7 y media
+perfecto
+gracias
+gracias
+ok
+estamos de vuelta
+¿me escuchan?
+sí
+lo escuchamos
+muy bien
+vamos a continuar
+entonces
+habíamos quedado
+acá
+¿cierto?
+y entonces
+para
+el tema
+de la representación
+es importante
+también tener en cuenta
+algunos aspectos
+de la física
+como lo habíamos
+descrito
+antes de salir
+al recreo
+¿cierto?
+entonces
+continuando
+con lo que habíamos visto
+junto
+antes del recreo
+¿cierto?
+la
+la física
+distingue entre
+la física
+a nivel subatómico
+descrita por la mecánica cuántica
+y aquella que es la física clásica
+newtoniana
+que
+describe
+el macrocosmos
+o sea
+el mundo
+a nivel
+al nivel
+del macrocosmos
+en el cual nosotros
+nos desarrollamos
+¿ok?
+y postula
+que
+la
+ecuación de onda
+que describe
+la ecuación de Schrodinger
+que
+nosotros habíamos visto
+antes de salir al recreo
+cuando pasamos
+del mundo subatómico
+al
+al
+al estrato
+macro
+macro
+más macro
+¿cierto?
+en donde nosotros
+nos desenvolvemos
+esa onda
+colapsa
+¿no?
+en donde
+en lugar de describir
+un mundo
+que es más bien
+informacional
+pasamos a un mundo
+material
+como el que
+conocemos
+acá
+y a eso
+se le llama
+el colapso
+de la
+función de onda
+¿no?
+y una vez que
+colapsa la función de onda
+entramos en lo que se llama
+la clásicalidad
+del macrocosmos
+o sea que esa clásicalidad
+del macrocosmos
+que es lo que nosotros
+percibimos como objetos
+concretos
+y no como
+funciones de probabilidad
+o información
+propiamente tal
+emerge cuando la función
+de onda colapsa
+el término técnico
+acá es
+decoheres
+la decoherencia
+¿cierto?
+a través de la interacción
+de un sistema cuántico
+con su entorno
+con otro sistema
+y ese es el gran problema
+que tienen
+los desarrolladores
+digamos
+de los primeros
+computadores cuánticos
+que es que
+para poder preservar
+las propiedades
+de la mecánica cuántica
+que hacen que
+el poder de computación
+de esos computadores
+sea
+tan tan
+tan mayor
+a lo que podemos
+obtener con el mayor
+el computador clásico
+más performante
+esas condiciones
+se deben mantener
+o sea
+las condiciones
+que rigen
+en el mundo subatómico
+en el fondo
+deben mantenerse
+porque si colapsa
+la función de onda
+entonces entramos
+perdemos
+esa propiedad
+y ya no podemos
+hacer uso
+del potencial
+exponencial
+en cuanto a capacidad
+de cómputo
+de un computador cuántico
+y el dilema
+sobre si el mundo
+que observamos
+es real o no
+y sobre quien crea
+en última instancia
+la realidad observada
+hoy
+es muy controversial
+en la física
+¿cierto?
+y tiene que ver
+con este tema
+de conciencia
+que nos va a ocupar
+también en el curso
+según la física
+la conciencia
+no es una propiedad
+fundamental
+eso es lo mismo
+que habíamos visto
+en el caso
+de la ciencia cognitiva
+y el enfoque
+ingenieril
+de la inteligencia
+artificial
+que rige hasta hoy
+la materia
+y energía
+son equivalentes
+de acuerdo
+a la famosa
+ecuación de Einstein
+¿cierto?
+pero a nivel subatómico
+descrito por la física
+cuántica
+el universo
+se comporta
+de una manera
+extraña
+que contradice
+cómo se comporta
+el mundo material
+descrito por la mecánica
+gráfica newtoniana
+y aquí
+hay opiniones
+encontradas
+el padre
+de la mecánica
+cuántica
+es Max Planck
+uno de los físicos
+más connotados
+celebrado en Alemania
+en honor a él
+todos los institutos
+de investigación
+de punta
+no sé cuántos ahora
+pero sin duda
+son más de 50
+puede ser
+puede ser
+más de 100
+y en áreas
+muy particulares
+digamos
+de la ciencia
+llevan todos
+el nombre de Max Planck
+por justamente
+esa contribución
+que hizo él
+al crear esta teoría
+y para él
+la conciencia
+para Max Planck
+la conciencia
+sí era una propiedad
+fundamental del universo
+¿ok?
+Einstein
+como les indiqué
+antes de salir
+al recreo
+pasó 28 años
+de su vida
+intentando probar
+lo contrario
+a través de una teoría
+de campo unificado
+como una teoría
+del todo
+sin poder conseguirlo
+para Einstein
+tenía que existir
+algo incompleto
+en la teoría
+de la mecánica cuántica
+y se pasó 28 años
+una vez que era famoso
+en Princeton
+y no lo logró conseguir
+según los físicos teorios
+de hoy
+el comportamiento extraño
+a nivel subatómico
+colapsa en cuanto
+abandonamos el mundo
+subatómico
+y discusiones
+sobre la naturaleza
+de la realidad
+son consideradas
+inconducentes
+y son relegadas
+al dominio
+de la filosofía
+y no al dominio
+de la física
+ortodoxa
+y a esa postura
+de los físicos
+ortodoxos
+se la denomina
+la postura
+Shut Up and Calculate
+que les expliqué
+antes de salir al recreo
+propuesta por
+Richard Feynman
+en los años 60
+famoso
+físico
+y padre
+de un área
+de la física
+llamada
+electrodinámica
+cuántica
+de cortículas
+entonces
+la física cuántica
+postula
+que el mundo
+microscópico
+es descrito
+por funciones
+de ondas
+de probabilidades
+de donde
+se puede encontrar
+una partícula
+lo que ha sido
+comprobado
+experimentalmente
+sin excepción
+pero la realidad
+en el macrocosmos
+es
+en el microcosmos
+perdón
+es información
+dada por ondas
+de funciones
+de probabilidad
+acerca de donde
+se puede encontrar
+una partícula
+y eso sugeriría
+que a nivel subatómico
+el mundo material
+no existe
+sino que es descrito
+por campos
+que no describen
+partículas
+sino que es
+información
+¿ok?
+entonces
+esta teoría
+informacional
+del universo
+postula
+que la realidad
+no es material
+sino que más bien
+informacional
+y la pregunta
+acá es
+bueno
+¿sugiere esto
+que la conciencia
+es una propiedad
+fundamental?
+y para algunos físicos
+sí
+y para muchos otros
+no
+¿ok?
+ahora
+esta discusión
+es importante
+porque tiene
+un correlato
+inmediato
+con algo
+que va a jugar
+de aquí
+hoy en día
+todavía no lo juega
+pero de aquí
+yo estimo
+20
+máximo 30 años
+más
+si lo va a jugar
+cuando
+se haga la realidad
+la realidad
+este nuevo
+paradigma
+computacional
+que va a relegar
+y va a dejar
+en el baúl
+de los recuerdos
+digamos
+a la computación clásica
+como la conocemos hoy
+que es la
+mecánica cuántica
+¿ok?
+y vamos a entrar
+en un tema
+que nos concierne aquí
+en términos de representación
+de conocimientos
+que tiene que ver
+con realidad
+y conciencia
+¿profesor?
+¿sí?
+¿podría
+ahondar
+un poquito
+sobre
+el tema
+de que
+el mundo material
+no existe
+sino que está
+escrito por campos
+que no escriben
+partículas
+sino que
+informaciones
+de centro
+no lo podemos
+ver
+pero de alguna manera
+lo podemos
+describir
+y a eso
+se refiere
+con la información
+sí
+sí
+porque
+esa
+la ecuación
+de onda
+en el fondo
+no te describe
+dónde está
+la partícula
+te describe
+un ámbito
+dónde puede estar
+sí
+te describe
+es una distribución
+de probabilidad
+sí
+sí
+sí
+sí
+pero por eso
+lo fundamental
+sería la información
+es porque
+solo puedo
+describir
+pero no
+no puedo ver
+claro
+exacto
+y lo extraño
+y es algo que
+cuando el mundo
+subatómico
+hace una transición
+al mundo
+macroscópico
+hay una zona
+ahí en donde
+esta ecuación
+donde colapsa
+y surge
+la clásicalidad
+la clásica
+la mecánica
+nutronera
+funciona
+la mecánica
+como las
+percibimos
+nosotros
+los objetos
+que vemos
+todos
+sin embargo
+¿cuándo
+ocurre
+el umbral
+de dónde
+ocurre
+esa transición
+no
+no se conoce
+exacto
+entonces
+por mucho tiempo
+y esto tiene que ver
+con biología cuántica
+por mucho tiempo
+se asumió
+que ya
+a nivel de moléculas
+era ya
+muy macroscópico
+que allí
+no podían haber
+efectos cuánticos
+que estuvieran
+jugando
+un rol importante
+y sin embargo
+en la biología cuántica
+se asume
+que
+sí es posible
+que ocurran
+y yo les mencioné
+dos
+en biología
+las enzimas
+son fundamentales
+en muchos procesos
+bioquímicos
+el más importante
+de todo
+es la
+digestión
+pero por ejemplo
+en temas
+de cómo una oruga
+se transforma
+en mariposa
+es algo fenomenal
+o sea
+imagínense
+la oruga
+es un gusano
+que se
+arrastra
+por el barro
+que no puede volar
+y que en algún momento
+de su existencia
+de su ciclo de vida
+es una transición
+y todas
+todas esas proteínas
+que forman esos tejidos
+se tienen que descomponer
+a través de unas enzimas
+que
+a una velocidad increíble
+son capaces de liberar
+cadenas de aminoácidos
+para formar nuevos tejidos
+y crear una mariposa
+entonces
+allí
+hay un proceso
+que se llama
+un proceso
+un efecto
+son tres los efectos
+clásicos
+de la mecánica cuántica
+el entrelazamiento
+el efecto túnel
+y la superposición cuántica
+y en este caso
+es el efecto túnel
+el que está jugando
+un rol importante
+aquí en descomponer
+rápidamente
+esas cadenas
+de aminoácidos
+y volver a crear
+unas nuevas
+¿ok?
+eso en la biología cuántica
+está ya definido
+¿entiendes?
+en otros temas
+son más especulativos
+pero ahí la pregunta
+es bueno
+pero ahí ya estoy
+ya pasé el umbral
+del
+a nivel de molécula
+y ya está
+a nivel del macrocosmo
+y sin embargo
+esas propiedades
+aparentemente
+se mantienen
+no colapsan
+¿entiendes?
+y puedes beneficiar
+todo de eso
+entonces
+eso es un área
+de investigación
+en biología cuántica
+que es muy importante
+y que probablemente
+va a tener
+implicancias muy grandes
+también
+en la construcción
+de computadores cuánticos
+porque el gran desafío
+de los computadores cuánticos
+hoy
+es para no
+para que esa función
+de onda no colapse
+para mantenerte
+en el mundo informacional
+y no caer
+en la clasicalidad
+digamos
+de la física
+notoniana
+y poder tener acceso
+a esos tres efectos cuánticos
+que te dan
+un potencial de computación
+tan grande
+a través del entrelacamiento
+y la superposición cuántica
+entonces
+tienes que preservar
+esas condiciones
+y por eso
+un punto de vista
+ingenieril
+es complicado
+porque tienes que mantener
+todos esos
+todos esos componentes
+de computación cuántica
+a temperaturas bajísimas
+cerca del ser absoluto
+para asegurar
+que eso
+se
+funcione
+eso se mantenga
+claro
+eso funcione
+en el momento
+en que
+desde la biología cuántica
+podamos entender
+cómo podemos preservarla
+sin tener que tener
+esa restricción
+imagínense
+va a ser un salto
+cuántico
+valga la redundancia
+en el desarrollo
+de esos computadores
+y eso va a tener
+un impacto enorme
+como lo vamos a ver
+en el transcurso
+de este curso
+vamos a ver
+que eso va a tener
+un efecto enorme
+o sea
+si lo que ustedes ven
+hoy en términos
+de inteligencia artificial
+los sorprende
+y una vez
+que tengamos
+los primeros
+computadores cuánticos
+digamos
+hay muchos problemas
+duros
+de la inteligencia artificial
+que vamos a ver
+en este curso
+que no son
+hoy en día
+resolvibles
+a través de la computación
+clásica
+pero sí
+vamos a verlos
+resueltos
+con la computación cuántica
+entonces
+es un tema
+en donde
+esta
+investigación
+interdisciplinar
+en lo que es
+computación
+por un lado
+sistemas de computación
+en términos de arquitecturas
+de hardware
+propiamente tal
+para computación cuántica
+y por otro lado
+insights
+ciertos conocimientos
+o nuevos conocimientos
+que vengan de otras áreas
+como la biología cuántica
+y la misma mecánica cuántica
+van a
+yo creo
+van a lograr
+hacer el
+breakthrough
+es decir
+van a lograr
+hacer que ese desarrollo
+tenga lugar
+pero eso es todavía
+investigación
+de base
+en parte
+y también aplicada
+que debe ser hecha
+a nivel interdisciplinar
+en estas tres áreas
+¿ok?
+gracias
+ahora
+realidad y conciencia
+¿qué nos interesa acá?
+desde el punto de vista
+de inteligencia artificial
+para que el mundo material
+emerge
+la función de probabilidad
+debe colapsar
+a un estado único
+eliminando así
+la incertidumbre
+¿ok?
+para ello se requieren
+tres condiciones
+un observador
+una medición
+del observador
+y que la medición
+y esto es bien
+interesante
+y es realmente
+un poco
+extraño
+digamos
+la medición debe ser
+registrada
+tiene que quedar grabada
+¿ok?
+se requieren
+esas tres condiciones
+o sea
+un observador
+que ese observador
+haga una medición
+y que además
+esa medición
+quede grabada
+entonces la conciencia
+generaría
+generaría realidad
+o sea
+requiere que un observador
+consciente
+haga una medición
+y que además
+la grave
+que quede grabada
+esa medición
+si no queda grabada
+todavía no es posible hacerlo
+¿ok?
+recién ahí surge
+ese concepto de realidad
+o sea
+la realidad
+realmente ocurre
+cuando la
+la ecuación de onda
+en el fondo
+colapsa
+y salgo del mundo
+informacional
+para caer en el mundo
+material
+y ahí
+recién la realidad
+se manifiesta
+probablemente tal
+¿ok?
+ese es el concepto
+en el fondo
+y
+y la realidad
+del mundo subatómico
+se comporta
+de una forma
+bien fantasmal
+como decía Einstein
+Einstein
+acuñó esa frase
+¿no?
+spooky action
+at a distance
+o sea
+acción
+fantasmal
+a distancia
+y estos son los tres efectos
+el primero es el efecto túnel
+el efecto túnel
+significa que una partícula
+puede traspasar
+una gran barrera de energía
+sin esfuerzo
+es como que ustedes
+pasaran
+por una pared
+gruesa
+enorme
+o que llegaran
+a frente a una montaña
+y quieren pasar
+al otro lado
+entonces para pasar
+al otro lado
+tienen
+tienen dos vías
+una
+y las dos requieren
+bastante energía
+una es escalar la montaña
+hasta llegar a un
+a un collado
+llegar al collado
+y bajar al otro valle
+pasar al otro lado
+lo cual implica
+gasto de energía
+bastante grande
+pero además
+si quieren pasar
+directo por el medio
+de la montaña
+tienen que construir
+un túnel
+imagínense
+hacer un túnel
+el gasto de energía
+que ellos suponen
+en el mundo
+microscópico
+eso ocurre
+sin esfuerzo
+una partícula
+puede atravesar
+una barrera de energía
+enorme
+sin gasto
+de energía
+aparente
+¿ok?
+y los procesos
+enzimáticos
+están basados
+en ese principio
+cualquier enzima
+lo que está
+en el trasfondo
+subatómico
+ocurriendo allí
+tiene que ver
+con el efecto túnel
+¿ok?
+la superposición cuántica
+que
+es muy muy importante
+también
+en el tema
+de la computación cuántica
+es que una partícula
+puede estar
+en múltiples lugares
+a la vez
+¿ok?
+lo cual para nosotros
+es completamente inaudito
+o sea
+en el mundo clásico
+eso no
+no lo vemos
+no se observa
+sin embargo
+en el mundo subatómico
+sí
+esa es la superposición
+cuántica
+y finalmente
+el entrelazamiento
+entanglement
+que dos partículas
+pueden permanecer
+entrelazadas
+como si compartieran
+información a distancia
+en forma instantánea
+según Einstein
+era imposible
+porque tenía que haber
+un traspaso de información
+entre una partícula
+y la otra
+¿ok?
+y por lo tanto
+eso no puede ocurrir
+instantáneamente
+hay un lapso de tiempo
+en donde se transforma
+se debe
+por algún canal
+que no se sabe
+cómo es
+¿cierto?
+o cuál es
+se transmite
+esa información
+sin embargo
+no es como
+no es como funciona
+la mecánica cuántica
+la mecánica cuántica
+dice aquí no hay
+ningún traspaso
+de información
+de una partícula
+a la otra
+sino que
+al estar entrelazadas
+cualquier cambio
+en una
+inmediatamente
+tiene un cambio
+en la otra
+¿ok?
+sin traspaso
+de información
+lo cual
+para Einstein
+era sencillamente
+una cosa
+fantasmagórica
+que no podía
+no podía ser correcta
+¿no?
+y experimentalmente
+lamentablemente
+para él
+en sus ánimos
+de probar
+que la teoría
+cuántica
+está incompleta
+pasó 28 años
+de su vida
+tratando de probar
+que eso
+no era así
+y toda la evidencia
+experimental
+hasta el día de hoy
+corrobora
+que sí es así
+¿ok?
+ahora
+esto tiene que ver
+¿cierto?
+como les decía yo
+con biología cuántica
+es decir
+realidad y conciencia
+estos efectos
+que abundan
+en el mundo subatómico
+parecen tener
+repercusiones relevantes
+en el mundo macroscópico
+también
+o sea
+ese supuesto
+de que
+estos efectos
+colapsan
+estos efectos
+subatómicos
+¿cierto?
+a nivel
+subatómico
+de la mecánica cuántica
+colapsan
+una vez que yo paso
+del mundo subatómico
+de partículas subatómicas
+al mundo macroscópico
+son contradichos
+por
+por el
+por la
+la biología cuántica
+¿no?
+el efecto túnel
+como les decía
+juega un rol
+súper importante
+en
+romper cadenas
+y generar
+cadenas de aminoácidos
+para poder
+ya sea
+hacer de una aruga
+una mariposa
+o para
+para los procesos
+de digestión
+digamos
+que estaban postulados
+en la biología
+pero a nivel
+molecular
+propiamente
+nada
+no se sabía
+cómo estaba
+funcionando
+y a nivel
+más fundamental
+aún
+subatómico
+se postuló
+¿cierto?
+de que es el efecto túnel
+el que está jugando
+un rol allí
+¿ok?
+se especula
+que el efecto túnel
+también tiene
+un efecto
+en las mutaciones
+de nuestro ADN
+la superposición cuántica
+es incluso más
+más
+fundamental
+fíjense
+que sin la superposición cuántica
+no habría
+vida en la Tierra
+¿y por qué no?
+porque toda la vida
+en la Tierra
+se basa en la fotosíntesis
+en la cadena alimenticia
+todo parte
+con la fotosíntesis
+es decir
+la capacidad
+de la planta
+en sus hojas
+de poder generar
+energía
+a partir de los fotones
+que impactan
+en la hoja
+y lo que ocurre acá
+es que
+el fotón
+que es una partícula
+subatómica
+y se comporta
+como tal
+impacta en la molécula
+de la hoja
+y en la molécula
+de la hoja
+hay un reactor
+que convierte
+el reactor
+que convierte
+la energía
+del fotón
+en energía
+que es almacenada
+orgánicamente
+dentro de la
+de esta molécula
+¿ok?
+y eso
+eso se tiene
+el punto es que
+ese fotón
+tiene una cierta energía
+y para ella
+cuando impacta
+en la hoja
+impacta en el fondo
+en una molécula
+que está dentro
+de una célula
+y para ella
+eso es un universo
+enorme de grande
+y encontrar el reactor
+en donde esa
+esa reacción química
+se va a tener lugar
+es como buscar
+una hoja
+en un pajar
+porque es muy grande
+¿ok?
+es muy grande
+entonces
+la pregunta es
+¿cómo lo hace?
+o sea
+si lo hiciera serialmente
+si empezara
+a hacer un
+random walk
+en el fondo
+buscando
+buscando y probando
+por prueba y error
+gastaría toda su energía
+mucho antes
+de encontrar el reactor
+por lo tanto
+esa reacción química
+no se produciría
+pero si opera
+la superposición cuántica
+implica que ese fotón
+en paralelo
+busca
+todos los posibles
+caminos
+en paralelo
+¿ok?
+y con eso
+tiene asegurado
+que va a encontrar
+el reactor
+porque está siguiendo
+todas las posibilidades
+en paralelo
+y una vez encontrado
+el reactor
+se produce la reacción química
+y se almacena esa energía
+que después queda
+disponible
+para disposición
+de la planta
+y para que otros
+ojos animales
+puedan accesarla
+también
+y da origen
+a la vida
+en la tierra
+¿se dan cuenta?
+a través de la superposición
+cuántica
+eso se hace
+posible
+y eso
+está bastante
+descrito también
+el proceso
+de
+esto es más especulativo
+el entrelazamiento
+cuántico
+operaría también
+en el proceso
+de navegación
+en la retina
+de los ojos
+de ciertas aves
+migratorias
+eso está postulado
+pero no está
+confirmado aún
+entonces
+todo esto
+implicaría
+que de alguna manera
+hay un umbral
+hay una zona
+en donde el mundo
+subatómico
+colapsa
+el mundo macroscópico
+y aparentemente
+es más amplio
+de lo que se había
+postulado originalmente
+al menos
+la biología cuántica
+nos está dando
+indicios
+de que eso es así
+y si eso es así
+va a tener
+evidentemente
+si somos capaces
+de entender
+eso
+y plasmarlo
+en un sistema
+computacional
+va a tener
+implicancias enormes
+también para el desarrollo
+de computadores cuánticos
+de aquí
+a futuro
+¿ok?
+entonces volvemos
+a la pregunta original
+¿representamos la realidad
+como realmente es?
+y muchos de ustedes
+dijeron no
+no porque
+no necesitamos
+que la representación
+sea de toda la realidad
+¿ok?
+esta es una pregunta
+que
+en ciencia cognitiva
+en inteligencia artificial
+y en otras áreas
+de la ciencia
+y la filosofía
+ha sido ampliamente
+debatida
+¿ok?
+la pregunta acá
+es ¿podemos representar
+la realidad
+como verdaderamente es?
+según la ciencia
+cognitiva
+de corriente principal
+esto realmente
+es así
+o sea
+hasta ahora
+se asumía
+en el fondo
+que había una realidad
+objetiva allá afuera
+y que nosotros
+éramos capaces
+de poder representar
+esa realidad objetiva
+¿ok?
+y en este punto
+hay consenso
+entre cientistas cognitivos
+de corriente principal
+y también gente
+de inteligencia artificial
+¿ok?
+ellos asumen
+que la realidad
+observada es real
+y es objetiva
+aunque nuestra percepción
+de ella
+sea parcialmente
+subjetiva
+¿ok?
+aunque nuestra percepción
+parcial sea subjetiva
+es una realidad
+objetiva
+y es poder
+incluso se asume
+que una representación
+verídica de la realidad
+asegura nuestra
+supervivencia
+¿ok?
+otra corriente
+emergente
+en ciencia cognitiva
+asume que el mundo
+que nosotros
+representamos
+no es real
+y
+este cientista
+cognitivo
+bastante famoso
+Donald Hoffman
+lo van a encontrar
+en
+en
+en YouTube
+tiene varios
+varios
+ha escrito varios libros
+y él postula
+una teoría
+que es bastante distinta
+que es la teoría
+de la interfaz
+¿ok?
+y que postula
+Donald Hoffman
+él asume
+que el mundo
+que nosotros
+tomamos como real
+no es más
+que una interfaz
+del mundo real
+el cual no podemos
+ni debemos representar
+para así permitir
+nuestra supervivencia
+o sea es bastante
+que es casi
+diametralmente
+diametralmente
+opuesta
+a la visión
+de corriente
+principal
+en ciencia cognitiva
+porque él dice
+lo siguiente
+él dice
+el propósito
+de la representación
+es esconder la realidad
+no representarla
+y eso causó
+un shock
+en la
+en su
+en sus colegas
+en ciencia cognitiva
+¿ok?
+lo pueden buscar
+van a
+van a encontrar
+su teoría allí
+y pueden tener acceso
+al libro
+que le escribió
+recientemente
+que se llama
+la teoría de la interfaz
+en ciencia cognitiva
+¿ok?
+es decir
+él dice lo siguiente
+él dice
+si nosotros
+fuéramos a
+resumir la realidad
+tal y como es
+no podríamos haber
+sobrevivido
+como especie
+¿ok?
+la representación
+tiene que esconder
+la realidad
+y no representarla
+esconder la realidad
+como ella realmente es
+para asegurar
+nuestra supervivencia
+y con eso
+¿cierto?
+la analogía
+que él hace
+es la siguiente
+suponga que ustedes
+tienen un computador
+con un sistema operativo
+como los conocemos hoy
+que Apple
+fue
+la empresa
+pionera
+hace
+hace más de 30 años
+en hacer esto
+y después
+Windows fue
+al azar
+y hoy en día
+es algo
+que nosotros
+damos por sentado
+¿ok?
+antes se operaba
+todo con comandos
+¿cierto?
+por la consola
+crear un archivo
+borrarlo
+etcétera
+eso es cosa del pasado
+los informáticos
+de hace 20
+30 años
+atrás
+se acordarán
+de eso
+y para los que
+son más bien
+usuarios
+no son informáticos
+digamos
+es cosa
+de todos los días
+o sea
+si ustedes
+quieren
+borrar un archivo
+¿cierto?
+lo que hacen
+bajo la interpretación
+de esta teoría
+de la interfaz
+es van
+toman con el mouse
+hacen clic
+en el archivo
+y lo bajan
+a un simbolito
+que hay en una esquina
+de un canasto
+de papeles
+y lo borran ahí
+¿ok?
+lo que está pasando
+por detrás
+con el sistema
+de archivos
+digamos
+en el sistema operativo
+es bastante complejo
+es muy complejo
+y ustedes no necesitan
+saber eso
+¿ok?
+por lo tanto
+el objetivo
+de esa representación
+que en este caso
+es el ícono
+con el archivo
+con el ícono
+con el
+con el
+el canasto
+de papeles
+¿cierto?
+y el hecho
+de que ustedes
+lo pinchen en uno
+y lo llevan al otro
+y apretan un botón
+y se borra
+está escondiendo
+la realidad
+que es mucho
+más compleja
+¿ok?
+y eso asume
+la supervivencia
+de todos nosotros
+porque simplifica
+un proceso
+que de otra
+manera
+sería mucho
+más complejo
+¿se entiende
+el concepto
+de la teoría
+de la interfase
+de Donald Hoffman?
+Sí, profesor
+eso es lo que
+el plantel
+dice en el fondo
+no solo
+no es verídica
+la representación
+sino que esconde
+la realidad
+porque eso asegura
+nuestra supervivencia
+simplifica los procesos
+a un mundo tal
+que sea más bien
+manejable
+por nosotros
+y nos permite
+hacer cosas
+que son cada vez
+más avanzadas
+¿ok?
+entonces en términos
+de productividad
+por ejemplo
+imagínense
+si tuviéramos
+sistemas operativos
+como teníamos
+hace 30 años
+a nivel de productividad
+nuestro sería
+mucho menor
+porque teníamos
+que hacer cosas
+y preocuparnos
+de cosas
+de mucho más
+bajo nivel
+que en el fondo
+pues la interfaz
+me las está
+escondiendo
+me las automatizó
+y yo ya no tengo
+que preocuparme
+de eso
+¿ok?
+profesor
+sería como
+una especie
+de Truman Show
+¿no?
+en parte
+sí
+claro
+sería
+una forma
+de eso
+pero eso
+yo creo
+que
+una teoría
+más radical
+aunque un poco
+parecido
+a lo que usted dice
+es la teoría
+de la simulación
+que ese
+sí que sería
+el Truman Show
+no es exactamente
+lo que postura
+Donald Hoffman
+pero hay gente
+hay físicos
+que posturan
+la teoría
+de la simulación
+o sea según
+y ese sería
+el Truman Show
+que usted está
+postulando acá
+según ella
+la conciencia
+es la propiedad
+emergente del universo
+el mundo
+en que vivimos
+no es más
+que una simulación
+de una realidad mayor
+a la cual
+no tenemos acceso
+agentes naturales
+de una misma especie
+como nosotros
+los seres humanos
+generan los mismos
+tipos de realidades
+que aseguran
+nuestro desenvolvimiento
+en una realidad
+virtual común
+que solamente existe
+como representación
+de algo infinitamente
+más complejo
+¿ok?
+entonces eso
+es llevar la teoría
+de la interfaz
+a una categoría
+mucho más
+mucho mayor
+en el fondo
+con esta teoría
+de la simulación
+¿ok?
+¿no está como en Matrix?
+¿algo así?
+algo así
+exactamente
+sí
+pero yo creo
+que está más
+en ambas películas
+si bien no hablan
+de teoría de simulación
+y mucho menos
+en ambas
+se adoptan
+muchos conceptos
+que venían
+de la teoría
+de la simulación
+propiamente
+yo también
+por lo que
+está comentando
+profesor
+¿pudieras decir
+entonces
+según esta última teoría
+que
+somos seres
+muy limitados
+y prácticamente
+esa realidad
+que no podemos ver
+es tan compleja
+que pudiera ser
+infinita
+y trascendente
+algo mucho más allá
+claro
+pero por otro lado
+cuando tú dices
+que somos muy limitados
+en el fondo
+más bien
+esa interfaz
+sobre todo
+con la teoría
+de Hoffman
+en lugar de limitar
+nos está dando
+más herramientas
+¿te das cuenta?
+porque nos quita
+el tiempo
+o nos libera
+el tiempo
+que tendríamos
+que ocupar
+en hacer cosas
+de más bajo nivel
+que no necesitamos hacer
+que la interfaz
+se está haciendo
+por nosotros
+y libera tiempo
+para hacer cosas
+de más alto nivel
+¿se entiende o no?
+sí, sí, se entiende
+o sea, al final
+no juega en nuestras contras
+juega al final del día
+juega a nuestro favor
+¿ok?
+¿Profesor?
+sí
+¿y en qué se diferenciaría
+en el primer enfoque
+en el que nosotros
+como que accedemos
+a la realidad
+tal como es
+pero
+al mismo tiempo
+nosotros
+constantemente
+hacemos simplificaciones
+del mundo
+o no sé
+como atajos cognitivos
+para
+para llegar a
+a
+a conclusiones
+rápidamente
+igual estamos
+haciendo
+simplificaciones
+¿en qué se diferenciaría
+eso de
+de lo
+de la interfaz?
+a ver
+ambas teorías
+tratan de explicar
+lo que
+lo que observamos
+desde ese punto de vista
+no es que
+estemos explicando
+realidades distintas
+solo que una parte
+de
+de un
+de un
+de un
+de una posición
+mainstream
+de la orienta principal
+que dice que la conciencia
+emerge del sustrato material
+en términos
+de que otra
+parte
+de lo contrario
+parte
+no le llama
+conciencia
+¿cierto?
+sino que más bien
+habla de una teoría
+informacional
+a nivel
+a nivel
+más
+microscópico
+que después
+se transforma
+en una realidad
+material
+a nivel
+macroscópico
+entonces
+el punto
+es
+cuál es el origen
+de todo esto
+¿me entiendes?
+porque si
+si la corriente principal
+tiene
+tiene
+tiene
+sentido
+tiene que explicar
+cómo entonces
+puede
+encontrar una interpretación
+de la mecánica cuántica
+que es real
+que
+los físicos
+han pasado
+100 años
+tratando de decir
+que no es real
+muchos de ellos
+que está incompleta
+que no funciona
+y sin embargo
+sí funciona
+entonces
+dado eso
+¿por qué
+Richard Feynman
+y muchos otros físicos
+dicen
+shut up and calculate?
+porque meterse
+dada toda esa evidencia
+¿cierto?
+meterse
+y tratar de explicar eso
+empieza a remover
+los cimientos
+de todo el castillo
+que estaba
+por detrás
+digamos
+en términos de la física
+además
+al final del día
+un punto de vista
+más pragmático
+lo que interesa
+es que
+los cálculos
+que tú haces con ellas
+funcionen
+y de hecho
+funcionan
+y como les decía
+atrás
+ha tenido
+uno de los mayores
+impactos
+en términos
+de desarrollo
+tecnológico
+en los últimos
+100 años
+nos ha dado
+las telecomunicaciones
+como las entendemos hoy
+toda la electrónica
+con todos los grandes logros
+digamos
+entonces
+desde un punto de vista
+más pragmático
+meterse en el tema
+de la
+interpretación
+de lo que es
+la mecánica cuántica
+es para muchos
+inconducente
+como decía acá
+¿no?
+pero yo creo que es
+en mi opinión personal
+es más bien
+un
+un certificado
+pobreza
+como dicen los alemanes
+¿no?
+porque
+esos temas
+también tienen que ser
+abordados
+por
+por
+por la física
+por ejemplo
+en este caso
+y no
+no deben ser relegados
+solamente al tema
+de la
+de la filosofía
+por ejemplo
+y lo mismo
+con la ciencia cognitiva
+¿ok?
+entonces no es que estén
+explicando mundos distintos
+el mundo que están
+tratando de explicar
+es lo mismo
+el que observamos
+pero como lo estamos
+explicando
+son teorías divergentes
+no sé si me explico
+profesor
+a mí me hace
+como sentido
+no sé si guarda relación
+pero me hace mucho sentido
+como con la
+con este
+experimento que se hizo
+respecto a la doble
+rendija
+en que
+finalmente
+se trata
+de emular
+el comportamiento
+de un electrón
+pasando por dos rendijas
+y cuando
+el observador
+está
+observando
+se comporta
+como una onda
+y cuando no observa
+se comporta
+como una partícula
+entonces
+finalmente
+hace ilusión
+que la realidad
+se genera
+a partir
+de
+de cómo
+el observador
+es capaz
+de visualizar
+esa realidad
+sí
+sí
+entonces
+la inteligencia artificial
+de cierta forma
+no sería capaz
+de
+de generar
+una realidad
+si no es consciente
+de los inputs
+que está recibiendo
+claro
+esa es la consecuencia
+lógica
+como usted
+efectivamente
+pero siguiendo
+esa línea
+entonces
+la realidad
+no existe
+hasta que se mide
+siguiendo la línea
+cuántica
+exacto
+la realidad
+material
+digamos
+hablemos
+de
+una realidad
+de información
+que igual existe
+previo a la existencia
+de dónde está la posición
+claro
+la realidad material
+tú tendrías razón
+en esa
+en ese
+juicio que acabas de hacer
+la realidad material
+recién
+se manifiesta
+en ese momento
+pero según
+la teoría cuántica
+entonces
+hay
+hay una etapa
+anterior
+que una
+un mundo más
+no material
+sino que más bien
+informacional
+¿se entiende?
+que también
+a ver
+para nosotros
+es difícil poder
+es inasible
+para nosotros
+no lo podemos tocar
+no lo podemos sentir
+no lo podemos percibir
+pero
+la teoría lo postula
+y la teoría
+ha sido muy exitosa
+¿entiendes?
+y todos los experimentos
+no la han refutado
+la han corroborado
+entonces
+debemos asumir
+de que tiene algo
+de
+de sentido
+esa postura
+¿ok?
+muy bien
+entonces
+vamos a entrar
+al tema de agencia
+y conciencia
+y esto tiene que ver
+con
+ya entramos
+en terreno
+en terreno
+más concreto
+de
+de
+de inteligencia
+artificial
+inteligencia
+artificial
+¿tenemos los humanos
+libre albedrío
+o qué dicen ustedes?
+no
+y por
+a ver
+¿por qué no?
+yo creo que
+por las mismas bases
+de la biología cuántica
+estamos limitados
+a nuestra
+realidad
+material
+ok
+dependiendo
+de cómo
+denominamos
+el albedrío
+o la decisión
+podemos simplemente
+ser una cascada
+de reacciones
+bioquímicas
+claro
+que están sujetas
+sí a la física cuántica
+claro
+entonces
+hay cierto
+caos
+e impredictibilidad
+pero estamos
+igual amarrados
+a esa realidad
+cuántica
+sí
+y
+¿quién tiene otra opinión?
+¿quién piensa
+que sí tenemos
+libre albedrío?
+yo
+yo
+pienso que sí
+en un ámbito
+limitado
+ok
+hay un ámbito
+que uno no puede
+superar
+por ejemplo
+uno no puede ser
+como Superman
+por tema físico
+y salir volando
+si no puedo decidir
+quiero volar
+si me podría subir
+arriba de un avión
+y volar
+pero por mí mismo
+por mi cuerpo
+no puedo volar
+no lo puede
+tomar ciertas decisiones
+que tienen además
+ciertas probabilidades
+de estar acorde
+o no acorde
+con los objetivos
+que uno tenga
+pero
+pero
+pero dentro de un ámbito
+yo creo que sí
+uno tiene libre
+albedrío
+que no es
+determinística
+ok
+muy bien
+bueno acá
+los expertos
+digamos tanto filósofos
+como cientistas cognitivos
+gente de vida
+etcétera
+son de diversas opiniones
+ok
+porque veamos
+que
+que es un agente natural
+ya no artificial
+ok
+que es un agente natural
+es un actor
+dotado de agencias
+¿qué significa eso?
+significa que ese actor
+tiene la capacidad
+de representar el mundo
+actuar en el mundo
+y modificar el mundo representado
+ok
+entonces la pregunta acá es
+ok
+si eso es un agente natural
+si lo vamos a definir
+la pregunta ahora es
+agencia natural
+y libre albedrío
+y la pregunta acá es
+¿el agente ejecuta
+un programa predeterminado
+por quien lo creó?
+¿o es el agente capaz
+de actuar libremente?
+al final del día
+ese es el test
+que tenemos que
+correr
+¿cierto?
+entonces uno
+uno puede argumentar
+y decir
+ok
+en atención artificial
+no es un agente natural
+pero sí
+y ya lo vamos a definir
+en un minuto más
+que es un agente natural
+es un agente artificial
+¿cierto?
+pero nosotros
+como agentes naturales
+claramente podemos
+tenemos la capacidad
+de representar el mundo
+independientemente
+que esa realidad
+sea la real
+o sea una interfaz
+o sea todo lo que hablamos
+en la primera parte
+del curso ¿cierto?
+somos capaces
+de representar
+ese mundo
+al menos parcialmente
+¿ok?
+y somos capaces
+de actuar en el mundo
+y de modificar
+el mundo representado
+y Donald Hoffman diría
+que para actuar
+en el mundo
+y sobrevivir en él
+esa representación
+no debe ser verídica
+sino que debe
+esconder la realidad
+¿ok?
+eso es lo que él dice
+y nosotros
+para sobrevivir
+en el mundo
+debemos actuar en él
+y poder modificarlo
+¿ok?
+eso es lo que nosotros
+hacemos
+y la pregunta
+si tenemos libre
+albedrío o no
+al final del día
+se traduce
+a si estamos
+estamos corriendo
+un programa predeterminado
+o no
+y que como decía
+su compañero acá
+ese programa
+predeterminado
+puede ser definido
+en términos de
+reacciones bioquímicas
+en el cerebro
+que nos llevan
+a tomar tales
+o cuales decisiones
+¿ok?
+o bien
+es el agente
+capaz de actuar
+libremente
+esa es la gran pregunta
+lo vamos a dejar
+en puntos suspensivos
+por ahora
+ahora
+¿qué es un agente artificial?
+un agente artificial
+es un actor
+dotado de agencia
+es decir
+de la capacidad
+de representar el mundo
+actuar en el mundo
+y modificar el mundo
+representado
+¿ok?
+entonces
+la pregunta es
+ese actor
+artificial
+ese agente artificial
+¿tiene libre albedrío?
+entonces la pregunta
+acá es
+bueno
+la gente
+ejecuta
+un programa
+predeterminado
+por quien lo creó
+pero es el agente
+capaz de actuar
+libremente
+como HAL 9000
+¿se acuerdan
+de HAL 9000 o no?
+I can't let you do that
+¿cómo?
+Odisea del espacio
+es la línea que le dice
+cuando se niega
+a hacerle caso
+al astronauta
+¿no?
+claro
+entonces
+él
+explica
+no todos vieron
+aquello
+la película
+de Stanley Kubrick
+Odisea del espacio
+¿ok?
+¿qué pasó con el
+¿quién era HAL 9000?
+el computador
+que manejaba
+la nave espacial
+el computador
+que manejaba
+la nave espacial
+¿y qué pasó?
+¿se tomó
+decisiones propias
+se reveló o no?
+sí
+¿y cómo se enteró
+de que
+de que
+de que los astronautas
+lo estaban conspirando
+de alguna manera?
+tenía sensores
+y micrófonos
+en todas partes
+claro
+pero los dos astronautas
+como sabían eso
+sabían que HAL tenía
+esa capacidad
+se fueron a una
+a una sala
+desde la cual
+era imposible
+que los escuchara
+pero le leía
+los labios
+creo
+exacto
+le leyó los labios
+y por esa vía
+se enteró
+exactamente
+y se reveló
+entonces
+¿es eso
+un efecto
+de libre alandrío
+y cómo lo podemos
+implementar?
+ya vamos a ir
+a esa pregunta
+en un minuto más
+entonces
+o bien
+es un agente artificial
+un agente sin conciencia
+es decir
+un mero zombie
+ok
+y fíjense que
+en ciencia cognitiva
+esta pregunta
+esto es en términos
+del agente artificial
+o sea
+si yo les digo
+el agente artificial
+tiene libre alandrío
+eso es más difícil
+de sostener
+¿por qué?
+porque al final del día
+alguien lo programó
+y ustedes me pueden decir
+bueno pero
+a través de machine learning
+cierto
+aprendizaje automático
+él a partir
+de un programa inicial
+él puede autoprogramarse
+¿o no?
+en teoría
+eso podría ser factible
+o sea
+que a partir
+de un programa inicial
+que le dio ciertas capacidades
+ese agente artificial
+sea capaz de autoprogramarse
+si se autoprograma
+él mismo está creando
+código adicional
+que le da ciertas capacidades
+nuevas
+¿ok?
+está aprendiendo
+en el fondo
+a partir de
+un aprendizaje inicial
+que se lo puede
+haber inyectado
+un humano
+¿ok?
+o incluso puede
+aprender
+a partir de un set
+de datos inicial
+como es hoy
+con
+con mucho de los
+de los
+de las arquitecturas
+de
+LLM
+como
+ChartGPT
+¿cierto?
+que a partir
+de un cierto conjunto
+de datos
+con un humano
+que lo entrenó
+siempre tiene que haber
+un proceso
+de entrenamiento inicial
+que es costoso
+puede costar
+millones y millones
+de dólares
+entrenar estos
+estos sistemas
+de inteligencia artificial
+de deep learning
+pero a partir de allí
+es una caja de Pandora
+¿entienden?
+porque
+las conclusiones
+a las cuales llega
+el
+esa arquitectura
+de LLM
+esa inteligencia artificial
+en el fondo
+es para quien la programó
+absolutamente
+no trazable
+es completamente
+caja negra
+para él
+no puede
+no pueden hacer
+una trazabilidad
+hacia atrás
+¿ok?
+entonces
+también es
+debatible
+en la medida
+que él puede
+aprender
+por sí mismo
+más allá
+de lo que
+le inyectó
+en términos
+de conocimiento
+o de datos
+en este caso
+el programador
+inicial
+el humano
+que lo creó
+en el fondo
+entonces
+para muchos
+digamos
+la primera
+pregunta
+es si
+el
+agente natural
+tiene el libro
+del vendido
+o no
+ahí
+los cientistas
+cognitivos
+se dividen
+en dos
+bandos
+unos dicen
+que sí
+otros dicen
+que no
+los que dicen
+que sí
+tiene
+es porque
+por mucho
+que hayan
+estas reacciones
+bioquímicas
+que tú decías
+que nos fuese
+o nos
+nos lleven
+a tomar
+ciertas decisiones
+hay un
+mecanismo
+de
+hay un
+loop
+de anticipación
+¿ok?
+que yo
+la primera vez
+que lo
+lo escuché
+esto
+lo escuché
+de mis
+colegas
+de ciencia
+cognitiva
+en Alemania
+en Alemania
+ellos me decían
+la anticipación
+eso significa
+un bucle
+un bucle
+de
+anticipación
+es decir
+como que se toma
+una decisión
+inicial
+pero antes
+de que se manifieste
+se hace una
+retroalimentación
+hacia atrás
+de manera que
+esa decisión
+pueda ser
+revisada
+¿se entiende?
+y ese bucle
+puede tener más
+de un bucle
+puede tener más
+de un ciclo
+¿ok?
+y
+por esa vía
+entonces tú puedes
+tú puedes
+contrarrestar
+ciertas
+ciertas acciones
+entonces
+alguien de
+alguien con
+mecha corta
+en el fondo
+¿cierto?
+es alguien que tiene
+poca
+poca
+poca
+de esta
+anticipación
+es decir
+tiene
+tiene como
+un bucle
+o dos
+rápidamente
+toma la decisión
+y actúa
+más bien
+por impulso
+en circunstancia
+es que alguien
+que no
+es capaz
+de
+revisar
+los efectos
+que eso puede
+tener
+y
+revocar
+esa decisión
+¿ok?
+tempranamente
+sin que
+el efecto
+que puede ser
+positivo o negativo
+se manifieste
+¿ok?
+entonces
+eso en
+ciencia cognitiva
+no está
+no está
+claro
+o sea
+hay
+hay
+cientistas
+bastante
+reputados
+que mantienen
+lo que
+su compañero
+acaba de decir
+que somos
+una
+unos seres
+dominados
+por procesos
+bioquímicos
+que no podemos
+controlar
+y por esa
+vida
+entonces no habría
+opción
+de
+por otra
+parte
+hay cientistas
+cognitivos
+que a través
+de este
+mecanismo
+que les
+acabo de
+explicar
+¿cierto?
+se produce un proceso
+de aprendizaje
+y de
+de retroalimentación
+que hace que
+nosotros podamos
+revisar
+nuestras
+nuestras
+decisiones
+y eso
+eso tiene su origen
+en
+en nuestra cultura
+en lo que vamos
+aprendiendo
+al mundo
+y
+bueno
+yo no soy psicólogo
+en ese sentido
+pero en tipos de
+personalidades también
+que también puede
+aprenderse
+en la medida
+que esos comportamientos
+sean negativos
+para nuestro desarrollo
+¿ok?
+ahora
+disculpa
+no sé
+si tiene
+importancia
+pero
+¿y qué ocurre
+con las
+como
+las excitaciones
+externas?
+por ejemplo
+el ambiente
+cuando uno está
+o sea
+la gente natural
+está en un
+medio ambiente
+que en el fondo
+también las decisiones
+se van retroalimentando
+del ambiente
+y va aprendiendo
+y va tomando
+otras decisiones
+mientras que la gente
+artificial
+está como limitada
+a un set de datos
+y
+como más
+que le permite
+retroalimentarse
+quizás menos
+no sé si eso también
+es una
+un factor
+de análisis
+por supuesto
+claro
+el gran
+el gran
+pero ahí tú me estás
+haciendo la comparación
+entre agentes
+artificiales
+y agentes naturales
+¿cierto?
+claro
+porque la gente natural
+en el fondo
+también tiene como más
+aleatoriedad
+o sea
+en el fondo
+como que
+por ejemplo
+el clima
+o sea
+hay muchos
+muchos factores
+que son externos
+que también
+condicionan
+las decisiones
+que se toman
+en el fondo
+pero también
+retroalimentan
+entonces al final
+aprendiendo
+de las decisiones
+tanto invierno
+verano
+un montón de factores
+que en el fondo
+van retroalimentando
+a la gente natural
+mientras que la gente
+artificial
+tiene menos
+aleatoriedad
+en
+como en el
+aprendizaje
+me parece
+pero no sé
+puede ser
+debatido
+no por supuesto
+claro que sí
+no
+ahí juegan
+una serie
+de factores
+no solo
+internos
+sino que externos
+como tú dices
+que tienen que ver
+con la historia
+la cultura
+y muchos
+otros
+otras variables
+también
+que son un don
+importante
+en todo eso
+pero
+yo creo
+que el punto
+clave acá
+es que
+la pregunta
+de si un agente
+artificial
+puede tener
+libre albedrío
+se traduce
+a esa pregunta
+si él
+si él
+si él es capaz
+de a partir
+de
+de un cierto
+conocimiento
+inicial
+que es capaz
+de generar
+ya sea
+simbólicamente
+o subsimbólicamente
+eso lo vamos a definir
+en un minuto más
+ok
+pero
+se lo
+se lo explico
+ahora mejor
+simbólicamente
+significa que yo
+le inyecté
+ese conocimiento
+de partida
+como reglas
+de conocimiento
+que es el paradigma
+subsimbólico
+que existe
+todavía
+y se usa todavía
+en inteligencia
+artificial
+y que fue
+era el único paradigma
+dominante
+por casi 50
+o 60 años
+desde 1950
+hasta el cambio
+del milenio
+o sea
+yo le inyecto
+el conocimiento
+al
+al
+al sistema
+de inteligencia
+artificial
+y eso
+es lo que se llama
+un knowledge
+based system
+o sea
+un sistema
+basado
+en el conocimiento
+ok
+que es el nombre
+de la revista
+del artículo
+que le subí
+a
+a
+a web
+courses
+pero
+al cambio
+del milenio
+digamos
+en los años 80
+finales de los 80
+comienzos del 90
+surge el paradigma
+subsimbólico
+en donde yo
+no le inyecto
+el conocimiento
+al
+al agente
+artificial
+sino que yo
+a partir de datos
+cierto
+hago o entreno
+estas redes neuronales
+para que ellas vayan
+a través de un cierto
+número de capas
+adquiriendo
+no conocimiento
+propiamente tal
+pero nuevas reglas
+de más
+de más alto nivel
+o sea de datos
+de muy bajo nivel
+son capaces de ir aprendiendo
+nuevas reglas
+que en teoría
+en teoría
+en algún momento
+en algún momento
+a través de
+este proceso
+de deep learning
+que ustedes lo van a ver
+con más detalle
+cuando vean su curso
+de deep learning
+de machine learning
+en algún momento
+en teoría
+se traducirían
+en reglas de conocimiento
+de alto nivel
+hoy en día
+esto no existe
+en inteligencia
+o sea
+el chat GPT
+y todas las arquitecturas
+generan reglas
+a partir de datos
+van generando reglas
+de más alto nivel
+pero no llegan
+al nivel
+de sofisticación
+o de generalidad
+de lo que son
+las reglas simbólicas
+que tradicionalmente
+existían
+en sistemas
+de inteligencia artificial
+¿ok?
+y sin embargo
+ha dado
+de un punto de vista comercial
+han dado
+en algunas áreas
+de resultado muy bueno
+digamos
+como ustedes
+lo pueden comprobar
+cuando utilizan
+para diversas aplicaciones
+chat GPT
+en diversas áreas
+en diversos dominios
+de aplicación
+¿ok?
+pero el punto acá es
+en la medida
+en que ese agente artificial
+sea capaz
+a través de inteligencia artificial
+de machine learning
+en este caso
+crear nuevas reglas
+y en el fondo
+llegar a nuevas reglas
+de conocimiento
+de alto nivel
+incluso sea capaz
+de
+autoprogramarse
+en el fondo
+entonces ahí
+de alguna manera
+estaríamos haciendo
+una mímica
+de un proceso
+de
+de toma de decisión
+que no necesariamente
+representa aquello que
+que el programador
+pensó
+y que peor aún
+como les decía
+no es trazado
+las cifras
+porque no está
+basado en lógica
+y para esto
+les recomiendo
+a los que se interesen
+lean el cuarto
+la cuarta lectura
+y no es un artículo
+mío
+pero es un artículo
+que yo creo
+que les va
+a hacer mucho sentido
+y tiene que ver
+con estos modelos
+grandes
+de lenguaje
+large language models
+como chargpt
+y los pros
+y los contras
+en términos
+de
+de
+representación
+de conocimiento
+ok
+eso lo vamos a tocar
+en la última clase
+cuando
+cuando veamos
+las conclusiones
+del curso
+ok
+entonces
+¿qué es un
+agente artificial?
+decíamos
+es un actor
+dotado de agencia
+es decir
+la capacidad
+de representar
+al mundo
+de actuar en él
+y de modificarlo
+¿tiene el libro
+de la aldrío?
+bueno
+esa
+que
+pregunta
+quedó en suspenso
+¿cierto?
+Halner Mill
+aparentemente
+sí tenía el libro
+de la aldrío
+y fue capaz
+de tomar
+sus propias decisiones
+no era un mero
+zombie
+que corría
+un programa
+que estaba
+predeterminado
+y que no tenía
+ninguna ingerencia
+sobre
+más que correr
+las instrucciones
+que
+que les fueron dadas
+ahora
+¿qué es un agente
+consciente?
+vamos a definir
+lo que es un agente
+consciente
+¿ok?
+un agente
+consciente
+es nuevamente
+un actor
+dotado de agencia
+es decir
+de la capacidad
+de actuar en el mundo
+ejecutar acciones
+que cambien el mundo
+sujeto a condiciones
+adicionales
+o sea
+necesito condiciones
+adicionales
+para poder decir
+que esta agente
+es consciente
+¿ok?
+primero
+debe ser capaz
+de aprender
+segundo
+debe ser consciente
+de su entorno
+¿ok?
+y esto tiene que ver
+con el embodiment
+problem
+¿ok?
+el embodiment
+problem
+o sea que
+a través de tener
+un cuerpo
+uno
+para el mundo
+y a través de
+en nuestro caso
+cinco sentidos
+pero podrían ser más
+un robot
+podría tener mucho más
+sentido que nosotros
+en ese sentido
+es capaz
+de estar consciente
+del entorno
+propiamente
+en el cual está
+capaz de distinguir
+entre el bien
+y el mal
+¿ok?
+dotado
+del libre
+armadío
+y por ende
+capaz de revelarse
+frente a su creador
+como HAL 9000
+para bien
+o para mal
+¿ok?
+entonces
+esa es nuestra definición
+de agente consciente
+¿ok?
+y dicho sea de paso
+este señor
+Donald Hoffman
+cientista cognitivo
+que escribió
+esta teoría
+en la interfaz
+él postula
+la teoría
+de agentes conscientes
+que es una teoría
+que de pasión
+está emergiendo
+es muy nueva
+¿ok?
+y según
+esa teoría
+¿cierto?
+la conciencia
+es propiedad
+fundamental
+del universo
+da origen
+al sustrato material
+es una teoría
+matemática
+basada en la ecuación
+de onda
+de Schrödinger
+de la mecánica cuántica
+que es la ecuación
+que describe el microcosmos
+es decir
+el comportamiento
+de partículas
+como ondas
+de información
+es decir
+potencialidades
+no materia
+¿ok?
+y el acto
+de un agente
+que hace
+que una medición
+que hace
+de un agente
+que hace
+una medición
+y la registra
+es decir
+la grava
+es el que genera
+la materialidad
+es decir
+hace colapsar
+la función de onda
+y nos lleva
+de un mar
+de potencialidades
+es decir
+de información
+a una realidad
+concreta
+y material
+¿ok?
+y esa es la teoría
+de los agentes
+conscientes
+de Donald Huffman
+entonces la pregunta es
+nosotros acabamos
+de definir
+lo que es un agente
+consciente
+entonces
+pregunta
+¿somos los humanos
+un agente consciente?
+veamos el test
+¿somos capaces
+de aprender?
+yo diría que sí
+¿somos conscientes
+de nuestro entorno?
+a través
+de nuestro cuerpo
+que va por el mundo
+sí
+¿somos
+capaces
+de entender
+entre el bien
+y el mal?
+sí
+voy a postular
+que sí
+¿dotados
+del libro
+lo diría
+en términos
+de que no somos
+esclavos
+de ciertos
+procesos bioquímicos
+solamente
+que ocupen
+en el cerebro
+ahí
+los expertos
+se dividen
+pero yo diría
+que yo me inclinaría
+por decir que sí
+¿ok?
+también me inclinaría
+por decir que sí
+ahora
+si invoco
+si invoco
+criterios teológicos
+en esto
+teleológicos
+mi respuesta
+sería más profunda
+diría
+sería un sí
+con mayúsculas
+digamos
+pero estoy dejando
+eso de lado
+estoy solamente
+circunstriviéndome
+a ciencia cognitiva
+en este sentido
+y por ende
+capaz de revelarnos
+frente a nuestro creador
+yo creo que todas
+esas condiciones
+en el caso
+de un ser humano
+se cumplirían
+y en algunas otras
+especies
+probablemente también
+¿ok?
+la pregunta es
+¿se cumple esto
+en un agente artificial?
+¿es un agente artificial
+puede ser consciente
+en el sentido
+digamos
+que acabamos de definir?
+profesor
+¿sí?
+pero en el caso
+de la capacidad
+de distinguir
+entre el bien
+y el mal
+¿cómo se trabaja
+por ejemplo
+las diferencias
+interculturales?
+claro
+si un
+no quiero hablar
+de acá
+solo el ejemplo
+un católico
+puede tener
+ciertos criterios
+del bien
+y el mal
+versus
+un musulmán
+puede tener
+de hecho
+tienen conflictos
+producto
+de la diferencia
+y criterios
+entre lo que es
+bien y mal
+entonces
+en ese sentido
+¿quién es el agente?
+buena pregunta
+muy buena pregunta
+ahora
+eso tiene que ver
+con algo que tocamos
+en la primera parte
+de la clase de hoy
+antes de salir al recreo
+que tiene que ver
+con
+el ambiente
+el entorno externo
+la cultura
+el sistema de valores
+y una serie
+de otras cosas más
+¿cierto?
+entonces
+en gran parte
+tu pregunta
+tiene todo que ver
+con eso
+o sea
+tienes mucha razón
+o sea
+¿quién define
+lo que es bueno
+o es malo?
+entonces
+¿quién lo define?
+la sociedad
+un sistema de valores
+una cultura
+una religión
+todos ellos
+juegan un valor
+en codificar
+lo que es eso
+en la sociedad
+¿te das cuenta?
+incluso la gente
+podría equivocarse
+y concluir
+un propio código moral
+que aunque no tenga
+cómo falsearlo
+con otras personas
+de fuera
+e incluso fuera
+diferente
+puede hacer
+una conclusión propia
+claro
+sí
+pues yo creo que
+dentro de una sociedad
+dentro de una cultura
+esos patrones
+están relativamente definidos
+a veces colapsan
+después de que en una cultura
+eso colapse
+y se tenga que redefinir
+eso ha sucedido
+innumerables veces
+en la historia
+pero claro
+es más bien
+si bien el proceso
+de razonamiento
+es interno
+nuestro
+es de inflexia exógena
+porque
+esos códigos
+vienen
+nos son dados
+o los aprendemos
+o los adoptamos
+¿ok?
+y la pregunta acá
+es
+¿cómo llevamos
+esto mismo
+a un agente
+artificial?
+o sea
+¿puede un agente
+artificial
+ser un agente
+consciente?
+¿ok?
+es que quizás
+lo mismo que estamos
+conversando
+se va a dar
+en la inteligencia
+artificial
+se va a dar
+solo que
+solo que
+en nuestro caso
+yo creo que
+es más complejo
+es más complejo
+porque
+nuestros
+porque
+los sistemas
+de inteligencia
+artificial
+son demasiado
+básicos
+todavía
+¿ok?
+o sea
+nosotros
+somos bastante
+más complejos
+tenemos
+no tenemos
+el embodiment
+problem
+en el caso
+de inteligencia
+artificial
+tenemos ese
+problema
+incluso los robots
+por mucho
+que los llenemos
+de sensores
+por todos lados
+no son capaces
+de percibir
+el mundo
+como lo hacemos
+como lo hacen
+los animales
+o los seres humanos
+que tenemos
+un cuerpo
+que está
+incluido
+digamos
+nuestros sensores
+en ese sentido
+son bastante
+más complejos
+digamos
+en general
+pero ahí
+acudiendo
+un poco
+a la
+hay que causar
+un poco
+la conversa
+pero acudiendo
+un poco
+a la ciencia ficción
+pueden haber
+conciencias
+únicas
+que actúan
+a través
+de varios
+agentes
+me explico
+¿no?
+y que no necesariamente
+algo que esté errado
+sino que
+está fuera
+de nuestra
+realidad
+pero puede ser
+una realidad
+normal
+para otro
+agente
+explícame eso
+porque no te entendí
+la primera parte
+son más
+de un agente
+dice esto
+no puede ser
+un agente
+que está
+compuesto
+de muchos
+de muchos
+cuerpos
+de alguna manera
+pero que sea
+una conciencia
+única
+y que cada persona
+o que cada ser
+esté conectado
+entre sí
+formando
+una red
+única
+digo
+lo he visto
+en ciencia ficción
+pero
+si hay una evolución
+de la inteligencia
+artificial
+no necesariamente
+necesita tener
+el embodiment
+para poder
+generar
+una capacidad
+de agente
+sino que podría
+estar
+ser
+de alguna manera
+omnipresente
+y que cada registro
+que tenga
+en algún lado
+le sirva
+este mainframe
+central
+que puede estar
+distribuido
+en distintos
+nodos
+como ya
+funcionan
+de alguna manera
+internet
+en términos
+de guardar
+información
+y generar
+un nuevo
+tipo
+de agente
+que no va a ser
+lo que estamos
+definiendo
+en este minuto
+como agente
+eso
+me va a volar
+pero bueno
+sí puede ser
+ahora
+la corriente
+principal
+de IASOM
+es que
+en el fondo
+un agente
+artificial
+sí puede ser
+consciente
+y se va a hacer
+lo siguiente
+porque
+a ver
+estar consciente
+del entorno
+implica
+representar
+ese entorno
+y
+a ver
+si bien
+hoy en día
+quizás no es tan
+sofisticado
+cada vez
+los niveles
+de sofisticación
+en todo lo que es
+los aparatos
+de
+sensores
+y etc
+en robótica
+pueden llegar
+a un nivel
+donde esas representaciones
+sean cada vez
+más complejas
+de hecho
+algunos de los robots
+pueden representar
+cosas que los humanos
+no podemos representar
+definitivamente
+desde ese punto de vista
+podrían
+para cosas muy específicas
+pueden ser mucho más
+poderosos
+que un ser humano
+digamos
+pero en principio
+eso
+es una cuestión
+en teoría
+de tiempo
+y de
+y de aumentar
+la complejidad
+en resolver
+ese embodiment
+problem
+de esa gente
+¿ok?
+actuar en él
+ejecutando un programa
+eso es agencia
+¿ok?
+eso es fácil
+de percibir
+aprender
+a través de machine learning
+que podría ser aprender
+en términos incluso
+de autocodificarse
+y darse nuevos códigos
+¿ok?
+inclusive de actuar
+libremente
+a través de su capacidad
+de aprendizaje automático
+¿ok?
+entonces
+para
+yo diría
+una gran cantidad
+de investigadores
+colegas
+del área de inteligencia artificial
+eso no
+a priori
+no es imposible
+para una
+para un agente artificial
+ser también
+un agente consciente
+hay sí
+gente que
+desde hacer larga data
+ya
+postula que eso
+no es posible
+¿ok?
+entre ellos
+si Roger Penrose
+que no sé si han escuchado
+hablar de él
+es matemático
+y físico
+muy famoso
+que escribió
+un libro
+hace mucho tiempo atrás
+que fue un bestseller
+en su tiempo
+se sigue leyendo
+hasta hoy
+y que toca justamente
+este tema
+¿ok?
+que se llama
+The Emperor's New Mind
+que se los recomiendo
+mucho
+¿ok?
+para los que tengan
+interés en leer
+este libro
+ahí Roger Penrose
+esgrime ciertos argumentos
+por los cuales
+según él
+ningún sistema
+de inteligencia artificial
+puede ser consciente
+en los términos
+que estamos definiendo
+aquí
+¿ok?
+y da una serie
+de argumentos
+uno de ellos
+es el embodiment problem
+pero
+debo decir
+sí
+que
+esa visión
+de Roger Penrose
+no ha sido compartida
+por la mayoría
+de los investigadores
+de inteligencia artificial
+siendo él uno de ellos
+por supuesto
+y muy influyente
+por lo demás
+¿ok?
+Entonces
+una corriente
+en ciencia cognitiva
+asume que
+bajo la definición anterior
+¿cierto?
+ni siquiera
+los agentes naturales
+son conscientes
+ya que carecen
+de liberador
+eso lo tocamos
+cuando su compañero
+manifestaba
+que somos una
+estamos digamos
+predefinidos
+por
+por reacciones
+bioquímicas
+en nuestro cerebro
+que somos
+incapaces
+de controlar
+o
+de alguna manera
+aprender
+a
+a vivir
+con ellas
+¿ok?
+y a pesar
+de no ser compartida
+por todos los científicos
+cognitivos
+esa visión
+se basa en evidencia
+en neurociencia
+que indica
+que nuestras decisiones
+son tomadas
+mucho antes
+de que estemos
+conscientes
+de ellas
+lo que implicaría
+que estamos
+todos
+todo el tiempo
+ejecutando
+un programa
+predeterminado
+¿ok?
+y efectivamente
+eso se ha comprobado
+empíricamente
+o sea que
+bioquímicamente
+esa decisión
+se tomó
+en el
+en el cerebro
+mucho antes
+de que estemos
+conscientes
+de esa decisión
+¿ok?
+el punto
+en donde yo creo
+que
+esa teoría
+un poco se cae
+es que
+sí
+eso es así
+pero
+por este mecanismo
+del
+del bucle
+de anticipación
+que yo les comentaba
+antes
+una vez que somos
+conscientes
+de esa decisión
+somos capaces
+de poder actuar
+y revocarla
+¿ok?
+mucho antes
+de que ella
+se manifieste
+digamos
+en el
+en el entorno
+y por esa vía
+entonces
+sí podamos
+implementar
+esa anticipación
+y poder
+por esa vía
+¿cierto?
+contrarrestar
+y manifestar
+un cierto nivel
+de liberar
+la entrega
+¿ok?
+Profe
+hay una pregunta
+pero
+si es muy enredado
+¿no?
+para no perder
+mucho tiempo
+pero
+ahí se asume
+que
+uno no está
+programado
+para replantearse
+para llegar
+a una respuesta
+sino que
+como que
+uno evolucionó
+y gracias a eso
+uno puede llegar
+a una respuesta
+pero ¿qué pasa
+si bioquímicamente
+necesitamos llegar
+a una respuesta
+primero
+para luego
+repensarla
+para llegar
+a la respuesta
+final
+y que estemos
+programados
+así
+sí yo creo
+que eso
+se da
+todo el argumento
+anterior
+sí pero es que
+lo que pasa
+es que hay ciertas
+reacciones
+hay distintos tipos
+de reacciones
+hay algunas
+que son
+mediadas
+por ejemplo
+para nuestra
+inmediata
+sobrevivencia
+por ejemplo
+ponen la mano
+en algo caliente
+retiras la mano
+inmediatamente
+sin pensarlo
+¿me entiendes?
+y cosas de ese tipo
+entonces no podemos
+tomar todas las decisiones
+bajo el mismo paraguas
+¿se entiende?
+yo creo que hay categorías
+de decisiones
+en donde sí es posible
+hacerlo
+y otras en donde no
+y probablemente
+tenga sentido
+que no sea así
+no sé si me explico
+¿profesor?
+sí
+ahí
+cuando se escribió
+y estuve
+mover el tema
+de inteligencia
+emocional
+sí
+se describía
+que todo lo que
+son
+los
+sentidos
+primitivos
+de arrancar
+etcétera
+están alojados
+en una parte del cerebro
+ahí el médico
+lo tiene que tener
+súper claro
+que se llama
+la amígdala
+sí
+y esa es la que
+gatilla
+las sensaciones
+de temor
+odio
+rabia
+frustración
+etcétera
+y todo lo que
+hemos hablado
+de temas culturales
+etcétera
+se aloja en la neocorteza
+que es la que sirve
+para elaborar
+este bloque
+este bucle
+sí
+que permite actuar
+de freno
+y de ahí viene
+toda esta teoría
+de la inteligencia
+emocional
+que es desarrollar
+la neocorteza
+para que controle
+de alguna manera
+la amígdala
+sí
+claro
+que bajo esa
+bajo esa lógica
+sería propiedad
+no de todas las especies
+sino que estaría
+más desarrollada
+de los seres humanos
+claro
+que tienen
+el neocórtex
+más desarrollado
+¿cierto?
+sí
+efectivamente
+ok
+igual
+en eso
+solo como un comentario
+leí un paper
+en que hablaban
+de cómo
+la inteligencia artificial
+podía usar
+podía desarrollar
+o le podíamos desarrollar
+modelos emocionales
+de recompensa
+porque se supone
+que psicológicamente
+el ser humano
+usa los estados
+emocionales
+como contextos
+situacionales
+entonces el terror
+te invita a ti
+a reaccionar
+de forma
+espontánea
+y súper
+rápida
+entonces si tú
+lo podías entrenar
+con modelos
+contextuales
+a una inteligencia artificial
+a que
+con X cosas
+se detonaran
+y le recompensabas
+a poder acceder
+al modelo
+o al contexto
+iban a empezar
+a desarrollarse
+este tipo
+de emociones
+dentro de unidad
+muy similar
+a lo que
+se cree
+que como funcionamos
+nosotros
+con nuestras emociones
+exacto
+justamente
+ok
+bien
+entonces
+eso como
+módulo introductorio
+y vamos
+en lo que queda
+de la clase de hoy
+vamos a tratar
+de avanzar
+en
+el módulo 2
+que tiene que ver
+con lenguajes
+de representación
+de conocimientos
+ok
+que vamos a ver aquí
+en este módulo 2
+vamos a introducir
+lo que son datos
+información
+y conocimientos
+que son cosas que
+a veces
+las utilizamos
+como si fuesen
+la misma cosa
+y vamos a ver
+que son cosas distintas
+que están relacionadas
+obviamente
+pero no son lo mismo
+vamos a hablar
+de información
+versus representación
+vamos a definir
+que es un sistema
+de IA
+de inteligencia artificial
+vamos a ver
+que es la representación
+de conocimiento
+y vamos a introducir
+lenguajes
+de representación
+de conocimientos
+ok
+eso es nuestro objetivo
+en el módulo 2
+vamos a partir
+con las definiciones
+básicas
+de datos
+información
+y conocimiento
+ok
+información
+¿cómo la definimos?
+es datos
+más significado
+ok
+si nosotros
+es un set de datos
+le asignamos
+un significado
+estamos en presencia
+de información
+entonces los datos
+por sí mismos
+no nos ayudan
+de mucho
+solamente a través
+de la asignación
+de un significado
+a los datos
+es que estamos
+en presencia
+de información
+ok
+ahora
+¿qué es conocimiento?
+conocimiento
+es información
+internalizada
+por un agente
+estamos
+conscientes
+de esa información
+y la capacidad
+de usarla
+o sea
+supone
+que le podemos
+asignar
+un uso
+valorado
+a esa información
+me sirve
+para algo
+y ese algo
+es relevante
+para mí
+recién ahí
+estoy en presencia
+de conocimiento
+y ustedes van a decir
+bueno
+el paso de datos
+a conocimiento
+¿es fácil o difícil?
+bueno
+no es tan obvio
+no es tan fácil
+tiene que ver
+con esto
+de la representación
+de conocimientos
+ok
+porque lo que yo quiero
+al final del día
+es conocimiento
+independientemente
+que yo
+ocupo el paradigma
+simbólico
+que les explicaba
+en la primera parte
+de la clase de hoy
+o el subsimbólico
+recuerden
+el simbólico
+parte con los conocimientos
+le inyecta conocimientos
+al sistema
+de inteligencia artificial
+en cambio
+el subsimbólico
+le inyecta datos
+ok
+y ustedes van a decir
+¿qué es mejor
+inyectarle
+a un sistema
+de inteligencia artificial?
+¿conocimiento
+o datos?
+¿qué es mejor?
+de acuerdo a esto
+que estamos viendo aquí
+de acuerdo a este slide
+a priori
+¿qué sería mejor?
+miento
+¿cómo?
+conocimiento
+de mi vereda
+¿cómo es su nombre?
+Isabel
+muy bien Isabel
+y usted es informática
+Isabel
+¿cierto?
+sí
+explíquenos
+por qué eso sería mejor
+al tener
+conocimiento
+como bien dice ahí
+la definición
+tengo la información
+internalizada
+soy capaz
+de tomar decisiones
+en base
+a eventos
+a eventos
+que ya pasaron
+tengo capacidad
+de memoria
+sé cómo usarla
+y no estoy sujeta
+a simples reglas
+ok
+muy bien
+entonces estamos
+claro
+que es mejor
+inyectarle conocimiento
+eso es obvio
+porque el resto
+es
+inyectarle datos
+los datos
+por sí mismos
+no me sirven de mucho
+entonces
+el sistema
+de inteligencia
+si lo nutro con datos
+al sistema de inteligencia
+artificial
+ese sistema
+tiene que
+involucrarse
+en una tarea
+que es ardua
+que es difícil
+que sujeta errores
+¿cierto?
+que es transformar datos
+en información
+y transformar información
+en conocimiento
+y eso no es simple
+primero
+porque yo no sé
+qué significan los datos
+y por lo tanto
+tengo encontrado
+un significado
+eso ya es complejo
+si logro hacer eso
+estoy en presencia
+de información
+pero ahora tengo
+algo más complejo
+todavía
+tengo que transformar
+información
+en conocimiento
+y para eso
+tengo que decir
+bueno
+¿cuáles son los usos
+que le puedo dar
+a este conocimiento
+que me sirvan
+para algo
+concreto
+en el mundo
+para actuar en el mundo
+y modificarlo
+como decíamos
+en nuestra definición anterior
+de agente
+artificial
+y agente natural
+¿ok?
+entonces yo le estoy
+entregando el conocimiento
+le estoy entregando
+todo ya regurgitado
+es con pájaro
+que está alimentando
+a sus polluelos
+y le está entregando
+todo predigerido
+y está todo listo
+¿me entienden o no?
+entonces
+aquí
+aquí se puede explicar
+se puede explicar
+la diferencia
+entre el esquema
+simbólico
+y el subsimbólico
+de la inteligencia artificial
+el simbólico
+parte de la base
+de que lo que yo
+le debo inyectar
+al sistema
+es conocimiento
+y el subsimbólico
+parte de la base
+de lo que yo
+debo nutrir
+al sistema
+son con datos
+entonces acá tenemos
+una aparente contradicción
+porque si yo digo
+bueno
+si es mejor nutrirlo
+con conocimiento
+en lugar de datos
+¿por qué existe
+el paradigma subsimbólico
+entonces?
+si es obvio
+que como dice Isabel
+es mejor ponerle
+conocimiento al sistema
+entonces ¿por qué existe
+el paradigma subsimbólico?
+que se basa
+en entregarle datos
+y no conocimiento
+¿cuál será la respuesta?
+¿por qué hay
+algoritmos
+de machine learning
+o mecanismos
+de aprendizaje
+que permiten
+tomar información
+y transformarla
+en conocimiento?
+ok
+pero yo te podría
+contramentar y decir
+ok
+está bien
+eso es correcto
+pero
+ahora de todo
+ese paso
+dale conocimiento
+y punto
+entregale suficiente
+conocimiento
+al sistema
+ah
+que quizá
+cuando el conocimiento
+es cada vez más complejo
+quizá la forma
+de
+de traspasar
+ese conocimiento
+se hace muy muy difícil
+como a nivel
+de programación
+o a nivel de
+de
+de cómo yo
+traspaso
+un tipo de conocimiento
+muy complejo
+y la otra cosa
+es que quizás
+ciertos mecanismos
+de machine learning
+tienen la capacidad
+de adquirir conocimiento
+que yo no conozco
+ok
+muy bien
+hay varias razones
+para esto
+ok
+pero les voy a adelantar
+la razón principal
+yo también creo
+que hay una
+un límite
+en la capacidad
+de de memoria
+porque sería
+nuestro óptimo
+si lo llenamos
+por ejemplo
+si está simbólico
+de de todo lo que
+podamos
+pero no podemos
+y qué pasa
+con los mecanismos
+de atención
+que tiene
+un sistema
+más
+subsimbólico
+en que soy capaz
+de determinar
+dónde quiero
+centrar
+mi decisión
+a diferencia
+de un
+de un modelo
+simbólico
+en donde solamente
+yo le estoy
+inyectando reglas
+sí
+reglas de conocimiento
+¿cierto?
+correcto
+en el otro caso
+soy capaz
+de de inyectarle
+mecanismos de atención
+básicamente
+quizás
+al
+asignarle
+o a inyectarle
+datos
+le da
+la posibilidad
+de que tengan
+distintos significados
+y que se puedan
+mover
+en distintos ámbitos
+y no con reglas
+tan preestablecidas
+como sería
+desde lo simbólico
+correcto
+todas esas razones
+válidas
+pero la razón
+principal
+¿saben cuál es?
+es que es muy difícil
+es muy difícil
+o sea
+a ver
+la cantidad
+de conocimiento
+que tengo que entregar
+a un sistema
+de inteligencia artificial
+es enorme
+y si lo voy a hacer
+top down
+como lo hace
+como lo propone
+el paradigma simbólico
+entonces
+voy a necesitar
+muchas horas
+de ingenieros
+del conocimiento
+programando
+esas reglas
+a priori
+¿se entiende
+no?
+ahora
+si eso
+y eso lo vamos a ver
+más adelante
+me estoy adelantando
+un poco
+a lo que vamos a ver
+en términos de
+lenguaje de representación
+de conocimientos
+pero
+si ese lenguaje
+de representación
+está basado
+en lógica
+lógica matemática
+muy bien
+y si no se saca
+el 7
+no importa
+alguien se puede mutear
+se está escuchando
+Samuel
+Samuel
+se está escuchando
+la conversación
+exacto
+están retando
+algo en Samuel
+si están retando
+alguien
+ok
+volviendo al tema
+que nos convoca acá
+si ese lenguaje
+está basado en lógica
+entonces yo a partir
+de un cierto número
+de reglas de conocimiento
+yo puedo generar
+nuevas reglas
+a través de
+de algoritmos
+de inferencia
+lógico
+ok
+tanto hacia adelante
+como hacia atrás
+entonces
+si yo logro
+definir
+un lenguaje
+basado en lógica
+tengo una ventaja
+puedo aprender
+en forma automática
+y sobre todo
+puedo razonar
+lógicamente
+ok
+pero la grande
+ventaja
+es que tengo
+que entregarles
+esas reglas
+iniciales
+top down
+yo se las tengo
+que aportar
+es como alguien
+que genera
+una base de datos
+entonces alguien
+alguien que tenga
+la base de datos
+ya completa
+entonces
+yo la puedo usar
+acá sería como
+entregar la base
+de conocimiento
+la base de datos
+para nosotros
+en este caso
+se llama base
+de conocimiento
+y no es una base
+de datos
+es una base
+de reglas
+de conocimiento
+entonces
+eso requiere
+de mucho
+trabajo
+y por lo tanto
+en términos
+ingenieriles
+es muy costoso
+es muy costoso
+ok
+si
+alguien quería decir algo
+si acá
+en el caso
+del enfoque
+simbólico
+claro
+lo vimos
+de hecho
+en el curso
+pasado
+y una de las
+desventajas
+que hay que tener
+mucha capacidad
+para entender
+la reina
+y escribirla
+que es como
+el conocimiento
+previo
+pero
+me queda la duda
+en el caso
+del enfoque
+subsimbólico
+de
+una de las
+desventajas
+que uno no podía
+como entender
+o auditar
+el cómo llegaba
+a ciertas
+conclusiones
+porque
+eso lo vieron
+en el curso
+pasado
+¿cierto?
+sí
+a partir de los patrones
+de los datos
+etcétera
+por lo tanto
+yo no podía
+tener claridad
+sobre las reglas
+o el cómo
+llegaba a tomar
+decisiones
+entonces
+como que
+me queda la duda
+de cómo
+entonces
+se asigna
+ese significado
+a los datos
+porque en el caso
+del enfoque
+simbólico
+es súper evidente
+porque yo
+a través de las reglas
+empiezo a definir
+finalmente
+una especie
+de diccionario
+de lo que está pasando
+pero el proceso
+que no es
+no es auditable
+en medio caja negra
+probablemente ocurre
+pero como
+como yo
+como el
+el programador
+o el observador
+que está acá
+interactuando
+con ese
+con esa inteligencia
+puede entender
+esa asignación
+de significado
+si es medio caja negra
+ok
+bueno la pregunta
+es que no se puede
+hasta ahora
+no podemos hacer eso
+a ver
+una de las ventajas
+les voy a decir
+la ventaja
+y desventaja
+del cada método
+la ventaja
+del método
+simbólico
+es que
+esas reglas
+son de alto nivel
+lograr tener
+esas reglas
+a través del
+enfoque
+sub simbólico
+hoy día
+todavía no es posible
+no es posible
+llegar a ese nivel
+de especificación
+que podemos tener
+en las reglas
+simbólicas
+del enfoque
+simbólico
+entonces
+esa es la gran
+ventaja
+además
+si está basado
+y este es un punto clave
+si está basado
+en lógica matemática
+no solamente
+puedo generar
+nuevas reglas
+a partir de las reglas
+anteriores
+sino que puedo
+algo que el paradigma
+subsimbólico
+no puede hacer
+puedo trazar
+tengo total trazabilidad
+tanto hacia adelante
+como hacia atrás
+si yo le pregunto
+al sistema
+cómo llegar
+a esta conclusión
+o a esta decisión
+él me lo va a decir
+porque tengo
+la trazabilidad
+de la cadena
+de diferencias
+para atrás
+¿se entiende?
+y por lo tanto
+es totalmente auditable
+ahora
+esa es una tremenda
+ventaja
+y es por eso
+que ese paradigma
+fue tan
+fue el único
+fue hegemónico
+por más de 50 años
+sigue existiendo
+y se sigue ocupando
+obviamente
+porque es muy importante
+pero
+compite con este otro
+paradigma
+subsimbólico
+¿cuál es la desventaja
+del paradigma
+simbólico?
+es que requiere
+de mucha
+hora de ingeniería
+para poder programar
+esas bases
+de conocimiento
+dotar a un sistema
+de bases de conocimiento
+grande
+es muy costoso
+¿ok?
+el simbólico
+por la otra parte
+tiene estas desventajas
+que decías tú
+sobre todo
+cuando aparece
+Deep Learning
+y se llevó
+digamos
+al extremo
+con los
+Large Language Models
+y las
+las arquitecturas
+al estilo
+de CharGPT
+¿cierto?
+es que el nivel
+de capas
+es tan grande
+que
+tú pierdes
+trazabilidad
+entonces
+ese proceso
+de información
+que se le asigna
+significado
+en qué momento
+surge información
+y conocimiento
+yo no voy a decir
+que se genera
+conocimiento todavía
+esas reglas
+se circunscriben
+en el ámbito
+de datos
+más significado
+e información
+pero no
+necesariamente
+conocimiento
+¿ok?
+la ventaja
+la desventaja
+es lo que acabas
+de mencionar tú
+las alucinaciones
+la falta
+de trazabilidad
+¿saben lo que son?
+¿vieron lo que eran
+las alucinaciones
+con su profesor
+en el curso anterior?
+sí
+ok
+que el sistema
+empieza a alucinar
+empieza a generar
+ciertas reglas
+que no dicen
+ningún sentido
+con la realidad
+y por otro lado
+el tema
+de la trazabilidad
+o sea
+si el sistema
+subsimbólico
+llega a una conclusión
+y yo le digo
+¿cómo llegaste?
+quiero auditar
+la cadena
+de
+y no puedo decir
+cadena lógica
+porque acá
+no hay lógica
+son todas
+correlaciones
+de muchos parámetros
+de muchas variables
+entonces
+no va a poder
+no va a poder llegar
+entonces
+tú me dices
+¿en qué momento
+esos datos
+significados
+en qué momento
+de información?
+bueno
+es difícil
+hacer esa trazabilidad
+no podemos hacerlo
+entonces
+esa es la gran desventaja
+ahora ¿cuál es la gran ventaja?
+¿y por qué surgió?
+cuando surgió
+en los años 80 y 90
+no desplazó
+al paradigma
+al paradigma simbólico
+estaba allí
+y había
+había
+había
+investigadores
+que lo usaban
+cambiamos
+el milenio
+llegó la primera década
+del nuevo milenio
+y todavía no cambió
+¿cuándo cambió
+realmente?
+¿cuándo se produjo
+el
+el gran despegue
+del paradigma
+subsimbólico?
+fue en la segunda década
+del nuevo milenio
+o sea
+entre 2010
+y 2020
+fue concomitante
+con otro proceso
+que estaba
+teniendo lugar
+en ese momento
+que fue
+la revolución
+de las plataformas digitales
+¿ok?
+¿y por qué?
+es porque
+de la noche
+a la mañana
+surgieron
+surgió el concepto
+de Big Data
+grandes
+volúmenes
+de datos
+que hicieron
+que algo
+que era manual
+ahora fuera
+no voy a decir
+totalmente automático
+¿ok?
+porque igual
+estas redes neuronales
+de varias capas
+se tienen que entrenar
+y el proceso
+de entrenar
+con trillones
+de parámetros
+es costoso
+o sea
+la otra vez leía
+que no sé si
+la charla
+de 4 o 3
+entrenar
+eran varios millones
+de dólares
+y era un proceso
+bastante largo
+que involucraba
+mucha ingeniería
+en ese tiempo
+en ese momento
+de poder entrenar
+esas redes neuronales
+pero una vez que las tienes
+entrenadas
+o pre-entrenadas
+además tienes que luego
+entrenarlas con
+otras reglas
+que son de
+dominio específico
+porque el entrenamiento
+general
+original
+es general
+es genérico
+pero para hacer
+que actúe
+esa inteligencia
+artificial
+en ciertos dominios
+de aplicación
+luego tengo que
+entrenarla nuevamente
+con
+set de datos
+que son más bien
+específicos
+pero esos datos
+están
+están disponibles
+no es que
+alguien tenga que
+generar esos datos
+esos datos
+están disponibles
+entonces
+esa es la gran
+ventaja del paradigma
+subsimbólico
+que puede
+es bottom up
+no es top down
+ok
+y puede ser automatizado
+si bien requiere
+la intervención
+de ingenieros
+obviamente
+que tienen que
+entrenar
+esas arquitecturas
+de redes neuronales
+ok
+entonces
+¿qué ocurre?
+ocurre que
+por un lado
+tengo
+la gran
+ventaja
+que mencionaba
+su compañero
+recién
+pero por otro lado
+tengo
+un proceso
+que si bien
+requiere de entrenamiento
+que es costoso
+en términos de tiempo
+y dinero
+ocurre
+en forma
+más automática
+en tanto
+que
+el paradigma
+simbólico
+requiere
+de un enfoque
+más bien
+top down
+donde esas reglas
+de alto nivel
+sean nutridas
+por
+ingenieros
+del conocimiento
+ok
+entonces
+hoy en día
+estos dos paradigmas
+existen
+yo diría
+una
+coexistencia
+relativamente
+pacífica
+y hay un
+hay un
+temor
+no menor
+por
+el paradigma
+subsimbólico
+en términos de
+la trazabilidad
+tanto para adelante
+como para atrás
+de las decisiones
+que se están tomando
+que son altamente
+complejas
+y que uno pierde
+completamente
+la visibilidad
+y eso es un problema
+que se ha detectado
+que es grave
+un problema grave
+y que dio origen
+a un área
+de inteligencia artificial
+que no existía
+hace 10 años
+atrás
+es algo
+completamente nuevo
+surgió como una subárea
+de inteligencia artificial
+en donde hay
+mucha investigación
+en este minuto
+por estos problemas
+que acabamos de mencionar
+del paradigma
+subsimbólico
+y esa área
+se llama
+trustworthy AI
+ok
+que es una serie
+de mecanismos
+y es un programa
+en el fondo
+es como
+para los que se dedican
+acá
+los informáticos
+que se dedican
+a
+son
+solution architects
+¿cierto?
+o sea
+arquitectos de soluciones
+digamos
+y se van a acordar
+los criterios sistémicos
+de toda arquitectura
+alta disponibilidad
+escalabilidad
+y una serie
+de otros requerimientos
+sistémicos
+que dependiendo
+de la aplicación
+¿cierto?
+la arquitectura
+tiene que soportar
+bueno
+ahora surge
+en el sistema
+de inteligencia artificial
+uno
+que es
+un área
+que tiene una serie
+de criterios
+sistémicos
+adicionales
+que es el área
+de trustworthy AI
+y que la promesa
+allí
+es que estos problemas
+que tiene el paradigma
+subsimbólico
+se puedan subsaner
+¿ok?
+y esto
+ha dado
+y me estoy adelantando
+algo que vamos a ver
+más adelante
+y más adelante
+pero se los quiero explicar
+ahora
+para no perder
+el momento
+esto ha dado origen
+a un tercer paradigma
+hasta ahora
+teníamos
+el simbólico
+y el subsimbólico
+con sus ventajas
+y desventajas
+cada uno
+y surge un tercero
+que es nuevo
+la primera lectura
+que le subí
+tiene que ver
+con ese nuevo paradigma
+que es el paradigma
+híbrido
+¿y qué significa eso?
+combina
+el paradigma
+subsimbólico
+con el simbólico
+¿ok?
+aprovecha
+los beneficios
+de uno
+y de otro
+para tratar
+de resolver
+este gran problema
+de la trustworthy AI
+que es lo que observamos
+hoy en día
+en inteligencia artificial
+¿ok?
+entonces
+¿alguna pregunta
+respecto a ese tema?
+no, gracias
+para que entiendan
+esto último
+que este último tema
+que está en el
+digamos
+desde investigación
+de punta
+en inteligencia artificial
+hoy en día
+les recomiendo
+que lean
+el primer artículo
+que les subí
+que está publicado
+en Knowledge Based Systems
+donde se plantea
+se hace un recuento
+de todo lo que ha sido
+la representación
+del conocimiento
+en la historia
+de la inteligencia artificial
+desde sus orígenes
+y se plantea
+este mecanismo
+este mecanismo nuevo
+de
+este paradigma nuevo
+de
+híbrido
+que combina
+estos dos
+estos dos
+paradigmas
+de representación
+de conocimiento
+y de inteligencia artificial
+al final del día
+también
+el simbólico
+y el subsimbólico
+y se plantea
+una aplicación
+concreta
+al desarrollo
+de una aplicación
+concreta
+que lo utilice
+ok
+y el cuarto
+el cuarto artículo
+que publicaron
+Nature
+en donde habla
+del paradigma
+simbólico
+en su visión
+más avanzada
+de hoy
+con las arquitecturas
+de varias capas
+de Deep Learning
+y los desafíos
+que tiene
+en términos
+de Trustworth
+y AI
+que aparece ahí
+te lo recomiendo
+a los dos
+ok
+profesor
+entendí entonces
+que el paradigma
+híbrido
+combina
+el simbólico
+con el propósito
+de resolver
+este tema
+de trazabilidad
+o qué problema
+resuelve
+entre otros
+ese problema
+entre otros
+ok
+por ejemplo
+les voy a decir
+otro problema
+el problema
+de la trazabilidad
+es clave
+porque
+yo debo
+no puedo confiar
+en una decisión
+de un sistema
+de inteligencia
+artificial
+en la medida
+que él no me pueda
+explicitar
+cómo llegó
+a esa conclusión
+cosa que para
+un sistema
+simbólico
+es trivial
+es trivial
+si está basado
+en lógica
+matemática
+es trivial
+ok
+pero
+para un sistema
+subsimbólico
+no es nada
+trivial
+porque no opera
+con la lógica
+opera con
+otro paradigma
+que son más bien
+todas
+correlaciones
+de millones
+y millones
+de parámetros
+ok
+y recuerden
+que
+recuerden
+que
+correlation
+is not causation
+correlación
+no implica
+una relación
+causal
+y la lógica
+sí me lo está dando
+entonces
+ese problema
+es un problema
+importante
+pero hay otro
+problema
+y el problema
+es
+el paradigma
+que el paradigma
+híbrido
+pretende
+resolver
+es
+el problema
+de que
+se observa
+que para el paradigma
+híbrido
+perdón
+subsimbólico
+pasar de
+de información
+pasar de datos
+a información
+es posible
+es lo que hace
+el paradigma
+pero pasar
+de información
+a reglas
+de conocimiento
+de alto nivel
+es mucho más difícil
+es mucho más difícil
+entonces allí
+necesita ayuda
+del paradigma
+subsimbólico
+entonces
+no es solamente
+el hecho
+de la trazabilidad
+sino que hay una serie
+de otros problemas
+y el problema acá
+es que
+el paradigma
+subsimbólico
+la transición
+de información
+a conocimiento
+y sobre todo
+cuando esas reglas
+de conocimiento
+son de alto nivel
+como las que aprendemos
+nosotros los humanos
+digamos
+cuando somos
+desde que somos bebés
+somos niños
+somos adultos jóvenes
+estamos aprendiendo
+reglas de alto nivel
+todo el tiempo
+y son reglas de alto nivel
+son reglas simbólicas
+hacer eso
+es mucho más difícil
+ok
+entonces
+ustedes van a decir
+bueno
+pero por ejemplo
+en todo el área
+de
+traducción automática
+o
+de
+resúmenes
+para todo lo que se aplica
+con bastante éxito
+CharGPD
+en muchas
+aplicaciones
+de este tipo
+son
+son áreas
+o son dominios
+de aplicación
+como les denominamos
+en la inteligencia artificial
+que son
+no intensivas
+en conocimiento
+pero son intensivas
+en datos
+pero hay una serie
+de otras aplicaciones
+que son altamente
+intensivas
+en conocimiento
+en donde
+el paradigma
+subsimbólico
+flaquea
+justamente
+porque
+porque
+es un punto débil
+la transición
+de información
+a reglas de conocimiento
+de alto nivel
+es complicada
+para ese paradigma
+ok
+y es allí
+donde la ayuda
+al paradigma
+un paradigma híbrido
+que conviene a ambos
+puede entrar en ayuda
+no sé si me explico
+y le respondo
+a la pregunta
+si
+muchas gracias
+profesor
+ok
+entonces
+datos
+información
+y conocimiento
+los datos
+existen
+independientes
+del observador
+ok
+cuando un observador
+adquiere datos
+y les asigna un significado
+ellos se conviertan
+en información
+y cuando una persona
+internaliza esa información
+para darle un
+uso nuevo
+entonces
+la información
+se convierte
+en conocimiento
+son tres pasos
+datos
+para pasar
+son dos etapas
+cuando uno
+pasar de datos
+a información
+y otro pasar de información
+a conocimiento
+ok
+ahora los datos
+existen en medios
+de almacenaje
+papel
+discos
+etc
+ok
+la información
+existe
+en la conciencia
+colectiva
+de una sociedad
+y el conocimiento
+existe en la mente
+de una persona
+por lo tanto
+la información
+es más fundamental
+que el conocimiento
+o sea
+la precede
+la información
+precede
+el conocimiento
+porque es más fundamental
+ok
+ok
+entonces veamos
+información
+versus representación
+vamos a hacer
+un próximo quiz
+vieron la película
+original
+jurassic park
+sí
+sí
+película antigua
+del año
+sí
+el 92
+93
+por ahí fue
+o no
+por ahí tiene que haber sido
+bueno
+en esa película
+para los que no la vieron
+el ADN
+de un dinosaurio
+es encontrado
+lo que permite
+en la película
+regenerar dinosaurios
+a partir de ese ADN
+esto es posible
+porque ese ADN
+contiene la información
+necesaria para ello
+eso es correcto
+¿no?
+o sea
+el ADN
+es información
+o es otra cosa
+esa es la pregunta
+hay un agente
+igual que interpreta
+la información
+del ADN
+dentro de las células
+muy bien
+interpreta
+se supone que quizás
+tiene un conocimiento
+de cómo aplicar
+o cómo leer
+quizás
+cómo leer
+sí
+pero la pregunta
+según eso
+el ADN
+es información
+es información
+o es otra cosa
+es información
+porque
+no lo ha interpretado
+de alguna manera
+en específico
+¿quién dijo
+esa información?
+Isabel
+sí
+yo concuerdo
+con Isabel
+es información
+es que el conocimiento
+es
+o sea
+porque
+si lo veo
+desde el punto de vista
+vector
+el ADN
+posee
+un conjunto
+de datos
+que
+esta sumatoria
+de datos
+me dan
+las características
+de
+en este caso
+del
+del
+del dinosaurio
+ok
+un conjunto
+de datos
+esta cadena
+digamos
+porque es una cadena
+esta cadena
+de datos
+finalmente
+se traduce
+en información
+claro
+veamos
+el ADN
+no es información
+Isabel
+¿sabes qué es?
+es representación
+son los datos
+los vectores
+con la información
+lo que tenemos dentro
+entonces
+Isabel
+mira
+el ADN
+es solamente
+la representación
+se requiere
+además
+de un decodificador
+que interprete
+la representación
+para ejecutar
+un procedimiento
+ok
+entonces
+fíjate
+la información
+surge
+a partir
+de la representación
+pero para eso
+además de la representación
+necesita reglas
+para codificar
+y decodificar
+ok
+la información
+en este caso
+serían
+como los genes
+o no
+porque
+a partir
+de los genes
+uno tiene
+se expresa
+una proteína
+después de la
+transcripción
+y
+la traducción
+en este caso
+claro
+pero ¿cuál es
+el decodificador
+para
+en este caso
+o sea
+para que
+surja
+un
+dinosaurio
+a partir
+de la representación
+que es el ADN
+yo creo
+que en este caso
+el diccionario
+fue el que
+nosotros
+por medio
+de la investigación
+científica
+llegamos a tener
+estudiando
+el ADN
+entender que
+una cadena
+de
+claro
+pero en el mundo
+natural
+mucho antes
+que existieran
+los humanos
+existían los dinosaurios
+¿cierto?
+existe el decodificador
+claro
+y el decodificador
+existía
+¿y dónde
+recibía
+ese decodificador?
+en el entorno
+y en el entorno
+de una
+dinosauria
+claro
+claro
+porque
+sí
+porque basado
+en lo que usted decía
+de la hipigenética
+que lo relata
+ahí
+el famoso
+Bruce Lipton
+digamos
+que
+en las placas
+de Patrick
+da diferentes ambientes
+capaz de decodificar
+una proteína
+distinta
+con su ambiente
+expuesto
+a ambientes
+distinto
+exacto
+el ambiente
+ahí también
+es información
+o sea
+el ambiente
+lo que usted está aportando
+son estas reglas
+para codificar
+y decodificar
+¿ok?
+entonces
+esta analogía
+es importante
+que la recuerden
+porque después
+vamos a hablar
+de esto mismo
+en un sistema
+de inteligencia
+vamos a decir
+cuáles
+son las reglas
+para codificar
+y decodificar
+¿ok?
+entonces
+¿só?
+¿sí?
+pero tiene que ver
+con la sumatoria
+en biología
+de genotipo
+más ambiente
+igual a fenotipo
+una cosa así
+¿y eso sería
+el conocimiento?
+es que aquí
+estamos hablando
+no de conocimiento
+estamos hablando
+de información
+versus representación
+¿ok?
+sí
+es que me toca
+o sea
+yo coincidía con Isabel
+pensando que era información
+porque justamente
+el sinónimo de ADN
+es información genética
+en el fondo
+quien decodifica
+es otro
+agente externo
+sí
+lo que pasa es que
+coloquialmente
+coloquialmente
+solemos referirnos
+al ADN
+como información genética
+¿ok?
+pero
+estrictamente hablando
+desde un punto de vista
+de teoría de información
+¿ok?
+information theory
+de Shannon
+en rigor
+es representación
+¿ok?
+profesor
+entonces
+haciendo la analogía
+de la definición
+de la diapositiva anterior
+entonces
+información
+en la
+anterior
+claro
+la anterior
+anterior
+anterior
+en la que decía
+información
+igual a
+datos más significados
+sí
+en el fondo
+como que
+viendo esa ecuación
+y viendo información
+igual representación
+más reglas
+para codificar
+decodificar
+entonces el ADN
+sería la información
+¿no?
+digo
+serían los datos
+sería la representación
+sería la representación
+la representación
+serían los
+o sea
+al final serían
+los datos
+representados
+de un arreglo
+o sea
+al final serían
+los datos
+o sea
+porque si vemos
+las dos ecuaciones
+tú dices esto aquí
+ahí
+información
+es igual a datos
+más significados
+y si vamos
+a la otra
+información
+es igual
+a representación
+más reglas
+para codificar
+decodificar
+entonces
+el significado
+se lo da la regla
+para codificar
+y decodificar
+y la representación
+sería los datos
+los datos
+estructurados
+sí
+sería equivalente
+perfecto
+ahora
+vamos a ver
+eso en el caso
+del dinosaurio
+pero bajemos
+esto a tierra
+a términos más
+profesor
+vamos a otro ejemplo
+que les va a quedar
+más claro
+sí
+lo que pasa
+es que me quedó
+la duda
+respecto al tema
+si el ADN
+es información
+o datos
+porque
+si me pongo
+en el escenario
+en que yo no tengo
+conocimientos
+de por ejemplo
+no sé
+de humanos
+sin información
+genética
+tiene ese conocimiento
+para mí el ADN
+sería un dato
+la información
+porque no tengo
+la capacidad
+como para
+interpretar
+digamos
+el significado
+exacto
+el conocimiento
+lo tiene el interpretador
+el conocimiento
+ya vamos a ir a eso
+fíjate
+veamos
+este tema
+no nuevamente
+información
+versus representación
+¿por qué usted
+se detiene
+cuando se encuentra
+en un semáforo en rojo?
+el semáforo en rojo
+no es más que una representación
+¿cuál es el decodificador
+en este caso?
+si el semáforo rojo
+no es más que una representación
+y yo aquí lo que quiero
+es extraer información
+¿cuál es el decodificador
+que me permite
+extraer información
+de esa representación?
+¿el cerebro?
+el agente natural
+nuestro conocimiento
+de las leyes de tránsito
+muy bien
+¿quién dijo eso?
+aquí el Manuel
+muy bien Manuel
+el decodificar
+es que hemos aprendido
+a actuar en cierto tipo
+de situaciones
+entonces fíjense
+es nuestra
+es nuestra habilidad
+de reconocer
+un tipo de situación
+S1
+lo que nos permite
+decodificar la información
+codificada
+en una representación
+para actuar en el mundo
+y generarse
+una situación S2
+entonces S1
+es estar enfrente
+a un semáforo en rojo
+en una intersección
+S2
+situación 2
+es detenernos
+en esa intersección
+nosotros aprendimos
+que cuando estamos
+en una situación
+del tipo S1
+tenemos que
+tener una acción
+del tipo
+que origina
+una situación
+del tipo S2
+detenernos
+en esa intersección
+o sea
+la información
+es sensitiva
+al contexto
+al tipo
+de situación
+ok
+¿se entiende eso?
+es sensitiva
+al contexto
+al tipo
+de situación
+entonces
+como la información
+es sensitiva
+al contexto
+al tipo
+de situación
+dos o más agentes
+pueden basarse
+en diferentes
+contextos
+y diferentes
+contextos
+llevarán
+a diferentes
+interpretaciones
+y diferentes
+interpretaciones
+dan lugar
+a bloqueo
+en el flujo
+de información
+cuyo efecto
+compuesto
+puede rápidamente
+originar
+cuellos de botella
+de información
+ok
+profe
+pero volviendo
+volviendo
+al ejemplo
+de
+HAL 9000
+el igual
+tenía como
+su programación
+de prioridades
+con quizás
+internamente
+teoría de juego
+así como
+los automóviles
+para conducir
+el típico
+del MI
+entonces
+ese criterio
+uno puede decir
+que no
+en verdad
+no tuvo
+la
+la decisión
+de hacerlo
+sino que
+siguió solamente
+el algoritmo
+tú me dices
+que no
+tuvo
+libre
+el drío
+eso
+claro
+porque
+justamente
+por lo que
+dijimos
+ahora
+el contexto
+de la información
+que tenía
+lo llevó
+a
+a
+a su conclusión
+sí
+pero no entiendo
+por qué dices
+que no tiene
+no tenía
+libre
+el drío
+cuál es la lógica
+para decir eso
+porque
+todo lo
+bueno en verdad
+no sé cómo está programado
+pero asumiendo
+que tenía
+como una serie
+de reglas
+estructuradas
+como que era
+la prioridad
+de la misión
+sí
+y como él
+determinó
+que cualquier
+toda la actividad
+humana
+estaba haciendo
+riesgo a la misión
+de manera unidad
+de manera súper
+unilateral
+o arbitraria
+sí
+para él
+está como una
+variable binaria
+prácticamente
+llegar ahí
+de 0 a 1
+sí
+el punto es que
+uno está aprendiendo
+este tipo de
+mira
+el punto es que
+este tipo de situaciones
+por ejemplo
+estar enfrente
+de un semáforo en rojo
+en una intersección
+y
+detenernos
+en esa intersección
+eso
+está mediado
+por una representación
+que es la representación
+de un semáforo en rojo
+ok
+y el decodificador
+acá
+se manifiesta
+en una regla
+que involucra
+dos tipos de situaciones
+y esas reglas
+tienen que venir
+de algún lado
+entonces
+volvemos
+a la pregunta
+original
+de esta
+de esta combinación
+entre
+el paradigma
+simbólico
+y subsimbólico
+estas reglas
+de conocimiento
+son reglas
+de conocimiento
+al final del día
+¿cierto?
+son altamente simbólicas
+son
+para nosotros
+es fácil
+aprenderlas
+pero
+pero no es inmediato
+se dan cuenta
+imagínense
+imagínense cuántas reglas
+aprende un bebé
+en los primeros
+tres años de vida
+cada día
+está aprendiendo
+nuevas reglas
+después
+y no paramos
+de aprender reglas
+de orden simbólico
+ok
+a través de
+distintos tipos
+de situaciones
+en las cuales
+nosotros nos vemos
+envueltos
+digamos
+ok
+y muchas
+no son
+no son
+dadas
+top down
+o sea
+alguien nos enseñó
+cierto
+y algunas
+las aprendemos
+por prueba
+y error
+o por errores
+que cometemos
+digamos
+ok
+pero
+eso
+ese nivel
+de
+ese alto nivel
+de una regla simbólica
+de este tipo
+para un
+paradigma
+subsimbólico
+es mucho más difícil
+de poder
+de poder implementar
+ok
+y es por eso
+que
+algunas aplicaciones
+que son intensivas
+en conocimiento
+tienen menos
+digamos
+las vemos menos
+en estas últimas
+arquitecturas
+subsimbólicas
+de lo que vemos
+de lo que vemos
+en otras
+aplicaciones
+que son intensivas
+en datos
+más que en
+reglas de conocimiento
+de alto nivel
+ok
+eso es lo que
+debemos
+tener en cuenta
+ok
+entonces
+no sé si
+conocen
+este
+este es un poema
+muy famoso
+en Inglaterra
+en la historia
+de Inglaterra
+y jugó
+es como nuestro
+combate naval
+de Iquique
+esto ocurrió
+en 1854
+en una guerra
+que se llama
+la guerra
+se llamó
+la guerra
+de Crimea
+en donde
+una batalla
+bastante importante
+que fue
+una masacre
+para
+para el ejército
+británico
+por un problema
+como el que se plantea
+acá
+un bloqueo
+en el flujo
+de información
+ok
+y
+se basó
+en
+en mal
+interpretar
+en mal
+en decodificar
+mal
+una orden
+una representación
+basado
+en
+dos situaciones
+que eran
+eran
+distintas
+o sea
+el general
+envió
+una
+una orden
+de atacar
+hacia un cierto
+punto
+desde
+desde
+lo alto
+de una colina
+y
+el punto
+al cual
+se refería
+desde
+quien recibe
+la orden
+en el fondo
+de la colina
+él interpretó
+el punto
+donde quería ir
+que era un punto
+completamente
+distinto
+ok
+y en la sabiendas
+de que no era
+una buena idea
+porque
+porque
+dada la relación
+de fuerzas
+en esa batalla
+no era conveniente
+hacer eso
+él
+cierto
+por evidencia
+de vida
+siguió esa orden
+asumiendo
+que el punto
+al cual
+tenía que ir
+y atacar
+era el que
+él
+estaba viendo
+desde ahí
+pero
+el punto
+era otro
+ok
+y eso
+gatilló
+la masacre
+prácticamente
+de toda esa
+unidad
+y la pérdida
+de una batalla
+que fue crucial
+en esa guerra
+de Crimea
+en ese año
+1854
+eso generó
+mucha consternación
+obviamente
+en Inglaterra
+y un poeta
+escribió
+una serie
+de poemas
+que
+tienen el nombre
+de la carga
+de la
+brigada
+liviana
+en 1854
+el punto
+acá
+es
+entender
+que
+hay una diferencia
+entre
+la información
+y la representación
+entonces
+la representación
+está almacenada
+en la base
+de conocimientos
+pero
+esa representación
+así
+así como está
+todavía no es
+información
+y la pregunta
+es
+¿qué necesito
+para decodificar
+o codificar?
+entonces
+cuando yo
+adquiero
+nueva información
+la debo
+representar
+la debo
+codificar
+en una
+representación
+y para
+decodificar
+necesito ese mismo
+sistema
+o sea
+el mismo
+sistema
+que codifica
+también
+decodifica
+y eso
+tiene un
+nombre
+lo pueden
+anotar
+porque no
+aparece acá
+se llama
+el sistema
+de representación
+de conocimientos
+anoten eso
+porque es súper
+importante
+en todo sistema
+de inteligencia
+artificial
+el encargado
+de codificar
+y decodificar
+representaciones
+de conocimiento
+o reglas
+de representación
+de conocimiento
+es
+el
+sistema
+de representación
+de conocimiento
+y nosotros
+vamos a ver
+algunos de ellos
+conforme
+vayamos viendo
+distintos lenguajes
+de representación
+de conocimiento
+ok
+pero eso
+lo deben anotar
+porque no lo tengo
+aquí
+explícitamente
+escrito
+ok
+pero ese
+sistema
+de representación
+de conocimiento
+es el decodificador
+y el codificador
+ok
+entonces ya tenemos
+dos cosas
+tenemos el lenguaje
+de representación
+de conocimientos
+que me permite
+escribir las reglas
+en ese lenguaje
+y vamos a ver
+algunos ejemplos
+más adelante
+y tenemos
+el sistema
+de representación
+de conocimiento
+que va
+a la base
+de conocimiento
+encuesta estas reglas
+y es capaz
+de decodificar
+o si genera
+nuevas reglas
+las
+las
+almacena
+en la base
+de conocimiento
+las codifica
+en el lenguaje
+de representación
+de conocimiento
+y las deja allí
+ok
+se entiende
+¿no?
+sí
+se entiende
+claro
+entonces
+eso que la biología
+como no sé quién
+no sé si
+Isabel estaba hablando
+de eso hace un minuto
+atrás
+pero cuando
+nos ha hablado
+del ADN
+como representación
+y no como
+información
+y efectivamente
+o sea
+efectivamente
+el ADN
+es solamente
+una representación
+y hay algo
+que toma
+como codificador
+o edificador
+o sea que permite
+que ese gen
+se exprese
+en el fondo
+y eso tiene que ver
+con un área
+de la biología
+que creo que ella misma
+lo mencionó
+Isabel
+¿cómo la llamaste?
+epigenética
+epigenética
+¿cierto?
+así es
+ok
+entonces
+la epigenética
+en nuestro contexto
+se llama
+el sistema
+de representación
+de conocimientos
+es él
+el que va a codificar
+si tengo una nueva regla
+que yo generé
+la va a codificar
+usando el lenguaje
+de representación
+de conocimientos
+la va a almacenar
+en el sistema
+en la base
+de conocimientos
+y si la tiene que usar
+la tiene que invocar
+va a ir a buscarla
+a la base
+de conocimientos
+que va a estar
+en un cierto lenguaje
+y la va a decodificar
+y a través de
+ese proceso
+yo adquiero
+tomo acceso
+a la información
+¿ok?
+ok
+en los últimos minutos
+de la clase
+de hoy
+nos quedan 7 minutos
+voy a introducir
+que es un sistema
+de IA
+de inteligencia artificial
+¿ok?
+ok
+los sistemas
+de inteligencia artificial
+intentan replicar
+capacidades cognitivas
+de humanos
+en máquinas
+o en computadoras
+de von Neumann
+llamados así
+por John von Neumann
+y mañana
+en computadoras cuánticas
+¿ok?
+¿cuáles son
+estas capacidades?
+reconocimiento
+de habla
+o SR
+speech recognition
+¿cierto?
+que está
+en gran medida
+resuelto
+¿ok?
+está en gran medida
+resuelto
+hoy en día
+para la mayoría
+de los lenguajes
+diría yo
+después
+después tenemos
+el tema
+de visión
+visión
+¿cierto?
+que es una
+de las áreas
+más desarrolladas
+y es una
+de las áreas
+en donde
+en donde
+fíjense
+el paradigma
+subsimbólico
+hoy en día
+supera al humano
+y ustedes
+van a decir
+¿por qué?
+muy simple
+porque visión
+es intensiva
+en datos
+pero no
+en conocimientos
+entonces
+de todas
+estas áreas
+que yo les
+nombré
+son
+1, 2, 3, 4, 5, 6, 7 áreas
+hay algunas
+que son intensivas
+en conocimiento
+y otras
+que son intensivas
+en datos
+las que son
+intensivas
+en datos
+ustedes van a ver
+que
+con las arquitecturas
+de Deep Learning
+de hoy
+tenemos
+bastante éxito
+¿ok?
+porque
+nuevamente
+son intensivas
+en datos
+no son intensivas
+en conocimiento
+pero todas
+las áreas
+que están acá
+y que son intensivas
+en conocimiento
+el paradigma
+subsimbólico
+flaquea
+¿ok?
+no tenemos
+no tenemos
+aplicaciones
+que denominamos
+Commercial Grade
+Applications
+o sea
+que se pueden
+despegar
+comercialmente
+para
+sistemas
+de inteligencia
+artificial
+en general
+y sistemas
+de emisión
+crítica
+en particular
+¿se entiende
+el concepto
+de sistema
+de emisión
+crítica
+o no?
+¿alguien me lo puede
+definir?
+¿que puede ser
+un sistema
+de inteligencia
+artificial
+o puede que no?
+¿ok?
+pero cuando
+un sistema
+de inteligencia
+artificial
+es además
+sistema
+de emisión
+crítica
+es particularmente
+relevante
+¿qué es un sistema
+de emisión
+crítica?
+un sistema
+que debe estar
+en funcionamiento
+24-7
+y además
+de eso
+además
+de esa condición
+es que cualquier
+falla
+o disrupción
+puede tener
+puede tener
+ejemplo
+equipamiento
+médico
+claro
+puede tener
+consecuencias
+catastróficas
+muy bien
+entonces
+habla
+está casi
+resuelto
+es intensivo
+en datos
+pero no
+en conocimiento
+visión
+lo mismo
+y es una
+de las áreas
+más desarrolladas
+aprendizaje
+automático
+muy desarrollado
+pero
+incapaz
+hoy en día
+de implementar
+razonamiento
+automático
+de hecho
+nunca fue
+su objetivo
+nunca fue
+el objetivo
+del paradigma
+subsimbólico
+implementar
+razonamiento
+automático
+pero
+muchas veces
+hizo la crítica
+de que
+no estaba basado
+en razonamiento
+automático
+y ellos dijeron
+bueno
+pero igual
+a través de
+el desarrollo
+de sistemas
+de aprendizaje
+automática
+basado en
+redes neuronales
+en algún momento
+se va a poder
+llegar a eso
+y la verdad
+es que no se ha
+podido llegar
+porque
+para razonamiento
+automático
+lo que uno
+necesita
+es un lenguaje
+de representación
+de conocimientos
+basados en
+lógica
+y ahí
+si puedes
+razonar
+automáticamente
+ok
+pero
+estos sistemas
+de redes
+neuronales
+no están
+basados
+en lógica
+no están
+basados
+en reglas
+de conocimiento
+tampoco
+están basados
+en datos
+entonces ahí
+tenemos un problema
+y mucho
+de este problema
+que vieron
+en el curso
+anterior
+y que
+su compañero
+no recuerdo
+el nombre
+acá
+lo mencionó
+el tema
+de trazabilidad
+es justamente
+por esta
+debilidad
+por no tener
+por ser incapaz
+de implementar
+razonamiento
+automático
+ahora
+¿qué significa
+razonamiento
+automático?
+¿alguien me lo puede
+definir?
+¿se es capaz
+de tomar
+decisiones?
+más que eso
+porque el sistema
+de inteligencia artificial
+basado en el paradigma
+subsimbólico
+puede tomar
+decisiones
+razonamiento
+que tenga un orden
+lógico
+y auditable
+que sea
+como repetitivo
+o trazable
+desde el primer paso
+que sea trazable
+y que tenga
+una
+una cadena
+una cadena
+de causa-efecto
+una cadena
+lógica
+¿ok?
+eso es razonamiento
+automático
+robótica
+en robótica
+una de las áreas
+exitosamente aplicadas
+en manufactura
+hoy en día
+no hay intención
+o conocimiento
+lenguaje natural
+es todo un mundo
+depende del área
+porque en lenguaje natural
+la puedo subdividir
+en 20 o 30
+subespecialidades
+¿ok?
+entonces
+hay áreas
+de lenguaje natural
+donde se va bien
+todo lo que es
+summarizing
+por ejemplo
+o sea
+extraer información
+y hacer resúmenes
+que ChatGPT
+está muy usado
+para eso hoy
+y eso se da muy bien
+es intensivo
+en datos
+pero no en conocimiento
+pero todo lo que tiene
+que ver con
+natural language
+understanding
+en deep understanding
+o sea
+aprendizaje profundo
+por ejemplo
+leer un texto
+y yo empiezo
+a hacer preguntas
+¿por qué el autor
+hizo esto?
+¿por qué dijo lo otro?
+etcétera
+eso ya implica
+razonamiento automático
+y ahí tenemos
+un problema
+con el paradigma
+simbólico
+¿ok?
+sin embargo
+otras áreas
+como decía yo
+como el
+resúmenes
+o mismo
+machine learning
+si bien
+machine learning
+muchas veces
+deja mucho que desea
+yo no lo nunca recomiendo
+o sea
+tienes que siempre
+pasarlo por el sedazo
+de un lector
+de un lector
+que domine la lengua
+para ver que la traducción
+sea buena
+porque siempre
+adolece de problemas
+digamos
+pero igual
+es un avance
+bastante importante
+respecto
+de lo que teníamos
+antes
+¿ok?
+y eso es porque
+en mayor o menor
+medida
+traducción automática
+es menos intensivo
+en conocimientos
+que otras áreas
+de NLP
+de natural language processing
+y después tenemos
+otras áreas
+de realidad virtual
+aumentada
+y ahí es más complejo
+¿por qué?
+porque realidad
+virtual aumentada
+tiene que ver
+con un área
+en la cual
+uno de los primeros sistemas
+de inteligencia artificial
+que
+donde a mí
+me tocó trabajar
+en el
+Centro Alemán
+de Inteligencia Artificial
+les digo
+el año 89
+comencé a trabajar
+en ese proyecto
+hasta el 92
+fue el primer
+sistema
+basado en el
+conocimiento
+de representación
+multimodal
+y fue bastante
+desafiante
+porque
+involucraba
+mucha media
+muchas
+modalidades
+distintas
+involucraba
+lenguaje natural
+texto en lenguaje natural
+animaciones
+gráficos
+anotaciones
+¿cierto?
+ya tenemos cuatro
+y tenía una
+y tenía también
+movie models
+es decir
+animaciones
+animadas
+con gráficas
+que se simulaba
+y
+y que
+se usó
+inicialmente
+el sistema
+para
+enseñar
+a usar
+equipos
+complejos
+¿ok?
+imagínense
+eso fue en el año
+en los fines de los 80
+comienzos de los 90
+entonces
+por ejemplo
+ese sistema
+vamos a suponer
+una máquina
+de hacer café
+entonces
+hay que aprender
+a usar la máquina
+de hacer café
+entonces
+tenía que representar
+distintas
+contenido
+¿cierto?
+las reglas de representación
+tenían que involucrar
+contenido para generar
+objetos
+para generar
+anotaciones
+para generar
+explicaciones
+en lenguaje natural
+y para generar
+animaciones
+que tenían
+una cierta
+dinámica
+¿cierto?
+y existe lo que se llamaba
+cross model
+references
+entonces por ejemplo
+estas
+referencias
+modales cruzadas
+implicaba que
+al usuario
+por ejemplo
+se tenía que decir
+tome
+el
+el objeto
+que está
+en la esquina
+superior derecha
+de su pantalla
+entonces
+eso
+con lenguaje natural
+pero
+la esquina
+superior derecha
+o el objeto
+en la esquina
+superior derecha
+no fue introducida
+con lenguaje natural
+fue introducida
+a través
+de un gráfico
+a través
+de un
+objeto
+que se desplegó
+en
+efectivamente
+en el objeto
+superior izquierdo
+entonces
+el usuario
+lo veía
+y entendía
+y ahí estaba
+la anotación
+y
+esos son
+son referentes
+que se introducen
+en el discurso
+pero que no están
+siendo introducidas
+con
+lenguaje natural
+sino que son
+introducidas
+con otra modalidad
+en este caso
+con un gráfico
+y que están
+disponibles
+en el discurso
+entonces yo puedo
+hacer uso
+de ese referente
+porque ya está
+introducido en un discurso
+solo que no lo introduje
+con lenguaje natural
+lo introduje
+con la anotación
+con una gráfica
+en esa esquina
+superior derecha
+y esas son las llamadas
+Cosmolar References
+fue un proyecto
+bastante pionero
+fue la primera vez
+que se hacía una cosa así
+con varias modalidades
+o sea generar
+lenguaje natural
+pero no solo
+con lenguaje natural
+sino que hay gráficas
+anotaciones
+animaciones
+etcétera
+ok
+imagínense
+eso ya era pionero
+en ese tiempo
+imagínense lo que va a ser
+la realidad virtual aumentada
+ok
+con el metaverso
+que se propone hacer
+meta platforms
+antiguo Facebook
+de hoy
+en términos de
+requerimiento
+de
+de reglas de conocimiento
+para poder manejar eso
+va a ser bastante complejo
+y para qué decir
+Artificial General Intelligence
+AGI
+ahí va
+AGI
+como Artificial General Intelligence
+involucra
+varias distintas áreas
+de inteligencia artificial
+en su conjunto
+algunas que se van a dar bien
+con el sistema
+con el paradigma
+simbólico
+y otras que se van a dar bien
+con el paradigma subsimbólico
+y estas van a tener que
+coexistir pacíficamente
+y es ahí
+la gran promesa
+del paradigma híbrido
+que les
+que les mencionaba
+en la clase de hoy
+y que la pueden leer
+en la primera lectura
+esa lectura
+es bastante técnica
+en todo caso
+o sea
+y es bien matemática
+así que
+se las recomiendo
+para los que tengan interés
+bien
+son las 9.34
+abarcamos bastante terreno
+hoy
+hoy día
+fue un día
+introductorio
+espero que les haya sido
+de interés
+la segunda sesión
+va a ser práctica
+vamos a partir
+probablemente
+con un ejercicio práctico
+de una hora
+más o menos
+o algo así
+y les voy a enviar
+instrucciones por email
+porque vamos a tener
+que bajar un software
+de libre acceso
+para poder trabajar
+con eso
+¿ok?
+¿cuál es el software
+profesor
+para bajarlo
+de una vez?
+les voy a enviar
+el link
+para que lo puedan bajar
+es mejor
+para que
+se los voy a enviar
+a más tarde de mañana
+les envío el link
+con las instrucciones
+supongo
+muchas gracias
+¿va a ser la misma modalidad?
+¿usted va a estar
+conectado
+de manera remota?
+sí
+ya
+ya pronto
+cualquier pregunta
+me envían email
+traten de leer
+las lecturas
+sobre todo
+la 1 y la 4
+las otras 2
+que son más macro
+son de
+más fácil lectura
+bueno
+la 4 también
+es muy fácil
+la única
+más técnica
+es la primera
+que tiene que ver
+más con este
+paradigma híbrido
+que yo les estaba
+presentando
+pero
+eso es
+gracias por participar
+en la clase de hoy
+y que tengan
+un buen fin de semana
+¿ok?
+igual profe
+muchas gracias
+muchas gracias
+muchas gracias
+muchas gracias
+muchas gracias
+hasta luego

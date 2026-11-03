@@ -1,0 +1,9115 @@
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Esta semana largo, que da gusto.
+Hoy día vamos a avanzar en algunas técnicas especiales de búsqueda.
+Voy a matizar con algunos toques históricos, como ya se están acostumbrando.
+Algunas historias que me han pasado, o que le han pasado a otros, pero que son tan entretenidas
+que hay que contarlas. Y en el entretiempo, dejamos un huequito para las consultas que
+pueda haber, que debe haber sobre las tareas.
+Así es que, estamos entonces hablando primero de un tema pendiente que nos había quedado,
+que es la programación por restricciones, que lo voy a pasar muy superficialmente,
+que no es un tema muy relevante porque tiene más bien que ver con el uso de un lenguaje.
+Pero es conveniente que lo conozcan por una parte y por otra estaba en el programa.
+No tengo muchas alternativas.
+No me puedo poner muy creativo.
+Entonces, hoy día vamos a partir con programación con restricciones.
+Y después nos vamos a ir a técnicas más entretenidas de búsqueda.
+Vamos a buscar y vamos a jugar.
+¿Qué es la programación por restricciones?
+Es un invento que surge de la inteligencia artificial por allá por los ochenta.
+Seguramente los papás de ustedes les han hablado de cosas como Prolog.
+Estos son lenguajes creados para la inteligencia artificial en Francia, en Marsella particularmente.
+Y algunos otros lenguajes que se supone que empiezan a facilitar la vida de las personas.
+Hoy día estamos acostumbrados a los lenguajes de programación,
+o a las herramientas más bien de desarrollo de programas o de sistemas, bastante amistosos.
+Esto no era así antiguamente. Había que sufrir bastante.
+Bueno, yo empecé a programar cuando se usaban tarjetas perforadas.
+Yo soy de concepción.
+Yo hacía programas en COBOL, en tarjetas perforadas.
+En mi universidad no había un compilador de COBOL, de ese lenguaje.
+Entonces se tomaba el paquete de tarjetas.
+Un programa pesaba dos kilos, dos kilos y medio, dependiendo de la cantidad de tarjetas.
+Se ponían en una caja de cartón.
+Se ponían en un bus en las noches.
+Se traían Ecom, que lo procesaban a la noche siguiente si tenían tiempo.
+Y después se mandaba de vuelta en bus a Concepción.
+Entonces al tercer día uno le llegaba el programa con el listado.
+Y a veces decía, hay un error en la primera línea.
+Y cómo corregía por niveles.
+Eso sería todo lo que uno tenía.
+Hoy día no.
+Hoy día uno ejecute y si hay un error, compila.
+Qué maravilla.
+Hasta que inventaron ese relojito.
+¿Se acuerdan del relojito que tenía Windows?
+Que daba vuelta y que daba la idea de que estaba haciendo algo.
+Oh, si está procesando.
+Bueno.
+Esas son las grandes mentiras de la historia.
+¿Qué es lo que hace esta programación con restricciones?
+Resolve el problema de optimización combinatoria.
+Aquí el aporte de esta línea, esto es una línea,
+tiene dos caras.
+Primero, mira la optimización combinatoria de una manera un poquito diferente.
+Los métodos clásicos de investigación de operaciones.
+Ahí lo puse, está en inglés el OR.
+Es investigación de operaciones.
+Y el liberar un poco las restricciones mismas que tenía la optimización numérica
+para manejar cierta flexibilidad.
+Que en un proceso de optimización es muy bienvenido.
+Y al mismo tiempo, ofrecer un lenguaje que sea un poco más amistoso al usuario.
+Cuando uno se enfrenta a los lenguajes, la primera vez que se enfrenta al lenguaje es una...
+Es una experiencia casi mística, cuando uno ve un primer programa en el lenguaje de programación.
+Es una cosa mágica.
+Y yo miraba como algunos compañeros míos, que eran un poco más astutos,
+podían entender esas claves.
+Lo hablábamos antes de la clase.
+Era como entender las derivadas, las integrales.
+Que eran magia.
+Como les decía en la clase anterior, uno sabía derivar al revés y al derecho y sacaba todos los resultados.
+Pero, ¿qué significa...?
+Voy a interrumpirlo con un cuento que mi hermana es profesora.
+Ya les conté de ella la clase anterior.
+Y en su colegio, el himno del colegio en alguna parte decía Gloria y lo haz.
+Pompiojo de siete años, Gloria y lo haz.
+No significa mucho.
+Entonces, alguna vez fui y le puse atención cuando cantaban el himno del colegio.
+Como Gloria y lo haz era un poco ajeno, le sonaba mucho mejor Cobre y lo haz,
+que era mucho más conocido.
+Eso nos pasaba a nosotros con los primeros lenguajes, con las integrales, con todas estas cosas.
+¿Dónde se aplica esta programación por restricciones?
+En muchas partes.
+Por ejemplo, planificación de la producción.
+Scheduling, claro.
+Roteamiento vehicular.
+Los camiones de la basura, que de los que hablábamos también caen aquí.
+Transporte ferroviario.
+Agricultura.
+Planificación de la agricultura.
+En particular, diversificación.
+Lo que es una gracia, cosa que yo aprendí de viejo, que había que diversificar en la agricultura,
+porque si uno tenía solo trigo de un cierto tipo, llegaba un bicho que se comía el trigo y se lo comía todo.
+Al tener diferentes especies, eso hacía que solo algunas se murieran.
+La gracia de la diversificación, que es algo que vamos a ver el próximo lunes,
+cuando empecemos a hablar ya de cosas como algoritmos genéticos.
+Un ejemplo sencillo, para que vean solamente cómo se usa esto, este lenguaje.
+Vamos a colorear un mapa.
+¿Alguna vez han visto esos mapas que tienen los abuelitos, esos redondos, esos globos terráqueos que tienen color en los países?
+Nunca hay dos países vecinos del mismo color.
+Esa es una definición de los constructores de mapas.
+Tal vez lo veamos más adelante, pero eso se parece mucho a un problema de grafos.
+No les voy a adelantar mucho, pero se llama coloración.
+Y tiene que ver con pintar con colores.
+Y existe un teorema, que no ha sido probado, por si se quieren entretener el fin de semana, digo yo,
+que todo grafo planar o todo mapa plano se puede colorear con, a lo más, cuatro colores.
+Ahora no se ha encontrado una situación en que se necesiten más de cuatro.
+En los años 70, en Suecia, unos muchachos dijeron, no, nosotros demostramos que era cuatro.
+Y la verdad es que tenían un montón de pruebas, miles y miles y miles de casos.
+Todos los matemáticos no les creyeron porque no estaba demostrado.
+Los suecos se entusiasmaron, sacaron hasta una estampilla,
+y después descubrieron que había un error en su programa.
+Vamos a pintar estos países.
+La restricción, como les decía, es que no haya dos países que tengan el mismo color.
+Digamos que no hay dos empresas que tienen el mismo proveedor.
+Esto podemos transformarlo en cualquier problema similar.
+La pregunta es, ¿son suficientes cuatro colores?
+Cuidáles, adelanté que sí.
+Son suficientes.
+Para eso se usa un lenguaje.
+Estos desarrollaron un lenguaje especial.
+Optimization Programming Language, el OPL.
+Es un lenguaje que permite modelar este problema.
+Vamos a pintar el mapa, que es muy fácil decodificar.
+Todos los vendedores de lenguajes dicen lo mismo.
+Y forma parte de un software que es de IBM, de Ciplex.
+Y algunos lo deben conocer.
+Lenguaje de optimización.
+¿Qué hace este lenguaje?
+Permite definir casi en un lenguaje natural el problema que queremos resolver.
+Por ejemplo, vamos a tener una enumeración.
+Que es lo que vamos a trabajar con un conjunto que se llama países.
+Y esos países son Bélgica, Dinamarca, Francia, Alemania, Países Bajos, Luxemburgo.
+Eso es lo que tenemos.
+Esos son nuestros objetos.
+Y también vamos a tener una variable color
+que puede tomar uno de los cuatro colores distintos que están ahí.
+Está restringidos a tomar valores de ese intervalo solamente.
+Y vamos a asociar un color a un país.
+Suena difícil cuando uno lo pone en cristiano.
+Hagamos un programa que haga eso.
+Como van a ver en todos estos problemas que hay.
+La verdad es que todos son bastante sencillos.
+Hay que salirse de la caja y listo.
+Entonces, vamos a decir cosas.
+Resuelva el problema del programa.
+Resuelva el hecho de que el color de Francia tiene que ser distinto del color de Bélgica,
+el color de Francia distinto al de Luxemburgo, etcétera, etcétera, etcétera.
+Esa es nuestra definición.
+La gracia es que estamos manejando variables, no numéricas, colores.
+Las restricciones no son lineales porque este país tenga una coloración distinta al otro.
+Y esto se puede hacer en programación por restricciones.
+Ahí tenemos la definición.
+Eso es todo lo que necesitamos.
+Nosotros podemos tener un requerimiento lógico, como estamos acostumbrados en matemáticas.
+Si A igual 1 y B igual 2, entonces C es mayor que 3 o B igual 1.
+Eso significa cualquier cosa.
+Ah, sí, eso es matemático.
+Es una restricción lógica.
+Pero, ¿cómo lo hacemos en programación por restricciones?
+Muy parecido.
+A igual 1 y B menor o igual que 2.
+Eso implica que C es mayor que 3 o D igual 1.
+Usamos conectivos lógicos.
+No hay ninguna complicación en hacer esto.
+Y este es el lenguaje que esta programación por restricciones entiende.
+No tenemos que quebrarnos el mate y generar algún algoritmo así extraordinariamente creativo.
+Incluso trae funciones del tipo todos diferentes.
+Podemos usarlos con el color.
+Queremos que todos estos objetos sean diferentes.
+Entonces tenemos 3 variables, X y Z.
+Y lo que queremos es que sean diferentes.
+Hay múltiples razones para eso.
+Vamos a ver que hay un caso particular.
+Y lo vamos a volver a tratar.
+Que esto se da de manera casi natural.
+Lo que hace esta función, all different, es como las distintas funciones que pueden encontrar en Java, que tiene millones.
+Que uno nunca las va a alcanzar a usar todas.
+Entonces, la única restricción es que esos valores sean diferentes.
+Pueden ser los colores de las camisetas de los jugadores de dos equipos más el árbitro.
+Por ejemplo, para que no se nos confundan los deportistas.
+Podemos usar los enruteamientos.
+Que todos sean diferentes.
+Significa en un circuito, en un recorrido vehicular, que no se repite nunca un punto.
+No se repite nunca un cliente en el despacho.
+Eso no lo hacen también las cadenas de retail hoy en día.
+No sé si ustedes compran por internet, seguramente sí.
+Y les llega...
+Bueno...
+No puede haber razones para ello.
+No sé si uno quiere todo lo pedido al mismo día.
+Y uno habitualmente pone yes.
+Para ponerme las pantuflas una sola vez durante el día.
+Y resulta que llega el primer pedido como a las 11 de la mañana.
+Llega otra a las 3 y otra a las 7.
+Es decir, ¿por qué no trajeron todos juntos?
+Bueno, puede haber una explicación lógica o una mala programación.
+La explicación lógica es que vienen de bodegas distintas.
+Pero también puede haber que no se avisparon con la programación,
+que se les llenó el camioncito, que calcularon mal.
+Puede haber...
+De hecho, a veces se extravían.
+Podemos usar este lenguaje o esta técnica de programación por restricciones
+para resolver ese tipo de problemas.
+No es el objetivo nuestro, pero les cuento que existe como herramienta,
+como viene incorporado al CIPLEX,
+es relativamente fácil de usar.
+Bueno, CIPLEX hay que pagar, es IBM.
+Podemos crear una restricción cuando queramos.
+Se puede expandir el lenguaje.
+Como vieron en el caso de los países con los colones.
+Podemos jugar con los problemas.
+El lenguaje es bastante más natural
+para usar en este lenguaje.
+Las soluciones son relativamente rápidas
+y los detalles de cómo se hizo no nos interesan
+si nosotros somos usuarios.
+Hoy día no nos preocupamos de estos detalles internos.
+Simplemente procesamos.
+Los primeros programadores eran los viejos más sufridos
+porque tenían que ahorrar memoria.
+De hecho, algunos lenguajes tenían comandos especiales
+para poder usar un espacio de memoria
+que otras variables habían usado.
+en el entendido que no se iban a volver a usar.
+Pero a veces sí se volvían a usar y ahí quedaba el esparramo.
+Especialmente está hecho para el scheduling.
+Aquí se pueden manejar los conceptos de jobs.
+La tarea antes, después.
+Este trabajo necesita tal máquina.
+Podemos programar, podemos planificar la producción.
+Y lo podemos extender sin grandes dolores de cabeza.
+Bien.
+Eso lo pasé así casi como un celaje
+porque esto es algo que les estaba debiendo de la clase pasada.
+Ahora vamos a volver levemente a los grafos.
+Un poco para contarles que prácticamente todo lo que hacemos
+tiene que ver con esta estructura de grafos.
+Yo creo que ustedes conocen ese grafo.
+Más bien algunos se saben de memoria los nodos.
+De un color particular.
+Eso es un grafo.
+Son puertos o nodos que en este caso son lugares
+que están unidos por líneas
+que en este caso son líneas físicas, son líneas de tren.
+Y a veces tenemos
+una forma de llegar a un lado.
+Por ejemplo, esta línea verde.
+Si queremos ir aquí, que no alcanzo a ver porque
+primero soy del sur y segundo soy piti y tercero está borroso.
+Podemos llegar de una sola manera.
+Sin embargo, hay dos formas posiblemente de llegar
+una más entretenida que otra.
+Desde el centro a, no sé, por ejemplo aquí.
+Eso es un grafo.
+¿Y por qué nos interesan los grafos?
+Porque sirven para todo.
+Vamos a...
+Los quiero entusiasmar con el concepto de grafo.
+Quiero contarles que esto es relativamente sencillo de usar
+y que...
+Voy a dar un par de definiciones.
+No me voy a meter en...
+complejidades matemáticas muy profundas.
+La idea no es que se transforme en experto en teoría de grafos,
+sino que simplemente entiendan el concepto.
+Y para eso necesito hacer algunas definiciones.
+Como la distancia.
+La distancia entre dos puntos.
+Que se llaman vértices en un grafo.
+Es la longitud más corta.
+Entre estos dos puntos.
+Esa es una definición.
+En este caso...
+Claro, yo diría...
+¿Puedo ir de A a B?
+Claro, yo puedo ir A, E, D, C y B.
+Intuitivamente...
+No, pero esa no es la más corta.
+La más corta es de A a B.
+Eso es lo que entendemos por distancia.
+Donde nos piden la distancia entre dos puntos en un grafo.
+Es la distancia menor.
+Y a eso le llamamos la distancia entre el vértice X y el vértice X.
+En esa estructura hemos definido ese concepto que nos va a servir, por ejemplo, para determinar, proyectando, si es muy a futuro, las rutas más cortas que debe hacer un camión que distribuye bienes.
+Servicios, por ejemplo.
+Servicios, por ejemplo.
+Servicios, por ejemplo.
+Esta propiedad...
+Que puede tener un grafo.
+Voy a definirla enseguida.
+Esta es un poco más...
+Etrusca de captar así a la primera.
+Primera, lo decimos que si un grafo, cualquiera que sea, un conjunto de una malla con puntos,
+tiene una cierta propiedad y si le sacamos, por ejemplo, una arista, una línea,
+o le sacamos un vértice y deja de tener esa propiedad, entonces esa propiedad que tenía es minimal.
+Es lo mínimo que necesita para mantener la propiedad.
+Ese concepto lo vamos a ver ahora con un ejemplo.
+Hay un grafo, que es una red, es un conjunto de puntos unidos con aristas que tiene una cierta característica.
+Si pierde esa característica, al sacarle ya sea una arista o un vértice,
+entonces quiere decir que la estructura que teníamos era la mínima posible para mantener la propiedad.
+Yo sé que esto suena medio árido todavía, pero vamos a suavizarlo.
+Un grafo con Nexo, esta malla llena de puntos,
+Nexo es un grafo en el cual yo puedo ir desde un nodo cualquiera a cualquier otro.
+Está todo conectado.
+Cuando yo puedo ir, como en el grafo que dibujé al comienzo,
+desde el nodo A al nodo B,
+ya sea en línea directa o recorriendo los distintos vértices,
+tengo dos formas de guiar, lo que tengo es un ciclo.
+Llego a un punto y llego al mismo punto, recorriendo distintos caminos.
+Eso es un ciclo.
+Y cuando no tiene ciclo, el nombre no es muy creativo, el grafo es acíclico.
+Hasta ahí no debería haber mayor dificultad.
+Ahora, si este grafo es conexo y es acíclico,
+o sea, está todo conectado y no tiene ciclos,
+entonces es un árbol.
+Esas estructuras que vimos el lunes pasado, un árbol,
+cumple esa propiedad.
+No tiene ciclos y está todo conectado.
+El grafo que ustedes tienen, los parientes,
+están todos conectados de alguna manera con la abuelita.
+Un grafo conexo minimal es un árbol.
+¿Qué?
+Porque si le sacamos a este árbol una arista,
+deja de ser conexo.
+Se transforma en dos pedazos de árboles.
+Entonces, esa propiedad de ser conexo es minimal
+si no hay otro grafo más chico que tenga esa misma propiedad.
+De la misma manera se va a definir el maximal,
+pero no nos interesa mucho.
+Lo que nos interesa, sí, una vez que tenemos este grafo,
+es lo que se llama un árbol de cobertura mínimo.
+Lo mencioné el lunes pasado, lo enuncié,
+lo dejé dando botecitos para retomarlo ahora.
+Un árbol de cobertura es un árbol,
+esa estructura, en la cual yo puedo recorrer todos sus vértices.
+Sin encontrar que falte una arista,
+porque en ese caso no sería conexo.
+Pero si es conexo,
+supongamos que estamos
+con restricciones tan grandes económicamente
+que solo podemos pavimentar una ruta.
+Nos va a salir más caro que pavimentar mucho,
+pero tenemos conectados ciudades
+o puntos de comunicación
+a través de rutas únicas.
+Nos interesa,
+eso es el mínimo para mantener
+la condición de conectividad.
+Y nos interesa, por lo tanto,
+que este árbol
+que nosotros asociamos a un grafo
+sea más barato.
+porque en estos grafos
+la arista
+tiene un valor
+que va a ser un peso,
+un costo,
+que puede ser tiempo,
+puede ser distancia,
+pueden ser muchas cosas.
+Pero vamos a decir
+que hay un peso,
+un valor asociado
+a ir desde un punto
+a otro,
+el costo de transmitir
+un mensaje
+de un punto a otro.
+¿Cuál es la estructura mínima?
+Un grafo se define formalmente
+como un conjunto de vértices
+y un conjunto de aristas,
+edges.
+Un grafo tiene vértices
+y tiene aristas.
+Y imagínense que esto es una red
+con distintos puntos.
+Y cada arista tiene un peso.
+Distinto.
+El peso de ir desde I a J.
+Eso es un valor.
+O de J a I.
+Por ahora,
+vamos a ir
+en ambas direcciones
+sin complicarnos
+mucho la vida.
+Un árbol de cobertura,
+el Minimum Spanning Tree,
+es
+un árbol
+tal que la suma
+de sus pesos
+sea mínima.
+Es decir,
+la forma más barata
+de mantener
+todos los nodos
+conectados.
+eso es un árbol
+de cobertura mínima.
+No se compliquen
+porque ahora vamos
+a reentender
+todo.
+Como les decía,
+un arista
+representa cosas,
+pesos.
+Y nos interesa
+el menor peso.
+Y hay un señor
+que se le ocurrió
+un algoritmo
+y tampoco así
+digamos que se le
+tostaron las neuronas.
+El algoritmo es sencillo.
+Y lo vamos a seguir.
+Y se llama
+algoritmo de Prim.
+Este es el caballero
+que dijo,
+mire,
+podemos hacer esto.
+¿Y cómo lo hace
+el señor Prim?
+Primero elige
+un vértice
+cualquiera.
+Cualquiera.
+En este grafo.
+Y después,
+una vez que está
+parado en este vértice,
+ya tiene un pedacito
+de este árbol
+que quiere construir,
+que es un solo vértice.
+A eso se le llama
+fragmento.
+Entonces,
+él va a buscar
+la arista
+de menor costo
+que vaya
+a un nodo
+que no haya
+considerado aún.
+Dado ese paso,
+él ya tiene
+su origen
+y
+otro vértice
+a la cual llegó
+por un fragmento
+de menor costo.
+Eso es
+un fragmento.
+Y repite el proceso.
+¿Cuál es
+la arista más barata
+que sale
+de este par?
+Él agrega
+con su arista.
+Tiene ya
+de los tres vértices
+del grafo.
+Y hace esto
+para todos
+los vértices
+del grafo.
+El algoritmo
+es rapidísimo.
+Si tengo
+n nodos,
+hace
+n-1
+iteraciones.
+Veamos
+cómo funciona.
+Este es el algoritmo.
+Escoja
+un vértice
+un vértice
+cualquiera.
+Escojo
+una arista.
+Partí eligiendo
+el B1,
+B1,
+B2,
+tal que,
+bueno,
+son distintos,
+obviamente,
+para que no haya un ciclo,
+y sea
+el de menor peso
+entre todos
+los que
+hay disponibles.
+si todas
+las aristas
+ya fueron
+escogidas,
+y hay un pequeño
+cambio con lo que
+les mandé,
+estuve revisando,
+un error,
+lo explico enseguida.
+Si ya escogí
+muchas aristas,
+tengo que ver
+cuáles son aquellos
+vértices que todavía
+me faltan.
+esto lo tengo
+como no pertenece,
+y no,
+pertenece,
+tengo que buscar
+el puerto de origen
+en el fragmento
+que ya tengo.
+Ese es el cambio
+respecto
+del borrador
+que les envié.
+No tenga
+las n-1
+aristas,
+porque un árbol
+con n-2
+tiene n-1
+aristas.
+Fin.
+Y si no,
+vamos de nuevo
+nos queda
+algún vértice
+sin elegir
+de este conjunto
+que ya tengo
+conectado
+cuál es el más
+barato.
+Miren,
+esto funciona así.
+Voy a tomar
+este grafo.
+Vamos a partir
+de un nudo
+arbitrario.
+elegí
+el vértice
+E.
+Ahora lo que
+debo hacer
+es elegir
+la arista
+más pequeña
+de menor peso
+que conecta
+a alguno
+de los vértices
+que no están
+considerado
+en este fragmento.
+tenemos
+tenemos 3,
+3,
+4,
+4.
+Lo que tenemos
+empate
+decidimos
+arbitrariamente.
+vamos a elegir
+esta arista
+la que va
+a A
+que tiene
+un peso
+de 3.
+Ahora
+mi fragmento
+tiene dos vértices
+en el vértice
+E
+y el vértice
+A
+y tengo
+que elegir
+la arista
+de menor peso
+que con
+cualquiera
+de estos dos
+vértices
+a algún
+nodo
+que no haya
+considerado.
+y en este
+caso
+tengo
+dos
+posibilidades
+que son
+los
+AB
+y AD
+porque es
+la arista
+más barata
+que es uno.
+Elegí B
+muy bien
+elegido la otra.
+Ahora
+tengo
+un fragmento
+con tres
+vértices
+E
+AB
+¿Cuál
+es la
+arista
+más barata
+que sale
+de estos
+vértices?
+¿Algún
+nodo
+no
+considerado?
+¿Y esa?
+Porque
+ese era uno
+en el fragmento
+o sea
+los que ya tenía
+ahora busco
+¿Cuál es la
+más chica
+de todas?
+¿Es esa?
+D
+Bueno
+ahora me faltan
+dos vértices
+el F
+y el C
+Bueno
+aquí
+alternativas
+se elige
+arbitrariamente
+y se elige
+arbitrariamente
+el
+esas aristas
+y ahí
+tengo un árbol
+de cobertura
+que según yo
+es mínimo
+¿Pesa ese árbol?
+este
+este era el
+grafo original
+aquí yo
+eliminé
+¿Cierto?
+haciendo este
+algoritmo
+de Prim
+eliminé
+aquellas
+aristas
+que aparentemente
+eran muy pesadas
+y llegué
+a un árbol
+de cobertura
+que este es un árbol
+porque no hay
+ciclos
+yo
+aquí me puse
+clarividente
+y dije
+me van a preguntar
+¿Y si yo hubiera
+elegido otros?
+¿Por qué este árbol
+pesa
+diez?
+Esa es la suma
+de las aristas
+¿Y si?
+¿Sería diferente
+el árbol?
+¿O es único?
+Este es el mismo
+grafo anterior
+¿Alguna voluntaria?
+¿No?
+Elija
+Elija
+Elija
+Que no sea
+el que elegí
+yo
+para ver
+si funciona
+Desde A
+Puede ser
+si eliges A
+para iniciar
+entonces
+tienes que elegir
+AB
+o AD
+que es
+la arista
+más barata
+¿Verdad?
+Sí
+Después
+habrá que soplar
+porque se me va a
+olvidar
+¿Cómo fue esto?
+Perdón
+Ahí me
+Ya
+A
+A
+A
+B
+A B
+¿Ya?
+¿Qué
+C
+o
+C
+Elija
+Elija
+BC
+A
+B
+C
+D
+Ya
+Todo eso
+listo
+Ya
+AF
+Ok
+¿Ok?
+No
+¿Qué tal esto?
+No sé si lo siguieron
+Es distinto al árbol
+¿No es cierto?
+¿No es cierto?
+¿Cuánto peces
+ese árbol?
+¿Cuánto peces ese árbol?
+¿Cuánto peces ese árbol?
+Bien
+El árbol de cobertura mínimo
+O sea
+que el árbol de cobertura mínimo
+efectivamente tiene el valor mínimo
+pero no es único
+Podemos tener
+varias formas de
+esto es lo que hace un árbol de cobertura
+esa es toda la gracia
+Ahora
+para nosotros tiene esa gracia
+media matemática
+pero
+la verdad es que
+efectivamente consigue su objetivo
+la cobertura de todos los nodos
+a un costo
+menor
+A un costo mínimo
+en realidad
+Bien
+Ya tenemos sobre este grafo
+un cálculo
+que nos permite
+obtener una estructura interesante
+pero ahora
+vamos a usar
+otro algoritmo
+que se deriva
+no se deriva
+del prim
+pero está muy emparentado
+que también trabaja
+con un grafo
+pero nos permite
+determinar cosas como
+cuál es la distancia
+desde un origen
+a un nodo particular
+nosotros vamos a calcular
+todos los nodos
+les voy a explicar
+cómo funciona el algoritmo
+lo vamos a seguir
+paso a paso
+este algoritmo
+se debe a
+don
+Edgar
+Dijkstra
+disculpen
+que me olvidó
+apagar esta cosa
+y me empiezan
+a ofrecer
+planes de teléfono
+que ni les cuento
+Dijkstra
+es una persona
+muy importante
+en computación
+y un tipo
+muy desagradable
+él
+era genial
+acostumbraba
+a ir a los congresos
+se sentaba
+a la última fila
+y esperaba
+que algún expositor
+mientras más nervioso
+el expositor
+mejor
+cuando terminaba
+de hacer su presentación
+él decía
+laía la palabra
+¿cómo es posible
+que este tipo
+de trabajo
+tan infantil
+tan poco profesional
+tan asqueroso
+se han presentado
+en esta conferencia
+y lo hacía
+todas
+las veces
+así que
+si uno
+nunca lo
+oí personalmente
+pero decía
+que cuando lo veían
+la gente salía
+más de alguna vez
+lo sacaron
+de la sala
+ese es el señor
+Dijkstra
+que por otro lado
+era un tipo
+que hacía aportes
+súper interesantes
+informáticos
+entre otras
+su algoritmo
+vamos a
+trabajar
+sobre un grafo
+porque es lo más cómodo
+para representar
+lugares y distancias
+y vamos a definir
+algunas cosas
+como
+el punto de partida
+el S
+vamos a definir
+dónde queremos ir
+para poder calcular
+qué distancia hay
+yo estoy parado aquí
+y teniendo muchas alternativas
+quiero elegir
+cuál es
+el camino más corto
+tengo el punto
+de término
+nosotros lo vamos a hacer
+para todos los vértices
+y
+vamos a tener
+una variable
+que es temporal
+que es ese lambda
+que nos dice
+es el camino
+que hasta ahora
+yo considero
+el más corto
+desde el origen
+hasta ahora
+y B son
+todos los vértices
+de mi grafo
+que es lo que dice
+este algoritmo
+el punto de partida
+valor
+cero
+la distancia
+para ir del punto de partida
+al punto de partida
+es cero
+y para
+todos los demás
+como no los conozco
+voy a decir
+la distancia
+para llegar aquí
+es infinita
+porque es más cómodo
+trabajar así
+es más fácil
+y ponemos
+todos los vértices
+en una estructura
+T
+donde los voy a ir
+analizando
+elijo un vértice
+que tenga
+un lambda
+mínimo
+el valor mínimo
+que haya alcanzado
+hasta ese vértice
+si
+ese mínimo
+es el que yo ando buscando
+estamos listos
+no tengo que buscar más
+en el grafo
+encontré la distancia mínima
+si no es así
+para cada arista
+que sale
+VU
+y
+si
+mi lambda
+de ese vértice
+recuerden que originalmente
+es infinito
+porque no sé cuánto
+si ese lambda
+es mayor que
+lo que tenía
+en algún vértice
+más
+el peso
+de la nueva arista
+entonces
+lo voy a cambiar
+voy a reemplazar
+ese valor infinito
+voy a ver
+cómo
+les voy a contar
+cómo funciona esto
+con monitos
+saco el vértice
+de esta lista
+porque ya los revisé todos
+y repito
+para todos los vértices
+antes de seguir
+con el ejemplo
+entiendo
+que
+no todo el mundo
+no todos son computólogos
+para empezar
+yo tampoco
+no
+ya no tengo otros orígenes
+más oscuros
+soy electrónico
+veo cosas
+pero me dediqué a esto
+desde mi más tierna infancia
+de lo cual
+hace mucho tiempo
+entonces lo que quería decirles
+es que
+si de repente
+yo uso
+conceptos así como si
+todo el mundo entiende
+un
+como no saben lo que es un algoritmo
+pero puede que no
+no tengan
+ningún
+empacho en preguntarme
+porque
+ustedes ya cacharon
+que yo
+vivo tiempo en esto
+y
+de repente
+doy por sabida
+muchas cosas
+que no debo
+pero no sé
+si ustedes
+las saben o no
+entonces no tengan
+no tengan miedo
+a preguntar
+como me dijo
+un profesor
+una vez
+yo hice una pregunta
+aparentemente ridícula
+porque todo el curso
+se rió
+pregunté
+cómo operaba
+un relé
+me acuerdo
+que era un piojo chico
+y los compañeros
+me miraron
+así como si le hubiera echado
+veneno al café
+el profesor me explicó
+y todo
+como no había saber
+en un certamen
+cayó una pregunta
+de eso
+y yo fui nuevo
+y la tenía buena
+no les hice así
+ni nada
+pero
+se lo merecían
+así que
+volviendo al punto
+donde me desvié
+si hay algún término
+alguna palabra
+o algún concepto
+que no lo tienen
+tan claro
+por favor
+estoy aquí
+para resolver dudas
+no estoy aquí
+para asustarlos
+con la inteligencia artificial
+todo lo contrario
+estoy para entusiasmarlo
+bueno
+tenemos este grafo
+aquí tenemos
+nuestro S
+que es nuestro punto
+de partida
+y nuestro P
+a mano
+esto lo podemos
+resolver fácilmente
+no tenemos
+para que ser
+el algoritmo
+de Dijkstra
+pero cuando tenemos
+10.000 lugares
+entonces mejor
+que lo haga el computador
+tenemos
+ese punto
+de partida
+cuya distancia
+cuyo lambda
+es cero
+recuerden
+el lambda
+de
+el vértice
+es el primero
+que tomamos
+ese vértice
+tiene un valor cero
+porque así lo definimos
+el punto de partida
+la distancia
+no hemos avanzado
+nada
+es cero
+y para todos
+los otros
+vértices
+el valor
+es infinito
+y tengo
+en
+este conjunto
+de
+vértices
+los que tengo
+que analizar
+estoy
+en el vértice
+S
+en el inicio
+y tengo
+dos aristas
+que salen
+de S
+mantuve
+el grafo
+para que lo pudieran
+ir viendo
+tengo
+S A
+y S C
+esas son
+dos aristas
+posibles
+y como eso
+tiene un peso
+el lambda
+para A
+por ejemplo
+va a cambiar
+¿por qué?
+porque yo tengo
+una distancia
+medida
+de S A
+indica
+la estructura
+que es de 18
+y aquí viene
+esa pregunta rara
+este lambda
+que originalmente
+es infinito
+¿es mayor que 18?
+sí
+habitualmente
+y por lo tanto
+lo reemplazo
+de la misma forma
+cuando voy
+hacia C
+de S A
+C
+C originalmente
+tiene un lambda
+también de infinito
+recuerden que
+todos valían infinito
+entonces
+veo
+ahora
+la suma
+del 0
+más
+esta distancia
+de S A
+C
+y es
+15
+0
+lo que tenía
+la distancia
+en origen
+más 15
+ese es el valor
+de
+el lambda C
+ah
+muy bien
+la gracia
+es como ir
+eligiendo
+los nodos
+ahora como ya
+analicé
+todas las aristas
+que salen de S
+no hay más
+entonces S
+lo saco de
+mi lista
+de interés
+ahora tengo que
+recorrer
+los otros vértices
+de este
+grafo
+elijo
+el vértice C
+que todavía
+está en esta lista
+y que tiene
+un valor
+de lambda
+de 15
+porque ese
+era el valor
+de la lista
+y una vez que estoy
+en C
+yo puedo ir
+a tres
+vértices distintos
+puedo ir
+por CA
+devolver
+CB
+la diagonal
+y CD
+el de abajo
+vamos a elegir
+el A
+y en A
+dice que
+el lambda de A
+es 18
+que es menor
+a 21
+18
+es menor
+a 21
+entonces
+que es 15
+más 6
+si yo estoy en C
+entonces
+en C
+cuesta 15
+15 más
+la distancia
+de C a A
+es 21
+pero 18
+es más chico
+que 21
+por lo tanto
+no lo reemplazo
+por la suma
+mantengo el valor mínimo
+que calcule hasta ese momento
+esto me está diciendo
+que el análisis
+de la lista
+que baja por
+C
+irme por
+de S a C
+y a A
+es más largo
+o es más caro
+que irme
+como originalmente
+lo tenía definido
+por lo tanto
+mantiene
+su valor
+original
+lo mismo pasa
+con
+los otros vértices
+para B
+tengo
+18
+9
+creo que es eso
+¿no?
+es 27
+15
+lo que tengo
+allá
+en C
+y 14
+infinito
+es mayor
+que 29
+esta es la trayectoria
+que yo consigo
+yéndome de S
+a C
+y de C a B
+estoy parado en C
+en C tengo
+almacenado
+el valor 15
+más 14
+da 29
+eso es menor
+que infinito
+por lo tanto
+lo reemplazo
+y
+para B
+pasa lo mismo
+para D
+entonces
+tengo
+15
+en C
+que todavía tengo
+el valor de 15
+más D
+más los 7
+son 22
+que es menor
+que infinito
+por lo tanto
+lo reemplazo
+el infinito
+siempre voy
+reemplazando
+el valor menor
+hasta ese momento
+entonces
+el lambda
+es una variable
+temporal
+que yo voy
+recalculando
+cada vez
+por ahora
+he recorrido
+distintos
+vértices
+a
+perdón
+ese ya lo habíamos sacado
+porque tenía
+todos sus caminos
+considerados
+y ahora vamos a sacar
+C
+porque ya
+todos los caminos
+que salen de C
+están considerados
+y tenemos
+el lambda B
+los valores
+de lambda
+de distancia
+sigue siendo 0
+tengo todos estos valores
+temporales
+pero T
+todavía ni lo he tocado
+así que ese es infinito
+y elijo
+otro vértice
+para continuar
+estos de aquí
+estos que
+todavía están pendientes
+digamos que es
+A
+de ese A
+tengo
+18
+eso lo habíamos
+calculado
+y de A
+a B
+tendríamos
+18
+más 9
+es 27
+el valor
+original
+que teníamos
+lo habíamos
+calculado
+a partir del vértice
+C
+¿recuerdan?
+hicimos
+S
+C
+15
+más 14
+de C
+a B
+era 29
+pero ahora
+con el
+al analizar
+la nueva arista
+descubrimos
+que ese camino
+es más corto
+es 18
+si nos vamos
+por A
+más 9
+y llegamos a un valor
+para B
+de 25
+por lo tanto
+reemplazamos
+el valor anterior
+que era mayor
+A
+ya está
+completamente
+revisado
+lo sacamos
+habíamos calcado
+a C
+nos van quedando
+menos vértices
+que revisan
+nos queda B
+por ejemplo
+parece que aquí
+partí
+con dos aristas
+D
+B
+y DT
+partí por D
+DT
+y DB
+aquí es
+primera vez
+que vamos
+a considerar
+el T
+calculamos
+¿qué pasa
+si
+llegamos a D
+por B
+tenemos 27
+más 32
+no
+27
+22
+que teníamos
+abajo
+10
+claro
+27
+es menor
+que 32
+el nuevo camino
+que calculamos
+no nos sirve
+porque es mayor
+nos quedamos
+con el valor
+anterior
+lo mismo
+hacemos con
+el T
+ahora ya entramos
+al vértice
+final
+que por ahora
+vale infinito
+y que según
+nuestro cálculo
+es
+los 22
+que teníamos
+más 36
+que da
+58
+para
+lambda T
+ese es el valor
+que va a asumir
+por ahora
+un valor
+grande
+bien
+todavía
+tenemos
+B y T
+¿qué hacemos
+con B?
+aquí están
+las distancias
+a cada uno
+de los vértices
+ya sacamos
+B
+de nuestro conjunto
+de analizar
+sabemos
+que
+para B
+desde el origen
+a B
+hay un mínimo
+que es 27
+hay solo
+una arista
+de B
+para
+un vértice
+en T
+¿verdad?
+y resulta que
+este camino
+es más corto
+porque si nos vamos
+por arriba
+de S
+a A
+a B
+y a T
+nos sale más corto
+que esta suma
+con 36
+que habíamos hecho
+en el cálculo anterior
+por lo tanto
+esa es nuestra
+mejor distancia
+ahora
+el único nodo
+que nos queda
+aquí
+es T
+ya tienen
+sus valores
+todos
+casi
+y lo único
+que nos queda
+analizar
+es el último
+vértice
+que es el
+terminal
+en el T
+paramos
+entonces
+lo que hicimos
+no fue para
+un vértice
+particular
+este algoritmo
+podríamos haber parado
+cuando llegamos
+a un vértice
+y decimos
+hay más
+aristas
+que salen
+de aquí
+no
+ya
+no hay nada
+que nos relacione
+suficiente
+aquí el cálculo
+es para todas
+las aristas
+calculamos
+desde el origen
+a todos los vértices
+esas son las longitudes
+esos son todos
+los valores
+finales
+que calcula
+el algoritmo
+de
+Dijkstra
+fíjense
+que este
+algoritmo
+es
+bastante
+astuto
+la forma
+en que lo hace
+bastante
+creativo
+pero hace
+una búsqueda
+exhaustiva
+y en un
+en una red
+grande
+esto es muy caro
+computacionalmente
+hablando
+entonces
+todo esto
+sirve para
+presentar
+un nuevo
+tipo de
+algoritmos
+que hemos
+ido mejorando
+o sea
+ya nos dimos
+cuenta
+que
+la búsqueda
+de lanchura
+y la búsqueda
+de profundidad
+son media
+fomecita
+la verdad
+que no son
+tan graciosas
+como nos pareció
+originalmente
+pero debe haber
+formas
+más astutas
+de buscar
+información
+y a eso
+se le llama
+búsqueda
+informada
+recuerden
+que
+en búsqueda
+de lanchura
+siempre buscábamos
+algo
+hasta que
+encontrábamos
+un valor
+y eso
+podía ser
+ineficiente
+porque era
+una búsqueda
+a ciegas
+o sea
+si lo encontrábamos
+más fantástico
+si decidíamos
+que fuera
+en profundidad
+era también
+a ciegas
+es una estrategia
+que decidimos
+a ciegas
+y si
+por decir
+tenemos
+la rama
+de más
+a la derecha
+del árbol
+con nuestra
+solución
+en profundidad
+vamos a recorrer
+muchas ramas
+hasta el fondo
+cosa que no nos parece
+tan natural
+para los jugadores
+de ajedrez
+esto es
+un poco distinto
+cuando se busca
+la próxima jugada
+uno hace un recorrido
+en anchura
+pero no ve
+todas las jugadas
+posibles
+tengo que ver
+algunas
+como las más
+prometedoras
+y sobre esas
+porque hice una búsqueda
+de la anchura
+estoy parado
+en este punto
+del árbol
+tengo
+estas posibilidades
+pero de aquí
+elijo
+y decido
+profundizar
+en alguna alternativa
+eso es lo que hacían
+las primeras máquinas
+que jugaban
+ajedrez
+eran bastante
+torpes
+el Deep Blue 1
+Deep Blue 2
+que Casparo
+peleó con la máquina
+pero esa es otra historia
+y peleó
+porque la máquina
+aprendió a hacer algo
+que no es natural
+para los jugadores
+de ajedrez
+esto no más
+es el arte
+del sacrificio
+vamos a ver
+estos mecanismos
+best first
+primero vamos a buscar
+la que promete
+ser la mejor alternativa
+que es un poco
+a ciega
+pero por lo menos
+algo
+hay algún tipo
+de información
+que nos dice
+que puede ser
+por ahí
+y después
+les voy a mencionar
+tampoco voy a entrar
+en tanto detalle
+en el A estrella
+que es un algoritmo
+bien interesante
+y
+estrictamente hablando
+según mi gusto
+es el que
+incorpora
+algo de inteligencia
+a la búsqueda
+esta búsqueda
+heurística
+Best Fit
+está asociada
+tiene varios nombres
+vamos a ver
+nombres graciosos
+vamos a ver
+cómo funciona
+es aquella búsqueda
+en la cual
+con independencia
+del futuro
+yo elijo
+lo que en ese momento
+parece ser lo mejor
+que por supuesto
+podría ser
+una mala decisión
+pero cuando estamos
+en dominios
+de búsqueda
+tan extensos
+no podemos hacer
+una búsqueda
+exhaustiva
+tenemos que
+optar
+por
+privilegiar
+ciertos caminos
+y este algoritmo
+ayuda a hacer eso
+¿y cómo lo hace
+eligiendo lo que parece
+más prometedor?
+es natural
+si yo tengo
+un poco más
+de información
+entonces
+mi búsqueda
+mejor
+es un poco
+más eficiente
+la búsqueda
+normal
+lo que hacía
+era esto
+tenemos un árbol
+buscamos en el árbol
+la salida
+es
+la solución
+oh aquí está el nodo
+que anda buscando
+oh no está
+lista de nodos
+todos los nodos
+son posibles
+tenemos que revisarlo
+si la lista
+no está vacía
+falla
+no está
+por ejemplo
+cuando uno va a buscar
+una biblioteca
+y esto está ordenado
+alfabéticamente
+no está
+falló
+de repente
+igual lo revisa
+todo
+por si alguien
+puso un libro
+fuera de lugar
+pero
+se elige
+un nodo
+si ese nodo
+es el que más promete
+este parece que
+eres
+pero era el que prometía
+veámosle los hijitos
+a ver si va por ahí
+la solución
+y empezamos a avanzar
+en función de
+cuál es el camino
+que más promete
+ojo
+lo relevante aquí
+es que esto
+no garantiza
+un óptimo
+hace la búsqueda
+más eficiente
+porque
+hay más información
+pero no tenemos
+toda la información
+de hecho
+para la mayoría
+de los problemas
+reales
+no podemos
+tener toda la información
+entonces tenemos
+una función
+que lo que va a hacer
+es asignarle
+un valor de bondad
+este
+tiene tal nota
+los de mejor nota
+o los de menor costo
+el parámetro
+no es tan relevante
+nos va a guiar
+en nuestra búsqueda
+y la función
+heurística
+es la que nos va a ayudar
+a decir
+vámonos por aquí
+vámonos por allá
+lunes pasado
+búsqueda en anchura
+búsqueda en profundidad
+sin ninguna información
+adicional
+ahora
+en este algoritmo
+tenemos una función
+que le da valor
+a los nodos
+y eso
+nos permite
+hacer la búsqueda
+un poco más eficiente
+si nuestra función
+está bien hechita
+fantástico
+no siempre está
+bien hechita
+pero tampoco
+es tan relevante
+porque estamos
+haciendo siempre
+búsqueda aproximada
+por cuestión de costo
+esto es como
+cuando
+jugamos cartas
+probablemente
+todos jugamos cartas
+y todos han hecho
+una escala
+han ordenado
+de menor a mayor
+de mayor a menor
+con cinco bodín
+da lo mismo
+eso se puede hacer
+con cuatro valores
+de cinco valores
+hacen una escala real
+no es mucho
+se puede manejar
+en una mano
+luego tenemos que ordenar
+cien mil registros
+o los
+ciento ochenta mil parámetros
+que manejaba
+chat GP3
+ahora dicen que
+son muchos más
+ciento ochenta mil parámetros
+ya le duele la cabeza
+a uno de pensar
+el jefe
+le ajusta los parámetros
+si
+si
+nuestra función
+es el óptimo
+que no lo sabemos
+a priori
+entonces
+llegamos a la meta
+no siempre llegamos
+a la meta
+y esto es una
+de las cosas
+que tienen
+estas búsquedas
+yo estoy hablando
+ahora
+no de búsquedas
+de diez
+de doce elementos
+sino que estoy hablando
+de búsquedas
+en espacios muy grandes
+aquí es donde
+tiene sentido
+que un computador
+lo haga
+pero incluso
+para un computador
+esto puede ser
+un trabajo
+muy muy muy grande
+y vamos a tener
+que usar criterios
+que nos van a obligar
+a desconocer
+ciertas acciones
+que fue
+lo que hizo
+Deep Blue
+la segunda vez
+que jugó con Cásparo
+la primera vez
+Cásparo le ganó
+la segunda vez
+Deep Blue
+hizo algo
+aparentemente
+inesperado
+sacrificó
+una pieza
+importante
+y eso
+bueno
+Cásparo hizo eso
+sacrificó una pieza
+y la máquina
+se volvió loca
+porque dijo
+le como la dama
+le como la dama
+no lo dijo así
+vos lo has dicho
+en ruso
+incluso
+no sé
+pero
+y Cásparo
+le ganó
+pero eso
+la máquina
+lo aprendió
+aprendió
+el arte
+del sacrificio
+esas técnicas
+nuevas
+entonces su búsqueda
+mejoró
+no es perfecta
+es bastante mejor
+que lo que hace uno
+y ahí fue donde
+el compañero Cásparo
+se anduvo molestando
+bien
+no lo hacemos
+ponemos todos los nodos
+con un valor
+aproximado
+que nosotros le damos
+un valor
+estimado
+y lo ordenamos
+de más prometedor
+a menos prometedor
+para empezar
+nuestra búsqueda
+¿qué es lo que queremos
+hacer en este caso?
+hay una función
+de costo mínimo
+ese es nuestro objetivo
+nuestro objetivo
+es encontrar
+la solución
+de menor costo
+si hacemos
+una búsqueda
+exhaustiva
+y si recorremos
+todos los nodos
+lo vamos a encontrar
+pero nuestros árboles
+crecen tanto
+que muchas veces
+tenemos que hacer
+podas
+y optar
+por
+por mil razones
+por tiempo de procesamiento
+por último
+vamos a hacer un ejemplo
+de
+esto de los nombres
+búsqueda avara
+el concepto de avaro
+aquí tiene sentido
+en esta búsqueda
+vamos a hacer
+vamos a ir entreteniéndonos
+un poco más
+luego
+pero por ahora
+en esta búsqueda avara
+lo que tenemos
+son
+la necesidad
+de llegar
+a algún
+estado final
+lo único que queremos
+es llegar a un estado
+que nos digan
+ha llegado
+es un estado final
+de entre varios posibles
+queremos
+uno de ellos
+y
+para ello
+vamos a decir
+a ver
+hay un valor heurístico
+que le vamos a dar
+a la función
+h vale 2
+h vale 4
+no, no, no
+me voy por 2
+voy a elegir ese nodo
+porque
+quiero minimizar
+es un valor más bajo
+por lo tanto
+voy a elegir ese valor
+pues
+¿cuál es el valor siguiente?
+h1
+el costo sigue siendo más bajo
+o lo vuelvo a elegir
+elijo h1
+igual 1
+el h igual 1
+costo bajo
+ah, llegué
+bien
+lo hice
+pero si hubiera elegido
+un valor de función distinta
+4 que era mayor
+en realidad habría dado
+3 pasos nomás
+habría saltado
+de A a G
+de G a H
+y de H al estado final
+en 3 pasitos llego
+pero
+como
+mi valor de función heurística
+no es perfecto
+tomé un camino
+que es más largo
+¿a quién no le ha pasado?
+profesor
+tenías que irte por aquí
+sí
+profesor
+sí
+es más largo
+pero es más económico
+el que parece más largo
+¿en qué sentido es más económico?
+estoy contando los pasos nomás
+no estoy dando los pesos
+es el valor que yo le asigo
+es un valor de cada estado
+¿cuánto vale esa función?
+vamos a ponerle después
+más características
+para hacerlo más entretenido
+esta es una búsqueda
+un poco
+todavía media simplona
+¿no?
+pero está bien
+está bien porque
+va siguiendo
+entonces aquí hicimos
+un paso de más
+claro
+a lo mejor tenemos
+a la larga
+tenemos un costo menor
+pero esa es la pregunta
+de cuándo van a echar benzina
+dicen que en San Bernardo
+está barata
+¿cuál es mi objetivo?
+hay un costo-beneficio ahí
+antiguamente
+ustedes no se acuerdan de eso
+pero antiguamente
+anunciaban
+la alza de precios
+de benzina
+en los noticieros
+el domingo en la noche
+y decían cosas así como
+en
+Apoquindo
+hay una bencinera
+en esta barata
+y allá
+el compadre de Maipú
+agarraba el auto
+y partía
+ya
+se agarraba un taco
+de los mil demonios
+tenía que
+sacar las pantuflas
+poner zapatos
+ya
+después chocar
+al final salía más
+¿cuál es el costo?
+¿cómo optimizo?
+¿cuál es mi objetivo?
+siempre
+en esta búsqueda
+avara
+yo voy a hacer una expansión
+voy a analizar
+estos que son los más prometedores
+porque son los de menor costo
+voy a hacer un ejemplo
+que espero que quede más claro
+de
+de esta búsqueda avara
+estos algoritmos
+la búsqueda avara
+se llaman
+GRIDI
+GRIDI es
+en traducción exacta
+es algo así como
+golosos
+o
+voraz
+si se entusiasma
+es decir
+no
+este es el mejor
+es como cuando uno va al supermercado
+y dice
+aquí está más barato
+el escopete
+y compra
+que después se da cuenta
+que ya no hay nada que hacer
+ahora
+¿cuál es el costo
+de recorrer todos los supermercados?
+hay un costo combinado
+ya veremos
+esta búsqueda
+no es completa
+porque podamos
+una rama
+la rama
+de más a la derecha
+quedó
+sin analizar
+porque creíamos
+que era más cara
+no veíamos
+nosotros
+somos ciegos
+en esta búsqueda
+la máquina
+es ciega
+ahora
+en problemas reales
+y esta es la gracia
+o la ventaja
+que tenemos
+en problemas reales
+nosotros tenemos
+una idea
+de la solución
+tenemos una intuición
+o algún dato
+como vamos a ver
+que podemos usar
+para guiar nuestra búsqueda
+a veces nos conformamos
+con estos valores intermedios
+no necesariamente
+el óptimo
+prácticamente todo lo que está
+asociado a inteligencia artificial
+tiene que ver con optimización
+que hay métodos exactos
+aquí le ponemos
+inteligencia
+no se necesita
+vamos a calcular
+una función
+porque la pregunta
+es claro
+¿y cómo calculo
+esa función?
+aquí vamos a ver
+un ejemplo
+un costo que
+como no vemos
+hacia adelante
+no siempre
+podemos estimarlo
+si tenemos
+una buena heurística
+esa ayuda
+vamos a recorrer ciudades
+y vamos a hacer
+un costo estimado
+que nos guíe
+para llegar
+desde donde estamos
+a la meta
+vamos a hacer un ejemplo
+con lugares conocidos
+para que ustedes
+lo tomen
+como por ejemplo
+bueno
+las heurísticas
+dependen del problema
+eso lo sabían
+¿verdad?
+del lunes pasado
+la heurística
+depende del problema
+la meteorística no
+está más arriba
+cuando hacemos
+búsqueda
+de rutas
+una heurística
+que uno puede usar
+para que lo guíe
+es
+¿cuál es la distancia
+en línea recta?
+sabemos que
+los caminos
+no son líneas rectas
+pero
+nos puede guiar
+un poco
+nos da una indicación
+de cuán buena
+es nuestra solución
+y este es el lugar
+conocido
+que les decía yo
+vamos a ir
+de Arad
+me imagino
+que todos
+veranean
+por ahí cerca
+y
+de Arad
+nos vamos a ir
+a Bucarist
+entiendo que
+el premio
+para la mejor
+nota del trabajo
+es un viaje
+a Bucarist
+no
+no les dijeron
+nada
+es sorpresa
+entonces
+ustedes
+vamos a partir
+de Arad
+a Bucarist
+y queremos saber
+cuál es el camino
+más corto
+puse malintencionadamente
+un ejemplo
+de este tipo
+pero no he ganado
+porque es la ruta
+más corta
+yo sé
+¿qué es lo que tenemos?
+tenemos un mapa
+con las ciudades
+y lo que tenemos
+como heurística
+recuerden
+es la distancia
+en línea recta
+y la distancia
+en línea recta
+de cada una
+de estas ciudades
+a Bucarist
+desde Arad
+a Bucarist
+desde aquí
+aquí
+en línea recta
+hay
+366 kilómetros
+eso es como
+cuando
+les dicen
+que de aquí
+a la Serena
+hay 300 y tanto
+de 40 kilómetros
+dice algo distinto
+pero es una
+ayuda
+nos da una idea
+entonces
+recuerden
+que esto
+lo va a ser
+una máquina
+nosotros
+les estamos
+dando criterios
+y nuestra heurística
+lo que vamos a hacer
+es darle un valor
+cada nodo
+para que nos guíe
+este es el valor
+H
+que tenía
+este arbolito
+de dos ramas
+nos va a guiar
+y vamos a
+decir
+a ver
+de Arad
+yo me puedo ir
+a
+Timisoara
+y Timisoara
+está
+¿a cuánto?
+329
+de Bucarist
+me puedo ir
+a Serind
+que está
+374
+o me puedo ir
+a Sibiu
+253
+está diciendo
+Sibiu
+mi criterio
+me dice
+busque el más barato
+el que
+el que prometa más
+porque me dice
+que en línea recta
+yo estoy más cerca
+de este segundo punto
+por lo tanto
+por eso
+yo ya marqué
+el recorrido
+de Arad
+me voy a Sibiu
+y de ahí
+Sibiu
+me puedo ir
+a Rímlico
+Vilcea
+también muy lindo
+¿cierto?
+que está
+193
+o a Fagaras
+que está
+178
+las otras
+bueno
+estas son
+las prometedoras
+por lo tanto
+elijo
+Fagaras
+y de Fagaras
+bueno
+voy a ir
+a Sibiu
+de nuevo
+pero no tiene
+mucho sentido
+o
+a Bucarist
+que son
+211
+que es la distancia
+más corta
+aquí encontré
+una ruta
+¿me satisface?
+yo diría que sí
+es una solución
+y es una solución
+relativamente
+obvia
+y mi árbol
+opera de esta forma
+recuerden al principio
+Arad
+Arad
+tiene tres
+sucesores
+posibles
+Timiswara
+Sibiu
+y Serind
+Timiswara
+Serind
+Sibiu
+por lo tanto
+elijo
+Sibiu
+dejo
+Timiswara
+y Serind
+al lado
+y profundizo
+en el
+nodo
+que promete más
+puedo irme
+de nuevo
+a Arad
+ahí me lo deja
+más lejos
+otra vez
+puedo irme
+a Fagaras
+de Sibiu
+Arad
+Fagaras
+Oradea
+y
+Rímnico
+fue lo que
+expandí
+y ahora
+tengo que ver
+en estos hijos
+que son los
+los prometedores
+los de arriba
+son un poco
+altos todavía
+y de estos
+voy a partir
+por
+digamos
+Fagaras
+a Sibiu
+estoy en Fagaras
+y Fagaras
+Bucarest
+aquí
+llegué
+a la meta
+entonces
+tengo que hacer
+este recorrido
+con ese criterio
+en que fui
+poniendo
+como función
+prometedora
+la distancia
+en línea recta
+yo
+tengo este recorrido
+me están siguiendo
+¿verdad?
+son
+el camino
+ahora
+ese camino
+no es el mejor
+esta búsqueda
+avara
+como les decía yo
+creen que este
+es el mejor
+y profundicen
+lo que creen
+que es el mejor
+y sí que es
+pero
+la ruta
+rítmico
+pitesti
+es más corta
+pero no la vio
+un lugareño
+la encuentra
+un computador
+con este algoritmo
+no
+hicimos un buen
+intento
+pero esta es una búsqueda
+informada
+parcialmente informada
+no teníamos
+toda la información
+no podíamos tenerla
+con este algoritmo
+voraz
+que es la característica
+del algoritmo
+gridi
+o voraz
+que encuentra
+una solución
+no necesariamente
+la mejor
+pero encuentra
+una solución
+habitualmente buena
+de que depende
+de nuestra función
+heurística
+en este caso
+dijimos
+es la distancia
+en línea recta
+tal vez
+la distancia
+en línea recta
+aquí significaba
+posiblemente
+atravesar un lago
+o rodear una montaña
+pero en línea recta
+se ve cortito
+hay soluciones rápidas
+el desempeño
+de esta búsqueda
+gridi
+o búsqueda
+avana
+es bueno
+nos da soluciones
+rápidas
+es lo que nos interesa
+muchas veces
+pero hay un conocimiento
+que no teníamos
+bueno
+ustedes disfrutaron
+en algún momento
+del Transantiago
+donde se
+se estaban diseñando
+las rutas
+ustedes no le cuenten
+a nadie
+porque esto es pelambre
+cuando se diseñaron
+las rutas
+estaban
+en una mesa
+poniendo
+los paraderos
+no
+aquí pongamos
+este paradero
+aquí
+este otro acá
+y había un señor
+que vivía en el sector
+y dijo
+no
+ahí se ve cortito
+pero esta es una subida
+no
+hay que parar
+al medio
+ah pongamos
+un paradero
+al medio
+bueno
+eso no usaron
+búsqueda inteligente
+no consideraron
+ese criterio
+de búsqueda
+fina
+y en la mayoría
+de los problemas
+de vida real
+nosotros vamos a encontrar
+que no hay
+soluciones finas
+exactas
+¿por qué no sirven
+problemas reales?
+que es lo que nos interesa
+si nosotros
+no estamos aquí
+para entretenernos
+con la inteligencia artificial
+si esto tiene que ser útil
+esto sirve
+para algo
+y sirve para cosas
+como determinar rutas
+la ruta más corta
+ya la vimos recién
+probablemente
+para ninguno de nosotros
+sea muy útil
+saber cuál es la ruta más corta
+de Arad
+a Bucarest
+pero a lo mejor
+a alguien le interesa
+el problema
+del vendedor viajero
+una vez más
+ruta
+distribución
+en una placa
+de circuitería
+¿cómo distribuir
+componentes?
+por ejemplo
+el layout
+de una placa
+tal como las que vemos
+en los computadores
+la navegación
+de un robot
+hay restricciones
+un robot puede hacer
+cosas muy sencillas
+pero en los ambientes
+donde
+se trabaja con robots
+habitualmente
+en el piso
+hay unas líneas
+pintadas
+de manera vistosa
+que uno no puede
+traspasar
+porque son
+las áreas de acción
+del robot
+porque el robot
+puede estar
+poniendo un perno
+en una máquina
+y después
+retira su bracito
+metálico
+y gira
+y si el
+visitante
+o el usuario
+es poco avisado
+y cruza
+a lo mejor
+el robot
+le pega sin querer
+con su bracito
+y le huela
+tres, cuatro dientes
+o más
+¿cómo definimos
+o cómo
+circulamos
+las mejores
+trayectorias
+de desplazamiento
+ya sea
+del humano
+o del robot
+o una combinación
+de ello
+en un ambiente
+de producción
+en una secuencia
+de ensamblaje
+yo creo que
+todos hemos visto
+en televisión
+estos autos
+que están encaramados
+en una línea
+de producción
+y les van colocando
+cosas
+hay secuencias
+hay pasos
+que tienen que darse
+primero
+es como que
+no puede cerrar
+el auto
+está listo
+así
+el motor
+el robot
+que pone el motor
+no vino
+y vía
+no, eso no pasa
+eso hay que programarlo
+el vendedor viajero
+del que ya conversamos
+este tipo
+que recorría
+las 50 ciudades
+volvía al mismo punto
+y lo hacía
+por el camino mínimo
+y eso era
+50 factorial
+operaciones
+sin contar
+el tiempo de impresión
+y todo eso
+tiene ubicaciones
+tiene ciudades
+esto es lo que
+identificamos
+en todo problema
+en todo problema
+hay un estado
+recuerden
+el estado inicial
+el que hablamos
+un estado final
+que llegamos a través
+de una operación
+un paso
+dos operadores
+en este caso
+el vendedor viajero
+es de un desplazamiento
+un texto
+esta es la mirada
+del jefe
+recorriste
+toda la ciudad
+así
+sí jefe
+y dónde está
+no, ya llegué
+jefe
+jefe
+estoy en la oficina
+o sea
+cumplió
+recorrió todo
+estaba en el estado final
+la pregunta es
+¿repitió ciudades?
+camión de la basura
+repite
+y el costo
+¿cuánto nos salió
+de ese recorrido?
+a lo mejor
+aquí depende
+de cosas
+como un nativo
+de Bucanes
+que sabe
+por dónde
+es la ruta
+más corta
+aquí hay
+inteligencia humana
+metida detrás
+no basta
+el algoritmo
+fíjate
+hay una búsqueda
+como
+como
+los
+casos reales
+son
+sumamente
+complejos
+a nosotros
+no nos
+basta
+tener
+todo el árbol
+posible
+porque
+no vamos
+a tener
+el tiempo
+ni con el
+computador
+más potente
+de recorrer
+todas las
+alternativas
+entonces
+lo que hacemos
+es una búsqueda
+de profundidad
+limitada
+vamos a hacer
+una búsqueda
+pero
+los 10 primeros
+pasos
+probablemente
+cambiemos
+de estrategia
+en los siguientes
+niveles
+son otras
+consideraciones
+las que hay
+que hacer
+hay algunas
+cosas que son
+relativamente
+sencillas
+en el comienzo
+de un recorrido
+de una búsqueda
+pero avanzamos
+nuestra complejidad
+del problema
+la ramificación
+ha crecido
+tanto que ya
+no es tan manejable
+han visto
+jugadores
+de ajedrez
+de estos
+que exista
+bueno
+juegan como
+las 15
+primeras jugadas
+así como
+de memoria
+peón
+cuatro reyes
+caballos
+peón
+de la torre
+etcétera
+etcétera
+pero llega un momento
+en que
+se frenan
+y ahí viene
+la parte creativa
+y esta es la expansión
+del árbol
+de búsqueda
+en términos
+estrictos
+es difícil
+competirle
+a una máquina
+cuántas jugadas
+analizan
+y sin embargo
+hay gente
+que le gana
+a los computadores
+esa es una buena esperanza
+para los que creen
+que la inteligencia
+artificial
+va a dominar
+el mundo
+como decía
+en la clase 1
+si ni sabemos
+bien lo que es inteligencia
+vamos a dominar
+el mundo
+mencioné la búsqueda
+inversa
+el backward chain
+cuando teníamos
+nosotros
+un punto de partida
+sabíamos
+a dónde queríamos llegar
+muchas veces
+nos pasa
+sabemos
+dónde queremos llegar
+entonces nos preguntamos
+cuál es el paso anterior
+a llegar a eso
+y hacemos la búsqueda
+hacia atrás
+como que damos vuelta
+nuestro árbol
+digamos de estado
+objetivo
+el estado objetivo
+va a ser el estado inicial
+y el estado inicial
+va a ser nuestro estado final
+una solución
+aquí podemos usar
+lo mismo
+búsqueda
+profundidad
+búsqueda anchura
+best
+first
+¿qué es lo que hacemos
+con esto?
+como en el caso
+de la búsqueda
+vara
+vamos a decidir
+cuál es el mejor nodo
+que vamos a expandir
+en el caso
+del ejemplo
+que hicimos
+buscábamos el nodo
+que tuviera la distancia
+en línea recta
+más corta
+a bucales
+podemos tener
+distintas formas
+de búsqueda
+vamos a tener
+siempre funciones
+de evaluación
+que nos permitan decir
+esto vale tanto
+o esto costó
+este paso
+cuesta tanto
+esto es lo que llamamos
+heurística
+una función
+que tiene un valor
+aproximado
+que nos guía
+en nuestro camino
+hacia la meta
+¿qué es lo que hacemos?
+si estamos minimizando
+porque podemos maximizar
+si estamos minimizando
+buscamos el valor
+más bajo
+el más ahorrativo
+si estamos maximizando
+buscamos el valor
+más alto
+¿qué es lo que hace
+esta búsqueda?
+en la búsqueda
+de caminos
+lo que vimos recién
+la búsqueda
+de línea recta
+para rutas
+es una heurística
+bastante
+habitual
+lo que hacemos
+es decir
+yo creo que
+si estoy aquí
+me va a costar
+tanto llegar a la meta
+lo que hicimos
+en la búsqueda
+de barra
+estábamos en un nodo
+decíamos
+yo creo que
+en la distancia
+de línea recta
+más corta
+la más prometedora
+no fue así
+porque era búsqueda
+informada
+pero teníamos
+una función
+heurística
+que es una aproximada
+¿cuál es la ventaja
+de esta búsqueda?
+que ya usa un valor
+mejora la búsqueda
+en profundidad
+porque profundiza
+solo aquello
+que es más prometedor
+hay ramas
+que pueden ser
+extraordinariamente caras
+y no tiene sentido
+profundizar
+disculpe
+entonces
+¿qué es lo que
+diferencia
+principalmente
+la búsqueda
+greedy
+de la informada
+o del best first?
+no
+son lo mismo
+la búsqueda greedy
+y best first
+son lo mismo
+la diferencia
+está en el A
+estrella
+que viene a continuación
+son
+son distintos
+son distintas miradas
+como
+podemos decir
+que la función
+de evaluación
+la calculamos
+o la definimos
+pero son
+son criterios
+similares
+por eso les dije
+que esto tiene
+distintos nombres
+el greedy
+que es el voraz
+que es lo mismo
+que hicimos
+en la búsqueda
+bar
+en el fondo
+muchas gracias
+ok
+¿cuál es la desventaja
+de la búsqueda greedy?
+que
+la complejidad
+voy a explicar
+luego eso
+y el espacio
+pueden ser
+grandes
+como en el caso
+de la búsqueda
+bar
+lo hacía en tierra
+siempre
+veamos
+hagamos un ejemplo
+de búsqueda greedy
+en el cual
+lo que nosotros sabemos
+es que este es el estado final
+este azulito
+ahí deberíamos llegar
+con nuestra búsqueda
+informada
+y que es lo que vamos a hacer
+vamos a darle un valor
+a cada nodo
+eso que está en negro
+es un valor
+que le damos al nodo
+cuál es la distancia
+al objetivo
+a la meta
+estimada
+lo único que sabemos
+es que la distancia
+al objetivo
+de este
+es cero
+pero estimamos
+no tenemos muchos criterios
+esto es una estimación
+entonces
+nos paramos
+en la raíz del árbol
+en nuestro estado inicial
+y lo único que tenemos
+es este primer nodo
+que es la raíz
+tenemos una lista
+que se llama
+cerrados
+que son aquellos
+que ya terminamos
+de explorarlos
+ese nodo ya
+deja de ser relevante
+para nosotros
+lo vamos descartando
+para no volver a buscar
+a partir de él
+de nuevo
+entonces
+a partir de nuestro estado inicial
+nosotros vemos
+dos nodos
+que son
+el dos
+y el tres
+y los dos valen siete
+los dos estiman
+que su
+punto para llegar
+al final
+es siete
+tenemos que elegir
+tenemos que decidir
+arbitrariamente
+vamos a elegir
+este de aquí
+de ese nodo actual
+estamos visitando
+ese primer hijo
+tenemos
+dos valores
+el seis
+y el cinco
+como heurística
+ah
+ese es el valor estimado
+que todavía sigue siendo mejor
+que el del nodo tres
+es más bajo
+entonces
+vamos a
+avanzar
+por el que promete
+más
+entre seis
+y cinco
+cinco es el menor
+ah
+perfecto
+buscamos un valor
+menor
+ese es el visible
+de este
+ya estamos entrando
+en profundidad
+podemos
+estos son los visibles
+podemos elegir
+el
+el diez
+por ejemplo
+que representa
+el menor valor
+de los que estamos
+examinando
+pero el once
+era el que tenía
+el valor más bajo
+tres
+y cuatro
+por lo tanto
+lo elegimos
+y llegamos
+a un nodo
+final
+que nos cuesta
+dos
+no era lo ideal
+nosotros queríamos
+costo cero
+al final
+eso fue
+porque
+nuestra guía
+fue una estimación
+la estimación
+más allá
+de los valores
+lo que hicimos
+fue
+ponerle valores
+un poco
+medio a ciegas
+para que nos guiaran
+en la búsqueda
+y nos permitieran
+podar
+entonces este
+este procedimiento
+nos lleva
+a esa
+solución
+fíjense que los nodos
+están quedando
+los que están
+por verse
+que son los que están
+en
+en cafecito
+son los que
+yo no he revisado
+no he expandido
+aún
+recuerden que tengo
+una lista
+que voy a ir
+expandiendo
+a medida que lo necesitan
+de aquí
+los cerrados
+son los que ya
+no voy a considerar
+ya fueron analizados
+completamente
+y estoy parado
+en el nodo
+23
+en este
+reviso el otro
+que es el valor
+más chico
+dos
+y hay un nodo
+que no es el óptimo
+por lo tanto
+todavía voy a seguir
+aquí
+que debe expandir
+estos dos
+recuerdan
+entonces ahora
+voy a expandir
+los hijos
+de este
+el 3 y el 4
+elijo primero
+el de valor
+menor
+3
+4
+y ahora
+estoy aquí
+con valor 4
+que es
+perdón
+6
+que va a ser
+porque había expandido
+estos dos hijos
+seleccioné
+estos dos hijos
+entonces voy a abrir
+el 4
+a los nodos
+8 y 9
+y voy a tener
+esos valores
+que son mis resultados
+son los valores
+finales
+de mi búsqueda
+ah
+podemos decir
+pero en realidad
+no es el que yo quería
+eso es lo que me dio
+el algoritmo
+porque mi criterio
+de evaluación
+intermedio
+no fue tan preciso
+entonces
+esto pasa
+con estos algoritmos
+greedy
+que nos dan
+una solución
+no necesariamente
+la mejor
+rápido
+sí
+usan criterio
+sí
+pero es insuficiente
+eso es lo que hace
+un algoritmo
+greedy
+sí
+pero y no sigue
+la regla
+de revisar
+el lado izquierdo
+del árbol
+primero
+es que los que quedaron
+en la lista para abrir
+disculpa
+perdón
+sí
+no sé
+todavía me quedan
+nodos
+pero en este momento
+voy a
+perdón
+voy a volver rapidito
+al origen
+tengo
+esos dos
+para expandir
+nada más
+entonces aquí digo
+¿cuál voy a expandir?
+cualquiera de los dos
+si yo hubiera elegido
+esta rama
+sí habría llegado
+al valor
+óptimo
+pero como eran iguales
+no tengo
+estoy ciego
+a lo que viene
+por lo tanto elegí
+yo sé que elegí
+la rama
+incorrecta
+entonces
+¿qué me queda ahora
+por expandir?
+el nodo 4
+y el nodo 5
+que tienen valores
+6 y 5
+que todavía son mejores
+que los que tienen
+el nodo 3
+entonces
+por eso
+los voy a expandir
+estos dos
+al expandir
+estos dos
+primero hice
+todo esto
+¿verdad?
+recorrí esto
+recuerden que estaba
+pendiente
+mi expansión
+recorro esto
+en fin
+y
+este otro
+que estaba por expandirse
+aún
+tiene estos nodos
+ahora
+es verdad que este
+tiene el valor 7
+igual que el 3
+pero una vez más
+yo dije
+ya avancé bastante
+en profundidad
+es lo mismo
+me voy a ir por este
+sin embargo
+este era el menor
+valor
+decidí recorrer
+esa rama
+es simplemente
+porque el valor
+este 7
+era el mismo
+7
+de arriba
+entonces
+si hubiera sido
+por ejemplo
+el nodo 4 y 5
+hubiera habido
+un 7 y un 8
+habría elegido
+la rama derecha
+no, no, no
+claro
+no habría elegido
+porque este es el valor
+que más promete
+aquí
+hasta aquí
+en el fondo
+yo lo estoy midiendo
+es un costo
+que he ido acumulando
+si el nodo 8
+si el nodo 8
+también
+agarraba
+el nodo
+sí
+siempre
+voy a buscar
+el más prometedor
+puede hacerse
+no es lo habitual
+hay algoritmos
+que son un poquito
+más elaborados
+que efectivamente
+hacen
+bueno
+me voy a adelantar
+un poquito
+lo voy a mostrar
+pero
+elijo en una zona
+en una zona
+de
+de
+de
+de
+resultados
+prometedores
+entonces
+con independencia
+de que
+sean buenos
+o malos
+los voy a examinar
+igual
+porque
+digamos
+aquí promete
+este sector
+puedo determinar
+también
+avanzar
+hasta cierta
+profundidad
+y
+reanalizar
+y reevaluar
+pero lo mejor
+que puedo hacer
+es
+modificar
+este algoritmo
+como lo vamos a ver
+inmediatamente
+y ponerle
+otro elemento
+que permite
+decidir
+de manera
+esta vez
+sí
+bastante
+más informada
+no absolutamente
+pero mejor
+y está abierto
+por supuesto
+esto es
+en
+poda de
+alternativas
+como siempre
+yo tengo
+cada
+cada lodo
+cada solución
+posiblemente
+represente
+una configuración
+una estructura
+que va a tener
+un costo
+a ver
+voy a
+voy a inventar
+queremos
+poner
+instalaciones nucleares
+aquí en Chile
+por si acá
+nunca se sabe
+y
+decidimos
+cuál es
+la mejor
+alternativa
+tenemos
+muchas ramificaciones
+aquí
+el acceso
+empezamos a manejar
+más variables
+empezamos a poner
+la oportunidad
+el costo
+la seguridad
+la cercanía
+de las fuentes
+de agua
+en fin
+podemos
+evaluar
+distintas
+configuraciones
+esta búsqueda
+esta es una de las más
+entretenidas
+probablemente
+no voy a seguir
+al algoritmo
+completo
+porque
+lo que me
+interesaba
+en esta parte
+es que
+vieran
+que es posible
+hacer una evaluación
+parcial
+que nos permita
+guiar la búsqueda
+estamos guiando
+la búsqueda
+esto no es determinístico
+no garantiza
+la solución
+perfecta
+nunca
+lo que hace
+esta búsqueda
+A estrella
+es
+una segunda
+estimación
+al nodo
+recuerda
+que evaluábamos
+un costo
+como el de la búsqueda
+ahora
+pero ahora
+le agregamos
+el costo
+real de llegar
+podemos tener
+el recorrido
+por ejemplo
+cuánto camino
+he recorrido
+yo
+en el mapa
+de
+Ucares
+y cuánto
+es lo que nos cuesta
+llegar a la meta
+y sumo
+estas funciones
+va a depender
+de cuánto
+conozca yo
+el problema
+cuáles
+que implica
+agregarle
+un GDN
+entonces
+tengo
+el costo
+de lo que ya
+recorrí
+que me guía
+a la búsqueda
+pero también
+un costo
+estimado
+desde el punto
+en el que estoy
+al objetivo
+y combinando
+estos dos criterios
+y podría tener
+un tercero
+esto podría
+ser funciones
+compuestas
+normalmente
+lo son
+son funciones
+ponderadas
+esto
+me acerca
+más
+a la búsqueda
+y es lo que
+está presente
+siempre aquí
+la poda
+la poda
+inteligente
+que depende
+del conocimiento
+que tengamos
+del problema
+la búsqueda
+limitada
+en profundidad
+yo voy a avanzar
+un cierto número
+de niveles
+tal vez de manera
+exhaustiva
+pero de ahí
+usaré
+otro tipo
+de criterios
+muchas veces
+conocemos
+el estado
+final
+nosotros
+conocemos
+el costo
+del estado
+final
+lo que no sabemos
+es cuál es
+el camino
+que nos lleva
+a ese
+a ese estado
+final
+si podemos
+estimar
+bien ese costo
+lo agregamos
+a nuestra
+heurística
+lo agregamos
+a nuestra
+función
+de evaluación
+de cada
+nodo
+la única
+condición
+la misma
+que teníamos
+antes
+no sobreestimar
+el costo
+le ponemos valores
+muy altos
+a todos
+es como si
+no hiciéramos
+nada
+la dificultad
+que tienen
+todas
+estas búsquedas
+todas
+es la
+complejidad
+y la complejidad
+se da por la
+ramificación
+porque ramificación
+significa
+aumentar
+el número
+de alternativas
+probablemente
+de manera
+exponencial
+y eso
+no es
+manejable
+no podemos
+agotar
+todas
+las
+alternativas
+es como
+si
+quisiéramos
+tener
+un dominio
+absoluto
+de lo que
+va a pasar
+y vamos
+a ver
+estos son
+algoritmos
+de problemas
+clásicos
+pero vamos
+a ver
+que hay
+otros
+algoritmos
+o sea
+les voy
+a mencionar
+así
+adelantadamente
+que
+no podemos
+diseñar
+algoritmos
+que
+resuelvan
+todo
+porque
+en algunos
+casos
+reales
+hay
+eventos
+que no
+controlamos
+cuando
+vimos
+el caso
+del
+granjero
+que pasaba
+con el
+lobo
+el repollo
+y la cabra
+al otro lado
+del río
+dijimos
+el río
+es siempre
+el mismo
+el bote
+es siempre
+el mismo
+el granjero
+es siempre
+el mismo
+pero
+esas cosas
+cambian
+como
+como en los
+juegos
+no siempre
+es todo
+tan
+determinístico
+en el ajedrez
+sí
+es determinístico
+pero hay
+otros juegos
+que
+ahí no es
+informada
+100%
+ahí tenemos
+otros elementos
+azar
+¿cómo
+manejamos
+esa ramificación?
+no es realista
+pensar que
+podemos
+manejar
+toda la
+combinatoria
+¿qué es lo que
+pasa con
+este
+con esta
+función
+de evaluación
+del
+a estrella?
+el f
+es monótona
+es decir
+siempre va
+creciendo
+siempre
+vamos avanzando
+hacia un valor
+mayor
+lo que significa
+que siempre
+estamos privilegiando
+el mínimo
+por lo tanto
+cada vez que privilegiamos
+un mínimo
+de ahí
+avanzamos
+hacia el valor
+mejor
+más que el mayor
+todas las
+jurísticas
+probablemente
+son
+del mismo
+tipo
+a medida que
+avanzamos
+hacia la meta
+sus valores
+de función
+van subiendo
+no podemos
+introducir
+ciertos cambios
+como les decía
+esto puede ser
+utilizado
+para generar
+contornos
+es decir
+aquí hay un
+nodo prometedor
+timisual
+entonces
+vamos a
+buscar
+en los
+alrededores
+con independencia
+de que parezcan
+al principio
+no tan
+prometedores
+eso amplía
+la búsqueda
+la hace más
+compleja
+claro
+en el mismo
+árbol
+anterior
+lo que podemos
+hacer es
+definir un
+contorno
+primero
+definimos
+este contorno
+interno
+vamos a
+hacer
+esta búsqueda
+tenemos
+7
+7
+eso es
+parecido
+y ahora
+decidimos
+irnos
+por la
+derecha
+pero aquí
+está nuestro
+contorno
+y al tomar
+este contorno
+independiente
+de los valores
+que hay acá
+decidimos
+ampliar
+hacia este
+lado
+y aquí
+sí vamos a
+llegar a la
+solución
+más rápida
+pero hicimos
+una poda
+y también
+al principio
+es un poco
+de suerte
+si no
+conocemos
+totalmente
+el problema
+necesitamos
+un poquitito
+de suerte
+para tomar
+la decisión
+correcta
+como siempre
+lo hacemos
+¿cuántas veces
+nos pasa
+que vamos
+a manejar
+y decimos
+vamos a ir
+por acá
+mejor
+porque es
+más corto
+hasta que
+nos encontramos
+con un
+banderero
+para definir
+esos contornos
+también hay
+una
+función
+que me permite
+comparar
+contornos
+y ahí
+elijo
+la de menor
+costo
+exacto
+siempre va a
+encontrar
+una buena
+solución
+la estrella
+y la primera
+solución
+es la mejor
+si está
+en cuenta
+es eficiente
+y
+como usamos
+las dos funciones
+está midiendo
+dos cosas
+está midiendo
+el origen
+y está midiendo
+el destino
+entonces
+esa combinación
+es imbatible
+profesor
+pero
+¿cómo podemos
+aceptar
+que encuentra
+la solución
+óptima
+si es un
+algoritmo
+que no revisa
+todos los
+los caminos?
+es óptima
+dentro del
+contorno
+que eligió
+perdón
+se me olvidó
+decir
+yo elijo
+voy a elegir
+este sector
+a lo mejor
+no consideré
+un nodo
+o un estado
+que está alejado
+porque no
+no me pareció
+prometedor
+como hizo
+el computador
+que no consideró
+la pieza
+sacrificada
+no hay nada
+que hacer ahí
+no hay nada
+que ver hacia adelante
+no voy a profundizar
+porque ya perdió
+por ese lado
+profesor
+¿cómo define
+el contorno
+de manera matemática?
+¿le da algún peso
+a los nodos
+con los que vamos
+a ir a revisar?
+¿cuál es la forma
+para poder
+definir la manera
+matemática?
+hay un factor
+de ramificación
+asociado
+a cada nodo
+cada nodo
+tiene una cierta
+cantidad de hijos
+entonces yo puedo
+decidir que
+en función
+de la cantidad
+de hijos
+alrededor de
+elijo los nodos
+vecinos
+que son los hermanos
+en el árbol
+y puedo poner
+alguna
+alguna
+cota
+voy a elegir
+al hermano
+de la izquierda
+y al hermano
+de la derecha
+y voy a profundizar
+no más allá
+de dos niveles
+y eso ya me definió
+un contorno
+pero mientras más
+conozca el problema
+más fácil
+va a ser decidir
+cuál es el contorno
+si mi problema
+es desconocido
+estoy a ciegas
+siempre
+gracias
+nada
+como
+el factor
+de ramificación
+es crítico
+hay algo
+que se llama
+complejidad espacial
+nosotros
+estamos
+acostumbrados
+a trabajar
+con una
+complejidad temporal
+es decir
+cuánto tiempo
+va a tomar esto
+es lo típico
+de los algoritmos
+pero también
+hay una complejidad
+asociada
+a cuánta memoria
+voy a necesitar
+en el caso
+del vendedor viajero
+imagínense
+la memoria
+necesaria
+para almacenar
+las 50
+factorial
+trayectorias
+entonces
+en estos algoritmos
+de búsqueda
+en ambientes
+reales
+la poda
+es absolutamente
+necesaria
+y de dónde viene
+de inspiraciones
+como vamos a ver
+más adelante
+de otro tipo
+me voy a adelantar
+solo para
+para poner
+el énfasis
+en las hormigas
+las hormigas
+siempre encuentran
+la distancia
+más corta
+del alimento
+al hormiguero
+es verdad
+que nosotros
+las vemos
+así que de repente
+hacen como unas curvas
+pero hay alguna
+característica
+en el terreno
+que hace que
+ellas se desvienen
+y
+solo para
+revolverles
+un poco
+el café
+no hemos visto
+hormigas
+las conocen
+¿no es cierto?
+no no
+de repente
+uno ve el caminito
+y la dueña
+de casa
+y dice
+llegaron
+hormigas
+una cosa así
+un descubrimiento
+bien importante
+o
+quien no lo ha hecho
+un caminito
+de hormigas
+y uno le dice
+a ver qué pasa
+y se recomponen
+y se van
+por otro lado
+siempre las hormigas
+encuentran
+el camino
+y cuando vemos
+el caminito
+han visto
+algunas hormigas
+que andan así
+allá
+la hormiga está perdida
+no
+no está
+nada perdida
+andan explorando
+andan buscando
+mejores soluciones
+esto es para
+decir
+no
+no
+no
+no está perdida
+entonces
+nuestra
+nuestra primera idea
+de algoritmo
+así
+es
+este árbol
+profundizado
+y darle valores
+de repente
+necesita unos
+unos toquecitos
+así medio
+poco convencionales
+el tipo
+esa que está allá
+que no está perdida
+miremosla
+a lo mejor
+encuentro el camino
+más corto
+que de hecho
+es lo que hacen
+entonces
+cuando aprendemos
+de eso
+a nuestros algoritmos
+de optimización
+los
+los adornamos
+con esas características
+copiamos
+vamos copiando
+modelos del mundo
+a medida que los necesitamos
+bueno
+están los de memoria
+acotada
+miren
+en realidad
+es mucho
+la memoria
+es cara
+no voy a almacenar
+tanto
+voy a guardar
+los mejores
+como cuando
+ustedes ordenan
+los computadores
+voy a limpiar
+un poco
+porque estoy lleno
+de carpetas
+está todo repetido
+entonces voy a echar
+la basura
+en lo repetido
+y habitualmente
+uno echa
+a la basura
+cosas que no
+estaban repetidas
+la mayoría
+son variaciones
+ya
+una profundización
+y bueno
+si promete
+vuelvo a profundizar
+memoria acotada
+con algunos criterios
+más sencillos
+aquí uno puede trabajar
+en este árbol
+con distintos criterios
+la gracia
+la gracia
+de todo esto
+es que estas búsquedas
+de estos procedimientos
+están abiertos
+a lo que nosotros
+queramos probar
+y si esto funciona
+fantástico
+creo que el Sauer
+nos espera
+y al regreso
+vamos a
+conversar
+del puzzle 8
+así que
+pueden usar apuntes
+ustedes trabajen
+la decir al jefe
+puedo usar un libro
+cuando nos mande
+resolver un problema
+pueden usar todo
+yo tengo una pregunta
+sobre la tarea
+sí
+lo que tenemos que
+realizar al final
+es una función
+que nos diga
+si está la persona
+y dónde
+o algo más que eso
+o sea
+nosotros le ingresaríamos
+el nombre de una persona
+y nuestra aplicación
+debería decir
+si está
+sí
+en principio
+puede ser eso
+en principio
+a ver
+la tarea
+lo único que yo quiero
+es que recorran el árbol
+en anchura
+y en profundidad
+ahora
+ustedes la pueden hacer
+más bonita
+y decir
+yo quiero
+ubicar a una persona
+particular
+que está en el árbol
+a mi primo
+Juanito
+por ejemplo
+y
+voy a comparar
+los dos recorridos
+y voy a decir
+para este tipo
+de búsqueda
+parece ser mejor
+van a argumentar
+este recorrido
+que este otro
+punto
+no
+no es para que les duela
+la cabeza
+no
+bueno
+muchas gracias
+profesor
+sí
+recorrer
+recorrer todo
+ahora sí
+sí
+lo van a recorrer
+completo
+pero ahí mismo
+van a aprovechar
+de encontrar
+al que buscan
+solo que
+se pueden demorar
+más o se pueden demorar
+menos dependiendo
+de la estrategia
+sí
+sí
+sí
+sí
+sí
+eso
+eso son los dos
+algoritmos bases
+ahora sobre eso
+y cuánto me demoraría
+en encontrar a Juanito
+espero que el chacarero
+haya estado bueno
+vamos a
+creo que ya pasó
+a la parte más árida
+que esta primera mitad
+del curso
+que era un poco
+se hace un poco pesado
+pero
+vamos a ver
+si conseguimos
+entretenernos
+un poco más ahora
+les voy a contar
+que
+incluso problemas
+sencillos
+como este
+del puzzle 8
+recuerdan
+el perrito
+que había que ordenar
+no
+no es menor
+el
+el
+problema
+de resolver
+una solución
+con 20 pasos
+típicamente
+factor de ramificación
+bueno
+tres
+porque tenemos
+el espacio
+y lo podemos mover
+hacia arriba
+hacia abajo
+hacia los lados
+pero los de la esquina
+en promedio
+tres
+la búsqueda exhaustiva
+tiene
+3,5
+por 10
+elevado
+a 9
+movimientos
+o sea
+un programa
+que analice
+todas las posibles
+combinaciones
+tiene ese espacio
+de búsqueda
+que es un
+poquitito
+grande
+y hay
+9
+factorial
+configuraciones
+distintas
+para esas
+9 piezas
+o sea
+el exhaustivo
+a mano
+no es factible
+ese es el tipo
+de problemas
+chiquititos
+que de repente
+empiezan a consumir
+una cantidad
+muy grande
+de recursos
+quiere ilustrar eso
+cuáles
+heurísticas
+usamos
+esto ya lo había dicho
+el lunes pasado
+el número de piezas
+fuera de lugar
+y la distancia
+de las piezas
+a sus posiciones
+contábamos
+el número de pasos
+cierto
+la distancia
+Manhattan
+que eran los catetos
+recorrer los catetos
+de un eventual triángulo
+y
+no nos vamos
+a meter aquí
+porque esto ya
+es matemática
+un poquito más
+más pesada
+podemos hacer
+especificaciones
+formales
+para generar
+heurísticas
+aquí ya se necesita
+un poco más
+de
+matemáticas formales
+manejo sobre
+álgebra
+y estructuras
+matemáticas
+de las que
+seguramente
+oyeron hablar
+alguna vez
+y no les interesó
+tanto
+como
+los grupos
+abelianos
+los monoides
+y todas
+esas cosas
+no nos vamos
+a meter
+pero si quieren
+me encantaba
+cuando yo
+tengo
+estos procesos
+de búsqueda
+tan
+aparentemente
+tan complejos
+con tantas
+posibilidades
+la heurística
+que es esta función
+que nos permite
+guiar
+la búsqueda
+que nos da
+pistas
+es clave
+por lo tanto
+una buena heurística
+es
+lo mejor
+que podemos
+encontrar
+para ayudarnos
+en la búsqueda
+de la solución
+la heurística
+tiene que ser
+capaz
+de podar
+imagínense
+en este espacio
+incluso en ese
+puzzle 8
+tan sencillo
+tiene que ser
+capaz
+de decidir
+por aquí
+no voy a ir
+y al mismo tiempo
+avanzar
+hacia el objetivo
+esas son las dos
+condiciones
+que tiene
+una heurística
+que es lo que se hace
+aprovechando
+la capacidad
+de cómputo
+inmensa
+que hay hoy día
+es
+los operadores
+relajarlos un poco
+no
+no tomar
+por ejemplo
+en el
+las piezas
+fuera de lugar
+en el puzzle
+podemos tomar
+la distancia
+euclidiana
+para guiarnos
+tal como tomamos
+la distancia
+en línea recta
+cuando andábamos
+tratando de llegar
+a Búcares
+no es exacto
+pero nos ayuda
+siempre en estos
+puntos de
+minimizar
+distancias
+la distancia
+en línea recta
+es un criterio
+muy utilizado
+cuando buscamos
+en asterisco
+la gracia
+estoy repitiendo
+un poco
+como cerramos
+es que
+siempre avancemos
+siempre avancemos
+hacia el objetivo
+esta función
+es monótona
+siempre va creciendo
+y
+usemos
+heurísticas
+simples
+no
+no es necesario
+complicarse
+tanto
+el problema
+de memoria
+es un problema
+de tiempo
+a la vez
+porque
+mientras más
+memoria
+más espacio
+donde tenemos
+que buscar
+más cosas
+tenemos que podar
+más cuestiones
+hay que revisar
+más test
+más comparaciones
+hay que realizar
+por eso
+uno trata
+de acotar
+estos árboles
+de podarlos
+de alguna manera
+la pregunta es
+¿cómo encuentro
+una buena heurística?
+una buena heurística
+depende del conocimiento
+que yo tenga
+del problema
+no necesito
+tener
+un conocimiento
+computacional
+del problema
+sino que
+simplemente
+de su naturaleza
+para allá
+vamos a apuntar
+en lo que viene
+bueno
+lo que hacemos
+lo que hacemos
+entonces
+es
+y esto tiene
+que ver
+con los contornos
+identificar
+ciertos
+ya no es una búsqueda
+lineal
+identificar
+ciertos espacios
+que por ejemplo
+podríamos explorar
+en paralelo
+podríamos tomar
+sectores
+del árbol
+que exploramos
+en paralelo
+y nos vamos
+quedando
+con los más
+prometedores
+esto hoy día
+se puede hacer
+relativamente fácil
+una vez más
+el éxito
+está dado
+por la capacidad
+de formular
+correctamente
+el problema
+que queremos resolver
+siempre
+siempre que entendemos
+lo que queremos resolver
+ya tenemos
+bastante avanzado
+si no conocemos
+nada del problema
+todo va a ser
+mágico
+por eso
+cuando hay que resolver
+un problema
+para
+personas específicas
+necesitamos
+conocimiento
+específico
+la próxima semana
+les voy a contar
+de un problema
+que nosotros
+resolvimos
+utilizando
+algoritmos
+genéticos
+que era
+un problema
+que tenían
+los biotecnólogos
+los biotecnólogos
+toman
+fotografías
+con microscopios
+de muestras
+muestras biológicas
+y estas muestras biológicas
+vienen como códigos
+como barritas
+que están asociadas
+al peso molecular
+y otras
+que eran en particular
+sobre un tipo
+de árbol
+nos indicaban
+que
+cuán densa
+o cuán
+densas
+eran determinadas áreas
+lo que tenía que ver
+con el tratamiento
+de bichos
+que afectaban
+al árbol
+y cómo se podían
+tratar
+si una concentración
+muy alta
+de bichos
+podía afectar esto
+estamos hablando
+de árboles
+de exportación
+20 maderas
+para las forestales
+esto era un tema
+bastante relevante
+y el problema
+que tenían
+los biólogos
+o los biotecnólogos
+era que estas barras
+por distintas razones
+no siempre salen
+derechitas
+sino que tienen
+ciertas inclinaciones
+o incluso
+ciertas deformaciones
+y como hay que tomar
+una decisión
+sobre un aspecto
+biológico
+la información
+mala
+nos lleva
+a malas
+elecciones
+entonces
+teníamos
+un investigador
+que era experto
+en biotecnología
+pero los biotecnólogos
+no sabían
+de la existencia
+de los computólogos
+ellos creían
+que los computólogos
+eran la gente
+que armaba computadores
+entonces
+este
+investigador
+que conocía mucho
+de biotecnología
+fue
+a presentarse
+al centro
+de biotecnología
+y dijo
+¿cómo los puedo ayudar?
+yo soy experto
+en computación
+y le dijeron
+tenemos que instalar
+una impresora
+no, no, no
+dijo
+aparte de eso
+tenían un problema
+de cómo corregir
+las imágenes
+compraron un software
+que les costó
+un millón de dólares
+estoy hablando
+hace 15 años
+un poco más
+y
+según ellos
+corregía
+era como el photoshop
+era ordinario
+pero como el solo
+igual
+quedaba un poquitito
+choco
+estaban orgullosos
+de que funcionaba
+no, si quedó bonito
+entonces
+este investigador
+que conocía el tema
+agarró la imagen
+lo trató
+matemáticamente
+usó transformadas
+y les dijo
+esta imagen
+tiene una rotación
+del 4%
+por lo tanto
+ese es el margen
+de error
+que tienen
+en su diagnóstico
+y ahí dijeron
+algo así como
+¿cómo se puede
+arreglar esto?
+y ahí nosotros
+como el chapulín
+aparecemos en escena
+y les dimos
+una solución
+para
+hacer como
+las mil y una noche
+esto es para el próximo
+una de las cosas
+que se usan
+en informática
+y que tiene que ver
+con búsquedas
+con juegos
+son los árboles
+de decisión
+es un árbol
+que por supuesto
+es un grafo
+acíclico
+cada nodo
+es un estado
+y cada arista
+es una acción
+que nos permite
+llegar de un estado
+al otro
+en el caso
+de los caminos
+la arista dice
+para llegar
+de aquí a allá
+tengo que recorrer
+X kilómetros
+y para eso
+se usan
+estos
+árboles
+de decisión
+que lo que permite
+es
+etiquetar
+caminos
+posibles
+porque
+ya
+ya
+intuyeron
+que cuando yo digo
+hay que podar
+o hay que hacer
+contornos
+de alguna manera
+tenemos que descartar
+ciertas ramas
+¿cuál?
+tenemos que identificarla
+bueno
+eso
+eso va por
+un lado parecido
+a lo que vamos a ver ahora
+¿qué es lo que nos interesa?
+cada árbol
+cada nodo
+en el árbol
+de decisión
+es una solución
+parcial
+a medida que avanzamos
+en el árbol
+eso es
+un camino
+hacia la solución
+no es la solución
+pero empezamos
+a caminar
+hacia allá
+las hojas
+que son los nodos
+terminales
+del árbol
+los que no tienen
+más hijos
+esas son las soluciones
+voy a hacer un ejemplo
+de árbol de decisión
+que es lo mejor
+en vez de estar explicando
+esto
+de manera más teórica
+cuando nosotros
+vamos bajando
+en un árbol
+cada vez
+que damos un paso
+avanzamos un nivel
+lo que hacemos
+es una consulta
+que nos dice
+vámonos
+hacia allá
+vámonos hacia acá
+¿se acuerdan
+de los árboles
+2-3?
+cuando decíamos
+si es mayor
+que se va a ir
+para allá
+si es menor
+que
+si está entre tales valores
+y que nos va a permitir
+elegir una rama
+que va a ser un camino
+hacia nuestra solución
+juguemos un poquito
+este problema clásico
+de las ocho monedas
+lo único que sabemos
+que hay una que es falsa
+y es más pesada
+eso ya es harta información
+y nos piden
+que encontremos
+esta moneda falsa
+no sé
+a mí me gustaba
+el Icarito
+que compare
+los pesos
+y a través
+de esas comparaciones
+deberíamos saber
+cuál es la moneda falsa
+no hay
+no hay rayitas aquí
+lo único que vamos a saber
+que como la falsa
+es más pesada
+la balanza
+se va a inclinar
+hacia ese lado
+pero tenemos
+ocho monedas
+y vamos a
+pesarlas
+esto fue producto
+de un día de lluvia
+no había nada bueno
+en la tele
+y construí
+este árbol
+que tiene
+dos grupos
+de monedas
+con una originalidad
+digna de mejor causa
+están
+con label
+de uno al ocho
+y están separadas
+en dos grupos
+que es
+mi primer
+mi primera decisión
+pongo cuatro
+y cuatro
+y aquí voy a saber
+dónde está la falsa
+en qué grupo
+no voy a saber
+cuál es todavía
+entonces
+¿qué hago?
+pongo esas
+cuatro y cuatro
+y dependiendo
+si se inclina
+hacia el lado
+que se incline
+me quedo con esas cuatro
+y las divido
+en dos grupos
+dos
+y dos
+y tengo ahí
+el árbol
+con las opciones
+que me va a permitir
+decidir
+esta es la primera
+decisión
+por cuál rama
+tengo que buscar
+la que se inclinó más
+yo tengo
+esa
+el uno
+dos
+es el cuatro
+por ejemplo
+voy a saber
+dónde está
+la falsa
+que va a ser
+el uno
+dos
+o el tres
+cuatro
+dependiendo
+cuál sea
+la más pesada
+supongamos
+que esté
+en el
+en el árbol
+subárbol
+uno
+dos
+aquí me quedan
+dos poneritas
+nomás
+así que fácilmente
+yo pongo
+una a cada lado
+y
+la que se inclina
+más
+va a ser
+la falsa
+y una gracia
+en realidad
+el problema
+no es muy
+entretenido
+este necesita
+tres test
+uno
+dos
+tres
+y aquí ya sé
+cuál es la más pesada
+podemos mejorar
+este tipo
+de criterios
+es el que va a guiar
+nuestra solución
+este es un problema
+sencillo
+pero cuando tenemos
+muchas ramas
+nuestra capacidad
+de tomar
+las decisiones
+justas
+de qué procedimiento
+usar
+es relevante
+ser pesada
+parece
+suficiente
+suficiente
+y para esto
+vamos a usar
+un procedimiento
+que lo voy a explicar
+en detalle luego
+después de terminar
+de jugar
+con las monedas
+este esquema
+me permite
+hacer
+dos pesadas
+separo en dos grupos
+de a tres
+y dejo
+dos
+sin considerar
+si
+la balanza
+está parejita
+está claro
+que la falsa
+está en el grupo
+de dos
+si no
+ya filtré
+ya solo me quedan
+tres monedas
+acorté
+el procedimiento
+entonces
+cuando uno
+resuelve
+un problema
+de estos
+no es llegar
+y resolver
+así
+con un tractor
+sino que uno
+se para
+y piensa
+¿lo puedo mejorar?
+ese es el secreto
+de buscar
+una buena heurística
+repensar
+como dice alguien
+salir de la caja
+estaba conversando
+con unos matemáticos
+hace unos años atrás
+y me dijeron
+tenemos un problema
+interesante
+que tiene que ver
+con el diablo
+pero si se los cuento
+el próximo cambio
+de
+de tema
+que hagamos
+que es un desafío
+interesante
+y la respuesta
+es
+hay que pensar
+fuera de la caja
+eso me dijeron
+aquí
+fuimos un poquito
+más creativos
+no
+santé
+que es un
+type
+lesión
+en este árbol
+de decisión
+donde estamos
+buscando
+no puede ser
+mayor
+que cualquier
+algoritmo
+tenemos que
+minimizar
+en esta ramificación
+nuestra búsqueda
+aquí voy a hacer
+una pequeña
+de nuevo
+desviación
+antes de entrar
+al minimax
+para decir que
+uno debe contar
+el arte
+de la computación
+es saber
+contar
+hay un señor
+que se llama
+Donald
+Nutt
+nació el año
+38
+o sea
+tan güeñe
+no es
+y es un tipo
+que dijo
+si uno sabe
+contar
+tiene resuelto
+el tema
+de la informática
+eso lo dijo
+por allá
+por
+70
+años
+69
+70
+el tiempo
+mostró
+que tenía
+razón
+si uno sabe
+contar
+puede resolver
+cualquier problema
+si uno sabe
+contar el número
+de pasos
+puede reducirlo
+si uno sabe
+cómo se cuenta
+qué representa
+y aquí hay un tema
+que tiene que ver
+con los algoritmos
+que puede que no
+entiendan mucho
+al principio
+de qué se trata
+pero hay algoritmos
+que son más difíciles
+y otros
+más complejos
+digamos
+y otros menos complejos
+cuando uno le pica
+esta oreja
+uno se rasca así
+uno no se rasca
+igualmente así
+¿no es cierto?
+claro
+pero hay formas
+de hacerlo
+más o menos difícil
+cuando uno
+ordena la escala
+con la que está
+jugando cartas
+uno tiene
+sus modos
+de hacer
+hay gente
+que ordena
+todo aquí
+in situ
+hay gente
+que va tomando
+las cartas
+de a uno
+y las va poniendo
+en su posición
+final
+y son distintos
+tipos de ordenación
+hay algunos
+que son más eficientes
+que otros
+como a nosotros
+nos interesa
+la eficiencia
+hablamos de complejidad
+de algoritmos
+y la complejidad
+dice
+¿cuánto demorará
+mi algoritmo
+en resolver
+este problema?
+un pequeño juego
+de ordenación
+nos indica
+que hay formas
+diferentes
+de resolverlo
+por ejemplo
+hay un
+los computólogos
+de estos
+el
+SOR
+burbuja
+en que pone
+los números
+mayores a un lado
+los menores
+al otro
+y es una forma
+de resolver
+un problema
+y eso
+demora un tiempo
+que es proporcional
+al cuadrado
+del número
+de elementos
+hay otra forma
+que es un poco
+más extraña
+que uno agarra
+un número
+lo pone
+en su posición
+final
+y pone
+los más grandes
+a un lado
+los más chicos
+al otro
+y repite
+ese es el más
+eficiente
+y el tiempo
+que se demora
+es proporcionar
+a n
+logaritmo
+en base 2
+de n
+es bastante mejor
+si nosotros
+sabemos algo
+de complejidad
+de algoritmos
+eso nos facilita
+la vida
+nos permite
+tomar buenas
+decisiones
+en lo que vamos
+a implementar
+en la mayoría
+de los casos
+tenemos
+bastante
+conocimiento
+del problema
+como para decir
+qué es más
+eficiente
+o qué no lo es
+los problemas
+se
+clasifican
+en los problemas
+que son
+sumamente sencillos
+orden 1
+orden 1
+o sea
+eso no se demora
+nada
+no
+el primer elemento
+de la lista
+es la dificultad
+1
+hay otros
+que dependen
+de n
+recuerdan
+cuando les dije
+que en el árbol
+teníamos
+n-1
+iteraciones
+para construir
+el árbol
+de cobertura
+quiere decir
+que el tiempo
+que toma
+el cómputo
+es proporcional
+al número
+de elementos
+es proporcional
+a n
+les acabo de decir
+que ordenar
+números
+poniendo los más grandes
+a un lado
+los más chicos
+a otro
+que se llama
+burbuja
+el bubble sort
+eso toma
+un tiempo
+que es proporcional
+al cuadrado
+del número
+de elementos
+ah
+entonces
+si es importante
+cuando
+yo tengo
+un algoritmo
+que tenga
+una complejidad
+menor
+entonces
+se clasifican
+hasta por aquí
+es más o menos
+más o menos
+normales
+y de aquí hacia arriba
+ya son intratables
+no tenemos
+4 o 5 elementos
+eso es fácil
+de hacer
+pero cuando tenemos
+100.000
+cambia
+voy a hacer un ejemplo
+solo para que entiendan
+no es necesario
+que entiendan
+la complejidad
+ni esto
+complejidad significa
+demoro menos que
+y yo voy a usar
+dos computadores
+y voy a ordenar
+voy a inventar
+un algoritmo
+que ordena
+y voy a preguntar
+¿cuántos pasos
+hace este algoritmo
+en cada vuelta
+de ordenación?
+me dice
+en tn
+si es bueno
+3
+6
+9
+es un múltiplo
+de 3
+voy midiendo
+hago la prueba
+con un elemento
+con dos elementos
+con tres elementos
+con cuatro elementos
+digo así
+el tiempo
+que demora
+o el número de pasos
+es proporcional
+a 3 veces n
+¿cuál es el orden
+de este algoritmo?
+¿cuál es el orden
+yo digo que es n cuadrado?
+recuerden el burbuje
+y yo escribo
+un término general
+yo digo que el tiempo
+que se demora
+es la sumatoria
+de
+y 1 a n
+de 3i
+que se escribe
+de esta forma
+no le den
+tanta importancia
+a eso
+lo pueden mirar
+después como entretención
+esto no es
+lo pongo ahí
+para ilustrar
+lo que hablé recién
+lo que tenemos
+que hacer
+es demostrar
+que hay una función
+en la cual
+no voy a entrar
+en detalle
+porque va a servir
+para enredarlo
+no más
+pero hay una función
+en la que yo
+tenga que demostrar
+que
+esta función
+que estoy aquí
+es menor que
+3 por
+n cuadrado
+eso significa
+que
+mi algoritmo
+es cuadrático
+el tiempo
+es proporcional
+al cuadrado
+del número
+de elementos
+eso es lo único
+que estoy diciendo
+ese valor
+de 3
+puede ser
+1000
+un millón
+da lo mismo
+no es relevante
+es una constante
+bueno aquí tengo
+la
+está el paso
+de que muestra
+que es n cuadrado
+y voy a hacer
+un cálculo
+distinto
+ahora
+vamos a ordenar
+un millón de números
+y vamos a usar
+un algoritmo
+que es
+orden n cuadrado
+es decir
+que
+el número
+de pasos
+que da
+es proporcional
+al cuadrado
+del número
+de elementos
+y para eso
+voy a usar
+un supercomputador
+y
+voy a hacer
+un algoritmo
+un poco más
+perdón
+un computador
+común y corriente
+un pc
+un algoritmo
+distinto
+que
+es n
+los n
+es menos
+que n cuadrado
+pertenece a otra
+familia
+de programas
+de curvas
+ahora
+¿qué importancia
+tiene esto?
+todo esto
+es para
+desembocar
+en el ejemplo
+el supercomputador
+hace 100 millones
+de instrucciones
+por segundo
+el pc
+un millón
+es más
+modesto
+¿cuánto demora
+el supercomputador?
+20.000 segundos
+5.56
+horas
+¿por qué?
+porque el algoritmo
+que usó
+está asociado
+al cuadrado
+del número
+de elementos
+pero en nuestro
+computador
+humilde
+era
+n log n
+quien
+n log n
+se demora
+16 minutos
+aquí voy
+con todo esto
+no importa
+que tengamos
+un supercomputador
+y no es cosa
+de meter
+supercomputador
+no más
+sino que es
+cuestión de usar
+el algoritmo
+más eficiente
+por eso
+nos preocupamos
+de encontrar
+algoritmos eficientes
+por eso
+nos preocupamos
+de heurísticas
+que reflejen
+mejor el problema
+y por eso
+como en el caso
+de los señores
+de biotecnología
+necesitamos entender
+cuál es el problema
+que ellos tenían
+porque no podemos
+resolverlo
+desde la ignorancia
+de la compensación
+respecto a lo que
+hacen esos rametos
+del eucalipto
+glóbulos
+que miden
+pero hay que
+explicarnos
+hay que explicarnos
+cómo tomar
+unas muestras
+de agua
+para hacer
+un análisis
+de las bacterias
+para ver
+si esto era
+potable o no
+eso nosotros
+no lo sabemos
+hay que estar
+metido en el puente
+tenemos que entenderlo
+y ahí
+ponernos creativos
+entre todos
+en general
+hoy día
+la computación
+son trabajos
+colectivos
+no se hace
+computación
+por computación
+antes estaban
+los expertos
+que se volvían
+locos
+programando
+en distintos
+idiomas
+computacionales
+y esa era
+toda la gracia
+estaban todos
+hasta las 3
+4 de la mañana
+como los guías
+inversos de hoy
+bien
+vamos a ir
+a la
+búsqueda
+adversarial
+hemos visto
+juegos
+hasta ahora
+pero
+hagamos juegos
+con
+un oponente
+estamos
+que puede ser
+el ambiente
+nuestro oponente
+puede ser
+el ambiente
+que está
+tratando
+de ganarnos
+puede ser
+un otro
+jugador
+lo que
+se hace
+en esto
+les expliqué
+que es lo que
+hacía Nash
+en cierta forma
+propone una acción
+sabiendo
+que el ambiente
+o el otro
+va a tratar
+de contrarrestar
+su acción
+es lo que hacemos
+cuando jugamos
+siempre
+tratamos de ganarle
+al otro
+y cada
+vez que nosotros
+damos un paso
+el otro
+da un paso
+para neutralizarnos
+y a su vez
+ganarnos
+y estos eran
+clásicamente
+hay diferencias
+con otros
+pero
+básicamente
+juegos de suma cero
+se llaman
+o sea
+si yo pierdo algo
+es lo que gane el otro
+hay más
+entonces
+de una persona
+de un agente
+no persona
+un agente
+que está
+buscando
+una solución
+ahí mismo
+donde estamos
+nosotros
+por lo tanto
+tenemos que diseñar
+estrategias
+ganadoras
+y esta estrategia
+ganadora
+la aprendemos
+de los juegos
+estos son
+los dichosos
+ambientes
+multiagente
+puede haber
+dos
+puede haber
+más
+cada uno
+tratando de mejorar
+su
+rendimiento
+sus resultados
+yo me imagino
+no lo sé
+pero me imagino
+que en la bolsa
+debe ocurrir algo así
+cuando se transan
+acciones
+me imagino
+que las ganancias
+de uno
+son las pérdidas
+de otro
+pueden ser
+elementos
+bastante
+complejos
+de manejar
+qué criterios
+usan
+cuáles son
+las heurísticas
+nosotros
+escuchamos las noticias
+y los analistas
+se vuelven locos
+y dicen
+que el petróleo
+va a subir
+otros
+no
+el petróleo
+va a bajar
+y después
+todos se justifican
+como les contaba
+como cuando
+está nublado
+en la isla
+además
+no sabemos
+cómo se hace
+esos son juegos
+de agentes
+uno juega
+pero el ambiente
+juega en contra
+¿cómo garantizamos
+nuestra mejor
+performance?
+esto es
+búsqueda
+adversarial
+buscamos una solución
+sabiendo que hay
+un otro
+objeto
+un otro agente
+que está
+impidiendo
+o que quiere impedir
+que nosotros ganemos
+cuando nosotros
+empezamos a entender
+juegos
+como tales
+y empezamos
+a buscar
+funciones
+de evaluación
+uno antes juega
+como juegan
+los niños
+un poco así
+a lo que vaya saliendo
+son acciones
+emergentes
+no son
+muy racionales
+por eso
+les puedo ganar
+a mis nietos
+todavía en el ajedrez
+pero una vez que
+aprendan
+ya se va a acabar
+la buena vida
+uno puede hacer
+una evaluación
+hebrística
+porque en un juego
+no sabemos
+lo que va a hacer
+el otro
+vamos a ver
+con un juego
+y vamos a ver
+cómo se puede
+evaluar esto
+qué tipo de juego
+o de información
+perfecta
+tenemos
+toda la información
+que necesitamos
+hay algunos juegos
+el go
+las damas
+siempre vemos
+sabemos lo que hay
+tenemos toda la información
+a la mano
+lo que no quiere decir
+que tengamos
+todas las estrategias
+para ganar
+pero vemos
+todo el panorama
+eso es información
+perfecta
+está todo lo que necesitamos
+pero también
+hay algunas
+algunos juegos
+que tenemos
+información imperfecta
+hay cosas que no sabemos
+no sabemos
+qué es lo que va a suceder
+típico del carioca
+me bajo
+o no todavía
+me puedo quedar arriba
+porque no sabemos
+lo que tiene
+el otro
+esa información
+imperfecta
+a diferencia
+de las generaciones
+donde vemos
+todo lo que puede hacer
+aquí
+depende
+un poco
+del otro
+las batallas
+navales
+esas que
+uno tapaba
+y que bombardeaba
+al otro
+no le diste al agua
+y corría a su barco
+en fin
+esas cosas
+el bridge
+yo no sé jugar bridge
+pero dicen que es entretenido
+hay juegos
+que son
+determinísticos
+aquí no hay nada
+que hacer
+tenemos reglas
+tenemos
+configuraciones
+dadas
+estas configuraciones
+hay ciertas reglas
+el gato
+la jd
+pero
+hay otros
+que por ejemplo
+salvo
+condados
+o con cartas
+si nosotros
+tuviéramos
+información
+perfecta
+ahora es casinos
+pero no es así
+depende
+de la zar
+hay una cuestión
+más bien estadística
+póker
+hay expertos
+en póker
+mucho
+mucho
+mucho
+también pueden perder
+fíjense que los juegos
+se pueden también
+representar en árboles
+cada nodo
+es un estado
+en que hemos avanzado
+del juego
+y cada arista
+es una transición
+que nos lleva
+de un estado
+a otro
+una posible
+movida
+un movimiento
+por ejemplo
+juego del gato
+vamos a ir al minimax
+vamos a jugar al gato
+con el minimax
+el minimax
+es una regla
+de decisión
+es un algoritmo
+que nos permite
+resolver problemas
+asociados
+a teoría de juegos
+en realidad sirve
+para
+casi todo
+nos estamos
+apolillando
+¿qué es lo que
+hacemos
+con este minimax?
+en el minimax
+lo que tratamos
+de hacer
+es minimizar
+el daño
+maximizar
+nuestras ganancias
+y minimizar
+nuestras pérdidas
+y se supone
+que en este juego
+tenemos
+un movimiento
+que es
+por turno
+primero juego yo
+después juega
+el otro agente
+que está contra mí
+después vuelvo a jugar yo
+después el agente
+¿cómo?
+jugamos
+¿qué es lo mejor
+que yo puedo hacer
+sabiendo
+que el que juega
+contra mí
+va a ser el que a mí
+me haga más mal
+eso es minimax
+max
+porque maximizo
+quiero maximizar
+mis utilidades
+min
+que quiero minimizar
+mis pérdidas
+entonces hay un jugador
+que es max
+y otro que es min
+estos jugadores
+se llaman
+min
+y max
+max
+va a jugar primero
+algo así como
+las blancas
+max
+tiene que buscar
+una estrategia
+para ganar
+min
+tiene que buscar
+una estrategia
+para evitar
+que max
+gane
+y esta
+estrategia
+de max
+debe ser independiente
+de lo que haga min
+o sea
+yo sé que tengo
+un enemigo
+o un adversario
+y tengo que jugar
+contra él
+y tengo que maximizar
+mis utilidades
+que es lo que podemos hacer
+a partir de un estado inicial
+veo todas las acciones posibles
+y las evalúo
+y digo
+aquí gano
+y aquí pierdo
+pero significa evaluarlas
+todas
+es un árbol tan grande
+que no puedo
+solo puedo hacerlo
+parcialmente
+en un sector
+y eso es lo que hace
+este algoritmo
+busca una región
+en la cual
+puede
+hacer esta evaluación
+vamos a suponer
+que conozco
+los destinos
+los valores
+de destino
+para ver
+cómo
+cómo
+opera
+este
+este max
+si la ramificación
+es muy grande
+este algoritmo
+no es tan práctico
+el diseño de estrategias
+pasamos la vida
+evaluando
+con una ramificación
+grande
+digamos
+hay muchos
+caminos posibles
+no nos sirven
+además que
+siempre
+tenemos el problema
+del espacio
+no porque no tengamos
+la capacidad
+hoy día
+las memorias
+no tienen
+ni un drama
+sino porque
+cuando tenemos
+mucha información
+como la que tenemos hoy
+buscar
+y no es tan sencillo
+¿cuál es la estrategia
+dentro de
+minimax
+de este algoritmo
+para max?
+este es el que juega
+primero
+lo que va a hacer
+es va a generar
+un árbol
+lo vamos a generar
+vamos a calcular
+el valor
+de cada estado
+terminal
+suponemos que
+sabemos
+cuáles son
+las mejores soluciones
+que es lo que medimos
+nuestra posibilidad
+de ganar
+y después
+vamos evaluando
+hacia el nodo inicial
+vamos propagando
+esta evaluación
+hacemos un
+backtracking
+es decir
+nosotros
+queremos llegar
+a esta posición
+ganadora
+esto en el fondo
+es pensar
+ah y para llegar ahí
+yo tendría que estar
+parado aquí
+y va a estar parado aquí
+tendría que llegar
+de por allí
+y voy evaluando
+voy evaluando
+pero al mismo tiempo
+estoy pensando
+y el otro
+que va a hacer
+ese es el minimax
+esa es la estrategia
+que voy a explicarles
+de este juego
+de dos adversarios
+entonces
+vamos a
+a partir de las hojas
+hacia la raíz
+¿quién lo que hace?
+max selecciona
+el mayor valor
+el valor más alto
+porque es un maximizador
+min
+quiere el valor
+mínimo
+que yo tenga
+el valor mínimo
+entonces
+este es un árbol
+grande
+que tiene valores
+posibles
+y aquí hay dos tipos
+de nodos
+los nodos max
+y los nodos min
+recuerden que el primero
+que juega es max
+que trata de maximizar
+los que están
+hacia arriba
+esos son maximizadores
+los que están
+hacia abajo
+son los juegos
+que elige el adversario
+que minimizan
+mi utilidad
+entonces yo tengo
+aquí un conjunto
+de
+valores
+supongamos que soy capaz
+de calcular
+muchos de estos
+o al menos
+estimarlos
+entonces digo
+esta rama
+es
+es un juego
+de max
+estos son los valores
+que va a ser
+mi algoritmo
+mi algoritmo
+va a elegir
+este valor
+9
+pero
+entre 9 y 7
+4
+este que minimiza
+va a elegir
+el menor
+el min
+elige
+el menor valor posible
+y eso hace
+con todos
+si estas
+las posibilidades
+son 6
+9 y 8
+va a elegir
+el menor
+8
+5
+6
+elige
+el menor
+7
+5
+2
+elige
+el menor
+y así
+siempre
+min
+elige
+el menor
+y max
+elige
+el mayor
+lo que significa
+que
+fíjense
+estamos aquí
+ahora juega
+el maximizador
+el maximizador
+va a elegir
+el mayor valor
+de estos posibles
+va a elegir
+7
+aquí va a elegir
+el mayor
+aquí va a elegir
+el mayor
+entonces va eligiendo
+el mayor
+y ahí
+juega
+el adversario
+que elige
+el menor
+que va a ser
+5
+3
+en fin
+4
+y ahora
+que juega
+max
+va a elegir
+el mayor
+el que maximiza
+su utilidad
+y ese es
+el valor
+5
+ese es el valor
+que más le conviene
+a max
+max
+diseñó
+una estrategia
+sabe
+cuáles son
+los caminos
+distintos
+y su evaluación
+y sabe
+lo que el otro
+intenta hacer
+min
+y min
+intenta minimizar
+entonces cuando
+juegue max
+va a elegir
+el mayor valor
+el que le da más
+utilidad
+entonces va a ser
+con independencia
+de
+lo que juegue min
+aquí max
+va a elegir
+este camino
+de 5
+min
+elegirá
+5
+que es el menor
+max
+va a elegir
+ese 5
+que es el mayor
+vamos a avanzar
+en un
+un algoritmo
+un poquitito
+es lo mismo
+pero
+con un poco
+más de detalle
+esta estrategia
+minimax
+entonces consiste
+en
+diseñar
+planificar
+una solución
+parcial
+valorarla
+y en base
+a eso
+realizar
+una acción
+que va a tener
+una acción
+de un adversario
+que pretende
+que su utilidad
+no sea máxima
+naturalmente
+estas son
+decisiones
+imperfectas
+no
+no podemos
+hacer un árbol
+completo
+para todas
+las posibles
+situaciones
+cuáles son
+las alternativas
+no
+buscar
+en todo
+el árbol
+ahora
+como decido
+dónde
+buscar
+cuando
+parar
+una vez más
+necesitamos
+una función
+la función
+de evaluación
+mientras más
+cercana
+al problema
+como decía
+yo
+más fácil
+es evaluar
+por eso
+cuando yo digo
+la definición
+del problema
+es fundamental
+no solo
+la definición
+del problema
+sino el conocimiento
+del área
+del problema
+y por eso
+tenemos que trabajar
+con alguien
+que sea experto
+en la materia
+nosotros solitos
+no somos
+capaces
+de
+en general
+este algoritmo
+el minimax
+es muy utilizado
+porque
+es bastante
+bueno
+en términos
+de tiempo
+y costo
+es verdad
+que
+aproxima
+porque
+no hay una
+búsqueda completa
+en ninguno
+de estos casos
+pero lo usamos
+porque
+nos permite
+hacer
+lo que estaba
+amenazando
+todo el rato
+podar
+pero podar
+guiado
+ahora no es
+un poco así
+metínca
+que
+no
+lo hacemos
+más criteriosamente
+¿qué es lo que hace
+la función
+de evaluación
+entonces
+apunta
+hacia una función
+que evalúe
+la posición
+ganadora
+las funciones
+las funciones
+de evaluación
+en general
+las heurísticas
+todas las funciones
+son
+habitualmente
+ponderadas
+yo dije
+en el algoritmo
+en el A estrella
+la pregunta
+que
+tenían ustedes
+aquí
+de los contornos
+tengo un costo
+estimado
+que vengo
+arrastrando
+tengo un costo
+hacia futuro
+pero aquí
+puedo ponerle
+otras cositas
+puedo ponerle
+otras gracias
+los tiempos
+involucrados
+por ejemplo
+como un factor
+y todo eso
+va a ir
+en mi función
+y yo voy a ponderar
+el factor
+tiempo
+le voy a dar
+un peso
+del 25%
+el costo
+monetario
+va a ser
+en tanto
+el costo
+en tiempo
+va a ser
+tanto
+por ciento
+puedo generar
+una función
+de evaluación
+complicada
+que uno quiera
+en términos
+de
+la relevancia
+siempre estamos
+evaluando
+y siempre
+estamos ponderando
+no hay un criterio
+único
+cuando ustedes
+van a comprarse
+zapatos
+uno no entra
+y dice
+¿cuáles son los zapatos
+más baratos
+que hay aquí?
+si uno dice
+quiero un zapato
+de ciertas
+características
+y tengo
+un presupuesto
+a ver
+50 rublos
+para no
+complicarnos
+con el dólar
+y el vendeor
+dice
+pero
+esto
+cuesta 60
+pero mire
+que es tan bonito
+entonces uno dice
+a ver
+es costo
+con lo bonito
+que se ven
+como
+me voy a ver
+más pintoso
+evalúa
+y de repente
+hay criterios
+que son más
+importantes que otros
+el costo puede ser
+determinante
+la mayoría
+de los meses
+me voy a comprar
+un
+un Kia Money
+que parece
+Ferrari
+está bonito
+también
+si
+no
+me gusta
+el Kia
+uno usa
+un criterio
+de ponderación
+que no tiene que ver
+con lo bonito
+en fin
+y este es el gran problema
+que tenemos
+en inteligencia artificial
+porque hablamos de
+búsqueda en espacios
+masivos
+nosotros estamos tomando
+decisiones un poco
+a ciegas
+nos pasa
+nos pasa
+prácticamente
+todas las acciones
+de nuestro cotidiano
+en particular
+en los juegos
+volvamos al Carioca
+que parece que todos
+lo conocen
+y uno está tratando
+y esperando
+su carta
+o un payasito
+y ve que el de allá
+votó la carta
+que yo necesito
+ojalá que queden
+payasitos
+y después el otro
+votó la misma
+que yo
+ya me tengo que
+desarmar
+entonces
+yo no veo
+hacia adelante
+cuando estoy
+parado aquí
+mi horizonte
+que es el que nos limita
+es
+es
+es la diferencia
+entre ganar y perder
+si yo hubiera juntado
+esta otra escala
+antes
+en fin
+cosas de este tipo
+nos pasan
+cada rato
+la idea es
+extender
+nuestro horizonte
+lo más que podamos
+el problema es que
+hay cuestiones
+que están más allá
+del horizonte
+no importa
+lo que vamos a
+profundizar
+no sabemos
+lo que este campeón
+de ejedrez
+va a ser
+en la jugada
+40
+el otro ya vio
+que nos tenía
+listos
+nuestro horizonte
+es más
+corto
+como los de todos
+todos nuestros horizontes
+son distintos
+cuántos somos capaces
+de predecir
+una vez más
+de qué depende esto
+del conocimiento
+del problema
+la búsqueda ciega
+en general
+es un horizonte
+muy corto
+es un por si acaso
+no hay
+no hay una estrategia
+general para el tema
+del horizonte
+esa es una mala noticia
+es decir
+tenemos que conformarnos
+con soluciones
+aproximadas
+no tenemos
+cómo
+adivinar
+el futuro
+ojalá pudiéramos
+vamos a volver
+al minimax
+ahora
+lo que mostré
+recién
+es el concepto
+del minimax
+cómo vamos subiendo
+y eligiendo
+el mayor y el menor
+pero ahora
+lo vamos a ver
+en un caso
+más práctico
+esto es lo que va a hacer
+el estudioso
+del gat
+vamos a partir
+de una posición
+cualquiera
+distintas posibilidades
+de juego
+estando en la primera
+posición
+juega
+le toca jugar a x
+partido x
+las posibilidades
+son que ponga una x
+en alguno
+de los tres
+espacios disponibles
+que son estas tres
+de aquí
+ahí tenemos
+la ramificación
+del juego
+y para cada uno
+de esos estados
+tenemos una respuesta
+de
+el que juega
+las redondelitas
+en este caso
+ya quedan
+dos opciones
+no más
+que son estas dos ramas
+estas otras dos ramas
+y esas otras dos ramas
+y a partir
+de esta rama
+ya que son terminales
+aquí
+solo podemos jugar
+aquí
+este ya ganó
+aquí
+solo podemos jugar
+aquí
+solo podemos jugar
+aquí
+aquí
+aquí
+o ahí
+tenemos todas las opciones
+posibles
+entonces
+este max
+está arriba
+le toca jugar
+dice
+¿cómo debo jugar yo
+para ganar?
+y mil
+dice
+¿cómo debo jugar yo
+para que no gane?
+estos son los juegos
+adversariales
+si empatan
+vamos a evaluar
+es cero
+el valor
+si
+ganan las redondelitas
+es menos uno
+y si ganan
+las x
+es uno
+este es
+el mapa
+que hizo
+max
+calculó
+a partir de
+la configuración
+inicial
+calculó
+todas las combinaciones
+posibles
+y las evaluó
+ya sabemos
+que
+cero es empate
+menos uno
+ganan las x
+uno ganan
+las redondelas
+entonces aquí
+aquí ganan
+las redondelas
+es menos uno
+aquí ganan las x
+es uno
+aquí ganan las redondelas
+menos uno
+aquí ganan
+las x
+uno
+ganan las x
+uno
+y ganan las x
+uno
+están las probabilidades
+de ganar
+x son altas
+entonces
+¿qué hacemos?
+¿qué hace max?
+dice
+este valor
+lo voy a propagar
+hacia arriba
+porque con esta estructura
+significa que
+al jugar x
+va a ganar
+en la redondelita
+menos uno
+perdón
+aquí
+es uno
+aquí
+sigo propagando
+el mismo valor
+uno
+uno
+y uno
+ah
+bien
+tengo esa situación
+en la que ahora
+debo
+decidir
+max
+perdón
+aquí ya llegamos
+hasta arriba
+ya
+se propagó
+un viaje
+bueno
+aquí tengo
+menos uno
+y uno
+como valores
+posibles
+como juega min
+el primer valor
+es max
+como juega min
+va a elegir
+el menor valor
+como juega
+max
+va a elegir
+el mayor valor
+pero aquí juega min
+por lo tanto
+elige
+el menos uno
+se evalúan
+todas las posiciones
+y propago
+hacia arriba
+de manera que
+yo sé ahora
+que
+la única opción
+o la única opción
+ganadora
+es
+para x
+es
+la opción
+del medio
+min
+va a elegir
+yo sé que va a elegir
+esta
+este uno
+es esta opción
+la de la derecha
+entonces
+cuando juegue max
+cuando juegue max
+va a jugar
+por aquella opción
+que le dé el valor
+uno
+que son las x
+y cuando juegue min
+va a tratar de
+minimizar la ganancia
+de el otro jugador
+entonces en esta evaluación
+que hace max
+dice
+estos son los valores
+los voy a propagar
+hacia atrás
+y ya tengo una estrategia
+ganadora
+pero hasta ahora
+eso
+sigue siendo
+una búsqueda
+no hemos llegado
+a la parte
+que esta es la parte
+interesante
+que no es un algoritmo
+es el criterio
+de poda
+y esto se llama
+alfabeta
+y la poda
+alfabeta
+lo que nos permite
+es
+cortar
+aquello
+que es innecesario
+buscar
+se usa
+en conjunto
+con minimax
+con el algoritmo
+que vimos recién
+es lo que hace
+poda
+poda
+aquellas
+ramas
+que no son necesarias
+alfa
+y beta
+se llama así
+el
+el algoritmo
+porque estos son parámetros
+alfa
+es un maximizador
+beta
+es un minimizador
+alfa
+nos da
+el mejor valor
+para max
+cuando estamos propagando
+los valores
+el mejor valor
+para max
+se llama
+alfa
+y la mejor elección
+para mi
+es beta
+nunca va a ser más que eso
+porque está tratando
+de minimizar
+¿qué es lo que hace
+esta poda?
+¿qué es lo que hace
+en principio
+todos aquellos
+que son malos movimientos
+van a ser descartados
+como estamos hablando
+de un universo más grande
+que nuestro árbol
+hay una probabilidad
+de que nuestra poda
+sea correcta
+pero es una probabilidad
+como les dije
+es tan extenso
+el árbol
+que nosotros vemos
+una parte
+pero así jugamos
+con esta poda
+se mejora
+en tiempo
+se mejora
+en espacio
+pero
+si nuestro problema
+es de alta explosión
+combinatoria
+no tenemos
+cómo tratar
+con eso
+entonces
+en esta poda
+alfabeta
+los resultados
+que
+no nos interesan
+que son malos
+van a ser podados
+los que no necesitamos
+examinar
+nuestra búsqueda
+se va a reducir
+ambos jugadores
+se evalúan
+su valor
+alfa
+y beta
+vamos a hacer un ejemplo
+para que vean
+esto es búsqueda
+en profundidad
+alfabeta
+busca en profundidad
+estas son las variables
+que vamos a tener
+como les decía
+alfa
+representa un máximo
+beta
+representa un mínimo
+y aquí
+hay un criterio
+el criterio
+de poda
+solo para que lo tengan
+en mente
+es que alfa
+sea mayor
+o igual que beta
+vamos a ver
+cómo funciona
+voy a poner
+un ejemplo
+con valores
+estos valores
+siguen calculados
+en la base
+son funciones
+que van a ser estimadas
+¿cierto?
+como heurística
+y
+una vez más
+min
+nuestro contrincante
+va a tratar
+de minimizar
+nuestras ganancias
+max
+será lo que hacemos
+nosotros
+para tratar
+de maximizar
+nuestras ganancias
+esto es lo que hace
+la boda
+lo que hace
+es mantener
+un intervalo
+y ese intervalo
+lo empieza a achicar
+les voy a explicar
+enseguida
+cómo lo hace
+entonces tenemos
+un intervalo
+que va de menos
+infinito
+a más infinito
+inicialmente
+max
+será menos infinito
+es el máximo
+y el mínimo
+será infinito
+¿para qué?
+para que cuando
+elijamos el primer valor
+inmediatamente cambie
+es como cuando
+ponemos
+o hacemos una búsqueda
+del número mayor
+y decimos
+ah
+menos infinito
+es el mayor
+cualquiera que venga
+ya va a ser mayor
+y de ahí
+solo podemos mejorar
+por eso se ponen
+esos
+esos intervalos
+y lo que vamos a hacer
+es ir actualizando
+el valor de alfa
+el máximo
+y el valor de beta
+en el caso
+del
+del gato
+que hicimos recién
+lo que hacíamos
+era propagar
+un gana
+pierde
+pero podemos ser
+un poco más
+detallados
+¿qué es lo que vamos a ver?
+vamos a hacer
+siempre
+vamos a tratar
+en este
+min max
+siempre vamos a tratar
+de optimizar
+nuestras ganancias
+de que el max
+sea alto
+nuestro adversario
+es tratar de que el min
+sea lo más bajo posible
+ese es
+beta
+ahora un nodo
+tenemos valores
+de sus hijos
+estos nodos
+se actualizan
+por ejemplo
+tenemos estos dos valores
+este es un árbol grande
+y tenemos estos dos valores
+como este es un maximizador
+lo que va a ir aquí
+en la evaluación
+en la propagación
+hacia arriba
+es el valor máximo
+que tenemos
+lo que tenemos aquí
+es un minimizador
+y lo que vamos a propagar
+hacia arriba
+es un mínimo
+originalmente
+nuestros valores
+de parámetros
+son esos
+siempre vamos a comparar
+con el valor
+a propagar
+esto es
+en la raíz
+del árbol
+cuando partimos
+ponemos esos valores
+y empezamos
+a propagar
+hacia abajo
+lo vamos a ver
+en detalle
+entonces
+en este max
+en este maximizador
+lo que esperamos
+es que cambie
+el valor de alfa
+en este otro árbol
+lo que esperamos
+es que cambie
+el valor de beta
+estamos buscando
+siempre un mínimo
+por eso
+después de
+después de actualizar
+el máximo
+para este árbol
+será
+3
+alfa
+tomará el valor
+3
+en el caso
+de los minimizadores
+alfa
+sigue siendo
+menos infinito
+es otra rama
+y buscamos
+el mínimo
+que puede elegir
+para este árbol
+que va a ser
+3
+debe haber puesto
+otros valores
+pero
+funciona igual
+¿por qué
+nos preocupa
+que alfa
+sea mayor o igual
+que beta?
+porque si alfa
+es mayor o igual
+que beta
+podemos podar
+ya no se puede mejorar
+ese valor
+lo vamos a ver
+en
+es por otros
+bien
+este es nuestro árbol
+tenemos nuestro árbol
+que
+el primer nivel
+es max
+después juega min
+juega max
+juega min
+y estos son
+los valores
+la pregunta es
+¿qué debe jugar max?
+para ganar
+esa es la pregunta
+si tenemos
+esta evaluación
+lo que vamos a hacer
+es
+inicializar
+según nuestro algoritmo
+alfa y beta
+el máximo
+es menos infinito
+el beta más infinito
+estamos en el inicio
+y propagamos esto
+vamos a propagarlo
+por las ramas
+ese valor
+ese valor lo propagamos
+hacia abajo
+min max
+y aquí llegamos a
+un valor donde ya podemos hacer
+la evaluación de los subárboles
+esto es un minimizador
+es un minimizador
+como es un minimizador
+debería afectar
+eventualmente
+el valor de beta
+inicialmente siempre lo afecta
+entonces beta
+ahora
+ya no vale infinito
+porque pilló
+este que era más chico
+este que era más chico
+y de estos dos
+como es un minimizador
+elige el menor
+y lo propaga
+hacia el padre
+alfa 5
+alfa 5 beta
+más infinito
+alfa 5 beta
+más infinito
+para este otro subárbol
+este es un minimizador
+que es 2
+es el menor valor
+como 5
+es el máximo
+el nivel de arriba
+el primer triangulito
+el rosadito
+crema
+es un minimizador
+que tiene que elegir
+entre 7
+5 y 8
+eligió 5
+y ese es el que propaga
+hacia el padre
+propaga esos valores
+hacia abajo
+tenemos un minimizador
+dice
+no
+el mínimo es 3
+porque es menor que
+que el valor de 4
+independiente de lo que hay aquí
+pero al hacer esta evaluación
+llegamos a la condición
+de que
+alfa es mayor
+o igual que beta
+y como llegamos a esa condición
+esa rama
+ya no la podemos mejorar
+luego
+avanzamos por la rama
+de la derecha
+propagamos los valores
+hacia abajo
+y aquí tenemos
+el minimizador
+de nuevo
+cuyo valor de beta
+es 1
+1
+9
+se maximiza
+el beta vale 1
+pero el alfa
+elige el mayor
+9
+2
+1
+propaga el primer valor
+beta
+porque ese nodo va a minimizar
+y tiene el valor 1
+y de nuevo encontramos que
+alfa es mayor
+que beta
+mayor o igual que beta
+por lo tanto
+por lo tanto
+no seguimos avanzando
+porque no se puede mejorar
+ese valor
+si
+¿qué se refiere
+cuando seguimos avanzando
+por el caso
+del gato
+el gato partiera de cero
+hay que hacer el ejercicio
+con un lento
+para poder probar
+así es
+¿verdad?
+entonces
+la poda
+tendría
+algún
+algún
+grado de eficiencia
+si igual hay que hacer
+el proceso entero
+sí
+porque
+si yo puedo
+podar algunos
+la verdad es que
+no voy a tener
+nunca el árbol
+completo
+por eso decía
+que esta es una búsqueda
+incompleta
+pero podemos
+evaluar
+regiones
+y en esas regiones
+sabemos que
+va a ser exponencial
+el resto
+pero
+parcialmente
+en este caso
+tenemos una
+zona
+que esto puede ser
+una parte
+dentro del árbol
+donde
+no venga la jugada real
+el jugador
+baje
+esas ramas
+no van a ser evaluadas
+porque ya no van a poder
+ser mejoradas
+no pueden ser maximizadas
+ni minimizadas
+por parte del jugador
+que les doque
+entonces
+tenemos una poda parcial
+que no mejora
+o sea
+no garantiza
+ese es el problema
+que no garantiza
+que mi solución
+sea el óptimo
+va a ser una solución
+que me permite
+podar ciertas ramas
+pero no garantiza
+una solución
+óptima
+el optimal
+por eso se hace
+esa poda parcial
+solamente
+aplicando esto
+¿qué es lo que
+significa la poda?
+¿que cada exceso?
+¿porra?
+¿que cada exceso?
+sí
+exacto
+la poda
+la poda
+significa que
+esa rama
+ya no va a ser
+más analizada
+me voy a evitar
+recorrer
+esa rama
+que puede ser
+corta
+profunda
+es simplemente
+un mejoramiento
+en tiempo
+que si no hago poda
+tengo que evaluar
+como dices bien
+todo
+pero eso en la práctica
+es imposible
+entonces yo elijo
+una región
+un subármol
+donde voy a realizar
+este
+este criterio
+de búsqueda
+la gracia
+afortunadamente
+es que esto
+lo automatizamos
+no es algo
+que hagamos
+a priori
+pero esa es
+toda la
+la gracia
+que tiene
+este criterio
+de boda
+sobre el minimax
+es decir
+tenemos un procedimiento
+que es incompleto
+porque uno cubre
+todas las alternativas
+y sobre esto
+que es incompleto
+incorporamos un criterio
+de boda
+que tampoco es completo
+o sea
+nuestros mejoramientos
+siguen siendo parciales
+y es la tragedia
+de estos algoritmos
+a ver
+vamos a hablar
+del señor
+Markov
+seguramente
+le suena
+así
+de
+procesos
+Markovianos
+de alguna parte
+¿podría retroceder
+un slide
+por favor?
+porque
+no se
+no se
+jodan
+el 2
+y el 1
+del final
+de las otras
+caminas
+perdón
+¿cuáles?
+¿estas?
+claro
+o es que uno
+solamente estamos
+jodando la primera
+iteración
+y escogiendo
+la primera decisión
+sí
+sí
+los procesos
+de Markov
+o las cadenas
+de Markov
+la verdad
+que son
+sencillas
+e interesantes
+en un proceso
+Markoviano
+el comportamiento
+de un
+constructo
+o de un sistema
+depende
+solo del estado
+actual
+lo que va a pasar
+no depende
+de lo que hay
+hacia atrás
+de su historia
+y vamos a ver
+que aunque parece
+un poco extraño
+vamos a ver
+que sí tiene
+algunas
+aplicaciones
+súper útiles
+estamos en el presente
+y el futuro
+depende
+solo del presente
+no del pasado
+puede ser cuestionable
+sí
+claro
+pero
+nos sirve
+para representar
+cierto tipo
+de fenómenos
+este es
+el señor
+Markov
+salió bueno
+para las matemáticas
+este chico
+así como Pelera
+bueno para la pelota
+este bueno
+para la matemática
+y la verdad
+es que él
+tenía
+un interés
+en la matemática
+pura
+que se encontró
+con algunos problemas
+reales
+es un modelo
+que trabaja
+en base
+a probabilidades
+y se usa
+para predecir
+en términos
+probabilísticos
+es probable
+que suceda
+esto
+el comportamiento
+de un sistema
+en función
+de donde
+estamos parados
+hoy
+esto en general
+cómo se reparten
+las marcas
+y el mercado
+cada cuarto tiempo
+se producen
+las fallas
+en las máquinas
+por ejemplo
+en las plantas
+en general
+las plantas productivas
+ya sea
+forestales
+rubro
+metal mecánico
+existen
+lo que se llama
+parada preventiva
+de planta
+no sé si han escuchado
+hablar del concepto
+que he quedado
+un momento
+después que ha pasado
+es momento
+de hacerle
+mantención
+a esta máquina
+y por lo tanto
+vamos a parar
+todo el proceso
+productivo
+que le involucra
+y eso lo programan
+expertos
+porque existe
+la probabilidad
+de que falle
+es como cuando
+uno se hace
+el chiquillo médico
+uno va
+para ver
+cuál es la probabilidad
+de
+todo es probabilístico
+cómo evoluciona
+una enfermedad
+la abuelita
+talentadita
+o no
+qué es lo que
+una cadena
+de marco
+primero un proceso
+estocástico
+tiene un número
+finito de estados
+esto es bien importante
+las probabilidades
+de transición
+son estacionarias
+y tiene esa propiedad
+marcoviana
+que quiere decir
+lo que pase mañana
+depende solo
+de lo que está pasando
+hoy
+no depende
+de lo que pasó
+mañana
+supongamos que hay
+varios estados
+representando
+un proceso
+un evento
+cualquiera
+donde hay
+distintos estados
+y tenemos
+una forma
+de pasar
+de un estado
+a otro
+un grafo
+un estado
+es un nodo
+otro estado
+es otro nodo
+y cuando tenemos
+un arco
+o una arista
+lo que estamos diciendo
+es que hay una forma
+de pasar
+desde este estado
+a este otro estado
+eso es una transición
+el número
+de estado
+es finito
+patigmáticamente
+dicen que es
+numerable
+no más
+pero
+es finito
+para todas
+nuestras aplicaciones
+vamos a tener
+estados
+finitos
+tenemos
+una matriz
+de transición
+qué es lo que nos dice
+esa matriz
+cómo pasamos
+de un estado
+a otro
+cuando estamos
+en la etapa
+A
+cómo pasamos
+al estado
+B
+por ejemplo
+estamos en una situación
+1
+cómo pasamos
+a la situación
+2
+cuáles son las condiciones
+tenemos números
+reales
+positivos
+entre 0
+y 1
+la probabilidad
+la probabilidad
+total
+es 100
+por lo tanto
+tenemos probabilidades
+entre 0 y 1
+esa es la suma total
+que suman las probabilidades
+de pasar
+a un estado
+u otro
+cuando ponga el ejemplo
+nos va a quedar
+bastante más claro
+vamos a ver
+una aplicación
+en medicina
+o en una UCI
+y en la UCI
+los pacientes
+se van a clasificar
+de acuerdo
+a su
+a su condición
+crítica
+seria
+estable
+esas van a ser
+las tres condiciones
+que vamos a tomar
+y cada día
+se van actualizando
+esas clasificaciones
+de acuerdo
+con la evolución
+estas son
+las frecuencias
+relativas
+por ejemplo
+si está
+en estado
+crítico
+que siga
+en estado
+crítico
+tiene una probabilidad
+del 60%
+estos números
+son inventados
+por ejemplo
+que si está
+crítico
+pase a serio
+la probabilidad
+es del 30%
+y de crítico
+a estable
+10%
+no es muy bueno
+el pronóstico
+si está
+en una condición
+seria
+la probabilidad
+que pase a crítico
+40%
+la probabilidad
+que pase a un estado
+serio
+40%
+entonces que se mantenga
+y la probabilidad
+que pase a estable
+20%
+y si está estable
+ya está mejorando
+el hombre
+la probabilidad
+que pase de estable
+a crítico
+10%
+estable
+a serio
+40%
+y estable
+50%
+las probabilidades
+más altas
+son
+relativamente
+realistas
+eso
+así
+voy
+por encima
+ahora
+voy a hacer
+una figurita
+aquí
+estas filas
+están
+está el estado
+del paciente
+el día n
+y el día n
+más 1
+y podemos
+tomar una matriz
+de transición
+de este tipo
+veamos
+este monito
+está
+en estado
+crítico
+está estable
+o está serio
+en estado serio
+y esto
+es un grafo
+que nos permite
+pasar de un estado
+a otro
+e ir viendo
+las probabilidades
+desde esa máquina
+nos dice
+cuáles son
+las probabilidades
+en más de una etapa
+por ejemplo
+si estamos críticos
+¿cómo pasamos
+a estable?
+estos son los tres
+caminos
+que están
+son estos tres
+caminos de aquí
+si está crítico
+puede pasar
+a estable
+aquí
+puede pasar
+a estable
+pasando
+a serio
+y de serio
+a estable
+y
+la ver otra
+por ahí
+si está crítico
+se puede mantener
+crítico
+y pasar a estable
+este
+está
+ese loop
+significa que
+con esa probabilidad
+si está estable
+se va a mantener
+estable
+en el 50%
+dado eso
+nosotros
+podemos
+ver
+cuál es
+la evaluación
+del
+del paciente
+y cómo
+esperamos
+que evolucione
+lo que hacemos
+es tomar
+los tres
+caminos
+y multiplicar
+las probabilidades
+por los estados
+el 06
+por 01
+03
+por 2
+y 05
+por 1
+total
+017
+esto está totalmente
+inventado
+por supuesto
+decimos que tiene
+de crítico
+estable
+tiene un 17%
+de probabilidades
+en base a los números
+que nosotros dimos
+recién
+esto es lo que hace
+una cadena
+de marcom
+ahora
+podemos enriquecer
+esto
+claro
+no es para todos
+igual
+esa criticidad
+de un paciente
+dependerá
+de
+entre otros
+la edad
+antecedentes
+médicos
+previos
+todo esto
+forma
+parte
+del estado
+en un nodo
+entonces
+en un estado
+esta caracterización
+no es solo
+crítico estable
+o sea
+si me mandan
+a la clínica
+le van a poner
+crítico
+viejito
+o adulto mayor
+como le dicen ahora
+con tanta gracia
+pero se puede
+rotular
+y yo puedo
+introducir
+muchas variables
+puedo representar
+una cantidad
+de procesos
+y fenómenos
+en base a lo que
+tenemos hoy
+y eso de que
+no dependa
+del estado
+anterior
+la verdad
+la situación
+actual
+así lo indica
+el precio
+del petróleo
+mañana
+depende solo
+de este estado
+anterior
+no de como
+falta valía el petróleo
+el año
+2020
+2022
+y esto puede
+cambiar día a día
+en la matriz
+ponemos
+se refrió
+el ayatola
+no se refrió
+el ayatola
+se le echa a perder
+el genio
+en fin
+tenemos muchas variables
+que podemos manejar
+la idea general
+es la misma
+tenemos
+estados
+tenemos
+rótulos
+asociados
+al estado
+y una proyección
+hacia el futuro
+¿qué tipo de problemas
+podemos resolver?
+serie mensual
+de ventas
+la gente
+de ventas
+sigue
+atentamente
+la evolución
+de sus productos
+la gente
+de economía
+sabe que
+hay ciclos de vida
+de los productos
+y este producto
+se le salió
+competencia
+pero la competencia
+es de los mismos
+por el siglo
+de vida
+entonces aquí
+hay factores
+interesantes
+que nosotros
+podemos usar
+para evaluar
+cómo va a ser
+el comportamiento
+del mercado
+dependerá
+de nuestra propaganda
+digamos
+más que la propaganda
+del
+nuestro avisaje
+comercial
+hay empresas
+especialistas
+en decidir
+en qué
+franja
+cuánto
+tiempo
+y con qué
+frecuencia
+aparece
+un
+comercial
+no les llama
+la atención
+ese
+pero si este
+comercial
+lo acaban de dar
+y lo dan
+de nuevo
+es un
+reforzamiento
+Markov
+Markov
+no veía tele
+yo sospecho
+en 1800
+número de clientes
+esperando
+lo que les decía
+el ejemplo
+de los supermercados
+el ejemplo
+de
+de los aeropuertos
+cuántas mangas
+se habilitan
+cuánta gente
+está operando
+eso
+los turnos
+en un hospital
+eso es crítico
+cómo hago
+asignaciones
+dinámicas
+qué detergente
+van a comprar
+ustedes
+la próxima semana
+va a depender
+de varias cosas
+bueno
+el que encargue
+a la señora
+esa es la primera
+prioridad
+y después
+y casi
+y no hay más
+ya
+saltémonos
+cómo
+controlo
+mi stock
+hoy día
+las tiendas
+cada vez
+más
+se transforman
+en puntos
+de venta
+a los que hay
+que traer
+los productos
+de bodegas
+que no
+antiguamente
+se almacenaba
+todo ahí mismo
+hace 20
+30 años
+en San Antonio
+al llegar
+a la Alameda
+se llenaba
+de camiones
+para almacenes
+París
+ahora hay bodegas
+hay que traer
+el producto
+dependiendo
+de la estimación
+que hagan
+esta es
+una pregunta
+típica
+de Markov
+que no voy a
+no voy a preguntar
+esta barbaridad
+esa ilustración
+este es un problema
+psicotípico
+una familia
+puede ser
+urbana
+rural
+o suburbana
+dice que el 15%
+se van a ir
+a una zona
+suburbana
+este es el típico
+jubilado
+que compró
+la parcela
+y el 5%
+se va a ir
+al campo
+ahora
+de la suburbana
+va a haber
+un porcentaje
+que pasa
+a la urbana
+y el 4%
+se va a la rural
+y las rurales
+pueden ir a la urbana
+y al centro
+en fin
+hay un movimiento
+poblacional
+esto es
+lo mismo que vimos
+recién
+con el caso
+de los enfermos
+críticos
+estables
+y serios
+podemos modelarlo
+fácilmente
+con esta máquina
+con esa cadena
+de Markov
+que son máquinas
+de Markov
+que son grafos
+en los cuales
+hay transiciones
+entre un estado
+y otro
+si tenemos
+estos datos
+¿cómo va a estar
+la población
+el año siguiente?
+cosas como esta
+en un censo
+permiten planificar
+esta es la idea
+de manejar
+esta información
+el 20%
+de la gente
+va a dejar
+de comprar
+un producto
+y el 30%
+de los que no
+lo compren
+un mes
+al mes siguiente
+lo va a comprar
+y sabemos
+y sabemos que
+de mil individuos
+100
+compraron el producto
+del primer mes
+porque dura más
+porque hay comerciales
+en televisión
+porque hay concursos
+porque lo que sea
+¿cuánta gente
+va a comprar
+el próximo mes?
+esto
+es tuyo mercado
+debemos proyectar
+y decir
+ah
+el próximo mes
+este producto
+se va a vender
+sabemos
+que hay productos
+que se venden
+y otros que no se venden
+yo
+en una época
+cuando era muy joven
+cuando me fui a estudiar
+yo me fui
+a Brasil
+en febrero
+déjeme agarrar
+el 14 de febrero
+llegué y me fui
+y me dijeron
+los conocedores
+ya para agua
+porque llueve
+a cada rato
+da lo mismo
+llueve mucho
+así que partí
+yo
+almacenes París
+llegué
+a una sección
+de algo
+y le pregunté
+al tipo
+¿viene para agua?
+y el compadre
+me miró
+fue para la ventana
+miró para afuera
+me dijo
+no
+bastaba con no
+no tenía para que hacer
+toda la parafernalia
+era
+mira pero
+¿cómo venía a pedir un paraguas?
+es que a mí me va a llover
+si hubiera tenido
+una cadena de Markov
+habría sido todo
+¿qué va a ser dos meses más?
+dos meses más
+a partir del mes próximo
+que es un estimado
+estas son las proyecciones
+que hace uno
+el análisis
+ventas futuras
+bien
+vamos avanzando
+ya hacia la optimalidad
+de Bellman
+estamos cerrando
+este señor inventa
+la programación dinámica
+esto se los cuento
+porque está en el programa
+pero es la FOMEDA misma
+la optimalidad
+de Bellman
+es programación dinámica
+¿para qué se utiliza?
+para mejorar problemas
+son grandes
+complejos
+y estos problemas
+pueden ser separados
+en pedazos
+les estoy contando
+la esencia de Bellman
+porque si quieren
+puedo hacer una demostración
+matemática
+de la solución
+cuando tiende allá
+al infinito
+pero ¿para quién?
+nos va a doler la cabeza
+a todos
+no empecemos la semana
+así
+si nosotros tenemos
+una subestructura
+óptima
+o sea
+esto es divide
+and conquer
+dividir para conquistar
+esa es toda la gracia
+eso es todo lo que dice
+Bellman
+nosotros podemos
+tener
+soluciones
+óptimas
+de subproblemas
+y combinarlo
+eso es lo que
+este escrito
+de Bellman
+dice
+que
+el año 53
+se le daño
+murió
+Estalino
+no hay que ver
+si es un dato rosa
+podemos resolver
+estructuras
+complejas
+a partir de
+sus problemas
+componente
+esto es lo que hacen
+los algoritmos paralelos
+los computadores
+con alto paralelismo
+lo que hacen
+es tomar un problema
+dividirlo en pedacitos
+y después juntarlos
+para llegar a una solución
+a veces no
+no hay llegar y juntar
+claro
+y una vez que tenemos
+un problema
+no, todavía está grande
+lo volvemos a dividir
+lo volvemos a descomponer
+computación gráfica
+se hace resto
+han visto
+juegos
+probablemente
+con altísima
+resolución
+con
+con bichos raros
+apareciendo
+en determinados
+sectores
+de la pantalla
+eso se hace
+separadamente
+son
+son sus problemas
+montados
+sobre un ambiente
+común
+entonces
+¿qué se hace?
+se usan
+estas
+sub-soluciones
+óptimas
+y se construye
+una solución
+óptima
+concreta
+bien
+eso era
+lo fundamental
+que yo tenía
+para contarles hoy
+¿y usted
+por qué se ríe?
+¿ah?
+Fibonacci
+don Leonardo
+de Fibonacci
+lo conocen
+¿no es cierto?
+¿ha olvidado hablar
+de este caballero?
+¿no?
+Leonardo
+de Fibonacci
+se le ocurrieron
+números
+y se le ocurrió
+una secuencia
+de números
+y dijo
+¿a ver?
+mi primer número
+es cero
+mi segundo número
+es uno
+el tercero
+es uno
+el otro
+es dos
+el otro
+es tres
+el otro
+es cinco
+el otro
+es ocho
+el otro
+es
+¿qué secuencia
+más rara?
+alguien por ahí
+escribió un paper
+interesante
+donde dice
+que esa secuencia
+de Fibonacci
+explica
+la tasa
+de reproducción
+de conejos
+que si tenemos
+una pareja
+vamos a tener
+dos conejitos
+vamos a suponer
+un ambiente
+así como
+matemáticamente
+perfecto
+los conejos
+no tienen idea
+de esto
+ellos
+te siguen reproduciendo
+como se les ocurre
+pero
+alguien dijo
+que se reproducen
+de acuerdo
+a Fibonacci
+entre Fibonacci
+los números
+la gracia
+de un término
+cualquiera
+de la secuencia
+de Fibonacci
+es que
+damos los dos primeros
+el cero
+y el uno
+cualquiera
+de los números
+siguientes
+en la suma
+de los dos anteriores
+y eso
+nos da
+esa secuencia
+y es una secuencia
+claro
+que sirve
+para hacer
+test
+de matemáticas
+y cosas así
+pero además
+sirve
+para explicar
+cosas bien
+interesantes
+como por ejemplo
+cómo evolucionan
+las áreas
+en estas
+figuras
+esa figura
+parte
+de dos cuadraditos
+que va formando
+un área similar
+y el área siguiente
+y cada área siguiente
+es la suma
+de las áreas
+anteriores
+¿perdón?
+exactamente
+y esto
+lo deben haber visto
+¿no?
+en algunos
+moluscos
+la evolución
+de la caparazón
+sigue
+esta simetría
+esto no tiene
+que ver
+con lo que
+estábamos viendo
+del minimaxi
+ni la poda
+sino que es
+una intervención
+un divertimento
+matemático
+para cerrar
+el lunes
+no más
+como dice
+hay una proporción
+hay reglas
+áureas
+y estas proporciones
+extraordinariamente
+se cumplen
+no en la mayoría
+o sea
+no en todos
+pero si en la mayoría
+de las personas
+hay gente
+que no tiene remedio
+y son de otros
+cursos
+claro
+bueno
+aquí tenemos
+proporciones
+fibonacci
+de nuevo
+el 2
+el 3
+2 más 3
+5
+5
+8
+después viene
+3
+en fin
+y solamente
+para cerrar
+el día
+lunes
+¿por qué
+estamos haciendo
+todo esto?
+¿por qué
+están ustedes
+aquí?
+para entender
+mejor el mundo
+para poder
+hacer
+predicciones
+para eso
+queremos datos
+cuando preguntamos
+datos
+no es de
+puro
+como
+chelto
+oye
+no es por
+una curiosidad
+de gps
+sino que
+hay alguna
+algún objetivo
+detrás
+es un ejemplo
+¿sabían
+ustedes eso?
+es
+impresionante
+un tercio
+de los matrimonios
+se conocen
+en la región
+tengo un amigo
+de mi edad
+o sea
+mayorcito ya
+no nos asustan
+los temblores
+nada
+no sé
+se casó
+hace como
+dos años
+simpática
+la monona
+le pregunté
+¿cómo se conocieron?
+por internet
+yo pensé
+que eso pasaba
+cuando uno tenía
+18 nomás
+pero
+el amor
+no tiene
+la cantidad
+de divorcios
+es mayor
+en la gente
+que se conoció
+de cuerpo presente
+me conté
+este dato
+una amiga mía
+usted la conoce
+me dijo
+lógico
+pues todavía
+no se han cachado
+los defectos
+me parece
+una acotación
+interesante
+usted
+ha escuchado
+hablar de
+tinder
+no sé
+qué es eso
+profe
+es que yo
+no he escuchado
+hicieron
+hicieron
+creo
+creo que
+esa es una
+definición muy
+acertada
+hicieron
+una pregunta
+entre las parejas
+que se conocen
+por tinder
+parece que se ponen
+datos
+y le hacen
+consultas
+entonces
+para la mujer
+y se le pregunta
+a la mujer
+cuál es la edad ideal
+del hombre
+cuando la mujer
+tiene 20
+ella dice
+que el hombre
+debería tener 20
+si la mujer
+tiene 30
+ella opina
+que el hombre
+debería tener 30
+si ella tiene 40
+dice que
+el monono
+debería tener 40
+y cuando ella
+tiene 50
+la edad ideal
+del hombre
+es 46
+interesante
+se hizo la misma
+pregunta
+a los caballeros
+si el caballero
+tiene 20
+él dice
+que la monona
+debería tener 20
+si él tiene 30
+la monona
+debería tener 20
+ahora
+a los 40
+podemos decir
+que es constante
+y a los 50
+22
+ya mayorcita
+para esto
+nos sirven
+los números
+para tener
+información
+no deja de ser
+interesante
+esas cosas
+esta es la información
+generada
+en los últimos
+dos años
+en el mundo
+estamos tratando
+con información
+y por eso
+nos metemos
+en estas cosas
+de ver técnicas
+aprender
+formas nuevas
+de tratar
+datos
+porque
+datos
+nos llevan
+bien tratados
+a información
+y la información
+nos lleva a conocimiento
+y eso mejora
+nuestra
+manera de relacionarnos
+con el mundo
+pero es impresionante
+estamos comparando
+la información
+generada
+en toda la historia
+de la humanidad
+con la información
+de los últimos
+dos años
+la de la historia
+de la humanidad
+es la naranjita
+nos preocupan
+montones de cosas
+¿cierto?
+salud
+delincuencia
+educación
+¿podemos mejorar
+eso con IA?
+sí
+imágenes médicas
+podemos hacer
+diagnósticos
+tempranos
+hoy día
+tenemos
+la capacidad
+de hacerlo
+faltan muchas cosas
+es verdad
+pero
+tenemos la capacidad
+de hacer análisis
+y hacer proyecciones
+prevención
+del delito
+hace
+20 años
+desarrollamos
+un sistema
+con un equipo
+de trabajo
+de redes neuronales
+para
+predicción
+de dónde
+se van a producir
+asaltos
+hoy día
+es fácil
+porque uno dice
+everywhere
+pero en aquel momento
+trabajábamos
+con una comisaría
+aquí en Santiago
+y decíamos
+en este sector
+es probable
+que por aquí
+pueda producirse
+algo
+y ellos
+distribuían
+las patrullas
+hacia esos sectores
+fue bastante
+exitoso
+tenía un enfoque
+puramente matemático
+pero cambiaron
+al compadre
+de turno
+y eso sería
+todo
+pero es interesante
+porque podemos
+seguirlo haciendo
+es cuestión
+de datos
+última clase
+lunes
+vamos a ver
+el método
+monte carlo
+monte carlo
+ahí donde se juega
+el casino
+vamos a ver
+aprendizaje
+con refuerzo
+vamos a ver
+algoritmos
+basados en poblaciones
+y ahí vamos a hablar
+de visitos
+algoritmos genéticos
+hormigas
+abejas
+creo
+y vamos a cerrar
+con bacterias
+que bacterias
+es lo que hago yo
+en este momento
+entonces por eso
+me interesa
+carles
+como siempre
+ha sido un gusto
+el 7
+7 de julio
+como siempre
+min
+un saludo
+lo que
+tengo
+Gracias.

@@ -1,0 +1,248 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:02.720
+Bienvenida a esta nueva Inmersión Profunda.
+
+00:00:03.220 --> 00:00:06.400
+Hoy vamos a ver cómo una organización, BCI,
+
+00:00:06.740 --> 00:00:10.520
+está metiendo la inteligencia artificial en su día a día de desarrollo de software.
+
+00:00:11.060 --> 00:00:14.360
+Tenemos una presentación interna suya, de mayo de 2025,
+
+00:00:14.900 --> 00:00:17.440
+que se centra en la subgerencia DevOps.
+
+00:00:17.880 --> 00:00:18.480
+¿Interesante?
+
+00:00:18.940 --> 00:00:19.640
+Sí, bastante.
+
+00:00:20.020 --> 00:00:21.840
+Y parten de algo que ya vemos mucho, ¿no?
+
+00:00:21.960 --> 00:00:24.960
+El uso de herramientas tipo GitHub Copilot.
+
+00:00:25.360 --> 00:00:27.080
+Claro. Copilot ya está ahí,
+
+00:00:27.460 --> 00:00:30.660
+Sugiriendo código, ayudando con dudas, documentación.
+
+00:00:31.320 --> 00:00:32.820
+Bueno, un apoyo constante.
+
+00:00:33.240 --> 00:00:33.760
+Exacto.
+
+00:00:34.120 --> 00:00:38.440
+Pero, eh, lo que BSI señala rápido en sus documentos es que,
+
+00:00:38.800 --> 00:00:41.900
+vale, la IA es potente, casi como un experto a veces.
+
+00:00:42.080 --> 00:00:42.460
+Ajá.
+
+00:00:42.460 --> 00:00:45.680
+Pero las decisiones finales, y sobre todo que se cumplan sus
+
+00:00:45.680 --> 00:00:48.360
+estándares internos, eso sigue siendo cosa de los
+
+00:00:48.360 --> 00:00:49.080
+desarrolladores.
+
+00:00:49.200 --> 00:00:50.480
+Totalmente humano, al final.
+
+00:00:50.520 --> 00:00:51.000
+Eso es.
+
+00:00:51.640 --> 00:00:53.620
+Y aquí es donde ellos proponen algo propio.
+
+00:00:53.620 --> 00:00:57.380
+Lo llaman Model Context Protocol, MSP.
+
+00:00:58.160 --> 00:00:58.720
+MSP.
+
+00:00:59.260 --> 00:01:01.120
+Vale, eso ya suena más específico.
+
+00:01:01.260 --> 00:01:02.740
+No es solo usar Copilot y ya.
+
+00:01:03.120 --> 00:01:03.980
+No, para nada.
+
+00:01:04.600 --> 00:01:08.660
+Sugiere que la IA genérica se queda corta para lo que ellos necesitan, ¿no?
+
+00:01:08.960 --> 00:01:11.120
+¿Qué es lo que busca añadir este MSP?
+
+00:01:11.540 --> 00:01:16.660
+Pues busca, digamos, inyectar el contexto de BSI en la IA.
+
+00:01:17.220 --> 00:01:20.280
+La presentación lo describe como una forma de potenciarla.
+
+00:01:20.980 --> 00:01:22.160
+¿Potenciarla? ¿Cómo?
+
+00:01:22.160 --> 00:01:44.280
+Para que se ajuste a las necesidades y sobre todo a los estándares de BCI, ¿piensa que es como darle un manual interno súper detallado? Vale, en plan, estas son nuestras reglas, estos nuestros patrones, esto es código bueno para nosotros. Justo, cosas que la IA por sí sola, pues o no haría o no las haría como BCI quiere o necesita.
+
+00:01:44.580 --> 00:01:49.460
+Entendido. Pasar de un asistente general a uno, bueno, casi entrenado en BCI.
+
+00:01:49.660 --> 00:01:50.060
+Exacto.
+
+00:01:50.080 --> 00:01:57.400
+Esto es interesante porque es un reto para muchas empresas, ¿eh? Que la IA entienda tus reglas. Un protocolo así parece un paso importante.
+
+00:01:57.400 --> 00:02:08.400
+Y, ¿dónde lo aplican primero? Ahí van al grano. El foco inicial es mejorar cómo cumplen sus estándares de calidad para los procedimientos almacenados. Los SPs.
+
+00:02:08.860 --> 00:02:16.760
+Stored procedures. Uf, los SPs. Piezas a veces complejas, ¿verdad? Y críticas, porque tocan la base de datos directamente.
+
+00:02:17.120 --> 00:02:26.600
+Sí, a menudo manejan lógica de negocio clave. Y bueno, seamos sinceros, a veces son un poco complicados de mantener. Un nido de código heredado, a veces.
+
+00:02:26.600 --> 00:02:32.780
+Tiene sentido estratégico poner el foco ahí. ¿Y cómo quieren mejorar su calidad con esta IA tuneada con MCP?
+
+00:02:33.080 --> 00:02:36.120
+Pues la clave es aplicar el concepto de shift left.
+
+00:02:36.600 --> 00:02:39.040
+Shift left. Llevar la calidad al principio.
+
+00:02:39.040 --> 00:02:49.580
+Eso es. Usar esta IA, que ya conoce las reglas de BCI gracias al MCP, para pillar problemas, desviaciones, posibles errores en los SPS. Pero mucho antes.
+
+00:02:49.920 --> 00:02:51.440
+Mientras se escribe el código, casi.
+
+00:02:51.720 --> 00:02:57.160
+Idealmente sí. O lo más cerca posible. En lugar de esperar a revisiones tardías o a las pruebas.
+
+00:02:57.160 --> 00:03:09.560
+Vale. Adelantar la detección de problemas en los SPS usando IA personalizada. Ambicioso. ¿Y qué esperan ganar con esto? ¿Qué beneficios buscan? La presentación lista tres principales. ¿El primero?
+
+00:03:09.960 --> 00:03:11.180
+Incrementar la innovación.
+
+00:03:11.660 --> 00:03:13.060
+¿Innovación? ¿Cómo?
+
+00:03:13.060 --> 00:03:30.420
+Bueno, la idea es que si liberas a los desarrolladores de revisar manualmente si cumplen cada pequeño estándar, pues les das herramientas más potentes, pues fomentas la creatividad, tienen más tiempo y, digamos, capacidad mental para pensar en soluciones mejores, más nuevas.
+
+00:03:30.880 --> 00:03:36.160
+Entiendo. Menos trabajo repetitivo, más espacio para crear, ¿vale? ¿El segundo beneficio?
+
+00:03:36.300 --> 00:03:39.700
+Pues potenciar la calidad de los propios stored procedures, directamente.
+
+00:03:39.980 --> 00:03:41.980
+Claro, si la IA vigila desde el principio.
+
+00:03:41.980 --> 00:03:51.100
+Exacto. Esperan reducir errores, mejorar cómo se mantienen esos SPS, asegurar que cumplen las normativas internas de forma más consistente.
+
+00:03:51.200 --> 00:03:55.260
+Calidad más robusta y homogénea. Tiene lógica. ¿Y el tercero?
+
+00:03:55.420 --> 00:03:59.140
+Y esto conecta con lo anterior. Aumentar la eficiencia general.
+
+00:03:59.440 --> 00:04:01.500
+Por el SIFLEF, te imagino. Menos retrabajo.
+
+00:04:01.840 --> 00:04:07.200
+Justo. Detectar problemas pronto ahorra muchísimo trabajo después. Que es carísimo.
+
+00:04:07.200 --> 00:04:11.860
+Y además señalan que mejora la experiencia del desarrollador. La DEBEX.
+
+00:04:11.980 --> 00:04:15.780
+Ah, la Debex. Que el día a día del desarrollador sea más fluido, ¿no?
+
+00:04:15.980 --> 00:04:19.340
+Eso es. Menos fricción, con las herramientas, feedback más rápido.
+
+00:04:19.840 --> 00:04:23.780
+Todo ayuda a que el trabajo sea, bueno, menos frustrante y más productivo.
+
+00:04:24.160 --> 00:04:31.340
+Vale, entonces tenemos IA genérica tipo Copilot, una capa de personalización con MCP para que entienda el estilo BCI
+
+00:04:31.340 --> 00:04:35.560
+y un primer uso muy concreto en SPVPS aplicando Shift-Left.
+
+00:04:36.360 --> 00:04:39.040
+Buscan innovación, calidad y eficiencia.
+
+00:04:39.360 --> 00:04:40.060
+Se ve bien armado.
+
+00:04:40.060 --> 00:04:59.220
+Sí, la estrategia parece coherente, pero claro, del papel a la realidad. ¿Qué dice la presentación sobre lo que hace falta para que esto funcione? Pues son bastante claros. Necesitan apoyo de la organización, obviamente, pero subrayan dos cosas clave. Primero, necesitan el conocimiento de sus expertos internos. ¿Para qué?
+
+00:04:59.220 --> 00:05:12.800
+Para depurar la herramienta. Ese MCP no se crea solo. Los expertos de BCI tienen que alimentar y ajustar la IA para que de verdad entienda y aplique bien sus estándares. No es enchufar y ya está.
+
+00:05:13.080 --> 00:05:19.380
+O sea, la IA necesita al experto para ser útil en ese contexto. Un punto clave. ¿Y el otro requisito?
+
+00:05:19.600 --> 00:05:26.100
+Pues la disposición de la gente, de los equipos, para adoptar nuevas prácticas y herramientas.
+
+00:05:26.100 --> 00:05:29.480
+Ah, el factor humano. El cambio cultural.
+
+00:05:29.880 --> 00:05:38.960
+Exacto. Reconocen que esto cambia la forma de trabajar. Y eso siempre necesita que la gente quiera y pueda adaptarse. No solo que la tecnología esté ahí.
+
+00:05:39.140 --> 00:05:44.460
+Así que, como casi siempre, no es solo tecnología. Es cultura, colaboración…
+
+00:05:44.460 --> 00:05:49.140
+Tal cual. Y esto nos deja con una reflexión final creo que interesante, que surge de aquí.
+
+00:05:49.400 --> 00:05:49.720
+A ver.
+
+00:05:49.720 --> 00:06:01.300
+Si la tecnología de IA ya puede adaptarse tan específicamente con protocolos como este MSP a lo que necesita una empresa, ¿dónde está el verdadero cuello de botella para que esto triunfe a gran escala?
+
+00:06:02.140 --> 00:06:03.080
+Buena pregunta.
+
+00:06:03.540 --> 00:06:13.140
+¿Está en que la IA sea aún más potente? ¿O está más bien en la capacidad que tenga la propia organización para, primero, definir bien qué quiere, qué estándares tiene?
+
+00:06:13.260 --> 00:06:15.440
+Claro, definir esas reglas para la IA.
+
+00:06:15.440 --> 00:06:23.900
+Y luego, colaborar para ajustar esas herramientas. Y sobre todo, crear una cultura donde la gente realmente adopte estas nuevas formas de trabajar.
+
+00:06:24.080 --> 00:06:29.940
+Quizás el reto mayor no sea ya tanto la tecnología en sí, sino la organización y las personas.
+
+00:06:30.460 --> 00:06:36.920
+Ahí lo dejo. Quizás el cuello de botella es más organizacional y cultural que puramente tecnológico.
+
+00:06:36.920 --> 00:06:38.120
+Da que pensar, ¿verdad?
+

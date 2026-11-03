@@ -1,0 +1,950 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.400
+Vamos a grabar la presentación y pueden comenzar.
+
+00:00:05.400 --> 00:00:10.690
+Ah, ¿te escuchas?
+
+00:00:10.690 --> 00:00:14.230
+Se escucha bien, sí.
+
+00:00:14.230 --> 00:00:20.030
+Buenas tardes, compañeros. Somos el grupo número 8.
+
+00:00:20.030 --> 00:00:26.030
+Estábamos compuestos por Elna Medina, Rodríguez González y ¿Quién les habla? Luis Zeray.
+
+00:00:26.030 --> 00:00:34.630
+Nuestro proyecto está basado en unas tareas de mi banco que consultamos con diversas usuarios y áreas.
+
+00:00:34.630 --> 00:00:39.390
+y se denomina sistema inteligente de recomendación y simulación predictiva
+
+00:00:39.390 --> 00:00:41.390
+para Capacity Planning Cloud.
+
+00:00:41.390 --> 00:00:43.390
+Un poco enlare el nombre, perdón.
+
+00:00:43.390 --> 00:00:46.740
+Siguiente slide.
+
+00:00:46.740 --> 00:00:52.180
+Como bien saben, en el banco se invierte mucho actual,
+
+00:00:52.180 --> 00:00:55.860
+bueno, en general la empresa invierte mucho en infraestructura cloud.
+
+00:00:55.860 --> 00:01:00.940
+Y pese a ello, muchas veces también se sobreestima los costos
+
+00:01:00.940 --> 00:01:04.340
+y se sobreestima también los recursos de ella.
+
+00:01:04.340 --> 00:01:11.340
+Y con la herramienta que estamos proponiendo, buscamos dar solución a ello entre otras problemáticas.
+
+00:01:11.340 --> 00:01:17.340
+Una de las problemáticas que tenemos en el banco es que cuando necesitamos modificar alguna arquitectura,
+
+00:01:17.340 --> 00:01:26.340
+o generar alguna infraestructura nueva para nuestros sistemas, primero tenemos que pasar por el visto bueno de un especialista o un arquitecto.
+
+00:01:26.340 --> 00:01:34.340
+Y para poder tener este visto bueno de él, debemos generar una cita.
+
+00:01:34.340 --> 00:01:39.340
+Esta cita a veces puede demorar en gestionarse, y aparte de eso, cuando se gestiona,
+
+00:01:39.340 --> 00:01:44.340
+cuando nos juntamos con el especialista, si al especialista no le gusta la solución propuesta,
+
+00:01:44.340 --> 00:01:48.340
+debemos reiterar muchas veces, lo cual evoluta que podríamos pasar mucho tiempo
+
+00:01:48.340 --> 00:01:51.340
+iterando en esta solución.
+
+00:01:51.340 --> 00:01:56.740
+Y si llegáramos con una información más clara y acorde al contexto de banco,
+
+00:01:56.740 --> 00:02:01.820
+este proceso se reduciría considerablemente.
+
+00:02:01.820 --> 00:02:07.780
+Información me refiero a conocimiento con el comportamiento del mismo banco.
+
+00:02:07.780 --> 00:02:13.620
+Y otra de las problemáticas que ocurre es que si bien actualmente existen herramientas
+
+00:02:13.620 --> 00:02:20.740
+de cálculo y de escalamiento, aun así con ellas, a veces se producen sobre costos
+
+00:02:20.740 --> 00:02:28.740
+porque o se planifica mal la arquitectura y eso genera que al momento de hacer pruebas sobre ella
+
+00:02:28.740 --> 00:02:38.110
+se utilice más recursos de los que debería, cuando esto podría haber evitado con una buena anticipación y planificación de estos recursos.
+
+00:02:38.110 --> 00:02:46.110
+Para llegar a esta problemática, hablamos con diversos usuarios.
+
+00:02:46.110 --> 00:02:50.870
+Los principales fueron el Cloud Ingenier que es que gestiona la infraestructura
+
+00:02:50.870 --> 00:02:54.950
+y aquí tenemos que entregarle el detalle de la infraestructura que necesitamos
+
+00:02:54.950 --> 00:02:59.950
+y aquí ya esta información tiene que llegar correcta porque él ejecuta esta instalación
+
+00:03:00.750 --> 00:03:08.190
+y ya lo que burra después de ello ya es parte de lo que se definió o no se definió bien en ese momento.
+
+00:03:08.190 --> 00:03:16.790
+el DevOps Ingenier que coordina los releases y genera las pruebas sobre estos sistemas.
+
+00:03:16.790 --> 00:03:25.190
+Aquí también debemos enviar información importante de infraestructura para que
+
+00:03:25.190 --> 00:03:28.790
+las pruebas que se generen sean acorde a lo que necesitan,
+
+00:03:28.790 --> 00:03:32.390
+tanto el banco, a nivel de negocio con los usuarios,
+
+00:03:32.390 --> 00:03:36.790
+y que lo que responda después vaya a responder de forma correcta en producción.
+
+00:03:36.790 --> 00:03:40.790
+Y, por último, el arquitecto de la plataforma, quien es,
+
+00:03:40.790 --> 00:03:45.790
+a quien debemos entregar toda la información correcta de la configuración que vamos a necesitar
+
+00:03:45.790 --> 00:03:48.790
+y que no va a fallar y no va a generar sobrecostos.
+
+00:03:50.790 --> 00:03:55.790
+Y a estos tres usuarios, principalmente, a quienes buscamos responder con esta solución.
+
+00:03:57.790 --> 00:04:02.790
+Esta solución no va a buscar reemplazarlo ni nada,
+
+00:04:02.790 --> 00:04:05.790
+solamente la idea es que se simplifique la tarea,
+
+00:04:05.790 --> 00:04:12.790
+y más que nada, sea dar un visto bueno o una mejora a lo que les entreguemos a ellos para poder avanzar.
+
+00:04:12.790 --> 00:04:18.790
+En cuanto a la definición de los problemas críticos, los dejo con mi compañero Rodríguez González
+
+00:04:18.790 --> 00:04:22.790
+para que le explique toda la problemática en cuestión.
+
+00:04:22.790 --> 00:04:28.300
+En primer lugar, como para poder determinar por qué esto es un problema crítico,
+
+00:04:28.300 --> 00:04:33.300
+hay que entender que hoy por hoy el proceso es muy manual,
+
+00:04:33.300 --> 00:04:38.300
+Se hace en base, netamente, a la experiencia que tienen los ingenieros que están a cargo.
+
+00:04:38.300 --> 00:04:43.300
+Ellos suelen interpretar Azure Monitor y App Insight sin un apoyo predictivo,
+
+00:04:43.300 --> 00:04:48.300
+con alguna herramienta que esté adecuada al contexto banco,
+
+00:04:48.300 --> 00:04:52.300
+y netamente lo hacen en base a lo que ya he dicho anteriormente.
+
+00:04:52.300 --> 00:05:00.300
+Lo cual suele generar un sobre a priori ganamento y un gasto innecesario.
+
+00:05:00.300 --> 00:05:04.300
+Además, no existe una simulación previa antes de aplicar cambios,
+
+00:05:04.300 --> 00:05:08.300
+lo cual suele elevar el recoperacional de una manera no menor.
+
+00:05:08.300 --> 00:05:20.630
+Por lo que nuestro objetivo es diseñar un AI Capacity Planning Copilot
+
+00:05:20.630 --> 00:05:22.630
+con agentes inteligentes.
+
+00:05:22.630 --> 00:05:28.630
+Aquí nuestra hipótesis central es que agentes sobre métricas históricas
+
+00:05:28.630 --> 00:05:31.630
+pueden reducir los costos global y fallas por saturación,
+
+00:05:31.630 --> 00:05:33.630
+esto está demostrado en la industria.
+
+00:05:33.630 --> 00:05:38.630
+Todos los bancos o empresas que están en la industria bancaria o financiera
+
+00:05:38.630 --> 00:05:42.630
+que implementan y ven disminuidos sus costos.
+
+00:05:42.630 --> 00:05:50.630
+Y como entregales del proyecto, proponemos un modelo predictivo,
+
+00:05:50.630 --> 00:05:54.390
+un motor de simulación, un recomendador,
+
+00:05:54.390 --> 00:05:57.070
+validación humana por un lado,
+
+00:05:57.070 --> 00:06:01.270
+dashboard de KPI y distintas documentaciones.
+
+00:06:01.270 --> 00:06:08.580
+Y en la diapositiva, por favor.
+
+00:06:08.580 --> 00:06:12.760
+Aquí, como se puede en la diapositiva,
+
+00:06:12.760 --> 00:06:15.160
+mostramos un pipeline de agentes inteligentes.
+
+00:06:15.160 --> 00:06:19.600
+Primero, se ve quien ingesta datos mediante dashboard
+
+00:06:19.600 --> 00:06:21.600
+y luego detecta los patrones,
+
+00:06:21.600 --> 00:06:22.920
+predecimos los PICs,
+
+00:06:22.920 --> 00:06:25.880
+simulamos la saturación de los distintos procesos
+
+00:06:25.880 --> 00:06:30.560
+y le recomienda ajustes al ingeniero que está a cargo
+
+00:06:30.560 --> 00:06:34.160
+para que pueda aplicar para poder disminuirle el tamaño de las máquinas,
+
+00:06:34.160 --> 00:06:36.960
+de los recursos asignados, los workers, etc.
+
+00:06:36.960 --> 00:06:41.520
+El punto crítico y muy remarcable es que toda recomendación
+
+00:06:41.520 --> 00:06:46.160
+debe pasar siempre por una validación humana antes de pasar a production.
+
+00:06:46.160 --> 00:06:56.450
+Como metodología, escogimos un enfoque IRIO,
+
+00:06:56.450 --> 00:06:59.730
+partimos con Discovery y luego JDVD,
+
+00:06:59.730 --> 00:07:08.730
+Posteriormente viene la ingesta IEA, luego el modelado de Machine Learning y finalmente una simulación con Feedback Loop.
+
+00:07:08.730 --> 00:07:22.730
+Esto une design thinking con Machine Learning aplicado de una manera bastante exacta, profesional y manteniendo todos los estándares de la industria bancaria.
+
+00:07:22.730 --> 00:07:28.160
+Siguiente diapositiva.
+
+00:07:28.160 --> 00:07:35.360
+Aquí como un punto clave, nuestras fuentes de datos clave son Azure Monitor,
+
+00:07:35.360 --> 00:07:40.640
+Application Insights, Billings, Tickets y los distintos incidentes que se van
+
+00:07:40.640 --> 00:07:44.000
+reportando en los distintos áreas del banco.
+
+00:07:44.000 --> 00:07:49.400
+Nuestras variables principales clave de análisis tenemos como se ve en pantalla
+
+00:07:49.400 --> 00:07:55.280
+que serían el uso de CPU, la memoria, la latencia, el transport, el costo
+
+00:07:55.280 --> 00:08:01.000
+y los distintos eventos de negocio que suelen estar asociados a estos incidentes.
+
+00:08:01.000 --> 00:08:14.490
+Tener una mejor visión, lo que hicimos fue generar un cuadro comparativo de capacidades
+
+00:08:14.490 --> 00:08:18.370
+y cumplimiento entre nuestra propuesta y las soluciones que hoy existen en el mercado
+
+00:08:18.370 --> 00:08:23.890
+que están siendo utilizadas dentro de Banco BSI en la operación.
+
+00:08:23.890 --> 00:08:28.490
+Encontramos que utilizan Datadog, Dynatrace, TurboNom.
+
+00:08:28.490 --> 00:08:34.490
+nuestra propuesta es que nuestro copilot de planificación de capacidades de infraestructura
+
+00:08:34.490 --> 00:08:38.490
+pueda integrar simultáneamente distintos temas operacionales, por ejemplo,
+
+00:08:38.490 --> 00:08:43.490
+predicción de PIC, simulación de saturación, generación de escenarios con recomendaciones,
+
+00:08:43.490 --> 00:08:49.490
+infraestructura requerida, también un tema importante que es poder soportar las reglas de negocios
+
+00:08:49.490 --> 00:08:54.490
+del contexto del calendario bancario, ya que tiene procesos que son PIC dentro de una semana,
+
+00:08:54.490 --> 00:09:01.970
+de un mes, y poder llevar a cabo indicadores para una validación humana que después terminaría
+
+00:09:01.970 --> 00:09:06.650
+siendo un RFC, un requerimiento de cambio en la infraestructura cloud que tienen en
+
+00:09:06.650 --> 00:09:12.810
+H. Y ese último punto es súper importante porque la inteligencia artificial no va a tomar
+
+00:09:12.810 --> 00:09:17.430
+decisiones por sí sola de afectar un pipeline, etcétera, sino que siempre va a requerir que
+
+00:09:17.430 --> 00:09:22.390
+el humano, el experto humano detrás, que puede ser un analista o un arquitecto, dentro del
+
+00:09:22.390 --> 00:09:27.790
+el ciclo de decisión, él pueda
+
+00:09:27.790 --> 00:09:33.190
+aceptar la recomendación para
+
+00:09:33.190 --> 00:09:35.190
+que se pueda generar el cambio
+
+00:09:35.190 --> 00:09:37.190
+en producción. Eh desde la
+
+00:09:37.190 --> 00:09:38.690
+desde la perspectiva
+
+00:09:38.690 --> 00:09:40.190
+bibliográfica nos apoyamos en
+
+00:09:40.190 --> 00:09:42.190
+literatura técnica de sistema
+
+00:09:42.190 --> 00:09:44.190
+auto adaptativo eh que
+
+00:09:44.190 --> 00:09:45.690
+básicamente son agentes que
+
+00:09:45.690 --> 00:09:47.190
+desarrollan la capacidad de
+
+00:09:47.190 --> 00:09:48.690
+poder monitorear estado,
+
+00:09:48.690 --> 00:09:50.190
+detectar cambios en el entorno
+
+00:09:50.190 --> 00:09:52.190
+y ajustar automáticamente
+
+00:09:52.190 --> 00:09:55.190
+comportamientos. Eh otro tema
+
+00:09:55.190 --> 00:09:57.830
+de la aplicación de inteligencia
+
+00:09:57.830 --> 00:09:59.230
+artificial sobre métrica lo
+
+00:09:59.230 --> 00:10:01.070
+básicamente son datos de
+
+00:10:01.070 --> 00:10:05.070
+telemetría para anticipar
+
+00:10:05.070 --> 00:10:07.070
+comportamientos futuros de
+
+00:10:07.070 --> 00:10:09.070
+infraestructura y poder asistir
+
+00:10:09.070 --> 00:10:10.070
+inclusive en la toma de
+
+00:10:10.070 --> 00:10:11.070
+decisiones frente a incidentes
+
+00:10:11.070 --> 00:10:13.070
+de plataformas y bueno y
+
+00:10:13.070 --> 00:10:15.070
+también nos tomamos mucho
+
+00:10:15.070 --> 00:10:16.070
+como apoyo lo que hicimos
+
+00:10:16.070 --> 00:10:17.070
+en el taller de diseño
+
+00:10:17.070 --> 00:10:18.070
+innovación que fue la
+
+00:10:18.070 --> 00:10:20.070
+asignatura que acabamos de
+
+00:10:20.070 --> 00:10:21.070
+salir donde aplicamos
+
+00:10:21.070 --> 00:10:23.070
+conceptos de design thinking,
+
+00:10:23.070 --> 00:10:24.070
+herramientas de discovery
+
+00:10:24.070 --> 00:10:26.770
+de los usuarios, de los
+
+00:10:26.870 --> 00:10:28.870
+usuarios, y también donde
+
+00:10:28.970 --> 00:10:30.470
+reflexionamos sobre los
+
+00:10:30.570 --> 00:10:31.970
+problemas, y bueno, finalmente
+
+00:10:32.070 --> 00:10:33.970
+nos quedamos con este que era
+
+00:10:34.070 --> 00:10:35.970
+de Banco B6, ¿ya? Eh, la
+
+00:10:36.070 --> 00:10:37.970
+GAN contempla cuatro meses,
+
+00:10:38.070 --> 00:10:38.970
+desde la entrevista de
+
+00:10:39.070 --> 00:10:39.970
+descubrimiento, hasta la
+
+00:10:40.070 --> 00:10:41.970
+evadidación y figa de los
+
+00:10:42.070 --> 00:10:44.970
+resultados agénticos eh, con
+
+00:10:45.070 --> 00:10:46.970
+los usuarios clave. Eh, la
+
+00:10:47.070 --> 00:10:48.970
+etapa principalmente son la
+
+00:10:49.070 --> 00:10:50.970
+entrevista, la conexión a las
+
+00:10:51.070 --> 00:10:51.970
+fuentes de telemetría y
+
+00:10:52.070 --> 00:10:52.970
+gestas de la información, eh
+
+00:10:52.970 --> 00:10:58.230
+de los modelos de Machine Learning, generar entornos de simulación y después finalmente
+
+00:10:58.230 --> 00:11:03.950
+obtener los resultados y hacer el feedback con los usuarios técnicos internos.
+
+00:11:03.950 --> 00:11:07.790
+Lo más importante de esto es que tenemos compromiso organizacional de poder instalarlo
+
+00:11:07.790 --> 00:11:12.230
+en la suscripción de Microsoft Azure del ambiente de Staging de Banco, ya por lo
+
+00:11:12.230 --> 00:11:16.870
+tanto vamos a poder tener acceso a datos telemédicos reales y al menos de los
+
+00:11:16.870 --> 00:11:25.860
+grupos de recursos que pertenecen a esos ambientes. Nuestra hipótesis crítica
+
+00:11:25.860 --> 00:11:31.900
+es que las recomendaciones de agentes inteligentes puedan disminuir los costos de infraestructura
+
+00:11:31.900 --> 00:11:37.940
+cloud en un 30% y que por otro lado también nos ayuden a disminuir las fallas por saturación
+
+00:11:37.940 --> 00:11:45.220
+no proyectadas en un 50%. O ambos objetivos siempre van a ser alcanzables cuando sean
+
+00:11:45.220 --> 00:11:48.620
+aprobados como un requerimiento de cambio por parte de un arquitecto autorizado.
+
+00:11:48.620 --> 00:11:53.340
+O sea, siempre la capa humana va a tener que dar aprobación a este cambio para
+
+00:11:53.340 --> 00:11:59.020
+que pueda ser efectivamente aplicado y que después nosotros podamos tener los análisis
+
+00:11:59.020 --> 00:12:03.700
+futuros para poder saber las curvas de disminuciones de costos y de los incidentes por infraestructura
+
+00:12:03.700 --> 00:12:09.260
+subestimada. Los próximos pasos son tres. Primero es tener acceso formal a los datos
+
+00:12:09.260 --> 00:12:12.700
+telemétricos y los del HACHUR. Luego es la construcción del primer prototipo
+
+00:12:12.700 --> 00:12:17.220
+de machinilis predictivo y tener una interfaz de gestión y de operación para
+
+00:12:17.220 --> 00:12:22.180
+poder conectar el modelo e ingresar valores. Finalmente obtener los resultados de
+
+00:12:22.180 --> 00:12:25.740
+de infraestructura y llevarlo a las mesas técnicas, los comités de aprobaciones de
+
+00:12:25.740 --> 00:12:29.460
+cambio para poder obtener los vistos buenos para poder hacer los cambios de infraestructura
+
+00:12:29.460 --> 00:12:34.500
+finales. Después, finalmente, si en una última etapa nosotros podemos generar que
+
+00:12:34.500 --> 00:12:38.300
+esos agentes barjen a diagramas Markdown que se apliquen automáticamente como
+
+00:12:38.300 --> 00:12:43.340
+cambios dentro de una infraestructura o dentro de ejecuciones de pipeline, mejor,
+
+00:12:43.340 --> 00:12:48.700
+pero primero con la validación humana. En síntesis, este proyecto busca evolucionar
+
+00:12:48.700 --> 00:12:52.240
+que se ha hecho desde desde
+
+00:12:52.240 --> 00:12:54.240
+decisiones de juicio expertos y
+
+00:12:54.240 --> 00:12:55.740
+que son reactivas hoy día
+
+00:12:55.740 --> 00:12:57.740
+hace un copilote inteligente de
+
+00:12:57.740 --> 00:12:59.240
+que le proponga la área de
+
+00:12:59.240 --> 00:13:00.740
+infraestructura banco que
+
+00:13:00.740 --> 00:13:01.740
+movimientos estratégicos
+
+00:13:01.740 --> 00:13:02.740
+tienen que hacer dentro de los
+
+00:13:02.740 --> 00:13:03.740
+plataformas. Ya vamos a
+
+00:13:03.740 --> 00:13:05.240
+combinaría predictiva,
+
+00:13:05.240 --> 00:13:08.240
+simulaciones y supervisión
+
+00:13:08.240 --> 00:13:09.740
+humana. Con las reuniones
+
+00:13:09.740 --> 00:13:11.240
+que hemos tenido por lo menos
+
+00:13:11.240 --> 00:13:12.740
+nosotros como grupo queremos
+
+00:13:12.740 --> 00:13:14.240
+que este proyecto tiene
+
+00:13:14.240 --> 00:13:15.740
+potencial dentro del banco
+
+00:13:15.740 --> 00:13:16.740
+para poder convertirse en
+
+00:13:16.740 --> 00:13:18.240
+una prueba de concepto real
+
+00:13:18.240 --> 00:13:24.000
+Y también creemos que como grupo que tiene una buena tesis aplicada para este magista.
+
+00:13:24.000 --> 00:13:31.020
+Así que, muchas gracias profesor, esa es la presentación del grupo.
+
+00:13:31.020 --> 00:13:37.020
+Muchas gracias, le sobró un poco de tiempo, creo que son los primeros grupos que le sobra.
+
+00:13:37.020 --> 00:13:45.820
+Bien, la presentación se ve bien, creo que la presentación también cuida en términos gráficos.
+
+00:13:45.820 --> 00:14:05.820
+Le falta un poco de intensidad a la presentación, pero puede ser que es solo como la personalidad de quienes presentan, no hay problema con eso, pero tratar de quizás hacer más énfasis en términos de la entonación cuando se hace la presentación.
+
+00:14:05.820 --> 00:14:13.620
+Después, lamentablemente, el proyecto está sube explicado, ya, y está sube explicado en términos técnicos,
+
+00:14:13.620 --> 00:14:17.300
+que es como lo que le pasó a varios de los grupos de la sesión de ayer,
+
+00:14:17.300 --> 00:14:24.340
+pero además, usted está sube explicado en términos de los datos, o sea, de la parte más sencilla de la presentación,
+
+00:14:24.340 --> 00:14:26.340
+que es la introducción de la empresa.
+
+00:14:26.340 --> 00:14:34.820
+que pueden ir a lámina 2, por alguna razón, decidieron no explicar qué era Banco SI,
+
+00:14:34.820 --> 00:14:41.620
+la relevancia del Banco SI, la competitividad, el chat de mercado, cosas de ese estilo.
+
+00:14:41.620 --> 00:14:49.740
+Y eso era una parte de la rubrica. Entonces, cuando partieron Directon en cloud, se entiende
+
+00:14:49.740 --> 00:14:56.020
+que este es un problema bien específico. Alguien podría decir quizá no sería necesario
+
+00:14:56.020 --> 00:14:59.660
+introducido al banco completo, pero creo que sí y es parte de la rubria.
+
+00:14:59.660 --> 00:15:05.060
+Entonces, tiene que darse el trabajo de decir, mira, este es el Banco SI, recordar la cantidad de clientes,
+
+00:15:05.060 --> 00:15:08.580
+o sea, datos que son relativamente fáciles de sacar.
+
+00:15:08.580 --> 00:15:13.420
+O sea, no sé lo que voy a decir, es que en verdad fue como mala decisión mía, quizá,
+
+00:15:13.420 --> 00:15:18.740
+porque dije, a lo mejor, como hablamos de banco, dije, va a ser como redundante explicar quizá eso, pero...
+
+00:15:18.740 --> 00:15:22.180
+Sí, sí, pero creo que con una lámina no hacía...
+
+00:15:22.180 --> 00:15:27.940
+Y además considerando que en términos de tiempo todavía tenía un espacio para poder incorporar más información.
+
+00:15:27.940 --> 00:15:37.740
+Después se entiende más o menos el problema, pero lamentablemente, y no sé si será por temas como de confidencialidad,
+
+00:15:37.740 --> 00:15:40.980
+no existe ningún número asociado al problema.
+
+00:15:40.980 --> 00:15:49.660
+Entonces como que dicen, mira, en verdad es difícil, estas decisiones como de planning son difíciles
+
+00:15:49.660 --> 00:15:52.660
+porque dependemos de una persona o de un grupo de personas,
+
+00:15:52.660 --> 00:15:55.300
+no se entiende ahí si es que en verdad es una persona,
+
+00:15:55.300 --> 00:16:04.340
+o más, como en términos de cuánta es la cantidad de solicitudes que se hacen,
+
+00:16:04.340 --> 00:16:10.580
+los tiempos de respuesta, como puede evidenciar que efectivamente esto es un cuello o botella.
+
+00:16:10.580 --> 00:16:14.540
+Ahí se menciona, por ejemplo, saturación de recursos sobre costo.
+
+00:16:14.540 --> 00:16:19.380
+Y de nuevo, puedo entender que como un tema más específico,
+
+00:16:19.380 --> 00:16:26.540
+como bien acotado, lo que no quiere decir que esté mal, creo que el problema, mientras
+
+00:16:26.540 --> 00:16:32.620
+más chiquitito desde mi punto de vista es mejor, pero aquí se quedan sin ningún respaldo
+
+00:16:32.620 --> 00:16:37.180
+en decir por qué es tan importante, como que tenemos que creer que es importante
+
+00:16:37.180 --> 00:16:40.580
+pero tienen que mostrar con datos. De nuevo, si es que no pueden mostrar los datos
+
+00:16:40.580 --> 00:16:47.080
+en bruto, muestren los datos en relativo, como decir, oye, no sé, la cantidad de
+
+00:16:47.080 --> 00:16:51.320
+falla, quizá la cantidad de fallas no es tan sensible, entiendo que poder mostrar
+
+00:16:51.320 --> 00:16:56.720
+montos quizá para ser un poco más complejo pero o mostrar diferenciales de los montos,
+
+00:16:56.720 --> 00:17:00.640
+algo que permita decir ah mira el problema efectivamente es relevante.
+
+00:17:00.640 --> 00:17:05.359
+Profe, ¿hay que mostrar quizá una infografía de los tiempos que tomas, pasar por cada
+
+00:17:05.359 --> 00:17:11.640
+área para tener la aprobación y luego como las casuísticas distintas de los tiempos,
+
+00:17:11.640 --> 00:17:19.400
+de demoritos. Por ejemplo. Y si es que eso ojalá pudieran llevarlo a algún
+
+00:17:19.400 --> 00:17:24.040
+beneficio económico, ese sería el ideal. Como puede usted decir, miren
+
+00:17:24.040 --> 00:17:32.120
+verdad, acá el banco finalmente está o perdiendo recurso o es como
+
+00:17:32.120 --> 00:17:35.960
+un costo de oportunidad porque no estamos haciendo lo suficientemente, o sea esto
+
+00:17:35.960 --> 00:17:40.240
+lo suficientemente rápido. Entonces eso aplica para la lámina 2 y para la
+
+00:17:40.240 --> 00:17:44.200
+lámina 4 también, entonces después yo dije ya la lámina 2 no lo
+
+00:17:44.200 --> 00:17:48.760
+explicaron, pues ya la lámina 4 viene porque un problema crítico, acá vienen los
+
+00:17:48.760 --> 00:17:55.200
+datos y nunca llegaron los datos respecto a lo que era crítico, después
+
+00:17:55.200 --> 00:18:01.660
+en la lámina 5 y aquí de nuevo deciden hacer otra innovación, ponen el
+
+00:18:01.660 --> 00:18:06.640
+objetivo general sin poner los objetivos específicos, entonces me parece
+
+00:18:06.640 --> 00:18:12.260
+que el objetivo general es... me parece que está más o menos como creo que
+
+00:18:12.260 --> 00:18:15.480
+alguien dijo al principio de la presentación como que el nombre está
+
+00:18:15.480 --> 00:18:21.200
+medio largo pero pero me parece que se entiende más o menos
+
+00:18:21.200 --> 00:18:24.200
+el objetivo general pero después tienen que hacer esa bajada en
+
+00:18:24.200 --> 00:18:29.240
+objetivos específicos concretos porque no es que la definición del
+
+00:18:29.240 --> 00:18:32.360
+proyecto no es objetivo general y después entregable y ahí ustedes
+
+00:18:32.360 --> 00:18:37.040
+vieron, creo que ustedes de hecho son el primer grupo que no como redacta
+
+00:18:37.040 --> 00:18:42.920
+objetivos específicos. No tengo tan claro si es que efectivamente cada
+
+00:18:42.920 --> 00:18:51.360
+entregable debiera ser un objetivo específico y si es así
+
+00:18:51.360 --> 00:18:56.240
+yo haría los primeros y aquí un problema del cáncer, haría los primeros
+
+00:18:56.240 --> 00:19:04.620
+tres motos, o sea, los primeros tres entregables y transformarían, eso es entregable en los
+
+00:19:04.620 --> 00:19:08.880
+giros específicos. ¿Por qué sacaría el cuarto? Solo porque no entiendo muy bien
+
+00:19:08.880 --> 00:19:15.000
+qué va en esa interfaz. Después, ¿por qué sacaría el quinto? Porque en verdad,
+
+00:19:15.000 --> 00:19:21.240
+o sea, el quinto y el sexto. Porque como les dije ayer, creo que a un par de grupos,
+
+00:19:21.240 --> 00:19:26.000
+los reportes, si bien le podrían generar valor a la compañía, en términos académicos,
+
+00:19:26.000 --> 00:19:33.320
+los términos académicos de este curso, el diferencial, el marginal de valores es muy
+
+00:19:33.320 --> 00:19:41.160
+muy poquito. Por eso preferí, y en ese sentido creo que ahí como que tiene un camino de
+
+00:19:44.400 --> 00:19:49.480
+de poder mejorar esto relativamente rápido, es transformar esos tres primeros objetivos,
+
+00:19:49.480 --> 00:19:52.080
+o sea, estos tres primeros entregables en objetivos específicos.
+
+00:19:52.080 --> 00:19:58.600
+en un objetivo específico. Está claro. Y de ahí la idea es que puedan, o sea, y quizás antes,
+
+00:19:58.600 --> 00:20:04.840
+o sea, ya que imagínense qué hacen esos tres, o tres o los que decían. Antes de eso, debieron
+
+00:20:04.840 --> 00:20:12.440
+mostrar un ejemplo concreto, ya, porque aquí no es como, no es como que alguien se pueda
+
+00:20:12.440 --> 00:20:16.400
+imaginar, o a mí me cuesta todo imaginarme cuál es la decisión que quieren que la gente
+
+00:20:16.400 --> 00:20:22.440
+tomen. O sea, con estos entregables, cuando dicen demanda de clavos, ¿qué
+
+00:20:22.440 --> 00:20:27.200
+significa eso? Es la cantidad de máquinas, el tipo de máquinas, la sumatoria de
+
+00:20:27.200 --> 00:20:32.840
+todas las capacidades. Esas como decisiones sería bueno que pongan
+
+00:20:32.840 --> 00:20:37.760
+un ejemplo. Como esto igual es un proyecto bien particular. No es como
+
+00:20:37.760 --> 00:20:43.400
+que si yo ayer estábamos conversando respecto del sistema de recomendación.
+
+00:20:43.400 --> 00:21:11.900
+El sistema de recomendación, si yo me paro en un retail, es más o menos fácil saber qué es lo que me van a recomendar, pero aquí como que no es tan evidente, entonces creo que hay que, haría el ejemplo, cuando pongan esos datos respecto de qué tan importante, o sea, qué tan crítico es el problema hoy, pongan un ejemplo, hoy, mira, por ejemplo, hay que decidir dado un proyecto o dado un día, hay que decidir cuántas máquinas tener, qué tipo de máquinas tener, etcétera.
+
+00:21:11.900 --> 00:21:15.820
+Creo que eso todavía falta entender.
+
+00:21:15.820 --> 00:21:25.760
+Y después, la lámina 7 es que la metodología tiene,
+
+00:21:25.760 --> 00:21:30.160
+o sea, lo mismo que conversábamos, la metodología tiene que tener mucho más detalle técnico,
+
+00:21:30.160 --> 00:21:33.520
+en términos de qué es lo que se hace en cada una de estas etapas.
+
+00:21:33.520 --> 00:21:39.800
+Entonces, por ejemplo, ahí tienen la fase 3,
+
+00:21:39.800 --> 00:21:43.440
+que es como la que uno podría sacarle más jugo.
+
+00:21:43.440 --> 00:21:48.200
+¿Cuál es el tipo de modelos, o sea, cuál es el tipo de técnicas?
+
+00:21:48.200 --> 00:21:50.600
+¿Van a ser modelos de series de tiempo? Perfecto.
+
+00:21:50.600 --> 00:21:53.640
+¿Qué tipo o cuáles son los modelos que van a probar?
+
+00:21:53.640 --> 00:21:56.200
+¿Ese modelo de regresión o modelos de regresión?
+
+00:21:56.200 --> 00:22:00.080
+¿Qué son, qué tipo de modelos, cómo los van a evaluar, etcétera?
+
+00:22:00.080 --> 00:22:05.240
+Entonces, creo que, o sea, la presentación está super explicada,
+
+00:22:05.240 --> 00:22:08.400
+pero hay ciertas componentes que le faltan,
+
+00:22:08.400 --> 00:22:21.040
+Pero lo positivo es que creo que hay como está el entendimiento de lo que hay que hacer, ya, más o menos, por lo menos en términos me da la percepción, en términos de las decisiones que tienen que tomar en la gente.
+
+00:22:21.040 --> 00:22:27.440
+Y ahora lo que tienen que transformar es todas esas decisiones en fases diferenciadas.
+
+00:22:27.440 --> 00:22:37.920
+yo por ejemplo, por ejemplo en la fase 1 de Discovery la dejaría o la disminuiría mucho
+
+00:22:37.920 --> 00:22:42.720
+o de frente la sacaría y haría por ejemplo mucho más énfasis en esa fase 3 y quizá
+
+00:22:42.720 --> 00:22:49.240
+la fase 3 se transforma en, se descompone en términos de ah mira estos son los modelos
+
+00:22:49.240 --> 00:22:53.240
+de serie de tiempo que sirven para esto, los modelos de regresión que sirven para
+
+00:22:53.240 --> 00:22:58.680
+esto, cuando digo este esto, es como la decisión que tienen que tomar esta gente en esas varias
+
+00:22:58.680 --> 00:23:03.480
+decisiones y lo que me imagino es que esas varias decisiones después cada una de ellas viene de uno
+
+00:23:03.480 --> 00:23:10.040
+de estos de estos motores y después me parece bien esa simulación o validación como una especie
+
+00:23:10.040 --> 00:23:18.680
+como de evaluación y después finalmente la lámina 8 y también sólo porque el tema es
+
+00:23:18.680 --> 00:23:25.720
+muy específico, pongan como un...
+
+00:23:25.960 --> 00:23:30.160
+primero entiendo que todavía no tienen acceso a los dados y por eso no
+
+00:23:30.160 --> 00:23:33.080
+han puesto la volumetría, eso es una primera, entonces en la siguiente
+
+00:23:33.080 --> 00:23:37.880
+presentación tienen que mostrar qué tan grandes son estas bases.
+
+00:23:37.880 --> 00:23:41.800
+Sólo de nuevo porque aquí cuesta tener un estimado de
+
+00:23:41.800 --> 00:23:46.040
+oye aquí esto es una base de datos de millones de registros o de miles de
+
+00:23:46.040 --> 00:23:53.320
+registro y lo otro mostrar ejemplos como también mostrar las variables clave pero
+
+00:23:53.320 --> 00:24:00.040
+pero que viene en una fila por ejemplo de el de las pruebas de carga o que viene
+
+00:24:00.040 --> 00:24:05.000
+en una fila de el application insert como va a imaginar que ya está en la base que
+
+00:24:05.000 --> 00:24:10.840
+tiene que se yo las excepciones a nivel día y después de una serie de
+
+00:24:10.840 --> 00:24:16.840
+información sobre eso, ya, sólo porque cuesta un poco como todavía imaginarse
+
+00:24:16.840 --> 00:24:20.560
+cuáles son los datos que están a cada uno de esos y cómo esos datos después van a
+
+00:24:20.560 --> 00:24:24.080
+responder a las decisiones que también a su vez todavía no están tan claras, ya,
+
+00:24:24.080 --> 00:24:28.880
+pero entonces
+
+00:24:28.880 --> 00:24:33.480
+hay cosas que, hay muchas cosas que están subexplicadas
+
+00:24:33.480 --> 00:24:38.760
+y hay cosas que no estaban presentes como respecto a la rubrica, pero
+
+00:24:38.760 --> 00:24:45.080
+pero lo positivo es que me queda la percepción de que saben lo que más menos lo que quieren hacer
+
+00:24:45.080 --> 00:24:48.320
+y ahora solamente hay que hacer mucho más detalle en términos de eso.
+
+00:24:52.750 --> 00:24:54.390
+Eso, muchísimas gracias.
+
+00:24:54.390 --> 00:24:55.390
+Gracias por haber estado aquí.
+
+00:24:55.390 --> 00:24:56.390
+Gracias por haber estado aquí.
+
+00:24:56.390 --> 00:24:57.390
+Grupo 9.
+

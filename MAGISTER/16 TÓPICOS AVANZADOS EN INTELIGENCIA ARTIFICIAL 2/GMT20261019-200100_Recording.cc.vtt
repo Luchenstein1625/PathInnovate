@@ -1,0 +1,3200 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+Muchas gracias por aquí, ¿cómo queda?
+
+00:00:29.000 --> 00:00:39.000
+Igual así está bien, está mejor así, de hecho.
+
+00:00:39.000 --> 00:00:42.000
+Bien, apaga la luz.
+
+00:00:42.000 --> 00:00:48.000
+O sea, tenemos clases todavía, dos moderados y luego vamos por el taller.
+
+00:00:48.000 --> 00:00:51.000
+Antes que el break, le voy a contar sobre el taller.
+
+00:00:51.000 --> 00:01:01.000
+Para que van a ir pensándolo juntos. No tengo problema que trabaje ni conjunto, pero la entrega es individual, así que pueden agruparse, correrlo juntos, no hay problema, ¿bien?
+
+00:01:01.000 --> 00:01:12.000
+La guía trata de hacerla como paso a paso literalmente recuerdan que hay cloud code, que hay open code, que hay codecs, hay de todo, o sea, si uno le pasa la guía lo va a armar, ¿bien? Lo que
+
+00:01:12.000 --> 00:01:17.000
+Yo necesito al final que ustedes exportan, viene el Bomber con calma y que me entregan todo.
+
+00:01:17.000 --> 00:01:26.000
+El kit de resultados de entrenamiento que tiene el mejor modelo, está todo listo para que se ejecute bien, están listos para cargarlo bien.
+
+00:01:26.000 --> 00:01:31.000
+Pero ahí lo vamos a hablar al final, temprano todavía. Bien.
+
+00:01:31.000 --> 00:01:36.000
+avanzada con I A, tenemos que hablar de los trips porque la próxima clase vamos
+
+00:01:36.000 --> 00:01:44.000
+A conectar pueden elegir lo que quieran cursor, open code, sabiendo que open code tiene modelo gratuitos que pueden programar.
+
+00:01:44.000 --> 00:01:50.000
+O Cloud Code o Codex o lo que quieran pero vamos a trabajar desde una pauta de prompting que vamos.
+
+00:01:50.000 --> 00:02:02.000
+a desarrollar una aplicación, puede ser un CRM, un RP, un sistema de lo que quieran, y esto completo se va a trabajar a través de una herramienta local, puede ser Vio Studio Code.
+
+00:02:02.000 --> 00:02:03.000
+posteriormente a esto.
+
+00:02:03.000 --> 00:02:13.000
+Se va a levantar adentro de GitHub, tiene que pasar integración continua, despliegue continuo, de todo, y despues, Google Cloud. Se tiene que desplegar en tiempo real.
+
+00:02:13.000 --> 00:02:18.000
+en autenticación con memoria con todo bien, entonces nada, así que desde un prompt, pues sería
+
+00:02:18.000 --> 00:02:24.000
+muy importante el diseño, bien, una vez claro el diseño.
+
+00:02:24.000 --> 00:02:35.000
+entonces va a generar maqueta, se va a generar aplicación directa, productiva, ni siquiera es M VP, vienes productivo. Entonces, si tienen las APIs, tienen todo el día, hasta con un buen diseño de sistema, hasta
+
+00:02:35.000 --> 00:02:43.000
+todo esto no lo van a hacer, lo va a hacer cloud code, ¿bien?
+
+00:02:43.000 --> 00:02:44.000
+.
+
+00:02:44.000 --> 00:02:51.000
+ser todo por nosotros y posteriormente a esto lleva a él la producción adelante.
+
+00:02:51.000 --> 00:02:54.000
+No, no sé si es, el problema de mi computador, pero como que el audio
+
+00:02:54.000 --> 00:02:58.000
+Se te escucha muy, muy bajito, por si acaso, como bajo el agua.
+
+00:02:58.000 --> 00:03:04.000
+Sí, sí, yo a lo escucho muy bien y el que habló que no sé quién fue, lo escucho muy, muy mal
+
+00:03:04.000 --> 00:03:10.000
+Sí, creo que Roger tiene un problema con el micrófono.
+
+00:03:10.000 --> 00:03:11.000
+Sí, problema mío
+
+00:03:11.000 --> 00:03:15.000
+Pero además yo lo escucho bien, Roger.
+
+00:03:15.000 --> 00:03:16.000
+A mí me escuchan mal o a quién?
+
+00:03:16.000 --> 00:03:17.000
+Ya, muchas gracias.
+
+00:03:17.000 --> 00:03:19.000
+Aquí se te escucha bien, Navar?
+
+00:03:19.000 --> 00:03:21.000
+A ti te escucho bien, amado, amado, a ti se te escuche bien.
+
+00:03:21.000 --> 00:03:27.000
+Ah, bien, muchas gracias.
+
+00:03:27.000 --> 00:03:30.000
+A ver, Roger, trata de hablar ahora.
+
+00:03:30.000 --> 00:03:32.000
+No, yo tengo, tengo un problema con el micrófono, parece
+
+00:03:32.000 --> 00:03:37.000
+Ah sí un poquito como abajo el agua, bajo el agua.
+
+00:03:37.000 --> 00:03:39.000
+Claro.
+
+00:03:39.000 --> 00:03:41.000
+Yeah, that trailer.
+
+00:03:41.000 --> 00:03:46.000
+Eh vieron noticias
+
+00:03:46.000 --> 00:03:57.000
+No vieron de que está pidiendo anthrope que está pidiendo Elon Musk no del auto que va volando de Roadstar. Me parece que están pidiendo para la Super EA y tratar a la IA amablemente?
+
+00:03:57.000 --> 00:04:09.000
+Están contradiciendo todo lo que se ha dicho al inicio de flujo de genial, que la IA superior, que la IA un poquito más compleja, así que hay que tratarla amablemente y no sé, pedirle favores, que yo no los voy a hacer nunca.
+
+00:04:09.000 --> 00:04:19.000
+Ve cero, bien, pero claro dicen que tiene desarrollo de conciencia, desarrollo de contexto que eso estamos claros, una herramienta como Cloud.
+
+00:04:19.000 --> 00:04:26.000
+Un modelo como Claude yo creo que es la mejor bien imagen o foto a la ya supería bien con el.
+
+00:04:26.000 --> 00:04:39.000
+contexto acumulado entre ventanas entre proyectos entre artefactos, un montón de texto, o sea, lejos es la idea optimizada del mundo, ¿bien? Con todo el contenido que lleva para poder reducir o producir respuestas.
+
+00:04:39.000 --> 00:04:46.000
+así que todas ellas son buenas, bien, pero hablando de contexto y posicionamiento cloud.
+
+00:04:46.000 --> 00:05:01.000
+Parte que uno puede gestionar ya todo un core completo de una empresa a través de cloud, todo, ¿bien? Una buena practica que uno al final del día o mañana M ven despertar temprano, misma rutina de gimnasio.
+
+00:05:01.000 --> 00:05:10.000
+ChatGPT or two cloud que tenga un proyecto personal tuyo del día a día, vaya contando esto, conversando unos 10 minutos, quince minutos, resume tu dia.
+
+00:05:10.000 --> 00:05:19.000
+genera la cadena de contexto día a día del trabajo de la vida, todo esto se va a separar automáticamente. Bien, el contexto es común sobre tu cuenta.
+
+00:05:19.000 --> 00:05:29.000
+esta rutina puede ayudar porque si ustedes van a ir haciendo una presentación con cloud y luego desaparece en un mes por este topico me refiero.
+
+00:05:29.000 --> 00:05:42.000
+van a aparecer de nuevo, queda desactualizada la información contra el contexto real de la empresa. Asi que una rutina de 15 minutos, yo la recomiendo mucho al día. ¿Bien? Así, hasta que si estás en el gym o lo que sea.
+
+00:05:42.000 --> 00:05:48.000
+cuando café fumando lo que sea, pero dale no más 15 minutos conversando con cloud.
+
+00:05:48.000 --> 00:05:58.000
+todo se puede clasificar se generan artefactos automáticamente lo que es personal, lo que es empresa, lo que es problema, lo que sea bien.
+
+00:05:58.000 --> 00:05:59.000
+Adelante
+
+00:05:59.000 --> 00:06:02.000
+Profe, ¿pero dónde lo ¿Dónde lo conversa?
+
+00:06:02.000 --> 00:06:15.000
+Yo que tengo un proyecto en cloud que es un proyecto personal que he cargado como los primeros skills míos los artefactos y un template prompt central y hay el mismo proyecto entro, abro un chat nuevo, le dejo in chat, no hay cowork.
+
+00:06:15.000 --> 00:06:16.000
+Mhm
+
+00:06:16.000 --> 00:06:27.000
+En chat y comienzo a conversar y ahí pongo el micrófono, puedes transcribir, puedes hablar directamente, llegas al mismo resultado, o sea, transcribir es más profundo, porque toma el tiempo de ejecutar.
+
+00:06:27.000 --> 00:06:39.000
+Eh pero ahí lo hago el mismo proyecto día por día y cada día tiene una fecha y una vez se colapsa el proyecto, exporto el contenido markdown, limpio chats y vuelvo a cargar, ahí se actualizan los artefactos y todo.
+
+00:06:39.000 --> 00:06:42.000
+Pero es un proyecto adentro de cloud.
+
+00:06:42.000 --> 00:06:43.000
+Okay.
+
+00:06:43.000 --> 00:06:46.000
+Bien, es recomendable, ¿bien?
+
+00:06:46.000 --> 00:06:47.000
+Oiga, profe.
+
+00:06:47.000 --> 00:06:48.000
+Ajá.
+
+00:06:48.000 --> 00:06:55.000
+Y qué vamos a hacer con el magíster que se llama the IA y cualquier cosa que se llame IA, ese enemigo a Estados Unidos.
+
+00:06:55.000 --> 00:06:59.000
+Al cual, perdón, escuché, ¿qué cosa?
+
+00:06:59.000 --> 00:07:00.000
+Ajá
+
+00:07:00.000 --> 00:07:04.000
+Que vamos a hacer con el término I A, dado que ahora, según Trump, cualquiera que diga IA es enemigo de Estados Unidos, por lo tanto, si somos magistrados de I A.
+
+00:07:04.000 --> 00:07:07.000
+Claro, hay que decir, ay.
+
+00:07:07.000 --> 00:07:10.000
+Hay que decir súper inteligencia.
+
+00:07:10.000 --> 00:07:12.000
+Ajá, a eso, el súper ay, o sea.
+
+00:07:12.000 --> 00:07:13.000
+Cepa.
+
+00:07:13.000 --> 00:07:15.000
+Trampa hablando cositas un poquito.
+
+00:07:15.000 --> 00:07:20.000
+No sé, pues, pero sí quiero echar a Estados Unidos y ve que soy magíster de ya no me van a dejar el charo, ¿sí?
+
+00:07:20.000 --> 00:07:24.000
+No po, tienen que decirle, vengo por ese A y por el SAI, dile, súper ahí.
+
+00:07:24.000 --> 00:07:28.000
+No me, no, no es menor porque a uno le vi en el LinkedIn cuando está Estados Unidos.
+
+00:07:28.000 --> 00:07:39.000
+Sí, sí, o sea, a esta altura, el mismo club tiene un conector de MCP que te busca por completo redes sociales y redes laborales antes que entrar, efectivamente.
+
+00:07:39.000 --> 00:07:45.000
+Por eso les es more a veces no es necesario comentar toda tu vida en redes sociales es la recomendación básica de la vida.
+
+00:07:45.000 --> 00:07:49.000
+No es el problema es que gastan harta plata en este magíster y no nos vamos a poder mostrar.
+
+00:07:49.000 --> 00:07:57.000
+No, pues sí, hay que pedirlo con traducción.
+
+00:07:57.000 --> 00:08:02.000
+Ay, Trump tiene sus baladas, muy bien.
+
+00:08:02.000 --> 00:08:03.000
+Sí, sí.
+
+00:08:03.000 --> 00:08:05.000
+Vamos, ya somos.
+
+00:08:05.000 --> 00:08:11.000
+hace 80, así que estamos para arrancar, vamos a hablar de la planificación avanzada en I A.
+
+00:08:11.000 --> 00:08:26.000
+Acordando de que están quedando dos flujos, el flujo de la próxima semana va a ser flujo desde un agente de codificación hasta un paso a producción en torno de nube, ¿bien? Mientras más autoridad le dan, mejor les va, ¿bien? Pero depende de cada uno.
+
+00:08:26.000 --> 00:08:32.000
+Entonces claro la idea que desde un diseño de sistema que vamos a trabajar juntas aquí bien y.
+
+00:08:32.000 --> 00:08:47.000
+y lo vamos a cargar, se puede designar un sistema aquí en conjunto a ustedes, tengo la pauta, voy a mostrar cómo se van a aparecer los kills, artefactos, los templates prompts centrales, las cadenas y esto lo voy a llevar, le voy a colocar execute. Nada más.
+
+00:08:47.000 --> 00:08:58.000
+Va a correr todo el proceso de las cadenas levantamiento y luego cuando aparezca el producto lo va a comprobar. Unreso probado, voy a empaquetar en imagen de docker. Vamos a probar en un contenedor local.
+
+00:08:58.000 --> 00:09:09.000
+se prepara de forma privada con la integración continua, el punto env, todas las claves ocultas. Vamos a Google Cloud.
+
+00:09:09.000 --> 00:09:22.000
+hacer la conexión primera vez no más integración y se acabó, luego modificando algo, le voy a mostrar cómo corre todo el flujo y hace el cambio completo en Google, ¿bien? Para automizar un flujo.
+
+00:09:22.000 --> 00:09:37.000
+Vamos a usar una herramienta, pues, que se llama Cloud Run, que la conocen de una forma u otra, con un propósito, que Cloud Run es de despliegue de aplicaciones. Entonces, el que quiere ir al que quiere RP, el que quiere CRM, todo lo van a poder desplegar en Cloudran sin problema mientras
+
+00:09:37.000 --> 00:09:39.000
+Los puertos.
+
+00:09:39.000 --> 00:09:43.000
+Estén bien habilitados y sí se puede escuchar, ¿bien?
+
+00:09:43.000 --> 00:09:48.000
+Pero hoy día tenemos que hablar de strips a las integraciones de modelo generativos.
+
+00:09:48.000 --> 00:09:52.000
+Alguien ha escuchado el concepto strips?
+
+00:09:52.000 --> 00:09:54.000
+No es tripping strips .
+
+00:09:54.000 --> 00:09:55.000
+No, no.
+
+00:09:55.000 --> 00:09:56.000
+Street Center tampoco streets, bien.
+
+00:09:56.000 --> 00:09:58.000
+El PFC en KFC
+
+00:09:58.000 --> 00:10:01.000
+Para que no vean para otro lado, claro.
+
+00:10:01.000 --> 00:10:02.000
+Bien, ¿qué es?
+
+00:10:02.000 --> 00:10:05.000
+Planificar para una maquina
+
+00:10:05.000 --> 00:10:12.000
+encuentra un plan sin probar todo, cómo puedes encontrar un plan sólido sin hacer 50 mil millones de pruebas con esa altura.
+
+00:10:12.000 --> 00:10:21.000
+Y cómo y que aportan los L L M y que no y volvamos a hablar de L L M no S L M
+
+00:10:21.000 --> 00:10:35.000
+Y no sé, o sea, está en el cielo, pues está todo claro, traté también de ordenarlo, resumirle el sílabos porque en los cursos anteriores ustedes me han pedido tener el objetivo claro y y cuadrarlo con los sílabos. Aquí está aquí por si alguien lo quiere leer bien.
+
+00:10:35.000 --> 00:10:48.000
+Eh qué espero de ustedes al terminar aquí explicar con unas palabras propias, o sea no se casen completamente con lo que está aquí, porque hay muchas cosas que sí están al día, otras cosas que están más adelantadas.
+
+00:10:48.000 --> 00:11:01.000
+Sigue siendo idea por el momento, como lo mismo antes que el 15 de octubre no había un auto que pueda o podía volar, o sea sí, pero te esta ya que en paz descanse ya no está bien en este año todo esto.
+
+00:11:01.000 --> 00:11:04.000
+ahora ya es un hecho verdadero, bien, entonces.
+
+00:11:04.000 --> 00:11:12.000
+La auto se manejó solo, bien, con autonomía y todas las cosas, por eso digo, está muy acelerado todo.
+
+00:11:12.000 --> 00:11:13.000
+Y.
+
+00:11:13.000 --> 00:11:17.000
+No es preocupante, ¿bien? Por eso digo.
+
+00:11:17.000 --> 00:11:22.000
+esa palabra sí me gusta, la proyección del 2036, que no va a haber plata, bien.
+
+00:11:22.000 --> 00:11:37.000
+nueva ver money entonces propiedades terrenos nada que ver con la ya o sea si quieres data center dale no más blockchain dale no más. O sea, invertir bien o no invertir, ¿bien? Porque de aquí a 10 años se va a cambiar todo el ecosistema, esa es
+
+00:11:37.000 --> 00:11:38.000
+probabilidad máxima.
+
+00:11:38.000 --> 00:11:45.000
+Se va a limpiar toda la deuda de miles de miles de miles de millones de dólares que tiene Estados Unidos.
+
+00:11:45.000 --> 00:11:46.000
+Cambiando el sistema financiero.
+
+00:11:46.000 --> 00:11:47.000
+No hay otra.
+
+00:11:47.000 --> 00:11:57.000
+Entonces, si alguien ve lo que está pasando en Chile, porque está conectado con Estados Unidos, porque hay crisis en Medio Oriente, ahora hay crisis en Europa, ¿cierto? Hay problemas en todas partes.
+
+00:11:57.000 --> 00:12:08.000
+Entonces, claro, el concepto de pobreza, de necesidad básica va a cambiar muy pronto. Y la IA hasta cada día chequeando el ciclo de oportunidades laborales. Tienes que conocer.
+
+00:12:08.000 --> 00:12:10.000
+como trabajar con la I A
+
+00:12:10.000 --> 00:12:17.000
+tema más profundo que va a aparecer aquí también, por eso digo, tus palabras con tu planificación, con tu forma de ser, por eso.
+
+00:12:17.000 --> 00:12:27.000
+Dije al inicio, es importante que conversan con su guía unos 15 minutos al día, al inicio, al final, como prefieren, pero asumiendo al día, ¿bien? Para dar más contexto.
+
+00:12:27.000 --> 00:12:30.000
+Entonces, en este escenario
+
+00:12:30.000 --> 00:12:35.000
+todo lo que van a trabajar va a estar enlazado, vinculado, ¿bien?
+
+00:12:35.000 --> 00:12:46.000
+Escribir, contar, juzgar con evidencia siempre bien, porque la la IA sabe planificar, estamos claros. Entonces, cuando uno quiere juzgar alguna planificación de la IA tiene que tener
+
+00:12:46.000 --> 00:12:56.000
+la evidencia o viceversa, pedir la evidencia a la I A para que no se inventan cosas, ¿bien? Pero si nos quedamos claro y que ahora comenzó el contador inverso
+
+00:12:56.000 --> 00:13:10.000
+Bien, desde, vamos a llamar así, estamos cerrando el año o sea diciembre, un poquito adelantado, diciembre dos mil veintiséis, a diciembre dos mil treinta y seis nos va a ser igual nada del mundo financiero que conocemos. ¿Bien?
+
+00:13:10.000 --> 00:13:15.000
+Y no vas, no va a depender de uno de nosotros, esos son movimientos completos.
+
+00:13:15.000 --> 00:13:18.000
+Eso, Fabián.
+
+00:13:18.000 --> 00:13:22.000
+Pues me había arrepentido de preguntar, porque no quiero desviar.
+
+00:13:22.000 --> 00:13:23.000
+No, dale, no.
+
+00:13:23.000 --> 00:13:28.000
+Que no quiero desviar la clase para otro lado, pero es que, ya que tocó el punto y siempre saca buenos Tips.
+
+00:13:28.000 --> 00:13:29.000
+Dale, dale no más.
+
+00:13:29.000 --> 00:13:30.000
+Lo siento por el resto.
+
+00:13:30.000 --> 00:13:34.000
+Profe usted cómo ve que va a impactar la I A con la.
+
+00:13:34.000 --> 00:13:42.000
+Ley de finanzas abiertas con la Ley Fintech, que va a salir el otro año. Como lo ve usted, en que deberíamos estar a la vanguardia.
+
+00:13:42.000 --> 00:13:47.000
+O sea, yo diría que que es una ley, entonces hay que adoptarse al objeto necesario ante una ley.
+
+00:13:47.000 --> 00:14:04.000
+que he contado toda la evolución tecnológica, las leyes se van a estar bueno se inventando algo, se van a romper y menos de dos seis meses después de la implementación. Todas las leyes, todas las leyes, todas las leyes, la ley de protección de data igual, ¿bien? Por eso hablamos la clase pasada sobre el blockchain que
+
+00:14:04.000 --> 00:14:20.000
+Debe tener una identificación única de cada persona en dentro de una cadena y él decide o ella decide con quién, con quién no compartirlo bien entonces claro las leyes hoy en día me paso en Europa, tiene las mejores leyes de día, pero no tiene nada decente día aparte Mistral.
+
+00:14:20.000 --> 00:14:33.000
+Bien, entonces lo mismo aquí bueno si estamos adoptando unas leyes nuevas que vendrían proteger, pero están siendo más reactivas que proactivas las leyes. Bien, la ley define tecla, la ley protección de datos personales y mucha ley más de ella. Entonces yo
+
+00:14:33.000 --> 00:14:49.000
+Diría que varias leyes no van a alcanzar ver la luz completa o no van a alcanzar la etapa de despliegue madurez completa, van a estar en cambio constante, que lo más probable que la ley que aparezca el proximo ano, de aquí a 3 años más, será totalmente diferente por tantos cambios en el ciclo.
+
+00:14:49.000 --> 00:15:04.000
+Entonces yo diría acelera la implementación o el ajuste necesario y piensa, piensa bien imposibles cambios, proactivamente que podría cambiar por cada ley que tocaría la I A o los datos de aquí al futuro. Para prepararse con escenarios, me refiero.
+
+00:15:04.000 --> 00:15:08.000
+Pero hay que hacerle una ley.
+
+00:15:08.000 --> 00:15:21.000
+Bien, vamos, vamos avanzando no más bien. Recuerden bien la vez pasada hablamos de la parte de razonamiento o sistemas simbólicos, pero chequeamos más al SLM, ¿bien? Que los small language models, porque
+
+00:15:21.000 --> 00:15:26.000
+Si lo hablo de ella simbólica igual la conocen y no tiene sentido repetir cosas que están vencidas.
+
+00:15:26.000 --> 00:15:37.000
+Mejor llevar un modelo que tiene todos los símbolos y entrenarlo de forma privada, bien, y ahora los símbolos de medicion, los culos, N, las valores, etc. Y hoy
+
+00:15:37.000 --> 00:15:39.000
+the idea, vamos a hablar.
+
+00:15:39.000 --> 00:15:42.000
+Eh, ¿cómo se llama? Sobre la planificación.
+
+00:15:42.000 --> 00:15:55.000
+Yo creo que esta es la clase más importante, bien, quieren estrategia, me encanta, economía me encanta, desarrollo me encanta, pero aqui esta la definición, diseñar, ¿bien? Esa es la única carrera que no va a poder quitarla ya.
+
+00:15:55.000 --> 00:16:08.000
+Bien, o si no tiene que estar robot contigo, el día a día te acompañe en todo y acompañe a todos los demás y la conversa de pasillo y todo para poder construir un diseño que será abordable por toda la empresa, ¿bien?
+
+00:16:08.000 --> 00:16:24.000
+Ese era un plan de Copilot, que no ha resultado de la misma forma, ¿cierto? Que estar insertado en las minutas, en teams, en Outlook, en todas partes o poder recuperar todo el contexto empresarial basado en esto, generar ¿Cómo se llama? Propuestas.
+
+00:16:24.000 --> 00:16:32.000
+O sea, ten en contexto, pero Microsoft ha fallado en generar propuestas así, ¿bien? Pero la herramienta así sigue acumulando contexto, efectivamente.
+
+00:16:32.000 --> 00:16:39.000
+El caso es que nos acompaña Austral Retail, Centro de Distribución Putabel. ¿Alguien lo conoce?
+
+00:16:39.000 --> 00:16:42.000
+No va a haber varios casos hoy día.
+
+00:16:42.000 --> 00:16:50.000
+Bueno, este caso no existe, bien, cada robot debe decidir qué pedido tomar, por dónde ir y cuándo cargar batería.
+
+00:16:50.000 --> 00:16:57.000
+decisiones complejas porque, imagínate, si se equivoca y la última no va, ¿cuánto debe cargar la batería?
+
+00:16:57.000 --> 00:17:04.000
+La misma aspiradora robótica que se va sola a recargarse, ¿cierto? Al que vale un poquito más cara.
+
+00:17:04.000 --> 00:17:15.000
+Sola se enchufa a recargarse, etcétera, o como los mona de cartón que ponían las pilas, sacaba las antiguas y cae, se enchufan las pilas nuevas, se arranca el robot de nuevo, ya es una decisión crítica.
+
+00:17:15.000 --> 00:17:21.000
+Imagínate tienes una cadena de logística tienes una I A física y hasta allá.
+
+00:17:21.000 --> 00:17:25.000
+Está preparada, está cada día más barata, bien.
+
+00:17:25.000 --> 00:17:32.000
+Y cada tipo de robot tiene niveles de inteligencia y temas que hacer. Bien, de hecho le voy a mostrar una.
+
+00:17:32.000 --> 00:17:39.000
+Por si a alguien le interesa nomás que estamos hablando de esas alturas en esto, revisa en la página, comentamos que se llama Robotex.
+
+00:17:39.000 --> 00:17:42.000
+Chile
+
+00:17:42.000 --> 00:17:56.000
+Es un catálogo, bien, es nueva todavía era robotext.cl.
+
+00:17:56.000 --> 00:17:59.000
+Vamos, que el problema no va a aguantar.
+
+00:17:59.000 --> 00:18:03.000
+Bien, aquí solamente para que vean el catálogo bien, no voy a hacer nada de la
+
+00:18:03.000 --> 00:18:05.000
+revisiones
+
+00:18:05.000 --> 00:18:08.000
+Que es muy largo.
+
+00:18:08.000 --> 00:18:19.000
+Aquí está el catálogo por ejemplo para que vean es importante que comienzan a conocer los conceptos no más bien del área física o robótica, porque se viene la homologación muy fuerte en el mercado.
+
+00:18:19.000 --> 00:18:34.000
+entonces aquí tienen, no sé, por ejemplo, de Unity, que es una escala humana, tiene un movimiento cuerpo, este, puede ser profesor de baile, puede ser cualquier cosa. Bien, tiene la ficha, tiene todo el conocimiento técnico aquí y los posibles precios. Optimos, ¿bien? Eso es más de Tesla o XI.
+
+00:18:34.000 --> 00:18:51.000
+3 figure, por ejemplo, que lleva a los manuperciben cuerpos que aprenden, trabaja en logística, en cadenas, etcétera, tienen un montón, la plataforma que compacta para crear, tienes el G uno de u de educación directamente, tienes Atlas que también hace movimientos en una fábrica y trabaja y maneja herramientas.
+
+00:18:51.000 --> 00:18:57.000
+TSH1 equilibrio, movilidad a escala, que puede ser más de entrenamiento, servicio militar.
+
+00:18:57.000 --> 00:19:10.000
+It grabar y todo. Taneu que un poquito feo, para eso es un asesino.
+
+00:19:10.000 --> 00:19:23.000
+Pero sí, es la película, de hecho eso como lleva la parte robótica robótica en el la vida diaria, bien Walker S2, Apolo, hay muchos más. Puedes revisarlo con calma, tallos.
+
+00:19:23.000 --> 00:19:24.000
+pero
+
+00:19:24.000 --> 00:19:32.000
+los anuncios nuevos de marketing donde aparece la inteligencia intelectual del ser humano y la inteligencia robótica física.
+
+00:19:32.000 --> 00:19:39.000
+donde aparecen muchos vídeos hoy en día de, no sé, una niña que ha nacido y la compraron un robot robot
+
+00:19:39.000 --> 00:19:52.000
+acompaña en todo ese psicólogo con que juega el amigo, el que cocina, la enfermera, es el médico, él hace todo por ella. Bien, hasta que se casó, la abandono. ¿Bien? Esa fue la vida para que vean cómo se juega la emoción psicológica.
+
+00:19:52.000 --> 00:20:07.000
+Se casó y se fue y dejó el robot en la bodega y pasaron los años y volvió teniendo más de setenta y cinco años y a una señora volvio a sacar robot, perdió, ya los hijos se fueron, ya el marido falleció, volvió a levantar.
+
+00:20:07.000 --> 00:20:18.000
+Diciéndole bienvenida A la vida de vuelta, old friend, bien, que es lo único su vida con un robot que estaba súper aislada la niña, súper aislada.
+
+00:20:18.000 --> 00:20:26.000
+Justo cuando fui por la vía social, lejos de los robots fallecieron o se fueron y tuvo que volver de nuevo a la vía de robótica entonces.
+
+00:20:26.000 --> 00:20:31.000
+de la vida que lo pueden todo y el cierre de la vida el robot está presente.
+
+00:20:31.000 --> 00:20:36.000
+Significa que lo malo te pueden fallar el robot nunca te va a fallar y lo vas a necesitar, ¿bien?
+
+00:20:36.000 --> 00:20:42.000
+Son como las campañas de marketing que están agarrando millones de millones de visitas, ¿bien?
+
+00:20:42.000 --> 00:20:49.000
+Digo, si alguien todavía estamos pensando en el marketing común, denle una vuelta. Bien, quizás esos robot aumenta la venta.
+
+00:20:49.000 --> 00:20:56.000
+eso entonces toda esta parte están, están llevando unos flujos muy interesantes, bien.
+
+00:20:56.000 --> 00:21:03.000
+Entonces, un escenario así, tener un centro de distribución que tiene doce mil metros cuadrados con tres turnos. ¿Bien?
+
+00:21:03.000 --> 00:21:07.000
+Hay unos pasillos y hay 2400 ubicaciones de productos.
+
+00:21:07.000 --> 00:21:13.000
+robot aquí, robot allá, etcétera, y varios robots trabajando directamente en el proceso.
+
+00:21:13.000 --> 00:21:18.000
+Hay 40 robots móviles, ¿bien? Que recogen productos y los llevan a las.
+
+00:21:18.000 --> 00:21:22.000
+Bueno, o a los mueres.
+
+00:21:22.000 --> 00:21:28.000
+1800 petitos por turno cada 30 minutos sale un camión, hay plazos, todo está o reloj.
+
+00:21:28.000 --> 00:21:31.000
+35 veces al día
+
+00:21:31.000 --> 00:21:32.000
+Cambia el plan.
+
+00:21:32.000 --> 00:21:39.000
+Y aquí el pasillo bloqueado, batería agotada, pedido urgente, un montón de cosas que están ocurriendo.
+
+00:21:39.000 --> 00:21:53.000
+Hoy día el equipo quiere hacer un plan a mano, cada vez que algo cambia, cada vez que cambia algo en el plan o en el día, se tiene que redesignar este plan. ¿Cuánto tiempo podría tomar o cuántas veces podemos redesignar el plan al día?
+
+00:21:53.000 --> 00:22:00.000
+Depende de la cantidad de cambios, sesión 45, entonces 45 rediseños al día.
+
+00:22:00.000 --> 00:22:10.000
+alcanzar optimizar todo esto, hablamos siempre de optimización de logística y cadenas y todo, cómo vas a optimizar si ahora te llega una empresa y te dice, "Tengo todos los robots
+
+00:22:10.000 --> 00:22:22.000
+But los paquetes, que las cosas están impactando en el ejercicio de optimizacion dia dentro de la bodega.
+
+00:22:22.000 --> 00:22:35.000
+Puedes optimizar esto para que el robot llegar a recargarse en el momento que corresponde, que sea todo dinámico al nivel de cambios que ocurren todos los días y que se reestima de inmediato la red y las pilas y todo lo que hay.
+
+00:22:35.000 --> 00:22:37.000
+Que harían?
+
+00:22:37.000 --> 00:22:46.000
+O sea yo lo veo una buena propuesta si uno diseña un modelo así y a cuánto robot tienes diez ya tengo que comprar por costa de dos, sesenta millones para hacerte el modelo.
+
+00:22:46.000 --> 00:22:49.000
+Mal
+
+00:22:49.000 --> 00:22:50.000
+Cierto?
+
+00:22:50.000 --> 00:22:53.000
+Que se puede hacer en este escenario? ¿Cómo se puede diseñar?
+
+00:22:53.000 --> 00:23:04.000
+¿Cómo se planifica? Van a hacer un modelo de planificación clásico o van a colocar un agente de LLM que se conecta con toda la red robótica y hace toda la estimaciones y planificaciones o los
+
+00:23:04.000 --> 00:23:06.000
+A la vez
+
+00:23:06.000 --> 00:23:08.000
+¿Qué opinan?
+
+00:23:08.000 --> 00:23:13.000
+Modelo clásico L L M o los boss y por qué?
+
+00:23:13.000 --> 00:23:14.000
+Sí.
+
+00:23:14.000 --> 00:23:20.000
+Well, y esta lógica de la jerarquía de gente que no ha visto la clase anterior
+
+00:23:20.000 --> 00:23:23.000
+Debieran así como pensándolo militarmente también
+
+00:23:23.000 --> 00:23:25.000
+Excelente.
+
+00:23:25.000 --> 00:23:31.000
+Uh-huh.
+
+00:23:31.000 --> 00:23:32.000
+Jerárquicamente
+
+00:23:32.000 --> 00:23:42.000
+Claro, o sea, por ahí va la solución, Manuel, muchas gracias, por ahí va la solución porque tú tienes que definir algún tipo de jerarquía, ¿cierto? O sea, de hecho, jerarquía va a ser secuencia o va a ser red, ¿cierto?
+
+00:23:42.000 --> 00:23:51.000
+Claro que ya fuiste directamente por solución de L L M , entonces tú dices que mejor resolverlo a través de L L M a gentica cierto?
+
+00:23:51.000 --> 00:23:54.000
+Porque no un modelo de regresión, un modelo optimisation?
+
+00:23:54.000 --> 00:23:55.000
+industrial. No puede.
+
+00:23:55.000 --> 00:23:58.000
+No, yo creo que igual es bueno tener
+
+00:23:58.000 --> 00:24:01.000
+Un planificador clásico va a tener como una ruta
+
+00:24:01.000 --> 00:24:03.000
+Claro.
+
+00:24:03.000 --> 00:24:05.000
+Va a tener la ruta
+
+00:24:05.000 --> 00:24:08.000
+Como otras hay en base a eso, a verlo
+
+00:24:08.000 --> 00:24:10.000
+Claro.
+
+00:24:10.000 --> 00:24:12.000
+O sea, también tiene sentido.
+
+00:24:12.000 --> 00:24:15.000
+¿Qué opinan los demás? Muchas gracias.
+
+00:24:15.000 --> 00:24:18.000
+Que dicen los demás?
+
+00:24:18.000 --> 00:24:26.000
+Para que cuando lleguen a la tesis le dicen, "No, tiene que ser un modelo clásico.
+
+00:24:26.000 --> 00:24:30.000
+Que opina?
+
+00:24:30.000 --> 00:24:42.000
+El profe, hay unos, hay unos sistemas que es que, que se vienen implementando en los centros de distribución desde hace un tiempo, que son los WMS
+
+00:24:42.000 --> 00:24:43.000
+Ajá.
+
+00:24:43.000 --> 00:24:51.000
+que de alguna manera ordenan, digamos, los centros de distribución de acuerdo a los pedidos que se realizan
+
+00:24:51.000 --> 00:25:01.000
+Ujum
+
+00:25:01.000 --> 00:25:02.000
+Claro
+
+00:25:02.000 --> 00:25:08.000
+Y el centro de distribución tiene ciertas ubicaciones, entonces hace una especie de plano cartesiano de donde esta cada uno de los productos, etcétera, y el operador humano recibe, digamos, la orden
+
+00:25:08.000 --> 00:25:18.000
+y realiza una ruta que es como la más eficiente, haciendo el picking de los productos que estarían dentro de esa orden
+
+00:25:18.000 --> 00:25:24.000
+y y siempre buscando que efectivamente no haya un
+
+00:25:24.000 --> 00:25:25.000
+no haya un
+
+00:25:25.000 --> 00:25:27.000
+Digamos un
+
+00:25:27.000 --> 00:25:37.000
+Una, un conflicto con otro, con otro operador verdad entonces me imagino que ese sistema o esos sistemas funcionan en base a reglas, ¿no es cierto?
+
+00:25:37.000 --> 00:25:39.000
+Claro.
+
+00:25:39.000 --> 00:25:40.000
+O sea, sí o sí, mhm
+
+00:25:40.000 --> 00:25:54.000
+Claro, en este caso, claro, y entonces, en este caso, lo que, pensando en qué es lo que añade, digamos, la inteligencia artificial en este caso, sería, me imagino
+
+00:25:54.000 --> 00:26:03.000
+El el no tener que depender del del operador no es cierto de su de su criterio para ir a buscar ciertas cosas
+
+00:26:03.000 --> 00:26:16.000
+O sea, sí, tiene que tener reglas iniciales, sí o sí, está, está perfecto lo que mencionas y posteriormente a esto tiene que tener red, o sea, una homologación de lo que mencionaste, Nico, lo que menciona Emanuel también y más.
+
+00:26:16.000 --> 00:26:34.000
+Que cada punto que mencionaron resuelve una parte o sea si yo digo que he pedido tomar es una decisión, ¿cierto? Y por dónde ir, por qué pasillo, otra decisión. ¿Qué pasa? Que cuando tiene que recargar la batería? Otra decisión, ¿qué pasa sin chocar con los otros 39 robots que andan también con su conexión, ¿bien?
+
+00:26:34.000 --> 00:26:51.000
+Lo mismo sin perder los camiones o el tiempo, lo mismo, entonces, claro, efectivamente tienes que tener unas reglas básicas, tenés que tener un modelo básico, tener que tener también probabilidades y tener que tener un LDM que este bien diseñado poder resolver esto. Yo estoy hablando sin cambio.
+
+00:26:51.000 --> 00:26:57.000
+Pero el problema aquí son los cambios frecuentes que ocurren todos los días, así que efectivamente ambos comentarios son correctos.
+
+00:26:57.000 --> 00:27:01.000
+Pero vamos a agregarlo más, porque es un caso más complejo.
+
+00:27:01.000 --> 00:27:05.000
+Planificar para una máquina que entiende un robot?
+
+00:27:05.000 --> 00:27:10.000
+En la palabra planificación. Primero el modelo, bien, vamos a entender bien que el modelo.
+
+00:27:10.000 --> 00:27:21.000
+Debe ayudarnos a describir dónde estamos y luego qué podemos hacer y dónde queremos llegar. Están los sensores, la planificacion, la mirada, etcétera, las cámaras.
+
+00:27:21.000 --> 00:27:32.000
+Sin esto, ningún algoritmo ni ILM puede ayudar, si no es capaz por el momento para describir todo el entorno o el estado actual y además, ¿qué se podrá hacer de posibles acciones pasados reglas?
+
+00:27:32.000 --> 00:27:42.000
+Y ayudarnos en tomar la decisión para poder llegar al destino o el escenario de resolución en la red planificación de los turnos o los cambios.
+
+00:27:42.000 --> 00:27:43.000
+Estaríamos mal.
+
+00:27:43.000 --> 00:27:52.000
+Entonces, decir que dónde estoy? ¿Qué puedo hacer y a dónde quiero llegar? ¿Alguien si le acuerda estas palabras?
+
+00:27:52.000 --> 00:27:53.000
+Donde estoy.
+
+00:27:53.000 --> 00:27:55.000
+Es como aneurística.
+
+00:27:55.000 --> 00:27:56.000
+Claro.
+
+00:27:56.000 --> 00:27:58.000
+Que puedo hacer?
+
+00:27:58.000 --> 00:28:04.000
+A dónde quiero llegar opciones. O sea, el último es muy relacionado al qué?
+
+00:28:04.000 --> 00:28:10.000
+Conde dice, no, es que deja de enfocarte en el cómo, necesitamos el qué, ¿cierto? ¿A dónde quieres llegar?
+
+00:28:10.000 --> 00:28:22.000
+O sea uno diseña todo al final del día en su vida, ¿cierto? Cada proceso, cada vida, la escuela, la salida al trabajo, la vuelta, todo es un diseño, bueno, un diseño repetitivos, otros no.
+
+00:28:22.000 --> 00:28:34.000
+Donde estoy es el estado inicial que los hechos que son verdades ahora ese robot que está o tú también o yo donde estamos hoy en día es el único hecho verdadero. Estamos aquí.
+
+00:28:34.000 --> 00:28:43.000
+Tiene que estar bien percibido al nivel de entorno de máquina, sensores, cámaras, procesamiento en tiempo real para poder entender el entorno.
+
+00:28:43.000 --> 00:28:51.000
+Pues, ¿qué puedo hacer acciones que necesita cada una hay que cambiar ejecutarla, hay que entender todo el plan de reglas.
+
+00:28:51.000 --> 00:28:59.000
+posibles acciones y cómo ejecutarlas bien, hay algoritmos hoy en día que lo hacen, de hecho hay LLMs que están entrenados para esto.
+
+00:28:59.000 --> 00:29:04.000
+optimizaciones de proceso replanificación, etcétera.
+
+00:29:04.000 --> 00:29:09.000
+A donde quiero llegar es la meda, los hechos que deben ser verdad al final del día.
+
+00:29:09.000 --> 00:29:15.000
+en quiero ver el final del proceso, el final de la película, eso es, entonces.
+
+00:29:15.000 --> 00:29:17.000
+.
+
+00:29:17.000 --> 00:29:31.000
+El caso aquí, por ejemplo, de Ponabel inventado, es un estado, ¿dónde está cada robot? Bien, su batería, ¿qué tipo es? ¿Dónde la tiene? Todos los robots son iguales o eso sería genial? Bien, pero lo más probable que no.
+
+00:29:31.000 --> 00:29:32.000
+Y luego cada
+
+00:29:32.000 --> 00:29:41.000
+Ha pedido dónde está cómo se hace cual es flujo de un pedido desde que llega hacia el camión, todo el proceso en tu end luego
+
+00:29:41.000 --> 00:29:52.000
+Acciones, mover, recoger, entregar, cargar, etcétera. O sea, uno piensa, ahora vendiendo los autos robóticos, etcétera, en cualquier momento va a verse el autotransformer.
+
+00:29:52.000 --> 00:30:00.000
+Pero alguien se ha visto cómo se movió el rock star de Tesla y cómo se pegó arriba, cómo se dio la vuelta.
+
+00:30:00.000 --> 00:30:11.000
+Lo que están o lo que ven como estos tipos, como viene traslación de los autos, tú sabes que son comandos, ¿bien? Entonces no te voy a poner creativo, oye, sácate las alas y nos vamos a volar 50 segundos. No.
+
+00:30:11.000 --> 00:30:24.000
+Todo el comando pre planificado predesignado al ejecutarlo por voz o por clic o lo que quieras, tiene que percibir el entorno, entender donde esta, posteriormente a esto, revisa las posibles acciones. ¿Qué seleccionaste tú?
+
+00:30:24.000 --> 00:30:27.000
+El estado y llega de inmediato
+
+00:30:27.000 --> 00:30:36.000
+Final porque robot que estaba atrás, o sea, hay autonomía o semi autonomía, pero el movimiento que se hizo completo igual hay una IA dentro del auto, ¿cierto?
+
+00:30:36.000 --> 00:30:43.000
+ese es el camino recuerda lo que advirtió Nvidia dos mil veintisiete va a ser el año de la ya física bien?
+
+00:30:43.000 --> 00:30:46.000
+Y se aceleró, o sea, apareció todo el 2026.
+
+00:30:46.000 --> 00:30:59.000
+O lo mismo cuando han dicho que nos vamos a Marte y vamos a comer insectos, cocarrachas, proteína, pero polvo, lo que sea, suave, fácil de cargar o llevar para poder vivir o sobrevivir en otro planeta.
+
+00:30:59.000 --> 00:31:05.000
+Y ahora vas a cualquier tienda, vas a Starbucks, como hablamos, vas a encontrar que puedes armar tu proteína.
+
+00:31:05.000 --> 00:31:09.000
+Vas a cualquier tienda como green o.
+
+00:31:09.000 --> 00:31:18.000
+Que sea, encuentras ahora, no sé, parquios de proteína, bebida, todo proteína, todo proteína, todo proteína. Estamos instancias de transición.
+
+00:31:18.000 --> 00:31:23.000
+Cierto? Y así cometan las marcas proactivamente a adoptarse al mercado.
+
+00:31:23.000 --> 00:31:25.000
+pero que no lo ve queda afuera
+
+00:31:25.000 --> 00:31:29.000
+Lo mismo aquí, hasta el momento de difícil.
+
+00:31:29.000 --> 00:31:39.000
+porque siempre se ha hablado que no, que llega la a revisar el auto, bien que llega la I a cambiar las patillas, bueno, va a volver a hacer con excelencia, ¿bien?
+
+00:31:39.000 --> 00:31:46.000
+hay robots para hacerlo, pero el costo es alto, hay muchas fallas todavía, hay un ciclo de aprendizaje, etcétera.
+
+00:31:46.000 --> 00:31:47.000
+Eso.
+
+00:31:47.000 --> 00:31:55.000
+Recuerdan cómo se hizo todo el movimiento de Rockstar y justo por suerte salió antes que la clase es este.
+
+00:31:55.000 --> 00:32:05.000
+Directo donde estoy que puedo hacer? ¿A dónde quiero llegar? Bien. Y sí, hay reglas básicas o acciones pre creadas, como mencionó.
+
+00:32:05.000 --> 00:32:14.000
+Nicolás, todos los pedidos del camión es a la meta, bien, que se tiene que llevar, tiene que estar todas bajadas y posicionadas antes que las catorce horas.
+
+00:32:14.000 --> 00:32:21.000
+Por eso la I A puede tener metas comerciales, puede tener metas físicas y lo puede cumplir, ¿bien?
+
+00:32:21.000 --> 00:32:36.000
+Bien, ¿cómo se ven estas acciones a nivel de strips? Recordando que sepamos hablar ahora solo código o hasta comandos antiguos que a alguien no le hacen sentido anteriormente, ahora te tiene que hacer todo sentido del mundo, ¿bien? Porque cualquier
+
+00:32:36.000 --> 00:32:43.000
+Más o menos decente, lo voy a llamar así, puede interpretar muy bien estos procesos.
+
+00:32:43.000 --> 00:32:51.000
+reacciones con espacio con comandos y órdenes y listo, bien, es tu pauta, un markdown si quieres. Bien, ¿sí?
+
+00:32:51.000 --> 00:32:56.000
+¿Qué parte compruebas que llegaste finalmente de los traspasos.
+
+00:32:56.000 --> 00:32:58.000
+Que cumplí la la meta.
+
+00:32:58.000 --> 00:33:05.000
+Es la última, tiene que ejecutarlas todas completas, o sea, cada uno tiene un estado que tiene que cerrar con éxito para avanzar al otro.
+
+00:33:05.000 --> 00:33:09.000
+Una vez cerraste el segundo, cerraste el 3o, ahí se cierra el proceso.
+
+00:33:09.000 --> 00:33:14.000
+Cada uno de ellos se puede abrir, es mucho más, ahora vamos a hacer un doble clic, vale, gracias.
+
+00:33:14.000 --> 00:33:16.000
+Entonces.
+
+00:33:16.000 --> 00:33:29.000
+Ejemplo clásico, bloques sobre una mesa y un trazo, ¿bien? No sé, quiero aplicar algo. Bien, cualquier escenario, uno sobre el otro, ¿bien? ¿Y tiene qué necesitas? Bien, no sé.
+
+00:33:29.000 --> 00:33:31.000
+Que tienes tú?
+
+00:33:31.000 --> 00:33:37.000
+te falta por tener cuando uno está planificando algo, no sé, voy a planificarme cambio de rol.
+
+00:33:37.000 --> 00:33:41.000
+Voy a poner a trabajar esto como plan robótico. Primero es qué.
+
+00:33:41.000 --> 00:33:51.000
+Tengo que obligar sobre qué poder llegar a cumplir una meta, un proceso, etcétera. Segundo, ¿qué necesito?
+
+00:33:51.000 --> 00:33:57.000
+tengo en la mano y que me falta bien que falta por adquirir tecnología, conocimiento, persona, equipos, lo que sea.
+
+00:33:57.000 --> 00:33:58.000
+0.
+
+00:33:58.000 --> 00:34:08.000
+Agregar bien que vas agregar que vas agregar al proceso que vas a eliminar del mismo proceso cuando te dicen tienes que dejar de hacer algo pa tener nuevo.
+
+00:34:08.000 --> 00:34:15.000
+Típica no haber está sobrecargado, deja de hacer algunas cosas para que pueda llevar el otro proceso.
+
+00:34:15.000 --> 00:34:17.000
+Alguien escucha esto en el trabajo? Nada.
+
+00:34:17.000 --> 00:34:22.000
+O estás liviano, cárguenlo más, claro, al revés.
+
+00:34:22.000 --> 00:34:29.000
+Claro, o sea, lo que se espera que esto será así, porque la edad del strip son ideas del año 71, ¿bien?
+
+00:34:29.000 --> 00:34:41.000
+Hay tantas cosas que fueron definidas que no pudimos ocupar bien, pero ahora sí, ahora sí se puede, o sea, usted puede encargar todos estos procesos a cualquier LLM, la tiene todas las conexiones, sensores y los músculos de metal.
+
+00:34:41.000 --> 00:34:44.000
+Conectados va a poder descubrir un plan.
+
+00:34:44.000 --> 00:34:57.000
+que traten de volver siempre dando el espacio a la I A colocando las posibles acciones en los planes y parámetros y variables, y dejen que el algoritmo corra en el cuerpo físico para encontrar la solución.
+
+00:34:57.000 --> 00:35:07.000
+es más rápido que el mismo robot pasa, escanea uno por uno, colocando los otros robots con diferentes movimientos y que entienda el entorno.
+
+00:35:07.000 --> 00:35:08.000
+Bien.
+
+00:35:08.000 --> 00:35:12.000
+Que será autonomía en aprendizaje.
+
+00:35:12.000 --> 00:35:26.000
+De aquí pasamos al formato del archivo bien este archivo se llama PDDL. ¿alguien conoce el PDL?
+
+00:35:26.000 --> 00:35:28.000
+Tampoco
+
+00:35:28.000 --> 00:35:39.000
+Bien, nada, el año 98, bien, el mismo strips, pero se cambió un lenguaje un poquito más común de entender, o sea, no sé qué tan común. Dice, "Define
+
+00:35:39.000 --> 00:35:57.000
+dominio de almacenamiento, acción, mover, parámetros robot desde hasta ubicación. Precondicion con o and desde, etc., lo mismo, efecto, nueva acción, recoger sus parámetros, su precondición y su efecto.
+
+00:35:57.000 --> 00:36:01.000
+Y así, nada más que humanizar un poquito más el lenguaje para que el ser humano lo entienda.
+
+00:36:01.000 --> 00:36:12.000
+La primera o la segunda te da igual porque la ella es capaz, de hecho, la primera te va mejor, o sea, con la tecnología de 71 te va a responder mucho mejor que la tecnoia del noventa y ocho.
+
+00:36:12.000 --> 00:36:17.000
+porque este lenguaje común era para nosotros, bien, para poder escribirlo como son los códigos, precisamente.
+
+00:36:17.000 --> 00:36:19.000
+Bien, como el Jason prompt.
+
+00:36:19.000 --> 00:36:30.000
+Agentes o los sistemas días adoptan muy bien al JavaScript prompt más que el texto natural, con exactitud, precisión y todo lo que se trabaja. Bien, sistema.
+
+00:36:30.000 --> 00:36:31.000
+Entonces, aquí.
+
+00:36:31.000 --> 00:36:33.000
+.
+
+00:36:33.000 --> 00:36:43.000
+Se separó el dominio de acciones, bien con precondiciones, con efecto, bien, porque para caminar tiene que tener piernas, ¿cierto? Por lo menos.
+
+00:36:43.000 --> 00:36:48.000
+Con el tiempo se agregó costo, duración y preferencia para complejizar más las variables.
+
+00:36:48.000 --> 00:36:53.000
+ahora uno lo ven como decenas de programas planificados, fast downward.
+
+00:36:53.000 --> 00:36:56.000
+Uh, if nothing, mean?
+
+00:36:56.000 --> 00:37:03.000
+O lo que hablamos de forwarding, the height casting, etc., todas estas cosas ya son algoritmos precargados.
+
+00:37:03.000 --> 00:37:08.000
+Me carga que el aire esté apagado y veo varios sin respiración y todo rojo.
+
+00:37:08.000 --> 00:37:10.000
+Bien.
+
+00:37:10.000 --> 00:37:21.000
+A ver si escribiera al pato también la puerta por mientras.
+
+00:37:21.000 --> 00:37:51.000
+si está muy caliente
+
+00:37:51.000 --> 00:37:53.000
+te van a encender.
+
+00:37:53.000 --> 00:37:56.000
+Hace mucho calor.
+
+00:37:56.000 --> 00:37:58.000
+Bien.
+
+00:37:58.000 --> 00:38:00.000
+Entonces
+
+00:38:00.000 --> 00:38:10.000
+Vamos a responder la pregunta uno para que pueden ver directamente que estos escenarios ahora, insisto, están entre la LLM para esto, ¿bien? Así que no hay drama.
+
+00:38:10.000 --> 00:38:21.000
+Hay que dirigir bien con un buen plan, si tu plan está mal, O tampoco quieres dar autonomia y lo colocas reglas tan exactas y comienzan A chocar todo, etcétera.
+
+00:38:21.000 --> 00:38:28.000
+Dice que planificar es buscar una secuencia de acciones, ¿cierto? Uno, dos, posibilidad, condiciones, etc.
+
+00:38:28.000 --> 00:38:34.000
+Del estado inicial a la meta para llegar de aquí a cerrar la meta final del proceso.
+
+00:38:34.000 --> 00:38:40.000
+que una máquina lo haga, describimos el mundo como hechos y cada acción como
+
+00:38:40.000 --> 00:38:55.000
+palabra necesita, agrega, borra, etcétera. Estos son los trips. Entonces, ¿qué haces tú en strips? Vas cortando y preparando. Defínes el entorno, generas posibles acciones, colocas precondiciones y lo escribas en lenguaje PDDL.
+
+00:38:55.000 --> 00:38:59.000
+Old Street mismo directamente y lo cargas al área.
+
+00:38:59.000 --> 00:39:06.000
+que decirlo, este es un PDL, eso es un strip, bien, esta es una acción para que se entienda bien, por
+
+00:39:06.000 --> 00:39:07.000
+Pero Amad
+
+00:39:07.000 --> 00:39:08.000
+love
+
+00:39:08.000 --> 00:39:09.000
+hicimos lo que adelante, sí, sí.
+
+00:39:09.000 --> 00:39:10.000
+Una consulta.
+
+00:39:10.000 --> 00:39:12.000
+Entonces tú vas a mezclar
+
+00:39:12.000 --> 00:39:29.000
+parte con regla y parte con el LM, el lm te entendí que lo vas a usar para optimizar la ejecución de las tareas y también cuando se presenten temas no podemos ir no, no, no definidos por regla, o sea, ¿dónde va a entrar el M y dónde va a entrar la regla entonces?
+
+00:39:29.000 --> 00:39:44.000
+Excelente, las reglas las vas a predefinir inicialmente bien en un PDL o imagínalo como un prompt de reglas, ¿bien? Esto es mismo, estos mismos reglas van a ir en el core, donde se conecta la API de LLM, o sea, si quieres entrenarlo, dale más.
+
+00:39:44.000 --> 00:40:00.000
+Eh, tú puedes ocuparlo como entrenamiento, como destilación o puedes ocuparlo como directamente a un prompt con una API dentro de un sistema de enterprise. Entonces, nada más que es el complemento, depende del tipo día o el LM que vas a ocupar, hay que cambiar el enchufe en general.
+
+00:40:00.000 --> 00:40:05.000
+Te echar a balsa pero tómalo como template prompt inicialmente.
+
+00:40:05.000 --> 00:40:06.000
+You know.
+
+00:40:06.000 --> 00:40:09.000
+Aprendieron el aire pa ver si funciona.
+
+00:40:09.000 --> 00:40:10.000
+mhm
+
+00:40:10.000 --> 00:40:11.000
+Ahí
+
+00:40:11.000 --> 00:40:12.000
+Adelante.
+
+00:40:12.000 --> 00:40:20.000
+Pablo
+
+00:40:20.000 --> 00:40:21.000
+Disculpa
+
+00:40:21.000 --> 00:40:28.000
+Sí que en la, la clase pasada me dio la impresión de que al final también los agentes para abordar soluciones la forma más eficiente era trabajar con estos enjambres que
+
+00:40:28.000 --> 00:40:38.000
+Que uno definía mal la arquitectura que el problema o la arquitectura adecuada para el problema y un poco lo que hizo también despegar la I A generativa.
+
+00:40:38.000 --> 00:40:44.000
+Entonces acá me imaginaba que podía hacer lo mismo al final hay que definir una arquitectura
+
+00:40:44.000 --> 00:41:02.000
+imagínate las reglas, porque las reglas pasan a ser un poco de contexto, pero al final los robots pasan a ser como un agente y debería buscar la la manera que este enjambre se comporte bien o buscar la mejor red de enjambre para
+
+00:41:02.000 --> 00:41:09.000
+Para, para resolver este tipo de problemas más allá de pensar en que no
+
+00:41:09.000 --> 00:41:10.000
+Claro, claro.
+
+00:41:10.000 --> 00:41:24.000
+¿Qué regla va a seguir cada inteligencia? No sé si se entiende pero yo encuentro que encontré la clase pasada que se parece mucho lo que paso con la I A generativa, lo que a como se están modelando los enjambres de de
+
+00:41:24.000 --> 00:41:26.000
+Claro.
+
+00:41:26.000 --> 00:41:27.000
+no no
+
+00:41:27.000 --> 00:41:40.000
+De agentes entonces como muy homólogo entonces al final a veces la sobre intervención humana para resolver un problema termina
+
+00:41:40.000 --> 00:41:41.000
+Claro.
+
+00:41:41.000 --> 00:41:42.000
+and llevándola a una peor solución, está secando mucho el cómo se puede abordar
+
+00:41:42.000 --> 00:41:44.000
+Ya sea Pablo .
+
+00:41:44.000 --> 00:41:48.000
+Sí, adelante, con micrófono, por favor, para que te escuchen eso.
+
+00:41:48.000 --> 00:41:51.000
+Tengo una duda, por ejemplo.
+
+00:41:51.000 --> 00:42:05.000
+Sí, cierto, y el street básicamente dice que lo que no se menciona no cambia. Entonces, ¿qué pasa, por ejemplo, en el caso de que un robot?
+
+00:42:05.000 --> 00:42:07.000
+.
+
+00:42:07.000 --> 00:42:24.000
+Tenga, por ejemplo, 2 acciones simultáneas o reciba simplemente algo que no está dentro de su información como se actúa en ese caso? Claro, aquí hay dos tipos de soluciones. Primero es observar la data sin
+
+00:42:24.000 --> 00:42:39.000
+ninguna acción entonces he recibido algunas cosas nuevas órdenes, acciones o data de entorno, etcétera, entonces si en ese proceso en tiempo real, queda almacenada. Aumenta riesgo, porque puede ser que justo hay un cartón nuevo o algo, una acción y choca y y cae, ¿bien?
+
+00:42:39.000 --> 00:42:52.000
+O lo otro es que hace reentrenamiento en tiempo real entonces claro esto más costoso pero tú puedes dejarlo ahí con más autonomía en el proceso como hablamos no la idea completa porque puedes comés a robar la bodega inventando algo.
+
+00:42:52.000 --> 00:43:06.000
+El proceso tiene autonomía y cuando ve que hay algún cambio en el proceso, trata de nuevo a correr todo el plan, desde describir, describir el entorno, revisar las acciones que tiene y si no, pues tú pedirle que cree una un skill nuevo, una acción nueva.
+
+00:43:06.000 --> 00:43:12.000
+Muy parecido al Open Close o al Hermes, pero open club puede crear si tú le pides, Hermes crea solo bien.
+
+00:43:12.000 --> 00:43:19.000
+que los modelos agénticos pero claro depende del modelo, el costo, el tipo de robot, hay mucho más limitante.
+
+00:43:19.000 --> 00:43:22.000
+En general todos graban .
+
+00:43:22.000 --> 00:43:30.000
+Pero claro, ahora como hablamos, la lavadora, ya estamos, o sea, se va a normalizar que la lavadora se mueve, la lavadora hace cosas, etcétera.
+
+00:43:30.000 --> 00:43:39.000
+Claro, es entendimiento del entorno y acciones, y depende la libertad que tú das.
+
+00:43:39.000 --> 00:43:41.000
+Vamos.
+
+00:43:41.000 --> 00:43:44.000
+Alguien, ¿quién planifica su vida?
+
+00:43:44.000 --> 00:43:46.000
+Va así nomás
+
+00:43:46.000 --> 00:43:51.000
+Así no, claro.
+
+00:43:51.000 --> 00:43:55.000
+Así nomás con todo, claro.
+
+00:43:55.000 --> 00:44:05.000
+Por ejemplo, a eso mismo, o sea, aquí lo mismo porque tú tienes un plan que quieres cumplir, ¿cierto? Primero comienzas a entender muy bien describir la situación, etcétera.
+
+00:44:05.000 --> 00:44:13.000
+Lo mismo si vas a ir a trabajar con chat dbt o con cloud y le dices oye créeme una presentación, no sé, pero algo etcétera, sin describir.
+
+00:44:13.000 --> 00:44:30.000
+En contexto, mejor dicho, además de esto, sin acciones, claro que quieres tú que se hace bien o que se haga o que quiere que haga la guía por ti, que calcule, que genere, que reforme, ¿qué es? Bien, y luego colocar la meta esperada para que se pueda cumplir al final del día.
+
+00:44:30.000 --> 00:44:33.000
+todas planificación y por lo menos son tres pasos.
+
+00:44:33.000 --> 00:44:38.000
+Te llevan a IA, le llevan ahí a física, le llevan a procesos de la vida.
+
+00:44:38.000 --> 00:44:47.000
+Trae planificación, aunque a veces no lo hacen detalladamente, están codificados para planificar, ¿bien?
+
+00:44:47.000 --> 00:44:50.000
+porque tiene que planificar.
+
+00:44:50.000 --> 00:44:58.000
+Vamos a revisar el tamaño del problema. O alguien dice, ¿sabes qué? Probamos todos los posibles escenarios para que estos cuarenta robots nos chocan entre ellos.
+
+00:44:58.000 --> 00:45:01.000
+Eso es imposible o es posible?
+
+00:45:01.000 --> 00:45:06.000
+Son cuarenta no más, no podemos simular a mano.
+
+00:45:06.000 --> 00:45:12.000
+cuántas posibles combinaciones de movimiento podrían ocurrir con 40 robots? Voy a volver atrás y ver quién saca un numero?
+
+00:45:12.000 --> 00:45:27.000
+Y se lleva un, una nota cuarenta robots que van en doce mil metros cuadrados bien y que tiene dos mil cuatrocientos ubicaciones de productos y mil ochocientos pedidos por turno y 45 veces al día cambia el plan.
+
+00:45:27.000 --> 00:45:32.000
+todo el nivel o cuál es el número máximo de combinaciones al día
+
+00:45:32.000 --> 00:45:33.000
+Uf.
+
+00:45:33.000 --> 00:45:44.000
+Vamos a ver quién se saca este número, cuál es la combinación de todos los posibles estados, escenarios y acciones y cosas que podrían ocurrir con este estado?
+
+00:45:44.000 --> 00:45:50.000
+Pero y sale con ella, a ver quién se saca un número que se podrá leer.
+
+00:45:50.000 --> 00:45:55.000
+Sí, correcto.
+
+00:45:55.000 --> 00:45:59.000
+Revícenlo a ver quién se sabe un número de combinación.
+
+00:45:59.000 --> 00:46:03.000
+3 mil veinticuatro combinaciones de combinaciones
+
+00:46:03.000 --> 00:46:05.000
+1024
+
+00:46:05.000 --> 00:46:08.000
+3024 millones
+
+00:46:08.000 --> 00:46:15.000
+De combinaciones, ¿por qué no lo hiciste en el Excel? Ajá, muy bien. Sí, claro, el número es por ahí, es correcto, a veces digo, "¿Por qué si yo lo hago en Excel? No puedes, son 40 robots? Claro.
+
+00:46:15.000 --> 00:46:20.000
+No lo no lo tiene conectado con Claude.
+
+00:46:20.000 --> 00:46:24.000
+Imagínate si queremos hablar de un sistema complejo y automatizar todo el país .
+
+00:46:24.000 --> 00:46:33.000
+Y a miles de miles de miles, de miles, de miles, de miles de millones de combinaciones, va a ser imposible, ¿cierto? Claro, es donde no puedes simular todo, ¿bien?
+
+00:46:33.000 --> 00:46:51.000
+Por eso tenés que dejar la parte dinámica y parte fija como reglas y dejar un poquito más fórmulas de cálculo para que en este estado de combinaciones entienda robot que cuando él va a mover un un un paso o lo que sea, hay por lo menos, por lo menos 100000 de combinaciones que tienen que tomar en cuenta.
+
+00:46:51.000 --> 00:46:53.000
+Bien, pero es para bien.
+
+00:46:53.000 --> 00:47:00.000
+su camino, su ruta y todo, y luego se quedan ajustados, tú cambias el producto y
+
+00:47:00.000 --> 00:47:03.000
+Se te va todo a.
+
+00:47:03.000 --> 00:47:04.000
+La calle era chocar bien.
+
+00:47:04.000 --> 00:47:07.000
+Esto es una posible combinaciones, por eso aquí dice.
+
+00:47:07.000 --> 00:47:09.000
+De hecho.
+
+00:47:09.000 --> 00:47:27.000
+Todo es imposible, bien, porque uno puede revisar por medio de bloques los posibles estados en escala logarítmica, bien, elevado a, bueno, 10 elevado a 8 en escala para llegar a diez bloques, tenemos 580000, 590000.
+
+00:47:27.000 --> 00:47:28.000
+Bien.
+
+00:47:28.000 --> 00:47:32.000
+9900 entonces cómo se ve aquí?
+
+00:47:32.000 --> 00:47:46.000
+Cada bloque que agregamos multiplica las situaciones posibles por 10 o más. Bien, es una escala logarítmica por 10 o más. Entonces, primero fue 1, no sé, 10.
+
+00:47:46.000 --> 00:47:48.000
+100 y así.
+
+00:47:48.000 --> 00:48:00.000
+Posteriormente a esto dice que con diez bloques ya son cincuenta y nueve millones, nuestro almacén es muchísimo más grande, por eso hablamos de más de 3 mil millones de combinaciones.
+
+00:48:00.000 --> 00:48:04.000
+que se agregados ahora sí frío.
+
+00:48:04.000 --> 00:48:11.000
+Bueno, mejor frío que calor atentos y despiertos bien.
+
+00:48:11.000 --> 00:48:15.000
+Después de esto dice que lo que la teoría exige.
+
+00:48:15.000 --> 00:48:16.000
+Profe, y lo
+
+00:48:16.000 --> 00:48:19.000
+Planificar y en general es un adelante.
+
+00:48:19.000 --> 00:48:36.000
+toda la simulación o en los robots que van haciendo en cada una de los turnos, por decirlo así, en cada una de las iteraciones supone que va a mejorando el sistema
+
+00:48:36.000 --> 00:48:37.000
+White com
+
+00:48:37.000 --> 00:48:49.000
+Hay como un agente paralelo que está tratando de aprender por ahí para ir aprendiendo para ir mejorando a poco
+
+00:48:49.000 --> 00:48:50.000
+Claro.
+
+00:48:50.000 --> 00:48:53.000
+Va a ir como de los pequeños errores que va habiendo por ahí de los pequeños choques para que no esté como para que esté continuamente aprendiendo un sistema así
+
+00:48:53.000 --> 00:49:08.000
+Claro, o sea, esta decisión la puedes colocar tú, depende del del modelo o el producto que quieres, bien, pero sí se puede, efectivamente, y además de esto, tú decides si quiere que se implementa directamente o quieres que no, que se ha implementado, sino solamente recoger
+
+00:49:08.000 --> 00:49:25.000
+o que se ajusten errores por grado liviano o que se ajusten errores por grado grande o alto o crítico, lo que sea, o sea, todo se puede, en palabras simples, lo correcto tener un agente que puede corregir unas cosas a bajo escala o baja escala por mientras para ver cómo anda el pasillo.
+
+00:49:25.000 --> 00:49:30.000
+Pero igual la I A es capaz de tomar decisiones si tú le das la libertad.
+
+00:49:30.000 --> 00:49:42.000
+Bien entrenada, imagínate, por ejemplo, 5, 1, montada con Optimus y que tiene libertad y tiene que administrar una tienda, administrar una, una cadena o lo que sea.
+
+00:49:42.000 --> 00:49:50.000
+cómo crees que lo haría lo haría muy bien o le haría muy mal un cinco punto uno con Effort máximo.
+
+00:49:50.000 --> 00:49:54.000
+debería hacerlo bien
+
+00:49:54.000 --> 00:49:55.000
+que a tu perrito.
+
+00:49:55.000 --> 00:49:56.000
+Claro, ese es el tema, o sea, depende mucho del área, ajá, y la que tú vas.
+
+00:49:56.000 --> 00:50:00.000
+I
+
+00:50:00.000 --> 00:50:01.000
+Claro
+
+00:50:01.000 --> 00:50:02.000
+a servir
+
+00:50:02.000 --> 00:50:15.000
+O sea, por eso te digo, tienes toda la parte que depende de la I A, depende del presupuesto, depende de la planificación, depende del diseño, pero es recomendable siempre que tengas un agente que esté corrigiendo algo
+
+00:50:15.000 --> 00:50:31.000
+en el proceso sí o sí bien porque si no es un proceso de reentrenamiento ciego, o sea, no tiene y si vas a hacer ya, que de una se pueda mejorar, ajustar cosas, hasta puedes ajustar acciones, puedes crear skills, o sea, si no quieres entrenar
+
+00:50:31.000 --> 00:50:43.000
+Pues usar una enterprise y lo agregas artefactos skills conectores y que le das un grado de autonomia porque si trabajas con OpenCloud o Hermes Agent como hablamos, no es
+
+00:50:43.000 --> 00:50:45.000
+necesario que tenga un modelo open source, puede funcionar.
+
+00:50:45.000 --> 00:50:55.000
+Que es que claro ese como el concepto que estoy tratando de todavía cómo discernir entre una de ellas está aprendiendo, si hay que entrenar la parte
+
+00:50:55.000 --> 00:50:57.000
+Claro, o sea, sí, rag y y más.
+
+00:50:57.000 --> 00:51:03.000
+como quizá es como quizás la diferencia entre la diferencia
+
+00:51:03.000 --> 00:51:07.000
+entre una inteligencia quizá general general pero
+
+00:51:07.000 --> 00:51:09.000
+Claro, o sea, eso ya.
+
+00:51:09.000 --> 00:51:11.000
+Que sería como un
+
+00:51:11.000 --> 00:51:17.000
+Justamente perdimos estás estás cortando, claro, pero
+
+00:51:17.000 --> 00:51:38.000
+eh en general el proceso es lo que lo que estamos mencionando depende de la I A depende del modelo depende del estado, depende muchas no vale la pena, quizás el robot tiene que ir a buscar todos los días el mismo producto del mismo pasillo, del mismo lugar. ¿Para qué necesito ella?
+
+00:51:38.000 --> 00:51:39.000
+Now.
+
+00:51:39.000 --> 00:51:42.000
+Bien, mejor codificarlo exactamente con la tarea me refiero bien depende depende de del proceso en general bien.
+
+00:51:42.000 --> 00:51:48.000
+Ahora, ¿sí?
+
+00:51:48.000 --> 00:51:55.000
+Sí, sí, efectivamente, hay frameworks, hay pipelines, hay cosas que están hechas open source que se pueden consumir directamente.
+
+00:51:55.000 --> 00:52:06.000
+encontrar en alguien face o ven perseguir en GitHub que hay muchos repositorios de Tesla y muchas empresas chinas tambien de robotica que lo dejan libres.
+
+00:52:06.000 --> 00:52:08.000
+Claro, efectivamente, ahí disminuye.
+
+00:52:08.000 --> 00:52:11.000
+Entre comillas el entrenamiento.
+
+00:52:11.000 --> 00:52:15.000
+Claro, o sea yo lo he visto en.
+
+00:52:15.000 --> 00:52:18.000
+En algunos temas para, eh.
+
+00:52:18.000 --> 00:52:31.000
+tomando decisiones y van.
+
+00:52:31.000 --> 00:52:37.000
+eh.
+
+00:52:37.000 --> 00:52:58.000
+Un escenario en donde no tenía alternativa para poder tomar decisiones. Claro, o sea, es lo mismo que tú mencionas, es común en tecnología. ¿Qué pasa si alguien quiere hacer un RP? ¿Lo haces de cero o?
+
+00:52:58.000 --> 00:53:13.000
+puedes descargar un RP open source que resuelve los el 80/20 y luego que tú vas acomodando los módulos, los procesos, la integración, exactamente igual. Hay frameworks que puede resolver, depende del tipo, o sea, tienes que leer toda la documentación y revisarla muy bien.
+
+00:53:13.000 --> 00:53:24.000
+Y hay unas que tienen más libertad, otros menos libertad, pero claro, este mismo más el fenómeno de OpenCloud o Ernest agent que puede generar skills directamente, ya estamos. O sea, puede
+
+00:53:24.000 --> 00:53:34.000
+Subir de a poco la mejor al entrenamiento depende la libertad que das por el proceso, pero claro, solo puede llegar a cubrir 90%, por ejemplo, un periodo de tiempo.
+
+00:53:34.000 --> 00:53:40.000
+Se ajusta a tu negocio y todo, correcto.
+
+00:53:40.000 --> 00:53:55.000
+Profesor has visto solo para para complementar eh hace hace años en la pandemia eh me tocó trabajar con Movil Industrial Robots que son estos robots móviles de de plantas de warehouse y claro generalmente tenían como
+
+00:53:55.000 --> 00:54:10.000
+eh, para un solo robot, el modelo local que tiene el mismo robot, mapeas en tres D y después le, le dices ruta, ruta B y sigue ciertas rutas con independencia, autonomía. Por ejemplo, si entra una persona la
+
+00:54:10.000 --> 00:54:25.000
+Kiva, etcétera etcétera pero claro cuando tienes un un tema de fleet management cuando tienes muchos robots ahí tienes como un producto adicional que es como claro un modelo un modelo más macro.
+
+00:54:25.000 --> 00:54:42.000
+Al final lo que hace es que retrasa las rutas óptimas para toda la flota y entonces allí claro es autónomo en su ruta, pero pero el fleet management va traqueando porque si hay obstáculos y los múltiples obstáculos llevan a las mismas rutas de los robots, entonces
+
+00:54:42.000 --> 00:54:46.000
+Mejora entonces al final por eso lo que decía un compañero.
+
+00:54:46.000 --> 00:54:59.000
+Hace rato que decía que claro que hay un modelo macro y un modelo micro, entonces, claro, un carro tiene su propio modelo y un modelo global para planificación. Yo creo que
+
+00:54:59.000 --> 00:55:06.000
+que ahora sí es como la en la industria pero pero bueno siempre hay innovación.
+
+00:55:06.000 --> 00:55:09.000
+Tratando contigo.
+
+00:55:09.000 --> 00:55:15.000
+O sea que también es muy buen punto porque imagínate que ya hicimos todo bien.
+
+00:55:15.000 --> 00:55:17.000
+Eh .
+
+00:55:17.000 --> 00:55:25.000
+Y no, todos los robots que codificábamos, que cargábamos tomaron la misma decision juntos, llegaron todos, chocaron en la misma esquina.
+
+00:55:25.000 --> 00:55:35.000
+Dos cosas, o sea, cada uno que puede justo en este escenario, cuando ve que hay un peligro que está aumentando, que se cambia de ruta, recalcula lo que sea, o el otro tener un orquestador.
+
+00:55:35.000 --> 00:55:52.000
+Esta orquestador puede ser no físico no no tiene sentido ser físico como jefe de turno sino es dentro del mismo LLM es un agente que él ve todas las rutas de forma central como ve la estrella y toma la decisión de la orquestación, que también esto puede minimizar mucho riesgo, efectivamente.
+
+00:55:52.000 --> 00:55:57.000
+Muchas gracias, buen, buen punto. Profe, entonces el modelo siempre debería ser híbrido.
+
+00:55:57.000 --> 00:56:05.000
+Lo recomendable siempre así o sea porque hacerlo todo abierta es complejo y muy costoso y tiene que hacer todo de cero.
+
+00:56:05.000 --> 00:56:17.000
+El modelo libre es, sí, aunque lo colocas framework no está ajustado sobre el framework, eso ocupas algo enterprise demasiado entrenado, ajustado, quizás sabe mucho más que el framework.
+
+00:56:17.000 --> 00:56:28.000
+Entonces, alguien ha pedido a, no sé, a Fable 5.1 que diseñe todo un ecosistema 3D de una empresa y lo pasen las fotos y todo, y comienza a calcular los movimientos, las rutas y todo.
+
+00:56:28.000 --> 00:56:40.000
+solo completo escaneando la bodega se le das una cámara y listo, va escaneando todo, va dibujando todo el mapa, los procesos, posiciones, todo, todo lo que hay etiquetas de producto, etcétera.
+
+00:56:40.000 --> 00:56:50.000
+Claro, ahí te queda el framework bien pero el framework es más pequeño de guía que lo que conoce la I A. Por eso Híbrido para solventar la cosa.
+
+00:56:50.000 --> 00:56:53.000
+Dinámico
+
+00:56:53.000 --> 00:56:57.000
+Sí.
+
+00:56:57.000 --> 00:57:01.000
+Que ve que eran verde lo que en caja verde.
+
+00:57:01.000 --> 00:57:07.000
+Eso claro eso sí lo mucho esto o Rasby very .
+
+00:57:07.000 --> 00:57:19.000
+Esto también servir cuatro y que pueden también tener son microcontroladores de una forma u otra y que tienen fines de entrada y salida pueden disparar señales, pueden conectarse con diferentes arduinas a la vez para hacer esta ejecución.
+
+00:57:19.000 --> 00:57:27.000
+Si uno quiere hacer un robot de la NASA literal, si uno quiere hacer un robot que se mueve, que carga un producto, que lo lleva.
+
+00:57:27.000 --> 00:57:31.000
+Yo creo que con unos, que con Apple lo que quieras.
+
+00:57:31.000 --> 00:57:35.000
+Con unas 500.000 pesos lo puedes armar.
+
+00:57:35.000 --> 00:57:48.000
+Bien, usted tiene que ir los moteros, servo, bien, pero se va a volver igual, ¿bien? Voy a llevar que lleva cajitas, que la clasifica, que la etiqueta, que la entiende muy bien sin drama.
+
+00:57:48.000 --> 00:57:54.000
+Ajá mhm
+
+00:57:54.000 --> 00:58:00.000
+Claro.
+
+00:58:00.000 --> 00:58:02.000
+O sea.
+
+00:58:02.000 --> 00:58:18.000
+Yo creo que después uno podría ir si aprender robótica a esa altura tampoco es complejo revisar la señal si depende de robots depende qué robot que tienen tecnología todavía como close source que no puedes verla o entenderla, ni siquiera replicarla.
+
+00:58:18.000 --> 00:58:29.000
+Pero si uno quiere hacer conectores y levantar un cuerpo e imprimirlo bien, que se puede mover y que enchufar cloud pa programarte esto y luego colocar otro cloud adentro que pueda hacer talk agéntico.
+
+00:58:29.000 --> 00:58:32.000
+Sufrimiento de antes.
+
+00:58:32.000 --> 00:58:49.000
+Cada día menos hasta robótica.
+
+00:58:49.000 --> 00:58:50.000
+La li, Lucas
+
+00:58:50.000 --> 00:58:51.000
+Pero lo más probable que pronto y más que nunca uno puede importar unos robots que van a ser como libre, ¿bien? Y tú puedes traerlo y conectarlo con GitHub o alguien que eso lo que quieras, descargar y codificar y programar el framework que quieras y la idea que quieras y echarlo a andar.
+
+00:58:51.000 --> 00:58:52.000
+mhm
+
+00:58:52.000 --> 00:58:54.000
+Es lo que me está gustando
+
+00:58:54.000 --> 00:58:55.000
+Okay
+
+00:58:55.000 --> 00:58:58.000
+Yeah, eso mismo
+
+00:58:58.000 --> 00:59:01.000
+It
+
+00:59:01.000 --> 00:59:11.000
+cosa más buena?
+
+00:59:11.000 --> 00:59:23.000
+Ve a cambiar dinámicamente, etcétera.
+
+00:59:23.000 --> 00:59:24.000
+Hija.
+
+00:59:24.000 --> 00:59:25.000
+Sí,
+
+00:59:25.000 --> 00:59:27.000
+No sé, toda la vida va a ser de sistemas, vienen palabras simples, por eso es muy importante entender los sistemas, sus diseños, etcétera. Mimo, no vas a tener que llamar al taller para levantar un ticket de servicio, se va a hacer automáticamente desde tu auto.
+
+00:59:27.000 --> 00:59:29.000
+Al tiro
+
+00:59:29.000 --> 00:59:33.000
+Que se va, sí, al tiro. Sí.
+
+00:59:33.000 --> 00:59:41.000
+O se va, se va el auto solo al taller o vuelva solo es en caso de que va a requerir mantenimiento, bien, va a depender del escenario.
+
+00:59:41.000 --> 00:59:43.000
+Yeah.
+
+00:59:43.000 --> 00:59:57.000
+Entonces eh primera forma de buscar en qué dirección debería avanzar recuerden que esto es más que nunca es lo que murió el año setenta y uno en el veintiocho que no vio tanto la luz es ahora donde va a haber la luz muy fuerte, ¿bien?
+
+00:59:57.000 --> 01:00:01.000
+Porque quedamos en deuda, por eso se está aplicando entonces.
+
+01:00:01.000 --> 01:00:17.000
+Planificador explora situaciones una por una. La primera decisión es por dónde empezar, como te dicen, toma la primera decisión, toma el primer paso. No, que voy a hacer esto, voy a construir un edificio allá, todavía ni siquiera arrancas con un route de empresa por día, ¿bien?
+
+01:00:17.000 --> 01:00:23.000
+El primer paso, ¿por dónde quiere arrancar? Bien, siempre lo mismo, paso a paso, todo planificado, o sea, no.
+
+01:00:23.000 --> 01:00:28.000
+mata la libertad pero en procesos que tiene que estar planificados.
+
+01:00:28.000 --> 01:00:35.000
+Por ejemplo, ¿por dónde empezar desde dónde estoy o desde dónde quiero llegar? ¿Por dónde vas a arrancar?
+
+01:00:35.000 --> 01:00:46.000
+Como te dicen no que estamos con deuda entonces tiene que ir a cerrar toda la deudate ahí para llegar al cero y ahí arrancas hacia la meta. Entonces tu primera meta es cerrar brechas, ¿bien?
+
+01:00:46.000 --> 01:00:54.000
+Opción A dice que desde el inicio hacia la meta. Ahora, si muevo, si recojo, si cargo, así de simple, todas las
+
+01:00:54.000 --> 01:01:01.000
+combinaciones de miles de millones matemáticas que está atrás es para decidir uno de los botones que están en la lista, bien.
+
+01:01:01.000 --> 01:01:02.000
+.
+
+01:01:02.000 --> 01:01:10.000
+posteriormente a esto, comienza el proceso hasta llegar a la meta. Hay que probar cada acción posible y mira dónde me lleva y así.
+
+01:01:10.000 --> 01:01:21.000
+porque los robots y los autos cuando aparecen manejando solos etcétera han chocado un montón, han hecho muchos problemas, ¿cierto? en entornos de pruebas y entrenamiento.
+
+01:01:21.000 --> 01:01:28.000
+de la nada y pasó, por eso es importante reajuste reentrenamiento como híbrido.
+
+01:01:28.000 --> 01:01:36.000
+Lo otro cuando vas directamente desde la meta hacia atrás como higiene inversa bien desde pensamiento a la meta hacia atrás.
+
+01:01:36.000 --> 01:01:40.000
+dices qué la produce bien la meta.
+
+01:01:40.000 --> 01:01:44.000
+Bien, que la produce tiene que pensar por escenario uno, por escenario 2.
+
+01:01:44.000 --> 01:01:49.000
+ahora o cuando llego y a qué estado voy a llegar bien entonces.
+
+01:01:49.000 --> 01:02:00.000
+Lo mismo, recuerdan ingeniería inversa, que también es una carrera demasiado valiosa, te dan un producto y decía, "Desármalo y redibuja todo el camino para llegar a producirlo, ¿bien?
+
+01:02:00.000 --> 01:02:08.000
+Se desarmas lo mismo que una vez pasó con Range Rover, que una empresa china lo hizo toda la jerez inversa.
+
+01:02:08.000 --> 01:02:12.000
+Volvieron a crear muchos autos pareciendo a Alan Rover.
+
+01:02:12.000 --> 01:02:17.000
+Lo mismo que va a pasar porque mañana va a aparecer un auto volando en China.
+
+01:02:17.000 --> 01:02:19.000
+Probable que será.
+
+01:02:19.000 --> 01:02:22.000
+vuelo más largos que Rockstar
+
+01:02:22.000 --> 01:02:25.000
+Bien, ingeniería inversa.
+
+01:02:25.000 --> 01:02:31.000
+Segunda forma, bien, uno puede llevar directamente la brújula, que te dicen el norte, ¿bien?
+
+01:02:31.000 --> 01:02:45.000
+Comenzamos con una estimación rápida de cuánto falta para llegar a la meta, porque no simplemente lo digo a robot, la meta es cargar 14 pedidos y llevarlos al camión antes que la hora, no sé, antes que las 2 de la tarde.
+
+01:02:45.000 --> 01:03:04.000
+que pasa en el progreso, porque él ya llevo una, llevo dos, están cambiando las variables, ¿cierto? Está consumiendo energía, está bajando la pila o la batería y hay menos menos cajas de cartón por por la ubicación A, hay más cajas de cartón por la ubicación B donde está el camión inventando algo.
+
+01:03:04.000 --> 01:03:13.000
+escenario se tiene que actualizar por cada ronda, por cada cierre de proceso colocas la subneta, subneta, subneta hasta que se cumple la meta total.
+
+01:03:13.000 --> 01:03:15.000
+Bien.
+
+01:03:15.000 --> 01:03:23.000
+Lo mismo, resolver una versión mas facil del mismo problema, la mas usada, imaginar que las acciones nunca borran nada, ¿bien? Es el
+
+01:03:23.000 --> 01:03:32.000
+problema fácil de resolver al instante y luego de sus acciones o soluciones de estimación, imagínate que no se va a borrar nada y todo es un estado fijo.
+
+01:03:32.000 --> 01:03:46.000
+O no ingresa, trata de disimularlo así y luego comienzas a hacer los movimientos dinámicos o los cambios variables adentro del proceso y así llegarás a un dicho que lleva directamente cómo mirar el mapa antes de caminar.
+
+01:03:46.000 --> 01:03:55.000
+Alguien entra quien ahora coloca y no es directamente antes que arrancar, coloca nues y se mueve wallmap sin dar el mapa.
+
+01:03:55.000 --> 01:04:01.000
+O sea, yo la veo cuando bajo a Vespucio norte, este porque se va por GPS a internet, ahí pierdo el mapa.
+
+01:04:01.000 --> 01:04:06.000
+Pero quien confía tanto ahora en colocar hierar directamente.
+
+01:04:06.000 --> 01:04:07.000
+Yo
+
+01:04:07.000 --> 01:04:08.000
+Que te lleva al map a eso.
+
+01:04:08.000 --> 01:04:11.000
+cien por ciento
+
+01:04:11.000 --> 01:04:12.000
+Okay.
+
+01:04:12.000 --> 01:04:27.000
+E coloca la casa y termina la casa de la ex.
+
+01:04:27.000 --> 01:04:28.000
+Google Maps en India y quedó tirado, claro.
+
+01:04:28.000 --> 01:04:32.000
+Pero pide la noche.
+
+01:04:32.000 --> 01:04:46.000
+No, o sea, están aquí confían porque están en Chile, bien, pero sea en otro país no van a confiar ni un kilómetro antes que revisar el paso. Y aparte aquí conocen muy bien lugares seguros, lugares no seguros, otro país no va a pasar así. Bien, porque ambas partes no tienen
+
+01:04:46.000 --> 01:05:02.000
+de seguridad que nos vayas por este barrio porque lo más probable que va A salir sin auto Y sin riñones. Eso no dice todavía. Profe, ¿cómo es esto distinto como a los métodos típicos de heuristicica de búsqueda de ruta? ¿Cuál es la innovación acá?
+
+01:05:02.000 --> 01:05:22.000
+como un vendedor viajero, un nuevo, o sea, lo que tú haces con el algoritmo anterior es prestimar para posibles rutas, encontrar la ruta, pero acá estamos para laurística donde defino, no sé la la distancia mínima a algún lugar, alguna función de costo que me permita tomar decisiones como locales. Claro.
+
+01:05:22.000 --> 01:05:34.000
+Es re antigua como que es lo nuevo acá en esta parte lo nuevo aquí que tú puedes habilitar un flujo de reestimación de tiempo real de cualquier cambio, porque estamos viendo que hay miles de miles de millones de combinaciones al final del dia.
+
+01:05:34.000 --> 01:05:53.000
+los robots que están aquí tienen por lo menos 45 cambios al día en los planes bien de trabajo ejecución. Entonces, por cada una tú vas a correr todo el algoritmo. ¿Cuánto compota necesitas para sacar los miles de miles de combinaciones? Claro, pero pero la heuristic como subyacente para cada robot específico igual es la misma, o sea, es
+
+01:05:53.000 --> 01:06:02.000
+Un proxy es la cualquiera por la distancia más corta o alguna otra cosa o eso o eso en sí mismo va evolucionando. Con eso ya quedó.
+
+01:06:02.000 --> 01:06:08.000
+Vas a hacer el camino óptimo no es el más corto porque va a chocar con el otro robot que viene por allá.
+
+01:06:08.000 --> 01:06:14.000
+y qué pasa si el camino tiene que ser una vez largo y la otra vez corto? O a veces tiene que inventar entre pasillos.
+
+01:06:14.000 --> 01:06:30.000
+Para que todo lo que entre al final, el algoritmo sí tiene que hacer toda la traducción y la carga de entrenamiento para cada movimiento.
+
+01:06:30.000 --> 01:06:38.000
+Entonces se leía también sabe este tipo de algoritmos clásicos, entonces más fácil ejecutarla directamente con uno.
+
+01:06:38.000 --> 01:06:53.000
+Sensor intemporal, de acción intemporal, poder hacer estimaciones. Porque no todos los caminos cortos son caminos óptimos en este escenario. Y y volviendo como al modelo que conversaban ahí, que es como híbrido, donde tengo quizás, no sé por lo que explica el compañero y una cuestión como más
+
+01:06:53.000 --> 01:07:01.000
+eh digamos antiguas y como en carrot como más programada y un LLM que quizás toma decisiones orquestando.
+
+01:07:01.000 --> 01:07:16.000
+ese como re esas decisiones y ese como re entrenamiento o definir cuál es la mejor heuristic va ocurriendo en una capa más cómoda de orquestación O va ocurriendo localmente en cada robot de este como enjambre. Muy buen punto.
+
+01:07:16.000 --> 01:07:35.000
+O sea, si tú defines en cada robot por sí mismo, lo más probable es que todos busquen el camino más corto, claro, pero si tienes una orquestatora, orquestadora atrás que debería estar penalizando matemáticamente a todos los robots como una red, es donde se aplica la red. Entonces, claro, si es un solo robot y dale, instálalo ahí nomás y solo.
+
+01:07:35.000 --> 01:07:45.000
+Pero si no, tiene que conectarse a la red y eso define como la heuristicica macro que van a estar usando, pero que va evolucionando gente conmigo que el mismo camión no tiene chófer.
+
+01:07:45.000 --> 01:07:55.000
+Viene con ella y manda señales de conexión directas y entorno más con más variables, aunque el mismo producto, por ejemplo, o los mismos pasillos, se cambien por día.
+
+01:07:55.000 --> 01:08:11.000
+mañana o lo en esta fecha de septiembre por ejemplo, vienen productos que son más pesados, entonces cambia todo el orden de pasillos bien justo hay un producto que la fábrica de origen no logró quibró o lo que sea. Ahora te cambia la regla. Exactamente, tienes un entorno de cambio, son demasiado grandes
+
+01:08:11.000 --> 01:08:24.000
+Y requieres más conciencia que algoritmo directo que van calculando, que es correcto, tú puedes resolver esto haciendo toda la traducción y volviendo a algoritmos clásicos, ejecutando todo y por miles o N veces al día.
+
+01:08:24.000 --> 01:08:30.000
+Pero poder hacerlo el costo de todas las partes de atracciones y, y lectura visual, etcétera.
+
+01:08:30.000 --> 01:08:33.000
+compleja, vale, compleja
+
+01:08:33.000 --> 01:08:35.000
+Yo tengo una consulta.
+
+01:08:35.000 --> 01:08:36.000
+Adelante.
+
+01:08:36.000 --> 01:08:41.000
+Oye, tú en la lámina anterior donde tú nos mostrabas sobre, ya yo puedo partir.
+
+01:08:41.000 --> 01:08:47.000
+Desde ahora hacia donde quiero llegar o a la inversa, ¿no? Y eso es.
+
+01:08:47.000 --> 01:08:48.000
+Uh-huh.
+
+01:08:48.000 --> 01:08:51.000
+Como de igual teoría de gestión de de proyectos, pues tú puedes partir de cualquiera de los dos temas.
+
+01:08:51.000 --> 01:09:01.000
+Ahora pero pero muy en el contexto de la I A de qué depende esto de de de qué puedo depender qué escenarios mejor hacerlo de una forma o la otra.
+
+01:09:01.000 --> 01:09:05.000
+Que implicaciones tiene a nivel del contexto de la información que tengo que darle el.
+
+01:09:05.000 --> 01:09:13.000
+El el el si parte de una estrategia o la otra porque me resulta bien interesante desde el punto de vista la planificación y me gustaría como entenderlo un poquito más.
+
+01:09:13.000 --> 01:09:23.000
+Asociado al al contexto propio de los agentes o del sistema de guía que estemos construyendo.
+
+01:09:23.000 --> 01:09:24.000
+Acción de, claro.
+
+01:09:24.000 --> 01:09:25.000
+Claro, solamente va a entender bien, o sea, tú dices entre opción A y opción B, ¿de qué depende qué contexto tomar una decisión, ¿cierto? Bien.
+
+01:09:25.000 --> 01:09:36.000
+Sí, exactamente, y que y qué implica? ¿Qué recursos debería darle o tener? No sé, ¿en dónde requiero más contexto, información el uno o el otro, si es que hay alguna diferencia en realidad.
+
+01:09:36.000 --> 01:09:41.000
+Ya, mira, vamos a colocar un ejemplo en la vida real, luego un ejemplo para la IA directamente.
+
+01:09:41.000 --> 01:09:49.000
+pasa si tú te dijeron, no sé, tienes que vender por diez, bien, una meta comercial.
+
+01:09:49.000 --> 01:10:05.000
+te colocaste todo un plan, ¿bien? La opción A 1, a 2, a tres, etcétera, diferentes planes que contemplan la edición, la opción que tú colocas acciones, teniendo el estado actual y para poder lograr la meta, ¿cierto?
+
+01:10:05.000 --> 01:10:06.000
+Ya eso tú planificaste el camino .
+
+01:10:06.000 --> 01:10:10.000
+qué pasa si ninguna de estas resultó
+
+01:10:10.000 --> 01:10:14.000
+Y de repente salió algo y lograron y no saben por qué.
+
+01:10:14.000 --> 01:10:24.000
+Vuelvas atrás a descubrir el porqué, o qué pasa si tú planificaste un camino al AIA, le dijiste, estas son tus acciones desde el estado actual para cumplir una meta. Listo. ¿Qué pasa?
+
+01:10:24.000 --> 01:10:36.000
+No sé si tú le dijiste a la I A, esa es la meta y cumplela como quieras y fue la I A y se nos roto las posibles combinaciones adentro del algoritmo y logró la meta. ¿Cómo vas a saber cómo lo hizo?
+
+01:10:36.000 --> 01:10:52.000
+hacer vuelta atrás y reconstruir el estado correcto o el óptimo que pasó ahí para encontrar cuáles fueron las acciones que se hicieron por cumplir la meta. Lo que yo haria en general, y que se radia o que cerrar de meta personal, haria ambos a la vez, bien in paralelo.
+
+01:10:52.000 --> 01:11:06.000
+que te pasa cuando le dicen mira prepara esto pide presupuesto etcétera o qué opinas estratégicamente de este proceso y tú llegas, Gustavo, y dices, yo opino 1, 2, 3, 4 para cumplir la meta, 1, 2, 3, 4.
+
+01:11:06.000 --> 01:11:13.000
+Te dicen oye hasta como demasiado ajustado a tu forma de ver las cosas, pero necesitamos que sea de la empresa, ¿bien? Entonces
+
+01:11:13.000 --> 01:11:25.000
+modelo final tiene inversamente. El lo cuadras contra el tuyo.
+
+01:11:25.000 --> 01:11:34.000
+Vas a dar cuenta de los puntos ciegos estratégicamente que tú no ves bien o si de verdad tú tienes el punto estratégico correcto de la compañía por completo.
+
+01:11:34.000 --> 01:11:52.000
+Mismo con la ya, yo echaría a andar ambas partes, una parte pre planificada por mí con acciones y la otra desde la acción oculta, directamente desde el estado actual hacia la meta y ver qué acciones tomaría la IA en qué posición, en qué minuto y cuatro ambas imágenes.
+
+01:11:52.000 --> 01:11:53.000
+Se entiende?
+
+01:11:53.000 --> 01:11:55.000
+Bien, sí, sí, sí, lo entiendo, lo entiendo, ya.
+
+01:11:55.000 --> 01:11:58.000
+Perfecto
+
+01:11:58.000 --> 01:12:05.000
+Muy bien, eh, hay unas filas también que uno tiene que estar esperando, ¿bien?
+
+01:12:05.000 --> 01:12:06.000
+Y preparando.
+
+01:12:06.000 --> 01:12:10.000
+Y además de esto, como dice en tercer forma.
+
+01:12:10.000 --> 01:12:27.000
+Todos son grafos se da cuenta que estamos repitiendo lo mismo todas son todas son grafos que este es el tema, eso es lo que resuelve a todo, son todos chain, todos cadenas, todas estas cadenas tienen diferentes modelos de arquitectura, de jerarquía, de secuencia, compro, con acción, con lo que sea.
+
+01:12:27.000 --> 01:12:28.000
+Presentógrafos.
+
+01:12:28.000 --> 01:12:35.000
+Hay un plan de grafo que anota todo lo que podría pasar en cada paso.
+
+01:12:35.000 --> 01:12:52.000
+Este, lo más probable es que se equivoque menos porque calcula todas las posibles probabilidades o posibles acciones en cada estado, se mueve a un paso, vuelve a recalcular. Parecido a lo que hablamos justo ensartando algoritmos clásicos en un graph, pero dándole tecnología más avanzada, etcétera, cómputo.
+
+01:12:52.000 --> 01:12:56.000
+Entonces, aquí llega, aquí.
+
+01:12:56.000 --> 01:13:06.000
+de explorar situaciones una por una, él va notando en una tabla qué hechos podrían ser verdad en el paso 1 y luego en el 2, en el 3, etc.
+
+01:13:06.000 --> 01:13:14.000
+Entonces, hoy en día está robot en estado A, hechos ahora verdaderos. Robot está libre.
+
+01:13:14.000 --> 01:13:19.000
+hay pedidos en el B que tiene que ir a buscar o entregar.
+
+01:13:19.000 --> 01:13:27.000
+Acciones posibles, moverse de A a B, esperar, no hacer nada o recoger X producto que aparezca en la en la.
+
+01:13:27.000 --> 01:13:32.000
+Hechos en el paso 1, robot ya se movió en B, ¿bien? Se espera.
+
+01:13:32.000 --> 01:13:41.000
+Quedaina si no hace nada, robot quedó libre, se recoge x está el pedido directamente o el producto cargado recogido.
+
+01:13:41.000 --> 01:13:42.000
+Luego de esto
+
+01:13:42.000 --> 01:13:46.000
+posibles ya está pasando el otro paso.
+
+01:13:46.000 --> 01:13:55.000
+coger pedido directamente moverse de B A C hacia otro punto o volverse al punto de arranque O no hacer nada de nuevo y así miles de acciones.
+
+01:13:55.000 --> 01:14:01.000
+Así uno puede llevar directamente el paso a paso, dónde está el robot y qué podría ocurrir en cada escenario.
+
+01:14:01.000 --> 01:14:07.000
+esto antes que esto, esta acción antes que esta acción y así en cadena aparecen todos los posibles posiciones.
+
+01:14:07.000 --> 01:14:13.000
+todo lo posible posiciones de todos los robots con las combinaciones en un graph query
+
+01:14:13.000 --> 01:14:16.000
+inmediato resultado de choques en puntos críticos.
+
+01:14:16.000 --> 01:14:25.000
+Vas ajustando optimizando, esto si le quieres precargar bien como preestimar y crear tu propio framework como hablamos hace poco, lo puedes hacer.
+
+01:14:25.000 --> 01:14:27.000
+Es muy parecido.
+
+01:14:27.000 --> 01:14:31.000
+de productos que hablamos en el mundo de ecommerce
+
+01:14:31.000 --> 01:14:35.000
+pasa si, a ver quién saca el cálculo?
+
+01:14:35.000 --> 01:14:36.000
+retail quería
+
+01:14:36.000 --> 01:14:38.000
+3 millones de productos
+
+01:14:38.000 --> 01:14:43.000
+Bien, tiene 80000 clientes activos al mes.
+
+01:14:43.000 --> 01:14:51.000
+E queremos hacer una lista de recomendación para cada cliente hasta diez productos.
+
+01:14:51.000 --> 01:14:55.000
+es la combinación o posibles combinaciones de entorno
+
+01:14:55.000 --> 01:15:00.000
+3 millones de productos, 8003 millones de productos, 800 mil clientes
+
+01:15:00.000 --> 01:15:03.000
+con 10 productos
+
+01:15:03.000 --> 01:15:06.000
+Bien, en una combinación.
+
+01:15:06.000 --> 01:15:11.000
+Como recomendación, ¿cuánto es el entorno? ¿Cuánto es el N?
+
+01:15:11.000 --> 01:15:17.000
+De probabilidades o combinaciones, calculen lo que quieran a ver quién se saca un número.
+
+01:15:17.000 --> 01:15:19.000
+Cuánto podría ser?
+
+01:15:19.000 --> 01:15:24.000
+que es lo mismo
+
+01:15:24.000 --> 01:15:29.000
+Sí, por ahí va.
+
+01:15:29.000 --> 01:15:32.000
+Quiero ver cuánto le va a dar el número de miles.
+
+01:15:32.000 --> 01:15:35.000
+24 billones de combinaciones
+
+01:15:35.000 --> 01:15:36.000
+billones
+
+01:15:36.000 --> 01:15:37.000
+Sí,
+
+01:15:37.000 --> 01:15:40.000
+Eso, muy bien.
+
+01:15:41.000 --> 01:15:51.000
+Por eso, uno arranca, no, es que son 3000 productos, tranquilo, son 5000 clientes, no sé, son cien mil clientes y te das cuenta que son más de trescientos millones de combinaciones de arranque.
+
+01:15:51.000 --> 01:16:02.000
+Ese es el tema, es lo mismo literal todo es combinaciones estimaciones de procesamiento pero qué cambia? ¿Por qué lo tengo que hacer antes y cargar los robots si lo puedo hacer en tiempo real?
+
+01:16:02.000 --> 01:16:08.000
+¿Qué pasa si tiene que calcular todas las posibles combinaciones para tomar un paso adelante?
+
+01:16:08.000 --> 01:16:19.000
+Vas a pagar el costo de cada cálculo, por cada paso pequeño, todo el cálculo de combinaciones de nuevo, ¿bien? Un poquito arriba, un poquito abajo. Entonces, si tú lo calculas o precalculas antes y es
+
+01:16:19.000 --> 01:16:23.000
+Todos estos miles de millones o lo que sea un
+
+01:16:23.000 --> 01:16:32.000
+estaba punto S H, un HL bien chiquita en un P C normal y siete puede hacer este cálculo sin problema, sin spark, sin nada bien.
+
+01:16:32.000 --> 01:16:39.000
+Porque por defecto las Chell de Linux o Unix están preparados para hacer big data.
+
+01:16:39.000 --> 01:16:43.000
+Bien, puede hacer todas las combinaciones.
+
+01:16:43.000 --> 01:16:51.000
+That pero aquí Python es la peor opción.
+
+01:16:51.000 --> 01:17:01.000
+Bien, y lo mismo pasa aquí, ¿qué quieres? Presimular todo y cargarlo a la planificación de IA o quieres hacerlo en tiempo real? Y tú asumes el gasto de cualquiera de las dos.
+
+01:17:01.000 --> 01:17:15.000
+y toda la parte va a ser un mapa de caminos efectivamente que las casillas que exploró, las casillas que miró, pero no entró todavía, o sea, tiene que hacer escaneo completo de todo el estado, etiquetación y todo.
+
+01:17:15.000 --> 01:17:31.000
+Y de aquí uno puede sacar la búsqueda directamente sin ningún algoritmo, sino va a ser directamente por el mapeo del proceso, el estado actual y la realidad o la otra parte que podría ser los movimientos directamente a traes de algún algoritmo.
+
+01:17:31.000 --> 01:17:35.000
+De optimización de rutas o estimación de esfuerzo, ¿bien?
+
+01:17:35.000 --> 01:17:53.000
+despachar un pedido, por ejemplo, lo que dice aquí una quinta forma que uno puede ver, hay muchas formas, ¿bien? Persona quiere despachar un pedido y una tarea grande, tiene que primero elegir robot. El robot tiene que tener la regla del experto, tiene que estar preparado, el más cercano con batería, porque imagínate que por
+
+01:17:53.000 --> 01:18:01.000
+tu decision llamaste al robot que está a un kilómetro para que van, venga a recoger el producto y que se vaya un kilómetro de vuelta.
+
+01:18:01.000 --> 01:18:07.000
+repente te das cuenta que cada robot tiene que mover 1000 productos, está con suerte moviendo 150.
+
+01:18:07.000 --> 01:18:22.000
+Claro, ¿qué significa esto? O doscientos, va a ser más justo. Por cada día tenés que recargar cinco veces más las baterías, entonces tu gasto de electricidad es por cinco. Tu gasto por 5, todo existe por 5 y además estás perdiendo.
+
+01:18:22.000 --> 01:18:24.000
+Entonces llega,
+
+01:18:24.000 --> 01:18:30.000
+El tomador de decision y te dice, contratamos a otros cuatro robots para cada pasillo.
+
+01:18:30.000 --> 01:18:39.000
+No, el problema no está aquí pero que el algoritmo está mal bien estás llamando robot más lejos para coger el producto más cercano.
+
+01:18:39.000 --> 01:18:41.000
+entonces no resuelve, hay que re...
+
+01:18:41.000 --> 01:18:43.000
+Crear el algoritmo
+
+01:18:43.000 --> 01:18:44.000
+Bien.
+
+01:18:44.000 --> 01:18:48.000
+No todos los problemas se resuelve con comprar más.
+
+01:18:48.000 --> 01:18:54.000
+No fue súper bien, vamos a tratar más, comprar más robots. Bien.
+
+01:18:54.000 --> 01:18:59.000
+O sea elegir bien robot la regla del experto y siempre tiene que estar.
+
+01:18:59.000 --> 01:19:08.000
+El más cercano, bien sin chocar, es que puede cargar, que cumple con con el criterio, porque no todos los robots que están cerca van a
+
+01:19:08.000 --> 01:19:10.000
+Servid para cada tipo de producto, lo hablamos al inicio.
+
+01:19:10.000 --> 01:19:25.000
+Luego recoger los productos, bueno, de dónde debería estar, en qué pasillo, hacia qué pasillo o hay varios pasillos que tiene que mover, recoger, etcétera. Llevarla directamente hacia la la recarga o la carga final, esto antes que llegar al camión en el camino.
+
+01:19:25.000 --> 01:19:32.000
+hay que mover y entregar estas son las acciones de forma simple, ese es el resumen.
+
+01:19:32.000 --> 01:19:34.000
+el cierre directo
+
+01:19:34.000 --> 01:19:48.000
+¿Qué aportan las L L M directamente en esto y cómo se va a dar o como se dio la upgrade directamente A estos procesos? Bien, adentro del mercado actual. ¿Y por qué robot era mas caro sin el LM y ahora mas barato con el LLM.
+
+01:19:48.000 --> 01:19:55.000
+Cuánto te costaría comprar un Optimus, por ejemplo, el año 70, un Optimus.
+
+01:19:55.000 --> 01:20:03.000
+No, hablamos sin inflacion, ¿bien? O sea, ¿cuánto me debe haber costado un optimo si estuviera el año setenta?
+
+01:20:03.000 --> 01:20:05.000
+Yeah.
+
+01:20:05.000 --> 01:20:06.000
+You
+
+01:20:06.000 --> 01:20:17.000
+Que aportan las L L M y que no primero la evidencia un LLM solo resuelve bien los problemas que lo suenan bien tienen que entender que hay un problema que se ha detectado como señal para poder resolverla.
+
+01:20:17.000 --> 01:20:23.000
+Entonces, un experimento que uno puede pedir a varios LLM que resuelvan el mundo de los bloques.
+
+01:20:23.000 --> 01:20:28.000
+Temblaba, changibity, o sea, esto puede ser una tesis perfecto, bien compleja, bien.
+
+01:20:28.000 --> 01:20:40.000
+Y uno corre diferentes modelos, algoritmos clásicos, LLM, centro y le dice resuélveme estos miles de millones de bloques de combinación.
+
+01:20:40.000 --> 01:20:46.000
+Y llega Gala y comienza a responder, si uno va a llevar directamente este experimento a poder repetirlo por.
+
+01:20:46.000 --> 01:20:48.000
+Es correcto.
+
+01:20:48.000 --> 01:20:53.000
+cuenta que no sé, por ejemplo
+
+01:20:53.000 --> 01:21:05.000
+Uno ve por Blockworks, ¿bien? O como de cantidad de instancias y los nombres directamente ejecutados. Entonces, ¿cuánto es el porcentaje de planes correctos hacia arriba? Bien, ¿y cuál es el modelo?
+
+01:21:05.000 --> 01:21:19.000
+Entonces llevamos y vimos directamente ChatGP cuatro bien tiene treinta y cinco por ciento de blocksworld, ¿bien? Mapeados. 324 o 36, un poquito más. Cloud 3.5 son 55, ¿bien?
+
+01:21:19.000 --> 01:21:23.000
+El mismo momento noventa y ocho pasamos siglo uno preview.
+
+01:21:23.000 --> 01:21:39.000
+Al fast downward, o sea, esto en el LLM con algoritmo de planificación de bloques y optimización, y este como planner, por lo mismo cuando van a cloud o van a lovable y le dice planificación o diseño. Este cambia todo el producto.
+
+01:21:39.000 --> 01:21:48.000
+porque planifica, planifica, diseña y le das la meta y todo, y luego aparece el software totalmente diferente al que tú haces directamente con el chat o el build o
+
+01:21:48.000 --> 01:21:57.000
+open los planificadores están en varias herramientas yao, hacen lo mismo Y A gran escala, el lovable, involved, en cloud code están en varias partes. Y además
+
+01:21:57.000 --> 01:22:06.000
+Tienes los ultra code que aparte planificación corren diferentes agentes a la vez en paralelo y te trae las mejores soluciones, ¿bien?
+
+01:22:06.000 --> 01:22:14.000
+Entonces aquí se muestra directamente no todo lo que solamente planifica es correcto, sino que tan real es lo que fue hecho, por ejemplo.
+
+01:22:14.000 --> 01:22:24.000
+Barra así como la celeste dice que el problema de los bloques escritos sin palabras normales y entendibles, los LLM resuelven entre un tercio y la mitad.
+
+01:22:24.000 --> 01:22:27.000
+todos los problemas que están hechos por Bloxworth, ¿bien?
+
+01:22:27.000 --> 01:22:37.000
+están hablando por instancias, por palabras, por texto humanizado, lo que sea, la I A podría resolver un tercio y la mitad, depende de la I A.
+
+01:22:37.000 --> 01:22:40.000
+Cuando hablamos de la naranjas.
+
+01:22:40.000 --> 01:22:56.000
+mismo problema pero con nombres inventados a Pilar pasa a llamarse Sor Placel LM caen a 0% que está reconociendo el texto, no razonado, o sea, si tú comienzas a ponerte más creativo sin dar la metadata ni la descripción y pensando que la L va a entender
+
+01:22:56.000 --> 01:23:03.000
+No va a pasar, eh, comenza quer razonamiento. Son palabras, es texto al final del día, ¿bien?
+
+01:23:03.000 --> 01:23:12.000
+O uno es un modelo bueno de razonamiento en general, sube mucho, pero también cae con nombres inventados con planes largos.
+
+01:23:12.000 --> 01:23:22.000
+Entonces, si tú vas directamente a cargar a la IA o cualquier I A que tú ves, todo lo que tienes, todo lo que estás pensando y los prefijos y sufijos se les dice, "Sácame un plan."
+
+01:23:22.000 --> 01:23:23.000
+Va a salir cualquier plan
+
+01:23:23.000 --> 01:23:32.000
+Si llegas con suerte podrías llegar a tener como cincuenta y tres por ciento de razonamiento o cumplimiento, el resto es un error, ¿bien?
+
+01:23:32.000 --> 01:23:42.000
+O vas por algún cualquier algoritmo que tenga planificación bien por eso digo, chequean cuando te dice lovable planificar o diseñar, etcétera, es muy
+
+01:23:42.000 --> 01:23:47.000
+Importante porque con esta planificación se dividen los pendientes.
+
+01:23:47.000 --> 01:23:58.000
+Por tareas separadas, se va ejecutando shop por shop con la cadena con las posibles combinaciones. No te das lo mismo, todo completa de una y comienzas a preguntar.
+
+01:23:58.000 --> 01:24:06.000
+como si llevas un libro de 3000 hojas, lo subas a ChatGPT 4 omi y le dices, vamos a conversar del libro.
+
+01:24:06.000 --> 01:24:12.000
+etiqueta sin entender muy bien sin contexto, etcétera, y comienzas a mezclar peras con manzanas en el libro.
+
+01:24:12.000 --> 01:24:21.000
+Yo quería que ChatGPT va a procesar todas las tres mil cuatro mil hojas que tú subiste para darte una respuesta?
+
+01:24:21.000 --> 01:24:24.000
+quien dice que sí?
+
+01:24:24.000 --> 01:24:29.000
+quién dice que no?
+
+01:24:29.000 --> 01:24:31.000
+No.
+
+01:24:31.000 --> 01:24:33.000
+Sí.
+
+01:24:33.000 --> 01:24:43.000
+Alguien vio la realidad de la herramienta Dial diciéndole a ChatGPT, "Oye, leíste todo el el el documento te dice que no, la verdad que no.
+
+01:24:43.000 --> 01:24:57.000
+Sea, él va a buscar si este libro logró conocer, él tiene pre entrenamiento de esto y tiene sus propios rack, entonces va a recuperar su versión, ¿bien? Y luego su versión y busca en lo que tú mandas por cada pregunta se hace la inteligencia. Pero imagínate que tú lo cargas la
+
+01:24:57.000 --> 01:25:07.000
+Hoja con la misma palabra hola hola hola hola así como diez mil hojas tienes que ver las cosas completas para entender el contexto no no va a pasar.
+
+01:25:07.000 --> 01:25:14.000
+Bien, es uno más realista que Claude lea un poco más o lee inteligente, ve que ChatGPT no hace directamente.
+
+01:25:14.000 --> 01:25:19.000
+Eh pero bueno también depende del modelo, pero todo esto son planificaciones.
+
+01:25:19.000 --> 01:25:32.000
+Entonces, aquí como recordamos siempre, la I A o los LLM en general son muy buenos generando cosas y todavía tienen los problemas de verificarlos, ¿bien? No son los mejores verificadores, son malos en general.
+
+01:25:32.000 --> 01:25:38.000
+producen el plan que suena correcto pero sin comprobar cada paso a paso y que sea posible, ¿bien?
+
+01:25:38.000 --> 01:25:47.000
+Por eso usen planificadores cuando alguien entra al cloud, le coloca cowork, está haciendo workflow, está haciendo planificaciones.
+
+01:25:47.000 --> 01:25:53.000
+automáticamente se abre un árbol de planificación y workflow no es igual al chat.
+
+01:25:53.000 --> 01:25:54.000
+Bien.
+
+01:25:54.000 --> 01:25:55.000
+Correcto
+
+01:25:55.000 --> 01:25:59.000
+Confunde lo dicho con lo verdadero, ¿bien?
+
+01:25:59.000 --> 01:26:05.000
+Y pedirles que revisen ayuda poco bien no revísalo y dime qué opinas como que qué opina?
+
+01:26:05.000 --> 01:26:06.000
+.
+
+01:26:06.000 --> 01:26:14.000
+que son buenos traducir, proponer, completar, desarrollar, sentido común, explicar un plano a una persona, etcétera, pero
+
+01:26:14.000 --> 01:26:21.000
+Del trabajo la I A o L M es muy bueno para hacerlo. Si tú le divides y viene el planificas y bien.
+
+01:26:21.000 --> 01:26:26.000
+Si tú cargas todo así a ojo cerrado no va a pasar.
+
+01:26:26.000 --> 01:26:29.000
+Bueno, eso puede ser una buena arquitectura para revisarlo.
+
+01:26:29.000 --> 01:26:45.000
+que persona habla dentro del mismo proceso de habla, podría hacer la traducción que corresponde, planificación, verificación y cualquier error se vuelva así hasta que termine. Una vez que termine, pasa el LLM que podría explicar.
+
+01:26:45.000 --> 01:26:59.000
+Bien, hasta aquí hay unos patrones más claros que tambien fueron hechos por, no sé, el Saican, por ejemplo, que robot de cocina de Google de 2022. Bien, ahí no lo que es código como política y tiene
+
+01:26:59.000 --> 01:27:03.000
+en el voyage que la gente de Minecraft 2023
+
+01:27:03.000 --> 01:27:13.000
+Alguien ha visto cómo llega un satélite o robot que va viajando de aquí a Marte o sigue en el universo, etcétera?
+
+01:27:13.000 --> 01:27:15.000
+cómo llega
+
+01:27:15.000 --> 01:27:28.000
+No está todo pre planificado y al mismo momento también tienen posibles combinaciones y reiteraciones en el camino. ¿Qué pasa si cualquier error que pase en el camino pierdes los miles de millones de inversión por robot que salió ya y no puedes volver nunca más.
+
+01:27:28.000 --> 01:27:30.000
+Y la misión muerte.
+
+01:27:30.000 --> 01:27:32.000
+.
+
+01:27:32.000 --> 01:27:37.000
+Por eso digo, suena un poquito de libro, pero no lo es.
+
+01:27:37.000 --> 01:27:42.000
+Y es muy aplicado y muy, muy importante para la época nueva.
+
+01:27:42.000 --> 01:27:43.000
+Bien.
+
+01:27:43.000 --> 01:27:45.000
+Profe.
+
+01:27:45.000 --> 01:27:46.000
+Adelante.
+
+01:27:46.000 --> 01:27:52.000
+En un curso anterior vimos eh vimos.
+
+01:27:52.000 --> 01:27:55.000
+Simuladores que se llama net logo
+
+01:27:55.000 --> 01:27:56.000
+Ah sí.
+
+01:27:56.000 --> 01:28:03.000
+Ese tipo de simulador que se ve antiguo es más.
+
+01:28:03.000 --> 01:28:09.000
+adaptable a la resolución del problema de automatización que un LLM o no.
+
+01:28:09.000 --> 01:28:12.000
+Depende si te gusta Net Logo o no, pero yo
+
+01:28:12.000 --> 01:28:19.000
+No, la, la, la, la, la, la, el look and feel es como jugar Atari, pero
+
+01:28:19.000 --> 01:28:20.000
+Sí.
+
+01:28:20.000 --> 01:28:27.000
+Pero en términos de las soluciones serían mejores que la de LM, dado los gráficos que mostraste antes.
+
+01:28:27.000 --> 01:28:30.000
+sea net logo para estos escenarios, la verdad queda muy corto.
+
+01:28:30.000 --> 01:28:31.000
+Ya.
+
+01:28:31.000 --> 01:28:46.000
+en la parte que las simulaciones hoy día estamos hablando que los agentes día accionan, ejecutan, hablan, escuchan, proponen, etcétera. Entonces, claro, como desde la base en general framework, lamentablemente era muy entretenido, pero no, nada.
+
+01:28:46.000 --> 01:28:51.000
+O sea, te voy a ayudar, te voy a ayudar teóricamente teóricamente hacer unas simulaciones etcétera y eh
+
+01:28:51.000 --> 01:28:57.000
+Exportar el activo de cargarle algún proceso, pero en la realidad cuando esto ya pasa a la industria no.
+
+01:28:57.000 --> 01:28:58.000
+Okay.
+
+01:28:58.000 --> 01:29:03.000
+O sea, trata ir a buscar Javier algunas cosas así de robótica y
+
+01:29:03.000 --> 01:29:09.000
+Sime así encuentras algo en Estados Unidos robótica avanzada que te dice requieren net logo senior.
+
+01:29:09.000 --> 01:29:18.000
+Okay, yo te doy lo que quieras, o sea, no lo vas a hacer con IA, ¿ve? Buscalo más y si encuentras algo, avísame.
+
+01:29:18.000 --> 01:29:19.000
+No, aquí para enseñarle la lógica.
+
+01:29:19.000 --> 01:29:22.000
+No no que lo enseñaron acá en el magíster entonces por eso se, por eso te pregunto.
+
+01:29:22.000 --> 01:29:23.000
+En la lógica, la lógica de simulaciones agéntica.
+
+01:29:23.000 --> 01:29:29.000
+Así que te te te doy el teléfono, el otro profe.
+
+01:29:29.000 --> 01:29:39.000
+No, no, hay tantas cosas que uno aprende porque es necesario el desarrollo de del pensamiento, la teoría, etcétera, pero claro, al final del día cuando hablamos de industria
+
+01:29:39.000 --> 01:29:44.000
+Otras cosas con guitarra, como dijo el ex presidente.
+
+01:29:44.000 --> 01:29:46.000
+Eso, bien.
+
+01:29:46.000 --> 01:29:52.000
+No, no es loco es bonito pero bonito nomás bien.
+
+01:29:52.000 --> 01:30:06.000
+Eh además cuando estaba hablando de asistentes de negocio recuerdan que un react reactivo simple puede resolver muchos problemas de robótica, bien, todo tiene que comenzar simple por por el momento. Luego se complejiza como quiera.
+
+01:30:06.000 --> 01:30:23.000
+Nosotros hablamos de los react bien y hablamos ahora directamente que uno cuando hace falta un planificador de verdad, porque hay reglas que no se puede romper aprobaciones, cupos o plazos, temas legales. Y hay recursos compartidos, agenda flota, personas, pasillo, carrito.
+
+01:30:23.000 --> 01:30:31.000
+O un plan equivocado cuesta dinero o seguridad. Una de las dos tiene que asumir, y cualquiera tiene sus consecuencias y tiene su riesgo.
+
+01:30:31.000 --> 01:30:34.000
+.
+
+01:30:34.000 --> 01:30:40.000
+Bien, entonces, y con esto voy, de hecho no voy a decir nada más, así que.
+
+01:30:40.000 --> 01:30:46.000
+Pues llegar hasta aquí porque este que trabaja en S L M también igual.
+
+01:30:46.000 --> 01:30:52.000
+Le voy a dejar unos enlaces si alguien quiere hacer unos frameworks, bien, que pueden descargar un robot.
+
+01:30:52.000 --> 01:30:54.000
+como la, cómo es la mosca.
+
+01:30:54.000 --> 01:31:06.000
+es un framework robótico, le inyectan alguna API y van a ver cómo se va a hacer todas las posibles simulaciones, escáner de una bodega completa y los movimientos, el plan completo para que nos choquen los robots.
+
+01:31:06.000 --> 01:31:16.000
+Pero tienes que tener las características que los robots avanzan a la misma velocidad, uno más rápido que el otro, pero todo pre orquestado. No puedes llegar a enchufar y correr y rezar.
+
+01:31:16.000 --> 01:31:27.000
+El mismo que pronto te dicen don prompt on the play no vas a hacer prompt y te pones a rezar que todo resulta bien de primera.
+
+01:31:27.000 --> 01:31:32.000
+O sea, hay mucho trabajo que hacer todavía, pero pues así en bodegas lo conté en.
+
+01:31:32.000 --> 01:31:45.000
+Renca en Kiricura, hay muchos robots que lamentablemente hacen tornos de siete personas al día, un solo robot o más quizás.
+
+01:31:45.000 --> 01:31:49.000
+De los trabajadores con preocupaciones.
+
+01:31:49.000 --> 01:31:54.000
+Bien.
+
+01:31:54.000 --> 01:32:04.000
+Para cerrar directamente y era hablar del taller porque sé que hoy día no quieren entender nada todos están en el taller la mayoría.
+
+01:32:04.000 --> 01:32:14.000
+Puedo hacer trabajo y que van a ser dos horas desde que arranca, bien, dos horas y entrega .
+
+01:32:14.000 --> 01:32:21.000
+Eh hay alguna que me pidieron cierto cierta cosa similar de baja escala se la compartí pero el taller de hoy es diferente al que compartí por si.
+
+01:32:21.000 --> 01:32:30.000
+Así que si alguien toma alguna cosa, pero bueno, tienes que volver a ejecutar aquí de nuevo, pero si alguien hizo la clase pasada, esto le va a salir un chiste.
+
+01:32:30.000 --> 01:32:35.000
+que practicó en el camino más chiste aún, bien? Nada difícil.
+
+01:32:35.000 --> 01:32:36.000
+Pero, o sea, sí.
+
+01:32:36.000 --> 01:32:45.000
+Profes, consulta
+
+01:32:45.000 --> 01:32:48.000
+no no
+
+01:32:48.000 --> 01:32:49.000
+Correcto, sí.
+
+01:32:49.000 --> 01:32:50.000
+Lo que usted señala, lo que ejecutamos la clase pasada y los que tuvimos problemas por la capacidad de cómputo, usted dijo que iba a proporcionar un código que era
+
+01:32:50.000 --> 01:32:55.000
+ejecutable, ese está dentro de web cursos también
+
+01:32:55.000 --> 01:33:06.000
+Sí, de hecho yo lo cargué un punto zip que tiene todos los códigos, están hechos para ir a cola, pues ir a donde quiera, ¿bien, pero recomendación, se van a colap, ocupan Gemini en cola para ayudarle a abrir los procesos.
+
+01:33:06.000 --> 01:33:19.000
+van y empecé local con Visual Studio Code ocupan por lo menos Copilot O Cloud O ChatGPT que le va A ayudar al proceso, ¿bien? No quiero que programen, bien, no quiero que hagan todo a mano dura.
+
+01:33:19.000 --> 01:33:32.000
+necesario, aunque traté dejar todo listo, solamente tiene que incorporar la API de opiniones la pauta del paso A paso de la ejecución.
+
+01:33:32.000 --> 01:33:33.000
+Profe.
+
+01:33:33.000 --> 01:33:35.000
+Es como sos agente lo pueden hacer sin problema, ¿bien? De verdad, o sea, la nota va a cloud .
+
+01:33:35.000 --> 01:33:36.000
+Profe, sí.
+
+01:33:36.000 --> 01:33:39.000
+ChatGBT, adelante.
+
+01:33:39.000 --> 01:33:40.000
+Sí.
+
+01:33:40.000 --> 01:33:49.000
+Profe, pero hay un eh dentro de la rúbrica hay como una declaración de utilización de inteligencia artificial que eso.
+
+01:33:49.000 --> 01:33:52.000
+Ah, ya.
+
+01:33:52.000 --> 01:33:55.000
+Es que ella está ya hecho.
+
+01:33:55.000 --> 01:33:56.000
+No, okey.
+
+01:33:56.000 --> 01:33:58.000
+Dentro de la urbe que tú ahora les vamos a hablar, tranqui, todavía no llegamos y hace se fueron para allá directo. Vamos a cerrar hasta la vida, vamos a la al taller. Todo es negociable menos la hora de entrega, ¿bien? Así.
+
+01:33:58.000 --> 01:34:00.000
+Lo va a hablar, pero...
+
+01:34:00.000 --> 01:34:08.000
+directamente hay unas preguntas que tenemos que responder son siete en total y con eso estamos bien no va a haber examen ni nada que se salvaron.
+
+01:34:08.000 --> 01:34:10.000
+El plan es correcto seguro.
+
+01:34:10.000 --> 01:34:19.000
+Bien, si estamos dando por ahí la la solo, no hay garantía directamente, va a depender mucho de cómo lo planificaste tú, cómo lo ocupaste, qué diseño, etcétera.
+
+01:34:19.000 --> 01:34:25.000
+Por eso te dicen ahora no es que el diseño de la arquitectura de ley a muy muy complejo y difícil.
+
+01:34:25.000 --> 01:34:27.000
+Sí, no, depende.
+
+01:34:27.000 --> 01:34:37.000
+Unificadores clásico, sí, si el dominio está bien, o sea, si se domina muy bien el negocio, es muy frecuente, claro, esperemos que lo puede resolver, asi que un planificador clásico lo puede hacer.
+
+01:34:37.000 --> 01:34:41.000
+Los dos juntos, sí, pueden ser.
+
+01:34:41.000 --> 01:34:52.000
+no solamente diseñando Y planificando, ejecutando Y verificando sino también un core end to end de todo el entorno. Bien, por eso juntos híbridos, siempre híbrido es mejor.
+
+01:34:52.000 --> 01:35:06.000
+Entiende lo que pide una persona, léleme sí, entiende? Aquí no, no entiende. NetLoco no entiende lo que quieras. Bien, un PTDL no entiende lo que tú quieras, pero este PDDL en un LLM sí se entiende, ¿bien?
+
+01:35:06.000 --> 01:35:09.000
+poder de conversar
+
+01:35:09.000 --> 01:35:11.000
+Después.
+
+01:35:11.000 --> 01:35:19.000
+Se puede hacer algo para que el planificador clásico entiende? Sí, cuando el LLM traduce lo mismo que hicimos para el cerebro de la mosca.
+
+01:35:19.000 --> 01:35:31.000
+Bien, hola destilación. Estamos traduciendo cosas, ¿cierto? Y la transformamos en código para simular biológicamente las neuronas de conexiones.
+
+01:35:31.000 --> 01:35:45.000
+Bien, aguanta planes largos, el LDM solo se pierde rápido, tú tienes que planificar el plan, ¿bien? O sea, si quieres echarte a andar unos 2 millones de dólares para hacer una planificación con Fabble 5.1, dale no más.
+
+01:35:45.000 --> 01:35:47.000
+haciendo los token y todo.
+
+01:35:47.000 --> 01:35:54.000
+Al final del día, si tú ocupas un modelo común, se va a perder, tú tienes que planificar y diseñar hasta la etapa de
+
+01:35:54.000 --> 01:36:04.000
+Plan quién te entregarlo por shot por proceso por flujo hay que diseñarlo bien aquí no, no se no se pierde, ¿bien?
+
+01:36:04.000 --> 01:36:14.000
+Aguanta planes largos sí, pero que todos los planes aquí son más de probabilidades optimizaciones y rutas, no tiene el mismo nivel de conocimiento que tiene un LLM. Entonces es
+
+01:36:14.000 --> 01:36:22.000
+Comparable sí y no a la vez cuánto cuesta prepararlo el L M solo si tú lo planificas sobre bien poco.
+
+01:36:22.000 --> 01:36:29.000
+Un planificador clásico cuesta mucho porque tienes que escribir y optimizar y calcular y
+
+01:36:29.000 --> 01:36:37.000
+Y predice todos los flujos erudas y cálculos. Aquí no, no tanto, un temple promote.
+
+01:36:37.000 --> 01:36:44.000
+Puede inventar cosas? Sí, la LLM puede inventar cosas y depende el grado de libertad. Lo pueden controlar.
+
+01:36:44.000 --> 01:36:50.000
+Aunque inventa hay una solución que es cable tierra, queda todo para dentro y no toma acción. Bien, pero...
+
+01:36:50.000 --> 01:36:52.000
+sí puede inventar obvias una ella generativa.
+
+01:36:52.000 --> 01:37:02.000
+Aquí no, planificador clásico no, pero falla fuera de su modelo. Cualquier cosa fuera del modelo falla de inmediato. Bien, no hay ni siquiera posible intento.
+
+01:37:02.000 --> 01:37:17.000
+Puedes explicarle el plan a alguien? Sí, allá sí, pero con un formato elegible. Aquí puede ser formato depende de la persona, entonces puede ser exacto, puede ser diferente, depende de la pregunta del usuario. Allá no va a ser
+
+01:37:17.000 --> 01:37:22.000
+Completo que cuesta cada plan tokens allá en milisegundos de C P U.
+
+01:37:22.000 --> 01:37:33.000
+aquí sepa, bueno, depende si vas a ocupar un modelo pensado, va a ser GPU TPU, DPU, bien, pero modelo más simple al final del día, todo se acerca a los tokens ahora.
+
+01:37:33.000 --> 01:37:44.000
+Aunque levantes G P U, tú no pagas los tokens, pero tienes limitante de cantidad de tokens de entrada Y salida a la misma máquina del modelo open source, ¿cierto? El rico es de todo.
+
+01:37:44.000 --> 01:37:56.000
+Entonces, aunque no los pagas, pero no puedes enviar tokens como quieras y los modelos open source tienen límite de tokens de contexto, de entrada y salida predefinida, que tampoco lo puede romper.
+
+01:37:56.000 --> 01:37:59.000
+Eso, entonces depende de cada escenario.
+
+01:37:59.000 --> 01:38:12.000
+Y uno puede verla simple pero ambos juntos son mucho más poderosos uno puede tener la planificación, lo mismo cuando decimos un modelo de machine learning, puede ser un brazo de consulta para un agente a día.
+
+01:38:12.000 --> 01:38:22.000
+gente pudiera consultar el modelo de M L con probabilidad y él también estimar su propio camino y hacer verificación del proceso y tomar una decisión.
+
+01:38:22.000 --> 01:38:27.000
+Si hay un modelo estadístico pre entrenado puede aportar valor o puede ayudar en esto.
+
+01:38:27.000 --> 01:38:30.000
+Alguna duda?
+
+01:38:30.000 --> 01:38:38.000
+Que trate de que no sea tan pesado hoy día antes que el taller.
+
+01:38:38.000 --> 01:38:42.000
+Es mucho.
+
+01:38:42.000 --> 01:38:56.000
+Como por qué cuesta mucho planificar, prepararlo? Sí, porque aquí, por ejemplo, si tú vas a trabajar eso y tiene que ir estimando y calculando y ejecutando cómputo para todos los estados.
+
+01:38:56.000 --> 01:39:00.000
+Más un pronto y una cierta arquitecturas y pruebas.
+
+01:39:00.000 --> 01:39:05.000
+O sea, el angra, hermoso para esto, el angraf es complejo.
+
+01:39:05.000 --> 01:39:09.000
+Pero es hermoso para esta solución.
+
+01:39:09.000 --> 01:39:12.000
+Muy bien.
+
+01:39:12.000 --> 01:39:15.000
+Bien.
+
+01:39:15.000 --> 01:39:20.000
+Vamos directamente a lo que hablamos o sea yo pensé que por eso digo.
+
+01:39:20.000 --> 01:39:34.000
+Desafiante y no oculté nada, o sea si alguien va a tener que construir todo esto de cero etcétera podría tomar aunque un día quince horas, ¿bien? Porque no depende de ti solamente, depende de la hija que tokens que se terminaron los tokens tienen que esperar y que todo, etcétera. Pero no.
+
+01:39:34.000 --> 01:39:44.000
+Yo creo que a esa altura son capaces de ejecutarlo en unas 2 horas, el que termina antes puede cargar, se va pa la casa en hora, después del break, ¿bien? Libre.
+
+01:39:44.000 --> 01:39:52.000
+que espero primero ahí lo puse los requerimientos, entonces, si alguien me dice no, profe, no me funcionó el tema no es tu PC es
+
+01:39:52.000 --> 01:39:55.000
+es el piloto.
+
+01:39:55.000 --> 01:40:07.000
+No es el auto, bien, entonces computador, cualquier notebook de los últimos seis años sin GPU 8GB de RAM, alcanzan otros gigabytes de disco duro o disco libre puede alcanzar.
+
+01:40:07.000 --> 01:40:21.000
+Hay un tema de RAM que sí o sí tienes que tener, o sea, un RAM de 2 gigabytes no va a pasar, ¿bien? Porque por lo menos para correr necesitan mínimo 3,4GB de para levantar, ¿bien? Ese es el mínimo.
+
+01:40:21.000 --> 01:40:36.000
+Sí, el modelo como que menos consumo para levantarlo necesita tres coma cuatro gigabytes de volver a bajar, pero para levantarlo tiene que conseguir esta memoria mínimo.
+
+01:40:36.000 --> 01:40:38.000
+Entonces
+
+01:40:38.000 --> 01:40:43.000
+aquí y luego Python 3.10 a 3.13.
+
+01:40:43.000 --> 01:40:54.000
+a 3 14 no, 3:15 no, porque están nuevos que la mayoría de los módulos librerías fallan, ¿bien? No está todo actualizado, Langchen choca, todo choca, ¿bien?
+
+01:40:54.000 --> 01:40:57.000
+tensor o tensorFlow, todo choca.
+
+01:40:57.000 --> 01:41:08.000
+Payton 3.10 está sin continuidad de ni hasta fuera de la parte segura, pero aún así puede funcionar porque tiene todos los modulos desarrollados, ¿bien?
+
+01:41:08.000 --> 01:41:15.000
+Aquí está MacB install Python 3.12, aunque pasen esto literalmente a open code.
+
+01:41:15.000 --> 01:41:23.000
+lo pasan a Cloud Code O Codex lo va A hacer completo, pero paso A paso, planificando paso a paso. Si corren toda la, la
+
+01:41:23.000 --> 01:41:26.000
+Le dice ejecuta directamente.
+
+01:41:26.000 --> 01:41:29.000
+Sí.
+
+01:41:29.000 --> 01:41:36.000
+Si ustedes planificaron bien las rutas, dónde está cada parte del producto o el código, etcétera, sino más vale que el punto zip que van a cargar
+
+01:41:36.000 --> 01:41:41.000
+Van haciendo paso a paso, tiene que planificar una de las dos, bien.
+
+01:41:41.000 --> 01:41:51.000
+Después, clave de Open AI con clave ahí está uno se quiere ocupar la de él no más, si quieren su propia clave, denle no más. Está con framework de OpenAI directamente para
+
+01:41:51.000 --> 01:41:54.000
+Es el costo recomendable.
+
+01:41:54.000 --> 01:42:08.000
+Un poquito más de calidad Luna, pero si quieren rapidez, 4 o 4 es un ejercicio de destilación, o sea, no voy a garantizar la calidad, pero quiere ver que va a aparecer de sus modelos, el entrenamiento, etcétera.
+
+01:42:08.000 --> 01:42:16.000
+Ojo que cuando se levanta la aplicación que te dice arriba porque pueden probarlo en una interfaz, que te dice arriba modo simulado.
+
+01:42:16.000 --> 01:42:21.000
+Moto simulada te está fallando el API de un pen I no está en el entorno, él está viendo, es.
+
+01:42:21.000 --> 01:42:25.000
+La única trampa que tiene el programa.
+
+01:42:25.000 --> 01:42:29.000
+entra se levantas y te detectas que está todo simulado y responde muy rápido, o sea.
+
+01:42:29.000 --> 01:42:32.000
+tú crees que se responde de inmediato?
+
+01:42:32.000 --> 01:42:34.000
+menos de tres milisegundos.
+
+01:42:34.000 --> 01:42:44.000
+Mal, bien, ¿dónde está tu problema? Es que la app de Open AI en el environment o el entorno no la ha tomado, está simulando sin API.
+
+01:42:44.000 --> 01:42:49.000
+Simulado Sinapia, entonces no entreno, no entreno entonces no hay nota.
+
+01:42:49.000 --> 01:42:56.000
+cuál es la variable que íbamos a destilar como la cantidad de de parámetro.
+
+01:42:56.000 --> 01:43:13.000
+Eh, dentro del modelo, o sea, sí, son datos que tienen que incorporar a lo a los mismos parámetros que tiene el modelo. Ah, ya no es que tengo que cambiarle de 130 millones de parámetros. Pero no da el cómputo, o sea, si vamos a hacerlo así, con suerte unos cuatro o cinco lo van a volver a hacer.
+
+01:43:13.000 --> 01:43:19.000
+Resto no, si es que está hecho a muy baja escala para que puedan funcionar, ¿ya?
+
+01:43:19.000 --> 01:43:29.000
+Después de esto, el kit del taller está la carpeta completa, está cargada, tiene el destila.python. Es recomendable que lean esto que piden a la gente antes que llegar a ejecutar, que
+
+01:43:29.000 --> 01:43:34.000
+La ruta de resumir, entender que tiene cada cosa, etcétera. Parte de la planificación, ¿bien?
+
+01:43:34.000 --> 01:43:38.000
+Instalación.
+
+01:43:38.000 --> 01:43:44.000
+Y la parte de instalación, aquí están los comandos, si alguien va a ir por Mac o por Linux bien.
+
+01:43:44.000 --> 01:43:46.000
+Y además de esto.
+
+01:43:46.000 --> 01:43:50.000
+Si alguien va a ir por por Windows, etcétera.
+
+01:43:50.000 --> 01:44:03.000
+sea lo mismo si la idea te dice no es que yo lo subí a Cloud Code, encontró solamente la parte de Linux, ¿qué hago? Dile que lo ejecuta en Windows. Muy fácil, porque los comandos son obvios, ¿bien? O sea, de terminal no
+
+01:44:03.000 --> 01:44:08.000
+no son más cercanos un HTML o una cosa que hay mucha lógica bien, no sé.
+
+01:44:08.000 --> 01:44:15.000
+no se van a cambiar es un sistema operativo que interpreta comandos.
+
+01:44:15.000 --> 01:44:31.000
+Te puede tener que correr el proceso de destilación, recuerdan que es necesario que crea un entorno virtual, porque después se marea tu open code y no logra hacer la cosa, etcétera, porque simplemente te dijo, puede levantar un punto ven y tú le dijiste que no.
+
+01:44:31.000 --> 01:44:42.000
+Bien, y ya dejate nueva tres cuatro horas tratando de levantarlo y no va a pasar, ¿bien? Mejor aislar, seguir la guía, interpretar cada paso que pide Laia. Si alguien quiere correrlo sin ella.
+
+01:44:42.000 --> 01:44:47.000
+Ahí están los pasos uno, uno, uno, uno. Usted decide.
+
+01:44:47.000 --> 01:44:59.000
+Sí, claro, yo pensé está recomendable que ustedes lo que quieran trabajarlo directamente, que la llave que puse en los cursos, que esté la insertan en el punto M, en el archivo de environment.
+
+01:44:59.000 --> 01:45:07.000
+No es recomendable que lo pasen a cloud open code chat DBT porque la mayoría lo van a rechazar, no van a aceptar leer la API para insertarla en punto edu.
+
+01:45:07.000 --> 01:45:22.000
+Si tienes algún proceso, un tip antes, si ustedes van a trabajar mucho con ella pasando muchas APIs, bien, pueden pedir que se genere una variable de entorno ofuscada, ¿bien? Y esa va a ser la variable X.
+
+01:45:22.000 --> 01:45:29.000
+cada API que pasan no es la lela ya va directamente a la variable a través de Visual Studio Code almacenada en
+
+01:45:29.000 --> 01:45:34.000
+O lo otro que la afren y la pegan a ustedes y recuerdan cien comida doble.
+
+01:45:34.000 --> 01:45:41.000
+Si no se toma como string y no funciona. ¿Bien?
+
+01:45:41.000 --> 01:45:42.000
+Fuera de rato.
+
+01:45:42.000 --> 01:45:45.000
+Profesor, ¿y dónde está? ¿Dónde está la, la clave? ¿En qué archivo?
+
+01:45:45.000 --> 01:45:51.000
+Sí, está afuera, de hecho la puse justo afuera por eso, mira, aquí está, esa es la clave, desde el SK hasta el final.
+
+01:45:51.000 --> 01:45:53.000
+Ok, gracias
+
+01:45:53.000 --> 01:45:56.000
+Yeah.
+
+01:45:56.000 --> 01:45:57.000
+Ahora
+
+01:45:57.000 --> 01:46:09.000
+Rápida es recomendable que lo hacen sin clave sin internet, solamente para revisar si el código esta bien o tienen algún problema. Pueden correr este comando, python destila.pyn guion internet.
+
+01:46:09.000 --> 01:46:14.000
+O lo que quieran de agente de codificación, corre la prueba sin internet.
+
+01:46:14.000 --> 01:46:20.000
+El punto dos él va a correr si esto se levantó, ya es el momento de colocar la llave y correrlo más grande, solo.
+
+01:46:20.000 --> 01:46:25.000
+te va a garantizar que el entorno de las librerías quedaron instaladas.
+
+01:46:25.000 --> 01:46:37.000
+Y así correr el taller eh las seis tapas y su tiempo aproximado en C P U la confederación, generación de datos, que van a ver al final, esto van a ver al final.
+
+01:46:37.000 --> 01:46:47.000
+por tema, por generar pronto, o sea, mantuve el mismo dataset para no complejizar la vida bien y genera the prompts, rags, ajuste fino, etcétera.
+
+01:46:47.000 --> 01:47:01.000
+Ándale un poquito más, y esto es lo que van a ver, modelo base, el modelo destilado tiene que tener una nota más alta.
+
+01:47:01.000 --> 01:47:02.000
+Sí
+
+01:47:02.000 --> 01:47:03.000
+Yo tengo un tema justo ahí en la nota, ¿cuántas sacaste? Pero, o sea, $192, se estuvo.
+
+01:47:03.000 --> 01:47:04.000
+La diferencia es mínima
+
+01:47:04.000 --> 01:47:14.000
+O sea, lo corre aquí estudiantes on face con mi con mi Open AI, aquí agarró Luna y sacó uno nueve dos. Nueve dos. Uno nueve dos. Uno nueve dos. O sea, salió, pero
+
+01:47:14.000 --> 01:47:20.000
+Sí, no, no, no mejora mucho en general, yo estoy todavía bajo 3.
+
+01:47:20.000 --> 01:47:21.000
+Sí,
+
+01:47:21.000 --> 01:47:22.000
+Entonces no, no sé si es que, exacto, no sé si claro
+
+01:47:22.000 --> 01:47:25.000
+A mí no me mueve nada, uno, uno siempre
+
+01:47:25.000 --> 01:47:26.000
+1 1
+
+01:47:26.000 --> 01:47:27.000
+Un novio siempre
+
+01:47:27.000 --> 01:47:30.000
+Pero en el en el simulado aparece superbonito, aparece eso.
+
+01:47:30.000 --> 01:47:31.000
+Claro.
+
+01:47:31.000 --> 01:47:32.000
+Ya la nota de aprobación es dos, claro, que estás tomen.
+
+01:47:32.000 --> 01:47:34.000
+Claro, nunca apruebo nada
+
+01:47:34.000 --> 01:47:35.000
+Nos vamos a echar el magiste, pero
+
+01:47:35.000 --> 01:47:42.000
+Por eso preguntaba por la cantidad de parámetros, porque
+
+01:47:42.000 --> 01:48:03.000
+Que como probablemente está en español, o sea, por eso dije, no lo vamos a poner, o sea, un chiste bien lo que estoy comentando, pero por lo menos un do. Un do podría ser desafiante, ¿cierto? Vamos apostando así a dos de 10.
+
+01:48:03.000 --> 01:48:04.000
+Fun game.
+
+01:48:04.000 --> 01:48:28.000
+Ajá colocan cuatro o comienzan con cuatro y podemos cambiar también el modelo del estudiante sí también pueden cambiar como quieran porque yo le yo estudiantes que no entendía español el modelo de small, entonces claro, si la pregunta se la hace en español nunca la podemos ponerle.
+
+01:48:28.000 --> 01:48:42.000
+Exacto. El otro tip pero bueno ya lo comentaste, traten de entrenar o ajustar y haciendo pronto pruebas al final en inglés, ¿bien? Porque el modelo no es apto para español, entonces que entrena en español, saca mala nota ajustando prompts, cambiando.
+
+01:48:42.000 --> 01:49:01.000
+o en inglés, la data está cargada, sirve inglés. ¿Y qué qué le enviamos?
+
+01:49:01.000 --> 01:49:02.000
+Ok.
+
+01:49:02.000 --> 01:49:11.000
+En nivel de datos no no que cuál inmediato, o sea, ya apostamos nota dos de diez, ¿les parece? Dos de diez. Sí, pero como yo creo que eso no se con la misma cantidad de parámetros no se va a lograr.
+
+01:49:11.000 --> 01:49:12.000
+No.
+
+01:49:12.000 --> 01:49:13.000
+Para eso digo, claro, por el modelo, por la API por cambio en el S L N.
+
+01:49:13.000 --> 01:49:25.000
+Y tenéis que mover los los tenéis que mover el learning rate, el batch, lo la, la, la, los token, hay que moverlo todo lo que lo que está en las variables para para ir viendo si mejora ahora.
+
+01:49:25.000 --> 01:49:26.000
+Claro.
+
+01:49:26.000 --> 01:49:35.000
+Mejor
+
+01:49:35.000 --> 01:49:36.000
+como 20 dólares gastado y no mejora la cuenta
+
+01:49:36.000 --> 01:49:45.000
+Claro, no, no, por eso digo, a intentarlo más, o sea, si algo raro que podría pasar, que tu modelo saca no también es que uno ahí menos que uno hay algo raro, ¿bien? Porque está hecho para andar entre uno, uno coma 9, correcto, bien, pero menos que uno algo
+
+01:49:45.000 --> 01:49:46.000
+Son los crédito
+
+01:49:46.000 --> 01:49:54.000
+Lo mataste tú, ¿bién? Y más que dos, porque algo cambiaste en el core, puede ser el dato de entrenamiento, puede ser SLM en sí mismo o la API directa o el modelo atrás, ¿bien?
+
+01:49:54.000 --> 01:50:05.000
+Yo digo que la mayoría van a encontrar una nota entre uno coma cinco o uno coma nueve, ¿bien? Si alguien llega a dos, excelente. Tenemos me tiene que justificar el porqué.
+
+01:50:05.000 --> 01:50:09.000
+Ese la hace bien un 7. Ese alguien menos que 1.
+
+01:50:09.000 --> 01:50:21.000
+Es un uno, ¿bien? Menos que uno está grave la situación, porque el modelo solo debe generar más que uno. Ojo con la parte de simulación, la simulación es cualquier cosa, no es resultado correcto.
+
+01:50:21.000 --> 01:50:37.000
+Si no corre la API y el entrenamiento, el resultado es ficticio, no es correcto, ¿bien? Esto los archivos o puse el contenido para que si alguien arranca, hay un ¿Cómo se llama? La ejecución del examen, entrenamiento, el JSON, el JSON con salto a línea.
+
+01:50:37.000 --> 01:50:52.000
+O el delimitador de línea está hecho para que Cloud o el comando o lo que van a correr lo pueda entender directamente. Tengo que usar el modelo destilado, no puedo usar otro. Si quieres cambiar el modelo adentro del core libre, puedes hacerlo. Si tu computadora aguanta, dale más.
+
+01:50:52.000 --> 01:51:09.000
+No, no, no, sí, pero estoy cambiando los parámetros del modelo destilado, sí, pero no puedo usar otro modelo. Sí, sí, puedes. Pero tienes que traer con los mismos datos, o sea, vas a tener que cambiar el JSON de la data, eso sí, por la codificación, la etiqueta, todo, pero yo necesito que si quieren cambiarlo, cámbienlomás, yo puse lo más malo que hay
+
+01:51:09.000 --> 01:51:17.000
+que puede correr en PC entonces no me voy a exigir que saca una nota de 9 y corre en un PC de y 3.
+
+01:51:17.000 --> 01:51:31.000
+Uno o la otra, pero sí, libre, cambia lo que quiera. Sí, ideal en inglés, si quiere una nota buena en inglés.
+
+01:51:31.000 --> 01:51:46.000
+habla en francés, el modelo de recepción de estudiante no habla francés.
+
+01:51:46.000 --> 01:51:53.000
+Eso, comienzan a chocar, recomendable en inglés, para que vean la experiencia, la experiencia.
+
+01:51:53.000 --> 01:52:05.000
+Bien, los resultados se van a generar en Markdown en HTML una imagen. Entonces, cuando me cargan, cada cosa que van a cargar en el punto zip, mi agente la va a procesar una por una, ¿bien?
+
+01:52:05.000 --> 01:52:09.000
+que me exporte en todo al final ahora
+
+01:52:09.000 --> 01:52:11.000
+Vamos a hablar como.
+
+01:52:11.000 --> 01:52:27.000
+Plan de trabajo o sea si alguien quiere hacerlo en la casa así está pero yo creo que por eso digo está desarrollado, si alguien lo quiere hacer desde cero, así lo van a tener que trabajar en planificación, instalar, entender el ciclo, el dominio de los datos a elegir, línea base, experimentos
+
+01:52:27.000 --> 01:52:34.000
+Auditoría, el juez, etcétera, demostrar, reflexionar, todos estos puntos se vuelven a ser directamente.
+
+01:52:34.000 --> 01:52:38.000
+De 3 horas hasta 15 horas, ¿qué necesito yo
+
+01:52:38.000 --> 01:52:45.000
+Informe de PDF, ¿bien? Que hay una plantilla informe markdown que está aquí, se va a generar entre seis diez páginas.
+
+01:52:45.000 --> 01:52:51.000
+La carpeta del proyecto comprimida, bien con todo lo que hay dentro.
+
+01:52:51.000 --> 01:53:06.000
+archivo porque si alguien me pasa una llave cae la nota de ciberseguridad, bien, es decir que de inmediato, porque yo no lo voy a revisar, le va a revisar mi agente, entonces él detecta una API, cae la nota, ¿bien? Y la API caduca.
+
+01:53:06.000 --> 01:53:12.000
+el archivo completo de la carpeta completa pero sin la clave, entran.
+
+01:53:12.000 --> 01:53:27.000
+Punto es lo eliminan o dile a Claude elimina el punto F y genera el punto sí. Así de fácil, bien, él lo va a hacer, pero si llega a un punto env, no me dicen después, "No, profe, yo lo eliminé de Claude no le hizo. Chequea tú, ¿bien?
+
+01:53:27.000 --> 01:53:32.000
+Bien, trabajo individual, cuando cierra el bloque 5, etcétera, la atraso, vamos a
+
+01:53:32.000 --> 01:53:41.000
+Pues quiero ver cómo andan, pero el atraso por cada día es con 1,5 nota menos, ¿bien? Porque es trabajo del día, de hoy día.
+
+01:53:41.000 --> 01:53:53.000
+Así que entren, corren, entrenen después del break y veamos qué tal, si vemos que está muy colapsada la cosa, no hay problema, lo extendemos un poquito más. Pues se ve que anda perfecto, entregamos nomás, ¿bien?
+
+01:53:53.000 --> 01:53:59.000
+negociable si no quiero complejizar, pero no quiero que llevan trabajo a la casa que tienen tesis y muchos problemas todavía.
+
+01:53:59.000 --> 01:54:06.000
+trabaja individual, puedes conversar con tus compañeros sin problema, bien, pero la auditoría, el juez, el informe es propio.
+
+01:54:06.000 --> 01:54:13.000
+Cosas que sale un informe que dice Fabián y no es de Fabián bien? Tenemos un tema.
+
+01:54:13.000 --> 01:54:31.000
+Y una vez en otra generación les conté, ¿bien? Era trabajo individual y me llegaron, son los mismos grupos que trabajaron en la parte grupal, me llegaron el informe con el mismo nombre de la persona del grupo, los 4. No, profe, que te juro se me olvidó solamente hacer el mío. Es exactamente igual el informe, o sea, se le olvidaron todo.
+
+01:54:31.000 --> 01:54:34.000
+Pensaron que pasa peor.
+
+01:54:34.000 --> 01:54:35.000
+Pensé que Laia se equivocó, pero no.
+
+01:54:35.000 --> 01:54:38.000
+Bien, ¿alguna duda?
+
+01:54:38.000 --> 01:54:39.000
+Fácil el taller.
+
+01:54:39.000 --> 01:54:40.000
+He profet
+
+01:54:40.000 --> 01:54:45.000
+Profeco, perdón.
+
+01:54:45.000 --> 01:54:46.000
+Sí.
+
+01:54:46.000 --> 01:54:51.000
+Yo tengo una, una pequeña confusión, entiendo que tenemos este, esta rúbrica que corresponde al taller de destilación
+
+01:54:51.000 --> 01:54:52.000
+Ajá.
+
+01:54:52.000 --> 01:54:56.000
+Ese ese taller el que vamos a hacer ahora después del break, ¿cierto?
+
+01:54:56.000 --> 01:54:57.000
+Yeah.
+
+01:54:57.000 --> 01:54:58.000
+Exacto, ahí está su código.
+
+01:54:58.000 --> 01:55:13.000
+Ya, perfecto
+
+01:55:13.000 --> 01:55:14.000
+Okay.
+
+01:55:14.000 --> 01:55:17.000
+Eso lo van a trabajar despues del break, esta su código y aqui esta la API de Open AI y está la guía, y que le vaya muy bien. Se va a ayudar, pero necesito que la tratan de hacer solos, ¿bien? Eh, de verdad muy simple.
+
+01:55:17.000 --> 01:55:18.000
+Comentó, disculpe Hernán para acá,
+
+01:55:18.000 --> 01:55:23.000
+So, Catherine y vamos después, que adelante.
+
+01:55:23.000 --> 01:55:24.000
+Ajá.
+
+01:55:24.000 --> 01:55:37.000
+es que sobre el taller porque primero tenemos que correrlo, después tenemos que cambiarle la información y después tenemos que hacer cambios para mejorar el modelo, pero estos cambios se hacen sobre su, lo que usted no entrego o sobre lo que nosotros cambiamos.
+
+01:55:37.000 --> 01:55:53.000
+O sea, en la parte del taller catering, la idea es que ocupes tal cual como yo lo cargué el modelo con la data, etcétera. Si tú quieres cambiar algo, es tu decisión, pero yo no necesito que cambies nada, necesito que entrenes y lo que encuentres y me cargas el informe y lo
+
+01:55:53.000 --> 01:56:09.000
+Que yo espero que sí van a tener una nota de entrenamiento entre uno a dos, no ustedes el modelo, ¿bien? Entonces, es una, un entrenamiento a muy baja escala, pero si tú quieres cambiar algo, es tu decisión. Yo quiero que ejecutes tal cual como está cargado.
+
+01:56:09.000 --> 01:56:18.000
+Bien, y no van a tener toda la misma nota o sea en decimales va a ser diferente Freddy.
+
+01:56:18.000 --> 01:56:26.000
+Por eso no vamos a cambiar nada entonces, o sea, el tema donde se por el tema que dijo que nosotros elegimos y eso o solo lo ejecutamos y yo?
+
+01:56:26.000 --> 01:56:27.000
+No vamos a cambiar el dominio.
+
+01:56:27.000 --> 01:56:43.000
+O sea, si quieren hacerlo por lo, por eso digo, miren, en el dominio directo, bien adentro de la experiencia, o sea, usted por eso digo, cuando van a entrenar no van a encontrar la misma nota, ¿bien? No van a llegar al mismo número por cada equipo. El nivel de decimales va a ser diferente, sí o sí, ¿bien? Entonces
+
+01:56:43.000 --> 01:56:50.000
+cuando hablo aquí el dominio de los experimentos en la auditoria al juez en el informe, estos son propios. Me refiero A que cuando
+
+01:56:50.000 --> 01:56:53.000
+entonces comenzaron a correr el proceso.
+
+01:56:53.000 --> 01:57:13.000
+dominio de conocimiento propio, el experimento que hacen, la auditoría, el juez, el informe es de ustedes, depende cómo van a ejecutar los comandos, cómo van a trabajar con la gente dia, pero aqui es muy simple. Corren lo que yo cargue. Si alguien quiere hacer algo propio o cambiarlo a un tema propio o lo que sea, es tu decisión. Yo necesito que ocurran lo que tengo.
+
+01:57:13.000 --> 01:57:16.000
+nada más, nada menos, así de fácil.
+
+01:57:16.000 --> 01:57:17.000
+no.
+
+01:57:17.000 --> 01:57:18.000
+Ah, ya.
+
+01:57:18.000 --> 01:57:19.000
+Okay
+
+01:57:19.000 --> 01:57:20.000
+Solo ejecutarlo
+
+01:57:20.000 --> 01:57:21.000
+Si no, no van a terminar hoy día.
+
+01:57:21.000 --> 01:57:36.000
+Se, se cara que la instrucion decía que primero corriéramos con el tuyo y después hiciéramos un tema propio.
+
+01:57:36.000 --> 01:57:37.000
+Wow
+
+01:57:37.000 --> 01:57:48.000
+Exacto, eso me debe tomar 15 horas, por eso te digo, corren solamente el mío y si alguien quiere trabajar esto, porque me llegaron 3 correos bien pidiendo apoyo de esto a nivel de tesis, ¿bien? No hay problema, está aquí lo puedo ayudar, ¿bien? Pero hoy día yo necesito que a ustedes solamente entreguen
+
+01:57:48.000 --> 01:57:49.000
+Okay.
+
+01:57:49.000 --> 01:57:50.000
+Lo que yo he levantado, corren.
+
+01:57:50.000 --> 01:57:51.000
+Total
+
+01:57:51.000 --> 01:58:02.000
+trata de llegar a dos por lo menos, trata de llegar a nota dos, sí, sí.
+
+01:58:02.000 --> 01:58:30.000
+Y subió aja o él te recomiende ir por la parte con mejor entrenada, como ingeniería de prompting y le dices, dale dos preguntas de testeo por prompt engineering en inglés. Ahí te podrían mal la nota.
+
+01:58:30.000 --> 01:58:31.000
+Yeah.
+
+01:58:31.000 --> 01:58:32.000
+Yeah, yeah.
+
+01:58:32.000 --> 01:58:33.000
+Lo que pasa es que
+
+01:58:33.000 --> 01:58:35.000
+Bien, pues serio, la idea de que lo corran, que lo carguen, porque si van a ir a trabajar cosas propias hoy día no van a alcanzar y tienen que planificar todo el proceso, los parametros, los ajustes. Entonces, esta guía va a servir para ambas cosas. Si alguien la aplica tal cual como está, va a poder replicarla.
+
+01:58:35.000 --> 01:58:36.000
+Okay.
+
+01:58:36.000 --> 01:58:38.000
+Ahí dice destila punto pellet modificado, dice
+
+01:58:38.000 --> 01:59:02.000
+Sí, sí, correcto, pues he dicho, aquí todo cual mira, no tapaba hace experimento corridas, aunque era el juez, etcétera y aquí. Resultados, etcétera. Todo lo que está aquí adentro de nota, bien, no es directamente lo que por eso digo, pueden correrlo con su negocio, con lo que quieran, pero yo necesito que sigan la regla básica que dice al inicio, córrenlo nomás.
+
+01:59:02.000 --> 01:59:03.000
+Okay.
+
+01:59:03.000 --> 01:59:06.000
+Ya.
+
+01:59:06.000 --> 01:59:09.000
+No, no.
+
+01:59:09.000 --> 01:59:10.000
+Thank you.
+
+01:59:10.000 --> 01:59:24.000
+Cárguenlo tal cual como está, si quieren que lo complejizamos, no tengo problema, pero no, no van a alcanzar, por eso digo, es sencillo el caso. Esta pauta tiene lo que dice el inicio, córrelo tal cual como está y exportan el resultado. Si alguien quiere destilar con su propio modelo de negocio, es parecido a lo que dije antes, diseñan, cargan la arquitectura, yo le voy a ayudar con feedback propio.
+
+01:59:24.000 --> 01:59:49.000
+Si alguien quiere correr un modelo propio, hazlo, pero aparte del taller, ¿bien? Para que yo lo pueda ayudar en lo que necesitan. Pero lo unico aqui que ejecutan el taller tal cual y listo.
+
+01:59:24.000 --> 01:59:49.000
+No sé si alguien
+

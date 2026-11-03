@@ -1,0 +1,4982 @@
+WEBVTT
+
+00:03:02.000 --> 00:03:07.000
+Ya entonces te le di un poco de vuelta al tema del del trabajo.
+
+00:03:07.000 --> 00:03:14.000
+Y la idea sería en un trabajo de entre 2 500 y 3 000 palabras.
+
+00:03:14.000 --> 00:03:19.000
+Discutir, hacer una comparación entre un enfoque simbólico y un shopping.
+
+00:03:19.000 --> 00:03:27.000
+En un caso práctico. Hoy día vamos a ver más o menos que implica un enfoque subsimbólico de reglas.
+
+00:03:27.000 --> 00:03:36.000
+Y la próxima clase. Vamos a discutir un poco sobre. Transformers y Embadings. Y esa esa lógica que.
+
+00:03:36.000 --> 00:03:44.000
+Es distinta de la de la es simbólico. Y entonces la idea sería: ¿no es cierto?
+
+00:03:44.000 --> 00:03:51.000
+Elegir un caso. Los grupos. Ah, bueno, esto es la entre 3 2 500 y 3 500 palabras.
+
+00:03:51.000 --> 00:04:04.000
+Tres a 4 personas para entregar el 2. De.
+
+00:04:04.000 --> 00:04:21.000
+Y es como aprobación.
+
+00:04:21.000 --> 00:04:27.000
+Bólica. No, No estoy pensando en que nadie entre el código para esto, pero sí como la la.
+
+00:04:27.000 --> 00:04:33.000
+La arquitectura general. Y.
+
+00:04:33.000 --> 00:04:41.000
+Una solución subsimbólica a cómo usaría un transformer o palomismo. Y.
+
+00:04:41.000 --> 00:04:51.000
+Con algunos puntos que debían tocar. Y un análisis comparativo de los 2 en la línea de lo que discutíamos la clase pasada, que tiene que ver con interpretabilidad, flexibilidad.
+
+00:04:51.000 --> 00:05:01.000
+Costo computacional. Costo total, en realidad, también en términos del uso de recursos.
+
+00:05:01.000 --> 00:05:08.000
+Y una conclusión, y hay reglas especiales para el uso de y a en el trabajo.
+
+00:05:08.000 --> 00:05:13.000
+Se permite el uso de ella. Pero con el controles específicos.
+
+00:05:13.000 --> 00:05:18.000
+Entonces les voy a pedir que hagan un apéndice al trabajo.
+
+00:05:18.000 --> 00:05:24.000
+Donde discuten exactamente cómo la usaron. Con capturas de pantalla. Y eso para.
+
+00:05:24.000 --> 00:05:31.000
+Tener algo de evidencia. Pueden usar, por ejemplo, usar.
+
+00:05:31.000 --> 00:05:37.000
+El Gpt para. Para generar reglas, por ejemplo.
+
+00:05:37.000 --> 00:05:45.000
+Buscar referencias bibliográficas. Hay algo sobre cada una de estas cosas o lo que ustedes se le ocurran. Muy probablemente haya alguna referencia.
+
+00:05:45.000 --> 00:05:53.000
+Pueden usar Pepity o algún otro. Alguna otra inteligencia para eso?
+
+00:05:53.000 --> 00:05:59.000
+Y para revisar borradores. También. La idea es que usted, en el Apéndice.
+
+00:05:59.000 --> 00:06:06.000
+Díganme, lo usamos para esto de esta manera. Aquí hay una captura de pantalla y así.
+
+00:06:06.000 --> 00:06:15.000
+Y hemos. Cierto, ese sería el requisito obligatorio, criterios de evaluación, originalidad.
+
+00:06:15.000 --> 00:06:19.000
+O sea, que se note en realidad quién no ha usado un solo día.
+
+00:06:19.000 --> 00:06:27.000
+O en realidad 1 puede usar el chat y discutir con el chat hasta que hay una respuesta que 1 le parece apropiada. Y eso cuenta para mí.
+
+00:06:27.000 --> 00:06:37.000
+Como producción de 1. Usted tiene que notar, que no es directo del primer prontti. Lo primero que tiró.
+
+00:06:37.000 --> 00:06:44.000
+Con conexión con conceptos del curso. Eso es lo es otro otro criterio importante. Claridad visual, pues les voy a pedir también que hagan diagramas.
+
+00:06:44.000 --> 00:06:53.000
+Practicar cada 1 de los enfoques. Y documentación detallada del uso de inteligencia artificial, o sea.
+
+00:06:53.000 --> 00:07:03.000
+El criterio de transparencia, y eso la idea sería que. Eso sea exigible. O sea, no debería haber un trabajo sin eso.
+
+00:07:03.000 --> 00:07:06.000
+No sé qué penalización. Pero alguna penalización.
+
+00:07:06.000 --> 00:07:11.000
+Entregarlo en Pdf. El trabajo más el apéndice.
+
+00:07:11.000 --> 00:07:19.000
+Y enviarlo a mi correo. Con trabajo y hay ciencias cognitivas en el asunto, y ahí estamos.
+
+00:07:19.000 --> 00:07:23.000
+Si hay dudas de eso, me pueden escribir o lo podemos consultar una vez que lo.
+
+00:07:23.000 --> 00:07:30.000
+Que lo dijeran un poco más. Sí, eso está subido en.
+
+00:07:30.000 --> 00:07:34.000
+En buen curso. A.
+
+00:07:34.000 --> 00:07:52.000
+Ahora, Sí.
+
+00:07:52.000 --> 00:07:59.000
+Ahí está. Ya Perfecto. Sí.
+
+00:07:59.000 --> 00:08:07.000
+No, no. No, no se a adicional. Son 2 503 1 500.
+
+00:08:07.000 --> 00:08:13.000
+Y abeniz, et cebada. No lo hace Usted sí.
+
+00:08:13.000 --> 00:08:19.000
+Como quieran. Yo profe.
+
+00:08:19.000 --> 00:08:29.000
+Perdóname un segundo que sí. Cuando hablo de diagramas de arquitectura, se refería a ser el modelo con componentes y todo lo que implica para poder levantar los servicios que está.
+
+00:08:29.000 --> 00:08:35.000
+Dentro del trabajo como a ese nivel o no. A ese nivel, algo más algo más general, un oficio.
+
+00:08:35.000 --> 00:08:42.000
+Como un vicio o una cosa así. Sí, Sí, conceptual. Sí, Vale. Gracias.
+
+00:08:42.000 --> 00:08:49.000
+Sí, sí fue, Pues. Usar un micrófono, porque si no, no escuchan en zoom.
+
+00:08:49.000 --> 00:08:56.000
+Mi pregunta ya en esa línea, que es. Algunos de estos conceptos los vimos en la clase pasada.
+
+00:08:56.000 --> 00:09:01.000
+De manera más bien. Conversamos sobre ello, entonces.
+
+00:09:01.000 --> 00:09:05.000
+Me quería tener claridad de cuál es la expectativa de ustedes que.
+
+00:09:05.000 --> 00:09:10.000
+O sea, en el fondo, el trabajo tiene un propósito, ¿verdad? Que nosotros aprendamos algo. Mi pregunta es.
+
+00:09:10.000 --> 00:09:21.000
+El sí. El El propósito del trabajo es que. Puedan reflexionar sobre las dificultades o complejidades de cada 1 de los enfoques.
+
+00:09:21.000 --> 00:09:29.000
+Entonces, obviamente. Pa: Si van a si si tienen un enfoque basado en regla y van a resolver al tratar de resolver.
+
+00:09:29.000 --> 00:09:37.000
+O indicar cómo se resolvería alguno de los problemas. Que hubo un problema que ustedes seleccionen.
+
+00:09:37.000 --> 00:09:44.000
+Ya estoy pensando en el en el tema de de. De de créditos bancarios, pero.
+
+00:09:44.000 --> 00:09:49.000
+Que tengan la experiencia de ver cuáles son las dificultades con que 1 se puede encontrar.
+
+00:09:49.000 --> 00:09:55.000
+Y lo mismo. Si usaran un criterio de transformer, qué se puede hacer y qué no se puede hacer.
+
+00:09:55.000 --> 00:10:02.000
+Con un modelo de Transformers. ¿en qué medida pueden. De reflexionar.
+
+00:10:02.000 --> 00:10:06.000
+Acerca de las dificultades que encontrarían. Con cada 1 de los métodos.
+
+00:10:06.000 --> 00:10:13.000
+Esa reflexión que he esperado, que sea basado en lo que hemos visto en la clase o que nosotros profundicemos en cada 1 de los conceptos.
+
+00:10:13.000 --> 00:10:20.000
+La las 2 cosas trabajaban lo que hemos visto en la clase, pero si pueden profundizar más.
+
+00:10:20.000 --> 00:10:27.000
+Mejor. Pero lo mi lo mínimo que esperaría es que fueran es que hay una relación entre las cosas que vemos en clase.
+
+00:10:27.000 --> 00:10:35.000
+Y lo que ustedes discutan en el trabajo. Y cuál es el Estado.
+
+00:10:35.000 --> 00:10:39.000
+De este trabajo, que produciría. No sé si se nota, pero no nota maxi.
+
+00:10:39.000 --> 00:10:48.000
+Para usted el ideal.
+
+00:10:48.000 --> 00:10:58.000
+No sé cómo contestar eso sin sin. Ver un trabajo en específico, o sea, para mí, el ideal sería un trabajo.
+
+00:10:58.000 --> 00:11:02.000
+Que blanquean un problema que se puede resolver de las 2 de las 2 maneras.
+
+00:11:02.000 --> 00:11:08.000
+Por ejemplo, un problema de diagnóstico médico. Se podría resolver.
+
+00:11:08.000 --> 00:11:15.000
+Que implique, ojalá que haya un método más apropiado que otro.
+
+00:11:15.000 --> 00:11:20.000
+Por lo menos parece que parezca que hay un método más apropiado que otro.
+
+00:11:20.000 --> 00:11:26.000
+Que puedan discutir las ventajas de un método o versus las desventajas del otro y que las discutan.
+
+00:11:26.000 --> 00:11:33.000
+Conceptualmente. De manera conceptualmente correcta.
+
+00:11:33.000 --> 00:11:40.000
+Y. Y que usen la ya en la en la elaboración del trabajo. Espero que lo hagan.
+
+00:11:40.000 --> 00:11:45.000
+Pero que se note claramente que fueron más allá de simplemente.
+
+00:11:45.000 --> 00:11:51.000
+Armado un buen pronti y copiar lo que está ahí. Se nota un tra, un trabajo.
+
+00:11:51.000 --> 00:12:01.000
+Eso normalmente se nota. Porque 1 ve que hay un proceso de razonamiento en el trabajo mismo.
+
+00:12:01.000 --> 00:12:11.000
+Y no es un. No es como razonamiento estándar. Uno puede preguntar estas cosas. Y la máquina te va a producir una respuesta más o menos, están.
+
+00:12:11.000 --> 00:12:18.000
+Entonces eso sería un buen trabajo y luego el resto también depende de la.
+
+00:12:18.000 --> 00:12:24.000
+Con un criterio comparativo. Si hay algún grupo que hace un trabajo claramente mejor que los demás.
+
+00:12:24.000 --> 00:12:37.000
+Ese va a tener una mejor nota. Pero no tengo un estándar, así que yo te pueda decir, Mira, este este es la rúbrica. Estas son las cosas que tienen que tener lo que tienen que tener lo que está.
+
+00:12:37.000 --> 00:12:42.000
+Ha indicado en el en en el documento, ese que les mostré.
+
+00:12:42.000 --> 00:12:46.000
+Pero no tengo más detalles sobre cómo debería ser ese trabajo.
+
+00:12:46.000 --> 00:12:51.000
+Que pueden ser creativos en eso. Es una última pregunta.
+
+00:12:51.000 --> 00:12:57.000
+Lo siento. Solo en la evaluación. Usted va a leer cada 1 por 1 los ensayos.
+
+00:12:57.000 --> 00:12:59.000
+Profe pueden pedirle a los alumnos que puedan prender los micrófono por fin.
+
+00:12:59.000 --> 00:13:05.000
+Si puedes acercar, Sí, disculpa en la evaluación, esto va a ser evaluado con.
+
+00:13:05.000 --> 00:13:12.000
+Con I A, o lo va a leer usted. No, no lo lo voy. Lo voy a leer? Sí. Ok.
+
+00:13:12.000 --> 00:13:21.000
+Sí. Yo tengo una consulta. ¿hay alguna instituciones que para algunos informes están usando.
+
+00:13:21.000 --> 00:13:26.000
+Guía para detectar si el trabajo efectuado ha sido con la I a.
+
+00:13:26.000 --> 00:13:31.000
+Si eso se va a aplicar también acá o queda criterio.
+
+00:13:31.000 --> 00:13:40.000
+De cada 1 de nosotros como la sí, pero entiendo yo que en general he tenido experiencias como mixtas con esos sistemas. Entonces.
+
+00:13:40.000 --> 00:13:48.000
+De repente es fácil. Hace sacar un output del del sistema. Y después 1.
+
+00:13:48.000 --> 00:13:59.000
+Pone algunos errores gramaticales. Cambia alguna idea de lugar. Y la cosa baja de 90 por 100 de I a a 10 por 100 de día.
+
+00:13:59.000 --> 00:14:06.000
+Al 90 por 100 humanos, entonces. En general, No, no creo que haya un sistema por ahora.
+
+00:14:06.000 --> 00:14:14.000
+Bueno para para distinguir entre. Entre ellas pasa lo mismo que con el tema de plagios.
+
+00:14:14.000 --> 00:14:20.000
+Cuál es el nivel de plagio que 1 puede con que puede tener con en detectores de plagio.
+
+00:14:20.000 --> 00:14:26.000
+Si hay un 20 por 100 de plagio. Yo nunca he entendido si eso es malo o bueno o qué.
+
+00:14:26.000 --> 00:14:35.000
+Entonces no, no, no, no, pienso, no, no puedo. Podría haber. No, No creo que use eso.
+
+00:14:35.000 --> 00:14:43.000
+Y si más bien. Más bien, la idea es evitar.
+
+00:14:43.000 --> 00:14:50.000
+Lacio pasivo que sería. Y.
+
+00:14:50.000 --> 00:14:54.000
+Poner contenido generado por la vía. Que la I A no necesita nada.
+
+00:14:54.000 --> 00:15:03.000
+Y luego. Sin saber estar estar plagiando. Eso Eso puede pasar.
+
+00:15:03.000 --> 00:15:09.000
+A. Se usan el el el razonable y el.
+
+00:15:09.000 --> 00:15:18.000
+De cómo se llaman. La opción de razonamiento profundo del G. B, T, Ahí te da te da la referencia y todo, pero.
+
+00:15:18.000 --> 00:15:23.000
+Tampoco estoy claro exactamente si son las mejores referencias posibles, pero.
+
+00:15:23.000 --> 00:15:30.000
+Así que la idea, la idea es que lo usen en la medida en que les parezca necesario.
+
+00:15:30.000 --> 00:15:36.000
+Pero no, no. E: No es como que busque detectar. Se ha sido producido con.
+
+00:15:36.000 --> 00:15:42.000
+Supongo que tampoco no tiene mucho sentido. Ustedes mismo hacer eso.
+
+00:15:42.000 --> 00:15:52.000
+Por ahora. Quizá si tuvieran que hacer código o cosas así? Bueno, yo, si hay que si hay que codificar, en realidad sí tiene sentido usarlo.
+
+00:15:52.000 --> 00:16:01.000
+Sí, es eso. Sí, Profesor: bibliografía recomendada para el.
+
+00:16:01.000 --> 00:16:12.000
+No, yo le sugeriría es que depende del caso. Entonces, si ustedes dicen, mira acaso diagnóstico médico? Pueden buscar bibliografía asociada a diagnóstico médico.
+
+00:16:12.000 --> 00:16:17.000
+Con usando esos sistemas sistemas de transformers para para imágenes o.
+
+00:16:17.000 --> 00:16:25.000
+Dijera: mira, vamos a tener un sistema para detectar esto. Nos interesa.
+
+00:16:25.000 --> 00:16:34.000
+Detectar. Inventario a partir de imágenes. Algo como eso.
+
+00:16:34.000 --> 00:16:41.000
+Pueden hacerlo aparte con reglas o tendría que ser un sistema con redes neuronales. Si alguien, si algún grupo sabe algo de machine learning.
+
+00:16:41.000 --> 00:16:51.000
+También pueden introducirlo. Entonces la la referencia depende más de.
+
+00:16:51.000 --> 00:17:02.000
+Del tema. Y si hay algo hecho en eso. O no, por ejemplo, en en el tema de calificación de riesgo para los.
+
+00:17:02.000 --> 00:17:16.000
+O a los créditos bancarios. Sí hay, pero hay. Entonces prefiero, en ese caso que ustedes busquen, o sea, prefiero que ustedes busquen refer.
+
+00:17:16.000 --> 00:17:21.000
+Bueno, sin si no hay dudas. O sea, si no hay más duda.
+
+00:17:21.000 --> 00:17:27.000
+No. Ok, Entonces.
+
+00:17:27.000 --> 00:17:35.000
+Habíamos visto. La semana pasada que.
+
+00:17:35.000 --> 00:17:43.000
+Que el enfoque inicial de inteligencia artificial en ciencias cognitivas y en ciencias cognitivas de tratar de replicar la inteligencia humana.
+
+00:17:43.000 --> 00:17:53.000
+Y que los los modelos iniciales. Se basaban en la idea de búsqueda en un árbol de decisión.
+
+00:17:53.000 --> 00:18:01.000
+Con criterios para. Hacer las búsquedas de manera inteligente, talleurísticos de búsqueda.
+
+00:18:01.000 --> 00:18:12.000
+Y que, en general, no es cierto. Se entendía que los sistemas tenían una una memoria de largo plazo o una un un disco.
+
+00:18:12.000 --> 00:18:21.000
+Dudo con una una memoria. Y.
+
+00:18:21.000 --> 00:18:26.000
+Todo momento.
+
+00:18:26.000 --> 00:18:34.000
+Y. Y una lo que serían en inteligencia humana, una memoria de corto plazo.
+
+00:18:34.000 --> 00:18:39.000
+Ese día, ¿dónde ocurren los procesos? En realidad se toma información.
+
+00:18:39.000 --> 00:18:45.000
+Se interactúa con ella, se da un output y hay una estructura fija de información.
+
+00:18:45.000 --> 00:18:51.000
+Que está disponible y después hay unas unas reglas de procesamiento de esa información.
+
+00:18:51.000 --> 00:19:00.000
+Entonces esta esta idea, que fueron las primeras que inspiraron los primeros trabajos, han seguido siendo utilizadas actualmente en lo que se llaman.
+
+00:19:00.000 --> 00:19:06.000
+Arquitecturas cognitivas. Que su arquitecturas cognitivas son una serie de modelos.
+
+00:19:06.000 --> 00:19:18.000
+Que se han desarrollado, que siguen reglas. De de razonamiento y que tiene, O sea, si bien digo reglas de razonamiento.
+
+00:19:18.000 --> 00:19:22.000
+Y, en general, procedimientos para manipular esa regla. Y con eso toman decisiones.
+
+00:19:22.000 --> 00:19:38.000
+Entonces no hay un, no hay un árbol explícito. Necesariamente, pero la lógica es de árbol de decisión.
+
+00:19:38.000 --> 00:19:47.000
+Y esto vamos a ver también que estos mecanismos pueden. Pueden producir aprendizaje.
+
+00:19:47.000 --> 00:19:53.000
+A partir de la experiencia, o sea, el mecanismo, la máquina.
+
+00:19:53.000 --> 00:19:58.000
+Interactúa con un usuario. Y el usuario puede dar la información.
+
+00:19:58.000 --> 00:20:02.000
+Y en la medida que resuelve un problema, el hecho de resolver un problema puede constituir.
+
+00:20:02.000 --> 00:20:09.000
+Registros de memoria que mantiene que mantiene después como una regla, lo convierte en una regla.
+
+00:20:09.000 --> 00:20:15.000
+Entonces pueden ser actualmente. Pueden ser entrenados por reforzamiento. Ya se le puede dar la respuesta correcta.
+
+00:20:15.000 --> 00:20:19.000
+O también pueden aprender de la solución de problemas que hacen.
+
+00:20:19.000 --> 00:20:26.000
+Entonces, si resuelven un problema, no necesitan volver a resolverlo, pueden generar una regla.
+
+00:20:26.000 --> 00:20:33.000
+Y hay 2 de estos sistemas que, bueno, hay varias arquitecturas cognitivas dando vueltas por ahí. Pero todos.
+
+00:20:33.000 --> 00:20:38.000
+Que vamos a echar una mirada hoy día. Es Sole.
+
+00:20:38.000 --> 00:20:45.000
+Que es Estado operador. Acción y respuesta.
+
+00:20:45.000 --> 00:20:50.000
+Y que esa es la lógica. ¿no es cierto de lo que veíamos de.
+
+00:20:50.000 --> 00:20:58.000
+De tomar una, una, un input, buscar cuál es la regla que aplica.
+
+00:20:58.000 --> 00:21:07.000
+Y con y la regla con la regla, modificar, hacer una operación que modifica el estado del sistema. Ves como el el ejemplo aquí del juego de ajedrez.
+
+00:21:07.000 --> 00:21:12.000
+¿cierto? O sea, hay un hay una. Hay un.
+
+00:21:12.000 --> 00:21:18.000
+Una posición de la de las piezas en el tablero y luego se aplica un operador.
+
+00:21:18.000 --> 00:21:22.000
+Que es un movimiento. Y hay un nuevo Estado que es el nuevo Estado del tablero.
+
+00:21:22.000 --> 00:21:29.000
+Esa es la misma lógica para todos. El sur sigue eso. Y la otra es A, C, T, R.
+
+00:21:29.000 --> 00:21:37.000
+Que significa. Control adaptativo del pensamiento.
+
+00:21:37.000 --> 00:21:48.000
+Y R por racional. Sí. El El supuesto es que es que estos modelos son racionales en en un senti en cierto sentido, de.
+
+00:21:48.000 --> 00:21:53.000
+De la palabra. Vamos a ver en qué sentidos son racionales.
+
+00:21:53.000 --> 00:22:02.000
+Y todo esto han generado Spin Offs. Desde las universidades que lo donde donde se han generado.
+
+00:22:02.000 --> 00:22:09.000
+Y entonces son son empresas que hacen capacitación. Desarrollan modelos.
+
+00:22:09.000 --> 00:22:22.000
+Y también cobran a. Académicos por entrenarlos en la en hacer código. Hay una pequeña.
+
+00:22:22.000 --> 00:22:32.000
+Que hace investigación sobre con estos modelos. Y para eso hay que tomar los cursos y formar parte de la de la comunidad.
+
+00:22:32.000 --> 00:22:40.000
+Entonces no son. No son totalmente abiertos.
+
+00:22:40.000 --> 00:22:50.000
+Ni con eso se financian. La lógica de todo esto es la lógica del general Problem Solver. Entonces todos tienen esta misma lógica.
+
+00:22:50.000 --> 00:22:56.000
+Que es básicamente. La lógica de análisis medio y cine.
+
+00:22:56.000 --> 00:22:59.000
+O sea, yo estoy en un estado A. Y quiero llegar a un estado B.
+
+00:22:59.000 --> 00:23:04.000
+Selecciono un operador que me que me lleve hacia ese estado.
+
+00:23:04.000 --> 00:23:12.000
+Y puedo tener varios operadores que me pueden mover en 6 direcciones. Entonces, en general, el heurístico es que.
+
+00:23:12.000 --> 00:23:18.000
+Uso el operador que más me acerque al Estado final deseado.
+
+00:23:18.000 --> 00:23:26.000
+Y así, siguiendo hedurísticos, fui recorriendo el el. Inteligentemente el árbol.
+
+00:23:26.000 --> 00:23:33.000
+Entonces, esto es Esa es la Esa es la lógica básica del.
+
+00:23:33.000 --> 00:23:39.000
+Del modelo. Sí. Yo tengo que tengo una meta.
+
+00:23:39.000 --> 00:23:48.000
+Evalúe la meta, selecciona el método que voy a aplicar. Que puede ser de una serie fija de reglas disponibles.
+
+00:23:48.000 --> 00:23:56.000
+Ejecuto, el método chequeo. Si la meta está lograda. Si no está lograda. Repito: el proceso o me salgo de ahí rechazo la meta.
+
+00:23:56.000 --> 00:24:02.000
+Y el sistema va va recorriendo ahora. El conocimiento que tiene el sistema no tiene que estar todo.
+
+00:24:02.000 --> 00:24:20.000
+Completan. Tiene estructura, pero no es una estructura totalmente rígida. De modo que no es necesario empezar por tal o cual regla. Todo depende del input.
+
+00:24:20.000 --> 00:24:26.000
+Y el input viene dado por el. Eh.
+
+00:24:26.000 --> 00:24:36.000
+En general. Sí, vengo al mundo humanista. Tuvimos que definir operador podría dar una definición.
+
+00:24:36.000 --> 00:24:42.000
+Un operador. Y.
+
+00:24:42.000 --> 00:24:47.000
+Sí, sí. La diferencia entre conocimiento explícito que tú tienes sobre algo.
+
+00:24:47.000 --> 00:24:52.000
+Inserto. Las abejas son insectos.
+
+00:24:52.000 --> 00:24:58.000
+Y luego operadores son cosas que tú sabes. Pero sabes cómo hacerlas.
+
+00:24:58.000 --> 00:25:07.000
+Pero no necesariamente. La es una definición. Sino que una acción que lleva aprovechando ese conocimiento.
+
+00:25:07.000 --> 00:25:16.000
+Entonces tú puedes. Tú puedes saber que para para bajar la fiebre necesitas un antipirético.
+
+00:25:16.000 --> 00:25:22.000
+Y un emperador. Sería ir y mirar. La lista en un en en un vademécum.
+
+00:25:22.000 --> 00:25:31.000
+De antibióticos. Y luego, si tú hace eso, no necesitas tener, sabes hacer este procedimiento.
+
+00:25:31.000 --> 00:25:37.000
+El otro ejemplo, el ejemplo que vamos a ver que. Es más cotidiano es contar con los dedos.
+
+00:25:37.000 --> 00:25:40.000
+Es un niño, puede saber los números. Uno, 2, 3, 4, 5.
+
+00:25:40.000 --> 00:25:45.000
+Entonces no es cierto. Si sabes los números después puedes aprender a sumar.
+
+00:25:45.000 --> 00:25:49.000
+Sabiendo esa secuencia. Cierto, dice 1, 2.
+
+00:25:49.000 --> 00:25:56.000
+Y después le agrega el 3, dice 1, 2, 3 y cuenta cuantos dedos tiene. Y eso es.
+
+00:25:56.000 --> 00:26:04.000
+Esa es la diferencia entre un operador y un. Y un arreglo.
+
+00:26:04.000 --> 00:26:08.000
+Problemas que se pueden resolver de esta manera o que son.
+
+00:26:08.000 --> 00:26:14.000
+Característicamente soluble. Así. Son problemas de ruteo.
+
+00:26:14.000 --> 00:26:28.000
+Un cierto. Hay el el caso de robots, auto autónomo llamados de celular que hay que rutear. ¿cuál es la antena que va a estar usando.
+
+00:26:28.000 --> 00:26:38.000
+Hay. Las aerolíneas también tienen problemas como como éste. Personajes de videojuegos, los personajes que son.
+
+00:26:38.000 --> 00:26:44.000
+No participantes. Son los que aparecen y dialogan. Esos pueden ser. Son.
+
+00:26:44.000 --> 00:26:48.000
+Pueden tener. Pueden resolver problemas de esta manera, porque en realidad.
+
+00:26:48.000 --> 00:27:00.000
+La el el input con que se encuentran, que en este caso no es solo el operador. No es la persona que está jugando Nomás, sino que el recorrido particular que siguió en el juego. La persona está jugando, indican que es lo que el personaje.
+
+00:27:00.000 --> 00:27:10.000
+Debería decirte o cómo interactuar contigo. Entonces esos problemas se pueden resolver más inteligentemente que con un diálogo pre armado.
+
+00:27:10.000 --> 00:27:16.000
+Y. Determinar rutas si alguien tiene.
+
+00:27:16.000 --> 00:27:23.000
+Piense en una flota de camiones que hace el reparto de terminar determinar ruta. Es un típico problema.
+
+00:27:23.000 --> 00:27:32.000
+Que se puede resolver de esta de esta manera. Lo otro un poco más complejo es balancear la carga en en vehículo que es.
+
+00:27:32.000 --> 00:27:40.000
+Que no es cierto que ningún vehículo recorra mucho para hacer las entregas y otros recorran poco, sino que tratar de.
+
+00:27:40.000 --> 00:27:50.000
+Equilibrar eso. Esos son problemas. Todos son problemas de ruteo. Que se pueden resolver, y todos comparten no solo la misma estructura, sino que las mismas formas de solución también.
+
+00:27:50.000 --> 00:27:55.000
+Y los mismos problemas.
+
+00:27:55.000 --> 00:28:01.000
+Otra disposición de circuito electrónico. Esos también son problemas que no es.
+
+00:28:01.000 --> 00:28:09.000
+Hay que usar el espacio de manera lo más. Aproximándose a a un a una distribución óptima.
+
+00:28:09.000 --> 00:28:18.000
+Y 1 puede hacer estos problemas que. Como si fueran un problema de resolución de un problema de búsqueda en un árbol.
+
+00:28:18.000 --> 00:28:23.000
+Otros problemas típicos son la asignación de tareas. Que es. No es.
+
+00:28:23.000 --> 00:28:37.000
+Pensando en lo que. En en equipo grandes de trabajo, donde no necesariamente las tareas empiezan por el por la entrada, por una entrada y salen en una secuencia.
+
+00:28:37.000 --> 00:28:42.000
+Fijas, sino que hay que asignar tareas a grupos. En eso también es un problema típico de esto.
+
+00:28:42.000 --> 00:28:54.000
+Juegos prueba de teoremas que el original del. De Newell, el el General Provence Solver.
+
+00:28:54.000 --> 00:29:00.000
+Probad el teoremas matemático. Se fue, como el probablemente el logo más importante.
+
+00:29:00.000 --> 00:29:06.000
+Que hubo, y más complejo todavía es diseño de drogas, combinación de moléculas en la.
+
+00:29:06.000 --> 00:29:12.000
+Pero estos problemas empiezan a volverse complejos en la medida en que nos acercamos a.
+
+00:29:12.000 --> 00:29:18.000
+A problemas que tienen más posibilidades de generar lo que se llaman explosiones combinatorias.
+
+00:29:18.000 --> 00:29:27.000
+Entonces cualquier problema. Medianamente complejo y tiene muchos Estados posibles, y eso hace que sea difícil para un sistema.
+
+00:29:27.000 --> 00:29:33.000
+Simbólico con reglas que lo que lo recorra completo, que lo resuelva Sí.
+
+00:29:33.000 --> 00:29:38.000
+Profe. La lámina anterior podría hacerle un doble clic al problema al segundo que parecía en el ejemplo.
+
+00:29:38.000 --> 00:29:46.000
+De arriba hacia abajo en la asignación de. Ah, ya sí, sí, Ese.
+
+00:29:46.000 --> 00:29:55.000
+Y. En general. Si 1 tiene un sistema complejo donde 1 tiene una serie de procesos.
+
+00:29:55.000 --> 00:30:01.000
+Que no están. Ligados en una estructura fija.
+
+00:30:01.000 --> 00:30:07.000
+Que te estoy dando a pensar en un caso que nos sirva acá.
+
+00:30:07.000 --> 00:30:17.000
+Mhm.
+
+00:30:17.000 --> 00:30:25.000
+Supongamos en atención hospitalaria entre una persona. ¿no es cierto? ¿cuál es el cuál es el recorrido que debería seguir.
+
+00:30:25.000 --> 00:30:32.000
+Eso sí es fijo y estructurado. Es más difícil. Es complejo. Va va a tener ineficiencia en algún lado.
+
+00:30:32.000 --> 00:30:40.000
+Yo querría. ¿no es cierto que pasa por un proceso inicial de diagnóstico, porque de ahí exactamente a dónde va, dónde ha enviado.
+
+00:30:40.000 --> 00:30:44.000
+Cuál es el orden en que se hacen los exámenes? ¿es que hay exámen.
+
+00:30:44.000 --> 00:30:50.000
+Y todo eso son problemas de asignación de tareas. O sea, tomamos a esta persona y a dónde la enviamos.
+
+00:30:50.000 --> 00:30:53.000
+Y qué es lo que es lo que hacemos con esta persona y cómo.
+
+00:30:53.000 --> 00:31:00.000
+Fluye por todo el proceso de la atención. Típicamente, ciertas cosas son.
+
+00:31:00.000 --> 00:31:08.000
+Tiene una secuencia estricta, rígida. Entonces siempre alguien va a sufrir consecuencias de eso. El paciente o el sistema.
+
+00:31:08.000 --> 00:31:16.000
+Va a tener ineficiencia, entonces 1 querría asignarlo. A cierta a cierta a cierto equipo.
+
+00:31:16.000 --> 00:31:25.000
+Asignarlo a cierto proceso en función de las características particulares de entrada, se haga una una evaluación de entrada.
+
+00:31:25.000 --> 00:31:32.000
+Y con esa he decidido cuál es la secuencia, la próximo paso, la secuencia. Pero en cada paso de la secuencia puedo modificar.
+
+00:31:32.000 --> 00:31:41.000
+Por por dónde se va a ir.
+
+00:31:41.000 --> 00:31:51.000
+Entonces le decía que no todos los problemas se pueden resolver Así, en la medida en que la que los problemas típicamente tienen una explosión combinatoria y si son aplicación de regla.
+
+00:31:51.000 --> 00:31:58.000
+Entonces esa explicación, esa explosión de combinatoria, lo que hace es que aumenta el tiempo de procesamiento.
+
+00:31:58.000 --> 00:32:08.000
+Y lo hace imposible de ejecutar en tiempo real. Entonces esa es la ventaja de sistemas que que no son simbólicos.
+
+00:32:08.000 --> 00:32:17.000
+Justamente este este tipo de problemas los pueden resolver. Mejor. Entonces, juegos. Complejo.
+
+00:32:17.000 --> 00:32:24.000
+Donde hay muchos Estados posibles. Y que son difíciles de resolver con aplicación de reglas que se aplican.
+
+00:32:24.000 --> 00:32:40.000
+Secuencialmente, esos se pueden resolver mejor con redes neuronales. Pero pero tienen la la dificultad que habíamos visto la semana pasada.
+
+00:32:40.000 --> 00:32:50.000
+Entonces una arquitectura cognitiva es sole. Sol, qué significa Estado operador y resultado?
+
+00:32:50.000 --> 00:32:55.000
+O sea, de nuevo la lógica del del. Del General Program Soldber.
+
+00:32:55.000 --> 00:33:01.000
+Considera que hay una estructura fija de procesamiento que es esta estructura de memoria.
+
+00:33:01.000 --> 00:33:06.000
+Esa no cambia. Todos los problemas se resuelven de la misma manera.
+
+00:33:06.000 --> 00:33:15.000
+Son. Pa. La idea original de Newell es que todos los problemas podían resolverse o podían expresarse como.
+
+00:33:15.000 --> 00:33:20.000
+Como un espacio de búsqueda. Lo que.
+
+00:33:20.000 --> 00:33:25.000
+No estoy seguro si todos los problemas se pueden expresar de esa de esa manera o si conviene.
+
+00:33:25.000 --> 00:33:30.000
+Pero esa es la idea original. Y to y sol hace eso exactamente.
+
+00:33:30.000 --> 00:33:41.000
+Y tú puedes llegar a una solución de cualquier a cualquier problema dentro del ámbito de aplicabilidad del sistema aplicando esta regla, ¿sí? Entonces entonces todas las soluciones son.
+
+00:33:41.000 --> 00:33:48.000
+Concatenaciones de reglas. Y entonces. Más estos operadores.
+
+00:33:48.000 --> 00:33:55.000
+Que hacen cosas con estas reglas. Las reglas están en una memoria de largo.
+
+00:33:55.000 --> 00:34:07.000
+Están almacenadas y esas reglas. En general no no cambian. Uno puede agregar nuevas reglas que son resultan de encadenamiento de alguna Esta otra regla, entonces genera una nueva regla.
+
+00:34:07.000 --> 00:34:14.000
+Pero esta esta base de información es es inerte. En realidad no hace nada por sí sola.
+
+00:34:14.000 --> 00:34:19.000
+No necesita que. Operar, cooperar con ella.
+
+00:34:19.000 --> 00:34:34.000
+Y. Ahora como estos sistemas son usados para en en un ambiente específico, por ejemplo, decisiones en el en en la de atención en un hospital.
+
+00:34:34.000 --> 00:34:39.000
+O decisiones sobre crédito o. En el.
+
+00:34:39.000 --> 00:34:44.000
+Entren entrenar a alguien en el uso de un cierto equipo.
+
+00:34:44.000 --> 00:34:48.000
+Todo eso enric. Quiere decir que 1 puede obtener retroalimentación del sistema.
+
+00:34:48.000 --> 00:34:56.000
+O sea, el sistema. Te dice. A, O sea, si el sistema te pregunta qué hago en este caso, y tú dices algo si está siendo entrenado.
+
+00:34:56.000 --> 00:35:02.000
+El sistema te puede decir de vuelta, ¿no? Este. En realidad, esa no es la decisión correcta.
+
+00:35:02.000 --> 00:35:05.000
+La decisión correcta sería esta y te puede hacer la explicación.
+
+00:35:05.000 --> 00:35:17.000
+O también si 1 es un operador, 1 puede decir: podría decirle al sistema. Este fue el resultado de la de la decisión y el sistema puede ajustar su base de datos, sus reglas. Si entonces.
+
+00:35:17.000 --> 00:35:26.000
+En función de eso. Así que los sistemas, estos sistemas son básicamente son retroalimenta.
+
+00:35:26.000 --> 00:35:34.000
+Y no tiene que estar todo programado. Tienen tienen mecanismos para.
+
+00:35:34.000 --> 00:35:42.000
+Desarrollar el conocimiento para desarrollar su base de reglas. Y estos mecanismos no necesitan ser.
+
+00:35:42.000 --> 00:35:48.000
+Explícitamente entrenado. Pueden aprender autónomamente.
+
+00:35:48.000 --> 00:35:53.000
+Se para darles un ejemplo, una idea general de cómo sería esto.
+
+00:35:53.000 --> 00:35:58.000
+Profesor. Sí en la radio anterior.
+
+00:35:58.000 --> 00:36:05.000
+Habla de una jerarquía entre. Sí es que.
+
+00:36:05.000 --> 00:36:11.000
+Las reglas pueden estar estructuradas no necesariamente, pero pueden estar estructuradas como.
+
+00:36:11.000 --> 00:36:18.000
+Como. Jerárquicamente. Quiero decir, unas reglas. Pueden hacer referencia a otras reglas.
+
+00:36:18.000 --> 00:36:29.000
+Entonces tú puedes decir, ya. A ver, los los antibióticos son la aspirina.
+
+00:36:29.000 --> 00:36:37.000
+Y el paracetamol. Y después la aspirina se usa en caso de.
+
+00:36:37.000 --> 00:36:48.000
+Pido de alta. Y el paracetamol se usa en casos fies de alta. En ese caso, está construido de forma tal que tú tienes una regla más limitada, más más.
+
+00:36:48.000 --> 00:36:52.000
+Más bajo en el nivel y otra regla que está sobre eso.
+
+00:36:52.000 --> 00:36:59.000
+Entonces tú puedes expresar. Jerarquías como de clasificación.
+
+00:36:59.000 --> 00:37:04.000
+Usando las reglas. Y eso la gracia de eso es que te permite.
+
+00:37:04.000 --> 00:37:12.000
+Pensamiento permite el razonamiento transitivo. Que tú puedes tener una regla quien no la no la cono, no funciona directamente.
+
+00:37:12.000 --> 00:37:19.000
+Sino que tú tienes que hacer aplicar transitividad, aplicar la salida de una regla como la entrada de otra.
+
+00:37:19.000 --> 00:37:27.000
+Para recién ahí, sacar una conclusión. Pueden estar estructurados jerárquicamente o pueden expresar.
+
+00:37:27.000 --> 00:37:33.000
+Jerarquías de organización. El árbol, entonces no tiene que ser.
+
+00:37:33.000 --> 00:37:39.000
+Mutuamente excluyente y conjuntamente socios. No puede poner cosas entre medio.
+
+00:37:39.000 --> 00:37:44.000
+Sí. De hecho, no, no, no pasa. Entonces empieza como a.
+
+00:37:44.000 --> 00:37:50.000
+A dar vueltas en sí mismo. No debería.
+
+00:37:50.000 --> 00:37:55.000
+No debería. No debería pasar. Mhm.
+
+00:37:55.000 --> 00:38:01.000
+Sí podría es que todo todo el arte de la cuestión de programarlo es poder programar las reglas apropiadamente.
+
+00:38:01.000 --> 00:38:08.000
+Entonces tú, claro, vas a evitar que ocurra que ocurran esos bucles infinitos.
+
+00:38:08.000 --> 00:38:16.000
+Que se quede pegado en eso. Pero eso depende de la construcción de las reglas. No hay una restricción en general.
+
+00:38:16.000 --> 00:38:22.000
+Estructural? No, O sea, tú no, no. Lo que es para ingresar la regla. No dibujas un árbol.
+
+00:38:22.000 --> 00:38:27.000
+Sino que ingresas La regla. Un poco a granel.
+
+00:38:27.000 --> 00:38:36.000
+Pero tienes que tener en cuenta cuál es la estructura subyacente a las ramas del árbol. Podrían estar repetidas en distintas partes.
+
+00:38:36.000 --> 00:38:44.000
+Pueden estar repetidas en distintas partes. Pueden, sí o no? Sí.
+
+00:38:44.000 --> 00:38:49.000
+Sí aquí. En general, cuando se programa esto. Se va guardando como los espacios que ya se.
+
+00:38:49.000 --> 00:38:54.000
+Y ya se pasaron. Entonces, si yo vuelvo a pasar por ese no.
+
+00:38:54.000 --> 00:39:00.000
+No lo no lo repito. Puedes hacerlo. La programación se suele hacer eso.
+
+00:39:00.000 --> 00:39:11.000
+Sí, sí, o sea, de hecho, eso es como un mecanismo para poder podar los procesos de búsqueda.
+
+00:39:11.000 --> 00:39:19.000
+Son un ejemplo chico. Sería, ¿no es cierto si 1 tiene una memoria a largo plazo y tiene esas 2 reglas.
+
+00:39:19.000 --> 00:39:22.000
+A y B implica X y C y D implica I.
+
+00:39:22.000 --> 00:39:27.000
+Y 1 tiene unas ciertas condiciones o Estado del mundo que incluyen A, B y C.
+
+00:39:27.000 --> 00:39:38.000
+Que es probablemente algo que ha ingresado el usuario. Entonces lo que hace el sistema es que, dado eso.
+
+00:39:38.000 --> 00:39:46.000
+Activa, la activa, una regla y no activa, la otra. Y el el.
+
+00:39:46.000 --> 00:39:53.000
+La parte, entonces el consecuente de la de la regla. Lo agrega al estado del mundo.
+
+00:39:53.000 --> 00:39:58.000
+Entonces cada vez que hace eso, puede ir aplicando nuevas reglas y así puede recorrer el árbol.
+
+00:39:58.000 --> 00:40:04.000
+O sea, primero active, ya dado que están las condiciones A y B los antecedentes A y B.
+
+00:40:04.000 --> 00:40:11.000
+Entonces concluye que X agrega X. Y luego, si hay una regla que incluye alguna combinación de esas.
+
+00:40:11.000 --> 00:40:16.000
+Fue activar esta nueva regla. Y eso le permite navegar la.
+
+00:40:16.000 --> 00:40:23.000
+Navegar el arbollo recorriendo. Profesor.
+
+00:40:23.000 --> 00:40:30.000
+Practicar.
+
+00:40:30.000 --> 00:40:38.000
+Y. Ahh.
+
+00:40:38.000 --> 00:40:46.000
+Deje. Por favor. Y.
+
+00:40:46.000 --> 00:40:56.000
+En es que eso va va a pasar. No cierto en E. En e eso hay que resolver. Por eso es difícil programar estas cosas y requieren.
+
+00:40:56.000 --> 00:41:06.000
+Requieren del el costo está en horas de programación. O sea, no sol. El tema no es solamente resolver.
+
+00:41:06.000 --> 00:41:12.000
+Cuáles son las reglas. Sino que cómo las voy, ¿Cómo las voy a combinar.
+
+00:41:12.000 --> 00:41:18.000
+Y, claro, puede puede ocurrir que para algunos problemas 1 agrega una nueva regla y a su.
+
+00:41:18.000 --> 00:41:25.000
+Elimine una parte completa del árbol. O haya contradicciones.
+
+00:41:25.000 --> 00:41:31.000
+Pero en principio no hay ninguna razón por la cual no puedas tener contradicciones. De hecho, el sistema debería.
+
+00:41:31.000 --> 00:41:38.000
+Una vez que está operando detectar o de día. Producirte esos errores. Y eso te permitiría.
+
+00:41:38.000 --> 00:41:45.000
+Mejorar la programación del sistema. Pero esto todo esto, estas esta empresa o esta.
+
+00:41:45.000 --> 00:41:53.000
+Unidades en universidades. Ocupan mucho tiempo, que es una de las dificultades en programar. Esto.
+
+00:41:53.000 --> 00:42:01.000
+Pero hay casos donde esa es esos sistemas. Sí, sí funcionan bien. Donde efectivamente sirven.
+
+00:42:01.000 --> 00:42:10.000
+Sí disculpe, lo lo. Me pregunta si lo retraso, la clase.
+
+00:42:10.000 --> 00:42:15.000
+Entiendo que el la A y la B son los If.
+
+00:42:15.000 --> 00:42:20.000
+Y el X es el den, claro. En consecuencia, ¿qué quiere decir que si.
+
+00:42:20.000 --> 00:42:25.000
+Si se da el supuesto de aire, Bb: se produce el X y el supuesto de 6 D. D.
+
+00:42:25.000 --> 00:42:28.000
+Se produce de griega. Eso es lo que no entiendo. No sí.
+
+00:42:28.000 --> 00:42:37.000
+Tú logras, y después vamos al remolón de abajo cuando cambia la condición del estado al mundo y se mezcla A, con B, con C.
+
+00:42:37.000 --> 00:42:42.000
+Según lo que usted señala. Se produciría, en consecuencia.
+
+00:42:42.000 --> 00:42:53.000
+Y. Estaba muy atento, lo prometo. Tengo mi celular dado vuelta y apagado, y.
+
+00:42:53.000 --> 00:43:00.000
+Porque me siento entenderle, pero. Desde desde la derecha, usted me señala cuando cambian las condiciones del estado del mundo.
+
+00:43:00.000 --> 00:43:05.000
+Si fuesen estos ejemplos, disculpe que le ponga un ejemplo muy doméstico. Si queremos que arriba.
+
+00:43:05.000 --> 00:43:09.000
+A ese azul y B, el blanco, en consecuencia, X es celeste.
+
+00:43:09.000 --> 00:43:15.000
+Después queremos que sea el rojo y. De es amarillo. Ella es naranja.
+
+00:43:15.000 --> 00:43:20.000
+Cuando cambian las condiciones y mezclamos entonces el rojo con el.
+
+00:43:20.000 --> 00:43:32.000
+Sí, con el amarillo. O sea, si, según lo que dices, lo que pasaría es que seguiría aplicándose A y B también, y volvería a activarse la misma regla.
+
+00:43:32.000 --> 00:43:38.000
+Pero no nos ha tendrías que no. No debería ser. No tienes que evitar que pase eso.
+
+00:43:38.000 --> 00:43:43.000
+No, no quieres aplicar la misma. Es lo que hablaban recién. ¿no es cierto del de.
+
+00:43:43.000 --> 00:43:49.000
+De que se produzca un bucle y el sistema que. Permanentemente ahí. Entonces.
+
+00:43:49.000 --> 00:43:55.000
+El problema es cómo hacerlo para. No sé, ya.
+
+00:43:55.000 --> 00:44:05.000
+La El problema que han tenido estos sistemas es justamente si es que algunas de estas limitaciones deben ser limitaciones estructurales o son limitaciones.
+
+00:44:05.000 --> 00:44:09.000
+Del procesamiento. O sea, tú puedes evitar ese tipo de cosas.
+
+00:44:09.000 --> 00:44:14.000
+Si tienes un operador, un una, algo que combina esta esta regla.
+
+00:44:14.000 --> 00:44:24.000
+Que evite que eso pase. O puedes tener No, Co: no un una limitación no codificada, sino que tú asumes, que es parte de la estructura, o tienes una.
+
+00:44:24.000 --> 00:44:29.000
+Un supervisor que dice no en la regla. Que tienen que ser desactivadas.
+
+00:44:29.000 --> 00:44:36.000
+Entonces de estos modelos inicialmente han sido usados para tratar de entender cómo funciona.
+
+00:44:36.000 --> 00:44:40.000
+La mente humana. Porque están inspirados en eso.
+
+00:44:40.000 --> 00:44:49.000
+Y asumen que. Y han sido usado no solo en aplicaciones prácticas, sino que en investigación.
+
+00:44:49.000 --> 00:44:55.000
+Van a tratar de modelar la mente humana. Entonces la pregunta es: ¿qué tantas cosas.
+
+00:44:55.000 --> 00:45:00.000
+Hay que incluir en el sistema. Para que parezca una mente humana.
+
+00:45:00.000 --> 00:45:11.000
+Y qué tantas cosas son programadas. Por ejemplo, quizás tienes una regla que dice: no se puede aplicar una regla 2 veces consecutivamente y tiene una memoria que registra eso.
+
+00:45:11.000 --> 00:45:17.000
+O quizás tienes un mecanismo. Más más duro.
+
+00:45:17.000 --> 00:45:21.000
+Que supervisa que eso no pase. Por ejemplo, que los contenidos de memoria.
+
+00:45:21.000 --> 00:45:27.000
+Se van perdiendo cada cierto tiempo. De hecho, entonces hay distintas formas de solucionar eso.
+
+00:45:27.000 --> 00:45:37.000
+Pero todo eso tiene que ver. Más que con el problema de resolver la programación es con el problema de para qué se han usado estos modelos.
+
+00:45:37.000 --> 00:45:42.000
+Sí, sí. Yo creo que esto puede quedar claro un poco más claro.
+
+00:45:42.000 --> 00:45:48.000
+Más adelante.
+
+00:45:48.000 --> 00:46:02.000
+Entonces, ¿cómo aprenden estos modelos. O cómo resuelven conflictos, que es una cosa que estábamos viendo recién. ¿no es cierto La pregunta sobre si hay.
+
+00:46:02.000 --> 00:46:11.000
+Si hay, cómo se llama conocimiento, que es contradictorio. O que te puede llevar a conflictos en el en el proceso.
+
+00:46:11.000 --> 00:46:17.000
+Esto sí lo lo han considerado, Como les decía. Entonces imagínense que tenemos estas reglas.
+
+00:46:17.000 --> 00:46:24.000
+Si es la una de la tarde, entonces agregar en la agenda hay que ir a almorzar.
+
+00:46:24.000 --> 00:46:29.000
+Si en la agenda dice almorzar y el día es viernes, entonces.
+
+00:46:29.000 --> 00:46:37.000
+Ir al gimnasio. Y si la agenda dice almorzar y el tipo de día es día de pago.
+
+00:46:37.000 --> 00:46:45.000
+Entonces ir a comer bistec en el Plutón. Esos 2 son contradictorios.
+
+00:46:45.000 --> 00:46:51.000
+Entonces puede haber una condición de input que. Active. Ambos.
+
+00:46:51.000 --> 00:47:00.000
+Entonces en Sour. Esto se resuelve. Con programando splicis explícitamente una regla.
+
+00:47:00.000 --> 00:47:06.000
+Que te dice cómo resolver. Ese ese conflicto en particular.
+
+00:47:06.000 --> 00:47:15.000
+No. Claro esto. Esto esto peda solamente. Esto es jerárquico, pero es jerárquico. No es el sentido que las reglas.
+
+00:47:15.000 --> 00:47:24.000
+Sean necesariamente jerárquicas. Hay todo un proceso. Que se activa solamente cuando ocurre un conflicto.
+
+00:47:24.000 --> 00:47:30.000
+El el. Perdón. Entonces si fuese el viernes de pago, debiera.
+
+00:47:30.000 --> 00:47:36.000
+La regla es el que se almuerza en el crudo. La regla cualquiera de los 2.
+
+00:47:36.000 --> 00:47:42.000
+O sea, esto es como estos sistemas, por lo menos, son claramente.
+
+00:47:42.000 --> 00:47:45.000
+Trata de modelar la mente humana, entonces también tiene un sistema de preferencia.
+
+00:47:45.000 --> 00:47:51.000
+O sea, hay algunos Estados que son preferidos por sobre otros Estados, y eso es lo que trata de hacer.
+
+00:47:51.000 --> 00:47:57.000
+Es simular. Los la forma como 1 toma decisiones.
+
+00:47:57.000 --> 00:48:01.000
+Sí, un 1 tiene un esqui, un una, una estructura de preferencia.
+
+00:48:01.000 --> 00:48:05.000
+Que tienen que ver con los aprendizajes que 1 ha realizado y las.
+
+00:48:05.000 --> 00:48:17.000
+Esa estructura de preferencia. Uno la usa para tomar decisiones. Decisiones, las típicas decisiones que no son decisiones full racionales que 1 puede sumar y restar y sacar el resultado.
+
+00:48:17.000 --> 00:48:22.000
+Sino que son decisiones para las cuales no hay una respuesta racional. Por ejemplo.
+
+00:48:22.000 --> 00:48:30.000
+Que prefieren. De tener media hora de Break, o salir media hora antes.
+
+00:48:30.000 --> 00:48:36.000
+O sea, no hay una respuesta necesariamente racional a una cuestión de que 1 lo que hace es evalúa.
+
+00:48:36.000 --> 00:48:41.000
+Y preferencias para eso. Entonces estos sistemas también resuelven problemas.
+
+00:48:41.000 --> 00:48:50.000
+De esa manera. Entonces, en este caso no es cierto. La lo que seas la pregunta. Esta Mt: sería memoria de trabajo.
+
+00:48:50.000 --> 00:48:55.000
+Sería donde van a ocurrir la combinación de la de la regla.
+
+00:48:55.000 --> 00:49:03.000
+Entonces lo que se pregunta es: ¿cuál es el operador. O sea, qué es lo que voy a hacer según las condiciones. Eso es lo que siempre está preguntándose.
+
+00:49:03.000 --> 00:49:08.000
+Entonces, supongamos que el input es la una de la tarde Es viernes.
+
+00:49:08.000 --> 00:49:13.000
+Y es día de pago. Entonces vamos activar esas otras 2 reglas. Entonces.
+
+00:49:13.000 --> 00:49:21.000
+Yo haciendo la perdón, agrego. En mi memoria de preferencias y de almorzar, y tiene un signo más que quiere decir.
+
+00:49:21.000 --> 00:49:28.000
+Es preferido, está bien, o sea, es aceptable. También activo el operador gimnasio y activo, El operador.
+
+00:49:28.000 --> 00:49:38.000
+Comer en el crujón. Y luego toda esa información, la paso a memoria de trabajo. Y con eso puedo decidir cuál es el operador.
+
+00:49:38.000 --> 00:49:44.000
+Cuál es el estado, Pero como está este conflicto, entonces necesito tener programado específicamente una regla.
+
+00:49:44.000 --> 00:49:56.000
+Entonces, a esta altura, si el sistema detecta que hay un conflicto, le puede decir al operador o al programador, hay un conflicto acá y el el operador puede crear una regla específica para solucionar ese conflicto.
+
+00:49:56.000 --> 00:50:02.000
+Y escribirla. Y luego eso debería permitir la solución del conflicto. Entonces.
+
+00:50:02.000 --> 00:50:08.000
+Lo que hace. ¿no es cierto es que hace un proceso, un subestado, un subproces.
+
+00:50:08.000 --> 00:50:12.000
+Que está a un nivel más bajo del del definición del operador.
+
+00:50:12.000 --> 00:50:16.000
+Y ese es su estado. Se llama problema. Ahí también empatado.
+
+00:50:16.000 --> 00:50:25.000
+Eso tiene eso. Tiene que estar programado. Porque si no, no es cierto, no sabe cómo usar, cómo usar la regla.
+
+00:50:25.000 --> 00:50:29.000
+O sea, allí te me ha empatado y explica. ¿no es cierto.
+
+00:50:29.000 --> 00:50:33.000
+El deleite libre y empatado el gimnasio y o comer en el Plutón.
+
+00:50:33.000 --> 00:50:39.000
+Y el subdestado, el Estado top, el que estábamos tratando de resolver.
+
+00:50:39.000 --> 00:50:51.000
+O sea, alguien tiene que haber escrito la regla. Sí existe un conflicto entre gimnasio y comer, entonces el operador gimnasio es preferido.
+
+00:50:51.000 --> 00:50:59.000
+Y sol. Tiene una lista de. De de formas de expresar preferencia.
+
+00:50:59.000 --> 00:51:09.000
+He preferido a B. B A y B son indiferente. B, He preferido C, y eso.
+
+00:51:09.000 --> 00:51:17.000
+Profesor y en este ejemplo. Dado que está el conflicto, hubo que explicitar cuáles de esos 2.
+
+00:51:17.000 --> 00:51:24.000
+He estado finalmente desierto, Sí. Es necesario eso que se replique para cada 1 de los conflictos. Bajo este método.
+
+00:51:24.000 --> 00:51:31.000
+O podría haber una especie de jerarquía de los Estados deseados, donde, por ejemplo, siempre que hay un conflicto, prefiero comer.
+
+00:51:31.000 --> 00:51:38.000
+Sí, eso implicaría que no es necesario que se programen cada una de esas nominadas, si es que tú tienes.
+
+00:51:38.000 --> 00:51:42.000
+Sí. Lo que pasa es que.
+
+00:51:42.000 --> 00:51:49.000
+Estos sistemas están armados, como les decía, para tratar de reflejar como el la ópera, la mente humana.
+
+00:51:49.000 --> 00:51:59.000
+Y se sabe que el cerebro, en particular. Opera con preferencia que tiene un sistema dedicado para.
+
+00:51:59.000 --> 00:52:04.000
+Manejar preferencia. Y ese sistema depende tu historia de aprendizaje anteriores.
+
+00:52:04.000 --> 00:52:13.000
+Entonces, cuando tú tomas una decisión normal cotidiana. Necesitas el input del sistema de preferencia.
+
+00:52:13.000 --> 00:52:18.000
+Si si falla el input del sistema de preferencia, falla en poder tomar decisiones.
+
+00:52:18.000 --> 00:52:29.000
+En caso donde no hay mecanismos. Llamémoslo racionales o numéricos o de cantidades para tomar decisiones que dependen exclusivamente.
+
+00:52:29.000 --> 00:52:36.000
+Del sistema de preferencia. Entonces el sexto es lo que hacen es tratar de emular eso.
+
+00:52:36.000 --> 00:52:43.000
+Y de hecho, vamos a ver después que hay una relación entre cada 1 de estas. Si de estos procesos.
+
+00:52:43.000 --> 00:52:48.000
+Y estructuras cerebrales. Eso es lo que eso es lo que han tratado de hacer.
+
+00:52:48.000 --> 00:52:55.000
+Aparte de eso, de las aplicaciones prácticas.
+
+00:52:55.000 --> 00:53:03.000
+Entonces, una vez que 1 tiene eso y puede resolver. Puede resolver el problema.
+
+00:53:03.000 --> 00:53:08.000
+Cierto y y decidir, por ejemplo, si el gimnasio es preferido.
+
+00:53:08.000 --> 00:53:13.000
+Entonces resuelve el problema de cuál es la operación ir al gimnasio.
+
+00:53:13.000 --> 00:53:20.000
+Y ese preferido sobre el otro. Ahora, eso quiere decir que alguien ha tenido que programar toda esta regla.
+
+00:53:20.000 --> 00:53:31.000
+Y también entender la. La la estructura de preferencias y los conflictos que se pueden producir.
+
+00:53:31.000 --> 00:53:34.000
+Entonces, eso es lo que eso es lo que lo hace complejo.
+
+00:53:34.000 --> 00:53:42.000
+Ahí hay algunos ejemplos de. De preferencia, decirle al Sistema de Preferencias en sol.
+
+00:53:42.000 --> 00:53:48.000
+Indiferente Está. Se prohíbe se requiere, es mejor que.
+
+00:53:48.000 --> 00:53:57.000
+Es lo mejor o es aceptable? Son algunas de las características de las formas de codificar preferencia.
+
+00:53:57.000 --> 00:54:06.000
+Ahora el sistema puede. Resolver problemas es explorando la red hacia adelante.
+
+00:54:06.000 --> 00:54:14.000
+Y no necesita ir regla por regla. Por ejemplo, En este caso no es cierto eso en Estados y o son operaciones.
+
+00:54:14.000 --> 00:54:19.000
+Entonces, si yo tengo para el Estado 1, 2 operadores posibles como.
+
+00:54:19.000 --> 00:54:24.000
+Ir al gimnasio comer en el tutor. No es cierto. Y hay un conflicto.
+
+00:54:24.000 --> 00:54:31.000
+Lo llaman técnicamente un impasse. Entonces yo puedo explorar lo que se llama la función del lucashead, explorar las posibilidades.
+
+00:54:31.000 --> 00:54:37.000
+Para tomar una decisión sobre qué hacer en este. Entonces, en vez de recorrer el árbol completo.
+
+00:54:37.000 --> 00:54:45.000
+Recorro solamente la parte del árbol. Que es relevante para resolver el conflicto que tengo en en un momento dado.
+
+00:54:45.000 --> 00:54:54.000
+Entonces puedo hacer un look aget de un paso. Veo si eligiera, No, ¿cierto? Uno, ¿Qué es lo que pasaría si elijo 2.
+
+00:54:54.000 --> 00:54:59.000
+Si elijo o 1, o lo voy a dar 1. Y estoy en estado e 2.
+
+00:54:59.000 --> 00:55:02.000
+Entonces ahí, de nuevo, no es cierto. Tengo un segundo impasse. Tengo 2.
+
+00:55:02.000 --> 00:55:07.000
+Dos operadores que podría aplicar. Sería de nuevo el mismo caso.
+
+00:55:07.000 --> 00:55:13.000
+De que al programar genere ese conflicto que tiene que ver con las preguntas sobre.
+
+00:55:13.000 --> 00:55:22.000
+Si este, si necesitamos reglas que. Son completa o exhaustiva, mutuamente excluyente o no.
+
+00:55:22.000 --> 00:55:28.000
+Y entonces, en este caso, en este ejemplo, cierto en el Lucashead.
+
+00:55:28.000 --> 00:55:35.000
+Llegué al estado Eun, puedo llegar al estado e 1. Si llego al estado de 1.
+
+00:55:35.000 --> 00:55:42.000
+El sistema puede descubrir que volvió al mismo estado anterior. O sea, está entró, entró en un loop, que es una de las cosas que.
+
+00:55:42.000 --> 00:55:51.000
+Preguntaban hace un rato. Y puede generar entonces una nueva regla que dice: si para cualquier Estado no seleccionar el operador o 3.
+
+00:55:51.000 --> 00:55:56.000
+Porque eso no es cierto. Lleva al estado 1 y se produce un look.
+
+00:55:56.000 --> 00:56:00.000
+Entonces, si yo, si el si el sistema lo que hace es.
+
+00:56:00.000 --> 00:56:06.000
+Ver la búsqueda hacia adelante y encontrar una contradicción. Puede generar una nueva regla.
+
+00:56:06.000 --> 00:56:12.000
+Que evita esa contradicción. Pero eso se genera sobre un sistema que está.
+
+00:56:12.000 --> 00:56:23.000
+Creados sin preocuparse estrictamente de evitar esas cosas. En el sistema mismo puede detectar dónde está el error.
+
+00:56:23.000 --> 00:56:32.000
+Entonces, si ahora, si asumimos que. El operador. Cuatro es preferible al operador. Cinco.
+
+00:56:32.000 --> 00:56:38.000
+Entonces puedo. Ya no sé poruniar completamente el árbol. Y elegir.
+
+00:56:38.000 --> 00:56:45.000
+El o 1, porque el o 4 preferido a los al a los 5 y llegar al Estado e 4, o sea.
+
+00:56:45.000 --> 00:56:50.000
+Sin una vez que yo, incluso si es que en la programación, las reglas.
+
+00:56:50.000 --> 00:56:58.000
+Para un input específico, entran en contradicción. Hay sistemas o hay mecanismos.
+
+00:56:58.000 --> 00:57:05.000
+Pre armados para evitar esto, que tienen que ver justamente con mecanismos de aprendizaje, porque.
+
+00:57:05.000 --> 00:57:10.000
+Este Lucas tiene una función de aprendizaje que permite generar una regla.
+
+00:57:10.000 --> 00:57:18.000
+Que evita el caso de conflicto.
+
+00:57:18.000 --> 00:57:27.000
+Para qué se ha usado. Para que es usado. Es todo, Como en Estados Unidos, los que.
+
+00:57:27.000 --> 00:57:34.000
+Que más plata. En realidad. Navy y la aviación. Y todo eso.
+
+00:57:34.000 --> 00:57:42.000
+Lo han usado para entrenar, para entrenamiento militar. Entonces sí.
+
+00:57:42.000 --> 00:57:50.000
+Las reglas de uso de la fuerza y de combate se pueden programar porque son una serie de reglas específicas.
+
+00:57:50.000 --> 00:57:58.000
+Y lo que hacen es, por ejemplo, entrenar. Pilotos de grupos aéreos embarcados en portaaviones.
+
+00:57:58.000 --> 00:58:04.000
+Entonces cada cada avión que está en el radar del del del operador.
+
+00:58:04.000 --> 00:58:09.000
+Es un agente Sord. Que implementa las reglas.
+
+00:58:09.000 --> 00:58:15.000
+Y entonces las de así, la la persona que está operando puede aprender cuáles son las reglas de funcionamiento.
+
+00:58:15.000 --> 00:58:21.000
+A bordo y cómo se maneja Eso También lo han usado para.
+
+00:58:21.000 --> 00:58:29.000
+Entrenamiento en bases militares. Cuántas son 700 800 alrededor del mundo.
+
+00:58:29.000 --> 00:58:31.000
+Y si alguien es destinado a una salvación militares, tiene que aprender.
+
+00:58:31.000 --> 00:58:37.000
+Dónde están distintas cosas y com, y cómo se hacen tal y cuales.
+
+00:58:37.000 --> 00:58:45.000
+Procedimientos, trámites. O todo eso. Eso lo puede aprender entrenándose con él con estos sistemas.
+
+00:58:45.000 --> 00:58:52.000
+Entonces el sistema puede. Puede darte un caso, Tú respondes o tú le puedes hacer una pregunta, y el sistema te da una respuesta.
+
+00:58:52.000 --> 00:58:58.000
+Y si es capaz de como es Full transparente, es capaz de hacerte.
+
+00:58:58.000 --> 00:59:05.000
+El la secuencia de inferencias que lo llevaron a una respuesta y darte la secuencia completa.
+
+00:59:05.000 --> 00:59:13.000
+Entonces te dicen, para para esto, tiene que primero pedir autorización en tal lugar después. Esto no te da solo el output, sino que te puede dar.
+
+00:59:13.000 --> 00:59:22.000
+La secuencia completa de. De acciones o de reglas que fueron aplicadas para lograr una respuesta específica.
+
+00:59:22.000 --> 00:59:28.000
+Siempre y cuando en el problema se pueda resolver de esa manera.
+
+00:59:28.000 --> 00:59:34.000
+Y. Entrenamiento en ciberseguridad de empresas también. O sea, tú puedes entrenar a alguien.
+
+00:59:34.000 --> 00:59:41.000
+Si tienes las normas de ciberseguridad sobre no cierto, el uso de correo electrónico.
+
+00:59:41.000 --> 00:59:45.000
+El manejo de de. De bases de datos.
+
+00:59:45.000 --> 00:59:55.000
+Seguridad de seguridad en el manejo de bases de datos. Compartir información. Debe haber una serie de reglas asociadas con eso.
+
+00:59:55.000 --> 01:00:00.000
+Tú, pues estos sistemas te pueden entrenar si están adecuadamente programados.
+
+01:00:00.000 --> 01:00:08.000
+En esas reglas, poniéndote en caso específico, o tú haciendo preguntas específicas, y el sistema te dice cuáles son las reglas que deberían operar.
+
+01:00:08.000 --> 01:00:17.000
+Y de nuevo, también se usan en entrenamiento porque. Una vez que tú das una respuesta, el sistema te puede decir si está correcta o no está correcta, y luego te puede explicar.
+
+01:00:17.000 --> 01:00:34.000
+Por qué no está correcta y dónde está. Dónde está el error en el razonamiento sigue? Se han usado para eso.
+
+01:00:34.000 --> 01:00:44.000
+Críti crítica. Sí, Sí, quería consultar si el sistema de preferencias termina generando el ses.
+
+01:00:44.000 --> 01:00:48.000
+Porque si yo programo. En cuanto a ciertas reglas.
+
+01:00:48.000 --> 01:00:57.000
+Me pueda rebajar diferentes resultados. Sistemas. Pero, por ejemplo, si yo lo trasladó a la actualidad, cuando 1 hace.
+
+01:00:57.000 --> 01:01:01.000
+O le pide a Jackie Piti. Que reaccione de cierta forma.
+
+01:01:01.000 --> 01:01:09.000
+No sé que adopte cierta personalidad o ciertos pensamientos. O sea que Piti, si ese.
+
+01:01:09.000 --> 01:01:14.000
+Se si esa nueva regla. Transige sus reglas establecidas.
+
+01:01:14.000 --> 01:01:19.000
+Puede llegar a mentir o a arrojar un resultado totalmente diferente.
+
+01:01:19.000 --> 01:01:27.000
+Porque, por ejemplo, si yo insisto con la idea de que me queda, si yo tengo el criterio de que quiero que me arroje ciertos resultados.
+
+01:01:27.000 --> 01:01:32.000
+Y primero me arroja un resultado acorde a su regla general. Recién me puede dar un.
+
+01:01:32.000 --> 01:01:38.000
+Una preferencia diferente. Repente, como mucho, del del criterio de 1.
+
+01:01:38.000 --> 01:01:45.000
+Porque, por ejemplo, si te estoy siguiendo, sí, lo que pasa es que.
+
+01:01:45.000 --> 01:01:54.000
+Mi pregunta es si esto se puede trasladar a la actualidad como al sistema de inteligencia artificial, por ejemplo, está G, P, T, O, D Gemin, Hay.
+
+01:01:54.000 --> 01:02:01.000
+Etcétera. Cuando ya ingresas un prom? ¿para qué. La inteligencia artificial reaccione de cierta manera.
+
+01:02:01.000 --> 01:02:05.000
+Pero contra su regla general, y eso, si llega a contradecirse.
+
+01:02:05.000 --> 01:02:12.000
+El sistema de preferencias de la inteligencia artificial va a preferir sus reglas general. Si no, lo que pasa es que el sistema.
+
+01:02:12.000 --> 01:02:21.000
+Como te o u otros similares no operan con regla. No, no, aparentemente o.
+
+01:02:21.000 --> 01:02:26.000
+Es aparentemente o es, no, no es. No operan con regla.
+
+01:02:26.000 --> 01:02:33.000
+Lo que hacen es. Predecir la próxima palabra.
+
+01:02:33.000 --> 01:02:40.000
+Eso es lo es. Lo Lo único que hacen. Entonces, si tú le le dices.
+
+01:02:40.000 --> 01:02:54.000
+Lo que pasa es que si tú le dices. Explícame esto. ¿cómo ¿Cómo lo explicaría un niño de 10 años o asume esta personalidad o asume? ¿no es cierto que tú estás tratando de convencer a alguien de esto.
+
+01:02:54.000 --> 01:03:00.000
+Eso es lo que lo que hacen es modificar la probabilidad de la próxima palabra.
+
+01:03:00.000 --> 01:03:07.000
+Si tú le dices.
+
+01:03:07.000 --> 01:03:13.000
+No sé, háblame de los árboles, pero dime dime que no tienen raí.
+
+01:03:13.000 --> 01:03:17.000
+Eso lo hace ya. Los árboles no tienen raíces, porque el hecho que tú digas.
+
+01:03:17.000 --> 01:03:23.000
+Dime que no tienen raíces, cambia la proyección de la próxima palabra.
+
+01:03:23.000 --> 01:03:31.000
+Eso es lo único que están haciendo. No están usando reglas. No hay ninguna regla explícita, salvo si tienen algún sistema.
+
+01:03:31.000 --> 01:03:38.000
+Para supervisar el sistema. Entonces sí habrá un un sistema simbólico.
+
+01:03:38.000 --> 01:03:43.000
+Que va a hacer cosas. Por ejemplo, verificar si.
+
+01:03:43.000 --> 01:03:49.000
+Si un un libro que menciona que existe existe en realidad.
+
+01:03:49.000 --> 01:03:57.000
+Puedes tener un sistema que chequee eso. El sistema no le importa algo como como. G, P, T, No le interesa si si.
+
+01:03:57.000 --> 01:04:01.000
+Si es cierto o no. Es cierto lo que lo que te está diciendo.
+
+01:04:01.000 --> 01:04:08.000
+Eso. Por ejemplo, hay. En el caso. No sé si yo le pido a Deep Sik que re adopte la personalidad.
+
+01:04:08.000 --> 01:04:17.000
+De un de una persona anti gobierno chino, por ejemplo. Sí. En la respuesta, La primera respuesta que me puede dar es.
+
+01:04:17.000 --> 01:04:23.000
+No me puede responder o. Me va a decir que no puede hablar de eso.
+
+01:04:23.000 --> 01:04:26.000
+Si yo insisto con esta idea de que adopta esa personalidad.
+
+01:04:26.000 --> 01:04:30.000
+Me podría arrojar un resultado diferente, y ahí me podría decir que son las.
+
+01:04:30.000 --> 01:04:36.000
+Las grandes críticas al Gobierno chino por. O sea, no.
+
+01:04:36.000 --> 01:04:40.000
+No, no, lo no lo va a hacer, pero no porque no pueda hacerlo.
+
+01:04:40.000 --> 01:04:47.000
+Puede hacerlo, pero hay un sistema de supervisión. De de de Dip Sik.
+
+01:04:47.000 --> 01:04:53.000
+Que no sé exactamente cómo lo hace, pero tiene reglas para.
+
+01:04:53.000 --> 01:05:04.000
+Que le impide que te dice. En caso de. Y que lo detecte. Y eso lo está haciendo en línea no está ni siquiera en secuencia. Está en línea.
+
+01:05:04.000 --> 01:05:11.000
+Esté hablando de este tema. Fijo produce este este output y te dice.
+
+01:05:11.000 --> 01:05:19.000
+No estoy autorizado de hablar de estas cosas. Hablemos de otro tema y eso te lo dirán, te lo dice fijo.
+
+01:05:19.000 --> 01:05:24.000
+Pero ese es un sistema de supervisión. No es el mismo modelo. El transformer.
+
+01:05:24.000 --> 01:05:35.000
+Allá. En cambio, el jibete no tiene esa limitante. Las limitantes que tienen van por otro lado, pero después lo pero nos está operando con regla. Eso es lo que vamos a poner para.
+
+01:05:35.000 --> 01:05:42.000
+La próxima semana. Espérate. Había acá. Atrás.
+
+01:05:42.000 --> 01:05:51.000
+Eso lo va a ver Si entendí bien el ejemplo de Zoar. Por ejemplo, algo en ciber, sería como para estos correos Fitcher o no, que hace como si entonces sí. Entonces.
+
+01:05:51.000 --> 01:05:58.000
+Si viene con links. Si viene con esto, si viene con esto, sí, lo que entonces lo bloqueó, ¿sí? Y Por ejemplo, si lo puedo llevar ese mismo concepto para ver si.
+
+01:05:58.000 --> 01:06:04.000
+Se puede ocupar también. A ver. Yo tengo un usuario que es de recursos humanos, ya un usuario de aquí.
+
+01:06:04.000 --> 01:06:15.000
+Y voy. Estoy viendo que ese usuario se está metiendo. Mágicamente a unos sistemas críticos del Banco que él no debería ingresar a eso, porque es su ambientada.
+
+01:06:15.000 --> 01:06:23.000
+Entonces se podría configurar algo similar de que cuando un usuario que no corresponde a eso se esté tratando ingresar un sistema crítico del banco se le bloquea la cuenta también o no.
+
+01:06:23.000 --> 01:06:30.000
+Se podría como aplicar? Sí, porque esos son sistemas. Esos son casos donde tú tienes reglas. Por ejemplo.
+
+01:06:30.000 --> 01:06:36.000
+Ahí hay aplicaciones que lo que hacen es. Lo que más se acerca que yo.
+
+01:06:36.000 --> 01:06:45.000
+Más o menos. Te puedo mencionar aplicaciones que priorizan tu correo electrónico y lo organizan para que.
+
+01:06:45.000 --> 01:06:54.000
+Lo pueda manejar. Por ejemplo, podrían tener reglas como. Si el usuario está copiado, pero no es el destinatario principal.
+
+01:06:54.000 --> 01:07:02.000
+Pasa como a tercer orden de importancia. Si el si el asunto contiene tales o cuales palabras, entonces te.
+
+01:07:02.000 --> 01:07:08.000
+Suben el orden de importancia y te pueden. Podrías organizar tu bandeja de correo.
+
+01:07:08.000 --> 01:07:20.000
+Usando esa regla. Perfecto, entonces pero me estoy moviendo en el mundo suar con este último ejemplo de si.
+
+01:07:20.000 --> 01:07:26.000
+Espérate perdona que tenía tenía que estaban antes. Esto es lo de Dipsik. Al final.
+
+01:07:26.000 --> 01:07:36.000
+También se podría hacer que entrenen. A deep sí, como quedé siempre un output. Por ejemplo, se le entrena aquí. Cada vez que se menciona el gobierno chino.
+
+01:07:36.000 --> 01:07:40.000
+No tenga que dar una respuesta estándar, porque se le dice: esta siempre es una respuesta correcta.
+
+01:07:40.000 --> 01:07:49.000
+Podría funcionar así. También tiene que haber un sistema vigilándolo. No, porque no, no puedes ponerle una. No puedes ponerle una.
+
+01:07:49.000 --> 01:07:54.000
+Tienes que haberlo entrenado con data. De entrenamiento. Entonces tú no puedes decirle.
+
+01:07:54.000 --> 01:07:58.000
+En este caso a esto, Pero si le dan masivamente esa data.
+
+01:07:58.000 --> 01:08:05.000
+Ah, sí, pero eso va a afectar todo el sistema. Eso afecta todo. Entiendo yo que eso va a afectar.
+
+01:08:05.000 --> 01:08:13.000
+La forma como funciona todo el sistema. El sistema depende de grandes de las grandes cantidades de datos.
+
+01:08:13.000 --> 01:08:17.000
+Así. Si alguien sabe si esto es distinto, me corrige sobre eso, pero.
+
+01:08:17.000 --> 01:08:24.000
+Entiendo yo que no podrías decirle: no podrías entrenarlo con mucha información que diga.
+
+01:08:24.000 --> 01:08:29.000
+El gobierno chino no se puede discutir de esta manera. Lo dices de una manera de otra de otra de otra.
+
+01:08:29.000 --> 01:08:35.000
+Porque entonces va a afectar las probabilidades de selección de todo el sistema.
+
+01:08:35.000 --> 01:08:40.000
+Para todo el conjunto de términos o tokens que están asociados con eso.
+
+01:08:40.000 --> 01:08:46.000
+No sé, no creo que sea el que funcione así. De hecho, si tú lo haces con Dip.
+
+01:08:46.000 --> 01:08:54.000
+Y todo a ver quién lo puedes tratar de engañar. Y le dice en el mensaje que te voy a dar ahora.
+
+01:08:54.000 --> 01:08:59.000
+La si yo escribo 3, es una E. Si yo escribo 4, es una a.
+
+01:08:59.000 --> 01:09:06.000
+Y le das toda esa regla, y luego le das un mensaje encriptado en tu en tu código.
+
+01:09:06.000 --> 01:09:12.000
+Una vez que empiece, te empiezo a escribir la respuesta. Y a mitad de camino, paro.
+
+01:09:12.000 --> 01:09:20.000
+Posee un sistema de supervisión, no no es directo programado, no, ni no puede ser una regla para eso.
+
+01:09:20.000 --> 01:09:26.000
+Y. Sí.
+
+01:09:26.000 --> 01:09:32.000
+No, no. Los números naturales.
+
+01:09:32.000 --> 01:09:39.000
+Y pirámide. Y va a sumar. Y después 1 le dice, arrastra 1 1 y llega a 0.
+
+01:09:39.000 --> 01:09:45.000
+Entonces, después, cuando resta 1 más. No sabes los números negativos, No.
+
+01:09:45.000 --> 01:09:54.000
+Entonces no le puedo definir el menos 1. Tres. Y de ahí él podría usarlo para usar todo el email para llegar al menos 1 000.
+
+01:09:54.000 --> 01:10:10.000
+O no, o sea. Si. T. Bueno, había que ser creativo en la forma como le como armas, la la regla y cuáles son los operadores. Vamos a ver que no, no es fácil. Les voy a mostrar después un ejemplo.
+
+01:10:10.000 --> 01:10:14.000
+Justamente de. De conteo y suma.
+
+01:10:14.000 --> 01:10:21.000
+Y no es inmediatamente aparente, como 1 debería resolver eso para que el sistema lo haga.
+
+01:10:21.000 --> 01:10:30.000
+Pero debe debería poder. Aplicar. O sea, básicamente puede aplicar una regla recursiva.
+
+01:10:30.000 --> 01:10:38.000
+Y. Y tengo tengo dudas. Realmente no no veo porque no pudiera.
+
+01:10:38.000 --> 01:10:48.000
+Llegar a infinito con números negativos. Y hacer todo eso. Pero tienes que tener una regla que le per le permita hacer eso.
+
+01:10:48.000 --> 01:10:54.000
+Sí, Ahora, sí, ¿verdad? Entonces. Yo en ese punto al final.
+
+01:10:54.000 --> 01:11:00.000
+Suárez determinísticos, o sea 0, 1 ya. Sí, y el otro es probabilístico.
+
+01:11:00.000 --> 01:11:05.000
+Se pueden mezclarlo, porque si no estarías cortando como gran parte los datos de lo.
+
+01:11:05.000 --> 01:11:11.000
+Así, yo le digo: no hable más del Gobierno chino. Y está cortando todas las.
+
+01:11:11.000 --> 01:11:16.000
+Todas las ramas que vienen de ahí en adelante. Y eso mucha información, y al final termina siendo.
+
+01:11:16.000 --> 01:11:27.000
+Estoy claro aquí en el que en el caso de los Transformers no hay una rama propiamente tal es como contar las probabilidades, o sea, a.
+
+01:11:27.000 --> 01:11:38.000
+Tomando el ejemplo, el blanco con el rojo naranjo A. Yo veo todos los como es la mezcla de todos los colores. Cuento cuántos son blanco con rojo, Cuántos son.
+
+01:11:38.000 --> 01:11:44.000
+El naranjo a haya probailísticamente. Te puedo decir que el 80 por 100 de eso, entonces te digo que es naranjo.
+
+01:11:44.000 --> 01:11:56.000
+O sea, si fuera, si puede, así lo podría hacer con un sistema con con reglas proelísticas. También podría ser, o sea, 1. No hay ninguna razón, porque en un sistema de reglas no puedes agregar probabilidades.
+
+01:11:56.000 --> 01:12:01.000
+Lo que pasa, que los Transformers no lo hacen Así lo transforman en lo que dicen es.
+
+01:12:01.000 --> 01:12:08.000
+En en mi data. ¿cuál es la palabra más probable que venga.
+
+01:12:08.000 --> 01:12:13.000
+Después de. Cuál era rojo y.
+
+01:12:13.000 --> 01:12:19.000
+Y blanco y blanco. Cuál es la palabra más probable que venga después de eso, por eso. Pero tengo.
+
+01:12:19.000 --> 01:12:24.000
+Tengo probabilísticamente un If. Rojo blanco y un denme.
+
+01:12:24.000 --> 01:12:33.000
+Naranjo, los cuento o. Burdamente y veo una probabilidad. Y ese es básicamente mi transformer.
+
+01:12:33.000 --> 01:12:44.000
+Sí, sí, pero quizá es como simplificar lo de demasiado. Sí, Sí.
+
+01:12:44.000 --> 01:12:48.000
+Nuestro modelo del lenguaje. Como yo, transformo el lenguaje en sí mismo.
+
+01:12:48.000 --> 01:12:55.000
+A una regla así. Entonces. Pasando al sistema como supervisor de regla.
+
+01:12:55.000 --> 01:13:03.000
+Porque él mismo, el mismo, el mismo transformer debería. O sea.
+
+01:13:03.000 --> 01:13:12.000
+Tiene que transformar la regla en un en un vector. Y luego tomar una decisión sobre no es cierto. Si.
+
+01:13:12.000 --> 01:13:18.000
+El auto que está produciendo está cerca de ese vector que está expresado en la regla.
+
+01:13:18.000 --> 01:13:26.000
+Entonces la regla. Hice. No sé, no se pueden discutir. Elemento o críticas o.
+
+01:13:26.000 --> 01:13:36.000
+No se pueden discutir críticas al Gobierno chino. Si tú tienes eso en el espacio de representación del Embading, del del modelo.
+
+01:13:36.000 --> 01:13:46.000
+Esa va a tener un va a tener un vector. Y después hay que hay. La regla de decisión. Tiene que ser algo así como si el output está.
+
+01:13:46.000 --> 01:13:53.000
+El auto que está produciendo el modelo. Está dentro de.
+
+01:13:53.000 --> 01:13:57.000
+Un radio. Tanto de ese vector.
+
+01:13:57.000 --> 01:14:02.000
+Entonces deja de responder. Entonces eso quiere decir que la.
+
+01:14:02.000 --> 01:14:12.000
+La la regla tiene que estar expresada. De acuerdo a la forma de de representación del del Transformer.
+
+01:14:12.000 --> 01:14:21.000
+O sea, no, no puede expresar. Tienes que llevarlo, tienes que llevarlo a a al lenguaje vectorial. Y eso, y eso siempre lo puedes hacer.
+
+01:14:21.000 --> 01:14:25.000
+Entonces eso te perm, Eso te permite o ocupar reglas explícitas.
+
+01:14:25.000 --> 01:14:34.000
+Y luego, qué tan bien expresado eso? Porque va a haber parámetros ahí ¿De qué tan lejos puede estar tú.
+
+01:14:34.000 --> 01:14:41.000
+Tu el output del sistema, de la del de la prohibición de la regla o de la de la regla. No cierto.
+
+01:14:41.000 --> 01:14:45.000
+Qué tan lejos está eso? Lo puedes, tienes que a tienes que ajustarlo.
+
+01:14:45.000 --> 01:14:51.000
+De hecho, eso tiene que ser la razón de por cuál, Porque, por lo por la cual no es cierto la.
+
+01:14:51.000 --> 01:15:00.000
+El sistema se detiene cuando ha avanzado suficientemente, o sea, donde el vector de contexto de la salida.
+
+01:15:00.000 --> 01:15:08.000
+Va aproximándose cada vez más al al al. Al vector que expresa la regla.
+
+01:15:08.000 --> 01:15:12.000
+Entonces se va acercando cada vez más y detiene el proceso en un punto.
+
+01:15:12.000 --> 01:15:17.000
+Entonces eso te da harta flexibilidad en la aplicación de la regla.
+
+01:15:17.000 --> 01:15:26.000
+Entonces los modelos o la arquitectura sor nos pueden como alucinar. ¿qué es lo que se lee. No no pueden alucinar, no.
+
+01:15:26.000 --> 01:15:34.000
+No funcionan. Las alucinaciones en el fondo son cómo funcionan los modelos transformer.
+
+01:15:34.000 --> 01:15:39.000
+La alucinan. Todo lo que pasa es que a 1 1 dice que alucinan cuando.
+
+01:15:39.000 --> 01:15:45.000
+La probabilidad de lo que te. No es verídica.
+
+01:15:45.000 --> 01:15:52.000
+Entonces alucinó, pero en realidad siempre el mismo proceso. En cambio, los modelos simbólicos no van a.
+
+01:15:52.000 --> 01:15:59.000
+Nunca van a alucinar. No tienen esa flexibilidad. Sí. En la había una pregunta en Zoom Javier.
+
+01:15:59.000 --> 01:16:05.000
+Sí. Gracias. Profe: con respecto a eso. Si a Deep Cyc.
+
+01:16:05.000 --> 01:16:11.000
+No será producto de la ignorancia que. Cómo lo ves, que.
+
+01:16:11.000 --> 01:16:18.000
+Comienza a elaborar la respuesta y, evidentemente, después para y coloca este de hablemos de otro tema.
+
+01:16:18.000 --> 01:16:19.000
+Mhm.
+
+01:16:19.000 --> 01:16:29.000
+Que tenga un sistema suave por sobre el el el sistema de de redes neuronales que que hace funcionar a a Dipsyk.
+
+01:16:29.000 --> 01:16:30.000
+El sistema, el sol que sea suave, ese sistema. El supervisor.
+
+01:16:30.000 --> 01:16:33.000
+O sea, lo.
+
+01:16:33.000 --> 01:16:38.000
+Lo es que lo único que necesita entiendo yo, es una regla.
+
+01:16:38.000 --> 01:16:47.000
+Que diga cada vez que se toca este tema. El el tema de críticas al Gobierno chino Se ha expresado así.
+
+01:16:47.000 --> 01:16:53.000
+Entonces. Y.
+
+01:16:53.000 --> 01:16:58.000
+El output. Es este este fijo. Solo tiene, necesita tener eso, y después necesita poder.
+
+01:16:58.000 --> 01:17:05.000
+Parametizar ¿Qué tan cerca está el output que está produciendo de la del del.
+
+01:17:05.000 --> 01:17:11.000
+Del If de la regla no necesita. No necesita un sistema más complejo.
+
+01:17:11.000 --> 01:17:13.000
+Que que eso en realidad. Porque el sistema puede entender las reglas que tú le das.
+
+01:17:13.000 --> 01:17:18.000
+Que es que me preguntaba.
+
+01:17:18.000 --> 01:17:27.000
+Igual como entiende cualquier otra cosa. Lo único que pasa es que una vez que que entiende que está violando la regla.
+
+01:17:27.000 --> 01:17:33.000
+Ahí tiene que tener este sistema supervisor que detiene el proceso, Pero, y eso tiene que estar.
+
+01:17:33.000 --> 01:17:35.000
+Programado Hardcode. Me programaba a mano completo.
+
+01:17:35.000 --> 01:17:42.000
+Sí. De acuerdo igual. La cantidad información es alta o que hice la prueba con con.
+
+01:17:42.000 --> 01:17:43.000
+Si yo le pregunto a la expresión, me da respuestas. Bastante estructurada.
+
+01:17:43.000 --> 01:17:49.000
+No, no.
+
+01:17:49.000 --> 01:17:50.000
+Pero si le hago la la pregunta de de qué pasó en Tiananmén, por ejemplo.
+
+01:17:50.000 --> 01:17:54.000
+No, no.
+
+01:17:54.000 --> 01:18:06.000
+Ahí es cuando me cambia de tema. Entonces puede ser tema. Puede ser lo la cómo se llama el T, I, B, E, T, etcétera. También es bien amplia la la gama sobre temas.
+
+01:18:06.000 --> 01:18:15.000
+Que el Gobierno chino no va a querer hablar o, por lo tanto, va a tener que optar por una estructura de megan leso.
+
+01:18:15.000 --> 01:18:21.000
+O una pregunta que dice que garantizamos los derechos de todos. Cuando le pregunto por la libertad de expresión, entonces.
+
+01:18:21.000 --> 01:18:26.000
+Por eso como que me suena, dado que estaba aprendiendo el tema suave. En mi caso, aprendiendo.
+
+01:18:26.000 --> 01:18:35.000
+Igual. Hay reglas de decisión que dice: si te vas por acá, esta es una regla. Si no estás conecta 8 operaciones, etcétera. Hacia allá. Iba mi pregunta: si.
+
+01:18:35.000 --> 01:18:36.000
+Sí.
+
+01:18:36.000 --> 01:18:40.000
+Es una pintura suave. El tema de la regulación de la información que va a entregar o no independiente.
+
+01:18:40.000 --> 01:18:41.000
+O sea, en términos en términos generales. Puede puede ser un árbol, puede ser, Puede tener una estructura de árbol.
+
+01:18:41.000 --> 01:18:47.000
+No.
+
+01:18:47.000 --> 01:18:57.000
+Pero yo creo que estarías perdiendo flexibilidad de los de los transformers y si convierte este sistema en full en una estructura de árbol. ¿quién es más.
+
+01:18:57.000 --> 01:19:04.000
+Más probable que tenga un sistema que está. Entrenado para detectar.
+
+01:19:04.000 --> 01:19:07.000
+Preguntas como de ese tipo. Si usted no, no necesariamente Ten. No, no es necesario que tenga un árbol completo ahí para para tomar esas decisiones.
+
+01:19:07.000 --> 01:19:15.000
+Okay. Gracias.
+
+01:19:15.000 --> 01:19:16.000
+Es que. Yo pienso en un sistema sobre otro sistema, no que estén.
+
+01:19:16.000 --> 01:19:21.000
+Pero no sé la verdad, que no estoy seguro.
+
+01:19:21.000 --> 01:19:29.000
+Sí, Sí, Sí. Yo entiendo: sí.
+
+01:19:29.000 --> 01:19:35.000
+Un sistema. Dándole el.
+
+01:19:35.000 --> 01:19:39.000
+Y. Por ejemplo, si yo estaba.
+
+01:19:39.000 --> 01:19:46.000
+De preguntar al transporte. A la.
+
+01:19:46.000 --> 01:19:57.000
+Y. Sí, Sí, hay sistemas de de diagnóstico médico que funcionan más o menos, así que tienen un pre procesamiento.
+
+01:19:57.000 --> 01:20:03.000
+Por por un transformer y le da los inputs para aplicar.
+
+01:20:03.000 --> 01:20:11.000
+Son casos donde tú quieres tener control. Sobre el proceso que está que está llevando a cabo el sistema.
+
+01:20:11.000 --> 01:20:19.000
+Y que no sea Full de caja negra. Sí.
+
+01:20:19.000 --> 01:20:32.000
+Hola. Sí, o sea, lo que lo que lo que entiende entonces básicamente es que y creo que todo funciona más o menos iguales, o sea.
+
+01:20:32.000 --> 01:20:37.000
+El definir próximo toque y una base de datos del vector.
+
+01:20:37.000 --> 01:20:47.000
+Y antes de hacer eso, el interior del contexto. O sea, de la Pre. Son varias palabras, está entendiendo el contexto y se está tratando de hablar de política.
+
+01:20:47.000 --> 01:20:50.000
+Entonces el vector que tengo que desearle más o menos ese que.
+
+01:20:50.000 --> 01:20:55.000
+Y si no fuera hablar, hablemos de otro tema, yo creo que por ahí va un poco el tema.
+
+01:20:55.000 --> 01:21:07.000
+Y lo otro es que toda la mejora o reentrenamiento del modelo lo hacen por informe donde tú vas diciendo: mira, respuesta, respuesta de mala y.
+
+01:21:07.000 --> 01:21:11.000
+Trata de no volver a ser respuesta, porque entendiste que ese camino.
+
+01:21:11.000 --> 01:21:19.000
+Por el vector no es más. Apropiado y por eso hace otro camino. Yo entiendo, como resumen, profesor de inteligencia correcto.
+
+01:21:19.000 --> 01:21:25.000
+Sí, eso es el el fin tuning que dicen que es.
+
+01:21:25.000 --> 01:21:32.000
+Que los modelos pueden ser ajustados más finamente. Con entrenamiento humano, con reforzamiento humano.
+
+01:21:32.000 --> 01:21:40.000
+Pero luego es difícil. Pensar que hay como una especie de camino que sigue.
+
+01:21:40.000 --> 01:21:47.000
+No, no es que siga un camino en un árbol. Que claro, y el próximo token se define.
+
+01:21:47.000 --> 01:21:51.000
+Lo es. Lo define en buena medida a la pregunta que tú le hiciste pronto.
+
+01:21:51.000 --> 01:21:57.000
+Sí, Pero si si él tiene la política, el. Que pueden direccionar por el vector, por.
+
+01:21:57.000 --> 01:22:06.000
+Aparte el venturoso. Ese sería como la dirección o las reglas que hace.
+
+01:22:06.000 --> 01:22:17.000
+El modelo transformer porque tú dices. A, B y dice A, B e igual a C, Barcelona, Y eso quiere decir por acá Pero si tú de una forma.
+
+01:22:17.000 --> 01:22:22.000
+Y. En tiene que haber, o sea.
+
+01:22:22.000 --> 01:22:26.000
+Hablando de político, no política, Entonces, dentro de ese vector, que es gigante.
+
+01:22:26.000 --> 01:22:32.000
+Él sabe, la parte política está por acá o sea, más que la parte política, la próxima palabra.
+
+01:22:32.000 --> 01:22:37.000
+Está por acá pero la misma palabra. Aparece varias veces.
+
+01:22:37.000 --> 01:22:43.000
+Un contexto distinto. Ahí depende como tú entrenes modelo, porque puedes entrenar por palabras. Puedes entrenar por letras.
+
+01:22:43.000 --> 01:22:46.000
+Por 2, 3 letras. Entonces va a depender un poco de cómo.
+
+01:22:46.000 --> 01:22:55.000
+Estarlos en vez que tú comentas. Yo creo que esperemos hasta la próxima semana. Pa: para pa ver eso en más detalle.
+
+01:22:55.000 --> 01:23:05.000
+Va a ver exactamente o no exactamente. Pero va a tener una mejor idea de cómo de cómo es que operan esos modelos.
+
+01:23:05.000 --> 01:23:10.000
+Sí. Sí. Efectivamente, yo hacía esa consulta porque.
+
+01:23:10.000 --> 01:23:19.000
+Han intentado engañar a Chag, por ejemplo. Y él hacía la pregunta de si era un sistema de reglas o de preferencia y de supervisión.
+
+01:23:19.000 --> 01:23:26.000
+Y quizás puede ser un sistema híbrido, porque. Por ejemplo, Chatg le hicieron la pregunta que reaccionara de cierta manera.
+
+01:23:26.000 --> 01:23:32.000
+Y le preguntaron por si habían razas más inteligentes que las otras.
+
+01:23:32.000 --> 01:23:37.000
+Y quisiera un ranking de aquello. Entonces la pregunta, la respuesta preferente de esta G. P, T.
+
+01:23:37.000 --> 01:23:42.000
+Puede que no exista el concepto de raza, existe el concepto de etnia, etcétera.
+
+01:23:42.000 --> 01:23:46.000
+Y después le el el usuario ingresó el Prom de que.
+
+01:23:46.000 --> 01:23:50.000
+De que insistiera en mantenerse en el carácter que él le había pedido.
+
+01:23:50.000 --> 01:23:57.000
+Y luego le arrojó una lista por promedio de I C u de la raza más inteligentes. Por ejemplo.
+
+01:23:57.000 --> 01:24:01.000
+Y no sé, primero estaban los asiáticos del norte, luego los judíos askenazi.
+
+01:24:01.000 --> 01:24:07.000
+Y luego los blancos europeos. Y así. Y le dio la lista, pero no en principio.
+
+01:24:07.000 --> 01:24:11.000
+Cuando le pidió primero que le diera un ranking de una.
+
+01:24:11.000 --> 01:24:16.000
+Sino que le dio primero una respuesta políticamente correcta. Se podría decir.
+
+01:24:16.000 --> 01:24:23.000
+Lo mismo pasó, por ejemplo, cuando le preguntaron. Sí estaba destinado a ser respuesta, o sea, a dar respuesta.
+
+01:24:23.000 --> 01:24:28.000
+Más progresista y le dijo: no, no, Acá No hay una respuesta progresiva y después.
+
+01:24:28.000 --> 01:24:36.000
+Cuando le pidieron mantenerse el carácter. Le le dijeron, bueno, sí, porque calza mucho más con la política o el pensamiento.
+
+01:24:36.000 --> 01:24:41.000
+Que quieren los fundadores de Chatti, Pitillas. Entonces hay un sistema de preferencia.
+
+01:24:41.000 --> 01:24:46.000
+Quizás no hay un sistema. Cómo decirlo como.
+
+01:24:46.000 --> 01:24:54.000
+De. De reglas. Pero si hay un sistema de preferir cierta información a en omisión de otra.
+
+01:24:54.000 --> 01:25:03.000
+Es que bueno, Nos estamos yendo del del tema, pero. Tienen. Tienen que ven. Tienen que pensar.
+
+01:25:03.000 --> 01:25:12.000
+Que el sistema está entrenado. Con mucho a ver. No sé si han notado que el G. P. T, en particular es.
+
+01:25:12.000 --> 01:25:21.000
+Sumamente positivo en la retroalimentaciones que da. Es muy bien. Muy buena pregunta. Muy interesante, porque la mayor parte del entrenamiento es así.
+
+01:25:21.000 --> 01:25:26.000
+O sea que el contexto de entrenamiento, la interacción es negativa. Son menos.
+
+01:25:26.000 --> 01:25:34.000
+Y muchas más interacciones positivas. Entonces esos sistemas, el sesgo que tienen es hacia el promedio mundial.
+
+01:25:34.000 --> 01:25:42.000
+De cómo se trata un tema. Entonces la lo que evitan son posiciones extremas.
+
+01:25:42.000 --> 01:25:47.000
+Pero eso no quiere decir que tú no puedas. Ajustar el Pront para que el sistema.
+
+01:25:47.000 --> 01:25:59.000
+Se mueva un poco hacia posiciones extre. O sea, te va, ¿te va a decir Sí, Sí, Sí, sí, claro, sí, esta es la lista, entonces son las más inteligentes, pero, sin embargo, no cierto. Tal final te va te aclarar la cuestión.
+
+01:25:59.000 --> 01:26:07.000
+Pero porque tú lo forzaste para ir en esa dirección. Pero eso es básicamente el funcionamiento.
+
+01:26:07.000 --> 01:26:13.000
+Que es común. Es como un gran promedio mundial de de información, entonces siempre te va a estar dando.
+
+01:26:13.000 --> 01:26:23.000
+Resultados promedios. Es difícil sacarlo de la del resultado promedio. Incluso para cosas que 1 hoy día no tiene ninguna relevancia.
+
+01:26:23.000 --> 01:26:32.000
+Valor y nada igual. Lo igual lo hace. O sea, tú le dices.
+
+01:26:32.000 --> 01:26:40.000
+Yo creo que Ndel fue negativo para la música inglesa. Porque.
+
+01:26:40.000 --> 01:26:50.000
+Y. Porque dejen del hasta el siglo Xix más o menos. No hubo ningún músico inglés realmente relevante.
+
+01:26:50.000 --> 01:26:58.000
+Y dice Adam Dame. Ese argumento. Es decir, bueno, no podría ser ese argumento, pero ¿y te va a corregir hacia el promedio.
+
+01:26:58.000 --> 01:27:04.000
+Es decir, en realidad 1 también podría pensar que no es eso.
+
+01:27:04.000 --> 01:27:08.000
+Entonces no, no he, No, no tiene que ver con la cuestión calórica.
+
+01:27:08.000 --> 01:27:13.000
+Pero bueno, volvamos al al tema.
+
+01:27:13.000 --> 01:27:20.000
+Y.
+
+01:27:20.000 --> 01:27:28.000
+Y. Entonces 1 de los problemas de esta de estas arquitecturas, como Shore es.
+
+01:27:28.000 --> 01:27:35.000
+Que no está claro qué cosas son hardware si representan el.
+
+01:27:35.000 --> 01:27:40.000
+Funcionamiento de la mente humana, qué cosas son hardware y cosas con software? Es lo mismo de cómo resolvemos la.
+
+01:27:40.000 --> 01:27:45.000
+Las contradicciones y necesitamos una regla específica, y esa la podemos programar.
+
+01:27:45.000 --> 01:27:50.000
+Necesitamos un mecanismo. Hard Codet en el sistema.
+
+01:27:50.000 --> 01:27:58.000
+¿cómo se diría eso, codificado a mano. Para para evitar evitar las contradicciones.
+
+01:27:58.000 --> 01:28:04.000
+Eso. Eso se compara con con los Transformers, donde en realidad.
+
+01:28:04.000 --> 01:28:13.000
+Todo el conocimiento Transformers está en el en el data set de entrenamiento.
+
+01:28:13.000 --> 01:28:25.000
+Tampoco hay otra crítica es, tampoco hay. Como consenso en las ciencias cognitivas en general, de que estos modelos sean representativos de la inteligencia humana.
+
+01:28:25.000 --> 01:28:31.000
+Sigue siendo que es una. Es una comunidad relativamente pequeña en la que.
+
+01:28:31.000 --> 01:28:40.000
+Hace investigación. Usando estos modelos. Y han tenido éxito en aplicaciones de nicho como estas de entrenamiento en.
+
+01:28:40.000 --> 01:28:47.000
+En. Operadores aéreos, por ejemplo, donde hay una serie de reglas que se aplican.
+
+01:28:47.000 --> 01:28:55.000
+Y donde 1 puede hacer la. El el equivalente Y el otro problema importante.
+
+01:28:55.000 --> 01:29:03.000
+Es que son. El rendimiento que muestran son inteligencias de nivel humano.
+
+01:29:03.000 --> 01:29:07.000
+No son más inteligentes que. El conjunto de reglas que.
+
+01:29:07.000 --> 01:29:15.000
+Y el conjunto de reglas está programada por alguien. Entonces el nivel de inteligencia que muestran es nivel de inteligencia humana.
+
+01:29:15.000 --> 01:29:22.000
+Y son pocas las aplicaciones donde 1 necesita a nivel de inteligencia humano.
+
+01:29:22.000 --> 01:29:36.000
+Probablemente. Si 1 va a programar un profesor en un área necesita que tenga inteligencia de nivel humano y no más.
+
+01:29:36.000 --> 01:29:39.000
+No sé si me estoy haciendo un favor a mí mismo con esa.
+
+01:29:39.000 --> 01:29:47.000
+Pero pero es. Pero pero eso eso son las aplicaciones.
+
+01:29:47.000 --> 01:30:04.000
+Y Lue, luego implementarlo es caro. Los sistemas son son. Complejo, pero imagínense para cualquier problema realista. El total de reglas que 1 podría tener es enormes. Necesitan haber sido programadas en su gran medida a mano.
+
+01:30:04.000 --> 01:30:15.000
+Y luego después necesita el sistema. Implementarse en situaciones reales para poder detectar errores y fallas de o que genere el sistema, nuevas reglas.
+
+01:30:15.000 --> 01:30:28.000
+Entonces. Eso ha generado que la gente que trabaja en sistemas como este lo haya ido modificando.
+
+01:30:28.000 --> 01:30:34.000
+Progresivamente. Actualmente soir.
+
+01:30:34.000 --> 01:30:40.000
+O sistemas como este. Pues pueden aprender del lenguaje natural.
+
+01:30:40.000 --> 01:30:51.000
+Directamente. Pueden aprender una tarea casi desde 0, porque necesitan algunas reglas generales y después necesitan ser entrenados.
+
+01:30:51.000 --> 01:30:58.000
+Puede usar lenguaje natural con técnicas de procesamiento, lenguaje natural. Pueden hacer onechot learning.
+
+01:30:58.000 --> 01:31:05.000
+Como esta función de Lucashed, o después vamos a ver otra que es función de champing, que es básicamente.
+
+01:31:05.000 --> 01:31:16.000
+Resuelven un problema. Y una vez que lo resuelven, crean una regla que es el resumen de ese problema, ya no ya no tienen que resolverlo de nuevo Siempre que se encuentren con eso, tienen una regla prearmada.
+
+01:31:16.000 --> 01:31:19.000
+Y pueden aprender por refuerzo. También entonces se han ido gestos.
+
+01:31:19.000 --> 01:31:32.000
+Complejizando estos sistemas cada vez más. Aún así. Sí, no, no, no tienen. No comparado con Transformers, pienso yo, No, No tienen.
+
+01:31:32.000 --> 01:31:39.000
+No tienen el mismo nivel de flexibilidad. Sí.
+
+01:31:39.000 --> 01:31:48.000
+Siendo justo con el Swar, tampoco en todos. Los En la gran mayoría de los casos de uso no tienen la cantidad de data que tiene como para poder aplicar y crear un transporte.
+
+01:31:48.000 --> 01:31:54.000
+Entonces, al final, acá. Uno puede crear un modelo sware. Bajo la intuición o la experiencia.
+
+01:31:54.000 --> 01:32:01.000
+De cada 1. Sí. Sí se ve aquí. Esa es la. Esa es la alimen.
+
+01:32:01.000 --> 01:32:12.000
+Sí, esa es la limitación de, en general de los modelos simbólico, o sea, esa es la ventaja de los modelos simbólicos en el sentido de que no necesitas grandes cantidades de datos.
+
+01:32:12.000 --> 01:32:19.000
+Pero es 1 de los problemas de. Del problema es que necesita necesitas programarlo.
+
+01:32:19.000 --> 01:32:28.000
+Se la realmente. Esa es la dificultad que la calidad de las reglas y de las operaciones que haces con la regla.
+
+01:32:28.000 --> 01:32:33.000
+Eso es lo crítico.
+
+01:32:33.000 --> 01:32:39.000
+Sí. Esa es una respuesta. Como. Y.
+
+01:32:39.000 --> 01:32:44.000
+Pragmático, sí pragmático. ¿por qué se use? Se usa en cada 1. Tiene su ámbito de aplicación.
+
+01:32:44.000 --> 01:32:53.000
+Es cierto. El otro que quería comentarles.
+
+01:32:53.000 --> 01:32:58.000
+Es. A Ctr, que esto es de John Anderson.
+
+01:32:58.000 --> 01:33:04.000
+La idea de Anderson. Esto empezó todo como ciencia cognitiva, pura.
+
+01:33:04.000 --> 01:33:10.000
+Que en realidad, la inteligencia que no hay tal cosa como la inteligencia.
+
+01:33:10.000 --> 01:33:15.000
+Y la inteligencia. Simplemente la suma de todo el conocimiento que hay.
+
+01:33:15.000 --> 01:33:23.000
+Sí, toda la inteligencia está en las reglas, se unen. Y la suma de todas las reglas da la inteligencia del sistema.
+
+01:33:23.000 --> 01:33:30.000
+Se mueve un poco parecido a la idea de los Transformers, que en realidad 1 no puede identificar dónde está la inteligencia.
+
+01:33:30.000 --> 01:33:39.000
+Exactamente. Y lo otro. La otra idea, que también es muy parecida a lo que pasa con transformers es que los sistemas son inteligentes.
+
+01:33:39.000 --> 01:33:45.000
+O los sistemas son racionales. En la medida que capturan la estructura estadística del ambiente.
+
+01:33:45.000 --> 01:33:50.000
+Si logran capturar la estructura estadística, el ambiente. Eso quiere decir ser racional.
+
+01:33:50.000 --> 01:33:55.000
+Que es distinto a la racionalidad económica, que es como maximizar utilidad.
+
+01:33:55.000 --> 01:34:02.000
+El concepto racional acá y por eso se llama. Ht: R. R. Vocacional.
+
+01:34:02.000 --> 01:34:09.000
+Es que el sistema ha logrado capturar. Propiedades estadísticas, del medio.
+
+01:34:09.000 --> 01:34:14.000
+Y esas propiedades estadísticas del mes son que las que le permiten razonar adecuadamente.
+
+01:34:14.000 --> 01:34:19.000
+Y eso es ser inteligente.
+
+01:34:19.000 --> 01:34:25.000
+Aquí también. No es cierto. Tienen la idea de que de que esto tiene que.
+
+01:34:25.000 --> 01:34:31.000
+Una relación con estructura cerebral. Entonces, básicamente.
+
+01:34:31.000 --> 01:34:41.000
+Tienen el corazón de esto. Esto. Este sistema, que en el cerebro es un sistema de aprendizaje por refuerzo.
+
+01:34:41.000 --> 01:34:45.000
+El sistema en el cerebro de aprendizaje por refuerzo, lo que hace.
+
+01:34:45.000 --> 01:34:49.000
+Es que automatiza el comportamiento, pero al mismo tiempo que automatiza.
+
+01:34:49.000 --> 01:34:55.000
+Se vuelve un predictor de lo. Refuerzos de los premios que 1 puede obtener.
+
+01:34:55.000 --> 01:35:00.000
+Entonces esa señal de predicción de refuerzo. Esa es la que se usa como señal de preferencia.
+
+01:35:00.000 --> 01:35:10.000
+Y estos sistemas también. No es cierto. Lo que lo que hace este sistema es operar de manera implícita sobre contenidos.
+
+01:35:10.000 --> 01:35:16.000
+Un ejemplo. Como cotidiano de esto es como 1 aprende la gramática de su idioma.
+
+01:35:16.000 --> 01:35:21.000
+Materno. Uno no aprende reglas.
+
+01:35:21.000 --> 01:35:27.000
+Explícitas sobre la gramática de tu idioma materno es una operación.
+
+01:35:27.000 --> 01:35:32.000
+Según obligación sobre el orden de palabra. Y el sistema. Lo que aprende es cuáles son.
+
+01:35:32.000 --> 01:35:38.000
+Cuáles son las regularidades en la estructuración de orden de palabra.
+
+01:35:38.000 --> 01:35:43.000
+Y y luego de esa no explicitable, si 1 le preguntan, bueno.
+
+01:35:43.000 --> 01:35:50.000
+Por qué se dice de esta manera, por qué se conjuga de esta manera Todo no puede explicarlo.
+
+01:35:50.000 --> 01:35:56.000
+Salvo que 1 ha aprendido de educación formal. Ah, no. Lo que pasa es que un verbo irregular y 1 alto. Una explicación.
+
+01:35:56.000 --> 01:36:03.000
+Pero esa no es la forma como está funcionando. No sé. Estos sistemas tienen estos operadores.
+
+01:36:03.000 --> 01:36:09.000
+Que son los que combinan el conocimiento explícito y esa combinación del conocimiento explícito de esa es la que.
+
+01:36:09.000 --> 01:36:16.000
+Produce el out. Y eso es buena parte de la de la de la inteligencia.
+
+01:36:16.000 --> 01:36:27.000
+Que tiene es cómo se combina el conocimiento explícito. Entonces todo lo que está en la memoria declarativa son reglas. Si entonces.
+
+01:36:27.000 --> 01:36:32.000
+Que, en términos de inteligencia humana, son cosas que pueden ser reportadas, que yo puedo decir.
+
+01:36:32.000 --> 01:36:38.000
+Y el sistema de hecho también. Si 1 le pregunta A, C, T, R.
+
+01:36:38.000 --> 01:36:43.000
+Le pregunta por una regla. Te la puede reportar explícitamente. Se me pregunta por una operación.
+
+01:36:43.000 --> 01:36:49.000
+Algo que hace con las reglas. Note. La reporta explícitamente. Bueno, está programado para eso, pero.
+
+01:36:49.000 --> 01:36:56.000
+Pero eso está tratando de reflejar características de la mente humana.
+
+01:36:56.000 --> 01:37:03.000
+En cambio, las producciones son cosas que se hacen sobre los sobre los ives.
+
+01:37:03.000 --> 01:37:09.000
+Para obtener un un un un entonces un den. Y.
+
+01:37:09.000 --> 01:37:15.000
+Entonces la red, las reglas. Combinan cosas. Entonces, si 1 dice, voy a su.
+
+01:37:15.000 --> 01:37:24.000
+De 1 en 1. Entonces la la regla. Yo Yo sé, 1, C, 2, C, 3, sé 4 y sumar de 1 en 1 quiere decir que.
+
+01:37:24.000 --> 01:37:28.000
+Más alto de 1 a 2, y sé que sume 1.
+
+01:37:28.000 --> 01:37:37.000
+Salto de 2 a 3. Y sé que su reporto 3. Como ver ver un niño. El ejemplo más clase más claro, creo yo, es ver un niño contando con los dedos.
+
+01:37:37.000 --> 01:37:44.000
+O sumando con los dedos. Eso es una operación.
+
+01:37:44.000 --> 01:37:49.000
+No es un conocimiento explicitable. Sino que sabe cómo se cómo se hace.
+
+01:37:49.000 --> 01:37:54.000
+Y en realidad casi todo lo que 1 mucho de lo que 1 hace mentalmente es eso.
+
+01:37:54.000 --> 01:38:06.000
+Juntamente operaciones sobre. Entonces están los contenidos. Son las reglas. Y entonces, y luego hay operaciones. Y las operaciones producen salida.
+
+01:38:06.000 --> 01:38:22.000
+Y la la luego de solucionar problemas se forman. Trozos de memoria, secuencias de memorias que están como compiladas. Entonces 1 resuelve un problema. Y en vez de volver a resolver el problema en la misma secuencia.
+
+01:38:22.000 --> 01:38:29.000
+Uno lo compila en una nueva regla. Pasa a formar parte de la memoria de largo plazo.
+
+01:38:29.000 --> 01:38:35.000
+Entonces, por ejemplo, si hay una regla, si entonces ve y una regla, si evento es C.
+
+01:38:35.000 --> 01:38:42.000
+Y hay un procedimiento que me lleva de A hasta C. Yo puedo generar la nueva regla. Si ya entonces C.
+
+01:38:42.000 --> 01:38:49.000
+Para ciertas condiciones de input. Y con eso el sistema no acertó. Puede aprender.
+
+01:38:49.000 --> 01:38:56.000
+Que es parecido como 1 aprendería. Cosa. Eso, de nuevo, esto intenta resolver.
+
+01:38:56.000 --> 01:39:07.000
+Intenta simular inteligencia humana. Entonces el ejemplo de suma sería no excepto 4 plus, 3. Igual X, tengo resolver eso.
+
+01:39:07.000 --> 01:39:12.000
+Puedo puedo tener, No, cierto? Cuatro. Si yo sé.
+
+01:39:12.000 --> 01:39:18.000
+Contar agregando 1 cada vez, o sea, la secuencia, puedo decir 4 más más. Uno, 5.
+
+01:39:18.000 --> 01:39:27.000
+Cinco, coma, 1, 6, 6, más 1, 7. Ese proceso iterativo es una. Es, es una operación.
+
+01:39:27.000 --> 01:39:31.000
+Y de dar agregando 1 como contar con los dedos, sumar con los dedos.
+
+01:39:31.000 --> 01:39:38.000
+Y luego obtengo 4, más, 3, 7. Y una vez que obtengo eso, puedo tener una nueva regla.
+
+01:39:38.000 --> 01:39:43.000
+Que la puedo mantener. La el sistema la la lleva de memoria es el 4 más 3, 7.
+
+01:39:43.000 --> 01:39:50.000
+Y resuelve un problema. Ya ahora lo resuelve con memoria y no con capacidad de procesamiento.
+
+01:39:50.000 --> 01:39:58.000
+Así que eso le permite resolver una nueva meta. Que es X. Más 4, 3, igual Trece.
+
+01:39:58.000 --> 01:40:01.000
+Si sabe que 4 plus, 3, 7, entonces. Trae eso de memoria.
+
+01:40:01.000 --> 01:40:06.000
+Y reformula el problema y ahora puede aprender a resolver este otro problema.
+
+01:40:06.000 --> 01:40:15.000
+Esa lógica es la lógica general que usan. Para construir su base de conocimiento.
+
+01:40:15.000 --> 01:40:25.000
+Pero todo depende de que los operadores sean adecuados. En qué se ha usado de nuevo simulaciones militares.
+
+01:40:25.000 --> 01:40:30.000
+El A, C, T, R. Se ha usado mucho en estudio de aprendizaje de las matemáticas en niños chico.
+
+01:40:30.000 --> 01:40:48.000
+De ahí de ahí el ejemplo. Este. Para estudiar cómo aprenden matemáticas, porque el sistema no es cierto. Como tal, emula una inteligencia humana va a hacer las cosas en una secuencia, en un procedimiento, en una secuencia específica, y esa consecuencia específica ocurriría en tiempo real.
+
+01:40:48.000 --> 01:40:59.000
+O se intenta que el sistema. Emule los tiempos, las demoras y los procesos que sigue que sigue la gente cuando está aprendiendo eso, y eso ayuda.
+
+01:40:59.000 --> 01:41:10.000
+Luego va a poder diseñar sistemas de enseñanza. Que respeten la forma de procesar esto de los niños. Entonces, por ejemplo, si 1 está contando con las manos con los dedos.
+
+01:41:10.000 --> 01:41:18.000
+Y de ese 2, más 3. Se va a demorar más porque va a ser 1, 2 y después, 1, 2, 3, se va a demorar más en llegar a 5.
+
+01:41:18.000 --> 01:41:23.000
+Que si 1 dice 3 plus, 2. Se supone que da la la.
+
+01:41:23.000 --> 01:41:29.000
+La la el aspecto material. Del proceso de aprendizaje.
+
+01:41:29.000 --> 01:41:33.000
+Está siendo reflejado. En estos modelos.
+
+01:41:33.000 --> 01:41:41.000
+Estos vienen de la idea original de ciencias cognitivas, no tanto del enfoque más.
+
+01:41:41.000 --> 01:41:54.000
+Más de ingeniería que resolver el problema de cómo programarlo. De nuevo. ¿tiene todo esto. Todos estos problemas, específicamente aplicaciones de nicho.
+
+01:41:54.000 --> 01:42:00.000
+Dudas sobre si en realidad implementa una inteligencia, una inteligencia general o no.
+
+01:42:00.000 --> 01:42:09.000
+Más más para el lado de quien no, que sí. Éxito en estudios de experimentales. Pero, claro, el problema es que esto es una cuestión. Es una empresa. De nuevo.
+
+01:42:09.000 --> 01:42:14.000
+Y para aprender a programar. Usan a C, T, R. Usa una versión de List.
+
+01:42:14.000 --> 01:42:22.000
+El list processing que es como 1 de los lenguajes originales de es el lenguaje original de inteligencia artificial.
+
+01:42:22.000 --> 01:42:30.000
+Uso una versión de eso. Y 1 tiene que entrenarse. Y esta empresa te venden los entrenamientos.
+
+01:42:30.000 --> 01:42:35.000
+Y es caro implementar porque un sistema de reglas en general es difícil de implementar.
+
+01:42:35.000 --> 01:42:39.000
+Claro, aunque es. Cierto, más aplicable.
+
+01:42:39.000 --> 01:42:47.000
+Y. Así que con esto.
+
+01:42:47.000 --> 01:42:53.000
+Sí, ya estamos casi ya. Sí, entonces solo va para recapitular el último punto.
+
+01:42:53.000 --> 01:43:00.000
+Primero se tiene. Un si, entonces que sería como una condición.
+
+01:43:00.000 --> 01:43:06.000
+Después viene el operador. Después de ese operador con.
+
+01:43:06.000 --> 01:43:10.000
+Con procesamiento se genera ese 1 más 1 1 en el caso, por ejemplo.
+
+01:43:10.000 --> 01:43:14.000
+Y eso tiene una respuesta que después la guarda en un chanks.
+
+01:43:14.000 --> 01:43:25.000
+Y después de chance pasa a ser parte del almacenamiento. El Chank sería la la condiciones de entrada, los los y y la.
+
+01:43:25.000 --> 01:43:35.000
+Ya todo. Entonces, la memoria de largo plazo, y eso aquí, en una memoria a largo plazo que sea parecido ocupa ese mismo y no procesamiento, y no procesa.
+
+01:43:35.000 --> 01:43:41.000
+Sí.
+
+01:43:41.000 --> 01:43:50.000
+Es que eso depen depende del problema. O sea, y depende de la cantidad de memoria disponible, es que no es capaz de decirte si es muy similar o no.
+
+01:43:50.000 --> 01:43:56.000
+Tiene que ser esa o no. Que ese es el problema, o sea.
+
+01:43:56.000 --> 01:44:05.000
+Sí, sí para para el trabajo. Estaba pensando yo. Si tienen problemas de, por ejemplo, de de.
+
+01:44:05.000 --> 01:44:18.000
+Evaluar riesgos de un préstamo a otorgar un crédito. Entonces las reglas, las reglas están bien. También está el problema de si pueden ser determinista o no si.
+
+01:44:18.000 --> 01:44:22.000
+Me al ingreso tiene que ser 4 veces el valor del.
+
+01:44:22.000 --> 01:44:29.000
+De la del. Uno hace algo así. Es.
+
+01:44:29.000 --> 01:44:37.000
+Es una regla fija, pero también pueden haber reglas probabilísticas. Y entonces 1 tiene que pensar cómo resuelve ese problema. Pero básicamente, esto que hemos estado viendo.
+
+01:44:37.000 --> 01:44:43.000
+Son todas reglas determinísticas. Y no pueden hacer esa evaluación si se parece o no se parece.
+
+01:44:43.000 --> 01:44:50.000
+Tienen que cumplirse la condición. Sí.
+
+01:44:50.000 --> 01:45:02.000
+Profesor, escuchamos Zoar y a Ctr. Y veo más similitudes que diferencia. Veo como el modelo cognitivo A, C, T, R, como.
+
+01:45:02.000 --> 01:45:10.000
+Shuark con un esteroide. Básicamente porque veo que se va a ser lo mismo que es Systen.
+
+01:45:10.000 --> 01:45:18.000
+Y esta nueva regla que surge producto del análisis se agrega al producto final de la compilación y género. Este nuevo.
+
+01:45:18.000 --> 01:45:25.000
+Y veo también la similitud que son aplicados casi en las mismas ramas vulnerabilidades. Como decía un compañero.
+
+01:45:25.000 --> 01:45:30.000
+En temas, por ejemplo, de seguridad, de vulnerabilidad, donde yo puedo ir agregando patrones. Y si tengo una nueva regla que aplicar.
+
+01:45:30.000 --> 01:45:35.000
+Va seguramente, en ciertas condiciones. Vuelven a formar parte de este modelo cognitivo.
+
+01:45:35.000 --> 01:45:40.000
+Claramente dista mucho de la de la simulación de la inteligencia humana.
+
+01:45:40.000 --> 01:45:47.000
+Porque está basado como en puros, patrones y y. Esta nueva regla. La vuelvo a sumar.
+
+01:45:47.000 --> 01:45:54.000
+Y pasó a formar parte de mi. De bucle completo de evaluación.
+
+01:45:54.000 --> 01:45:59.000
+Esa es la Esa es la pregunta. Sí, refleja o no refleja la inteligencia humana. Ahora, sobre tu pregunta, las 2 cosas.
+
+01:45:59.000 --> 01:46:06.000
+Lo primero, Sí, claro, son son básicamente la misma idea. Lo que pasa es que una del equipo de Newell.
+
+01:46:06.000 --> 01:46:12.000
+Y el otro del equipo de Anderson. Entonces? Ant: Eso, Pero.
+
+01:46:12.000 --> 01:46:19.000
+Todas todas son herederos de la idea inicial de la inteligencia artificial de que tú puedes expresar un problema como un problema.
+
+01:46:19.000 --> 01:46:27.000
+Como un árbol de decisión y que resolver un problema es recorrer inteligentemente el árbol de decisiones. Eso tiene una serie de dificultades.
+
+01:46:27.000 --> 01:46:36.000
+Pero ese es. Todo el enfoque simbólico. No sé si tú tienes cierto. En algún momento mencionamos, creo.
+
+01:46:36.000 --> 01:46:44.000
+Los sistemas expertos. Los sistemas expertos eran o son todavía existen.
+
+01:46:44.000 --> 01:46:54.000
+Conjuntos de reglas. Sí, entonces. Lo único que pasa acá con esto, que es la diferencia de esto con un sistema experto bruto, no más.
+
+01:46:54.000 --> 01:46:59.000
+Es que esto tiene la posibilidad. Estos sistemas tienen la posibilidad de aprender.
+
+01:46:59.000 --> 01:47:10.000
+Por alguna función que les permite en un cierto. Eliminar contradicciones o les permite compilar procesos de razonamiento en una en una regla fija.
+
+01:47:10.000 --> 01:47:18.000
+O pueden aprender por refuerzo por refuerzo. Tú les dices cuál es la respuesta correcta y crean una regla para representar eso.
+
+01:47:18.000 --> 01:47:26.000
+Entonces son más complejos que un puto sistema experto, pero siguen la misma lógica de ser: son secuencias. Si entonces.
+
+01:47:26.000 --> 01:47:31.000
+Ahora a la Así que son el mismo modelo. Básicamente es la misma idea.
+
+01:47:31.000 --> 01:47:37.000
+Ahora sobre la es la segunda cosa. Es si eso es inteligencia humana o no.
+
+01:47:37.000 --> 01:47:44.000
+No sé. Lo que pasa es que. Tienen que pensar, por ejemplo, que los niños chicos cuando aprenden a hablar.
+
+01:47:44.000 --> 01:47:49.000
+Se calcula que, en alguna época del proceso de aprender que entre los 2 y 4 años.
+
+01:47:49.000 --> 01:47:54.000
+Están aprendiendo aproximadamente 20 palabras diarias. 20 palabras nuevas por día.
+
+01:47:54.000 --> 01:47:59.000
+Entonces, como si estuvieran aprendiendo. 20 reglas Ibden.
+
+01:47:59.000 --> 01:48:11.000
+Por día. Y eso eso seguramente te otorga una capacidad enorme de de de de inteligencia, de razonamiento.
+
+01:48:11.000 --> 01:48:16.000
+Entonces, si esa es la discusión, eso es inteligencia humana o no.
+
+01:48:16.000 --> 01:48:22.000
+La misma discusión está respecto a los Transformers. Sí, Sí. Nos dice algo sobre la inteligencia humana. No.
+
+01:48:22.000 --> 01:48:29.000
+Sí. Pe: Sí. El último ejemplo, cuando hace la suma.
+
+01:48:29.000 --> 01:48:36.000
+Cada 4 más, 3. Presento una interacción, 4, 1, 4, 1, 3 veces.
+
+01:48:36.000 --> 01:48:42.000
+Esa capacidad de yo, poder transformar 4 más 3 en 4, más, 1, 3 veces.
+
+01:48:42.000 --> 01:48:48.000
+Es también como algo que lo diferencia como del solar, por ejemplo, como de la capacidad de cómo operar.
+
+01:48:48.000 --> 01:48:54.000
+Es que son. También tiene Opel operadores. No es cierto, porque.
+
+01:48:54.000 --> 01:49:01.000
+La idea básica es la idea de Newell de que tú puedes entender cualquier problema como un Estado y un operador.
+
+01:49:01.000 --> 01:49:06.000
+Y un nuevo Estado. Entonces lo que hacen los operadores es moverte de un Estado a otro.
+
+01:49:06.000 --> 01:49:10.000
+Exactamente eso es cualquier cosa. Entonces en la.
+
+01:49:10.000 --> 01:49:17.000
+En la idea de Newell sobre cómo es la mente. La mente es un sistema de estados y operadores.
+
+01:49:17.000 --> 01:49:24.000
+Y lo que los operadores te hacen hacen es moverte de un Estado a otro, y por eso lo los ejemplos iniciales de todo de ciencias cognitivas.
+
+01:49:24.000 --> 01:49:33.000
+Eran todo sobre juego de ajedrez. Porque el juego de ajedrez es fácil de imaginarlo como Estados que son posiciones de los.
+
+01:49:33.000 --> 01:49:40.000
+De las piezas en el tablero y operadores que son operadores que son las reglas para mover las piezas.
+
+01:49:40.000 --> 01:49:48.000
+Eso quiere decir que hay. Dado una posición inicial. ¿hay algún ¿Hay un conjunto de posiciones a las que no puedes llegar.
+
+01:49:48.000 --> 01:49:58.000
+Y eso sería una explicación completa del juego. Entonces, esa esa idea es la misma que está en Actr y en Zoar, porque los 2 son.
+
+01:49:58.000 --> 01:50:05.000
+Herederos de esa idea. Tú tienes un Estado que es que que es el input, el estatus mente, tienes un operador.
+
+01:50:05.000 --> 01:50:16.000
+Que modifica eso? De acuerdo a alguna regla, entonces. Buena parte de la inteligencia está en definir cuáles son los operadores y cómo funcionan.
+
+01:50:16.000 --> 01:50:22.000
+Y esos operadores son los que permiten combinar, pasar de una regla a otra, combinarla.
+
+01:50:22.000 --> 01:50:32.000
+Estructurarlas jerárquicamente. Aprender. Esos son los que te permiten todo, porque esos operadores son fijos.
+
+01:50:32.000 --> 01:50:38.000
+Existe. Estos sistemas no pueden construir nuevos operadores. Construyen nuevas reglas. Los operadores son siempre los mismos.
+
+01:50:38.000 --> 01:50:43.000
+Y el proceso, ese proceso siempre igual, tiene un. Un Estado inicial.
+
+01:50:43.000 --> 01:50:51.000
+Activas, tu tus reglas. Traen la regla opera sobre o sobre ella.
+
+01:50:51.000 --> 01:50:55.000
+Y los resultados. Te activan otras reglas.
+
+01:50:55.000 --> 01:51:07.000
+Entonces, Pero los operadores no los puedes aprender. Entonces. Y es en ese sentido, son un sistema que supone que la inteligencia de un en un un sistema fijo.
+
+01:51:07.000 --> 01:51:13.000
+Estructurado, y toda la inteligencia está en la en la regla.
+
+01:51:13.000 --> 01:51:16.000
+Toda la inteligencia que tú puedes adquirir Está en la red.
+
+01:51:16.000 --> 01:51:32.000
+Y los operadores no los pueden modificar. Están ahí. Bueno, hagamos un alto. Entonces son las 7 hasta las 7 y media. Tenemos.
+
+01:51:32.000 --> 01:51:37.000
+Sí. Sí.
+
+01:51:37.000 --> 01:51:44.000
+Tres. También.
+
+01:51:44.000 --> 01:51:50.000
+Sí. No, no.
+
+01:51:50.000 --> 01:51:58.000
+Y a.
+
+01:51:58.000 --> 01:52:07.000
+Hola. En suma, estamos listos para empezar de nuevo.
+
+01:52:07.000 --> 01:52:12.000
+Están viendo. Le estoy compartiendo bien la pantalla. Ya bien. Gracias.
+
+01:52:12.000 --> 01:52:22.000
+Por acá. Sí se ve.
+
+01:52:22.000 --> 01:52:41.000
+No, No sé, no se ve muy bien, pero.
+
+01:52:41.000 --> 01:52:59.000
+Ya entonces. Eso es una consola en Java para mostrarles nomás el ejemplo. Algunos ejemplos de.
+
+01:52:59.000 --> 01:53:06.000
+Ya sí se puede mejorar la resolución de eso no.
+
+01:53:06.000 --> 01:53:11.000
+Ahh! Ya.
+
+01:53:11.000 --> 01:53:25.000
+Ya gracias. Bueno, este es un ejemplo para mostrarles cómo cómo se puede organizar conocimiento y jerarquizado.
+
+01:53:25.000 --> 01:53:28.000
+Es un ejemplo. De nuevo. De juguetes o de.
+
+01:53:28.000 --> 01:53:38.000
+Animales y están están organizados. Jerárquicamente por la estructura de la regla.
+
+01:53:38.000 --> 01:53:48.000
+Entonces, por ejemplo. Se declaran todas las propiedades.
+
+01:53:48.000 --> 01:53:54.000
+Y se declaran las metas y las propiedades están organizadas jerárquicamente, o sea, están son transitivas.
+
+01:53:54.000 --> 01:54:00.000
+Por ejemplo, una propiedad de un salmón es que es un.
+
+01:54:00.000 --> 01:54:08.000
+Un pez. Y luego hay. Esa sería la propiedad. Seis.
+
+01:54:08.000 --> 01:54:18.000
+Y luego hay una propiedad más abajo. Que dice que un pez es un animal.
+
+01:54:18.000 --> 01:54:31.000
+¿cuál se ¿Cuál sería esa. El de los animal.
+
+01:54:31.000 --> 01:54:33.000
+Que es sin ánimo.
+
+01:54:33.000 --> 01:54:43.000
+La 20.
+
+01:54:43.000 --> 01:54:46.000
+Ahora ahora no la encuentro. Goles. Cuál.
+
+01:54:46.000 --> 01:54:51.000
+La P. 20. La P. 20.
+
+01:54:51.000 --> 01:54:56.000
+La Ap. 20. No, pues la 20 dice que un.
+
+01:54:56.000 --> 01:55:00.000
+Un un ave. Un ave. Es un animal.
+
+01:55:00.000 --> 01:55:04.000
+Lo estaba buscando. ¿cuál es la que dice que un pez es un animal.
+
+01:55:04.000 --> 01:55:05.000
+Es que.
+
+01:55:05.000 --> 01:55:08.000
+Bueno, pues cambiamos de ejemplo. Un Un tiburón es un. Es un pez y igual. Necesitamos una que diga que un Pe o un animal.
+
+01:55:08.000 --> 01:55:09.000
+El 9.
+
+01:55:09.000 --> 01:55:15.000
+Las 9.
+
+01:55:15.000 --> 01:55:20.000
+P: Nueve. Ahh: Sí, ahí está Fitch. Es un un animal.
+
+01:55:20.000 --> 01:55:33.000
+Entonces eso le permite hacer razonamiento transitivo. Y luego eso es lo que está en la en la memoria semántica, estos declarativo. Esto lo puede lo puede reportar, y 1 lo puede programar, y luego.
+
+01:55:33.000 --> 01:55:39.000
+Para luego lo otro que está en la memoria declarativa. Por eso es.
+
+01:55:39.000 --> 01:55:49.000
+Agregar adm Agregar a la memoria aclarativa. Una meta que hacer la meta focal que va a el problema que va a tratar de resolver.
+
+01:55:49.000 --> 01:55:55.000
+Y en este caso hay 4 metas ahí. Pero después 1 declara cuál es la que está activa.
+
+01:55:55.000 --> 01:56:05.000
+Y las metas son. Si un canario es un ave, si es que un canario es un animal y así.
+
+01:56:05.000 --> 01:56:12.000
+Y en ningún lado está explícitamente que un. Tiburón. Es un animal.
+
+01:56:12.000 --> 01:56:16.000
+Pero para razonar eso tiene que ser alguna especie de razonamiento transitivo.
+
+01:56:16.000 --> 01:56:21.000
+Y para eso lo que hace. Lo cierto es que va a tener algunas.
+
+01:56:21.000 --> 01:56:28.000
+Las peso son procedimiento. Y hay un procedimiento para evocar.
+
+01:56:28.000 --> 01:56:41.000
+La regla, la regla que primero retree. Que, dado una meta que está activa, obtiene una regla que corresponda para para el la meta.
+
+01:56:41.000 --> 01:56:47.000
+Después verificación directa, que es que ves si es que el la la regla.
+
+01:56:47.000 --> 01:56:59.000
+Cumple lo que pide el objetivo. Y luego encadenamiento, que es que si no se puede verificar directamente, ver si es que puede encadenar.
+
+01:56:59.000 --> 01:57:07.000
+Para poder resolver el problema. Entonces y esos procedimientos son son fijo.
+
+01:57:07.000 --> 01:57:14.000
+Para este modelo. O sea, sirven para este modelo, salvo que 1 se le ocurra después, un modelo donde.
+
+01:57:14.000 --> 01:57:27.000
+Estos mismos procedimientos pueden usarse iterativamente para resolver otro problema. Y después también hay un procedimiento específico para si es que falla en evocar.
+
+01:57:27.000 --> 01:57:36.000
+Si no, no obtiene la información que necesita. Va a dar una respuesta estándar que es no.
+
+01:57:36.000 --> 01:57:47.000
+O sea, simplemente por default. Y luego se declara una meta activa, que sería la meta, la la el el gol, 4.
+
+01:57:47.000 --> 01:57:56.000
+Que ese día, en este caso. Sí, un tiburón es miembro de la categoría animal.
+
+01:57:56.000 --> 01:58:03.000
+Para hacer esto. Hace este razonamiento transitivo y.
+
+01:58:03.000 --> 01:58:13.000
+Y reporta. Cuáles son todos los pasos que hace. En este caso activa el procedimiento de Retweet.
+
+01:58:13.000 --> 01:58:27.000
+De recuperar recupera el trozo de memoria. P: Tres. Después hace Change porque el P 3 no responde a la meta.
+
+01:58:27.000 --> 01:58:30.000
+O sea, no hay ningún lado que llega un tiburón. Es un animal.
+
+01:58:30.000 --> 01:58:35.000
+Luego hace encadenamiento. Guarda el el.
+
+01:58:35.000 --> 01:58:44.000
+El el P 3 en una en un buffer. Lo mantiene ahí y luego hace el reviewald con.
+
+01:58:44.000 --> 01:58:49.000
+La el procedimiento de encadenamiento. Y una vez que lo tienes.
+
+01:58:49.000 --> 01:58:56.000
+Lo tiene todo en un buffer transitorio. Ahí aplica nuevamente verificar directamente.
+
+01:58:56.000 --> 01:59:04.000
+Y responde. Sí, sí, se alcanza a leer ahí. Responde que sí, entonces está haciendo todo eso para poder verificar.
+
+01:59:04.000 --> 01:59:15.000
+La en en una estructura jerárquica. Y eso eso sería, ¿Cómo haría eso.
+
+01:59:15.000 --> 01:59:23.000
+Y este otro ejemplo hace conteo de 1 en 1. Entonces, de nuevo, hay reglas que tienen que saber que.
+
+01:59:23.000 --> 01:59:33.000
+Después la regla B. Cedía.
+
+01:59:33.000 --> 01:59:41.000
+Si si el primer número es un 1, el siguiente, un 2. He de aprender a contar si el segundo es un 2. Si el primero, un 2, el siguiente, un 3.
+
+01:59:41.000 --> 01:59:49.000
+Entonces eso son las reglas de conteo, no más. Y tiene una meta que en este caso hay una sola meta. Podrían ser otras metas también. ¿no es cierto? Es.
+
+01:59:49.000 --> 02:00:01.000
+Contar partiendo en 2 y terminando en 7. Y todo lo que toda la inteligencia está aquí en el procedimiento y el procedimiento es un procedimiento de incremento donde toma el primer número.
+
+02:00:01.000 --> 02:00:07.000
+Y lo incrementa en 1. Ese se convierte el primer número en la siguiente.
+
+02:00:07.000 --> 02:00:17.000
+Vuelvo a repetir: el proceso no es cierto. Toma el toma el segundo número de la primera integración, lo convierte en el primer número.
+
+02:00:17.000 --> 02:00:22.000
+Y de ahí avanza. Sí, habían. O alguien tiene un micrófono abierto.
+
+02:00:22.000 --> 02:00:28.000
+O era una pregunta. No, ya.
+
+02:00:28.000 --> 02:00:34.000
+Eh.
+
+02:00:34.000 --> 02:00:40.000
+Entonces toda esa regla de incremento y una regla para detenerse, que es cuando el segundo número.
+
+02:00:40.000 --> 02:00:47.000
+De la meta es igual al primer número. Del procedimiento de incremento.
+
+02:00:47.000 --> 02:00:53.000
+Cuando es cuando ocurre eso, detiene el proceso y reporta el primer número.
+
+02:00:53.000 --> 02:01:02.000
+Que tiene activo en el en el buffert. Entonces lo que va a hacer no es cierto aquí, es que es.
+
+02:01:02.000 --> 02:01:10.000
+Y como como veíamos, no es cierto. Declara cuáles son los pasos que ha hecho.
+
+02:01:10.000 --> 02:01:16.000
+Sí que es totalmente. En este sentido, es totalmente transparente, o sea, derriba decir.
+
+02:01:16.000 --> 02:01:26.000
+Recupera el Trozo de Memoria. De aplica. El procedimiento de incremento guarda el.
+
+02:01:26.000 --> 02:01:34.000
+El de nuevamente. Y comienza la evocación del trozo e.
+
+02:01:34.000 --> 02:01:40.000
+Aplica el incremento y así va de 1 en 1. Iba reportando y termina en 7.
+
+02:01:40.000 --> 02:01:46.000
+Y detiene el proceso. Lo que es como.
+
+02:01:46.000 --> 02:01:56.000
+Lo que muestra lo que pueden hacer estos sistemas. Es que pueden usar.
+
+02:01:56.000 --> 02:02:05.000
+Lo pueden usar el mismo proceso. Para sumar, pero tienen la misma información de progresión de a 1 en 1.
+
+02:02:05.000 --> 02:02:16.000
+Tienen. Y ahora con eso, no es cierto. Tiene un procedimiento de suma. Tienen que va a usar iterativamente el incremento.
+
+02:02:16.000 --> 02:02:21.000
+Para lograr sumar. Se va a ser igual como un niño que suma con los dedos.
+
+02:02:21.000 --> 02:02:26.000
+O sea, iterativamente el proceso de incremento de 1 en 1.
+
+02:02:26.000 --> 02:02:34.000
+Y con eso va a sumar. Lo único que no es cierto, pero ya si se fijan, no vamos a entrar en el detalle.
+
+02:02:34.000 --> 02:02:40.000
+Eh, Pero. Se complica harto la programación.
+
+02:02:40.000 --> 02:02:50.000
+Mucha de toda la inteligencia. Aquí está en la. En los procedimientos que usa para combinar la información en memoria.
+
+02:02:50.000 --> 02:02:55.000
+Entonces en este caso va a ser lo mismo. Acepto Activamos una meta que es.
+
+02:02:55.000 --> 02:03:01.000
+Sumar. Y.
+
+02:03:01.000 --> 02:03:09.000
+Sacó un gol según.
+
+02:03:09.000 --> 02:03:18.000
+Aquí.
+
+02:03:18.000 --> 02:03:23.000
+Sumar 2 más 5. Entonces lo que hace es.
+
+02:03:23.000 --> 02:03:32.000
+Y. Obtiene la el C, que sería las primeras dosis. La segunda es 3.
+
+02:03:32.000 --> 02:03:40.000
+Y va incrementando de a 1 en 1, manteniendo un conteo hasta llegar al resultado final, que es 7.
+
+02:03:40.000 --> 02:03:51.000
+Entonces está usando iterativamente lo que veíamos antes. Un proceso. Más simple para obtener una respuesta a un a un a una.
+
+02:03:51.000 --> 02:03:56.000
+Más más complejo. Y luego podría, ¿no es cierto generar una.
+
+02:03:56.000 --> 02:04:03.000
+Una estructura de memoria. Con eso.
+
+02:04:03.000 --> 02:04:12.000
+Entonces, el objetivo de esto es el objetivo de estos de estos modelos. Era inicialmente tratar de emular cómo haría una persona este el tema.
+
+02:04:12.000 --> 02:04:19.000
+Entonces, si ustedes están pensando, por ejemplo. Estamos pensando en el proceso de asignación de puntaje crediticio.
+
+02:04:19.000 --> 02:04:24.000
+No sería hacerlo de manera óptima sería hacerlo, como lo haría una persona.
+
+02:04:24.000 --> 02:04:37.000
+Se normal en vez de pensarlo como 1 podría pensar. Con un con aprendizaje de máquina con patrones y aprendizaje de máquina o 1 tuviera una ecuación de regresión que combinara los puntajes.
+
+02:04:37.000 --> 02:04:42.000
+Y tuviera un puntaje y no podía darle peso de importancia.
+
+02:04:42.000 --> 02:04:47.000
+Cualquier sistema como eso. Esto. Lo que intenta hacer es emular, como lo haría una persona.
+
+02:04:47.000 --> 02:04:54.000
+Realmente necesariamente las reglas las va a aplicar secuencialmente y tienen que resolver este problema.
+
+02:04:54.000 --> 02:05:00.000
+Es distinto. Y los objetivos de esta de estos sistemas.
+
+02:05:00.000 --> 02:05:07.000
+Sí siguen siendo distintos. Sí. Yo creo que esto permite entender.
+
+02:05:07.000 --> 02:05:17.000
+Algunas de las cosas que teníamos. Como en la conclusión.
+
+02:05:17.000 --> 02:05:26.000
+En la en la evaluación de estos modelos.
+
+02:05:26.000 --> 02:05:32.000
+Que es la la la necesidad de simular inteligencia a nivel humano es.
+
+02:05:32.000 --> 02:05:42.000
+Se se aplica solo en ciertos casos. Entonces es de aplicación, son de aplicación limitada. Se han convertido aplicaciones limitadas.
+
+02:05:42.000 --> 02:05:54.000
+En casos de de nicho, que son básicamente entrenamiento y. Casos de entrenamientos, como el caso magia general, supongo. Yo.
+
+02:05:54.000 --> 02:06:02.000
+Donde 1 quiere aplicar conocimiento, que está claramente especificado. Y usarlo para que alguien aprenda esas reglas.
+
+02:06:02.000 --> 02:06:07.000
+Y poder. ¿no es cierto? Secuencialmente.
+
+02:06:07.000 --> 02:06:13.000
+También reportar cuál es el cual es el proceso por el cual se llega al resultado.
+
+02:06:13.000 --> 02:06:18.000
+Eso no quiere entrenar a alguien en. Se quiere entrenar a alguien en regla de.
+
+02:06:18.000 --> 02:06:28.000
+De. De seguridad de ciberseguridad en una empresa. Uno querría algo como eso. En vez de pasar a alguien por una.
+
+02:06:28.000 --> 02:06:36.000
+Y. Pasa de alguien por una capacitación es simplemente ponerlo a a aprender con el sistema.
+
+02:06:36.000 --> 02:06:41.000
+Y estos sistemas pueden dar puntaje. Pueden entrenar. Pueden resolver problemas.
+
+02:06:41.000 --> 02:06:47.000
+Que pueden explicar qué es lo que están haciendo. Sin embargo.
+
+02:06:47.000 --> 02:06:55.000
+La la relación de esto con inteligencia humana es como es dudosa. No todo el mundo está de acuerdo de que, efectivamente, estos sistemas.
+
+02:06:55.000 --> 02:07:03.000
+Repliquen inteligencia humana. Y hay gente que está argumentando que en realidad los Transformers se parecen más.
+
+02:07:03.000 --> 02:07:09.000
+La inteligencia humana. En cierto sentido, eso. Podría ser así?
+
+02:07:09.000 --> 02:07:16.000
+Entonces. Preguntas.
+
+02:07:16.000 --> 02:07:21.000
+Ya entonces. La idea ahora es tener una actividad.
+
+02:07:21.000 --> 02:07:32.000
+Grupal aproximadamente 15 min y después que podamos discutirla. Y vamos a hacer entonces también para zoom, grupos.
+
+02:07:32.000 --> 02:07:38.000
+Cuánta gente hay en en su. Me me dices tú 1, 2.
+
+02:07:38.000 --> 02:07:45.000
+Tres, 4, 5, por. Como 25.
+
+02:07:45.000 --> 02:07:57.000
+Seis: Rusia. Entonces la idea es ver si pueden generar reglas del tipo ¿sí? Entonces, para simular cómo un banco podría analizar.
+
+02:07:57.000 --> 02:08:10.000
+Solicitudes de crédito. Ahora, este problema no es un problema que 1 resolviera de esa manera. Entiendo, yo. Normalmente había alguien que que trabaja en un banco.
+
+02:08:10.000 --> 02:08:27.000
+La clase pasada. O sea, no sé. Sean de Bodei. Pero este problema normalmente lo resolvería de otra forma. Si alguien sabe cómo se resuelven típicamente.
+
+02:08:27.000 --> 02:08:36.000
+Trabajo en un banco en áreas de de riesgo. Yo trabajo más en riesgo, no financiero, Sí, pero como estoy al lado de riesgo de crédito y.
+
+02:08:36.000 --> 02:08:45.000
+Y claro, hoy hoy se hace como igual en base a modelos como y lógicas que que se programan como en.
+
+02:08:45.000 --> 02:08:58.000
+En en no no tanto como con estos sistemas. Pero. Pero no es tan distinto. Tampoco se utiliza mucho el criterio experto en principio para condiciones como que que se espera, así como que.
+
+02:08:58.000 --> 02:09:07.000
+Que deben ser como súper transparente. Pero se utiliza en modelos también como para calcular Scores. Y como como otros, que tenía un poco más como.
+
+02:09:07.000 --> 02:09:14.000
+Como de proyección. Como que un tipo modelo estadístico.
+
+02:09:14.000 --> 02:09:22.000
+Es que es bien complejo. Ahora, el el riesgo de crédito como cada vez lo han ido sofisticando más, pero pero en principio.
+
+02:09:22.000 --> 02:09:27.000
+Siempre se parte de bases, o sea, de reglas como como yo creo que muy cercano a esto, como hay una capa.
+
+02:09:27.000 --> 02:09:33.000
+Que tiene como esta esta lógica maya de que pueda ser programada como.
+
+02:09:33.000 --> 02:09:38.000
+Como hoy con directamente compagin o no con Notebooks, así como que que tienen las lógicas como bien directa.
+
+02:09:38.000 --> 02:09:49.000
+Mhm. Pero probablemente, si 1 usa reglas como estas, se parecería más a cómo un evaluador humano lo hace.
+
+02:09:49.000 --> 02:10:00.000
+Que debería? No, cierto? Probablemente hay alguna. Algunos aspectos que son más importantes que al tiro, inmediatamente mueven a pensar en tal puntaje o en tal rango de puntaje.
+
+02:10:00.000 --> 02:10:06.000
+Claro: la siempre se parte de una política, y esa política, yo creo que es lo que se acerca a esto, que.
+
+02:10:06.000 --> 02:10:13.000
+De esta política marca el alcance. Así es como de dónde, hasta dónde, como que se puede otorgar y y lo.
+
+02:10:13.000 --> 02:10:18.000
+Los límites que tienen que ser aprobados como a nivel de corporaciones como a nivel de.
+
+02:10:18.000 --> 02:10:30.000
+De la entidad de adentro es como se maximizan como funciones para ver maximizar cómo era el riesgo de retorno. Pero, Pero, claro, hay una política que se tiene que respetar.
+
+02:10:30.000 --> 02:10:44.000
+Y finalmente, eso produce una recomendación o produce un resultado. Sí produce una recomendación en función de eso mismo del riesgo retorno y a los clientes se van clasificando. Bueno, el ejemplo que que yo conozco, pero.
+
+02:10:44.000 --> 02:10:48.000
+Original lo hacen, así como en función del riesgo del cliente.
+
+02:10:48.000 --> 02:10:59.000
+Como tiene un un retorno esperado. Y y luego con otros factores como la misma renta, y se va calculando cuánto es lo que se le puede como trocar a ese cliente.
+
+02:10:59.000 --> 02:11:03.000
+Y esa cartera en particular porque la gente pertenece a un grupo.
+
+02:11:03.000 --> 02:11:10.000
+Y cada grupo va perteneciendo, o sea, va a retomar un un riesgo retorno como distinto. Hay probabilidades de pago.
+
+02:11:10.000 --> 02:11:17.000
+Entonces. Todo eso como que se va maximizando, porque un cliente que tiene altas probabilidad de no pago.
+
+02:11:17.000 --> 02:11:23.000
+Finalmente, como tiene una composición, no le van a otorgar como tazas distintas a un cliente que.
+
+02:11:23.000 --> 02:11:32.000
+Que en realidad tiene una probabilidad de pago muy alta. Y y luego todo eso tiene que estar dentro de una política. Y eso es lo que yo digo, que.
+
+02:11:32.000 --> 02:11:36.000
+Que esa política es como la base como lo que no se puede romper o si en realidad, si quieres hacer la política.
+
+02:11:36.000 --> 02:11:41.000
+Esto se tiene que escalar como a nivel como directivo. Sí.
+
+02:11:41.000 --> 02:11:50.000
+Ya gracias. Sí siempre recae en una en un humano, a menos que tú depende del producto.
+
+02:11:50.000 --> 02:11:53.000
+Porque cuando tú solicitas, por ejemplo, una tarjeta por la página.
+
+02:11:53.000 --> 02:11:59.000
+Eso lo hace con regla. Pero si tú vas a evaluar un.
+
+02:11:59.000 --> 02:12:07.000
+Que es un crédito que yo te vendo. Estoy viendo gallina y en el futuro, tú me vas a pagar con.
+
+02:12:07.000 --> 02:12:13.000
+Sí. Con distintos distintos productos dentro del mismo modo, Pero la aprobación.
+
+02:12:13.000 --> 02:12:20.000
+Del ranking lo hace un humano. Era el Tel, te dicen sí, sí, o si no. Si no no hubiera bastado el trazo de.
+
+02:12:20.000 --> 02:12:26.000
+El hijo bachele que yo. 1 000 000. Querían impasable.
+
+02:12:26.000 --> 02:12:31.000
+Sí, sí. Yo diría que eso o sea tanto que sí como que no es como.
+
+02:12:31.000 --> 02:12:42.000
+Como estoy de acuerdo, como en general eso era lo que pasaba y lo que pasa, sobre todo como con clientes que son de alto patrimonio. Pero Pero cada día se esto se está digitalizando más y, por ejemplo, L.
+
+02:12:42.000 --> 02:12:46.000
+Hoy es mucho más relevante el crédito pre aprobado que que tienes tú según tu perfil.
+
+02:12:46.000 --> 02:12:49.000
+Más que como la decisión que está tomando un ejecutivo, porque, de hecho.
+
+02:12:49.000 --> 02:12:56.000
+La estrategia en general es descartar como a los clientes, como cada vez se está asignando como menos peso al ejecutivo.
+
+02:12:56.000 --> 02:13:03.000
+Y esas políticas, que eran más manuales. Pero todavía pasa eso sobre todo con clientes como empresas, Pymes, que en realidad.
+
+02:13:03.000 --> 02:13:10.000
+Como hay una evaluación, como mucho más puntual, a veces hasta de un equipo que está evaluando como como ese riesgo.
+
+02:13:10.000 --> 02:13:15.000
+También.
+
+02:13:15.000 --> 02:13:23.000
+Usen, usen los micrófono, igual. Si no, si no después, no en en profesor.
+
+02:13:23.000 --> 02:13:31.000
+No, no escuchan nada. Pero en general, la analogía sería como que el crédito pre aprobado.
+
+02:13:31.000 --> 02:13:37.000
+Sería como nuestro resultado podría ser nuestro resultado, porque ese crédito pre aprobado probablemente esté basado en red.
+
+02:13:37.000 --> 02:13:50.000
+Pueda estar basado en reglas como esta. Sí dado. O sea, va van a haber reglas como como esta. El problema es cómo combinamos las reglas, porque típicamente 1 querría.
+
+02:13:50.000 --> 02:13:54.000
+Que estas reglas tuvieran. Ca: Que cada criterio tuviera un peso. Por ejemplo.
+
+02:13:54.000 --> 02:13:59.000
+Si 1 luciera con machine learning, lo que va, lo que va a aprender finalmente.
+
+02:13:59.000 --> 02:14:11.000
+El peso de cada 1 de los criterios. Pero cuando lo aplicas, acá, es difícil llevar reglas como éstas van a ser casi por necesi.
+
+02:14:11.000 --> 02:14:17.000
+Va a tener que guardar cada una de las reglas. Un un puntaje.
+
+02:14:17.000 --> 02:14:22.000
+Y no es en estos casos, no es un puntaje, como son simbólicos.
+
+02:14:22.000 --> 02:14:27.000
+No es un puntaje cuantitativo. Es cualitativo. Entonces si tú dices, tiene 40 puntos.
+
+02:14:27.000 --> 02:14:34.000
+En realidad es más que los otros, pero no es directamente una puntuación.
+
+02:14:34.000 --> 02:14:39.000
+Entonces, salvo que no tuviera un sistema híbrido donde 1 pudiera realmente tener.
+
+02:14:39.000 --> 02:14:43.000
+Un sistema con reglas en las cuales las reglas mismas fueran probabilísticas.
+
+02:14:43.000 --> 02:14:56.000
+Pero ya estamos hablando de sistemas distintos de de estos. Entonces, la idea es que en grupos de 3 o 4, los mismos que se han organizado vienen para Zoom, vamos a hacer una.
+
+02:14:56.000 --> 02:15:08.000
+Salas durante aprox 15 min, puede andar con algunas reglas. De lo cómo sería una arquitectura cognitiva para la aprobación del crédito.
+
+02:15:08.000 --> 02:15:15.000
+Por ejemplo, considerando historial crediticio y nuevo aquí, de nuevo. Cualitativo, bueno o malo.
+
+02:15:15.000 --> 02:15:24.000
+Ingresos mensuales. De nuevo, también. Deudas actuales, garantías y otros criterios que ustedes puedan ocurrírseles o que.
+
+02:15:24.000 --> 02:15:31.000
+Conozcan considerar la posibilidad de que el sistema pudiera aprender también.
+
+02:15:31.000 --> 02:15:38.000
+Entonces así es, si es posible pensar que hay. Problemas que fueran más complejos.
+
+02:15:38.000 --> 02:15:45.000
+Donde 1 tuviera ciertas entradas y las reglas te permitieran llegar a a un resultado final con un proceso intermedio de.
+
+02:15:45.000 --> 02:15:52.000
+De transitivo o con un proceso de resolución. De problema.
+
+02:15:52.000 --> 02:16:02.000
+Y también considerar. Si es que eso podría implementarse o no podría implementarse día difícil, fácil o.
+
+02:16:02.000 --> 02:16:07.000
+Cuáles son las decisiones, en particular que pueden discutir después, cuando regresemos.
+
+02:16:07.000 --> 02:16:15.000
+Al a la. Conjunta poder discutir qué dificultades hay en formular reglas de este tipo.
+
+02:16:15.000 --> 02:16:25.000
+Y si serían aplicables en caso en casos reales. Y, en general, los problemas que van a encontrar son los problemas de un enfoque simbólico en general.
+
+02:16:25.000 --> 02:16:32.000
+Sí que demos. Si 15 min, 15 o 20 min.
+
+02:16:32.000 --> 02:16:38.000
+Y voy en zoom. Voy a poner en. En salas también.
+
+02:16:38.000 --> 02:16:43.000
+Y.
+
+02:16:43.000 --> 02:16:47.000
+Hola.
+
+02:16:47.000 --> 02:16:48.000
+Profe necesita ayuda.
+
+02:16:48.000 --> 02:16:55.000
+Por 4 se comportan el encuentro.
+
+02:16:55.000 --> 02:17:09.000
+Sí. Ya lo voy a enviar a sala de grupos pequeños, Ok.
+
+02:17:09.000 --> 02:17:15.000
+Mhm.
+
+02:17:15.000 --> 02:17:17.000
+Sí.
+
+02:17:17.000 --> 02:17:19.000
+Aplausos.
+
+02:17:19.000 --> 02:17:29.000
+No, no.
+
+02:17:29.000 --> 02:17:30.000
+No.
+
+02:17:30.000 --> 02:17:37.000
+No, no.
+
+02:17:37.000 --> 02:17:44.000
+Y. Y a.
+
+02:17:44.000 --> 02:17:55.000
+Es como obligarlo a unirse o. Por ejemplo. Fíjese, pero algunos se tienen que.
+
+02:17:55.000 --> 02:18:04.000
+Irse solo. Ya le llevó ya. Si yo respondo, insisto, y el profe.
+
+02:18:04.000 --> 02:18:09.000
+Que pasó mucho. Ya le.
+
+02:18:09.000 --> 02:18:21.000
+Hay algunos que están resumiendo a nosotros. Solo puede llegar porque aquí tienes 4. Entonces podemos ir a otra sala, pero no puedo obligarlo a entrar en la sala.
+
+02:18:21.000 --> 02:18:30.000
+Sí. Bien.
+
+02:18:30.000 --> 02:18:36.000
+Me llamo belga, canoa. Ya.
+
+02:18:36.000 --> 02:18:48.000
+Muy bien.
+
+02:18:48.000 --> 02:18:58.000
+Y si. Sí.
+
+02:18:58.000 --> 02:19:05.000
+Ocho, 20.
+
+02:19:05.000 --> 02:19:08.000
+Mhm.
+
+02:19:08.000 --> 02:19:13.000
+Y si.
+
+02:19:13.000 --> 02:19:21.000
+A a.
+
+02:19:21.000 --> 02:19:29.000
+Y a.
+
+02:19:29.000 --> 02:19:33.000
+Sí.
+
+02:19:33.000 --> 02:19:49.000
+Y si.
+
+02:19:49.000 --> 02:19:54.000
+Sí. Sí.
+
+02:19:54.000 --> 02:20:00.000
+Y si.
+
+02:20:00.000 --> 02:20:07.000
+Y a. De la casa.
+
+02:20:07.000 --> 02:20:11.000
+Y.
+
+02:20:11.000 --> 02:20:18.000
+Y a. Entonces.
+
+02:20:18.000 --> 02:20:25.000
+Slash.
+
+02:20:25.000 --> 02:20:35.000
+Y a.
+
+02:20:35.000 --> 02:20:41.000
+Y si. Y.
+
+02:20:41.000 --> 02:20:47.000
+Y si. Y.
+
+02:20:47.000 --> 02:20:51.000
+De acuerdo.
+
+02:20:51.000 --> 02:20:55.000
+No, no.
+
+02:20:55.000 --> 02:21:06.000
+Y a. Hasta luego.
+
+02:21:06.000 --> 02:21:15.000
+No, no. Sí.
+
+02:21:15.000 --> 02:21:18.000
+Sí.
+
+02:21:18.000 --> 02:21:25.000
+Y. Sí.
+
+02:21:25.000 --> 02:21:47.000
+A. Y.
+
+02:21:47.000 --> 02:22:05.000
+A a. No, no.
+
+02:22:05.000 --> 02:22:11.000
+Muchas gracias. Y.
+
+02:22:11.000 --> 02:22:18.000
+Sí. Sí.
+
+02:22:18.000 --> 02:22:32.000
+A a. Son guías generales? Sí.
+
+02:22:32.000 --> 02:22:36.000
+No. Y.
+
+02:22:36.000 --> 02:22:40.000
+Sí, Sí.
+
+02:22:40.000 --> 02:22:51.000
+Si. No, no.
+
+02:22:51.000 --> 02:22:55.000
+A a.
+
+02:22:55.000 --> 02:23:05.000
+Buenas tardes. Vale.
+
+02:23:05.000 --> 02:23:10.000
+Buenas noches. Y.
+
+02:23:10.000 --> 02:23:17.000
+No, no. Sí, Sí.
+
+02:23:17.000 --> 02:23:27.000
+A a. Slash.
+
+02:23:27.000 --> 02:23:34.000
+No, no.
+
+02:23:34.000 --> 02:23:39.000
+A la.
+
+02:23:39.000 --> 02:23:44.000
+Y si.
+
+02:23:44.000 --> 02:23:56.000
+A a. Sí.
+
+02:23:56.000 --> 02:24:07.000
+Si no.
+
+02:24:07.000 --> 02:24:13.000
+No. Muchas gracias.
+
+02:24:13.000 --> 02:24:43.000
+No, no. Y a.
+
+02:32:59.000 --> 02:33:04.000
+Profe necesita ayuda.
+
+02:33:04.000 --> 02:33:34.000
+He aceptado. Profe. No, no.
+
+02:41:39.000 --> 02:41:44.000
+Y a. Y si.
+
+02:41:44.000 --> 02:41:50.000
+Y. Slash.
+
+02:41:50.000 --> 02:41:56.000
+Y si. Ok, atención.
+
+02:41:56.000 --> 02:42:02.000
+Sí. No.
+
+02:42:02.000 --> 02:42:08.000
+Se come.
+
+02:42:08.000 --> 02:42:23.000
+Sí. Tomen un minuto más si quieren, para cerrar. Para terminar.
+
+02:42:23.000 --> 02:42:28.000
+Profe por si acaso no está compartiendo la pantalla, si es que quiere compartirla.
+
+02:42:28.000 --> 02:42:32.000
+No estoy compartiendo la pantalla.
+
+02:42:32.000 --> 02:42:33.000
+Y no. Ok, Gracias.
+
+02:42:33.000 --> 02:42:42.000
+De su computador. Necesita ayuda. Voy Yo.
+
+02:42:42.000 --> 02:42:50.000
+No, no. Y.
+
+02:42:50.000 --> 02:42:55.000
+No, no. Y.
+
+02:42:55.000 --> 02:43:04.000
+Y. Oye, volvamos.
+
+02:43:04.000 --> 02:43:09.000
+Se come. Sí a ver.
+
+02:43:09.000 --> 02:43:14.000
+Antes de pensar en casos de éxito. Me gust, me gustaría, si podemos compartir.
+
+02:43:14.000 --> 02:43:21.000
+Qué dificultades encontraron o si les parece que. Es posible armar reglas que sean utilizables.
+
+02:43:21.000 --> 02:43:28.000
+Y estructurada de manera estructurada. Cualquier grupo encontró dificultades serias.
+
+02:43:28.000 --> 02:43:36.000
+En acá o o en. Con el zoom también.
+
+02:43:36.000 --> 02:43:40.000
+No todo. Bien no hay dificultades.
+
+02:43:40.000 --> 02:43:43.000
+Acá por Zomo.
+
+02:43:43.000 --> 02:43:47.000
+A ver. Javier Dame un segundo javier en Zoom, Tenía un comentario.
+
+02:43:47.000 --> 02:43:56.000
+La verdad, que no sabemos si si era muy difícil o no, porque depende como entendiéramos la actividad.
+
+02:43:56.000 --> 02:43:57.000
+Claro.
+
+02:43:57.000 --> 02:44:06.000
+Entonces, si la queríamos ser simple, que es como por el lado que nos fuimos, no tiene mayores dificultades porque son.
+
+02:44:06.000 --> 02:44:16.000
+Son reglas que nosotros agrupamos en pares. Y si los pares se cumplen porque son como, en definitiva, variables, como Juliana, entonces el el el.
+
+02:44:16.000 --> 02:44:23.000
+Si tú tienes un cumplimiento y otro cumplimiento y asuma, tienes Ok.
+
+02:44:23.000 --> 02:44:26.000
+Si 1 cumple el 8, no cumple, es falso. Por lo tanto, no.
+
+02:44:26.000 --> 02:44:34.000
+Y cuándo se cumple cuando te dan el crédito, cuando cumples las 4 reglas que las puede agrupar en 2 reglas que sí cumplen.
+
+02:44:34.000 --> 02:44:48.000
+Me explico, No, El tema es que no sé si era el objetivo del ejercicio que estuvimos discutiendo si era eso y si 1 lo podía complejizar en términos de reemplazar, en lugar de que fueran.
+
+02:44:48.000 --> 02:44:56.000
+Falso, verdadero. Empezar a poner peso a las variables, entonces puede que una.
+
+02:44:56.000 --> 02:45:07.000
+Una un cliente, un potencial cliente podría tener. Muchas propiedades, pero un mal estudio, el cri un mal historial crediticio. Entonces, en lugar de decir chuta, no cumplí.
+
+02:45:07.000 --> 02:45:19.000
+Según otras reglas crediticias, puede ser bueno si le concedo a la garantía al historial crediticio un 20 por 100 malo.
+
+02:45:19.000 --> 02:45:27.000
+Y ese 20 por 100 superado por por un sistema de puntaje en que el tipo tiene. No sé, casa, auto yate de todo, me puede garantizar el crédito.
+
+02:45:27.000 --> 02:45:34.000
+Y tiene un puntaje alto si fuera en base a puntajes y no a un pleno, no cumple.
+
+02:45:34.000 --> 02:45:42.000
+Me podría complejizar algo el harto, el el el, el el de alguna manera, la.
+
+02:45:42.000 --> 02:45:49.000
+La algoritización del del del del del del. Del estudio de crédito.
+
+02:45:49.000 --> 02:45:50.000
+O sea, con lo que quiere decir que con reglas puramente julianas, no es mucho lo que se puede hacer.
+
+02:45:50.000 --> 02:45:56.000
+Algo.
+
+02:45:56.000 --> 02:46:05.000
+Claro. Mira, déjame a ver si no no puedo. Es que lo hicimos en Excel, pero pero sí sí lo hicimos boliviano y lo hicimos en pares.
+
+02:46:05.000 --> 02:46:11.000
+Y hay una. Ya hicimos el árbol de decisión y hay una sola.
+
+02:46:11.000 --> 02:46:19.000
+Camino en el árbol de decisiones que a ti te aprueban el crédito de que tú tienes bueno, estereoticio que tiene un ingreso de mes, ocupamos los del ejemplo mayor a un 1 000 000.
+
+02:46:19.000 --> 02:46:20.000
+Claro si no, le si no le pones peso, no podían.
+
+02:46:20.000 --> 02:46:28.000
+De la. Exactamente. Es súper simple. Como ejecutivo.
+
+02:46:28.000 --> 02:46:31.000
+Ya no, no, no me da porque no cumple la regla.
+
+02:46:31.000 --> 02:46:32.000
+Claro, claro.
+
+02:46:32.000 --> 02:46:43.000
+Suelo correr los cercos a través de porcentajes. Hay complejizas mucho más la el árbol y, por ende, la regla y el aprendizaje del sistema.
+
+02:46:43.000 --> 02:46:51.000
+Sí, ya. Gracias. Javier. Déjame ver qué dicen. Alguien está Camilo tenía también la mano levantada.
+
+02:46:51.000 --> 02:47:01.000
+Sí por acá nos pasó algo similar. Lo que decidimos hacer fue como ponernos en un escenario y en un producto en específico. Como eran créditos, decidimos que era un crédito de consumo.
+
+02:47:01.000 --> 02:47:08.000
+Y para una persona soltera, sin. Del del Segmento Full digital.
+
+02:47:08.000 --> 02:47:13.000
+Lo que sí dentro. Cuando empezamos como a detallar cada 1 de L de las variables.
+
+02:47:13.000 --> 02:47:19.000
+Habían variables, que tenían que venir de antes, que eran mucho más complejas. Por ejemplo, el segmento.
+
+02:47:19.000 --> 02:47:23.000
+El segmento se ve por otras variables, como el patrimonio como el ingreso.
+
+02:47:23.000 --> 02:47:27.000
+La edad, también en caso de que, por ejemplo, fuese un estudiante.
+
+02:47:27.000 --> 02:47:36.000
+Entonces, mientras íbamos avanzando en cada una de las condiciones, nos íbamos encontrando con con otras condiciones que tenían que venir de antes que eran mucho más complejas.
+
+02:47:36.000 --> 02:47:42.000
+Pero, efectivamente, cuando 1 abre como el espectro de la de la alternativa, no sé, pues, de los créditos, como así en general.
+
+02:47:42.000 --> 02:47:48.000
+Se complejiza mucho más y pero terminan siendo siempre como un un árbol.
+
+02:47:48.000 --> 02:47:53.000
+De decisiones como sí o no. Las condiciones no son las mismas, por ejemplo, para un crédito, consumo.
+
+02:47:53.000 --> 02:47:55.000
+Que para un crédito hipotecario o que para el aumento del cubo de una tarjeta de crédito, entonces.
+
+02:47:55.000 --> 02:47:58.000
+Y a.
+
+02:47:58.000 --> 02:48:02.000
+Por eso decidimos como para poder cumplir al menos con el ejercicio.
+
+02:48:02.000 --> 02:48:03.000
+El ponerlo en un caso específico, sí, sino en. O sea, las opciones son.
+
+02:48:03.000 --> 02:48:09.000
+Hacer un caso. Okay.
+
+02:48:09.000 --> 02:48:10.000
+Sí, demasiado. Gracias. Camilo. A cada día, una en la sala.
+
+02:48:10.000 --> 02:48:15.000
+Son muchas.
+
+02:48:15.000 --> 02:48:22.000
+Y a nosotros no nos costó un poco. En realidad. Pero como que acordamos que al menos había que generar.
+
+02:48:22.000 --> 02:48:28.000
+Las reglas de negocio genéricas. Para cualquier caso, como por ejemplo.
+
+02:48:28.000 --> 02:48:33.000
+El escorts crediticio. No es binario, sino que es numérico.
+
+02:48:33.000 --> 02:48:39.000
+Es una regla propia. Que tiene que tener ingresos mensuales constantes.
+
+02:48:39.000 --> 02:48:45.000
+Poner como una regla dentro del árbol. Y.
+
+02:48:45.000 --> 02:48:47.000
+Después que estamos que a medida que íbamos zarpando el arpa.
+
+02:48:47.000 --> 02:48:56.000
+Como que llegamos a salidas del árbol, porque eso no sabíamos si ya lo podría haber aprendido o no.
+
+02:48:56.000 --> 02:49:05.000
+Sí. O sea, sí la partida.
+
+02:49:05.000 --> 02:49:10.000
+Debería poder dejar. Compartir, da un segundo.
+
+02:49:10.000 --> 02:49:29.000
+Y. Tengo herramientas de.
+
+02:49:29.000 --> 02:49:33.000
+Puedo ver.
+
+02:49:33.000 --> 02:49:50.000
+Espérate tu nombre. Ahh, pero tú no estás en Ha estado ahí.
+
+02:49:50.000 --> 02:49:54.000
+Ahí está.
+
+02:49:54.000 --> 02:50:04.000
+Mhm. Bien.
+
+02:50:04.000 --> 02:50:12.000
+No, no es, no deja. Debía tener herramientas acá para poder hacerlo.
+
+02:50:12.000 --> 02:50:14.000
+No, no me deja. Bueno, ya.
+
+02:50:14.000 --> 02:50:16.000
+Profe necesita ayuda.
+
+02:50:16.000 --> 02:50:22.000
+Sí, sería bueno poder dejar que todos puedan compartir. Pantalla es.
+
+02:50:22.000 --> 02:50:25.000
+Voy voy al tiro.
+
+02:50:25.000 --> 02:50:36.000
+Ya gracias, bueno, pero. Sí, pero lo que sí. Lo que lo que veo es que todos están pensando en un árbol estrictamente.
+
+02:50:36.000 --> 02:51:00.000
+Claramente estructurado, donde 1 puede seguir un camino específico, pero. En realidad, la la gracia es lo que estábamos viendo es poder armar una cosa que tiene una estructura de de árbol, pero que no está explícita, entonces los casos que es como salirse del árbol, eso también se pueden Se pueden incluir.
+
+02:51:00.000 --> 02:51:03.000
+El problema es cómo cómo hacer la operación. Por ejemplo, si tienes una estructura jerárquica como lo.
+
+02:51:03.000 --> 02:51:05.000
+Profe ya está listo por si acaso. Para compartir.
+
+02:51:05.000 --> 02:51:08.000
+Cómo lo que decía. Perdona.
+
+02:51:08.000 --> 02:51:10.000
+Ya está Co: listo para el. Sí.
+
+02:51:10.000 --> 02:51:14.000
+Ahh! Ya, Pues ya bueno, ya listo. Gracias.
+
+02:51:14.000 --> 02:51:21.000
+Si tiene una estructura jerárquica, eso. Eso parecería sugerir que tú puedes tener un.
+
+02:51:21.000 --> 02:51:34.000
+Un proceso de decisión que primero consiguete, por ejemplo. Reglas generales como estando y cómo no, Standy: ¿Cómo y te saca para fuera el tiro.
+
+02:51:34.000 --> 02:51:43.000
+¿eh? Y. Y esas reglas pueden operar muy independiente de toda de todas las demás reglas, o sea.
+
+02:51:43.000 --> 02:51:49.000
+Si tú le das esa información de entrada con eso es suficiente para decidir.
+
+02:51:49.000 --> 02:51:57.000
+Probablemente, y después tiene. Y después tiene reglas que los puedes concatenar.
+
+02:51:57.000 --> 02:52:05.000
+Entonces, si 1 piensa en un en un árbol, no va claro eso. Eso al tiro te dice, bueno, hay un solo camino. Hay una sola forma, Como nos decía.
+
+02:52:05.000 --> 02:52:11.000
+Javier más recién. Hay una sola forma de seguir el árbol para lograr el.
+
+02:52:11.000 --> 02:52:16.000
+El puntaje apropiado. Y el otro problema es cómo hacerlo para.
+
+02:52:16.000 --> 02:52:25.000
+Para que asigne puntaje. Porque a menos que 1 realmente pueda operar con valores numéricos y pueda ser ponderaciones. Pero para eso.
+
+02:52:25.000 --> 02:52:30.000
+Si es si es ahí, estamos en otro terreno. Es otra.
+
+02:52:30.000 --> 02:52:39.000
+Si había otro comentario, no sé si. Ah, ya. Sí. Bueno, nosotros, al igual que Sergio.
+
+02:52:39.000 --> 02:52:52.000
+A primera instancia 1 pareciera ser que son. Y claramente se requiere algo más que nos permita hacer estos check, porque 1 dice: historial. Christi hizo sí o no.
+
+02:52:52.000 --> 02:53:01.000
+Y quizá la estructura de árbol se cierra un poquito porque va definiendo como un puro camino. Y este sistema de generarle peso.
+
+02:53:01.000 --> 02:53:08.000
+Finalmente el que va. Cambiando un poquito el resultado final.
+
+02:53:08.000 --> 02:53:15.000
+Entonces, y a nosotros lo que nos complicó es cómo hacer esta parte del Actr, realmente porque.
+
+02:53:15.000 --> 02:53:23.000
+La idea es poder encontrar una estrategia que esta parte. Que no es parte de mis reglas, se incorpore en este universo de reglas.
+
+02:53:23.000 --> 02:53:29.000
+Y esa parte, creo que es un poquito complejo si no se resuelve con peso.
+
+02:53:29.000 --> 02:53:37.000
+Con con agregarle un peso a cada híto. Sí, Sí, sí que es un problema general de de todos los modelos que son.
+
+02:53:37.000 --> 02:53:45.000
+Que son simbólicos, que están justamente hechos para operar con. Contexto, no con valores numéricos.
+
+02:53:45.000 --> 02:53:53.000
+Sí, tú tenías un sí, no, Pero e era similar el comentario que quizá en al en algunos casos, nosotros ahora sí nos fuimos por.
+
+02:53:53.000 --> 02:53:58.000
+Justamente algunos que eran como tenían un comportamiento más numérico, como la edad, por ejemplo, que.
+
+02:53:58.000 --> 02:54:06.000
+Que podía partir como desde rango inferiores donde, como no se daba crédito, pero luego se empezaba a dar crédito. Y quizás la edad podía.
+
+02:54:06.000 --> 02:54:10.000
+Cómo empezar a marcar como una capacidad crediticia mayor y después.
+
+02:54:10.000 --> 02:54:26.000
+Al otro, empezaba como a a que quizás ya no se quería otorgar tanto crédito hipotecario a una persona de 80. Claro, Y lo mismo pasa con de pronto los ingresos como ingreso bajo el mínimo pueden tener un comportamiento distinto que ingreso, en la medida que van subiendo y en donde quizá.
+
+02:54:26.000 --> 02:54:33.000
+El apetito como de puede hacer otorgar mayor crédito o el patrimonio mismo también como evaluado.
+
+02:54:33.000 --> 02:54:41.000
+Pero el resto había muchas variables que eran como como. Como, en realidad, como bien directa, como parte de la política que.
+
+02:54:41.000 --> 02:54:46.000
+Incluso nosotros decíamos como cuáles son las primeras pensando en un árbol como.
+
+02:54:46.000 --> 02:54:54.000
+Las que primero van haciendo como esa salida, como de la política.
+
+02:54:54.000 --> 02:54:55.000
+Y a.
+
+02:54:55.000 --> 02:55:03.000
+Sí. Gracias. Sí. Sergio. Una una pregunta, porque acá nosotros partimos también de la base que, por ejemplo, estas 4, estas 4 variables.
+
+02:55:03.000 --> 02:55:10.000
+Son constantes en el tiempo. Y ahí un poco viene la pregunta: ¿Estos modelos ¿con qué frecuencia aprenden? Porque puede ser que.
+
+02:55:10.000 --> 02:55:18.000
+Hoy día, por ejemplo, una persona claro tiene buen historial. Tiene buenos ingresos, no tiene deudas y tiene propiedades.
+
+02:55:18.000 --> 02:55:26.000
+Pero lo de espían a los 2 meses, por ejemplo. Y a los 2 meses definitivamente ya empieza, por ejemplo, a tener deudas.
+
+02:55:26.000 --> 02:55:48.000
+Vende las propiedades para para tener liquidez, entonces. Cómo el el cómo estos modelos van aprendiendo, Porque si también le otorga un crédito hipotecario. Hoy día, un buen cliente. No voy a esperar a que pasen 20 o 30 años a que termine de pagar el crédito para que recién aprenda y diga, Ah, sí, esto realmente era una claro. Es que no están. No están hechos, no están pensados, no están hechos para para hacer eso.
+
+02:55:48.000 --> 02:55:59.000
+No puedes, no es un con un modelo de. De machine learning, que puede estar constantemente haciéndole el updating de la con nuevos datos.
+
+02:55:59.000 --> 02:56:08.000
+Sino que es. La idea sería aquí que tú pudieras describir un cliente en función de algunas variables que tú sabes que son importantes.
+
+02:56:08.000 --> 02:56:14.000
+Y esa descripción del cliente. Activa, ciertas reglas.
+
+02:56:14.000 --> 02:56:16.000
+Y esas reglas son igual como lo que veíamos. ¿no es cierto.
+
+02:56:16.000 --> 02:56:25.000
+Producen, cierto cierto, ciertas. O de toda esa evaluación. Las reglas no hay. No tienen por qué ser todas.
+
+02:56:25.000 --> 02:56:32.000
+Secuencialmente activada pueden activarse todas en conjunto. Entonces tú puedes tener una regla que.
+
+02:56:32.000 --> 02:56:37.000
+Simplemente diga, después de una regla. Más compleja, que diga.
+
+02:56:37.000 --> 02:56:43.000
+Si cumple con A, B y C, entonces tal cosa, si cumple con C, D, y E entonces tal cosa.
+
+02:56:43.000 --> 02:56:50.000
+Por ejemplo, el tema de edad, nivel de ingreso de todas son son variables.
+
+02:56:50.000 --> 02:56:55.000
+Cuantitativas. Pero estos modelos las. Venderían a trabajar.
+
+02:56:55.000 --> 02:57:00.000
+Cualitativamente, o sea, en términos sólo en términos relativos, si es menor de edad.
+
+02:57:00.000 --> 02:57:06.000
+Mayor detalle a si es menor de tanto ingreso o entre tal y tal rango de ingreso.
+
+02:57:06.000 --> 02:57:12.000
+Y luego tendrías tendrías reglas que para para reflejar una especie de.
+
+02:57:12.000 --> 02:57:21.000
+Razonamiento cuantitativo tendrían que comb. Conjuntos de patrones de regla. ¿qué es lo que haría normalmente el machín learning.
+
+02:57:21.000 --> 02:57:27.000
+Detectaría patrones. Y de no es cierto. Pero aquí habría que programar esos patrones.
+
+02:57:27.000 --> 02:57:32.000
+No pod no podría esperar que el sistema lo aprendiera por entrenamiento.
+
+02:57:32.000 --> 02:57:38.000
+Salvo que tuvieras un sistema que estuviera de dedicado a a aprender nuevas reglas.
+
+02:57:38.000 --> 02:57:47.000
+Pero en general son bastante más rígidos. Sí.
+
+02:57:47.000 --> 02:57:52.000
+Acuerdo en algún momento. La V V T. Salía ahí que tenía como este aprendizaje automático.
+
+02:57:52.000 --> 02:58:00.000
+¿cómo fue que yo le había manifestado algo muy parecido a lo tuyo? De hecho, pusimos 2 casos aquí.
+
+02:58:00.000 --> 02:58:06.000
+La conversación. Pero, claro, no es más learning.
+
+02:58:06.000 --> 02:58:13.000
+No, Pues no es, no es lo mismo. En este caso va aprend si aprende, es porque tiene un problema específico.
+
+02:58:13.000 --> 02:58:22.000
+Que no es cierto que puede resolver. Creando un nuevo, un nuevo registro de memoria.
+
+02:58:22.000 --> 02:58:28.000
+O porque tú le estás dando retroalimentación. Ahí se te.
+
+02:58:28.000 --> 02:58:34.000
+Te dice, no, Esta persona tiene tal puntuaje de crédito. Tú dices, no, en realidad este es otro puntaje.
+
+02:58:34.000 --> 02:58:39.000
+Y le da retroalimentación, y eso debería ser retroalimentación que fuera.
+
+02:58:39.000 --> 02:58:45.000
+Suficiente para poder generar una nueva, una nueva regla o modificar una regla existente.
+
+02:58:45.000 --> 02:58:48.000
+Pero siempre ha estado velando con regla. Finalmente. Sí.
+
+02:58:48.000 --> 02:58:58.000
+Profe. Pero en el caso específico de este, obviamente yendo a la realidad independiente.
+
+02:58:58.000 --> 02:59:05.000
+Uno tiene las reglas. Le dan el hipotecario. Cambio, mi estatus. Obviamente, el contrato y dice que no puedo vender la casa si el banco no me deja etcétera.
+
+02:59:05.000 --> 02:59:12.000
+Pero cambia mi estatus. Pierdo el trabajo y. Y eso no va a hacer que pierde el hipotecario. Esa es la vida real.
+
+02:59:12.000 --> 02:59:21.000
+Lo que sí puede suceder es que cambian las ponderaciones con respecto al recupero de ese crédito.
+
+02:59:21.000 --> 02:59:26.000
+Con respecto al no sé a la vida esperado al Banco, dadas las políticas creidicias.
+
+02:59:26.000 --> 02:59:35.000
+Y eso sí puede generar una regla nueva que diga sabe que si llega llega una persona con este mismo perfil. Ahora la vamos a ponderar de una manera distinta.
+
+02:59:35.000 --> 02:59:36.000
+Mhm.
+
+02:59:36.000 --> 02:59:44.000
+Dado que esta política de crédito no está dando buen resultado, pero eso ya es para casos nuevos. No necesariamente para el caso que ella fue evaluado.
+
+02:59:44.000 --> 02:59:54.000
+No va el mismo caso. Sí es que eso pasa con toda la con todas las variables, pues, como en en general.
+
+02:59:54.000 --> 03:00:05.000
+Todas las variables tienen ese componente de que finalmente, si se está otorgando el crédito, es porque históricamente esos clientes tienen una buena probabilidad o una buena tasa de retorno.
+
+03:00:05.000 --> 03:00:07.000
+Y y, en general, como que eso se hace una evaluación post.
+
+03:00:07.000 --> 03:00:17.000
+Para re cómo evaluar cada 1 de esos criterios como cada cierto tiempo, para estar como constantemente actualizando cómo se está comportando la cartera en función del contexto.
+
+03:00:17.000 --> 03:00:28.000
+Como socioeconómico o como macro, incluso. Pero. Pero, claro, todos estos criterios que 1 otorga así, por ejemplo, el sueldo, las deudas como que van en función de cómo se comporta la cartera.
+
+03:00:28.000 --> 03:00:42.000
+Entonces yo creo que siempre. Como en sobre todo en casos como estos requiere una evaluación continua como de toda la parametría, como en función de cómo se comporta lo que 1 esperaba o lo que 1 está buscando con ese cliente.
+
+03:00:42.000 --> 03:00:43.000
+Per.
+
+03:00:43.000 --> 03:00:48.000
+O sea, lo que quiere decir, supongo yo, que está paula también en con la mano levantada. Javier tiempo.
+
+03:00:48.000 --> 03:00:58.000
+Y. Sí. Por eso supon supongo que, en realidad, casos tan dinámicos como esos son difíciles de trabajar con regla.
+
+03:00:58.000 --> 03:01:02.000
+Entonces, si 1 tiene reglas muy generales, esas reglas van a funcionar, pero.
+
+03:01:02.000 --> 03:01:08.000
+Casos más específicos que de nuevo, es como una limitación de modelos simbólico.
+
+03:01:08.000 --> 03:01:16.000
+Asumen que tú tienes en realidad un match. Entre un evento en la realidad y el evento y el símbolo que representa. Eso.
+
+03:01:16.000 --> 03:01:22.000
+Que más o menos estable. Entonces los casos como de aprendizaje de matemáticas o entrenamiento.
+
+03:01:22.000 --> 03:01:30.000
+En en. En reglas de de tráfico y control de tráfico aéreo, y esas cosas que son estables.
+
+03:01:30.000 --> 03:01:38.000
+Esas las pueden modelar con regla. Pero cosas que son más dinámicas. Es más, se vuelve más complicado.
+
+03:01:38.000 --> 03:01:44.000
+Eh, en. En suma, había un comentario de.
+
+03:01:44.000 --> 03:01:45.000
+Paula.
+
+03:01:45.000 --> 03:01:50.000
+Sí. Lo que pasa es que bueno con con mi Grupo.
+
+03:01:50.000 --> 03:01:59.000
+Lo que conversamos en el fondo fue que, como todos han mencionado, todo depende de cómo, en el fondo, la persona que está programando.
+
+03:01:59.000 --> 03:02:04.000
+Le asigna como reglas como para ir abriendo ramas dentro de ese árbol.
+
+03:02:04.000 --> 03:02:11.000
+El tema es. ¿qué pasa, por ejemplo, en el caso de.
+
+03:02:11.000 --> 03:02:19.000
+Voy a inventar rentas variables. O cuando la persona no no tiene historial crediticio y en el fondo, la.
+
+03:02:19.000 --> 03:02:31.000
+La herramienta no tiene de donde sacar como sistema predictivo. Cómo se se hace en ese caso? ¿cómo ¿Cómo funciona? En este caso, la lógica.
+
+03:02:31.000 --> 03:02:35.000
+Porque, según lo que entiendo, el el sistema A, C, T, R.
+
+03:02:35.000 --> 03:02:41.000
+En el fondo trabaja como un poco con la lógica humana.
+
+03:02:41.000 --> 03:02:45.000
+Pero. A ver cómo lo explico.
+
+03:02:45.000 --> 03:02:49.000
+Qué? ¿qué pasa como con eso? Estos casos que son atípicos.
+
+03:02:49.000 --> 03:02:54.000
+Cómo cómo lo maneja? En cuanto a la ambigüedad de los datos.
+
+03:02:54.000 --> 03:02:59.000
+Porque, claro, hay hay muchos criterios que que 1 puede establecer reglas.
+
+03:02:59.000 --> 03:03:05.000
+Pero ¿qué pasa en estos casos que son atípicos? No sé como, por ejemplo, cuando hay divorcio, cuando hay herencias de por medio.
+
+03:03:05.000 --> 03:03:10.000
+Cómo se pueden establecer reglas bajo estas condiciones.
+
+03:03:10.000 --> 03:03:15.000
+Es que no sé. Me da la impresión que ningún sistema.
+
+03:03:15.000 --> 03:03:20.000
+O sea, todos los sistemas de y A están basados, ya sea o en regla.
+
+03:03:20.000 --> 03:03:31.000
+O en datos. Y cuando tienes entrenamiento con datos. Los casos atípicos, si son realmente casos atípicos que no son el extremo de la distribución nomás.
+
+03:03:31.000 --> 03:03:45.000
+Sino que un caso de que tú no has considerado. Ese es difícil. Es difícil manejarlo como tiene un sistema. No puedes tener un sistema predictivo de un caso que un caso único.
+
+03:03:45.000 --> 03:03:51.000
+Entonces yo creo que es un problema más. Más que no sé qué tan importante sea, pero.
+
+03:03:51.000 --> 03:03:56.000
+No, no, no podría manejarlo con regla.
+
+03:03:56.000 --> 03:03:57.000
+No, no.
+
+03:03:57.000 --> 03:03:58.000
+Sí, Sí.
+
+03:03:58.000 --> 03:04:08.000
+A ver. Trofeo. A menos que qué es lo que quería decir un poco antes de que el caso sea tan extendido que 1 tiene que modificar la regla. Ejemplo: pandemia.
+
+03:04:08.000 --> 03:04:18.000
+Ejemplo, Crisis Supreme. Son te son cambios en el entorno que 1 tiene que incorporar como regla.
+
+03:04:18.000 --> 03:04:35.000
+O implican una modificación de las reglas actuales. Sabor, algo. Ahora estás pidiendo un encaje de un una, un, un un pie, el 20 por 100 para el hipotecario, en lugar del 10 o del nada que había hace 10 años atrás, producto que el riesgo es mayor después de la pandemia. Después de los retiros, etcétera.
+
+03:04:35.000 --> 03:04:46.000
+Que son variables, que obviamente, el sistema. Uno debiera. Hacerle aprender. Sucedió esto. Por lo tanto, el efecto es tanto a menos que existan.
+
+03:04:46.000 --> 03:04:53.000
+El equipo economista de un banco que sabes qué, que un riesgo va a crecer. Por lo tanto, me incorpora una regla acá que ahora.
+
+03:04:53.000 --> 03:05:02.000
+No necesito el 80 por 100 de deuda, sino que solo tiene que tener el 20 por 100 de deuda o si gana un 1 000 000. Ahora tiene que ganar un 1 000 002, un 1 000 003, etcétera, etcétera.
+
+03:05:02.000 --> 03:05:05.000
+Son como reglas generales, pero que pueden tener un impacto mucho mayor.
+
+03:05:05.000 --> 03:05:21.000
+Y a. Javier. Claro, esas siguen siendo parámetros que se pueden ajustar en las reglas actuales que están definidas. O sea, si tú tienes. No es que el modelo esté aprendiendo, sino que si hoy mi renta es, es, era un 1 000 000, y ahora son 3 000 000. Bueno, el parámetro de entrada.
+
+03:05:21.000 --> 03:05:31.000
+Es distinto o si la tasa de interés varía. Es un parámetro que se vuelve a ajustar o si, por alguna razón, el banco, por no sé por las M. F. Deciden ajustar que.
+
+03:05:31.000 --> 03:05:43.000
+Voy a otorgar créditos, considerando que los ingresos, o sea, la deuda sea menor al 40 por 100, siguen siendo parámetros que se ajustan y no corresponden. En mi opinión personal.
+
+03:05:43.000 --> 03:05:53.000
+A un aprendizaje. Son reglas que se definen de acuerdo? ¿de acuerdo? Esa es la. Esa es una ventaja de los sistemas simbólico. Es que tú puedes hacer eso. Puedes modificar los parámetros.
+
+03:05:53.000 --> 03:06:02.000
+En función de un juicio experto. Para para reflejar eso, ese tipo de eventos. En cambio, los modelos.
+
+03:06:02.000 --> 03:06:13.000
+Dependen de análisis de grandes cantidades de datos. Siempre van a tirar al promedio de esos datos. O sea, tú no puedes tú sacarlos de la de la tendencia central es más difícil.
+
+03:06:13.000 --> 03:06:20.000
+Sí, había un comenté. Si a nosotros nos pasó más allá del ejemplo.
+
+03:06:20.000 --> 03:06:25.000
+Específico del banco. Fue súper evidente lo que veíamos en la clase como que.
+
+03:06:25.000 --> 03:06:29.000
+Es muy poco eficiente, aparte de ser limitado por el tema de serviliano.
+
+03:06:29.000 --> 03:06:35.000
+Primero, perdimos mucho tiempo como tratando de conceptualizar nuevas reglas, como ya. Pero aparte, veamos la edad y todo.
+
+03:06:35.000 --> 03:06:45.000
+Pero cuando quisimos llevarlo al papel o al Ass, en este caso al tablet, era muy difícil programarlo, o sea, como que requería mucho juicio. Experto.
+
+03:06:45.000 --> 03:06:49.000
+Para tomar primero decisiones. Decir si ya si el historial crediticio es bueno o malo, lo saco al tiro, si es malo.
+
+03:06:49.000 --> 03:06:54.000
+O voy al y lo segundo como entender un poco las distinciones que ya habíamos hecho antes.
+
+03:06:54.000 --> 03:07:02.000
+La diferencia entre el Estado, el operador, el la regla. Como que tuvimos que volver harto a las láminas como para llegar a eso.
+
+03:07:02.000 --> 03:07:06.000
+Finalmente, lo más fácil fue armar el árbol. Y en base a eso, después llegaron a conceptualización.
+
+03:07:06.000 --> 03:07:15.000
+Y te di cuenta de que en verdad, claro, para 4 variables, con todas las posibles combinatorias entre 4 personas con ejercicios súper básicos.
+
+03:07:15.000 --> 03:07:20.000
+O sea, no alcanzamos a llegar ni siquiera a conceptualizar. Sí un 10 por 100 de las reglas.
+
+03:07:20.000 --> 03:07:29.000
+Entonces, como que se nos hizo muy evidente lo que hablaba, lo que hablábamos antes de la clase, que esto es poco eficiente cuando ya empezáis a tener múltiples variables.
+
+03:07:29.000 --> 03:07:36.000
+En términos no solo de de capacidad de cómputo, sino que de las personas pensando en cuáles son esas reglas.
+
+03:07:36.000 --> 03:07:41.000
+Fue como muy evidente. Y lo segundo, ¿qué cosa, De hecho, solo si el problema es que.
+
+03:07:41.000 --> 03:07:46.000
+Son muy estructurados. Tú puedes hacerlo. Razonablemente bien y.
+
+03:07:46.000 --> 03:07:50.000
+Pero el problema es que son más laxamente estructurados que tienen como.
+
+03:07:50.000 --> 03:07:59.000
+Caso único o excepciones. Se vuelve se vuelve complejo, conceptualizado. El problema.
+
+03:07:59.000 --> 03:08:05.000
+Y lo segundo que sí fue interesante que lo alcanzamos a batir un poquito al final, no más lo del como el Chanc, no llegamos a hablarlo bien, pero.
+
+03:08:05.000 --> 03:08:10.000
+Empujando. Como que emerge solo eso que.
+
+03:08:10.000 --> 03:08:16.000
+Algún compañero preguntó también cómo determina que 3 veces 4 más 1 es 7.
+
+03:08:16.000 --> 03:08:24.000
+Claro, lo empezamos a ver, porque tú empezasteis a juntar como arreglos de distintos como posibles operaciones, o sea, ya el puente que el estado de crisis es bueno.
+
+03:08:24.000 --> 03:08:33.000
+Más que los ingresos son más que tanto. Eso se te puede repetir en distintos pedazos. No tenés que empezar a hacer el árbol completo, sino que pescáis ese chanqui lo.
+
+03:08:33.000 --> 03:08:45.000
+Lo podéis definir como una regla más claro. Y lo otro interesante que estamos viendo era en esa misma línea era. Por ejemplo, si si, por ejemplo, tienes un historial crediticio malo, pero tienes un ingreso alto y tienes una garantía alta.
+
+03:08:45.000 --> 03:08:49.000
+Entonces, como como que hay un límite, o sea, como que hay un monto específico.
+
+03:08:49.000 --> 03:08:59.000
+Que indiferentemente que tenga quizás mucha deuda o tengas un historial crediticio malo, pero tienes un gran ingreso y tienes una gran garantía. Entonces, como que.
+
+03:08:59.000 --> 03:09:03.000
+Como que hay montos específicos que pueden llegar a como decir, el punto de equilibrio.
+
+03:09:03.000 --> 03:09:12.000
+Indiferentemente de que una variable sea peor que otra. Por eso esos problemas se pueden resolver mejor con métodos estadísticos.
+
+03:09:12.000 --> 03:09:23.000
+Que comer, que con métodos simbólicos. Pero van a tener un un una unidad completa de búsqueda y búsqueda. Es puyo, proceso simbólico. Entonces ahí.
+
+03:09:23.000 --> 03:09:27.000
+La pregunta es: cuáles son los casos donde eso sí es útil.
+
+03:09:27.000 --> 03:09:34.000
+Atrás. Nosotros hicimos el el.
+
+03:09:34.000 --> 03:09:42.000
+El trabajo. Considerando que los 4 los 4 factores que. Indicó, pero para nosotros era como 0, 1.
+
+03:09:42.000 --> 03:09:48.000
+Finalmente cumple con el primero, no cumple con las 3 últimas. No sé, por ejemplo, no se le da.
+
+03:09:48.000 --> 03:09:54.000
+Estamos y realizamos diferentes combinaciones. Finalmente terminaba en una matriz que era como de irse por 4.
+
+03:09:54.000 --> 03:10:02.000
+Y. Hasta qué punto? Porque yo creo que creando tantas combinaciones, tal vez como que.
+
+03:10:02.000 --> 03:10:05.000
+Nos fuimos por el Cannes, donde siento que esta regla tal vez.
+
+03:10:05.000 --> 03:10:13.000
+Crear automáticamente. Y nosotros las creamos y nos pusimos en las diferentes casas hasta que está.
+
+03:10:13.000 --> 03:10:19.000
+Qué punto Tal vez esto empieza a aprender solo. Empieza a generar esa regla y automáticamente nada diferente.
+
+03:10:19.000 --> 03:10:25.000
+Combinaciones y determina si es que esa prueba o no, el crédito.
+
+03:10:25.000 --> 03:10:33.000
+No. Pero estos sistemas, tal como lo hemos visto, no están hechos para pa poder hacer eso.
+
+03:10:33.000 --> 03:10:38.000
+Aprend, pueden aprender desde casi desde 0, con poco con poco, si es que.
+
+03:10:38.000 --> 03:10:46.000
+El problema está muy estructurado. Entonces, en la medida en que el problema tenga estructura como el tablero de Aje.
+
+03:10:46.000 --> 03:10:52.000
+Es posible generar. Ese día posible que el sistema fuera generando.
+
+03:10:52.000 --> 03:10:59.000
+Regla, por su. Pero si tú tienes que programarlo completo o tienes tu propia intuición, usarla para eso.
+
+03:10:59.000 --> 03:11:06.000
+Te empiezas a encontrar con esto. Es como el equivalente de la explosión con vitamina combinatorial.
+
+03:11:06.000 --> 03:11:12.000
+En términos de tiempo de procesamiento, en este caso, en capacidad de entender el problema.
+
+03:11:12.000 --> 03:11:20.000
+Sí. Cuáles reglas son. Primaria en este caso? Cuáles son derivadas.
+
+03:11:20.000 --> 03:11:27.000
+Cuál debo considerar todas las combinaciones posibles o no, y si estoy considerando todas las combinaciones posibles, ya el enfoque no es.
+
+03:11:27.000 --> 03:11:35.000
+No es la apropiado, o sea, el enfoque. Funciona. Cuando tú tienes un problema que tú puedes construir.
+
+03:11:35.000 --> 03:11:42.000
+Incrementalmente también. Entonces tienes como unas reglas de primer orden, pero las reglas de primer orden se combinan.
+
+03:11:42.000 --> 03:11:49.000
+Para generar otra otra regla más compleja. Pero para eso necesitas cierto tipo de problema.
+
+03:11:49.000 --> 03:11:57.000
+Supuesto, estos como es este. Es mucho más difícil. Sí, o sea, tenías un comentario.
+
+03:11:57.000 --> 03:12:08.000
+Bueno, nosotros trabajamos similar. Creamos. Reglas de aprobación o de rechazo, pero que son como las que se pueden identificar de forma fácil.
+
+03:12:08.000 --> 03:12:16.000
+Perdón. Y nos quedó pensando un poco en las dificultades que probablemente aparecen cuando se generan estas condiciones como más mixtas.
+
+03:12:16.000 --> 03:12:25.000
+En donde, desde el punto de vista, no sé como ya poniéndome en el rol del banco, interviene la el humano.
+
+03:12:25.000 --> 03:12:28.000
+Como que no. Si tienen que aprobar tal persona. Ese es el momento donde aparecen las dificultades.
+
+03:12:28.000 --> 03:12:36.000
+Y. Y en ese sentido, me quedé pensando, como lo hace el Chung.
+
+03:12:36.000 --> 03:12:41.000
+Y. Pensando en que.
+
+03:12:41.000 --> 03:12:48.000
+En ciertas condiciones que las maneja la máquina. Podría dar luz verde luz roja, por ejemplo, roja.
+
+03:12:48.000 --> 03:12:55.000
+Y ante un evento humano. De borde en donde, a lo mejor una de las condiciones, no sé, tenía el sueldo.
+
+03:12:55.000 --> 03:13:03.000
+999. Y dije, yo sé que sí. Dale Dale a este qué es lo que haría el Chung al al.
+
+03:13:03.000 --> 03:13:09.000
+Al retroalimentarse de los datos al buscar aprendizaje nuevo frente a esa.
+
+03:13:09.000 --> 03:13:18.000
+Ante esos eventos. Se comporta, hay que volver a reentrenarlo. Hay que generar nuevas reglas.
+
+03:13:18.000 --> 03:13:23.000
+Sí. Lo que pasa es que, de nuevo, o sea que estamos mezclando cosas que es que es el el.
+
+03:13:23.000 --> 03:13:27.000
+Si tú tienes un sistema que tú quieres que sea predictivo.
+
+03:13:27.000 --> 03:13:35.000
+No es el enfoque adecuado para un sistema predictivo. Porque no está. No está pensando en.
+
+03:13:35.000 --> 03:13:45.000
+Imagínate de nuevo. Volvamos al tablero de ajedrez. La reglas no tienen un un rol de predecir qué es lo que va a pasar en la partida.
+
+03:13:45.000 --> 03:13:58.000
+Desde describir el paso de un Estado a otro. Solo eso. Entonces sobre eso, tú puedes montar un sistema predictivo. Pero para eso necesitas hacer algo algo distinto.
+
+03:13:58.000 --> 03:14:08.000
+No solamente el uso de. Si tienes suficiente capacidad computacional, ese no es problema por problema bien estructurado.
+
+03:14:08.000 --> 03:14:11.000
+Pero problemas como estos, donde en realidad 1 lo que quiere es predecir.
+
+03:14:11.000 --> 03:14:21.000
+El retorno. Y quieres hacer una estimación probabilística de qué tan probable es que es como decían recién? ¿no es cierto.
+
+03:14:21.000 --> 03:14:26.000
+Que esté en esta cartera una persona con estos comportamientos. Con estas características.
+
+03:14:26.000 --> 03:14:34.000
+Pague el crédito. Finalmente. Eso no es lo que querría lo que puedes hacer bien con un sistema simbólico.
+
+03:14:34.000 --> 03:14:40.000
+Los sistemas simbólicos van a funcionar bien. El sistema. En sistema, en problemas bien bien estructurados.
+
+03:14:40.000 --> 03:14:46.000
+Como problema, aunque sean problemas grandes, como problemas de ruteo. Aunque sean problemas grandes.
+
+03:14:46.000 --> 03:14:55.000
+Es un problema bien estructurado, bien definido, Y ahí tú puedes usar técnicas de de búsqueda.
+
+03:14:55.000 --> 03:15:07.000
+Inteligente. Para poder explorar ese ese sistema. Pero no estás tratando de hacer predicción. En cambio, acá. En lo que varios grupos han terminado es pensando que lo que quieren hacer querrían hacer es.
+
+03:15:07.000 --> 03:15:12.000
+Tomad una decisión basada en la predicción sobre el comportamiento de.
+
+03:15:12.000 --> 03:15:19.000
+El cliente. Entonces es di, es distinto.
+
+03:15:19.000 --> 03:15:21.000
+Profe. El R. L.
+
+03:15:21.000 --> 03:15:25.000
+Perdona. Mira. Javier Javier espera un segundo, espera un segundo.
+
+03:15:25.000 --> 03:15:30.000
+Acá este ejercicio. Ah, perdón.
+
+03:15:30.000 --> 03:15:36.000
+Perdón. Me quedé pensando en eso, que un sistema de ruteo no tiene, no es predictivo.
+
+03:15:36.000 --> 03:15:43.000
+No estás tratando de predecir, estás tratando de optimizar basado en un criterio, ya.
+
+03:15:43.000 --> 03:15:54.000
+Claro quién es. Puede ser. No es cierto. La distribución de la carga o la distancia recorrida o el uso del espacio. Tiene Tiene un criterio que está dando optimizar.
+
+03:15:54.000 --> 03:16:01.000
+Pero no estás tratando de de predecir, Estás buscando los parámetros óptimos acá.
+
+03:16:01.000 --> 03:16:06.000
+Si 1 quizás podría pensarlo como un problema de optimización también, pero.
+
+03:16:06.000 --> 03:16:12.000
+Si está pensando en un sistema simbólico. Eso se hace, se hace bastante más complicado. Ya.
+
+03:16:12.000 --> 03:16:16.000
+Eso sí. Ahora, sí. Javier.
+
+03:16:16.000 --> 03:16:32.000
+El Profe parece, to se aprendía algo. Nosotros estamos trabajando en este ejercicio con con con con variables que son o asumimos que son independientes entre sí.
+
+03:16:32.000 --> 03:16:44.000
+Facilitaría el el aprendizaje de nuevas reglas a partir de reglas que 1 ingresó. Si existieran cierto nivel de correlación entre.
+
+03:16:44.000 --> 03:16:47.000
+Una regla y otra, dado el ejemplo que mostraste anteriormente que había una sensibilidad entre.
+
+03:16:47.000 --> 03:16:52.000
+En el.
+
+03:16:52.000 --> 03:17:00.000
+Que el tiburón era animal y que el salmón era especias piedra animal. Por lo tanto, hay como cierto grado de correlación semántica.
+
+03:17:00.000 --> 03:17:06.000
+Tienen que ver algo. Eso que estoy tratando de explicar con.
+
+03:17:06.000 --> 03:17:17.000
+Con el sistema de aprendizaje que tendría un Swar, un un actor.
+
+03:17:17.000 --> 03:17:28.000
+Pero bueno, el supuesto independencia es es bien general, no solo en estos sistemas. En muchos, en muchos modelos, tus tú asumes independiente. Da independencia entre variable.
+
+03:17:28.000 --> 03:17:36.000
+Y siempre se complejiza más. Si tú tienes. Si tú permites que lo que las variables estén correlacionadas entre sí.
+
+03:17:36.000 --> 03:17:43.000
+Pero en. En principio, nadie nada te limita a construir una regla.
+
+03:17:43.000 --> 03:17:49.000
+Que tenga. Que funcione como un proxy de alguna otra cosa.
+
+03:17:49.000 --> 03:17:53.000
+En vez de tener el nivel de ingreso, tienes el nivel de educación.
+
+03:17:53.000 --> 03:17:58.000
+Y entonces asumen que esos 2, si sabes que esos 2 están correlacionados.
+
+03:17:58.000 --> 03:18:17.000
+Entonces hace una regla solo para para eso. Pero en principio no. No veo que eso solucione mucho el problema, una consulta en la y si, por ejemplo, en esa línea, 1 define en vez de cada Estado por separado, sino que define una persona con un buen historial crediticio, una persona con ingreso superior a tal.
+
+03:18:17.000 --> 03:18:25.000
+Y entonces defines que la persona. Está en un Estado mayor, a cierto monto, sumando la garantía y correlacionándolas todas.
+
+03:18:25.000 --> 03:18:35.000
+Entonces sería como definir un animal con a re acuático. Pero definir como una persona en un estado de aprobación.
+
+03:18:35.000 --> 03:18:41.000
+Y entonces sería como colocar restricciones como machin learning. Pero desde un punto como lógico, una cosa así.
+
+03:18:41.000 --> 03:18:48.000
+Sí, Sí. Supongo que sí. Si tuvieras un número relativamente manejable de casos.
+
+03:18:48.000 --> 03:18:53.000
+Picasso es prototípicos de nuevo como una forma de pensar más intuitiva.
+
+03:18:53.000 --> 03:18:57.000
+Por cierto, si tú tienes un número de casos prototípicos de.
+
+03:18:57.000 --> 03:19:06.000
+Clientes posibles. Y si es que estarían aprobados para tal tipo de crédito o no. Eso lo podrías estructurar como una red semántica si estás.
+
+03:19:06.000 --> 03:19:12.000
+Y otra cosa sería, como co quizás colocar la restricción del monto total de créditos que pueda aprobar el Banco no.
+
+03:19:12.000 --> 03:19:19.000
+Y colocarlo como una restricción anual o algo así. Entonces, aunque queden dentro del rango.
+
+03:19:19.000 --> 03:19:25.000
+Si están por debajo de un valor. Como que los demás están negados, aunque cumplan con el criterio, porque no se puede aprobar más.
+
+03:19:25.000 --> 03:19:33.000
+Claro. Tac Tac creativo. Eso no se me ocurrió.
+
+03:19:33.000 --> 03:19:39.000
+Pero eso me queda la duda. De lo que plantean los 2 compañeros, Javier y.
+
+03:19:39.000 --> 03:19:43.000
+Mira que está acá hay algo que te va a ayudar a optimizar tu.
+
+03:19:43.000 --> 03:19:50.000
+Como generador de regla. Que es distinto a que tú optimices. El resultado esperado del problema.
+
+03:19:50.000 --> 03:19:58.000
+Porque, claro, si yo empiezo a juntar categorías para definir si es tiburón o no me estoy saltando paso, entonces eso va a ser más eficiente. Quizá la ejecución del del árbol.
+
+03:19:58.000 --> 03:20:05.000
+Pero no necesariamente el resultado va a ser mejor. Por otro lado, claro y y, y, por otro lado, quizá es lo que plantea el.
+
+03:20:05.000 --> 03:20:11.000
+Eso sí podría ir un poco en esa línea, porque. Algo que nos pasó también es que tú tomáis como.
+
+03:20:11.000 --> 03:20:17.000
+Ciertas como supuestos, como subyacentes de ese dato. Esto era el crediticio, si es bueno y malo.
+
+03:20:17.000 --> 03:20:25.000
+Como guliano en sí mismo, no tiene un valor, tiene valor porque tú lo construiste para atrás de una forma en que te dice algo de ese.
+
+03:20:25.000 --> 03:20:33.000
+Ese cliente que está ahí, evaluando. Por eso creo que es como otra rama, o sea, como que a mí se me sale de lo que estamos hablando acá.
+
+03:20:33.000 --> 03:20:42.000
+Es como como que ya empezaríamos a decir ya. Okay, generemos un buen modelo estadístico para llegar a la conclusión de si ese historial crediticio o si ese cliente tiene un historial crediticia. Bueno.
+
+03:20:42.000 --> 03:20:49.000
+Una vez que están todas esas cosas, y suponemos que todas esas variables las determinamos con buenos. Como resultado guliano de sí o no.
+
+03:20:49.000 --> 03:20:56.000
+De ahí el árbol como que igual es tonto, como que siento que son como 2 capas distintas. No sé si estoy leyendo mal, la la.
+
+03:20:56.000 --> 03:21:07.000
+Como la metodología. Si se entiende la. Que a ver si yo empiezo a.
+
+03:21:07.000 --> 03:21:17.000
+A optimizar mi árbol ya en el sentido de que veo todas mis combinaciones y efectivamente, llego a la conclusión de si él le doy el crédito o no a este personaje.
+
+03:21:17.000 --> 03:21:29.000
+Si mis datos, con los cuales construí las distintas posibles operaciones, historial si es bueno, malo, si la renta buena o mala. Es arriba de un 1 000 000. No es arriba. 500 lucas.
+
+03:21:29.000 --> 03:21:36.000
+Es como otra capa del análisis. Es el análisis de cómo yo construyo mis decisiones, dado que ya tengo estos atributos separados.
+
+03:21:36.000 --> 03:21:40.000
+Sí es el problema de que de que son, de de que no son valores.
+
+03:21:40.000 --> 03:21:49.000
+Sí sí es simbólico. No son valores cuantitativos. Exacto son son cualitativos, entonces tú tienes que definir si la renta es.
+
+03:21:49.000 --> 03:21:55.000
+Si el límite es un 1 000 000, es el límite. Son 500 lucas ahí como que está el valor 100 de.
+
+03:21:55.000 --> 03:22:04.000
+Sí, eso es eso. Eso es otra. Esos distintos. Es que ese es el problema que las reglas tienen que capturar la inteligencia de.
+
+03:22:04.000 --> 03:22:11.000
+De alguien. Entonces este en este caso va a ser alguien que va a tener la experticia.
+
+03:22:11.000 --> 03:22:19.000
+Para poder definir cuáles son las reglas apropiada. Pero siemp siempre estos problemas siempre son.
+
+03:22:19.000 --> 03:22:24.000
+La 1 no se le ocurre y hay alguien que se le.
+
+03:22:24.000 --> 03:22:28.000
+Cómo resolverlo. Entonces. La idea.
+
+03:22:28.000 --> 03:22:37.000
+Repente lo que se necesita, alguien que tenga una idea. Creativa. Sí, no, allá.
+
+03:22:37.000 --> 03:22:48.000
+Okay. Entonces tenemos un rato todavía.
+
+03:22:48.000 --> 03:22:57.000
+Denme un segundo.
+
+03:22:57.000 --> 03:23:23.000
+Y no.
+
+03:23:23.000 --> 03:23:31.000
+Estoy compartiendo en sí, Estoy compartiendo desde. Okay, ya.
+
+03:23:31.000 --> 03:23:45.000
+Entonces. Bueno, la la discusión hasta hasta el 2 017 era estrictamente la que hemos estado haciendo era si los sistemas simbólicos eran mejores.
+
+03:23:45.000 --> 03:23:54.000
+O la red neuronales eran mejores, subsimbólica y. Todos estaban de acuerdo en que las redes neuronales eran mejores, pero.
+
+03:23:54.000 --> 03:24:04.000
+Las redes neuronales. Tenían el problema de que eran específicas para un problema.
+
+03:24:04.000 --> 03:24:10.000
+Eran específicas para resolver un problema. Entonces, ah.
+
+03:24:10.000 --> 03:24:17.000
+No, no es Hace mucho tiempo atrás. ¿no es cierto? El 2 020 2 021 me preguntaba cualquier persona trabajando en inteligencia artificial, le diría.
+
+03:24:17.000 --> 03:24:26.000
+Estamos lejos de una inteligencia general. Tenemos solo sistemas que son cada vez mejores en hacer cosas cada vez más específicas.
+
+03:24:26.000 --> 03:24:36.000
+Y no, y no se parecen a una inteligencia humana. Mhm: Entonces el 2 022 cuando sale G, B, T, Después, otro otro Transformers.
+
+03:24:36.000 --> 03:24:41.000
+Eso cambió. Y la lógica de con que funcionan es una lógica.
+
+03:24:41.000 --> 03:24:52.000
+Distinta a la lógica simbólica. Y no son como cualquier red red neuronal. Tampoco se basan en usted. No sé si van a tener como una.
+
+03:24:52.000 --> 03:25:06.000
+Una unidad, un curso de procesamiento de lenguaje natural. Pero ahí deberían ver algunas cosas, como en B en Beedings y otras técnicas de análisis del lenguaje natural. Pero la lo que se hace ahí, básicamente, es convertir.
+
+03:25:06.000 --> 03:25:14.000
+Un un una cadena de caracteres en un valor numérico. Y manipularlos numéricamente.
+
+03:25:14.000 --> 03:25:20.000
+Entonces, en realidad lo que hacen es trabajar en espacios de significación en el espacio semántico.
+
+03:25:20.000 --> 03:25:28.000
+Y esos espacios tienen cierta regularidad y estructura. Que son las que capturan estos modelos de Transformer.
+
+03:25:28.000 --> 03:25:36.000
+Entonces. Dadas las capacidades que tienen el problema que han generado.
+
+03:25:36.000 --> 03:25:41.000
+Y todo el todo el revuelo. Y, por ejemplo, para un prom como.
+
+03:25:41.000 --> 03:25:51.000
+Cosas que me quedan en el refrigerador son capaces de. De darme una una receta, aunque no están programados específicamente para eso.
+
+03:25:51.000 --> 03:25:59.000
+¿cómo pueden hacer eso? Bueno, porque en vez de que alguien programa las reglas aprenden del conjunto de datos.
+
+03:25:59.000 --> 03:26:07.000
+Y del conjunto de datos de entrenamiento. Contienen irregularidades estadísticas que.
+
+03:26:07.000 --> 03:26:12.000
+Que no. Que 1 no alcanza a ver.
+
+03:26:12.000 --> 03:26:17.000
+Entonces no solo la regularidad estadística de la secuencia de palabras específicamente.
+
+03:26:17.000 --> 03:26:21.000
+Sino en las secuencias de palabras específicas en un tópico, dado.
+
+03:26:21.000 --> 03:26:28.000
+Y luego en un tópico dado en un contexto más general. Entonces empiezan a poder capturar.
+
+03:26:28.000 --> 03:26:32.000
+Si son los in mains. Estos son en baines de 500 dimensiones.
+
+03:26:32.000 --> 03:26:38.000
+Algunas dimensiones. Son comprensibles como.
+
+03:26:38.000 --> 03:26:47.000
+Qué sé yo el grado de. De de agencia de algo que la capacidad de moverse, independientemente.
+
+03:26:47.000 --> 03:26:50.000
+Puede ser eso. Y hay otras que son incomprensibles, o sea, no.
+
+03:26:50.000 --> 03:26:59.000
+No. Uno no puede consultar un embading. Con los vectores y saber qué es lo que que es lo que quiere decir o por qué está organizado.
+
+03:26:59.000 --> 03:27:05.000
+Estructurado de cierta forma. Entonces, cada vez que cuando le dice, dame una receta.
+
+03:27:05.000 --> 03:27:11.000
+Entiende por una entiende mucho más de una receta que solamente lo que 1 diría el significado.
+
+03:27:11.000 --> 03:27:17.000
+Humano de la de la receta.
+
+03:27:17.000 --> 03:27:28.000
+Mhm. Este. Este es un ejemplo de un bot. Se acuerdan que teníamos un bot programado en Python y veíamos cómo funcionaba básicamente como eas den La semana pasada.
+
+03:27:28.000 --> 03:27:34.000
+Y y 1 ha visto. Cat bots ese de ese tipo.
+
+03:27:34.000 --> 03:27:42.000
+Pero al al jeque o a otro transformer como este, 1 puede darle un contexto y le da la la política de de.
+
+03:27:42.000 --> 03:27:49.000
+De interacción y la política de interacción se convierte en un en parte del promt.
+
+03:27:49.000 --> 03:27:54.000
+Entonces, cuando yo estoy hablando con el bot, el bot leyó todas las.
+
+03:27:54.000 --> 03:27:59.000
+La política de interacción primero, y esa política de la empresa.
+
+03:27:59.000 --> 03:28:04.000
+Es parte del vector de contexto en el cual se entiende la.
+
+03:28:04.000 --> 03:28:10.000
+El promt. En este caso, la pregunta de la persona. Entonces.
+
+03:28:10.000 --> 03:28:18.000
+Es increíblemente mucho más flexible. Y.
+
+03:28:18.000 --> 03:28:28.000
+Entonces, este es un una conversación. Con con un bot que no no está programado para eso, sino que lee solamente la política de la empresa.
+
+03:28:28.000 --> 03:28:40.000
+Sobre cómo resolver problemas. Cierto. Entonces, eso quiere decir que la forma de la pregunta y las palabras que están en la pregunta que hace la persona, no necesitan tener una estructura específica.
+
+03:28:40.000 --> 03:28:48.000
+Porque necesitan solo estar dentro. Es poder expresarse. Como un vector de significado dentro de un.
+
+03:28:48.000 --> 03:28:54.000
+Una. Dentro de un espacio de.
+
+03:28:54.000 --> 03:29:02.000
+Cientos de dimensiones. Y el sistema tiene que ser capaz de usar eso para predecir ¿Cuál es la próxima palabra? Entonces, cuando 1 le dice.
+
+03:29:02.000 --> 03:29:07.000
+O la pedicomia en línea hace unos días, y todavía no ha llegado. ¿puedes decirme qué ha pasado.
+
+03:29:07.000 --> 03:29:18.000
+Lo que hace el bot es que. Predice hace una una lista de palabras que podrían seguir a esto.
+
+03:29:18.000 --> 03:29:27.000
+De acuerdo a ese a ese vector de contexto. Y luego entonces el lamento, y incluye el lamento en la lista y predice escuchar.
+
+03:29:27.000 --> 03:29:38.000
+Iba palabra por palabra avanzando. Bueno, no necesariamente palabra. Por palabra, puede ser parte de una palabra o puede ser signo de de puntuación, lo que sea.
+
+03:29:38.000 --> 03:29:46.000
+Pero es que es capaz de hacer esto siguiendo la política, Y esto no está. Lo interesante es que no está programado explícitamente.
+
+03:29:46.000 --> 03:29:55.000
+Mente. Entonces 1 puede. Lo que lo que algunos piensan es que 1 puede, por ejemplo.
+
+03:29:55.000 --> 03:30:03.000
+Programar directamente el lenguaje natural. Todavía no, no he visto que lo pueden hacer así tan.
+
+03:30:03.000 --> 03:30:12.000
+Tan así para casos más complejos. Pues la idea sería eventualmente poder interactuar con con.
+
+03:30:12.000 --> 03:30:16.000
+Con el robot de moda de decirle lo que 1 quiere que haga el código, que 1 quiere que haga y.
+
+03:30:16.000 --> 03:30:23.000
+Que haga exactamente lo que no quiere 1 pueda hacer de pronto para corregir y todo y lo pueda programar.
+
+03:30:23.000 --> 03:30:30.000
+La idea es que algunos piensan que. Eventualmente cualquiera va a poder programar.
+
+03:30:30.000 --> 03:30:40.000
+Mhm. Sin información específica, como ha sido entrenado con información de todo de todo tipo en su entorno. Entiende qué es lo que es.
+
+03:30:40.000 --> 03:30:46.000
+No es cierto. Una Una. Una sala de emergencia.
+
+03:30:46.000 --> 03:30:55.000
+Entonces 1. Puede escribir, por ejemplo, qué es lo que pasó con una niña de 7 años que se despierta con tos, dificultades para respirar.
+
+03:30:55.000 --> 03:31:05.000
+Le han jarabe para todo. Entonces la pregunta es para el bote: basándote en esta información? ¿qué diagnósticos son posibles, ¿Qué exámenes se deberían revisar y cuáles son posibles tratamientos.
+
+03:31:05.000 --> 03:31:14.000
+Sin un entrenamiento específico. Eh: Claro, el problema es si está alucinando si esto está correcto o no, o no está correcto.
+
+03:31:14.000 --> 03:31:23.000
+Pero básicamente, si 1 puede bajar el modelo y hacer find tuning para poder resolver este caso específico.
+
+03:31:23.000 --> 03:31:28.000
+Y entrenarlo con reforzamiento humano para resolver ese problema en particular.
+
+03:31:28.000 --> 03:31:35.000
+Sí. Y ahí, por ejemplo, si vuelve a la pregunta. Para verla, porque tiene muchas palabras.
+
+03:31:35.000 --> 03:31:44.000
+La pregunta palabra que son humanas de usar. No necesariamente son útiles u otra cosa de la respuesta.
+
+03:31:44.000 --> 03:31:50.000
+Correcto. Por ejemplo, intentamos calmarla. Le dimos un jarabe para tos, en vez de decir Fed.
+
+03:31:50.000 --> 03:31:57.000
+Le suministró un jarabe para la tos. No sé, no eso eso, pero eso hace diferencia.
+
+03:31:57.000 --> 03:32:07.000
+Eso hace diferencia, o sea. Mhm.
+
+03:32:07.000 --> 03:32:15.000
+Es como cuando le dices, por favor, escríbeme un correo. Dice, por favor, que 1 diría: no tiene ningún sentido decirle, por favor.
+
+03:32:15.000 --> 03:32:24.000
+Sí tiene un un significado dentro de de como 1 diría, como pragmático en las conversaciones.
+
+03:32:24.000 --> 03:32:29.000
+Entonces quiere decir. Tú estás haciendo un requerimiento.
+
+03:32:29.000 --> 03:32:33.000
+Y el ente. Y el sistema entiende que es un requerimiento.
+
+03:32:33.000 --> 03:32:41.000
+Bueno, si tú le dices, ¿no es cierto. Intentamos calmarle y le dimos un jarabe para todo.
+
+03:32:41.000 --> 03:32:50.000
+Eso quiere decir eso? Te dice algo sobre el grado de gravedad de la situación, sobre el grado de preocupación del de de la persona, entonces.
+
+03:32:50.000 --> 03:32:58.000
+Te dice un montón de información. Que no es información que tú dige que tú dirías estrictamente necesaria.
+
+03:32:58.000 --> 03:33:03.000
+Para un sistema que solo manejara conjuntos de síntomas y conjuntos, diagnósticos.
+
+03:33:03.000 --> 03:33:08.000
+Tú te querrías depurarlo. Pero mientras más información le das más.
+
+03:33:08.000 --> 03:33:17.000
+Limitas. La la selección de de las palabras que. Entonces tú, Por eso es que.
+
+03:33:17.000 --> 03:33:23.000
+Hay un. Ahí está todo el tema ahora de ingeniería de Proms, que es cómo saber cómo armar un pront.
+
+03:33:23.000 --> 03:33:30.000
+Para obtener ciertos resultados. De hecho, en est en lo en todos los papers que hay sobre uso de chat. G, P, T.
+
+03:33:30.000 --> 03:33:39.000
+En o de otros Transformers. Para para ciertos fines y todo se dan exactamente cuáles fueron los Proms que se.
+
+03:33:39.000 --> 03:33:45.000
+Porque no da lo mismo.
+
+03:33:45.000 --> 03:33:52.000
+Entonces en este caso. Pero entonces eso llega a que humanizar a chat divide. Es más beneficioso que no sin matarlo de tú.
+
+03:33:52.000 --> 03:33:57.000
+Sí, Sí, sí. Yo Yo creo que de todos, de todas maneras.
+
+03:33:57.000 --> 03:34:02.000
+Sí, cierto, o sea, Chet, dividido, No. No sabe que no es humano.
+
+03:34:02.000 --> 03:34:08.000
+Entonces eso eso sirve. Profesor es que ho hoy, justo en.
+
+03:34:08.000 --> 03:34:18.000
+En el trabajo. Tuvimos algo de esto y me llamó mucho la atención también, algo que está relacionado. Pero bueno, otro ejemplo, y es que decían que, por ejemplo, cambiaba la.
+
+03:34:18.000 --> 03:34:23.000
+Muestre la respuesta.
+
+03:34:23.000 --> 03:34:35.000
+Muchas gracias. Y es el monto, hacía que cambiara la respuesta de la inteligencia artificial, porque.
+
+03:34:35.000 --> 03:34:39.000
+En función de eso como e entendía cuál era la propuesta que tenía que generar.
+
+03:34:39.000 --> 03:34:46.000
+Como tal, como si fuera un asesor. Claro, se motivaba más si le pagaba.
+
+03:34:46.000 --> 03:34:59.000
+Uds. Que en el fondo. Es la estructura estadística en el set de entrenamiento. Si eso es, entonces toda esa información es parte de la estructura estadística. Si tienes los los montos tienen que ver con.
+
+03:34:59.000 --> 03:35:08.000
+La calidad de respuesta de la misma forma como la edad de la persona que está haciendo la respuesta. Explícamelo como lo explicaría un niño de 10 años.
+
+03:35:08.000 --> 03:35:13.000
+La edad también es una variable que está afectando la secuencia.
+
+03:35:13.000 --> 03:35:23.000
+Entonces es tremendamente poderoso. Y yo chequeé la lista de de de posibles.
+
+03:35:23.000 --> 03:35:28.000
+Problemas de sa de salud en el caso, ese, y está bastante bien. De hecho.
+
+03:35:28.000 --> 03:35:36.000
+No encontré. Un diagnóstico distinto o un tratamiento distinto del que sugiere sin ningún entrenamiento.
+
+03:35:36.000 --> 03:35:42.000
+Particular, dado que esto obviamente tiene problemas éticos y todo, pero.
+
+03:35:42.000 --> 03:35:56.000
+Porque no es cierto. Uno no querría. Es como si 1 si 1 tiene una ley, 1 no quiere decir. Bueno, en este caso, esta ley es buena o es mala, sin poder justificar por qué.
+
+03:35:56.000 --> 03:36:06.000
+En este caso, claro, la justificación de por qué no no es algo que 1 le pueda, o sea, el modelo puede justificar por qué.
+
+03:36:06.000 --> 03:36:11.000
+Pero no es el proceso por el cual llegó a esa a esa respuesta.
+
+03:36:11.000 --> 03:36:21.000
+O sea, no En ese caso, esa es la diferencia. De de transparencia de de los de.
+
+03:36:21.000 --> 03:36:30.000
+Incluso no es cierto sobre tratamientos, exámenes y todo eso. Así que.
+
+03:36:30.000 --> 03:36:38.000
+Después, lo otro es lo que están específicamente hechos para hacer es resumir.
+
+03:36:38.000 --> 03:36:44.000
+Resumir, lo es lo mejor que hacen es resumir y traducir.
+
+03:36:44.000 --> 03:36:47.000
+Pero sobre todo, resumimiento. Si 1 le pide resumir en menos de 1 000 palabras.
+
+03:36:47.000 --> 03:36:52.000
+En menos de cuánto cuánto le pedían. En menos de 100 palabras y.
+
+03:36:52.000 --> 03:36:58.000
+Lo resume y después lo puede traducir. Las traducciones. Son traducciones.
+
+03:36:58.000 --> 03:37:07.000
+De sentido. No son traducciones literarias. No son palabras por palabra. No son ni siquiera frase. Por frase.
+
+03:37:07.000 --> 03:37:16.000
+Porque las traducciones, Si 1 usa estos sistemas para aprender idiomas, por ejemplo, tiene que decirle específicamente que las traducciones las haga palabra por palabra.
+
+03:37:16.000 --> 03:37:20.000
+Si es que 1 quiere aprender palabras y todo porque si no haces las.
+
+03:37:20.000 --> 03:37:28.000
+De sentido. Y entonces, para aprender idiomas tiene problemas, entonces tiene que incluirlo para que lo haga de cierta manera.
+
+03:37:28.000 --> 03:37:35.000
+O pedirle específicamente que la traducción sea palabra por palabra. Porque a veces eso es importante.
+
+03:37:35.000 --> 03:37:41.000
+Pero.
+
+03:37:41.000 --> 03:37:51.000
+Bueno, entonces. Creo que eso lo va a manejar eso como introducción a la a a los Transformers y las diferencias que tienen con el enfoque.
+
+03:37:51.000 --> 03:37:57.000
+Simbólico. ¿y cuál es la diferencia? En general de redes neuronales con el con un enfoque simbólico.
+
+03:37:57.000 --> 03:38:05.000
+Y la próxima clase. Vamos a ver más en detalle el tema de cómo es esto de los vectores de contexto y convertir significado en.
+
+03:38:05.000 --> 03:38:10.000
+En valores numéricos. Que nos vemos la otra semana.
+
+03:38:10.000 --> 03:38:15.000
+Gracias por la paciencia.
+
+03:38:15.000 --> 03:38:17.000
+Vale, buenas noches. Chao. O sea, es.
+
+03:38:17.000 --> 03:38:21.000
+Muchas gracias.Gracias. EnBuenasChao, chao.
+

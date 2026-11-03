@@ -1,0 +1,21 @@
+02:44:09	Guillermo de la Casa:	numero=int(input('Ingresa un número distinto de 0: '))
+  maximo=numero
+
+  while numero!=0:
+    if numero>maximo:
+      maximo=numero
+
+      numero=int(input('Ingresa un número distinto de 0: '))
+      
+print(f'El mayor número que has introducido es',maximo)
+02:52:23	Enrique Hernandez:	Listo
+02:52:54	Miguel Carrasco:	Reacted to "Listo" with 👍
+02:57:49	Guillermo de la Casa:	numero = int(input('Ingresa un número: '))
+contador=0
+sumatoria=0
+  while numero!=0:
+    contador=contador+1
+    sumatoria=sumatoria+numero
+    numero=int(input('Ingresa un número: '))
+
+print(f'Has ingresado',contador,'números, sumando',sumatoria)

@@ -1,0 +1,1589 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:09.440
+Esta sesión que queremos es más que nada para que nos orientes, por un lado, con algunas dudas que tenemos con el tema del capstone en general,
+
+00:00:10.600 --> 00:00:19.220
+de los objetivos del mismo capstone o los alcances, y por otro lado, mostrarte lo que hemos realizado para esta segunda presentación,
+
+00:00:20.220 --> 00:00:25.680
+como grandes rasgos para que nos orientes si es que está o que ya lo que se espera como entregable para esta presentación,
+
+00:00:25.680 --> 00:00:27.960
+o falta algún detalle que tú consiguieras
+
+00:00:27.960 --> 00:00:30.640
+o algo a lo mejor no va, no está bien explicado, etc.
+
+00:00:31.460 --> 00:00:35.400
+Como para encauzar la presentación de la mejor forma posible.
+
+00:00:36.460 --> 00:00:38.260
+Esa es la presentación número 12, ¿cierto?
+
+00:00:39.140 --> 00:00:39.580
+Correcto.
+
+00:00:40.000 --> 00:00:40.960
+¿Cuándo les toca, el martes?
+
+00:00:41.620 --> 00:00:42.640
+El martes yo creo.
+
+00:00:43.080 --> 00:00:43.460
+Excelente.
+
+00:00:44.000 --> 00:00:44.140
+Sí.
+
+00:00:44.880 --> 00:00:45.880
+Yo creo que es el martes 4.
+
+00:00:46.580 --> 00:00:49.200
+O 5, pero no sé, ya me perdí.
+
+00:00:49.800 --> 00:00:50.680
+Pero eso, profe.
+
+00:00:50.760 --> 00:00:52.520
+Así que ahí te doy el paso en la amplia,
+
+00:00:52.600 --> 00:00:54.240
+que hay otras preguntas que quieras.
+
+00:00:54.240 --> 00:01:07.540
+Sí, mire, a ver, si bien vamos a entrar en la presentación, ya, lo que nosotros queremos resolver, profesor, son dos grandes consultas.
+
+00:01:07.540 --> 00:01:27.760
+Uno es validar o revalidar con usted el alcance del capstone porque al menos siempre hemos tenido la duda si el proyecto capstone final es presentar la idea, el diseño conceptual y nunca salirnos del marco de esto es una presentación de capstone.
+
+00:01:27.760 --> 00:01:33.900
+o si alguien de la comisión evaluadora va a levantar su mano al final
+
+00:01:33.900 --> 00:01:37.760
+y nos va a decir, muéstrenos el proyecto, muéstrenos la construcción.
+
+00:01:37.920 --> 00:01:41.460
+Esa es una primera duda, si el capítulo tiene que llevar una construcción
+
+00:01:41.460 --> 00:01:43.280
+o es solamente conceptual de idea.
+
+00:01:43.920 --> 00:01:48.960
+Eso nunca, usted tiene que construir, pero ustedes construyen y entregan resultados,
+
+00:01:48.960 --> 00:01:51.980
+no entregan producto, no entregan código ni nada del estilo.
+
+00:01:52.120 --> 00:01:53.420
+Esto es imposible que pase, ¿bien?
+
+00:01:53.500 --> 00:01:56.660
+Que alguien le diga, oye, compártame pantalla, muéstrame tu código,
+
+00:01:56.660 --> 00:01:58.380
+muéstrame dónde lo estás haciendo
+
+00:01:58.380 --> 00:02:00.800
+desde la conversa se van a dar cuenta
+
+00:02:00.800 --> 00:02:02.420
+si ustedes lo están haciendo o no
+
+00:02:02.420 --> 00:02:05.340
+menos ahora en esta instancia
+
+00:02:05.340 --> 00:02:06.200
+temprano todavía
+
+00:02:06.200 --> 00:02:08.740
+ok, perfecto, entonces finalmente
+
+00:02:08.740 --> 00:02:10.780
+cuando lleguemos a presentar a la comisión
+
+00:02:10.780 --> 00:02:12.840
+sí o sí tenemos que darle a entender a ustedes
+
+00:02:12.840 --> 00:02:14.780
+nosotros teníamos un escenario A
+
+00:02:14.780 --> 00:02:16.680
+aplicamos nuestra solución
+
+00:02:16.680 --> 00:02:18.480
+generamos un escenario B
+
+00:02:18.480 --> 00:02:20.920
+y estas son las mejoras, los KPI
+
+00:02:20.920 --> 00:02:22.640
+el revenue
+
+00:02:22.640 --> 00:02:23.660
+del ejercicio
+
+00:02:23.660 --> 00:02:27.940
+Perfecto, ok, listo
+
+00:02:27.940 --> 00:02:29.740
+Ok, dicho eso entonces
+
+00:02:29.740 --> 00:02:31.940
+la segunda duda es el alcance
+
+00:02:31.940 --> 00:02:33.920
+de la presentación, profesor, porque también
+
+00:02:33.920 --> 00:02:35.960
+ahí cuando aplicamos la primera
+
+00:02:35.960 --> 00:02:38.100
+rúbrica tuvimos
+
+00:02:38.100 --> 00:02:40.100
+una pequeña diferencia en la evaluación
+
+00:02:40.100 --> 00:02:41.360
+con el profesor y
+
+00:02:41.360 --> 00:02:43.660
+quedamos con una duda y es
+
+00:02:43.660 --> 00:02:45.780
+si ustedes
+
+00:02:45.780 --> 00:02:48.140
+prefieren que la presentación
+
+00:02:48.140 --> 00:02:50.020
+dado que estos contenidos son
+
+00:02:50.020 --> 00:02:52.220
+de inteligencia artificial y estamos resolviendo
+
+00:02:52.220 --> 00:02:54.100
+un supuesto problema que es complejo, ¿cierto?
+
+00:02:54.140 --> 00:02:55.560
+Porque si no lo resolveríamos
+
+00:02:55.560 --> 00:02:57.560
+con técnicas tradicionales.
+
+00:02:58.280 --> 00:03:00.400
+¿Ustedes quieren que la presentación
+
+00:03:00.400 --> 00:03:02.280
+sea técnica y orientada
+
+00:03:02.280 --> 00:03:03.800
+a la inteligencia artificial?
+
+00:03:04.100 --> 00:03:06.140
+¿O ustedes se van a poner otro sombrero
+
+00:03:06.140 --> 00:03:08.020
+como, por ejemplo, como un directorio,
+
+00:03:08.100 --> 00:03:10.100
+como una gerencia, y nos van a
+
+00:03:10.100 --> 00:03:12.060
+decir, véndannos esto,
+
+00:03:12.200 --> 00:03:13.940
+pero desde un punto de vista más de
+
+00:03:13.940 --> 00:03:16.020
+negocio? Y ahí nos tendríamos que
+
+00:03:16.020 --> 00:03:18.000
+ir con lucas, con montos, con
+
+00:03:18.000 --> 00:03:20.020
+tiempo, con cuántas personas vamos a
+
+00:03:20.020 --> 00:03:20.900
+automatizar.
+
+00:03:22.220 --> 00:03:30.320
+esto si esto si hernán va es una mezcla pero no ahora en la defensa final de tesis usted tiene
+
+00:03:30.320 --> 00:03:37.280
+que tener el cálculo de sensibilidad de costo ahí donde y hace esto performance o sea tiene ahorro
+
+00:03:37.280 --> 00:03:42.440
+pues como se calcula esto se tiene que calcular mostrar el éxito del caso de negocio pero no ahora
+
+00:03:42.440 --> 00:03:44.400
+Ok, no en esta etapa
+
+00:03:44.400 --> 00:03:47.020
+Pero sí, problemas claro
+
+00:03:47.020 --> 00:03:48.280
+Casos de negocio claro
+
+00:03:48.280 --> 00:03:50.420
+No el business case a nivel de CAPEX o OPEX
+
+00:03:50.420 --> 00:03:53.000
+El entendimiento del problema de negocio
+
+00:03:53.000 --> 00:03:55.100
+Entendimiento del contexto de negocio
+
+00:03:55.100 --> 00:03:56.520
+Y luego, ¿qué es?
+
+00:03:56.920 --> 00:03:58.980
+Visualización de datos, ingeniería de datos
+
+00:03:58.980 --> 00:04:01.980
+Atributos, preprocesamiento
+
+00:04:01.980 --> 00:04:03.220
+Modelo entrenado
+
+00:04:03.220 --> 00:04:03.760
+Eso
+
+00:04:03.760 --> 00:04:06.320
+Perfecto, ya, ok
+
+00:04:06.320 --> 00:04:08.340
+Muchas gracias, eso aclara bastante
+
+00:04:08.340 --> 00:04:10.580
+Yo ya quedé bastante, bastante claro
+
+00:04:10.580 --> 00:04:13.040
+Vamos a la presentación entonces ahora
+
+00:04:13.040 --> 00:04:15.040
+Ya, Pau, entremos rapidito
+
+00:04:15.040 --> 00:04:16.540
+Ya, ya, profe, mira
+
+00:04:16.540 --> 00:04:21.120
+La orientación de la presentación es relacionada a un alcance
+
+00:04:21.120 --> 00:04:25.300
+O a una mejora sobre lo que se realiza actualmente
+
+00:04:25.300 --> 00:04:28.640
+O lo que yo acabo en el banco en temas de pruebas de rendimiento
+
+00:04:28.640 --> 00:04:33.840
+Como primera slide, vamos a mostrar un poco
+
+00:04:33.840 --> 00:04:36.680
+Qué es el banco, cierto, que es un negocio financiero
+
+00:04:36.680 --> 00:04:38.920
+Para personas y empresas, cierto
+
+00:04:38.920 --> 00:04:41.560
+con servicios tecnológicos que dependen
+
+00:04:41.560 --> 00:04:43.440
+de sus capacidades para responder a la demanda
+
+00:04:43.440 --> 00:04:45.620
+que vayan teniendo, por ejemplo, en momentos
+
+00:04:45.620 --> 00:04:47.560
+críticos de alta demanda como puede ser
+
+00:04:47.560 --> 00:04:49.420
+un Cyber Day, ¿cierto?
+
+00:04:49.560 --> 00:04:51.360
+o Navidad, no sé
+
+00:04:51.360 --> 00:04:53.200
+momentos de alta demanda
+
+00:04:53.200 --> 00:04:55.140
+de los servicios de banco, ¿cierto?
+
+00:04:56.440 --> 00:04:57.600
+Yo pertenezco
+
+00:04:57.600 --> 00:04:59.300
+al área de IMAX DevOps, que lo encargamos
+
+00:04:59.300 --> 00:05:01.660
+de generar innovación dentro de DevOps
+
+00:05:01.660 --> 00:05:03.340
+que va más allá
+
+00:05:03.340 --> 00:05:05.460
+del tema de la ejecución
+
+00:05:05.460 --> 00:05:07.420
+de los pipelines y que todo pase
+
+00:05:07.420 --> 00:05:08.960
+se deploye esa producción de forma
+
+00:05:08.960 --> 00:05:11.580
+se deploye en estos servicios
+
+00:05:11.580 --> 00:05:14.300
+dentro del área
+
+00:05:14.300 --> 00:05:16.140
+estamos enfocados en varias cosas relacionadas
+
+00:05:16.140 --> 00:05:17.700
+a pruebas, en mi caso estoy
+
+00:05:17.700 --> 00:05:19.740
+solo relacionado a temas de pruebas de rendimiento
+
+00:05:19.740 --> 00:05:21.900
+y es por eso que está
+
+00:05:21.900 --> 00:05:23.640
+en enfoque del proyecto
+
+00:05:23.640 --> 00:05:25.480
+de hoy y de la tarea
+
+00:05:25.480 --> 00:05:27.680
+lo que queremos desarrollar es algo que
+
+00:05:27.680 --> 00:05:30.020
+analice los resultados que ya tenemos
+
+00:05:30.020 --> 00:05:32.220
+disponibles de cada uno de estos microservicios
+
+00:05:32.220 --> 00:05:33.920
+para darles un
+
+00:05:33.920 --> 00:05:36.180
+enriquecimiento y entregarle
+
+00:05:36.180 --> 00:05:40.560
+una información mayor a estas pruebas que las que se están realizando actualmente.
+
+00:05:41.520 --> 00:05:44.880
+Más adelante paso un poco a explicar cuál es el problema que está ocurriendo.
+
+00:05:46.400 --> 00:05:52.440
+Cuando presentamos el proyecto en el primer capstone, lo presentamos con un nivel mucho más general.
+
+00:05:52.920 --> 00:05:59.000
+Hablaba sobre temas de prueba, pero hablaba, por ejemplo, de que nosotros queríamos definir
+
+00:05:59.000 --> 00:06:03.040
+que los recursos que se estaban utilizando dentro del pod, del caster,
+
+00:06:03.040 --> 00:06:04.240
+todas van a bastar para estas pruebas.
+
+00:06:06.220 --> 00:06:10.720
+Pero entre otras cosas, lo que pasó en el transcurso es que cuando presentamos eso,
+
+00:06:11.020 --> 00:06:14.800
+quedó como muy ambiguo o un proyecto demasiado amplio,
+
+00:06:15.140 --> 00:06:17.360
+sino un objetivo más claro y acotado,
+
+00:06:17.880 --> 00:06:22.400
+y lo que hicimos fue trabajar en desarrollar el proyecto en base a la información
+
+00:06:22.400 --> 00:06:25.360
+que podíamos tener disponible porque hay información de infraestructura
+
+00:06:25.360 --> 00:06:26.480
+con la que no podíamos contar.
+
+00:06:27.700 --> 00:06:31.680
+Entonces, obtuvimos por el lado de las pruebas de rendimiento
+
+00:06:31.680 --> 00:06:37.480
+la información tanto de la configuración de las pruebas, de la parametrización,
+
+00:06:37.760 --> 00:06:43.440
+de cómo se ejecuta en cada componente, en los distintos ámbitos del banco,
+
+00:06:44.300 --> 00:06:46.020
+junto a los resultados de estas pruebas.
+
+00:06:47.640 --> 00:06:54.040
+Y con esto lo que logramos obtener es poder generar un apoyo de decisión técnica
+
+00:06:54.040 --> 00:06:58.300
+con esta información en base a la integración de reglas y machine learning,
+
+00:06:58.300 --> 00:07:02.720
+que es el proyecto que vamos a llevar a cabo, o el que ya tenemos a cabo como poco.
+
+00:07:04.840 --> 00:07:09.900
+Perdón Luis, una consulta. ¿Puede repetirme el objetivo nuevamente de forma muy simple?
+
+00:07:09.900 --> 00:07:27.500
+El objetivo de este proyecto es poder entregar, poder analizar la información del comportamiento de los mismos componentes
+
+00:07:27.500 --> 00:07:29.480
+componentes para entregarles una
+
+00:07:29.480 --> 00:07:31.520
+recomendación respecto a las pruebas que
+
+00:07:31.520 --> 00:07:33.760
+se están realizando para evolucionarlas,
+
+00:07:34.420 --> 00:07:35.200
+mejorarlas,
+
+00:07:36.000 --> 00:07:37.940
+o en el caso de, o analizarlas
+
+00:07:37.940 --> 00:07:39.200
+en el caso que corresponda.
+
+00:07:39.780 --> 00:07:41.440
+Claro. Ahí tienen ustedes
+
+00:07:41.440 --> 00:07:43.440
+un desafío un poquito complejo,
+
+00:07:43.580 --> 00:07:45.180
+¿bien? Como en el tema de DevOps.
+
+00:07:45.880 --> 00:07:47.440
+Entonces, yo haría un listado
+
+00:07:47.440 --> 00:07:49.640
+de pruebas, es una lámina simple para explicar
+
+00:07:49.640 --> 00:07:51.240
+qué son las pruebas, qué significa,
+
+00:07:51.420 --> 00:07:52.480
+dónde están las cuevas de botella.
+
+00:07:53.600 --> 00:07:55.640
+Dando el contexto y saltarse al objetivo
+
+00:07:55.640 --> 00:07:56.440
+y yo te entiendo.
+
+00:07:56.440 --> 00:07:58.960
+también son informáticos, pero no sé si lo tienen
+
+00:07:58.960 --> 00:07:59.500
+se te va a entender
+
+00:07:59.500 --> 00:08:03.300
+por ejemplo partiría con el cuello de botella
+
+00:08:03.300 --> 00:08:04.500
+antes o después de que
+
+00:08:04.500 --> 00:08:05.900
+lo que pasa es que
+
+00:08:05.900 --> 00:08:09.420
+luego de la portada
+
+00:08:09.420 --> 00:08:11.500
+el profe nos pidió que hubiera una explicación
+
+00:08:11.500 --> 00:08:12.840
+del banco en sí
+
+00:08:12.840 --> 00:08:14.500
+o del contexto donde está
+
+00:08:14.500 --> 00:08:15.740
+después
+
+00:08:15.740 --> 00:08:18.440
+después
+
+00:08:18.440 --> 00:08:21.220
+con los chillos quisimos explicar
+
+00:08:21.220 --> 00:08:23.400
+por qué habíamos cambiado
+
+00:08:23.400 --> 00:08:25.260
+un poco el objetivo de este capstone
+
+00:08:25.260 --> 00:08:26.140
+en relación al anterior
+
+00:08:26.140 --> 00:08:33.660
+en la la está y siente y en esta y vamos a explicar un poco el tema de las pruebas
+
+00:08:33.660 --> 00:08:42.700
+pero consulta una consulta profesor si la lámina 2 como indican louis le agregamos porque estamos
+
+00:08:42.700 --> 00:08:48.340
+la verdad es que estamos reparando parte de la rúbrica anterior ya y por eso le denominamos
+
+00:08:48.340 --> 00:08:53.180
+lecciones aprendidas porque asumimos que el profesor que nos va a ver ahora qué serie él
+
+00:08:53.180 --> 00:08:56.880
+él tendrá un apunte y él ahí tendrá, oye, estos cabros estuvieron débiles por tal cosa,
+
+00:08:56.960 --> 00:08:59.640
+entonces por eso agregamos la lámina 2 que lecciona aprendizaje, ¿ya?
+
+00:09:00.060 --> 00:09:05.780
+La lámina 3, que es donde usted preguntó ahora, yo creo que le entendía,
+
+00:09:05.900 --> 00:09:09.740
+pero todavía le queda una duda respecto ya, pero ¿cuál es el objetivo?
+
+00:09:09.880 --> 00:09:11.560
+¿Qué van a resolver con esto? ¿Ya?
+
+00:09:13.080 --> 00:09:17.540
+¿Qué pasa? Por ahí, porque la verdad es, ¿qué es lo que vamos a resolver?
+
+00:09:17.640 --> 00:09:20.560
+¿Y cuál es el objetivo de esto? La verdad es que lo que yo entendí
+
+00:09:20.560 --> 00:09:25.080
+y conversando con Luis, etcétera, y todo lo que hemos dado vuelta, yo haría una síntesis de esto,
+
+00:09:25.200 --> 00:09:35.660
+que es, el objetivo de esto es acelerar las pruebas de estrés en función de determinar cuál es la mejor capacidad
+
+00:09:35.660 --> 00:09:39.640
+que deben tener los componentes tecnológicos para responder a esa prueba de estrés.
+
+00:09:39.880 --> 00:09:44.820
+Claro, eso está dado también por los tiempos que demora todo esto, por ejemplo,
+
+00:09:45.600 --> 00:09:49.040
+cuando tuve conversaciones con los equipos de CUA, cuando se arrollan las pruebas,
+
+00:09:49.040 --> 00:09:50.520
+Ellos me comentaban que dependiendo
+
+00:09:50.520 --> 00:09:52.860
+A ellos las pruebas les dan unos puntos
+
+00:09:52.860 --> 00:09:55.160
+De acuerdo al nivel de complejidad
+
+00:09:55.160 --> 00:09:57.200
+Y ponte tú, un punto son tres horas
+
+00:09:57.200 --> 00:09:58.200
+Para desarrollar esa prueba
+
+00:09:58.200 --> 00:10:00.360
+Y
+
+00:10:00.360 --> 00:10:02.220
+Que es como una prueba
+
+00:10:02.220 --> 00:10:04.840
+La más simple, se da un punto
+
+00:10:04.840 --> 00:10:07.340
+Tres horas, y a la más compleja
+
+00:10:07.340 --> 00:10:08.240
+Podría llegar hasta
+
+00:10:08.240 --> 00:10:09.660
+48 horas
+
+00:10:09.660 --> 00:10:12.120
+En desarrollarse
+
+00:10:12.120 --> 00:10:15.280
+Y lo otro también que ocurre
+
+00:10:15.280 --> 00:10:16.980
+Es que ya la prueba se
+
+00:10:16.980 --> 00:10:19.620
+se genera, ¿cierto? y se ejecuta
+
+00:10:19.620 --> 00:10:21.640
+la aprobación
+
+00:10:21.640 --> 00:10:23.520
+del QA
+
+00:10:23.520 --> 00:10:25.280
+demora entre 1 a 35
+
+00:10:25.280 --> 00:10:27.100
+horas, que es el plazo más bueno que tiene
+
+00:10:27.100 --> 00:10:28.800
+para decir, ok, esto está ok
+
+00:10:28.800 --> 00:10:31.440
+entonces imagina, si la prueba
+
+00:10:31.440 --> 00:10:33.480
+es la más compleja serían 2 horas de demora
+
+00:10:33.480 --> 00:10:35.360
+más otro día
+
+00:10:35.360 --> 00:10:37.480
+y medio extra para poder
+
+00:10:37.480 --> 00:10:39.460
+pasar esto al siguiente
+
+00:10:39.460 --> 00:10:41.420
+ambiente. ¿Cuánto es
+
+00:10:41.420 --> 00:10:43.520
+el nivel o el tamaño de la demanda?
+
+00:10:43.640 --> 00:10:45.320
+es decir que, para que ocurra
+
+00:10:45.320 --> 00:10:47.820
+Con 48 horas de SLA de flujo
+
+00:10:47.820 --> 00:10:49.580
+¿Cuántos SLAs
+
+00:10:49.580 --> 00:10:51.220
+Deberían pasar por día?
+
+00:10:51.320 --> 00:10:52.560
+¿Cuántas solicitudes llegan?
+
+00:10:53.500 --> 00:10:53.680
+¿Bien?
+
+00:10:54.060 --> 00:10:56.780
+Que podrían pasar de una muestra a N
+
+00:10:56.780 --> 00:10:57.480
+¿Cuántos SLN?
+
+00:10:58.520 --> 00:11:00.320
+Es que eso está dividido por ciclos de sprint
+
+00:11:00.320 --> 00:11:01.380
+Que pueden ser dos semanas
+
+00:11:01.380 --> 00:11:04.560
+Y dentro de esas dos semanas van a haber al menos
+
+00:11:04.560 --> 00:11:06.620
+Seis tareas manuales relacionadas a esto
+
+00:11:06.620 --> 00:11:07.500
+Claro
+
+00:11:07.500 --> 00:11:10.420
+Ese es el volumen, eso es importante
+
+00:11:10.420 --> 00:11:12.080
+Porque yo te digo, si el tema es el sprint
+
+00:11:12.080 --> 00:11:14.000
+O sea, la metodología que se está ocupando
+
+00:11:14.000 --> 00:11:15.020
+No está funcionando
+
+00:11:15.020 --> 00:11:16.480
+entonces por eso
+
+00:11:16.480 --> 00:11:17.680
+comienzan a colocar
+
+00:11:17.680 --> 00:11:18.140
+mira
+
+00:11:18.140 --> 00:11:18.980
+esto significa
+
+00:11:18.980 --> 00:11:20.620
+que la demanda mensual
+
+00:11:20.620 --> 00:11:21.760
+que son dos prints
+
+00:11:21.760 --> 00:11:22.260
+por ejemplo
+
+00:11:22.260 --> 00:11:23.560
+son doce
+
+00:11:23.560 --> 00:11:24.880
+vean doce tareas
+
+00:11:24.880 --> 00:11:25.440
+que ejecutan
+
+00:11:25.440 --> 00:11:26.780
+¿cuánto es el volumen
+
+00:11:26.780 --> 00:11:27.460
+de estas doce?
+
+00:11:27.760 --> 00:11:28.880
+¿cuánto SLA generan?
+
+00:11:29.460 --> 00:11:30.060
+multiplican
+
+00:11:30.060 --> 00:11:30.980
+hasta 48 horas
+
+00:11:30.980 --> 00:11:31.540
+por cada uno
+
+00:11:31.540 --> 00:11:32.400
+que llega a tener
+
+00:11:32.400 --> 00:11:32.900
+un SLA
+
+00:11:32.900 --> 00:11:33.660
+acumulado
+
+00:11:33.660 --> 00:11:34.000
+no sé
+
+00:11:34.000 --> 00:11:35.180
+algo de mil horas
+
+00:11:35.180 --> 00:11:36.260
+¿bien?
+
+00:11:37.260 --> 00:11:37.740
+se dan
+
+00:11:37.740 --> 00:11:38.880
+más fuerza
+
+00:11:38.880 --> 00:11:39.780
+ok
+
+00:11:39.780 --> 00:11:40.860
+ya para explicarlo
+
+00:11:40.860 --> 00:11:41.800
+dentro del mismo contexto
+
+00:11:41.800 --> 00:11:42.580
+de este cuello
+
+00:11:42.580 --> 00:11:43.260
+de seguro
+
+00:11:43.260 --> 00:11:43.460
+ya
+
+00:11:43.460 --> 00:11:44.040
+super
+
+00:11:44.040 --> 00:11:44.900
+perfecto
+
+00:11:45.020 --> 00:11:56.980
+Eso. Perfecto. Ya me quedó claro. O sea, básicamente esto es, bueno, ese indicador es reducción de horas. Pero la entendí. Perfecto. Ok.
+
+00:11:57.780 --> 00:12:09.260
+Y aquí explico más o menos cómo funciona el flujo hoy en día. Por ejemplo, para generar una prueba nueva se genera un ticket. Este ticket va a empezar ahí a hacer la planificación de cómo se va a ejecutar esta prueba.
+
+00:12:09.260 --> 00:12:14.420
+los insumos con los que se va a aprobar esta prueba, que son los componentes del servicio que se va a aprobar,
+
+00:12:14.500 --> 00:12:17.520
+se ejecuta esta prueba y ahí viene la etapa de aprobación.
+
+00:12:17.660 --> 00:12:20.640
+Entonces nosotros nos vamos a meter entre la etapa de ejecución y aprobación
+
+00:12:20.640 --> 00:12:24.860
+para analizar todos estos resultados y dar la opción más óptima de esta prueba.
+
+00:12:28.580 --> 00:12:34.080
+La POC actualmente la tenemos en local y nos genera tres tipos de decisiones.
+
+00:12:34.080 --> 00:12:38.480
+una es revisar los resultados
+
+00:12:38.480 --> 00:12:40.240
+porque a veces lo que nos pasa es que
+
+00:12:40.240 --> 00:12:42.360
+independiente del tipo
+
+00:12:42.360 --> 00:12:44.420
+por ejemplo podemos mantener un tipo de prueba siempre
+
+00:12:44.420 --> 00:12:46.860
+pero el servicio es inestable
+
+00:12:46.860 --> 00:12:48.240
+entonces me responde bien
+
+00:12:48.240 --> 00:12:49.860
+y con error
+
+00:12:49.860 --> 00:12:51.280
+para el mismo tipo de prueba
+
+00:12:51.280 --> 00:12:54.100
+entonces eso debería
+
+00:12:54.100 --> 00:12:55.400
+venir una revisión y a veces
+
+00:12:55.400 --> 00:12:57.120
+como esto se
+
+00:12:57.120 --> 00:12:59.640
+lo único que se hace es revisar que pase
+
+00:12:59.640 --> 00:13:01.960
+como que no se tienen
+
+00:13:01.960 --> 00:13:03.680
+conciencia de que tal componente
+
+00:13:03.680 --> 00:13:06.180
+está siempre teniendo esa funcionalidad
+
+00:13:06.180 --> 00:13:06.680
+inestable
+
+00:13:06.680 --> 00:13:09.860
+entonces eso es marcarlo con revisión
+
+00:13:09.860 --> 00:13:11.840
+para ver, hacer mejoras
+
+00:13:11.840 --> 00:13:13.800
+sobre el mismo servicio porque a lo mejor está consumiendo
+
+00:13:13.800 --> 00:13:15.060
+muchos recursos, qué sé yo
+
+00:13:15.060 --> 00:13:17.860
+lo otro es que esta etapa evolucione
+
+00:13:17.860 --> 00:13:19.680
+porque yo le hago una prueba muy mínima
+
+00:13:19.680 --> 00:13:21.780
+y mi componente siempre está respondiendo bien
+
+00:13:21.780 --> 00:13:23.100
+y a lo mejor esa prueba
+
+00:13:23.100 --> 00:13:25.860
+o lo que va a determinar esto
+
+00:13:25.860 --> 00:13:27.760
+es que esa prueba en verdad no está dentro de lo que
+
+00:13:27.760 --> 00:13:29.700
+es esperado por el banco, que por ejemplo
+
+00:13:29.700 --> 00:13:31.840
+espera que ese componente responda
+
+00:13:31.840 --> 00:13:32.820
+con 50 TPS
+
+00:13:32.820 --> 00:13:35.120
+50 transacciones por segundo
+
+00:13:35.120 --> 00:13:36.880
+y yo le estoy pidiendo que responda 2
+
+00:13:36.880 --> 00:13:39.180
+entonces obviamente si puede responder bien
+
+00:13:39.180 --> 00:13:41.780
+y la idea es evolucionarle esto a que llegue a los niveles
+
+00:13:41.780 --> 00:13:43.740
+de respuesta de negocio esperado
+
+00:13:43.740 --> 00:13:45.640
+¿ya?
+
+00:13:48.400 --> 00:13:50.040
+¿y cómo lo realiza esto?
+
+00:13:50.380 --> 00:13:51.780
+nosotros tomamos todas las configuraciones
+
+00:13:52.420 --> 00:13:54.000
+los resultados de las pruebas
+
+00:13:54.000 --> 00:13:56.200
+y los estandarizamos dentro del proceso
+
+00:13:56.200 --> 00:13:56.880
+¿ya?
+
+00:13:58.420 --> 00:13:59.900
+se formaliza con
+
+00:13:59.900 --> 00:14:01.740
+ciertos conocimientos dentro del mismo
+
+00:14:01.740 --> 00:14:07.420
+para generar reglas, hacer el entrenamiento, y la idea es integrar este flujo dentro del pipeline.
+
+00:14:07.780 --> 00:14:10.740
+En primera instancia lo que va a hacer es generar una recomendación,
+
+00:14:11.520 --> 00:14:15.760
+pero la idea también es que el siguiente paso es que esto genere el archivo de prueba
+
+00:14:15.760 --> 00:14:20.180
+esperado con el que va a responder de forma más adecuada el mismo microservicio,
+
+00:14:20.880 --> 00:14:23.460
+de acuerdo a las reglas de negocio del banco.
+
+00:14:27.960 --> 00:14:31.280
+Actualmente estuve investigando y no habían herramientas así de ese tipo,
+
+00:14:31.280 --> 00:14:45.000
+porque al final nuestra idea es como desapegarnos de la herramienta así, o sea, puede ser, hoy día puede ser Gatling, J-Meter, K6 o cualquier otro tipo de herramientas de proveeduramiento que existen en el mercado
+
+00:14:45.000 --> 00:14:51.280
+y nosotros integrarnos a eso y evaluar el histórico del banco que eso no lo va a poder realizar las otras herramientas.
+
+00:14:51.280 --> 00:14:53.440
+herramienta, porque nosotros
+
+00:14:53.440 --> 00:14:55.360
+como trabajamos en el banco podemos acceder a esa
+
+00:14:55.360 --> 00:14:57.560
+información para generar
+
+00:14:57.560 --> 00:14:58.120
+este modelo
+
+00:14:58.120 --> 00:15:01.280
+en casa que nos pueda permitir
+
+00:15:01.280 --> 00:15:03.360
+dar estas mejores
+
+00:15:03.360 --> 00:15:05.100
+prácticas y eso
+
+00:15:05.100 --> 00:15:11.160
+bueno, y esto es como
+
+00:15:11.160 --> 00:15:12.980
+el flujo que se sigue
+
+00:15:12.980 --> 00:15:15.340
+nosotros obtenemos
+
+00:15:15.340 --> 00:15:17.020
+las configuraciones, las métricas y toda la historia
+
+00:15:17.020 --> 00:15:17.520
+¿cierto?
+
+00:15:17.520 --> 00:15:44.520
+Voy a preguntarte aquí, perdón. Mira, si van a presentar así, yo creo que lo van a interrumpir varias veces y van a quedar con un problema. Está muy subdividido el detalle y muy larga la instrucción. Es decir, que aún no pasan ni atributos, ni visualización, ni descripción, ni primer modelo. No nos va a alcanzar el tiempo. Así que tratan de chequear para que no ganen una pelea, o sea, contra el comité que va a estar ahí.
+
+00:15:44.520 --> 00:15:47.200
+agrupen, resumen
+
+00:15:47.200 --> 00:15:49.240
+hay cosas que no ven publicadas repetitivas
+
+00:15:49.240 --> 00:15:51.220
+y tengan un diagrama
+
+00:15:51.220 --> 00:15:53.300
+de proceso un poquito mejor dibujado
+
+00:15:53.300 --> 00:15:54.980
+que no sea así, porque se nota
+
+00:15:54.980 --> 00:15:56.140
+muy pasado a cloud
+
+00:15:56.140 --> 00:15:58.100
+así que colocan su toque
+
+00:15:58.100 --> 00:16:01.260
+ya, de hecho
+
+00:16:01.260 --> 00:16:02.680
+yo creo que esta parte está como redundante
+
+00:16:02.680 --> 00:16:04.100
+dentro de lo que ya habíamos explicado
+
+00:16:04.100 --> 00:16:06.060
+porque ya hemos explicado cómo funciona el modelo en sí
+
+00:16:06.060 --> 00:16:08.840
+estas son las fuentes de entrada
+
+00:16:08.840 --> 00:16:11.020
+yo creo que eso lo vamos a unir con otra información
+
+00:16:11.020 --> 00:16:12.600
+de los flujos que ya hemos visto
+
+00:16:12.600 --> 00:16:16.300
+¿Cómo funciona a nivel interno esto?
+
+00:16:16.820 --> 00:16:17.940
+De entrada yo voy a recibir
+
+00:16:17.940 --> 00:16:19.120
+Todos estos inputs que son
+
+00:16:19.120 --> 00:16:21.380
+Las configuraciones, el historial de las pruebas
+
+00:16:21.380 --> 00:16:23.940
+Voy a preparar y normalizar
+
+00:16:23.940 --> 00:16:24.680
+Esta información
+
+00:16:24.680 --> 00:16:26.920
+Voy a generar este historial
+
+00:16:26.920 --> 00:16:29.140
+Que lo va a guardar y lo va a encrenar
+
+00:16:29.140 --> 00:16:30.840
+El Machine Learning
+
+00:16:30.840 --> 00:16:32.380
+Y voy a generar esta salida
+
+00:16:32.380 --> 00:16:35.080
+Que es la prueba y la recomendación
+
+00:16:35.080 --> 00:16:36.780
+Exacta ahí dentro del mismo país
+
+00:16:36.780 --> 00:16:41.440
+Creo que esto es más de lo mismo
+
+00:16:41.440 --> 00:16:43.960
+esta también
+
+00:16:43.960 --> 00:16:45.580
+como una aplicación de los
+
+00:16:45.580 --> 00:16:47.500
+¿Tienen como varias?
+
+00:16:47.960 --> 00:16:48.560
+¿Sí?
+
+00:16:48.940 --> 00:16:52.520
+¿Láminas que la tienen que reducir a 4 o 5 máximo?
+
+00:16:52.960 --> 00:16:53.100
+¿Ya?
+
+00:16:53.440 --> 00:16:55.960
+Bueno, esta otra parte no la hemos visto
+
+00:16:55.960 --> 00:16:58.020
+aquí, por ejemplo, para la POC que utilizamos
+
+00:16:58.020 --> 00:16:59.980
+utilizamos
+
+00:16:59.980 --> 00:17:01.100
+un total de
+
+00:17:01.100 --> 00:17:03.720
+9 artefactos, que son 9 componentes
+
+00:17:03.720 --> 00:17:06.180
+que dimos la información de su resultado
+
+00:17:06.180 --> 00:17:07.400
+de las pruebas y las configuraciones
+
+00:17:07.400 --> 00:17:10.120
+en total 89 pruebas para desarrollar
+
+00:17:10.120 --> 00:17:12.680
+y evaluar el modelo que estamos generando.
+
+00:17:17.700 --> 00:17:19.240
+También lo podemos resumir.
+
+00:17:20.720 --> 00:17:25.360
+Bueno, y el valor que tiene todo esto es el tema de lo que hablamos anteriormente
+
+00:17:25.360 --> 00:17:26.140
+sobre los pollos de botella.
+
+00:17:26.260 --> 00:17:27.700
+Vamos a disminuir estos tiempos, ¿cierto?
+
+00:17:28.280 --> 00:17:32.320
+Vamos a entregar información con más consistencia, con trazabilidad
+
+00:17:32.320 --> 00:17:37.860
+y con esta capacidad del entrenamiento que nos va a entregar la información
+
+00:17:37.860 --> 00:17:47.900
+y este conocimiento experto de la prueba que se debería realizar o mejorar para cada uno de los componentes.
+
+00:17:51.720 --> 00:17:57.960
+Y como les comentaba, hoy, hasta donde llegamos del desarrollo de hoy día, llegamos a la recomendación,
+
+00:17:58.520 --> 00:18:01.640
+pero en el siguiente paso lo que vamos a hacer es generar esta prueba en el formato,
+
+00:18:02.200 --> 00:18:09.360
+con las condiciones de negocio y todo lo que se requiere, para que el UA cuando vaya a decidir por esta recomendación,
+
+00:18:09.360 --> 00:18:12.540
+si la prueba, esta prueba va a repasar la que tiene actualmente
+
+00:18:12.540 --> 00:18:14.240
+y es la que se va a ejecutar posteriormente
+
+00:18:14.240 --> 00:18:16.320
+o va a mantener lo que ya está
+
+00:18:16.320 --> 00:18:17.840
+haciendo en la actualidad
+
+00:18:17.840 --> 00:18:26.100
+eso también creo que no podemos
+
+00:18:26.100 --> 00:18:27.920
+vamos a la parte de
+
+00:18:27.920 --> 00:18:29.240
+datos de la inscripción, se te oye
+
+00:18:29.240 --> 00:18:32.120
+si siguen, es muy importante que se toquen esta parte
+
+00:18:32.120 --> 00:18:33.600
+porque si andan con esto
+
+00:18:33.600 --> 00:18:35.860
+ya veo que van a realizar su nota
+
+00:18:35.860 --> 00:18:37.880
+al menos de 5, bien, para tener mucho
+
+00:18:37.880 --> 00:18:39.440
+cuidado ahí, porque la idea es muy buena
+
+00:18:39.440 --> 00:18:41.820
+pero redundante, muy largo
+
+00:18:41.820 --> 00:18:44.120
+muy, bien, así que
+
+00:18:44.120 --> 00:19:21.500
+¿Y yo, profe?
+
+00:19:21.520 --> 00:19:30.700
+por ciento de la nota bien si llegan hasta aquí se corta el tiempo aunque es porque pero profe
+
+00:19:30.700 --> 00:19:36.400
+del otro lo que se demostramos ve que falte algo por agregar ya sé que hay cosas que tenemos que
+
+00:19:36.400 --> 00:19:41.960
+aportar ahí dentro de la presentación para dejarlo más preciso pero pero cosas que tú ves que falten
+
+00:19:41.960 --> 00:19:46.920
+algún número donde está y no solamente la parte de ese leal calculen la con n para que sea el
+
+00:19:46.920 --> 00:19:51.840
+volumen más grande bien ajustado para que se muestra la magnitud del proyecto porque
+
+00:19:51.840 --> 00:19:58.160
+eso ayer se desarrollan es mucho más cara que tal vez la chat de revisarlo a nivel de cuba bien
+
+00:20:02.540 --> 00:20:09.600
+pero ahí lo llevaríamos por ejemplo a acotarlo el tiempo que se va a demorar haciéndolo con el
+
+00:20:09.600 --> 00:20:15.520
+proceso que tenemos que hacer una comparación eso y cuántos llegan porque no sé no es que de
+
+00:20:15.520 --> 00:20:17.420
+hecho con retrabajo y cosas de cualquiera
+
+00:20:17.420 --> 00:20:19.200
+pasaron bien, de retestigos, adfix,
+
+00:20:19.280 --> 00:20:21.280
+o lo que sea que pasa, fix rápido, lo que sea,
+
+00:20:22.240 --> 00:20:23.700
+estima todo lo que es posible
+
+00:20:23.700 --> 00:20:25.320
+y que puede impactar directamente
+
+00:20:25.320 --> 00:20:27.380
+en esto. Y se ven que no está tan
+
+00:20:27.380 --> 00:20:29.120
+profundo y aquí impacta indirectamente.
+
+00:20:29.340 --> 00:20:30.400
+Atraso en el negocio.
+
+00:20:31.360 --> 00:20:33.480
+Pérdida. ¿Ven? Es muy grande
+
+00:20:33.480 --> 00:20:35.440
+ese lado. Sí, eso yo
+
+00:20:35.440 --> 00:20:36.980
+le iba a consultar, o sea,
+
+00:20:37.560 --> 00:20:39.400
+según lo que hemos conversado, tampoco es
+
+00:20:39.400 --> 00:20:41.000
+muy descabellado, creo entender yo,
+
+00:20:41.420 --> 00:20:43.280
+presentarnos, no sé, con una cuestión de
+
+00:20:43.280 --> 00:20:45.260
+cinco láminas, porque no veo más necesario
+
+00:20:45.260 --> 00:20:49.800
+que eso, con cinco láminas, pero donde una de las láminas que es donde se describe el problema,
+
+00:20:49.920 --> 00:20:56.080
+reforzarlo justamente como usted indicaba, cuáles son los problemas de hoy, pero en órdenes de
+
+00:20:56.080 --> 00:21:04.260
+magnitud importadas, exceso de tiempo, etcétera. También tengo anotado que vamos a concentrar y
+
+00:21:04.260 --> 00:21:10.360
+sintetizar muchas láminas, pero entender yo que les bastaría a ustedes con ver una sola lámina
+
+00:21:10.360 --> 00:21:16.420
+de diagrama de solución, para qué consumen, qué procesan, qué etiquetan,
+
+00:21:16.700 --> 00:21:21.200
+cuáles son los modelos que utilizan en ámbitos generales y cuáles son las salidas
+
+00:21:21.200 --> 00:21:24.260
+para el usuario final, que en este caso va a ser un asistente adecuado
+
+00:21:24.260 --> 00:21:29.180
+para que pueda programar con los parámetros correctos la prueba de estrés que viene.
+
+00:21:30.220 --> 00:21:33.860
+Eso, ustedes efectivamente como lo mencionaste, tienen la lámina de portada,
+
+00:21:34.440 --> 00:21:37.000
+tienen la lámina del contexto de la industria, el banco,
+
+00:21:37.000 --> 00:21:39.160
+Tiene la lámina del problema
+
+00:21:39.160 --> 00:21:40.220
+La situación actual
+
+00:21:40.220 --> 00:21:42.420
+La necesidad, luego tiene el problema
+
+00:21:42.420 --> 00:21:45.080
+Del objetivo, los objetivos específicos
+
+00:21:45.080 --> 00:21:46.120
+A cumplir y luego
+
+00:21:46.120 --> 00:21:48.940
+Aparece, metodología y una sola
+
+00:21:48.940 --> 00:21:50.520
+Diagrama de solución
+
+00:21:50.520 --> 00:21:51.880
+Desde el origen hacia el destino
+
+00:21:51.880 --> 00:21:53.840
+Que visualización, que trabajo
+
+00:21:53.840 --> 00:21:56.640
+Todas estas cosas tienen que estar en un diagrama
+
+00:21:56.640 --> 00:21:58.840
+Y luego pasan de inmediato a la descripción
+
+00:21:58.840 --> 00:21:59.320
+De datos
+
+00:21:59.320 --> 00:22:00.980
+Visualización
+
+00:22:00.980 --> 00:22:05.300
+Visualización de datos, perfecto
+
+00:22:05.300 --> 00:22:10.150
+Consulta
+
+00:22:10.150 --> 00:22:16.750
+¿Es bueno, por si sobra tiempo, presentar una última lámina final que le escuché?
+
+00:22:17.070 --> 00:22:19.510
+El concepto de qué gana el negocio con esto.
+
+00:22:20.390 --> 00:22:28.250
+Sí, ahora yo les haría esto, ustedes lo delimitan, en la parte del problema actual y los objetivos,
+
+00:22:28.510 --> 00:22:35.250
+ustedes pueden decir, les recomiendo algo, denle una vuelta rápida al cálculo y mándenme cómo queda el cálculo,
+
+00:22:35.250 --> 00:22:37.370
+etcétera, y yo les digo si es necesario
+
+00:22:37.370 --> 00:22:37.970
+¿no les parece?
+
+00:22:39.490 --> 00:22:41.430
+le puedo dar ideas, oye miren
+
+00:22:41.430 --> 00:22:43.310
+si ustedes se impactan así, le está solicitando
+
+00:22:43.310 --> 00:22:45.270
+la unidad A, la unidad A
+
+00:22:45.270 --> 00:22:47.110
+es la unidad de respuesta rápida al crédito
+
+00:22:47.110 --> 00:22:49.670
+intentando algo, ¿bien? entonces si el fix no sale
+
+00:22:49.670 --> 00:22:51.810
+se colapsa el call center, porque la herramienta
+
+00:22:51.810 --> 00:22:52.990
+no está funcionando, ¿bien?
+
+00:22:53.470 --> 00:22:55.790
+eso, recuerden que desde el bug
+
+00:22:55.790 --> 00:22:57.790
+se daña mucho el front
+
+00:22:57.790 --> 00:22:59.930
+de negocio, sin darme su cuenta
+
+00:22:59.930 --> 00:23:03.710
+sí, sí, que de hecho
+
+00:23:03.710 --> 00:23:05.590
+nosotros lo teníamos, por ejemplo, para efectos
+
+00:23:05.590 --> 00:23:07.550
+que gana el negocio, en los aspectos económicos,
+
+00:23:07.630 --> 00:23:09.990
+por ejemplo, para disipir, soportar la demanda,
+
+00:23:10.050 --> 00:23:11.430
+el pollo al take to market, etc.
+
+00:23:11.650 --> 00:23:13.610
+Claro, pero si una prueba de estrés, ya no entiendo,
+
+00:23:13.690 --> 00:23:14.910
+si una prueba de estrés sale mal,
+
+00:23:15.510 --> 00:23:17.670
+claro, pues seguramente las unidades
+
+00:23:17.670 --> 00:23:19.870
+de atención, de soporte, las cajas,
+
+00:23:20.430 --> 00:23:21.170
+todo se va a impactar.
+
+00:23:21.250 --> 00:23:22.630
+Entiendo, entiendo.
+
+00:23:23.090 --> 00:23:26.110
+Muy bueno, ¿cuánto es el porcentaje de incidente
+
+00:23:26.110 --> 00:23:26.670
+post-quad?
+
+00:23:26.870 --> 00:23:29.470
+Paso por el fallo. Eso también es grande.
+
+00:23:31.070 --> 00:23:31.710
+Buen dato.
+
+00:23:37.040 --> 00:23:37.420
+Muy bien.
+
+00:23:38.220 --> 00:23:39.200
+¿Qué más tienen?
+
+00:23:41.670 --> 00:23:42.610
+La verdad es que no.
+
+00:23:42.750 --> 00:23:47.250
+Yo por el lado de acá estoy claro, profesor.
+
+00:23:47.610 --> 00:23:48.350
+Estoy claro, profesor.
+
+00:23:48.410 --> 00:23:52.630
+Hay que reformular la presentación y sintetizar varias láminas.
+
+00:23:53.090 --> 00:23:57.250
+Recuerdan que aquí no hicieron datos, ni visualización,
+
+00:23:58.010 --> 00:24:01.250
+ni ingeniería de atributos, ni preprocesamiento de datos,
+
+00:24:01.550 --> 00:24:02.790
+ni primer modelo entrenado.
+
+00:24:03.290 --> 00:24:04.730
+La rubrica pide todo esto.
+
+00:24:05.410 --> 00:24:07.590
+Es su segunda presentación, ¿cierto?
+
+00:24:08.130 --> 00:24:08.910
+Sí, es la segunda.
+
+00:24:08.910 --> 00:24:10.930
+Tener mucho cuidado porque le faltan
+
+00:24:10.930 --> 00:24:12.650
+75% del trabajo
+
+00:24:12.650 --> 00:24:15.320
+¿Bien?
+
+00:24:18.200 --> 00:24:19.960
+Recuerda realizar Excel de la rúbrica
+
+00:24:19.960 --> 00:24:21.260
+De la 1
+
+00:24:21.260 --> 00:24:26.730
+Ya profesor
+
+00:24:26.730 --> 00:24:30.390
+Sí, por favor, van a trabajar la parte de descripción y visualización
+
+00:24:30.390 --> 00:24:32.090
+Ingeniería de tributos y todo, por favor
+
+00:24:32.090 --> 00:24:34.090
+Es muy urgente, así que aprovechen este fin de semana
+
+00:24:34.090 --> 00:24:36.550
+Muy bien, escuadrenlo contra la rúbrica
+
+00:24:36.550 --> 00:24:38.350
+Porque si falta algo
+
+00:24:38.350 --> 00:24:40.130
+Va a ser dura
+
+00:24:40.130 --> 00:24:42.010
+Esta presentación, adelante
+
+00:24:42.010 --> 00:24:44.290
+¿Es posible el lunes
+
+00:24:44.290 --> 00:24:45.610
+La presentación corregida?
+
+00:24:45.610 --> 00:24:47.110
+eso para irle a dar un vistazo rápido.
+
+00:24:47.310 --> 00:24:49.690
+Sí, sí, mándamela y cualquier cosa lo doy feedback.
+
+00:24:50.370 --> 00:24:50.830
+Tranqui. Ya.
+
+00:24:51.030 --> 00:24:52.130
+También nomás el grupo WhatsApp.
+
+00:24:52.870 --> 00:24:55.110
+Lo más importante es, le faltan
+
+00:24:55.110 --> 00:24:57.450
+descripción de datos, atributos, visualización,
+
+00:24:57.950 --> 00:24:59.430
+ETL, cuántos datos nulos
+
+00:24:59.430 --> 00:25:01.530
+que tuvieron que votar, cuántas filas quedaron,
+
+00:25:02.030 --> 00:25:03.590
+cuál es el primer modelo que entrenaron.
+
+00:25:04.530 --> 00:25:05.510
+Bien, todas estas cosas
+
+00:25:05.510 --> 00:25:06.230
+están en la rúbrica.
+
+00:25:07.010 --> 00:25:08.090
+Ya, super.
+
+00:25:09.870 --> 00:25:11.390
+No se relajen, porque están
+
+00:25:11.390 --> 00:25:13.530
+muy, muy apretados, así que darle con
+
+00:25:13.530 --> 00:25:13.790
+todo.
+
+00:25:13.790 --> 00:25:17.190
+ya, gracias profe
+
+00:25:17.190 --> 00:25:17.610
+super
+
+00:25:17.610 --> 00:25:19.050
+muchas gracias profe por la ayuda
+
+00:25:19.050 --> 00:25:21.210
+éxito nomás
+
+00:25:21.210 --> 00:25:23.170
+un abrazo
+

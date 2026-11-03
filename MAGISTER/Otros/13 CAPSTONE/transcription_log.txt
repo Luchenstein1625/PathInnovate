@@ -1,0 +1,4 @@
+2026-07-31T17:09:51.695079 | Capstone - 2026_07_31 12_38 GMT-04_00 - Recording.mp4 | duracion=00:25:25 | tiempo=00:15:32 | velocidad=1.63x | segmentos=529
+2026-08-03T12:10:37.956332 | WhatsApp Ptt 2026-08-03 at 11.59.40 AM.ogg | duracion=00:00:36 | tiempo=00:00:27 | velocidad=1.32x | segmentos=12
+2026-08-03T13:03:19.939528 | WhatsApp Ptt 2026-08-03 at 1.00.30 PM.ogg | duracion=00:00:29 | tiempo=00:00:17 | velocidad=1.70x | segmentos=9
+2026-08-04T08:46:39.810511 | WhatsApp Ptt 2026-08-04 at 8.42.20 AM.ogg | duracion=00:00:23 | tiempo=00:00:11 | velocidad=2.05x | segmentos=3

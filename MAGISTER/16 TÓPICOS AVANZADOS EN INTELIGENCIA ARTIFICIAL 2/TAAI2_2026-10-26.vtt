@@ -1,0 +1,6014 @@
+WEBVTT
+
+00:00:01.550 --> 00:00:10.110
+Buenas tardes, ojalá que no nos quedamos botados aquí, lo que estamos por la lluvia, no creo, pero si no, saldremos nadando.
+
+00:00:12.630 --> 00:00:13.850
+¿Está lloviendo Santiago?
+
+00:00:15.010 --> 00:00:18.630
+Sí, súper fuerte, o sea, hace media hora este momento cayó el cielo.
+
+00:00:19.950 --> 00:00:22.870
+Acá en Rancagua hay un sol, pero que...
+
+00:00:22.870 --> 00:00:24.170
+Claro, otro país.
+
+00:00:25.190 --> 00:00:28.050
+No, acá en Colina, acá empezará a llover.
+
+00:00:28.790 --> 00:00:31.030
+Claro, se está moviendo la nube.
+
+00:00:31.550 --> 00:00:34.030
+bueno
+
+00:00:34.030 --> 00:00:36.250
+vamos entonces
+
+00:00:36.250 --> 00:00:38.270
+vamos a arrancar, a terminar
+
+00:00:38.270 --> 00:00:40.310
+apagar esta luz, que esté muy bien
+
+00:00:40.310 --> 00:00:42.910
+hoy día tenemos
+
+00:00:42.910 --> 00:00:44.410
+tres cosas claves que hacer
+
+00:00:44.410 --> 00:00:46.950
+ahí sí
+
+00:00:46.950 --> 00:00:48.650
+que no se queden dormidos, por favor
+
+00:00:48.650 --> 00:00:50.210
+somos poquitos, así que dudo
+
+00:00:50.210 --> 00:00:52.990
+tenemos que hacer hoy día
+
+00:00:52.990 --> 00:00:54.930
+una conexión desde un agente
+
+00:00:54.930 --> 00:00:55.610
+de codificación
+
+00:00:55.610 --> 00:00:58.250
+que tengo un bot de finanza
+
+00:00:58.250 --> 00:01:00.630
+que está en Visual Studio Code, desarrollado con
+
+00:01:00.630 --> 00:01:01.010
+Cloud
+
+00:01:01.010 --> 00:01:04.090
+mi idea es
+
+00:01:04.090 --> 00:01:05.610
+si lo vamos a repetir juntos
+
+00:01:05.610 --> 00:01:08.370
+lo pueden hacer con codex o con open code
+
+00:01:08.370 --> 00:01:10.390
+lo pueden hacer con cloud code
+
+00:01:10.390 --> 00:01:11.150
+o como quieran
+
+00:01:11.150 --> 00:01:13.870
+podría tardar tiempo de levantamiento
+
+00:01:13.870 --> 00:01:16.150
+o sea a esta altura tienen todo el know-how
+
+00:01:16.150 --> 00:01:18.150
+de hacer lo que quieran con la gente de codificación
+
+00:01:18.150 --> 00:01:20.010
+pero lo que me interesa son
+
+00:01:20.010 --> 00:01:21.210
+pasos productivos
+
+00:01:21.210 --> 00:01:23.370
+¿a qué me refiero con esto?
+
+00:01:23.970 --> 00:01:25.870
+primero este mismo bot, ya lo tengo muerto
+
+00:01:25.870 --> 00:01:28.310
+entonces voy atrás de cloud code
+
+00:01:28.310 --> 00:01:29.390
+sin programación
+
+00:01:29.390 --> 00:01:33.990
+voy a pedir que el mismo Cloud Code arranque el entorno local
+
+00:01:33.990 --> 00:01:37.270
+con Ubicor y FastTap para probar bien la gente de finanza.
+
+00:01:38.290 --> 00:01:41.310
+Su app está caducada, no lo vamos a crear ni nada.
+
+00:01:41.690 --> 00:01:43.290
+Lo vamos a dejar en la etapa simulación.
+
+00:01:44.070 --> 00:01:46.890
+Luego de esto lo vamos a subir a GitHub con las modificaciones,
+
+00:01:47.270 --> 00:01:48.470
+actualizando el repositorio.
+
+00:01:49.110 --> 00:01:50.910
+Lo vamos a conectar con Google Cloud Run
+
+00:01:50.910 --> 00:01:53.030
+para poder desplegar en el entorno productivo,
+
+00:01:53.210 --> 00:01:54.590
+conectado a la main de GitHub.
+
+00:01:55.230 --> 00:01:56.390
+Y ahora haciendo modificaciones,
+
+00:01:56.390 --> 00:02:01.230
+y van a ver cómo se hace el deploy, la transición sin pegar el producto.
+
+00:02:01.950 --> 00:02:04.090
+O sea, mientras que esté vivo, aparezca el otro.
+
+00:02:04.190 --> 00:02:06.050
+Una vez terminado, se migra.
+
+00:02:06.310 --> 00:02:07.330
+Cualquier cosa rollback.
+
+00:02:07.870 --> 00:02:08.110
+Y así.
+
+00:02:08.910 --> 00:02:13.130
+Entonces voy a dibujarlo porque posteriormente a esto tenemos que trajarlo de Hugging Face
+
+00:02:13.130 --> 00:02:17.310
+y luego continuar con el contenido teórico de la clase.
+
+00:02:18.870 --> 00:02:20.250
+Vamos a dibujar el flujo.
+
+00:02:20.430 --> 00:02:21.810
+No es obligatorio hacerlo.
+
+00:02:22.270 --> 00:02:22.410
+Bien.
+
+00:02:22.930 --> 00:02:25.750
+Me interesa más que si a alguien le quiere replicar, bienvenida sea.
+
+00:02:25.750 --> 00:02:29.090
+si no, que me escuchen y que me apoyen y van trabajando juntos.
+
+00:02:30.130 --> 00:02:32.670
+Hoy día nosotros vamos a tener Visual Studio Code.
+
+00:02:32.890 --> 00:02:35.950
+Si alguien ocupa OpenCode, Cursor, lo que quieran, no hay problema.
+
+00:02:36.890 --> 00:02:41.990
+Tomar un poquito más de precaución cuando son agentes de código o son plataformas de código.
+
+00:02:42.630 --> 00:02:46.450
+Porque si son plataformas de código, tienen más componentes que ocupar
+
+00:02:46.450 --> 00:02:49.350
+y no todos los componentes son accesibles.
+
+00:02:50.290 --> 00:02:55.570
+Si alguien va con Bolt, desarrolla algún agente y le pide a Bolt que crea la base
+
+00:02:55.570 --> 00:02:57.670
+y datos, y comienzas a modificar
+
+00:02:57.670 --> 00:02:59.170
+esta base de datos a través de
+
+00:02:59.170 --> 00:03:01.430
+conector como Subabase, tú no
+
+00:03:01.430 --> 00:03:03.450
+tienes acceso a la base. No te
+
+00:03:03.450 --> 00:03:05.690
+permite acceder. Accedes simplemente
+
+00:03:05.690 --> 00:03:07.530
+a través de la herramienta o tienes
+
+00:03:07.530 --> 00:03:09.550
+que migrar la base a un entorno basado
+
+00:03:09.550 --> 00:03:11.550
+en Subabase. ¿Por qué razón?
+
+00:03:11.690 --> 00:03:13.230
+Porque que pagas lo que pagas,
+
+00:03:13.770 --> 00:03:15.470
+la IA hoy en día está yendo hacia el
+
+00:03:15.470 --> 00:03:17.330
+componente compartido. Entonces
+
+00:03:17.330 --> 00:03:19.510
+esto arriesga más que la base
+
+00:03:19.510 --> 00:03:21.350
+de datos que tú has hecho con alguna IA
+
+00:03:21.350 --> 00:03:23.410
+esté compartida tal vez con
+
+00:03:23.410 --> 00:03:25.470
+alguien de tu competencia directa. ¿Bien?
+
+00:03:25.570 --> 00:03:28.590
+y los datos y las filas están etiquetadas,
+
+00:03:29.350 --> 00:03:31.050
+entonces, claro, al migrarla por allá,
+
+00:03:31.350 --> 00:03:32.930
+aparece tu dato, no más como filtro,
+
+00:03:33.130 --> 00:03:35.790
+pero hay muchas más cosas en la base que no son tuyas.
+
+00:03:36.410 --> 00:03:38.130
+Lo mismo que hace Cloud hoy en día
+
+00:03:38.130 --> 00:03:41.150
+con unos niveles de optimizaciones recientes,
+
+00:03:41.730 --> 00:03:44.130
+que al momento de buscar algo o pedir algo,
+
+00:03:44.830 --> 00:03:47.810
+el contexto y las cosas están con distribución
+
+00:03:47.810 --> 00:03:49.790
+en diferentes entornos, en servidores,
+
+00:03:49.990 --> 00:03:51.610
+ubicaciones y memorias, ¿bien?
+
+00:03:52.330 --> 00:03:54.290
+Entonces, más parte de poder ocupar el cómputo
+
+00:03:54.290 --> 00:03:59.150
+de forma que puede reducir un poco el costo, pero no para nosotros,
+
+00:03:59.590 --> 00:04:03.730
+quizás más que todo para las mismas herramientas en donde están alojadas o montadas.
+
+00:04:04.390 --> 00:04:06.670
+Entonces, Visual Studio Code.
+
+00:04:07.650 --> 00:04:11.730
+Atrás de este Visual Studio Code vamos a tenerlo integrado con Cloud Code.
+
+00:04:12.310 --> 00:04:13.710
+Ustedes pueden hacerlo con lo que quieran.
+
+00:04:13.710 --> 00:04:15.130
+Bien, Cloud Code.
+
+00:04:17.550 --> 00:04:21.650
+Pueden hacerlo con Codex, Copilot, lo que quieran.
+
+00:04:21.650 --> 00:04:28.830
+Posteriormente a esto, después de Visual Studio Code con Cloud Code, quedó muy feo
+
+00:04:28.830 --> 00:04:35.150
+¿Cómo lo vamos a integrar? O sea, con tu cuenta
+
+00:04:35.150 --> 00:04:40.510
+Como uno puede iniciar sesión de Visual Studio Code a Cloud Code y ocupar Cloud Code directamente en PC local
+
+00:04:40.510 --> 00:04:45.830
+Tenemos un agente de finanza que se llama Finebot, que hace estimaciones de presupuesto
+
+00:04:45.830 --> 00:04:53.290
+Este agente de finanza, lo que vamos a hacer aquí primero es levantarlo en entorno local
+
+00:04:53.290 --> 00:04:54.770
+ocupando
+
+00:04:54.770 --> 00:05:00.700
+uvcore y fastapi
+
+00:05:00.700 --> 00:05:03.040
+simple
+
+00:05:03.040 --> 00:05:06.560
+posteriormente a esto
+
+00:05:06.560 --> 00:05:08.220
+le vamos a llevar
+
+00:05:08.220 --> 00:05:10.520
+y está conectado, vamos a actualizarlo
+
+00:05:10.520 --> 00:05:11.160
+en github
+
+00:05:11.160 --> 00:05:14.320
+en el repositorio o en la rama main
+
+00:05:14.320 --> 00:05:15.520
+que es la rama de producción
+
+00:05:15.520 --> 00:05:18.580
+vamos a hacer el camino
+
+00:05:18.580 --> 00:05:20.340
+completo, si alguien quiere rama
+
+00:05:20.340 --> 00:05:22.600
+de desarrollo con réplica de cómputo en desarrollo
+
+00:05:22.600 --> 00:05:24.600
+es una decisión de replicarlo nomás
+
+00:05:24.600 --> 00:05:25.000
+bien
+
+00:05:25.000 --> 00:05:27.520
+posteriormente esto a la mail
+
+00:05:27.520 --> 00:05:29.920
+vamos a configurar
+
+00:05:29.920 --> 00:05:30.880
+en Google Cloud
+
+00:05:30.880 --> 00:05:33.000
+una máquina en Cloud Run
+
+00:05:33.000 --> 00:05:35.380
+para recordarle también las instalaciones
+
+00:05:35.380 --> 00:05:37.380
+y todo, que va a ser
+
+00:05:37.380 --> 00:05:38.040
+serverless
+
+00:05:38.040 --> 00:05:43.820
+y luego se va a levantar
+
+00:05:43.820 --> 00:05:45.760
+la API completa
+
+00:05:45.760 --> 00:05:47.080
+con una interfaz
+
+00:05:47.080 --> 00:05:49.080
+user interface
+
+00:05:49.080 --> 00:05:51.060
+posteriormente a esto
+
+00:05:51.060 --> 00:05:53.620
+es el número uno, vamos de nuevo
+
+00:05:53.620 --> 00:05:55.240
+a hacer el número dos
+
+00:05:55.240 --> 00:05:56.000
+un cambio
+
+00:05:56.000 --> 00:06:00.110
+y vamos a correr todo el ciclo de nuevo
+
+00:06:00.110 --> 00:06:01.110
+para ver
+
+00:06:01.110 --> 00:06:03.990
+no local tal vez, no tiene sentido
+
+00:06:03.990 --> 00:06:05.570
+vamos a hacer un cambio mínimo
+
+00:06:05.570 --> 00:06:07.250
+en el archivo readme o lo que sea
+
+00:06:07.250 --> 00:06:09.790
+para que podamos ver cómo se va a desplegar automáticamente
+
+00:06:09.790 --> 00:06:11.970
+con la integración y el despliegue continuo
+
+00:06:11.970 --> 00:06:13.730
+¿bien? ¿alguna duda?
+
+00:06:18.200 --> 00:06:19.100
+el Google Cloud aquí
+
+00:06:19.100 --> 00:06:21.300
+va a levantar la aplicación pasada
+
+00:06:21.300 --> 00:06:23.280
+va a levantar el contenedor
+
+00:06:23.280 --> 00:06:24.960
+va a traer el Dockerfile
+
+00:06:24.960 --> 00:06:27.420
+va a crear la imagen y va a correr la aplicación
+
+00:06:27.420 --> 00:06:27.920
+completa
+
+00:06:27.920 --> 00:06:31.720
+exactamente, de hecho ya como le dijiste
+
+00:06:31.720 --> 00:06:33.280
+vamos a colocar aquí docker
+
+00:06:33.280 --> 00:06:35.200
+de una
+
+00:06:35.200 --> 00:06:36.920
+bien
+
+00:06:36.920 --> 00:06:39.480
+que está con docker, tiene un archivo
+
+00:06:39.480 --> 00:06:40.200
+imagen de docker
+
+00:06:40.200 --> 00:06:48.320
+bien, claro
+
+00:06:48.320 --> 00:06:51.140
+claro, muy buen punto
+
+00:06:51.140 --> 00:06:52.620
+ahí está google cloud
+
+00:06:52.620 --> 00:06:54.780
+cloud run tiene tres opciones
+
+00:06:54.780 --> 00:06:56.840
+hoy en día, una es el cloud function
+
+00:06:56.840 --> 00:06:58.720
+que tú puedes generar un código
+
+00:06:58.720 --> 00:07:01.020
+de función directamente allá serverless
+
+00:07:01.020 --> 00:07:02.720
+instalando el código en la máquina
+
+00:07:03.440 --> 00:07:04.600
+Los otros son los artefactos.
+
+00:07:04.740 --> 00:07:05.940
+Tú tienes una imagen de Docker
+
+00:07:05.940 --> 00:07:08.640
+y la despliegas de inmediato en un contenedor.
+
+00:07:09.280 --> 00:07:11.040
+El tercero es repositorio de código
+
+00:07:11.040 --> 00:07:12.780
+que tiene un Dockerfile.
+
+00:07:14.000 --> 00:07:15.200
+Pasado el Dockerfile, se lleva,
+
+00:07:15.320 --> 00:07:16.840
+se construye la imagen, se despacha.
+
+00:07:17.900 --> 00:07:19.140
+La tercera que estoy hablando,
+
+00:07:19.140 --> 00:07:21.400
+claro, permite elegir si quieres cómputo dedicado
+
+00:07:21.400 --> 00:07:23.720
+o basado en solo C2S, como serverless.
+
+00:07:24.140 --> 00:07:26.100
+Una capa gratuita muy fuerte en Cloud Run.
+
+00:07:26.560 --> 00:07:27.620
+Es muy robusto.
+
+00:07:27.900 --> 00:07:29.860
+Vamos a configurar la escalabilidad también juntos,
+
+00:07:30.020 --> 00:07:31.080
+mínima y máxima.
+
+00:07:31.080 --> 00:07:39.660
+Y en caso de que hagas un cambio, esto ocurre en otra máquina en paralelo, que también tiene que versionarla y ver si requiere escalabilidad o no.
+
+00:07:40.480 --> 00:07:43.380
+Bien, una vez configurado, siempre configurado.
+
+00:07:44.800 --> 00:07:46.120
+Bien, ¿alguna duda hasta aquí?
+
+00:07:47.140 --> 00:07:47.560
+Muy bien.
+
+00:07:48.760 --> 00:07:52.820
+Bien, vamos a hacerlo muy lento, no hay problema, para que podamos observar bien el flujo.
+
+00:07:53.340 --> 00:07:56.160
+Porque después quiero mencionar lo de pasado Hacking Phase.
+
+00:07:56.160 --> 00:08:00.080
+Me dejé todo listo con Cloud Code también, por si alguien quiere ocuparlo.
+
+00:08:00.220 --> 00:08:05.040
+Así que a esta altura, no es perder la programación.
+
+00:08:08.820 --> 00:08:09.880
+Mucho ruido, ¿sí?
+
+00:08:11.020 --> 00:08:11.260
+Sí.
+
+00:08:15.080 --> 00:08:22.930
+Ahora vamos a ver ahí cuando se ayude el señor técnico de la sala.
+
+00:08:23.070 --> 00:08:23.230
+Bien.
+
+00:08:23.950 --> 00:08:26.170
+Entonces, la idea es hacer...
+
+00:08:26.170 --> 00:08:28.590
+hoy tenemos el tema con la sala
+
+00:08:28.590 --> 00:08:33.700
+no sé si alguien tiene un micrófono abierto
+
+00:08:33.700 --> 00:08:36.020
+o somos nosotros mismos
+
+00:08:36.020 --> 00:08:36.280
+creo
+
+00:08:36.280 --> 00:08:42.440
+acá no se escucha
+
+00:08:42.440 --> 00:08:44.960
+ahí sí
+
+00:08:44.960 --> 00:08:47.920
+porque estamos online
+
+00:08:47.920 --> 00:08:48.900
+no escuchamos ruido
+
+00:08:48.900 --> 00:08:51.860
+ahí se escucha, sí, pero está acoplado
+
+00:08:51.860 --> 00:08:52.840
+está acoplado
+
+00:08:52.840 --> 00:08:57.720
+adelante, ahí sí
+
+00:08:57.720 --> 00:08:59.000
+está avisando
+
+00:08:59.000 --> 00:09:04.480
+sí, ya está publicada
+
+00:09:04.480 --> 00:09:06.400
+si, está publicado
+
+00:09:06.400 --> 00:09:08.680
+el otro
+
+00:09:08.680 --> 00:09:10.680
+o sea, hasta el domingo 8 de noviembre
+
+00:09:10.680 --> 00:09:12.840
+si, me da un poquito
+
+00:09:12.840 --> 00:09:13.440
+más de tiempo
+
+00:09:13.440 --> 00:09:16.440
+eso, he hecho dinero
+
+00:09:16.440 --> 00:09:19.930
+no, ahí se fue el ruido
+
+00:09:19.930 --> 00:09:21.350
+bien
+
+00:09:21.350 --> 00:09:23.170
+entonces
+
+00:09:23.170 --> 00:09:27.380
+vamos a cerrar la pizarra aquí
+
+00:09:27.380 --> 00:09:32.760
+voy a explicar el flujo
+
+00:09:32.760 --> 00:09:34.760
+rápidamente y lo vamos a replicar juntos
+
+00:09:34.760 --> 00:09:37.000
+¿por qué ocupar esto y no ocupar
+
+00:09:37.000 --> 00:09:38.480
+otra cosa? porque
+
+00:09:38.480 --> 00:09:40.500
+cuando desarrollan con Cloud Code
+
+00:09:40.500 --> 00:09:42.500
+se minimiza el error del
+
+00:09:42.500 --> 00:09:44.580
+vibe coding, que uno ve
+
+00:09:44.580 --> 00:09:46.420
+que por arriba o por afuera está todo
+
+00:09:46.420 --> 00:09:48.520
+bonito, pero adentro está todo mal
+
+00:09:48.520 --> 00:09:50.360
+hecho o con diferentes cosas
+
+00:09:50.360 --> 00:09:52.380
+erróneas y raras, a esta altura
+
+00:09:52.380 --> 00:09:54.700
+no diría esto, pero siempre hay errores
+
+00:09:54.700 --> 00:09:56.400
+y cosas que no están bien hechas
+
+00:09:56.400 --> 00:09:58.280
+etcétera, pero cuando se
+
+00:09:58.280 --> 00:10:00.140
+desarrolla desde Cloud Codecs
+
+00:10:00.140 --> 00:10:02.260
+en Visual Studio Code, no, porque accede
+
+00:10:02.260 --> 00:10:04.060
+al 80-20 de seniority técnico
+
+00:10:04.060 --> 00:10:06.140
+y ves lo que está pasando
+
+00:10:06.140 --> 00:10:08.520
+bien, no solamente corre atrás
+
+00:10:08.520 --> 00:10:10.160
+y te muestra el final y no sabes
+
+00:10:10.160 --> 00:10:16.280
+como hay muchas cosas ocultas aquí no y además que cuando ustedes ocupan esto en el pc local
+
+00:10:16.280 --> 00:10:22.380
+él usa el pc local entonces si alguien lo pone lento el pc porque el cloud core está programando
+
+00:10:22.380 --> 00:10:26.600
+ahí está cubando recursos está jugando tus carpetas y tu vida de la foto de todo lo que
+
+00:10:26.600 --> 00:10:32.720
+está en el pc si hay algo de one drive de la compañía también accede no deja nada bien así
+
+00:10:32.720 --> 00:10:38.420
+que claro bien y también pide permisos pero permiso de transferir cosas a su propio entorno
+
+00:10:38.420 --> 00:10:40.340
+horno y de vuelta entre el internet
+
+00:10:40.340 --> 00:10:41.200
+y el PC local.
+
+00:10:42.260 --> 00:10:44.400
+Eso. Entonces optimización
+
+00:10:44.400 --> 00:10:46.200
+tenemos que hablar directamente del FindBot
+
+00:10:46.200 --> 00:10:48.080
+en Cloud Code a Cloud Run y luego
+
+00:10:48.080 --> 00:10:50.260
+el modelo HackingFace y luego vamos a hacer
+
+00:10:50.260 --> 00:10:52.020
+directamente la optimización.
+
+00:10:53.120 --> 00:10:53.300
+Bien.
+
+00:10:54.580 --> 00:10:56.200
+Eso estamos claros, no es necesario
+
+00:10:56.200 --> 00:10:58.340
+repetirlo. Eso lo dejamos como
+
+00:10:58.340 --> 00:11:00.200
+fijo para cada clase. Ya vamos a ver
+
+00:11:00.200 --> 00:11:02.020
+la demostración en vivo. ¿Qué es lo que se va a trabajar?
+
+00:11:02.120 --> 00:11:03.380
+En palabras simples y macro.
+
+00:11:04.100 --> 00:11:06.140
+Hay un bot de finanza que es un servicio
+
+00:11:06.140 --> 00:11:08.100
+web pequeño. Todo lo que hace es
+
+00:11:08.100 --> 00:11:13.160
+preguntas de finanzas personales usuario la hace alguna solicitud por
+
+00:11:13.160 --> 00:11:17.580
+navegador o cura lo que sea hace un post hacia el servidor donde está alojado el
+
+00:11:17.580 --> 00:11:24.120
+sistema de esto corre un file port barbot que está en fastapi que también
+
+00:11:24.120 --> 00:11:28.840
+está como docker viendo que el file que va a levantar toda la imagen tiene
+
+00:11:28.840 --> 00:11:32.640
+reglas y funciones crédito ahorro intereses etcétera de recuerdo que más
+
+00:11:32.640 --> 00:11:38.980
+tenía el glosario de clientes de uef de calle de ahorro voluntario etcétera y
+
+00:11:38.980 --> 00:11:43.300
+también tiene un lm opinar y opcional pues se dije para preguntas abiertas
+
+00:11:43.300 --> 00:11:48.000
+entonces el bot que una parte de simulación que no requiere ya y la
+
+00:11:48.000 --> 00:11:52.560
+verdad a propósito porque hay muchas cosas que no requieren ya cierto así que
+
+00:11:52.560 --> 00:11:57.100
+la capa quiere que ella se la dejamos con ella porque porque muchos problemas
+
+00:11:57.100 --> 00:12:01.200
+convenciones no necesito pues la planilla de excel el problema es el
+
+00:12:01.200 --> 00:12:03.080
+compadre que está explotando en la plena de Excel.
+
+00:12:03.940 --> 00:12:05.360
+El problema es que yo no quiero
+
+00:12:05.360 --> 00:12:07.200
+cambiarlo. El problema es que yo sé
+
+00:12:07.200 --> 00:12:08.680
+todo y nadie sabe más. Bien.
+
+00:12:09.360 --> 00:12:11.080
+Bien todo. Por eso digo,
+
+00:12:11.120 --> 00:12:13.060
+hay varios flujos que no requieren nada. Entonces,
+
+00:12:14.100 --> 00:12:15.140
+venimos aquí, se generan
+
+00:12:15.140 --> 00:12:16.860
+respuestas. ¿De dónde vive esto?
+
+00:12:17.340 --> 00:12:18.720
+En Google Cloud Run por el momento.
+
+00:12:19.780 --> 00:12:20.840
+Entonces, uno crea,
+
+00:12:21.280 --> 00:12:22.800
+prueba, corre local,
+
+00:12:23.200 --> 00:12:25.160
+genera un contenedor, hace un
+
+00:12:25.160 --> 00:12:26.820
+repositorio GitHub conectado,
+
+00:12:27.520 --> 00:12:29.180
+lleva a Cloud Run, hace la
+
+00:12:29.180 --> 00:12:31.180
+integración, el display inicial, una vez
+
+00:12:31.180 --> 00:12:33.220
+listo, verifica. Una vez
+
+00:12:33.220 --> 00:12:35.380
+verificado por cada paso, corre el ciclo
+
+00:12:35.380 --> 00:12:37.280
+de nuevo. ¿Bien? ¿Alguna
+
+00:12:37.280 --> 00:12:37.900
+duda hasta aquí?
+
+00:12:40.240 --> 00:12:42.700
+Bien. Cuando
+
+00:12:42.700 --> 00:12:44.660
+mencionamos Docker, porque efectivamente
+
+00:12:44.660 --> 00:12:46.060
+Cloud Code va a tener
+
+00:12:46.060 --> 00:12:50.140
+una gente calculadora y
+
+00:12:50.140 --> 00:12:50.800
+mucho más aquí.
+
+00:12:52.880 --> 00:12:54.100
+La gente financiera
+
+00:12:54.100 --> 00:12:55.600
+que se abre con calma
+
+00:12:55.600 --> 00:12:57.580
+para recuperar el último entorno.
+
+00:12:58.020 --> 00:13:00.020
+Aquí Cloud Code, alguien quiere
+
+00:13:00.020 --> 00:13:02.140
+instalar Docker, Minikube,
+
+00:13:02.160 --> 00:13:04.100
+Docker Hub, Docker Desktop
+
+00:13:04.100 --> 00:13:05.280
+perdón, él lo va a hacer solo
+
+00:13:05.280 --> 00:13:08.160
+la parte de Git solo, voy a instalar
+
+00:13:08.160 --> 00:13:10.140
+todo solo, descarga e instala solo todo
+
+00:13:10.140 --> 00:13:11.900
+bien, pero más todo
+
+00:13:11.900 --> 00:13:13.420
+más permisos y más cosas
+
+00:13:13.420 --> 00:13:15.000
+bien
+
+00:13:15.000 --> 00:13:20.040
+entonces aquí tengo un agente financiero
+
+00:13:20.040 --> 00:13:22.080
+bien, este agente
+
+00:13:22.080 --> 00:13:23.880
+financiero ya está listo, de hecho
+
+00:13:23.880 --> 00:13:26.100
+está conectado, yo voy a repetir el flujo
+
+00:13:26.100 --> 00:13:27.320
+para que lo veamos juntos
+
+00:13:27.320 --> 00:13:29.840
+más probable hasta que me pida que tenga
+
+00:13:29.840 --> 00:13:31.720
+acceso a cloud o iniciar sesión
+
+00:13:31.720 --> 00:13:43.560
+A los que no tienen el Cloud o Codex de ChatDVD o nada instalado en Visual Studio Code, tienen que ir a extensiones, bien, y buscar, por ejemplo, qué quieren, Cloud Code.
+
+00:13:45.340 --> 00:13:45.720
+Ahí está.
+
+00:13:46.100 --> 00:13:48.360
+Le instalan de aquí, reinician Visual Studio Code.
+
+00:13:48.980 --> 00:13:51.600
+Una vez lo hace, comienza a aparecer aquí al lado derecho.
+
+00:13:52.220 --> 00:13:53.760
+De hecho, hasta abajo donde dice Copilot.
+
+00:13:54.580 --> 00:13:57.840
+Ahí acceden directamente a Cloud Code o Codex o lo que sea, bien.
+
+00:13:58.360 --> 00:14:00.420
+Simplemente para recordar cómo se hace.
+
+00:14:00.420 --> 00:14:03.500
+O sea, extensión y luego ya está.
+
+00:14:03.960 --> 00:14:06.340
+De hecho, está abajo también, como mencioné, al lado de Copilot.
+
+00:14:07.460 --> 00:14:09.440
+Ese es el Copilot Free.
+
+00:14:10.900 --> 00:14:14.960
+Bien, a esta altura, si alguien va a ocupar Cloud o tiene cuenta Cloud o ChangeVT Codex,
+
+00:14:15.060 --> 00:14:17.360
+no recomiendo que ocupen Copilot, no tiene sentido.
+
+00:14:17.760 --> 00:14:17.920
+Bien.
+
+00:14:18.880 --> 00:14:21.240
+Ahora, vamos a hacer algo simple.
+
+00:14:22.160 --> 00:14:24.740
+Aquí se desarrolló con un prompt un agente de finanza.
+
+00:14:25.060 --> 00:14:26.080
+Necesitamos probarlo.
+
+00:14:26.820 --> 00:14:30.100
+Entonces, primero que vamos a hacer, le vamos a pedir que crea la imagen de Docker.
+
+00:14:30.420 --> 00:15:01.320
+Bien, empaquetando todo, que levanta un contenedor en el PC, que despache el bot adentro del contenedor y que nos levanta un URL de localhost para probarlo, pero basado en contenedor, bien, entonces no voy a hacer prompts de texto, vamos a hacer prompts técnicos que simplemente van a llevar el flujo, entonces voy a decir aquí find bot, voy a hacer aquí ejecutar find bot,
+
+00:15:01.320 --> 00:15:03.440
+este findbot va a llevar aquí directamente
+
+00:15:03.440 --> 00:15:06.320
+docker image
+
+00:15:06.320 --> 00:15:13.410
+vamos a dejarlo por orden de magnitud mejor
+
+00:15:13.410 --> 00:15:15.430
+primero entonces el findbot tiene que correr con
+
+00:15:15.430 --> 00:15:16.030
+ubicorn
+
+00:15:16.030 --> 00:15:19.570
+fastapi, luego flecha
+
+00:15:19.570 --> 00:15:21.290
+docker image, luego
+
+00:15:21.290 --> 00:15:22.930
+localhost
+
+00:15:22.930 --> 00:15:25.150
+para test
+
+00:15:25.150 --> 00:15:30.270
+y listo
+
+00:15:30.270 --> 00:15:32.030
+a ver si requiere alguna inspección
+
+00:15:32.030 --> 00:15:33.230
+oh que bueno
+
+00:15:33.230 --> 00:15:36.330
+cuidado con los modelos que se ocupan, aquí estoy con
+
+00:15:36.330 --> 00:15:37.910
+opus 5.5 porque
+
+00:15:37.910 --> 00:15:40.270
+los otros, en general, fuman los tokens
+
+00:15:40.270 --> 00:15:41.350
+bien como Fable, etc.
+
+00:15:42.410 --> 00:15:44.270
+si para probar no tiene sentido tampoco
+
+00:15:44.270 --> 00:15:48.350
+Opus es
+
+00:15:48.350 --> 00:15:49.410
+bastante bueno
+
+00:15:49.410 --> 00:15:52.310
+para resolver problemas complejos del día a día
+
+00:15:52.310 --> 00:15:54.030
+uno puede jugar con el effort
+
+00:15:54.030 --> 00:15:56.110
+en Fable decían de para cosas más grandes
+
+00:15:56.110 --> 00:15:57.590
+como el tema de PHP
+
+00:15:57.590 --> 00:15:58.910
+la vieron, ¿cierto?
+
+00:16:00.290 --> 00:16:02.210
+que efectivamente este daño siempre
+
+00:16:02.210 --> 00:16:04.250
+fue identificado, pero nunca pudieron
+
+00:16:04.250 --> 00:16:05.050
+hacer el ataque
+
+00:16:05.050 --> 00:16:07.810
+pero con Cloud sí se pudo hacer el ataque
+
+00:16:07.810 --> 00:16:10.470
+y imagínense, estamos hablando
+
+00:16:10.470 --> 00:16:12.470
+del 60-70% de la web
+
+00:16:12.470 --> 00:16:14.210
+corre sobre esto, como
+
+00:16:14.210 --> 00:16:17.010
+Facebook, muchos gobiernos como en Francia
+
+00:16:17.010 --> 00:16:18.730
+muchos países que tuvieron que dar de baja
+
+00:16:18.730 --> 00:16:19.470
+su sitio web
+
+00:16:19.470 --> 00:16:22.590
+parte de
+
+00:16:22.590 --> 00:16:24.330
+la IA está haciendo cosas
+
+00:16:24.330 --> 00:16:26.430
+o sea, yo hago lo mismo
+
+00:16:26.430 --> 00:16:27.970
+pensando también
+
+00:16:27.970 --> 00:16:30.370
+no, no, no de ataque, eres mal
+
+00:16:30.370 --> 00:16:32.390
+interpretado, todo mal
+
+00:16:32.390 --> 00:16:34.350
+al toque, claro, no, hago
+
+00:16:34.350 --> 00:16:36.490
+testeos, claro, pero no de
+
+00:16:36.490 --> 00:16:42.370
+así dice lo mismo entonces ya cuántas cosas en el trabajo hoy día se clasifica en alguien que
+
+00:16:42.370 --> 00:16:48.630
+es experto venía y todo lo que hace es hacer excel con club y hasta se perdió el músculo de usar excel
+
+00:16:48.630 --> 00:16:56.010
+bien en todo bien o el otro digo cuántas propuestas de programas y clases que aparecen más de lo mismo
+
+00:16:56.010 --> 00:17:01.770
+bien entonces claro uno comienza a ver hay unas cosas que son buenas de benchmark recuerdo que
+
+00:17:01.770 --> 00:17:03.770
+que cuando sacamos el programa de leyenda que hay,
+
+00:17:04.670 --> 00:17:07.010
+después nos vimos, hay dos universidades en Estados Unidos
+
+00:17:07.010 --> 00:17:10.690
+que tienen el programa en 99,9% igual,
+
+00:17:10.830 --> 00:17:13.750
+o sea, le falta colocar un nombre mío o alguien de los profesores.
+
+00:17:14.070 --> 00:17:17.990
+Es igual con el tiempo, con las clases, con el contenido.
+
+00:17:18.770 --> 00:17:19.150
+¿Qué onda?
+
+00:17:20.070 --> 00:17:22.810
+Entonces, no es cloud, eso fue el cloud nuevo directo, ¿bien?
+
+00:17:23.250 --> 00:17:25.350
+Entonces, uno mira así y dice, bueno,
+
+00:17:26.810 --> 00:17:30.750
+me parece bueno, me parece interesante que muchas universidades conocidas
+
+00:17:30.750 --> 00:17:36.030
+que estén tomando esto bien en general y que los que planean por lo menos en chile andamos súper
+
+00:17:36.030 --> 00:17:43.230
+bien pero cuántos programas en empresas no están bien hechas o cuántas clases o contenido que es
+
+00:17:43.230 --> 00:17:49.870
+de lo mismo tú lo miras dices esto es chat dvd o sea usarla ya como quieras bien pero dónde está
+
+00:17:49.870 --> 00:17:58.210
+tu gusto tu conocimiento tu músculo etcétera terminó construye el caso de negocio de tu
+
+00:17:58.210 --> 00:18:04.470
+producto día está en localhost que le abrió el automáticamente ahí está el docker está corriendo
+
+00:18:04.470 --> 00:18:11.410
+el contenedor tiene la aplicación adentro bien y aquí en vídeo estudio code me dice que está
+
+00:18:11.410 --> 00:18:19.330
+todo listo con 34 mini y fastapi y todo qué hizo todo o sea este desarrollo fue hecho con
+
+00:18:19.330 --> 00:18:24.530
+cloud bien pero él ya tomó el fastapi tomó el ubicor preparó todo el contenido localhost el
+
+00:18:24.530 --> 00:18:30.590
+puerto creó el archivo de docker desplegó la imagen o creó la imagen
+
+00:18:30.590 --> 00:18:36.350
+y llevó un contenedor la puso dentro y corrió la aplicación y levantó el
+
+00:18:36.350 --> 00:18:41.210
+navegador solo con el enlace de prueba que entretenido tantos comandos y
+
+00:18:41.210 --> 00:18:44.530
+terminales de melops
+
+00:18:44.930 --> 00:18:50.450
+bien ahora vamos a ir igual a uno el puede probar aquí en el mismo que ya
+
+00:18:50.450 --> 00:18:54.030
+estudia code o aquí directamente yo voy a hacer un caso de ejemplo a mí me
+
+00:18:54.030 --> 00:18:58.950
+interesa ver que esto esté funcionando no más efectivamente está funcionando
+
+00:18:58.950 --> 00:19:04.350
+creó una empresa inventada que se llama seguros cordillera s a muestra su capex
+
+00:19:04.350 --> 00:19:10.310
+suopex y todo el proceso que quiere llevar el roadmap de implementación
+
+00:19:10.310 --> 00:19:16.110
+finanzas exportar resumen
+
+00:19:16.110 --> 00:19:20.650
+qué quiere más que se hace esto tiene base de datos archivo local si quieren
+
+00:19:20.650 --> 00:19:23.150
+que se levanta con Google Cloud utilizando Cloud SQL,
+
+00:19:23.410 --> 00:19:24.670
+Cloud SQL, lo va a hacer.
+
+00:19:25.150 --> 00:19:25.910
+Puede hacer lo que quiera.
+
+00:19:26.550 --> 00:19:26.730
+¿Bien?
+
+00:19:27.170 --> 00:19:27.650
+Literal.
+
+00:19:28.290 --> 00:19:31.610
+De hecho, de aquí uno le puede dar acceso al Cloud Shell de
+
+00:19:31.610 --> 00:19:34.450
+Google Cloud y lo deja a Admin, si no hay riesgo.
+
+00:19:35.210 --> 00:19:37.950
+Y van a ver toda la maravilla de levantar la infraestructura,
+
+00:19:38.130 --> 00:19:41.390
+conectarla, integrarla, poblar la base de datos, todo.
+
+00:19:42.070 --> 00:19:44.610
+Puede ser una migración solo desde VideoStudio.
+
+00:19:46.210 --> 00:19:46.690
+Adelante.
+
+00:19:47.010 --> 00:19:47.790
+Miró con él, por favor.
+
+00:19:47.790 --> 00:19:58.220
+¿El resultado lo ha probado en Cloud Code versus Visual Studio? ¿Cómo le cambia?
+
+00:19:59.000 --> 00:20:04.100
+¿Cómo al nivel de... no entiendo, como codificarlo por Visual Studio Code directamente?
+
+00:20:04.100 --> 00:20:11.940
+No, porque ahí usó Opus, pero a través de Visual Studio Code. ¿Cambia, usa exactamente el mismo modelo en Cloud Code?
+
+00:20:11.940 --> 00:20:16.680
+aquí es más correcto técnicamente
+
+00:20:16.680 --> 00:20:19.040
+porque hay protocolos de Visual Studio Code
+
+00:20:19.040 --> 00:20:21.000
+que son obligatorios al momento de desarrollar algo
+
+00:20:21.000 --> 00:20:22.920
+uso terminal, ejecuciones, comandos
+
+00:20:22.920 --> 00:20:26.100
+entonces en vez que él tenga acceso directo al PC
+
+00:20:26.100 --> 00:20:29.020
+tiene acceso al PC a través de Visual Studio Code
+
+00:20:29.020 --> 00:20:31.100
+entonces en ambos escenarios es decente el resultado
+
+00:20:31.100 --> 00:20:31.920
+en ambas partes
+
+00:20:31.920 --> 00:20:33.960
+pero hay un 1% de diferencia
+
+00:20:33.960 --> 00:20:35.460
+que en Visual Studio Code queda mejor
+
+00:20:35.460 --> 00:20:38.740
+la parte que tú controlas más aquí
+
+00:20:38.740 --> 00:20:40.580
+el estado de librerías, versiones, etc.
+
+00:20:40.580 --> 00:20:42.760
+en el paro virtual o no virtual
+
+00:20:42.760 --> 00:20:45.600
+yo recomiendo
+
+00:20:45.600 --> 00:20:47.580
+usarlo directamente a través de Studio Code
+
+00:20:47.580 --> 00:20:48.840
+para desarrollo intensivo
+
+00:20:48.840 --> 00:20:51.660
+entonces, aquí está el
+
+00:20:51.660 --> 00:20:52.400
+contenedor
+
+00:20:52.400 --> 00:20:53.760
+adelante
+
+00:20:53.760 --> 00:20:56.800
+y entre
+
+00:20:56.800 --> 00:20:58.540
+Visual Studio Code y Cursor
+
+00:20:58.540 --> 00:21:00.980
+Cursor y Visual Studio Code
+
+00:21:00.980 --> 00:21:02.000
+buena pregunta
+
+00:21:02.000 --> 00:21:02.900
+son como
+
+00:21:02.900 --> 00:21:04.640
+o sea
+
+00:21:04.640 --> 00:21:08.060
+igual
+
+00:21:08.060 --> 00:21:10.180
+Cursor es parte ya de
+
+00:21:10.180 --> 00:21:13.820
+XEI y Tesla y todo el monopolio.
+
+00:21:14.800 --> 00:21:17.620
+Es muy bueno, pero sigue siendo que tú tienes
+
+00:21:17.620 --> 00:21:19.360
+unas restricciones de una plataforma
+
+00:21:19.360 --> 00:21:21.800
+que es por un grado diferente a VideoStudio.com.
+
+00:21:22.780 --> 00:21:25.720
+Hemos visto más resultados en precisión.
+
+00:21:26.120 --> 00:21:27.360
+O sea, tú levantas una aplicación,
+
+00:21:27.640 --> 00:21:30.320
+la función del backend, el diseño de la interfaz
+
+00:21:30.320 --> 00:21:33.980
+con el mismo prompt, es mucho más sólido en Cloud Code
+
+00:21:33.980 --> 00:21:34.740
+que en cursor.
+
+00:21:35.300 --> 00:21:36.680
+Pero no es una diferencia que te dice,
+
+00:21:36.680 --> 00:21:38.880
+no, no funciona, no, no, para nada.
+
+00:21:38.880 --> 00:21:43.620
+pero claro hay un porcentaje entre el 5 al 8 por ciento que cloud code en video
+
+00:21:43.620 --> 00:21:47.460
+studio code le hace más profundo, pero el cursor no es menor para nada, o sea te hay que
+
+00:21:47.460 --> 00:21:52.140
+trabajar un poquito más el prompt o seleccionar un modelo más profundo
+
+00:21:52.140 --> 00:21:58.120
+si porque yo ocupo cursor pero en verdad estoy ocupando cloud code con la CLI en el
+
+00:21:58.120 --> 00:22:02.920
+terminal pero con cursor. ¿y cómo ves la diferencia?
+
+00:22:02.920 --> 00:22:11.700
+hasta el momento no hay tanta diferencia
+
+00:22:11.700 --> 00:22:16.080
+porque estoy ocupando cloud code más que
+
+00:22:16.080 --> 00:22:23.150
+más que cursor como el proveedor no sé si me explico
+
+00:22:23.150 --> 00:22:27.730
+o sea con un poquito más de desarrollo
+
+00:22:28.010 --> 00:22:32.690
+y pruebas creo que hay unas cositas un poquito más profundas que ven marcar la
+
+00:22:32.690 --> 00:22:41.270
+diferencia pero al final del día no y a mí me veo un punto más clave todavía si tú me dices dónde
+
+00:22:41.270 --> 00:22:46.670
+ves que no sé en un año más podría ser el core de desarrollo de día cursos qué pasa si aparece
+
+00:22:46.670 --> 00:22:53.030
+un teléfono ahora de tesla comenzar después de hacer el iphone tuvo que tiene más problemas y
+
+00:22:53.030 --> 00:22:58.370
+no esto que no es ni siquiera puesto es un momento estratégico para que aparezca un teléfono de excel
+
+00:22:58.370 --> 00:23:05.450
+es sólido cierto entonces imagínate todo el terminal de programación un cursor va a ser
+
+00:23:05.450 --> 00:23:11.730
+otro nivel porque entre el teléfono el auto el misil o el cohete o lo que sea todo está
+
+00:23:11.730 --> 00:23:20.170
+conectado y claro aparte grok bot aparte de grok directo de que está en exo twitter etcétera yo
+
+00:23:20.170 --> 00:23:25.250
+diría que andan por ahí sigue siendo vídeo estudio con la herramienta mosa en el mundo
+
+00:23:25.250 --> 00:23:29.970
+programación pero después esta interfaz de vídeo estudio con fecha para humanos
+
+00:23:29.970 --> 00:23:35.130
+cierto y luego se incorporaron capas día mañana tiene que desaparecer esta
+
+00:23:35.130 --> 00:23:39.450
+herramienta es donde ve el futuro más incursor
+
+00:23:39.450 --> 00:23:42.710
+pero claro por un momento
+
+00:23:45.920 --> 00:23:51.340
+por lo menos no está duchado menos mal pero qué bueno
+
+00:23:51.340 --> 00:23:59.640
+si había eco muy fuerte después se fue el eco de hecho está en la sala
+
+00:23:59.640 --> 00:24:01.020
+solamente, como réplica, sí
+
+00:24:01.020 --> 00:24:03.040
+sí
+
+00:24:03.040 --> 00:24:04.260
+la lluvia
+
+00:24:04.260 --> 00:24:07.300
+bien, entonces
+
+00:24:07.300 --> 00:24:09.900
+aquí está ya, está levantado el localhost
+
+00:24:09.900 --> 00:24:11.520
+ahora lo que tenemos que hacer es
+
+00:24:11.520 --> 00:24:13.880
+apagar el contenedor, para que no consume
+
+00:24:13.880 --> 00:24:15.640
+directamente cosas
+
+00:24:15.640 --> 00:24:17.340
+le podemos pedir que
+
+00:24:17.340 --> 00:24:19.840
+haga algún cambio en el readme, agregando ciertos
+
+00:24:19.840 --> 00:24:21.680
+textos, y que lo
+
+00:24:21.680 --> 00:24:23.220
+empuje directamente a github
+
+00:24:23.220 --> 00:24:24.980
+bien, ok, veamos el cambio
+
+00:24:24.980 --> 00:24:29.050
+así, entonces
+
+00:24:29.050 --> 00:24:30.810
+aquí estoy en el github
+
+00:24:30.810 --> 00:24:33.370
+estoy en un repositorio mío privado
+
+00:24:33.370 --> 00:24:35.850
+los últimos cambios se han hecho hace dos semanas
+
+00:24:35.850 --> 00:24:37.510
+o uno aquí hace cinco días
+
+00:24:37.510 --> 00:24:39.310
+bien, para probar el flujo
+
+00:24:39.310 --> 00:24:40.350
+ahí está Readme y todo
+
+00:24:40.350 --> 00:24:43.770
+aquí es donde dice autor, voy a cambiar el autor
+
+00:24:43.770 --> 00:24:45.530
+antes
+
+00:24:45.530 --> 00:24:47.550
+hablando de autor, ¿alguien ha visto los videos
+
+00:24:47.550 --> 00:24:48.630
+nuevos de
+
+00:24:48.630 --> 00:24:51.550
+de Cloud, de ChatGPT, el programador
+
+00:24:51.550 --> 00:24:53.690
+que aparecen ahora como en monitos de cartón
+
+00:24:53.690 --> 00:24:55.810
+de televisión, etcétera
+
+00:24:55.810 --> 00:24:57.430
+y que cuando tú quieras hacer algo
+
+00:24:57.430 --> 00:24:59.930
+Cloud quiere aparecer como co-creador contigo
+
+00:24:59.930 --> 00:25:02.590
+y tú le dices, no, sácate de ahí
+
+00:25:02.590 --> 00:25:04.510
+y después, no sé, en contra
+
+00:25:04.510 --> 00:25:05.870
+la estás traccionando con
+
+00:25:05.870 --> 00:25:06.950
+chat dbt
+
+00:25:06.950 --> 00:25:10.330
+como este que está aquí, por ejemplo, aparece Cloud
+
+00:25:10.330 --> 00:25:12.550
+¿apareces tú como desarrollaste con Cloud
+
+00:25:12.550 --> 00:25:13.050
+directamente?
+
+00:25:14.270 --> 00:25:15.430
+sí, le pueden quitar igual
+
+00:25:15.430 --> 00:25:16.570
+pero
+
+00:25:16.570 --> 00:25:20.390
+como dice, como ya ahora Cloud hace los 80 tools
+
+00:25:20.390 --> 00:25:22.410
+20, tú diseñas, pero en cantidad
+
+00:25:22.410 --> 00:25:23.610
+de esfuerzo de trabajo
+
+00:25:23.610 --> 00:25:26.550
+no le encuentras el esfuerzo inteligente, es el esfuerzo
+
+00:25:26.550 --> 00:25:28.390
+perdón la palabra, tonto de ir a
+
+00:25:28.390 --> 00:25:34.510
+escribir la cosa que la cloud por ti pero ahora quiere aparecer en todo estos cómics también se
+
+00:25:34.510 --> 00:25:40.210
+están guardando cierto este repositorio el aire del usuario todo lo que desarrollaste está guardado
+
+00:25:40.210 --> 00:25:47.070
+ahí qué pasa si sale de cloud con mañana está cobra porcentaje o fin por tráfico a cada a cada
+
+00:25:47.070 --> 00:25:51.670
+aplicación levantada desde un repositorio desarrollado por club de que tiene problemas
+
+00:25:51.670 --> 00:25:57.670
+de 80 mil millones de dólares eso lo que estiman este año en pérdida o van a recuperar esta plata
+
+00:25:57.670 --> 00:25:59.470
+y la rueda está más alta, o sea
+
+00:25:59.470 --> 00:26:02.010
+¿qué va a pasar más en el mundo?
+
+00:26:02.090 --> 00:26:03.890
+con otros países, con otros sistemas
+
+00:26:03.890 --> 00:26:05.890
+todo el mundo
+
+00:26:05.890 --> 00:26:06.530
+prendido
+
+00:26:06.530 --> 00:26:09.150
+bien
+
+00:26:09.150 --> 00:26:11.090
+¿cosas que pasan?
+
+00:26:15.530 --> 00:26:16.010
+debería
+
+00:26:16.010 --> 00:26:20.010
+debería ser bastante, o sea
+
+00:26:20.010 --> 00:26:21.090
+va a pasar
+
+00:26:21.090 --> 00:26:23.390
+no sé si va a pasar menos una estimación mía
+
+00:26:23.390 --> 00:26:24.970
+pero va a ser lo mismo que SpaceX
+
+00:26:24.970 --> 00:26:27.470
+sube, sube un poquito y luego
+
+00:26:27.470 --> 00:26:28.910
+cae, saca plata
+
+00:26:28.910 --> 00:26:30.790
+vuelven a entrar y se quedan ahí
+
+00:26:30.790 --> 00:26:33.110
+que pasa un tiempo y veamos cuánto sube de nuevo
+
+00:26:33.110 --> 00:26:34.250
+claro
+
+00:26:34.250 --> 00:26:37.010
+pero imagínate la cantidad de plata que podría llevar
+
+00:26:37.010 --> 00:26:38.610
+Cloud o Anthropic en general
+
+00:26:38.610 --> 00:26:40.930
+para estar en la bolsa, yo creo que vale si inviertan ahí
+
+00:26:40.930 --> 00:26:42.210
+claro
+
+00:26:42.210 --> 00:26:45.110
+¿y cómo puede quitar a Cloud
+
+00:26:45.110 --> 00:26:46.390
+ahí como coautor?
+
+00:26:46.850 --> 00:26:48.850
+mira, vamos a hacer la parte normal
+
+00:26:48.850 --> 00:26:51.030
+voy a decirle que se quite
+
+00:26:51.030 --> 00:26:57.060
+mire, primero
+
+00:26:57.060 --> 00:26:58.940
+vamos a hacer aquí, apaga el
+
+00:26:58.940 --> 00:27:00.980
+docker container
+
+00:27:00.980 --> 00:27:02.480
+bien
+
+00:27:02.480 --> 00:27:04.760
+uno por uno, porque se apaga el contenedor
+
+00:27:04.760 --> 00:27:05.940
+porque el docker desktop
+
+00:27:05.940 --> 00:27:08.820
+tengo mucha pasión, igual lo voy a apagar yo
+
+00:27:08.820 --> 00:27:09.760
+en este que lo haga él
+
+00:27:09.760 --> 00:27:15.200
+listo, ahí apagó el docker
+
+00:27:15.200 --> 00:27:17.220
+muy bien, ahora vamos a pedir
+
+00:27:17.220 --> 00:27:18.120
+una cosa más
+
+00:27:18.120 --> 00:27:21.080
+haz un cambio
+
+00:27:21.080 --> 00:27:23.940
+en el archivo
+
+00:27:23.940 --> 00:27:27.630
+archivo
+
+00:27:27.630 --> 00:27:28.790
+readme
+
+00:27:28.790 --> 00:27:37.120
+cambia esto por
+
+00:27:37.120 --> 00:27:40.940
+luego
+
+00:27:40.940 --> 00:27:44.500
+haz un commit
+
+00:27:44.500 --> 00:27:48.630
+github
+
+00:27:48.630 --> 00:27:50.910
+github
+
+00:27:50.910 --> 00:27:52.690
+y elimina
+
+00:27:52.690 --> 00:27:55.980
+tu usuario
+
+00:27:55.980 --> 00:27:57.940
+en el commit
+
+00:27:57.940 --> 00:28:16.890
+porque uno puede entrar al repositorio y bloquear a cloud
+
+00:28:16.890 --> 00:28:18.730
+y hacer un commit de modificaciones
+
+00:28:18.730 --> 00:28:19.850
+y desaparece el usuario
+
+00:28:19.850 --> 00:28:24.710
+es decir que aquí tú entras y quitas
+
+00:28:24.710 --> 00:28:27.270
+el acceso que diste a cloud code de tu repositorio
+
+00:28:27.270 --> 00:28:30.530
+y luego vuelves a hacer un commit cambiando una letra
+
+00:28:30.530 --> 00:28:31.930
+y aparece que
+
+00:28:31.930 --> 00:28:33.490
+tú hiciste el commit
+
+00:28:33.490 --> 00:28:36.330
+a través de la terminal o el .git
+
+00:28:36.330 --> 00:28:37.510
+o el github desktop, etc.
+
+00:28:37.510 --> 00:28:39.210
+pero también quiero ver
+
+00:28:39.210 --> 00:28:40.930
+por ejemplo
+
+00:28:40.930 --> 00:28:42.610
+hay cambio al autor
+
+00:28:42.610 --> 00:28:44.510
+both mentions changed in back
+
+00:28:44.510 --> 00:28:47.390
+history still carry
+
+00:28:47.390 --> 00:28:49.050
+co-authorized, vamos a ver
+
+00:28:49.050 --> 00:28:51.390
+dice que ha hecho el cambio
+
+00:28:51.390 --> 00:28:57.920
+se quitó
+
+00:28:57.920 --> 00:29:00.920
+pero si alguien vuelve a los commits anteriores va a aparecer
+
+00:29:00.920 --> 00:29:02.640
+o si no, tiene que pedirle
+
+00:29:02.640 --> 00:29:04.300
+que elimine el historial de commit
+
+00:29:04.300 --> 00:29:06.460
+bueno, va aquí el autor
+
+00:29:06.460 --> 00:29:08.680
+hizo la modificación hace poquito
+
+00:29:08.680 --> 00:29:09.940
+y aparece directamente
+
+00:29:09.940 --> 00:29:16.320
+fue evocado por lo menos
+
+00:29:16.320 --> 00:29:20.180
+bien, y ahora
+
+00:29:20.180 --> 00:29:21.760
+lleva los créditos
+
+00:29:21.760 --> 00:29:24.380
+no sé por qué la gente hoy día también, o sea
+
+00:29:24.380 --> 00:29:26.760
+no sé, depende, mal y bien
+
+00:29:26.760 --> 00:29:28.560
+hay muchas personas
+
+00:29:28.560 --> 00:29:30.600
+todavía les cuesta mostrar que yo
+
+00:29:30.600 --> 00:29:32.680
+le he trabajado con un agente de codificación
+
+00:29:32.680 --> 00:29:34.560
+a mí no me molesta para nada
+
+00:29:34.560 --> 00:29:36.620
+hay empresas que todavía tienen la
+
+00:29:36.620 --> 00:29:37.240
+sensibilidad
+
+00:29:37.240 --> 00:29:40.360
+no solamente empresas, hay profesores también
+
+00:29:40.360 --> 00:29:42.840
+que no, yo hice yo, ¿cómo que le hiciste eso?
+
+00:29:43.180 --> 00:29:44.840
+se puede hacer 50.000 aplicaciones
+
+00:29:44.840 --> 00:29:46.700
+con cloud mientras que haga una solo
+
+00:29:46.700 --> 00:29:48.880
+no estamos estimando la capacidad
+
+00:29:48.880 --> 00:29:49.860
+o desestimando
+
+00:29:49.860 --> 00:29:52.960
+pero no es un momento programar tú solo todo
+
+00:29:52.960 --> 00:29:54.780
+no tiene sentido
+
+00:29:54.780 --> 00:29:56.660
+o sea, si quieres
+
+00:29:56.660 --> 00:29:59.020
+tener problemas de evolución
+
+00:29:59.020 --> 00:30:00.360
+de trabajo, hazlo
+
+00:30:00.360 --> 00:30:02.080
+bien
+
+00:30:02.080 --> 00:30:04.400
+entonces, aquí
+
+00:30:04.400 --> 00:30:06.080
+ya se hizo el commit
+
+00:30:06.080 --> 00:30:08.360
+y ahora vamos a Google Cloud
+
+00:30:08.360 --> 00:30:10.160
+aquí debería estar apagado ya, así que
+
+00:30:10.160 --> 00:30:14.560
+ah, no se me dieron cargar
+
+00:30:14.560 --> 00:30:17.100
+quedó el catch, no
+
+00:30:17.100 --> 00:30:17.840
+está bien
+
+00:30:17.840 --> 00:30:20.180
+ya estoy en Google Cloud
+
+00:30:20.180 --> 00:30:21.420
+voy a la consola
+
+00:30:21.420 --> 00:30:23.380
+vamos a verificar
+
+00:30:23.380 --> 00:30:29.350
+este es un ejemplo entretenido
+
+00:30:29.350 --> 00:30:31.430
+si alguien quiere crear una cuenta de Google nuevamente
+
+00:30:31.430 --> 00:30:33.190
+con un correo nuevo, etc
+
+00:30:33.190 --> 00:30:35.430
+recuerden que hasta el momento
+
+00:30:35.430 --> 00:30:37.510
+si no me recuerdo, con cuenta root no funciona
+
+00:30:37.510 --> 00:30:39.530
+con bcimatch tampoco
+
+00:30:39.530 --> 00:30:41.390
+funciona, pero uno puede
+
+00:30:41.390 --> 00:30:43.650
+crear ahora una cuenta con 300 dólares
+
+00:30:43.650 --> 00:30:45.710
+90 días de regalo o vigencia
+
+00:30:45.710 --> 00:30:46.470
+y listo
+
+00:30:46.470 --> 00:30:53.460
+bien, han trabajado algo
+
+00:30:53.460 --> 00:30:54.900
+durante el programa con Google
+
+00:30:54.900 --> 00:30:56.300
+durante el master
+
+00:30:56.300 --> 00:30:58.380
+con la nube o alguna nube
+
+00:30:58.380 --> 00:31:00.520
+no por el trabajo, pero en la clase
+
+00:31:00.520 --> 00:31:04.400
+¿cuál fue?
+
+00:31:09.260 --> 00:31:10.660
+vertex AI
+
+00:31:10.660 --> 00:31:12.480
+o EA Studio
+
+00:31:12.480 --> 00:31:18.380
+LM Studio, no, eso es open source
+
+00:31:18.380 --> 00:31:20.040
+gratuito, con Hacking Face
+
+00:31:20.040 --> 00:31:25.960
+sí, ah, eso también
+
+00:31:25.960 --> 00:31:28.080
+es open source, me voy a desplegar en el entorno
+
+00:31:28.080 --> 00:31:28.500
+local
+
+00:31:28.500 --> 00:31:30.940
+perfecto, bien
+
+00:31:30.940 --> 00:31:33.400
+vamos
+
+00:31:33.400 --> 00:31:35.980
+o sea, si quieren tener alguna duda de la nube
+
+00:31:35.980 --> 00:31:37.860
+también me pueden preguntar, no hay problema
+
+00:31:38.180 --> 00:31:40.800
+aquí estoy, tengo un proyecto que se llama
+
+00:31:40.800 --> 00:31:43.160
+TestUI, este proyecto
+
+00:31:43.160 --> 00:31:44.820
+va a estar conectado a la rama
+
+00:31:44.820 --> 00:31:46.820
+main de GitHub, aunque se llame
+
+00:31:46.820 --> 00:31:49.000
+test, como está conectado
+
+00:31:49.000 --> 00:31:50.900
+a la main, significa que está conectado a la
+
+00:31:50.900 --> 00:31:52.680
+rama de producción, la rama
+
+00:31:52.680 --> 00:31:54.700
+principal, bien, porque
+
+00:31:54.700 --> 00:31:55.900
+si voy a GitHub aquí
+
+00:31:55.900 --> 00:31:58.420
+tengo dos ramas
+
+00:31:58.420 --> 00:31:59.940
+una que se llama dev
+
+00:31:59.940 --> 00:32:02.340
+desarrollo
+
+00:32:02.340 --> 00:32:04.660
+otra que se llama main
+
+00:32:04.660 --> 00:32:06.760
+desarrollo puede ser
+
+00:32:06.760 --> 00:32:07.780
+el entorno de trabajo
+
+00:32:07.780 --> 00:32:09.120
+bien, taller
+
+00:32:09.120 --> 00:32:12.360
+en la main es la que viene por defecto
+
+00:32:12.360 --> 00:32:14.480
+y esta es la que es la rama productiva
+
+00:32:14.480 --> 00:32:16.140
+todo lo que está en la main
+
+00:32:16.140 --> 00:32:18.100
+tiene que estar conectado al entorno productivo
+
+00:32:18.100 --> 00:32:19.960
+todo requiere aprobación
+
+00:32:19.960 --> 00:32:22.040
+al merge request, etc
+
+00:32:22.040 --> 00:32:24.060
+por alguien técnico
+
+00:32:24.060 --> 00:32:26.020
+o alguien aparte, para que no seas el mismo
+
+00:32:26.020 --> 00:32:28.600
+que desarrollas y apruebas y haces el error
+
+00:32:28.600 --> 00:32:30.620
+pero esto va a conectar
+
+00:32:30.620 --> 00:32:32.240
+directamente a la parte productiva
+
+00:32:32.240 --> 00:32:34.000
+¿qué servicio vamos a ocupar?
+
+00:32:34.180 --> 00:32:34.720
+Cloud Run
+
+00:32:34.720 --> 00:32:46.170
+en servicio aquí queda aquel
+
+00:32:46.170 --> 00:32:49.050
+mira lo actualizó hace poquito
+
+00:32:49.050 --> 00:32:50.370
+voy a ir a matar el servicio
+
+00:32:50.370 --> 00:32:52.010
+porque lo volvió a levantar solo
+
+00:32:52.010 --> 00:32:54.990
+vamos a eliminarlo y volver a ejecutarlo
+
+00:32:54.990 --> 00:33:05.160
+la máquina de talleres automotriz
+
+00:33:05.160 --> 00:33:06.020
+está, vamos
+
+00:33:06.020 --> 00:33:08.800
+bien, primero hay tres opciones en Cloud Run
+
+00:33:08.800 --> 00:33:09.900
+hay muchas más
+
+00:33:09.900 --> 00:33:12.540
+cualquiera de estas tres opciones
+
+00:33:12.540 --> 00:33:14.640
+te va a llevar a la misma lista
+
+00:33:14.640 --> 00:33:16.080
+o el mismo menú de despliegue
+
+00:33:16.080 --> 00:33:18.600
+pero van a cambiar tres botones nomás
+
+00:33:18.600 --> 00:33:20.640
+como opciones, todo el resto cambia por
+
+00:33:20.640 --> 00:33:22.480
+esta selección, primero se llama
+
+00:33:22.480 --> 00:33:24.480
+implementar contenedor, ¿bien?
+
+00:33:25.020 --> 00:33:26.580
+Esto que simplemente tienes
+
+00:33:26.580 --> 00:33:27.960
+una imagen de Docker hecha
+
+00:33:27.960 --> 00:33:31.020
+y la desplegas en un contenedor.
+
+00:33:31.560 --> 00:33:32.960
+Si no tienes la imagen,
+
+00:33:33.780 --> 00:33:34.900
+pero sí tienes el código
+
+00:33:34.900 --> 00:33:36.500
+o tienes el archivo de Docker
+
+00:33:36.500 --> 00:33:38.340
+que requiere construir la imagen,
+
+00:33:39.180 --> 00:33:40.080
+te vas por la segunda,
+
+00:33:40.300 --> 00:33:41.660
+conectarte a un repo en GitHub.
+
+00:33:42.660 --> 00:33:44.300
+Si quieres hacer la función de código
+
+00:33:44.300 --> 00:33:46.440
+ahí escrita y que vive en Google Cloud,
+
+00:33:46.960 --> 00:33:48.040
+run, lo haces aquí.
+
+00:33:48.660 --> 00:33:49.520
+Escribir una función.
+
+00:33:50.460 --> 00:33:51.720
+Nosotros vamos por la segunda,
+
+00:33:51.720 --> 00:33:54.340
+porque tenemos repositorio, este repositorio
+
+00:33:54.340 --> 00:33:54.660
+aquí
+
+00:33:54.660 --> 00:33:57.620
+tiene el docker file aquí
+
+00:33:57.620 --> 00:34:01.730
+bien, docker file
+
+00:34:01.730 --> 00:34:03.750
+tiene el 3.2 slim
+
+00:34:03.750 --> 00:34:05.710
+es recomendable cuando
+
+00:34:05.710 --> 00:34:07.510
+comienzan a construir aplicaciones de IA
+
+00:34:07.510 --> 00:34:09.610
+que tengan alguna versión de python slim
+
+00:34:09.610 --> 00:34:11.630
+para que evite descargar
+
+00:34:11.630 --> 00:34:13.110
+librerías raras
+
+00:34:13.110 --> 00:34:14.550
+que pesan mucho
+
+00:34:14.550 --> 00:34:17.090
+de hecho una vez conversamos
+
+00:34:17.090 --> 00:34:18.490
+y que
+
+00:34:18.490 --> 00:34:21.490
+no te sale, no sé, una aplicación
+
+00:34:21.490 --> 00:34:23.610
+que debería pesar, no sé, 80 megabytes
+
+00:34:23.610 --> 00:34:25.310
+te sale 4 gigabytes.
+
+00:34:26.150 --> 00:34:27.610
+Y puras dependencias de Python
+
+00:34:27.610 --> 00:34:28.510
+que no vas a ocupar.
+
+00:34:29.570 --> 00:34:31.450
+O sea, Slim ayuda a reducir
+
+00:34:31.450 --> 00:34:33.670
+mucho la cantidad de librerías, dependencias
+
+00:34:33.670 --> 00:34:34.050
+y todo.
+
+00:34:35.730 --> 00:34:35.990
+Bien.
+
+00:34:37.110 --> 00:34:39.270
+Entonces, vamos a ir a Google Cloud.
+
+00:34:39.750 --> 00:34:41.530
+Aquí entramos y aparece
+
+00:34:41.530 --> 00:34:42.930
+crear servicio.
+
+00:34:43.630 --> 00:34:45.670
+Crear servicio tiene las tres opciones que mencioné
+
+00:34:45.670 --> 00:34:47.610
+recién. Tiene una imagen
+
+00:34:47.610 --> 00:34:49.390
+de Docker que quieren correr directamente
+
+00:34:49.390 --> 00:34:50.330
+la primera.
+
+00:34:51.490 --> 00:34:53.050
+¿Tienen código repositorio de GitHub?
+
+00:34:53.590 --> 00:34:55.930
+¿O tienen algún archivo de Dockerfile?
+
+00:34:57.150 --> 00:34:57.870
+Es la segunda.
+
+00:34:58.330 --> 00:34:58.490
+¿Bien?
+
+00:34:58.770 --> 00:35:01.070
+¿Quieren programar la función directamente en Microsoft?
+
+00:35:01.310 --> 00:35:02.130
+Es la tercera.
+
+00:35:02.530 --> 00:35:02.710
+¿Bien?
+
+00:35:08.540 --> 00:35:09.600
+¿Alguien tiene alguna duda?
+
+00:35:09.740 --> 00:35:11.680
+¿Alguien ha trabajado con GitLab o Bitbucket?
+
+00:35:23.830 --> 00:35:24.350
+Bitbucket.
+
+00:35:25.710 --> 00:35:26.310
+Bitbucket.
+
+00:35:26.470 --> 00:35:26.950
+¿Qué tal?
+
+00:35:28.800 --> 00:35:29.620
+Son similares.
+
+00:35:31.660 --> 00:35:34.320
+O sea, para hacer commits y cosas es bueno,
+
+00:35:34.320 --> 00:35:36.320
+pero yo creo que muchos flujos de optimización,
+
+00:35:36.320 --> 00:35:38.140
+utilización como integración con
+
+00:35:38.140 --> 00:35:40.200
+despliegue continuo directo nativo
+
+00:35:40.200 --> 00:35:42.180
+o temas de IA en general
+
+00:35:42.180 --> 00:35:43.120
+que quedó atrás.
+
+00:35:44.860 --> 00:35:46.360
+Efectivamente GitHub es el más usado
+
+00:35:46.360 --> 00:35:48.200
+en el mundo y es por eso que tiene
+
+00:35:48.200 --> 00:35:50.180
+muchos más componentes y es más accesible
+
+00:35:50.180 --> 00:35:52.340
+en precio. Recuerdo una migración
+
+00:35:52.340 --> 00:35:53.980
+de GitLab a GitHub
+
+00:35:53.980 --> 00:35:56.480
+había mejora por IA por componentes
+
+00:35:56.480 --> 00:35:58.360
+y era casi 40%
+
+00:35:58.360 --> 00:35:59.520
+menos en costo.
+
+00:36:00.080 --> 00:36:01.500
+Se me acuerdo hasta 50% de hecho.
+
+00:36:02.440 --> 00:36:03.980
+Migrando una empresa gigante,
+
+00:36:04.220 --> 00:36:06.100
+no dos o tres repositorios.
+
+00:36:06.320 --> 00:36:23.290
+¿Te refieres como a la integración con un Jira?
+
+00:36:30.100 --> 00:36:30.560
+De Vox
+
+00:36:30.560 --> 00:36:31.680
+Sí
+
+00:36:31.680 --> 00:36:35.820
+Claro
+
+00:36:35.820 --> 00:36:37.780
+Correcto
+
+00:36:37.780 --> 00:36:45.690
+Claro
+
+00:36:45.690 --> 00:36:49.910
+Sí, o sea, claro, efectivamente
+
+00:36:49.910 --> 00:36:51.570
+Tienen la parte nativa de esto
+
+00:36:51.570 --> 00:36:53.970
+Que después apareció aquí también directamente
+
+00:36:53.970 --> 00:36:57.910
+Que, o sea, también nos va a hacer una integración
+
+00:36:57.910 --> 00:36:59.470
+Utilizando CSID de otras
+
+00:36:59.470 --> 00:37:02.110
+Tienes que ver cuál es la mejor para ti
+
+00:37:02.110 --> 00:37:04.110
+Pero el workflow de GitHub también
+
+00:37:04.110 --> 00:37:06.110
+Están bien sólidos para correr CSID
+
+00:37:06.110 --> 00:37:07.410
+GitHub, sí
+
+00:37:07.410 --> 00:37:09.910
+El workflow es súper sólido, súper ordenado
+
+00:37:09.910 --> 00:37:10.730
+Todo, así que
+
+00:37:10.730 --> 00:37:12.270
+Cero drama
+
+00:37:12.270 --> 00:37:16.110
+Bien, yo me acuerdo de los desplegues
+
+00:37:16.110 --> 00:37:18.110
+Que se hacían, no sé si alguien lo trabaja todavía
+
+00:37:18.110 --> 00:37:20.050
+Así como un bitpacking con Bamboo
+
+00:37:20.050 --> 00:37:21.810
+Con Jenkins
+
+00:37:21.810 --> 00:37:22.550
+¿Profe?
+
+00:37:23.670 --> 00:37:24.190
+Adelante
+
+00:37:24.190 --> 00:37:28.010
+No sé si me queda claro, pero ¿GitLab tiene alguna
+
+00:37:28.010 --> 00:37:29.230
+Ventaja respecto al GitHub?
+
+00:37:29.230 --> 00:37:52.500
+O sea, ese problema va a ser como lo que programan en Python, programan en R. Pero yo veo que GitHub tiene más ventajas en el común completo sobre GitLab. GitLab tiene cosas o flujos más potentes, pero GitHub la tiene a menos escala, pero tiene mucho más cosas. Entonces, claro, es por eso que también GitHub es el más usado públicamente. GitLab ni siquiera.
+
+00:37:53.700 --> 00:37:59.100
+Es más caro. GitLab es sólido también, hay que decir, pero es más caro también. Es más feo.
+
+00:37:59.100 --> 00:38:01.840
+claro, yo me voy llevando un proyecto de un lado a otro
+
+00:38:01.840 --> 00:38:03.640
+dependiendo de la máquina en la que, por ejemplo,
+
+00:38:03.760 --> 00:38:05.480
+entreno. Uso una Mac Mini,
+
+00:38:06.240 --> 00:38:07.780
+el lado Push, ¿cierto?
+
+00:38:07.980 --> 00:38:09.840
+o Commit, y después me lo llevo a la Mac
+
+00:38:09.840 --> 00:38:11.520
+para tener algo más bien conversacional
+
+00:38:11.520 --> 00:38:13.780
+y así vamos como pingponeando
+
+00:38:13.780 --> 00:38:15.620
+desde donde voy trabajando
+
+00:38:15.620 --> 00:38:16.120
+el proyecto.
+
+00:38:17.740 --> 00:38:19.780
+Claro. No sé, por cierto, es muy bueno
+
+00:38:19.780 --> 00:38:22.080
+pero el tema de precio depende de la licencia,
+
+00:38:22.180 --> 00:38:23.520
+la empresa, lo que tenga también.
+
+00:38:23.640 --> 00:38:24.400
+Esto juega mucho.
+
+00:38:25.160 --> 00:38:25.360
+Claro.
+
+00:38:25.360 --> 00:38:35.800
+cuál es la diferencia entre crear esto con el cloud round y hacerlo en compute engine
+
+00:38:35.800 --> 00:38:41.880
+y en había como con una máquina virtual claro aquí claudio es simplemente para levantar
+
+00:38:41.880 --> 00:38:47.440
+aplicaciones bien o sea un método para hacer aplicaciones aplicaciones web de web normal
+
+00:38:47.440 --> 00:38:54.580
+que sea compete engine es concepto de cómputo porque va a ser clúster puede ser nodos y centros
+
+00:38:54.580 --> 00:38:59.320
+de conectarlos después correr en aplicaciones entonces tú quieres hacer una aplicación
+
+00:38:59.320 --> 00:39:05.080
+trabajando con google cloud es una muy buena opción para web app compete engine puede soportar
+
+00:39:05.080 --> 00:39:11.580
+toda la infraestructura de una compañía área y mucho más como algo con una aplicación multimodal
+
+00:39:11.580 --> 00:39:21.140
+que varias cosas de venta todo si es competencia de la parte trabajando modelos como hermes o como
+
+00:39:21.140 --> 00:39:24.020
+RMS Engine to Open Cloud es recomendable
+
+00:39:24.020 --> 00:39:24.700
+Compute Engine
+
+00:39:24.700 --> 00:39:27.720
+porque una aplicación termina siendo un core agente
+
+00:39:27.720 --> 00:39:31.420
+y obviamente con Linux
+
+00:39:31.420 --> 00:39:33.080
+si, siempre
+
+00:39:33.080 --> 00:39:35.500
+siempre, verdad, si Linux
+
+00:39:35.500 --> 00:39:37.860
+bien
+
+00:39:37.860 --> 00:39:39.320
+y perdón
+
+00:39:39.320 --> 00:39:41.000
+¿qué distribución de Linux?
+
+00:39:41.000 --> 00:39:42.780
+¿como Ubuntu?
+
+00:39:44.600 --> 00:39:46.580
+¿qué distribución de Linux
+
+00:39:46.580 --> 00:39:48.340
+es una recomendable Ubuntu?
+
+00:39:49.040 --> 00:39:50.300
+o ahí depende del gusto
+
+00:39:50.300 --> 00:39:52.500
+pero igual como
+
+00:39:52.500 --> 00:39:54.460
+cuando vas a levantar un jubilat
+
+00:39:54.460 --> 00:39:55.960
+o jubilat hub
+
+00:39:55.960 --> 00:39:58.280
+y también te hay que configurar atrás el entorno
+
+00:39:58.280 --> 00:40:00.520
+el sistema operativo, la versión, etc
+
+00:40:00.520 --> 00:40:02.160
+hay de todo
+
+00:40:02.160 --> 00:40:04.500
+o sea, por defecto tú ocupas el Ubuntu
+
+00:40:04.500 --> 00:40:06.420
+había uno también que era
+
+00:40:06.420 --> 00:40:06.720
+el
+
+00:40:06.720 --> 00:40:09.260
+imagen de Debian
+
+00:40:09.260 --> 00:40:10.740
+sí
+
+00:40:10.740 --> 00:40:12.440
+Bitnami
+
+00:40:12.440 --> 00:40:16.700
+es como una versión
+
+00:40:16.700 --> 00:40:18.260
+liviana, similar a Ubuntu
+
+00:40:18.260 --> 00:40:26.380
+tipo de bien y anda bastante bien bueno hay que nuestra alternativa tiene también la parte de
+
+00:40:26.380 --> 00:40:31.640
+debian pero igual tiene problemas en cantidades de o sea comienza a saturar el entorno por tanta
+
+00:40:31.640 --> 00:40:36.780
+ejecución de imagen si vas a hacer como microcontrolador como rasper y va a tener
+
+00:40:36.780 --> 00:40:41.880
+que ocupar el raspia puedes ocupar el inox directo para ocupar justo lo que mencionó
+
+00:40:41.880 --> 00:40:47.040
+el ipc puede ser más liviano pero hay como versiones ajustadas para cada tipo de dispositivo
+
+00:40:48.260 --> 00:40:51.980
+He escuchado de Omarchi
+
+00:40:51.980 --> 00:40:53.180
+No, ¿qué es?
+
+00:40:53.620 --> 00:40:54.160
+Es la
+
+00:40:54.160 --> 00:40:57.840
+La nueva distribución de
+
+00:40:57.840 --> 00:41:00.120
+Linux que hizo el tipo de Ruby
+
+00:41:00.120 --> 00:41:01.200
+Ruby on Rails
+
+00:41:01.200 --> 00:41:04.340
+Algo noticia escuché pero no he visto nada
+
+00:41:04.340 --> 00:41:04.920
+DHH
+
+00:41:04.920 --> 00:41:07.760
+Y él dijo que es una distribución
+
+00:41:07.760 --> 00:41:09.500
+Que la montó sobre Arc
+
+00:41:09.500 --> 00:41:10.420
+Arc Linux
+
+00:41:10.420 --> 00:41:12.540
+Y dijo que la hizo
+
+00:41:12.540 --> 00:41:15.420
+Especializada para que la corran a gente
+
+00:41:15.420 --> 00:41:16.640
+De ahí
+
+00:41:16.640 --> 00:41:18.580
+está super bueno
+
+00:41:18.580 --> 00:41:19.420
+está bueno, sí
+
+00:41:19.420 --> 00:41:22.620
+qué bueno, está evolucionando todo
+
+00:41:22.620 --> 00:41:23.280
+por eso te digo
+
+00:41:23.280 --> 00:41:26.940
+y no sé si vieron el anuncio de Neuralink
+
+00:41:26.940 --> 00:41:28.540
+que yo vengo hinchando un año
+
+00:41:28.540 --> 00:41:30.760
+que el próximo año van a estar
+
+00:41:30.760 --> 00:41:32.820
+disponibles las primeras partes a la venta
+
+00:41:32.820 --> 00:41:34.380
+directa, ojalá, pero
+
+00:41:34.380 --> 00:41:36.060
+de la anuncio de Neuralink
+
+00:41:36.060 --> 00:41:39.040
+de los
+
+00:41:39.040 --> 00:41:41.020
+sistemas y chips de conexiones
+
+00:41:41.020 --> 00:41:42.660
+etcétera
+
+00:41:42.660 --> 00:41:44.380
+sí, no sé, digo
+
+00:41:44.380 --> 00:41:45.340
+quizás
+
+00:41:45.340 --> 00:41:50.720
+No vamos a estudiar nada 2030, transmitir por transferencia, claro.
+
+00:41:51.320 --> 00:41:55.900
+O sea que el momento es hacer cosas nuevas, o sea, el momento es que clonar personas, legalmente me refiero.
+
+00:41:56.560 --> 00:42:00.140
+El momento es de trabajar ya los procesos automáticos de marketing 3.0,
+
+00:42:00.640 --> 00:42:03.160
+porque un ejército de marketing atrás es muy costoso,
+
+00:42:04.000 --> 00:42:08.500
+y el momento comenzaría a ser el vínculo físico con la IA, entretenido.
+
+00:42:09.300 --> 00:42:12.560
+Si lo hemos visto, sería bueno comprar un Optimus de Tesla de alguna forma,
+
+00:42:12.560 --> 00:42:15.040
+que el próximo año podría estar en la venta
+
+00:42:15.040 --> 00:42:16.980
+con más integrado
+
+00:42:16.980 --> 00:42:18.700
+el sistema, que va a ser
+
+00:42:18.700 --> 00:42:20.820
+el médico más comprometido
+
+00:42:20.820 --> 00:42:22.800
+del planeta también, óptimos
+
+00:42:22.800 --> 00:42:27.340
+pero el problema
+
+00:42:27.340 --> 00:42:28.620
+es si terminamos
+
+00:42:28.620 --> 00:42:30.440
+con el chip metido en la cabeza
+
+00:42:30.440 --> 00:42:32.860
+que es para donde va Neuralink
+
+00:42:32.860 --> 00:42:34.880
+¿qué pasa si te hackean?
+
+00:42:35.940 --> 00:42:37.160
+claro, te hackean el cerebro
+
+00:42:37.160 --> 00:42:38.420
+o sea, sí podría pasar
+
+00:42:38.420 --> 00:42:39.380
+no te digo nada
+
+00:42:39.380 --> 00:42:40.700
+es que es un riesgo enorme
+
+00:42:40.700 --> 00:42:41.980
+imagínate que terminamos
+
+00:42:41.980 --> 00:42:44.900
+con mensajes de enjambre, todos conectados
+
+00:42:44.900 --> 00:42:46.640
+una superinteligencia
+
+00:42:46.640 --> 00:42:47.440
+humano artificial
+
+00:42:47.440 --> 00:42:50.080
+y se mete un gallo hackeado
+
+00:42:50.080 --> 00:42:51.300
+y te morís
+
+00:42:51.300 --> 00:42:51.740
+es verdad
+
+00:42:51.740 --> 00:42:54.960
+es verdad Javier
+
+00:42:54.960 --> 00:42:56.900
+de hecho abriste el apetito a un punto
+
+00:42:56.900 --> 00:42:58.460
+así y un poco peor
+
+00:42:58.460 --> 00:43:01.600
+¿qué pasa si uno hoy en día está feliz con su celular?
+
+00:43:02.120 --> 00:43:03.260
+ahora hay celulares que son
+
+00:43:03.260 --> 00:43:04.440
+transformers
+
+00:43:04.440 --> 00:43:07.120
+¿qué pasa con tu auto también que está feliz
+
+00:43:07.120 --> 00:43:08.740
+que está conectado al satélite de todo?
+
+00:43:08.740 --> 00:43:12.180
+¿qué pasa con tu cerebro también cuando está conectado
+
+00:43:12.180 --> 00:43:13.540
+y administrado por una empresa
+
+00:43:13.540 --> 00:43:14.560
+Mesh
+
+00:43:14.560 --> 00:43:17.380
+o el tópico de conexión en Mesh
+
+00:43:17.380 --> 00:43:19.740
+así como por distancia también sacana
+
+00:43:19.740 --> 00:43:21.720
+y también conexiones directamente a satélites
+
+00:43:21.720 --> 00:43:24.160
+¿qué pasa si algún día toman la decisión
+
+00:43:24.160 --> 00:43:25.480
+de apagar el cerebro
+
+00:43:25.480 --> 00:43:27.780
+a la mitad de Chile, que tenemos todos los chips
+
+00:43:27.780 --> 00:43:29.420
+chao guerra
+
+00:43:29.420 --> 00:43:32.060
+ni siquiera vamos a vernos de la CIA
+
+00:43:32.060 --> 00:43:34.180
+no sé nada, claro, no sé
+
+00:43:34.180 --> 00:43:35.760
+no sé qué te puedo decir
+
+00:43:35.760 --> 00:43:37.860
+porque hay diferentes tipos de chips
+
+00:43:37.860 --> 00:43:39.360
+y sabemos que hay unos que son nano
+
+00:43:39.360 --> 00:43:41.620
+y más chiquitos todavía que se van a estar a inyectar
+
+00:43:41.620 --> 00:43:43.920
+entonces depende de cómo va a instalar
+
+00:43:43.920 --> 00:43:45.160
+en qué parte va a estar
+
+00:43:45.160 --> 00:43:47.360
+no sé, se viene en un momento
+
+00:43:47.360 --> 00:43:48.940
+grave
+
+00:43:48.940 --> 00:43:50.860
+se supone que tendencialmente
+
+00:43:50.860 --> 00:43:53.960
+la naturalidad de la evolución
+
+00:43:53.960 --> 00:43:55.020
+es la fusión
+
+00:43:55.020 --> 00:43:57.560
+del humano con
+
+00:43:57.560 --> 00:44:00.020
+con esta super inteligencia
+
+00:44:00.020 --> 00:44:00.800
+claro
+
+00:44:00.800 --> 00:44:03.200
+no van a poder vivir los dos al mismo tiempo
+
+00:44:03.200 --> 00:44:05.760
+entonces si estáis así, corríais a riesgo
+
+00:44:05.760 --> 00:44:06.500
+estáis complicado
+
+00:44:06.500 --> 00:44:11.140
+es muy entretenido
+
+00:44:11.140 --> 00:44:12.420
+vamos a ver en que termina
+
+00:44:12.420 --> 00:44:14.900
+a ver si lo vemos
+
+00:44:14.900 --> 00:44:17.500
+vamos a ver
+
+00:44:17.500 --> 00:44:24.160
+vamos a ver
+
+00:44:24.160 --> 00:44:26.770
+entonces
+
+00:44:26.770 --> 00:44:29.650
+vamos para la segunda opción
+
+00:44:29.650 --> 00:44:32.990
+que dice implementar continuamente a partir del repositorio
+
+00:44:32.990 --> 00:44:34.010
+hay dos opciones
+
+00:44:34.010 --> 00:44:34.990
+una es Cloud Build
+
+00:44:34.990 --> 00:44:38.290
+que es el nativo que hace construir el componente
+
+00:44:38.290 --> 00:44:40.450
+este solamente funciona
+
+00:44:40.450 --> 00:44:41.210
+con GitHub
+
+00:44:41.210 --> 00:44:51.490
+Hace unos meses atrás no había otro, era solamente Cloud Build de GitHub en Cloud Run, no había integraciones directas, así tenías que hacerlo tú.
+
+00:44:52.050 --> 00:45:01.230
+Ahora sí, tiene algo que se llama Developer Connect, que se puede conectar a GitLab o Bitbucket o GitHub directamente para traerlo como conector de desarrollo.
+
+00:45:01.490 --> 00:45:03.890
+Y primero construye, no solamente conecta.
+
+00:45:03.890 --> 00:45:26.410
+Ahí aparece directamente a nivel gratuito, uno puede revisarlo, pero pueden llegar a tener 2 millones de solicitudes al mes gratis. O sea, gratis no es, pero se paga un fin, no sé, un dólar. Pero muy barato. Hasta que comienza a escalar más. Y eso hace que temas como Fly.io o Heroku salen mucho más caros que Google Cloud Run. Adelante.
+
+00:45:26.410 --> 00:45:30.070
+ahí está mostrando el paso a paso
+
+00:45:30.070 --> 00:45:32.270
+solo con motivo académico
+
+00:45:32.270 --> 00:45:33.970
+porque también lo podría hacer desde la terminal
+
+00:45:33.970 --> 00:45:35.490
+por cierto, iniciando sesión con
+
+00:45:35.490 --> 00:45:36.970
+igual que en todas las nubes, ¿cierto?
+
+00:45:37.190 --> 00:45:39.170
+se puede levantar todo con un solo comando
+
+00:45:39.170 --> 00:45:42.270
+pero claro, hay que aprender la herramienta
+
+00:45:42.270 --> 00:45:44.470
+o sea, uno puede pasar, de hecho, ni siquiera haciendo el comando
+
+00:45:44.470 --> 00:45:46.050
+le digo a Cloud Code que lo haga
+
+00:45:46.050 --> 00:45:48.170
+se conecta y lo despliega a través de
+
+00:45:48.170 --> 00:45:49.270
+Google SDK
+
+00:45:49.270 --> 00:45:52.270
+o Cloud Shell Directo
+
+00:45:53.090 --> 00:45:53.890
+sí, también
+
+00:45:53.890 --> 00:45:57.310
+pero claro, hay que aprender
+
+00:45:57.310 --> 00:45:59.070
+que hace la herramienta
+
+00:45:59.070 --> 00:46:01.050
+dentro de la plataforma y luego ya será
+
+00:46:01.050 --> 00:46:11.200
+eso, totalmente
+
+00:46:11.200 --> 00:46:12.500
+bien
+
+00:46:12.500 --> 00:46:14.980
+vamos, ¿cómo vamos a llamar el servicio?
+
+00:46:15.080 --> 00:46:16.500
+lo vamos a llamar findbot
+
+00:46:16.500 --> 00:46:19.280
+cl
+
+00:46:19.280 --> 00:46:21.950
+directamente
+
+00:46:21.950 --> 00:46:24.030
+puede comenzar con una letra y contiene
+
+00:46:24.030 --> 00:46:26.050
+hasta 49 minúsculas
+
+00:46:26.050 --> 00:46:27.250
+números o guiones
+
+00:46:27.250 --> 00:46:30.090
+listo, no hay regla
+
+00:46:30.090 --> 00:46:32.050
+de guión medio aquí, guión bajo, perdón
+
+00:46:32.050 --> 00:46:33.790
+en Cloud Run. Si van
+
+00:46:33.790 --> 00:46:36.090
+al DataLexi, si van al Data
+
+00:46:36.090 --> 00:46:37.490
+Warehouse, comienzan a chocar
+
+00:46:37.490 --> 00:46:39.790
+por dataset, por tabla, cada cosa
+
+00:46:39.790 --> 00:46:41.950
+tiene su nomenclatura, por eso cuando
+
+00:46:41.950 --> 00:46:43.770
+uno hace una gobernanza técnica
+
+00:46:43.770 --> 00:46:46.010
+toca datos, procesos, IA
+
+00:46:46.010 --> 00:46:47.670
+y web, se tiene que probar.
+
+00:46:48.530 --> 00:46:49.570
+Algo me levanta y dice
+
+00:46:49.570 --> 00:46:51.930
+todo es guión medio y te chocan la mitad
+
+00:46:51.930 --> 00:46:53.570
+de los servicios en las nubes.
+
+00:46:53.930 --> 00:46:54.430
+No funciona.
+
+00:46:55.530 --> 00:46:57.730
+Después lo homologamos. ¿Cómo que después lo homologamos?
+
+00:46:58.230 --> 00:46:59.850
+De una. Bien. Probando
+
+00:46:59.850 --> 00:47:01.670
+la herramienta te vas a dar cuenta de inmediato.
+
+00:47:02.050 --> 00:47:12.770
+¿Dónde lo vamos a desplegar? Vamos a ir a Estados Unidos, servidor de los sistemas como data centers que son los más usados en el mundo.
+
+00:47:13.630 --> 00:47:20.970
+Ahí se entra el Lua, por ejemplo, que está más amigable en emisiones de CO2, tiene baja emisión de CO2.
+
+00:47:21.770 --> 00:47:22.470
+Vamos a seleccionar.
+
+00:47:23.710 --> 00:47:28.190
+Y ahora si alguien quiere personalizar su URL, lo pueden hacer aquí.
+
+00:47:28.190 --> 00:47:31.910
+o si lo quieren ocupar directamente como aparece la API,
+
+00:47:32.050 --> 00:47:32.830
+lo pueden dejar aquí.
+
+00:47:34.290 --> 00:47:36.830
+Bien, esa va a ser la API, que hoy día no tiene nada.
+
+00:47:36.950 --> 00:47:37.730
+Vamos a abrirla a ver.
+
+00:47:40.220 --> 00:47:40.480
+Nada.
+
+00:47:42.140 --> 00:47:42.580
+Bien.
+
+00:47:44.140 --> 00:47:47.180
+Después, abajo hay dos opciones.
+
+00:47:47.900 --> 00:47:49.980
+Una que dice permitir el acceso público.
+
+00:47:51.020 --> 00:47:52.800
+La otra que dice requiere autenticación.
+
+00:47:53.440 --> 00:47:55.080
+Si quieren hacerlo con autenticación,
+
+00:47:55.080 --> 00:47:58.320
+hay que identificar y preparar toda la parte política
+
+00:47:58.320 --> 00:48:02.700
+y acceso del IAM, roles, registros, etc.
+
+00:48:03.380 --> 00:48:06.480
+O lo otro, permitirlo públicamente para que lo devolveran.
+
+00:48:09.570 --> 00:48:11.310
+Después, facturación.
+
+00:48:11.630 --> 00:48:15.310
+Ahí no solamente facturación, aquí es el estado de máquinas que van a seleccionar.
+
+00:48:16.170 --> 00:48:19.610
+Primero puede ser pasado en solicitudes, que significa serverless.
+
+00:48:20.330 --> 00:48:23.730
+Uno le paga, como hablamos antes, como modelo de autos,
+
+00:48:23.910 --> 00:48:29.190
+como esta aplicación de Auto.com W, que fracasó aquí, lamentablemente.
+
+00:48:30.750 --> 00:48:38.750
+si es que era esta que era blanca y azul tenía auto con WClar que voy a arrendar por minuto
+
+00:48:38.750 --> 00:48:45.190
+el auto on demand bien o si no tienes que arrendarlo como renta car por día si lo usas
+
+00:48:45.190 --> 00:48:50.550
+o no esto es problema lo mismo aquí en solicitudes depende la cantidad de solicitudes se hace la
+
+00:48:50.550 --> 00:48:56.710
+facturación abajo en un computador está dedicado entonces lo usas o no esto es problema lo pagas
+
+00:48:56.710 --> 00:49:03.630
+igual bien entonces vamos a ir por la primera basada en solicitudes recordando bien que aquí
+
+00:49:05.250 --> 00:49:11.730
+pueden cambiar muchas cosas ven ser confecciones de máquina acceso a gpu muchas cosas pueden
+
+00:49:11.730 --> 00:49:22.640
+cambiar entre la primera a la segunda ahora escalamiento del servicio te dice dos cosas
+
+00:49:22.640 --> 00:49:24.340
+aquí, ¿cuánto es la cantidad
+
+00:49:24.340 --> 00:49:25.780
+mínima de instancias?
+
+00:49:27.140 --> 00:49:28.480
+¿se recuerdan que es escalar
+
+00:49:28.480 --> 00:49:29.820
+y desescalar?
+
+00:49:32.570 --> 00:49:32.910
+¿sí? ¿no?
+
+00:49:34.030 --> 00:49:36.130
+escalar o desescalar
+
+00:49:36.130 --> 00:49:38.490
+las máquinas
+
+00:49:38.490 --> 00:49:39.690
+o el cómputo
+
+00:49:39.690 --> 00:49:42.590
+¿qué significa escalar el cómputo o desescalar
+
+00:49:42.590 --> 00:49:43.070
+el cómputo?
+
+00:49:44.210 --> 00:49:46.330
+sin mencionar horizontal o verticalmente
+
+00:49:46.330 --> 00:49:47.910
+que también es válido, ¿se recuerda?
+
+00:49:50.160 --> 00:49:50.340
+bien
+
+00:49:50.340 --> 00:49:52.060
+¿alguien que no se acuerde?
+
+00:49:53.360 --> 00:49:55.440
+por ejemplo, correcto
+
+00:49:56.780 --> 00:49:58.340
+¿Alguien que no se acuerda de esto?
+
+00:49:59.800 --> 00:50:01.300
+Porque lo debemos explicar.
+
+00:50:01.460 --> 00:50:01.980
+Estamos aquí.
+
+00:50:04.660 --> 00:50:07.900
+Uno, dos, tres.
+
+00:50:08.100 --> 00:50:08.860
+Todos se acuerdan.
+
+00:50:08.960 --> 00:50:09.420
+Muy bien.
+
+00:50:10.560 --> 00:50:12.380
+Que lo dudo, pero no se atrevieron a decir que no.
+
+00:50:14.220 --> 00:50:20.080
+Entonces, aquí tenemos que definir la cantidad de máquinas o instancias mínimas
+
+00:50:20.080 --> 00:50:22.040
+que vamos a ocupar para levantar la app.
+
+00:50:22.900 --> 00:50:24.740
+¿Y cuándo va a ser el máximo en escalar?
+
+00:50:24.740 --> 00:50:29.600
+Porque qué pasa si arrancas con 10 clientes y terminas teniendo un millón por tu suerte de negocio.
+
+00:50:30.280 --> 00:50:31.740
+Bien, tienes que escalarlo.
+
+00:50:32.800 --> 00:50:37.840
+Entonces, este ajuste a escala automática tiene la cantidad mínima de instancias.
+
+00:50:39.560 --> 00:50:43.840
+Sí, correcto.
+
+00:50:44.220 --> 00:50:47.600
+O sea, por la parte de hacerlo, ¿cómo se llama?
+
+00:50:48.560 --> 00:50:49.160
+Verticalmente.
+
+00:50:50.320 --> 00:50:52.920
+Aquí las opciones del tipo de máquina vienen predefinidas.
+
+00:50:52.920 --> 00:50:56.380
+entonces tú lo colocas 4 GB de RAM
+
+00:50:56.380 --> 00:50:58.280
+si se usa 100 MB hasta 4 GB
+
+00:50:58.280 --> 00:50:59.880
+es el máximo que tiene verticalmente
+
+00:50:59.880 --> 00:51:01.580
+si no, se replica horizontalmente
+
+00:51:01.580 --> 00:51:05.660
+exacto
+
+00:51:05.660 --> 00:51:08.520
+entonces, igual uno lo puede dejar
+
+00:51:08.520 --> 00:51:10.100
+con escalamiento manual
+
+00:51:10.100 --> 00:51:11.360
+que no es recomendable
+
+00:51:11.360 --> 00:51:12.480
+el sistema en producción
+
+00:51:12.480 --> 00:51:16.220
+porque no vas a alcanzar a escalar cuando te colapsa
+
+00:51:16.220 --> 00:51:18.180
+o sea, en esa sesión entras y hasta caído
+
+00:51:18.180 --> 00:51:18.940
+el sistema, bien
+
+00:51:18.940 --> 00:51:21.840
+entonces claro, igual no lo voy a dar mucho
+
+00:51:21.840 --> 00:51:23.160
+porque es una aplicación de prueba
+
+00:51:23.160 --> 00:51:25.800
+De dejar mínimo con una y máximo con una
+
+00:51:25.800 --> 00:51:28.880
+Entonces cualquier cosa se va a abrir una instancia al lado
+
+00:51:28.880 --> 00:51:33.360
+Para incrementar el flujo, poder soportar tráfico de usuarios
+
+00:51:33.360 --> 00:51:36.760
+Y además, abajo decía aquí que ya se fue
+
+00:51:36.760 --> 00:51:40.740
+Con una instancia más tú aceleras el levantamiento de la aplicación
+
+00:51:40.740 --> 00:51:41.760
+Cuando está en frío
+
+00:51:41.760 --> 00:51:43.980
+Bien, es una máquina
+
+00:51:43.980 --> 00:51:46.640
+Entonces mientras que arranca, etcétera
+
+00:51:46.640 --> 00:51:49.320
+Tú puedes acelerar el levantamiento de la aplicación
+
+00:51:49.320 --> 00:51:50.520
+Teniendo más que una máquina
+
+00:51:50.520 --> 00:51:52.900
+O el otro que abajo ahora aparece
+
+00:51:52.900 --> 00:51:55.240
+echar un poquito más de combustible
+
+00:51:55.240 --> 00:51:57.080
+para que el CPU se caliente más rápido
+
+00:51:57.080 --> 00:51:58.180
+y levanta la app más rápido.
+
+00:51:59.000 --> 00:52:00.460
+Así, como analogía, ¿bien?
+
+00:52:01.260 --> 00:52:03.920
+Pero vamos a ver al final de la configuración.
+
+00:52:04.540 --> 00:52:06.640
+Entonces aquí a escalabilidad de servicio,
+
+00:52:06.740 --> 00:52:09.220
+a esa automática, vamos a tener una máquina más.
+
+00:52:09.820 --> 00:52:12.200
+Y es la misma, más o menos, o mínimo o máximo,
+
+00:52:12.300 --> 00:52:12.680
+no hay más.
+
+00:52:13.920 --> 00:52:14.320
+Ingres.
+
+00:52:14.740 --> 00:52:15.820
+¿Cómo va a haber trabajo?
+
+00:52:16.240 --> 00:52:18.500
+Este trabajo o el tráfico que se va a hacer
+
+00:52:18.500 --> 00:52:19.940
+va a pasar por la VPC,
+
+00:52:20.600 --> 00:52:22.080
+va a ser por la configuración de redes,
+
+00:52:22.080 --> 00:52:24.300
+en networking, en tarnos de la compañía
+
+00:52:24.300 --> 00:52:25.260
+con el IAM y todo
+
+00:52:25.260 --> 00:52:27.140
+o simplemente público
+
+00:52:27.140 --> 00:52:29.700
+no, vamos a trabajar ciberseguridad ahora
+
+00:52:29.700 --> 00:52:32.360
+bien, escabas del programa
+
+00:52:32.360 --> 00:52:33.320
+y del curso, bien
+
+00:52:33.320 --> 00:52:36.000
+pero si vamos a dejarlo todo, permitir acceso público
+
+00:52:36.000 --> 00:52:36.940
+a todos los servicios
+
+00:52:36.940 --> 00:52:38.980
+la pésima opción
+
+00:52:38.980 --> 00:52:42.240
+bueno, el ataque podría costar aquí 20 lucas
+
+00:52:42.240 --> 00:52:43.040
+así que denle lo más
+
+00:52:43.040 --> 00:52:46.340
+mientras que yo voy a pagarlo y listo
+
+00:52:46.340 --> 00:52:49.780
+bien, efectivamente esta parte
+
+00:52:49.780 --> 00:52:52.060
+si te quiere hacer un servicio público o otra cosa,
+
+00:52:52.180 --> 00:52:54.460
+bien, una página informativa o lo que quieras, sí.
+
+00:52:54.960 --> 00:52:57.300
+Pero en este escenario, no, tiene que estar protegido.
+
+00:52:59.160 --> 00:53:03.710
+Bien, nombre del contenedor.
+
+00:53:04.010 --> 00:53:05.890
+¿Quieres dejarlo tú nombrado al contenedor
+
+00:53:05.890 --> 00:53:07.050
+o prefieres dejarlo a Google?
+
+00:53:07.370 --> 00:53:10.030
+Bien, ellos por defecto le crean un nombre único.
+
+00:53:10.030 --> 00:53:14.650
+Y además, argumentos del contenedor.
+
+00:53:15.510 --> 00:53:17.970
+¿Cuánto es la memoria que quieres que se ocupa
+
+00:53:17.970 --> 00:53:19.070
+dentro de este contenedor?
+
+00:53:19.210 --> 00:53:20.590
+¿Y con cuántos CPUs?
+
+00:53:20.590 --> 00:53:23.590
+depende del tipo de configuración
+
+00:53:23.590 --> 00:53:25.110
+depende del tipo de instancia
+
+00:53:25.110 --> 00:53:26.750
+todo podría cambiar, cierto?
+
+00:53:27.890 --> 00:53:29.710
+entonces en una serverless así
+
+00:53:29.710 --> 00:53:32.110
+en la región donde estamos
+
+00:53:32.110 --> 00:53:33.670
+32 GB
+
+00:53:33.670 --> 00:53:36.150
+el máximo en la lista, igual se puede personalizar
+
+00:53:36.150 --> 00:53:36.990
+bien
+
+00:53:36.990 --> 00:53:39.390
+que no es necesario
+
+00:53:39.390 --> 00:53:41.410
+vamos a dejar en 1 GB
+
+00:53:41.410 --> 00:53:43.750
+a nivel de CPU tienes hasta
+
+00:53:43.750 --> 00:53:45.750
+8 nodos de CPU de ejecución
+
+00:53:45.750 --> 00:53:47.090
+lo van a dejar en 1
+
+00:53:47.090 --> 00:53:49.210
+hay unos servicios
+
+00:53:49.210 --> 00:53:52.830
+como este también, dice menos que 1
+
+00:53:52.830 --> 00:53:55.130
+va a ser, no sé, 0.5
+
+00:53:55.130 --> 00:53:56.410
+puedes tomar un
+
+00:53:56.410 --> 00:53:58.610
+medio, una mitad de un CPU
+
+00:53:58.610 --> 00:54:00.450
+un cuarto de un CPU
+
+00:54:00.450 --> 00:54:02.710
+tienes que esperar nomás porque va a levantar
+
+00:54:02.710 --> 00:54:04.610
+una calculadora o podría tardar una hora
+
+00:54:04.610 --> 00:54:05.630
+¿me entiendes?
+
+00:54:06.750 --> 00:54:08.650
+pero igual uno puede compartir recursos a nivel
+
+00:54:08.650 --> 00:54:09.410
+mucho más bajo
+
+00:54:09.410 --> 00:54:12.790
+algo de disco, algo de GPU que quieras revisar
+
+00:54:12.790 --> 00:54:14.450
+si está disponible o no, nada
+
+00:54:14.450 --> 00:54:19.970
+listo, está confirmada
+
+00:54:19.970 --> 00:54:21.090
+la primera parte, ahora
+
+00:54:21.090 --> 00:54:23.410
+tiempo en el que
+
+00:54:23.410 --> 00:54:24.910
+se debe mostrar una respuesta
+
+00:54:24.910 --> 00:54:27.030
+tiempo de la espera
+
+00:54:27.030 --> 00:54:29.330
+o de espera de una solicitud, ¿cuánto es el tiempo
+
+00:54:29.330 --> 00:54:31.390
+máximo que podría llegar a esperar
+
+00:54:31.390 --> 00:54:33.390
+la plataforma en la aplicación
+
+00:54:33.390 --> 00:54:35.270
+antes que hacer timeout?
+
+00:54:36.590 --> 00:54:37.290
+aquí está
+
+00:54:37.290 --> 00:54:39.450
+por defecto con 300 segundos, es un montón
+
+00:54:39.450 --> 00:54:40.510
+¿ve?
+
+00:54:41.290 --> 00:54:43.330
+o sea, debería ser menos, 300 segundos
+
+00:54:43.330 --> 00:54:45.110
+es mucho, hablando ya de
+
+00:54:45.110 --> 00:54:46.890
+como 4 minutos y algo
+
+00:54:46.890 --> 00:54:48.210
+entonces
+
+00:54:48.210 --> 00:54:51.050
+se lo voy a dejar así por defecto, no pasa nada
+
+00:54:51.050 --> 00:54:54.190
+pero imagínate consultar alguna página
+
+00:54:54.190 --> 00:54:56.490
+y la página tarda 5 minutos
+
+00:54:56.490 --> 00:54:58.530
+en decirte timeout es un problema
+
+00:54:58.530 --> 00:55:00.550
+pero claro, si está haciendo algo
+
+00:55:00.550 --> 00:55:02.610
+podría tardar en generar respuesta
+
+00:55:02.610 --> 00:55:04.950
+lo veo bien
+
+00:55:04.950 --> 00:55:06.890
+no sé, un agente
+
+00:55:06.890 --> 00:55:08.950
+que hace revisiones de contrato y licitación
+
+00:55:08.950 --> 00:55:10.850
+claro
+
+00:55:10.850 --> 00:55:13.150
+estimar la lluvia
+
+00:55:13.150 --> 00:55:15.110
+que suena muy fuerte ahora
+
+00:55:15.110 --> 00:55:17.610
+cantidad mínima de solicitudes
+
+00:55:17.610 --> 00:55:19.470
+simultáneas por instancia
+
+00:55:19.470 --> 00:55:20.490
+que significa
+
+00:55:20.490 --> 00:55:22.630
+cuántos
+
+00:55:22.630 --> 00:55:24.810
+enter por segundo va a ocurrir en esta máquina
+
+00:55:24.810 --> 00:55:26.350
+¿bien? tú lo puedes delimitar
+
+00:55:26.350 --> 00:55:28.030
+¿qué pasa si coloco 1000?
+
+00:55:28.590 --> 00:55:30.570
+no va a llegar, va a caer la máquina
+
+00:55:30.570 --> 00:55:32.910
+si llegas a tener 1000, es muy chiquitita
+
+00:55:32.910 --> 00:55:34.170
+o sea, 80 creo que no da
+
+00:55:34.170 --> 00:55:36.710
+¿bien? pero uno puede colocar
+
+00:55:36.710 --> 00:55:38.530
+cuánto es el máximo que se puede
+
+00:55:38.530 --> 00:55:40.250
+usar dentro de esta máquina
+
+00:55:40.250 --> 00:55:42.850
+como enters simultáneos
+
+00:55:42.850 --> 00:55:43.630
+por segundo
+
+00:55:43.630 --> 00:55:55.370
+Locust
+
+00:55:55.370 --> 00:55:56.630
+¿sí?
+
+00:55:56.630 --> 00:55:59.090
+no, de nada
+
+00:55:59.090 --> 00:56:01.390
+locus podría hacer pruebas de carga
+
+00:56:01.390 --> 00:56:03.010
+de estrés y ver el performance
+
+00:56:03.010 --> 00:56:04.270
+y generar un reporte final
+
+00:56:04.270 --> 00:56:07.450
+es sólido también, ¿quieren probarlo?
+
+00:56:08.330 --> 00:56:09.490
+vamos a probarlo sin app
+
+00:56:09.490 --> 00:56:11.510
+y atrás, porque si no los token también se van a
+
+00:56:11.510 --> 00:56:13.330
+fumar por el testeo, vamos a hacerlo
+
+00:56:13.330 --> 00:56:15.410
+prueba a nivel de app, vamos
+
+00:56:15.410 --> 00:56:17.010
+vamos a hacer que cloud code haga la prueba
+
+00:56:17.010 --> 00:56:23.560
+hecho, entonces
+
+00:56:23.560 --> 00:56:25.620
+80 enter por segundo
+
+00:56:25.620 --> 00:56:27.440
+vamos a levantar esto, luego vamos a
+
+00:56:27.440 --> 00:56:29.160
+hacer testeo de carga y estrés
+
+00:56:29.160 --> 00:56:30.860
+prueba de estrés
+
+00:56:30.860 --> 00:56:33.440
+¿ven? para estresar la aplicación
+
+00:56:33.440 --> 00:56:35.180
+estamos listos
+
+00:56:35.180 --> 00:56:36.840
+y posteriormente a esto
+
+00:56:36.840 --> 00:56:39.480
+vamos a trabajar todo el flujo
+
+00:56:39.480 --> 00:56:40.360
+y el proceso
+
+00:56:40.360 --> 00:56:42.440
+muy bien
+
+00:56:42.440 --> 00:56:44.840
+entorno de ejecución
+
+00:56:44.840 --> 00:56:47.040
+predeterminado que viene por defecto
+
+00:56:47.040 --> 00:56:49.080
+primera generación o segunda generación
+
+00:56:49.080 --> 00:56:51.280
+hablando de esto
+
+00:56:51.280 --> 00:56:52.780
+para que alguien se vea un poquito
+
+00:56:52.780 --> 00:56:54.820
+una vez nos
+
+00:56:54.820 --> 00:56:55.860
+contactaron
+
+00:56:55.860 --> 00:56:58.920
+hace como 4 años atrás
+
+00:56:58.920 --> 00:56:59.900
+si ni empresa tenía.
+
+00:57:01.940 --> 00:57:05.360
+Nos ha dicho, oye, tenemos un modelo de ML clásico,
+
+00:57:06.000 --> 00:57:07.200
+queremos ponerlo en producción.
+
+00:57:07.920 --> 00:57:08.080
+¿Bien?
+
+00:57:09.140 --> 00:57:10.800
+¿Y qué era? Un Jupyter Notebook.
+
+00:57:11.120 --> 00:57:14.120
+Tienen que tener que exportarlo, hacer todo el MLOPS y cargarlo, etc.
+
+00:57:14.640 --> 00:57:18.220
+Entonces, tú al entender bien la arquitectura de cómo está hecho el modelo,
+
+00:57:18.720 --> 00:57:20.000
+no es un trabajo complicado.
+
+00:57:21.100 --> 00:57:23.580
+Pero no tiene interfaz, es un API de consumo.
+
+00:57:24.460 --> 00:57:25.660
+Hace cuatro años atrás,
+
+00:57:25.660 --> 00:57:27.880
+la propuesta era 28 millones
+
+00:57:27.880 --> 00:57:29.980
+para levantar la rama
+
+00:57:29.980 --> 00:57:31.940
+main de entorno productivo
+
+00:57:31.940 --> 00:57:33.820
+en Google, haciendo la cuenta
+
+00:57:33.820 --> 00:57:35.520
+del proyecto de todo porque no tenía nada
+
+00:57:35.520 --> 00:57:37.620
+y correrle el modelo vía API
+
+00:57:37.620 --> 00:57:39.700
+tanto miedo la gente tiene
+
+00:57:39.700 --> 00:57:41.360
+a un tema que sea paso a producción
+
+00:57:41.360 --> 00:57:45.320
+o está fuerte la lluvia
+
+00:57:45.320 --> 00:57:47.120
+nos vamos a dormir aquí, no se preocupen
+
+00:57:47.800 --> 00:57:49.280
+la cama viene incluida
+
+00:57:49.280 --> 00:57:49.640
+claro
+
+00:57:49.640 --> 00:57:52.780
+hotelería de la UAI
+
+00:57:52.780 --> 00:57:54.760
+entonces claro, tanto
+
+00:57:54.760 --> 00:57:57.300
+miedo que uno tiene a la palabra
+
+00:57:57.300 --> 00:57:59.000
+producción, que ahora está quedado
+
+00:57:59.000 --> 00:58:01.220
+que el aire lo puede hacer relax
+
+00:58:01.220 --> 00:58:03.240
+fácil, pasa a producción
+
+00:58:03.240 --> 00:58:05.280
+más preocupante, que cuando tienes el caso
+
+00:58:05.280 --> 00:58:07.500
+de negocio hecho, consciente de la máquina
+
+00:58:07.500 --> 00:58:09.460
+y todo, pero esto no es preocupante
+
+00:58:09.460 --> 00:58:13.480
+para nada, ahí en el break
+
+00:58:13.480 --> 00:58:15.660
+veamos noticias, se nos
+
+00:58:15.660 --> 00:58:17.280
+va a ir nadando y veamos que hacemos
+
+00:58:17.280 --> 00:58:18.420
+pero
+
+00:58:18.420 --> 00:58:20.600
+unos 50 minutos más
+
+00:58:20.600 --> 00:58:23.400
+se tiene que seguir lloviendo así
+
+00:58:23.400 --> 00:58:24.940
+muy fuerte una hora para decir que
+
+00:58:24.940 --> 00:58:27.220
+así que rezan a Dios
+
+00:58:27.220 --> 00:58:30.610
+bien
+
+00:58:30.610 --> 00:58:33.250
+entonces, llegando aquí
+
+00:58:33.250 --> 00:58:35.810
+predeterminado
+
+00:58:35.810 --> 00:58:37.590
+primera y segunda generación
+
+00:58:37.590 --> 00:58:39.470
+¿qué significa? si usted quiere colocar
+
+00:58:39.470 --> 00:58:41.610
+primera generación actualizada de componentes
+
+00:58:41.610 --> 00:58:43.490
+y versionado, veamos noticias
+
+00:58:43.490 --> 00:58:44.070
+después, ¿no?
+
+00:58:44.470 --> 00:58:46.390
+a las nueve
+
+00:58:46.390 --> 00:58:49.550
+sí, hecho
+
+00:58:49.550 --> 00:58:51.690
+el otro es segunda generación
+
+00:58:51.690 --> 00:58:52.330
+bien
+
+00:58:52.330 --> 00:58:55.230
+y también uno puede hacer que sea
+
+00:58:55.230 --> 00:59:01.090
+predeterminado que decide google cuál es lo mejor para mí mi aplicación escalamiento revisión qué
+
+00:59:01.090 --> 00:59:07.130
+pasa cuando ustedes hacen un cambio en el reporte de la aplicación se tiene que crear de nuevo o
+
+00:59:07.130 --> 00:59:13.530
+red desplegar tienen otra máquina para correr la versión de nuevo y una vez listo se unifican o se
+
+00:59:13.530 --> 00:59:19.550
+migra el componente bien que también eso es muy bueno no se reemplaza directamente el error público
+
+00:59:19.550 --> 00:59:27.790
+no vamos a colocar una y una también del mismo la configuración de atrás quiere conectar alguna
+
+00:59:27.790 --> 00:59:36.690
+base de sql directamente aquí no aumenta de cpu en el inicio recuerdan auto del año 50 chupete
+
+00:59:36.690 --> 00:59:43.730
+corre más combustible se calienta más rápido el motor exactamente igual aquí bien puede salir a
+
+00:59:43.730 --> 00:59:54.070
+ver el testa sin vidrio de techo todo roto con los granizos claro bien uff vamos a crear
+
+00:59:59.170 --> 01:00:04.970
+ahora toda la máquina está lista antes que levantarla se nos olvidó el punto más importante
+
+01:00:04.970 --> 01:00:10.910
+conectar la guitarra bien dónde está el código debería ser una máquina vacía entonces aquí dice
+
+01:00:10.910 --> 01:00:12.450
+configuración con Cloud Build
+
+01:00:12.450 --> 01:00:14.870
+ya dice, yo tengo
+
+01:00:14.870 --> 01:00:16.950
+autenticado mi cuenta, si no, tiene que
+
+01:00:16.950 --> 01:00:18.610
+iniciar sesión de aquí, con GitHub
+
+01:00:18.610 --> 01:00:21.030
+y listo, todo lo que
+
+01:00:21.030 --> 01:00:22.970
+van a trabajar en GitHub, al momento
+
+01:00:22.970 --> 01:00:24.290
+de conectarlo con Cloud Run
+
+01:00:24.290 --> 01:00:26.770
+Google va a trasladar el código
+
+01:00:26.770 --> 01:00:28.650
+lo va a transferir al Google Cloud
+
+01:00:28.650 --> 01:00:30.550
+bien, lo va a copiar y clonar de GitHub
+
+01:00:30.550 --> 01:00:31.710
+es normal
+
+01:00:31.710 --> 01:00:34.450
+entonces aquí, uno selecciona
+
+01:00:34.450 --> 01:00:36.110
+repositorio, Find Bot
+
+01:00:36.110 --> 01:00:38.590
+siguiente, aquí hay
+
+01:00:38.590 --> 01:00:40.650
+dos opciones que generan un montón de drama
+
+01:00:40.650 --> 01:00:43.810
+la primera es Dockerfile, es la buena
+
+01:00:43.810 --> 01:00:45.030
+si tienes Dockerfile
+
+01:00:45.030 --> 01:00:47.830
+la otra que se llama Go, NojaScript
+
+01:00:47.830 --> 01:00:49.890
+Python, TypeScript, no sé qué más
+
+01:00:49.890 --> 01:00:51.590
+Ruby, PHP, etc
+
+01:00:51.590 --> 01:00:53.950
+la otra es desplegar
+
+01:00:53.950 --> 01:00:54.990
+corriendo código
+
+01:00:54.990 --> 01:00:57.070
+si tienes un error de entorno
+
+01:00:57.070 --> 01:00:59.890
+si tienes un error de versión de Python que no cuadra
+
+01:00:59.890 --> 01:01:02.370
+con Cloud Run, error de librería
+
+01:01:02.370 --> 01:01:03.950
+dependencia, cualquier error
+
+01:01:03.950 --> 01:01:05.990
+de versionado te va a hacer sufrir
+
+01:01:05.990 --> 01:01:07.510
+levantar la app, bien
+
+01:01:07.510 --> 01:01:09.890
+entonces aquí lo mejor es siempre
+
+01:01:09.890 --> 01:01:11.810
+que tengas el dockerfile, porque vas a ahorrar
+
+01:01:11.810 --> 01:01:13.410
+muchos problemas, bien
+
+01:01:13.410 --> 01:01:15.790
+entonces con el dockerfile
+
+01:01:15.790 --> 01:01:17.850
+y simplemente colocando el dockerfile así
+
+01:01:17.850 --> 01:01:19.710
+mayúscula primera, que se genera por
+
+01:01:19.710 --> 01:01:21.690
+defecto, el ya va a buscar
+
+01:01:21.690 --> 01:01:23.830
+en la rama main, bien
+
+01:01:23.830 --> 01:01:25.990
+el dockerfile directo y lo va a correr
+
+01:01:25.990 --> 01:01:29.680
+guardar, bien
+
+01:01:29.680 --> 01:01:31.880
+vamos a ver si corre esta aplicación
+
+01:01:31.880 --> 01:01:35.210
+con éxito o no, vamos
+
+01:01:35.210 --> 01:01:47.770
+otro programa que
+
+01:01:47.770 --> 01:01:49.570
+eran los profesores que se fue la luz
+
+01:01:49.570 --> 01:01:51.130
+analizando
+
+01:01:51.130 --> 01:01:56.720
+bien, está
+
+01:01:56.720 --> 01:01:58.900
+vamos a ir al registro
+
+01:01:58.900 --> 01:02:01.120
+para ver como está levantando
+
+01:02:01.120 --> 01:02:02.380
+el entorno y todo
+
+01:02:02.380 --> 01:02:04.860
+la primera parte lleva
+
+01:02:04.860 --> 01:02:07.320
+resumen de compilación, luego el build
+
+01:02:07.320 --> 01:02:08.800
+luego el push
+
+01:02:08.800 --> 01:02:11.140
+hacia el levantamiento de desarrollo de docker
+
+01:02:11.140 --> 01:02:12.820
+en el central 1 en loa
+
+01:02:12.820 --> 01:02:14.620
+luego desplegar la herramienta
+
+01:02:14.620 --> 01:02:17.160
+todos los errores van a aparecer aquí
+
+01:02:17.160 --> 01:02:19.120
+o si no, todas las chetas también
+
+01:02:19.120 --> 01:02:19.900
+o los warnings
+
+01:02:19.900 --> 01:02:23.280
+que los warnings en general se ignoran
+
+01:02:23.280 --> 01:02:24.060
+¿cierto? warnings
+
+01:02:24.060 --> 01:02:28.500
+terminó el build, ahora está en el push
+
+01:02:28.500 --> 01:02:30.420
+terminó el push, empujó la imagen de Docker
+
+01:02:30.420 --> 01:02:31.440
+hacia el contenedor
+
+01:02:31.440 --> 01:02:33.980
+en el centro
+
+01:02:33.980 --> 01:02:36.500
+local, data center que mencionamos
+
+01:02:36.500 --> 01:02:37.960
+ahora está cubriendo los servicios
+
+01:02:37.960 --> 01:03:04.950
+vamos a confiar
+
+01:03:04.950 --> 01:03:07.630
+esa es la parte más
+
+01:03:07.630 --> 01:03:09.350
+intensa, el deploy
+
+01:03:09.350 --> 01:03:11.410
+aparte que la máquina es chiquitita
+
+01:03:11.410 --> 01:03:20.840
+entonces, ¿qué vamos a hacer cuando
+
+01:03:20.840 --> 01:03:23.060
+se levanta esto? nada, vamos a ocupar
+
+01:03:23.060 --> 01:03:25.020
+a probar nomás que esté funcionando
+
+01:03:25.020 --> 01:03:26.880
+la API, le vamos a llevar
+
+01:03:26.880 --> 01:03:29.180
+a pedir a Cloud Code que haga un testeo
+
+01:03:29.180 --> 01:03:30.320
+de Locust
+
+01:03:30.320 --> 01:03:32.980
+vamos a explicar que es Locust rápidamente
+
+01:03:32.980 --> 01:03:35.340
+y vamos a estresar y sobrecargar la herramienta
+
+01:03:35.340 --> 01:03:36.320
+para ver cuánto aguanta
+
+01:03:36.320 --> 01:03:50.000
+ahora vamos a hacer justo
+
+01:03:50.000 --> 01:03:52.100
+Locust se llama
+
+01:03:52.100 --> 01:03:54.020
+o sea tiene Gmeter, tiene
+
+01:03:54.020 --> 01:03:57.590
+como meter usuarios
+
+01:03:57.590 --> 01:04:04.590
+o sea al meter más usuarios por segundo
+
+01:04:04.590 --> 01:04:06.570
+con diferentes rondas, tú comienzas a estresar
+
+01:04:06.570 --> 01:04:08.410
+a diferentes niveles la máquina hasta que colapsa
+
+01:04:08.410 --> 01:04:09.430
+y cae la infraestructura
+
+01:04:09.430 --> 01:04:12.980
+vamos a hacerlo ahora de hecho
+
+01:04:12.980 --> 01:04:15.540
+no sé si lo vamos a hacer caer porque
+
+01:04:15.540 --> 01:04:21.000
+la interfaz es tan simple entonces vamos a ver cuánto podría ser vamos a estimarlo como si fuera
+
+01:04:21.000 --> 01:04:33.520
+un estado de cyber ahora quedó entonces voy a ir aquí esa es la API vamos a abrirla aquí
+
+01:04:34.580 --> 01:04:40.020
+ahí está la aplicación estamos en el nivel de API de OpenAI bien porque si vamos a hacer una
+
+01:04:40.020 --> 01:04:45.620
+prueba de estrés y carga vamos a matarlo hasta que no tiene sentido pero por lo menos está todo
+
+01:04:45.620 --> 01:04:58.870
+aquí y aparece bien está viva ya está productiva en google cloud bien alguna duda hasta aquí no sé
+
+01:04:58.870 --> 01:05:04.790
+qué vamos a hacer aquí nos vamos a ahorrar el tiempo vamos a ir aquí a google cloud app y
+
+01:05:04.790 --> 01:05:36.740
+pública bien y ahora vamos a ir adelante que hay unas que tienen otro o si no entregan antes
+
+01:05:36.740 --> 01:05:39.560
+No, no está bien
+
+01:05:39.560 --> 01:05:42.540
+Deja verlo bien porque hay otros
+
+01:05:42.540 --> 01:05:44.720
+No sé si ustedes están en la generación
+
+01:05:44.720 --> 01:05:46.340
+Que tiene todavía un ramo más
+
+01:05:46.340 --> 01:05:48.160
+O ya termina, claro, porque hay otra generación
+
+01:05:48.160 --> 01:05:50.920
+Claro, le falta un ramo más
+
+01:05:50.920 --> 01:05:52.860
+Nosotros terminamos ahora y tenemos el capstone
+
+01:05:52.860 --> 01:05:54.020
+En 12 minutos
+
+01:05:54.020 --> 01:05:56.060
+Perfecto
+
+01:05:56.060 --> 01:05:58.260
+Y lo que arrancan con el sistema bio
+
+01:05:58.260 --> 01:06:00.080
+Espera, a ver, a hacer todo eso
+
+01:06:00.080 --> 01:06:02.340
+Eso, claro
+
+01:06:02.340 --> 01:06:04.820
+Son 6 clases más
+
+01:06:04.820 --> 01:06:06.520
+6 clases más
+
+01:06:06.520 --> 01:06:08.880
+arrancan el otro lunes, después hay que terminar de inmediato,
+
+01:06:08.960 --> 01:06:09.940
+¿cierto? Claro.
+
+01:06:11.260 --> 01:06:12.840
+Hay que estar aprobado esto para
+
+01:06:12.840 --> 01:06:13.240
+eso.
+
+01:06:16.160 --> 01:06:18.700
+Terminamos el 23 de diciembre para festejar Navidad.
+
+01:06:19.920 --> 01:06:20.300
+Ah, ya.
+
+01:06:21.360 --> 01:06:22.760
+El Pascua y el Año Nuevo.
+
+01:06:23.760 --> 01:06:24.100
+Ya.
+
+01:06:24.660 --> 01:06:26.420
+Porque vale como es el máximo, que son
+
+01:06:26.420 --> 01:06:28.360
+15 días. Ahora
+
+01:06:28.360 --> 01:06:30.220
+renegociamos. Vamos a ver si podemos desplazarlo
+
+01:06:30.220 --> 01:06:31.640
+tres días después, por lo menos.
+
+01:06:32.360 --> 01:06:33.680
+Vamos a verlo ahora.
+
+01:06:34.500 --> 01:06:35.960
+¿De semana, dijo el profe?
+
+01:06:36.420 --> 01:06:37.960
+No, no, todavía no.
+
+01:06:38.180 --> 01:06:39.460
+Todavía son dos semanas.
+
+01:06:39.580 --> 01:06:41.120
+Ahí lo vamos a negociar
+
+01:06:41.120 --> 01:06:42.320
+cuando veamos la tarea junto.
+
+01:06:48.260 --> 01:06:51.140
+Hay que sobrevivir
+
+01:06:51.140 --> 01:06:52.180
+ambas cosas a la vez.
+
+01:06:53.220 --> 01:06:54.360
+A ver, a ver, nos vemos.
+
+01:06:54.460 --> 01:06:56.680
+Veamos qué tan pesada es la tarea y después conversamos.
+
+01:06:56.680 --> 01:06:57.100
+De acuerdo.
+
+01:06:58.300 --> 01:07:00.000
+Bien, entonces lo pasamos a la API
+
+01:07:00.000 --> 01:07:01.380
+que está viva todavía.
+
+01:07:01.520 --> 01:07:03.480
+Lo van a hacer localmente en Locust
+
+01:07:03.480 --> 01:07:06.260
+para hacer pruebas.
+
+01:07:07.620 --> 01:07:07.900
+Vamos.
+
+01:07:07.900 --> 01:07:10.060
+pueden pasar
+
+01:07:10.060 --> 01:07:12.460
+correcto de primero que tiene que ver
+
+01:07:12.460 --> 01:07:15.000
+cuáles son los requests que se pueden enviar
+
+01:07:15.000 --> 01:07:16.300
+a esta API
+
+01:07:16.300 --> 01:07:18.580
+o tal vez no lo descubra y ocurren errores
+
+01:07:18.580 --> 01:07:19.500
+vamos a ver
+
+01:07:19.500 --> 01:07:23.750
+voy a testear la API que está respondiendo bien
+
+01:07:23.750 --> 01:07:30.160
+ok, está listo
+
+01:07:30.160 --> 01:07:32.160
+el LM está apagado, perfecto
+
+01:07:55.340 --> 01:07:56.720
+está haciendo el levantamiento
+
+01:07:56.720 --> 01:07:57.380
+de Locust
+
+01:07:57.380 --> 01:08:02.730
+buscan la palabra
+
+01:08:02.730 --> 01:08:04.470
+Locust, los que no conocen tan bien
+
+01:08:04.470 --> 01:08:06.670
+en navegador, por favor, echenle una mirada
+
+01:08:06.670 --> 01:08:07.650
+es muy sencillo
+
+01:08:07.790 --> 01:08:09.650
+pero bien sólido
+
+01:08:09.650 --> 01:08:42.410
+vamos a ver que se puede, está haciendo entorno virtual
+
+01:08:42.410 --> 01:08:43.550
+instalando
+
+01:08:43.550 --> 01:08:46.110
+autorizando el pip, instalando
+
+01:08:46.110 --> 01:08:48.090
+las librerías, ahora debería aparecer
+
+01:08:48.090 --> 01:08:48.930
+un localhost
+
+01:08:48.930 --> 01:08:51.970
+porque locos corre como servidor local
+
+01:08:51.970 --> 01:08:54.410
+una vez que aparezca su localhost
+
+01:08:54.410 --> 01:08:56.010
+podemos ir a probar
+
+01:08:56.010 --> 01:08:57.290
+las configuraciones
+
+01:08:57.290 --> 01:09:02.490
+aquí es muy importante
+
+01:09:02.490 --> 01:09:04.830
+estimar la cantidad de usuarios
+
+01:09:04.830 --> 01:09:06.550
+que puede ocupar nuestra aplicación
+
+01:09:06.550 --> 01:09:08.190
+bien, entonces
+
+01:09:08.190 --> 01:09:10.590
+en un estado así
+
+01:09:10.590 --> 01:09:12.810
+podemos hacerlo un poco más agresivo
+
+01:09:12.810 --> 01:09:14.630
+podemos decir que vamos a tener
+
+01:09:14.630 --> 01:09:17.090
+3.000 usuarios haciendo clic por segundo
+
+01:09:17.090 --> 01:09:19.550
+3.000 por segundo
+
+01:09:19.550 --> 01:09:21.290
+vamos a ver
+
+01:09:21.290 --> 01:09:21.990
+cómo se aporta
+
+01:09:21.990 --> 01:09:25.110
+o cómo se comporta
+
+01:09:25.110 --> 01:09:26.410
+también la aplicación
+
+01:09:26.410 --> 01:09:28.850
+Cooking, está cocinando
+
+01:09:28.850 --> 01:09:30.930
+Profe
+
+01:09:30.930 --> 01:09:32.870
+lo que hace con
+
+01:09:32.870 --> 01:09:34.950
+Locus es estresar finalmente el ambiente
+
+01:09:34.950 --> 01:09:37.150
+es estresar
+
+01:09:37.150 --> 01:09:39.090
+la máquina a través de la aplicación
+
+01:09:39.090 --> 01:09:40.530
+con todas sus funcionalidades
+
+01:09:40.530 --> 01:09:42.910
+A ver si el performance de la máquina da
+
+01:09:42.910 --> 01:09:44.550
+O si hay algún problema en la aplicación
+
+01:09:44.550 --> 01:09:46.310
+Que no esté optimizado o hay errores
+
+01:09:46.310 --> 01:09:47.230
+Fracasa también
+
+01:09:47.230 --> 01:09:51.170
+Eso, estresamos todo
+
+01:09:51.170 --> 01:10:12.990
+Completo
+
+01:10:12.990 --> 01:10:19.100
+Claro, no queda nada
+
+01:10:19.100 --> 01:10:24.740
+Llegarán y listo
+
+01:10:24.740 --> 01:10:25.140
+Claro
+
+01:10:25.140 --> 01:10:27.780
+Solo clase efectivamente
+
+01:10:27.780 --> 01:10:32.050
+Ahí terminó, justo de hecho la levantó
+
+01:10:32.050 --> 01:10:33.610
+Y me abrió el navegador, aquí está
+
+01:10:33.610 --> 01:10:36.030
+Ahí está Locust
+
+01:10:36.030 --> 01:10:37.990
+Está en local
+
+01:10:38.530 --> 01:10:48.090
+Tiene la API puesta, status ready, RPS que son los requests por segundo, cuántos requests por segundo va a hacer, tiene el estado de falla o el failure.
+
+01:10:48.970 --> 01:10:54.190
+¿Qué quiere? ¿Que escriba o que solamente read only? Vamos a hacer read only, que solamente lee por defecto.
+
+01:10:54.830 --> 01:11:03.170
+¿Cuántos usuarios van a ser en el peak de la concurrencia? ¿3000 o 1500? 1500 usuarios en el peak.
+
+01:11:03.170 --> 01:11:05.630
+RunPub
+
+01:11:05.630 --> 01:11:07.230
+¿Cuántas rondas le vamos a dar?
+
+01:11:08.010 --> 01:11:11.260
+3 options
+
+01:11:11.260 --> 01:11:11.920
+RunTime
+
+01:11:11.920 --> 01:11:16.340
+¿Cuánto le vamos a dar?
+
+01:11:16.800 --> 01:11:19.260
+Para que corran todo lo que necesitamos
+
+01:11:19.260 --> 01:11:21.040
+Porque él va liberando flujo de a poco
+
+01:11:21.040 --> 01:11:22.420
+Por segundo, por minuto, etc
+
+01:11:22.420 --> 01:11:23.820
+¿Cuánto le vamos a dar?
+
+01:11:24.080 --> 01:11:26.100
+Todo el tiempo del ejercicio o la ejecución
+
+01:11:26.100 --> 01:11:27.380
+¿Un minuto?
+
+01:11:27.380 --> 01:11:28.720
+Un minuto
+
+01:11:28.720 --> 01:11:31.480
+Este perfil va a ser
+
+01:11:31.480 --> 01:11:47.090
+Mediano
+
+01:11:47.090 --> 01:11:49.370
+Ya lleva 36 usuarios adentro
+
+01:11:49.370 --> 01:11:53.650
+y lleva casi 13 requests por segundo
+
+01:11:53.650 --> 01:11:56.710
+el failure hasta ahora es 0%
+
+01:11:56.710 --> 01:12:07.020
+al terminar el minuto lo vamos a explicar con calma
+
+01:12:07.020 --> 01:12:10.000
+van a ir viendo que aún está aumentando el usuario
+
+01:12:10.000 --> 01:12:12.560
+está aumentando el RPS y todavía no aumenta el failure
+
+01:12:12.560 --> 01:12:22.130
+no sé si va a alcanzar a llegar al 1500 en un minuto
+
+01:12:22.130 --> 01:12:24.470
+vamos a ver a cuántos usuarios llegará
+
+01:12:24.470 --> 01:12:38.880
+bien, termino
+
+01:12:38.880 --> 01:12:43.160
+o sea, el ritmo de falla es tan bajo que es casi ignorable
+
+01:12:43.160 --> 01:12:44.480
+0,1%
+
+01:12:44.480 --> 01:12:46.980
+entonces, ¿qué hace aquí?
+
+01:12:47.340 --> 01:12:48.960
+cantidad de requests que se hicieron
+
+01:12:48.960 --> 01:12:50.780
+cantidad de fallas
+
+01:12:50.780 --> 01:12:53.140
+y además la mediana
+
+01:12:53.140 --> 01:12:55.600
+95% de la carga
+
+01:12:55.600 --> 01:12:57.120
+99 milisegundos
+
+01:12:57.120 --> 01:12:59.220
+el mínimo, el máximo
+
+01:12:59.220 --> 01:13:00.960
+el size y recurrencia
+
+01:13:00.960 --> 01:13:03.000
+los charts se ven así
+
+01:13:03.000 --> 01:13:05.460
+cuando arrancamos por total
+
+01:13:05.460 --> 01:13:07.500
+de requests por segundo, está todo en 0
+
+01:13:07.500 --> 01:13:09.560
+y aquí comenzó el arranque
+
+01:13:09.560 --> 01:13:11.280
+comenzó a aumentar la cantidad
+
+01:13:11.280 --> 01:13:12.440
+de requests por segundo
+
+01:13:12.440 --> 01:13:15.740
+hasta llegó al máximo casi 50
+
+01:13:15.740 --> 01:13:17.840
+pero el failure
+
+01:13:17.840 --> 01:13:20.040
+es 0 o casi 0,1
+
+01:13:20.040 --> 01:13:22.020
+en ciertos escenarios, entonces la tasa de falla
+
+01:13:22.020 --> 01:13:22.700
+es casi nula
+
+01:13:22.700 --> 01:13:26.040
+tiempo de respuesta es muy importante
+
+01:13:26.040 --> 01:13:29.780
+porque que la aplicación
+
+01:13:29.780 --> 01:13:31.420
+esté recibiendo request
+
+01:13:31.420 --> 01:13:33.620
+no significa que esté respondiendo de la forma
+
+01:13:33.620 --> 01:13:34.780
+que esperamos, bien
+
+01:13:34.780 --> 01:13:38.200
+entonces aquí, response time en milisegundos
+
+01:13:38.200 --> 01:13:40.120
+cuando la comenzamos a estresar
+
+01:13:40.120 --> 01:13:41.920
+subió, subió, subió, subió
+
+01:13:41.920 --> 01:13:43.900
+está llegando hasta
+
+01:13:43.900 --> 01:13:47.500
+en la, probablemente
+
+01:13:47.500 --> 01:13:49.660
+930, pero igual llegó
+
+01:13:49.660 --> 01:13:52.080
+en una parte hasta 4300 milisegundos
+
+01:13:52.080 --> 01:13:52.440
+bien
+
+01:13:52.440 --> 01:13:55.860
+cantidad de usuarios, comenzó con 6
+
+01:13:55.860 --> 01:13:57.760
+y así, así, así, escaló, escaló
+
+01:13:57.760 --> 01:13:59.120
+hasta que llegó a 180
+
+01:13:59.120 --> 01:14:00.960
+para llegar a 1500
+
+01:14:00.960 --> 01:14:03.720
+hay que subir lo mínimo entonces a 9 minutos
+
+01:14:03.720 --> 01:14:04.940
+de prueba, o 10 minutos
+
+01:14:04.940 --> 01:14:07.420
+no hay caídas
+
+01:14:07.420 --> 01:14:09.800
+es un solo error que pasó muy sencillo
+
+01:14:09.800 --> 01:14:11.900
+de conexión de 0,1%
+
+01:14:11.900 --> 01:14:13.660
+excepciones no hay
+
+01:14:13.660 --> 01:14:15.800
+Ratio está aquí delimitado
+
+01:14:15.800 --> 01:14:17.940
+Y si alguien quiere ver log de ejecución, etc
+
+01:14:17.940 --> 01:14:18.780
+Todo está aquí
+
+01:14:18.780 --> 01:14:20.800
+Vamos a hacer stop
+
+01:14:20.800 --> 01:14:24.160
+Esta es la prueba
+
+01:14:24.160 --> 01:14:25.140
+¿Alguna duda?
+
+01:14:29.060 --> 01:14:31.020
+Ajma, en el caso
+
+01:14:31.020 --> 01:14:33.040
+En el caso si por ejemplo
+
+01:14:33.040 --> 01:14:35.180
+Se quisiera realizar una prueba
+
+01:14:35.180 --> 01:14:36.780
+De flujos
+
+01:14:36.780 --> 01:14:37.740
+Así como meterle carga
+
+01:14:37.740 --> 01:14:40.820
+Pero incluso como poder testear funcionalidades
+
+01:14:40.820 --> 01:14:42.420
+O si los combo docs funcionan
+
+01:14:42.420 --> 01:14:43.880
+Y meterle carga por ese lado
+
+01:14:43.880 --> 01:14:46.000
+¿Qué herramienta recomiendas ahí?
+
+01:14:46.740 --> 01:14:49.700
+para flujos si tienes el K6
+
+01:14:49.700 --> 01:14:51.320
+o tienes el Gmeter
+
+01:14:51.320 --> 01:14:53.560
+igual si quieres probar cada flujo
+
+01:14:53.560 --> 01:14:55.640
+por separado, puedes hacerlo con
+
+01:14:55.640 --> 01:14:57.780
+Locust, colocando el tag
+
+01:14:57.780 --> 01:14:59.080
+el flujo de cada uno
+
+01:14:59.080 --> 01:15:01.780
+o puedes hacer un mapa de flujos también
+
+01:15:01.780 --> 01:15:03.560
+con todos los ruteros y pegarlos
+
+01:15:03.560 --> 01:15:05.280
+desde Locust, también se puede
+
+01:15:05.280 --> 01:15:12.400
+ya, perfecto
+
+01:15:12.400 --> 01:15:13.940
+perfecto, o sea
+
+01:15:13.940 --> 01:15:16.440
+en ese sentido se recomienda
+
+01:15:16.440 --> 01:15:18.120
+tener como esa arquitectura de
+
+01:15:18.120 --> 01:15:20.580
+un front conectando a APIs para poder pegarle
+
+01:15:20.580 --> 01:15:22.400
+también de forma más fácil a los consumos.
+
+01:15:23.040 --> 01:15:24.380
+Claro, totalmente. O sea,
+
+01:15:24.440 --> 01:15:26.340
+Locust igual es sencilla, igual da resultados
+
+01:15:26.340 --> 01:15:28.960
+bien sólidos y confiables en un gran porcentaje.
+
+01:15:29.600 --> 01:15:30.200
+Requiere menos
+
+01:15:30.200 --> 01:15:32.700
+complejidades y temas técnicos.
+
+01:15:33.700 --> 01:15:34.420
+Entonces, claro, si uno
+
+01:15:34.420 --> 01:15:36.300
+puede colocar las routers o ir
+
+01:15:36.300 --> 01:15:38.540
+probando la dependencia o hacerlo por separado
+
+01:15:38.540 --> 01:15:40.280
+o acumulado, listo.
+
+01:15:40.720 --> 01:15:42.640
+Imagínate que al pegar esta API atrás
+
+01:15:42.640 --> 01:15:44.320
+que hay, no sé, el mensaje
+
+01:15:44.320 --> 01:15:46.340
+hola. Y este hola puede
+
+01:15:46.340 --> 01:15:48.280
+pasar por diferentes flujos agénticos.
+
+01:15:48.280 --> 01:15:50.680
+para cada request, cada enter, de cada usuario
+
+01:15:50.680 --> 01:15:53.020
+se manda en el JSON request una hola
+
+01:15:53.020 --> 01:15:55.120
+o una, no sé, buenas tardes
+
+01:15:55.120 --> 01:15:56.720
+después a chequear o agrandar
+
+01:15:56.720 --> 01:15:58.560
+el texto y ver cómo se va
+
+01:15:58.560 --> 01:15:59.460
+el flujo atrás
+
+01:15:59.460 --> 01:16:02.880
+si no hay IA, hay que preocuparse
+
+01:16:02.880 --> 01:16:04.940
+de que todas las APIs, taggeo, ingres
+
+01:16:04.940 --> 01:16:06.200
+y balance estén probados
+
+01:16:06.200 --> 01:16:08.360
+si hay IA, hay que preocuparse de los toques
+
+01:16:08.360 --> 01:16:10.920
+porque si el modelo es un poquito pesado
+
+01:16:10.920 --> 01:16:12.420
+puede salir muy cara la prueba
+
+01:16:12.420 --> 01:16:13.980
+pregunta
+
+01:16:13.980 --> 01:16:16.760
+consulta, y Locus, ¿cómo trabaja?
+
+01:16:16.760 --> 01:16:19.500
+Porque vi que se hacen llamados varios endpoints,
+
+01:16:20.180 --> 01:16:25.020
+pero ¿uno define en el orden en que se van a llamar esos endpoints?
+
+01:16:25.260 --> 01:16:30.080
+¿O eso se define en algún markdown o en algún archivo de configuración?
+
+01:16:30.760 --> 01:16:33.960
+¿O llega y golpea los endpoints como se le ocurre?
+
+01:16:34.760 --> 01:16:35.000
+Claro.
+
+01:16:37.540 --> 01:16:38.100
+Buena pregunta.
+
+01:16:38.300 --> 01:16:40.980
+Uno al momento de trabajar con Locos directamente desde la interfaz,
+
+01:16:41.080 --> 01:16:42.300
+tú defines una sola API.
+
+01:16:42.960 --> 01:16:45.360
+Pero si quieres que la API tenga ingresos,
+
+01:16:45.360 --> 01:16:48.760
+Por ejemplo, aquí es slash bot, slash agente 1, slash agente 2.
+
+01:16:49.320 --> 01:16:55.020
+Si todo se está conectado al core, tú pegas al primer endpoint y se pega todo el core de una en el flujo.
+
+01:16:55.320 --> 01:17:01.120
+Pero si está separado, tiene que hacer diferentes low-cost juntos o por separado,
+
+01:17:01.480 --> 01:17:04.600
+corriendo la aplicación varias veces para poder hacer la prueba.
+
+01:17:05.560 --> 01:17:08.220
+En paralelo o simultáneamente a diferentes ingresos,
+
+01:17:08.280 --> 01:17:12.380
+o puede ser también una sola vez por cada flujo, testándolo aparte.
+
+01:17:12.380 --> 01:17:14.360
+Depende de cómo quieras estresar
+
+01:17:14.360 --> 01:17:16.820
+Pero por cada corrida de Locust
+
+01:17:16.820 --> 01:17:18.800
+Puede ser una API completa
+
+01:17:18.800 --> 01:17:20.180
+O puede ser una parte
+
+01:17:20.180 --> 01:17:21.660
+Pero una nomás, en general
+
+01:17:21.660 --> 01:17:23.820
+No pueden ser como N a la vez en la misma
+
+01:17:23.820 --> 01:17:26.220
+O si no, tienes que levantar varios Locust
+
+01:17:26.220 --> 01:17:27.300
+Con un proceso en parrillo
+
+01:17:27.300 --> 01:17:29.220
+Y ahí, poblarlo
+
+01:17:29.220 --> 01:17:33.060
+¿Cuál sería la diferencia de estresar el ambiente
+
+01:17:33.060 --> 01:17:37.240
+Con una herramienta, por ejemplo, como Selenium?
+
+01:17:38.440 --> 01:17:39.920
+O sea, Selenium lo que hace
+
+01:17:39.920 --> 01:17:41.740
+Puede testar flujo con esto
+
+01:17:41.740 --> 01:17:43.880
+pero Selenium está hecho para web scrapping
+
+01:17:43.880 --> 01:17:45.620
+que ocurre como temas que pueden
+
+01:17:45.620 --> 01:17:47.160
+scrapear, esear, hacer
+
+01:17:47.160 --> 01:17:49.580
+ejecuciones en navegadores y
+
+01:17:49.580 --> 01:17:51.820
+aplicaciones web. Aquí lo que
+
+01:17:51.820 --> 01:17:53.920
+hace es estresar la API.
+
+01:17:54.360 --> 01:17:55.680
+Entonces no inicia sesión ni nada.
+
+01:17:55.840 --> 01:17:57.740
+Toma la API y comienza a pegar las funcionalidades que están
+
+01:17:57.740 --> 01:17:59.900
+atrás para ver hasta cuánto aguanta la aplicación.
+
+01:18:00.480 --> 01:18:01.760
+Con Selenium también lo puede hacerlo
+
+01:18:01.760 --> 01:18:03.880
+pero como son flujos diferentes
+
+01:18:03.880 --> 01:18:05.800
+o son herramientas que están hechas para
+
+01:18:05.800 --> 01:18:06.500
+cosas diferentes.
+
+01:18:07.500 --> 01:18:11.770
+No, pero fue una acotación que a mí me acuerdo que eso me lo enseñaron
+
+01:18:11.770 --> 01:18:15.790
+que era por microservicio también que uno golpea por microservicio correcto con el
+
+01:18:15.790 --> 01:18:21.250
+locus se haciendo tal de cada cosa en el rutero y le vas pegando en microservicios
+
+01:18:23.930 --> 01:18:31.010
+se ve más como el jimmy tar pero no me gusta encuentro muy feo parece que pase de java más
+
+01:18:31.010 --> 01:18:38.010
+feo todavía casi es bueno pero casi sea como para administrar los sistemas de e-commerce grandes
+
+01:18:38.010 --> 01:18:39.830
+hay que probarlos bien
+
+01:18:39.830 --> 01:18:42.290
+recuerden, tener más cómputo no significa
+
+01:18:42.290 --> 01:18:43.970
+que está mejor, ¿bien? o sea, puede tener
+
+01:18:43.970 --> 01:18:45.150
+cómputo mucho más grande
+
+01:18:45.150 --> 01:18:47.830
+y ves que funciona bien la A, funciona peor
+
+01:18:47.830 --> 01:18:50.190
+se pierde bien la ejecución por tanto
+
+01:18:50.190 --> 01:18:50.890
+cómputo, etc.
+
+01:18:52.470 --> 01:18:52.710
+bien
+
+01:18:52.710 --> 01:18:55.030
+ahora si ya lo apagamos
+
+01:18:55.030 --> 01:19:02.580
+listo, apagado
+
+01:19:02.580 --> 01:19:04.840
+ya, voy a hacer un cambio
+
+01:19:04.840 --> 01:19:07.020
+desde Cloud Code, para que vean como se va
+
+01:19:07.020 --> 01:19:08.340
+a despegar todo el servicio
+
+01:19:08.340 --> 01:19:11.200
+y posteriormente a esto estamos
+
+01:19:11.200 --> 01:19:15.220
+bien, ahí está el findbot
+
+01:19:15.220 --> 01:19:16.580
+ahí están los trabajos
+
+01:19:16.580 --> 01:19:24.060
+bien, vamos, ahora lo voy a pedir
+
+01:19:24.060 --> 01:19:27.740
+en el archivo
+
+01:19:27.740 --> 01:19:32.930
+en el archivo readme
+
+01:19:32.930 --> 01:19:35.830
+agrega la palabra
+
+01:19:35.830 --> 01:19:41.980
+test, sube
+
+01:19:41.980 --> 01:19:43.860
+aquí tabuaspush o lo que sea
+
+01:19:43.860 --> 01:19:50.060
+voy a hacer un cambio de una sola palabra
+
+01:19:50.060 --> 01:19:52.260
+nomás, bien, voy a ir aquí
+
+01:19:52.260 --> 01:19:53.640
+findbot
+
+01:19:53.640 --> 01:20:16.650
+haciendo el cambio
+
+01:20:16.650 --> 01:20:27.610
+ya se hizo un cambio en el readme
+
+01:20:27.610 --> 01:20:29.350
+vamos a ir aquí
+
+01:20:29.350 --> 01:20:45.380
+de inmediato, automáticamente
+
+01:20:45.380 --> 01:20:47.480
+volvió a recompilar y hacer
+
+01:20:47.480 --> 01:20:49.500
+build y despliegue de la aplicación completa
+
+01:20:49.500 --> 01:20:50.700
+en una segunda instancia
+
+01:20:50.700 --> 01:20:53.320
+todos los cambios que van a hacer se van a
+
+01:20:53.320 --> 01:20:55.200
+cambiar automáticamente en Google Cloud
+
+01:20:55.200 --> 01:20:57.700
+lo que pegas con Cloud Code
+
+01:20:57.700 --> 01:20:59.540
+del PC termina
+
+01:20:59.540 --> 01:21:01.380
+cambiando directamente en la instancia
+
+01:21:01.380 --> 01:21:01.960
+en la nube
+
+01:21:01.960 --> 01:21:05.820
+vamos a ver que termine bien, vamos a comprobar el flujo
+
+01:21:05.820 --> 01:21:07.660
+y estamos, ahora hay que apagar
+
+01:21:07.660 --> 01:21:09.300
+el flujo completo
+
+01:21:09.300 --> 01:21:11.520
+la máquina de escalabilidad, la máquina de versionado
+
+01:21:11.520 --> 01:21:11.760
+y
+
+01:21:11.760 --> 01:21:15.720
+la máquina de levantamiento
+
+01:21:15.720 --> 01:21:34.770
+ya, mira aquí
+
+01:21:34.770 --> 01:21:46.100
+ahí está el otro
+
+01:21:46.100 --> 01:21:48.480
+apareció FinBot CL
+
+01:21:48.480 --> 01:21:49.840
+FinBot normal, etc.
+
+01:21:50.080 --> 01:22:02.420
+vamos a ver ambos, quedó en limpio
+
+01:22:02.420 --> 01:22:04.520
+¿alguna duda hasta aquí?
+
+01:22:06.980 --> 01:22:08.100
+es bien sencillo la verdad
+
+01:22:08.100 --> 01:22:09.260
+no tiene nada de drama
+
+01:22:09.260 --> 01:22:11.920
+hay que tener las cuentas
+
+01:22:11.920 --> 01:22:13.580
+todo conectado y listo
+
+01:22:13.580 --> 01:22:15.240
+bien
+
+01:22:15.240 --> 01:22:21.130
+aquí hay más definiciones de
+
+01:22:21.130 --> 01:22:23.170
+que es el Cloud Code
+
+01:22:23.170 --> 01:22:25.670
+como se ve dentro de Just Studio Code
+
+01:22:25.670 --> 01:22:28.350
+cuáles son los flujos de currículum que pueden ocupar
+
+01:22:28.350 --> 01:22:29.590
+o el Mac Directory, etc.
+
+01:22:30.690 --> 01:22:32.010
+y aquí como puede crear
+
+01:22:32.010 --> 01:22:33.710
+desde un prompt, bien acotado
+
+01:22:33.710 --> 01:22:35.610
+el flujo
+
+01:22:35.610 --> 01:22:37.550
+y la revisión y la ejecución
+
+01:22:37.550 --> 01:22:39.370
+pruebas de verde
+
+01:22:39.370 --> 01:22:41.350
+testeando directamente en el PC
+
+01:22:41.350 --> 01:22:42.770
+que esto esté bien
+
+01:22:42.770 --> 01:22:45.370
+como responde el FIMPOP, por ejemplo
+
+01:22:45.370 --> 01:22:47.190
+si alguien quiere colocar ciertas preguntas
+
+01:22:47.190 --> 01:22:50.110
+con reglas, glosarios, bla bla bla
+
+01:22:50.110 --> 01:22:54.370
+Una vez terminado, un contenedor del mismo bot, empaquetado para la nube.
+
+01:22:55.170 --> 01:23:00.210
+Luego el GitHub, que el código versionado queda ahí almacenado con los commits, lo que sea necesario.
+
+01:23:01.550 --> 01:23:03.490
+Posteriormente esto se va a correr en Cloud Run.
+
+01:23:03.770 --> 01:23:08.870
+Aquí los puse al nivel de configuraciones técnicas, para que puedan correr desde la terminal,
+
+01:23:08.870 --> 01:23:12.830
+utilizando Cloud Code, levantando la instancia y correrla de inmediato,
+
+01:23:12.970 --> 01:23:15.830
+sin tener que cliquear como lo que yo hice, para explicar.
+
+01:23:15.830 --> 01:23:19.090
+y con eso termina el paso por cloud build
+
+01:23:19.090 --> 01:23:20.970
+registra el artefacto registry y termina
+
+01:23:20.970 --> 01:23:22.970
+el cloud run teniendo una url
+
+01:23:22.970 --> 01:23:25.170
+publicada, le verifican
+
+01:23:25.170 --> 01:23:26.670
+le prueban los tests y
+
+01:23:26.670 --> 01:23:28.390
+le dan por cerrado
+
+01:23:28.390 --> 01:23:34.580
+¿alguna duda? para que no tengan
+
+01:23:34.580 --> 01:23:36.440
+sueño, la próxima la van a hacer
+
+01:23:36.440 --> 01:23:36.960
+ustedes
+
+01:23:36.960 --> 01:23:40.060
+que es la subida a GitHub
+
+01:23:40.060 --> 01:23:41.720
+¿se acuerdan su modelo SLM?
+
+01:23:42.780 --> 01:23:43.960
+el entrenamiento todo
+
+01:23:43.960 --> 01:23:46.540
+es recomendable que donde dejaron esto
+
+01:23:46.540 --> 01:23:48.120
+en el PC, ya vayan con
+
+01:23:48.120 --> 01:23:54.240
+video studio code abre en cloud code o codex o lo que sea diciéndole está aquí la ruta del slm
+
+01:23:54.240 --> 01:23:59.920
+para que él haga el cambio y lo suba a hagging face bien el mismo flujo de github eso ahora lo
+
+01:23:59.920 --> 01:24:06.660
+van a hacer ustedes hagging face como se hace tu modelo ya está destilado bien y mal y bien vi que
+
+01:24:06.660 --> 01:24:11.200
+varios fueron con diferentes tipos de modelos diferentes negocios me llevo un montón de correos
+
+01:24:11.200 --> 01:24:17.100
+después bien que le dije a cloud revisan los correos son todo lo mismo dile me parece muy
+
+01:24:17.100 --> 01:24:25.020
+bien felicitaciones pero bien entonces el modelo destilado está publicado en
+
+01:24:25.020 --> 01:24:29.640
+hackingface hub eso es lo que debería pasar qué ocurre aquí ustedes cuando
+
+01:24:29.640 --> 01:24:32.960
+trajera un modelo que ya lo entrenaron tienen la salida de los checkpoints
+
+01:24:32.960 --> 01:24:37.400
+hechos cierto y aquí lo que hay que hacer es una carpeta que esté preparada
+
+01:24:37.400 --> 01:24:43.080
+para hacer push a hackingface hub bien y aquí ocurre todo tiene que estar
+
+01:24:43.080 --> 01:24:46.620
+adentro readme y tiene que tener una API de hackingface lista determinada para
+
+01:24:46.620 --> 01:24:51.990
+que esto aparezca ahí. El token de HackingFest, ¿se acuerdan dónde lo sacamos?
+
+01:24:52.150 --> 01:24:56.230
+AccessToken, NewToken, lo pasan a un ENV, lo delimitan
+
+01:24:56.230 --> 01:24:58.990
+el entorno o le dicen al Cloud Code y lo almacena.
+
+01:24:59.910 --> 01:25:03.870
+Y directamente aquí va a haber un código de impacto que se llama HackingFest.py
+
+01:25:03.870 --> 01:25:08.410
+¿Ve? Igual, pueden pasar esto o pasar literalmente
+
+01:25:08.410 --> 01:25:12.190
+esta foto a Cloud Code y él se prepara. Lo más importante es que ustedes
+
+01:25:12.190 --> 01:25:15.610
+tengan el token. Muy importante que tengan el README
+
+01:25:15.610 --> 01:25:20.270
+y que escogen el tipo de licencia que necesitan, estos parámetros son obligatorios
+
+01:25:20.270 --> 01:25:24.570
+o lo pueden decir a Cloud Code, créelo tú por defecto para que pase la prueba.
+
+01:25:26.350 --> 01:25:29.270
+Publicar desde Cloud Code tiene cuatro prompts y uno opcional.
+
+01:25:29.750 --> 01:25:32.190
+Primero es que abrir Cloud Code en el entorno,
+
+01:25:32.570 --> 01:25:35.830
+este es el resultado que ustedes tuvieron en el HTML de entrenamiento,
+
+01:25:35.830 --> 01:25:41.690
+y le dicen revisar las salidas, que no hay checkpoint, cuánto pesa y todo lo que está.
+
+01:25:41.890 --> 01:25:44.390
+Tener un informe simple de entender el tamaño del modelo.
+
+01:25:44.390 --> 01:25:47.150
+tarjeta, que ejecutar el python
+
+01:25:47.150 --> 01:25:49.190
+de subir HackingFace.py
+
+01:25:49.190 --> 01:25:50.750
+aunque no lo tenga
+
+01:25:50.750 --> 01:25:52.770
+crea HackingFace.py
+
+01:25:52.770 --> 01:25:55.230
+o subir HackingFace.py y pásale el token
+
+01:25:55.230 --> 01:25:57.530
+bien, pero muy importante
+
+01:25:57.530 --> 01:25:59.010
+que esté en la carpeta donde
+
+01:25:59.010 --> 01:26:01.370
+está el modelo que es la destilación
+
+01:26:01.370 --> 01:26:03.110
+publicar
+
+01:26:03.110 --> 01:26:05.090
+verifica el token que está en el environment
+
+01:26:05.090 --> 01:26:07.010
+y dile publica esto directamente
+
+01:26:07.010 --> 01:26:09.210
+en HackingFace, probar desde cero
+
+01:26:09.210 --> 01:26:11.530
+carpeta temporal, uno puede descargarlo
+
+01:26:11.530 --> 01:26:13.430
+o en HackingFace mismo
+
+01:26:13.430 --> 01:26:15.110
+te va a aparecer el enlace.
+
+01:26:16.410 --> 01:26:16.790
+Aquí vamos.
+
+01:26:19.130 --> 01:26:19.650
+Exacto.
+
+01:26:20.590 --> 01:26:21.410
+Eso mismo.
+
+01:26:22.130 --> 01:26:24.510
+¿Qué le parece que terminamos de explicar?
+
+01:26:24.790 --> 01:26:26.790
+Que podemos hacer así unos 15 minutos
+
+01:26:26.790 --> 01:26:29.670
+a ver los primeros 5 que llegan a publicar
+
+01:26:29.670 --> 01:26:31.750
+desde Cloud Code en Hugging Face
+
+01:26:31.750 --> 01:26:34.590
+se llevan un plus que están despiertos.
+
+01:26:35.690 --> 01:26:35.850
+¿Bien?
+
+01:26:37.450 --> 01:26:39.510
+Vamos, a ver quién está dormido.
+
+01:26:40.670 --> 01:26:43.350
+Entonces, en esencia, otra cosa que decir directamente
+
+01:26:43.350 --> 01:26:45.550
+la licencia que van a ocupar, el origen del modelo
+
+01:26:45.550 --> 01:26:47.730
+luego lo que el modelo no es
+
+01:26:47.730 --> 01:26:49.610
+bien, y privado o público
+
+01:26:49.610 --> 01:26:51.230
+si quieren que este sea privado o público
+
+01:26:51.230 --> 01:26:52.410
+para ustedes o para los demás
+
+01:26:52.410 --> 01:26:54.510
+como no es modelo privado
+
+01:26:54.510 --> 01:26:57.230
+lo que sea el trabajo en el fiero
+
+01:26:57.230 --> 01:26:58.290
+subirlo como público
+
+01:26:58.290 --> 01:27:00.810
+listo
+
+01:27:00.810 --> 01:27:03.690
+entonces, antes que correr hacia la letra C
+
+01:27:03.690 --> 01:27:04.710
+en la tercera parte
+
+01:27:04.710 --> 01:27:07.150
+del trabajo de hoy, lo voy a dejar así
+
+01:27:07.150 --> 01:27:08.710
+voy a dar
+
+01:27:08.710 --> 01:27:11.450
+a ver, estamos
+
+01:27:11.450 --> 01:27:19.730
+a 40 55 15 minutos máximo bien para ver los primeros 5 que alcanzan
+
+01:27:19.730 --> 01:27:25.490
+su vida su modelo aquí en face en lo que alcanza por zoom deja el link del modelo
+
+01:27:25.490 --> 01:27:31.130
+con push en el zoom en lo que están aquí me muestran aquí en los primeros 5 y al
+
+01:27:31.130 --> 01:27:35.810
+plus les parece el desafío no es obligatorio en la que no entrega no
+
+01:27:35.810 --> 01:27:40.470
+pierde el que entrega puede ganar más esa es la definición nada más que ocupen la
+
+01:27:40.470 --> 01:27:42.250
+pauta con Cloud Code y que hagan push
+
+01:27:42.250 --> 01:27:44.210
+a Hacking Face con el access token que hicimos
+
+01:27:44.210 --> 01:27:46.190
+la vez pasada y a ver
+
+01:27:46.190 --> 01:27:47.270
+quién está despierto
+
+01:27:47.270 --> 01:27:56.670
+vamos
+
+01:27:56.670 --> 01:27:59.230
+tengo mucha fe que lo van a hacer
+
+01:27:59.230 --> 01:29:56.750
+a ver, aquí tenemos
+
+01:29:56.750 --> 01:29:59.930
+algo publicado
+
+01:29:59.930 --> 01:30:01.930
+está privado
+
+01:30:01.930 --> 01:30:07.680
+por si acaso, alguien aquí
+
+01:30:07.680 --> 01:30:08.920
+publicó pero está privado
+
+01:30:08.920 --> 01:30:56.630
+voy a actualizar de inmediato
+
+01:30:56.630 --> 01:31:00.940
+ahora sí, voy a dejar
+
+01:31:00.940 --> 01:31:02.660
+aquí oculto mientras que llegan los otros
+
+01:31:02.660 --> 01:31:05.120
+cuatro, ahí los vamos a ver
+
+01:31:05.120 --> 01:31:06.940
+juntos todos, así que manténgalo público
+
+01:31:06.940 --> 01:31:08.520
+por el momento por favor, muchas gracias
+
+01:31:08.520 --> 01:32:11.710
+vamos, vamos
+
+01:32:11.710 --> 01:32:14.070
+¿Profe? ¿Sí?
+
+01:32:14.610 --> 01:32:16.270
+Bueno, a mí me pilló justo
+
+01:32:16.270 --> 01:32:18.850
+esto entre que me iba del trabajo
+
+01:32:18.850 --> 01:32:20.790
+a la casa y voy un poquito más tarde
+
+01:32:20.790 --> 01:32:22.750
+la API
+
+01:32:22.750 --> 01:32:23.930
+que no me la valida
+
+01:32:23.930 --> 01:32:26.610
+no sé si en algún momento mencionó que era otra
+
+01:32:26.610 --> 01:32:28.490
+¿Cuál API de todas?
+
+01:32:29.490 --> 01:32:30.650
+La de OpenAI
+
+01:32:30.650 --> 01:32:31.950
+la que tiene en el
+
+01:32:31.950 --> 01:32:34.670
+en el webcurso, capaz de otra
+
+01:32:34.670 --> 01:32:36.730
+Puede ser que sea
+
+01:32:36.730 --> 01:32:38.570
+o puede ser que cabucó
+
+01:32:38.570 --> 01:32:40.830
+pero no necesitas la API de OpenAI
+
+01:32:40.830 --> 01:32:42.790
+de hecho para este escenario, o sea si entrenaste
+
+01:32:42.790 --> 01:32:43.810
+no necesitas
+
+01:32:43.810 --> 01:32:45.970
+Ah, estaba probando como
+
+01:32:45.970 --> 01:32:48.970
+pregunta abierta, pues ahí me dice
+
+01:32:48.970 --> 01:32:50.910
+que tengo que configurar la API Key
+
+01:32:50.910 --> 01:32:52.950
+Claro
+
+01:32:52.950 --> 01:32:54.510
+Sí
+
+01:32:54.510 --> 01:32:56.750
+O sea, que raro que te pregunte
+
+01:32:56.750 --> 01:32:59.030
+no necesitas que te pregunte, deberías despacharlo
+
+01:32:59.030 --> 01:33:00.610
+directamente a Game Face, fue el
+
+01:33:00.610 --> 01:33:02.470
+por otro flujo, por si acaso
+
+01:33:02.470 --> 01:33:04.810
+Ya, pero entonces no es necesario
+
+01:33:04.810 --> 01:33:05.730
+esto para el trabajo
+
+01:33:05.730 --> 01:33:08.290
+No, no, la API hoy en día no es necesaria para nada
+
+01:33:08.290 --> 01:33:10.250
+de hecho, porque ya tú vas a subir el modelo
+
+01:33:10.250 --> 01:33:12.310
+chico de SLM, entonces ni siquiera
+
+01:33:12.310 --> 01:33:13.950
+está la API y debería estar ya listo
+
+01:33:13.950 --> 01:33:15.750
+quizás tu cloud
+
+01:33:15.750 --> 01:33:17.830
+volvió a correr el entrenamiento
+
+01:33:17.830 --> 01:33:18.930
+de instalación de nuevo
+
+01:33:18.930 --> 01:33:22.830
+Puede ser
+
+01:33:22.830 --> 01:33:25.890
+de hecho, como que me salía que
+
+01:33:25.890 --> 01:33:28.170
+no confía en los certificados SSL
+
+01:33:28.170 --> 01:33:29.470
+como que eso lo bloqueaba
+
+01:33:29.470 --> 01:33:31.830
+y ahí me la votó, me la revocó
+
+01:33:31.830 --> 01:33:32.510
+Claro
+
+01:33:32.510 --> 01:33:34.130
+claro
+
+01:33:34.130 --> 01:33:36.410
+ya pero avanzo sin la API
+
+01:33:36.410 --> 01:33:41.050
+ya, perfecto
+
+01:33:41.050 --> 01:33:42.870
+si, si, o sea debería funcionar
+
+01:33:42.870 --> 01:33:44.250
+la API si no está caducada
+
+01:33:44.250 --> 01:33:46.250
+pero aún así no
+
+01:33:46.250 --> 01:33:55.300
+la necesitas, vamos a ver
+
+01:33:55.300 --> 01:34:09.240
+que más llega, donde estaba
+
+01:34:09.240 --> 01:34:11.420
+la API
+
+01:34:11.420 --> 01:34:13.220
+de HackingFace
+
+01:34:13.220 --> 01:34:15.580
+esa la tenés que sacar
+
+01:34:15.580 --> 01:34:17.200
+del AccessToken, por ejemplo
+
+01:34:17.200 --> 01:34:18.480
+te vas a HackingFace
+
+01:34:18.480 --> 01:34:19.880
+de hecho aquí está
+
+01:34:19.880 --> 01:34:22.740
+te vas a HackingFace
+
+01:34:22.740 --> 01:34:25.250
+aquí
+
+01:34:25.250 --> 01:34:28.090
+a configuraciones, en settings
+
+01:34:28.090 --> 01:34:30.590
+el lado del perfil, access token
+
+01:34:30.590 --> 01:34:31.610
+y generación de token
+
+01:34:31.610 --> 01:34:34.130
+ah, perfecto
+
+01:34:34.130 --> 01:34:36.450
+gracias
+
+01:34:36.450 --> 01:34:37.890
+de nada
+
+01:34:37.890 --> 01:36:24.070
+aún no me llega alguien más
+
+01:36:24.070 --> 01:36:26.290
+aquí en la sala, ¿alguien logró?
+
+01:36:29.940 --> 01:36:30.500
+no aún
+
+01:36:30.500 --> 01:36:33.100
+vamos, faltan cuatro oportunidades más
+
+01:36:33.100 --> 01:36:34.160
+tenemos a Javier ya
+
+01:36:34.160 --> 01:36:36.060
+que le hizo
+
+01:36:36.060 --> 01:38:05.490
+se lo acabo de enviar por el chat
+
+01:38:05.490 --> 01:38:07.870
+profesor, por si puede revisar
+
+01:38:07.870 --> 01:38:08.350
+vamos
+
+01:38:08.350 --> 01:38:11.550
+a ver si está correcto
+
+01:38:11.550 --> 01:38:13.750
+vamos a ver, tenemos uno más aquí
+
+01:38:13.750 --> 01:38:15.710
+excelente, tenemos
+
+01:38:15.710 --> 01:38:17.750
+uno más aquí, listo
+
+01:38:17.750 --> 01:38:19.330
+con destilado
+
+01:38:19.330 --> 01:38:21.950
+0.5
+
+01:38:21.950 --> 01:38:23.390
+billion, 0.5 billion
+
+01:38:23.390 --> 01:38:25.150
+a ver, instruct
+
+01:38:25.150 --> 01:38:30.960
+dominio aquí, explica el LLM
+
+01:38:30.960 --> 01:38:31.840
+prompt track
+
+01:38:31.840 --> 01:38:33.600
+muy bien
+
+01:38:33.600 --> 01:38:36.300
+ya tenemos a 3, 4
+
+01:38:36.300 --> 01:38:38.480
+vamos por el último, con el último
+
+01:38:38.480 --> 01:38:39.820
+cerramos la puerta
+
+01:38:39.820 --> 01:38:44.380
+está todo bien, vamos a ir recibiendo el último
+
+01:38:44.380 --> 01:38:45.180
+y lo vamos a revisar
+
+01:38:45.180 --> 01:38:48.060
+muchas gracias, lo abrí de hecho justo
+
+01:38:48.060 --> 01:39:09.060
+Claudio, listo
+
+01:39:09.060 --> 01:39:10.980
+llegaron 6, bien justo
+
+01:39:10.980 --> 01:39:13.460
+llegaron los últimos segundos juntos, así que lo vamos a contabilizar
+
+01:39:13.460 --> 01:39:15.280
+muy bien, estos son los modelos
+
+01:39:15.280 --> 01:39:17.080
+que llegaron, vamos a ver la diferencia
+
+01:39:17.080 --> 01:39:18.180
+en lo que hicieron
+
+01:39:18.180 --> 01:39:20.260
+primero
+
+01:39:20.260 --> 01:39:22.880
+felicitaciones
+
+01:39:22.880 --> 01:39:24.240
+tenemos aquí Javier
+
+01:39:24.240 --> 01:39:26.600
+que mandó un SLM
+
+01:39:26.600 --> 01:39:29.040
+Neumatron de 4 billion
+
+01:39:29.040 --> 01:39:30.860
+ya generativa Chile
+
+01:39:30.860 --> 01:39:32.500
+ya está listo para usar este modelo
+
+01:39:32.500 --> 01:39:34.840
+pero automáticamente se ocupa
+
+01:39:34.840 --> 01:39:37.500
+de Transformer, Google Collab, Kegel
+
+01:39:37.500 --> 01:39:39.780
+perdón, Virtual Large Language Models
+
+01:39:39.780 --> 01:39:41.380
+Slack, Docker, Model Runner
+
+01:39:41.380 --> 01:39:43.220
+y están aquí
+
+01:39:43.220 --> 01:39:45.460
+Text Generation con diferencia directa
+
+01:39:45.460 --> 01:39:46.540
+etcétera, muy bien
+
+01:39:46.540 --> 01:39:49.340
+eso está listo, automáticamente se adoptó
+
+01:39:49.340 --> 01:39:51.080
+o sea, Readme igual es pobrecito pero
+
+01:39:51.080 --> 01:39:52.960
+después se puede enriquecer más
+
+01:39:52.960 --> 01:39:54.980
+muy bien, después
+
+01:39:54.980 --> 01:39:57.860
+uno llega a HackingFace, aquí tenemos
+
+01:39:57.860 --> 01:40:00.060
+es el segundo que fue de Guillermo
+
+01:40:00.060 --> 01:40:00.900
+bien
+
+01:40:00.900 --> 01:40:03.700
+y aquí QN05
+
+01:40:03.700 --> 01:40:05.220
+con Lora
+
+01:40:05.220 --> 01:40:07.920
+super bien, está también con las codificaciones
+
+01:40:07.920 --> 01:40:09.600
+principales, bien
+
+01:40:09.600 --> 01:40:12.000
+uno más
+
+01:40:12.000 --> 01:40:13.740
+que tiene un poquito más de detalle
+
+01:40:13.740 --> 01:40:14.320
+técnico
+
+01:40:14.320 --> 01:40:17.320
+está el de Macarena
+
+01:40:17.320 --> 01:40:19.840
+y luego Kristen y Claudio
+
+01:40:19.840 --> 01:40:21.700
+voy a hacer llegar a una estructura
+
+01:40:21.700 --> 01:40:23.480
+común, si se dan cuenta, uno puede
+
+01:40:23.480 --> 01:40:24.880
+trabajar un poquito más con el Prom
+
+01:40:24.880 --> 01:40:27.820
+aquí tenemos el de Claudio
+
+01:40:27.820 --> 01:40:31.800
+a ver, tiene el metadata
+
+01:40:31.800 --> 01:40:32.440
+missing
+
+01:40:32.440 --> 01:40:35.760
+no está, no se subió
+
+01:40:35.760 --> 01:40:37.740
+el modelo
+
+01:40:37.740 --> 01:40:39.800
+Cristian, se subió solamente
+
+01:40:39.800 --> 01:40:41.860
+el ejercicio, o sea no tiene
+
+01:40:41.860 --> 01:40:43.140
+modelo, por si acaso
+
+01:40:43.140 --> 01:40:44.460
+no tiene model card
+
+01:40:44.460 --> 01:40:47.700
+cambialo para que te contabilicemos
+
+01:40:47.700 --> 01:40:48.180
+la nota
+
+01:40:48.180 --> 01:40:51.640
+y ahí Claudio, y ahí es lo mismo con
+
+01:40:51.640 --> 01:40:53.960
+0.5 billion, perfecto
+
+01:40:53.960 --> 01:40:55.860
+nada, vieron que el flujo es bien sencillo
+
+01:40:55.860 --> 01:41:00.780
+la verdad así que si alguien quiere hacer aporte a la ciencia la ciencia que
+
+01:41:00.780 --> 01:41:05.400
+de verdad aplica bien ahí tienen alguien face si alguien quiere entrenar un
+
+01:41:05.400 --> 01:41:09.920
+tópico no tiene problema en compartirlo de hecho no aquí va a ser famosa si la
+
+01:41:09.920 --> 01:41:15.060
+junta con algún modelo bien entrenado solucionando un problema por ejemplo si
+
+01:41:15.060 --> 01:41:19.380
+alguien va a entrenar piensan en chile piensan afuera de chile de una
+
+01:41:19.380 --> 01:41:23.580
+subir cosas que pueden servir internacionalmente en inglés y español y
+
+01:41:23.580 --> 01:41:29.220
+francés y con esto está bien que el modelo esté entrenado con los tópicos pero aquí se aporta
+
+01:41:29.220 --> 01:41:35.880
+valor real a la ciencia bien o sea para mí personalmente esto vale más que el pecho
+
+01:41:35.880 --> 01:41:44.690
+según el entreno haciendo pues ya sea como sea bien se entre en algo correcto me confirmaron
+
+01:41:44.690 --> 01:41:51.950
+la palabra eso puede aportar mucho valor a área de salud temas legales que muchas empresas y
+
+01:41:51.950 --> 01:41:58.250
+personas pueden utilizar lo que tú hiciste para mejorar más y más y acelerar más la ya bien bien
+
+01:41:58.250 --> 01:42:06.070
+nada no quiero colapsar más voy a mantener esta pestaña aquí y lo otro que nada pues
+
+01:42:07.770 --> 01:42:13.270
+lo que tenemos que ver después de la vuelta del break es más que todo como optimizar y
+
+01:42:13.270 --> 01:42:17.410
+eso optimizar y por qué es tan difícil optimizar contenidos de inteligencia artificial generativa
+
+01:42:17.410 --> 01:42:19.750
+para continuar con los sílabos
+
+01:42:19.750 --> 01:42:21.810
+y ya después hablamos de la tarea
+
+01:42:21.810 --> 01:42:22.670
+y estamos bien
+
+01:42:22.670 --> 01:42:25.450
+estimo que llegamos bien de tiempo
+
+01:42:25.450 --> 01:42:26.670
+para poder cerrar esto
+
+01:42:26.670 --> 01:42:28.930
+y quizás si quedamos bien salen a las 9
+
+01:42:28.930 --> 01:42:31.550
+vamos a ver cuánta agua hay ahí afuera
+
+01:42:31.550 --> 01:42:33.470
+para no colapsar más lo que están aquí
+
+01:42:33.470 --> 01:42:35.110
+pero en general
+
+01:42:35.110 --> 01:42:37.570
+ya estamos, así que aprovechen un poquito más
+
+01:42:37.570 --> 01:42:39.690
+larguito, unos 6 minutos más de break
+
+01:42:39.690 --> 01:42:41.290
+nos vemos a las
+
+01:42:41.290 --> 01:42:43.350
+7 y media
+

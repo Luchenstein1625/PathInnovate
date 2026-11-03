@@ -1,0 +1,9905 @@
+Buenas tardes, ¿puedes cerrar la puerta?
+¿Puedo pedirle a Patricio que haga las otras tres en webcurso?
+Buenas tardes a todos, ¿cómo están? Hola, ¿cómo están los online?
+Esta clase híbrida son un poco complicadas.
+¿Todo bien? ¿Richard, Oscar?
+¿Todo bien, gracias?
+Hola, ¿cómo están? ¿Hay más gente por ahí?
+Bueno, yo soy Jorge Vázquez, soy profesor asistente de la Universidad de Adolfo Ibañez,
+empecé en marzo este año, hago clases de aprendizaje reforzado,
+que es un área de IA, no sé si la conocen.
+Hago clases de Computer Vision, que es básicamente este curso,
+que es Visión Artificial, pero en inglés lo llamamos Computer Vision.
+Hago clases de Sistemas de IA,
+y estoy haciendo clases en pregrado, en Ingeniería Aeroespacial, en Diseño Computacional.
+Porque tengo un bagaje, un bagaje como bien diverso, llamémoslo.
+En este curso, como es un curso, entre comillas, casi express,
+vamos a hacer lo mejor posible para cuatro clases,
+donde vamos a mirar cuatro puntos.
+Después se los paso a ir a la pantalla.
+Primer punto, aplicaciones generales de Visión Computacional.
+Ya vimos Visión Computacional en inglés, Computer Vision, se ve,
+va a ser la más corta, después les puedo explicar las diferencias que existen.
+Luego, la segunda clase, vamos a ver algoritmos tradicionales.
+Esa es la clase dos, la uno.
+Y la tres, vamos a ver como Machine Learning Based Computer Vision,
+o sea, Visión Artificial basada en Machine Learning.
+Principalmente Deep Learning.
+Y la cuarta, que es mi objetivo y algo un poquito nuevo de la clase anterior que hice,
+el curso anterior que he hecho,
+es hacer como más Machine Learning, ya más sofisticado quizás,
+Deep Learning Based Computer Vision, y más proyectos.
+¿Por qué?
+Sí, porque mi idea para este curso, para que puedan aprender lo más posible,
+es que hagamos unos grupitos de tres a cuatro personas,
+yo les entregue data, les entregue un objetivo,
+y con lo que aprendieron en el curso, más lo que ustedes van a buscar,
+y con lo que ustedes ya saben, dentro de su magíster,
+aporten a ese proyecto.
+Entonces, ese proyecto después se puede convertir en su capstone,
+se puede convertir en un paper,
+el día de mañana se puede convertir en otro proyecto de ustedes,
+o ustedes mismos pueden decirme,
+¿sabes qué, profesor?
+No nos entregue data, no nos entregue objetivos,
+ya tenemos un proyecto en mi empresa,
+armémonos para mi empresa.
+Y hacemos un proyectito rápido.
+¿Ok?
+Entonces, es Computer Vision Express,
+pero con proyectos.
+Entonces, en el horario invisible,
+vamos a estar trabajando en el proyecto vía correo,
+y nos podemos juntar por los equipos,
+porque si no, si yo le hago clase teoría,
+si nos van a pasar las cuatro clases volando,
+vamos a hacer una tarea,
+van a quedar descolgados con la tarea,
+yo igual tengo un ayudante,
+pero creo que no va a ser tan beneficio para ustedes.
+Entonces, este es el segundo curso que hago en el MIA,
+o sea, el tercer curso, el cuarto curso que hago en el MIA,
+y siento que siempre es bueno poner un proyectito chiquitito.
+¿Por qué?
+Porque yo ahora estoy liderando un laboratorio de IA,
+en la UAE.
+Entonces, para mí es mucho más fácil,
+tengo mucho contacto con muchas empresas,
+tengo muchos proyectitos.
+Entonces, le asigno una tarea a un proyecto,
+no le pongo el nombre a la empresa,
+da lo mismo, le pongo la data,
+y le pongo una tarea de Computer Vision por realizar.
+¿Ok?
+Esa es la idea que tengo.
+¿Ok?
+¿Ya?
+Eso un poquito.
+Ojalá, obviamente que enfocado en Deep Learning Based Computer Vision.
+O sea, visión computacional o visión artificial basada en Deep Learning.
+Ya.
+Para enchufarme un poco con el contexto,
+estoy con el gemelo,
+me acabo de agarrar el gemelo,
+si por eso no puedo caminar tanto.
+¿Ustedes ya pasaron Deep Learning?
+¿Pasaron Machine Learning?
+Sí.
+¿Qué cursos han pasado?
+¿Agente?
+¿Introducción a la IA?
+¿O este es su primer curso?
+¿En qué?
+No sé, por ahí.
+¿Ya?
+¿Ya?
+Ah, perfecto, ya.
+Es que, por eso es que el magíster de IA,
+yo a veces hago clase mitad diplomado, mitad magíster,
+magíster de segundo año y magíster de segundo año.
+Primero año estoy un poco perdido con los semestres.
+¿Ya?
+Ok, eso me contextualiza un poquito.
+Me contextualiza un poquito.
+Este ramo es un ramo,
+si tú haces un magíster en IA,
+es un ramo de cuarto semestre, más o menos.
+Visión artificial.
+¿Ya?
+Pero no importa, lo vamos a hacer para ustedes.
+Entonces, esa es la primera idea.
+Todo va a tener.
+Ya.
+Pero, ¿conocen el concepto de Deep Learning?
+Obviamente.
+A ver, neuronales profundas.
+Ya.
+Les voy a hacer una pequeña introducción entonces de IA,
+para ver si estamos todos hablando el mismo idioma.
+¿Ok?
+¿Alguna pregunta los de online?
+Los que se vienen a su casa.
+No de momento, profe.
+¿Todos en Chile?
+¿Todos bien?
+Yo creo que una consulta.
+¿Sí?
+Vamos a tocar inicialmente acá,
+ya que vamos a hacer parte,
+o sea, Computer Vision,
+diciendo que es como la cuarta materia.
+¿Vamos a tocar los frameworks
+para utilizar,
+para aplicarlos dentro de Computer Vision?
+No te entendí, perdón.
+¿Cómo?
+Sí, vamos a ocupar los frameworks,
+PyTorch, Benzoi.
+Sí, por supuesto.
+Sí.
+Sí, sí, sí, sí.
+Sí, sí.
+Nada nuevo.
+OpenCV.
+Perfecto.
+No, nada nuevo.
+Y yo les voy a crear marcos de trabajo
+para ustedes,
+para las tareas.
+O sea, ya los códigos están,
+tienen que ustedes intervenirlo un poco
+para que funcionen para una nueva tarea.
+Ese es el proyecto.
+No es crear otro,
+algo nuevo,
+ni algo muy sofisticado.
+¿Ya?
+Sino que tengan la experiencia
+de etiquetar imágenes,
+de conocer tipos de imágenes,
+tener una tarea, ¿no es cierto?
+Tener una experiencia
+con algoritmos de Computer Vision
+basados en Machine Learning.
+¿Por qué basado en Machine Learning?
+Acá viene el primer punto.
+Porque el ramo se llama
+Visión Artificial.
+En el Magister Data Science
+yo hago el curso
+Visión por Computador.
+Es un poquito diferente.
+O sea,
+Visión Artificial,
+en español,
+es básicamente
+solo
+Machine Learning Based Computer Vision.
+¿Ya?
+No se le llama tanto
+Computer Vision
+cuando tú ya agregas esto.
+Machine Learning
+se le puede llamar
+Visión Artificial,
+por lo menos en el mundo en español.
+En inglés,
+a todos le dicen Computer Vision.
+Ya sea tradicional
+o con Deep Learning.
+¿Ok?
+Es por lo menos mi experiencia.
+Desde mi sesgo
+y desde mi posición.
+Ya.
+Jorge,
+disculpe,
+una consulta
+respecto a la
+evaluación
+¿va a ser una tarea?
+Sí, una tarea.
+Una.
+¿El 100% de la...?
+Sí, una tarea.
+Son cuartas clases,
+entonces
+dos tareas ya mucho.
+Ok.
+No.
+70 alumnos.
+A modo consulta.
+¿Y esa tarea
+tercera semana,
+cuarta semana?
+La segunda semana
+se la envío,
+se la paso por correo,
+se las presento
+a la segunda clase.
+Ok.
+En la última hora
+vemos preguntas,
+consultas,
+dúas
+y empezamos a trabajar
+en la semana
+así como
+concurrente,
+los que tengan problemas.
+Hoy hagamos una reunión
+de media hora,
+perfecto.
+Tercera clase,
+saco dúas también,
+sigo la materia
+y cuarta clase
+ustedes me presentan
+lo que hicieron.
+Implegable.
+Esa es la idea.
+Gracias.
+Ya.
+A ver,
+primero,
+antes de seguir,
+¿me pueden decir
+alguno,
+un par de sus nombres,
+de su background?
+¿Cuál es tu nombre?
+¿Y...?
+¿Y...?
+No se escucha
+si están hablando,
+perfecto,
+el micro.
+Sí.
+Ahí sí,
+sí.
+Ahí sí.
+Bueno,
+nos estamos presentando
+y estoy viendo
+la opción
+de ver
+si continúo
+con el magíster
+y la idea
+es ver
+qué proyectos
+se pueden desarrollar
+a nivel del ámbito
+de salud pública
+y también privada.
+Buenísimo.
+Y de qué aporte,
+bueno,
+esto me puede ayudar
+para poder abrir
+como más redes.
+Buenísimo.
+Es justamente
+eso el curso.
+O sea,
+que entiendo
+lo que es visión computacional,
+entiendo los algoritmos,
+las aplicaciones
+y después hagamos algo
+para ustedes
+o para mi laboratorio.
+Depende de usted.
+No,
+yo ya tengo,
+por ejemplo,
+tú si tenés
+imágenes X-Ray
+y tenés un problema
+ya caracterizado,
+lo levantamos.
+¿Te parece?
+Pero me encanta
+el background
+y lo que estamos pensando.
+¿Tú puedes presentar?
+¿Tú?
+¿Sí?
+Bueno,
+yo soy Matías Guerra
+y yo soy biotecnólogo
+y
+ahora,
+bueno,
+yo me metí
+al magíster
+de inteligencia artificial
+un poco
+como para
+complementar
+mi carrera,
+pero también
+como va a ser
+una especie
+como de transición
+un poco
+alejado
+de la biotecnología
+ahora.
+Estoy trabajando
+¿Y dentro
+de la biotech?
+¿En qué área estás?
+O sea,
+mi tesis,
+que fue lo último
+que hice relacionado
+a la biotecnología,
+la hice en bioinformática
+y la hice
+en una investigación
+de enfermedades cardíacas.
+¿Enfermedades cuánto?
+Cardíacas.
+Perfecto.
+Y
+pero ahora estoy
+en una empresa
+de recursos humanos,
+estoy como
+muy alejado
+del mundo
+de la biotecnología.
+Perfecto.
+Pero ya hay como
+match,
+¿se fijan?
+O sea,
+un doctor
+que tiene
+necesidades abiertas
+de tratar imágenes,
+procesar imágenes
+y un biotecnólogo
+que tiene experiencia
+en biotech
+con informática,
+ya se puede armar
+un equipito.
+¿Ya?
+Tú,
+el de Abrigo,
+hola.
+¿Puedes presentar?
+Hola,
+mi nombre es
+Rodrigo Valenzuela,
+soy ingeniero comercial,
+me titulé recientemente,
+de hecho,
+mi titulación fue este año,
+este es mi primer magíster,
+lo hice en inteligencia artificial
+porque yo también hice
+mi tesis
+en el pisco chileno,
+el uso de inteligencia artificial
+en la producción
+del pisco,
+y bueno,
+actualmente estoy trabajando
+en la pyme
+de mi familia,
+que es de transporte,
+de anuanza,
+hace mucho tiempo
+y estoy también
+viendo la posibilidad
+de
+aplicar inteligencia artificial
+al transporte,
+así como lo estudié
+en el pisco chileno.
+Excelente.
+La idea para este curso
+es que apliques,
+entre comillas,
+inteligencia artificial,
+pero con imágenes.
+Eso es visión artificial,
+¿ok?
+Con imágenes,
+o sea que tus datos
+son imágenes.
+Ya,
+a ver,
+vamos a los de online
+para que no se queden dormidos.
+Rodrigo,
+Roland,
+¿estás ahí?
+Sí,
+por acá.
+Dale,
+te voy a presentar
+en tres minutos.
+Sí,
+bueno,
+mi nombre es
+Rodrigo Roland,
+soy dueño
+de una consultora
+de tecnología,
+tenemos
+170 personas,
+más o menos,
+entre Chile,
+Perú y Colombia.
+La verdad,
+nosotros somos
+más especialistas
+en temas de
+automatización
+de procesos,
+RPA
+y ese tipo
+de cuestiones,
+y estamos
+incorporando
+tecnología
+de inteligencia
+artificial recién
+en nuestros proyectos.
+Excelente,
+¿hay algo con imágenes
+o solo con
+proceso?
+Por ahora
+nada con imágenes.
+Ya,
+ahora...
+Lo más cercano
+a imágenes
+es reconocimiento
+de carácter
+y después
+procesamiento
+del lenguaje natural.
+Eso,
+perfecto.
+Ya,
+Samuel Guesel.
+O...
+Jorge Speaker Pro.
+Aquí está,
+está poniéndole el audio.
+Vaya,
+dale,
+Samuel,
+dale.
+Buenas,
+yo soy
+lab manager
+en el laboratorio
+de física
+de la misma
+universidad.
+Yo,
+la verdad,
+buscaba
+la ayuda
+con el curso
+porque necesitaba
+algo que estuviera
+un poco más ordenado.
+Yo cuando estudié
+al principio
+era físico
+y la verdad
+es que ya
+al final del título
+como que tenía acceso
+a toda la información
+a través del internet.
+Creo que lo mismo
+pasa con la inteligencia
+artificial ahora
+pero se crea
+mucha información
+redundante y basura.
+Entonces,
+tener cierta guía
+siempre me motiva
+un poco más.
+Además de seguir
+en la misma universidad
+como académico.
+¿Y tú,
+cuál es tu investigación
+en el lab?
+Yo no investigo,
+del laboratorio
+para ingenieros.
+Vemos los principios
+de termodinámica,
+mecánica
+y termodinámica.
+Perfecto.
+Ah,
+ya entiendo.
+¿Y trabajan
+con imágenes o no?
+Trabajamos
+con,
+¿cómo se llama?
+Proceso
+de
+obtener
+las velocidades
+y aceleración
+de cada uno.
+Ya tenemos
+el software
+que hace eso,
+pero en realidad
+hacer algo
+que en el proceso
+pueda decirle
+a los alumnos
+cómo montarlo
+sería bastante más útil
+porque hasta ahora
+para mí por lo menos
+es solo que ellos
+sacan fotos
+y les tiran números
+pero sin el conocimiento
+de lo que está pasando
+internamente
+es muy mecanizado
+para un ingeniero
+por lo menos.
+Perfecto.
+Perfecto.
+Ya,
+gracias Samuel.
+Sigamos un poco,
+les voy a contar
+un poco mi historia
+así cortita
+para que entiendan
+los proyectos
+que les voy a después
+lanzar
+y los proyectos
+que ustedes
+motivarlos
+para que los proyectos
+que ustedes hagan
+nosotros
+lo hagamos en conjunto
+como profesor
+y equipo
+ya sea
+para datos de ustedes,
+cosas personales,
+pymes,
+lo que sea.
+me encanta
+armar proyectos
+ahora en la área
+de Computer Vision
+pasándole mi experiencia
+a ustedes
+y con repositores
+de modelo
+que yo ya tengo
+y con mi equipo
+de informáticos
+hagamos
+pequeños objetivos
+que pueden ser
+más bien personalizados.
+Esto es como
+para la idea
+de tener una educación
+más personalizada.
+Entonces,
+algunos proyectos
+van a ser quizá
+insertar imágenes
+en una compañía
+de buses
+y quizá
+va a ser solamente
+pensar en layout
+y en otra tarea
+va a ser
+quizá segmentar
+por otro
+en una máquina.
+No sé.
+Eso es lo entretenido.
+Bueno,
+yo tengo cuatro hijas
+así que
+por eso que estoy
+muy desgarrado
+porque tanto correr
+para allá y para acá.
+Ahí estoy en Estados Unidos.
+Vivimos siete años allá
+de los cuales
+nacieron tres allá
+y una en Chile.
+He recorrido
+hartas cosas.
+Yo
+tuve 25 años
+en el Ejército de Chile.
+me acabo de retirar
+en marzo
+de este año
+y de esos 25 años
+estuve
+en comisión de servicio
+haciendo magíster
+en diseño de productos.
+Después hice un magíster
+en robótica.
+Formé un centro
+de simulación
+para el Ejército
+en polígonos de tines virtuales,
+simuladores de vuelo,
+que tiene mucho que ver
+con computer vision,
+computer graphics.
+y después
+me jubilé,
+entre comillas,
+me fui a
+Carnegie Mellon
+y me estuve cinco años
+en un doctorado.
+Específicamente
+en robotics.
+Y dentro de robotics
+me especialicé
+en tareas
+de computer vision
+y cómo insertar
+computer vision
+en la industria.
+Es un poco
+mi expertise.
+Por eso es que
+el curso
+lo apunto para allá.
+Porque es lo que más sé.
+Entonces,
+es mi cerco,
+pero creo que
+es lo más fácil
+para que ustedes
+aprendan
+a base de un proyecto.
+Y después de eso,
+bueno,
+regresé al Ejército,
+al medio laboratorio
+de IAPA
+al Ejército.
+Trabajé con imágenes,
+por ejemplo,
+visores nocturnos,
+francotiradores,
+hice otras cosas.
+No se los puedo contar
+porque estoy grabado.
+No,
+hice otras cosas de IAPA
+y desde este año
+armé un laboratorio
+en la UAI
+que se llama Scale AI
+y somos
+cuatro o cinco personas
+que estamos
+haciendo cosas
+en robótica,
+computer vision
+y modelos de lenguaje.
+¿Ok?
+Eso es un poco.
+Entonces,
+siempre he estado
+como en el área
+de diseño de sistemas.
+Soy ingeniero
+de sistemas de profesión.
+Después tuve
+decidido mecánica,
+pero sistemas
+fue mi primer
+pregrado.
+Me le he metido
+siempre a su tecnología
+y negocio,
+emprendimiento,
+aplicaciones,
+etc.
+¿Ok?
+¿Proyecto en que he participado?
+Básicamente
+en estas cinco áreas.
+Simulación,
+realidad virtual,
+simuladores de tiro,
+simuladores de vuelo,
+simuladores de emergencia,
+diseño de sistemas
+como
+System Integration,
+o sea,
+cómo integrar sistemas
+complejos.
+Robótica,
+trabajé con perros robóticos
+y con drones,
+pero básicamente
+el algoritmo
+y la novedad
+estaba en la imagen.
+son algoritmos
+de Computer Vision
+puestos en una
+plataforma robótica,
+pero la investigación
+está en el
+algoritmo de Computer Vision,
+no en la navegación.
+He trabajado
+en modelos
+tradicionales
+de Machine Learning
+y he hecho
+apps,
+etc.
+Todo empezó
+el 2012,
+yo era un joven
+capitán,
+me gané un premio
+para irme a hacer
+un magíster
+a Estados Unidos
+y después de que
+haya estudiado
+cinco años
+de ingeniería de sistemas,
+pensé que no me servía
+para nada,
+nadie estudia
+de ingeniería de sistemas
+en Chile,
+muy poco
+en Estados Unidos,
+casi nada
+en Sudamérica,
+no sé,
+¿hay alguien de acá
+que no sea chileno?
+¿No?
+¿De qué país?
+Brasil.
+En Brasil,
+bueno,
+en Brasil debido
+a la conexión
+industria-academia
+se ocupa mucho
+de ingeniería de sistemas,
+según mi conocimiento.
+¿Por qué?
+Porque es un marco
+de estudio común
+para estandarizar proyectos.
+Y me di cuenta
+que el primer proyecto
+que tenía
+era hacer un juego
+rápido,
+todos los cursos
+en Carnegie Mellon
+son basados
+en proyectos
+y un juego rápido
+de luces,
+de un poquito
+mecatrónica,
+un Arduino fácil,
+fue completamente
+hecho con
+ingeniería de sistemas.
+O sea,
+la ingeniería de sistemas
+es la columna vertebral
+de los proyectos
+de investigación,
+por lo menos
+en Estados Unidos,
+por diferentes motivos.
+Un motivo
+es que
+el 80%
+de los proyectos
+están vinculados
+al Departamento
+de Defensa,
+a DARPA,
+a NASA,
+a Navy,
+a Air Force,
+y todos ellos,
+su estructura de trabajo
+es ingeniería de sistemas.
+requerimientos
+de alto nivel,
+stakeholders,
+ese lenguaje,
+definir restricciones,
+especificaciones técnicas
+y todo eso.
+Y me di cuenta
+que para hacer
+cualquier producto
+me servía
+todo lo que había
+estudiado
+y pensé
+que nunca lo había
+ocupar.
+Después de eso,
+todo el 2012,
+por eso el ruido.
+Después de eso,
+hice un proyecto
+para hacer
+un brazo robótico
+que jugar a Yenga.
+Y básicamente
+era un pequeño
+funcionador
+puesto en una
+plataforma robótica
+que se llama
+Delta,
+Delta Platform,
+plataforma Delta
+que tiene tres puntos
+y con un algoritmo
+de computer vision
+tradicional
+detectaba
+el cubo
+por funcionar.
+Lo tomaba,
+por ahí sale.
+Un cilindro
+neumático,
+¿cierto?
+No,
+perdón.
+No,
+perdón.
+Sí.
+Ah.
+Un de la luz.
+Sí.
+Vamos a tener que comer
+el ruido de nuevo,
+pero un segundo.
+Les quiero mostrar
+el algoritmo
+que teníamos
+que era muy,
+muy básico.
+Un compresor de aire.
+El video sigue todo el cable.
+Un sensor de fuerza.
+¿Ahí he quedado?
+No.
+¿Se realiza el engaño?
+No.
+Acabas de funcionar ahora sí
+Mi amigo me ha queteado el video igual te pasa mañana
+Ahí está, eso es lo que quería mostrar, disculpen por los dos minutos de Rubio
+Este era el algoritmo de Comprayer Vision que de hecho no lo hice yo, lo hizo mi compañero
+Así que no sé exactamente qué ocupó, pero ahora en este curso lo vamos a descubrir
+Es básicamente un detector de objetos, un object detection
+En esa época, estamos hablando hace 12 años atrás, no sé exactamente cuál ocupó
+Pero uno súper simple para solo detectar, no el mejor, pero los cubos que están puestos
+Y detectar algo que sea succionable, porque lo que está en horizontal obviamente no se podía
+Entonces, a lo que voy con este video, y para que se entienda el sentido
+Es que creamos todo un sistema, que tiene una plataforma robótica
+Que tiene algo de diseño, que tiene un motor neumático, que tiene una manguera, una cámara web
+Y esto es un segundo del sistema
+Los algoritmos de Comprayer Vision son un pequeño componente de un sistema de IA
+O un sistema robótico
+O un producto
+Entonces, eso puede escalarse
+Si tengo, por ejemplo, una empresa de guardia, ¿cierto?
+O un conserje virtual
+Quizás un componente del sistema de seguridad es detectar a la persona que está entrando al edificio
+Y que con computer vision, con visión computacional
+Porque estoy imitando la visión de persona
+Pero es un sistema completo, ¿cierto?
+Que tiene plataforma, que tiene una interfaz gráfica
+Que tiene una aplicación, que tiene quizás una versión en otro device, en multidevice, etc.
+Eso es lo primero que quiero compartir
+Que computer vision son pequeños algoritmos parte de un sistema, ¿ok?
+Y eso fue el 2013
+En el 2013 también trabajé una prótesis biónica
+Eso no tiene mucho que ver con computer vision
+Solamente para...
+Fue mi tesis de magista
+Rediseñar una prótesis biónica para ver su gasto energético de personas amputadas
+Y luego, de vuelta a Chile
+Trabajé en un polígono de tiro virtual
+Que es básicamente una...
+Es como mi quinto hijo
+Porque estuvimos dos años
+Con un presupuesto muy chico
+Y que teníamos que transferirlo nosotros tecnológicamente a FAMAE
+FAMAE lo vendiera a Chile, de vuelta
+O a otros países
+Como Uruguay
+La Policía de Investigaciones, etc.
+Y también
+Entonces creamos un sistema
+Donde voy a poner el video
+Creamos un sistema completo
+Que es un simulador
+Con un fusil sensorizado
+Conectado inalámbricamente con un gateway
+Un computador puesto con un pequeño software
+Y uno de los instrumentos del fusil
+Era un puntero láser
+Y yo con una cámara
+Y un algoritmo de computer vision
+Detectaba el láser en la pantalla
+Y con algoritmos inversos de balística
+Decía
+¿A dónde estaría pegando esa persona?
+Y después con otra cosa, ¿cierto?
+Con otro motorcito que le pusimos al fusil
+Yo movía la línea de tiro del fusil
+Para que la persona apuntara de nuevo
+Porque la idea era entrenar su apuntamiento
+Entonces teníamos un sistema de entrenamiento
+Que lo componen tres subsistemas
+Software
+Armamento en este caso
+Y interfaz
+¿Ok?
+Computador
+Telón
+Todo eso
+Y dentro de software
+Había un algoritmo de computer vision
+Estamos hablando de 2015-16
+¿Ok?
+Se lo pasamos a Famai
+Y hoy día Famai lo venden 2 millones de dólares
+Cada uno
+Y me pasaron 50 millones de pesos para hacerlo
+Entonces
+Estoy orgulloso
+Aunque no recibo ningún royalty
+Pero estoy orgulloso de
+De haber recibido ese aporte
+¿Ok?
+Después de eso
+También, bueno
+Hice emprendimientos propios
+Postulé un corfo
+Hice una aplicación colaborativa
+Tampoco
+Sin computer vision
+Para conectar personal trainers
+Con personas que querían entrenar en los parques
+Entonces se levantaba un entrenamiento
+Y una persona iba
+Y con pasarle pago
+Iba a la clase
+Y pagaba por la aplicación
+¿Ok?
+Después lo vendimos
+No funcionó mucho
+También he trabajado con software de simulación de emergencia
+O sea, se levanta un desastre
+O se levanta una emergencia
+Y con algoritmos de resource allocation
+Ubicación de recursos
+Tú puedes ser más óptimo en decir
+Quién tiene que ir al desastre
+Por ejemplo
+Tantas palas
+Tantas ambulancias
+Tantos bomberos
+Tantos camiones
+Tantos aljibes
+¿Ok?
+Resource allocation
+Y eso también
+Lo entregamos a Onemi
+Y lo probamos como piloto
+De la municipalidad de La Reina
+Hasta el 2019
+Que yo hago un pequeño análisis
+Después se los voy a mostrar
+Pero a ver si se los muestro
+Pequeño análisis
+2019
+Que yo creo que ustedes hicieron el mismo análisis
+Yo comparé, ¿cierto?
+Mediante una matriz
+De influencia
+De influencia
+Dependencia
+Como
+No me acuerdo
+Pero creo que cinco tecnologías
+Cinco big
+Cinco tecnologías grandes
+Cinco big tech
+Entonces
+Me dio
+Algo sí
+El resultado
+Influencia
+Dependencia
+Entonces me dio
+Algo sí
+Se forman cuatro cuadrantes
+Y me dio que
+Robotics
+Estaba por acá
+O sea
+Influía mucho en las demás
+Pero también dependía mucho de ella
+Realidad virtual
+Está acá
+O sea
+Tenía
+Poca influencia en las demás
+Pero dependía mucho de las demás
+O sea
+Mucha influencia en las demás
+Pero dependía mucho de ellas
+Por eso es que
+Creo yo
+Toda la tecnología de virtual reality
+Virtual reality
+No ha sido capaz de
+Adaptarse a la sociedad
+O sea
+Se crean cascos
+Se crean cascos
+La gente compra cascos
+Pero en verdad
+Todavía
+Según mi sesgo
+Mi opinión
+Está para la expomin
+Pero nadie más lo ocupa
+En el mundo real
+Lo ocupan diez minutos
+Tengo un cuñado que lo ocupa
+Según él
+Porque gastó como cinco millones
+En un
+En un
+En un
+En un Apple
+En un Apple Dision
+Dision Pro
+Pero no
+No se ocupa
+Mucho
+Y
+Me salió que la
+AI
+En esa época
+Yo
+Yo
+Pensé en las cinco big tech
+Como
+Robotics
+Biotecnología
+AI
+Virtual reality
+Y
+Digital manufacturing
+O sea
+Empezó en 3D
+Y digital manufacturing
+Si me equivoco
+Estaba por acá
+Y la otra
+Biotech
+También por acá
+Entonces
+Esto fue el 2019
+Obviamente
+Que
+Ahora que ustedes están haciendo un magister
+Este análisis
+Está sesgado
+Porque
+La AI
+No es
+La AI
+No es comparable
+Con biotech
+O con robotics
+Porque no son tecnologías simétricas
+¿Ok?
+Pero eso ustedes ya lo saben
+Como
+Potenciales magister de AI
+Después se lo
+Vamos a conversar de eso
+Pero la gracia de esto
+Es que
+Una de estas
+Entre comillas
+Tecnología
+Estaba acá
+En una zona de mucha influencia con las demás
+Pero de baja dependencia
+Y esta zona
+En esta
+En esta
+En esta metodología se llama
+Zona de poder
+¿Ok?
+Entonces
+Eso
+Eso pasó
+Y yo en 2019
+Empecé a estudiar
+IA
+Solamente con este
+Con esta
+Con esta
+Idea en mente
+¿Y qué pasa?
+Que tiene mucha influencia
+¿No es cierto?
+Los algoritmos
+De inteligencia artificial
+Con biotech
+Con robotics
+Con digital manufacturing
+Con realidad virtual
+Etc
+¿Ya?
+Es el primer aprende
+Para ustedes
+Que están empezando
+En este
+En este mundo
+Y bueno
+Tuve una tarea
+Re
+Re
+Sencilla
+Que era
+Predecir
+El destino final
+De unos taxis en Portugal
+Es un proyecto Kaggle
+No se han escuchado el concepto Kaggle
+Es
+Son proyectos abiertos
+Que ponen
+Base de datos abiertas
+¿Cierto?
+Y la gente compite
+Quien
+Tiene mejor precisión
+En su output
+¿Ok?
+Se escribe así
+¿Ya?
+Son proyectos abiertos
+Para estudiantes
+Principalmente
+Para competir
+¿Cuál modelo funciona mejor
+Según tu estrategia?
+Etc
+O tu modelo
+¿Cierto?
+Para competir
+Y ahí bueno
+Hicimos esto
+Para una base de datos
+En Kaggle
+Para llegar a un destino
+¿Cierto?
+En la ciudad de Porto
+En Portugal
+Hicimos varios métodos
+Exactamente
+Era
+Sabiendo por ejemplo
+Que el taxi tiene
+Este conductor
+Fue llamado por teléfono
+Salido de providencia
+Pongamos un nombre
+Una coordena geográfica
+Pagó con tarjeta de crédito
+Y algo más
+¿Dónde va a llegar?
+Solamente con ese
+Ese era el proyecto
+Da lo mismo
+Después de eso
+Me metí más
+En aprendizaje
+Reforzado
+En el 2020
+Para mover robots
+En forma autónoma
+Y ahí viene otro concepto
+De IA
+Que es importante aprender
+Que hoy día
+Lo que está pasando
+Sobre todo
+En el área
+Navegación
+Es que
+Hay como un paradigma
+Entre
+La teoría de control
+Por así decirlo
+Control automático
+¿Cierto?
+Ingeniería eléctrica
+Y todo lo que está
+¿Cierto?
+Algoritmos
+De esta área
+Que tienen
+Algunos 500 años
+200 años
+Trabajando en eso
+Ecuaciones y ecuaciones
+Y ecuaciones
+Para mover ¿Cierto?
+Para controlar el ruido
+Para controlar sensores
+¿Cierto?
+Para
+Kinemática inversa
+Etcétera
+Se está reemplazando
+Por así decirlo
+Está de a poco
+Reemplazando
+Por un concepto
+De IA
+Que se llama
+Aprendizaje reforzado
+Reinforcement Learning
+Y eso está generando
+Obviamente
+Una revolución
+En el área
+Eléctrica
+En el área
+Robótica
+¿Cierto?
+En sistemas
+Mecatrónicos
+¿Por qué?
+Porque hay una discusión
+¿Por qué es mejor?
+Entonces
+Se están llegando
+Modelos más híbridos
+Donde tú
+Precondicionas
+El robot
+De ingeniería eléctrica
+Y luego
+Entrena su modelo
+De aprendizaje reforzado
+¿Por qué?
+Porque tiene ventajas
+Y desventajas
+¿Ya?
+Por ejemplo
+En el caso
+De este proyecto
+En el caso de este proyecto
+Cuando el robot
+Es muy complejo
+Como este
+Que tiene 6 patas ¿Cierto?
+Que tiene que navegar
+Por obstáculos
+Adentro de un simulador
+Imagínense ¿Cierto?
+Modelar
+Las ecuaciones
+Que gobiernan este robot
+Muy complejo
+Y lleva mucho tiempo ¿Cierto?
+Poder entender
+El modelo de movimiento
+Versus
+Buscar un patrón de marcha
+De un animal
+Tipo araña
+Con 6 patas
+O tipo otro animal
+O algo parecido
+De 6 patas
+Y encontrar patrones
+De comportamiento
+Y hacerlo
+Y hacer que navegue
+Y que se equivoque
+Entonces mediante prueba y error
+Va mejorando su movimiento ¿Cierto?
+¿Cierto?
+En este entorno complejo
+Entonces
+La forma de
+Enfrentar el problema
+Es totalmente distinta
+Necesito ahora
+Mucha más data
+Necesito ahora
+Un computador mucho más fuerte
+Necesito un simulador
+Y muchas horas de entrenamiento
+Pero muy poca matemática
+Y se va a ir modelando
+Este comportamiento
+Solo
+¿Ok?
+¿Ok?
+¿Ok?
+Cualquier duda de lo online
+Avísenme por favor
+Acá también
+En esta investigación
+También ¿Cierto?
+Hubo un poco de
+Voy a ponerle acá
+Eso es lo que estaba explicando
+a los online por si acaso
+Cómo nos estamos
+Migrando
+Y traslapando
+hacia el aprendizaje reforzado.
+Y eso también tenía algoritmos de computer vision.
+Nosotros veíamos lo que estaba mirando el robot
+y transformábamos una imagen del robot en un mapa de profundidad.
+¿Por qué? Porque teníamos cámaras de profundidad en el robot en el simulador.
+Este simulador se llama PyBullet.
+Este simulador se llama PyBullet
+y con esas imágenes de profundidad hicimos una red neuronal
+para que aprendiera a saber la distancia al obstáculo
+y cuándo hacer este nuevo patrón de comportamiento según el obstáculo.
+Detectar el obstáculo y seguir.
+Todo esto en un simulador que se llama PyBullet,
+que es un simulador muy sencillo para Python.
+Y así vimos patrones de comportamiento de hexápodo,
+que son una elipse, cuando sube una pata baja la otra,
+bien fácil, pero la gracia es poder entrenar en esta navegación autónoma.
+Ahora, recientemente, apliqué esta misma teoría,
+pero para un robot bípedo.
+Entonces, de nuevo, algoritmos de computer vision
+para percibir mi entorno,
+pero luego, ¿cierto?, moverme y accionar sobre él.
+Voy a repetir ese concepto acá en la pizarra.
+Entonces, en un sistema robótico, por ejemplo.
+En un sistema robótico, ¿cierto?,
+que está básicamente en dos dimensiones,
+en términos de hardware y software.
+En términos de hardware, tiene un componente, ¿cierto?, de sensores.
+En términos de software,
+ese componente se llama, ¿cierto?, percepción.
+Tiene otro componente o subsistema que se llama cognición.
+Y tiene otro subsistema que se llama acción.
+¿Cómo se ve en la pizarra?
+Bien.
+Y tiene otro subsistema en el mundo hardware,
+son los actuadores.
+Y estos sensores están, ¿cierto?,
+como dice la palabra, sensando el entorno.
+Y este robotito, ¿cierto?,
+con estos bordes,
+está transformando esas señales, ¿cierto?,
+eléctricas,
+para la mayoría de las veces,
+en algoritmos para transformar una información útil.
+Todo eso se llama percepción.
+Y luego, ¿esa información útil?
+Aprender, memorizar, ¿cierto?,
+razonar, decidir, etc.,
+para hacer algoritmos de acción.
+O sea, voy a mover mi brazo,
+voy a mover mis piernas,
+voy a mover mi cámara,
+voy a mover mis ojos, lo que sea.
+Y después le mando...
+Le mando...
+Ese comando...
+Está ahí...
+Está ahí...
+Está ahí...
+¿Cómo se llama?
+Rodrigo Alday,
+está ahí desmultiado,
+parece que eso fue el problema.
+Ojo, no sé.
+Esos actuadores, ¿no es cierto?,
+actúan sobre el entorno.
+Entonces,
+acá está Computer Vision.
+Acá está Computer Vision.
+Visión artificial.
+O visión computacional.
+¿Ok?
+Estoy tomando información de mis sensores,
+principalmente de cámaras,
+de diferente tipo
+para transformar esa información,
+¿no es cierto?,
+o esas señales,
+o esas matrices, ¿no es cierto?,
+en información útil.
+Eso hace
+visión artificial.
+¿Ok?
+Dentro del sistema robótico.
+Ya.
+¿Dudas, preguntas, consultas?
+¿Dudas?
+¿Lo online?
+Hable nomás,
+interrúmpanme lo online.
+Entonces,
+así es como está el debate,
+¿no es cierto?
+Dentro de robótica
+está el debate
+de
+cómo hacerlo.
+Con teoría
+de
+control clásica,
+¿no es cierto?,
+control automático,
+¿no es cierto?,
+ecuaciones de ruido,
+ecuaciones electrónicas,
+y todas esas cosas,
+o, ¿no es cierto?,
+dinámica,
+¿no es cierto?,
+la vía real,
+tratar de modelar
+todo el mundo real
+adentro de un robot.
+Esa es la complejidad
+de la ingeniería eléctrica.
+Tratar de modelar
+el mundo real
+por ecuaciones,
+versus,
+hagámoslo aprender
+según ciertos patrones.
+Y ese es uno
+de los paradigmas
+más importantes
+de la inteligencia artificial.
+Que,
+pese a que
+tiene más gasto
+computacional,
+muchas veces,
+pese a que se ha demorado
+mucho en aprender,
+pese a que necesito
+un simulador,
+etcétera,
+estoy,
+estoy con un foco
+que tiene una escalabilidad
+mucho mayor.
+Porque estoy
+entrenando
+para que este,
+este,
+este device,
+este aparato,
+aprenda,
+y que no esté
+100% modelado
+por mí.
+¿Ya?
+y lo que está pasando
+también es que
+los informáticos
+en Estados Unidos
+están full aprendizaje,
+full learning,
+y los electrónicos
+están full
+dynamics,
+control,
+y todo eso.
+¿Y qué está pasando?
+Los informáticos
+le están poniendo
+un poquito
+ecuaciones de eléctrica
+y los electrónicos
+están haciendo
+cosas con deep learning.
+Por eso hay un traslate.
+Y hay una discusión,
+un paradigma,
+un dogma ahí,
+no sé cómo decirlo.
+Ya,
+un debate.
+¿Alguna
+alguna
+opiniones,
+algo,
+por favor?
+Para que se hagan
+entretenidos esto,
+si vamos a estar
+un lunes
+de 5 a 9,
+conozcamos,
+no tienen
+una talla,
+un mensaje,
+una sugerencia,
+algo.
+¿Cuál es tu nombre?
+¿Me puedes...?
+No, sí,
+no,
+el de atrás,
+sí,
+sí,
+el de atrás.
+¿Me puedes contar
+tu background,
+tu experiencia?
+¿Copeuch?
+¿Ya?
+Perfecto.
+¿Y tu estudios previos?
+¿O tu...?
+¿Tú...?
+¿La qué?
+¿La qué?
+Perfecto.
+Ya,
+perfecto.
+¿Y tú?
+¿Sí?
+¿Sí?
+¿Ya?
+¿Ya?
+No se olviden
+de los micrófonos,
+please.
+Perdón,
+perdón,
+perdón.
+Yo soy psicólogo.
+¿Se escucha?
+¿No está aprendido
+con Lulú?
+¿Sí?
+¿Se escucha ahora?
+Hola, hola.
+¿Lo online?
+Sí, se escucha.
+Sí, se escucha.
+Perfecto.
+¿Y tu nombre?
+¿Tu nombre?
+Me llamo Gonzalo.
+Gonzalo, ya.
+Trabajo acá en la universidad
+dirigiendo el magister
+de psicología organizacional.
+Perfecto.
+Y anteriormente
+estuve trabajando
+en algunas empresas
+del mundo de la salud.
+Hoy en día
+estamos haciendo
+algunas cosas
+dentro de la escuela
+de psicología
+para ir mezclando
+temas de tecnología
+y conducto humano.
+Buenísimo.
+Buenísimo.
+¿Tú sabes qué?
+La red de neuronales,
+por lo que mi conocimiento,
+yo no tengo
+ningún conocimiento
+de psicología,
+pero las redes neuronales
+como concepto
+nacen del conectivismo.
+El conectivismo
+es cómo los seres humanos
+entendemos
+cómo funciona el cerebro.
+Funciona a través
+de funciones de activación.
+O sea,
+de ahí,
+por eso es que la neurociencia
+está siempre bien mezclada
+y traslapada
+con la informática.
+No, buenísimo.
+Tenemos una variedad
+de personas
+muy atractivas
+y muy diversas,
+así que
+muy entretenido.
+Bueno,
+también trabajé
+en ventiladores mecánicos
+ahí para el COVID
+y son pistón,
+nada de computer vision,
+así que next.
+Y el 2021,
+este es un proyecto
+estrella que tengo,
+que,
+como había aprendido
+a ingeniería de sistemas,
+había trabajado
+con sistemas
+en Carnegie Mellon,
+había trabajado
+con sistemas
+en el centro
+de simulación
+del ejército,
+postulé un proyecto
+financiado por la NASA
+de Carnegie Mellon
+y quedé como jefe
+de sistemas
+para integrar
+los requerimientos
+de NASA
+con el equipo
+de electrónica,
+mecánica,
+software,
+termal,
+poder,
+etc.
+Entonces,
+estaba liderando
+un proyecto
+para mandar
+un rover
+a buscar agua
+a la luna
+y ahí había
+software,
+¿cierto?,
+con láser
+como LiDAR,
+nubes de punto
+y eso también
+es parte
+de computer vision,
+cómo transformo,
+¿cierto?,
+información 3D
+y la mejoro,
+la optimizo,
+etc.
+y la otra
+que hay
+de computer vision
+es que la navegación
+durante las horas
+de luminosidad
+se hace
+a través también
+de imágenes,
+eso pasa también
+con robots
+en entornos complejos
+y así,
+¿cierto?,
+software de nubes
+de punto
+con LiDAR
+y test mecánico,
+etc.
+Y luego,
+ya el 2020,
+estamos hablando
+del 2021,
+el 2022,
+ya me enfoqué
+en el doctorado
+y mi tesis
+fue
+desarrollar
+modelos
+de machine vision,
+machine vision
+es básicamente
+computer,
+algoritmos
+de visión artificial
+con una máquina,
+un sistema,
+¿cierto?,
+que está inspeccionando
+para que puedan
+ser insertados
+en la industria
+y con tres grandes,
+entre comillas,
+tesis,
+primero que hay
+un conjunto
+de datos
+muy limitado,
+limpio
+y muy limitado
+cuando tú quieres
+insertar modelos
+de computer vision
+en control
+de calidad,
+yo quería detectar
+defectos,
+o sea,
+las empresas
+no tienen defectos,
+no tienen imágenes
+de sus defectos,
+o sea,
+hay muy poca data,
+o sea,
+un problema clásico,
+obviamente.
+Segundo,
+que un problema
+más de inspección,
+del mundo de inspección,
+es que los requisitos
+para que algo
+es defecto
+y algo no es defecto,
+y cuál es el defecto
+A,
+B,
+C,
+D,
+y cuál es su criterio
+para definir ese defecto,
+o cuáles son las características
+o los atributos
+de esa imagen
+para definirla
+como defecto,
+son muy ambiguos.
+Entonces,
+para una empresa
+esto puede ser un crack,
+para otra puede ser
+un scratch,
+y para otra
+hasta dónde es scratch,
+hasta dónde es scratch,
+hasta dónde es dent,
+no sé.
+Entonces,
+hay mucha ambigüedad
+de un inspector A
+a un inspector B,
+que estén inspeccionando
+lo mismo.
+Imagínense una persona
+mirando un crack,
+una grieta en un iPhone,
+esto para ti puede ser
+una grieta
+para el otro lado o no.
+Entonces,
+¿cómo estandarizar eso?
+Entonces,
+otro problema clásico
+en computer vision,
+en visión artificial,
+la ambigüedad
+del etiquetamiento.
+¿Ok?
+Y lo tercero
+es que también,
+es otro problema
+de computer vision,
+que en general
+los algoritmos
+de computer vision
+funcionan re mal
+en entornos reales.
+Donde hay cambios
+de luminosidad,
+donde el que está
+tomando la foto
+se puede mover,
+donde la cámara
+cambia de posición,
+donde de la tarde
+a la noche
+cambia totalmente
+el color del objeto
+que estás inspeccionando.
+Hay un color shift,
+que se llama
+un cambio de color.
+Imagínate detectar
+un defecto
+en un marco de aluminio.
+Ese marco de aluminio
+tiene un fondo rojo,
+se ve rosadito,
+si tiene un fondo blanco
+se ve plateado,
+si es a las 11 de la mañana
+se ve con esta reflexión,
+entonces tiene reflectividad.
+Hay todo un problema
+que la imagen,
+¿no es cierto?,
+cambia mucho
+dependiendo
+de su entorno.
+Entonces es muy difícil
+entrenar esos modelos.
+¿Ok?
+Esto tiene mucha aplicación
+para detectar defectos
+ya sea en concreto,
+pero más que en concreto,
+o en puentes,
+en cosas así
+que son opacas,
+tienen mayor aplicación
+en fuentes reflectivas,
+como paneles solares,
+línea eléctrica,
+aisladores eléctricos,
+antenas,
+subestaciones eléctricas,
+turbina aerogeneradora,
+todo esto que tiene
+mucha reflectividad,
+es más bien como un espejo,
+¿cierto?,
+y que hay que detectar
+defectos.
+Imagínate detectar defectos
+mediante un dron
+para paneles solares,
+para línea eléctrica,
+para activos críticos
+de energía,
+o para otros activos,
+por ejemplo,
+detectar un explosivo
+no detonado
+en el medio del desierto.
+Entonces,
+tienes un algoritmo
+de computer vision,
+¿cierto?,
+pero tienes un entorno
+muy desafiante
+para la imagen.
+Ya,
+los colores cambian,
+la resolución cambia,
+etc.
+Entonces,
+es muy difícil entrenarlo.
+¿Entiendes?
+Ya,
+ahora voy a hacer
+le voy a hacer
+un pequeño
+intro de IA,
+a ver si todos
+entendemos lo mismo
+con IA,
+porque me ha pasado
+en otros magisteres
+de IA,
+de Data Science,
+que como que
+no tienen
+la misma,
+no tienen el mismo
+conocimiento,
+o
+no entendemos
+lo mismo
+por IA
+todos.
+¿Ok?
+Me pasa porque
+hay entre
+psicólogos,
+doctores,
+informáticos,
+comerciales,
+nos tenemos que
+poner de acuerdo
+de qué estamos
+hablando.
+Entonces,
+la IA
+es un área
+de computer science,
+o sea,
+un área
+de ciencia
+de la computación,
+un campo estudio,
+mejor dicho,
+que
+de la ciencia
+de computación,
+ciencia de la
+computación,
+más otros
+agregados,
+obviamente,
+neuroscience,
+¿cierto?
+Neuroscience
+y todos
+los demás,
+engineering,
+¿cierto?
+Etcétera,
+pero principalmente
+la ciencia
+de computación,
+estudia
+cómo,
+¿cierto?
+las máquinas,
+las máquinas,
+los computadores,
+imitan
+la inteligencia humana.
+Esa es la definición,
+por lo menos,
+hay cuatro definiciones,
+hay muchas definiciones,
+pero es la definición
+que yo utilizo,
+¿ok?
+Puede ser imitar
+el racionamiento humano,
+imitar la lógica humana,
+eso es una cosa,
+para que sepamos
+dónde está
+computer vision.
+Entonces,
+para poder imitar
+la inteligencia humana,
+hay al menos
+seis habilidades
+que hacemos
+los humanos
+que nos hace
+inteligentes.
+Mirar,
+¿cierto?
+Mirar,
+y ahí está
+la visión,
+¿cierto?
+Movernos,
+todo eso se llama
+robotics,
+robótica,
+razonar,
+eso lo llaman
+sistema de experto,
+perdón por el ruido,
+aprender,
+eso se llama
+en IA
+machine learning,
+y
+hablar,
+eso se llama
+speech,
+o sea,
+Alexa,
+y
+escribir
+lenguaje natural,
+o
+natural language processing.
+Y es
+justamente
+estas seis
+habilidades
+que nos hace
+humanos,
+nos hace
+inteligentes
+a los humanos,
+por un área
+de la inteligencia artificial.
+Esa es la forma
+más fácil
+para mi punto de vista
+de entender esto.
+Entonces,
+cada área
+como
+visión computacional,
+visión computer vision,
+¿cierto?
+Machine learning,
+robotics,
+sistema experto,
+natural language processing,
+y
+speech,
+¿cierto?
+son
+tecnologías
+o áreas
+de estudio
+de la inteligencia artificial
+como gran concepto.
+¿Ok?
+Por eso cuando
+por eso cuando decimos,
+es que la IA me hizo esto,
+está mal dicho,
+¿no?
+¿Está bien eso?
+La IA,
+la IA,
+la IA,
+la IA,
+la IA es un campo estudio.
+Es como decir,
+la psicología me dijo,
+la arquitectura,
+no,
+la arquitectura está
+en alta expectativa,
+la arquitectura,
+gigante.
+Y dentro de
+la inteligencia artificial,
+esto como
+campo estudio,
+lo que pasó
+fue
+que
+la más barata
+por hacer
+y la más importante
+es machine learning.
+Porque son algoritmos
+para hacer aprender
+las máquinas.
+Entonces,
+esta creció tanto,
+creció tanto,
+por así decirlo,
+que impactó
+muy fuertemente
+en las otras áreas.
+Y hoy día,
+las otras áreas
+son casi como
+aplicaciones
+de machine learning.
+Por eso,
+cuando yo empecé
+a estudiar IA
+en el 2019,
+nadie hablaba
+del concepto IA.
+Se decía
+machine learning.
+IA era como
+para el PowerPoint,
+para el que estaba
+vendiendo software.
+Pero para el nivel
+universitario,
+machine learning,
+algoritmos
+de machine learning.
+¿Qué pasó?
+Que esto creció
+tanto,
+tanto,
+tanto,
+tanto,
+que un área
+de machine learning,
+un área
+de machine learning,
+una área
+era,
+¿cierto?,
+redes neuronales,
+neural networks.
+Y hasta el 2013
+aproximadamente,
+llegamos hasta
+los convolutional neural networks,
+que son redes neuronales
+combinacionales,
+¿cierto?,
+y bien superficiales,
+de dos o tres capas,
+bien chiquititas.
+O sea,
+estamos hablando,
+algo así.
+Funciones matemáticas,
+que a través de funciones
+matemáticas,
+que a través de funciones
+de activación,
+iban decidiendo,
+¿cierto?,
+la probabilidad
+de los outputs.
+En vez de decir
+de que es un 7
+o es un 9
+o es un 2,
+la probabilidad
+que sea 7
+es de un 92%,
+sea 2
+es de un 20%,
+y sea todo el resto
+es de 0,
+0,
+0,
+0.
+Este es el concepto
+de las redes neuronales,
+que era parte
+del machine learning
+tradicional.
+Y el 2013,
+debido a diferentes
+cosas,
+yo no le hice
+una clase de IA,
+pero les voy a hacer
+este apartado
+para que
+entendamos todo lo mismo.
+Para no meternos
+de nuevo en IA,
+porque se supone
+que ustedes ya tienen
+la introducción allá
+y no quiero repetir.
+Y el 2013 pasa
+de que por diferentes
+motivos
+las redes neuronales
+compiten
+en un desafío
+que se llama
+ImageNet
+para detectar
+objetos
+usando algoritmos
+de Computer Vision.
+Entonces,
+ImageNet
+por ahí
+por el 2013,
+¿cierto?
+ImageNet
+Etiqueta
+Billones de imágenes
+Billones de imágenes
+¿Y qué pasó?
+Que ocupando
+redes neuronales
+si esta es la precisión,
+¿cierto?
+Average Precision
+con redes neuronales
+superficiales
+como esta,
+la shallow,
+bueno,
+redes neuronales
+clásicas,
+tradicionales
+o clásicas,
+teníamos
+por el PonteTú
+una precisión
+de un 80%.
+Y a alguien,
+¿cierto?
+En esta competencia
+se le ocurrió
+que en vez de
+dos capitas
+de información
+ponemos
+60 capas
+de información.
+Entonces,
+el 2013,
+esto fue
+hasta el 2013.
+Pongámosle
+el 2013,
+para hacer la historia
+más entretenida,
+una persona
+le pone 60 capas
+y llega
+a una precisión
+de un 90%
+en detección
+de objetos
+para ImageNet.
+Y al siguiente año
+llega otro paper,
+2014,
+y dice en vez
+de los 60,
+200 capas.
+Y llega
+a una precisión,
+¿no es cierto?
+De 98,
+¿no es cierto?
+Esta es la historia
+corta,
+¿ok?
+Corta-larga.
+Y esto
+transformó
+el mundo.
+Porque esta
+parte de Machine Learning
+que se llamaba
+redes neuronales,
+esta pequeña parte,
+había también
+predicción,
+regresiones,
+clustering,
+etc.
+esta parte
+se hizo gigante.
+Entonces,
+hoy día Machine Learning
+es así
+y adentro de Machine Learning
+está Deep Learning
+que es
+even
+más grande.
+¿Ya?
+Sorry por el Spanglish.
+es el Deep Learning
+por las redes neuronales,
+¿no?
+Capas,
+capas,
+Deep Learning
+explota
+por ahí
+por el 2014.
+Y en conjunto
+con eso
+explota
+porque hay otro paper
+por esa misma época
+que dice
+que el gasto
+computacional
+es mejor
+hacerlo correr
+por GPU
+que por CPU,
+¿no?
+porque el problema
+era computacional
+y hay otro paper
+por ahí
+que demuestra
+que también
+no solamente
+son las capas
+sino es la forma
+que yo,
+¿cierto?
+diseño
+la red neuronal
+y ahí vienen
+las arquitecturas
+de redes neuronales.
+Arquitectura
+de cierto tipo
+computacional,
+arquitectura
+tipo transformer,
+arquitectura
+tipo etc.
+¿Ya?
+Eso lo van a ver
+en el ramo
+de Deep Learning
+pero es para que
+tengan un pequeño barniz
+y para que
+entendamos todo
+sobre esto.
+¿Ya?
+¿Dudas,
+preguntas,
+consultas?
+Esto es para mí
+lo que decía
+también
+yo puedo estar equivocado
+yo
+para mí
+esto es lo que yo veo
+los últimos 6,
+7 años.
+Entonces
+y tiene mucha aplicación
+es esto
+Computer Vision
+para
+paneles solares
+ahí se me
+cuando
+sea el recreo
+si se puede
+porque no
+no tengo reloj
+para
+activos críticos
+¿a qué era el recreo?
+¿a 7?
+¿6 y media?
+¿7?
+¿ya?
+Activos
+¿y qué era ahí?
+¿6?
+6, 10, perfecto.
+Activos críticos
+ya les dije
+ya les dije
+paneles solares
+todo objeto
+de inspección
+complejo
+de inspeccionar
+complejo
+de sacar
+imágenes
+por lo mismo
+que dijimos
+antes
+los tres
+grandes problemas
+Computer Vision
+hay más
+pero los tres
+grandes
+conjunto de datos
+limpios
+muy limitados
+requisitos muy
+ambiguos
+y entorno
+cambiado
+¿ya?
+¿por qué?
+porque
+los sistemas
+de Machine Vision
+Computer Vision
+más una máquina
+están pensados
+en un entorno
+de laboratorio
+en un entorno
+ideal
+¿ok?
+pero los algoritmos
+deben ser robustos
+deben ser
+ubiquos
+o sea deben
+tener ubicuidad
+deben ser capaces
+de tener la generalización
+de ponerse
+en el desierto
+o en Punta Arena
+o en un robot
+o en
+con cierta
+diferente
+luminosidad
+o si no
+no eres capaz
+de insertarlo
+en la sociedad
+no eres capaz
+de insertarlo
+en la industria
+y por eso
+es que solamente
+un 5%
+aproximadamente
+de empresa
+en el área
+de inspección
+y control
+de calidad
+insertan
+modelos
+de Machine Learning
+para tareas
+de Computer Vision
+¿ok?
+y después de eso
+¿cierto?
+viene
+ya
+ahora que tú
+creaste
+algoritmos
+de Computer Vision
+para entornos
+desafiantes
+para requisitos
+ambiguos
+y con poca data
+son 3 problemas
+que se pueden resolver
+de diferentes formas
+ahora quiero que lo pongáis
+en un robot
+móvil
+que es incluso
+más difícil
+porque tenéis
+problemas de resolución
+angular resolution
+o sea
+el robot
+se está moviendo
+entonces
+la resolución
+va cambiando
+las imágenes
+pueden tener
+pueden estar difusas
+o blur
+¿cierto?
+las imágenes
+pueden cambiar
+de color
+según el ángulo
+que yo saque
+de la foto
+etcétera
+entonces
+es incluso
+más difícil
+insertar algoritmos
+de Computer Vision
+en robots móviles
+pero
+la mayoría
+de las empresas
+quieren eso
+quieren insertarlo
+en drones
+quieren insertarlo
+en perro robótico
+este perro
+por ejemplo
+que yo ocupaba
+que es de Boston Dynamics
+se ocupa en Chile
+para detectar
+defecto en cañerías
+en la minería
+una empresa
+que se llama
+Godelius
+que es una filial
+de Siglo Cooper
+¿ok?
+entonces
+pero le ha costado
+mucho insertarse
+porque los algoritmos
+de Computer Vision
+son delicados
+y no tienen
+la robustez
+en entornos
+complejos
+dicho todo eso
+ahora voy a pasar
+a los proyectos
+que estoy diciendo
+hoy día
+y que van a ser
+los proyectos
+que ustedes
+pueden aportar
+o que ustedes
+postulen por sí mismos
+y me dicen
+no sé que
+yo tengo
+imágenes de rayos X
+así que yo postulo
+los proyectos
+¿ya?
+y son proyectos
+todos
+todos los que ustedes
+van a tomar
+de Computer Vision
+y les voy a mostrar
+un poco más
+de otras cosas
+la idea de este laboratorio
+que estamos armando
+en la UAI
+es básicamente
+hacer algoritmos
+de percepción
+o sea
+algoritmos de Computer Vision
+algoritmos de navegación
+navegar
+autónomamente
+y algoritmos
+entre comillas
+cognición
+ahí es para llamar
+algo los modelos
+de lenguaje
+que no sabemos
+dónde meterlo
+ya
+pongamos modelos de lenguaje
+porque es lo que quiere
+el mercado
+meter modelos de lenguaje
+a asistentes virtuales
+¿cierto?
+que
+dentro de IA
+es en el área
+Natural Language Processing
+¿cierto?
+y ahí están
+los modelos de lenguaje
+y también dentro
+de Machine Learning
+está en el área de lógica
+también
+los asistentes virtuales
+nacen del área
+de lógica
+de Machine Learning
+bueno
+nuestra edición
+da lo mismo
+nuestro propósito
+da lo mismo
+lo importante
+es que
+en este proyecto
+bueno
+igual lo voy a presentar
+estos son
+tres alumnos
+que yo tengo
+que son
+ex alumnos
+de algunos
+de la UAI
+otros de la Universidad
+Andrés Bello
+y que tienen
+Machine Learning
+y estamos haciendo
+investigación
+en
+entre comillas
+IA
+Robotics
+Computer Vision
+y esas dos cosas
+y acabamos de publicar
+hoy día
+fue aceptado
+un paper
+de un robot
+BPO
+que va a navegar
+autonomamente
+así que estoy
+contento
+por eso que lo hice
+con Matías
+que es el de Boleda Blanca
+bueno
+la metodología
+entonces para el proyecto
+va a ser básicamente
+primero
+no se ven
+los vectores
+pero
+nosotros ya tenemos
+repositorios de modelos
+tenemos muchos modelos
+¿cierto?
+que hemos ido
+entre comillas
+coleccionando
+guardando
+dentro del doctorado
+por proyectos
+los últimos
+cinco días
+no sé
+cinco años
+tomamos data
+de la empresa
+o de otra parte
+o data pública
+data sets públicos
+por ejemplo
+Carlos
+y establecemos
+técnicas
+recuerden
+requerimientos técnicos
+para tener tal tipo
+de privacidad
+queremos que haga
+tal tarea
+¿cierto?
+igual que en la
+que en un proyecto
+empresarial
+quiero que tenga
+esta capacidad técnica
+quiero que tenga
+una privacidad
+de tal tipo
+una ciberseguridad
+todo eso no lo vamos a ver
+pero lo vamos a levantar
+como si fuera un proyecto real
+eso es lo típico
+se va a desplegar
+en una plataforma web externa
+se va a desplegar
+en un software
+o va a estar integrado
+vía API
+no sé
+requerimientos técnicos
+del proyecto
+yo se los voy a entregar
+y la idea es hacer
+la primera pega
+que hace cualquier laboratorio
+porque es un POC
+ahí es cuando
+falla el micrófono
+un POC
+es
+una prueba de concepto
+¿ok?
+un proof of concept
+y después de eso
+después del curso
+después del magister
+cuando quieran
+podríamos transformarlo
+en un MVP
+o sea en un producto mínimo viable
+¿ya?
+y el día de mañana
+quizá en un software
+o en un producto final
+o en un paper
+como quieras
+y básicamente
+las soluciones
+que nosotros hacemos
+en ScaleAil
+es tomar datos
+desde cámara
+desde sensor
+o de data tabular
+en este proyecto
+solo va a ser de cámara
+o sea
+preprocesar
+vamos a ver
+si
+predecimos
+detectamos
+segmentamos
+alguna tarea
+de computer vision
+en específico
+y luego
+¿dónde la vamos a desplegar?
+lo vamos a desplegar
+es el concepto
+desplegar
+en una plataforma web
+o lo vamos a desplegar
+en forma local
+o lo vamos a desplegar
+en un software
+de la empresa
+o lo vamos a desplegar
+vía algo
+¿ok?
+ese es un poco el proyecto
+¿algunas soluciones?
+¿dudas?
+¿preguntas?
+¿consultas?
+¿estás muy callado?
+¿te voy a presentar
+el anteojo?
+hola
+buenas noches
+hola
+¿sí?
+sí, mi nombre es
+Guillermo de la Casa
+yo
+bueno
+estudié
+administración
+y dirección
+de empresa
+que sería el equivalente
+a ingeniería comercial
+aquí en Chile
+y actualmente
+estoy a cargo
+del equipo comercial
+en Renta4
+una corredora de bolsa
+¿de bolsa?
+sí
+perfecto
+por ejemplo
+hay algoritmos
+de machine learning
+que están hoy día
+creándose
+para no sé si te interesa
+no tiene mucha imagen
+pero se podría conectar
+con imágenes
+para detectar
+fraudes
+o anomalías bancarias
+no en finanzas
+pero sí
+por ejemplo
+en retail
+tú tienes mucha data
+y ahí
+no sé
+quizás el carnicero
+está vendiendo siempre
+mil dólares
+en la mañana
+y una mañana
+vende cinco mil dólares
+entonces
+hay un outlier
+y podría levantarse
+como una alerta
+es una anomalía financiera
+que se está haciendo
+con machine learning
+es como
+algoritmos de machine learning
+reversos
+que lo llaman
+que es explicables
+tú tienes la data
+y tratas de buscar
+patrones de comportamiento
+quizás interesante
+¿por qué?
+porque lo conectáis
+con cámara
+y
+prendís la cámara
+que está mirando
+ese sector
+por ejemplo
+a ver
+ahora
+como algo sencillo
+nosotros
+la corredora de bolsa
+la tenemos en primera planta
+o sea
+a pie de calle
+y tenemos una pantalla
+colocada
+donde
+muestran las cotizaciones
+y diversos anuncios
+propias
+entonces
+lo más fácil
+que se me ocurre
+o que sacaría utilidades
+ver cuántas personas
+han mirado
+o sea
+han estado viendo
+la pantalla
+exacto
+y
+bueno
+o sea
+realmente
+eso sería información valiosa
+que yo creo que no sería
+tan difícil
+de implementar
+claro
+ver quién está
+o sea
+contar por una parte
+tránsito peatonal
+incluso de vehículos
+y por otra parte
+quién está mirando
+a la pantalla
+el tránsito vehicular
+es más bien fácil
+porque detectar personas
+detectar
+el objeto personas
+pongamos
+hacemos ya
+en materia un poquito
+como
+dentro de las tareas
+de computer vision
+que es más clásica
+es
+detección de objetos
+entonces
+detectar personas
+con una cámara de seguridad
+es algo que
+bien
+muy
+muy
+fácil de implementar
+y la otra
+es
+reconocimiento
+cara
+o no
+face recognition
+sí
+más bien
+quién está prestando
+atención
+quién está mirando
+directamente
+a la pantalla
+y quién simplemente
+pasa por ahí
+ya
+ahí
+dentro del reconocimiento
+cara
+hay como un
+un
+que es
+engagement
+que es básicamente
+qué tracks
+si tú eres profesor
+por ejemplo
+y yo pusiera cámara
+acá
+de hecho hay
+cuántos
+están mirando
+a la pizarra
+eso se puede estar
+analizando
+el nivel de engagement
+por ejemplo
+están
+estamos
+yo creo que hoy día
+yo creo
+como un 62%
+de engagement
+sacando
+sacando lo online
+que no sé
+qué están mirando
+pongamos que tenemos
+un engagement
+de un 60%
+ya
+pongámosle un 68%
+entonces
+eso también
+hay modelos ya
+hay modelos ya
+prediseñados
+de eso
+engagement
+se llama
+es
+tú detectas un objeto
+pero ese objeto
+se llama cara
+y en esa cara
+tú
+decides si te está
+tomando o no
+atención
+debido a posturas
+geométricas
+o a si ves
+toda la cara
+o algo
+ok
+entonces
+dentro de la tarea
+principal de
+computer vision
+que es detección
+de objetos
+es como una
+sub-sub-area
+y así
+les voy
+también tocando
+un poco
+las tareas
+que hace
+computer vision
+hoy en día
+pueden
+que a ti
+están obligando
+para poder
+hacer
+por favor
+todo eso
+a nivel
+de la
+sub-area
+pero hoy en día
+avanzamos
+vamos
+como ejemplo
+hay
+que después
+de
+el
+que
+se decían
+que pueden
+frente
+nada
+que pueden
+acelerar
+mucho más
+si
+si
+si
+buena pregunta
+bueno
+en este curso
+la idea es entender
+computer vision
+tradicional
+como dije al principio
+y basada en machine learning
+y deep learning
+para que ustedes sepan
+de
+porque al terminar el curso
+tienen que saber
+sobre visión artificial
+pero debido al
+estallido
+y al hype
+¿cierto?
+al hype
+tecnológico
+que es
+que son los LM
+LLM
+aquí estamos
+en términos de
+expectativas
+versus tiempo
+¿cierto?
+aquí
+hoy día
+se está haciendo
+mucho
+modelos
+de lenguaje
+conectados
+con
+subsistemas
+de percepción
+de robots
+¿cierto?
+¿con qué conceptos?
+acá hay cámaras
+acá hay movimientos
+de robots
+acá hay modelos
+de lenguaje
+ya sea para
+instrucción
+instrucción
+y también
+para
+transformar
+estos modelos
+de lenguaje
+y hacerlos
+más visuales
+por eso
+está el concepto
+de LLVM
+Large Visual Models
+o sea
+modelos visuales
+largos
+con la misma
+arquitectura
+de modelos
+de lenguaje
+largo
+con transformers
+¿cierto?
+meter imágenes
+para que
+el robot
+esté decidiendo
+¿cierto?
+en forma
+mucho más
+eficiente
+y con
+mucha más
+data
+en el momento
+y también
+que el robot
+esté
+conversando
+con su
+instructor
+en lenguaje
+natural
+¿ya?
+o sea
+¿cierto?
+y con
+algoritmos
+de percepción
+en tienda
+lenguaje natural
+lo transforme
+en acciones
+esas son las dos
+cosas que están pasando
+por lo menos
+lo que yo
+he visto
+o sea
+una cosa es que
+las arquitecturas
+de
+modelos de lenguaje
+se transformen
+en modelos
+visuales
+los Large Visual Models
+y otra área
+es que tú
+anexes
+su modelo
+de lenguaje
+para darle
+instrucciones
+a un robot
+por ejemplo
+la empresa
+dentro del área
+de instrucción
+de robots
+con modelos
+de lenguaje
+la empresa
+Physical Intelligence
+BI
+BI
+que es de una profesora
+de Stanford
+que se llama
+Chelsea
+Chelsea
+si no me equivoco
+la pedía Finn
+es básicamente eso
+es robots
+robot
+Juanito
+lávame la losa
+y el robot
+va a la losa
+¿por qué?
+porque está ahí
+haciendo
+una interfaz
+Human Robot
+Interaction
+una interfaz
+de
+interacción
+humano-robot
+más amigable
+con instrucciones
+con lenguaje natural
+etcétera
+eso es lo que se está haciendo
+por lo menos
+esas dos líneas
+una cosa es
+la arquitectura
+y otra cosa es
+cómo
+dónde se está ocupando
+con robots
+sí
+de hecho
+yo estoy tratando
+de hacer
+tratando
+de meter
+los modelos
+de lenguaje
+en software
+que ya tengo
+cosas
+de hacerlo
+más amigable
+para personas
+¿cuál es el voltaje
+de la antena 4?
+¿cuál es?
+o
+ahí está el otro concepto
+¿cierto?
+ahí está en el área
+robótica
+el otro concepto
+de los LLM
+acá están los LLM
+con apellido
+ahora mismo
+tienen impacto
+en robotics
+en robótica
+el otro impacto
+en términos
+de software
+es que
+es por ejemplo
+las plataformas
+accionables
+entonces
+hoy día
+tú ya no querís
+ver en un software
+un indicador
+o cinco indicadores
+fijos
+lo que querís
+es el indicador
+que tú quieras
+¿cachai?
+o sea
+¿se entiende?
+plataforma accionable
+que tú le digas
+con un modelo
+de lenguaje
+por ejemplo
+dame
+xkpi
+y se haga
+un dashboard
+¿cierto?
+un dashboard
+dinámico
+o on demand
+de contexto
+sí
+pero en este caso
+no hay MSP
+en este caso
+son modelos
+de lenguaje
+que tú le dices
+por ejemplo
+dame
+la cantidad
+de personas
+que han entrado
+el último mes
+compáralo
+eso es una base
+de datos vectorizadas
+entonces
+a la base
+de datos vectorizadas
+es una base
+de datos
+pequeña
+de la empresa
+te pregunto
+sobre eso
+mediante modelos
+de lenguaje
+pero
+solo sobre eso
+que no
+que no me digas
+todas esas informaciones
+solo
+tú que sabes
+esto
+que se pasaron
+20 personas
+en septiembre
+10
+agosto
+4
+en julio
+no sé qué
+dime
+dame un gráfico
+de la cantidad
+de personas
+verso el mes
+lo que estáis
+construyendo
+mediante modelos
+de lenguaje
+es un panel
+de control
+dinámico
+on demand
+qué querés ver
+es un telón
+en blanco
+por así decirlo
+eso es una cosa
+de un impacto
+grande
+¿por qué
+en el gráfico
+donde pone
+la expectativa
+de los LLMs
+después del hype
+pone una baja
+o sea
+hay sobre
+expectativa
+deberíamos vender
+envidia
+¿de qué?
+deberíamos vender
+envidia
+no
+pero es que
+envidia son
+crece
+porque
+por algo que conté
+al principio
+que
+2013
+2014
+sacó un paper
+uno de estos profesores
+de computer science
+donde demuestra
+que las GPU
+son mejores procesadores
+de modelos
+de inteligencia
+artificial
+que las CPU
+por eso se dispara
+envidia
+2014
+y después se hacen
+otras tarjetas de idea
+etcétera
+ese es un tema
+no
+este es un gráfico
+yo
+para hacerlo simple
+pero este es un gráfico
+que viene de esto
+todas las
+tecnologías
+subtecnologías
+pasan
+según los estudios
+¿cierto?
+acá hay un modelo
+que se llama
+una empresa que se llama
+Gartner
+pasan por un hype
+tecnológico
+bajan a un valle
+de desilusión
+y luego hay una segunda
+generación
+o una tercera generación
+hasta que hay un plato
+de consolidación
+entonces
+las tecnologías
+tienen un hype
+en general
+¿cierto?
+tienen un valle
+de desilusión
+un valle de desilusión
+y tienen después
+a la segunda generación
+dependiendo obviamente
+de la tecnología
+el contexto
+no sé
+una tercera generación
+y después viene
+¿cierto?
+la consolidación
+de la tecnología
+y eso
+eso se puede ver
+en tecnologías
+por ejemplo
+grandes tecnologías
+como el auto autónomo
+el 2017
+por ahí
+2018
+Elon Musk
+y todos dijeron
+en dos años más
+el 30%
+de los autos
+van a ser autónomos
+porque salió
+Tesla
+pero con las acciones
+no sé a dónde
+y más
+Billions
+y no
+entonces llegaron
+los autónomos
+en el hype
+y después
+mataron a una persona
+en Arizona
+y la expectativa
+no es la misma
+y después
+Elon Musk
+pierde acciones
+y baja esto
+y después
+los accionistas
+le dicen
+que mejor
+no se acaban
+invirtiendo
+más en I2D
+en tu empresa
+y después Ford
+pasa lo mismo
+y después otra empresa
+y el ecosistema
+auto autónomo
+que entrega productos finales
+baja, baja, baja
+y pasó por
+en Valle de Siloción
+y después
+para la segunda generación
+dicen
+¿sabéis qué mejor?
+ocupémoslos como taxi
+en el centro de Singapur
+en horario definido
+en rutas definidas
+y después
+no sé qué
+como taxi nocturno
+en esta área de San Francisco
+y esta área de Japón
+y esta área de Singapur
+y ahí se empieza
+y ahora el 2025
+creo yo
+así
+a la rápida
+sin hacer estudioso
+el tema
+estamos
+como consolidando
+esa tecnología
+porque no tenemos
+el ecosistema
+la vehicle to vehicle
+la infrastructure
+o sea
+toda la infraestructura
+de que los puentes
+sepan que viene
+un auto autónomo
+los autos
+conversan entre ellos
+y todo el ecosistema
+lo mismo pasa
+con los módulos
+por ejemplo
+Agentic
+esto es una
+tecnología bien específica
+porque modelos de lenguaje
+han habido
+desde hace los años
+50
+pero creo yo
+que Agentic
+por ejemplo
+Agentic
+LLM
+o sea modelos de lenguaje
+agénticos
+que llaman
+que básicamente
+un router
+que decide
+dónde
+en qué parte
+de la base de datos
+va a ir a consultar
+está en un hype
+tecnológico
+o estuvo
+hace 6 meses atrás
+todo el mundo
+agéntico
+agéntico
+chachi pt
+agéntico
+agéntico
+y en verdad
+es un agente inteligente
+que dice
+debido a este prompt
+voy a buscar
+en esta parte
+la base de datos
+entonces
+eso
+como concepto
+lo más probable
+que ya estén
+de caía
+y
+se hable
+de modelos de lenguaje
+no sé
+modulares
+se hable de modelos de lenguaje
+quizás a veces
+cambia el nombre
+lo mismo pasó
+con los drones
+para terminar
+la respuesta
+los drones
+por ejemplo
+el 2000
+el 2010
+todo el mundo
+hagamos un drone
+yo estaba en el ejército
+hagamos un drone
+como país
+ese era el proyecto
+2010
+entonces empezamos acá
+voy a poner en azul
+hagamos un drone
+vamos por aquí
+2010
+aproximadamente
+ya pues
+y el ejército
+postuló
+y dijo
+hay que hacer un drone
+nacional
+un drone nacional
+imagínate
+o sea
+500 millones
+200 millones
+no quiero decir cifras
+200 millones
+ya pero
+mientras estamos
+como estado
+porque eso también
+es un problema
+de estado
+versus privado
+y todos los temas
+mientras estamos
+desarrollando
+¿cierto?
+este drone
+esta frota de drones
+estatales
+para el ejército
+el 2000
+ya
+el 2015
+no sé
+perdón
+el 2000
+tercio
+como el 2014
+los drones
+están en el supermercado
+a 100 dólares
+en 4 años
+entonces
+salirte del mercado
+totalmente
+no eres capaz
+¿para qué desarrolles tú?
+el privado
+te comió
+es ágil
+es versátil
+y está a 100 dólares
+porque tienes
+miles de aplicaciones
+entonces
+¿qué pasa?
+que
+los drones
+de los drones
+estatales
+¿cierto?
+tú
+compremos
+en una empresa
+porque antes
+también
+drones
+de a la fija
+no compremos
+en una empresa
+un drone
+cuadróptero
+vale 100 lucas
+y luego
+hay para la agricultura
+es dual
+entonces
+hay
+todas estas curvas
+hay varias formas
+de verlo
+también hay
+habilitadores
+ecosistemas
+radares
+cero
+años
+a diez años
+hay mil cosas
+de ver
+innovación
+es parte
+de lo que estamos viviendo
+¿ya?
+¿quién tiene alguna duda?
+¿preguntas?
+¿sí?
+¿sí?
+¿sí?
+¿sí?
+¿sí?
+depende
+de quién eres
+claro
+porque si tú
+si tú eres
+claro
+si tú eres emprendedor
+tienes que estar acá
+tu producto
+tiene que estar acá
+justo antes de la expectativa
+es donde todo el mundo
+está poniendo plata
+porque acá
+en esta área
+está el
+WTP
+que se llama
+los que llaman los gringos
+willing to pay
+ahí está la voluntad
+de pagar
+porque estén pagando
+por ver
+claro
+¿sí?
+no
+el metaverso
+está acá
+el metaverso
+va a ser
+el nuevo banco
+digital
+los
+Google Glass
+por ejemplo
+yo me saco una foto
+con un Google Glass
+el 2012
+esto es lo que viene
+la moda
+no incomoda
+no sé qué
+no pasa nada
+ahora
+estamos
+estamos
+volviendo
+yo creo
+con Apple Pro Vision
+y todas esas cosas
+estamos volviendo
+parece con más
+transparencia
+con otras
+con otras
+aplicaciones
+etcétera
+¿sale?
+Profe
+pero si hay que considerar
+hay ejemplos
+como el
+como el iPad
+Steve Jobs
+lo tenía patentado
+hace como 20 años atrás
+pero no era el minuto
+claro
+entonces hay tecnología
+en mi opinión personal
+lo que es virtual reality
+principalmente
+es un tema generacional
+también de por medio
+que
+que no vea a los niños
+ahora que están metidos
+en Roblox
+en Minecraft
+y todo
+son bien virtuales
+probablemente
+haya un
+un minuto
+en que
+se van a juntar
+las curvas
+de
+existencia
+de la tecnología
+con la
+forma de actuar
+en la generación
+que va a producir
+otra
+otra curva
+que va a ser más
+relevante
+la utilización
+de esas tecnologías
+quizás en este minuto
+para el virtual reality
+estamos muy
+adelantados
+o fue el iPad
+cuando lo lanzaron
+la primera vez
+o cuando salió
+la palma
+etcétera
+pero yo no lo desecharía
+como
+no no no
+de hecho hay ciertos
+hay ciertos rubros
+como la salud
+en que igual los
+los
+como se llama
+los
+los simuladores
+que se están generando
+de hecho acá en el mismo país
+están saliendo
+grandes publicidades
+de
+de ciertas universidades
+que tienen unos centros
+de simulación
+fantásticos
+y son
+en su mayoría
+basados en
+tecnología de realidad virtual
+no sé
+está siendo específico
+no la defiendo
+ni la
+ni la
+en el ataque
+a mí me da lo mismo
+pero
+pero lo veo
+como
+como
+como tendencia
+porque hay un tema
+generacional
+que viene súper fuerte
+y cuando tengan
+poder adquisitivo
+de aquí a 15 años más
+o 10 años más
+probablemente
+el Oculus
+3
+o el 4
+o el 10
+lo van a ocupar todo
+y esta sala
+no va a ser real
+sino que va a ser virtual
+y no vamos a ver
+unas pantallitas ahí
+sino que nos vamos a estar
+viendo todos
+con nuestro avatar
+etc
+pero a mí me suena
+un poquito ridículo
+porque yo soy más viejo
+pero para los niños
+probablemente
+en ese tiempo
+vamos a funcionar
+de una manera más
+más por ese lado
+creo yo
+sí totalmente
+totalmente
+hay un libro
+que se llama
+cómo hacer productos
+que la gente ame
+algo así
+y una de las 8 categorías
+para hacer productos
+que la gente ame
+es el timing
+otro es la ubicación
+por ejemplo
+si tú eres una empresa
+que hace
+por ejemplo
+Carun
+que hizo anteojos
+con material reciclado
+y se instaló
+en Puerto Vara
+en el seno
+de no sé cuántito
+pongamos del seno
+de Reloncabín
+no sé si es el seno
+de Reloncabín
+verdad
+pero el seno
+tanto
+y al lado
+de las algas
+tomando el material
+reciclado
+para hacer los anteojos
+del futuro
+eso es como
+en términos
+de posicionamiento
+y también está el timing
+igual que lo que hizo
+Steve Jobs
+con el iPhone
+o sea
+el multitouch
+existía
+por el Rente de Defensa
+Estados Unidos
+los iPods
+los iPods
+existían por
+por música
+y él conectó
+todo
+¿ah?
+internet que también salió
+de la red
+ahí está
+bueno ahí
+nos movemos
+nos estamos moviendo
+a otra área
+pero
+qué innovación
+qué entretenido también
+que
+los factores
+tecnológicos
+que están
+que están
+en hype
+¿cierto?
+que están en hype
+hoy día
+visión computacional
+está muy
+está muy en hype
+de hecho
+hace un mes atrás
+un amigo
+que trabaja
+en
+en EY
+dijo
+la visión
+por computadora
+lo dijo justo
+después de una reunión
+conmigo
+como una semana
+así que no sé
+si lo dijo
+por mí
+o
+pero
+dijo
+la visión
+computacional
+se viene
+para la minería
+factores
+tecnológicos
+computer vision
+¿cierto?
+con
+obviamente
+con deep learning
+está en un hype
+tecnológico
+y se va a entrar
+¿por qué?
+porque es mucho más
+escalable
+que
+hacer inspecciones
+y acá me meto en la materia
+para no salirme
+es mucho más escalable
+que hacer inspecciones
+o soluciones
+basadas en sensores
+como vimos
+¿cierto?
+hay tres
+soluciones
+data
+tabular
+o no estructurada
+¿cierto?
+o estructurada
+o estructurada
+sensores
+información de sensores
+en tiempo real
+o imágenes
+son los tres tipos
+grandes de
+de
+de información
+entonces en la minería
+por ejemplo
+perdón
+en la minería
+por ejemplo
+un proyecto de Deloitte
+una cámara súper sencilla
+puesto en la retroexcavadora
+detectando
+instancables
+con un
+modelo de
+detección de objetos
+puesto
+en la retroexcavadora
+eso
+cuesta
+100 dólares
+o sea
+el modelo está
+en la ley
+en internet
+una cámara web
+una cámara chica
+pongamos que una cámara
+de 300 lucas
+para no ser tan exagerada
+conectada a una aplicación
+del conductor
+conectada al sistema
+de transporte
+de
+la minera
+Deloitte
+se lo puede vender
+se lo vendió
+comillas
+paréntesis
+lo que sea
+a
+BHP
+en 800 mil pesos
+25 mil pesos
+por cámara
+eso es el impacto
+que está teniendo
+la visión computacional
+por ejemplo
+en la minería chilena
+un ejemplo real
+de una empresa
+muy chica
+se llama Robotic
+Profe
+es súper interesante
+lo que comentabas
+de la escalabilidad
+y por ahí
+me quedé pensando
+si en tu experiencia
+conoces
+o has escuchado
+de casos de uso
+de Machine Vision
+o Computer Vision
+para
+Real Estate
+o construcción
+sí
+hay una empresa
+en Real Estate
+chilena
+que
+para monitorear
+la construcción
+de edificio
+puso cámara
+¿cierto?
+en la
+pluma
+grúa
+¿cómo se llama?
+grúa
+pluma
+larga
+la pluma
+puso una cámara
+ahí
+hizo un software
+y va detectando
+en qué porcentaje
+está la obra
+se llama
+ObraLink
+está muy potente
+es puro
+algoritmo
+de Computer Vision
+puesto en un software
+y en vez de tener
+a un jefe
+de proyecto
+que está viendo
+estamos en un 32%
+según la cantidad
+concreta
+que hemos gastado
+según lo que
+damos la carta GAN
+lo está mirando
+y lo está monetando
+en tiempo real
+y ahí
+en términos de soluciones
+con Computer Vision
+dijimos
+sensor based
+¿cierto?
+vision based
+Computer Vision
+es basado
+en visión
+no en sensores
+sensores
+es más
+aparatoso
+es menos escalable
+es más caro
+pero es mucho más
+fidedigno
+basado en visión
+es más barato
+menos gasto
+computacional
+pero es que
+entrenarlo
+y tiene menos
+fidelidad
+o sea menos precisión
+dentro de vision based
+soluciones
+de basada
+en visión
+¿cierto?
+hay por lo menos
+tres, cuatro áreas
+una área importante
+es vigilancia
+entonces tú
+alertas
+cuando pase algo
+por ejemplo
+alertas
+alertas
+cuando hay
+una encerrona
+alertas
+cuando hay
+un objeto
+en la carretera
+alertas
+cuando hay
+un defecto
+en la tupina
+aerogeneradora
+alertas
+tiempo real
+¿cierto?
+pop up
+sonido
+ruido
+alertas
+cuando una persona
+anda sin casco
+otra área
+dentro de la inspección
+basada en visión
+para computer vision
+es cuando tú
+estás haciendo
+mantenimiento
+que ahí
+tienen más tiempo
+ahí no
+estáis vigilando
+tu activo
+para
+generar una alerta
+pero no es para la policía
+sino que
+estás
+haciéndole mantenimiento
+a tu activo
+pasas un
+un robot
+por ejemplo
+o pasas una cámara
+inspeccionando
+un estanque de agua
+y después
+tomas las imágenes
+las pones en tu plataforma
+y ves
+a través de
+algoritmos de computer vision
+donde hay una falla
+en vez de verlo tú
+en vez de estar
+mirando
+10.000 imágenes
+que es lo que inspecciona
+un drone
+por ejemplo
+en 5.000
+en no sé
+en 1.000 hectáreas
+o en un estanque de agua
+las cantidad de imágenes
+que saca
+en vez de estar mirando
+imagen por imagen
+que se te puede pasar una
+te dice
+acá hay un crack
+en la imagen
+264
+y eso puede generar
+en términos de soluciones
+de computer vision
+reales
+otros sistemas de IA
+plataformas que puedan
+generar reportes
+a través de esos
+hallazgos
+visuales
+pero estamos hablando
+de defectos visuales
+objetos que son capaces
+de ver
+por el ojo humano
+o por esta cámara
+¿ya?
+entonces para
+para entender
+estos sistemas de
+IA
+o de computer vision
+¿dónde pueden
+conocer?
+también
+se puede mirar
+desde el punto de vista
+como proceso creativo
+o sea
+hay factores
+tecnológicos
+como computer vision
+y otros
+LBM
+por ejemplo
+hay factores
+sociales
+por ejemplo
+no sé
+en la frontera
+está pasando
+gente
+¿cierto?
+con droga
+es un factor
+social
+cultural
+que podría ser
+interesante mirar
+algo está pasando
+¿cierto?
+en términos
+de
+de humano
+estamos
+teniendo
+relaciones
+entre humanos
+difíciles
+o está pasando
+algo
+o la gente
+está saltando
+o la gente
+está robando
+los supermercados
+no sé
+hay un problema
+¿cierto?
+por resolver
+con soluciones
+tecnológicas
+de alta
+expectativa
+y también
+hay un punto
+desde el punto de vista
+para crear
+sistemas de IA
+también hay que pensar
+en
+factores económicos
+o sea
+¿dónde está
+la plata?
+o sea
+¿quién está
+perdiendo plata?
+en un banco
+por ejemplo
+o sea
+perdón
+en un retail
+el otro día
+conversaba con una persona
+el totus
+si no me equivoco
+estaban
+una merma
+de 250 millones
+de pesos
+en un totus
+por robo hormiga
+hicieron un algoritmo
+empezaron a descubrir
+que era el robo hormiga
+y en verdad
+no era el robo hormiga
+sino que era
+lo que se pasaban
+entre los empleados
+¿cierto?
+carne
+palta
+una palta
+era como un dólar
+entonces
+esas cosas
+que se estaban
+robando
+generó
+¿cierto?
+entonces hicieron una solución
+a través de cámaras
+con algoritmos
+de computer vision
+por un problema
+cultural
+social
+¿cierto?
+pero hay
+plata que estáis perdiendo
+hay una merma real
+o hay
+hay un willing
+o hay un willing
+to pay
+hay un
+alguien que quiere
+pagarse por eso
+entonces
+con esas tres cosas
+así
+una metodología
+rápida
+para mirar
+cualquier proyecto
+es
+¿dónde está
+la intersección
+entre estas tres?
+en metodología
+de diseño
+de productos
+esto se llama
+Product Opportunity
+Gap
+o sea
+una brecha
+por crear
+un producto
+disruptivo
+eso sería
+ideal
+que
+que también
+pudiéramos
+meternos
+pero
+hoy día
+estamos
+entonces
+dentro
+de los sistemas
+de IA
+con computer vision
+que
+yo estoy
+desarrollando
+en mi laboratorio
+y que me gustaría
+que ustedes
+después
+en el proyecto
+me mandaran
+correo
+y yo les voy
+a mandar
+a ustedes
+a cada grupo
+un proyectito
+por ejemplo
+este es un software
+lo mismo
+detectamos
+¿cierto?
+detectamos
+explosivos no detonados
+¿ya?
+esto es fake
+no está ahí
+el explosivo
+pero es para mostrar
+¿cierto?
+que está conectado
+un mapa
+por ejemplo
+en Calama
+tú pasas
+con un dron
+¿cierto?
+a la fija
+si en el procedimiento
+no detonado
+ahí está complicado
+como providencia
+o es
+en el razzle
+claro
+en la moneda
+y esto
+puede generar
+¿cierto?
+si tú sacáis
+8000 imágenes
+imagínate
+20.000 hectáreas
+5.000 hectáreas
+y podéis tener
+8 hallazgos
+ahí
+vale la pena
+ocupar
+algoritmos
+de computer vision
+que está detectando
+un objeto
+en una aguja
+en un pajar
+como un explosivo
+no detonado
+en el desierto
+son de este tamaño
+¿cierto?
+y tienen una característica
+especial
+imagínense también
+para objetos
+de alto valor
+como objeto
+arqueológico
+por ejemplo
+un pozo calichero
+puesto en Antofagasta
+que es intocable
+entonces no puede llegar
+a una empresa
+a desarrollar
+inmobiliaria ahí
+o desarrollar
+una inmainera ahí
+o sea
+es detectable
+es importante
+¿cierto?
+hay gente
+que está dispuesta
+a pagar
+las mineras
+los desarrollos
+inmobiliarios
+hay un tema
+cultural
+que cuidar
+y hay algoritmos
+de computer vision
+que lo pueden hacer
+o sea
+hay pequeñas aplicaciones
+que pueden hacer
+el match
+¿sabes?
+¿sabes?
+¿sabes?
+¿sabes?
+¿hubo un boom?
+sí
+¿sabes?
+¿sabes?
+¿hubo un boom?
+yo creo
+mi tesis
+es que es un tema de
+infraestructura
+o sea
+por una parte
+con la excusa de crear un auto autónomo
+que es una gran tecnología, lo mismo que un
+space rocket, es una gran
+tecnología, es una excusa
+para crear un ecosistema de empresas
+que abastecen a ese producto final
+entonces se crearon empresas de simulación
+empresas de modelación, empresas
+de mapas digitales HD
+empresas de software
+se crearon muchos papers
+hay lucas, se levantan
+y se genera toda una
+bolanía de expectativas
+esa es la primera tesis
+la excusa del auto autónomo
+pero en verdad es para mover la industria
+mover la defensa, mover las universidades
+sobre todo estamos hablando de Estados Unidos
+el problema
+es que el producto final
+entonces se avanza en toda esa área
+y todas las empresas ganan plata
+y la universidad
+levanta proyectos
+y se generan sponsorship
+y se generan productos nuevos
+pega a empresas
+un ecosistema gigante
+se levanta por ejemplo DARPA
+el desafío DARPA
+que un auto
+se mueva solo
+160 kilómetros
+a pura cámara
+sensores
+2013
+perdón
+2009
+pero el producto final
+no es insertado en la sociedad
+porque no estamos preparados
+para insertarlo
+¿por qué?
+uno
+muchas cosas
+pero uno
+lo que dije anteriormente
+infraestructura no digitalizada
+que converse entre ellas
+máquina
+habla con la máquina
+no está todavía insertado
+vehicle to vehicle
+technology se llama
+V2B
+vehicle to infrastructure
+o sea
+tecnología de información
+vehículo a la infraestructura
+esa otra cosa
+tercero
+por así decirlo
+creo yo
+desde mi cego
+desde mi humilde opinión
+es que
+los seres humanos
+estamos menos dispuestos
+a aceptar
+el error de una máquina
+entonces
+los autos
+es un producto
+es el producto
+que cambió
+uno de los productos
+que más ha cambiado el mundo
+las ciudades se crean
+debido a cómo se mueven los autos
+y el auto
+es un producto
+que tiene 100 años
+solamente
+entonces
+le tenemos mucho cariño
+al auto
+y el auto
+es todo un tema
+emocional y todo
+entonces
+por ejemplo
+los gringos
+tienen estadísticas
+que de cada
+no sé
+un trillón de kilómetros
+manejados por los americanos
+hay un muerto
+entonces
+¿cómo
+cómo lo comparar
+con un auto autónomo
+que pueda matar
+a una persona
+y lleva recién
+no sé
+20 millones de kilómetros
+recorridos
+o sea
+juicio a las máquinas
+explícame
+por qué falló
+y ahí
+demostraciones
+de algoritmos
+de computer vision
+que no funcionaron
+por ejemplo
+en Tesla
+en el año 2015
+16
+en la noche
+por problemas
+de variabilidad
+y problemas
+de entornos complejos
+que le expliqué
+y atropellaron
+a una persona
+y la mataron
+entonces
+¿estamos dispuestos
+a que una máquina
+que anda en la ciudad
+mate a otra persona?
+o sea
+estamos más dispuestos
+a que lo haga una persona
+porque entendemos
+por un tema ético
+¿no es cierto?
+que de quiénes
+fue sin querer
+o sea
+que hubo
+fue un accidente
+pero si lo hace una máquina
+ya no es sin querer
+ya es
+oye empresa
+responde
+ahí tal ética le hay
+pero ahí también
+hay un tema
+parecido a lo que hablábamos
+antes
+de mercado
+sobre todo
+los gringos
+que son amantes
+de los autos
+les gustan los motores
+el pistón
+el rayo McQueen
+el guindy
+todo lo que se te ocurra
+meterle auto eléctrico
+es como
+una niñita
+no, no, no
+no, pero auto autónomo
+estamos hablando
+¿sí?
+lo mismo
+le gusta manejar
+le gusta echar
+también un tema cultural
+claro
+harta gasolina
+etcétera
+y traer
+y ampliar mercados
+como por acá
+por ejemplo
+imagínate un auto autónomo
+en Lima
+un DF
+claro
+en India
+que hay lugares
+sin semáforos
+como se llama
+los tuquis
+y que las vacas
+tienen prioridad
+ante el peatón
+no sé
+claro
+no, por eso
+que los ecosistemas
+son muy diversos
+entornos complejos
+y lo otro también
+aparte del tema cultural
+que tú bien dices
+sí
+tema cultural
+algo más difícil
+pero sí
+tengo
+ah, perdón
+perdón
+me acuerdo
+de haber visto alguna vez
+que había un tema también
+con los seguros
+porque quién era responsable
+frente al presidente
+si era el dueño del auto
+la marca del auto
+el del software
+del auto autónomo
+tampoco había como claridad
+sobre eso
+claro
+para que el ecosistema
+funcionara
+había que transparentar
+responsabilidades
+y un auto
+es un producto
+que tiene 100 proveedores
+por decir un número
+entonces
+¿cuál de esos proveedores
+falló?
+o falló la marca?
+ah, y lo otro que pasa también
+con el auto autónomo
+siguiendo con la cultura
+gringa
+¿cuál es tu nombre?
+¿está bien?
+siguiendo con la cultura gringa
+también es que
+Tesla
+por lo menos
+no sé si ahora
+hoy día
+pero por lo menos
+hace 2, 3, 4 años atrás
+era un ícono
+de una
+de las pocas empresas
+fabricantes
+made in USA
+porque Estados Unidos
+es muy potente
+y sigue siendo
+¿cierto?
+líder
+económicamente
+pero
+fabricando en China
+¿cierto?
+fabricando en India
+pero Tesla no
+se fabrica en Estados Unidos
+la mayoría del producto
+y eso
+eso tiene también
+un eslogan cultural
+muy fuerte
+porque tú cuando le decías
+al americano
+bueno, sí, pero el recurso humano
+gringo
+americano
+es muy caro
+entonces
+igual estáis diseñando
+puras cosas abstractas
+eres un diseñador
+y un marquetero
+es decir, era como el
+el
+o sea, el dogma
+pero ahora le dicen
+no, yo fui capaz
+de hacer Tesla
+y Tesla es
+o sea, made in USA
+y soporte en USA
+mantenimiento en USA
+todo en USA
+y eso es muy potente también
+y ahí vamos a entrar
+a otro tema ya
+tengo una última pregunta
+tal, él
+se va a poner
+preguntas de todos los rubros
+pero en
+yo no tengo nada que ver
+con la agronomía
+pero
+aplicaciones de
+computer vision
+en agronomía
+está habiendo
+drones
+espectaculares
+que te sirven para
+¿cómo se llama?
+para fumigar
+etcétera
+está eliminando cualquier
+cantidad de
+mano de obra
+mucho más preciso
+en cuanto a las
+cargas de los
+abonos
+los pesticidas
+pero también
+tengo un bicho
+volando
+que me permite
+ir detectando
+ciertas problemáticas
+que no necesariamente
+la persona que está
+en plantación
+en extensión
+va a detectar
+tempranamente
+entonces
+¿hay un grado
+de utilización
+de computer vision
+en agronomía?
+nosotros estamos haciendo
+un proyecto
+con computer vision
+de computer vision
+para empresas
+exportadoras de fruta
+uvas
+que es escalable
+a kiwi
+arándano
+plátano
+no sé cuánto
+pero la uva
+es una fruta compleja
+porque el racimo
+si tú ves
+¿cierto?
+si tú a la primera vista
+no eres capaz
+de ver
+cuántas
+uvas hay
+en el racimo
+entonces
+ahí viene
+un problema
+de computer vision
+también
+se puede enlazar
+¿cierto?
+que es
+cuando tú estás
+detectando un objeto
+detección de objetos
+tienes
+uno de los problemas
+que ya hemos conversado
+como tres o cuatro
+pero un problema grave
+¿cierto?
+es la oclusión
+oclusión
+que es
+tú estás viendo
+una
+¿cierto?
+una
+capa
+una plana
+de la imagen
+pero no ven las planas
+anteriores
+o sea
+anteriores
+entonces
+hay predictores
+y mapas de profundidad
+para decir
+lo más probable
+que en este racimo
+eso es lo que yo hice
+en una investigación
+tenga
+28 uvas
+eso es un algoritmo
+de computer vision
+con detección de objetos
+¿cierto?
+con el problema de oclusión
+y con
+detección de profundidad
+exactamente
+bien
+¿quién dijo?
+sí
+exactamente
+ahora LIDAR
+es mucho más fidedigno
+porque es un láser
+que está escaneando
+esto es una imagen
+2D
+que tú estás prediciendo
+¿cierto?
+LIDAR
+es un
+es un
+múltiples
+haces de luces
+¿cierto?
+que están yendo
+y volviendo
+y viendo
+mapear un objeto
+o ver la distancia
+del objeto
+por tiempo
+por tiempo
+vuelo del rayo
+es buena
+entonces
+nosotros que hicimos
+con Teo
+con Teo
+cuando tú cuentas
+las uvas
+¿cierto?
+y estás
+encontrando el borde
+de la uva
+¿cierto?
+se llama
+edge detection
+detección de objetos
+¿cierto?
+detección de profundidad
+eso
+y luego
+también
+tú puedes segmentar
+en el caso
+de la uva
+por ejemplo
+detectamos la uva
+por los bordes
+y luego
+se puede segmentar
+o sea
+transformarlo
+en una
+en una máscara
+¿ya?
+y hay
+diferentes tipos
+de segmentación
+lo vamos a hablar
+en la siguiente clase
+y luego también
+en el caso
+del proyecto
+uvas
+que es una exportadora
+muy grande
+a mí me encanta
+hacer proyectos
+con empresas
+¿cierto?
+para que sea real
+y que sirva
+todo el estudio
+y todo lo que tenemos
+para que sirva para algo
+o sea
+hay un impacto
+en la industria
+o sea
+si no
+es pura teoría
+y dijimos
+aparte de ver
+cuánta uva hay
+¿cuál es el calibre?
+otra tarea
+de computer vision
+dimensional
+dimensional
+calibre
+en este caso
+el calibre
+del diámetro
+ecuatorial
+¿ya?
+para lo online
+ya no se ve muy bien
+pero son
+dice milímetros
+¿ok?
+entonces
+si tú
+detectáis
+el objeto
+o los bordes
+segmentales
+detectáis
+el calibre
+podría ser
+histogramas
+o sea
+gráficos
+y diciéndote
+las 28
+ojienes
+tras decimos
+hay 10
+de 7 milímetros
+20
+de 20 milímetros
+se separa
+o cobra tanto
+o pueden tener
+tal peso
+etcétera
+o sea
+podríais
+tomar alguna decisión
+como empresa
+en el área
+de agricultura
+son las
+¿qué era?
+no quiero
+son las 7
+bueno
+y la última
+antes de irnos
+recreo
+otra cosa
+que también
+estamos
+haciendo
+con algoritmos
+de computer vision
+es
+detectar
+los diferentes
+atributos
+de parcelas
+en agricultura
+¿para qué?
+para predecir
+la cantidad
+de cosecha
+o sea
+la cantidad
+de avellanas
+que van a cosecharse
+por parcela
+y después
+de ser
+por ejemplo
+en estos
+cuatro campos
+de 100 hectáreas
+cada una
+van a haber
+aproximadamente
+42 toneladas
+de avellana europea
+por empresa chilena
+también
+o sea
+no chilena
+es
+como de
+Luxemburgo
+pero está en Chile
+y toda la avellana
+de Ferrero
+está puesta en Chile
+la mayoría
+de la avellana europea
+se exporta a Turquía
+y en Turquía
+la transforman
+con chocolate
+la mueren
+no sé qué
+y la mandan a Suiza
+en Suiza
+los chocolates
+y en Luxemburgo
+está la empresa
+vendiendo
+Rochero Ferrer
+a todo el mundo
+y está en Cumpeo
+el pueblo de Condorito
+ya
+vamos a recreo
+gracias a los online
+regresamos
+¿en cuánto tiempo?
+¿30?
+¿20?
+¿30?
+que alguien venga
+hola
+¿qué tal?
+bien
+una pregunta
+en el mundo
+de la visión
+¿la aviación?
+de la visión
+de la visión
+es como
+por ejemplo
+el elemento
+de estos monstruos
+enormes
+que casi
+cualquier cosa
+que haga uno
+en relación a ello
+es como
+si no tenías
+no sé
+un billion
+no voy a competir
+acá en visión
+computacional
+es lo mismo
+hay grandes
+proveedores
+de esto
+que no se entufa
+o hay
+pequeños
+no
+yo
+yo siento
+voy a cambiar
+de posición
+¿por qué no?
+¿por qué no?
+déjame
+un segundito
+¿qué tal?
+¿me escuchan bien
+los online?
+¿están ahí?
+¿sí?
+¿síguen ahí?
+¿me están siguiendo?
+¿tú?
+¿tú?
+¿jaime?
+¿orlando?
+¿facisco?
+¿todo bien?
+¿todo bien?
+¿preguntas?
+¿consultas?
+¿yulisa?
+por favor
+interrúmpanme cuando quieran
+y pago una pregunta
+comentario
+lo que sea
+ok
+para que no
+para que no
+no nos desconectemos
+ya
+entonces voy a hacer
+un pequeño
+apartado
+de lo que es
+IA
+que lo hice
+en el módulo anterior
+en pizarra
+pero para mostrarlo
+en PPT
+para que quede
+mejor visualmente
+memorizado
+o no lo que ha aprendido
+por parte de ustedes
+sabiendo que están
+en el cuarto curso
+de su magíster
+¿ya?
+y que quizás
+Computer Vision
+está un poquito adelantado
+de lo que usted
+sus conocimientos están
+¿ya?
+y también como
+tenemos muy
+una audiencia
+muy heterogénea
+¿ya?
+entonces
+¿qué es la IA?
+es un campo estudio
+es esto que estuve
+en la habilidad
+de las computadoras
+o de las máquinas
+dije yo
+para inventar
+la inteligencia humana
+eso es
+definido por
+Russell and Norvick
+son dos maestros
+de la IA
+en el libro
+que se llama
+Inteligencia artificial
+aplicación y algoritmo
+2003
+¿ya?
+ahí hay cuatro definiciones
+esta es la que más
+me gusta a mí
+¿ok?
+ese es el gordito
+ese es uno verde
+ese
+y la más
+lo que traté
+de contarles
+yo por pizarra
+pero acá está
+mejor explicado
+es que
+está separado
+por las habilidades
+porque como queremos
+imitar a la inteligencia humana
+entonces
+¿qué significa ser
+inteligente?
+¿cierto?
+según Turing
+con siete características
+que es aprender
+¿cierto?
+hablar
+mirar
+moverse
+planificar
+y optimizar
+razonar
+y ser capaz de
+clasificar
+y traducir
+y escribir data
+en lenguaje natural
+o sea
+esas son las siete habilidades
+que en el año 50
+Alan Turing
+dijo
+el test de Turing
+para ver si una máquina
+es inteligente
+se empezó
+a preguntar
+qué significa
+ser inteligente
+y habían siete habilidades
+en esa época
+año
+cuando
+Turing hizo
+Alan Turing hizo
+la máquina
+¿cierto?
+de Enigma
+fue como el 48
+por ahí
+y básicamente
+inventó los computadores
+todos vimos la película
+¿cierto?
+o sea
+el primer requisito
+para entrar a este Magister
+es ver la película
+Enigma
+Entonces
+para los que no saben
+básicamente
+a él le pasaron
+tiene que descubrir
+¿cierto?
+cuál es el siguiente código
+de esta máquina
+que es una máquina alemana
+y que define
+la estrategia
+del ejército alemán
+y él era inglés
+define
+el próximo código
+alfanumérico
+si no me equivoco
+de cuatro
+¿cierto?
+dígitos
+que va a venir
+y esa es la decisión
+que iban a tomar
+los alemanes
+y tomaron
+a diez informáticos
+de la época
+estadísticos
+matemáticos
+de la época
+el ejército inglés
+con todo
+el presupuesto
+del país
+descúbreme
+el código Enigma
+y
+nueve
+de los diez
+se dedicaron
+con la visión
+¿cierto?
+tradicional
+a modelar
+matemáticamente
+qué es lo que viene
+y él dijo
+no
+que es otro paradigma
+igual que
+el aprendizaje
+verso el control
+es otra mirada
+otra forma
+de ver las cosas
+y dijo no
+voy a construir
+una máquina
+que me diga
+cuál es el próximo código
+no voy a modelar
+este problema
+sino que voy a crear
+una máquina
+que se demoró
+mucho más
+y todos los otros nueve
+casi a punto
+de descubrir
+¿puedes cerrar la puerta
+por favor?
+a punto de descubrir
+estadísticamente
+cuál venía
+a punto
+a punto
+a punto
+a las dos semanas
+al mes
+y él se demoraba
+se demoraba
+creando una máquina
+que lo descubriera
+y básicamente
+empezó a crear una máquina
+que daba
+datos binarios
+0 y 1
+0 y 1
+0 y 1
+por código
+y eso
+para un código
+¿cierto?
+para dos códigos
+para cuatro
+para 16
+para 24
+generando bits
+con una maquinita
+¿cierto?
+de 0 y 1
+inventó los computadores
+los años 40
+y después de eso
+en el 56
+vino la
+la primera conferencia
+en Dartmouth
+que era
+que se llamaba
+Inteligencia Artificial
+Aplicaciones y Algoritmos
+en el 56
+4, 6 profes
+ahí
+y ahí
+de los dijeron
+por habilidades
+esa es la historia
+corta
+larga
+y lo que más creció
+y lo que más ha crecido
+¿no es cierto?
+es el área de aprendizaje
+de máquina
+Machine Learning
+y dentro de Machine Learning
+¿no es cierto?
+la técnica que
+entre comillas
+imita el conectivismo
+es ¿no es cierto?
+pensar que las personas
+aprenden
+a través de
+funciones
+de activación
+y eso
+es
+el origen
+¿no es cierto?
+de las redes neuronales
+o Deep Learning
+¿por qué se llama Deep Learning?
+porque las redes neuronales
+profundas
+cambiaron
+todo el escenario
+desde el 2013
+y pasamos
+de 80% de precisión
+a 99% de precisión
+esa es básicamente
+la historia
+de la IA
+para mí
+esa es mi historia
+así me convenzo solo
+y
+Data Science
+como spoiler alerta
+¿no es cierto?
+Data Science
+es todos los
+la tecnología
+los algoritmos
+las aplicaciones
+para procesar data
+para descubrir
+hallazgos
+para achicar la data
+para aumentar la data
+lo que yo quiera
+pero no es un algoritmo
+que imita
+alguna tarea humana
+en cambio
+inteligencia artificial
+es eso
+son algoritmos
+que con estadística
+con programación
+con redes neuronales
+con diferentes estrategias
+están imitando
+alguna tarea humana
+como en Computer Vision
+la tarea de detectar
+un objeto
+persona
+y dentro de detectar
+un objeto
+reconocer su cara
+reconocer un gato
+reconocer una puerta
+todo ese aprendizaje
+se llama
+aprendizaje
+de representación
+cómo una máquina
+es capaz de representar
+una imagen
+y ponerle nombre
+¿ya?
+y esa imagen
+si yo le detecto
+el borde
+la puedo segmentar
+como dije en la clase anterior
+y si le pongo
+a esa segmentación
+un título
+se llama segmentación
+semántica
+o sea
+tiene una palabra
+de esa segmentación
+y así es como funciona
+el auto autónomo
+así es como funcionan
+las cámaras
+que detectan
+más sofisticada
+un slide
+de Deep Learning
+también
+cómo nace Deep Learning
+según mí
+esta es mi historia
+Jan Lecun
+1989
+no sé si lo conocen
+es el VP
+de AI
+de Meta
+servicio reciente
+de Meta
+está estudiando
+su doctorado
+en Francia
+junto con un profesor
+de la UAE
+que se llama Eric Coles
+y Eric se dedica
+a cosas más teóricas
+y Jan Lecun
+se dedica
+a cosas prácticas
+1989
+y él
+y uno de su proyecto
+era
+cómo detectar
+el número
+que está escrito
+a mano
+de los zip codes
+de las cartas
+¿por qué?
+porque
+no sé si han escuchado
+esto
+en el curso
+de Machine Learning
+pero para que
+después
+pasar Computer Vision
+con Deep Learning
+sin entender Deep Learning
+es un poco complejo
+entonces
+Jan Lecun
+para hacer la corta
+dijo
+a ver
+hay cartas
+¿no es cierto?
+y ponen su zip code
+en mi hora
+5
+15
+2
+15
+por ejemplo
+zip code
+entonces
+una forma
+de detectar esto
+¿no es cierto?
+era
+a través de reglas
+rules based
+y decir
+por ejemplo
+el 1
+siempre es así
+o así
+o así
+o así
+o así
+entonces
+esa regla
+tiene poca escalabilidad
+porque
+para exactamente
+achuntarle
+que el pixel
+sea tal cual
+va a depender
+de cada persona
+como cree el 1
+el 1
+el 7
+imagínese el 7
+en Estados Unidos
+el 7 se escribe así
+no le ponen palito
+en Sudamérica
+así
+y el otro más clásico
+no sé así
+y el otro
+no sé
+entonces
+¿cómo poder
+caracterizar este problema
+es muy difícil?
+tiene poca escalabilidad
+entonces
+en vez de dar
+basado en reglas
+¿cierto?
+y detectar
+pixel por pixel
+¿cierto?
+cuál está negrito
+y cuál no
+y definir si es 1
+si es 2
+si es 7
+¿por qué no lo hacemos
+¿cierto?
+learning based
+sin hacer
+deep learning
+para mí
+punto de vista
+y dice
+a ver
+esta imagen
+¿cierto?
+está
+algoritmos de
+computer vision
+está ¿no cierto?
+segmentada
+por píxeles
+imaginémonos
+que hay un
+¿cierto?
+que hay un 7
+y un 7
+lo escribió
+un chileno
+con barrita
+entonces
+el tipo
+el
+Jean Lecun
+¿cómo ven ahí?
+igual se nota
+voy a hacerlo más fuerte
+más grande
+Jean Lecun dijo
+en vez de hacer
+un algoritmo
+basados en reglas
+descubriendo
+si es exactamente
+el número
+hagamos un algoritmo
+por probabilidades
+y funcione
+entonces que diga
+por ejemplo
+7
+pixel
+es
+está marcado
+con negro
+con blanco
+con negro
+entonces
+este pixel
+¿cierto?
+el pixel
+está marcado con negro
+entonces
+la probabilidad
+que sea 7
+es de un 90%
+pero también puede ser 2
+un 92%
+también puede ser 3
+con un 95%
+también puede ser 4
+también puede ser 4
+con un 98%
+pero
+ya 5 también
+con un 90%
+pero
+que sea 8
+muy bajo
+10%
+que sea 9
+15
+no sé
+ya está
+0 con 0%
+y creo
+la primera capita
+que defina eso
+que si ese pixel
+es negrito
+la probabilidad
+es que
+ya vas a hacer
+en vez de que hay 10 opciones
+hay solo 5
+si el siguiente pixel
+¿cierto?
+también es negrito
+va a ser la corta
+dice
+lo más probable
+que sea 7
+92
+pasa a 95%
+por ejemplo
+2 también
+95%
+3 ya baja
+a 80
+4 baja
+a 70
+5 baja
+a 60
+y el resto
+0
+0
+0
+¿profe?
+¿si?
+ese es uno y otro
+¿si?
+ok
+y después imaginemos
+para hacerla
+más corta
+¿cierto?
+dice
+pasa por todo acá
+¿cierto?
+y llega un momento
+aquí por ejemplo
+aquí con este
+con este pixel
+que es negrito
+que
+es imposible
+que sea 2
+entonces el 2
+baja al 15%
+el 7
+pasa a 99%
+el 3
+baja a
+15%
+el 4
+a 8%
+y el 5
+0
+y bajo 0
+0
+0
+0
+y llega un momento
+¿cierto?
+en este pixel
+ponte tú
+que dice
+ya
+en esta capa de información
+el 7
+99%
+el resto
+tiene
+20
+10
+0
+0
+entonces
+el output
+de esta
+el output
+de esto
+es que
+es un 7
+es 7
+así que no se vio
+pero un punto
+el output
+¿cierto?
+el output
+es 7
+por probabilidades
+entonces
+la gracia que tiene esto
+que te entrega
+¿cuál es la probabilidad
+debido a diferentes
+capas
+de información
+que son secuenciales
+por lo menos
+en este tipo de redes normales
+tú estás moviéndose
+estás moviendo
+hacia adelante
+por eso se llama
+Forward
+Neural Network
+te mueves hacia adelante
+FNN
+y
+para pasar
+de esta etapa
+¿cierto?
+a la siguiente
+hay funciones de activación
+que son básicamente
+funciones de pulso
+o sinusoidales
+así
+que dicen
+es
+si es bajo
+60%
+por ejemplo
+entonces
+declaralo
+0
+si es sobre 60
+declaralo
+1
+eso va a ser
+las funciones de activación
+pasar un umbral
+a
+a una información binaria
+básicamente
+eso hizo
+Jan Lecun
+en
+todo su doctorado
+y esto lo llamaron
+capas
+¿cierto?
+capas
+capas
+¿cierto?
+y cada capa
+tiene una función
+matemática
+y entre capas
+hay funciones de activación
+y a esta
+ya esta estructura
+¿cierto?
+se llama
+¿cierto?
+red neuronal
+y con eso
+no había que basarse
+en reglas
+sino que se basaba
+en un algoritmo
+basado en aprendizaje
+eso es un poco
+deep learning
+en 3 minutos
+¿ok?
+y así fue
+como él descubrió
+mediante
+un algoritmo
+de computer vision
+clásico
+que se llama
+Shred Hall
+que yo
+busco
+le cambio
+o sea
+recibo la imagen
+y la transformo
+en una imagen
+gris
+basada en escala de grises
+blanco-negro
+como esta
+¿no?
+como esta que está
+en la slide
+para descubrir
+en qué
+píxel es blanco
+y en qué
+píxel es negro
+¿ya?
+se llama
+una tarea
+de
+umbrales
+después lo voy a pasar
+el algoritmo
+ese
+pero lo entretenido
+es que creó
+¿cierto?
+una nueva forma
+de pensar
+un mismo problema
+eso es lo interesante
+así nace
+Deep Learning
+y Eric Gólez
+fue premio nacional
+de
+de Chile
+por otra
+por otro
+por otro
+trabajo
+pero ya
+Lecun
+fue
+le dieron
+el premio
+Turing
+que es el premio
+más
+es como el Nobel
+de lo informático
+ya junto
+a dos callos más
+y hoy día
+es el VP
+de meta
+en AI
+y así partió
+bueno
+y la otra forma
+de aprender
+¿sorto?
+dentro del aprendizaje
+de máquina
+hay otra forma
+de aprender
+¿sorto?
+dijimos
+aprendizaje
+por Machine Learning
+¿cierto?
+ustedes ya saben
+aprendizaje
+supervisado
+aprendizaje no supervisado
+después
+está dentro
+de Machine Learning
+Deep Learning
+que es básicamente
+¿cierto?
+una forma de aprendizaje
+a través de
+conectivismo
+o sea
+funciones matemáticas
+que se conectan
+¿cierto?
+por capas de información
+y la tercera forma
+de aprender
+por parte de las máquinas
+al igual que los seres humanos
+es aprendizaje
+por refuerzo
+es como aprenden
+¿cierto?
+las guaguas
+las bebés
+los niños
+los niños aprenden
+a caminar
+¿cierto?
+porque cuando caminan
+le dan un dulce
+y cuando se cae
+le duele
+entonces
+esta gente inteligente
+que se llama niño
+está accionando
+sobre su entorno
+a través de caminatas
+¿cierto?
+y el entorno
+le está respondiendo
+de una forma
+ya sea por recompensa
+con un dulce
+o con castigo
+o con castigo
+o con un dolor
+y su estado
+como agente inteligente
+por eso que todo
+lo que se llama
+agentic
+viene de esto
+de agentes
+¿cierto?
+de aprendizaje
+por refuerzo
+y la gente
+acciona sobre su entorno
+y el entorno
+le entrega dos cosas
+una recompensa
+o un reward
+¿cierto?
+o un castigo
+que puede ser un reward
+negativo
+y le cambia su estado
+ya el niño
+no está en el mismo lugar
+quizá ahora
+está en conclilla
+quizá ahora
+está más cerca
+de la mesa
+cambia su estado
+su estado
+de lo que está
+viviendo la gente
+¿ok?
+imagínense esto
+en software
+por ejemplo
+los agentes inteligentes
+de Netflix
+¿qué acción
+hace Netflix
+para el usuario
+para su entorno
+que es su usuario
+es poner
+un afiche
+¿cierto?
+una imagen
+de la película
+¿cierto?
+¿cierto?
+por ejemplo
+si a ti te gusta la comedia
+te voy a mostrar
+actores de comedia
+¿por qué?
+porque él
+el agente inteligente
+que está detrás de Netflix
+está recibiendo
+una recompensa
+que son los clics
+los clics tuyos
+tú
+le estás entregando
+Gonzalo
+le estás entregando
+clics
+a Netflix
+y él está aprendiendo
+¿cierto?
+a través de clics
+qué es lo que te gusta
+y te está
+¿cierto?
+etiquetando
+a ti te gusta
+comedia
+drama
+no sé
+películas de niños
+y te está haciendo
+un algoritmo
+para mostrarte
+lo que
+lo siguiente
+te está recomendando
+acciones
+y
+Netflix
+ahora tiene un nuevo estado
+ahora cuando parte
+Gonzalo
+o Jorge
+¿cierto?
+él sabe que tú
+te gusta el drama
+la comedia
+las películas de niños
+a tal horario
+entonces él te recomienda
+lo que tú quieres
+eso a través de software
+¿ya?
+para un robot
+es lo mismo
+si yo tengo un robot
+aspiradora
+es otro tipo
+de agente inteligente
+que está accionando
+sobre su entorno
+que mide
+10 por 10
+se da lo mismo
+está aspirando
+y su recompensa
+es la cantidad
+de mugre
+que se le alimentan
+en su basurera
+porque
+genera un peso
+o un volumen
+y su estado
+puede ser
+por ejemplo
+la coordenada geográfica
+adentro del living
+ese es su estado
+lo que está viviendo
+¿ya?
+y lo que está viviendo
+es la coordenada geográfica
+del living
+más
+el peso
+en su
+repositorio
+o la distancia
+a su casa
+¿ya?
+¿se entiende?
+eso es un agente inteligente
+así nace
+el concepto
+agente inteligente
+y esto
+se va
+complejizando
+obviamente
+imagínense un helicóptero
+¿cuál es el estado
+del helicóptero?
+es la velocidad
+la altura
+la altitud
+la coordenada geográfica
+la velocidad
+con respecto a la tierra
+el torque
+que está ocupando
+no sé
+el ángulo
+el yo
+el roll
+el pitch
+no sé
+todos los que son pilotos
+todos son variables
+ese es su estado
+y él actúa
+volando
+navegando sobre su entorno
+¿cierto?
+y su entorno le entrega recompensas
+según
+si las trayectorias están correctas
+si no chocan
+o se matan
+le da un check
+le da más uno
+lo mismo pasa
+con los genes inteligentes
+de software
+con los chatbots
+con todo eso
+cuando tienen
+¿cierto?
+cuando tienen
+agente inteligente
+o sea
+están personalizando
+están entendiendo
+el entorno
+¿ok?
+esto es un repaso
+de un slide
+por área
+de IA
+¿ok?
+para que
+todos conversemos
+lo mismo
+y también
+hay mezcla
+de estas tecnologías
+por ejemplo
+en el auto autónomo
+tú detectas
+las líneas
+que están en la autopista
+con algoritmos
+de computer vision
+¿no?
+y con aprendizaje
+reforzado
+tú sabes
+que si hay una
+si tu rueda
+está muy cercana
+a la línea amarilla
+de la autopista
+entonces
+mueve tu manubrio
+hacia la izquierda
+si estáis conectando
+como sistema
+autónomo
+algoritmo
+de computer vision
+para percibir
+pero cuando tú
+percibes
+tu entorno
+¿no es cierto?
+actúas acorde
+esto se llama
+Deep Reinforcement Learning
+que es DRL
+hoy día
+nadie trabaja
+en robótica
+afuera de Deep Reinforcement Learning
+o sea
+está todo
+el 90% de la gente
+que trabaja en robótica
+es con
+aprendizaje reforzado
+con redes neuronales
+todo para allá
+es impresionante
+¿por qué?
+porque está
+hay un área
+que es
+aprendizaje por representación
+o sea
+¿qué significa
+estar al lado
+de una línea amarilla?
+¿qué significa
+estar al lado
+de una línea amarilla
+continua
+versus una intermitente?
+¿a cuántas distancias
+estoy?
+por ejemplo
+todo problema
+de percepción
+y luego
+¿cuál es mi mejor acción
+debido a lo que estoy viviendo?
+o sea
+mi estado
+como agente inteligente
+depende de lo que estoy mirando
+¿ok?
+y aplicaciones de la IA
+ustedes ya saben
+miles
+pero
+de nuevo
+tres áreas
+supervisado
+regresiones
+¿cierto?
+lineales
+estimar
+la
+la típico problema
+de estimar
+el precio de una casa
+según la comuna
+metros cuadrados
+cerca de un mall
+cerca de un metro
+no sé
+¿cierto?
+detectar una célula
+cancerígena de otra
+eso es machine learning
+tradicional
+aprendizaje supervisado
+yo estoy etiquetando
+un objeto
+¿ok?
+la segunda área
+de machine learning
+es aprendizaje
+no supervisado
+yo como humano
+no le digo
+que es la anomalía
+yo estoy mirando
+las finanzas
+por ejemplo
+del
+nuestro amigo
+¿pone otro nombre?
+el tanteojo
+Guillermo
+por ejemplo
+Guillermo pone
+toda la data
+a un algoritmo
+de no supervisado
+sin decirle
+cuál es una anomalía
+y el algoritmo
+descubre por sí solo
+qué es una anomalía
+¿cómo?
+mediante por ejemplo
+clustering
+él dice
+siempre esta persona
+gasta
+500 dólares
+y aquí gastó
+8000
+es otro grupo
+de información
+es una
+autolaya
+o
+hay
+fotos verdes
+hay fotos rojas
+y hay una foto moraz
+hago 3 grupos
+o
+las células
+son todas rojitas
+rosaditas
+y hay una negra
+entonces
+sin decirle
+que es un cáncer
+sin decirle
+que es una anomalía
+sin decirle
+que es un robo
+lo que está haciendo
+el algoritmo
+es solo
+clasificar
+a través de
+ciertos grupos
+hacer grupos
+eso se llama
+clustering
+no sé si lo vieron
+en machine learning
+pero es
+lo clásico
+eso es no supervisado
+y así se puede
+hacer asociación
+por ejemplo
+también de ahí
+nace deep learning
+en amazon
+uno de los profesores
+de san francisco
+estaba trabajando
+para amazon
+y los comportamientos
+compras
+2013
+behavioral economics
+economía de comportamiento
+hay comportamiento
+organizacional
+el que compraba
+aletas de natación
+compraba lentes de agua
+y compraba
+gorra de natación
+¿por qué no le ofrezco
+entonces gorra de natación
+al que compra lentes de agua
+y después le ofrezco
+aletas
+después le ofrezco
+el traje completo
+la tabla de surf
+no sé
+sistema de recomendación
+sistema de asociación
+anomalía
+minería
+de secuencia
+reducción
+de la dimensión
+también
+los algoritmos
+de
+machine learning
+sirven para
+disminuir datos
+imagínense
+una imagen gigante
+que tiene
+mil por mil
+pixeles
+¿cierto?
+tiene diez mil
+¿cierto?
+números
+en esa matriz
+esos números
+van a depender
+del color
+o
+¿cierto?
+de la cantidad
+de dimensiones
+que tenga la imagen
+procesar todas
+esas imágenes
+hay que hacer
+tratamientos de data
+con redes neuronales
+o con otros algoritmos
+de machine learning
+para achicar la imagen
+¿cierto?
+a una resolución
+más pequeña
+o para reducir
+la data
+¿ok?
+todo lo que es
+dimensionar la data
+achicar la data
+agrandar la data
+se puede hacer
+con algoritmos
+de machine learning
+también
+y sistema
+recomendación
+de Netflix
+ya les conté
+y la tercera
+de nuevo
+aprendizaje
+por refuerzo
+autoautónomo
+cuando detecta
+un objeto
+¿cierto?
+mediante computer vision
+y eso significa
+frenar
+o sea
+estoy accionando
+sobre mi entorno
+estoy aprendiendo
+a través de accionar
+sobre mi entorno
+es otro approach
+¿ok?
+o sea
+hay tres approaches
+de machine learning
+computer vision
+miren
+lo que les contaba
+por pizarra
+pero se los muestro
+visualmente
+con image net
+¿cierto?
+se etiquetaron
+billones de imágenes
+y ya en 2014
+¿cierto?
+en 2015
+ya los algoritmos
+de computer vision
+eran más potentes
+que el humano
+¿por qué?
+porque un humano
+no es capaz
+de reconocer
+una estrella
+de mar australiana
+¿cierto?
+en una imagen
+entonces
+detectan más objetos
+que un humano
+esto también
+tiene aplicaciones
+obviamente
+ustedes ya saben
+en juego
+en razonamiento
+jobardy
+chess
+etc
+y acá hay un paradigma
+acá hay un paradigma
+los algoritmos
+de IA
+específicamente
+sistemas expertos
+que es lo que les dije
+el área
+sistemas expertos
+¿se acuerdan?
+visión
+machine learning
+robotics
+sistema experto
+planificación
+speech
+el sistema de expertos
+que hoy día
+no es considerado IA
+por eso que sale
+del grupo
+pero en esa época
+sí
+los años 90
+con solo sistemas
+de expertos
+un computador
+era capaz
+de ganarle
+al campeón mundial
+de ajedrez
+pero
+¿cierto?
+no era capaz
+acá está el paradigma
+no era
+la paradoja
+de Marovech
+pero no es capaz
+un modelo
+de inteligencia artificial
+en un robot
+mover una pieza
+de ajedrez
+por la dificultad
+que tiene mover
+una pieza
+como un niño
+de 5 años
+de año
+hoy día
+ya estamos
+pudiendo
+con brazos robóticos
+blandos
+y todo eso
+pero eso
+es una paradoja
+o sea
+hace 30 años
+que los computadores
+le ganan
+a los campeones
+del mundo
+en ajedrez
+ya eso no es tema
+el tema es
+es un problema
+de movimiento
+¿cómo tengo
+la destreza
+del brazo robótico
+para tomar una pieza
+y ponerla
+sin botarla
+al lado
+que los humanos
+lo hacemos fácilmente
+¿ya?
+eso tiene aplicación
+en robótica
+ya les conté
+el sistema robótico
+que tiene
+en el aire
+en el agua
+en la tierra
+como sea
+y también
+en reconocimiento
+de habla
+tipo Alexa
+¿ya?
+un área
+para poder
+diseñar un sistema
+de IA
+¿cierto?
+que tenga
+algoritmos
+de computer vision
+o algoritmos
+de aprendizaje reforzado
+o algoritmos
+de cualquiera
+de estas 6
+áreas
+¿cierto?
+tengo que pensar
+que estoy
+primero
+¿cierto?
+2025
+estamos
+creando
+equipos
+humanos
+IA
+¿ya?
+estamos colaborando
+este sistema
+es parte
+de un equipo
+y es parte
+a través de
+o sea
+perdón
+siendo
+una herramienta
+siendo
+un partner
+siendo
+un
+haciendo un análisis
+o siendo
+tu coach
+por lo menos
+por lo menos
+en esas 4 áreas
+ya
+tú puedes
+empezar a pensar
+en un sistema
+de IA
+lo mismo
+para
+esto lo digo
+este pequeño repasito
+lo digo también
+para adelantarnos
+con el tema
+del proyecto
+que ya
+se está motivando
+la cosa
+ya me
+me han dicho
+que están muy
+interesados
+así que
+entonces
+¿qué
+este modelo
+de Machine Learning
+¿cierto?
+¿qué va a ser?
+¿va a ser una herramienta
+la empresa?
+¿va a ser un partner
+en un equipo IA?
+¿o va a ser solamente
+para analizar
+y volver
+o me va a recomendar
+cosas?
+¿me va a sugerir
+como coach?
+¿qué cosas?
+¿ok?
+ya
+con eso quedamos
+ya
+no
+no
+con eso quedamos
+para volver
+a Computer Vision
+entonces
+dentro de los proyectos
+de visión computacional
+¿cierto?
+ya les conté
+el tema del software
+¿cierto?
+que detecta
+los símbolos no detonados
+puede detectar
+mediante modelos
+de Computer Vision
+detectar objetos
+arqueológicos
+de alto valor
+¿no es cierto?
+¿por qué es interesante?
+porque los drones
+tienen una metadata
+o sea
+tienen información
+que no se ve
+de su coordenaje
+geográfica
+entonces se puede
+anclar
+a un mapa
+y si se ancla
+un mapa
+¿cierto?
+yo puedo mandar
+una patrulla
+a buscarlo
+o una cuadrilla
+a revisar
+imagínense
+empresas que
+distribuyen la luz
+¿cierto?
+de Chillán
+hasta Coyhaique
+que hay en Chile
+grupos AESA
+por ejemplo
+entonces
+tienen que pasar
+antena por antena
+revisando
+si hay defecto
+y aunque pasee
+un dron
+si no te detecta
+el hallazgo
+con una coordenada
+geográfica
+y lo entre
+hay un mapa
+es
+una infección
+muy
+¿cierto?
+tediosa
+por decirlo menos
+y también
+lo que hicimos
+en el laboratorio
+fue integrarle
+un asistente virtual
+lo que les dije
+o sea
+las plataformas
+accionables
+con mapa
+y con un asistente virtual
+y yo le estoy preguntando
+a una pequeña base de datos
+una base de datos
+vectorizada
+preguntas específicas
+de mi problema
+¿cuál es el voltaje
+de la antena
+de Calamas
+de Calamas
+de 1.03?
+dame un gráfico
+con la intensidad
+de voltaje
+o de lo que sea
+esta variable
+cualquier parámetro
+o KPI
+del último mes
+o compárame
+o Coquimbo
+con Chillán
+estoy comparando
+indicadores
+a través de una plataforma
+con modelos de IA
+entonces
+una cosa
+es el modelo
+entre comillas
+de IA
+de Computer Vision
+para detectar
+el objeto
+línea eléctrica
+el objeto
+aislador
+con corrosión
+el objeto
+vegetación
+por ejemplo
+cercana a la línea eléctrica
+que es interesante también
+es un problema
+las líneas eléctricas
+no pueden pasar
+los dos metros
+de vegetación
+y pueden pasar
+alguien a cortarlo
+otra cosa
+es el modelo
+entre comillas
+de IA
+para modelos de lenguaje
+que le está preguntando
+por eso
+estos son sistemas
+de IA
+que tienen algoritmos
+de Computer Vision
+embebidos
+insertos
+insertos
+en su proceso
+¿se entiende?
+y esto
+tiene escalabilidad
+para mucho
+¿por qué les presento esto?
+porque quizás
+algunos de ustedes
+están trabajando
+con paneles solares
+otros están trabajando
+con Data Analytics
+otros están trabajando
+con Finanza
+a ver
+cuál de todos
+estos proyectos
+le hace clic
+o proyectos
+que ustedes mismos
+levanten
+para la tarea
+de este curso
+por ejemplo
+paneles solares
+perdón
+es interesante
+porque ya
+el problema
+no es
+no es con imágenes
+normales
+sino que es con imágenes
+RGB
+o sea, perdón
+no es con imágenes RGB
+sino que es con imágenes
+termales
+o sea
+la fuente de información
+de la
+de este curso
+que es
+podrían ser tres
+¿cierto?
+data
+tabular
+¿cierto?
+sensores
+información de sensores
+o imágenes
+decidimos que son imágenes
+por eso son algoritmos
+de Computer Vision
+pero dentro de la imagen
+hay varios tipos
+un tipo
+¿no es cierto?
+es la más clásica
+que es
+con la escala de grises
+o sea
+imágenes blanco y negro
+o sea
+ahí tengo
+solo una dimensión
+¿ya?
+en una sola matriz
+puedo definir
+mi imagen
+donde cada píxel
+es el grado
+entre blanco
+¿cierto?
+y negro
+¿ok?
+siendo negro
+cero
+y blanco
+dos cincuenta y cinco
+y en RGB
+red
+green
+y blue
+tengo tres dimensiones
+¿cuán azul es cada píxel?
+va en esa capa
+¿cuán rojo
+y cuán verde?
+y la mezcla
+entre los tres
+con un algoritmo
+que se los voy a enseñar después
+le doy el color
+a ese píxel
+¿ok?
+se lo explico así
+sin mostrarle la pantalla
+porque así
+me tienen que tomar atención
+que si se les muestro en pantalla
+allá en la ecuación
+ya
+entonces
+se los muestro así
+y les pongo pizarra
+porque sé que es tarde
+y
+no
+y
+les cuesta
+y cuesta
+entonces
+se lo explico en palabras
+porque si no
+lo que yo estoy hablando
+no está conectado con la imagen
+entonces
+hay que tomar atención
+y hay otro tipo de imágenes
+que son las termales
+que están en otro espectro
+¿cierto?
+que no es visible a lo humano
+por eso se llaman hiperespectrales
+porque están en otro espectro
+y en ese espectro
+tengo ¿cierto?
+otras dimensiones
+y aquí por ejemplo
+en el problema de detectar
+puntos calientes
+en un panel solar
+¿cierto?
+lo podría detectar
+como un algoritmo de computer vision
+porque digo
+cuando está
+con un rojo
+de tal
+número
+¿cierto?
+en tal umbral
+prende una alarma
+o detéctalo
+hotspot
+punto caliente
+eso tiene muchas aplicaciones
+por ejemplo en minería
+imagínense una planta de refinación
+que está sacando placas
+no sé cómo se llaman
+pero creo que son placas
+de cátodos
+placas de cátodos
+y se juntan a veces
+y pueden generar
+el electrocircuito
+las placas de cobre
+se juntan
+y cuando están cerca
+se genera el calor
+imagínate
+tenéis cámaras de seguridad
+en esta planta de refinación
+y generáis una alerta
+de nuevo
+alertas
+sistemas de vigilancia
+cuando hay un punto caliente
+estáis detectando
+en tiempo real
+imágenes termales
+¿ok?
+tratando de conectar
+tareas de computer vision
+con sistemas reales
+que se están ocupando hoy día
+así el software
+que estamos armando
+¿cierto?
+para línea eléctrica
+pero tiene aplicación
+para sistemas de telecomunicaciones
+cualquier activo
+que está desplegado
+alrededor del territorio
+imagínense
+tenéis campos de avellanas
+tenéis líneas eléctricas
+tenéis subestaciones eléctricas
+tenéis diferentes activos
+¿cierto?
+distribuidos en el país
+y tú estás inspeccionándolas
+ya sea porque
+te están entregando información
+o porque tú vas a buscar información
+como un objeto de inspección
+eso es solo
+en inspección
+en agricultura
+creo que
+ah
+ya me adelanté con agricultura
+le conté la uva
+conteo
+segmentación
+edge detection
+detección de bordes
+puros algoritmos de computer vision
+segmentación semántica
+en este caso segmentación pura
+y luego
+con un objeto fiduciario
+o sea un objeto que sabemos cuánto mide
+por ejemplo una pelota de ping pong
+lo ponemos al lado
+y podemos saber
+cuál es el calibre de la uva
+entonces si el ping pong
+mide, no me acuerdo
+pero creo que me haría 10 milímetros
+entonces
+tiene tantos píxeles
+quiere decir que lo estoy tomando la foto desde acá
+y la uva tiene 8 píxeles
+o sea 8 milímetros
+según la cantidad de píxeles
+¿ya?
+¿por qué?
+porque para que sea escalable
+a cualquier persona que le saque una foto
+una pelota de ping pong
+va a saber la dimensión
+entonces
+no va a cambiar
+si sacar la foto
+cerca de la uva
+o lejos de la uva
+¿se entiende?
+esos son objetos fiduciarios
+objetos que sabemos
+cuánto vale
+¿ok?
+es como poner una moneda
+de un centavo
+al lado de una imagen
+para saber más o menos
+la escala
+¿ya?
+y eso también tiene aplicación
+en agricultura
+para por ejemplo
+lo que dije anteriormente
+predicción de cosecha
+recibir información
+de múltiples fuentes
+pasar por drones
+mapear los árboles
+según el mapeo
+de los árboles
+estoy
+¿esa es otra tarea
+de Computer Vision?
+¡ay!
+¿cierto?
+estoy haciendo
+¿puedo hacer
+otra tarea
+de Computer Vision?
+¿o aplicaciones?
+¿es cierto?
+¿o?
+Mapping
+o mapeo
+¿cierto?
+o escaneo
+¿así decirlo?
+eh
+reconstrucción 3D
+¿ok?
+acá también
+como dijo alguien
+por ahí
+se puede hacer
+con cámaras
+¿cierto?
+más
+modelos de Machine Learning
+se puede hacer
+con Stereo Cámaras
+que son cámaras
+que tienen
+distancia focal
+humana
+¿no?
+son dos cámaras
+como
+no sé si han visto
+el robot
+que fue a Marte
+que tiene así
+una caminita así
+en distancia focal
+yo podría
+yo puedo hacer
+reconstrucción 3D
+con esas dos cámaras
+si tienen
+una distancia focal
+conocía
+por eso es que
+eso se llama
+Stereo Cámaras
+por eso es que
+los autos autónomos
+los robots
+están ocupando
+ese tipo de cámaras
+se las voy a mostrar también
+y también
+LiDAR
+¿cierto?
+aunque LiDAR
+cuando yo estoy
+construyendo
+no es tan
+Vision Based
+porque estoy
+construyendo
+primero
+una nube de puntos
+o sea
+un enmayado
+y después del enmayado
+estoy construyendo
+¿no es cierto?
+un
+objeto 3D
+y cuando ya estoy
+tratando
+objetos 3D
+ya no es
+tan
+Computer Vision
+ya es otra cosa
+pero esas son
+otras tareas
+de Computer Vision
+que se pueden hacer
+por ejemplo
+para agro
+para otras
+para aplicaciones
+de agricultura
+etcétera
+¿ya?
+otras aplicaciones
+de Computer Vision
+para seguridad
+por ejemplo
+detección
+de
+detección
+de
+de
+barras de contención
+detección
+de defecto
+en pavimento
+detección
+de filtraciones
+este fue un proyecto
+para autopistas
+vía Chile
+y para
+AVO 1
+entonces
+de nuevo
+detección
+detección
+detección
+de objetos
+el objeto
+se llama
+hoyos
+en el pavimento
+o eventos
+ahí ustedes
+lo pueden llamar
+como quieran
+cracks
+en barras
+de hormigón
+hitos
+estos hitos
+que van en la autopista
+estas cosas
+de plástico
+azule
+falta uno
+por ejemplo
+si tú
+podrías
+estar
+haciendo
+un inventario
+dentro
+de las aplicaciones
+de Computer Vision
+¿cierto?
+que estamos
+conversando
+en esta primera
+clase
+tú podrías
+no solamente
+detectar defectos
+sino que también
+hacer un inventario
+tú sabes
+que en este tramo
+en este trayecto
+hay 100 hitos
+y hay 98
+alerta
+o hay dos
+extintores
+y solo hay uno
+entonces tú
+podrías estar
+inventariando
+cosas
+con algoritmos
+de Computer Vision
+por ejemplo
+en bodega
+hay una empresa
+en Pittsburgh
+por ejemplo
+que mete drones
+adentro de bodega
+y los drones
+van pasando
+SKU por SKU
+o
+pallet por pallet
+¿cierto?
+escaneando
+si están todos
+en vez de tener
+una persona
+puesto
+en el piso
+o sea
+en una escalera
+mecánica
+a
+20 metros
+de altura
+pasa ahí un drone
+y va ahí escaneando
+y haciendo un stock
+o sea
+con algoritmos
+de Computer Vision
+detectáis
+el código barra
+el SKU
+o el número
+o algo
+¿cierto?
+y lo vais entregando
+a algún software
+por ejemplo
+un software de bodegaje
+Warehouse Management System
+un sistema
+de inventación
+de bodega
+y va ahí generando
+entonces
+un inventario
+un stock
+etcétera
+tiene mucha aplicación
+post-upista
+que puede ser
+en la vertical
+entre comillas
+seguridad
+o la vertical
+¿no es cierto?
+calidad
+o la vertical
+mantenimiento
+dependiendo
+de
+quién
+a
+mantención
+con liar
+sí
+el problema
+de liar
+yo estoy
+yo estoy
+sesgado
+obviamente
+pero el problema
+de liar
+es que
+uno
+es caro
+y dos
+necesita un procesamiento
+mucho más alto
+y más tiempo
+la persona
+procesándolo
+imagínate
+por ejemplo
+en la minería chilena
+hay una empresa
+que escanea
+los canales
+de relaves
+estos tubos
+estos de concreto
+donde pasa la basura
+minera
+y lo escanea
+con liar
+después lo pasa
+un software
+que tenía
+no sé
+un archivo
+muy pesado
+que tenía que ir a buscar
+qué es lo que es un crack
+por ejemplo
+una nube de punto
+que tenga
+un orificio
+de tales características
+o sea
+la dificultad
+está en el procesamiento
+de esa información
+en pasar el liar
+lo caro que es
+y cualquier
+y tercero
+el liar
+puede fallar
+si hay por ejemplo
+polvo
+mineralizado
+que hace rebotar
+la luz
+por eso es que
+los robots
+que están
+subterráneos
+funcionan re mal
+con liar
+porque el liar
+no actúa bien
+y cuando no actúa bien
+ese punto
+no se creó
+en esa nube de puntos
+hay muchos puntos faltantes
+¿sí?
+excelente
+excelente
+que también
+que también tiene información
+que también tiene información
+que esto se puede
+hacer
+en su cepa
+toda la calle
+para poder
+decirlo
+que estaba
+en los barcos
+de cura
+para la lectura
+pero para ver
+las puestantes
+de la felicidad
+de los otros
+perfecto
+perfecto
+la comunicación
+es que lo
+para cero
+sí
+y ya
+todo
+sí
+y la clase
+que tenía
+es que
+puede
+que no se está
+exacto
+sí
+sí
+por supuesto
+sí
+sí
+no es que
+también hay otro tema
+todo lo que hemos hablado
+porque estoy tratando
+de esta clase
+que ustedes entiendan
+el marco
+que estamos
+como
+como
+computer vision
+las aplicaciones
+y las
+las tareas que tienen
+que cuando tú
+cuando tú
+digitalizas
+una ciudad
+no tenés que
+digitalizarla
+todos los jueves
+la digitalización
+una vez
+no más
+porque tú querés crear
+un modelo
+que sea
+las condes
+entonces pasáis
+con un auto
+con tres
+cuatro líder
+mapeando
+transformando
+imágenes
+o sea
+transformando
+información de nueve puntos
+en reconstrucción 3D
+y creando el modelo
+las condes
+pongamos
+pero tú
+no estás inspeccionando
+que pasa algo
+sino que estáis
+digitalizando
+o sea
+la tarea es diferente
+ahora
+¿qué pasa
+cuando tú
+digitalizas
+las condes
+pero ahora
+querés ver
+un año después
+si se movió
+un árbol
+y hay un puente
+que le falta
+una pata
+y hay
+o creció
+mucho
+o
+o la
+o la densidad
+de una parte
+es diferente
+entonces ahí
+es cuando se crean
+los gemelos digitales
+tú digitalizas
+y todo
+una ciudad
+por ejemplo
+o underground
+nosotros
+subterráneos
+digitalizáis
+una cañería
+y después
+un año después
+la digitalizáis
+de nuevo
+y así
+matching
+o sea
+comparación
+entre objetos
+matching
+que es
+otra tarea
+de computer vision
+relacionar
+dos objetos
+que pueden ser
+imágenes
+pero en este caso
+es un objeto
+3D
+y cuando hacía
+ese matching
+decís
+acá hay un crack
+nuevo
+acá hay un árbol
+que creció
+y ahí también
+hay modelos
+de guía
+para ver
+diferencias
+con relación
+cruzada
+se llama
+ok
+no
+si
+es potente
+si
+entonces
+siguiendo con
+aplicaciones
+de computer vision
+entonces
+ahora
+lo que yo estoy
+haciendo con
+con
+antes de
+pasar al videito
+lo que estoy haciendo
+con computer vision
+que es un poco
+más sofisticado
+se llama
+otra tarea
+de computer vision
+se llama
+scene
+understanding
+sorry
+en inglés
+pero todos
+estos conceptos
+son en inglés
+aparte
+en inglés
+como que suenan
+más lindo
+entonces
+entendimiento
+de escena
+y ahora
+no estoy detectando
+un objeto
+no es
+detección
+de objeto
+sino que estoy
+detectando
+una escena
+eso es muy
+eso es
+lo último
+una de las últimas
+cosas
+en computer vision
+¿por qué?
+porque estoy
+por ejemplo
+detectando
+una persona
+detectando
+una persona
+diciendo
+hay una personita
+luego
+esta personita
+¿cierto?
+tiene
+un
+una
+posición
+x
+¿cierto?
+debido a que yo
+detecto
+sus
+sus
+key points
+sus puntos
+clave
+estos son
+key points
+y debido
+que detecto
+esos puntos
+clave
+puedo
+estimar
+su posición
+esto es
+object detection
+esto es
+pose estimation
+otra tarea
+de computer vision
+estimar
+posición
+pero ahora
+viene
+la magia
+del
+scene understanding
+o del entendimiento
+escena
+que yo puedo
+etiquetar
+¿cierto?
+movimientos
+se va
+se está corriendo
+ese movimiento
+¿cierto?
+cinemático
+tiene características
+de peligrosura
+entonces ahora
+todo este
+modelo
+me está detectando
+una escena
+potencialmente
+peligrosa
+esa es otra
+tarea
+más sofisticada
+de computer vision
+y perdón
+¿y eso
+cómo se logra
+a través de
+aprendizaje
+no supervisado?
+no sé
+en general
+por lo menos
+lo que yo he visto
+de scene understanding
+es
+etiquetar
+actividades
+criminales
+¿cierto?
+exposed
+para después
+detectarlas
+antes de
+¿se entiende?
+por ejemplo
+hay una base
+de datos
+de hecho
+si alguien
+quiere trabajar
+con esto
+en la base
+de datos
+pública
+abierta
+de Cornell
+de la Universidad
+Cornell
+que el que esté
+interesado
+se le voy a mandar
+el link
+es descargable
+que hay
+actividades
+cinemáticas
+movimientos de personas
+¿cierto?
+potencialmente criminales
+por ejemplo
+este movimiento
+pareciera
+un asalto
+este otro
+movimiento
+pareciera
+un robo
+este otro
+movimiento
+pareciera
+es muy difícil
+de etiquetar
+obviamente
+porque hay poca data
+y es súper
+abstracto
+pero eso se está
+trabajando
+o sea
+está recién
+¿ah?
+¿como no dice?
+es típico que
+la noticia
+siempre sale
+bueno
+se realizó
+este robo
+esta encerrona
+y ahí como
+que el contenido
+del audio
+el mismo texto
+está como etiquetando
+lo que está mostrando
+¿sí?
+¿podría ser?
+¿qué decir tú G?
+sí
+no
+es que estaba pensando
+como más allá
+porque
+esta línea
+es bien interesante
+estaba pensando
+en las instituciones
+de educación
+tanto colegios
+como universidades
+de repente
+tratan de identificar
+personas que se van a asociar
+por ejemplo
+¿no?
+o bullying
+bullying también
+por ejemplo
+veía cinco personas
+con una
+perdón
+pero para complementarlo
+veía a un grupo
+de personas
+con actitudes
+de bullying
+y a una persona
+en el centro
+con actitud
+quizá
+pasiva
+alerta de bullying
+no sé
+eso
+claro
+si lo que pienso
+por ejemplo
+en el
+bueno
+era un
+en el colegio
+mi hijo
+para prevenir eso
+y probablemente
+muchos
+están poniendo
+mallas
+mallas de cabros
+chicos
+en las terrazas
+de los edificios
+pero esa es la solución
+del siglo XX
+detectar actitudes
+que es súper
+complejo
+por leyes nuevas
+que han salido
+que son los responsables
+de las instituciones
+de los edificios
+aplicar este tipo
+de tecnologías
+es bien
+por supuesto
+es valioso
+pero como tú dices
+claro
+como complicado
+entrenar el modelo
+porque tenés que estar
+grabando suicidios
+para que el modelo
+aprenda
+claro
+ahora
+suicidio
+es
+incluso más difícil
+porque como
+alerta de suicidio
+como igual
+cuánto tiempo tenés
+no sé
+pero
+tiene
+tiene
+tiene cierta
+tiene cierta
+eh
+comportamiento
+sí
+sí
+la gente
+general
+hay patrones
+se da vuelta por el lado
+porque le está dando vuelta
+en una persona
+tenés que estar drogado
+como para llegar
+y tirarte
+diez pisos para abajo
+pero en general
+lo estudiás
+y te da vuelta
+etcétera
+de hecho
+está bueno
+donde yo trabajo
+hay
+ahora
+generaron
+un grupo
+de
+monitores
+que
+que lo entrenaron
+para estudiar
+ese comportamiento
+para que si una persona
+están viendo
+que se podría tirar
+eh
+avisar
+o
+o detenerla antes
+pero
+pero es humano
+entonces
+vaya
+¿Jorge
+¿Cerrargo?
+sí
+si
+sí
+sí
+sí
+sí
+¿Cuál es la diferencia?
+Tenemos terabytes de cámaras de seguridad que nadie lo analiza y nadie lo procesa y nadie lo mira.
+Las cámaras están siendo como un activo no utilizado.
+Esa es la mejor palabra.
+Y acá, mira, acá detectamos una encerrona, por ejemplo, en Vía Chile, en San Bernardo, creo que.
+Tenemos hartos videos.
+Si se fijan, lo interesante, no se alcanza a notar tanto.
+A ver si puedo después, a ver, ahí.
+Ah, no, perdón.
+No sé si se alcanza a ver, pero esto no es sin understanding, como yo les expliqué.
+Esta es versión POC, ¿ok?
+Pero, ¿qué hice yo?
+Dentro de la detección de objetos autopista, detécteme cuando hay dos vehículos cercanos detenidos.
+Entonces, vehículos cercanos detenidos, vehículos detenidos.
+Y después, salen personas.
+Salen personas, ¿cierto?
+Salen otro objeto que se llama persona.
+Cuando hay más de dos personas, creo, cuando hay más de dos personas en la autopista, en dos autos detenidos, a esa escena, llámela encerrona.
+Porque, ¿qué estáis haciendo ahí?
+Primero, como problema de Machine Learning.
+Estás caracterizando, ¿cierto?
+Caracterizando.
+Entregándole atributos al objeto que estás detectando.
+Y en este caso, este objeto es una escena que se llama encerrona y que consta de dos vehículos detenidos y más de una persona al lado de ellos.
+Y lo otro es que etiquetamos los autos con las puertas abiertas.
+O sea, si se fijaron, antes de que se dejara la persona, ya con las puertas abiertas, lanza el banding box o la cajita moradita de encerrona.
+Y esto es interesante en plataformas de vigilancia que generan alertas.
+O sea, teniendo la tesis de que están las cámaras de seguridad desatendidas, por así decirlo, o poco procesadas.
+Segundo, plataformas que generan alertas.
+Me estoy conectando con el streaming del video de ellos.
+No estoy generando otro sistema, sino que me conecto como modelo y me enchufo al streaming de ellos.
+Y esto, ¿cierto?
+Aparte de alertas, yo podría generar una gente, un modelo de lenguaje para preguntarle.
+¿Cuántas encerronas he visto en las últimas 24 horas?
+A esa conexión, entre comillas, un modelo de agente y cámaras, o video, lo llaman agentes de video.
+¿Ok?
+Que es otra línea de Compiler Vision, agentes de video.
+Estoy conversando con la cámara, básicamente.
+Pero en verdad estoy conversando con la base de datos de la cámara.
+Porque la cámara, como tiene modelos de Compiler Vision, ¿cierto?
+Registró que detectó el objeto encerrona.
+Pero la gracia de registrarlo, que tiene un horario, una posición, una ID de la cámara, ¿cierto?
+Entonces le estás dando atributos a esa detección.
+¿Se entiende?
+Para complementar, por casualidad, nosotros hemos conocido a un tipo, Berichur, que comentaba que estaban haciendo lo mismo.
+Estaban haciendo, pero la característica de Berichur, que en realidad las cámaras que tienen no sacan imágenes de video.
+Que sacan fotos.
+¿Berichur es como de billet?
+Sí, pero él...
+Ah, sí, sí, sí, sí, sí.
+Es Suiza, de hecho, Berichur.
+Está más fuerte en Europa, etcétera.
+De hecho, el tipo este, el ingeniero general, español también.
+Están invadiando.
+Pero él era...
+Y él me contó que estaban justo integrando inteligencia artificial para...
+Porque no pueden, es imposible tener el monitoreo de todas las cámaras.
+No tienen suficientes personas para poder monitorear todas las cámaras.
+Por lo tanto, tienen estas alertas que les dicen, acá hay una situación sospechosa y ahí se empiezan a meter.
+Exactamente.
+Cuando salta la cámara por el sensor de movimiento, detectan el tema, de ahí disparan el cañón de humo y todo.
+Pero la gracia que tienen, que no es una operación solo chilena, sino que, extendiendo lo que está enseñando, la base de datos que tiene es el mundial.
+Claro.
+En todos los países que está presente.
+Pero, tiene mucha data.
+Mucha data.
+Mucha data.
+Hay pasada otra cosa que también me gusta que también lo conversemos.
+Que este equipo humano AI, H-A-I, Human AI, Team o HITE, esto que se dice, es el equipo que es una o dos personas que están mirando 164 cámaras y que no eres capaz de mirarla al mismo tiempo.
+Y que la, entre comillas, IA, o sea, algoritmos de computer vision, están diciendo, ve la cámara 64, ve la 86, porque hay una potencial escena peligrosa, porque hay un objeto detectado en la carretera, caballo en carretera, persona en carretera, no sé.
+Entonces, es distinto.
+Hay un costo asociado a la empresa de seguridad, porque si tú llamas, tiene un código que no me acuerdo cómo se llama, el R7, no sé, que llame a Carabineros, por ejemplo.
+Claro.
+Si tú llamas a Carabineros un procedimiento y es falso, tú tienes que pagar una multa importante por haber llamado a Carabineros.
+Sí, ellos se llaman los falsos positivos.
+Exactamente.
+Entonces, por eso que viene la alerta, se verifica humanamente.
+Primero lo verifico como Verichur y después veo si llamo a Carabineros.
+Claro.
+O al otro, claro.
+Pero primero salta la alarma automática.
+Claro.
+Después la verifico en humano y de ahí llaman a eco algo, no me acuerdo que es el código que tiene para Carabineros.
+Y si es falso, si es falso, tienes que pagar no sé cuántas UF de multa cada...
+Pero está grabado de que se caracterizaba como el objeto que estoy buscando.
+Sí.
+O sea, dado lo que hemos estado conversando hoy día, efectivamente el algoritmo de atrás que te identifica una situación de robo.
+Claro.
+Bueno, también, bueno, ya se lo he comentado también acá con Deep Learning, por ejemplo, la porcentaje de que sea robo acá, no corre el video, no.
+Me quedó la imagen nomás.
+Pero también se etiquetó, ¿cierto?, el comportamiento cinemático de tomar, ¿cierto?, y ¿cómo se llama? Mechero.
+Tomar algo, una palta, que una palta es como robar oro casi, robar una palta y ponerla en todo el sello, robar.
+Y se te quitó ese movimiento cinemático para encontrar, ¿no es cierto?, por Deep Learning, robo en supermercados, retail.
+Lo otro que hace Computer Vision es que tú, como estás detectando, ¿no es cierto?, un objeto, tú podrías decir cuántos objetos humanos, por ejemplo, en mi local, pasaron y por dónde pasaron.
+Y si tú tienes esa información, podrías visualizar esa información diferente.
+Por ejemplo, con mapas de calor.
+¿Dónde pasa más tiempo el objeto, ¿cierto?, dentro de mi local o dentro de mi restaurante?
+O sea, ya empiezan a haber algoritmos de Computer Vision para entender comportamientos.
+O sea, por ejemplo, oye, mis clientes están siempre al final del pasillo.
+O están siempre, ¿no es cierto?, tomando objetos de la góndola superior.
+O sea, quizás ahí pongo los demás valores.
+O sea, empezáis a poder mezclar, ¿no es cierto?, algoritmos de Computer Vision con toma de decisiones.
+Porque ya, no es solo detectar un objeto, sino que es hacer mapas, hacer visualizaciones.
+¿Esto también tiene implicancia, impacto, sí?
+Ok.
+Quizás un poco vacía la pregunta, pero en estos sistemas de análisis se puede agregar también como una capa de análisis de audio,
+o esto es solo imagen, pensando que es distinto, por ejemplo, el sonido a partir de un choque, de un balazo.
+¿Un qué? ¿Un choque?
+¿Sí? Va a ser distinto el sonido que va a ocurrir y van a haber dos autos detenidos, va a haber gente que está abajo del auto,
+pero es por un choque y no por un portonazo, por ejemplo.
+Los distintos hay balazos.
+Sí, buen punto. Bueno, hay algoritmos en el área de speech, hay algoritmos que transforma nosotros lo que escuchan en texto
+y el texto puede tener hallazgo y conectarse con imágenes.
+Es un poco más complejo. Yo no he visto cosas con audio, porque en cámaras de seguridad, por ejemplo, no eres capaz de escuchar.
+En robots, tampoco he visto cosas con audio.
+Sí, ahora que tú tenés modelos de lenguaje, de nuevo, conectamos, lamentable, no lamentable,
+con este hype tecnológico de modelos de lenguaje, ¿qué está pasando?
+Lávame, o sea, toma la manzana, robot, a un brazo robótico, toma la manzana.
+Ese comando se transforma, ¿cierto?, con algoritmos de speech, de voz a texto.
+Y el texto hace una orden, ¿cierto?, para el robot, porque tiene un razonamiento de entender el prompt.
+Y después ejecutarlo con una acción.
+Es básicamente un algoritmo antes.
+Eso podría decir, ya.
+En términos también, otro proyecto que estamos metidos es detectar EPP.
+O sea, si la persona le falta el casco, es porque le falta a ese objeto que se llama persona,
+debiese tener el objeto casco adentro de esa cajita.
+Y no está.
+Sin casco.
+Alerta.
+Y ahí puede ser alerta de ruido.
+Eso sí he visto.
+Entonces, unísimo activity tracker.
+Trackear actividad.
+Entonces, la persona, se detecta la persona,
+no se detecta el casco adentro de esa cajita,
+persona sin casco, sin casco, sin casco.
+Imagínate, sería útil, por ejemplo,
+en una planta de construcción, no sé,
+en una planta de minería.
+Sin guantes, sin guantes, sin casco,
+o sin chaleco, sin chaleco.
+Ahí tenía un audio.
+Y ahí lo podría hacer solo como detección de objetos adentro de una caja.
+O sea, detectar y trackear.
+O podría ir, pasarlo con estimación de posición, por ejemplo.
+O entender, no es cierto, regiones de interés.
+ROY, que se llama.
+Region of Interest.
+O sea, regiones de interés.
+Me interesa solamente ver la mano de la persona.
+O sea, veo ahí.
+O solamente me interesa la cabeza.
+O sea, detecto a la persona y luego el algoritmo detecta la cabeza.
+Detecta esa región.
+¿Ya?
+¿Ya?
+Otro trabajo que estamos haciendo también con agentes de aprendizaje reforzado
+y computer vision es trackeo de objeto.
+Mediante un algoritmo de aprendizaje reforzado que se llama one shot learning.
+O sea, tú aprendes la trayectoria solo con un video.
+Entonces, tú tomas ahí, por ejemplo, una botella de agua.
+Detecta, el algoritmo de computer vision detecta la botella de agua.
+O la manzana, o el celular, lo que sea.
+Un objeto en la mano.
+Y luego, con estimación de posición, voy trackeando ese objeto que detecté.
+Y voy, en suerte, generando una ruta, una trayectoria específica.
+Hasta ahí llegamos.
+Y con aprendizaje reforzado, con redes neuronales y redes siameses, que se llaman, tú comparas trayectorias.
+Y le dices, ahora haga el mismo movimiento con usted.
+Y lo haces y te dice, no, la trayectoria que tú hiciste no está en la región segura, por ejemplo.
+Lo hicimos solamente súper básico con una cámara web para detectar objetos en la mano y trayectoria en 200 frames o algo así.
+Pero queremos que tenga aplicación para actividades inseguras.
+Imagínate que una persona, tú detectas un extintor, detectas que lo levanta y lo lleva y lo pone en un camión.
+Y no dice nada.
+Pero ahora detectas que el extintor pasó por sobre tu cabeza, por ejemplo.
+Y lo tomaste así.
+Y después lo subiste así al camión.
+Ahí, alerta, actividad insegura.
+Entonces, lo que estoy haciendo es detectando otro concepto en Computer Vision que se llama OI.
+que es, hoy, que se llama Human-Object Interaction.
+Que también es bien sofisticado, es como entendimiento de escena.
+Interacción, hombre-objeto.
+Entonces, no solo estoy detectando al objeto y al humano, sino la interacción entre ellos.
+Por ejemplo, una persona martillando.
+Por ejemplo, una persona, no sé, tomando un extintor.
+Una persona comiendo una manzana.
+Estoy detectando cosas.
+Alguien acerruchando, alguien, no sé, taladrando.
+Entonces, eso lo puedo paquetizar, ¿cierto?
+Como interacciones.
+Y luego, si lo paquetizo como interacciones, puedo decir cuáles son inseguras, cuáles son no seguras.
+O por qué una persona está acerruchando en el segundo piso, no sé.
+O dentro de la construcción se está ocupando mucho eso.
+Entonces, lo que estáis haciendo al final es paquetizar, no solo objetos, sino que estéis paquetizando una interacción.
+¿Ya? Hoy.
+¿Sí?
+Y eso puede ser 2D y 3D.
+¿Ah?
+¿Qué es la transacción?
+¿Qué es la transacción?
+¿Para poder buscar?
+¿Qué es la transacción?
+¿Qué es la transacción?
+técnicamente
+¿cómo se manifiesta?
+para después, porque quieren
+poder
+decidir
+¿no es sentido?
+lo que hicimos que
+por lo menos lo que yo estoy haciendo y también
+una amiga en Estados Unidos lo hizo
+era que tomaba
+el martillo, detectaba
+el martillo
+detectaba la mano
+detectaba el key point, el punto clave como les dije
+de post estimation, muñeca
+¿cierto? codo
+y luego, esa acción
+martillo, mano, muñeca, codo
+antebrazo
+lo etiquetaba en un movimiento normal
+y ese movimiento, entre comillas, normal
+se regionaliza
+o sea, se hace una región de tolerancia
+entonces cuando tú haces así
+y así, está bien, en 3D
+pero cuando haces así
+ya sales de la región
+y alerta, eso es un poco la idea
+hay un paper de eso
+no es para buscarlo ahora
+pero es súper interesante
+también es súper
+esto es una tecnología súper incipiente
+que no está inserta en la industria
+pero que se está investigando
+en algoritmos de computer vision
+y por eso si yo estoy tratando también de meterme ahí
+es bien difícil
+se necesita
+harta data
+y pero aprendí una cosa
+que era la resia mesa
+que es one shot learning
+significa
+por ejemplo
+tú detectas una persona
+tú tenías una base de datos
+de caras
+de personas criminales
+para eso se inventó
+el one shot learning
+que no es computer vision
+es aprendizaje reforzado
+pero ¿para qué se inventó?
+face recognition
+detector de cara
+tú tenías una base de datos
+de 100 criminales
+ponte tú
+y en un video de
+un minuto
+o menos
+no sé
+x frames
+200 frames por ejemplo
+eres capaz de
+revisar
+¿cierto?
+por una red
+por una red neuronal
+revisar
+las
+100 personas que tenís
+y a ver si es
+tenís
+muy poca información
+una muestra
+muy chica información
+y tenís que ir a buscar
+a una base de datos
+y volver
+y si
+fin
+es un criminal
+imagínate para un aeropuerto
+aplicaciones
+miles
+¿proyecto en control de calidad?
+acá
+sí
+una consulta
+vine con el ejemplo
+que nos mostraba
+de la encerrona
+me imagino
+porque usted nos decía
+que si un auto
+se detenía
+se abrían las puertas
+y se bajaban
+más de dos personas
+era encerrona
+me imagino también
+que analizan
+si
+así como en el ejemplo
+del martillo
+si las personas
+están
+sí
+es buena pregunta
+no lo hemos hecho
+pero la idea
+es escalar para allá
+por ejemplo
+de hecho
+hay cosas así
+hay cosas con HOI
+con Human Object Interaction
+que es
+pistola
+y movimiento
+asalto
+claro
+entonces tú
+pero eso es más fácil
+porque detectar la pistola
+ya está y listo
+no tienen para qué saber
+qué va a hacer
+pero si detectan un martillo
+pero
+sobre su cabeza
+también es un peligro
+de
+¿me entendí?
+una pistola
+entre comillas
+como más fácil
+porque el objeto
+ya es peligroso
+por sí solo
+pero cuando lo interesante
+es la interacción
+quizá
+puede ser un objeto
+no tan criminal
+o no tan
+peligroso
+pero la forma
+que lo está ocupando
+es lo peligroso
+¿se entiende?
+gracias
+imagínate esto
+paquetizarlo
+para poder estandarizar
+protocolos de seguridad
+por ejemplo
+si tú decís
+tú eres conductor
+de camión
+tú te tienes que bajar
+ocupando
+los tres puntos de apoyo
+cuando tú bajas
+de camiones
+pata
+pierna
+brazo
+tenés que bajarte así
+entonces
+le ponés una cámara de seguridad
+en un estacionamiento de camiones
+y tú vas detectando
+ocupó los tres puntos de apoyo
+sí
+check
+check
+check
+uno se bajó
+con un salto
+alerta
+o se graba
+más que alerta
+quizás se graba
+y se guarda
+Juanito Pérez
+a la C45
+se bajó
+en un salto
+se va generando
+un control
+también hay otra
+otra aplicación
+de computer vision
+entonces con esta interacción
+de objeto humano
+objeto
+camión
+objeto humano
+bajándose
+interacción
+tarea
+bajarse el camión
+es el paquete
+de información
+lo podría
+yo cierto
+caracterizar
+se fijan
+son las mismas cosas
+profes
+sorry
+recién dijo
+redes y a mesas
+en el ejemplo
+que estaba dando
+¿cómo se aplicaban
+lo que
+mencionó recién?
+las redes y a mesa
+se crearon
+para
+lo que dije yo
+o sea
+se aplican más
+en reconocimiento
+de cara
+para descubrir
+si la
+esa cara
+ese reconocimiento de cara
+es igual
+a otra cara
+con un solo
+con un solo
+aprendizaje
+con un solo video
+así empezaron
+las redes y a mesa
+por lo menos
+ese es mi entendimiento
+y lo que yo estoy aplicando
+con redes y a mesa
+es comparar
+la trayectoria
+del objeto
+de un maestro
+que yo llamo
+una persona
+que te está enseñando
+un movimiento
+con la trayectoria
+de un alumno
+cuando tú comparas
+sobre todo
+la trayectoria
+la velocidad
+la forma
+que se mueve el objeto
+a eso
+yo lo llamo
+redes y a mesa
+se entiende
+y con esa
+esa comparación
+generó un ranking
+o sea
+se pareció
+¿pero son órdenes neuronales
+compitiendo?
+no están compitiendo
+lo que están haciendo
+es compararse
+entre ellas
+tú estás comparando
+una estimación
+de un objeto
+en un plano 2D
+¿cierto?
+en términos de velocidad
+y posición
+con otro
+y esta comparación
+la puedes rankear
+ya
+pero no es competencia
+no es adversarial
+pero tengo
+tengo por ahí
+el algoritmo
+¿cuál era tu nombre?
+¿Nicolás?
+Fernando
+Fernando Pinto
+gracias
+vale
+en verdad
+estamos haciendo
+como una
+customización
+ese concepto
+de redes y a mesa
+nace
+primero
+por aprendizaje
+reforzado
+inverso
+IRL
+y después
+pasamos
+redes y a mesa
+con el concepto
+de Face Recognition
+rápido
+comparar dos cosas
+pero lo llamamos
+redes y a mesa
+no sé exactamente
+si lo vamos a poner
+así después
+¿ya?
+en términos de
+control de calidad
+también estamos
+trabajando
+para otro tipo
+otro proyecto
+con
+con
+con una empresa
+de gas
+que hay mucha
+en el país
+con gasco
+estamos detectando
+el balón de gas
+¿cierto?
+haciendo un portal
+con cámara
+y decimos
+¿cierto?
+decimos
+déjeme pasar
+si me pasó
+el video de
+detectamos
+con redes neuronales
+el balón de gas
+¿cierto?
+y
+detectamos
+con OCR
+el año
+de inspección
+detectamos
+la cantidad
+de inspecciones
+y después
+hacemos
+una cuestión
+bien
+trivial
+de
+buscar
+la cantidad
+de suciedad
+y ponerle
+una categoría
+la cantidad
+de bolladura
+dividirlo
+por los metros
+cuadrados
+que tiene
+el balón de gas
+y darle
+como un
+porcentaje
+también
+es un
+proyecto
+bien
+incipiente
+para decir
+esto tiene
+de corrosión
+x por ciento
+de bolladura
+x por ciento
+tiene o no
+deformaciones
+que es un
+objeto
+defecto
+tiene o no
+suciedad
+y ahí estamos
+categorizando
+caracterizando
+balones de gas
+y eso
+lo estoy
+haciendo un poco
+para gasco
+y para
+otra empresa
+la gracia
+¿cierto?
+básicamente
+es control
+de calidad
+y esto tiene
+aplicaciones
+por ejemplo
+el perro
+robótico
+que sale
+más adelante
+este perro
+robótico
+detectamos
+defectos
+en marcos
+de ventana
+eso también
+es control
+de calidad
+son pequeños
+defectos
+cosméticos
+imagínese
+con un edificio
+entregado
+mandaría un perro
+robótico
+detectar defectos
+en objetos
+arquitectónicos
+como un marco
+de ventana
+que es muy difícil
+de detectar
+pero que esté
+todo el día
+dando vueltas
+sacándole fotos
+en vez de tener
+a otra persona
+ah
+el concepto
+que se da
+con la punta
+de la lengua
+es que
+estos equipos
+humanos
+IA
+muchas veces
+no es sustitución
+no es que
+la entre comillas
+la IA
+te va a reemplazar
+sino que
+estamos creando
+equipos
+que son más
+productivos
+más eficientes
+y que pueden
+cambiar la forma
+el approach
+pueden cambiar
+el modelo de negocio
+acá les doy
+un ejemplo
+Amazon
+no sé si ustedes
+sabían
+pero desde el 94
+o por ahí
+que se creó
+hasta el 2010
+no tenía utilidades
+vendía
+millones y millones
+de dólares
+pero cero utilidades
+muy poca utilidad
+todo lo que ganaba
+lo invertía
+y no
+y no
+no tenía espacio
+para utilidad
+y qué hicieron
+ellos
+compraron una empresa
+de robots
+un ejército de robots
+para mover
+pallets
+el pick and place
+que se llama
+la tarea
+de tomar una caja
+y ponerla en otro lugar
+les costó
+700 millones de dólares
+a Amazon
+2010
+2011
+y qué pasó
+que crearon
+un nuevo modelo de negocio
+que era
+y fue
+y que es
+Amazon Prime
+ahora
+el paquete
+no está en tu casa
+en una semana
+sino que está
+en 24 horas
+entonces
+muchas veces
+lo mismo pasa
+con los algoritmos
+de Computer Vision
+tú estás cambiando
+tu modelo de negocio
+estás cambiando
+tu servicio
+estás siendo más productivo
+estás cambiando
+todas las reglas del juego
+no es
+solo sustitución
+sino que es
+complementariedad
+es cambiar
+la regla
+es otro approach
+¿ya?
+porque muchas veces
+se dice
+no, es que voy a poner
+un algoritmo
+de Computer Vision
+ay, ¿qué va a pasar
+con el guardia?
+¿qué va a pasar
+con el conserje?
+quizá
+algunas tareas
+o trabajos
+van a ir
+desapareciendo
+o sofisticándose
+pero otros
+van a ser más productivos
+más eficientes
+etcétera
+eso también es un tema
+que es importante tocar
+acá también
+con los algoritmos
+de Computer Vision
+esto tampoco
+no ha llegado
+ni a la POC
+es básicamente
+detectar
+el borde
+de una piedra
+segmentar
+ver su diámetro
+hacer un promedio
+de los diámetros
+y calcular
+la densidad
+del mineral
+ver la ley
+etcétera
+o sea
+alguna información
+que sirve
+para la toma
+de decisiones
+pero no lo metría
+ok
+y esto
+todo lo que tengo
+por ustedes
+son 10 para 9
+y vamos a cerrar
+con el
+con el proyectito
+¿alguna pregunta
+de lo online?
+no profesor
+no profesor
+ya
+entonces ahora
+¿cuánto está
+acosando?
+acá
+ya
+ya
+entonces
+ahora
+los 30 minutos
+que quedan
+vamos a hacer
+el primer
+tallercito
+¿ya?
+¿ya?
+primer
+tallercito
+entonces
+quiero que
+saquen una hoja
+con un papel
+y un lápiz
+vamos
+¿se ve?
+ah no
+se ve la
+la pantalla
+por eso es que
+están así como
+mirándome
+ah
+no se ve la
+la
+nada
+no se ve la cámara
+no
+no se ve
+Patricio
+Patricio
+¿qué onda?
+profesor
+¿qué onda?
+digital
+digital
+digital
+también
+para que
+tengan una pequeña
+experiencia
+taller
+del último
+atletico
+que me gusta
+hacer así como
+un pequeño taller
+interactivo
+para terminar
+entretenido
+ah
+pero no se ve
+la pantalla
+Patricio
+Patricio
+¿la qué?
+la alerta
+sí
+alerta
+faltante
+¿por qué?
+ahí
+ya se fue Patricio
+ahí sí
+¿qué pasa?
+a ver
+si lo descargo
+hola
+no sé
+que no puedo
+acá
+ahora sí
+ahora no lo voy a descargar
+pongo presentar
+y no
+algo
+pero se ve
+se ve eso
+entonces no sé
+si te ha puesto
+ah
+ahí está
+ponle
+grande
+eso
+pero ya
+lo otra
+sí
+lo cambié
+dale
+ya
+gracias
+ya
+entonces
+el primer taller
+que tenemos
+taller práctico
+con todo lo que hemos
+conversado
+es tratar de descubrir
+un producto
+¿no es cierto?
+con
+computer vision
+¿ya?
+con algoritmos
+de comprensión
+que hemos hablado
+detección de objetos
+segmentación
+reconstrucción 3D
+entendimiento de escena
+entendimiento de interacción
+hombre
+objeto
+detección de bordes
+etcétera
+¿cierto?
+que cubre alguna brecha
+de oportunidad
+para crear un producto
+lo que les dije
+me adelanté un poquito
+pero
+puede ser una pequeña introducción
+para el taller
+tenemos
+¿cierto?
+factores
+sociales
+tecnológicos
+y económicos
+una metodología
+rápida
+para encontrar
+un producto
+por hacer
+¿ya?
+lo ideal
+es que lo escriban
+en su ipad
+o en sus
+papeles
+para que después
+si hay similitud
+¿cierto?
+o sea
+mándenmelo
+por correo
+mejor
+y yo veo
+la similitud
+y podría
+armar equipo
+o algo
+¿ya?
+que usted
+esté mirando
+su empresa
+o en proyectos
+personales
+¿ok?
+factores sociales
+¿a qué me refiero?
+me refiero a que anoten
+no sé
+tres
+factores sociales
+que ustedes crean
+que pueden resolver
+que sean oportunidades
+tendencias
+¿cierto?
+culturales
+algo
+pero antes de eso
+no
+perdón
+me
+me adelanté
+antes de esto
+primero
+primero tienen que
+establecer
+¿cierto?
+primer paso
+establecer
+un desafío
+el desafío
+tiene que ser
+algo como
+incrementar
+mejorar
+lo que sea
+¿cierto?
+tal cosa
+con
+¿cierto?
+un
+algoritmo
+de
+computer vision
+¿ya?
+estamos bien
+cerrados
+¿qué se puede
+incrementar
+mejorar
+minimizar
+maximizar
+lo que sea
+¿cierto?
+mediante un
+algoritmo
+de computer vision
+y para ese desafío
+y para ese desafío
+voy a poner acá
+en pantalla
+perdón
+ahora sí
+para ese desafío
+tienen que pensar
+en tres factores
+que están gobernando
+ese desafío
+por ejemplo
+yo digo
+quiero incrementar
+la seguridad
+de los supermercados
+mediante algoritmos
+de computer vision
+¿y qué digo?
+este es mi desafío
+¿cierto?
+un gran problema
+y digo
+acá hay factores
+sociales
+que están
+gobernando
+o sea
+la mejor palabra
+para mí
+este problema
+robo
+hormiga
+cada vez más
+personas
+en los supermercados
+no sé
+¿ok?
+luego
+empiezo
+a identificar
+¿no es cierto?
+factores
+tecnológicos
+enfocado
+en computer vision
+donde yo diga
+sé que
+hay algoritmos
+de segmentación
+está el tema
+que me enseñaron
+recién
+que se llama
+scene understanding
+está el tema
+de human object interaction
+está el tema
+de detección
+de diámetro
+dimensionalidad
+o dimensionar
+perdón
+etcétera
+que hace
+computer vision
+y hay otra parte
+que es la parte
+que ustedes pueden saber
+específico
+de su industria
+o de su empresa
+o de su
+pyme
+o lo que sea
+son factores
+¿no es cierto?
+económicos
+perdón
+económicos
+ustedes saben
+dónde hay un nicho
+o dónde hay una oportunidad
+o dónde hay plata
+o dónde hay
+willing to pay
+dónde está
+y la pega
+¿no es cierto?
+es encontrar
+esta intersección
+que se llama
+POG
+ahí sí que no ven
+nada lo online
+perdón lo online
+no se ve tan mal
+no se ve tan mal
+y para eso
+les voy a hacer
+una pequeña
+introducción
+al taller
+que es
+explicar un poquito más
+aparte de esta aplicación
+manual
+explicarlo visualmente
+¿a qué me refiero
+con factores sociales?
+pueden ser factores
+¿cierto?
+culturales
+¿cierto?
+modernización
+revoluciones
+sociales
+la globalización
+la densidad
+de la información
+la interacción
+hoy día
+por ejemplo
+en los supermercados
+quizás deberíamos
+hacer
+stock
+hacemos inventario
+con el celular
+todo el mundo
+ocupa celular
+¿cuál es el factor social?
+la gente ocupa
+cada vez más celular
+la gente ocupa
+y pasar un robot
+es caro
+factor económico
+tecnología
+algoritmos
+de computer vision
+en el celular
+para ver
+si está el stock
+disponible
+los factores sociales
+pueden ser
+globalización
+densidad de la información
+uso de celulares
+uso de redes sociales
+¿sabes qué?
+quiero detectar
+tengo el desafío
+de mejorar
+el clima
+organizacional
+de mi empresa
+y
+un factor social
+es que la gente
+ve mucho
+Instagram
+no sé
+dando un ejemplo
+o ve mucho
+LinkedIn
+¿por qué?
+porque la gente
+pasa
+cuatro horas
+cinco horas
+al día
+en redes sociales
+o en su celular
+¿cómo?
+estos son factores sociales
+hay
+o otros
+pueden tener
+otro desafío
+con algoritmos
+de computer vision
+que no mejorar
+el cáncer
+en los salmones
+¿y por qué?
+porque acá
+hay un factor social
+que la gente
+quiere hacer empresas
+más sustentables
+hay una revolución
+¿cierto?
+social
+hay cada vez
+más protesta
+hay horizontalización
+no sé
+algo social
+que usted está mirando
+para que puede estar
+gobernando
+¿cierto?
+este desafío
+o que puede estar impidiendo
+que ese desafío
+se resuelva
+¿ok?
+aquí pongo cualquier cosa
+incertidumbre política
+podría ser
+Chile está dentro
+de los 25 países
+con full democracy
+y el resto
+de los países
+están en cosas
+democracia
+con falla
+autoritarismo
+quizá eso
+puede ser una oportunidad
+para crear un producto
+o
+la incertidumbre
+o los conflictos
+que estamos viviendo
+Ucrania
+el uso de drones
+por ejemplo
+en Ucrania
+ha sido impresionante
+puro algoritmo
+de computer vision
+no creo que ustedes
+se quieran meter en eso
+pero son ejemplos
+otro problema social
+o cosas sociales
+que están pasando
+nos estamos urbanizando
+por una parte
+generando grandes capitales
+en Estados Unidos
+hay 5
+mega capitales
+pero la gente
+quiere vivir
+en ciudades
+más de campo
+con más espacio
+ahí quizá hay una oportunidad
+también
+socialmente
+o sociotecnológicamente
+hay una oportunidad
+de ocupar
+plataformas open source
+o sea
+hoy día
+podemos estar mirando
+lo que está pasando
+en diferentes partes
+del mundo
+cómo no poder
+pensar
+que eso
+puede ser una herramienta
+que me ayuda
+a resolver
+un desafío
+que yo tengo
+y tecnológicamente
+les digo
+sesgado con computer vision
+porque esa es la gracia
+del proyecto
+de esta clase
+sesgado con computer vision
+estamos viviendo
+en una revolución industrial
+las máquinas
+hablan con las máquinas
+en la ley de Moore
+o sea
+los computadores
+son cada día
+más rápido
+ahora está
+la ley de Moore
+de AI
+los modelos de lenguaje
+son cada día
+más rápido
+los transistores
+son el doble
+cada año
+hay múltiples desafíos
+de la humanidad
+como acceso al agua
+¿cierto?
+están creando soluciones
+para que la gente
+tenga acceso
+al agua limpia
+o sea
+un porcentaje
+muy grande
+de la población
+no tiene luz
+en su casa
+y no tiene acceso
+al agua limpia
+hay oportunidades
+slash
+problemas sociales
+tecnológicos
+¿ya?
+o todo lo que es
+health analytics
+analítica de salud
+o sea
+las personas
+el sistema de salud
+son muy caros
+y quizás
+con una foto
+por ejemplo
+en tema
+de medicina
+en Estados Unidos
+me acuerdo
+fui una vez
+con mi hija
+al doctor
+y le dije
+allá se va
+el doctor general
+y él te traspasa
+a un doctor
+con especialidad
+no vaya
+al de especialidad
+directo
+y este doctor familiar
+te dice
+no
+anda al traumatólogo
+o anda al dermatólogo
+y mi hija
+tenía un lunar
+en la espalda
+raro
+dijo
+ah
+para ese problema
+descarga esta app
+sacale una foto
+y mandalo
+a dermatologist
+punto com
+punto
+eso es puro
+computer vision
+detección
+de enfermedades
+dermatológicas
+a través de imágenes
+foto del lunar
+pagué 50 dólares
+y me
+mandaron
+un informe
+entonces
+no es solo
+computer vision
+porque es como
+computer vision
+quizás
+le dice
+podría ser esto
+pero un doctor
+le lo escribe
+choro
+bueno
+garner también
+si ustedes quieren
+mirar factores
+tecnológicos
+que están pasando
+o sea
+donde están los hypes
+donde están las oportunidades
+donde
+garner
+está muy potente
+en términos de radar
+hypes
+o las de expectativas
+y no está cuando
+punto cero
+no es cierto
+uso
+inteligencia
+por ejemplo
+para defensa
+monitoreo permanente
+twitter
+todas las redes sociales
+como afecta
+no es cierto
+en los nuevos poderes
+y factor económico
+estamos en un mundo
+que se está
+occidentalizando
+por una parte
+creo yo
+desde mi sesgo
+pese a que china
+es
+incompetible
+en términos de
+mano de obra
+fabricación
+y capacidad
+de crecimiento
+etcétera
+por la centralización
+que tiene
+por la mirada
+a largo plazo
+la cultura occidental
+sigue muy potente
+estamos muy
+occidentalizados
+sobre todo
+en sudamérica
+tenemos empresas
+hoy día
+que están
+dominando
+los mercados
+empresas
+big tech
+como amazon
+google
+apple
+facebook
+o meta
+ahora
+que tienen
+presupuestos
+más grandes
+que países
+o sea
+amazon
+es más grande
+que
+que corea
+presupuesto
+amazon
+es como
+eh
+turquía
+y república
+checa
+juntos
+en términos
+presupuestos
+entonces
+para qué hablar
+de chile
+entonces
+estamos creando
+productos
+algoritmos
+de computer vision
+en este juego
+en este mundo
+¿cierto?
+con
+multinacionales
+que son muy potentes
+con data centers
+¿cierto?
+que van a ser
+también
+una nueva forma
+de
+de ganar
+de procesar
+todos los algoritmos
+de computer vision
+las grandes
+empresas
+están poniendo
+data centers
+en diferentes países
+para procesar
+ahí los datos
+se está centralizando
+más
+el uso
+de data centers
+¿cierto?
+debido a su poder
+a su presupuesto
+etcétera
+entonces
+ya en la TAM
+se necesita
+entrenamiento
+se necesita
+talento
+o sea
+hay falta
+presupuesto
+pero todavía
+es igual
+de todas maneras
+una oportunidad
+entonces
+hay una oportunidad
+para crear
+cursos
+de IA
+hay una oportunidad
+para los talentos
+de IA
+hay una oportunidad
+en Sudamérica
+también
+porque tenemos
+por lo menos
+Chile
+una
+profesionalización
+y tenemos
+ingenieros muy
+sofisticados
+¿cierto?
+que pueden vender
+software al mundo
+y esa es una
+línea
+muy potente
+también para Chile
+y Sudamérica
+en términos
+robótica también
+por ejemplo
+se está
+aumentando
+año por año
+un tasa de crecimiento
+anual
+compuesta de 9%
+así
+¿ya?
+entonces lo que quiero
+es que pongan
+en un papelito
+o en un iPad
+el desafío
+que ustedes tengan
+tres factores
+sociales
+tres factores
+sociales
+aquí puse
+ejemplos
+como esto
+voy a volver
+a la pizarra
+la tarea
+es esto
+tareas
+o taller
+uno
+establecer un desafío
+así
+tipo este
+y dos
+describir
+tres
+factores
+sociales
+tres factores
+tecnológicos
+y tres factores
+económicos
+¿ok?
+y con eso
+¿cierto?
+tercera pata
+definir
+un
+Product Opportunity Gap
+en Computer Vision
+ese es el taller
+vamos
+me atrasé mucho
+en toda la explicación
+ya tenemos
+15 minutos
+es solo para
+una primera
+bosquejo
+¿ok?
+primer bosquejo
+después se los pido
+que me lo manden
+en una semana más
+perdón
+sí
+sí
+ese es el taller
+y acá
+acá están
+puestos así como
+idea
+idea
+¿ya?
+¿ya?
+ya
+eso
+¿esto te propones
+es nuevo o no?
+no
+no
+como son cuatro clases
+tengo que exprimirlo lo más posible
+acuérdense que tienen que estar cegados con computer vision
+que en lo general cuando uno hace un proyecto
+no tiene que estar cegado
+no podéis poner la solución ante los bueyes
+pero para este caso
+quiero que sea así
+para que así ustedes vean
+si hay aplicaciones de computer vision
+cuál es el problema que tienen en mente
+entonces
+antes de la clase 2
+que es el próximo lunes a las 5
+antes de la clase 2
+bien antes en verdad
+les parece para el día jueves
+mandenme esto
+individualmente
+y yo
+porque quiero que
+yo hacerlo grupo
+a menos que si hay alguno que siempre me manda un correo
+no que yo soy siempre con mi amigo
+pero
+que él también hace
+es que lo que pasa profe
+disculpe
+¿tienen ya grupo listo?
+claro
+la otra asignatura es previa
+la mayor parte venimos con grupos armados
+ya
+si pues
+entonces
+júntense por grupo y hagan este taller
+y lo mandan por grupo
+ya buenísimo
+si es mejor
+porque así raíz o menos aparte
+ya
+pero grupos de cuántos son?
+mínimo tres máximo
+tres y medio
+ya
+no
+está bien
+está bien
+pero que pasa que
+si tienen compañeros que están online
+los online tienen su grupo
+siempre vienen los mismos
+ya
+ya pero ok
+pero ya está más o menos ordenado
+ya
+ya hagamos los cientos
+estamos bien los online
+me da pena los online
+porque no
+no conversé nada con ustedes
+sí profe
+disculpe
+a nosotros
+en otras clases
+nos separaban automáticamente
+en grupos
+a todos los online
+y teníamos una cámara propia
+¿una qué?
+como una sala propia
+lo hemos hecho
+no sé si puede manejarlo desde ahí
+es que tendría que asignar
+por persona
+el grupo
+porque si yo pongo
+crear sala
+a ver
+sala para grupos pequeños
+profe
+¿cuántas salas?
+a ver
+tratemos
+¿cuántos grupos son los online?
+hay 28
+ah ya
+ah ya
+ya
+ya
+entonces
+los que están
+los que están en grupo
+y están online
+en su whatsapp
+hagan un grupo whatsapp
+o no sé
+ya
+aparte que es para
+hoy día estamos lunes
+es para el día viernes
+¿ok?
+viernes
+¿jueves?
+¿viernes?
+bien
+ah de veras
+nada
+ya pero
+lo mandé el jueves
+de hecho el jueves
+mi hija no va al colegio
+así que
+es
+es
+¿sí?
+una pregunta
+pero para que
+sí
+sí
+perdón
+es
+porque
+yo
+sé
+no
+me
+sí
+es
+sí
+tú
+si
+o
+no
+una
+es
+t
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Sí, volví. Estaba conversando con unos alumnos.
+Ya. Ya. Stop.
+Ahí sí. Ahí sí.
+Entonces, ya, para terminar, la idea de este taller es que empecemos a armar el proyectito, al menos en forma abstracta, tratando de encontrar un match triple entre los factores sociales, ¿cierto?
+Como oportunidades, ¿no es cierto?, tendencias sociales, con algún algoritmo de computer vision que yo les enseñé en esta clase y que ustedes ojalá busquen, ¿cierto?
+Son siempre los mismos, tienen diferentes aplicaciones, pero las tareas son las mismas.
+Las tareas del humano, ¿qué quiere, es cierto?, analizar una imagen.
+Y económicamente, ¿a quién le duele? ¿Dónde hay nicho? ¿O quién tiene plata?
+¿Ya? Y hacer ese triple match, hartas veces, entendiendo dónde se traslapa, dónde se traslapa socioeconómicamente, estoy haciendo esto nomás para lo online,
+escuchar, atención, pensar, ¿no es cierto?, los factores que están acá, en cada área achurada.
+Achurada. Acá, y de repente, ¿no es cierto?, en este triple match, hacer eureka.
+Y decir, acá, ¿no es cierto?, está tu oportunidad, ¿cierto?, de implementar CV o Computer Vision en tu organización o en tu proyecto.
+¿Ya?
+¿Profesor?
+¿Sí?
+Acá, consulta.
+Respecto de, más que de la parte como más positiva de los factores del cruce que está puesto ahí,
+un poco en el sentido de la realidad, el costo computacional, el entrenamiento, ¿eso está fuera o estamos pensando en un campo idílico?
+Sí, estamos pensando en un campo ideal donde sabemos que vamos a poder tener data, vamos a poder entrenarlo.
+Y acá está la oportunidad para su equipo para crear un proyecto de Computer Vision, ¿ya?
+Y con eso, terminamos.
+Muchas gracias y nos vemos el próximo lunes.
+Gracias, profe.
+Vale.
+Chao, gracias.
+Chao, gracias.
+Chao, gracias.
+Chao, gracias.
+Vamos a abordar la facturabilidad técnica y legal.
+Chao, gracias.
+Chao, gracias.
+Chao, gracias.
+Chao, gracias.
+Chao.
+Gracias.
+Gracias.
+Gracias.

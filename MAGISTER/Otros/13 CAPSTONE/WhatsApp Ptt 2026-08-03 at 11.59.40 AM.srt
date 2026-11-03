@@ -1,0 +1,48 @@
+1
+00:00:00,270 --> 00:00:15,150
+Hola Luis, ¿cómo estás? Sí, he visto el correo a la mañana y me preocupa. De hecho, está escribiendo el feedback, pero no quería saturarlo ni asustarlo. Por ejemplo, no hay visualización de datos. Se nota que ustedes han trabajado algo con Cloud nomás, pero nada más.
+
+2
+00:00:15,150 --> 00:00:17,390
+no está la parte de ingeniería de atributos
+
+3
+00:00:17,390 --> 00:00:18,970
+cuál es la variable más importante
+
+4
+00:00:18,970 --> 00:00:21,950
+cuál es la cantidad de nulos, datos procesados
+
+5
+00:00:21,950 --> 00:00:23,950
+no está la descripción de variables
+
+6
+00:00:23,950 --> 00:00:25,770
+no está la visualización de datos
+
+7
+00:00:25,770 --> 00:00:27,950
+que son 3, 4 láminas mínimas de descripción
+
+8
+00:00:27,950 --> 00:00:29,650
+y con gráfica, etc.
+
+9
+00:00:30,050 --> 00:00:32,250
+decir que no está cumpliendo
+
+10
+00:00:32,250 --> 00:00:33,710
+con la rúbrica, es el mismo comentario
+
+11
+00:00:33,710 --> 00:00:35,170
+que hablamos el viernes juntos
+
+12
+00:00:35,170 --> 00:00:36,270
+eso me preocupa
+

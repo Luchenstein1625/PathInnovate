@@ -1,0 +1,2200 @@
+1
+00:00:04,460 --> 00:01:01,860
+Hola, hola, hola, hola, parece que estoy grabando, lo que quiero hacer con esta reunión y clase
+
+2
+00:01:01,860 --> 00:01:14,780
+de extensión que voy a grabar es que ya que siento de que fue muy rápido los últimos
+
+3
+00:01:14,780 --> 00:01:16,560
+20 minutos de la clase 4
+
+4
+00:01:16,560 --> 00:01:18,460
+solo voy a pegar un poco
+
+5
+00:01:18,460 --> 00:01:19,220
+lento
+
+6
+00:01:19,220 --> 00:01:23,180
+entonces la idea
+
+7
+00:01:23,180 --> 00:01:24,960
+en la clase 4
+
+8
+00:01:24,960 --> 00:01:27,520
+además de los proyectos
+
+9
+00:01:27,520 --> 00:01:28,360
+era mirar
+
+10
+00:01:28,360 --> 00:01:31,280
+cómo deep learning
+
+11
+00:01:31,280 --> 00:01:34,580
+se aplica
+
+12
+00:01:34,580 --> 00:01:36,800
+principalmente en computer vision
+
+13
+00:01:36,800 --> 00:01:38,520
+y cuál es su aproximación
+
+14
+00:01:38,520 --> 00:01:40,200
+completamente diferente
+
+15
+00:01:40,200 --> 00:01:42,180
+a la aproximación que había
+
+16
+00:01:42,180 --> 00:01:44,360
+antes de deep learning
+
+17
+00:01:44,360 --> 00:01:48,080
+Específicamente con la tarea de reconocer objetos
+
+18
+00:01:48,080 --> 00:01:51,480
+Que es la tarea principal y más importante de Computer Vision
+
+19
+00:01:51,480 --> 00:01:54,440
+Cómo evoluciona la red neuronal
+
+20
+00:01:54,440 --> 00:01:58,640
+Y cuál es su aplicación principalmente por este ramo en Computer Vision
+
+21
+00:01:58,640 --> 00:02:05,140
+Entonces primero, como ustedes ya saben
+
+22
+00:02:05,140 --> 00:02:11,200
+Una cosa es que Deep Learning como redes neuronales profundas
+
+23
+00:02:11,200 --> 00:02:17,080
+la traducción de Deep Learning es redes profundas
+
+24
+00:02:17,080 --> 00:02:23,580
+o aprendizaje profundo, pero en verdad es cuando yo ocupo redes neuronales.
+
+25
+00:02:24,760 --> 00:02:27,920
+Cuando ocupo redes neuronales, en verdad estoy en Machine Learning,
+
+26
+00:02:28,420 --> 00:02:32,560
+entrando a Deep Learning, cuando ocupo más de dos capas,
+
+27
+00:02:32,820 --> 00:02:34,120
+entonces se habla de Deep Learning.
+
+28
+00:02:35,120 --> 00:02:36,760
+Pero ¿de dónde nace esto?
+
+29
+00:02:36,760 --> 00:02:39,540
+nace del concepto
+
+30
+00:02:39,540 --> 00:02:41,360
+que nosotros los humanos
+
+31
+00:02:41,360 --> 00:02:42,520
+entendemos el cerebro
+
+32
+00:02:42,520 --> 00:02:45,460
+en términos de cómo las neuronas se conectan
+
+33
+00:02:45,460 --> 00:02:46,620
+entre ellas
+
+34
+00:02:46,620 --> 00:02:49,340
+cómo una neurona activa otra
+
+35
+00:02:49,340 --> 00:02:50,360
+¿ok?
+
+36
+00:02:50,780 --> 00:02:52,360
+y cómo cada neurona
+
+37
+00:02:52,360 --> 00:02:55,440
+recibe entradas ponderadas
+
+38
+00:02:55,440 --> 00:02:56,540
+o sea, recibe
+
+39
+00:02:56,540 --> 00:02:59,200
+un input que se puede
+
+40
+00:02:59,200 --> 00:03:00,660
+simplificar como X
+
+41
+00:03:00,660 --> 00:03:03,280
+que está ponderado por un peso
+
+42
+00:03:03,280 --> 00:03:05,400
+esta neurona
+
+43
+00:03:05,400 --> 00:03:12,480
+debido a un proceso activa o no activa esa función X
+
+44
+00:03:12,480 --> 00:03:19,060
+y la traspasa a una siguiente neurona principalmente o a otras neuronas
+
+45
+00:03:19,060 --> 00:03:22,940
+produciendo una señal de salida, o sea un output.
+
+46
+00:03:23,460 --> 00:03:24,600
+Básicamente en eso se parece.
+
+47
+00:03:25,600 --> 00:03:31,960
+Se inspiran en el cerebro humano en términos también de que jerárquicamente
+
+48
+00:03:31,960 --> 00:03:33,520
+las redes neuronales
+
+49
+00:03:33,520 --> 00:03:37,240
+están diciendo que
+
+50
+00:03:37,240 --> 00:03:39,560
+primero la corteza visual
+
+51
+00:03:39,560 --> 00:03:41,680
+hace una información jerárquica
+
+52
+00:03:41,680 --> 00:03:42,400
+principal
+
+53
+00:03:42,400 --> 00:03:45,080
+los niveles inferiores
+
+54
+00:03:45,080 --> 00:03:47,340
+están dando las primeras
+
+55
+00:03:47,340 --> 00:03:49,180
+características o features
+
+56
+00:03:49,180 --> 00:03:50,800
+y los niveles superiores
+
+57
+00:03:50,800 --> 00:03:53,220
+o sea, las capas posteriores
+
+58
+00:03:53,220 --> 00:03:55,500
+reconocen los objetos más complejos
+
+59
+00:03:55,500 --> 00:03:56,240
+entonces
+
+60
+00:03:56,240 --> 00:03:59,020
+el entrenamiento o procesamiento jerárquico
+
+61
+00:03:59,020 --> 00:04:01,480
+también se aplica a las redes neuronales
+
+62
+00:04:01,480 --> 00:04:06,540
+profunda y para entenderla
+
+63
+00:04:06,540 --> 00:04:17,510
+hay otra que lea la red y la más de explicarlo es que nace como nosotros
+
+64
+00:04:17,510 --> 00:04:23,130
+entendemos el cerebro no realmente funciona ok porque como realmente
+
+65
+00:04:23,130 --> 00:04:27,730
+funciona en verdad los billones y billones de neuronas que tenemos se
+
+66
+00:04:27,730 --> 00:04:31,650
+entrelazan entre todas para hacer un mapa matemático de esto
+
+67
+00:04:34,970 --> 00:04:44,930
+una neurona es activada por una función a input a y éste tiene salidas a prima que pueden tener
+
+68
+00:04:44,930 --> 00:04:52,970
+diferentes outputs por ejemplo un output x o un output z ok y lo mismo pasa una entrada b
+
+69
+00:04:52,970 --> 00:04:55,470
+que puede terminar siendo X
+
+70
+00:04:55,470 --> 00:04:57,530
+o puede terminar siendo M'
+
+71
+00:04:57,750 --> 00:04:59,770
+puede terminar siendo Y
+
+72
+00:04:59,770 --> 00:05:00,870
+¿ok?
+
+73
+00:05:01,930 --> 00:05:03,430
+eso en el sentido de que
+
+74
+00:05:03,430 --> 00:05:05,450
+diferentes combinaciones de input
+
+75
+00:05:05,450 --> 00:05:07,210
+pueden crear diferentes outputs
+
+76
+00:05:07,210 --> 00:05:08,970
+es la primera ley
+
+77
+00:05:08,970 --> 00:05:10,870
+que empezamos a entender
+
+78
+00:05:10,870 --> 00:05:13,230
+con el conecticismo con Alexander Bay
+
+79
+00:05:13,230 --> 00:05:15,410
+este mismo
+
+80
+00:05:15,410 --> 00:05:17,690
+filósofo ecológico
+
+81
+00:05:17,690 --> 00:05:18,850
+de
+
+82
+00:05:18,850 --> 00:05:20,750
+de la antigüedad
+
+83
+00:05:20,750 --> 00:05:28,450
+también plantea que las funciones de inputs
+
+84
+00:05:28,450 --> 00:05:33,030
+no solamente pueden hacer combinaciones para cambiar los outputs
+
+85
+00:05:33,030 --> 00:05:40,710
+sino que también cambian las intensidades de estos
+
+86
+00:05:40,710 --> 00:05:47,010
+entonces estas intensidades pueden hacer de que los outputs sean diferentes
+
+87
+00:05:47,010 --> 00:05:53,950
+Y con estas intensidades, lo que está refiriéndose Alexander Paine es la entrada ponderada.
+
+88
+00:05:54,550 --> 00:06:05,330
+Entonces, una entrada, una función matemática de entrada, puede terminar entregando varias salidas ponderadas de diferente tipo.
+
+89
+00:06:05,330 --> 00:06:16,730
+Por ejemplo, una función A de entrada puede generar un A', una supra X, una supra Y, ¿cierto?
+
+90
+00:06:16,730 --> 00:06:21,790
+Que puede generar otra intensidad, como una supra 2 o una supra 3.
+
+91
+00:06:22,050 --> 00:06:27,410
+Entonces, se pueden generar diferentes combinaciones teniendo solo un input.
+
+92
+00:06:27,950 --> 00:06:32,510
+Y terminar llegando a X como salida o a Y como output.
+
+93
+00:06:33,450 --> 00:06:35,050
+A Y o a X como output.
+
+94
+00:06:37,050 --> 00:06:44,670
+Pasaron los años y básicamente esto fue transformado no solamente en reactivación,
+
+95
+00:06:44,670 --> 00:06:47,190
+sino que en redes de
+
+96
+00:06:47,190 --> 00:06:49,530
+inhibición y excitación
+
+97
+00:06:49,530 --> 00:06:51,270
+entonces una neurona
+
+98
+00:06:51,270 --> 00:06:53,090
+que está representada por un triángulo
+
+99
+00:06:53,090 --> 00:06:55,570
+podría ser activada por una parte
+
+100
+00:06:55,570 --> 00:06:57,770
+y desactivada
+
+101
+00:06:57,770 --> 00:06:58,290
+por otra
+
+102
+00:06:58,290 --> 00:07:00,710
+y con esto
+
+103
+00:07:00,710 --> 00:07:03,090
+lo que se crea por los años 20
+
+104
+00:07:03,090 --> 00:07:05,230
+son las redes booleanas
+
+105
+00:07:05,230 --> 00:07:07,350
+o sea, las puertas booleanas
+
+106
+00:07:07,350 --> 00:07:08,430
+donde yo digo
+
+107
+00:07:08,430 --> 00:07:12,150
+esta red se va a activar
+
+108
+00:07:12,150 --> 00:07:13,330
+si
+
+109
+00:07:13,330 --> 00:07:16,030
+el valor 1
+
+110
+00:07:16,030 --> 00:07:17,670
+o el valor binario de activación
+
+111
+00:07:17,670 --> 00:07:20,830
+pasa
+
+112
+00:07:20,830 --> 00:07:23,870
+y tiene una división de 0
+
+113
+00:07:23,870 --> 00:07:24,390
+por ejemplo
+
+114
+00:07:24,390 --> 00:07:27,470
+entonces eso se va a llamar AND
+
+115
+00:07:27,470 --> 00:07:29,890
+y luego
+
+116
+00:07:29,890 --> 00:07:31,770
+hay otra red o puerta
+
+117
+00:07:31,770 --> 00:07:33,510
+booleana que son los ON
+
+118
+00:07:33,510 --> 00:07:35,250
+o sea si
+
+119
+00:07:35,250 --> 00:07:36,210
+una
+
+120
+00:07:36,210 --> 00:07:39,410
+activación simple
+
+121
+00:07:39,410 --> 00:07:41,630
+más otra activación
+
+122
+00:07:41,630 --> 00:07:42,010
+esto
+
+123
+00:07:42,010 --> 00:07:46,270
+se activa
+
+124
+00:07:46,270 --> 00:07:46,650
+perdón
+
+125
+00:07:46,650 --> 00:07:49,970
+este es un AND
+
+126
+00:07:49,970 --> 00:07:54,090
+este es un AND
+
+127
+00:07:54,090 --> 00:07:56,840
+¿cierto?
+
+128
+00:07:57,980 --> 00:07:59,620
+si una
+
+129
+00:07:59,620 --> 00:08:02,180
+reactivación
+
+130
+00:08:02,180 --> 00:08:03,920
+y otra activación, entonces
+
+131
+00:08:03,920 --> 00:08:05,200
+actívese
+
+132
+00:08:05,200 --> 00:08:07,900
+otra puerta booleana es OR
+
+133
+00:08:07,900 --> 00:08:09,360
+por ejemplo, en lógica
+
+134
+00:08:09,360 --> 00:08:11,780
+que es ya sea por arriba
+
+135
+00:08:11,780 --> 00:08:14,000
+o por abajo
+
+136
+00:08:14,000 --> 00:08:15,280
+¿cierto?
+
+137
+00:08:15,280 --> 00:08:19,180
+Si una de las dos funciona, se activa.
+
+138
+00:08:19,740 --> 00:08:23,700
+Y así hay otras puertas booleanas, como XOR, por ejemplo,
+
+139
+00:08:24,460 --> 00:08:30,000
+donde excluyentemente el OR va a funcionar.
+
+140
+00:08:30,560 --> 00:08:32,140
+Y hay otras más.
+
+141
+00:08:32,540 --> 00:08:37,540
+Y en los años 20, gracias al concepto de modelar matemática antinoronona,
+
+142
+00:08:37,540 --> 00:08:42,360
+una neurona, básicamente con dos matemáticos,
+
+143
+00:08:42,360 --> 00:08:44,600
+Con McCulloch y Kipitz
+
+144
+00:08:44,600 --> 00:08:47,140
+Transformaron estos modelos de sin nace
+
+145
+00:08:47,140 --> 00:08:48,680
+En puertas booleanas
+
+146
+00:08:48,680 --> 00:08:50,800
+Transformando así o entregando
+
+147
+00:08:50,800 --> 00:08:53,280
+Un nuevo conocimiento a la red neuronal
+
+148
+00:08:53,280 --> 00:08:53,560
+¿Verdad?
+
+149
+00:08:53,780 --> 00:08:56,040
+Generar operaciones booleanas
+
+150
+00:08:56,040 --> 00:08:59,520
+Que nacen del modelamiento de la neurona
+
+151
+00:08:59,520 --> 00:09:02,040
+¿Ok?
+
+152
+00:09:02,860 --> 00:09:04,500
+Acá hay algunos ejemplos
+
+153
+00:09:04,500 --> 00:09:06,400
+De lógica booleana
+
+154
+00:09:06,400 --> 00:09:06,660
+¿Verdad?
+
+155
+00:09:07,260 --> 00:09:09,620
+Or, nor, and
+
+156
+00:09:09,620 --> 00:09:12,340
+And, and, not
+
+157
+00:09:12,340 --> 00:09:14,460
+un buffer, un XNOR
+
+158
+00:09:14,460 --> 00:09:16,480
+un XOR, por ejemplo
+
+159
+00:09:16,480 --> 00:09:18,880
+son diferentes configuraciones
+
+160
+00:09:18,880 --> 00:09:19,920
+de
+
+161
+00:09:19,920 --> 00:09:21,560
+nonas, ok
+
+162
+00:09:21,560 --> 00:09:24,020
+por ejemplo
+
+163
+00:09:24,020 --> 00:09:25,880
+lo que les dije en la clase anterior
+
+164
+00:09:25,880 --> 00:09:27,360
+imagínense que
+
+165
+00:09:27,360 --> 00:09:30,340
+estoy tocando el hielo
+
+166
+00:09:30,340 --> 00:09:31,540
+entonces
+
+167
+00:09:31,540 --> 00:09:33,480
+la sensación rápida
+
+168
+00:09:33,480 --> 00:09:36,020
+si pasa muy poco tiempo en el hielo
+
+169
+00:09:36,020 --> 00:09:37,420
+sería sentir calor
+
+170
+00:09:37,420 --> 00:09:40,360
+la corona, cierto, que va a la sensación
+
+171
+00:09:40,360 --> 00:09:42,220
+de calor, se activa
+
+172
+00:09:42,220 --> 00:09:49,000
+resta, se falla o se activa y luego se genera una sensación de calor. Si mantengo el dedo,
+
+173
+00:09:50,680 --> 00:09:58,120
+puedo activar otra neurona que es la sensación de frío, que está generando mediante un AND,
+
+174
+00:09:59,080 --> 00:10:07,600
+mediante un AND, una activación simple. Y así podríamos hablar matemáticamente conociendo
+
+175
+00:10:07,600 --> 00:10:14,980
+el conexión y muy pronto diferentes combinaciones de input tienen diferentes autos conociendo que
+
+176
+00:10:14,980 --> 00:10:23,140
+las los inputs pueden tener intensidades o pesos más roto las puertas booleanas ya estaba el campo
+
+177
+00:10:23,140 --> 00:10:32,740
+fértil por los años 40 declarar las primeras reinas y qué pasó en el 50 llegó dora el jefe
+
+178
+00:10:32,740 --> 00:10:35,660
+y con su libro
+
+179
+00:10:35,660 --> 00:10:38,940
+Organization of Behavior
+
+180
+00:10:38,940 --> 00:10:40,460
+o Behavior Organization
+
+181
+00:10:40,460 --> 00:10:42,240
+de 1949
+
+182
+00:10:42,240 --> 00:10:44,320
+dijo
+
+183
+00:10:44,320 --> 00:10:46,000
+perfecto todo lo anterior
+
+184
+00:10:46,000 --> 00:10:48,560
+pero hay un modelo de aprendizaje
+
+185
+00:10:48,560 --> 00:10:50,920
+entonces no solamente
+
+186
+00:10:50,920 --> 00:10:52,840
+basta con la configuración
+
+187
+00:10:52,840 --> 00:10:55,260
+del modelado matemático
+
+188
+00:10:55,260 --> 00:10:56,940
+no ordinal, sino que falta
+
+189
+00:10:56,940 --> 00:10:58,380
+modelo de aprendizaje
+
+190
+00:10:58,380 --> 00:11:00,140
+cómo están aprendiendo
+
+191
+00:11:00,140 --> 00:11:02,500
+esas interacciones
+
+192
+00:11:02,500 --> 00:11:07,220
+cómo se intensifica o desintensifica
+
+193
+00:11:07,220 --> 00:11:10,960
+una condensación de una neurona a otra, ¿cierto?
+
+194
+00:11:11,620 --> 00:11:13,040
+Y eso lo llamaron pesos.
+
+195
+00:11:13,940 --> 00:11:15,700
+Por eso es la doble B de Weitz.
+
+196
+00:11:15,700 --> 00:11:19,620
+Y este peso nuevo depende siempre
+
+197
+00:11:19,620 --> 00:11:22,720
+de un peso antiguo o viejo.
+
+198
+00:11:23,660 --> 00:11:26,900
+Es la interacción de estas dos neuronas,
+
+199
+00:11:27,000 --> 00:11:31,520
+X y Y, por la tasa de aprendizaje.
+
+200
+00:11:31,520 --> 00:11:33,660
+que lo llaman como
+
+201
+00:11:33,660 --> 00:11:34,360
+teta
+
+202
+00:11:34,360 --> 00:11:35,760
+¿por qué?
+
+203
+00:11:36,560 --> 00:11:39,460
+porque hay una tasa de aprendizaje en el sentido
+
+204
+00:11:39,460 --> 00:11:41,580
+de que una neurona empieza a aprender
+
+205
+00:11:41,580 --> 00:11:42,860
+con qué neuronas
+
+206
+00:11:42,860 --> 00:11:44,320
+se conecta mejor
+
+207
+00:11:44,320 --> 00:11:47,280
+y cuando se conecta mejor con ellas porque se activan
+
+208
+00:11:47,280 --> 00:11:47,920
+entre ellas
+
+209
+00:11:47,920 --> 00:11:49,760
+entonces se enlazan
+
+210
+00:11:49,760 --> 00:11:51,740
+entonces
+
+211
+00:11:51,740 --> 00:11:55,040
+neurona que se conecta, neurona que se
+
+212
+00:11:55,040 --> 00:11:55,960
+enlaza
+
+213
+00:11:55,960 --> 00:11:58,620
+básicamente, y con esto
+
+214
+00:11:58,620 --> 00:12:01,140
+Rosenblatt ya en el año 50
+
+215
+00:12:01,140 --> 00:12:05,900
+un lógico matemático, toma el conocimiento de un mecanismo de aprendizaje,
+
+216
+00:12:06,020 --> 00:12:08,560
+que es básicamente un algoritmo, el del Donald Hef,
+
+217
+00:12:09,180 --> 00:12:11,300
+más el conocimiento de los últimos 100 años,
+
+218
+00:12:12,020 --> 00:12:16,900
+y crea un primer diagrama asociativo de red neuronal,
+
+219
+00:12:17,660 --> 00:12:21,960
+donde básicamente ocupa el ojo como el sensor,
+
+220
+00:12:23,020 --> 00:12:29,580
+y esto genera primeras funciones de input,
+
+221
+00:12:29,580 --> 00:12:36,340
+Luego una neurona genera una proyección, ¿no es cierto?
+
+222
+00:12:37,000 --> 00:12:41,720
+Pondera esta función de input para asociarse a otra neurona
+
+223
+00:12:41,720 --> 00:12:44,960
+Que ya puede ser en forma aleatoria
+
+224
+00:12:44,960 --> 00:12:49,380
+Pero que es intensificado mediante un mecanismo de aprendizaje
+
+225
+00:12:49,380 --> 00:12:54,180
+Y luego otra capa neurona, por ejemplo, en una red neuronal simple
+
+226
+00:12:54,180 --> 00:12:56,580
+Puede generar resultados
+
+227
+00:12:56,580 --> 00:13:03,350
+Y estos resultados, como yo tengo respuesta
+
+228
+00:13:03,350 --> 00:13:05,310
+podría aprender hacia atrás
+
+229
+00:13:05,310 --> 00:13:06,530
+entonces podría decir
+
+230
+00:13:06,530 --> 00:13:08,490
+si yo entrego estos pesos
+
+231
+00:13:08,490 --> 00:13:10,310
+estos old
+
+232
+00:13:10,310 --> 00:13:13,390
+y genero estos pesos
+
+233
+00:13:13,390 --> 00:13:14,790
+estos nuevos
+
+234
+00:13:14,790 --> 00:13:17,610
+podría actualizar
+
+235
+00:13:17,610 --> 00:13:19,790
+los pesos antiguos
+
+236
+00:13:19,790 --> 00:13:20,770
+con los que son nuevos
+
+237
+00:13:20,770 --> 00:13:23,550
+mediante la interacción entre neuronas
+
+238
+00:13:23,550 --> 00:13:25,590
+y ahí está el mecanismo de aprendizaje
+
+239
+00:13:25,590 --> 00:13:27,290
+luego
+
+240
+00:13:27,290 --> 00:13:28,770
+Rosenblatt no se quedó con eso
+
+241
+00:13:28,770 --> 00:13:31,190
+y dijo este algoritmo de
+
+242
+00:13:31,190 --> 00:13:33,210
+aprendizaje de Donald Hef
+
+243
+00:13:33,210 --> 00:13:35,150
+era un poco simplista
+
+244
+00:13:35,150 --> 00:13:37,610
+y tenía problemas de escalabilidad
+
+245
+00:13:37,610 --> 00:13:38,790
+entonces básicamente
+
+246
+00:13:38,790 --> 00:13:41,030
+fue a compararlo con una evidencia
+
+247
+00:13:41,030 --> 00:13:43,270
+entonces lo que hace es insertar
+
+248
+00:13:43,270 --> 00:13:44,390
+una función
+
+249
+00:13:44,390 --> 00:13:48,640
+en i, la función de i
+
+250
+00:13:48,640 --> 00:13:50,600
+y reemplazarla
+
+251
+00:13:50,600 --> 00:13:52,240
+por la función de i
+
+252
+00:13:52,240 --> 00:13:54,520
+comparada con
+
+253
+00:13:54,520 --> 00:13:56,140
+el output ideal
+
+254
+00:13:56,140 --> 00:13:58,400
+entonces estoy
+
+255
+00:13:58,400 --> 00:14:00,240
+todo el tiempo comparando
+
+256
+00:14:00,240 --> 00:14:01,840
+el output ideal
+
+257
+00:14:01,840 --> 00:14:04,200
+mi output para multiplicarlo
+
+258
+00:14:04,200 --> 00:14:06,040
+por mi input en una traza
+
+259
+00:14:06,040 --> 00:14:06,740
+de aprendizaje.
+
+260
+00:14:07,520 --> 00:14:10,080
+Entonces, se actualiza el algoritmo
+
+261
+00:14:10,080 --> 00:14:10,880
+de aprendizaje.
+
+262
+00:14:11,800 --> 00:14:13,820
+Mejor Rosenblatt en los años 50.
+
+263
+00:14:14,580 --> 00:14:15,940
+Este es básicamente
+
+264
+00:14:15,940 --> 00:14:18,140
+el algoritmo de aprendizaje de la mayoría
+
+265
+00:14:18,140 --> 00:14:19,920
+de los modelos de
+
+266
+00:14:19,920 --> 00:14:22,360
+Reynolds-Raleigh y de Machen-Lerner en la actualidad.
+
+267
+00:14:23,780 --> 00:14:24,000
+Entonces,
+
+268
+00:14:24,100 --> 00:14:24,900
+¿qué pasa después?
+
+269
+00:14:26,160 --> 00:14:27,980
+Que por diferentes matemáticos
+
+270
+00:14:27,980 --> 00:14:30,480
+ya en los años 50, se juntan los informáticos,
+
+271
+00:14:30,900 --> 00:14:32,020
+se genera la conferencia
+
+272
+00:14:32,020 --> 00:14:33,200
+de Einstein en el 56,
+
+273
+00:14:33,200 --> 00:14:34,980
+antes de eso
+
+274
+00:14:34,980 --> 00:14:37,320
+lo que se hace es transformar
+
+275
+00:14:37,320 --> 00:14:39,340
+ese mecanismo de aprendizaje
+
+276
+00:14:39,340 --> 00:14:40,940
+y los diagramas
+
+277
+00:14:40,940 --> 00:14:42,260
+anteriormente hechos
+
+278
+00:14:42,260 --> 00:14:43,840
+y hacer una primer
+
+279
+00:14:43,840 --> 00:14:46,400
+arquitectura
+
+280
+00:14:46,400 --> 00:14:48,800
+de una red normal simple
+
+281
+00:14:48,800 --> 00:14:50,740
+o lineal
+
+282
+00:14:50,740 --> 00:14:52,380
+donde básicamente tengo
+
+283
+00:14:52,380 --> 00:14:53,760
+funciones
+
+284
+00:14:53,760 --> 00:14:55,820
+de input
+
+285
+00:14:55,820 --> 00:14:59,140
+tengo un peso que le entrego en intensidad
+
+286
+00:14:59,140 --> 00:15:01,000
+a cada función de input
+
+287
+00:15:01,000 --> 00:15:03,480
+luego una sumatoria
+
+288
+00:15:03,480 --> 00:15:05,380
+de cada
+
+289
+00:15:05,380 --> 00:15:07,560
+preponderación por cada
+
+290
+00:15:07,560 --> 00:15:08,660
+función de input
+
+291
+00:15:08,660 --> 00:15:11,420
+lo voy a señalar
+
+292
+00:15:11,420 --> 00:15:13,140
+como ese y luego
+
+293
+00:15:13,140 --> 00:15:15,500
+me voy a una función de activación
+
+294
+00:15:15,500 --> 00:15:17,520
+que dice según esta
+
+295
+00:15:17,520 --> 00:15:19,360
+sumatoria si
+
+296
+00:15:19,360 --> 00:15:21,240
+es mayor a cero active
+
+297
+00:15:21,240 --> 00:15:23,340
+si es menor que cero desactive
+
+298
+00:15:23,340 --> 00:15:24,200
+por ejemplo
+
+299
+00:15:24,200 --> 00:15:27,240
+y esa función de activación puede ser
+
+300
+00:15:27,240 --> 00:15:28,720
+como dijimos anteriormente
+
+301
+00:15:28,720 --> 00:15:31,460
+reloj, sigmoide
+
+302
+00:15:31,460 --> 00:15:32,500
+¿cierto?
+
+303
+00:15:33,220 --> 00:15:34,420
+softmax también
+
+304
+00:15:34,420 --> 00:15:36,400
+y otras
+
+305
+00:15:36,400 --> 00:15:39,080
+y después hay otra capa
+
+306
+00:15:39,080 --> 00:15:40,920
+¿ok? entonces
+
+307
+00:15:40,920 --> 00:15:43,280
+estoy tomando múltiples entradas
+
+308
+00:15:43,280 --> 00:15:45,160
+estoy asignando pesos a cada
+
+309
+00:15:45,160 --> 00:15:46,860
+entrada, estoy calculando
+
+310
+00:15:46,860 --> 00:15:48,880
+la suma ponderada
+
+311
+00:15:48,880 --> 00:15:50,880
+más un bias
+
+312
+00:15:50,880 --> 00:15:53,140
+seco, actualmente
+
+313
+00:15:53,140 --> 00:15:55,280
+en esa época creo que no se
+
+314
+00:15:55,280 --> 00:15:56,740
+ocupaba el seco
+
+315
+00:15:56,740 --> 00:15:58,660
+y una función de activación
+
+316
+00:15:58,720 --> 00:16:05,440
+este es una red neural simple y lineal de una capa que se llama perceptron
+
+317
+00:16:05,440 --> 00:16:11,100
+que es la red neural más famosa y es la creación del universo
+
+318
+00:16:11,100 --> 00:16:13,660
+para los que estamos trabajando en EIV
+
+319
+00:16:13,660 --> 00:16:19,820
+pero ya saben que también el perceptron tiene problemas
+
+320
+00:16:19,820 --> 00:16:23,760
+por ejemplo en la clase número 3
+
+321
+00:16:23,760 --> 00:16:35,860
+mediante una imagen de, si no me equivoco, 224 píxeles por 224 píxeles por 3 canales RGB, ¿cierto?
+
+322
+00:16:35,860 --> 00:16:40,280
+Si yo en la última capa de la red neural la aplano, ¿cierto?
+
+323
+00:16:40,280 --> 00:16:46,620
+Y la transformo en un vector unidimensional y luego full connected, ¿cierto?
+
+324
+00:16:46,680 --> 00:16:50,860
+Tengo 5 tipos de respuestas, que son otros 5, ¿cierto?
+
+325
+00:16:50,860 --> 00:17:01,180
+siguientes parámetros estoy manejando esto alrededor de 224 x 254 x 3 150 mil parámetros
+
+326
+00:17:01,180 --> 00:17:10,860
+por aprender o sea cada valor de cada pixel multiplicado por los cinco resultados entonces
+
+327
+00:17:10,860 --> 00:17:17,680
+es súper computacionalmente es súper grande eso es súper difícil de entrenar acá está perdón
+
+328
+00:17:17,680 --> 00:17:19,800
+750.000 hechos por la imagen
+
+329
+00:17:19,800 --> 00:17:21,060
+por 5 nodos
+
+330
+00:17:21,060 --> 00:17:23,500
+que a 750.000
+
+331
+00:17:23,500 --> 00:17:25,680
+parámetros entrenables
+
+332
+00:17:25,680 --> 00:17:27,280
+entonces que pasa
+
+333
+00:17:27,280 --> 00:17:29,540
+que ahí se dan cuenta que
+
+334
+00:17:29,540 --> 00:17:31,660
+por una parte las
+
+335
+00:17:31,660 --> 00:17:33,700
+capas que están adentro
+
+336
+00:17:33,700 --> 00:17:35,440
+de las redes neuronales
+
+337
+00:17:35,440 --> 00:17:37,460
+tienen que densificar
+
+338
+00:17:37,460 --> 00:17:39,520
+estos parámetros para poder
+
+339
+00:17:39,520 --> 00:17:41,680
+entrenar menos
+
+340
+00:17:41,680 --> 00:17:43,480
+parámetros, sino esto
+
+341
+00:17:43,480 --> 00:17:44,780
+tiene una escalabilidad
+
+342
+00:17:44,780 --> 00:17:47,540
+algorítmica y tengo
+
+343
+00:17:47,540 --> 00:17:49,540
+que entrenar billones y billones de parámetros
+
+344
+00:17:49,540 --> 00:17:51,300
+y ya no puedo tener
+
+345
+00:17:51,300 --> 00:17:53,640
+una representación del conocimiento.
+
+346
+00:17:54,460 --> 00:17:55,040
+Y por eso
+
+347
+00:17:55,040 --> 00:17:56,900
+es que en los años 60,
+
+348
+00:17:57,260 --> 00:17:59,220
+para seguir el cuento, se crea
+
+349
+00:17:59,220 --> 00:18:00,900
+el perceptron multicapa
+
+350
+00:18:00,900 --> 00:18:03,940
+o multilayer perceptron, el MLP.
+
+351
+00:18:04,500 --> 00:18:05,700
+Es lo segundo
+
+352
+00:18:05,700 --> 00:18:07,440
+más importante en Deep Learning.
+
+353
+00:18:08,280 --> 00:18:08,700
+Siguiente.
+
+354
+00:18:09,400 --> 00:18:10,760
+Mantengo una capa de entrada,
+
+355
+00:18:11,480 --> 00:18:12,880
+mantengo una capa de salida,
+
+356
+00:18:12,940 --> 00:18:15,200
+con diferentes probabilidades en cada clase de objeto,
+
+357
+00:18:15,680 --> 00:18:16,880
+pero tengo clases
+
+358
+00:18:16,880 --> 00:18:19,160
+o perdón, capas ocultas que están
+
+359
+00:18:19,160 --> 00:18:21,380
+procesando y transformando datos
+
+360
+00:18:21,380 --> 00:18:23,920
+y están activando
+
+361
+00:18:23,920 --> 00:18:24,880
+y desactivando
+
+362
+00:18:24,880 --> 00:18:27,360
+y con esto densificando
+
+363
+00:18:27,360 --> 00:18:28,860
+la información, o sea
+
+364
+00:18:28,860 --> 00:18:30,880
+sintetizando conocimiento
+
+365
+00:18:30,880 --> 00:18:32,000
+ok
+
+366
+00:18:32,000 --> 00:18:35,880
+posteriormente a eso, en el año 60
+
+367
+00:18:35,880 --> 00:18:36,860
+70
+
+368
+00:18:36,860 --> 00:18:38,280
+además
+
+369
+00:18:38,280 --> 00:18:40,820
+se agrega una función de pérdida
+
+370
+00:18:40,820 --> 00:18:43,500
+entonces, lo que me entrega la red
+
+371
+00:18:43,500 --> 00:18:44,520
+como output
+
+372
+00:18:44,520 --> 00:18:46,460
+lo puedo ir comparando
+
+373
+00:18:46,460 --> 00:18:48,820
+online, por así decirlo
+
+374
+00:18:48,820 --> 00:18:50,440
+la evidencia
+
+375
+00:18:50,440 --> 00:18:52,800
+con un ground truth o true output
+
+376
+00:18:52,800 --> 00:18:54,800
+y esa comparación
+
+377
+00:18:54,800 --> 00:18:56,900
+también es una función
+
+378
+00:18:56,900 --> 00:18:58,740
+matemática que es una función
+
+379
+00:18:58,740 --> 00:18:59,480
+de pérdida
+
+380
+00:18:59,480 --> 00:19:02,760
+se sintetiza
+
+381
+00:19:02,760 --> 00:19:04,080
+con la función J
+
+382
+00:19:04,080 --> 00:19:06,640
+que es básicamente
+
+383
+00:19:06,640 --> 00:19:08,860
+la función que está
+
+384
+00:19:08,860 --> 00:19:10,000
+comparando
+
+385
+00:19:10,000 --> 00:19:12,140
+el output
+
+386
+00:19:12,140 --> 00:19:15,060
+verdadero con el output
+
+387
+00:19:15,060 --> 00:19:15,600
+pre
+
+388
+00:19:15,600 --> 00:19:17,460
+pre
+
+389
+00:19:17,460 --> 00:19:20,000
+el output
+
+390
+00:19:20,000 --> 00:19:21,100
+de la pdh
+
+391
+00:19:21,100 --> 00:19:25,100
+entonces, lo que estoy construyendo
+
+392
+00:19:25,100 --> 00:19:27,300
+con esto, también lo dije a la rápida
+
+393
+00:19:27,300 --> 00:19:28,160
+en la clase 4
+
+394
+00:19:28,160 --> 00:19:31,000
+es que tengo un approach totalmente
+
+395
+00:19:31,000 --> 00:19:33,160
+diferente, porque estoy haciendo
+
+396
+00:19:33,160 --> 00:19:35,120
+que la misma red neuronal
+
+397
+00:19:35,120 --> 00:19:36,820
+es los 3
+
+398
+00:19:36,820 --> 00:19:38,120
+clasicos
+
+399
+00:19:38,120 --> 00:19:41,480
+de una máquina de von Neumann
+
+400
+00:19:41,480 --> 00:19:45,380
+que es básicamente un procesador, un programa y la data.
+
+401
+00:19:45,880 --> 00:19:49,880
+Entonces, básicamente, tengo una máquina con múltiples unidades de procesamiento
+
+402
+00:19:49,880 --> 00:19:51,100
+como una función de activación.
+
+403
+00:19:51,680 --> 00:19:56,560
+Y al final, al final del día, el programa son las mismas conexiones
+
+404
+00:19:56,560 --> 00:19:58,680
+entre estas unidades de procesamiento.
+
+405
+00:19:59,820 --> 00:20:01,000
+¿Cómo se conectan?
+
+406
+00:20:01,120 --> 00:20:06,420
+O sea, los pesos que le entrego, una función inicial a una función de activación,
+
+407
+00:20:06,780 --> 00:20:07,960
+finalmente es el programa.
+
+408
+00:20:07,960 --> 00:20:16,600
+Por eso que de hecho, cuando tú quieres echar a correr un programa de deep learning, lo que descargas es un archivo de pesos.
+
+409
+00:20:17,880 --> 00:20:22,760
+Y también se podría decir que las conexiones son como la memoria.
+
+410
+00:20:23,320 --> 00:20:36,960
+Como vimos en las redes neuronales convolucionales, quizás se están guardando diferentes atributos del programa, como una memoria, durante el proceso de las conexiones.
+
+411
+00:20:37,960 --> 00:20:44,100
+Es así lo que está detrás de las redes convolucionales, por ejemplo.
+
+412
+00:20:44,980 --> 00:20:54,300
+En la clase 3 fue entretenido porque les expliqué desde el punto de vista solo de una imagen, ocupando un filtro, kernel.
+
+413
+00:20:55,220 --> 00:21:03,200
+Pero la gracia es que esto en paralelo, mientras estaban mejorando Computer Vision a través de filtros matemáticos,
+
+414
+00:21:03,200 --> 00:21:06,220
+transformadas de Fourier, histogramas
+
+415
+00:21:06,220 --> 00:21:07,260
+y diferentes
+
+416
+00:21:07,260 --> 00:21:09,760
+funciones matemáticas que le puedo aplicar
+
+417
+00:21:09,760 --> 00:21:11,680
+a la imagen, ya sea por
+
+418
+00:21:11,680 --> 00:21:12,960
+pixel o por velocidad
+
+419
+00:21:12,960 --> 00:21:15,660
+fue creciendo el mundo
+
+420
+00:21:15,660 --> 00:21:17,800
+Deep Learning, hasta que llegó
+
+421
+00:21:17,800 --> 00:21:19,660
+a entrenar
+
+422
+00:21:19,660 --> 00:21:20,980
+en forma automática
+
+423
+00:21:20,980 --> 00:21:23,420
+redes neuronales
+
+424
+00:21:23,420 --> 00:21:25,160
+convolucionales, ¿para qué?
+
+425
+00:21:25,580 --> 00:21:27,580
+para que las variables de ese filtro
+
+426
+00:21:27,580 --> 00:21:29,820
+fueran como los pesos que van
+
+427
+00:21:29,820 --> 00:21:31,480
+pasando por cada unidad de
+
+428
+00:21:31,480 --> 00:21:32,160
+procesamiento
+
+429
+00:21:32,160 --> 00:21:49,960
+Y las capas de información de estas redes neuronales convolucionales también tienen el concepto gráfico que vi en principio, donde la primera jerarquía es el contexto de la imagen, o sea, como mi imagen de background, un puente, una isla, un océano y un cielo.
+
+430
+00:21:49,960 --> 00:21:58,060
+y luego en las capas posteriores veo pequeños detalles, como por ejemplo el color,
+
+431
+00:21:58,580 --> 00:22:03,220
+quizá ver el contexto que es Estados Unidos, que es el puente de San Francisco,
+
+432
+00:22:03,880 --> 00:22:10,960
+que está en un atardecer, o sea, conocimiento semántico, contextual y más complejo.
+
+433
+00:22:12,320 --> 00:22:16,960
+Y así fue que las redes neuronales convolucionales, ocupando estos dos grandes conocimientos,
+
+434
+00:22:16,960 --> 00:22:26,860
+conocimiento en términos de filtro kernel y todo el approach de deep learning crecimos desde la
+
+435
+00:22:26,860 --> 00:22:35,860
+net es la red normal para descubrir zip code que acuñó ya le culto el 89 después de la última
+
+436
+00:22:35,860 --> 00:22:43,780
+versión 98 hasta alex net fue el que la que les conté esto que ocuparon alrededor de 64 capas y
+
+437
+00:22:43,780 --> 00:22:50,460
+y bajaron ostensiblemente el error en clasificar objetos en una base de datos billonaria,
+
+438
+00:22:50,600 --> 00:22:52,120
+o sea, de billones de imágenes.
+
+439
+00:22:53,340 --> 00:22:57,220
+Ok, en general, se ponen funciones de adaptación tipo Relu,
+
+440
+00:22:57,380 --> 00:23:00,020
+en lugar de StandH.
+
+441
+00:23:00,880 --> 00:23:03,060
+También hay funciones de regularización,
+
+442
+00:23:03,660 --> 00:23:07,060
+hay funciones de dropout, o sea, eliminar capas de información,
+
+443
+00:23:07,720 --> 00:23:09,460
+hay técnicas de aumento de datos,
+
+444
+00:23:09,460 --> 00:23:11,800
+data augmentation
+
+445
+00:23:11,800 --> 00:23:13,920
+para que funcione mejor
+
+446
+00:23:13,920 --> 00:23:15,160
+el entrenamiento
+
+447
+00:23:15,160 --> 00:23:17,620
+y una arquitectura más profunda
+
+448
+00:23:17,620 --> 00:23:19,820
+con la arquitectura de Bnet
+
+449
+00:23:19,820 --> 00:23:21,660
+con 8 capas
+
+450
+00:23:21,660 --> 00:23:23,240
+ok
+
+451
+00:23:23,240 --> 00:23:26,040
+y esto creció
+
+452
+00:23:26,040 --> 00:23:27,920
+en términos convolucionales
+
+453
+00:23:27,920 --> 00:23:34,150
+en términos de agrupación
+
+454
+00:23:34,150 --> 00:23:35,710
+o max pooling que les dije
+
+455
+00:23:35,710 --> 00:23:36,850
+o sea tomar
+
+456
+00:23:36,850 --> 00:23:39,270
+una sola información
+
+457
+00:23:39,270 --> 00:23:41,270
+de toda una matriz
+
+458
+00:23:41,270 --> 00:23:42,910
+por ejemplo
+
+459
+00:23:42,910 --> 00:23:45,230
+el max pooling tomar el máximo valor
+
+460
+00:23:45,230 --> 00:23:47,550
+o el average pooling tomar el valor
+
+461
+00:23:47,550 --> 00:23:48,930
+promedio, etc
+
+462
+00:23:48,930 --> 00:23:51,150
+cosa de poder
+
+463
+00:23:51,150 --> 00:23:53,010
+densificar la información
+
+464
+00:23:53,010 --> 00:23:55,390
+y transformando nueve valores
+
+465
+00:23:55,390 --> 00:23:56,610
+en un solo valor
+
+466
+00:23:56,610 --> 00:23:59,630
+eso es lo que van haciendo capa por capa
+
+467
+00:23:59,630 --> 00:24:00,030
+precisamente
+
+468
+00:24:00,030 --> 00:24:03,090
+y esto sirvió obviamente
+
+469
+00:24:03,090 --> 00:24:05,710
+para el reconocimiento de caracteres
+
+470
+00:24:05,710 --> 00:24:07,710
+la extracción de características
+
+471
+00:24:07,710 --> 00:24:08,750
+etc
+
+472
+00:24:08,750 --> 00:24:30,750
+Y también, ¿cierto? Desde el 2013, cuando ya AlexNet, ¿cierto? Este paper que redujo el error ImageNet, revolucionó el mercado de Deep Learning, comenzaron a crearse múltiples y múltiples y decenas de arquitecturas diferentes de reinos reales, entre las más características, ¿no es cierto?
+
+473
+00:24:30,750 --> 00:24:32,870
+CNN recurrente
+
+474
+00:24:32,870 --> 00:24:35,830
+perdón, basado en regiones
+
+475
+00:24:35,830 --> 00:24:36,910
+FAST
+
+476
+00:24:36,910 --> 00:24:39,130
+CNN basado en regiones
+
+477
+00:24:39,130 --> 00:24:40,870
+FASTER, incluso
+
+478
+00:24:40,870 --> 00:24:42,990
+más rápido, con propuestas de región
+
+479
+00:24:42,990 --> 00:24:45,010
+YOLI LOCAL ONCE
+
+480
+00:24:45,010 --> 00:24:47,190
+que básicamente cuadricular
+
+481
+00:24:47,190 --> 00:24:49,270
+la imagen y luego buscar
+
+482
+00:24:49,270 --> 00:24:51,310
+objetos por imagen y luego entender
+
+483
+00:24:51,310 --> 00:24:53,170
+el conjunto de objetos
+
+484
+00:24:53,170 --> 00:24:55,130
+y así ustedes pueden
+
+485
+00:24:55,130 --> 00:24:57,170
+tener una base de datos
+
+486
+00:24:57,170 --> 00:24:59,150
+de escenas de arquitectura
+
+487
+00:24:59,150 --> 00:25:05,310
+Pero básicamente están asociadas a estos dos mundos.
+
+488
+00:25:05,630 --> 00:25:11,890
+En términos del approach de Deep Learning, aprender diferente, una nueva máquina de procesamiento.
+
+489
+00:25:12,850 --> 00:25:15,890
+Y segundo, filtros que están procesando la imagen, ¿no es cierto?
+
+490
+00:25:16,230 --> 00:25:17,450
+Y que están barriendo la imagen.
+
+491
+00:25:18,210 --> 00:25:21,530
+Y eso pasó con CNN, FASER, RCNN, ¿no es cierto?
+
+492
+00:25:21,610 --> 00:25:26,010
+Con regiones puntuales, con regiones características,
+
+493
+00:25:26,010 --> 00:25:34,470
+con segmentación de instancias etcétera con yo no solamente un mapa probabilístico de categoría
+
+494
+00:25:35,850 --> 00:25:41,550
+si también se crearon reglas reales más pequeñas para imágenes para un dato ser más pequeño por
+
+495
+00:25:41,550 --> 00:25:50,430
+ejemplo units esto se creó de convolucionar esto que van identificando la información y luego de
+
+496
+00:25:50,430 --> 00:25:57,950
+descientificando o decomponiendo y componiendo de vuelta la imagen.
+
+497
+00:25:58,430 --> 00:26:01,230
+Pequeños datasets como imágenes médicas, por ejemplo.
+
+498
+00:26:01,830 --> 00:26:03,630
+Medical Images se ocupó harto.
+
+499
+00:26:06,030 --> 00:26:06,750
+Unit.
+
+500
+00:26:07,930 --> 00:26:08,650
+MobileNet.
+
+501
+00:26:08,650 --> 00:26:14,350
+Esto cuando tú tienes poco espacio de procesamiento computacional también.
+
+502
+00:26:14,730 --> 00:26:17,270
+Es mucho más liviano, más rápido, etc.
+
+503
+00:26:17,270 --> 00:26:45,710
+Y esto también últimamente, en los últimos cinco años, se ha transformado debido principalmente a la llegada de una arquitectura tipo procesamiento de texto, que lo llamamos transformers, que básicamente ahora entiendo la imagen como diferentes patches o parches y cada parche es ordenado por una red neural diferente.
+
+504
+00:26:45,710 --> 00:27:04,850
+Y luego, ¿cierto? Un encoder, uno que vuelve a entender el conocimiento de vuelta, ¿cierto? Toma atención, ¿cierto? Mediante redes neuronales de backpagination, atención en qué significa cada una de estas informaciones.
+
+505
+00:27:04,850 --> 00:27:07,390
+mediante un concepto que se llama
+
+506
+00:27:07,390 --> 00:27:08,930
+multi-head attention
+
+507
+00:27:08,930 --> 00:27:10,770
+que es básicamente atender
+
+508
+00:27:10,770 --> 00:27:12,770
+el conocimiento que fui aprendiendo
+
+509
+00:27:12,770 --> 00:27:14,910
+yendo y viniendo en la red
+
+510
+00:27:14,910 --> 00:27:15,730
+neuronal
+
+511
+00:27:15,730 --> 00:27:18,930
+y los transformers hoy en día
+
+512
+00:27:18,930 --> 00:27:19,790
+también están
+
+513
+00:27:19,790 --> 00:27:22,290
+revolucionando
+
+514
+00:27:22,290 --> 00:27:25,370
+son mucho más rápidos
+
+515
+00:27:25,370 --> 00:27:26,270
+son más livianos
+
+516
+00:27:26,270 --> 00:27:29,030
+pero
+
+517
+00:27:29,030 --> 00:27:31,810
+están pensados
+
+518
+00:27:31,810 --> 00:27:33,270
+para arquitectura más
+
+519
+00:27:33,270 --> 00:27:34,610
+multimodal, o sea cuando estoy
+
+520
+00:27:34,610 --> 00:27:41,430
+procesando textos, imágenes y otras fuentes, otros módulos de conocimiento.
+
+521
+00:27:41,430 --> 00:27:49,850
+Y así es como esto es gigante y se puede hacer una línea de tiempo de cómo cada modelo,
+
+522
+00:27:49,850 --> 00:27:53,310
+cada dos o tres años que está transformando Copyright Vision.
+
+523
+00:27:54,310 --> 00:27:58,970
+Algunas bases de datos gigantes que estamos ocupando, MS COCO para ocupar
+
+524
+00:27:58,970 --> 00:28:06,770
+con lo que va haciendo un formato imagen el cipher ten y match net son diferentes bases
+
+525
+00:28:06,770 --> 00:28:13,910
+de datos para aportando sobre toda la colaboración en comprensión mega face
+
+526
+00:28:13,910 --> 00:28:21,830
+human peo paus freckles de playa de human pausado para entrenar movimientos específicos de la
+
+527
+00:28:21,830 --> 00:28:29,510
+persona para que para poder paquetizar movimiento por ejemplo winds afines esto
+
+528
+00:28:31,110 --> 00:28:42,810
+fishing latín como paquetizar tanto cinemáticas también finalmente va a ser el recurso hay todos
+
+529
+00:28:42,810 --> 00:28:49,710
+tipos de estrategias para aumentar los datos data augmentation como por ejemplo documentación
+
+530
+00:28:49,710 --> 00:28:51,410
+geométricas, donde yo puedo
+
+531
+00:28:51,410 --> 00:28:53,970
+flipiando la imagen
+
+532
+00:28:53,970 --> 00:28:56,090
+agrandándola, achicándola
+
+533
+00:28:56,090 --> 00:28:57,790
+agrandándola, entregándole
+
+534
+00:28:57,790 --> 00:28:59,150
+otro brillo
+
+535
+00:28:59,150 --> 00:29:01,770
+para poder crear más datos
+
+536
+00:29:01,770 --> 00:29:03,870
+y así entrenar mejor mi modelo de Deep Learning
+
+537
+00:29:03,870 --> 00:29:07,680
+y finalmente
+
+538
+00:29:07,680 --> 00:29:09,340
+como conclusión
+
+539
+00:29:09,340 --> 00:29:12,280
+estos son los desafíos y limitancias
+
+540
+00:29:12,280 --> 00:29:14,160
+actuales de Computer Vision
+
+541
+00:29:14,160 --> 00:29:15,560
+los
+
+542
+00:29:15,560 --> 00:29:18,100
+consentimientos éticos y de
+
+543
+00:29:18,100 --> 00:29:18,480
+privacidad
+
+544
+00:29:18,480 --> 00:29:21,840
+la poca habilidad que tenemos
+
+545
+00:29:21,840 --> 00:29:31,560
+para sobrepasar la oclusión o vistas parciales, lo que le conté con el racismo de uva.
+
+546
+00:29:32,580 --> 00:29:36,940
+Mucha falta de contexto y entendimiento semántico de la imagen.
+
+547
+00:29:37,540 --> 00:29:39,980
+Todavía, resulta, nos falta mucho en el sentido.
+
+548
+00:29:41,140 --> 00:29:45,560
+Está muy sensible, resulta, a las condiciones de luz y la calidad de la imagen.
+
+549
+00:29:45,560 --> 00:30:01,940
+Y finalmente, como ya saben y se lo repetí y con esto cierro el círculo del curso, tenemos una limitada capacidad de que los modelos de Computer Vision funcionen en ambientes dinámicos y complejos.
+
+550
+00:30:02,960 --> 00:30:03,480
+Muchas gracias.
+

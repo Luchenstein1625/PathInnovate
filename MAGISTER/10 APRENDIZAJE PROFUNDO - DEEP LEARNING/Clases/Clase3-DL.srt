@@ -1,0 +1,7812 @@
+1
+00:00:02,420 --> 00:00:10,440
+Ya, ahí estamos grabando eso, por decirlo.
+
+2
+00:00:10,440 --> 00:00:11,440
+Ahí estamos grabando.
+
+3
+00:00:11,440 --> 00:00:14,440
+Entonces, ahí por mientras que terminan, ahí les puse...
+
+4
+00:00:14,440 --> 00:00:16,440
+Estamos en la misma transparencia.
+
+5
+00:00:16,440 --> 00:00:19,440
+Estamos, sí, habíamos quedado ahí en el ejemplo simple
+
+6
+00:00:19,440 --> 00:00:23,440
+y, como les decía, la idea aquí es ver
+
+7
+00:00:23,440 --> 00:00:28,440
+que también nos va a contratar de predecirse un ser humano,
+
+8
+00:00:28,440 --> 00:00:30,440
+tiene diabetes o no.
+
+9
+00:00:30,440 --> 00:00:32,440
+Sé que hay dos tipos, dos o tres tipos de diabetes,
+
+10
+00:00:32,440 --> 00:00:34,440
+no me acuerdo cuáles son los tipos de diabetes.
+
+11
+00:00:34,440 --> 00:00:36,440
+Pero pregunta si los puedes aceptar a los chicos.
+
+12
+00:00:36,440 --> 00:00:38,440
+Ah, todavía bien, perdón, ya.
+
+13
+00:00:38,440 --> 00:00:40,440
+El tiro.
+
+14
+00:00:40,440 --> 00:00:58,660
+Lo controlé en el suelo, no hayas ordenado.
+
+15
+00:00:58,660 --> 00:01:12,250
+Hay que decir que no han visto el limpio.
+
+16
+00:01:12,250 --> 00:01:14,250
+Voy a volver a probar el limpio por ese caso.
+
+17
+00:01:14,250 --> 00:01:18,300
+Ya.
+
+18
+00:01:18,300 --> 00:01:22,180
+Estoy proyectando, ¿verdad?
+
+19
+00:01:22,180 --> 00:01:24,180
+¿Están viendo mi pantalla?
+
+20
+00:01:24,180 --> 00:01:26,180
+Sí.
+
+21
+00:01:26,180 --> 00:01:29,180
+Entonces decía yo que veamos cómo nos va
+
+22
+00:01:29,180 --> 00:01:34,180
+con tratar de ver si persona tiene diabetes o no.
+
+23
+00:01:34,180 --> 00:01:36,180
+Ya.
+
+24
+00:01:36,180 --> 00:01:39,180
+Aquí uno tiene diabetes, cero no tiene diabetes,
+
+25
+00:01:39,180 --> 00:01:42,180
+diabetes utilizando un simple perceptron.
+
+26
+00:01:42,180 --> 00:01:44,180
+Entonces, como ustedes ya saben,
+
+27
+00:01:44,180 --> 00:01:46,180
+el perceptron solamente es capaz de lidiar
+
+28
+00:01:46,180 --> 00:01:50,180
+con boundary decision que sean lineales.
+
+29
+00:01:50,180 --> 00:01:52,180
+Por lo tanto, aquí la pregunta es,
+
+30
+00:01:52,180 --> 00:01:55,180
+daba esta característica de este data set
+
+31
+00:01:55,180 --> 00:01:57,180
+en donde vamos a tener un montón de características
+
+32
+00:01:57,180 --> 00:02:01,180
+de la persona, como edad, el índice masa corporal,
+
+33
+00:02:01,180 --> 00:02:03,180
+un montón de otras cosas más.
+
+34
+00:02:03,180 --> 00:02:05,180
+Es decir, saber cosas que no sabemos,
+
+35
+00:02:05,180 --> 00:02:07,180
+pero no sabríamos realmente,
+
+36
+00:02:07,180 --> 00:02:09,180
+digamos, a priori,
+
+37
+00:02:09,180 --> 00:02:12,180
+si realmente este problema es linealmente separable.
+
+38
+00:02:12,180 --> 00:02:14,180
+¿Saben cuenta que aquí es difícil verlo?
+
+39
+00:02:14,180 --> 00:02:16,180
+Porque no son dos variables,
+
+40
+00:02:16,180 --> 00:02:18,180
+son cuantas son, unas son ocho.
+
+41
+00:02:18,180 --> 00:02:20,180
+Tendríamos que, y aún así,
+
+42
+00:02:20,180 --> 00:02:22,180
+al quisiéramos un pesear,
+
+43
+00:02:22,180 --> 00:02:24,180
+un análisis componente principal,
+
+44
+00:02:24,180 --> 00:02:27,180
+o tratásemos de reducir esas ocho dimensiones a dos,
+
+45
+00:02:27,180 --> 00:02:30,180
+igual no tendríamos capacidad de ver
+
+46
+00:02:30,180 --> 00:02:33,180
+si realmente un problema que sea linealmente separable.
+
+47
+00:02:33,180 --> 00:02:36,180
+Entonces, aquí pasa lo que pasa en la vía real
+
+48
+00:02:36,180 --> 00:02:39,180
+en donde tenemos un problema que es simple de todas maneras,
+
+49
+00:02:39,180 --> 00:02:43,180
+pero no podemos saber si un simple perceptron
+
+50
+00:02:43,180 --> 00:02:45,180
+es capaz de lidiar con esto.
+
+51
+00:02:45,180 --> 00:02:47,180
+Pero de todas maneras, eso nos quita
+
+52
+00:02:47,180 --> 00:02:50,180
+quien no podamos probar y ver cómo lo hace.
+
+53
+00:02:50,180 --> 00:02:53,180
+Primero, se entiende el diagrama,
+
+54
+00:02:53,180 --> 00:02:56,180
+tenemos ahí el perceptron, la neurona,
+
+55
+00:02:56,180 --> 00:02:59,180
+en donde esta neurona está siendo
+
+56
+00:02:59,180 --> 00:03:02,180
+estimulada por ocho inputs,
+
+57
+00:03:02,180 --> 00:03:05,180
+que son los atributos de cada persona,
+
+58
+00:03:05,180 --> 00:03:08,180
+y entonces, ¿qué sería lo que reside?
+
+59
+00:03:08,180 --> 00:03:10,180
+Lo que siente esta neurona va a ser
+
+60
+00:03:10,180 --> 00:03:13,180
+wd1 por x1, la edad,
+
+61
+00:03:13,180 --> 00:03:17,180
+wd2 más, wd2 por el índice más corporal
+
+62
+00:03:17,180 --> 00:03:20,180
+de la persona, más wd3, etcétera.
+
+63
+00:03:20,180 --> 00:03:22,180
+Y como esto es un problema de clasificación,
+
+64
+00:03:22,180 --> 00:03:24,180
+ustedes ya saben
+
+65
+00:03:24,180 --> 00:03:26,180
+que el tipo de función de activación
+
+66
+00:03:26,180 --> 00:03:29,180
+que debiera tener esta neurona de salida
+
+67
+00:03:29,180 --> 00:03:31,180
+debiera ser una...
+
+68
+00:03:32,180 --> 00:03:33,180
+¿Cuál es?
+
+69
+00:03:33,180 --> 00:03:34,180
+Softmax.
+
+70
+00:03:34,180 --> 00:03:36,180
+Una softmax, ¿no es cierto?
+
+71
+00:03:36,180 --> 00:03:38,180
+Claro, términos teóricos
+
+72
+00:03:38,180 --> 00:03:40,180
+sirven un escalón, pero como esto
+
+73
+00:03:40,180 --> 00:03:42,180
+lo vamos a utilizar en la práctica
+
+74
+00:03:42,180 --> 00:03:44,180
+utilizándote el softflow
+
+75
+00:03:44,180 --> 00:03:46,180
+y va a hacer un entrenamiento de esto,
+
+76
+00:03:46,180 --> 00:03:48,180
+les vamos a colocar una función
+
+77
+00:03:48,180 --> 00:03:50,180
+de activación softmax, ¿vale?
+
+78
+00:03:50,180 --> 00:03:52,180
+Y lo agrase como yo le adelantaba
+
+79
+00:03:52,180 --> 00:03:54,180
+una función softmax, es que
+
+80
+00:03:54,180 --> 00:03:56,180
+esta función softmax, los resultados
+
+81
+00:03:56,180 --> 00:03:58,180
+siempre están entre 0 y 1,
+
+82
+00:03:58,180 --> 00:04:00,180
+lo cual nos permite darle una
+
+83
+00:04:00,180 --> 00:04:02,180
+interpretación probabilística a esto.
+
+84
+00:04:02,180 --> 00:04:04,180
+Entonces, si está muy cercano a el 1,
+
+85
+00:04:04,180 --> 00:04:06,180
+quiere decir que es más probable
+
+86
+00:04:06,180 --> 00:04:08,180
+que tenga diabetes, y si tiene
+
+87
+00:04:08,180 --> 00:04:10,180
+valores de un chico cercano a 0,
+
+88
+00:04:10,180 --> 00:04:12,180
+quiere decir que más probable
+
+89
+00:04:12,180 --> 00:04:14,180
+que no tenga diabetes
+
+90
+00:04:14,180 --> 00:04:16,180
+y el resulte la predicción
+
+91
+00:04:16,180 --> 00:04:18,180
+va a ser un 0, ¿ya?
+
+92
+00:04:18,180 --> 00:04:20,180
+Entonces, ¿cuál es el valor
+
+93
+00:04:20,180 --> 00:04:22,180
+de un chico? Bueno, obviamente
+
+94
+00:04:22,180 --> 00:04:24,180
+eso es lo que vamos a dejar
+
+95
+00:04:24,180 --> 00:04:26,180
+de que el algoritmo de Perceptron
+
+96
+00:04:26,180 --> 00:04:28,180
+de entrenamiento Perceptron lo encuentre
+
+97
+00:04:28,180 --> 00:04:30,180
+a través de este proceso de minimización.
+
+98
+00:04:30,180 --> 00:04:32,180
+¿La cat?
+
+99
+00:04:32,180 --> 00:04:34,180
+Aquí parecía alguien ahí
+
+100
+00:04:34,180 --> 00:04:36,180
+colado.
+
+101
+00:04:36,180 --> 00:04:38,180
+Es un multilayer Perceptron,
+
+102
+00:04:38,180 --> 00:04:40,180
+la respuesta
+
+103
+00:04:40,180 --> 00:04:42,180
+es no, el multilayer Perceptron
+
+104
+00:04:42,180 --> 00:04:44,180
+es cuando nosotros tenemos
+
+105
+00:04:44,180 --> 00:04:46,180
+más de un Perceptron, aquí solamente
+
+106
+00:04:46,180 --> 00:04:48,180
+tenemos uno, ¿ya?
+
+107
+00:04:48,180 --> 00:04:50,180
+Aquí la capa escondida es simplemente
+
+108
+00:04:50,180 --> 00:04:52,180
+la neurona
+
+109
+00:04:52,180 --> 00:04:54,180
+no, la única neurona que teníamos
+
+110
+00:04:54,180 --> 00:04:56,180
+vendía haciendo la
+
+111
+00:04:56,180 --> 00:04:58,180
+capa del trae y salía en el mismo tiempo, no hay nada.
+
+112
+00:04:58,180 --> 00:05:00,180
+La función de investigación
+
+113
+00:05:00,180 --> 00:05:02,180
+ya lo explicamos con max
+
+114
+00:05:02,180 --> 00:05:04,180
+¿Y cuál debería ser
+
+115
+00:05:04,180 --> 00:05:06,180
+la función de la medida
+
+116
+00:05:06,180 --> 00:05:08,180
+de desempeño? Es decir, el loss
+
+117
+00:05:08,180 --> 00:05:10,180
+¿Cuál debería ser?
+
+118
+00:05:10,180 --> 00:05:12,180
+Aquí
+
+119
+00:05:12,180 --> 00:05:14,180
+los dejo con 4-0
+
+120
+00:05:14,180 --> 00:05:16,180
+porque en realidad
+
+121
+00:05:16,180 --> 00:05:18,180
+es complicado corresponder
+
+122
+00:05:18,180 --> 00:05:23,830
+esa pregunta, ¿o no?
+
+123
+00:05:23,830 --> 00:05:25,830
+Habíamos visto una función
+
+124
+00:05:25,830 --> 00:05:27,830
+de pérdida y que se la había explicado
+
+125
+00:05:27,830 --> 00:05:29,830
+que era la famosa el RMC,
+
+126
+00:05:29,830 --> 00:05:31,830
+el root minus
+
+127
+00:05:31,830 --> 00:05:33,830
+cuál era.
+
+128
+00:05:33,830 --> 00:05:35,830
+Pero el root minus
+
+129
+00:05:35,830 --> 00:05:37,830
+cuál que lo quiera, es el
+
+130
+00:05:37,830 --> 00:05:39,830
+valor que predice, no es cierto, menos el tránsito
+
+131
+00:05:39,830 --> 00:05:41,830
+al cuadrado
+
+132
+00:05:41,830 --> 00:05:43,830
+y la sumatoria sobre todo
+
+133
+00:05:43,830 --> 00:05:45,830
+los valores.
+
+134
+00:05:45,830 --> 00:05:47,830
+Es el root, bueno,
+
+135
+00:05:47,830 --> 00:05:49,830
+y si es min, lo dividimos por la cantidad
+
+136
+00:05:49,830 --> 00:05:51,830
+de instancia que tenemos
+
+137
+00:05:51,830 --> 00:05:53,830
+lo dividimos por el.
+
+138
+00:05:53,830 --> 00:05:55,830
+Pero esta función de pérdida
+
+139
+00:05:55,830 --> 00:05:57,830
+podría ser utilizada acá
+
+140
+00:05:57,830 --> 00:05:59,830
+¿Qué opinan ustedes? ¿Cuál sería aquí?
+
+141
+00:05:59,830 --> 00:06:01,830
+¿Cómo es la cosa aquí?
+
+142
+00:06:01,830 --> 00:06:03,830
+¿Qué sería
+
+143
+00:06:03,830 --> 00:06:05,830
+los g y los t?
+
+144
+00:06:05,830 --> 00:06:09,720
+¿Está bien? ¿Qué creen ustedes
+
+145
+00:06:09,720 --> 00:06:11,720
+de utilizar esta función de pérdida
+
+146
+00:06:11,720 --> 00:06:17,820
+para evaluar? ¿Le hace sentido?
+
+147
+00:06:17,820 --> 00:06:19,820
+¿Se podría utilizar o no?
+
+148
+00:06:19,820 --> 00:06:30,840
+Parece que da lo mismo, no sé
+
+149
+00:06:30,840 --> 00:06:32,840
+porque la salían
+
+150
+00:06:32,840 --> 00:06:34,840
+¿Los valores reales cuáles son?
+
+151
+00:06:34,840 --> 00:06:36,840
+¿Los valores reales, los valores target
+
+152
+00:06:36,840 --> 00:06:38,840
+son 0's, 1's
+
+153
+00:06:38,840 --> 00:06:40,840
+¿Cierto? 0's, 1's
+
+154
+00:06:40,840 --> 00:06:42,840
+eso es lo que yo quiero decir, si tiene
+
+155
+00:06:42,840 --> 00:06:44,840
+o no tiene de ver.
+
+156
+00:06:44,840 --> 00:06:46,840
+Mientras que los Itungo, los hija
+
+157
+00:06:46,840 --> 00:06:48,840
+las predicciones
+
+158
+00:06:48,840 --> 00:06:50,840
+van a ser del estilo de que cosa.
+
+159
+00:06:50,840 --> 00:06:52,840
+¿Qué número van a salir aquí?
+
+160
+00:06:52,840 --> 00:06:54,840
+En 3, 0 y 1
+
+161
+00:06:54,840 --> 00:06:56,840
+Muy bien, en 3, 0 y 1
+
+162
+00:06:56,840 --> 00:06:58,840
+entonces puede salir un 0.1
+
+163
+00:06:58,840 --> 00:07:00,840
+puede salir un 0.08
+
+164
+00:07:00,840 --> 00:07:02,840
+puede salir un 0.5
+
+165
+00:07:02,840 --> 00:07:04,840
+entonces
+
+166
+00:07:04,840 --> 00:07:06,840
+si se dan cuenta
+
+167
+00:07:06,840 --> 00:07:08,840
+la pregunta que yo estoy haciendo
+
+168
+00:07:08,840 --> 00:07:10,840
+¿Puedo utilizar un root
+
+169
+00:07:10,840 --> 00:07:12,840
+un root minus square root?
+
+170
+00:07:12,840 --> 00:07:14,840
+¿Puedo utilizar simplemente una diferencia
+
+171
+00:07:14,840 --> 00:07:16,840
+al cuadrado del target
+
+172
+00:07:16,840 --> 00:07:18,840
+y el valor que me das esto?
+
+173
+00:07:18,840 --> 00:07:20,840
+¿Puedo utilizar los repletas 5?
+
+174
+00:07:20,840 --> 00:07:22,840
+Sí, sí, sí, sí
+
+175
+00:07:22,840 --> 00:07:24,840
+Pero nuevamente
+
+176
+00:07:24,840 --> 00:07:26,840
+hay gente que estaba esperando que los acepten
+
+177
+00:07:26,840 --> 00:07:28,840
+pero
+
+178
+00:07:28,840 --> 00:07:30,840
+gracias
+
+179
+00:07:30,840 --> 00:07:34,630
+gracias
+
+180
+00:07:34,630 --> 00:07:36,630
+no, te quedes a quitar
+
+181
+00:07:36,630 --> 00:07:38,630
+la raza la espera
+
+182
+00:07:38,630 --> 00:07:42,170
+ya
+
+183
+00:07:42,170 --> 00:07:44,170
+entonces
+
+184
+00:07:44,170 --> 00:07:47,580
+¿Alguien iba a decir algo?
+
+185
+00:07:47,580 --> 00:07:49,580
+No, no, eso
+
+186
+00:07:49,580 --> 00:07:51,580
+estaba hablando si se usa la pérdida
+
+187
+00:07:51,580 --> 00:07:53,580
+es a la cross entropy
+
+188
+00:07:53,580 --> 00:07:55,580
+Ah, ya
+
+189
+00:07:55,580 --> 00:07:57,580
+David, David, para si
+
+190
+00:07:57,580 --> 00:07:59,580
+Entonces, aquí ya les he hablado
+
+191
+00:07:59,580 --> 00:08:01,580
+que, dependiendo del problema
+
+192
+00:08:01,580 --> 00:08:03,580
+que yo tengo
+
+193
+00:08:03,580 --> 00:08:05,580
+voy a definir y tengo que seleccionar
+
+194
+00:08:05,580 --> 00:08:07,580
+cuál va a ser la función de p
+
+195
+00:08:07,580 --> 00:08:09,580
+la función de activación
+
+196
+00:08:09,580 --> 00:08:11,580
+que tengo que colocar
+
+197
+00:08:11,580 --> 00:08:13,580
+en la neurona de salida
+
+198
+00:08:13,580 --> 00:08:15,580
+de salida, tan claro
+
+199
+00:08:15,580 --> 00:08:17,580
+pero aparece otro tema
+
+200
+00:08:17,580 --> 00:08:19,580
+dependiendo del problema también
+
+201
+00:08:19,580 --> 00:08:21,580
+tengo que definir
+
+202
+00:08:21,580 --> 00:08:23,580
+y seleccionar la función
+
+203
+00:08:23,580 --> 00:08:25,580
+de pérdida con la cual yo voy a
+
+204
+00:08:25,580 --> 00:08:27,580
+evaluar el proceso de aprendizaje
+
+205
+00:08:27,580 --> 00:08:29,580
+no evaluar en la version más
+
+206
+00:08:29,580 --> 00:08:31,580
+sino que evaluar el proceso de aprendizaje
+
+207
+00:08:31,580 --> 00:08:33,580
+y decir
+
+208
+00:08:33,580 --> 00:08:35,580
+el proceso por el cual yo tengo que ir cambiando
+
+209
+00:08:35,580 --> 00:08:37,580
+los pesos sino aquí, ya
+
+210
+00:08:37,580 --> 00:08:39,580
+entonces, ¿Yo podría utilizar
+
+211
+00:08:39,580 --> 00:08:41,580
+root minus square error? Sí, lo podría utilizar
+
+212
+00:08:41,580 --> 00:08:43,580
+el único problema de esto
+
+213
+00:08:43,580 --> 00:08:45,580
+es que si yo utilizo
+
+214
+00:08:45,580 --> 00:08:47,580
+si yo saco directamente
+
+215
+00:08:47,580 --> 00:08:49,580
+estos valores, ya
+
+216
+00:08:49,580 --> 00:08:51,580
+¿Yo podría utilizar root minus square error? Sí
+
+217
+00:08:51,580 --> 00:08:53,580
+lo podría hacer, no hay problema
+
+218
+00:08:53,580 --> 00:08:55,580
+sin embargo, como este
+
+219
+00:08:55,580 --> 00:08:57,580
+es un problema de clasificación binario
+
+220
+00:08:57,580 --> 00:08:59,580
+no es un problema de regresión
+
+221
+00:08:59,580 --> 00:09:01,580
+estos valores que están aquí
+
+222
+00:09:01,580 --> 00:09:03,580
+como van a pasar
+
+223
+00:09:03,580 --> 00:09:05,580
+van a pasar por una misma idea
+
+224
+00:09:05,580 --> 00:09:07,580
+y después yo los tengo que discretizar
+
+225
+00:09:07,580 --> 00:09:09,580
+entonces, por ejemplo, si el
+
+226
+00:09:09,580 --> 00:09:11,580
+valor me da 0.9
+
+227
+00:09:11,580 --> 00:09:13,580
+esto en cuanto lo voy a convertir
+
+228
+00:09:13,580 --> 00:09:15,580
+¿Cuál será la predicción?
+
+229
+00:09:15,580 --> 00:09:17,580
+la predicción va a ser 1, ¿no?
+
+230
+00:09:17,580 --> 00:09:19,580
+y este 1 es el que tengo
+
+231
+00:09:19,580 --> 00:09:21,580
+que comparar con el target
+
+232
+00:09:21,580 --> 00:09:23,580
+pero, por ejemplo, si en otro caso
+
+233
+00:09:23,580 --> 00:09:25,580
+entre otra característica
+
+234
+00:09:25,580 --> 00:09:27,580
+otra persona y la máquina me dice
+
+235
+00:09:27,580 --> 00:09:29,580
+que tiene la salida
+
+236
+00:09:29,580 --> 00:09:31,580
+entrega, por ejemplo, 0.09
+
+237
+00:09:31,580 --> 00:09:33,580
+eso ¿Cómo lo voy a dejar?
+
+238
+00:09:33,580 --> 00:09:35,580
+lo voy a dejar en un 0, ¿verdad?
+
+239
+00:09:35,580 --> 00:09:37,580
+es decir, estos valores
+
+240
+00:09:37,580 --> 00:09:39,580
+estos valores de salida
+
+241
+00:09:39,580 --> 00:09:41,580
+de la neurona
+
+242
+00:09:41,580 --> 00:09:43,580
+a través de la función de activación
+
+243
+00:09:43,580 --> 00:09:45,580
+de alguna manera los tengo que finalizar
+
+244
+00:09:45,580 --> 00:09:47,580
+entonces, una manera de finalizarlo
+
+245
+00:09:47,580 --> 00:09:49,580
+de discretizarlo
+
+246
+00:09:49,580 --> 00:09:51,580
+es a través de un umbral
+
+247
+00:09:51,580 --> 00:09:53,580
+clásico, es decir, bueno, todo aquel valor
+
+248
+00:09:53,580 --> 00:09:55,580
+que está por arriba de 0.5
+
+249
+00:09:55,580 --> 00:09:57,580
+lo convierte en un 1
+
+250
+00:09:57,580 --> 00:09:59,580
+y todo valor que está por debajo de un 0.5
+
+251
+00:09:59,580 --> 00:10:01,580
+va a ser un 0
+
+252
+00:10:01,580 --> 00:10:03,580
+entonces, si yo utilizo eso
+
+253
+00:10:03,580 --> 00:10:05,580
+si yo voy a discretizar
+
+254
+00:10:05,580 --> 00:10:07,580
+voy a
+
+255
+00:10:07,580 --> 00:10:09,580
+discretizar las salidas
+
+256
+00:10:09,580 --> 00:10:11,580
+entonces, esta
+
+257
+00:10:11,580 --> 00:10:13,580
+función
+
+258
+00:10:13,580 --> 00:10:15,580
+de verde, al root minus square
+
+259
+00:10:15,580 --> 00:10:17,580
+error, como que ya
+
+260
+00:10:17,580 --> 00:10:19,580
+no le diga mucho a esa situación
+
+261
+00:10:19,580 --> 00:10:21,580
+si yo necesito
+
+262
+00:10:21,580 --> 00:10:23,580
+otra función de verde
+
+263
+00:10:23,580 --> 00:10:25,580
+que pueda aliviar con valores discretos
+
+264
+00:10:25,580 --> 00:10:27,580
+valores binarios
+
+265
+00:10:27,580 --> 00:10:29,580
+y una de ellas
+
+266
+00:10:29,580 --> 00:10:31,580
+la más conocida, la que más se usa
+
+267
+00:10:31,580 --> 00:10:33,580
+es la que efectivamente David
+
+268
+00:10:33,580 --> 00:10:35,580
+que parece que algunos conocen
+
+269
+00:10:35,580 --> 00:10:37,580
+es la famosa binary cross entropy
+
+270
+00:10:37,580 --> 00:10:39,580
+no voy a
+
+271
+00:10:39,580 --> 00:10:41,580
+entrar en detalles, después lo podemos ver
+
+272
+00:10:41,580 --> 00:10:43,580
+en la siguiente clase
+
+273
+00:10:43,580 --> 00:10:45,580
+como en la función, pero por lo pronto
+
+274
+00:10:45,580 --> 00:10:47,580
+pensar de que ya tenemos
+
+275
+00:10:47,580 --> 00:10:49,580
+los temas de arquitectura, de diseño
+
+276
+00:10:49,580 --> 00:10:51,580
+de redes neuronales, la primera
+
+277
+00:10:51,580 --> 00:10:53,580
+que función de investigación va a tener
+
+278
+00:10:53,580 --> 00:10:55,580
+la salida y que función
+
+279
+00:10:55,580 --> 00:10:57,580
+de error, que los voy a
+
+280
+00:10:57,580 --> 00:10:59,580
+colocar yo para poder evaluar
+
+281
+00:10:59,580 --> 00:11:01,580
+y ir haciendo el aprendizaje
+
+282
+00:11:01,580 --> 00:11:03,580
+eso es de evitar importancia porque
+
+283
+00:11:03,580 --> 00:11:05,580
+si yo cambio, si yo modifico la función
+
+284
+00:11:05,580 --> 00:11:07,580
+de verde, el resultado
+
+285
+00:11:07,580 --> 00:11:09,580
+es totalmente distinto
+
+286
+00:11:09,580 --> 00:11:11,580
+entonces, en este caso particular
+
+287
+00:11:11,580 --> 00:11:13,580
+con esos problemas de clasificación
+
+288
+00:11:13,580 --> 00:11:15,580
+binaria
+
+289
+00:11:15,580 --> 00:11:17,580
+la función de verde y amasa adecuada
+
+290
+00:11:17,580 --> 00:11:19,580
+sería una llamada
+
+291
+00:11:19,580 --> 00:11:21,580
+binary
+
+292
+00:11:21,580 --> 00:11:23,580
+binary cross entropy
+
+293
+00:11:23,580 --> 00:11:25,580
+y no el root minus square
+
+294
+00:11:25,580 --> 00:11:27,580
+no esto, ¿ya?
+
+295
+00:11:27,580 --> 00:11:31,210
+entonces
+
+296
+00:11:31,210 --> 00:11:33,210
+está respondida, y qué interpretación
+
+297
+00:11:33,210 --> 00:11:35,210
+le podemos dar a los pesos? bueno
+
+298
+00:11:35,210 --> 00:11:37,210
+acá
+
+299
+00:11:37,210 --> 00:11:39,210
+es una de las grandes desventajas
+
+300
+00:11:39,210 --> 00:11:41,210
+que yo le había comentado en la clase entera
+
+301
+00:11:41,210 --> 00:11:43,210
+que es una de las grandes desventajas de la red neuronales
+
+302
+00:11:43,210 --> 00:11:45,210
+que uno no tiene en cuenta la idea
+
+303
+00:11:45,210 --> 00:11:47,210
+que el diablo está pasando por dentro
+
+304
+00:11:47,210 --> 00:11:49,210
+para darle algún tipo de interpretación
+
+305
+00:11:49,210 --> 00:11:51,210
+yo le había comentado, no sé esto que
+
+306
+00:11:51,210 --> 00:11:53,210
+en un modelo de regresión lineal uno tiene el beta cero
+
+307
+00:11:53,210 --> 00:11:55,210
+más beta uno
+
+308
+00:11:55,210 --> 00:11:57,210
+multiplicado por equivo y que ese beta uno
+
+309
+00:11:57,210 --> 00:11:59,210
+representaba no sé esto
+
+310
+00:11:59,210 --> 00:12:01,210
+el coeficiente, la elasticidad
+
+311
+00:12:01,210 --> 00:12:03,210
+verdad
+
+312
+00:12:03,210 --> 00:12:05,210
+que tiene la variable explicativa
+
+313
+00:12:05,210 --> 00:12:07,210
+sobre la variable dependiente
+
+314
+00:12:07,210 --> 00:12:09,210
+pero acá en la red neuronale
+
+315
+00:12:09,210 --> 00:12:11,210
+no tiene sentido eso porque no hay una forma funcional
+
+316
+00:12:11,210 --> 00:12:13,210
+del modelo
+
+317
+00:12:13,210 --> 00:12:15,210
+en este caso en particular
+
+318
+00:12:15,210 --> 00:12:17,210
+en donde solamente tengo una neurona
+
+319
+00:12:17,210 --> 00:12:19,210
+y esa neurona se está conectando a través
+
+320
+00:12:19,210 --> 00:12:21,210
+de estos ocho pesos, aquí
+
+321
+00:12:21,210 --> 00:12:23,210
+si fíjense que es bastante más fácil
+
+322
+00:12:23,210 --> 00:12:25,210
+darle una interpretación a los pesos
+
+323
+00:12:25,210 --> 00:12:27,210
+por ejemplo, si este peso
+
+324
+00:12:27,210 --> 00:12:29,210
+el W1 resulta ser
+
+325
+00:12:29,210 --> 00:12:31,210
+muy, muy grande
+
+326
+00:12:31,210 --> 00:12:33,210
+en comparación al W8
+
+327
+00:12:33,210 --> 00:12:35,210
+¿qué podría significar eso?
+
+328
+00:12:35,210 --> 00:12:37,210
+¿qué interpretación le podría dar?
+
+329
+00:12:37,210 --> 00:12:39,210
+bueno, le podría dar la interpretación de que
+
+330
+00:12:39,210 --> 00:12:41,210
+la edad
+
+331
+00:12:41,210 --> 00:12:43,210
+es súper
+
+332
+00:12:43,210 --> 00:12:45,210
+en una variable condicionante
+
+333
+00:12:45,210 --> 00:12:47,210
+súper importante que pesa mucho
+
+334
+00:12:47,210 --> 00:12:49,210
+en determinar si la persona va
+
+335
+00:12:49,210 --> 00:12:51,210
+o no obtener diabetes
+
+336
+00:12:51,210 --> 00:12:53,210
+en comparación a esta otra variable
+
+337
+00:12:53,210 --> 00:12:55,210
+en esta caso si le podríamos
+
+338
+00:12:55,210 --> 00:12:57,210
+dar una interpretación
+
+339
+00:12:57,210 --> 00:12:59,210
+a los W, porque
+
+340
+00:12:59,210 --> 00:13:01,210
+el modelo es muy simple
+
+341
+00:13:01,210 --> 00:13:03,210
+en este caso no es alto
+
+342
+00:13:03,210 --> 00:13:05,210
+bueno, pues
+
+343
+00:13:05,210 --> 00:13:07,210
+entonces vayámonos a
+
+344
+00:13:07,210 --> 00:13:09,210
+ahora sí mucha chacha
+
+345
+00:13:09,210 --> 00:13:11,210
+vayámonos a Model Perceptron 1
+
+346
+00:13:11,210 --> 00:13:13,210
+me voy a ir para allá
+
+347
+00:13:13,210 --> 00:13:15,210
+entonces
+
+348
+00:13:15,210 --> 00:13:17,210
+en segundo para él
+
+349
+00:13:17,210 --> 00:13:19,210
+y estoy dirigiendo para allá
+
+350
+00:13:19,210 --> 00:13:27,320
+Model Perceptron 1
+
+351
+00:13:27,320 --> 00:13:41,100
+muy divertido
+
+352
+00:13:41,100 --> 00:13:43,100
+Model Perceptron 1
+
+353
+00:13:43,100 --> 00:13:45,100
+¿lo tienen ustedes disponibles?
+
+354
+00:13:45,100 --> 00:14:03,100
+¿que?
+
+355
+00:14:03,100 --> 00:14:05,100
+¿alguien me puede confirmar si ese modelo está en el Github
+
+356
+00:14:05,100 --> 00:14:13,720
+o está en algunas marcas
+
+357
+00:14:13,720 --> 00:14:15,720
+¿cómo se va a aparecer?
+
+358
+00:14:15,720 --> 00:14:17,720
+ahí está
+
+359
+00:14:17,720 --> 00:14:19,720
+Model Perceptron 1
+
+360
+00:14:19,720 --> 00:14:21,720
+el 1 si
+
+361
+00:14:21,720 --> 00:14:23,720
+que es el que hay que
+
+362
+00:14:25,720 --> 00:14:27,720
+oye, tener que yo entrar también al Github
+
+363
+00:14:27,720 --> 00:14:29,720
+porque no lo tengo a la mano
+
+364
+00:14:29,720 --> 00:14:31,720
+está en la clase 2 también
+
+365
+00:14:31,720 --> 00:14:33,720
+en la clase 1
+
+366
+00:14:33,720 --> 00:14:35,720
+ah, le diré que está en el web cursos
+
+367
+00:14:35,720 --> 00:14:39,030
+tiene razón, gracias por el recuerdo
+
+368
+00:14:39,030 --> 00:14:45,160
+ni yo me acuerdo
+
+369
+00:14:45,160 --> 00:14:47,160
+web cursos, ¿dónde está web cursos?
+
+370
+00:14:47,160 --> 00:15:10,410
+¿dónde está?
+
+371
+00:15:10,410 --> 00:15:36,470
+según ser bondadoso
+
+372
+00:15:36,470 --> 00:15:38,470
+puede subir ese web
+
+373
+00:15:38,470 --> 00:15:45,400
+lo subí al chat
+
+374
+00:15:45,400 --> 00:15:59,140
+gracias Jair
+
+375
+00:15:59,140 --> 00:16:44,150
+voy subiendo el archivo
+
+376
+00:16:44,150 --> 00:16:46,150
+y aquí debería haber, ya, aquí está
+
+377
+00:16:46,150 --> 00:16:55,320
+entonces, ahí deberían estar viendo
+
+378
+00:16:55,320 --> 00:16:57,320
+ya también lo deberían tener ustedes aquí
+
+379
+00:16:57,320 --> 00:16:59,320
+aquí utilizamos
+
+380
+00:16:59,320 --> 00:17:01,320
+Model Perceptron
+
+381
+00:17:01,320 --> 00:17:03,320
+que tendrá 8 atributos
+
+382
+00:17:03,320 --> 00:17:05,320
+de la
+
+383
+00:17:05,320 --> 00:17:07,320
+de los datos de salud de la persona
+
+384
+00:17:07,320 --> 00:17:09,320
+importamos sequential
+
+385
+00:17:09,320 --> 00:17:11,320
+dance igual que antes
+
+386
+00:17:11,320 --> 00:17:13,320
+y acá
+
+387
+00:17:13,320 --> 00:17:15,320
+hay como dos maneras
+
+388
+00:17:15,320 --> 00:17:17,320
+de importar los datos ya
+
+389
+00:17:17,320 --> 00:17:19,320
+una vez
+
+390
+00:17:19,320 --> 00:17:21,320
+una manera es
+
+391
+00:17:21,320 --> 00:17:23,320
+una manera
+
+392
+00:17:23,320 --> 00:17:25,320
+una manera es hacerlo mano
+
+393
+00:17:25,320 --> 00:17:27,320
+es decir, hacerlo acá
+
+394
+00:17:27,320 --> 00:17:29,320
+y colocarlo
+
+395
+00:17:29,320 --> 00:17:31,320
+hacerlo directamente acá
+
+396
+00:17:31,320 --> 00:17:33,320
+los datos están en el Github
+
+397
+00:17:33,320 --> 00:17:35,320
+o la otra manera
+
+398
+00:17:35,320 --> 00:17:37,320
+que es más rápida
+
+399
+00:17:37,320 --> 00:17:42,940
+y que veo que no está
+
+400
+00:17:42,940 --> 00:17:53,800
+aquí, no va a haber que hacerlo a mano
+
+401
+00:17:53,800 --> 00:17:55,800
+a mano o a mano más
+
+402
+00:17:55,800 --> 00:17:57,800
+es decir, este ser de datos
+
+403
+00:17:57,800 --> 00:17:59,800
+que en un archivo cc
+
+404
+00:17:59,800 --> 00:18:01,800
+hay que descargarlo
+
+405
+00:18:01,800 --> 00:18:03,800
+y colocarlo a mano
+
+406
+00:18:03,800 --> 00:18:09,770
+lo descargué y lo mandé por el
+
+407
+00:18:09,770 --> 00:18:11,770
+por el chat
+
+408
+00:18:11,770 --> 00:18:18,540
+fantástico
+
+409
+00:18:18,540 --> 00:18:28,760
+fantástico
+
+410
+00:18:28,760 --> 00:18:54,920
+pero aquí se llama Github
+
+411
+00:18:54,920 --> 00:18:56,920
+se llama Prima
+
+412
+00:18:56,920 --> 00:18:58,920
+yo lo descargué de Github
+
+413
+00:18:58,920 --> 00:19:00,920
+y se llama Prima
+
+414
+00:19:00,920 --> 00:19:02,920
+si, Prima
+
+415
+00:19:02,920 --> 00:19:04,920
+veamos el de Prima mejor ya
+
+416
+00:19:04,920 --> 00:19:11,270
+para que no
+
+417
+00:19:11,270 --> 00:19:13,270
+yo he descargado el que salió
+
+418
+00:19:13,270 --> 00:19:15,270
+y la instruccioné
+
+419
+00:19:15,270 --> 00:19:17,270
+ahí lo subí al chat profe
+
+420
+00:19:17,270 --> 00:19:19,270
+vale, gracias
+
+421
+00:19:19,270 --> 00:19:21,270
+igual deberían funcionar algo
+
+422
+00:19:21,270 --> 00:19:44,300
+estamos haciendo institutos
+
+423
+00:19:44,300 --> 00:19:46,300
+ya
+
+424
+00:19:46,300 --> 00:19:48,300
+entonces veamos que cargue esta cosa
+
+425
+00:19:48,300 --> 00:19:50,300
+si cargo los datos
+
+426
+00:19:50,300 --> 00:19:52,300
+no ten ustedes que el data set
+
+427
+00:19:52,300 --> 00:19:54,300
+viene en formato arra y directo
+
+428
+00:19:54,300 --> 00:19:56,300
+aquí un detalle, para
+
+429
+00:19:56,300 --> 00:19:58,300
+aquí uno
+
+430
+00:19:58,300 --> 00:20:00,300
+generalmente un trabajo con Pandas
+
+431
+00:20:00,300 --> 00:20:02,300
+DataFrame
+
+432
+00:20:02,300 --> 00:20:04,300
+en este caso le vamos
+
+433
+00:20:04,300 --> 00:20:06,300
+administrar los datos directamente en arre
+
+434
+00:20:06,300 --> 00:20:08,300
+que es lo que funciona
+
+435
+00:20:08,300 --> 00:20:10,300
+que eras
+
+436
+00:20:10,300 --> 00:20:12,300
+aquí estamos separando los archivutos
+
+437
+00:20:12,300 --> 00:20:14,300
+los features
+
+438
+00:20:14,300 --> 00:20:16,300
+de la variable clase
+
+439
+00:20:16,300 --> 00:20:18,300
+la última variable, la última columna
+
+440
+00:20:18,300 --> 00:20:20,300
+en la clase
+
+441
+00:20:20,300 --> 00:20:22,300
+que indica uno si tiene diabetes
+
+442
+00:20:22,300 --> 00:20:24,300
+o si no tiene y las primeras 8
+
+443
+00:20:24,300 --> 00:20:26,300
+son los
+
+444
+00:20:26,300 --> 00:20:28,300
+los vectores de atibuto
+
+445
+00:20:28,300 --> 00:20:30,300
+vale
+
+446
+00:20:30,300 --> 00:20:38,280
+sigue aquí
+
+447
+00:20:38,280 --> 00:20:40,280
+igual como les comentaba antes
+
+448
+00:20:40,280 --> 00:20:42,280
+inicializamos el modelo
+
+449
+00:20:42,280 --> 00:20:45,690
+secuencial
+
+450
+00:20:45,690 --> 00:20:47,690
+ya
+
+451
+00:20:47,690 --> 00:20:49,690
+aquí fíjense que aquí empiezan
+
+452
+00:20:49,690 --> 00:20:51,690
+a aparecer algunas cositas nuevas
+
+453
+00:20:51,690 --> 00:20:53,690
+por ejemplo ya a este modelo que estaba hacido
+
+454
+00:20:53,690 --> 00:20:55,690
+le vamos a agregar una capa
+
+455
+00:20:55,690 --> 00:20:57,690
+que en este caso fíjense que antes era uno
+
+456
+00:20:57,690 --> 00:20:59,690
+y aquí aparece 8
+
+457
+00:20:59,690 --> 00:21:01,690
+porque son 8
+
+458
+00:21:01,690 --> 00:21:03,690
+ahora van a ser un vector
+
+459
+00:21:03,690 --> 00:21:05,690
+de 8 que le vamos a ir colocando
+
+460
+00:21:05,690 --> 00:21:07,690
+y aquí aparece uno
+
+461
+00:21:07,690 --> 00:21:09,690
+porque acuérdense que estamos lidiando
+
+462
+00:21:09,690 --> 00:21:11,690
+solamente con un misero perceptor
+
+463
+00:21:11,690 --> 00:21:13,690
+una neurona
+
+464
+00:21:13,690 --> 00:21:15,690
+y aquí aparecen algunas cosas adicionales
+
+465
+00:21:15,690 --> 00:21:17,690
+por ejemplo acá le estoy diciendo
+
+466
+00:21:17,690 --> 00:21:19,690
+expresamente
+
+467
+00:21:19,690 --> 00:21:21,690
+el tipo de función de activación
+
+468
+00:21:21,690 --> 00:21:23,690
+que yo quiero
+
+469
+00:21:23,690 --> 00:21:25,690
+para este caso
+
+470
+00:21:25,690 --> 00:21:27,690
+en este caso en vez de una softmax
+
+471
+00:21:27,690 --> 00:21:29,690
+le estoy colocando una hard sigmoid
+
+472
+00:21:29,690 --> 00:21:31,690
+que significa eso
+
+473
+00:21:31,690 --> 00:21:33,690
+es una sigmoide
+
+474
+00:21:33,690 --> 00:21:35,690
+con la única diferencia de que
+
+475
+00:21:35,690 --> 00:21:37,690
+en vez de ser más suave cita
+
+476
+00:21:37,690 --> 00:21:39,690
+la pendiente un poquito más abrupta
+
+477
+00:21:39,690 --> 00:21:41,690
+sigue siendo diferenciable de igual
+
+478
+00:21:41,690 --> 00:21:43,690
+pero a diferencia de la sigmoide
+
+479
+00:21:43,690 --> 00:21:45,690
+que es más suave
+
+480
+00:21:45,690 --> 00:21:47,690
+está un poquito más parecida en este caso
+
+481
+00:21:47,690 --> 00:21:49,690
+a una escala ya
+
+482
+00:21:49,690 --> 00:21:51,690
+y adicionalmente
+
+483
+00:21:51,690 --> 00:21:53,690
+como argumento de entrada le estoy colocando
+
+484
+00:21:53,690 --> 00:21:55,690
+el tipo de inicialización
+
+485
+00:21:55,690 --> 00:21:57,690
+que yo quiero
+
+486
+00:21:57,690 --> 00:21:59,690
+para los pesos sinápticos
+
+487
+00:21:59,690 --> 00:22:01,690
+bueno en este caso cuántos pesos van a haber
+
+488
+00:22:01,690 --> 00:22:03,690
+9
+
+489
+00:22:03,690 --> 00:22:05,690
+porque son 8 pesos sinápticos
+
+490
+00:22:05,690 --> 00:22:07,690
+más en bias
+
+491
+00:22:07,690 --> 00:22:09,690
+y como yo le estoy diciendo random
+
+492
+00:22:09,690 --> 00:22:11,690
+uniform, lo estoy diciendo que
+
+493
+00:22:11,690 --> 00:22:13,690
+los pesos al inicio van a ser
+
+494
+00:22:13,690 --> 00:22:15,690
+sacados de una distribución uniforme
+
+495
+00:22:15,690 --> 00:22:17,690
+nada más que eso
+
+496
+00:22:17,690 --> 00:22:19,690
+vale
+
+497
+00:22:19,690 --> 00:22:21,690
+entonces como ven ustedes si uno se va
+
+498
+00:22:21,690 --> 00:22:23,690
+a hacer una ayuda de esto
+
+499
+00:22:23,690 --> 00:22:25,690
+del digamos valhub
+
+500
+00:22:25,690 --> 00:22:27,690
+de tensorflow que van a haber
+
+501
+00:22:27,690 --> 00:22:29,690
+que hay una montonera
+
+502
+00:22:29,690 --> 00:22:31,690
+de argumento de entrada
+
+503
+00:22:31,690 --> 00:22:33,690
+pero aquí uno tiene
+
+504
+00:22:33,690 --> 00:22:35,690
+bastante el grado de libertad
+
+505
+00:22:35,690 --> 00:22:37,690
+para diseñar lo que uno quiere
+
+506
+00:22:37,690 --> 00:22:39,690
+¿cuál sería la gracia
+
+507
+00:22:39,690 --> 00:22:41,690
+de usar un random uniform
+
+508
+00:22:41,690 --> 00:22:43,690
+se supone que la gracia es que
+
+509
+00:22:43,690 --> 00:22:45,690
+no
+
+510
+00:22:45,690 --> 00:22:47,690
+yo no sepa nada antes por cierto
+
+511
+00:22:47,690 --> 00:22:49,690
+sería como un np
+
+512
+00:22:49,690 --> 00:22:51,690
+con cero por puro cero ¿no?
+
+513
+00:22:51,690 --> 00:22:53,690
+también yo podría
+
+514
+00:22:53,690 --> 00:22:55,690
+inicializar con puro cero no hay problema con eso
+
+515
+00:22:55,690 --> 00:22:57,690
+a ver
+
+516
+00:22:57,690 --> 00:22:59,690
+en general no hay ninguna
+
+517
+00:22:59,690 --> 00:23:01,690
+gran maravilla
+
+518
+00:23:01,690 --> 00:23:03,690
+o sea no te va
+
+519
+00:23:03,690 --> 00:23:05,690
+a mover mucho como dicen ahora la aguja
+
+520
+00:23:05,690 --> 00:23:07,690
+no va a haber
+
+521
+00:23:07,690 --> 00:23:09,690
+una tremenda para este tipo de problemas
+
+522
+00:23:09,690 --> 00:23:11,690
+que son muy complicados
+
+523
+00:23:11,690 --> 00:23:13,690
+no va a haber mucha diferencia en que
+
+524
+00:23:13,690 --> 00:23:15,690
+comiencen con los pesos
+
+525
+00:23:15,690 --> 00:23:17,690
+distribuir de una manera o otra
+
+526
+00:23:17,690 --> 00:23:19,690
+realmente
+
+527
+00:23:19,690 --> 00:23:21,690
+por defecto
+
+528
+00:23:21,690 --> 00:23:23,690
+esto señaliza con valores
+
+529
+00:23:23,690 --> 00:23:25,690
+sacado de una distribución normal
+
+530
+00:23:25,690 --> 00:23:27,690
+pero en este caso
+
+531
+00:23:27,690 --> 00:23:29,690
+aquí yo estoy haciendo sacado de una distribución uniforme
+
+532
+00:23:29,690 --> 00:23:31,690
+el
+
+533
+00:23:31,690 --> 00:23:33,690
+0 y 1
+
+534
+00:23:33,690 --> 00:23:35,690
+y la verdad que
+
+535
+00:23:35,690 --> 00:23:37,690
+si tú me preguntas si eso va a ser una diferencia
+
+536
+00:23:37,690 --> 00:23:39,690
+al menos para este caso ninguna
+
+537
+00:23:39,690 --> 00:23:41,690
+pero para problemas que son muy complicados
+
+538
+00:23:41,690 --> 00:23:43,690
+que son en donde tengo
+
+539
+00:23:43,690 --> 00:23:45,690
+una gran cantidad de peso
+
+540
+00:23:45,690 --> 00:23:47,690
+tal vez y dependiendo del caso
+
+541
+00:23:47,690 --> 00:23:49,690
+tal vez la forma
+
+542
+00:23:49,690 --> 00:23:51,690
+en la forma en que yo inicializo los pesos
+
+543
+00:23:51,690 --> 00:23:53,690
+puede marcar la diferencia en el sentido de que
+
+544
+00:23:53,690 --> 00:23:55,690
+en el sentido de que yo
+
+545
+00:23:55,690 --> 00:23:57,690
+tal vez con algún tipo de
+
+546
+00:23:57,690 --> 00:23:59,690
+distribución
+
+547
+00:23:59,690 --> 00:24:01,690
+puedo colocar los pesos
+
+548
+00:24:01,690 --> 00:24:03,690
+que hace que el aprendizaje sea más rápido
+
+549
+00:24:03,690 --> 00:24:05,690
+es decir converja un poco más rápido
+
+550
+00:24:05,690 --> 00:24:07,690
+y ahí hay técnicas que hacen
+
+551
+00:24:07,690 --> 00:24:09,690
+un preentrenamiento
+
+552
+00:24:09,690 --> 00:24:11,690
+de la red neuronal y después cuando hacen
+
+553
+00:24:11,690 --> 00:24:13,690
+preentramiento esos pesos
+
+554
+00:24:13,690 --> 00:24:15,690
+saco y los coloco en la nueva red neuronal
+
+555
+00:24:15,690 --> 00:24:17,690
+y los coloco como un punto de partida
+
+556
+00:24:17,690 --> 00:24:19,690
+entonces ya deberías hacer cosas mucho más
+
+557
+00:24:19,690 --> 00:24:21,690
+reuscadas más que sí
+
+558
+00:24:21,690 --> 00:24:23,690
+pero entendí
+
+559
+00:24:23,690 --> 00:24:25,690
+pero entonces en el fondo eso igual permitiría
+
+560
+00:24:25,690 --> 00:24:27,690
+como optimizar la capacidad de cómputo
+
+561
+00:24:27,690 --> 00:24:29,690
+al partir con conocimiento previo
+
+562
+00:24:29,690 --> 00:24:31,690
+o que aquí yo quiero tener
+
+563
+00:24:31,690 --> 00:24:33,690
+info previa
+
+564
+00:24:33,690 --> 00:24:35,690
+para problemas que son muy grandes
+
+565
+00:24:35,690 --> 00:24:37,690
+muy difíciles sí
+
+566
+00:24:37,690 --> 00:24:39,690
+tener por ejemplo una pre inicialización de los pesos
+
+567
+00:24:39,690 --> 00:24:41,690
+podría ayudar a que converja más rápido
+
+568
+00:24:41,690 --> 00:24:43,690
+vale vale
+
+569
+00:24:45,690 --> 00:24:47,690
+entonces hemos generado
+
+570
+00:24:47,690 --> 00:24:49,690
+hemos cargado digamos
+
+571
+00:24:49,690 --> 00:24:51,690
+hemos inicializado el modelo con un perceptron
+
+572
+00:24:51,690 --> 00:24:53,690
+y lo otro acá
+
+573
+00:24:53,690 --> 00:24:55,690
+es que aquí yo estoy
+
+574
+00:24:55,690 --> 00:24:57,690
+esto ya voy a llamar algo adicional
+
+575
+00:24:57,690 --> 00:24:59,690
+pero aquí yo estoy definiendo aquí una función
+
+576
+00:24:59,690 --> 00:25:01,690
+para medir
+
+577
+00:25:01,690 --> 00:25:03,690
+el desempeño
+
+578
+00:25:03,690 --> 00:25:05,690
+y ojo con esto
+
+579
+00:25:05,690 --> 00:25:07,690
+voy a hacer una paréntesis
+
+580
+00:25:07,690 --> 00:25:09,690
+no se vayan a confundir
+
+581
+00:25:09,690 --> 00:25:11,690
+entre lo que es los
+
+582
+00:25:11,690 --> 00:25:13,690
+o sea la función de pérdida
+
+583
+00:25:13,690 --> 00:25:15,690
+que es la que uno utiliza para generar
+
+584
+00:25:15,690 --> 00:25:17,690
+el aprendizaje y que uno quiere minimizar
+
+585
+00:25:17,690 --> 00:25:19,690
+versus el desempeño
+
+586
+00:25:19,690 --> 00:25:21,690
+o perfumas
+
+587
+00:25:21,690 --> 00:25:23,690
+esto que estoy definiendo aquí
+
+588
+00:25:23,690 --> 00:25:25,690
+es una función para calcular
+
+589
+00:25:25,690 --> 00:25:27,690
+el recall que es una medida
+
+590
+00:25:27,690 --> 00:25:29,690
+de desempeño
+
+591
+00:25:29,690 --> 00:25:31,690
+es algo que yo mido para saber
+
+592
+00:25:31,690 --> 00:25:33,690
+que también lo hace
+
+593
+00:25:33,690 --> 00:25:35,690
+el modelo después de haber
+
+594
+00:25:35,690 --> 00:25:37,690
+aprendido
+
+595
+00:25:37,690 --> 00:25:39,690
+es distinto a la función de pérdida
+
+596
+00:25:39,690 --> 00:25:41,690
+la función de pérdida
+
+597
+00:25:41,690 --> 00:25:43,690
+es la función que yo utilizo
+
+598
+00:25:43,690 --> 00:25:45,690
+para que exista el aprendizaje
+
+599
+00:25:45,690 --> 00:25:47,690
+ya
+
+600
+00:25:47,690 --> 00:25:49,690
+son dos cosas distintas
+
+601
+00:25:49,690 --> 00:25:51,690
+vale, vamos a volver sobre eso madre
+
+602
+00:25:51,690 --> 00:25:53,690
+pero se lo voy adelantando porque es importante aquí
+
+603
+00:25:53,690 --> 00:25:55,690
+y lo único que estoy haciendo
+
+604
+00:25:55,690 --> 00:25:57,690
+es definir mi
+
+605
+00:25:57,690 --> 00:25:59,690
+mi propia
+
+606
+00:25:59,690 --> 00:26:01,690
+función de desempeño
+
+607
+00:26:01,690 --> 00:26:03,690
+que quieras también la tiene
+
+608
+00:26:03,690 --> 00:26:05,690
+tiene a carles y recall, f2
+
+609
+00:26:05,690 --> 00:26:07,690
+y yo estoy definiendo ahora
+
+610
+00:26:07,690 --> 00:26:09,690
+mi propio recall
+
+611
+00:26:09,690 --> 00:26:11,690
+después
+
+612
+00:26:11,690 --> 00:26:13,690
+como después tengo que compilar
+
+613
+00:26:13,690 --> 00:26:15,690
+un cierto model compile
+
+614
+00:26:15,690 --> 00:26:17,690
+y miren ustedes fíjense se dan cuenta
+
+615
+00:26:17,690 --> 00:26:19,690
+ahí le estoy colocando
+
+616
+00:26:19,690 --> 00:26:21,690
+directamente
+
+617
+00:26:21,690 --> 00:26:23,690
+con los dedos de la mano
+
+618
+00:26:23,690 --> 00:26:25,690
+tuve que escribir binary cross entropy
+
+619
+00:26:25,690 --> 00:26:27,690
+no cualquier otra función
+
+620
+00:26:27,690 --> 00:26:29,690
+porque es un problema de clasificación binaria
+
+621
+00:26:29,690 --> 00:26:31,690
+vale
+
+622
+00:26:31,690 --> 00:26:33,690
+y entonces defino la función de pérdida
+
+623
+00:26:33,690 --> 00:26:35,690
+la estoy diciendo el optimizador
+
+624
+00:26:35,690 --> 00:26:37,690
+hay varios tipos de optimizador
+
+625
+00:26:37,690 --> 00:26:39,690
+y adicionalmente le estoy colocando
+
+626
+00:26:39,690 --> 00:26:41,690
+que vaya midiendo
+
+627
+00:26:41,690 --> 00:26:43,690
+como función de desempeño en la currency
+
+628
+00:26:43,690 --> 00:26:45,690
+y mi propia función de desempeño
+
+629
+00:26:45,690 --> 00:26:47,690
+esto solamente lo coloco
+
+630
+00:26:47,690 --> 00:26:49,690
+para mencionar que si alguien
+
+631
+00:26:49,690 --> 00:26:51,690
+alguien que sea
+
+632
+00:26:51,690 --> 00:26:53,690
+por ejemplo, de repente alguien necesita medir una función
+
+633
+00:26:53,690 --> 00:26:55,690
+de desempeño que no está incluida
+
+634
+00:26:55,690 --> 00:26:57,690
+en el
+
+635
+00:26:57,690 --> 00:26:59,690
+en el módulo
+
+636
+00:26:59,690 --> 00:27:01,690
+o muy rara, muy re buscada
+
+637
+00:27:01,690 --> 00:27:03,690
+y la puedes colocar dentro
+
+638
+00:27:03,690 --> 00:27:05,690
+de la médica
+
+639
+00:27:05,690 --> 00:27:07,690
+es muy raro que ocurra eso
+
+640
+00:27:07,690 --> 00:27:09,690
+pero una cosa es
+
+641
+00:27:09,690 --> 00:27:11,690
+que se puede hacer
+
+642
+00:27:11,690 --> 00:27:13,690
+bueno, entonces
+
+643
+00:27:13,690 --> 00:27:15,690
+listo
+
+644
+00:27:15,690 --> 00:27:17,690
+y aquí en la parte entretenida
+
+645
+00:27:17,690 --> 00:27:19,690
+y aquí viene el proceso
+
+646
+00:27:19,690 --> 00:27:21,690
+del algoritmo aprendizaje que ya la expliqué
+
+647
+00:27:21,690 --> 00:27:23,690
+aquí aparecen cositas nuevas
+
+648
+00:27:23,690 --> 00:27:25,690
+entonces aquí colocan todos los predictores
+
+649
+00:27:25,690 --> 00:27:27,690
+la variable target
+
+650
+00:27:27,690 --> 00:27:29,690
+y aquí aparecen las famosas
+
+651
+00:27:29,690 --> 00:27:31,690
+las confusiones
+
+652
+00:27:31,690 --> 00:27:33,690
+el epochs
+
+653
+00:27:33,690 --> 00:27:35,690
+y batch size
+
+654
+00:27:35,690 --> 00:27:37,690
+que lo que es epochs
+
+655
+00:27:37,690 --> 00:27:39,690
+el epochs es la cantidad de veces
+
+656
+00:27:39,690 --> 00:27:41,690
+la cantidad de iteraciones que yo quiero
+
+657
+00:27:41,690 --> 00:27:43,690
+que genesis digamos la cantidad de veces
+
+658
+00:27:43,690 --> 00:27:45,690
+que yo quiero que se actualicen
+
+659
+00:27:45,690 --> 00:27:47,690
+los pesos
+
+660
+00:27:47,690 --> 00:27:49,690
+yo le coloco 25
+
+661
+00:27:49,690 --> 00:27:51,690
+que estoy diciendo que van a haber
+
+662
+00:27:51,690 --> 00:27:53,690
+van a haber 225
+
+663
+00:27:53,690 --> 00:27:55,690
+225
+
+664
+00:27:55,690 --> 00:27:57,690
+actualizaciones de esos 9 besos
+
+665
+00:27:57,690 --> 00:27:59,690
+que mucho, poco, no lo sé
+
+666
+00:27:59,690 --> 00:28:01,690
+hay que partir con algo
+
+667
+00:28:01,690 --> 00:28:03,690
+después viene algo que se llama
+
+668
+00:28:03,690 --> 00:28:05,690
+el batch size
+
+669
+00:28:05,690 --> 00:28:07,690
+que creo que también algo le habíamos comentado en la clase basada
+
+670
+00:28:07,690 --> 00:28:09,690
+el batch size
+
+671
+00:28:09,690 --> 00:28:11,690
+es la cantidad
+
+672
+00:28:11,690 --> 00:28:13,690
+el tamaño de la cuchara
+
+673
+00:28:13,690 --> 00:28:15,690
+es cierto que la
+
+674
+00:28:15,690 --> 00:28:17,690
+que la máquina va a tener que diger
+
+675
+00:28:17,690 --> 00:28:19,690
+si yo coloco 1
+
+676
+00:28:19,690 --> 00:28:21,690
+que va a pasar
+
+677
+00:28:21,690 --> 00:28:23,690
+si yo coloco 1 va a entrar de alguna instancia
+
+678
+00:28:23,690 --> 00:28:25,690
+va a entrar una persona
+
+679
+00:28:25,690 --> 00:28:27,690
+va a entrar un vector de 8
+
+680
+00:28:27,690 --> 00:28:29,690
+8 valores
+
+681
+00:28:29,690 --> 00:28:31,690
+esto 1
+
+682
+00:28:31,690 --> 00:28:33,690
+entonces por cada
+
+683
+00:28:33,690 --> 00:28:35,690
+por cada actualización del peso
+
+684
+00:28:35,690 --> 00:28:37,690
+esa actualización del peso
+
+685
+00:28:37,690 --> 00:28:39,690
+se generó o se produjo con solamente
+
+686
+00:28:39,690 --> 00:28:41,690
+una instancia
+
+687
+00:28:41,690 --> 00:28:43,690
+pero como yo estoy colocando aquí
+
+688
+00:28:43,690 --> 00:28:45,690
+batch size tamaño 100
+
+689
+00:28:45,690 --> 00:28:47,690
+cada actualización
+
+690
+00:28:47,690 --> 00:28:49,690
+de peso se hace no con una instancia
+
+691
+00:28:49,690 --> 00:28:51,690
+sino que con 100
+
+692
+00:28:51,690 --> 00:28:53,690
+y eso es mucho mejor
+
+693
+00:28:53,690 --> 00:28:55,690
+porque acuernes a usted que
+
+694
+00:28:55,690 --> 00:28:57,690
+si yo voy colocando la de alguna
+
+695
+00:28:57,690 --> 00:28:59,690
+no sé esto va a haber errores de medición
+
+696
+00:28:59,690 --> 00:29:01,690
+un ruido y el proceso de aprendizaje
+
+697
+00:29:01,690 --> 00:29:03,690
+va a ser un poquito más
+
+698
+00:29:03,690 --> 00:29:05,690
+verquehorajado, va a ser un poquito más oscilante
+
+699
+00:29:05,690 --> 00:29:07,690
+entonces el hecho de que
+
+700
+00:29:07,690 --> 00:29:09,690
+yo
+
+701
+00:29:09,690 --> 00:29:11,690
+la digestión
+
+702
+00:29:11,690 --> 00:29:13,690
+el proceso de gestión
+
+703
+00:29:13,690 --> 00:29:15,690
+de la máquina sea con cuchara
+
+704
+00:29:15,690 --> 00:29:17,690
+más grande permite
+
+705
+00:29:17,690 --> 00:29:19,690
+que el proceso de aprendizaje
+
+706
+00:29:19,690 --> 00:29:21,690
+o la visualización
+
+707
+00:29:21,690 --> 00:29:23,690
+de la curva de aprendizaje
+
+708
+00:29:23,690 --> 00:29:25,690
+de este los que tiene que ir disminuyendo
+
+709
+00:29:25,690 --> 00:29:27,690
+sea más suave
+
+710
+00:29:27,690 --> 00:29:29,690
+y adicionalmente
+
+711
+00:29:29,690 --> 00:29:31,690
+le estoy colocando acá
+
+712
+00:29:31,690 --> 00:29:33,690
+on the fly
+
+713
+00:29:33,690 --> 00:29:35,690
+le estoy diciendo
+
+714
+00:29:35,690 --> 00:29:37,690
+compadre usted cuando vaya aprendiendo
+
+715
+00:29:37,690 --> 00:29:39,690
+cuando vaya generando el aprendizaje
+
+716
+00:29:39,690 --> 00:29:41,690
+vaya dividiendo
+
+717
+00:29:41,690 --> 00:29:43,690
+el set de datos en dos partes
+
+718
+00:29:43,690 --> 00:29:45,690
+en un set de entrenamiento
+
+719
+00:29:45,690 --> 00:29:47,690
+vamos para entrenar la máquina
+
+720
+00:29:47,690 --> 00:29:49,690
+y en un set de testeo
+
+721
+00:29:49,690 --> 00:29:51,690
+o validación que le dicen aquí
+
+722
+00:29:51,690 --> 00:29:53,690
+del 20%
+
+723
+00:29:53,690 --> 00:29:55,690
+que me va a poder servir para poder
+
+724
+00:29:55,690 --> 00:29:57,690
+medir el desempeño
+
+725
+00:29:57,690 --> 00:29:59,690
+el desempeño a decir acá
+
+726
+00:29:59,690 --> 00:30:01,690
+decir un recall sobre
+
+727
+00:30:01,690 --> 00:30:03,690
+este set de datos chiquititos que no
+
+728
+00:30:03,690 --> 00:30:05,690
+fue utilizado en el entrenamiento
+
+729
+00:30:05,690 --> 00:30:07,690
+ya
+
+730
+00:30:07,690 --> 00:30:09,690
+se den 50 que aquí
+
+731
+00:30:09,690 --> 00:30:11,690
+están pasando una cantidad
+
+732
+00:30:11,690 --> 00:30:13,690
+una gran cantidad de costura
+
+733
+00:30:13,690 --> 00:30:15,690
+varias cosas están pasando en memoria
+
+734
+00:30:15,690 --> 00:30:17,690
+ya
+
+735
+00:30:17,690 --> 00:30:19,690
+ya ustedes deben hacer el correo
+
+736
+00:30:19,690 --> 00:30:21,690
+que se han cerrado ya
+
+737
+00:30:21,690 --> 00:30:23,690
+y no define
+
+738
+00:30:23,690 --> 00:30:25,690
+ya soy
+
+739
+00:30:25,690 --> 00:30:29,580
+me faltó correr esto
+
+740
+00:30:29,580 --> 00:30:31,580
+y
+
+741
+00:30:31,580 --> 00:30:36,300
+sí, sí, sí
+
+742
+00:30:36,300 --> 00:30:39,640
+y ahora qué
+
+743
+00:30:39,640 --> 00:30:41,640
+parece que me saqué
+
+744
+00:30:41,640 --> 00:30:43,640
+algún paso
+
+745
+00:30:43,640 --> 00:30:47,370
+se lo corre
+
+746
+00:30:47,370 --> 00:30:49,370
+está bien
+
+747
+00:30:49,370 --> 00:30:51,370
+también me está dando error
+
+748
+00:30:51,370 --> 00:30:53,370
+si
+
+749
+00:30:53,370 --> 00:30:55,370
+la 12 me da error
+
+750
+00:30:55,370 --> 00:30:58,900
+a veces cambien las versiones
+
+751
+00:30:58,900 --> 00:31:00,900
+cambien las versiones
+
+752
+00:31:00,900 --> 00:31:02,900
+estas cosas
+
+753
+00:31:02,900 --> 00:31:04,900
+para que den de datos
+
+754
+00:31:04,900 --> 00:31:06,900
+sí
+
+755
+00:31:06,900 --> 00:31:08,900
+y ahí pasa esto
+
+756
+00:31:08,900 --> 00:31:10,900
+a ver
+
+757
+00:31:10,900 --> 00:31:15,880
+error raro
+
+758
+00:31:15,880 --> 00:31:17,880
+no pasa en el puto
+
+759
+00:31:17,880 --> 00:31:39,430
+que nos dice
+
+760
+00:31:39,430 --> 00:31:46,620
+que nos dice
+
+761
+00:31:46,620 --> 00:31:48,620
+que nos dice
+
+762
+00:31:48,620 --> 00:31:52,180
+que nos dice
+
+763
+00:31:52,180 --> 00:31:54,180
+que nos dice
+
+764
+00:31:54,180 --> 00:31:56,180
+que nos dice
+
+765
+00:31:56,180 --> 00:32:03,880
+que nos dice
+
+766
+00:32:03,880 --> 00:32:17,370
+que nos dice
+
+767
+00:32:17,370 --> 00:32:19,370
+que nos dice
+
+768
+00:32:19,370 --> 00:32:22,970
+que nos dice
+
+769
+00:32:22,970 --> 00:32:24,970
+que nos dice
+
+770
+00:32:24,970 --> 00:32:26,970
+que nos dice
+
+771
+00:32:26,970 --> 00:32:28,970
+que nos dice
+
+772
+00:32:28,970 --> 00:32:32,340
+que nos dice
+
+773
+00:32:32,340 --> 00:32:34,340
+que nos dice
+
+774
+00:32:34,340 --> 00:32:36,340
+que nos dice
+
+775
+00:32:36,340 --> 00:32:38,340
+que nos dice
+
+776
+00:32:38,340 --> 00:32:40,340
+que nos dice
+
+777
+00:32:40,340 --> 00:32:42,340
+que nos dice
+
+778
+00:32:42,340 --> 00:32:44,340
+que nos dice
+
+779
+00:32:44,340 --> 00:32:46,340
+que nos dice
+
+780
+00:32:46,340 --> 00:32:48,340
+que nos dice
+
+781
+00:32:48,340 --> 00:32:50,340
+que nos dice
+
+782
+00:32:50,340 --> 00:32:52,340
+que nos dice
+
+783
+00:32:52,340 --> 00:32:54,340
+que nos dice
+
+784
+00:32:54,340 --> 00:32:56,340
+que nos dice
+
+785
+00:32:56,340 --> 00:32:58,340
+que nos dice
+
+786
+00:32:58,340 --> 00:33:00,340
+que nos dice
+
+787
+00:33:00,340 --> 00:33:02,340
+que nos dice
+
+788
+00:33:02,340 --> 00:33:28,440
+que nos dice
+
+789
+00:33:28,440 --> 00:33:30,440
+que nos dice
+
+790
+00:33:30,440 --> 00:33:32,440
+que nos dice
+
+791
+00:33:32,440 --> 00:33:34,440
+que nos dice
+
+792
+00:33:34,440 --> 00:33:36,440
+que nos dice
+
+793
+00:33:36,440 --> 00:33:38,440
+que nos dice
+
+794
+00:33:38,440 --> 00:33:40,440
+que nos dice
+
+795
+00:33:40,440 --> 00:33:42,440
+que nos dice
+
+796
+00:33:42,440 --> 00:33:44,440
+que nos dice
+
+797
+00:33:44,440 --> 00:33:46,440
+que nos dice
+
+798
+00:33:46,440 --> 00:33:53,270
+que nos dice
+
+799
+00:33:53,270 --> 00:34:21,830
+que nos dice
+
+800
+00:34:21,830 --> 00:34:23,830
+que nos dice
+
+801
+00:34:23,830 --> 00:34:25,830
+que nos dice
+
+802
+00:34:25,830 --> 00:34:27,830
+que nos dice
+
+803
+00:34:27,830 --> 00:34:29,830
+que nos dice
+
+804
+00:34:29,830 --> 00:34:31,830
+que nos dice
+
+805
+00:34:31,830 --> 00:34:33,830
+que nos dice
+
+806
+00:34:33,830 --> 00:34:42,200
+que nos dice
+
+807
+00:34:42,200 --> 00:34:44,200
+que nos dice
+
+808
+00:34:44,200 --> 00:34:48,440
+que nos dice
+
+809
+00:34:48,440 --> 00:34:50,440
+que nos dice
+
+810
+00:34:50,440 --> 00:34:52,440
+que nos dice
+
+811
+00:34:54,440 --> 00:34:56,440
+que nos dice
+
+812
+00:34:56,440 --> 00:35:12,260
+que nos dice
+
+813
+00:35:12,260 --> 00:35:14,260
+que nos dice
+
+814
+00:35:14,260 --> 00:35:16,260
+que nos dice
+
+815
+00:35:16,260 --> 00:35:18,260
+que nos dice
+
+816
+00:35:18,260 --> 00:35:20,260
+que nos dice
+
+817
+00:35:20,260 --> 00:35:22,260
+que nos dice
+
+818
+00:35:22,260 --> 00:35:24,260
+que nos dice
+
+819
+00:35:24,260 --> 00:35:26,260
+que nos dice
+
+820
+00:35:26,260 --> 00:35:28,260
+que nos dice
+
+821
+00:35:28,260 --> 00:35:30,260
+que nos dice
+
+822
+00:35:30,260 --> 00:35:32,260
+que nos dice
+
+823
+00:35:32,260 --> 00:35:34,260
+que nos dice
+
+824
+00:35:34,260 --> 00:35:41,960
+que nos dice
+
+825
+00:35:41,960 --> 00:35:43,960
+que nos dice
+
+826
+00:35:43,960 --> 00:35:45,960
+que nos dice
+
+827
+00:35:45,960 --> 00:35:49,370
+que nos dice
+
+828
+00:35:49,370 --> 00:36:14,860
+que nos dice
+
+829
+00:36:14,860 --> 00:36:16,860
+que nos dice
+
+830
+00:36:16,860 --> 00:36:18,860
+que nos dice
+
+831
+00:36:18,860 --> 00:36:20,860
+que nos dice
+
+832
+00:36:20,860 --> 00:36:22,860
+que nos dice
+
+833
+00:36:22,860 --> 00:36:33,340
+que nos dice
+
+834
+00:36:33,340 --> 00:36:35,340
+que nos dice
+
+835
+00:36:35,340 --> 00:36:37,340
+que nos dice
+
+836
+00:36:37,340 --> 00:36:39,340
+que nos dice
+
+837
+00:36:39,340 --> 00:36:41,340
+que nos dice
+
+838
+00:36:41,340 --> 00:36:43,340
+que nos dice
+
+839
+00:36:43,340 --> 00:36:45,340
+que nos dice
+
+840
+00:36:45,340 --> 00:36:57,580
+que nos dice
+
+841
+00:36:57,580 --> 00:36:59,580
+que nos dice
+
+842
+00:36:59,580 --> 00:37:01,580
+que nos dice
+
+843
+00:37:01,580 --> 00:37:53,020
+que nos dice
+
+844
+00:37:53,020 --> 00:37:55,020
+que nos dice
+
+845
+00:37:55,020 --> 00:37:57,020
+que nos dice
+
+846
+00:37:57,020 --> 00:37:59,020
+que nos dice
+
+847
+00:37:59,020 --> 00:38:01,020
+que nos dice
+
+848
+00:38:01,020 --> 00:38:03,020
+que nos dice
+
+849
+00:38:03,020 --> 00:38:07,000
+que nos dice
+
+850
+00:38:07,000 --> 00:38:09,000
+que nos dice
+
+851
+00:38:09,000 --> 00:38:11,000
+que nos dice
+
+852
+00:38:11,000 --> 00:38:16,900
+que nos dice
+
+853
+00:38:16,900 --> 00:38:20,920
+que nos dice
+
+854
+00:38:20,920 --> 00:38:22,920
+que nos dice
+
+855
+00:38:22,920 --> 00:38:33,850
+que nos dice
+
+856
+00:38:33,850 --> 00:38:50,410
+que nos dice
+
+857
+00:38:50,410 --> 00:38:52,410
+que nos dice
+
+858
+00:38:52,410 --> 00:38:54,410
+que nos dice
+
+859
+00:38:54,410 --> 00:38:56,410
+que nos dice
+
+860
+00:38:56,410 --> 00:38:58,410
+que nos dice
+
+861
+00:38:58,410 --> 00:39:00,410
+que nos dice
+
+862
+00:39:00,410 --> 00:39:02,410
+que nos dice
+
+863
+00:39:02,410 --> 00:39:06,070
+que nos dice
+
+864
+00:39:06,070 --> 00:39:08,070
+que nos dice
+
+865
+00:39:08,070 --> 00:39:10,070
+que nos dice
+
+866
+00:39:10,070 --> 00:39:12,070
+que nos dice
+
+867
+00:39:12,070 --> 00:39:14,070
+que nos dice
+
+868
+00:39:14,070 --> 00:39:17,540
+que nos dice
+
+869
+00:39:17,540 --> 00:39:19,540
+que nos dice
+
+870
+00:39:19,540 --> 00:39:21,540
+que nos dice
+
+871
+00:39:21,540 --> 00:39:24,860
+que nos dice
+
+872
+00:39:24,860 --> 00:39:26,860
+que nos dice
+
+873
+00:39:26,860 --> 00:39:28,860
+que nos dice
+
+874
+00:39:28,860 --> 00:39:33,350
+que nos dice
+
+875
+00:39:33,350 --> 00:39:35,350
+que nos dice
+
+876
+00:39:35,350 --> 00:39:37,350
+que nos dice
+
+877
+00:39:37,350 --> 00:39:40,820
+que nos dice
+
+878
+00:39:40,820 --> 00:39:42,820
+que nos dice
+
+879
+00:39:42,820 --> 00:39:44,820
+que nos dice
+
+880
+00:39:44,820 --> 00:39:46,820
+que nos dice
+
+881
+00:39:46,820 --> 00:39:48,820
+que nos dice
+
+882
+00:39:48,820 --> 00:39:50,820
+que nos dice
+
+883
+00:39:50,820 --> 00:39:52,820
+que nos dice
+
+884
+00:39:52,820 --> 00:39:54,820
+que nos dice
+
+885
+00:39:54,820 --> 00:39:56,820
+que nos dice
+
+886
+00:39:56,820 --> 00:40:03,780
+que nos dice
+
+887
+00:40:03,780 --> 00:40:05,780
+que nos dice
+
+888
+00:40:05,780 --> 00:40:07,780
+que nos dice
+
+889
+00:40:07,780 --> 00:40:09,780
+que nos dice
+
+890
+00:40:09,780 --> 00:40:11,780
+que nos dice
+
+891
+00:40:11,780 --> 00:40:13,780
+que nos dice
+
+892
+00:40:13,780 --> 00:40:17,260
+que nos dice
+
+893
+00:40:17,260 --> 00:40:19,260
+que nos dice
+
+894
+00:40:19,260 --> 00:40:21,260
+que nos dice
+
+895
+00:40:21,260 --> 00:40:23,260
+que nos dice
+
+896
+00:40:23,260 --> 00:40:25,260
+que nos dice
+
+897
+00:40:25,260 --> 00:40:27,260
+que nos dice
+
+898
+00:40:27,260 --> 00:40:29,260
+que nos dice
+
+899
+00:40:29,260 --> 00:40:31,260
+que nos dice
+
+900
+00:40:31,260 --> 00:40:33,260
+que nos dice
+
+901
+00:40:33,260 --> 00:40:36,760
+que nos dice
+
+902
+00:40:36,760 --> 00:40:38,760
+que nos dice
+
+903
+00:40:38,760 --> 00:40:40,760
+que nos dice
+
+904
+00:40:40,760 --> 00:40:42,760
+que nos dice
+
+905
+00:40:42,760 --> 00:40:49,370
+que nos dice
+
+906
+00:40:49,370 --> 00:40:51,370
+que nos dice
+
+907
+00:40:51,370 --> 00:40:53,370
+que nos dice
+
+908
+00:40:53,370 --> 00:40:55,370
+que nos dice
+
+909
+00:40:55,370 --> 00:40:57,370
+que nos dice
+
+910
+00:40:57,370 --> 00:40:59,370
+que nos dice
+
+911
+00:40:59,370 --> 00:41:01,370
+que nos dice
+
+912
+00:41:01,370 --> 00:41:03,370
+que nos dice
+
+913
+00:41:03,370 --> 00:41:07,960
+que nos dice
+
+914
+00:41:07,960 --> 00:41:09,960
+que nos dice
+
+915
+00:41:09,960 --> 00:41:11,960
+que nos dice
+
+916
+00:41:11,960 --> 00:41:13,960
+que nos dice
+
+917
+00:41:13,960 --> 00:41:15,960
+que nos dice
+
+918
+00:41:15,960 --> 00:41:17,960
+que nos dice
+
+919
+00:41:17,960 --> 00:41:31,260
+que nos dice
+
+920
+00:41:31,260 --> 00:41:42,380
+que nos dice
+
+921
+00:41:42,380 --> 00:41:44,380
+que nos dice
+
+922
+00:41:44,380 --> 00:41:46,380
+que nos dice
+
+923
+00:41:46,380 --> 00:41:48,380
+que nos dice
+
+924
+00:41:48,380 --> 00:41:50,380
+que nos dice
+
+925
+00:41:50,380 --> 00:41:52,380
+que nos dice
+
+926
+00:41:52,380 --> 00:41:57,960
+que nos dice
+
+927
+00:41:57,960 --> 00:41:59,960
+que nos dice
+
+928
+00:41:59,960 --> 00:42:01,960
+que nos dice
+
+929
+00:42:01,960 --> 00:42:03,960
+que nos dice
+
+930
+00:42:03,960 --> 00:42:05,960
+que nos dice
+
+931
+00:42:05,960 --> 00:42:07,960
+que nos dice
+
+932
+00:42:07,960 --> 00:42:09,960
+que nos dice
+
+933
+00:42:09,960 --> 00:42:36,340
+que nos dice
+
+934
+00:42:36,340 --> 00:42:38,340
+que nos dice
+
+935
+00:42:38,340 --> 00:42:40,340
+que nos dice
+
+936
+00:42:40,340 --> 00:42:42,340
+que nos dice
+
+937
+00:42:42,340 --> 00:42:49,720
+que nos dice
+
+938
+00:42:49,720 --> 00:42:51,720
+que nos dice
+
+939
+00:42:51,720 --> 00:42:53,720
+que nos dice
+
+940
+00:42:53,720 --> 00:42:55,720
+que nos dice
+
+941
+00:42:55,720 --> 00:42:57,720
+que nos dice
+
+942
+00:42:57,720 --> 00:42:59,720
+que nos dice
+
+943
+00:42:59,720 --> 00:43:01,720
+que nos dice
+
+944
+00:43:01,720 --> 00:43:03,720
+que nos dice
+
+945
+00:43:03,720 --> 00:43:05,720
+que nos dice
+
+946
+00:43:05,720 --> 00:43:07,720
+que nos dice
+
+947
+00:43:07,720 --> 00:43:09,720
+que nos dice
+
+948
+00:43:09,720 --> 00:43:11,720
+que nos dice
+
+949
+00:43:11,720 --> 00:43:13,720
+que nos dice
+
+950
+00:43:13,720 --> 00:43:15,720
+que nos dice
+
+951
+00:43:15,720 --> 00:43:17,720
+que nos dice
+
+952
+00:43:17,720 --> 00:43:30,860
+que nos dice
+
+953
+00:43:30,860 --> 00:43:32,860
+que nos dice
+
+954
+00:43:32,860 --> 00:43:38,980
+que nos dice
+
+955
+00:43:38,980 --> 00:43:54,580
+que nos dice
+
+956
+00:43:54,580 --> 00:43:56,580
+que nos dice
+
+957
+00:43:56,580 --> 00:44:10,200
+que nos dice
+
+958
+00:44:10,200 --> 00:44:12,200
+que nos dice
+
+959
+00:44:12,200 --> 00:44:14,200
+que nos dice
+
+960
+00:44:14,200 --> 00:44:16,200
+que nos dice
+
+961
+00:44:16,200 --> 00:44:18,200
+que nos dice
+
+962
+00:44:18,200 --> 00:44:20,200
+que nos dice
+
+963
+00:44:20,200 --> 00:44:22,200
+que nos dice
+
+964
+00:44:22,200 --> 00:44:24,200
+que nos dice
+
+965
+00:44:24,200 --> 00:44:26,200
+que nos dice
+
+966
+00:44:26,200 --> 00:44:30,760
+que nos dice
+
+967
+00:44:30,760 --> 00:44:32,760
+que nos dice
+
+968
+00:44:32,760 --> 00:44:34,760
+que nos dice
+
+969
+00:44:34,760 --> 00:44:39,640
+que nos dice
+
+970
+00:44:39,640 --> 00:44:41,640
+que nos dice
+
+971
+00:44:41,640 --> 00:44:44,980
+que nos dice
+
+972
+00:44:44,980 --> 00:44:46,980
+que nos dice
+
+973
+00:44:46,980 --> 00:44:48,980
+que nos dice
+
+974
+00:44:48,980 --> 00:44:50,980
+que nos dice
+
+975
+00:44:50,980 --> 00:44:52,980
+que nos dice
+
+976
+00:44:52,980 --> 00:44:54,980
+que nos dice
+
+977
+00:44:54,980 --> 00:44:56,980
+que nos dice
+
+978
+00:44:56,980 --> 00:44:58,980
+que nos dice
+
+979
+00:44:58,980 --> 00:45:00,980
+que nos dice
+
+980
+00:45:00,980 --> 00:45:02,980
+que nos dice
+
+981
+00:45:02,980 --> 00:45:04,980
+que nos dice
+
+982
+00:45:04,980 --> 00:45:06,980
+que nos dice
+
+983
+00:45:06,980 --> 00:45:08,980
+que nos dice
+
+984
+00:45:08,980 --> 00:45:10,980
+que nos dice
+
+985
+00:45:10,980 --> 00:45:12,980
+que nos dice
+
+986
+00:45:12,980 --> 00:45:14,980
+que nos dice
+
+987
+00:45:14,980 --> 00:45:16,980
+que nos dice
+
+988
+00:45:16,980 --> 00:45:18,980
+que nos dice
+
+989
+00:45:18,980 --> 00:45:20,980
+que nos dice
+
+990
+00:45:20,980 --> 00:45:22,980
+que nos dice
+
+991
+00:45:22,980 --> 00:45:24,980
+que nos dice
+
+992
+00:45:24,980 --> 00:45:26,980
+que nos dice
+
+993
+00:45:26,980 --> 00:45:28,980
+que nos dice
+
+994
+00:45:28,980 --> 00:45:30,980
+que nos dice
+
+995
+00:45:30,980 --> 00:45:32,980
+que nos dice
+
+996
+00:45:32,980 --> 00:45:34,980
+que nos dice
+
+997
+00:45:34,980 --> 00:45:36,980
+que nos dice
+
+998
+00:45:36,980 --> 00:45:38,980
+que nos dice
+
+999
+00:45:38,980 --> 00:45:40,980
+que nos dice
+
+1000
+00:45:40,980 --> 00:45:42,980
+que nos dice
+
+1001
+00:45:42,980 --> 00:45:44,980
+que nos dice
+
+1002
+00:45:44,980 --> 00:45:46,980
+que nos dice
+
+1003
+00:45:46,980 --> 00:45:48,980
+que nos dice
+
+1004
+00:45:48,980 --> 00:45:50,980
+que nos dice
+
+1005
+00:45:50,980 --> 00:45:52,980
+que nos dice
+
+1006
+00:45:52,980 --> 00:45:54,980
+que nos dice
+
+1007
+00:45:54,980 --> 00:45:58,680
+que nos dice
+
+1008
+00:45:58,680 --> 00:46:03,020
+que nos dice
+
+1009
+00:46:03,020 --> 00:46:05,020
+que nos dice
+
+1010
+00:46:05,020 --> 00:46:07,020
+que nos dice
+
+1011
+00:46:07,020 --> 00:46:09,020
+que nos dice
+
+1012
+00:46:09,020 --> 00:46:12,390
+que nos dice
+
+1013
+00:46:12,390 --> 00:46:14,390
+que nos dice
+
+1014
+00:46:14,390 --> 00:46:16,390
+que nos dice
+
+1015
+00:46:16,390 --> 00:46:18,390
+que nos dice
+
+1016
+00:46:18,390 --> 00:46:55,980
+que nos dice
+
+1017
+00:46:55,980 --> 00:46:57,980
+que nos dice
+
+1018
+00:46:57,980 --> 00:48:45,320
+que nos dice
+
+1019
+00:48:45,320 --> 00:48:47,320
+que nos dice
+
+1020
+00:48:47,320 --> 00:48:49,320
+que nos dice
+
+1021
+00:48:49,320 --> 00:48:51,320
+que nos dice
+
+1022
+00:48:51,320 --> 00:48:53,320
+que nos dice
+
+1023
+00:48:53,320 --> 00:48:55,320
+que nos dice
+
+1024
+00:48:55,320 --> 00:48:57,320
+que nos dice
+
+1025
+00:48:57,320 --> 00:48:59,320
+que nos dice
+
+1026
+00:48:59,320 --> 00:49:01,320
+que nos dice
+
+1027
+00:49:01,320 --> 00:49:03,320
+que nos dice
+
+1028
+00:49:03,320 --> 00:49:05,320
+que nos dice
+
+1029
+00:49:05,320 --> 00:49:07,320
+que nos dice
+
+1030
+00:49:07,320 --> 00:49:09,320
+que nos dice
+
+1031
+00:49:09,320 --> 00:49:11,320
+que nos dice
+
+1032
+00:49:11,320 --> 00:49:15,370
+que nos dice
+
+1033
+00:49:15,370 --> 00:49:17,370
+que nos dice
+
+1034
+00:49:17,370 --> 00:49:19,370
+que nos dice
+
+1035
+00:49:19,370 --> 00:49:21,370
+que nos dice
+
+1036
+00:49:21,370 --> 00:49:27,620
+que nos dice
+
+1037
+00:49:27,620 --> 00:49:29,620
+que nos dice
+
+1038
+00:49:29,620 --> 00:49:31,620
+que nos dice
+
+1039
+00:49:31,620 --> 00:49:33,620
+que nos dice
+
+1040
+00:49:33,620 --> 00:49:35,620
+que nos dice
+
+1041
+00:49:35,620 --> 00:49:37,620
+que nos dice
+
+1042
+00:49:37,620 --> 00:49:39,620
+que nos dice
+
+1043
+00:49:39,620 --> 00:49:41,620
+que nos dice
+
+1044
+00:49:41,620 --> 00:49:43,620
+que nos dice
+
+1045
+00:49:43,620 --> 00:49:45,620
+que nos dice
+
+1046
+00:49:45,620 --> 00:49:47,620
+que nos dice
+
+1047
+00:49:47,620 --> 00:49:49,620
+que nos dice
+
+1048
+00:49:49,620 --> 00:50:00,810
+que nos dice
+
+1049
+00:50:00,810 --> 00:50:02,810
+que nos dice
+
+1050
+00:50:02,810 --> 00:50:04,810
+que nos dice
+
+1051
+00:50:04,810 --> 00:50:09,140
+que nos dice
+
+1052
+00:50:09,140 --> 00:50:11,140
+que nos dice
+
+1053
+00:50:11,140 --> 00:50:13,140
+que nos dice
+
+1054
+00:50:13,140 --> 00:50:15,140
+que nos dice
+
+1055
+00:50:15,140 --> 00:50:17,140
+que nos dice
+
+1056
+00:50:17,140 --> 00:50:19,140
+que nos dice
+
+1057
+00:50:19,140 --> 00:50:21,140
+que nos dice
+
+1058
+00:50:21,140 --> 00:50:23,140
+que nos dice
+
+1059
+00:50:23,140 --> 00:50:25,140
+que nos dice
+
+1060
+00:50:25,140 --> 00:50:27,140
+que nos dice
+
+1061
+00:50:27,140 --> 00:50:29,140
+que nos dice
+
+1062
+00:50:29,140 --> 00:50:31,140
+que nos dice
+
+1063
+00:50:31,140 --> 00:50:33,140
+que nos dice
+
+1064
+00:50:33,140 --> 00:50:35,140
+que nos dice
+
+1065
+00:50:35,140 --> 00:50:54,550
+que nos dice
+
+1066
+00:50:54,550 --> 00:50:56,550
+que nos dice
+
+1067
+00:50:56,550 --> 00:51:04,890
+que nos dice
+
+1068
+00:51:04,890 --> 00:51:09,380
+que nos dice
+
+1069
+00:51:09,380 --> 00:51:44,340
+que nos dice
+
+1070
+00:51:44,340 --> 00:51:46,340
+que nos dice
+
+1071
+00:51:46,340 --> 00:51:48,340
+que nos dice
+
+1072
+00:51:48,340 --> 00:51:53,320
+que nos dice
+
+1073
+00:51:53,320 --> 00:51:55,320
+que nos dice
+
+1074
+00:51:55,320 --> 00:51:57,320
+que nos dice
+
+1075
+00:51:57,320 --> 00:51:59,320
+que nos dice
+
+1076
+00:51:59,320 --> 00:52:01,320
+que nos dice
+
+1077
+00:52:01,320 --> 00:52:03,320
+que nos dice
+
+1078
+00:52:03,320 --> 00:52:05,320
+que nos dice
+
+1079
+00:52:05,320 --> 00:52:07,320
+que nos dice
+
+1080
+00:52:07,320 --> 00:52:09,320
+que nos dice
+
+1081
+00:52:09,320 --> 00:52:14,170
+que nos dice
+
+1082
+00:52:14,170 --> 00:52:16,170
+que nos dice
+
+1083
+00:52:16,170 --> 00:52:18,170
+que nos dice
+
+1084
+00:52:18,170 --> 00:52:20,170
+que nos dice
+
+1085
+00:52:20,170 --> 00:52:22,170
+que nos dice
+
+1086
+00:52:22,170 --> 00:52:24,170
+que nos dice
+
+1087
+00:52:24,170 --> 00:52:26,170
+que nos dice
+
+1088
+00:52:26,170 --> 00:52:28,170
+que nos dice
+
+1089
+00:52:28,170 --> 00:52:30,170
+que nos dice
+
+1090
+00:52:30,170 --> 00:52:32,170
+que nos dice
+
+1091
+00:52:32,170 --> 00:52:34,170
+que nos dice
+
+1092
+00:52:34,170 --> 00:52:36,170
+que nos dice
+
+1093
+00:52:36,170 --> 00:52:38,170
+que nos dice
+
+1094
+00:52:38,170 --> 00:52:40,170
+que nos dice
+
+1095
+00:52:40,170 --> 00:52:42,170
+que nos dice
+
+1096
+00:52:42,170 --> 00:52:45,480
+que nos dice
+
+1097
+00:52:45,480 --> 00:52:48,950
+que nos dice
+
+1098
+00:52:48,950 --> 00:52:54,310
+que nos dice
+
+1099
+00:52:54,310 --> 00:52:56,310
+que nos dice
+
+1100
+00:52:56,310 --> 00:53:00,710
+que nos dice
+
+1101
+00:53:00,710 --> 00:53:04,060
+que nos dice
+
+1102
+00:53:06,060 --> 00:53:08,060
+que nos dice
+
+1103
+00:53:08,060 --> 00:53:10,060
+que nos dice
+
+1104
+00:53:10,060 --> 00:53:12,060
+que nos dice
+
+1105
+00:53:12,060 --> 00:53:14,060
+que nos dice
+
+1106
+00:53:14,060 --> 00:53:17,720
+que nos dice
+
+1107
+00:53:17,720 --> 00:53:19,720
+que nos dice
+
+1108
+00:53:19,720 --> 00:53:21,720
+que nos dice
+
+1109
+00:53:21,720 --> 00:53:23,720
+que nos dice
+
+1110
+00:53:23,720 --> 00:53:30,550
+que nos dice
+
+1111
+00:53:30,550 --> 00:53:34,220
+que nos dice
+
+1112
+00:53:34,220 --> 00:53:36,220
+que nos dice
+
+1113
+00:53:36,220 --> 00:53:38,220
+que nos dice
+
+1114
+00:53:38,220 --> 00:53:40,220
+que nos dice
+
+1115
+00:53:40,220 --> 00:53:42,220
+que nos dice
+
+1116
+00:53:42,220 --> 00:53:44,220
+que nos dice
+
+1117
+00:53:44,220 --> 00:53:49,220
+que nos dice
+
+1118
+00:53:49,220 --> 00:53:51,220
+que nos dice
+
+1119
+00:53:51,220 --> 00:53:53,220
+que nos dice
+
+1120
+00:53:53,220 --> 00:53:55,220
+que nos dice
+
+1121
+00:53:55,220 --> 00:53:57,220
+que nos dice
+
+1122
+00:53:57,220 --> 00:53:59,220
+que nos dice
+
+1123
+00:53:59,220 --> 00:54:03,020
+que nos dice
+
+1124
+00:54:03,020 --> 00:54:05,020
+que nos dice
+
+1125
+00:54:05,020 --> 00:54:07,020
+que nos dice
+
+1126
+00:54:07,020 --> 00:54:09,020
+que nos dice
+
+1127
+00:54:09,020 --> 00:54:11,020
+que nos dice
+
+1128
+00:54:11,020 --> 00:54:13,020
+que nos dice
+
+1129
+00:54:13,020 --> 00:54:15,020
+que nos dice
+
+1130
+00:54:15,020 --> 00:54:17,020
+que nos dice
+
+1131
+00:54:17,020 --> 00:54:19,020
+que nos dice
+
+1132
+00:54:19,020 --> 00:54:21,020
+que nos dice
+
+1133
+00:54:21,020 --> 00:54:23,020
+que nos dice
+
+1134
+00:54:23,020 --> 00:54:25,020
+que nos dice
+
+1135
+00:54:25,020 --> 00:54:27,020
+que nos dice
+
+1136
+00:54:27,020 --> 00:54:29,020
+que nos dice
+
+1137
+00:54:29,020 --> 00:54:31,020
+que nos dice
+
+1138
+00:54:31,020 --> 00:54:33,020
+que nos dice
+
+1139
+00:54:33,020 --> 00:54:35,020
+que nos dice
+
+1140
+00:54:35,020 --> 00:54:37,020
+que nos dice
+
+1141
+00:54:37,020 --> 00:54:39,020
+que nos dice
+
+1142
+00:54:39,020 --> 00:54:41,020
+que nos dice
+
+1143
+00:54:41,020 --> 00:54:43,020
+que nos dice
+
+1144
+00:54:43,020 --> 00:54:45,020
+que nos dice
+
+1145
+00:54:47,020 --> 00:54:49,020
+que nos dice
+
+1146
+00:54:49,020 --> 00:54:51,020
+que nos dice
+
+1147
+00:54:51,020 --> 00:54:53,020
+que nos dice
+
+1148
+00:54:53,020 --> 00:54:55,020
+que nos dice
+
+1149
+00:54:55,020 --> 00:54:57,020
+que nos dice
+
+1150
+00:54:57,020 --> 00:54:59,020
+que nos dice
+
+1151
+00:54:59,020 --> 00:55:01,020
+que nos dice
+
+1152
+00:55:01,020 --> 00:55:03,020
+que nos dice
+
+1153
+00:55:03,020 --> 00:55:05,020
+que nos dice
+
+1154
+00:55:05,020 --> 00:55:07,020
+que nos dice
+
+1155
+00:55:07,020 --> 00:55:09,020
+que nos dice
+
+1156
+00:55:09,020 --> 00:55:11,020
+que nos dice
+
+1157
+00:55:11,020 --> 00:55:13,020
+que nos dice
+
+1158
+00:55:13,020 --> 00:55:15,020
+que nos dice
+
+1159
+00:55:15,020 --> 00:55:17,020
+que nos dice
+
+1160
+00:55:17,020 --> 00:55:19,020
+que nos dice
+
+1161
+00:55:19,020 --> 00:55:21,020
+que nos dice
+
+1162
+00:55:21,020 --> 00:55:23,020
+que nos dice
+
+1163
+00:55:23,020 --> 00:55:25,020
+que nos dice
+
+1164
+00:55:25,020 --> 00:55:27,020
+que nos dice
+
+1165
+00:55:27,020 --> 00:55:29,020
+que nos dice
+
+1166
+00:55:29,020 --> 00:55:31,020
+que nos dice
+
+1167
+00:55:31,020 --> 00:55:33,020
+que nos dice
+
+1168
+00:55:33,020 --> 00:55:35,020
+que nos dice
+
+1169
+00:55:35,020 --> 00:55:37,020
+que nos dice
+
+1170
+00:55:39,020 --> 00:55:41,020
+que nos dice
+
+1171
+00:55:41,020 --> 00:55:43,020
+que nos dice
+
+1172
+00:55:43,020 --> 00:55:45,020
+que nos dice
+
+1173
+00:55:45,020 --> 00:55:47,020
+que nos dice
+
+1174
+00:55:47,020 --> 00:55:49,020
+que nos dice
+
+1175
+00:55:49,020 --> 00:55:51,020
+que nos dice
+
+1176
+00:55:51,020 --> 00:55:53,020
+que nos dice
+
+1177
+00:55:53,020 --> 00:55:55,020
+que nos dice
+
+1178
+00:55:55,020 --> 00:55:57,020
+que nos dice
+
+1179
+00:55:57,020 --> 00:55:59,020
+que nos dice
+
+1180
+00:55:59,020 --> 00:56:01,020
+que nos dice
+
+1181
+00:56:01,020 --> 00:56:03,020
+que nos dice
+
+1182
+00:56:03,020 --> 00:56:05,020
+que nos dice
+
+1183
+00:56:05,020 --> 00:56:07,020
+que nos dice
+
+1184
+00:56:07,020 --> 00:56:09,020
+que nos dice
+
+1185
+00:56:09,020 --> 00:56:11,020
+que nos dice
+
+1186
+00:56:11,020 --> 00:56:13,020
+que nos dice
+
+1187
+00:56:13,020 --> 00:56:15,020
+que nos dice
+
+1188
+00:56:15,020 --> 00:56:17,020
+que nos dice
+
+1189
+00:56:17,020 --> 00:56:19,020
+que nos dice
+
+1190
+00:56:19,020 --> 00:56:21,020
+que nos dice
+
+1191
+00:56:21,020 --> 00:56:23,020
+que nos dice
+
+1192
+00:56:23,020 --> 00:56:25,020
+que nos dice
+
+1193
+00:56:25,020 --> 00:56:27,020
+que nos dice
+
+1194
+00:56:27,020 --> 00:56:29,020
+que nos dice
+
+1195
+00:56:29,020 --> 00:56:31,020
+que nos dice
+
+1196
+00:56:31,020 --> 00:56:33,020
+que nos dice
+
+1197
+00:56:33,020 --> 00:56:35,020
+que nos dice
+
+1198
+00:56:35,020 --> 00:56:37,020
+que nos dice
+
+1199
+00:56:37,020 --> 00:56:39,020
+que nos dice
+
+1200
+00:56:39,020 --> 00:56:41,020
+que nos dice
+
+1201
+00:56:41,020 --> 00:56:43,020
+que nos dice
+
+1202
+00:56:43,020 --> 00:56:45,020
+que nos dice
+
+1203
+00:56:45,020 --> 00:56:48,810
+que nos dice
+
+1204
+00:56:48,810 --> 00:56:50,810
+que nos dice
+
+1205
+00:56:50,810 --> 00:56:52,810
+que nos dice
+
+1206
+00:56:52,810 --> 00:56:54,810
+que nos dice
+
+1207
+00:56:54,810 --> 00:56:56,810
+que nos dice
+
+1208
+00:56:56,810 --> 00:56:58,810
+que nos dice
+
+1209
+00:56:58,810 --> 00:57:00,810
+que nos dice
+
+1210
+00:57:00,810 --> 00:57:02,810
+que nos dice
+
+1211
+00:57:02,810 --> 00:57:04,810
+que nos dice
+
+1212
+00:57:04,810 --> 00:57:06,810
+que nos dice
+
+1213
+00:57:06,810 --> 00:57:08,810
+que nos dice
+
+1214
+00:57:08,810 --> 00:57:10,810
+que nos dice
+
+1215
+00:57:10,810 --> 00:57:12,810
+que nos dice
+
+1216
+00:57:12,810 --> 00:57:14,810
+que nos dice
+
+1217
+00:57:14,810 --> 00:57:16,810
+que nos dice
+
+1218
+00:57:16,810 --> 00:57:18,810
+que nos dice
+
+1219
+00:57:18,810 --> 00:57:20,810
+que nos dice
+
+1220
+00:57:20,810 --> 00:57:22,810
+que nos dice
+
+1221
+00:57:22,810 --> 00:57:24,810
+que nos dice
+
+1222
+00:57:24,810 --> 00:57:26,810
+que nos dice
+
+1223
+00:57:26,810 --> 00:57:28,810
+que nos dice
+
+1224
+00:57:28,810 --> 00:57:30,810
+que nos dice
+
+1225
+00:57:30,810 --> 00:57:32,810
+que nos dice
+
+1226
+00:57:32,810 --> 00:57:34,810
+que nos dice
+
+1227
+00:57:34,810 --> 00:57:36,810
+que nos dice
+
+1228
+00:57:36,810 --> 00:57:38,810
+que nos dice
+
+1229
+00:57:38,810 --> 00:57:40,810
+que nos dice
+
+1230
+00:57:40,810 --> 00:57:42,810
+que nos dice
+
+1231
+00:57:42,810 --> 00:57:44,810
+que nos dice
+
+1232
+00:57:44,810 --> 00:57:46,810
+que nos dice
+
+1233
+00:57:46,810 --> 00:57:48,810
+que nos dice
+
+1234
+00:57:48,810 --> 00:57:50,810
+que nos dice
+
+1235
+00:57:50,810 --> 00:57:52,810
+que nos dice
+
+1236
+00:57:52,810 --> 00:57:54,810
+que nos dice
+
+1237
+00:57:54,810 --> 00:57:56,810
+que nos dice
+
+1238
+00:57:56,810 --> 00:57:58,810
+que nos dice
+
+1239
+00:57:58,810 --> 00:58:00,810
+que nos dice
+
+1240
+00:58:00,810 --> 00:58:02,810
+que nos dice
+
+1241
+00:58:02,810 --> 00:58:06,310
+que nos dice
+
+1242
+00:58:06,310 --> 00:58:08,310
+que nos dice
+
+1243
+00:58:08,310 --> 00:58:10,310
+que nos dice
+
+1244
+00:58:10,310 --> 00:58:12,310
+que nos dice
+
+1245
+00:58:12,310 --> 00:58:14,310
+que nos dice
+
+1246
+00:58:14,310 --> 00:58:16,310
+que nos dice
+
+1247
+00:58:16,310 --> 00:58:18,310
+que nos dice
+
+1248
+00:58:18,310 --> 00:58:20,310
+que nos dice
+
+1249
+00:58:20,310 --> 00:58:22,310
+que nos dice
+
+1250
+00:58:22,310 --> 00:58:24,310
+que nos dice
+
+1251
+00:58:24,310 --> 00:58:26,310
+que nos dice
+
+1252
+00:58:26,310 --> 00:58:28,310
+que nos dice
+
+1253
+00:58:28,310 --> 00:58:30,310
+que nos dice
+
+1254
+00:58:30,310 --> 00:58:32,310
+que nos dice
+
+1255
+00:58:32,310 --> 00:58:34,310
+que nos dice
+
+1256
+00:58:34,310 --> 00:58:36,310
+que nos dice
+
+1257
+00:58:36,310 --> 00:58:38,310
+que nos dice
+
+1258
+00:58:38,310 --> 00:58:40,310
+que nos dice
+
+1259
+00:58:40,310 --> 00:58:42,310
+que nos dice
+
+1260
+00:58:42,310 --> 00:58:44,310
+que nos dice
+
+1261
+00:58:44,310 --> 00:58:46,310
+que nos dice
+
+1262
+00:58:46,310 --> 00:58:48,310
+que nos dice
+
+1263
+00:58:48,310 --> 00:58:50,310
+que nos dice
+
+1264
+00:58:50,310 --> 00:58:52,310
+que nos dice
+
+1265
+00:58:52,310 --> 00:58:54,310
+que nos dice
+
+1266
+00:58:54,310 --> 00:58:56,310
+que nos dice
+
+1267
+00:58:56,310 --> 00:58:58,310
+que nos dice
+
+1268
+00:58:58,310 --> 00:59:00,310
+que nos dice
+
+1269
+00:59:00,310 --> 00:59:02,310
+que nos dice
+
+1270
+00:59:02,310 --> 00:59:04,310
+que nos dice
+
+1271
+00:59:04,310 --> 00:59:06,310
+que nos dice
+
+1272
+00:59:06,310 --> 00:59:08,310
+que nos dice
+
+1273
+00:59:08,310 --> 00:59:10,310
+que nos dice
+
+1274
+00:59:10,310 --> 00:59:12,310
+que nos dice
+
+1275
+00:59:12,310 --> 00:59:14,310
+que nos dice
+
+1276
+00:59:14,310 --> 00:59:16,310
+que nos dice
+
+1277
+00:59:16,310 --> 00:59:18,310
+que nos dice
+
+1278
+00:59:18,310 --> 00:59:22,520
+que nos dice
+
+1279
+00:59:22,520 --> 00:59:24,520
+que nos dice
+
+1280
+00:59:24,520 --> 00:59:26,520
+que nos dice
+
+1281
+00:59:26,520 --> 00:59:28,520
+que nos dice
+
+1282
+00:59:28,520 --> 00:59:30,520
+que nos dice
+
+1283
+00:59:30,520 --> 00:59:32,520
+que nos dice
+
+1284
+00:59:32,520 --> 00:59:34,520
+que nos dice
+
+1285
+00:59:34,520 --> 00:59:36,520
+que nos dice
+
+1286
+00:59:36,520 --> 00:59:38,520
+que nos dice
+
+1287
+00:59:38,520 --> 00:59:40,520
+que nos dice
+
+1288
+00:59:40,520 --> 00:59:42,520
+que nos dice
+
+1289
+00:59:42,520 --> 00:59:44,520
+que nos dice
+
+1290
+00:59:44,520 --> 00:59:46,520
+que nos dice
+
+1291
+00:59:46,520 --> 00:59:48,520
+que nos dice
+
+1292
+00:59:48,520 --> 00:59:52,180
+que nos dice
+
+1293
+00:59:52,180 --> 00:59:54,180
+que nos dice
+
+1294
+00:59:54,180 --> 00:59:56,180
+que nos dice
+
+1295
+00:59:56,180 --> 00:59:58,180
+que nos dice
+
+1296
+00:59:58,180 --> 01:00:00,180
+que nos dice
+
+1297
+01:00:00,180 --> 01:00:02,180
+que nos dice
+
+1298
+01:00:02,180 --> 01:00:04,180
+que nos dice
+
+1299
+01:00:04,180 --> 01:00:06,180
+que nos dice
+
+1300
+01:00:06,180 --> 01:00:08,180
+que nos dice
+
+1301
+01:00:08,180 --> 01:00:12,870
+que nos dice
+
+1302
+01:00:12,870 --> 01:00:22,970
+que nos dice
+
+1303
+01:00:22,970 --> 01:00:26,760
+que nos dice
+
+1304
+01:00:26,760 --> 01:00:28,760
+que nos dice
+
+1305
+01:00:28,760 --> 01:00:30,760
+que nos dice
+
+1306
+01:00:30,760 --> 01:00:32,760
+que nos dice
+
+1307
+01:00:32,760 --> 01:00:34,760
+que nos dice
+
+1308
+01:00:34,760 --> 01:00:36,760
+que nos dice
+
+1309
+01:00:36,760 --> 01:00:38,760
+que nos dice
+
+1310
+01:00:38,760 --> 01:00:40,760
+que nos dice
+
+1311
+01:00:40,760 --> 01:00:44,900
+que nos dice
+
+1312
+01:00:44,900 --> 01:00:49,530
+que nos dice
+
+1313
+01:00:49,530 --> 01:00:51,530
+que nos dice
+
+1314
+01:00:51,530 --> 01:00:53,530
+que nos dice
+
+1315
+01:00:53,530 --> 01:00:55,530
+que nos dice
+
+1316
+01:00:55,530 --> 01:00:57,530
+que nos dice
+
+1317
+01:00:57,530 --> 01:00:59,530
+que nos dice
+
+1318
+01:00:59,530 --> 01:01:01,530
+que nos dice
+
+1319
+01:01:01,530 --> 01:01:03,530
+que nos dice
+
+1320
+01:01:03,530 --> 01:01:05,530
+que nos dice
+
+1321
+01:01:05,530 --> 01:01:07,530
+que nos dice
+
+1322
+01:01:07,530 --> 01:01:12,890
+que nos dice
+
+1323
+01:01:12,890 --> 01:01:14,890
+que nos dice
+
+1324
+01:01:14,890 --> 01:01:20,020
+que nos dice
+
+1325
+01:01:20,020 --> 01:01:22,020
+que nos dice
+
+1326
+01:01:22,020 --> 01:01:24,020
+que nos dice
+
+1327
+01:01:24,020 --> 01:01:26,020
+que nos dice
+
+1328
+01:01:26,020 --> 01:01:28,020
+que nos dice
+
+1329
+01:01:28,020 --> 01:01:30,020
+que nos dice
+
+1330
+01:01:30,020 --> 01:01:39,060
+que nos dice
+
+1331
+01:01:39,060 --> 01:01:41,060
+que nos dice
+
+1332
+01:01:41,060 --> 01:01:43,060
+que nos dice
+
+1333
+01:01:43,060 --> 01:01:45,060
+que nos dice
+
+1334
+01:01:45,060 --> 01:01:47,060
+que nos dice
+
+1335
+01:01:47,060 --> 01:01:52,870
+que nos dice
+
+1336
+01:01:52,870 --> 01:01:58,230
+que nos dice
+
+1337
+01:01:58,230 --> 01:02:01,480
+que nos dice
+
+1338
+01:02:01,480 --> 01:02:03,480
+que nos dice
+
+1339
+01:02:03,480 --> 01:02:05,480
+que nos dice
+
+1340
+01:02:05,480 --> 01:02:07,480
+que nos dice
+
+1341
+01:02:07,480 --> 01:02:09,480
+que nos dice
+
+1342
+01:02:09,480 --> 01:02:11,480
+que nos dice
+
+1343
+01:02:11,480 --> 01:02:13,480
+que nos dice
+
+1344
+01:02:13,480 --> 01:02:15,480
+que nos dice
+
+1345
+01:02:15,480 --> 01:02:17,480
+que nos dice
+
+1346
+01:02:17,480 --> 01:02:19,480
+que nos dice
+
+1347
+01:02:19,480 --> 01:02:21,480
+que nos dice
+
+1348
+01:02:21,480 --> 01:02:23,480
+que nos dice
+
+1349
+01:02:23,480 --> 01:02:25,480
+que nos dice
+
+1350
+01:02:25,480 --> 01:02:27,480
+que nos dice
+
+1351
+01:02:27,480 --> 01:02:29,480
+que nos dice
+
+1352
+01:02:29,480 --> 01:02:31,480
+que nos dice
+
+1353
+01:02:31,480 --> 01:02:33,480
+que nos dice
+
+1354
+01:02:33,480 --> 01:02:35,480
+que nos dice
+
+1355
+01:02:35,480 --> 01:02:37,480
+que nos dice
+
+1356
+01:02:37,480 --> 01:02:39,480
+que nos dice
+
+1357
+01:02:39,480 --> 01:02:41,480
+que nos dice
+
+1358
+01:02:41,480 --> 01:02:43,480
+que nos dice
+
+1359
+01:02:43,480 --> 01:02:45,480
+que nos dice
+
+1360
+01:02:45,480 --> 01:02:47,480
+que nos dice
+
+1361
+01:02:47,480 --> 01:02:49,480
+que nos dice
+
+1362
+01:02:49,480 --> 01:02:51,480
+que nos dice
+
+1363
+01:02:51,480 --> 01:02:53,480
+que nos dice
+
+1364
+01:02:53,480 --> 01:02:55,480
+que nos dice
+
+1365
+01:02:55,480 --> 01:02:57,480
+que nos dice
+
+1366
+01:02:57,480 --> 01:02:59,480
+que nos dice
+
+1367
+01:02:59,480 --> 01:03:01,480
+que nos dice
+
+1368
+01:03:01,480 --> 01:03:03,480
+que nos dice
+
+1369
+01:03:03,480 --> 01:03:05,480
+que nos dice
+
+1370
+01:03:05,480 --> 01:03:07,480
+que nos dice
+
+1371
+01:03:07,480 --> 01:03:09,480
+que nos dice
+
+1372
+01:03:09,480 --> 01:03:11,480
+que nos dice
+
+1373
+01:03:11,480 --> 01:03:13,480
+que nos dice
+
+1374
+01:03:13,480 --> 01:03:15,480
+que nos dice
+
+1375
+01:03:15,480 --> 01:03:17,480
+que nos dice
+
+1376
+01:03:17,480 --> 01:03:19,480
+que nos dice
+
+1377
+01:03:19,480 --> 01:03:21,480
+que nos dice
+
+1378
+01:03:21,480 --> 01:03:23,480
+que nos dice
+
+1379
+01:03:23,480 --> 01:03:25,480
+que nos dice
+
+1380
+01:03:25,480 --> 01:03:27,480
+que nos dice
+
+1381
+01:03:27,480 --> 01:03:29,480
+que nos dice
+
+1382
+01:03:29,480 --> 01:03:33,530
+que nos dice
+
+1383
+01:03:33,530 --> 01:03:35,530
+que nos dice
+
+1384
+01:03:35,530 --> 01:03:37,530
+que nos dice
+
+1385
+01:03:37,530 --> 01:03:39,530
+que nos dice
+
+1386
+01:03:39,530 --> 01:03:41,530
+que nos dice
+
+1387
+01:03:41,530 --> 01:03:43,530
+que nos dice
+
+1388
+01:03:43,530 --> 01:03:45,530
+que nos dice
+
+1389
+01:03:45,530 --> 01:03:47,530
+que nos dice
+
+1390
+01:03:47,530 --> 01:03:49,530
+que nos dice
+
+1391
+01:03:49,530 --> 01:03:51,530
+que nos dice
+
+1392
+01:03:51,530 --> 01:03:53,530
+que nos dice
+
+1393
+01:03:53,530 --> 01:03:55,530
+que nos dice
+
+1394
+01:03:55,530 --> 01:03:57,530
+que nos dice
+
+1395
+01:03:57,530 --> 01:03:59,530
+que nos dice
+
+1396
+01:03:59,530 --> 01:04:01,530
+que nos dice
+
+1397
+01:04:01,530 --> 01:04:04,840
+que nos dice
+
+1398
+01:04:04,840 --> 01:04:06,840
+que nos dice
+
+1399
+01:04:06,840 --> 01:04:08,840
+que nos dice
+
+1400
+01:04:08,840 --> 01:04:10,840
+que nos dice
+
+1401
+01:04:10,840 --> 01:04:12,840
+que nos dice
+
+1402
+01:04:12,840 --> 01:04:14,840
+que nos dice
+
+1403
+01:04:14,840 --> 01:04:16,840
+que nos dice
+
+1404
+01:04:16,840 --> 01:04:18,840
+que nos dice
+
+1405
+01:04:18,840 --> 01:04:20,840
+que nos dice
+
+1406
+01:04:20,840 --> 01:04:22,840
+que nos dice
+
+1407
+01:04:22,840 --> 01:04:24,840
+que nos dice
+
+1408
+01:04:24,840 --> 01:04:26,840
+que nos dice
+
+1409
+01:04:26,840 --> 01:04:28,840
+que nos dice
+
+1410
+01:04:28,840 --> 01:04:30,840
+que nos dice
+
+1411
+01:04:30,840 --> 01:04:32,840
+que nos dice
+
+1412
+01:04:32,840 --> 01:04:34,840
+que nos dice
+
+1413
+01:04:34,840 --> 01:04:36,840
+que nos dice
+
+1414
+01:04:36,840 --> 01:04:38,840
+que nos dice
+
+1415
+01:04:38,840 --> 01:04:40,840
+que nos dice
+
+1416
+01:04:40,840 --> 01:04:42,840
+que nos dice
+
+1417
+01:04:42,840 --> 01:04:44,840
+que nos dice
+
+1418
+01:04:44,840 --> 01:04:46,840
+que nos dice
+
+1419
+01:04:46,840 --> 01:04:48,840
+que nos dice
+
+1420
+01:04:48,840 --> 01:04:50,840
+que nos dice
+
+1421
+01:04:50,840 --> 01:04:52,840
+que nos dice
+
+1422
+01:04:52,840 --> 01:04:54,840
+que nos dice
+
+1423
+01:04:54,840 --> 01:04:56,840
+que nos dice
+
+1424
+01:04:56,840 --> 01:04:58,840
+que nos dice
+
+1425
+01:04:58,840 --> 01:05:00,840
+que nos dice
+
+1426
+01:05:00,840 --> 01:05:02,840
+que nos dice
+
+1427
+01:05:02,840 --> 01:05:04,840
+que nos dice
+
+1428
+01:05:04,840 --> 01:05:06,840
+que nos dice
+
+1429
+01:05:06,840 --> 01:05:08,840
+que nos dice
+
+1430
+01:05:08,840 --> 01:05:10,840
+que nos dice
+
+1431
+01:05:10,840 --> 01:05:12,840
+que nos dice
+
+1432
+01:05:12,840 --> 01:05:14,840
+que nos dice
+
+1433
+01:05:14,840 --> 01:05:16,840
+que nos dice
+
+1434
+01:05:16,840 --> 01:05:18,840
+que nos dice
+
+1435
+01:05:18,840 --> 01:05:20,840
+que nos dice
+
+1436
+01:05:20,840 --> 01:05:22,840
+que nos dice
+
+1437
+01:05:22,840 --> 01:05:24,840
+que nos dice
+
+1438
+01:05:24,840 --> 01:05:26,840
+que nos dice
+
+1439
+01:05:26,840 --> 01:05:28,840
+que nos dice
+
+1440
+01:05:28,840 --> 01:05:30,840
+que nos dice
+
+1441
+01:05:30,840 --> 01:05:32,840
+que nos dice
+
+1442
+01:05:32,840 --> 01:05:34,840
+que nos dice
+
+1443
+01:05:34,840 --> 01:05:36,840
+que nos dice
+
+1444
+01:05:36,840 --> 01:05:38,840
+que nos dice
+
+1445
+01:05:38,840 --> 01:05:40,840
+que nos dice
+
+1446
+01:05:40,840 --> 01:05:42,840
+que nos dice
+
+1447
+01:05:42,840 --> 01:05:44,840
+que nos dice
+
+1448
+01:05:44,840 --> 01:05:46,840
+que nos dice
+
+1449
+01:05:46,840 --> 01:05:48,840
+que nos dice
+
+1450
+01:05:48,840 --> 01:05:50,840
+que nos dice
+
+1451
+01:05:50,840 --> 01:05:52,840
+que nos dice
+
+1452
+01:05:52,840 --> 01:05:54,840
+que nos dice
+
+1453
+01:05:54,840 --> 01:05:56,840
+que nos dice
+
+1454
+01:05:56,840 --> 01:05:58,840
+que nos dice
+
+1455
+01:05:58,840 --> 01:06:00,840
+que nos dice
+
+1456
+01:06:00,840 --> 01:06:02,840
+que nos dice
+
+1457
+01:06:02,840 --> 01:06:04,840
+que nos dice
+
+1458
+01:06:04,840 --> 01:06:06,840
+que nos dice
+
+1459
+01:06:06,840 --> 01:06:08,840
+que nos dice
+
+1460
+01:06:08,840 --> 01:06:10,840
+que nos dice
+
+1461
+01:06:10,840 --> 01:06:12,840
+que nos dice
+
+1462
+01:06:12,840 --> 01:06:14,840
+que nos dice
+
+1463
+01:06:14,840 --> 01:06:16,840
+que nos dice
+
+1464
+01:06:16,840 --> 01:06:18,840
+que nos dice
+
+1465
+01:06:18,840 --> 01:06:20,840
+que nos dice
+
+1466
+01:06:20,840 --> 01:06:22,840
+que nos dice
+
+1467
+01:06:22,840 --> 01:06:24,840
+que nos dice
+
+1468
+01:06:24,840 --> 01:06:26,840
+que nos dice
+
+1469
+01:06:26,840 --> 01:06:28,840
+que nos dice
+
+1470
+01:06:28,840 --> 01:06:30,840
+que nos dice
+
+1471
+01:06:30,840 --> 01:06:32,840
+que nos dice
+
+1472
+01:06:32,840 --> 01:06:34,840
+que nos dice
+
+1473
+01:06:34,840 --> 01:06:36,840
+que nos dice
+
+1474
+01:06:36,840 --> 01:06:38,840
+que nos dice
+
+1475
+01:06:38,840 --> 01:06:40,840
+que nos dice
+
+1476
+01:06:40,840 --> 01:06:42,840
+que nos dice
+
+1477
+01:06:42,840 --> 01:06:44,840
+que nos dice
+
+1478
+01:06:44,840 --> 01:06:46,840
+que nos dice
+
+1479
+01:06:46,840 --> 01:06:48,840
+que nos dice
+
+1480
+01:06:48,840 --> 01:06:50,840
+que nos dice
+
+1481
+01:06:50,840 --> 01:06:52,840
+que nos dice
+
+1482
+01:06:52,840 --> 01:06:54,840
+que nos dice
+
+1483
+01:06:54,840 --> 01:06:56,840
+que nos dice
+
+1484
+01:06:56,840 --> 01:06:58,840
+que nos dice
+
+1485
+01:06:58,840 --> 01:07:00,840
+que nos dice
+
+1486
+01:07:00,840 --> 01:07:02,840
+que nos dice
+
+1487
+01:07:02,840 --> 01:07:04,840
+que nos dice
+
+1488
+01:07:04,840 --> 01:07:06,840
+que nos dice
+
+1489
+01:07:06,840 --> 01:07:08,840
+que nos dice
+
+1490
+01:07:08,840 --> 01:07:10,840
+que nos dice
+
+1491
+01:07:10,840 --> 01:07:12,840
+que nos dice
+
+1492
+01:07:12,840 --> 01:07:14,840
+que nos dice
+
+1493
+01:07:14,840 --> 01:07:16,840
+que nos dice
+
+1494
+01:07:16,840 --> 01:07:18,840
+que nos dice
+
+1495
+01:07:18,840 --> 01:07:20,840
+que nos dice
+
+1496
+01:07:20,840 --> 01:07:22,840
+que nos dice
+
+1497
+01:07:22,840 --> 01:07:24,840
+que nos dice
+
+1498
+01:07:24,840 --> 01:07:26,840
+que nos dice
+
+1499
+01:07:26,840 --> 01:07:28,840
+que nos dice
+
+1500
+01:07:28,840 --> 01:07:30,840
+que nos dice
+
+1501
+01:07:30,840 --> 01:07:32,840
+que nos dice
+
+1502
+01:07:32,840 --> 01:07:34,840
+que nos dice
+
+1503
+01:07:34,840 --> 01:07:36,840
+que nos dice
+
+1504
+01:07:38,840 --> 01:07:40,840
+que nos dice
+
+1505
+01:07:40,840 --> 01:07:42,840
+que nos dice
+
+1506
+01:07:42,840 --> 01:07:44,840
+que nos dice
+
+1507
+01:07:44,840 --> 01:07:46,840
+que nos dice
+
+1508
+01:07:46,840 --> 01:07:48,840
+que nos dice
+
+1509
+01:07:48,840 --> 01:07:50,840
+que nos dice
+
+1510
+01:07:50,840 --> 01:07:52,840
+que nos dice
+
+1511
+01:07:52,840 --> 01:07:54,840
+que nos dice
+
+1512
+01:07:54,840 --> 01:07:56,840
+que nos dice
+
+1513
+01:07:56,840 --> 01:07:58,840
+que nos dice
+
+1514
+01:07:58,840 --> 01:08:00,840
+que nos dice
+
+1515
+01:08:00,840 --> 01:08:02,840
+que nos dice
+
+1516
+01:08:02,840 --> 01:08:04,840
+que nos dice
+
+1517
+01:08:04,840 --> 01:08:06,840
+que nos dice
+
+1518
+01:08:06,840 --> 01:08:08,840
+que nos dice
+
+1519
+01:08:08,840 --> 01:08:10,840
+que nos dice
+
+1520
+01:08:10,840 --> 01:08:12,840
+que nos dice
+
+1521
+01:08:12,840 --> 01:08:14,840
+que nos dice
+
+1522
+01:08:14,840 --> 01:08:16,840
+que nos dice
+
+1523
+01:08:16,840 --> 01:08:18,840
+que nos dice
+
+1524
+01:08:18,840 --> 01:08:20,840
+que nos dice
+
+1525
+01:08:20,840 --> 01:08:22,840
+que nos dice
+
+1526
+01:08:22,840 --> 01:08:24,840
+que nos dice
+
+1527
+01:08:24,840 --> 01:08:26,840
+que nos dice
+
+1528
+01:08:26,840 --> 01:08:28,840
+que nos dice
+
+1529
+01:08:28,840 --> 01:08:30,840
+que nos dice
+
+1530
+01:08:30,840 --> 01:08:32,840
+que nos dice
+
+1531
+01:08:34,840 --> 01:08:36,840
+que nos dice
+
+1532
+01:08:36,840 --> 01:08:38,840
+que nos dice
+
+1533
+01:08:38,840 --> 01:08:40,840
+que nos dice
+
+1534
+01:08:40,840 --> 01:08:42,840
+que nos dice
+
+1535
+01:08:42,840 --> 01:08:44,840
+que nos dice
+
+1536
+01:08:44,840 --> 01:08:46,840
+que nos dice
+
+1537
+01:08:46,840 --> 01:08:48,840
+que nos dice
+
+1538
+01:08:48,840 --> 01:08:50,840
+que nos dice
+
+1539
+01:08:50,840 --> 01:08:52,840
+que nos dice
+
+1540
+01:08:52,840 --> 01:08:54,840
+que nos dice
+
+1541
+01:08:54,840 --> 01:08:56,840
+que nos dice
+
+1542
+01:08:56,840 --> 01:08:58,840
+que nos dice
+
+1543
+01:08:58,840 --> 01:09:00,840
+que nos dice
+
+1544
+01:09:00,840 --> 01:09:02,840
+que nos dice
+
+1545
+01:09:02,840 --> 01:09:04,840
+que nos dice
+
+1546
+01:09:04,840 --> 01:09:06,840
+que nos dice
+
+1547
+01:09:06,840 --> 01:09:08,840
+que nos dice
+
+1548
+01:09:08,840 --> 01:09:10,840
+que nos dice
+
+1549
+01:09:10,840 --> 01:09:12,840
+que nos dice
+
+1550
+01:09:12,840 --> 01:09:14,840
+que nos dice
+
+1551
+01:09:14,840 --> 01:09:16,840
+que nos dice
+
+1552
+01:09:16,840 --> 01:09:18,840
+que nos dice
+
+1553
+01:09:18,840 --> 01:09:20,840
+que nos dice
+
+1554
+01:09:20,840 --> 01:09:22,840
+que nos dice
+
+1555
+01:09:22,840 --> 01:09:24,840
+que nos dice
+
+1556
+01:09:24,840 --> 01:09:26,840
+que nos dice
+
+1557
+01:09:26,840 --> 01:09:28,840
+que nos dice
+
+1558
+01:09:28,840 --> 01:09:30,840
+que nos dice
+
+1559
+01:09:30,840 --> 01:09:32,840
+que nos dice
+
+1560
+01:09:32,840 --> 01:09:34,840
+que nos dice
+
+1561
+01:09:34,840 --> 01:09:36,840
+que nos dice
+
+1562
+01:09:36,840 --> 01:09:38,840
+que nos dice
+
+1563
+01:09:38,840 --> 01:09:40,840
+que nos dice
+
+1564
+01:09:40,840 --> 01:09:42,840
+que nos dice
+
+1565
+01:09:42,840 --> 01:09:44,840
+que nos dice
+
+1566
+01:09:44,840 --> 01:09:46,840
+que nos dice
+
+1567
+01:09:46,840 --> 01:09:48,840
+que nos dice
+
+1568
+01:09:48,840 --> 01:09:52,920
+que nos dice
+
+1569
+01:09:52,920 --> 01:09:54,920
+que nos dice
+
+1570
+01:09:54,920 --> 01:09:56,920
+que nos dice
+
+1571
+01:09:56,920 --> 01:09:58,920
+que nos dice
+
+1572
+01:09:58,920 --> 01:10:00,920
+que nos dice
+
+1573
+01:10:00,920 --> 01:10:02,920
+que nos dice
+
+1574
+01:10:02,920 --> 01:10:04,920
+que nos dice
+
+1575
+01:10:04,920 --> 01:10:06,920
+que nos dice
+
+1576
+01:10:06,920 --> 01:10:08,920
+que nos dice
+
+1577
+01:10:08,920 --> 01:10:10,920
+que nos dice
+
+1578
+01:10:10,920 --> 01:10:12,920
+que nos dice
+
+1579
+01:10:12,920 --> 01:10:14,920
+que nos dice
+
+1580
+01:10:14,920 --> 01:10:16,920
+que nos dice
+
+1581
+01:10:16,920 --> 01:10:18,920
+que nos dice
+
+1582
+01:10:18,920 --> 01:10:20,920
+que nos dice
+
+1583
+01:10:20,920 --> 01:10:22,920
+que nos dice
+
+1584
+01:10:22,920 --> 01:10:24,920
+que nos dice
+
+1585
+01:10:24,920 --> 01:10:26,920
+que nos dice
+
+1586
+01:10:26,920 --> 01:10:28,920
+que nos dice
+
+1587
+01:10:28,920 --> 01:10:30,920
+que nos dice
+
+1588
+01:10:30,920 --> 01:10:34,710
+que nos dice
+
+1589
+01:10:34,710 --> 01:10:36,710
+que nos dice
+
+1590
+01:10:36,710 --> 01:10:38,710
+que nos dice
+
+1591
+01:10:38,710 --> 01:10:40,710
+que nos dice
+
+1592
+01:10:40,710 --> 01:10:42,710
+que nos dice
+
+1593
+01:10:42,710 --> 01:10:44,710
+que nos dice
+
+1594
+01:10:44,710 --> 01:10:46,710
+que nos dice
+
+1595
+01:10:46,710 --> 01:10:48,710
+que nos dice
+
+1596
+01:10:48,710 --> 01:10:50,710
+que nos dice
+
+1597
+01:10:50,710 --> 01:10:52,710
+que nos dice
+
+1598
+01:10:52,710 --> 01:10:54,710
+que nos dice
+
+1599
+01:10:54,710 --> 01:10:56,710
+que nos dice
+
+1600
+01:10:56,710 --> 01:10:58,710
+que nos dice
+
+1601
+01:10:58,710 --> 01:11:00,710
+que nos dice
+
+1602
+01:11:00,710 --> 01:11:02,710
+que nos dice
+
+1603
+01:11:02,710 --> 01:11:04,710
+que nos dice
+
+1604
+01:11:04,710 --> 01:11:06,710
+que nos dice
+
+1605
+01:11:06,710 --> 01:11:08,710
+que nos dice
+
+1606
+01:11:08,710 --> 01:11:10,710
+que nos dice
+
+1607
+01:11:10,710 --> 01:11:12,710
+que nos dice
+
+1608
+01:11:12,710 --> 01:11:14,710
+que nos dice
+
+1609
+01:11:14,710 --> 01:11:16,710
+que nos dice
+
+1610
+01:11:16,710 --> 01:11:18,710
+que nos dice
+
+1611
+01:11:18,710 --> 01:11:20,710
+que nos dice
+
+1612
+01:11:20,710 --> 01:11:22,710
+que nos dice
+
+1613
+01:11:22,710 --> 01:11:24,710
+que nos dice
+
+1614
+01:11:24,710 --> 01:11:26,710
+que nos dice
+
+1615
+01:11:26,710 --> 01:11:28,710
+que nos dice
+
+1616
+01:11:28,710 --> 01:11:30,710
+que nos dice
+
+1617
+01:11:30,710 --> 01:11:32,710
+que nos dice
+
+1618
+01:11:32,710 --> 01:11:34,710
+que nos dice
+
+1619
+01:11:34,710 --> 01:11:36,710
+que nos dice
+
+1620
+01:11:36,710 --> 01:11:40,790
+que nos dice
+
+1621
+01:11:40,790 --> 01:11:42,790
+que nos dice
+
+1622
+01:11:42,790 --> 01:11:44,790
+que nos dice
+
+1623
+01:11:44,790 --> 01:11:46,790
+que nos dice
+
+1624
+01:11:46,790 --> 01:11:50,300
+que nos dice
+
+1625
+01:11:50,300 --> 01:11:52,300
+que nos dice
+
+1626
+01:11:52,300 --> 01:11:54,300
+que nos dice
+
+1627
+01:11:54,300 --> 01:11:56,300
+que nos dice
+
+1628
+01:11:56,300 --> 01:11:58,300
+que nos dice
+
+1629
+01:11:58,300 --> 01:12:00,300
+que nos dice
+
+1630
+01:12:00,300 --> 01:12:02,300
+que nos dice
+
+1631
+01:12:02,300 --> 01:12:04,300
+que nos dice
+
+1632
+01:12:04,300 --> 01:12:06,300
+que nos dice
+
+1633
+01:12:06,300 --> 01:12:08,300
+que nos dice
+
+1634
+01:12:08,300 --> 01:12:10,300
+que nos dice
+
+1635
+01:12:10,300 --> 01:12:12,300
+que nos dice
+
+1636
+01:12:12,300 --> 01:12:14,300
+que nos dice
+
+1637
+01:12:14,300 --> 01:12:16,300
+que nos dice
+
+1638
+01:12:16,300 --> 01:12:18,300
+que nos dice
+
+1639
+01:12:18,300 --> 01:12:20,300
+que nos dice
+
+1640
+01:12:20,300 --> 01:12:22,300
+que nos dice
+
+1641
+01:12:22,300 --> 01:12:24,300
+que nos dice
+
+1642
+01:12:24,300 --> 01:12:26,300
+que nos dice
+
+1643
+01:12:26,300 --> 01:12:28,300
+que nos dice
+
+1644
+01:12:28,300 --> 01:12:30,300
+que nos dice
+
+1645
+01:12:30,300 --> 01:12:32,300
+que nos dice
+
+1646
+01:12:32,300 --> 01:12:34,300
+que nos dice
+
+1647
+01:12:34,300 --> 01:12:36,300
+que nos dice
+
+1648
+01:12:36,300 --> 01:12:38,300
+que nos dice
+
+1649
+01:12:38,300 --> 01:12:40,300
+que nos dice
+
+1650
+01:12:40,300 --> 01:12:42,300
+que nos dice
+
+1651
+01:12:42,300 --> 01:12:44,300
+que nos dice
+
+1652
+01:12:44,300 --> 01:12:46,300
+que nos dice
+
+1653
+01:12:46,300 --> 01:12:48,300
+que nos dice
+
+1654
+01:12:48,300 --> 01:12:50,300
+que nos dice
+
+1655
+01:12:50,300 --> 01:12:52,300
+que nos dice
+
+1656
+01:12:52,300 --> 01:12:54,300
+que nos dice
+
+1657
+01:12:54,300 --> 01:12:56,300
+que nos dice
+
+1658
+01:12:56,300 --> 01:12:59,700
+que nos dice
+
+1659
+01:12:59,700 --> 01:13:01,700
+que nos dice
+
+1660
+01:13:01,700 --> 01:13:03,700
+que nos dice
+
+1661
+01:13:03,700 --> 01:13:05,700
+que nos dice
+
+1662
+01:13:05,700 --> 01:13:07,700
+que nos dice
+
+1663
+01:13:07,700 --> 01:13:09,700
+que nos dice
+
+1664
+01:13:09,700 --> 01:13:11,700
+que nos dice
+
+1665
+01:13:11,700 --> 01:13:13,700
+que nos dice
+
+1666
+01:13:13,700 --> 01:13:15,700
+que nos dice
+
+1667
+01:13:15,700 --> 01:13:17,700
+que nos dice
+
+1668
+01:13:17,700 --> 01:13:19,700
+que nos dice
+
+1669
+01:13:19,700 --> 01:13:21,700
+que nos dice
+
+1670
+01:13:21,700 --> 01:13:23,700
+que nos dice
+
+1671
+01:13:23,700 --> 01:13:25,700
+que nos dice
+
+1672
+01:13:25,700 --> 01:13:27,700
+que nos dice
+
+1673
+01:13:27,700 --> 01:13:29,700
+que nos dice
+
+1674
+01:13:29,700 --> 01:13:31,700
+que nos dice
+
+1675
+01:13:31,700 --> 01:13:33,700
+que nos dice
+
+1676
+01:13:33,700 --> 01:13:35,700
+que nos dice
+
+1677
+01:13:35,700 --> 01:13:37,700
+que nos dice
+
+1678
+01:13:37,700 --> 01:13:39,700
+que nos dice
+
+1679
+01:13:39,700 --> 01:13:41,700
+que nos dice
+
+1680
+01:13:41,700 --> 01:13:43,700
+que nos dice
+
+1681
+01:13:43,700 --> 01:13:45,700
+que nos dice
+
+1682
+01:13:45,700 --> 01:13:47,700
+que nos dice
+
+1683
+01:13:47,700 --> 01:13:49,700
+que nos dice
+
+1684
+01:13:49,700 --> 01:13:51,700
+que nos dice
+
+1685
+01:13:51,700 --> 01:13:53,700
+que nos dice
+
+1686
+01:13:53,700 --> 01:13:55,700
+que nos dice
+
+1687
+01:13:55,700 --> 01:13:57,700
+que nos dice
+
+1688
+01:13:57,700 --> 01:13:59,700
+que nos dice
+
+1689
+01:13:59,700 --> 01:14:01,700
+que nos dice
+
+1690
+01:14:01,700 --> 01:14:03,700
+que nos dice
+
+1691
+01:14:03,700 --> 01:14:05,700
+que nos dice
+
+1692
+01:14:05,700 --> 01:14:07,700
+que nos dice
+
+1693
+01:14:07,700 --> 01:14:09,700
+que nos dice
+
+1694
+01:14:09,700 --> 01:14:11,700
+que nos dice
+
+1695
+01:14:11,700 --> 01:14:13,700
+que nos dice
+
+1696
+01:14:13,700 --> 01:14:15,700
+que nos dice
+
+1697
+01:14:15,700 --> 01:14:17,700
+que nos dice
+
+1698
+01:14:17,700 --> 01:14:19,700
+que nos dice
+
+1699
+01:14:19,700 --> 01:14:21,700
+que nos dice
+
+1700
+01:14:21,700 --> 01:14:23,700
+que nos dice
+
+1701
+01:14:23,700 --> 01:14:25,700
+que nos dice
+
+1702
+01:14:25,700 --> 01:14:27,700
+que nos dice
+
+1703
+01:14:27,700 --> 01:14:29,700
+que nos dice
+
+1704
+01:14:29,700 --> 01:14:31,700
+que nos dice
+
+1705
+01:14:31,700 --> 01:14:33,700
+que nos dice
+
+1706
+01:14:33,700 --> 01:14:35,700
+que nos dice
+
+1707
+01:14:35,700 --> 01:14:37,700
+que nos dice
+
+1708
+01:14:37,700 --> 01:14:39,700
+que nos dice
+
+1709
+01:14:39,700 --> 01:14:41,700
+que nos dice
+
+1710
+01:14:41,700 --> 01:14:43,700
+que nos dice
+
+1711
+01:14:43,700 --> 01:14:45,700
+que nos dice
+
+1712
+01:14:45,700 --> 01:14:47,700
+que nos dice
+
+1713
+01:14:47,700 --> 01:14:49,700
+que nos dice
+
+1714
+01:14:49,700 --> 01:14:51,700
+que nos dice
+
+1715
+01:14:51,700 --> 01:14:53,700
+que nos dice
+
+1716
+01:14:53,700 --> 01:14:55,700
+que nos dice
+
+1717
+01:14:55,700 --> 01:14:57,700
+que nos dice
+
+1718
+01:14:57,700 --> 01:14:59,700
+que nos dice
+
+1719
+01:14:59,700 --> 01:15:01,700
+que nos dice
+
+1720
+01:15:01,700 --> 01:15:03,700
+que nos dice
+
+1721
+01:15:03,700 --> 01:15:05,700
+que nos dice
+
+1722
+01:15:05,700 --> 01:15:07,700
+que nos dice
+
+1723
+01:15:07,700 --> 01:15:09,700
+que nos dice
+
+1724
+01:15:09,700 --> 01:15:11,700
+que nos dice
+
+1725
+01:15:11,700 --> 01:15:13,700
+que nos dice
+
+1726
+01:15:13,700 --> 01:15:15,700
+que nos dice
+
+1727
+01:15:15,700 --> 01:15:17,700
+que nos dice
+
+1728
+01:15:17,700 --> 01:15:19,700
+que nos dice
+
+1729
+01:15:19,700 --> 01:15:23,430
+que nos dice
+
+1730
+01:15:23,430 --> 01:15:26,870
+que nos dice
+
+1731
+01:15:26,870 --> 01:15:31,080
+que nos dice
+
+1732
+01:15:31,080 --> 01:15:36,410
+que nos dice
+
+1733
+01:15:36,410 --> 01:15:38,410
+que nos dice
+
+1734
+01:15:38,410 --> 01:15:40,410
+que nos dice
+
+1735
+01:15:40,410 --> 01:15:42,410
+que nos dice
+
+1736
+01:15:42,410 --> 01:15:44,410
+que nos dice
+
+1737
+01:15:44,410 --> 01:15:46,410
+que nos dice
+
+1738
+01:15:46,410 --> 01:15:48,410
+que nos dice
+
+1739
+01:15:48,410 --> 01:15:50,410
+que nos dice
+
+1740
+01:15:50,410 --> 01:15:52,410
+que nos dice
+
+1741
+01:15:52,410 --> 01:15:54,410
+que nos dice
+
+1742
+01:15:54,410 --> 01:15:56,410
+que nos dice
+
+1743
+01:15:56,410 --> 01:15:58,410
+que nos dice
+
+1744
+01:15:58,410 --> 01:16:00,410
+que nos dice
+
+1745
+01:16:00,410 --> 01:16:02,410
+que nos dice
+
+1746
+01:16:02,410 --> 01:16:04,410
+que nos dice
+
+1747
+01:16:04,410 --> 01:16:06,410
+que nos dice
+
+1748
+01:16:06,410 --> 01:16:08,410
+que nos dice
+
+1749
+01:16:08,410 --> 01:16:10,410
+que nos dice
+
+1750
+01:16:10,410 --> 01:16:12,410
+que nos dice
+
+1751
+01:16:12,410 --> 01:16:14,410
+que nos dice
+
+1752
+01:16:14,410 --> 01:16:16,410
+que nos dice
+
+1753
+01:16:16,410 --> 01:16:18,410
+que nos dice
+
+1754
+01:16:18,410 --> 01:16:20,410
+que nos dice
+
+1755
+01:16:20,410 --> 01:16:22,410
+que nos dice
+
+1756
+01:16:22,410 --> 01:16:24,410
+que nos dice
+
+1757
+01:16:24,410 --> 01:16:26,410
+que nos dice
+
+1758
+01:16:26,410 --> 01:16:28,410
+que nos dice
+
+1759
+01:16:28,410 --> 01:16:30,410
+que nos dice
+
+1760
+01:16:30,410 --> 01:16:32,410
+que nos dice
+
+1761
+01:16:32,410 --> 01:16:34,410
+que nos dice
+
+1762
+01:16:34,410 --> 01:16:36,410
+que nos dice
+
+1763
+01:16:36,410 --> 01:16:38,410
+que nos dice
+
+1764
+01:16:38,410 --> 01:16:40,410
+que nos dice
+
+1765
+01:16:40,410 --> 01:16:42,410
+que nos dice
+
+1766
+01:16:42,410 --> 01:16:44,410
+que nos dice
+
+1767
+01:16:44,410 --> 01:16:46,410
+que nos dice
+
+1768
+01:16:46,410 --> 01:16:48,410
+que nos dice
+
+1769
+01:16:48,410 --> 01:16:50,410
+que nos dice
+
+1770
+01:16:50,410 --> 01:16:53,750
+que nos dice
+
+1771
+01:16:53,750 --> 01:16:55,750
+que nos dice
+
+1772
+01:16:55,750 --> 01:16:57,750
+que nos dice
+
+1773
+01:16:57,750 --> 01:16:59,750
+que nos dice
+
+1774
+01:16:59,750 --> 01:17:01,750
+que nos dice
+
+1775
+01:17:01,750 --> 01:17:03,750
+que nos dice
+
+1776
+01:17:03,750 --> 01:17:05,750
+que nos dice
+
+1777
+01:17:05,750 --> 01:17:07,750
+que nos dice
+
+1778
+01:17:07,750 --> 01:17:09,750
+que nos dice
+
+1779
+01:17:09,750 --> 01:17:11,750
+que nos dice
+
+1780
+01:17:11,750 --> 01:17:13,750
+que nos dice
+
+1781
+01:17:13,750 --> 01:17:15,750
+que nos dice
+
+1782
+01:17:15,750 --> 01:17:17,750
+que nos dice
+
+1783
+01:17:17,750 --> 01:17:19,750
+que nos dice
+
+1784
+01:17:19,750 --> 01:17:21,750
+que nos dice
+
+1785
+01:17:21,750 --> 01:17:23,750
+que nos dice
+
+1786
+01:17:23,750 --> 01:17:25,750
+que nos dice
+
+1787
+01:17:25,750 --> 01:17:27,750
+que nos dice
+
+1788
+01:17:27,750 --> 01:17:29,750
+que nos dice
+
+1789
+01:17:29,750 --> 01:17:31,750
+que nos dice
+
+1790
+01:17:31,750 --> 01:17:33,750
+que nos dice
+
+1791
+01:17:33,750 --> 01:17:35,750
+que nos dice
+
+1792
+01:17:35,750 --> 01:17:37,750
+que nos dice
+
+1793
+01:17:37,750 --> 01:17:39,750
+que nos dice
+
+1794
+01:17:39,750 --> 01:17:41,750
+que nos dice
+
+1795
+01:17:41,750 --> 01:17:43,750
+que nos dice
+
+1796
+01:17:43,750 --> 01:17:45,750
+que nos dice
+
+1797
+01:17:45,750 --> 01:17:47,750
+que nos dice
+
+1798
+01:17:47,750 --> 01:17:49,750
+que nos dice
+
+1799
+01:17:49,750 --> 01:17:51,750
+que nos dice
+
+1800
+01:17:51,750 --> 01:17:53,750
+que nos dice
+
+1801
+01:17:53,750 --> 01:17:55,750
+que nos dice
+
+1802
+01:17:55,750 --> 01:17:57,750
+que nos dice
+
+1803
+01:17:57,750 --> 01:17:59,750
+que nos dice
+
+1804
+01:17:59,750 --> 01:18:01,750
+que nos dice
+
+1805
+01:18:01,750 --> 01:18:03,750
+que nos dice
+
+1806
+01:18:03,750 --> 01:18:05,750
+que nos dice
+
+1807
+01:18:05,750 --> 01:18:07,750
+que nos dice
+
+1808
+01:18:07,750 --> 01:18:09,750
+que nos dice
+
+1809
+01:18:09,750 --> 01:18:11,750
+que nos dice
+
+1810
+01:18:11,750 --> 01:18:13,750
+que nos dice
+
+1811
+01:18:13,750 --> 01:18:15,750
+que nos dice
+
+1812
+01:18:15,750 --> 01:18:17,750
+que nos dice
+
+1813
+01:18:17,750 --> 01:18:19,750
+que nos dice
+
+1814
+01:18:19,750 --> 01:18:21,750
+que nos dice
+
+1815
+01:18:21,750 --> 01:18:23,750
+que nos dice
+
+1816
+01:18:23,750 --> 01:18:25,750
+que nos dice
+
+1817
+01:18:25,750 --> 01:18:27,750
+que nos dice
+
+1818
+01:18:27,750 --> 01:18:29,750
+que nos dice
+
+1819
+01:18:29,750 --> 01:18:31,750
+que nos dice
+
+1820
+01:18:31,750 --> 01:18:33,750
+que nos dice
+
+1821
+01:18:33,750 --> 01:18:35,750
+que nos dice
+
+1822
+01:18:35,750 --> 01:18:37,750
+que nos dice
+
+1823
+01:18:37,750 --> 01:18:39,750
+que nos dice
+
+1824
+01:18:39,750 --> 01:18:41,750
+que nos dice
+
+1825
+01:18:41,750 --> 01:18:43,750
+que nos dice
+
+1826
+01:18:43,750 --> 01:18:45,750
+que nos dice
+
+1827
+01:18:45,750 --> 01:18:47,750
+que nos dice
+
+1828
+01:18:47,750 --> 01:18:49,750
+que nos dice
+
+1829
+01:18:49,750 --> 01:18:51,750
+que nos dice
+
+1830
+01:18:51,750 --> 01:18:53,750
+que nos dice
+
+1831
+01:18:53,750 --> 01:18:55,750
+que nos dice
+
+1832
+01:18:55,750 --> 01:18:57,750
+que nos dice
+
+1833
+01:18:57,750 --> 01:18:59,750
+que nos dice
+
+1834
+01:18:59,750 --> 01:19:01,750
+que nos dice
+
+1835
+01:19:01,750 --> 01:19:03,750
+que nos dice
+
+1836
+01:19:03,750 --> 01:19:05,750
+que nos dice
+
+1837
+01:19:05,750 --> 01:19:07,750
+que nos dice
+
+1838
+01:19:07,750 --> 01:19:09,750
+que nos dice
+
+1839
+01:19:09,750 --> 01:19:11,750
+que nos dice
+
+1840
+01:19:11,750 --> 01:19:13,750
+que nos dice
+
+1841
+01:19:13,750 --> 01:19:15,750
+que nos dice
+
+1842
+01:19:15,750 --> 01:19:17,750
+que nos dice
+
+1843
+01:19:17,750 --> 01:19:19,750
+que nos dice
+
+1844
+01:19:19,750 --> 01:19:21,750
+que nos dice
+
+1845
+01:19:21,750 --> 01:19:23,750
+que nos dice
+
+1846
+01:19:23,750 --> 01:19:25,750
+que nos dice
+
+1847
+01:19:25,750 --> 01:19:27,750
+que nos dice
+
+1848
+01:19:27,750 --> 01:19:29,750
+que nos dice
+
+1849
+01:19:29,750 --> 01:19:31,750
+que nos dice
+
+1850
+01:19:31,750 --> 01:19:33,750
+que nos dice
+
+1851
+01:19:33,750 --> 01:19:35,750
+que nos dice
+
+1852
+01:19:35,750 --> 01:19:37,750
+que nos dice
+
+1853
+01:19:37,750 --> 01:19:39,750
+que nos dice
+
+1854
+01:19:39,750 --> 01:19:41,750
+que nos dice
+
+1855
+01:19:41,750 --> 01:19:43,750
+que nos dice
+
+1856
+01:19:43,750 --> 01:19:45,750
+que nos dice
+
+1857
+01:19:45,750 --> 01:19:47,750
+que nos dice
+
+1858
+01:19:47,750 --> 01:19:49,750
+que nos dice
+
+1859
+01:19:49,750 --> 01:19:51,750
+que nos dice
+
+1860
+01:19:51,750 --> 01:19:53,750
+que nos dice
+
+1861
+01:19:53,750 --> 01:19:55,750
+que nos dice
+
+1862
+01:19:55,750 --> 01:19:57,750
+que nos dice
+
+1863
+01:19:57,750 --> 01:19:59,750
+que nos dice
+
+1864
+01:19:59,750 --> 01:20:01,750
+que nos dice
+
+1865
+01:20:01,750 --> 01:20:03,750
+que nos dice
+
+1866
+01:20:03,750 --> 01:20:05,750
+que nos dice
+
+1867
+01:20:05,750 --> 01:20:07,750
+que nos dice
+
+1868
+01:20:07,750 --> 01:20:09,750
+que nos dice
+
+1869
+01:20:09,750 --> 01:20:11,750
+que nos dice
+
+1870
+01:20:11,750 --> 01:20:13,750
+que nos dice
+
+1871
+01:20:13,750 --> 01:20:15,750
+que nos dice
+
+1872
+01:20:15,750 --> 01:20:17,750
+que nos dice
+
+1873
+01:20:17,750 --> 01:20:19,750
+que nos dice
+
+1874
+01:20:19,750 --> 01:20:21,750
+que nos dice
+
+1875
+01:20:21,750 --> 01:20:23,750
+que nos dice
+
+1876
+01:20:23,750 --> 01:20:25,750
+que nos dice
+
+1877
+01:20:25,750 --> 01:20:27,750
+que nos dice
+
+1878
+01:20:27,750 --> 01:20:29,750
+que nos dice
+
+1879
+01:20:29,750 --> 01:20:31,750
+que nos dice
+
+1880
+01:20:31,750 --> 01:20:33,750
+que nos dice
+
+1881
+01:20:33,750 --> 01:20:35,750
+que nos dice
+
+1882
+01:20:35,750 --> 01:20:37,750
+que nos dice
+
+1883
+01:20:37,750 --> 01:20:39,750
+que nos dice
+
+1884
+01:20:39,750 --> 01:20:41,750
+que nos dice
+
+1885
+01:20:41,750 --> 01:20:43,750
+que nos dice
+
+1886
+01:20:43,750 --> 01:20:45,750
+que nos dice
+
+1887
+01:20:45,750 --> 01:20:47,750
+que nos dice
+
+1888
+01:20:47,750 --> 01:20:49,750
+que nos dice
+
+1889
+01:20:49,750 --> 01:20:51,750
+que nos dice
+
+1890
+01:20:51,750 --> 01:20:53,750
+que nos dice
+
+1891
+01:20:53,750 --> 01:20:55,750
+que nos dice
+
+1892
+01:20:55,750 --> 01:20:57,750
+que nos dice
+
+1893
+01:20:57,750 --> 01:20:59,750
+que nos dice
+
+1894
+01:20:59,750 --> 01:21:01,750
+que nos dice
+
+1895
+01:21:01,750 --> 01:21:03,750
+que nos dice
+
+1896
+01:21:03,750 --> 01:21:05,750
+que nos dice
+
+1897
+01:21:05,750 --> 01:21:07,750
+que nos dice
+
+1898
+01:21:07,750 --> 01:21:09,750
+que nos dice
+
+1899
+01:21:09,750 --> 01:21:11,750
+que nos dice
+
+1900
+01:21:11,750 --> 01:21:13,750
+que nos dice
+
+1901
+01:21:13,750 --> 01:21:15,750
+que nos dice
+
+1902
+01:21:15,750 --> 01:21:17,750
+que nos dice
+
+1903
+01:21:17,750 --> 01:21:19,750
+que nos dice
+
+1904
+01:21:19,750 --> 01:21:21,750
+que nos dice
+
+1905
+01:21:21,750 --> 01:21:23,750
+que nos dice
+
+1906
+01:21:23,750 --> 01:21:25,750
+que nos dice
+
+1907
+01:21:25,750 --> 01:21:27,750
+que nos dice
+
+1908
+01:21:27,750 --> 01:21:29,750
+que nos dice
+
+1909
+01:21:29,750 --> 01:21:31,750
+que nos dice
+
+1910
+01:21:31,750 --> 01:21:33,750
+que nos dice
+
+1911
+01:21:33,750 --> 01:21:35,750
+que nos dice
+
+1912
+01:21:35,750 --> 01:21:37,750
+que nos dice
+
+1913
+01:21:37,750 --> 01:21:39,750
+que nos dice
+
+1914
+01:21:39,750 --> 01:21:41,750
+que nos dice
+
+1915
+01:21:41,750 --> 01:21:43,750
+que nos dice
+
+1916
+01:21:43,750 --> 01:21:45,750
+que nos dice
+
+1917
+01:21:45,750 --> 01:21:47,750
+que nos dice
+
+1918
+01:21:47,750 --> 01:21:49,750
+que nos dice
+
+1919
+01:21:49,750 --> 01:21:51,750
+que nos dice
+
+1920
+01:21:51,750 --> 01:21:53,750
+que nos dice
+
+1921
+01:21:53,750 --> 01:21:55,750
+que nos dice
+
+1922
+01:21:55,750 --> 01:21:57,750
+que nos dice
+
+1923
+01:21:57,750 --> 01:21:59,750
+que nos dice
+
+1924
+01:21:59,750 --> 01:22:01,750
+que nos dice
+
+1925
+01:22:01,750 --> 01:22:06,090
+que nos dice
+
+1926
+01:22:06,090 --> 01:22:08,090
+que nos dice
+
+1927
+01:22:08,090 --> 01:22:10,090
+que nos dice
+
+1928
+01:22:10,090 --> 01:22:12,090
+que nos dice
+
+1929
+01:22:12,090 --> 01:22:14,090
+que nos dice
+
+1930
+01:22:14,090 --> 01:22:16,090
+que nos dice
+
+1931
+01:22:16,090 --> 01:22:18,090
+que nos dice
+
+1932
+01:22:18,090 --> 01:22:20,090
+que nos dice
+
+1933
+01:22:20,090 --> 01:22:22,090
+que nos dice
+
+1934
+01:22:22,090 --> 01:22:24,090
+que nos dice
+
+1935
+01:22:24,090 --> 01:22:26,090
+que nos dice
+
+1936
+01:22:26,090 --> 01:22:28,090
+que nos dice
+
+1937
+01:22:28,090 --> 01:22:30,090
+que nos dice
+
+1938
+01:22:30,090 --> 01:22:32,090
+que nos dice
+
+1939
+01:22:32,090 --> 01:22:34,090
+que nos dice
+
+1940
+01:22:34,090 --> 01:22:36,090
+que nos dice
+
+1941
+01:22:36,090 --> 01:22:38,090
+que nos dice
+
+1942
+01:22:38,090 --> 01:22:40,090
+que nos dice
+
+1943
+01:22:40,090 --> 01:22:42,090
+que nos dice
+
+1944
+01:22:42,090 --> 01:22:44,090
+que nos dice
+
+1945
+01:22:44,090 --> 01:22:46,090
+que nos dice
+
+1946
+01:22:46,090 --> 01:22:48,090
+que nos dice
+
+1947
+01:22:48,090 --> 01:22:50,090
+que nos dice
+
+1948
+01:22:50,090 --> 01:22:52,090
+que nos dice
+
+1949
+01:22:52,090 --> 01:22:54,090
+que nos dice
+
+1950
+01:22:54,090 --> 01:22:56,090
+que nos dice
+
+1951
+01:22:56,090 --> 01:22:58,090
+que nos dice
+
+1952
+01:22:58,090 --> 01:23:00,090
+que nos dice
+
+1953
+01:23:00,090 --> 01:23:02,090
+que nos dice
+

@@ -1,0 +1,6 @@
+02:42:24	Javier Navarro:	import numpy as np
+data = np.random.randint(10,50,size=[5,])
+print (f'los datos en pulgadas son : {data}')
+
+data=data*2.54
+print (f'Los datos en metros son : {data}')

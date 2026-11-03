@@ -1,0 +1,11439 @@
+Ok, buenas tardes
+Buenas tardes, profesor
+Buenas tardes, profesor
+Ok, bienvenido a la segunda clase
+Vamos a comenzar donde habíamos quedado, ¿ok?
+Ok
+Muy bien, entonces, bienvenido a la segunda clase
+Nosotros habíamos... ¿Están viendo mi pantalla, cierto?
+Sí, profesor
+Sí
+Perfecto, nosotros habíamos quedado aquí
+En lo que era una definición de un sistema de inteligencia artificial, ¿ok?
+Entonces vamos a retomar ahí donde habíamos quedado
+Ok, ¿alguna idea? ¿Cómo podemos definir qué es un sistema de inteligencia artificial?
+Habíamos dicho que intentaba replicar las capacidades cognitivas humanas
+Eso era básicamente lo que habíamos dicho en la clase pasada
+Ok, muy bien
+Efectivamente, ¿cierto? Lo podemos definir de esa manera
+Ahora bien
+Como dice Isabel
+Que es informática, Isabel, me parece, ¿no?
+Así es
+Los sistemas de inteligencia artificial intentan replicar, como decía Isabel, capacidades cognitivas de humanos en máquinas
+Y esas máquinas hoy son computadores de von Neumann
+Llamados así por John von Neumann
+Que como discutimos la clase anterior
+Fue el padre lo que es la arquitectura de computadores clásicos digitales que se usan hasta el día de hoy, digamos
+¿Ok?
+Ahora, ¿cuáles son esas capacidades?
+Entonces nosotros reconocemos varias de ellas
+Una es
+Una de las primeras que logró solucionarse
+En inteligencia artificial
+Que es reconocimiento de habla
+¿Ok?
+Que es un problema ya resuelto en muchos lenguajes naturales
+Tenemos también visión
+Que hoy en día es una de las áreas más desarrolladas
+De hecho, sistemas de visión y reconocimiento de imágenes lo hacen mejor que
+Y mucho mejor que nosotros los humanos
+O sea, es un área
+Que es muy intensiva en datos
+Pero poco intensiva en conocimiento
+Y eso es algo que vamos a recalcar
+Porque el gran auge de las aplicaciones de inteligencia artificial
+Que vemos hoy
+Con el paradigma subsimbólico
+En general aquellas que se dan muy bien con ese paradigma
+Son aquellas que son
+Intensivas en datos
+Pero no en conocimiento
+¿Ok?
+Y visión es una de esas
+Exactamente
+También tenemos aprendizaje automático
+Como una de las áreas que más ha crecido
+En inteligencia artificial
+Desde el cambio del milenio prácticamente
+Pero que todavía no es capaz de implementar razonamiento automático
+¿Alguien me puede conjeturar por qué eso es así?
+¿Por qué Machine Learning hoy?
+Aprendizaje automático con todos los avances que he tenido
+Con el paradigma subsimbólico
+Todavía no es capaz de implementar razonamiento automático
+¿A qué se deberá eso?
+¿Puede ser que requiera un contexto
+Para poder
+Realizar un aprendizaje automático?
+Sí, requiere contexto
+Pero va más allá
+Requiere algo que
+Para lo cual
+El paradigma subsimbólico
+No está pensado ni está diseñado
+¿Pensamiento lateral?
+Pensamiento, ok
+Pero hay otra palabra para eso
+Hay un área de la matemática
+Que nos ayuda en eso
+De todas las áreas de la matemática
+Hay un área en particular
+Que me ayuda justamente con este problema
+De implementar razonamiento automático
+¿La lógica?
+¿La probabilidad?
+¿Estadística?
+¿Francisco?
+¿Quién dijo lógica?
+Lógica
+Sí
+¿Jorge?
+Francisco Chéver Riega
+Francisco
+¿Usted
+¿Qué es de profesión Francisco?
+Ingeniero civil industrial
+Ok, muy bien Francisco
+Exactamente
+Lógica matemática
+No está pensada para hacer eso
+El paradigma simbólico sí
+Pero el subsimbólico no
+Por lo tanto no se da muy bien
+En aplicaciones que requieren
+Sin embargo
+Machine Learning
+Como
+Como
+Como
+Disciplina
+O subdisciplina
+De la inteligencia artificial
+Que se dedica al aprendizaje automático
+Ha tenido un boom
+En los últimos 20 años
+Con el paradigma subsimbólico
+Sin embargo
+Como dice ahí
+Aún no es capaz de implementar
+Razonamiento automático
+Eso lo vamos a ver un poquito más adelante
+En la clase de hoy
+Cuando veamos las últimas arquitecturas
+De ChartGPT
+¿Ok?
+Que intentan de alguna manera
+Subsanar
+Subsanar
+Las últimas
+Las que salieron ahora
+En febrero
+El ChartGPT 4.5
+Intenta subsanar un poco eso
+Con algún
+Nivel de éxito
+Pero está muy lejos
+De poder
+Llegar al nivel
+De lo que puede ser
+Razonamiento automático
+En un sistema
+De inteligencia artificial
+Basado en el paradigma simbólico
+Y eso lo vamos a
+Redefinir
+Redefinir
+Yo hablé de eso
+En la primera clase
+Pero hoy día
+Lo vamos a ver más profundamente
+¿Ok?
+Tenemos todo el área de robótica
+Que es muy exitosa
+En el área de manufactura
+¿Ok?
+Tenemos lenguaje natural
+Y lenguaje natural
+Es todo un mundo
+No es lo mismo hablar de
+Traducción automática
+Y hacer resumen
+Es que es lo que ustedes ven
+Más a menudo
+Cuando utilizan
+Plataformas
+De transformers
+Como CharGPT
+En sus distintas versiones
+No es lo mismo eso
+Que es también una área
+Es un área
+De Machine Learning
+No es lo mismo eso
+Que por ejemplo
+Razonamiento profundo
+Y sistemas de diálogo
+En
+En
+En lenguaje natural
+Eso requiere
+De mucho más
+Razonamiento automático
+Por eso mismo
+Las aplicaciones
+En esas áreas
+No se han visto
+Muy beneficiadas
+Del paradigma actual
+¿Ok?
+Cuando digo paradigma actual
+Más en boga
+El paradigma subsimbólico
+Y tenemos después
+Lo que se viene
+O sea
+Tenemos
+Realidad virtual aumentada
+Es decir
+Recrear el mundo real
+Y aumentarlo
+Para dar origen
+Al metaverso
+En el fondo
+Que va a requerir
+En mi opinión
+De una conjunción
+De lo que son
+Ambos paradigmas
+El simbólico
+Y el subsimbólico
+Que le dimos un nombre
+A eso
+Le llamábamos
+El paradigma híbrido
+¿Ok?
+Que es un área
+Muy nueva
+De investigación
+En inteligencia artificial
+Y que yo creo
+Que va a tener
+El mayor auge
+De aquí
+A los próximos
+10, 20 años
+Y lo que se viene
+Más adelante
+Que es AGI
+¿Alguien sabe
+Qué es AGI
+O inteligencia artificial
+General?
+¿Alguna idea?
+Isabel
+Es el objetivo
+Es el
+Finalmente
+El objetivo
+Desde las
+O sea
+Desde los primeros
+Atisbos
+O sea
+De los primeros estudios
+De inteligencia artificial
+Llegar a una inteligencia
+Artificial general
+O acercarse
+A ella
+Y en el fondo
+Todo esto
+Son pasos
+Para ese fin
+Es lo que vimos
+En el curso pasado
+Y en el fondo
+Es para
+De alguna u otra forma
+Que llegue a razonar
+De la misma manera
+Que podría razonar
+Una persona
+Y sea una relación
+Casi horizontal
+En ese sentido
+Ok
+O sea
+Ahora tenemos chats
+Sí
+Sí, muy bien
+¿Y por qué le llamamos general?
+Porque le debería tener
+Todo el conocimiento
+Claro
+Es porque
+En el fondo
+Es una gran
+Es un gran desafío
+Eso
+Pretende unir
+Todas estas
+Estas áreas
+O sea
+La gran promesa
+De la
+Inteligencia artificial
+General
+Es poder decir
+Que reunimos
+Todas las áreas
+Que pusimos más arriba
+Y las que probablemente
+Se van a desarrollar
+Más a futuro
+Es decir
+Habla, visión
+Aprendizaje automático
+Robótica
+Lenguaje natural
+En sus distintas áreas
+Etcétera
+Entonces es una agenda
+De investigación
+Que reúne
+Reúne en el fondo
+Todos los avances
+Que se han hecho
+En inteligencia artificial
+Lo que vendrán
+Más a futuro
+Y como ustedes
+Comprenderán
+Algunas áreas
+Están más desarrolladas
+Que otras
+Ok
+Como les decía
+Visión
+Hoy en día
+Un sistema de reconocimiento
+De imágenes
+Basados en redes neuronales
+En arquitecturas
+De
+Transformers
+Tienen un rendimiento
+Muy superior
+Al
+De cualquier humano
+Ok
+Pero no están basados
+En lógica
+Están basadas
+En reconocimiento
+De patrones
+Ok
+Y en eso
+Que es muy intensivo
+En datos
+Pero poco intensivo
+En conocimiento
+Esa área
+Ha tenido
+Un gran éxito
+Otras no tanto
+Ok
+Entonces bueno
+Eso es
+Lo que nosotros
+Entendemos
+Como un
+Sistema de
+Inteligencia
+Artificial
+Ok
+Entonces
+Resumiendo
+La AGI
+Pretende
+Abonar
+O reunir
+En un mismo sistema
+Estas distintas disciplinas
+Quizás
+Probablemente
+Y eso se los mencioné
+En la clase pasada
+Es un proyecto
+Con el cual yo tuve
+Algún nivel de contacto
+Hace muchos años atrás
+Entre el 2010
+Y el 2013
+Que fue el mayor proyecto
+De inteligencia artificial
+A la fecha
+Hoy en día
+No podemos decir lo mismo
+Porque con todo
+Este boom
+Del paradigma
+Subsimbólico
+De los transformers
+Obviamente las inversiones
+Que empresas privadas
+Están haciendo en esto
+Son
+Son mucho mayores
+Si ustedes piensan
+Que entrenar
+Un transformer
+Creo que
+En sus últimas versiones
+Un solo entrenamiento
+Puede involucrar
+Costos de más de
+500 millones de dólares
+O sea
+Son cifras
+Que
+Solamente
+Consorcios
+De empresas
+Privadas
+Pueden gatillar
+O instituciones
+De gobierno
+Pero
+Sería impensable
+Que eso pudiese salir
+De una universidad
+Con los presupuestos
+Que se requieren
+Para ello
+Eso ahora
+Estoy hablando
+De cifras
+De lo que cuesta
+Hacer eso
+Hoy en día
+El proyecto
+Del cual es leado
+Fue proyecto
+Un precursor
+De esto
+De la inteligencia
+General artificial
+Porque involucró
+Al menos
+Siete subespecialidades
+De la inteligencia artificial
+Estoy hablando
+Por ahí
+Por los dos mil
+El año dos mil diez
+Por ahí
+Y tuvo un presupuesto
+De casi 300 millones
+De dólares
+O sea
+Para la fecha
+Era el mayor
+Presupuesto
+Para un proyecto
+De la inteligencia artificial
+Hasta esa fecha
+¿Ok?
+Y involucró
+Varias de estas áreas
+Involucró
+Aprendizaje automático
+Razonamiento
+Automático
+Involucró
+Resolución de problemas
+Involucró
+Percepción de entorno
+No involucró
+Ese problema
+Estaba al margen
+Del proyecto
+Pero sí
+Representación
+Y entendimiento
+Del lenguaje natural
+¿Ok?
+Entonces involucró
+Varias áreas
+Y generó propiedades
+Intelectuales
+En varias áreas
+De la inteligencia artificial
+Las cuales después
+Dieron origen
+De una startup
+Que fue incubada
+En un centro
+Muy famoso
+Yo se los mencioné
+En Silicon Valley
+Que se llama
+Stanford Research Institute
+Y
+Y dio origen a Siri
+Que después
+Creo que en 2013
+Si mal no recuerdo
+Fue adquirido por
+Por Apple
+Y mantuvo
+El mismo nombre
+Como aplicación
+Pero la empresa
+Se llamaba Siri
+Y la aplicación
+También se llamaba
+Así
+¿Ok?
+Eso en cuanto
+A la promesa
+De lo que se viene
+Que es la inteligencia
+La inteligencia artificial
+General
+¿Ok?
+Entonces vamos un poco
+A hablar de
+La esencia
+De todo sistema
+De inteligencia artificial
+La esencia
+Es la representación
+De conocimientos
+Es esa área
+Y yo les dije
+Es un área central
+En
+Inteligencia artificial
+O sea
+No hay ningún
+No hay ningún
+Sistema de inteligencia artificial
+Por rudimentario que sea
+Que no tenga
+Una
+Una componente
+De representación
+De conocimientos
+Si bien
+Ustedes pueden
+Contraargumentar
+Y decir
+Bueno
+El paradigma actual
+Subsimbólico
+Que está basado en datos
+Que no tiene
+Explícitamente
+Una componente
+De representación
+De conocimientos
+Porque
+Porque
+No es declarada
+A priori
+En la arquitectura
+Emerge de alguna manera
+A través de
+Machine Learning
+De varias capas
+Y eso
+No es
+Eso son datos
+No es conocimiento
+Recuerden nuestra definición
+Datos son
+Los que podemos capturar
+A través de
+De internet
+O a través de la interacción
+De una aplicación
+Con un
+Con un ser humano
+O
+A futuro
+Cuando tengamos
+Los internet en las cosas
+Va a ser la interacción
+Con cualquier cosa
+Hoy en día
+Es fundamentalmente
+Entre
+Dispositivos
+Inteligentes
+Como puede ser
+Un
+Un laptop
+O un
+Un smartphone
+¿Cierto?
+Y humanos
+El día de mañana
+Esa interacción
+Va a
+Va a explotar
+Porque cualquier cosa
+Que esté conectada
+A internet
+Va a tener la posibilidad
+De generar
+Ese tipo de interacciones
+¿Ok?
+Y esos datos
+La pregunta es
+¿Dónde surge
+El conocimiento
+A través del paradigma
+Subsimbólico?
+Y eso es una pregunta
+Que está abierta
+Porque
+En realidad
+Es un gran desafío
+El paradigma
+Subsimbólico
+Y ya con
+ChartGPT 4.5
+Se pretende
+Cruzar un poco
+Esa barrera
+Pero es una barrera
+Bastante difusa
+Porque no está
+Declarada
+Y es difícil
+Poder decir
+En qué momento
+Está surgiendo
+Conocimiento
+A partir de
+Estas arquitecturas
+Que están basadas
+En
+Machine Learning
+Bajo el paradigma
+Subsimbólico
+¿Ok?
+Hechas a salvedad
+Para bien o para mal
+Digamos
+Tenemos un problema
+Y el problema
+Es que tenemos
+Que representar
+Conocimientos
+Para poder
+Implementar
+Un sistema
+De inteligencia
+artificial
+Y para ello
+Necesitamos
+Dos cosas
+Necesitamos
+Un lenguaje
+De representación
+Por un lado
+Y un sistema
+De representación
+Por el otro
+Y de eso
+Vamos a hablar
+Fundamentalmente
+En la clase
+De hoy
+¿Ok?
+Entonces
+Mi pregunta es
+Vamos al quiz
+Número 10
+Para debatirlo
+Aquí con ustedes
+¿Por qué la esencia
+De todo sistema
+De IA
+Es el sistema
+De representación
+De conocimientos?
+¿O el corazón
+De todo sistema
+De inteligencia artificial
+Es
+El sistema
+De representación
+De conocimientos?
+¿A qué se debe eso?
+¿Qué creen ustedes?
+Yo creo que es lo que
+Le da sentido
+A la información
+Para que tenga
+Algún uso
+Ok
+Alejandro
+Muy bien
+A ver
+Nosotros en la clase
+Anterior
+Definimos datos
+Información
+Y conocimiento
+¿Cierto?
+¿Se acuerdan?
+Y dijimos
+Dijimos que datos
+Hay que darles
+Un significado
+Para poder generar
+Para poder generar
+Información
+Y luego la información
+Como decía
+Aquí recién
+Alejandro
+Hay que asignarle
+Un uso
+Un uso válido
+Para poder
+Tener recién
+Conocimiento
+O sea
+Datos
+Información
+Y conocimiento
+No son lo mismo
+Una cosa
+Lleva a la otra
+Pero es un proceso
+Que cuesta
+Y cuesta bastante
+¿Ok?
+Entonces
+En el paradigma
+Subsimbólico
+Quien aporta
+Ese conocimiento
+Top down
+Son ingenieros
+Del conocimiento
+¿Ok?
+Y una vez que yo
+Tengo bases
+De conocimiento
+Lo suficientemente
+Grandes
+Ese conocimiento
+Se va a ir multiplicando
+Porque en la medida
+Que ese conocimiento
+Este basado en lógica
+O lo represente
+Con lenguaje
+Basado en lógica
+Y de eso vamos a hablar hoy
+En más detalle
+Entonces yo puedo generar
+A través de inferencias
+Lógicas
+Más conocimiento
+Pero el problema inicial
+Es que necesito
+Una masa crítica
+De conocimiento
+Si no el sistema
+No va a funcionar
+No va a ser viable
+¿Ok?
+Eso en el paradigma
+Simbólico
+Ahora en el paradigma
+Subsimbólico
+Un poco tengo
+El mismo problema
+Solo que
+La manera en que yo
+Llego al conocimiento
+Es distinta
+En el subsimbólico
+Yo digo bueno
+Yo no me preocupo
+De generar el conocimiento
+Yo tengo datos
+Y hago que
+A través de algoritmos
+De machine learning
+Voy generando
+Distintas capas
+De
+De datos
+Que me van llevando
+Lentamente
+Hacia algo
+Que puedo yo
+Comparar
+Con una regla
+De conocimiento simbólico
+Y esas reglas
+Las vamos a ver
+En un tiempo más
+¿Ok?
+Aquí alguien
+Me está pidiendo
+Que grabe
+La clase
+Pero la clase
+Está siendo grabada
+Me parece
+¿No?
+Sí
+Arriba
+Sali grabando
+Sí
+Ok
+Muy bien
+¿Se entendió eso?
+O sea
+Al final del día
+El sistema
+El sistema
+De representación
+De conocimientos
+Ya sea
+A través del paradigma
+Simbólico
+O subsimbólico
+Debe
+Debe estar presente
+¿Ok?
+Explícita o implícitamente
+En el
+En el
+Sistema de inteligencia
+Artificial
+¿Por qué?
+Porque
+La esencia
+De todo sistema
+De inteligencia artificial
+Es la base
+De conocimiento
+Y la pregunta
+Que yo les hacía
+Es un minuto
+¿Por qué?
+Bueno
+Es porque
+No hay
+Información
+Sin representación
+No hay
+Conocimiento
+Sin información
+Y porque
+No hay
+IA
+Sin conocimiento
+Entonces
+Esta respuesta
+Que yo estoy dando
+A esta pregunta
+Tiene que ver
+Con
+Ese proceso
+De conversión
+Que tiene
+Dos grandes fases
+Una
+Es convertir
+Datos
+En información
+Cosa que
+El paradigma
+Subsimbólico
+Hace
+Y hace muy bien
+Pero además
+Necesito luego
+Convertir
+Información
+En conocimiento
+Cosa que
+El paradigma
+Subsimbólico
+Todavía no resuelve
+¿Ok?
+Estamos como
+En la frontera
+Tratando de resolverse
+Pero en general
+Esa segunda fase
+No está presente
+Entonces cuando yo les decía
+Que
+Que el paradigma
+Subsimbólico
+Se da bien
+Para aplicaciones
+Que son intensivas
+En datos
+Pero no tan
+Incentivas
+En conocimiento
+Aquí está la respuesta
+A eso
+Es por esta razón
+¿Ok?
+Es porque
+Ese paradigma
+Todavía no resuelve
+La transición
+Desde la información
+A ese conocimiento
+¿Y después
+El paradigma
+Del conocimiento
+Viene el del razonamiento
+Entonces?
+Con lo que hemos conversado
+Ok
+Buena pregunta
+Emanuel
+¿No?
+Sí
+Emanuel
+Tu pregunta
+Tu pregunta
+Es muy pertinente
+Y la respuesta
+A tu pregunta
+Es la siguiente
+En la medida
+Que ese conocimiento
+Yo lo tengo que representar
+Y para representarlo
+Necesito un lenguaje
+Siempre
+¿Ok?
+Si ese lenguaje
+Está basado en lógica
+Entonces
+Ya inmediatamente
+Yo voy a poder
+Razonar
+Como dice
+Tu
+Si no está basado
+En lógica
+Entonces tengo un problema
+¿Ok?
+En la medida
+En que yo adopte
+Un paradigma
+Lógica matemática
+En el fondo
+Para poder implementar
+Ese lenguaje
+Entonces sí
+Entonces sí
+Puedo razonar
+Automáticamente
+Y en esta clase
+Vamos a ver
+Lo que ha sido
+La evolución
+Porque los lenguajes
+Basados en lógica
+De representación
+De conocimiento
+No surgieron al comienzo
+En los años 50
+60
+70
+Y 80
+No se usaba la lógica
+Recién a final
+Mediados del 80
+A finales de los 80
+Los investigadores
+De inteligencia artificial
+Dijeron
+Bueno
+Basta de todos
+Estos lenguajes
+Que no están basados
+En lógica
+Para representar
+El conocimiento
+Y
+Basémoslos
+En lógica matemática
+Y vamos a hablar
+De eso también hoy día
+¿Ok?
+Vamos a hacer un barrido
+De lo que han sido
+Distintos lenguajes
+Entonces para responder
+Tu pregunta
+Sí
+Y en la medida
+Que yo
+Es lenguaje
+De representación
+Lo basa en lógica
+Matemática
+Yo voy a tener
+Un motor de inferencias
+Por detrás
+¿Se entiende Manuel?
+Sí profe
+Ahí me sale
+La duda
+Así como conversamos
+De la percepción
+De la realidad
+Si también
+Va a pasar algo parecido
+Con la percepción
+De la lógica
+Explícame la pregunta
+Un poco más
+A ver si te la puedo responder
+Así como si
+A una
+Inteligencia artificial
+Yo imagino
+Que con los conocimientos
+Que tiene
+Va a crear una lógica
+Que para ella
+Va a ser como la adecuada
+Que puede ser distinta
+A la de nosotros
+Como pasa
+Con la percepción
+De la realidad
+Ok
+Muy bien
+Hay dos cosas
+Que decir al respecto
+Uno
+Es que hay distintas lógicas
+Hay lógicas
+Que son más expresivas
+Que otras
+Que te permiten
+Expresar más conocimiento
+Que otras lógicas
+Ok
+Entonces cuando tú dices
+Que
+Usen lógica
+Como nosotros
+¿Cierto?
+Cuando dices
+Como nosotros
+Te refieres a los humanos
+Hay varios matices
+Hay varios matices
+Que hay que hacer
+Primero
+¿Cierto?
+El humano
+Tiene biases
+Tiene sesgos
+En el proceso
+De razonamiento
+Eso está bien
+Investigado
+En la lógica
+Yo les hablé
+Creo de eso
+En la primera clase
+Cuando hablé
+De Kahneman y Tversky
+No sé si lo mencioné
+Kahneman ganó
+Con Tversky
+Escribieron en 1979
+Un artículo muy famoso
+Que se trataba
+De cómo los humanos
+Razonan bajo incertidumbre
+Y demostraron
+Que hay una serie
+De sesgos
+Que hace que
+No sea muy lógico
+No sé cuántos
+Psicólogos
+Hay acá en la clase
+Pero
+O psicólogos conectivos
+Que se dediquen a esto
+Pero ellos postularon
+Una teoría muy famosa
+En psicología
+Que se llama
+Teoría de prospectos
+Y demostraron
+Que en esa teoría
+De prospectos
+Cuando nosotros
+Los humanos
+Razonamos
+Cometemos una serie
+De errores
+Sobre todo
+Y esos errores
+Son bien distintos
+Cuando estamos
+En la zona
+De las ganancias
+Y cuando estamos
+En la zona
+De las pérdidas
+Entonces
+Lo que decía
+Tú, Manuel
+La pregunta
+Ahí es más filosófica
+Es decir, ok
+Si la máquina
+Debe resonar
+Como el humano
+Entonces en teoría
+Debería
+Cometer los mismos
+Errores que el humano
+¿Se entiende, no?
+¿Queremos eso
+O no queremos eso?
+Entonces la pregunta
+La respuesta a eso
+Es ambivalente
+Porque
+Para algunas aplicaciones
+No vamos a querer eso
+Pero para otras
+Probablemente
+Que sí sea necesario
+Que lo haga
+Ok
+Entonces eso es por un lado
+O sea
+La manera que los humanos
+Nosotros razonamos
+Es distinta
+Como razonaría una máquina
+Y si queremos
+Que la máquina
+Razone como un humano
+Entonces tendríamos
+Que conocer
+La teoría psicolingüística
+¿Cierto?
+O de tomada
+De decisión
+¿Por qué?
+¿Por qué?
+¿Por qué?
+¿Por qué?
+¿Por qué?
+Y conocían
+En la psicología
+Hoy en día
+Kahneman y Twerksky
+Ganaron
+Kahneman en este caso
+Porque Twerksky
+Creo que había fallecido
+Le dieron el premio Nobel
+Justamente por eso
+No siendo economista
+Se ganó el premio Nobel
+De economía
+Porque demostró eso
+Entonces
+La pregunta ahí es
+¿Debe cometer la máquina
+Los mismos errores
+Que el humano
+Para actuar como un ser humano
+En el fondo
+Y percibirse como más humano
+O bien
+Debe no cometer
+Esos errores
+Entonces la respuesta ahí es
+Va a depender de la aplicación
+¿Ok?
+Eso por un lado
+Y por otro lado
+Cuando yo les decía
+Que está basado
+En lógica matemática
+Hay muchas lógicas matemáticas
+No hay una sola
+¿Ok?
+Hay algunas que son
+Más potentes que otras
+¿Ok?
+Y aquí tenemos un problema
+Me estoy adelantando
+Pero estoy
+Abondando en este punto
+Para responder
+La pregunta de Manuel
+El punto es que
+Mientras más poderosa
+La lógica
+Computacionalmente
+Para los que son informáticos
+Los algoritmos
+De razonamiento
+Son más complejos
+¿Ok?
+Ya estamos
+Cayendo en una categoría
+Que en informática
+En teoría
+De complejidad
+De algoritmos
+Se llama
+NP-completo
+O sea, es decir
+Son algoritmos
+Que no son deseables
+Porque demoran mucho
+Conforme
+Conforme
+El input
+La entrada
+Es muy grande
+Son algoritmos
+Que demoran mucho
+¿No?
+Piensen ustedes
+Que hay algoritmos
+Que como los de
+Los que se usan
+En criptografía
+De llave pública
+Por ejemplo
+Están basadas
+En criptografía
+De llave pública
+Son
+Válidos
+Digamos
+Porque poder
+Crackear
+El código
+Se puede
+Pero el algoritmo
+Demoraría
+Años
+Digamos
+Las máquinas
+Más poderosas
+Para poder
+Lleverse a cabo
+El algoritmo
+Es muy complejo
+Entonces
+Las lógicas
+También
+Hay distintos tipos
+De lógica
+Y vamos a ver
+Eso también
+En el curso
+De hoy
+En la clase
+De hoy
+Vamos a ver
+Que como está
+Este trade-off
+En general
+Hubieron dos bandos
+En inteligencia artificial
+Un bando
+Que decía
+No, no usemos lógicas
+Tan poderosas
+Porque en la medida
+Que usamos lógicas
+Matemáticas
+Más poderosas
+Claro
+Podemos representar
+Más conocimiento
+Y eso es bueno
+Pero los algoritmos
+Son tan complejos
+Que el sistema
+De representación
+De conocimientos
+No va a dar el ancho
+No va a ser capaz
+De procesar
+Todas esas informaciones
+¿Se entiende Manuel?
+Por lo tanto
+Hay otro bando
+Que dice
+Que dice
+No
+Si queremos realmente
+Emular
+Como razonan los humanos
+No podemos poner restricciones
+Y por lo tanto
+Si hay cosas
+Que no somos capaces
+De computar
+Vamos a tener que tomar
+El costo
+Entonces esos dos bandos
+Como decía
+Dos bandos
+Irreconciliables
+En inteligencia artificial
+¿Ok?
+Y eso lo vamos a
+Vamos a ahondar un poquito
+En eso más adelante
+¿Ok?
+Entonces
+Esta es la razón
+Por la cual
+El módulo de representación
+De conocimientos
+Es
+La base
+De todo
+El sistema de vida
+Al final del día
+Es así
+¿Ok?
+Y al final del día
+Si ustedes me dicen
+Bueno pero hay sistemas
+De visión
+Que no tienen un módulo
+De representación
+De conocimientos
+Solamente funcionan
+Con correlaciones
+Y reconocimiento
+De patrones
+Y no es necesaria
+Esa fase
+Yo les diría
+Ok
+Está ok
+Esa razonamiento
+Ustedes me dirán
+Ahí no hay
+No hay un motor
+De inferencias
+Aquí no hay
+Un sistema
+De representación
+De conocimientos
+Por detrás
+Hay más bien
+Un algoritmo
+De machine learning
+Que es muy bueno
+En reconocer patrones
+Y eso es correcto
+Pero si queremos
+Embe
+Invering
+Me parece que se dice
+Embeber
+¿No?
+O incrustar
+O incorporar
+Ese sistema de visión
+Dentro de un sistema
+De
+Que haga
+Reconocimiento de habla
+Que haga
+Procesamiento
+De lenguaje natural
+O sea
+Si lo quiero
+Tomar como parte
+O componente
+De un sistema
+De inteligencia artificial
+General
+Como la de
+Geniamos recién
+Entonces va a ser
+Imposible
+Sin un módulo
+De representación
+De conocimiento
+¿Ok?
+Entonces
+Vamos a ir
+A entrar ahora
+Más
+Al grano
+En este punto
+De la representación
+De conocimiento
+Que es el tema
+Que nos convoca
+En este curso
+Fundamentalmente
+¿Ok?
+Entonces
+A priori
+Habiendo hecho
+Esta salvedad
+A priori
+Todos sistemas
+De inteligencia artificial
+Son sistemas
+Basados en el conocimiento
+¿Ok?
+Y la representación
+De conocimientos
+Es el área central
+De inteligencia artificial
+Y el que se ocupa
+De la representación
+Del mundo externo
+Para que cualquier agente
+Natural
+O sea
+Nosotros
+O artificial
+O sea una máquina
+Actúe en el mundo
+¿Ok?
+La representación
+De conocimientos
+Requiere
+Y esto es clave
+Requiere de
+Lenguajes de representación
+De conocimientos
+¿Ok?
+Y el problema
+De la representación
+De conocimientos
+En inteligencia artificial
+Está aún muy lejos
+De ser resuelto
+Y es el problema
+Más difícil de resolver
+Entonces
+¿Alguien me puede decir
+Por qué?
+Intuitivamente
+Sin que
+Ustedes necesariamente
+Sean expertos
+En esta área
+Yo creo que
+Pueden intuirlo
+Quizás
+Yo creo que eso
+Es por dos cosas
+Uno
+El contexto
+De la
+Porque
+Es muy complejo
+Representar el mundo
+Como que
+O déjenme hacerle
+Una contra pregunta
+Para que ustedes mismos
+Motiven la respuesta
+Ustedes tomaron
+Una serie de decisiones
+Hoy
+Son todos adultos
+¿Y cuándo empezaron a
+¿En qué momento
+Ustedes empezaron
+A nutrir
+De reglas
+De conocimiento
+Su base
+De conocimiento
+Y no estoy hablando
+De una máquina
+Sino que estoy hablando
+De nuestro cerebro
+En el fondo
+¿Ok?
+¿En qué momento
+Empezaron a
+Comenzaron
+A adicionar
+Reglas de conocimiento
+En su base
+De conocimiento
+A medida que
+Cuando tenemos memoria
+No se va a tener
+Lógica
+Cuando tenemos lenguaje
+A ver
+Cuando estaban
+Cuando estaban
+En el útero materno
+¿Ya estaban aprendiendo
+Algunas reglas
+¿O no?
+No
+Se dice que sí
+Pero
+Por lo menos
+Desde el nacimiento
+O sea
+Desde el día uno
+Se está
+Se están incorporando
+Información
+En el cerebro
+De los bebés
+Creo yo
+Ok
+Y un niño
+Un bebé
+¿Cuántas reglas
+Está aprendiendo
+Por día
+Por ejemplo
+Uf
+Porque ahí
+Se van generando
+Como conexiones
+Neuronales
+Por
+Por cada día
+Por cada semana
+Que va creciendo el bebé
+Pero
+Así como una regla
+Como tal
+No lo sé
+No soy experto
+En el tema
+Claro
+Yo creo que ese estudio
+No se ha hecho
+Pero imagínense
+Son
+Son cientos de reglas
+Pueden ser cientos de reglas
+Y sobre todo al comienzo
+Después como que va
+Nunca dejamos de hacer eso
+Hasta que nos morimos
+Seguimos haciendo eso
+Pero hay un
+Yo creo que hay un periodo
+En el cual
+Muy probablemente
+Son cientos de reglas
+Por día
+Que uno está aprendiendo
+De distinto tipo
+Y la está
+Revisando
+Está haciendo revisión
+De esas reglas
+Etcétera
+Bueno
+Y eso
+Es un proceso natural
+Que nosotros
+Hacemos sin que nos demos cuenta
+¿Ok?
+Y que tiene
+Y está influenciado
+Por una serie
+De otros elementos
+Del contexto
+La de nuestra educación
+La cultura
+La cultura en la cual
+Uno crece
+Uno se cambia
+De un país a otro
+Tiene que prácticamente
+Aprender muchas reglas
+De códigos
+Que hay en la cultura
+Nuevos
+Completamente de cero
+Etcétera
+Bueno
+Todo eso
+Tiene un costo
+Un costo enorme
+Imagínense lo que significa
+Poner esas reglas
+En una máquina
+En un sistema
+En una base
+De conocimiento
+Para que ese sistema
+Pueda de alguna manera
+Actuar
+No digo igual
+Pero en algunos
+Dominios de aplicación
+Que actúe
+De manera inteligente
+De manera que nosotros
+Digamos
+Este sistema
+Está actuando
+De manera inteligente
+Como probablemente
+Lo vieron en el curso anterior
+O como lo definimos
+En este curso
+Cuando hablamos
+De test de Turing
+La clase pasada
+¿Ok?
+Son cientos de miles
+De reglas
+Las que tenemos
+Que poner
+¿Ok?
+¿Perdón?
+¿Sí?
+Acá desde la sala
+Pero quiero insistir
+En la pregunta
+¿En qué momento
+Entonces
+Se empieza a crear
+La representación
+O la base
+De conocimiento?
+Usted dice que
+Dale
+Por favor
+¿Sí?
+Continúe con la pregunta
+No, es que
+Es que me cae la duda
+De que si es
+Algo que
+Cuando uno nace
+¿Sí?
+Y por lo tanto
+No hay un lenguaje
+Que lo represente
+¿Sí?
+Entonces una planta
+Yo no digo
+Que no hay un lenguaje
+Sí, siempre hay un lenguaje
+Siempre
+¿Una planta
+Tiene una base
+De conocimiento?
+Buena pregunta
+Mira
+Yo sin ser biólogo
+Y sin ser experto
+En esa área
+Yo imagino que sí
+Solo
+Que
+Las capacidades
+De la planta
+Son más limitadas
+La planta
+Hay una serie
+De cosas
+Que no puede hacer
+Por ejemplo
+Caminar
+No puede
+Hacer toda la parte robótica
+Si bien crece
+Pero no se puede desplazar
+No puede hablar
+A ver
+Que pueda pensar
+Capaz que sí
+Por ejemplo
+Ustedes saben
+Que la planta
+Como no se puede
+Defender de depredadores
+¿Ok?
+No se puede arrancar
+De un depredador
+Un árbol
+No lo puede hacer
+Una planta
+No lo puede hacer
+¿Cómo reacciona?
+¿Cómo se defiende?
+¿Saben cómo?
+¿Alguien sabe?
+¿Cómo una planta
+Se defiende
+De un depredador
+Si no tiene garra
+Si no tiene garra
+No puede arrancar
+Con veneno
+Cambiando su sabor
+Con veneno
+Desarrolla sus propios mecanismos
+Con química
+Cambia su sabor también
+Sí
+Bueno
+Yo creo que trata
+De asegurar la especie
+Transmitiendo semillas
+Y ese tipo de cosas
+Para no morir
+Sí
+En parte sí
+Pero saben que también
+Lo hacen
+Generando una serie
+De
+Son maestros bioquímicos
+Las plantas
+Que para poder defenderse
+Neurotoxinas
+Que crean toxinas
+Exacto
+Que al final del día
+El animal que las ingiere
+Sin poder pensar
+Pero sabiendo que se enferma
+De alguna manera
+Hay un feedback ahí
+Que hace que no las consuma
+O sea
+Es
+Yo creo que allí
+No descarto la posibilidad
+Que haya un
+Un mecanismo de razonamiento
+Por detrás
+Pero
+Pero
+Siempre hay un lenguaje
+O sea
+Si vamos a representar
+Ese conocimiento
+De alguna manera
+Ese conocimiento
+Debe estar representado
+De alguna manera
+A través de un lenguaje
+Por rudimentario
+Que esto sea
+¿Ok?
+Entonces
+¿Sí?
+Nuestro propio instinto
+También
+Es un conocimiento
+Que ya tenemos
+Este grado
+Que viene preinstalado
+Y eso
+Claro
+Yo
+Yo quiero insistir
+Además
+Sobre ese punto
+Porque al final
+Para mí
+Eso
+Es como
+Viene parte
+De los genes
+Es parte del instinto
+Es como parte
+De la información matriz
+Que uno viene
+Sí
+Pero no necesariamente
+Es creación
+De nuevo conocimiento
+Ok
+O sea
+Lo que estoy tratando
+De entender es
+Si la representación
+De esta base
+De conocimiento
+Que define
+Una IA
+O no
+Es la capacidad
+De crear
+Nuevo conocimiento
+O
+El conocimiento
+Que yo ya
+Le tengo cargado
+Es
+Es ya suficiente
+Para esa base
+De conocimiento
+¿Por qué?
+Porque es bien importante
+Porque si no
+O sea
+Un modelo simbólico
+Sí
+Tiene un conocimiento
+Precargado
+Que son las reglas
+Que yo le cargué
+Sí
+Un modelo
+Subsimbólico
+Que además
+Viene con la información
+De matriz
+Que es básicamente
+La data
+Con la cual fue entrenado
+Pero si es capaz
+De poder crear
+Conocimiento
+Sobre eso
+Ya tiene
+Una base
+De conocimiento
+Estoy divagando
+En el sentido
+De poder entender
+Cuando algo
+Se puede considerar
+Que es inteligencia
+O que tiene
+Una base
+De conocimiento
+Ok
+Buena pregunta
+La respuesta
+Es la siguiente
+Tu partes
+Con una
+Una base
+Inicial
+De conocimiento
+Ok
+Tal como tú
+Decías
+Independientemente
+De decir
+Enfoque simbólico
+Subsimbólico
+Vamos a tomar
+El simbólico
+En el simbólico
+Tú cargas
+La base
+De conocimiento
+Con un gran
+Número de reglas
+Que pueden ser
+Cientos de reglas
+Incluso miles
+De reglas
+Ok
+Eso requiere
+Un esfuerzo enorme
+Es como
+Es como en el subsimbólico
+Entrenar
+Con un trillón
+De parámetros
+Un transformer
+Y el costo
+Que eso tiene
+En términos
+De ingeniería
+Es enorme
+O sea
+Son 500 millones
+De dólares
+Toma bastante tiempo
+Bastante
+Horas de trabajo
+En ese proceso
+Y en el caso
+Del paradigma
+Simbólico
+También
+Es grande
+El esfuerzo
+Para poder hacer eso
+Pero
+Ese es recién
+El comienzo
+Porque
+El agente
+Inteligente
+Que puede tener
+Un
+Un
+Cierto
+Número de reglas
+En su base
+De conocimientos
+Después empieza
+A interactuar
+Con el mundo
+Y en ese proceso
+De interacción
+Él va
+Aprendiendo
+Ese sistema
+Va aprendiendo
+Nuevas reglas
+Va inscribiendo
+Nuevas reglas
+Y va
+Revisando
+Otras
+Va descartando
+Otras que ya tenía
+Ok
+Y en la medida
+Y en la medida
+Que ese agente
+Inteligente
+Se desplaza
+Por el mundo
+Interactúa
+Ese proceso
+No termina
+Entonces
+Tu parte
+Con un conjunto
+Inicial
+Y luego
+Vas
+Esa base
+De conocimientos
+Va creciendo
+Va aumentando
+Y ese conocimiento
+Se va revisando
+Eso lo vamos a ver
+Más adelante
+De que algunas reglas
+Que te inferiste
+Tienes que decir
+No, esta regla
+No está bien
+Está mal
+Y la tienes que
+Descartar
+La tienes que revisar
+Ese proceso
+Tiene lugar
+En forma
+Dinámica
+Y en forma constante
+Entonces
+No se da el caso
+Que tú planteabas
+De que tú
+Dejaste
+La base de conocimientos
+Lista
+Y el
+Y el sistema
+Funciona por sí solo
+O sea
+Esto no es una base de datos
+Una base de datos
+Tendría un poco
+Esa característica
+Si no es la base de datos
+Yo la puedo ir
+Poblando
+Pero por sí misma
+No necesariamente
+A pesar de que hay un área
+En informática
+Que se llama
+Base de datos deductivas
+Que en el fondo
+Tendrían también
+Esa posibilidad
+Pero en general
+Lo que uno ve
+En sistemas comerciales
+Son bases relacionales
+Digamos
+¿No?
+Y en donde eso no ocurre
+Pero en la base de conocimiento
+Eso expande
+De todos los días
+Es decir
+La gente va
+Interactuando
+En un mundo
+Ya sea con humanos
+O con objetos
+Dependiendo de cuál sea
+El dominio de aplicación
+De la inteligencia artificial
+Que uno tiene
+Por delante
+Y va necesariamente
+Aprendiendo nuevas reglas
+Y revisando
+Y descartando otras
+No sé si respondo
+Su pregunta
+Sí, gracias
+Ok
+Entonces
+La representación
+De conocimientos
+Entonces es el área
+Central de IA
+Ya que se ocupa
+De la representación
+Del mundo externo
+Para que cualquier agente
+Natural o artificial
+Actúe en él
+Ok
+Y la representación
+De conocimientos
+Requiere de lenguaje
+De representación
+De conocimientos
+Como decíamos recién
+Y este problema
+Y este problema
+Es difícil
+De resolver
+Porque
+Para poder
+Aproximarnos
+Al potencial
+Que nosotros
+Humanos tenemos
+En términos de representación
+De conocimientos
+Estamos lejos
+Estamos muy lejos
+De poder llegar a eso
+Ok
+Y vamos a hablar
+De las razones
+Para eso
+Porque eso tiene
+Varias razones
+Ok
+Dicho eso
+Un buen momento
+Para el quiz 11
+¿Cuál es el lenguaje
+De representación
+Y esto tiene que ver
+Con la pregunta
+Que me hacían recién
+¿Cuál es el lenguaje
+De representación
+De conocimientos
+Que usamos nosotros
+Los humanos?
+¿Cuál será?
+¿El lenguaje natural?
+¿Paula Milanessi
+Dijo el lenguaje natural?
+La comunicación
+Tanto verbal
+Como escrita
+Ok
+Pero Paula Milanessi
+Es un término técnico
+Que quizás
+Para el
+Para el común
+De la gente
+¿Paula
+Usted es informática
+¿O no?
+Eh no
+No
+Yo soy del área
+De la educación
+Ok
+Explíquenos
+¿Qué es el lenguaje natural
+A sus compañeros?
+Es que bueno
+Según lo que he estado
+Leyendo
+Básicamente
+Como que se refiere
+A la representación
+De los conocimientos
+Que tenemos
+Como
+En nuestra
+Como en nuestra base de datos
+Por decirlo de alguna forma
+Ok
+Bueno
+En general
+En informática
+Se usa el término
+Lenguaje de programación
+O lenguaje natural
+Ok
+Lenguaje de programación
+Probablemente muchos de ustedes
+Lo aprendieron en algún momento
+Especialmente los que son ingenieros
+Entre ustedes
+Eh
+Me sirve
+Me sirve en el fondo
+Para programar un computador digital
+Ok
+Y hay lenguajes de bajo nivel
+Como Assembler
+Lenguaje
+Un poco más de alto nivel
+Como
+Como C
+Y hay otros más
+Un bastante más alto nivel
+Como son los lenguajes
+Orientados a objetos
+¿No?
+Como Python
+O C++
+Y muchos otros
+Esos son lenguajes de programación
+Y nosotros hablamos
+De los lenguajes naturales
+Para decir
+Cuáles son los lenguajes
+Que usamos nosotros
+Los humanos
+¿Y cuántos hay de esos?
+Bueno
+Nosotros conocemos
+Cientos de lenguajes naturales
+¿No?
+Y usamos uno nosotros
+Con una
+Una modalidad un poco chilena
+Si ustedes quieren
+Pero usamos el castellano
+Acá
+Ok
+Nuestros hermanos brasileños
+Usan el portugués
+Y el más usado en el mundo
+Probablemente sea el chino
+Porque en términos de gente
+El chino mandarín
+Y el más usado internacionalmente
+Es el inglés
+Todo eso
+Son lenguajes naturales
+Ok
+Entonces
+¿Cuál es el lenguaje
+Como dice Paula
+Que usamos nosotros?
+Es el lenguaje natural
+Ese es el que usamos nosotros
+Ok
+Ese es el lenguaje natural
+Y la pregunta es
+¿Está basado en lógica
+Ese lenguaje?
+Muy buena pregunta
+¿Está basado en lógica
+O no?
+Lo que soy
+Lo que soy
+Lo que soy
+Lo que soy
+Es el lenguaje
+¿Cómo?
+Una consulta
+También
+También según entiendo
+Bueno
+Desde los egipcios
+También se representaban
+Conocimientos
+Mediante el arte
+¿No?
+Mediante dibujos
+Sí
+Etcétera
+Sí
+O sea
+En el fondo
+En el fondo
+El lenguaje natural
+Igual tiene como
+Sus limitaciones
+Hasta
+De expresión
+Mientras que el arte
+Es como un idioma
+Internacional
+¿No?
+Claro
+Claro
+Pero los egipcios
+Tenían su lenguaje
+Ellos como humanos
+O sea
+Es propio
+El ser humano
+Haber
+De hecho
+Somos
+A ver
+Somos la única especie
+Que ha desarrollado
+El lenguaje
+Como un medio
+De comunicación
+Muy diferenciada
+¿Ok?
+Las otras especies
+Tienen otros métodos
+De comunicación
+Quizás sean
+Quizás
+Lo hagan
+De manera que
+Nosotros ya perdimos
+Eso
+¿Ok?
+También se comunican
+Pero no usan
+El lenguaje natural
+Nosotros somos
+La única especie
+Que hemos desarrollado
+Eso
+Y que nos da
+Un aventaje evolutivo
+Respecto a otras especies
+Entonces mi pregunta
+Es
+Ok
+Sabiendo que ese es
+El lenguaje
+Que usamos nosotros
+Para representar
+Conocimientos
+¿Cierto?
+Mi pregunta era
+Bueno
+¿Está basado en lógica o no?
+Puede que sí
+O puede que no
+Yo creo que sí
+Puede que sí
+Puede que sí
+Porque
+Existen ciertas estructuras
+Que se componen
+El lenguaje
+Y eso puede obedecer
+A la lógica
+Pero por otro lado
+Hay ciertos niveles
+De ambigüedad
+En el lenguaje
+Que
+Que pueden escapar
+A la lógica
+Una frase
+Por ejemplo
+Puede significar
+Dos cosas distintas
+Y eso puede ser
+O a lógica
+Distinta
+O que no hay
+Necesariamente
+Lógica
+En el lenguaje
+Ok
+O que se alimenta
+A distintas dimensiones
+También
+No solamente
+De la lógica
+Racional
+Sino que también
+Puede ser
+Otras dimensiones
+Como el contexto
+O el contexto
+O el sentido común
+Ok
+O básicamente
+Porque tenemos
+A lo mejor
+Distintos lenguajes
+Por ejemplo
+Nosotros los seres humanos
+Tenemos la capacidad
+De aprender
+Más de un idioma
+En donde se entiende
+Que ahí
+Tenemos
+Varios lenguajes
+Quizá
+Que aprender
+Pero por ejemplo
+Entre los animales
+Hablemos
+Como del lenguaje
+De los perros
+No habla
+Por ejemplo
+Con el lenguaje
+De los gatos
+Un ejemplo
+Como muy básico
+Va por ese lado
+Va por el lado
+De que miren
+La pregunta
+Que le estoy haciendo
+La respondió
+La respondió
+Un matemático
+Alemán
+Por ahí
+Por el 1800 y algo
+Él se hizo esa pregunta
+Se hizo
+Bueno
+Yo puedo de alguna manera
+Modelar el lenguaje natural
+En este caso
+El alemán
+Porque él
+Era alemán
+Y trabajó
+En el alemán
+A través
+De alguna
+Lógica matemática
+Y él demostró
+Que sí
+Vamos a verlo
+Eso más adelante
+Porque va a jugar
+Un rol muy importante
+En el resto
+De este curso
+La respuesta es
+Hasta antes de Frege
+Frege es el nombre
+De este filósofo
+Alemán
+Y matemático
+Que fue una contribución
+Tremenda
+A la ciencia
+En ese momento
+Él lo demostró
+Demostró que
+El lenguaje natural
+Se puede
+Utilizando la teoría
+De conjuntos
+Y lo vamos a ver
+Más adelante
+Utilizando la teoría
+De conjuntos
+Puede modelar
+El lenguaje natural
+¿Ok?
+Fantástico
+Y hasta el día
+De hoy
+Tiene reproducción
+¿Ok?
+Entonces
+Podemos decir
+Que sí
+Si bien
+Nosotros
+No estamos
+Muy conscientes
+De eso
+¿Ok?
+Sin embargo
+Matemáticamente
+Lo puedo modelar
+De esa manera
+Ahora
+Ese es el lenguaje
+Que usamos nosotros
+Y lo conocemos
+O sea
+Todos
+Nacimos
+Nacimos
+En una cultura
+Aprendimos un idioma
+Si vivimos
+En otros lugares
+O viajamos
+Y aprendimos
+Otros idiomas
+Podemos hablar
+Más de un idioma
+Y es el lenguaje
+Que usamos
+Para representar
+Conocimiento
+Efectivamente
+Ahora la pregunta
+Es
+Tal como decía Paula
+La respuesta
+A esa pregunta
+Es
+Ese lenguaje
+Que usamos todos
+Para representar
+Conocimiento
+Es el lenguaje natural
+¿Ok?
+Y que
+A todas luces
+Pareciera que
+No lo podemos formalizar
+O no es formal
+En términos
+De lógica matemática
+Y sin embargo
+La respuesta
+Es que sí
+Lo puedo formalizar
+¿Ok?
+A pesar de que
+Nosotros no estamos
+Conscientes de eso
+Pero en el fondo
+Lo puedo
+Implementar de esa manera
+A través de lógica
+Matemática
+En un computador
+Y ahora
+Hay una pregunta
+Que es más profunda
+Nuestro quiz 12
+¿Por qué?
+O sea
+Si todos manejamos
+El lenguaje natural
+El que nos correspondió
+De acuerdo a
+Donde vivimos
+Y a nuestra cultura
+Entonces
+¿Por qué no usamos
+Ese lenguaje
+Como lenguaje
+De representación
+De conocimientos
+En sistemas
+De inteligencia artificial?
+Me imagino
+Me imagino
+Que el contexto
+Juega un rol
+Ahí
+En distintos idiomas
+Tenemos distintos contextos
+Que no sea universal
+Porque es ambivo
+Porque es ambivo
+Y complejo
+Porque es distinto
+Porque no conversa
+No te cuelges distinto
+Tienen objetivos distintos
+Tienen objetivos distintos
+Yo diría que el objetivo
+El lenguaje natural
+Es representar el mundo
+El objetivo es el mismo
+No es distinto
+Pero es muy ambicioso
+O sea
+Lo que nosotros somos capaces
+De hacer
+El lenguaje natural
+Todos los días
+Es una tarea extraordinaria
+En términos de computación
+O sea
+Si nos ponemos
+Al sombrero de un informático
+Y analizamos
+Lo que está pasando allí
+Es tremendo
+Y parece que nosotros
+No lo hacemos sin esfuerzo
+Y queremos replicar
+Eso en una máquina
+Y le queremos llamar
+A eso
+Un sistema de inteligencia artificial
+Y nos damos cuenta
+Que es altamente complejo
+¿Ok?
+Entonces la pregunta
+Es por qué no
+Ustedes me decían
+Bueno, porque no es universal
+Ok, entonces usemos el inglés
+Porque se supone
+Que todos aprendemos inglés
+Ahora
+A ver
+Vamos a suponer
+Que el inglés
+Fuera una lengua franca
+Una lengua franca universal
+Entonces ya no tendríamos
+Ese problema
+Si todo el mundo
+Habla inglés
+Entonces usemos el inglés
+Como lenguaje de representación
+Profesor
+Puede haber un tema
+También asociado
+Como con
+Mencionaron ahí
+Ambiguidad
+Pero con
+Como la eficiencia
+O sea
+Por lo mismo
+Hemos tenido que
+Usar el lenguaje matemático
+Para hacer sumas
+No estamos haciendo
+Ecuaciones
+Utilizando lenguaje natural
+No, no estamos
+Tú hablabas
+Al principio hablaste
+De ambigüedad
+Sí
+Ok
+Bueno
+Hay varias razones
+O sea
+Digamos
+Si pudiésemos
+Si pudiésemos usar
+El lenguaje natural
+Sería fantástico
+Porque al final del día
+Eso es el lenguaje
+Que usamos nosotros
+Para representar
+Conocencia
+Sería lo más obvio
+Ok
+O sea
+Hay varias razones
+Por las cuales
+No podemos hacer esto
+Vamos a enumerar
+Algunas
+Ok
+Porque no es una sola
+Son varias razones
+Entonces vamos a ver
+Qué se les ocurre a ustedes
+Una primera razón
+Ya sabe que tengamos
+Capacidad cuántica
+En el cerebro
+Emanuel se adelantó
+Se adelantó
+A la tercera derivada
+Emanuel
+Demasiado avanzado
+Su respuesta
+Ok
+Vamos por parte
+Antes de llegar a eso
+Ok
+Ok Emanuel
+Ok
+Entonces primero
+Es porque es muy ambiguo
+Alguien dijo eso
+Me parece
+¿Quién fue?
+¿Quién es?
+Ok
+Primero
+Tengo un problema
+Es súper ambiguo
+Es muy ambiguo
+Ok
+Primera cosa
+Segundo
+¿Qué otro argumento
+Podemos decir?
+¿Por qué la ambigüedad
+Es un problema?
+Porque muchas veces
+La palabra
+Depende del contexto
+En el cual se está
+Utilizando
+Y no solo la palabra
+Una sentencia también
+Una sentencia
+Y también
+Ahí aplica
+Lo otro complejo
+Del lenguaje natural
+Es el tema
+Como de la emoción
+O de la intencionalidad
+Con que
+Con que dices la palabra
+No solo el texto
+Y el lenguaje corporal
+También
+Exacto
+Quizás con la interpretabilidad
+De las cosas
+Como nosotros
+Podemos interpretar
+Las cosas
+Y eso como
+Una inteligencia artificial
+Tendría que ser
+Como
+Codificarla
+Mediante reglas
+Entonces ahí
+Se dificulta
+Ok
+Entonces la ambigüedad
+Es un problema
+¿Cierto?
+¿Y por qué
+La ambigüedad
+Es un problema?
+Ustedes me hablaron
+De la interpretabilidad
+La interpretabilidad
+A ver
+¿Cuál es la diferencia
+Entre un programa
+Que uno escribe
+En un computador
+O sea
+Un programa
+Que uno escribe
+En un lenguaje
+De programación
+Y el lenguaje natural
+Cuando uno escribe
+Una carta
+El lenguaje
+De programación
+Utiliza reglas
+Tiene lógica
+Por dentro
+De programación
+La carta
+Está
+Está asociada
+Quizás
+A
+A otras variables
+Externas
+Sentimientos
+Cosas
+Variables
+Que podrían variar
+Claro
+Entonces
+No es ambivo
+Y
+Y yo lo puedo
+Interpretar
+Directamente
+En un computador
+Lo puedo
+Interpretar
+O compilar
+La diferencia
+Entre interpretar
+Y compilar
+Es que
+Cuando yo lo interpreto
+No necesito compilarlo
+Inmediatamente
+Puedo ejecutarlo
+En el computador
+A través de un intérprete
+En cambio
+Lo más común
+Es que lo tenga que compilar
+O sea
+Lo llevo
+Del lenguaje
+De alto nivel
+Lo traduzco
+A un lenguaje
+De bajo nivel
+Que es directamente
+Interpretado
+Lo por la mente
+¿Ok?
+Pero en cualquiera
+De esas dos opciones
+Ese programa
+Ya viene
+Desambiguado
+O sea
+No tiene
+Ambigüedades
+En el código
+En cambio
+El lenguaje natural
+Por su naturaleza
+Es altamente ambiguo
+Ahora ustedes
+Ahora ustedes
+Ahora ustedes me pueden decir
+Ok
+Pero ¿Cuál es el problema
+De la ambigüedad?
+¿Será que la ambigüedad
+No hace llegar
+A resultados verdaderos
+Y falsos
+Al mismo tiempo?
+Entonces eso no
+No sé si es
+Lo factible
+Para las máquinas
+Para programar
+En una máquina
+Ok, sí
+Fíjense
+Vamos a ir a una cuestión
+Que es súper profunda
+El lenguaje natural
+Si es ambiguo
+Entiendo que
+Se puede malinterpretar
+El resultado
+Llevando a decisiones
+Equívocas
+Probablemente
+Sí
+Entendería que
+Va a tener
+Malinterpretaciones
+Una
+Porque va a depender
+Del contexto
+Puede haber
+Sesgos
+Que son inherentes
+Probablemente
+En esta ambigüedad
+O sesgos
+Propios
+De pronto
+Si es ambiguo
+Finalmente
+Eso juega
+En contra
+De poder generar
+O representar
+Conocimiento
+Porque no habría
+Un conocimiento
+En sí
+Sino que todo
+Sería interpretable
+Todo sería distinto
+Entonces
+A ver
+¿Por qué
+El lenguaje natural
+Es ambiguo?
+Porque depende
+Que
+Porque no hay certeza
+O verdad absoluta
+Como tal
+Porque hay una interpretación
+De por medio
+Porque
+El lenguaje natural
+Es ambiguo
+Y se desarrolló
+De esa manera
+A lo largo
+De milenios
+Porque el mundo
+Allá afuera
+Es
+Indeterminado
+O sea
+Es
+Hay muchas cosas
+Que son también
+Ambiguas
+En el ambiente
+En que uno se desarrolla
+De alguna manera
+El lenguaje natural
+Lo que hace
+Es
+Representar
+Esa ambigüedad
+Que está allá afuera
+Ese indeterminismo
+Que está allá afuera
+Esa
+Esa
+Incertidumbre
+Que está allá afuera
+¿Ok?
+Que a nosotros
+A la hora
+De poder
+Implementar
+Un sistema
+De inteligencia
+Esa
+Esa
+Entonces
+Miren lo que
+Les voy a decir
+El lenguaje natural
+A peor
+Y que sea
+Ambiguo
+No es problema
+Hay que
+Desambiguarlo
+Entonces
+Si el lenguaje
+Natural
+Lo
+Lo
+Desambiguo
+¿Ok?
+Entonces
+Se acabó
+El problema
+De hecho
+Es lo que
+Nosotros
+Hacemos
+Nosotros
+Muchas veces
+Tenemos dos
+Tres
+Cuatro
+Interpretaciones
+De algo
+Y no sabemos
+Cuál es
+La
+Correcta
+¿Ok?
+Y después
+Quizás
+Si la sabemos
+Cuando tenemos
+Más información
+Entonces
+En el interim
+Necesitamos
+Una
+Representación
+Que de alguna
+Manera
+Refleje
+Esa ambigüedad
+Al entorno
+Esa
+Incertidumbre
+Entonces
+A priori
+Quienes me dicen
+El lenguaje natural
+Es ambiguo
+Por eso
+No sirve
+Yo les digo
+Bueno
+Desambigualo
+¿Ok?
+¿Cómo se hace eso?
+¿Cómo se desambigúa
+Una información?
+Muy buena pregunta
+Lo
+Primero
+Lo que tienes que hacer
+Que es lo que nosotros
+Hacemos en el lenguaje natural
+Si analizamos bien
+Nuestro lenguaje
+El castellano
+O cualquier otro
+Nosotros tenemos
+Constructos
+En el lenguaje
+Que nos permiten
+Representar
+Esa
+Esa ambigüedad
+Primera cosa
+¿Ok?
+Y también
+Somos capaces
+De usar
+Información
+Del entorno
+Para desambiguar
+¿Ok?
+Entonces
+Cuando yo le digo
+¿Cuál es el problema
+De desambiguar?
+Desambiguemos
+Les digo
+Bueno
+Es que si hay un problema
+Los recursos
+Y es que
+Ese proceso
+De desambiguación
+Tiene un costo
+No es gratis
+Tiene un costo
+Computacional
+¿Ok?
+Que aparentemente
+Nosotros lo hacemos
+Asumimos ese costo
+Sin darnos cuenta
+Tenemos algo
+En el cerebro
+Un poco
+Su compañero
+Aquí
+Que ahora no lo veo
+En la lista
+Lo mencionó
+Lo mencionó
+Que hace que nosotros
+Hagamos ese proceso
+De desambiguación
+En forma
+Constante
+Asumimos ese costo
+Y lo asumimos
+Aparentemente
+Sin esfuerzo
+Pero hacer eso
+En una máquina
+Replicarlo en una máquina
+Tiene un esfuerzo
+Computacional
+No menor
+¿Ok?
+Es ahí donde está
+El problema
+O sea
+Nos faltan recursos
+Computacionales
+Para lidiar
+Con toda esa
+Complejidad computacional
+Que se requiere
+Para poder
+Desambiguar
+Nosotros sí lo tenemos
+En nuestro cerebro
+Pero
+El computador
+Un computador digital
+Incluso uno
+Altamente performante
+No lo tiene
+Entonces
+Por esa razón
+Tenemos un problema
+No lo podemos hacer
+Pero no es porque
+A priori
+No sea posible
+¿Por qué es posible?
+¿Ok?
+Pero el punto
+El costo
+De desambiguar
+El lenguaje natural
+Que es altamente ambiguo
+¿Ok?
+Tiene un costo
+Sí
+Pero
+Hay un supuesto
+Que está diciendo
+Que es
+Que nosotros
+Somos capaces
+De decodificar
+Y no necesariamente
+Eso es
+Es así
+O sea
+Cuando dos personas
+No se ponen de acuerdo
+O
+¿Ok?
+A ver
+Cuando
+Cuando habló
+De
+Alguien habló
+Usted habló
+Del
+Del lenguaje
+Corporal
+¿Sí?
+¿Recordé
+Lo que es
+Todo lo que es
+La teoría
+O la técnica
+De ontología
+En el lenguaje
+Que inclusive
+Incorpora en la emoción
+Entonces
+Ya no es una variable
+Lingüística
+La que está
+En juego
+Sino que hay una
+Hay una variable
+Corporal
+Y hay una
+Una variable
+Emocional
+Sí
+Que eso es lo que impide
+En definitiva
+Que dos personas
+Una persona
+Diga algo
+Un emisor
+Y un receptor
+Entiende otra cosa
+Correcto
+Por lo que es muy típico
+Cuando uno le envía
+Un mail a otra persona
+Puede que lo diga
+De buena persona
+Y la otra persona
+Lo tome a mal
+Es así
+Esa ha sido increíble
+La falta
+De capacidad
+De decodificar
+Un mensaje
+En el mundo
+Usual
+Si uno
+Incorpora
+La emocionalidad
+Y la corporalidad
+No estamos hablando
+Solamente
+De recursos
+Necesarios
+Para decodificar
+Las ambigüedades
+Del lenguaje
+Sino que
+Esos otros dos mundos
+Que implicaría
+No sé cuántos
+Computadores cuánticos
+Pero no creo que exista
+Todavía la capacidad
+De cómputo
+Para hacerlo
+En una máquina
+Esa usted
+Sí, claro
+Pero y lo humano
+Si la tiene
+No sé
+Si es perfecta
+Ok
+No sé si
+Rafael Echegarria
+Que inventó esta cosa
+Sea capaz
+De decodificar
+Todos los mensajes
+Que el Echegarria
+Ok, lo que dice
+Javier acá
+Es importante
+Porque me está diciendo
+Que hay otras
+Hay otros
+A ver
+El lenguaje natural
+Es una cosa
+Pero tenemos
+Otros lenguajes
+Está el lenguaje corporal
+También está
+Y ese lenguaje corporal
+Comunica también
+De alguna manera
+Emociones
+Que algunas personas
+Son capaces
+De eso se puede estudiar
+Hay gente que
+Es experta
+En leer el lenguaje corporal
+Eso en general
+Es algo que nosotros
+Intuitivamente quizás
+Lo podemos percibir
+Pero no lo
+No lo podemos decodificar
+Tan rigurosamente
+Como la realidad
+En que está entrenado
+En eso
+Pero esos son inputs
+Que entran también
+¿Entiendes Javier?
+Entonces cuando tú me dices
+Por ejemplo
+Yo te envío un email
+O yo te digo algo
+Y el mensaje
+Y el mensaje dice una cosa
+Y tú lo estás interpretando
+Pero dices
+No, en realidad
+Me está mintiendo
+O me está
+Me está engañando
+En el fondo
+Y eso viene por otra vía
+¿Se entiende?
+Viene por
+Por algunas
+Queues
+No sé cómo se dice
+En castellano
+Que
+La historia personal
+En general
+Emociones
+Etcétera
+Sí
+Pero eso es también
+Un lenguaje en sí mismo
+Entonces ahí
+Estamos en un discurso
+Multimodal
+Multimodal
+Porque tienes lenguaje natural
+Tienes lenguaje corporal
+Tienes otras cosas más
+Y todo eso entra
+En un proceso
+De interpretación
+¿Se entiende o no?
+Sí
+Ahora
+El punto clave acá
+Es que
+En rigor
+Yo podría usar
+El lenguaje natural
+Pero el problema
+Es que hoy en día
+No tenemos
+Los recursos
+Computacionales
+Suficientes
+En un computador
+Clásico
+Digital
+Para poder asumir
+La complejidad
+De la desambiguación
+De ese proceso
+Ahí es ahí
+Donde está el problema
+¿Ok?
+Y no
+En que el lenguaje natural
+Per se
+No sea viable
+¿Ok?
+Entonces miren
+Acá
+Tenemos
+Hacemos un barrido
+Por distintas áreas
+De inteligencia artificial
+En función
+En función de la complejidad
+De la representación
+De conocimientos
+Asociada
+¿Ok?
+Speed recognition
+Tiene bajos niveles
+De complejidad
+En términos de
+Representación
+De conocimientos
+Machine learning
+También
+Es por eso
+Que esas dos áreas
+Se han beneficiado
+Hasta ahora
+Del paradigma
+Subsimbólico
+Que es muy
+Basado en datos
+Y no en reglas
+De conocimiento
+Ya con
+Aplicaciones
+Por ejemplo
+De NLP
+O sea
+De Natural Language Processing
+Procesamiento
+De lenguaje natural
+Empieza
+Levemente a crecer
+Con toda esta
+Tecnología
+De
+Transformers
+Que es la que
+Ha tenido un auge
+Bastante grande
+Desde el 2022
+Que fue un gran impacto
+Porque fue un salto
+Cuántico
+Valga la redundancia
+En términos de funcionalidad
+En algunas áreas
+De inteligencia artificial
+Como visión
+Sobre todo
+De reconocimiento
+De imágenes
+Y después también
+Un poquito
+Con algunas áreas
+De NLP
+Ahí vemos que hay un
+Hay una fuerte orientación
+A los datos
+Todavía
+Pero que
+Empiezan a haber
+Áreas
+En particular
+De lenguaje natural
+Que requieren
+De un enfoque
+Más basado
+En reglas
+De conocimiento
+¿Ok?
+¿Para qué decir
+Con lo que se viene
+Ahora con los
+Agentes virtuales
+Que involucran
+Realidad virtual aumentada?
+Eso es más complejo
+Y eso tiene que ver
+Con un poco
+Lo que decía Javier acá
+Porque
+La realidad virtual aumentada
+Va a involucrar
+No solamente
+El lenguaje natural
+Va a involucrar
+Una serie
+De otros lenguajes
+Para poder describir
+Otro tipo de modalidades
+Por ejemplo
+Gráficos
+Anotaciones
+Expresiones faciales
+Inclusive
+Y muchas otras cosas
+Yo lo voy a tener
+Que representar
+También en un lenguaje
+De representación
+Y ahí estamos hablando
+Va más allá
+Del lenguaje natural
+Va más allá
+De utilizar
+Un lenguaje
+Que de alguna manera
+Se aproxima
+Al lenguaje natural
+Como lo somos nosotros
+Aquí necesitamos
+Necesariamente
+Un lenguaje multimodal
+Que involucre
+Varios medios
+No solo
+El lenguaje natural
+El lenguaje natural
+Sería solo un medio
+De muchos otros
+Con lo cual
+La complejidad
+De la representación
+De conocimientos
+Explota
+Inmediatamente
+¿Ok?
+Y para qué decir
+Máquinas
+Que puedan replicar
+A un ser humano
+Con
+Inteligencia artificial
+General
+Más
+El desafío
+Es mayor aún
+¿Ok?
+Entonces
+Es importante
+Entender
+Que a mayor complejidad
+De la representación
+De conocimientos
+¿Cierto?
+Mayor costo
+Asociado
+A ese proceso
+De codificar
+Y decodificar
+Ese lenguaje
+Usando la computación
+Clásica
+¿Ok?
+Y es allí
+Donde tenemos
+El desafío
+Y esa es la respuesta
+Al final del día
+¿Por qué no usamos
+El lenguaje natural
+Como lenguaje
+De representación
+De conocimientos
+¿Ok?
+Si bien
+Como les decía
+Al comienzo
+Estaría
+¿Por qué?
+Muy cercano
+A nosotros
+Si pudiésemos
+Hacerlo
+¿Ok?
+Pero la
+Complejidad computacional
+Requería
+Para poder
+Interpretarse
+En lenguaje natural
+Que es ambivo
+Hace que no sea
+Viable
+Usando
+Un computador
+Digital clásico
+Entonces
+¿Por qué?
+Porque las reglas
+De representación
+De conocimientos
+Que vienen
+Especificadas
+En el lenguaje
+De representación
+De conocimientos
+Requieren
+Que sean
+Codificadas
+Y decodificadas
+Para
+Obtener
+Información
+Y eso
+Tiene un costo
+El costo
+De la información
+Es costo
+De representación
+Primero
+Más costo
+De codificación
+Y costo
+De decodificación
+¿Ok?
+¿Dónde sucede
+Esto?
+Entonces
+Esto sucede
+Y lo vamos
+A ver
+Más
+En detalle
+En unos minutos
+Más
+Sucede
+En un sistema
+De representación
+De conocimiento
+Es decir
+Todo lenguaje
+De representación
+De conocimiento
+Tiene asociado
+Un sistema
+De representación
+De conocimiento
+Van de la mano
+Uno con el otro
+Y ese sistema
+Tiene como
+Misión
+Codificar
+Y decodificar
+¿Ok?
+Yo escribo
+La regla
+En el lenguaje
+Y la puedo almacenar
+En el sistema
+De representación
+De conocimiento
+Imagínense
+Que fuese
+Una base
+De datos
+Que es un término
+Con el cual
+Ustedes están
+Mucho más familiarizados
+¿Cierto?
+Y ese sistema
+Es capaz
+De codificar
+Y decodificar
+O sea
+Hacer sentido
+De lo que yo estoy
+Almacenando
+En esa base
+De conocimiento
+Entonces
+Si no podemos
+Usar el lenguaje
+Natural
+La pregunta
+Que surgió
+En los años 50
+Es bueno
+¿Qué tipo
+De lenguaje
+Vamos a usar?
+Porque necesitamos
+Un lenguaje
+Entonces
+Estos lenguajes
+Que se usaron
+En inteligencia
+Artificial
+Desde los comienzos
+Para representar
+Conocimientos
+Son los llamados
+Lenguajes
+De representación
+De conocimiento
+Y hay muchos
+¿Ok?
+Desde los años 50
+Se han propuesto
+Innumerables
+De estos lenguajes
+Y en este curso
+Vamos a ver varios
+Y vamos a terminar
+No en la clase
+Pero en la próxima
+Probablemente
+Con uno
+Que es el más sofisticado
+Que se propuso
+En la Universidad
+De Stanford
+Hay algunas implementaciones
+Pero es demasiado potente
+Pero es el más
+El más avanzado
+Y el más ambicioso
+Sin embargo
+Vamos a ver muchos otros
+Haciendo un barrio
+Lo que ha sido
+Esta área
+De representación
+De conocimiento
+Desde el inicio
+De la inteligencia artificial
+Como subdisciplina
+De la computación
+¿Ok?
+Ahora
+Volvamos a
+La pregunta original
+Este es nuestro quiz 13
+¿Por qué los humanos
+Si usamos
+El lenguaje natural?
+¿Por qué podemos usarlo?
+Con toda la ambigüedad
+Que él tiene
+Porque tenemos
+La capacidad
+De codificar
+¿Y por qué tenemos
+Esa capacidad?
+Realmente
+Evolucionamos
+No es una máquina
+Binaria
+0-1
+Sino que es algo
+Más complejo que eso
+Evolucionamos
+Por necesidad
+Ok
+Entonces
+Nosotros sí
+Entonces fíjense
+Yo les decía
+Yo les decía
+Que el problema
+En una máquina
+Es el tremendo costo
+De poder
+Desambiguar
+Esas
+Esas
+Ese lenguaje
+Y la pregunta
+Es ok
+No lo podemos hacer
+Nosotros
+Con una máquina
+Pero nosotros
+Sí lo podemos hacer
+Y la pregunta
+Es por qué
+Lo podemos hacer
+Porque somos capaces
+De percibir
+El mundo
+En diferentes dimensiones
+Al mismo tiempo
+Pero Isabel
+Ponte ahora
+El sombrero
+De informática
+¿Ok?
+Acuérdate
+Acuérdate
+De tus clases
+De complejidad
+De algoritmos
+¿Te acuerdas o no?
+Sí
+Sí
+Ok
+Era un ramo
+Difícil ese
+¿Te acuerdas o no?
+Ajá
+Sí
+Era muy matemático
+Ese curso
+Y era coladero
+Ese curso también
+Porque era muy complejo
+Ahí
+Para que ustedes entiendan
+Ese curso
+De complejidad
+De algoritmos
+Uno analizaba
+Distintos algoritmos
+Y lo ponía
+En ciertas categorías
+De acuerdo
+A las características
+Del algoritmo
+Uno tenía que decir
+Bueno, ¿en qué clase
+De complejidad entraba?
+Y había varias clases
+Distintas
+El punto acá
+Es que nosotros
+Aparentemente
+Somos capaces
+De correr
+Algoritmos
+Que son
+Que son
+Desde un punto de vista
+De complejidad
+De algoritmos
+Son altamente complejos
+Y lo hacemos
+Aparentemente
+Sin esfuerzo
+Entonces
+Mi pregunta
+Es ¿Por qué?
+Usted mencionaba
+La semana pasada
+Que
+Nuestro cerebro
+Funcionaba
+Había como
+Un poco de evidencia
+Sobre que
+Podría funcionar
+De manera más cuántica
+Que más de manera
+Binaria
+Y eso hacía
+Que pudiéramos
+Procesar cálculos
+Muy muy complejos
+En un tiempo
+Mucho más rápido
+Que una máquina
+Benjamín
+Muy bien
+¿Te acordaste?
+¿Ah?
+Exactamente
+O sea
+Eso es parte
+Hoy en día
+No es un hecho confirmado
+Porque hay una
+Hay un área
+Que es nueva
+Y se lo mencioné
+En la clase pasada
+Se llama
+Biología cuántica
+Que ha estudiado
+Una serie de fenómenos
+La mutación
+La digestión
+El proceso
+De metamorfosis
+Y distintas especies
+Como por ejemplo
+La aruga
+Que se convierte en mariposa
+Etcétera
+Y
+Llegó a la conclusión
+De que hay fenómenos
+De la mecánica cuántica
+Que están jugando
+Un rol importante
+Ok
+Y hay algunos
+Teóricos
+Biólogos
+Y gente de inteligencia artificial
+Que postula
+Que efectivamente
+Esto también está ocurriendo
+A nivel de
+El procesamiento
+Del lenguaje
+Entonces de alguna manera
+Nosotros somos capaces
+De lidiar
+Con la gran ambigüedad
+Del lenguaje natural
+Porque implementamos
+Superposición cuántica
+De alguna manera
+¿Qué significa eso?
+Significa que
+Tenemos
+Más de una interpretación
+Representada
+En nuestro cerebro
+Si bien
+Generalmente
+Es una
+La que es más
+Se dice saliente
+Es decir
+Una la que está más activa
+Y de la cual
+Estamos más conscientes
+Pero de alguna manera
+No tenemos que volver a analizar
+Porque todas ellas
+Están en paralelo
+¿Ok?
+Eso es algo
+Bastante especulativo
+Pero explicaría
+Explicaría por qué
+Aparentemente
+Algo que es tan complejo
+Que nosotros
+No somos capaces
+De replicar
+En un computador clásico
+Incluso en un computador clásico
+De alto rendimiento
+Aparentemente
+Nosotros lo podemos hacer
+Sin mayor esfuerzo
+¿Ok?
+Eso explicaría eso
+O sea
+Es una conjetura
+¿No?
+Pero es plausible
+Como conjetura
+Dado que
+Hay una serie
+De otros fenómenos
+Descritos en la biología cuántica
+Que hoy en día
+Son aceptados
+Por una buena cantidad
+De biólogos
+Y ha tenido evidencia
+Experimental también
+De que eso es así
+No en este tema
+Del procesamiento
+De lenguaje natural
+Pero sí en cosas como
+Las que les mencionaba recién
+¿Ok?
+Bien
+Entonces
+Como no podemos usar
+El lenguaje natural
+Al menos no todavía
+Quizás a futuro
+Sí lo podamos hacer
+¿Ok?
+Entonces tenemos que proponer
+Lenguas que sean
+Más acotadas
+¿Ok?
+Y que estén lejos
+Del lenguaje natural
+Pero que
+Sean más
+Sean menos complejos
+Computacionalmente
+Y por lo tanto
+Los podamos implementar
+En un computador
+Y
+De eso vamos a hablar ahora
+Entonces
+Los primeros lenguajes
+De representación
+En inteligencia artificial
+Fueron bien básicos
+¿Ok?
+Y se asociaron
+Con los llamados
+Sistemas expertos
+No sé si se acuerdan
+De los sistemas expertos
+¿Ok?
+Entonces estos lenguajes
+No se basaron
+En lógica
+Sino que eran sistemas
+De producción
+Que contenían
+Reglas de producción
+Codificadas por listas
+De reglas
+Como las siguientes
+Si se cumple una condición
+Entonces tome una acción
+¿Ok?
+Y esto tuvo
+Amplio
+Despliegue
+En un área
+De inteligencia artificial
+Que se denominaron
+Sistemas expertos
+¿Ok?
+Entonces
+¿Cuál era la idea
+De estos sistemas expertos?
+La idea era que
+Yo convocaba a uno
+O más expertos
+En algún área
+Y
+Ellos me daban
+Las reglas
+Por ejemplo
+En muchas aplicaciones
+Hubieron medicinas
+Sobre esto
+Para el diagnóstico
+Por ejemplo
+¿Ok?
+Y ellos me daban
+Las reglas
+Y yo las codificaba
+En un computador
+Y eran bien simples
+Acá
+Sencillamente
+Era un tema
+De ir concatenando
+Estas reglas
+Y
+Pareciera que fuera lógica
+Pero en el fondo
+No estaba basado en lógica
+¿Ok?
+No había un motor
+De inferencia
+Basado en lógica
+Matemática
+Por detrás
+Ahora
+Estos tuvieron
+Bastante auge
+Y fueron
+Bastante aplicados
+Pero el problema
+De estos sistemas
+Fue el gran esfuerzo
+De programar
+Estas reglas
+Y en el hecho
+De que ellas
+No permitían
+Razones
+Automáticas
+Entonces
+Mi pregunta es
+¿Por qué no permitían
+Estas reglas
+Razonamiento
+Automático?
+Porque
+Que no se podían adaptar
+Era una regla fija
+Entrada una condición
+Sí o sí
+Iba a dar la respuesta
+A la que se programaba
+Pero
+Podía variar
+El contexto
+O la condición
+De entrada
+Pero no
+No iba a variar
+Las salidas
+Es que no
+No se mapeaba
+Como en su totalidad
+Perfecto
+¿Ok?
+¿Y
+¿Qué se refiere
+Con
+Razones
+Automático?
+Que yo pueda
+Generar nuevas reglas
+Que a partir
+En el fondo
+Son
+Son sistemas
+Cerrados
+No pueden
+Producir
+Conocimiento
+En el fondo
+Que
+Que no esté
+Directamente
+Implicado
+Hay
+Si pueden
+Producir
+Conocimiento
+Que
+De alguna manera
+Se llega a través
+De implicancias
+Y pueden llegar
+Avanzando mucho
+En el árbol
+O poco
+Pero no podrían
+Llegar a un nuevo
+Conocimiento
+Que no esté
+Implicada
+Necesariamente
+Efectivamente
+Ok
+Ahora
+¿Era Camilo
+El que estaba
+Hablando?
+Sí
+Camilo
+¿Y por qué
+No puedo
+Generar nuevas reglas?
+¿Por qué
+Cerrado?
+Porque
+La estructura
+En que se programan
+Yo lo compilo
+Y es como
+Es como
+Finalmente
+Se disponibiliza
+No es
+Es fijo
+Tiene
+Tiene conocimiento
+Pero no lo comprende
+Lo aplica
+Claro
+Lo aplica
+Ahora
+¿Por qué no puede
+Generar nuevo conocimiento?
+Es porque
+No tiene un motor
+De inferencia
+No hay una lógica
+Por detrás
+Por básica que sea
+No la tiene
+No requiere una regla
+Para cualquier cosa
+Claro
+Entonces el problema acá
+Es que
+Para mantener
+Estos sistemas
+Y para crearlos
+Yo necesitaba
+La interacción
+Con uno o más
+Expertos humanos
+En el fondo
+Que me eran las reglas
+Y las reglas
+Como decían ustedes
+Están más bien acotadas
+Son finitas
+Y no se pueden reproducir
+No se pueden generar
+No se pueden generar
+Nuevo conocimiento
+Partir de esta regla
+¿Ok?
+Entonces
+En algunos dominios
+Si tuvo bastante éxito
+Y aplicación
+Pero en el fondo
+Como
+Como un método
+De representación
+De conocimiento
+Como un lenguaje
+De representación
+De conocimiento
+Que tuviera
+Proyección a futuro
+Fue un área
+Que fue cayendo
+En desuso
+Porque fue reemplazada
+Por otras áreas
+Que eran más promisorias
+En ese sentido
+¿Ok?
+Entonces
+Estos primeros
+Lenguajes
+De representación
+Y aquí
+Punto clave
+No se basaron
+En lógica
+¿Ok?
+O sea
+A ver
+Esto no estaba
+Basado en lógica
+Sino que estaba
+Basado en reglas
+Simples
+De si
+Si se cumple
+Una condición
+Entonces
+Ejecute una acción
+Y basado
+En conocimientos
+De expertos
+¿Ok?
+Luego
+Concomitante
+Con este proceso
+De los sistemas
+De expertos
+Surgieron una serie
+De otros
+Lenguajes
+De representación
+De conocimientos
+En la inteligencia
+Artificial
+Que tampoco
+Se basaron
+En lógica
+Sino que eran
+Templates
+Ya envasados
+En memoria
+Compuestos
+De slots
+Y fillers
+Para representar
+Conocimiento estático
+Los llamados
+Frames
+¿Ok?
+La idea acá
+Se basaba en representar
+Situaciones
+Estereotipadas
+O pre-envasadas
+A través
+De slots
+Que podían ser
+Instanciados
+Para los que no son
+Informáticos
+Instanciar
+Significa
+Una variable
+Asignarle un valor
+En memoria
+¿Ok?
+O sea
+Estos templates
+No tenían las variables
+Asignadas
+Con ningún valor
+Sino que estaba
+Solamente
+El template
+Genérico
+¿Ok?
+Ahora
+Concomitante
+Con esto
+De los frames
+Se desarrolló
+Una metodología
+Que complementaba
+También a los frames
+Que eran los llamados
+Scripts
+Que fueron propuestos
+Para representar
+Secuencias dinámicas
+De acciones
+Porque los frames
+Eran bien estáticos
+Representaban
+Conocimiento estático
+En una situación
+Muy particular
+Y podían ser
+Varios distintos
+Tipos de situación
+Pero los scripts
+Conectaban esto
+A través de una serie
+De acciones
+En el tiempo
+Y con esto
+Me ha dado
+Una dinámica
+Digamos
+En el proceso
+¿Ok?
+Entonces
+Estos métodos
+Tuvieron
+Amplia aplicación
+En inteligencia
+Artificial
+Desde los 60
+70
+Y 80
+¿Ok?
+Y como vamos
+A ver más adelante
+Incluso
+Se usaron
+En sistemas
+De inteligencia
+Artificial
+Después del milenio
+Y vamos a ver
+Cuáles
+Ustedes se van
+A sorprender
+¿Ok?
+Entonces
+En estos
+Formalismos
+Se representaban
+Escenas que tenían
+Propiedades
+Roles
+Condiciones de entrada
+Resultados
+¿Ok?
+Todo ya predeterminado
+Y utilizaban
+Las llamadas
+Primitivas de acción
+Y primitivas de objetos
+Las primitivas de acción
+Operan sobre las primitivas
+De objetos
+Entonces aquí tienen
+Algunas primitivas
+De acción
+¿Ok?
+A trans
+Es una primitiva de acción
+Para representar
+En el lenguaje
+Una transferencia abstracta
+O sea
+No de algo concreto
+Sino que puede ser
+De una idea
+Por ejemplo
+P trans
+Es una primitiva de acción
+Que representaba
+La transferencia física
+De un objeto
+Propel
+Representaba
+Una primitiva de acción
+Que representaba
+La aplicación de fuerza física
+A un objeto
+M trans
+Era una primitiva de acción
+Que representaba
+La transferencia
+De información mental
+M build
+Era una primitiva de acción
+En estos lenguajes
+Que permitía construir
+Una
+Nueva información
+A partir de información
+Speak
+Era una primitiva de acción
+De un actor
+Que
+Para
+Que comunicaba
+Un acto
+De expresarse
+Attend
+Primitiva de acción
+Para enfocar los sentidos
+A un estímulo
+Move
+Primitiva de acción
+Para un movimiento
+De un cuerpo
+Grasp
+Primitiva de acción
+Para que un agente
+Tome un objeto particular
+Ingest
+Primitiva de acción
+De un agente
+Ingiriendo un objeto
+Y Expel
+Primitiva de acción
+De un agente
+Expulsando un objeto
+Este es un resumen
+Porque en realidad
+Podría
+Habían muchas
+Muchas primitivas de acción
+Para poder
+Usar en estos
+Scripts
+Y frames
+Probablemente tal
+¿Ok?
+Y teníamos
+Los primitivos
+De objetos
+PP
+Es objetos
+Del mundo real
+ACT
+Son acciones
+Del mundo real
+PA
+Atributos
+De objetos
+AA
+Atributos
+De acciones
+T
+Tiempos
+Y LOC
+Ubicaciones
+¿Ok?
+Entonces vamos a ver
+Un ejemplo concreto
+De cómo
+Más o menos
+La idea
+De cómo funcionaba
+Esto
+Aquí una escena
+Concreta
+Estamos representando
+Una escena
+Que es comiendo
+En el restaurante
+¿Ok?
+Entonces fíjense
+Acá tenemos
+Varias
+Primitivas
+De acción
+Atrans
+Atrans
+Estaba
+Recuerden
+Atrans
+Era una primitiva
+De acción
+De una transferencia
+Abstracta
+¿Ok?
+Entonces en este caso
+Tenemos un comensal
+Que es una variable
+Introducida
+En el discurso
+Estoy usando
+Estoy usando
+La primitiva
+De acción
+Atrans
+Transferencia
+Abstracta
+De un pedido
+A un garzón
+Es abstracta
+Porque es
+Información
+O sea
+El pedido
+Es conceptualizado
+Por el lenguaje
+Como una transferencia
+De información
+Y por lo tanto
+Una transferencia
+Abstracta
+Por eso estoy
+Utilizándose
+Esa primitiva
+De acción
+¿Ok?
+Y aquí hay una serie
+De
+Hay una secuencia
+De eventos
+Que implica
+Una dinámica
+¿Ok?
+Una dinámica
+En un contexto
+En este caso
+Es una escena
+Que representa
+Una acción
+De comer
+En un restaurante
+Después
+La segunda
+La segunda parte
+De esta representación
+En este lenguaje
+También involucra
+Una
+Primitiva
+De acción
+A trans
+¿Por qué?
+Porque ahora
+Tengo al garzón
+Y aquí hay una
+Que lleva la comanda
+Una transferencia
+Al cocinero
+Lleva la transferencia
+A la cocina
+¿Ok?
+Si ustedes se fijan
+Estos superscripts
+Aquí arriba
+Introducen variables
+En el discurso
+Vamos a darle
+Un nombre a esto
+Que usamos
+En inteligencia artificial
+En lenguaje natural
+Decimos que son referentes
+Referentes
+Que están siendo
+Introducidos
+En el discurso
+Entonces tengo
+Al comensal
+Primero
+Aquí yo introduje
+Tres referentes
+El comensal
+El pedido
+Y el garzón
+Fíjense que la segunda
+Está haciendo referencia
+A un referente
+Que ya se introdujo
+En el discurso
+Fue introducido aquí
+El garzón
+Ya fue introducido
+En el discurso
+Y ahora ese garzón
+Lleva la comanda
+A través de esta
+Primitiva de acción
+Abstracta
+Al cocinero
+O sea yo aquí
+Introduje
+Con la segunda regla
+Introduje
+Dos referentes más
+La comanda
+Y el cocinero
+Voy a la siguiente
+Representación
+Hago referencia
+A un referente
+Que ya fue introducido
+Que es el cocinero
+Petrans
+Ahora petrans
+Si recuerdan
+Es una transferencia
+Pero no es abstracta
+Petrans
+Es transferencia física
+De un objeto
+En este caso
+Se refiere a la comida
+Que es otro referente
+Que estoy introduciendo
+En el discurso
+Un sexto referente
+Y se la lleva
+Al garzón
+Que ya fue introducido
+En el discurso anterior
+Ok
+Ahora el garzón
+Con la comida
+Que le fue entregada
+Cierto
+Por el cocinero
+Hace una transferencia
+Que en este caso
+Es de un objeto
+No es una transferencia
+Abstracta
+Por lo tanto
+Estoy utilizando
+La primitiva
+De
+Estoy utilizando
+Una primitiva
+De transferencia
+Abstracta
+Sino que
+Transferencia
+De un objeto
+Físico
+En este caso
+La comida
+Y se le llevó
+El comensal
+Que fue el
+Referente
+Introducido
+En la primera
+Regla
+En este lenguaje
+De representación
+Ok
+Y el comensal
+Finalmente
+Ya con la comida
+Utiliza
+La
+Primitiva
+De acción
+Ingest
+Sobre
+Este
+Referente
+Que es la comida
+Que fue introducida
+Anteriormente
+Ok
+Entonces
+Estos superíndices
+Indican objetos
+Que fueron introducidos
+Son referentes
+Que ya están
+Disponibles
+En el
+En el discurso
+Ok
+Ahí tenemos
+Un típico
+Ejemplo
+Y estos sistemas
+De representación
+De conocimiento
+Involucraban
+Cientos de estas
+Decidas
+Ok
+Que siguen siendo
+Utilizadas hasta el día de hoy
+Entonces lo que hace
+El sistema
+En el fondo
+Es cuando está
+Interactuando
+En el tiempo real
+Con un
+Con una persona
+Trata de identificar
+En qué cena está
+Y una vez que está
+Identificó
+En qué cena está
+Lo que corre
+Es un script
+Un script
+Que está predefinido
+Ok
+Y es por eso
+Que cuando ustedes
+Muchas veces
+Interactúan hoy en día
+Con un bot
+En la medida
+Que el script
+No contemple
+No contemple
+Una acción
+Que se da
+De forma espontánea
+En la interacción
+Con el humano
+Que está
+Hablando con el bot
+Se te va a caer
+Todo
+Y hay maneras
+De poder recuperar
+O sea
+El bot te va a responder
+Mire no entiendo
+Por favor
+Me podría
+Reformular la pregunta
+Cosas de ese tipo
+O sea
+Cuando
+La elección
+De los scripts
+Te lleva
+A un
+A un
+A un
+Callejón
+Sin salida
+En el fondo
+Porque
+Porque algo
+En el script
+No cuadra
+Algo se salió
+Del script
+Propiamente tal
+En el universo
+De discurso
+Mientras uno
+Está interactuando
+Con el humano
+Entonces
+Necesariamente
+La interpretación
+Se va a caer
+En ese momento
+Y el bot
+Va a intentar
+Volver a foja cero
+Y tratar
+De ver
+Cómo puede
+Hacer una pregunta
+Para resetear todo
+Y volver
+A comenzar de nuevo
+Muy probablemente
+Les ha pasado a ustedes
+En innumerables ocasiones
+Lo que está detrás de eso
+Es muy probablemente
+Una representación
+Basada
+En frames
+O scripts
+Como las tenemos acá
+¿Ok?
+Es mejor que un
+Un sistema experto
+Bueno
+Bueno
+Más que sea mejor
+O peor
+Hay un término
+Que utilizamos
+En inteligencia artificial
+Que es importante
+Que conozcan
+Que es
+El dominio
+De aplicación
+El dominio
+De aplicación
+Me indica
+Qué lenguaje
+De representación
+Voy a necesitar
+Entonces
+Para un sistema
+De lenguaje natural
+Que interprete
+El lenguaje natural
+Un sistema de diálogo
+Que interactúa con humanos
+Los sistemas expertos
+No me van a servir
+¿Ok?
+En cambio
+Este tipo
+De mecanismos
+Tuvieron
+Bastante
+Uso
+Y aceptación
+Por mucho tiempo
+Y se siguen usando
+Hasta ahora
+Entonces
+¿Ok?
+Me voy a adelantar
+A lo que le iba a comunicar
+Pero
+La primera versión
+De Siri
+Todo el mundo sabe
+Que es Siri
+Aquí
+A ver Gonzalo
+De la fuente
+¿Qué es Siri?
+Sí, bien
+Entiendo que
+Como este sistema
+Operativo
+Conversacional
+Que tiene
+App
+Para pedir
+Información
+A esa sala
+¿Qué es?
+Sí
+Eso tiene un nombre
+En inteligencia artificial
+Hay toda un área
+¿La gente?
+Hay toda un área
+Que tiene que ver con esto
+Un área que no existía
+De inteligencia artificial
+Pero que surgió
+Y que de hecho
+Combina
+Tres o cuatro áreas
+De
+De inteligencia artificial
+De las que vimos recién
+Tres o cuatro combina
+Y no existía
+Esto existió
+Comenzó a existir
+A partir
+Después del cambio
+Al milenio
+Propiamente
+¿Saben de qué estamos hablando?
+Alexa es una de ellas
+Siri es otra
+Google te entienden
+En el suyo
+¿Asistentes?
+O asistentes
+Tiene un nombre largo
+Se llaman
+Asistentes Virtuales
+Inteligentes
+¿Ok?
+Asistentes Virtuales
+Inteligentes
+Entonces yo me sorprendí
+Porque
+A ver
+Yo trabajé en esa área
+En Inglaterra
+Por ahí entre
+2004 y 2005
+Y cuando yo tuve
+Contacto con
+Siri
+Y fue justamente
+Porque estaba trabajando
+En el área
+Y fui a Silicon Valley
+Me entrevisté con el equipo
+De desarrollo
+Y ellos me dijeron
+Y yo les pregunté
+¿Qué método de representación
+De conocimiento
+Estabas usando?
+Y ojo
+Esto que les estoy
+Explicando acá
+Es de los años
+60 y 70
+Es súper antiguo
+¿Ok?
+Y ya
+En esa fecha
+2000
+Cuando estábamos
+Trabajando en el año
+2004-2005
+Y más aún
+En el 2010
+Cuando desarrollaron Siri
+Esto era cosa
+Del pasado
+Y les pregunté
+¿Qué estaban usando?
+Y estaban usando esto
+Este mecanismo
+Yo creo que Apple
+Compró Siri
+En 2013
+Creo que fue
+Y que lo
+Ahora debe estar
+Basado
+En otro
+Lenguaje de representación
+De conocimiento
+No me cabe la duda
+Pero en aquella época
+Cuando se desvió
+Y cuando
+Cuando Apple lo compró
+Estaba basado
+En
+En este tipo
+De lenguaje
+De representación
+De conocimiento
+Que dicho sea
+De paso
+No está basado
+En lógica
+Entonces
+El sistema
+Funcionaba
+No era perfecto
+Pero no estaba
+Basado en lógica
+Entonces
+Uno puede argumentar
+El sistema
+En el fondo
+Es un logro
+Que tiene aquí
+Conocimiento
+Pre-envasado
+En la forma
+De estos scripts
+De estos frames
+Utilizando estas
+Primitivas de objeto
+Y primitivas de acción
+Pero no está
+Entendiendo nada
+Aquí no hay
+Inferencia lógica
+Algo que
+Algo que no esté
+En el script
+Es imposible
+De poder recuperar
+¿Me entienden?
+O sea
+Adolece una serie
+De problemas
+Como lenguaje
+De representación
+De conocimiento
+Por eso dejaron
+De usarse
+Pero por eso
+A mí me sorprendió
+Cuando
+Me enteré
+De que Siri
+Se había programado
+Con este tipo
+De
+De lenguaje
+De representación
+¿Ok?
+Entonces
+A pesar de que
+Estos sistemas
+Derivaron los llamados
+Sistemas de razonamiento
+Basado en casos
+¿Cierto?
+A través de
+Estas escenas
+Digamos
+Esta tecnología
+Que data de los 60
+Fue descartada
+Por investigadores
+En IA
+En inteligencia artificial
+¿Y cuándo fue descartada?
+Fue descartada
+De plano en los 80
+En algún momento
+Más bien al final
+De los 80
+Por no servir
+Para sistemas
+De inferencia lógica
+Automática
+¿Ok?
+O sea
+La crítica era
+Que los sistemas
+Actaban como loros
+Que no entendían nada
+¿Ok?
+La misma crítica
+Que muchos
+Investigadores
+De inteligencia artificial
+Le hacen a
+Chargpt
+Y otras
+Arquitecturas
+De inteligencia artificial
+Generativa
+Con las cuales
+Ustedes probablemente
+Han tenido
+Bastante contacto
+En los últimos
+Dos o tres años
+¿Ok?
+Pero es la misma crítica
+O sea
+Que no hay
+Un proceso
+De entendimiento
+¿Y qué significa eso?
+¿Qué significa
+Que no hay un proceso
+De entendimiento
+O sea
+Que el sistema
+No está entendiendo nada
+Lo único
+Que está haciendo
+Está detectando
+En el caso
+En este caso
+Particular
+Lo único
+Que está haciendo
+En el caso
+De los frames
+Y los scripts
+Lo único
+Que está haciendo
+Está recurriendo
+A conocimiento
+Pre-envasado
+Que en la medida
+Que le falte
+Una componente
+El script
+¿Cierto?
+Va a pasar
+Lo que
+Muchas veces
+Les pasa
+Con los bots
+Que el bot
+Colapsa
+Y tienen que
+Volver a fojar
+Cero
+¿Ok?
+Y esa crítica
+También se le hace
+A
+Los sistemas
+De inteligencia
+Artificial
+Generativa
+Que vemos hoy
+Porque pasa lo mismo
+No hay un sistema
+De representación
+De conocimientos
+Por detrás
+Sino que lo que tenemos
+Es
+En el caso
+De los
+De chat GPT
+En sus distintas versiones
+Lo que tenemos
+Son
+Una arquitectura
+De Machine Learning
+De varias capas
+Llamada Deep Learning
+Que
+Encontró una manera
+Eficiente
+Que son estos
+Transformers
+De entrenarlos
+Con billones
+De parámetros
+Porque hay cosas
+Que no se podía hacer
+Antes
+Entonces
+Estos Transformers
+Fue realmente
+Un salto
+Bastante grande
+En términos
+De funcionalidad
+Porque
+Por primera vez
+Se podían entrenar
+Con millones
+Y millones
+De parámetros
+En relativamente
+Poco tiempo
+Aunque seguía
+Siendo muy costoso
+Y cada vez
+Más costoso
+Porque el número
+De parámetros
+Para entrenar
+Estos
+Transformers
+Sigue creciendo
+Exponencialmente
+Pero no están
+Entendiendo nada
+Porque lo que tenemos
+Por detrás
+Son correlaciones
+Y detección
+De patrones
+Pero no hay
+Lógica subyacente
+Entonces cuando decimos
+Que no están
+Entendiendo nada
+Es que no hay
+Inferencia lógica
+Por detrás
+Ok
+Y a eso
+Se refiere
+Cuando dice
+Que los sistemas
+Actuan como loros
+Que no entendían
+Nada
+Ok
+Entonces
+Como ejercicio
+Les vamos a dejar
+Para ver si
+Me lo pueden mostrar
+La próxima semana
+Esto no es obligatorio
+Pero los que tengan
+Interés
+Estos tienen
+De representar
+El conocimiento
+De un portonazo
+Usando
+Usando
+Este mecanismo
+El de los
+Scripts y frames
+Usando las
+Primitivas de acción
+Y de
+Y de objeto
+Que vimos recién
+Para el
+Para el ejemplo
+Del
+Del restaurante
+Ok
+Hay alguien que
+No es chileno acá
+O que no haya vivido
+Que no viva
+O que viva
+Recientemente en Chile
+¿No?
+En otras palabras
+Todo el mundo sabe
+Lo que es un portonazo
+¿No?
+Ahí
+Alguien dijo
+No
+Yulisa dice
+Que no sabe
+Yulisa
+Sí, pero
+¿Qué?
+¿Rodrigo
+Tampoco sabe?
+Sí
+Sí, sé
+Soy chileno
+Ok
+Pero Yulisa
+No sabe
+Yulisa es brasileña
+¿No?
+No
+De Perú
+Perú
+¿Sabe que es un portonazo
+Yulisa?
+No
+¿Le pueden explicar
+Por favor
+A su compañera?
+¿El lenguaje natural?
+Perdón
+Sí, por favor
+Yo explico
+Un portonazo
+Es cuando
+Vas en auto
+Y se te cruza un auto
+Por delante
+Y se bajan delincuentes
+Y te roban el auto
+Te sacan del auto
+Y te lo roban
+Y te dejan en la calle
+Pero
+La definición
+De los nombres
+Que viene
+Es que eso
+Es cuando
+Vas abriendo
+El portón
+De la casa
+Te bajas
+A abrir el portón
+De tu casa
+Y te roban el auto
+Sí
+Bueno
+Ahí le pueden
+Ayudar a Yulisa
+En caso que quieran
+Representarlo
+Y lo vamos a
+A revisar
+La próxima semana
+Ok
+Ok
+Vamos a continuar
+Entonces
+Justo
+Digamos
+Justo con este
+Ánimo
+Por
+Que los lenguajes
+De representación
+Se basaran en
+En lógica
+Aparecieron
+Las llamadas
+Redes semánticas
+Pero las redes semánticas
+Todavía no
+Eran un precursor
+De los primeros
+Lenguajes de representación
+De conocimiento
+Basado en lógica
+O sea
+No estaban
+100%
+Basados en lógica
+Era muy primitivo
+En el fondo
+Todavía
+Pero era un paso
+En esa dirección
+Ok
+Entonces volvamos
+Un poquito atrás
+¿Por qué?
+¿Por qué el interés
+De que los sistemas
+De representación
+De conocimiento
+Estén basados en lógica?
+¿Cuál es el interés?
+A ver Isabel
+¿Cuál sería el interés?
+¿Por qué queríamos eso?
+¿Quién me puede responder
+¿Qué ventaja tenemos
+De que el mecanismo
+No esté basado en lógica?
+¿Se puede operar o no?
+¿Cómo?
+Que se puede
+Codificar
+Se pueden operar
+Se pueden operar
+Bueno
+Operar significa
+Que se pueden implementar
+Claro
+Que se puede
+Como
+Como juntar elementos
+Hay ciertas reglas
+Como de
+No sé
+Pues está
+El I
+El O
+La implicancia
+Se puede
+Claro
+Se puede
+Trabajar con ellas
+De manera mecánica
+O sea
+Para trabajos
+Que son
+De acción
+No habría
+No habría
+Ningún problema
+Permita
+Auditarle
+También ver
+Donde puede
+Haber algún error
+Para
+En ese
+Momento
+En específico
+Poder
+Tener algún tipo
+De cambio
+En función
+De la tarea
+Que yo quiero
+Que realice
+Tiene un menor
+Costo
+De decodificación
+Ok
+Entonces miren
+Todo eso juega
+Un rol importante
+La motivación
+Principal
+Fue la siguiente
+Y creo que
+La mencionaron
+Algunos de sus compañeros
+Y compañeras
+Hace como
+Una hora atrás
+Y es que
+En la medida que yo
+Hace el sistema
+De representación
+De conocimientos
+En lógica
+Yo voy a poder
+A partir de reglas
+Que yo ya tengo
+Generar nuevas reglas
+Ok
+Y eso es
+Una tremenda ventaja
+Porque
+Todo lo que había
+Hasta antes
+Requería
+De que yo
+Explícitamente
+Codificara
+Las reglas
+En el lenguaje
+De representación
+De conocimientos
+En la base
+De conocimientos
+Y si no
+No había
+Cómo generar
+Nuevas reglas
+En cambio
+En la medida
+Que yo hace
+El lenguaje
+De representación
+De conocimientos
+En lógica
+Yo voy a poder
+Inventar
+Inplementar
+En el sistema
+De representación
+De conocimientos
+Un algoritmo
+De inferencia lógica
+Y vamos a ver
+Algunos más adelante
+Ok
+Y eso
+Es una gran ventaja
+Porque me permite
+Generar nuevas reglas
+A partir de las que yo ya tengo
+De hecho
+Es lo que nosotros
+Hacemos
+Nosotros vamos
+Aprendiendo reglas
+Y vamos infiriendo
+Nuevas reglas
+Y algunas que
+Vamos infiriendo
+Las vamos descartando
+Todo el tiempo
+Y otras van
+Se van validando
+Y es un proceso
+Dinámico
+Que no para
+O sea
+Aparentemente
+Nosotros los humanos
+Tenemos también
+Una lógica subyacente
+En nuestro sistema
+De representación
+De conocimientos
+Por así decir
+Y es por eso
+Que somos capaces
+De generar nuevas reglas
+A partir de
+Reglas que ya existen
+Ok
+Y eso queríamos
+Replicarlo
+En una máquina
+Y para eso
+Necesitábamos
+Un mecanismo lógico
+Algún tipo de lógica
+Teníamos que usar
+Y una de las primeras
+Fue esto
+De las redes semánticas
+Y la lógica
+Aquí es súper simple
+Es muy burda
+Si ustedes quieren
+Muy básica
+Pero fue un primer paso
+Ok
+Y esta era
+Esta relación
+La relación
+IS-A
+O ISA
+¿Cierto?
+Tiene que ver con
+Lo que
+En representación
+De conocimiento
+Se llama
+Lógica terminológica
+O sea
+Cómo yo construí
+Una taxonomía
+Ok
+O una tipología
+Ok
+Entonces
+Acá por ejemplo
+Yo lo quería
+Lo que quería
+En esta red de semántica
+Utilizando esta relación
+Lógica
+Súper básica
+Súper básica
+Es poder describir
+¿Cierto?
+Una ontología
+Usando la relación
+IS
+IS-A
+IS-A
+Ok
+Que es una forma
+De clasificación conceptual
+Entonces un ejemplo
+Es que Juan y María
+Practicando dolerismo
+Esto es
+Muy burda
+Representación
+Pero está
+Es un precursor
+De un lenguaje
+De representación
+Basada en lógica
+Entonces
+Yo utilizo esta relación
+Lógica
+Para decir que Juan
+Es un hombre
+Donde este hombre
+Le vamos a dar
+Lo vamos a introducir
+Se llama un predicado
+Ok
+Estamos predicando
+Algo de Juan
+¿Qué estamos predicando
+De Juan?
+Estamos predicando
+Que Juan
+Es un hombre
+Y que María
+Es una mujer
+Y eso lo
+Represento así
+En esta lógica
+En redes semánticas
+Ok
+Donde esto está
+En negrito
+Si se dan cuenta
+Para identificar
+Que esto es un
+Predicado
+¿Qué es un predicado?
+¿Alguien se le ocurre
+Lo que es un predicado
+Acá?
+No sé
+Un sustantivo
+A ver
+Aquí tengo
+Una declaración
+Ok
+A ver
+Tenemos un ingeniero
+Matemático
+Aquí en el curso
+Está presente
+¿O no?
+Sí
+¿Quién es?
+Yo
+Benjamín
+Benjamín Cataldo
+Sí
+¿Tú eres ingeniero
+Matemático?
+Sí
+Perfecto
+Entonces dime
+¿Qué es hombre?
+Matemáticamente
+Conceptualmente
+¿Qué es?
+¿Qué es un predicado?
+No sé
+No sé si tuviste
+Clases de esto
+En tu
+En tu carrera
+No
+No precisamente
+Pero me da
+La sensación
+De que
+Hombre
+Mujer
+Velero
+Son como
+Características
+De un elemento
+Que es
+Juan
+María
+Y por lo tanto
+Por lo tanto
+Matemáticamente
+¿Qué son?
+Son relaciones
+O propiedades
+Es la relación
+Entre ambas
+Palabras
+O entre ambas
+Una clase
+Un atributo
+Lo que pasa es que
+Mira
+Fíjate que acá
+La relación
+Es esta de aquí
+Esta es la relación
+¿Ok?
+Que es la misma
+Porque en el fondo
+Bueno
+Acá tenemos otra relación
+Que es la ocasión
+¿Ok?
+Esta es la
+La relación
+Pero esto que está aquí
+Benjamín
+No sé si te acuerdas
+Es un conjunto
+¿Ok Benjamín?
+Y estos conjuntos
+Les damos un nombre
+Les decimos
+Predicado
+Entonces
+¿Qué es un predicado?
+Es un conjunto
+¿Se acuerdan todos
+De teoría de conjuntos?
+¿Cierto?
+Entonces
+Este predicado hombre
+Es un conjunto
+¿Y qué contiene ese conjunto?
+Ese conjunto
+Contiene
+Todos los objetos
+En el universo
+De discurso
+Que tienen la propiedad
+De estar
+O sea
+En el fondo
+En hombre
+Yo tengo todos los elementos
+Que cumplen con el predicado hombre
+Y en María
+En mi mujer
+Tengo todos los elementos
+Que están en el conjunto mujer
+O sea
+Son conjuntos
+¿Se entiende Benjamín o no?
+Sí
+Son conjuntos
+Entonces
+¿Qué estás chiqueando
+Cuando dices esto?
+Que Juan pertenece a ese conjunto
+Que Juan pertenece a ese conjunto
+Perfecto
+Eso es
+¿Ok?
+Y lo mismo
+Profesor
+¿Sí?
+Disculpe
+¿Tiene algo que ver
+Con los nodos
+Y los enlaces?
+¿Pero en qué teoría?
+Porque hay muchas teorías
+Que tienen nodos y enlaces
+En lo que habla
+De la red semántica
+Que habla de
+Que hay nodos
+Que los nodos
+Son la representación
+De los objetos
+Y los enlaces
+Son la representación
+De las relaciones
+Entre los objetos
+Sí
+Claro que sí
+¿Quién me hizo esa pregunta?
+Paula Milanesi
+Paula
+Muy bien
+Sí
+Lo puedes representar así
+Ahora
+Acá tenemos otro conjunto
+Que es velero
+Y aquí tenemos una
+Una variable
+¿Ok?
+Y aquí tenemos otra relación
+Como muy bien decía
+Benjamín
+Esto es una relación
+De que
+Juan
+Está en la locación
+B1
+En el velero
+Y María
+Está en la locación
+B1
+Que también
+Pertenece al conjunto
+Velero
+¿Ok?
+Es muy burdamente
+Es una representación
+Muy burda
+Que me permite
+Y me permitiría
+Representar
+Que Juan y María
+Están en el fondo
+Practicando velerismo
+Alguien me puede decir
+Bueno pero es súper burda
+La representación
+Porque tendría que además
+Representar
+Que el velero
+Está en un lago
+O que el velero
+Está en un
+En el mar
+¿Cierto?
+Y no está en una tienda
+Porque en la tienda
+Podría estar ahí
+Sentado en el velero
+Pero no están practicando
+Velerismo
+¿Me entienden?
+Todo eso es correcto
+O sea es una representación
+Súper simplificada
+De algo que es más complejo
+Pero en el fondo
+También lo podría representar
+Con este mecanismo
+¿Ok?
+¿Se entiende o no?
+¿Pero eso?
+¿Sí?
+Y en la misma analogía
+Como de matemáticas
+Si el
+Is-A
+Es una relación
+De conjunto
+Y Juan pertenece
+Al conjunto hombre
+Las relaciones
+Tipo
+Locación
+Etcétera
+Son
+¿Qué vendrían a ser?
+Son relaciones
+Como decía el otro compañero
+Pero ¿Cuál es la distinción
+Y cómo permite esto
+Como operarlo
+Lógicamente?
+Porque claro
+La relación
+Is-A
+Es un tipo
+Bien particular
+De relación
+Que se llama
+Subsumción
+¿Ok?
+Matemáticamente
+Ese es el nombre
+De la relación
+Subsumción
+Lo vamos a ver más adelante
+En más detalle
+En cambio
+Locación
+No es subsumción
+Sino que significa
+Significa una relación
+Que te toma
+Dos argumentos
+Y que te dice
+El primer argumento
+Está ubicado
+En el segundo argumento
+¿Me entiendes o no?
+Semánticamente
+Eso es lo que está
+Representando
+Esa relación
+Locación
+Perfecto
+Son relaciones
+Distintas
+Entonces
+La ISA
+Es una particular
+Que es muy de conjunto
+La otra ya te establece
+Relaciones de otro
+Tipológico
+Exacto
+Y eso es subsumción
+¿Se entiende?
+Esta primera
+Es subsumción
+¿Ok?
+Bueno
+Este fue un primer
+Un primer
+Precursor
+De
+De
+Sistemas
+Basados en lógica
+Pero era muy simple
+Todavía
+Demasiado simple
+Entonces a partir
+De los 80
+Estos sistemas
+Fueron descartados
+Para dar lugar
+A los sistemas
+De representación
+Basados en lógica
+Matemática
+De los cuales
+Vuelvo a insistir
+Estos
+Grafos conceptuales
+Que acabamos de ver
+Estos de aquí
+Estas redes semánticas
+Fueron un precursor
+Y
+Y aquí está el gran
+No sé
+¿Cómo se dice
+Breakthrough
+En
+En castellano?
+¿Lo sabes?
+Revolucionario
+Revolucionario
+Breakthrough
+Quiebre
+Através
+Sí
+Quiebre
+Algo por el estilo
+No hay una buena
+Es quebrada
+Básicamente
+Pero
+Breakthrough
+Es como algo nuevo
+Algo revolucionario
+Sí
+El breakthrough
+Es cuando uno
+Está resolviendo
+Algo que es complicado
+Y está probando
+Varias cosas
+Y como que no funciona
+Y de repente
+Breakthrough
+Significa que
+Logra
+Resolver el problema
+En el fondo
+Un avance
+Bastante complicado
+¿Ok?
+¿Yulisa
+Qué dijo?
+No
+Un avance
+Quizás la traducción
+Sí
+Pero es más que un avance
+Es como
+Trabajaste un problema
+Que era duro
+De resolver
+Y
+Y todavía
+Fracasado
+Hasta que
+Alguien
+Alguien
+Lo va a dar
+Una solución
+Definitiva
+Bueno
+Eso más o menos
+Un breakthrough
+En todo caso
+El punto
+Es el siguiente
+Es que
+En los 80
+Se propuso
+Utilizar la lógica
+De predicado
+A primer orden
+¿Ok?
+Desarrollada
+Por alguien
+En 1848
+Fíjense que
+Este filósofo
+Yo les hablé
+Del Gottloch Rege
+Matemático
+Filósofo
+Y lógico
+Alemán
+Que
+Nació en 1848
+Murió en 1925
+Y desarrolló
+La lógica
+De predicado
+A primer orden
+O sea
+Él
+Mucho antes
+Que existieran
+Los computadores
+Imagínense
+Y que existiera
+La
+Inteligencia artificial
+Él se hizo
+La siguiente pregunta
+Él dijo
+¿Cómo puedo
+Representar
+En matemática
+Matemáticamente
+Lo que significa
+Una sentencia
+En lenguaje natural
+Esa fue
+La pregunta
+Que se hizo
+Él
+¿Cómo lo puedo
+Yo representar
+Matemáticamente?
+Y llegó
+A la conclusión
+Utilizando
+Teoría de
+Conjuntos
+De que
+Ese era
+El vehículo
+Matemático
+Para poder
+Representar
+El significado
+De cualquier
+Sentencia
+En lenguaje natural
+Y él
+Desarrolló
+La lógica
+De predicado
+A primer orden
+¿Ok?
+Y entonces
+Los
+Investigadores
+De inteligencia artificial
+Dijeron
+Ok
+Vamos a usar
+Eso
+Vamos a usar
+Justamente
+Eso
+Porque aquello
+Que
+Pregue
+Usó
+Más de
+Cien años
+Antes
+Se veía
+Promisorio
+Para poder
+Implementar
+Lenguajes
+De representación
+De conocimiento
+Que interpretaran
+El lenguaje
+Natural
+¿Ok?
+Entonces
+Ese fue
+Un gran
+Logro
+Si se podía
+Hacer eso
+Era un gran
+Logro
+Y concomitante
+Con eso
+De la
+Lingüística
+No de la
+Inteligencia
+Artificial
+Surgió
+Un individuo
+Que se llamó
+O se llama
+No sé
+Si está vivo
+Todavía
+El norteamericano
+Richard Montague
+¿Ok?
+Y él se hizo
+Otra pregunta
+Él se hizo
+Otra pregunta
+La pregunta
+Que él se hizo
+No era
+No era
+¿Qué formalismo
+Matemático
+Usar para
+Representar
+El lenguaje
+Natural?
+Eso lo había
+Descubierto
+Freddy
+Cien años
+Antes
+Montague
+Se hizo
+Otra pregunta
+Se dijo
+¿Cómo puedo
+Yo
+Llevar
+Una sentencia
+En lenguaje
+Natural
+A
+Su correlato
+En lógica
+De predicado
+Primero
+Porque esa
+Pregunta
+Había quedado
+En el camino
+O sea
+¿Cómo una máquina
+Puede
+Tomar una sentencia
+En lenguaje
+Natural
+Y traducirla
+A una expresión
+Usando la lógica
+De predicado
+Primero
+Orden
+De
+Frege
+Es
+Es una pregunta
+Complementaria
+Pero es una pregunta
+Distinta
+Y él desarrolló
+Un método
+Para hacer eso
+Que se llamó
+Montague
+Semantics
+Entonces
+Yo siempre digo
+Que todo el mundo
+Conoce a
+Noam Chomsky
+¿Cierto?
+Ustedes lo conocen
+¿No?
+¿Quién es Noam Chomsky?
+¿Y por qué es famoso
+Científicamente?
+¿Es porque es lingüista?
+Justamente
+Es lingüista
+Justamente
+¿Y qué hizo?
+¿Cuál fue su gran contribución?
+El proponer
+La estructura natural
+De lingüística
+Del humano
+Claro
+Pero de un área
+De la lingüística
+¿De cuál?
+Fíjate que en la lingüística
+Hay tres grandes áreas
+En fondo
+Hay más
+Pero las tres grandes son
+Sintaxis
+Semántica
+Y pragmática
+Sintaxis
+Tiene que ver
+Con la estructura
+Del lenguaje
+Cada lenguaje
+Tiene
+Genera un tipo de
+Sentencia
+De acuerdo a una
+Cierta estructura
+Sintáctica
+¿Ok?
+Esa es la sintaxis
+La semántica
+Es otra cosa
+La semántica
+Tiene que ver
+Con el
+El significado
+De una sentencia
+No es su estructura
+Sintáctica
+¿Ok?
+Esa es la semántica
+Y la pragmática
+Tiene que ver
+Con la acción
+¿Ok?
+Y esas tres áreas
+Han jugado un rol
+Súper importante
+También
+Porque la lingüística
+En todo el tema
+De NLP
+De National Language
+Ha ido de la mano
+Con el desarrollo
+De la lingüística
+También
+O sea
+Se ha apoyado
+En la lingüística
+En gran medida
+También
+La inteligencia
+Artificial
+¿Ok?
+Entonces
+Hay tres personas
+Que yo creo
+Que jugaron un rol
+Súper importante
+En esto
+El más conocido
+Es Chomsky
+Pero él se dedicó
+A la sintaxis
+Él creó
+Lo que se llama
+La gramática
+Universal
+¿Ok?
+Y propuso algo
+Que para los informáticos
+Se enseña
+En lenguajes formales
+Todo curso
+De lenguajes formales
+En informática
+Enseña
+La jerarquía
+De Chomsky
+No sé si se acuerdan
+Los informáticos
+Acá
+Jerarquía de Chomsky
+¿Ok?
+Que tiene cuatro niveles
+¿Ok?
+Entonces
+Chomsky
+Su gran contribución
+Científica
+Fue
+En el área
+De la sintaxis
+Muy conocido
+Por eso
+¿Ok?
+Montague
+Revolucionó
+La semántica
+Y él
+Porque la pregunta
+Que él se hizo
+Fue
+¿Cómo tomo yo
+Una sentencia gramatical
+O sea
+Una sentencia
+Que es correcta
+En un lenguaje natural
+Sintácticamente
+Que no era el problema
+Que él estaba investigando
+Él estaba investigando
+Un problema del significado
+De la semántica
+¿Qué significa?
+¿Y cómo puedo representar?
+Eso
+En lenguaje predicado
+A primer orden
+Que es complejo
+Porque para eso
+Tienes que desambiguar
+También
+¿Ok?
+Y él propuso
+Un método
+Para poder hacer
+Esa traducción
+Entre los lingüistas
+Es súper famoso
+Todo el mundo lo conoce
+Pero para quien no es lingüista
+Ni ha trabajado
+En esas áreas
+Es muy poco conocido
+A diferencia de Chomsky
+Que es muy famoso
+¿Ok?
+Y después hay un tercero
+Que ha trabajado mucho
+En pragmática
+Y también ha tenido
+Una
+Un impacto importante
+Que se llama
+John Searle
+Y él
+También es poco conocido
+Fuera del
+Ámbito de la
+Inteligencia artificial
+Y de la
+De la lingüística
+Pero
+Lo importante
+Acá es lo siguiente
+Que acá
+Para lo que nos
+Convoca
+Aquí
+Estas dos cosas
+Es decir
+El aporte de Frege
+De usar
+La lógica
+De predicado
+Primer orden
+Para poder representar
+El lenguaje natural
+Y
+Los métodos de Monta
+Y que me permiten
+Y desde el lenguaje natural
+Propiamente tal
+A esa representación
+Traducirla
+Eso
+Esos son los
+Eslabones
+Que nos faltaban
+¿Ok?
+Y
+Parece que Samuel
+Quiso decir algo recién
+Samuel
+¿No?
+Ok
+Entonces
+Con estos dos
+Con estos dos
+Con estas dos personas
+Que contribuyeron
+Grandemente
+Al desarrollo
+De la lingüística
+¿Cierto?
+Nosotros tomamos
+La lógica
+De predicado
+De primer orden
+Como lenguaje
+De representación
+De conocimiento
+Esa fue
+La postura
+Al final
+De los 80
+O sea
+Los investigadores
+En el área
+De lenguaje
+De representación
+De conocimiento
+Y representación
+De conocimiento
+En general
+Como el área central
+De inteligencia
+Que se dijeran
+Basta con
+Todos estos
+Formalismos
+Que no están
+Basados en lógica
+El lógico
+Va a ser
+La lógica
+De predicado
+A primer orden
+Y como llegamos
+A ello
+Va a ser
+A través
+De una serie
+De algoritmos
+Como lo había
+Propuesto
+También
+Richard Montague
+En
+Lo que él
+Denominó
+Montague
+Semantics
+La semántica
+De Montague
+Voy a volver
+En un minuto
+Más atrás
+A esto
+Pero creo
+Que es tiempo
+Para hacer
+Un recreo
+¿O no?
+Sí
+Porque son las 7
+Llevamos 2 horas
+¿O no?
+Sí
+¿Les parece
+Que hagamos
+Un recreo
+De 30 minutos
+¿O no?
+Sí
+Gracias
+Entonces hagamos
+Un recreo
+De 30 minutos
+Y retomamos
+Pasadito
+Las 7 y media
+¿Ok?
+Ok
+Ok
+Ok
+Bueno
+Gracias
+Chao
+Gracias
+Gracias
+Las 7 y media
+Nos夕 omes
+El
+El
+El
+El
+El
+El
+El
+El
+El
+El
+El
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Gracias.
+Ok, estamos de vuelta.
+Sí, aquí estamos.
+Sí, aquí estamos.
+Sí, por acá.
+Muy bien.
+Bien, vamos a continuar donde habíamos quedado.
+Ok.
+Y vamos a introducir algo que para todos nosotros es trivial, es evidente y no nos damos ni cuenta,
+pero que para un sistema de inteligencia artificial no es trivial y constituye un problema que estuvo abierto
+por mucho tiempo en inteligencia artificial.
+Uno de los problemas más difíciles de resolver, ¿ok?
+Y tiene que ver con este concepto de razonamiento no monotónico.
+Y vamos a explicar en qué consiste esto.
+Ok.
+En la medida que yo base mi lenguaje de representación de conocimientos en lógica,
+entonces yo voy a ir beneficiándome de qué cosa.
+Al estar basado en lógica, en lenguaje de representación de conocimientos, yo tengo una gran ventaja.
+¿Cuál es?
+¿Cuál sería?
+Una respuesta predecible.
+¿Cómo?
+Un resultado predecible.
+Ok.
+Un resultado predecible.
+A ver, ¿qué más?
+Se pueden crear nuevas reglas con base a la lógica anterior.
+Perfecto.
+Perfecto.
+Entonces, eso es...
+Eso lo habíamos mencionado, ¿cierto?
+Una tremenda ventaja.
+Y fue una de las principales razones por las cuales hubo un cambio en los años 80 de paradigma.
+Se pasó de lenguajes no basados en lógica a lenguajes basados en lógica.
+Pero, si estoy creando nuevas reglas, la pregunta es, ¿esas reglas son válidas o no son válidas?
+¿O me invalidan reglas anteriores?
+Entonces, eso tiene que ver con esto de razonamiento monotónico versus razonamiento no monotónico, que es lo que vamos a describir.
+¿Ok?
+La lógica clásica monotónica asume que el número de diferencias que se pueden obtener a partir de las fórmulas siempre aumenta conforme agregamos nuevas fórmulas.
+Que es lo que acabamos de describir.
+Es decir, nosotros partimos con un número inicial de reglas y vamos generando nuevas reglas.
+¿Ok?
+Y asumimos que esas nuevas reglas son válidas.
+¿Ok?
+Hasta ahí, pareciera que está todo bien.
+Pero, ¿cuál es el problema?
+¿Cuál creen ustedes que es el problema?
+¿Y que es un problema no menor?
+¿Que ciertas reglas pueden ser falsas o no correctas?
+Muy bien, Javier.
+Exactamente.
+Gracias.
+Las reglas que estoy definiendo pueden ser no correctas.
+O peor aún, puede que algunas que yo tomé y quedaba como correctas, ahora no sean correctas.
+Y este es un tremendo problema.
+Un tremendo problema que aparece.
+¿Ok?
+Entonces, el problema es que en razonamiento dinámico, lo que necesitamos es una manera de expresar fórmulas abiertas a un número, a un sin número de excepciones, derivando conclusiones que se pueden revocar.
+Entonces, vamos a ver concretamente de qué estamos hablando acá.
+Y lo vamos a ver introduciendo este problema que yo les mencioné recién, que tiene un nombre y se llama el frame problem.
+El problema del marco o el frame problem.
+¿Qué tiene que ver con inercia causal por racionamiento predictivo?
+¿Ok?
+Y con un ejemplo ustedes lo van a entender.
+Entonces, supongamos las siguientes expresiones en LPPO.
+LPPO es lógica de predicado de primer orden.
+¿Ok?
+Entonces, nuevamente, nosotros habíamos hablado de estos predicados que son conjuntos, ¿cierto?
+Y acá vamos a utilizar la lógica predicado.
+En este caso, el predicado color toma dos argumentos.
+¿Y esto cómo lo leemos?
+Lo leemos que X es de color C.
+Entonces, X, el objeto X, es de color C.
+Esto es verdadero, esto se cumple.
+Luego de pintar X de color C.
+O sea, el predicado pintar toma dos objetos igual que predicado color.
+Entonces, si bien el predicado color pinta un objeto X de color C, el predicado pintar pinta un objeto X del color C.
+¿Ok?
+Entonces, tengo una primera regla que dice que si yo pinto X del color C.
+O sea, perdón, si yo pinto X del color C, entonces luego de esa acción necesariamente el color de X y Z.
+¿Le hace sentido eso, no?
+¿Le hace Javier sentido eso?
+Sí, profesor.
+Sí, profesor.
+Ok, muy bien.
+Aquí tenemos otra regla en lógica de predicado primero.
+Tengo un predicado posición y tengo un predicado mover.
+Lo vamos a leer de atrás para adelante.
+El predicado de este mover XP toma dos argumentos y me indica que X lo moví a P.
+Entonces, si yo aplico esta regla, mover el objeto X a la posición P, entonces necesariamente la posición de X...
+Aquí tengo otro predicado que me indica la posición de X.
+Si yo consulto esto, la posición de X es P.
+Eso se cumple en la medida que yo haya movido X, el objeto X, a la posición P.
+¿Estamos de acuerdo ahí?
+Ok.
+Entonces, estas son reglas, se dan cuenta que están en la base de conocimiento.
+Y están expresadas en un lenguaje que es un lenguaje de representación de conocimiento.
+Y el lenguaje, en este caso, es lógica de predicado primero.
+Ok.
+Y las dos reglas son las que acabo de explicar.
+Son estas dos de aquí.
+Entonces, ahora vamos al mundo real.
+Porque estas reglas son genéricas.
+Estas reglas son, en el fondo, reglas de representación de conocimiento que están en la base de conocimiento.
+Pero en el mundo real, ahora, yo me desenvuelvo por el mundo.
+Este agente que tiene estas dos reglas en la base de conocimiento,
+se despliega por el mundo y tenemos ahora en el mundo un objeto A de color rojo.
+Y el mismo objeto A tiene la posición casa.
+Es decir, la posición del objeto A es la casa y su color es rojo.
+Ok.
+Y eso ahora, concretamente, son objetos que están instanciados en la base de conocimiento.
+Pregunta.
+¿Cuál es la situación final?
+Esta es la situación inicial.
+Un objeto de color rojo que está en la casa.
+¿Cuál es la situación final luego de ejecutar las siguientes acciones?
+Pintar el objeto A de color azul y mover el objeto A al jardín.
+Yo les pregunto entonces ahora, basado en lo que tenemos aquí arriba y basado en este hecho que está en la base de conocimiento,
+estas reglas también están en la base de conocimiento.
+¿Cuál es el efecto de aplicar estas dos reglas de acá?
+Es decir, color azul y posición A al jardín.
+Ok.
+¿Todos concuerdan con Gonzalo o no?
+O sea, depende si lo veo del punto de vista variable, si la situación inicial es a rojo y posición a la casa,
+la sentencia que está al final no tiene, cae en una regla de excepción, o sea, no está considerada en el panorama.
+¿Quién? ¿Isabel está hablando?
+Sí.
+A ver, repítelo Isabel, por favor.
+Si digo que la situación inicial es mi declaración, como instancio yo, digamos, mi mundo,
+la situación de pintar azul y mover a jardín, a jardín no está considerado y por lo tanto es una excepción y no tiene como ejecutarse.
+¿No está dónde?
+Contemplar la situación inicial, es la base de conocimiento que tiene.
+¿Pero dónde está contemplado? ¿Está contemplado acá?
+Está contemplado dentro de la, claro, está contemplado dentro de la regla.
+Ok.
+Muy bien.
+Recuerda que esto está instanciando esa regla de acá.
+Porque esto es genérico, me está hablando un color C cualquiera.
+Correcto.
+Entonces, Isabel, si yo te hago la pregunta, ¿dónde está el objeto A y de qué color es?
+¿Qué me responde al final?
+O sea, si lo veo desde la aplicabilidad de la regla, diría que el objeto A es azul y lo moví al jardín.
+O sea...
+Si lo veo desde la aplicabilidad de la regla.
+Sí.
+¿De qué otra manera lo verías tú?
+Si no está declarada dentro de mi universo de variables, jardín, por ejemplo, no podría considerarlo.
+Es que acá, fíjate que las reglas genéricas son estas, estas son reglas genéricas que están en la base de conocimiento, ¿ok?
+Ajá.
+Son válidas en rigor para cualquier objeto y para cualquier lugar.
+¿Se entiende, no? Y para cualquier color también.
+No sé si me explico, Isabel.
+Sí, sí, sí.
+Por eso le digo, si lo veo desde la vía general de la regla, se aplica.
+Aplica.
+Ok, todos llegan a la conclusión de que después de hacer todo esto, dada esta regla en la base de conocimiento,
+y dada esta situación inicial, y dada esta acción de acá, en la secuencia, ¿cierto?
+Llegan a la conclusión de que el objeto A ahora ya no es rojo, sino que es azul,
+y que además ya no está más en la casa, sino que está en el jardín.
+¿Están de acuerdo con eso, no?
+Sí.
+Ok.
+El punto acá es que en lógica de predicado de primer orden solamente podemos inferir que la posición de A está en el jardín.
+No podemos inferir que A es de color azul.
+¿Alguien me puede explicar por qué?
+Ah, porque sería...
+Tengo una propiedad...
+Azul con rojo.
+¿Cómo?
+O sea, sería la combinación de azul con rojo.
+No, no es por eso.
+¿Será porque el color es como una propiedad del objeto, o el otro es como una acción que se realiza sobre el objeto?
+No, tampoco es por eso.
+Porque la última...
+Déjenme darles una idea, les voy a dar una idea.
+Ustedes están aplicando una regla que no está en la base de conocimiento.
+Ustedes, para llegar a la conclusión de que después de aplicar esto, el objeto A ahora es de color azul y está en el jardín, para llegar a esa conclusión, que es la conclusión a la cual todos ustedes llegaron,
+por mi inmediata, ustedes están aplicando una regla que no está acá arriba, pero que por sentido común la tienen.
+Ustedes la tienen, y la están aplicando, sin que yo la haya declarado acá.
+¿Qué regla es esa?
+¿Que asumimos que azul es un color?
+¿A que es la conjunción de las dos anteriores?
+Ahí estoy hablando, sí.
+Claro.
+El color es el conjunto de la conjunción.
+Es que miren, el predicado dice que lo...
+El predicado es claro, dice...
+Si yo pinto...
+O sea, si yo pinto X del color C, entonces después...
+El objeto X tiene el color C.
+Por lo tanto, si yo pinto A de color azul, tiene color azul, no es la mezcla de azul y rojo.
+De acuerdo a este axioma de acá, ¿ok?
+Eso me es bien claro.
+Entonces, esa no es la razón por la cual...
+No es que ahora sea una mezcla de azul con rojo y eso da otro color distinto a la azul, ¿no?
+Ese no es el problema acá, el problema es otro.
+Claro, es la...
+Las dos reglas a la vez, y arriba no.
+En el fondo, que no cambia su color ni tampoco cambia la posición.
+Que debería ser, según la regla, pintar a rojo y mover a jardín.
+Sí.
+Fíjense que...
+A ver, a ver quién es capaz de...
+Ustedes están todos aplicando una regla que no está en la base de conocimiento, pero ustedes la tienen.
+¿Será que en el fondo la conclusión tiene un i entre dos declaraciones?
+Sí.
+En el fondo...
+Y las reglas nos hablan de ese i entre esas dos reglas iniciales.
+Pero nosotros sí estamos diciendo que se cumple, no sé, C y D.
+Claro, pero en...
+Fíjate, tú primero la pintás de azul y luego la mueves al jardín.
+Piénsalo así.
+Claro, que no estamos...
+Que una regla no altera a la otra, quizás.
+Déjenme decirlo de otra manera.
+Hagámoslo en la secuencia.
+Ustedes pintaron A de azul primero.
+¿De qué color A es ahora?
+Ahora todos concordamos que es azul, ¿cierto?
+Ok.
+Acto seguido lo movemos al jardín.
+Todos concordamos en que ahora el objeto ya no está más en la casa, ahora está dónde?
+En el jardín, ¿o no?
+Ok.
+Y seguimos pensando, seguimos pensando que el objeto A sigue de color azul.
+O sea, primero lo pintamos de color azul y ahora es azul, y luego lo movemos al jardín.
+Y sigue siendo de color azul.
+A esa conclusión estamos llegando todos nosotros.
+Sin embargo, el sistema no va a llegar a esa conclusión.
+¿A qué conclusión va a llegar?
+Va a llegar a la conclusión de que solamente está en el jardín.
+Es todo lo que puede decir.
+¿Será porque no hay ninguna regla que parta con pintar?
+Siempre el pintar estuvo al final.
+Pero sí, al final está el mover.
+Por eso esa regla sí se cumple y se cambia, pero el color no cambia.
+Ok, Gonzalo está hablando, ¿no?
+Sí.
+Ok, Gonzalo.
+Espérselo de otra manera.
+Está cumpliendo parte de la regla nomás porque no existe una regla inicial que sea pintar.
+Ok, bueno.
+O sea, está ejecutando la acción pintar, pero no me está diciendo qué color es, en este caso, porque debería.
+Sí, si te está diciendo eso, a ver, porque si lo pintas, si lo pintas, si lo pintas de color X, de color C, entonces después tiene el color.
+No cambiamos de página, parece.
+Sí.
+Sí.
+Nos cambiamos de página, parece.
+Sí.
+Sí.
+Sí.
+Esta regla te está diciendo, si lo pintas de color C, el objeto X, después necesariamente tiene el color C.
+Y tú aplicar ese reglo.
+O sea, si lo pintaste de azul, es azul.
+Y si lo moviste al jardín, está en el jardín ahora, no está en la casa.
+Entonces todos llegamos a la conclusión de que el objeto ahora está en el jardín y es de color azul.
+Y sin embargo, eso está incorrecto.
+¿Por qué?
+Porque en el fondo no hay una, no tenemos, no hay como un motor de inferencia como que permita afirmar las dos cosas al mismo tiempo.
+No, no es por eso.
+Pero si dice pintar azul y mover, o sea, yo entiendo que nos está diciendo que ambas se cumplieron.
+Sí.
+Luego de ejecutar las siguientes acciones.
+Ejecutaron, se ejecutaron las dos acciones.
+Sí.
+¿Es porque es secuencial?
+Es decir, ejecuta una y luego pierde memoria y ejecuta la segunda?
+No, no, no.
+¿Ninguna propiedad intrínseca?
+¿Ninguna propiedad intrínseca?
+A ver, ¿quién dijo esa es la propiedad intrínseca?
+Yo, Emanuel.
+Emanuel.
+Emanuel.
+Sí.
+Repite eso, eh.
+Emanuel.
+Que ninguna propiedad intrínseca en el sistema que estamos viendo.
+¿Qué significa eso, Emanuel?
+Lo pensaba como en lo que habíamos visto en la clase pasada de que habíamos dicho de que
+pensábamos que la realidad tenía como la materia como propiedad intrínseca o la idea.
+Era como la...
+Había otra palabra, pero la verdadera sea por intrínseca.
+Ya, ok.
+Es más simple de lo que ustedes piensan.
+A ver si a alguien se le ocurre.
+Es tan simple...
+¿Semántica?
+Pero, de nuevo, les digo.
+Ustedes están aplicando una regla que yo no puse en la base de conocimiento, pero
+que ustedes tienen en su base de conocimiento como humano.
+Yo también la tengo.
+Ah, que ese A es el mismo que el otro A.
+¿Cómo?
+La deducción.
+Que el otro A es lo mismo.
+Ah, no, porque no.
+Puede ser, profe, porque no está declarado el color, la regla color al objeto.
+Profe.
+Sí.
+Ah, ese A puede ser distinto al otro A.
+A ver, repite eso, por favor.
+¿Puede A ser distinto al otro A que estamos viendo?
+No, es el mismo objeto.
+Ah, ya escucho.
+Es por posición y por mover, porque la situación inicial dice que el color A va a ser rojo
+y la posición A va a ser casa.
+Sí.
+Pero lo que está diciendo abajo dice mover, no dice posición.
+No existe el mover en la situación inicial.
+Existe.
+Dice que posición se cumple después de mover.
+Sí.
+Pero no está declarado la situación y está arriba, pero no dice abajo, debería decir
+el color, posición y mover.
+No, no.
+Estas son reglas genéricas en la base de conocimiento.
+Se aplican para cualquier objeto X y cualquier color C y cualquier posición P.
+¿Y será, profesor, que el I implica a lo mejor que el color puede cambiar?
+¿Cuándo?
+Al ejecutar el mover.
+Y esa es la respuesta correcta.
+¿Quién lo dijo?
+Isabel Torres.
+Muy bien, Isabel.
+Esto que todos entendemos no está en la base de conocimiento.
+Es decir, yo primero lo pinto azul.
+Perfecto.
+Es azul.
+¿Y dónde está?
+Está en la casa porque todavía no lo muevo.
+Perfecto.
+Y ahora lo muevo.
+¿Ok?
+¿Dónde está ahora?
+Ya no está más en la casa del jardín.
+Pero yo no puedo decir que es de color azul.
+¿Por qué?
+Necesito una regla en la base de conocimiento que me diga que el hecho de mover un objeto de posición no cambia su color.
+Y este man así, bueno, pero se subentiende.
+Claro.
+Se subentiende porque ustedes tienen esa regla en la base de conocimiento de su experiencia del mundo.
+De las reglas desde que son niños, digamos.
+¿Entienden?
+Y la están aplicando.
+Profesor.
+¿Pero dónde va a sacar la regla del sistema si no la tiene?
+¿Y por qué para el sistema es el lógico o natural que el color se resetea con el movimiento?
+No, no es que sea lógico.
+Es que tú no sabes.
+No lo sabes.
+No lo sabes.
+No lo sabes.
+Ok.
+De hecho, tú no sabes.
+Lo moviste.
+O sea, ¿por qué no podemos llegar a esa conclusión?
+¿Por qué solamente podemos llegar a la conclusión de que el objeto está en el jardín?
+¿Por qué?
+Es porque nos falta una regla.
+¿Ok?
+¿Y qué regla nos falta?
+Profesor, y eso aplica también.
+O sea, ¿no tiene que ver con el orden en que yo escribo la regla?
+¿Cuando pusimos el color y luego mover?
+Claro.
+Si es al revés, por ejemplo.
+Si pones al revés, mover al jardín y luego pintar de azul, te va a tener el mismo problema.
+Ahora tú vas a llegar a la conclusión de que es de color azul pero no sabes dónde está.
+Ya, esa es la implicancia en ambos lados, claro.
+Sí.
+Ok.
+Entonces, ¿qué tenemos que escribir en la base de conocimiento?
+Una regla adicional.
+Y esos son llamados frame action.
+Un axioma adicional en lógica de predicado.
+Entonces, por ejemplo, acá tengo alguna regla.
+Aquí dice...
+El color...
+X es de color C, se cumple, luego mover aquí a P, si tenía el color A.
+Entonces, en el fondo, esta regla, este axioma, me está diciendo, si tú mueves un objeto a la posición P, y ese objeto tenía el color C, entonces sigue tiendiendo el color C.
+O sea, en otras palabras, dicho coloquialmente, el hecho de mover un objeto de posición no cambia su color.
+¿Ok?
+Sí.
+¿Estamos de acuerdo?
+Sí.
+¿Se entiende, no?
+Sí.
+Sí.
+Pero necesito otra regla más, la otra que decía su compañero.
+Es decir, ahora vamos al color.
+Un objeto, si lo pinto del color C, y su posición era P, tampoco cambia su posición.
+Sigue teniendo esa posición.
+O sea, en buen castellano sería, el hecho de mover un objeto de posición no cambia su color, y el hecho de pintarlo de color no cambia tampoco...
+Perdón, no cambia su color, no cambia su posición.
+¿Lo entienden?
+Esas dos reglas adicionales estaban...
+Si están en la base de conocimientos, van a llegar a la misma conclusión que ustedes llegaron.
+¿Y por qué ustedes llegaron a la conclusión?
+Es porque ustedes tienen esa regla.
+Ustedes han aprendido esa regla.
+Ahora, imagínense esto, esto mismo, pero con cientos de reglas.
+Entonces, nos encontramos con un tremendo problema, ¿se dan cuenta?
+Y ese es el llamado frame problem.
+Y este problema estuvo abierto en inteligencia artificial por mucho tiempo.
+Hasta que se resolvió.
+Y se resolvió, bueno, hay...
+Hay investigadores que dicen que fue Len Schubert quien lo resolvió.
+Un investigador...
+de inteligencia artificial con foco en representación del conocimiento.
+Y otros dicen que fue otro investigador que estaba en Toronto, en Canadá.
+que inventó una lógica para lidiar con este problema.
+Pero este problema estuvo abierto por mucho tiempo y dio muchos dolores de cabeza a investigadores en inteligencia artificial para desarrollar sistemas de representación de conocimientos que pudieran lidiar con esto del racionamiento no monotónico.
+¿Se dan cuenta?
+Y esto tiene que ver con el problema del frame problem.
+¿Profesor?
+Sí.
+Para entender bien.
+Entonces, el problema que estamos...
+El frame problem es que definiendo ciertas cosas, además, tengo que definir todas las interacciones que hay entre ellas para poder hacer la representación de la realidad.
+¿Quién le está hablando que no...?
+Javier Navarro.
+Javier.
+Sí.
+Javier.
+Claro.
+Hablando en la jerga, cuando tú dices interacciones, te está refiriendo a los axiomas...
+Exactamente.
+A los frame actions.
+Sí.
+Sí.
+Exacto.
+Por lo tanto, la problemática es tratar de llegar a todos los frame actions y esa es una cantidad tan grande que es difícil de hacerlo, ¿eso es?
+Exactamente.
+Porque aquí dice, parafraseando el problema que estaba planteando Javier, yo podría decir, ok, ok, muy fácil, ¿lo soluciona de qué manera este problema?
+Lo soluciono poniendo todos los frames actions que sean necesarios.
+Y punto, y se acabó.
+Y ahí yo tengo razonamiento no monotónico.
+¿Ok?
+El problema...
+¿Cuál es el problema de eso?
+Eso podría, teóricamente, ser la solución, pero en realidad no es solución.
+¿Y por qué no es solución?
+En otras palabras, ¿por qué solucionar el frame problem a través de axiomas de contexto,
+que son estos de aquí, es problemático?
+¿Por qué es problemático?
+Como vía de solución.
+Porque pueden ser muchísimos.
+Exacto.
+Pueden ser muchísimos.
+¿Ok?
+Y una vez que lo defines, quizás lo limitas demasiado, ¿o no?
+No es que lo limites.
+Como sobreajustado el modelo.
+Exacto, sí.
+Es muy difícil hacer esto haciéndolo a la mano, codificando los frame actions de esta manera.
+¿Ok?
+Esto tiene que ver con razonamiento no monotónico.
+Y...
+Fíjense lo complicado que es esto.
+¿Qué pasa?
+Miren, aquí nosotros ya resolvimos el problema, ¿cierto?
+Que teníamos, ¿sí o no?
+¿Están de acuerdo?
+Sí.
+Resuelto el problema.
+Pero aún así, hay más problemas.
+Porque, ¿qué pasa?
+¿Qué pasa si pegamos la fórmula mover x a p, donde p es un pote con pintura?
+¿Qué pasa ahí, Javier?
+Tengo que definir nuevas reglas para eso.
+Exacto.
+¿Por qué? Porque ahora sí le cambia el color, ¿o no?
+Y todos nosotros sabemos eso.
+O sea, si yo te digo, lo moví a la posición P, pero el P era un pote que estaba lleno de pintura, de un cierto color.
+Entonces, ¿se cumple ahora esta regla, este frame action que tenemos acá?
+No.
+Ya no se cumple.
+Y sin embargo, eso para nosotros es evidente.
+O sea, no tenemos ningún esfuerzo en llegar a esa conclusión.
+Porque tenemos esa regla.
+Hay que hacer otro frame action que diga, si lo muevo a un pote de tal color, queda de tal color.
+Un pote con pintura, sí.
+Claro.
+Y definir la pintura del pote.
+Exacto.
+Tendría que decir que está en la pintura, que está lleno.
+No hay algo que no cambia.
+Sí, hay miles de posibilidades.
+Entonces, Javier, tú que me estabas hablando recién, esto que es bien complicado, ¿por qué nosotros somos capaces de hacerlo en forma tan inmediata, sin aparente esfuerzo?
+Por lo que conversamos antes, por la capacidad de entender el lenguaje natural.
+Y es porque tú tienes estas reglas.
+Y es porque tú tienes estas reglas.
+Y es porque tú tienes estas reglas.
+Y es porque tú tienes estas reglas.
+La base de conocimiento está.
+O sea, que entendería que la cantidad de cosas, o sea, una aplica a las reglas que se van definiendo las cosas nuevas, pero...
+Y lo que va cambiando, pero la problemática se genera cuando no están definidas las reglas de lo que no cambia, entendería la pregunta.
+Esas son muchas cosas.
+Exacto.
+Para poder entender todo el contexto.
+Sin embargo, tú y el alumno Hidalgo estaba hablando, ¿cierto?
+Sí, correcto.
+¿Su nombre?
+Felipe Hidalgo.
+Felipe.
+Ok, pero tú tienes todas esas reglas, ¿cierto, Felipe?
+Claro.
+¿Y cómo las obtuviste?
+A través del tiempo, con el entendimiento del lenguaje y la adhesión de esas capacidades o el conocimiento.
+Claro, tú las tienes. Imagínate tener que hacer eso en un sistema.
+Entonces, el problema acá, si se dan cuenta, no es de fácil resolución, ¿ok?
+Vamos a ir aquí al racionamiento no monotónico.
+Entonces, yo puedo tener un axioma, ahora lo voy a poner en castellano, sin las reglas en lógica de predicado.
+Yo puedo decir que todas las aves vuelan, los pingüinos y las avestruces son aves, y por lo tanto los pingüinos y las avestruces vuelan, ¿ok?
+¿Estamos de acuerdo?
+Sí.
+¿Estás de acuerdo en estas dos reglas? ¿Me conducen a esto?
+Sí.
+Sí.
+¿Cómo evitar entonces la condición de monotonicidad en este caso? O sea, la monotonicidad me lleva a esta conclusión, pero esta conclusión no es correcta, como todos sabemos.
+Correcto.
+Entonces, yo lo podría hacer así, ¿o sí? ¿Sí o no?
+Sí.
+Yo podría tener otro axioma en la base de conocimientos que digo que todas las aves, menos los pingüinos, las avestruces, bla, bla, bla, bla, bla.
+Vuelan.
+Profesor, ¿eso implicaría entonces una regla extra para cada cosa diferente?
+O sea, el problema surge acá, todas las aves vuelan. Eso incluye toda cosa que sea un ave, estoy diciendo que vuela. Y como los pingüinos y las avestruces son aves, entonces, por definición, ellos también vuelan. Y yo sé que no. Entonces, ¿cómo...?
+¿Cómo...?
+Pero, profesor, ahí, pero ahí lo que pasa es que la primera regla está errónea.
+¿Por la axioma?
+La axioma está... porque no todas las aves vuelan.
+Ok. Entonces, ¿y esta axioma está bien?
+Yo creo que sí, es porque son excepciones.
+O sea, si vamos agregando más...
+Si vamos agregando más regla...
+¿Sí?
+¿Los pavos real vuelan?
+Creo que no, creo que no.
+Me parece que no.
+No lo sé.
+Sí, sí vuelan.
+Sí, sí vuelan.
+Sí vuelan.
+Mi vecino tiene pavos reales y sí vuelan.
+Ok.
+Pero vuelan un poquito.
+Ok.
+Yo creo que, claro, ustedes pueden decir...
+A ver, ¿es bueno tener esta regla o no?
+Yo creo que sí, porque la mayoría de las aves vuelan.
+El problema es que hay contraejemplos.
+Ok.
+Sí.
+Mira.
+El emu, el ñandú.
+O en lo que se llama.
+O en lo que se llama.
+Sólo que no...
+El cor moral no volador.
+El cor moral no volador.
+Ahora, esta regla...
+No considera la excepción.
+La regla es más eficiente poner que todas vuelan y sacar las que no vuelan.
+Versus poner las aves que todas las aves no vuelan y sacar las que vuelan.
+Claro.
+Claro.
+Ahora, ¿esto es satisfactorio?
+No, porque no considera la...
+O sea, no es satisfactorio porque lo hace un poco complejo ir agregando, complejo mantenerlo.
+Y el modelo claramente este tipo de razonamientos no contempla las excepciones.
+Y la excepción hay que estar codificándola constantemente, me imagino.
+Claro, pero esta regla haría el trabajo, ¿cierto?
+Claro.
+¿Y cuál es el problema Isabel con esta regla?
+Que es acotada.
+Es acotada.
+Tendrías que agregar siempre a ver que no vuelan.
+Correcto.
+No contempla las excepciones.
+No contempla las excepciones.
+Pero es claramente un poco satisfactorio porque tendrías que estar codificando estas reglas una por una.
+Y manteniéndolas.
+Y claro, y manteniéndolas.
+Entonces es complicado.
+O sea, te puede servir para ciertos dominios de aplicación, pero en general no es muy satisfactorio.
+Entonces, vemos algunas propuestas que se han hecho en representación de conocimientos para lidiar con este problema.
+Una de ellas es el supuesto de mundo cerrado.
+¿Ok?
+El supuesto de mundo cerrado que es este que está aquí.
+Que asume que todo lo que no sabemos o no podemos probar es falso.
+¿Ok?
+Entonces, si yo aplico este supuesto de mundo cerrado, entonces se justificaría la respuesta no a la pregunta
+¿Hay vuelos de Santiago a Punta Arenas cuando no tenemos esa información?
+Es decir, no sé si hay, y como no sé, yo respondo que no hay vuelos.
+¿Ok?
+Entonces, si yo asumo eso, tengo el problema resuelto.
+El problema es que este supuesto no se cumple siempre.
+Se cumple solamente cuando la base de conocimientos es completa.
+Y cuando la base de conocimientos es incompleta, pero debemos tomar una decisión sobre información incompleta.
+O sea, en el fondo lo que estamos haciendo aquí, estamos tomando la decisión,
+pero sabemos que a futuro probablemente, si la base de conocimientos está incompleta
+y llega información adicional que nos refuta esa decisión que tomé,
+entonces voy a tener que revocar la inferencia que hice a priori.
+¿Ok?
+Al comienzo.
+O sea, a priori yo dije que no tengo idea si voy a los aves de Santiago a Punta Arenas,
+pero voy a asumir que no.
+Porque no lo sé.
+Y como no lo sé, voy a asumir que no.
+¿Ok?
+Y esa inferencia, al final del día, puede estar incorrecta si la base de datos está incompleta.
+Claro.
+¿Cierto?
+Y después me dicen, no, si había vuelos.
+Y ahora sí está completa, pero hay vuelos que no consideraste.
+Y ahí voy a tener que revisar o revocar más bien esa decisión.
+¿Ok?
+Y este supuesto del mundo cerrado se ha ocupado como para una manera de evadir este problema del frame problem.
+En el fondo, se lleva a cabo la inferencia y después hay evidencia que me dice que es una mala inferencia, que la tengo que revocar, la revoco.
+¿Ok?
+Es una manera de lidiar con el problema del frame problem.
+La otra es todo un área que se llama belief revision.
+Es decir, tiene que ver con esto mismo.
+Es decir, en la medida en que yo tenga que eliminar o revocar inferencias que hay en la base de conocimiento,
+entonces yo tengo un sistema que se llama el sistema de mantenimiento de la verdad, o Truth Maintenance Systems.
+En todo sistema de representación de conocimientos, debo tener uno de estos sistemas que lo que está haciendo todo el tiempo es revocar las inferencias que están inválidas.
+¿Ok?
+Que dicho sea de paso, es como lo hacemos nosotros, los humanos también.
+O sea, por ejemplo, esa regla de que mover un objeto de lugar no cambie su color, nosotros en algún momento no teníamos esa regla.
+¿Ok?
+Y probablemente tempranamente nuestro desarrollo la experimentamos, la vimos, y la codificamos.
+Pero si no hubiésemos tenido esa regla, entonces habríamos tomado una decisión eventualmente errónea,
+que después, sobre la base de nueva información, la habríamos tenido que revocar.
+¿Ok?
+Entonces, eso mismo que ocurre en el sistema de representación de un humano,
+lo replicamos a través de estos sistemas de mantenimiento de la verdad en un sistema de representación de conocimiento.
+Entonces, en estos sistemas, la no monotonicidad se implementa considerando la ausencia de evidencia como soporte para inferiores.
+O sea, tiene relación con la closed world assumption que hablábamos recién.
+¿Ok?
+Entonces, lo estamos facilitando la vida un poco y resolvemos problemas por esa vida.
+¿Ok?
+¿Qué les parece eso? ¿Es una buena manera?
+¿Buena manera o no?
+Profesor, igual es como complejo el sistema porque la casuística puede ser infinita.
+O sea, no sé si infinita, pero demasiado amplia para poder representar el conocimiento de esta forma.
+¿O se trabaja en ambientes cerrados como con bases de datos cerradas, con frames que son acotados?
+Exactamente, ese es el problema. Ahora, es una manera de poder lidiar con el problema, pero tenemos que estar conscientes de que vamos a tener que necesariamente revocar algunas decisiones a futuro.
+Profesor, pero además necesita como mucho, no sé si llamarle entrenamiento a este nivel, pero necesita muchas iteraciones para darte cuenta de lo que tienes que empezar a excluir de las reglas que tienes que replantearte o no.
+¿O eliminar esas inferencias?
+Sí, claro que sí, por supuesto. Es un costo, un costo que hay que asumir, que no es menor, como tú muy bien dices.
+Ahora, este otro investigador que yo les mencionaba, de la Universidad de Toronto, dijo, bueno, vamos a inventar una lógica que nos permita lidiar un poco con este problema de manera un poco más, no diría menos costosa, pero más directa.
+Y él inventó lo que se llamaba Default Logics, o una suerte de lógica por defecto.
+Entonces, supongan ustedes que tienen la siguiente regla por defecto.
+Esta regla que está aquí, se lee que X es una B, y podemos asumir que X vuela, entonces X vuela.
+Ok.
+Ok.
+Ok.
+Si X es una B, y podemos asumir que X vuela, entonces X vuela.
+Esa es la regla, digamos, el axioma en Default Logics, en la base de conocimiento.
+Y supongamos que tenemos la siguiente teoría sobre el mundo, o sea, estos son hechos concretos, ok, en la base de conocimientos.
+Tenemos un cóndor, que es una ave.
+Un pingüino que también es una ave.
+Estos son hechos.
+Tenemos que el pingüino no vuela, y que la abeja vuela.
+Según este mecanismo de Default Logics, ¿por qué en ese mecanismo de representación de conocimientos en ese lenguaje, en el fondo de representación de conocimientos, no podemos inferir que los pingüinos vuela?
+¿Por qué no?
+Acá no podemos inferir que los pingüinos vuelan.
+¿Por qué no?
+La regla dice que no vuela, ¿no?
+Porque hay un hecho que aquí dice, y podemos asumir que vuela, entonces vuela.
+Pero no lo podemos asumir, ¿por qué no?
+Se cumple la condición de que vuele.
+Porque tenemos un hecho en la base de conocimientos que me está indicando que no vuela.
+Que no vuela.
+Exacto.
+No hay soporte, entonces no puedo hacerlo, ¿ok?
+Ahora, ¿por qué tampoco puedo asumir que las abejas son aves?
+Es lo mismo, ¿no?
+Porque la regla es como al revés.
+La regla no dice que si...
+No, pero la regla no dice que si X vuela, entonces X es aves.
+¿Por qué no la declara la regla como una vez?
+No está definido como una vez.
+No está en el conocimiento.
+No está en el conocimiento.
+Exacto, exactamente.
+¿Ok?
+Ok.
+Ok, entonces, ustedes se dan cuenta que hay maneras de poder lidiar con esto,
+pero igual requiere que nosotros limpiemos constantemente la base de conocimiento de aquellas reglas que ya no son más válidas.
+Y eso, cuando hacemos eso, estamos hablando de que estamos implementando razonamiento no monotónico.
+No monotónico significa que esas reglas que estamos definiendo, que era la gran razón por la cual nosotros queremos usar lenguajes de representación basados en lógica,
+ahora tenemos un problema porque vamos, como les dije al comienzo de la clase de hoy, vamos a tener muchas reglas que son inválidas.
+Las vamos a tener que revocar. Y a medida que tengamos un sistema que nos permita hacer eso, entonces implementamos razonamiento no monotónico.
+Porque en el mundo, nosotros lo que hacemos es eso, es porque el mundo es incierto y no tenemos la representación completa.
+Y estamos tomando diferencias basadas en información incompleta.
+Entonces, eso que nosotros hacemos los humanos de manera natural, está revocando diferencias que tomamos y que prueban después,
+se prueba que son falsas, las tenemos que revocar.
+Y eso mismo tenemos que hacerlo en un sistema de representación de conocimiento.
+Y a eso le llamamos razonamiento no monotónico.
+¿Ok?
+Ahora...
+Como mencionamos...
+¿Sí?
+Pero igual suena como muy parecido a un poco aprendizaje, porque estamos corrigiendo nuestro conocimiento del ONU.
+Sí, solo que acá...
+Estás aprendiendo nuevas reglas, pero no a través de Machine Learning, sino que lo estás haciendo a través de un motor de generación de reglas en un sistema de representación de conocimiento.
+Pero también...
+Tú tienes razón, es un proceso de aprendizaje.
+¿Ok?
+Que está por detrás.
+Y a eso se le llamamos razonamiento automático, ese proceso.
+¿Ok?
+Entonces...
+Como mencionamos anteriormente...
+En el desarrollo de esta área de representación de conocimiento, llegamos a la conclusión que la lógica predicada a primer orden...
+Es...
+El...
+Es la lógica que tenemos que ocupar.
+¿Ok?
+Es a la conclusión a la cual llegamos.
+El problema...
+Es que los algoritmos de razonamiento...
+De esta lógica...
+Son NP-complete.
+La mayoría de ellos.
+¿Qué significa eso?
+Para los que no son informáticos.
+Significa...
+Que requieren tiempo y espacio que crece exponencialmente con el tamaño de la entrada.
+Y eso hace que estos algoritmos se vuelvan intratables computacionalmente.
+En inglés se dice intratable.
+¿Ok?
+Ok.
+Y eso es malo.
+Es un problema, porque nosotros...
+Queremos que un sistema de inteligencia artificial tenga ciertas características.
+No solamente sea altamente disponible, que adelanta fallas, sino que también...
+Responda dentro de ciertos límites de tiempo.
+Y...
+Dependiendo del...
+Dominio de aplicación del sistema de inteligencia artificial...
+Vamos a querer que este...
+Que este funcione de manera eficiente.
+Y el problema con estos algoritmos de lógica de predicado a primer orden...
+Es que son altamente complejos computacionalmente.
+Y esto nos llevó a otro problema que no es el frame problem...
+Sino que es un problema de...
+Expresividad.
+Expresividad.
+¿Qué significa eso?
+¿Quién me puede ayudar con una definición de qué significa que el algoritmo sea expresivo o no?
+¿Qué significa que el algoritmo sea expresivo o no?
+¿Qué significa que el algoritmo sea expresivo o no?
+No.
+¿Qué significa que el algoritmo sea expresivo o no?
+¿Qué significa que el algoritmo sea expresivo o no?
+No.
+No.
+¿Qué significa que sea posible programar todas las reglas que permitan representar bien como...
+El mundo o lo que yo estoy tratando de modelar?
+Eh...
+A ver...
+Tú dijiste que sea...
+Se me fue la idea.
+Como que es...
+Va a ser muy complejo como programar en el fondo...
+Todas las reglas que permitan representar fielmente el mundo.
+Sí.
+Claro.
+Pero el problema va más allá.
+El problema es que supongo que tú tienes un gran número de reglas y tú dices...
+¿Qué?
+La base de conocimiento...
+Nunca va a estar bien, nunca va a estar completa.
+Siempre va a tener más reglas, ¿cierto?
+Pero tu dices...
+Hay un número de reglas suficiente que me permiten operar.
+El problema ahora es otro.
+El problema es que...
+Tú quieres que sea eficiente el proceso.
+Y en la medida que tú uses la lógica del predicado primero,
+nosotros usamos como seres humanos, ¿cierto?
+Eso es bueno porque es una lógica expresiva.
+¿Qué significa que sea una lógica expresiva?
+Que vas a poder representar más cosas en esa lógica.
+El problema es que tú,
+los algoritmos de razonamiento van a ser más complejos.
+Entonces tienes un trade-off.
+Este trade-off es difícil de resolver.
+El trade-off es a mayor expresividad mejor
+porque más cosas puede representar.
+Pero mientras más cosas puede representar,
+y más expresiva es la lógica.
+Al punto que puede llegar a expresar
+todo lo que la lógica he predicado a primer orden puede expresar.
+Entonces yo digo que
+la línea de razonamiento es la siguiente.
+Si yo quiero representar el conocimiento del lenguaje natural,
+que es lo más ambicioso que vamos a querer representar
+en términos de representación de conocimiento
+en un lenguaje, en un sistema de inteligencia artificial,
+yo necesariamente tengo que usar la lógica de aplicado primero.
+Entonces tú dirías, bueno, usémosla entonces.
+Ok.
+Si la usamos, los algoritmos de razonamiento en esa lógica
+que es más potente, más expresiva, son más complejos.
+Y si son más complejos, son menos eficientes.
+Y si son menos eficientes, es menos aceptable.
+Entonces tienes un trade-off.
+Y esto volvió a separar a la comunidad de investigación
+en inteligencia artificial en dos grupos.
+Un grupo,
+que era muy fundamentalista,
+decía,
+no podemos usar la lógica de predicado a primer orden,
+porque es demasiado potente.
+¿Ok?
+Y por lo tanto, los algoritmos,
+cuando digo potente, me refiero a expresiva.
+O sea, puede expresar muchas cosas.
+Y eso que en el fondo es bueno,
+al final del día es malo.
+¿Por qué?
+Porque los algoritmos de razonamiento
+basados en esa lógica son demasiado costosos.
+Son ineficientes.
+Y nosotros no podemos darnos esa luz.
+Entonces, ese primer bando,
+¿qué hizo?
+Dijo,
+tenemos que operar con subconjuntos
+de la lógica de predicado a primer orden.
+Subconjuntos.
+Que sean menos expresivos
+y que los algoritmos sean más eficientes.
+De razonamiento.
+¿Ok?
+Esa fue una posición.
+Y el otro grupo
+dijo,
+no,
+si nuestro objetivo
+es representar el mundo tal y cual es,
+tal y como los humanos lo hacen,
+y nosotros aparentemente
+usamos el lenguaje natural
+que puede ser representado
+a través de la lógica
+de predicado a primer orden,
+entonces tenemos que usar esa lógica.
+Y si los algoritmos son ineficientes,
+bueno,
+dependiendo del dominio de aplicación
+en el cual los usemos,
+quizás
+para algunos dominios
+sea viable
+y para otros
+vamos a tener que encontrar
+una manera de hacerlos más eficientes.
+O sea,
+a través de mayor capacidad computacional.
+Entonces,
+hubo un quiebre
+en la comunidad
+de inteligencia artificial
+entre estos dos bandos.
+¿Y quién creen,
+quién creen ustedes
+que ganó
+en este quiebre?
+Los primeros.
+¿Y por quién dijo
+los primeros, Javier?
+Sí,
+los más eficientes
+porque
+a mayor tamaño
+del ámbito
+en la segunda posición
+se hacen más
+fantásticos
+los recursos,
+se hacen más
+difíciles
+de encontrar.
+Si yo quiero expresar
+el mundo completo,
+no voy a tener
+la capacidad de computo
+para poder expresarlo
+completo.
+Entonces,
+tengo que dividir esto.
+Tengo dos soluciones.
+O empiezo a hacerlo
+por ámbitos
+lo más acotado posible
+para hacerlo eficiente.
+O si quiero tener
+un ámbito más general,
+tengo que tener
+una solución más eficiente
+porque no tengo capacidad
+de cómputo
+para hacerlo
+o de la otra manera.
+Ok,
+muy bien.
+Entonces,
+Javier Tinozón
+ganó el primer grupo
+y el primer grupo
+planteó
+hay que reducir
+la complejidad
+de los algoritmos
+y para hacer eso
+tenemos que reducir
+la expresividad
+de la lógica
+sobre la santa.
+Pero,
+¿el trade-off
+tiene sentido
+según los recursos
+que tengamos
+para computar?
+Me imagino
+que el trade-off
+es cada vez más pequeño
+para la capacidad
+computacional
+que se está creando.
+¿Quién no está
+hablando?
+¿Quién no está
+hablando?
+¿Samuel?
+¿Samuel,
+Gessler?
+Samuel Gessler,
+ok.
+Samuel,
+claro,
+el problema
+es que no tienen
+los recursos
+computacionales.
+Pero,
+¿el trade-off
+que nos dice
+tiene sentido
+si es que cada vez
+tenemos más
+capacidad computacional?
+O sea,
+quizás no para un mundo
+completo,
+pero al menos
+cada vez más completo.
+O sea,
+en un mundo ideal
+en donde tiene
+el problema
+de la eficiencia
+del algoritmo
+ya no es problema,
+desaparece el trade-off.
+Todo el mundo
+va a concordar
+en que una lógica
+más expresiva
+es mejor.
+¿Se entiende,
+no?
+Claro.
+Sí.
+El problema
+es que hoy,
+incluso con los
+computadores
+más performantes,
+el trade-off
+sigue ahí,
+porque la lógica
+aplicada
+primero
+en los algoritmos
+de razonamientos
+son altamente
+intratables,
+son poco eficientes,
+¿me entiendes?
+Entonces,
+por eso ven
+al primer bando.
+Ahora,
+el primer bando,
+el otro bando,
+le decía la crítica,
+ok,
+pero si haces eso,
+lo único que vas a poder
+representar de conocimiento
+son sistemas
+muy acotados
+en su aplicación.
+Y tienen razón
+ellas también.
+Entonces,
+el trade-off
+sigue existiendo
+mientras tengamos
+computadores clásicos
+digitales
+que no den el ancho.
+En buen castellano
+ese es el problema.
+Y ganó el primer bando.
+Entonces,
+el primer bando
+dijo,
+hay que reducir
+la lógica
+del sistema
+de representación
+de conocimiento.
+Y entonces,
+allí,
+surgieron una serie
+de lenguajes
+de representación
+de conocimientos
+basados
+en subconjuntos
+bien acotados
+en la lógica
+de predicado
+de primer bando.
+¿Ok?
+¿Para qué?
+Para reducir
+la complejidad
+computacional
+de los algoritmos
+de razonamiento
+automático.
+Ese fue el enfoque.
+Y esto dio origen
+a una familia
+de lenguaje
+y sistema
+de representación
+de conocimientos
+basados
+en subconjuntos
+restringidos
+de la lógica
+de predicado
+de primer bando.
+Algunos fueron
+bastante exitosos.
+¿Ok?
+Entre ellos
+se encuentran
+un subconjunto
+de la lógica
+de predicado
+que se llamó
+Description Logics
+y otro
+muy usado
+un poco más
+expresivo
+que el anterior
+llamado
+Type Feature Logics.
+¿Ok?
+Que vamos a ver
+unos ejemplos
+más adelante
+de eso.
+¿Ok?
+Pero lo importante
+para ustedes
+que entiendan
+es que
+existió
+ese debate
+en la comunidad
+y se llegó
+a la conclusión
+de que era mejor
+restringir
+la expresividad
+de los lenguajes
+de representación
+de conocimientos
+basados en lógica
+haciendo que ellos
+estuviesen basados
+en subconjuntos
+de la lógica
+de predicado
+de primer bando.
+Ahora
+A este problema
+le llamamos
+el problema
+de la expresividad
+Entonces
+¿Qué entendemos
+por expresividad?
+Cuando hablamos
+de expresividad
+estamos hablando
+de la expresividad
+de quién
+o de qué
+del lenguaje
+¿Cuál lenguaje?
+El lenguaje
+de representación
+de conocimientos
+¿Ok?
+Entonces
+el debate
+se centra
+en si se debe
+restringir
+la expresividad
+de un lenguaje
+de representación
+de conocimientos
+para hacer
+que sus algoritmos
+y razonamientos
+sean computacionalmente
+tratados
+Entonces
+esto es un
+trade-off
+difícil
+ya que
+lenguajes
+como los que anteriores
+el DL
+y el TFL
+y otros
+muchos más
+que son
+subconjuntos
+de la lógica
+aplicada
+primero
+pueden representar
+muy poco conocimiento
+De hecho
+el primero
+que les mencioné
+Description Logics
+nos sirve
+para representar
+taxonomías
+¿Ok?
+Ese tipo
+de conocimiento
+es válido
+se usa
+y son súper
+eficientes
+en representar
+taxonomías
+Este otro
+es bastante mejor
+nos sirve
+para procesar
+computacionalmente
+gramáticas
+de lenguaje natural
+pero no para
+representar
+necesariamente
+la semántica
+Si bien
+algunos proyectos
+lo han intentado
+hacer
+y han tenido
+bastante éxito
+¿Ok?
+Vamos a ver
+un ejemplo
+más adelante
+de esto
+De un lenguaje
+que probablemente
+los informáticos
+vieron en su formación
+y que es un lenguaje
+en rigor
+de representación
+de conocimientos
+basado en un subconjunto
+de la lógica
+predicada
+primero
+¿Ok?
+¿Ok?
+Sin embargo
+los algoritmos
+de razonamiento
+asociados
+a lenguaje
+de representación
+de conocimientos
+basados en subconjuntos
+restringidos
+del EPPO
+como estos
+que les acabo
+de mencionar
+donde
+Description Logics
+el algoritmo
+clave
+de razonamiento
+automático
+es el algoritmo
+de subsumción
+subsumción
+significa que algo
+es parte
+de algo mayor
+¿Ok?
+En una taxonomía
+por ejemplo
+eso siempre
+es así
+por lo tanto
+el tipo
+de conocimiento
+este tipo
+de lógica
+usando este algoritmo
+de subsumción
+de razonamiento
+automático
+es capaz
+de representar
+se llama
+conocimiento
+taxonómico
+¿Ok?
+Y otro
+muy usado
+como les dije
+es Type Feature Logics
+que está
+basado en otro
+algoritmo distinto
+que es el algoritmo
+de unificación
+y también
+lo vamos a ver
+más adelante
+el algoritmo
+de unificación
+es bastante
+eficiente
+y me permite
+implementar
+sistemas
+de representación
+de conocimiento
+en lenguajes
+de
+perdón
+en sistemas
+de inteligencia
+artificial
+bastante complejos
+en el área
+de lenguaje
+natural
+también
+pero en general
+¿Cierto?
+Si lo comparamos
+con el poder
+de la lógica
+dedicada
+de primer orden
+en su
+generalidad
+son bastante
+más agotados
+¿Ok?
+y allí
+entre estos dos
+bandos
+que yo les mencioné
+surge la
+hay un debate
+en torno a
+esta analogía
+de la oficina
+de correos
+entre los
+investigadores
+de IA
+que trabajan
+en el campo
+de representación
+de conocimiento
+entonces
+¿Cuál es
+la analogía
+de la oficina
+de correos?
+A ver
+la oficina
+de correos
+es como
+que ustedes
+el segundo
+el segundo
+bando
+segundo grupo
+que
+decía
+que había
+que desarrollar
+sistemas
+basados
+en lógica
+de predicado
+a primer orden
+si queremos
+realmente
+atacar
+el problema
+del lenguaje
+natural
+no podemos
+reducir
+esa complejidad
+tenemos que
+abrazar
+esa complejidad
+entonces ellos
+plantean
+la analogía
+de la oficina
+de correos
+entonces la oficina
+de correos
+decían
+que la posición
+del primer grupo
+de investigadores
+era como que
+ustedes fueran
+a la oficina
+de correos
+y les dijeron
+a qué oficina
+de correos
+necesito enviar
+un correo
+una carta
+dentro de
+la comuna
+de Santiago
+y me dijeran
+ok
+no hay problema
+llegan dos días
+ok
+y ahora
+la quiero enviar
+a regiones
+ok
+dependiendo
+de la región
+va a demorar
+entre
+dos
+y cuatro semanas
+ok
+lo cual
+ya no es tan bueno
+se dan cuenta
+entre dos días
+y cuatro semanas
+es una gran
+diferencia
+en términos de eficiencia
+y qué pasa
+si la quiero enviar
+a Brasil
+va a estar
+como dos
+tres meses
+la carta
+en el envío
+porque cuando llega
+ya a Brasil
+nosotros no sabemos
+cuánto va a demorar
+y después de vuelta
+cuesta tres meses
+la carta
+y si la quiero enviar
+a Asia
+o a Europa
+bueno ahí
+si va a Europa
+va a demorar
+cinco meses
+o sea
+muy mala eficiencia
+y si la quiere enviar
+a Asia
+el problema
+es que
+no sabemos
+cuánto va a demorar
+puede demorar
+mucho más
+y capaz
+que tampoco
+llegue
+la carta
+ok
+entonces
+¿debo eliminar
+la oficina
+de correos
+por la falta
+de eficiencia?
+¿qué opinan
+ustedes?
+esta es la crítica
+del segundo grupo
+le hacía el primer grupo
+ellos decían
+que el segundo
+el primer grupo
+era como que
+ellos querían
+eliminar
+la oficina
+de correos
+porque era poco
+eficiente
+y el primer grupo
+el segundo grupo
+dice bueno
+eso es un poco
+criticaba
+esa posición
+diciendo que
+bueno
+eso es condición
+de la causa
+hay que aceptar
+esa
+y hay que tratar
+de ir mejorando
+la eficiencia
+paulatinamente
+pero hay que abrazar
+toda la complejidad
+es que
+dentro del objetivo
+final
+finalmente
+de lo que se mencionaba
+al principio
+de la clase
+la inteligencia artificial
+quiere
+emular
+digamos
+como
+el pensamiento
+humano
+o
+la
+la capacidad
+digamos
+de resolver
+los problemas
+como lo haría
+uno humano
+pero claro
+eso
+tiene una
+tiene un costo
+muy alto
+de lo que es
+hoy en día
+pero
+no
+como que
+el segundo grupo
+trata de no perder
+ese objetivo
+en el fondo
+de que se puede ir
+mejorando
+se puede ir
+haciendo eficiencia
+de que hay que
+hacerla
+pero
+el objetivo
+final es ese
+como replicar
+la
+la conciencia
+o el pensamiento
+humano
+ok
+pero eso
+ese argumento
+que tú estás
+escribiendo allí
+es en favor
+del primer grupo
+o del segundo grupo
+no del segundo
+porque el segundo grupo
+no lo
+no lo pierden
+en el horizonte
+sabe que
+en la actualidad
+o la parte
+que es el
+en la parte
+de la historia
+en que hubo
+este debate
+no tenían
+digamos
+la capacidad
+y posiblemente
+hoy tampoco
+pero no pierde
+de vista
+finalmente
+el objetivo
+de que la inteligencia
+artificial
+emule
+digamos
+la capacidad
+de razonar
+de un ser humano
+exacto
+entonces este segundo grupo
+estaba en la minoría
+el primer grupo
+era como
+mainstream
+corriente principal
+cierto
+y este
+segundo grupo
+decía
+miren
+no perdamos
+no perdamos
+la brújula
+decía
+tenemos que resolver
+un problema
+complejo
+abracemos
+esa complejidad
+aceptemos que
+hoy
+para algunos
+sistemas de inteligencia
+artificial
+no va a haber
+suficiente eficiencia
+pero hay que
+hay que de alguna manera
+lidiar con eso
+y ir mejorando
+la eficiencia
+paulatinamente
+o sea
+eso era un poco
+el
+la postura
+y por otro lado
+decían lo siguiente
+hay aplicaciones
+de misión
+crítica
+en inteligencia
+artificial
+en donde esto
+es inviable
+o sea
+un tiempo
+de respuesta
+de
+una cierta cantidad
+de tiempo
+es completamente
+inaceptable
+pero para otros
+dominios de aplicación
+puede ser
+aceptable
+entonces
+era una
+era una
+posición más matizada
+no era
+blanco y negro
+¿se entienden?
+y lo otro
+que planteaba
+el segundo grupo
+también
+era
+decía
+en la medida
+que se abrace
+la complejidad
+en la representación
+de conocimientos
+a través de lógicas
+de predicado
+a primer orden
+vamos a estar
+por una agenda
+de investigación
+que en el largo
+plazo
+puede dar buenos frutos
+ahora
+este es un debate
+que tuvo lugar
+entre
+hasta el cambio
+del milenio
+prácticamente
+en favor
+del primer grupo
+ok
+y
+debo decir
+que
+esto tiene fecha
+de expiración
+este debate
+¿por qué?
+y cuando digo
+fecha de expiración
+a este debate
+en favor del segundo grupo
+me refiero
+el segundo grupo
+va a prevalecer
+en mi opinión
+al futuro
+porque este debate
+tiene
+este conflicto
+este debate
+tiene fecha de expiración
+¿por qué tiene fecha de expiración?
+o sea
+cuando digo
+fecha de expiración
+estoy diciendo
+va a desaparecer
+este debate
+de aquí algún tiempo más
+que
+se va a aumente
+la capacidad
+de cómputo
+si se desarrolla
+la computación cuántica
+puede que este problema
+deje de tener relevancia
+exacto
+exacto
+muy bien
+ok
+entonces
+esto que hemos visto
+hasta ahora
+es la visión
+simbólica
+de la inteligencia artificial
+también llamada
+old good fashion AI
+ok
+enfoque top down
+top down
+ahora
+¿por qué es top down
+el enfoque
+simbólico?
+porque
+se
+viene
+desde el
+programador
+primero
+¿por qué?
+porque viene
+desde el
+programador
+no es algo
+que surge
+de lo
+ya programado
+o sea
+surge en parte
+una vez que tú
+ya tienes una base
+de conocimiento
+bastante grande
+pero efectivamente
+surge
+del ingeniero
+de conocimiento
+que tiene que
+o la ingeniera
+de conocimiento
+que tiene que
+poblar
+esta base
+de conocimiento
+inicialmente
+con suficiente
+conocimiento
+y fíjense
+que el conocimiento
+tiene aquí
+dos componentes
+un conocimiento
+genérico
+general
+del mundo
+y otro
+que es
+conocimiento
+específico
+al dominio
+esto es parecido
+a los
+chatbots
+y chat
+GPT
+también
+en el sentido
+que hay que
+entrenarlos
+con muchos
+parámetros
+de forma
+genérica
+y después
+para cada
+ámbito
+de aplicación
+hay que
+volverlos
+a entrenar
+con datos
+del dominio
+específico
+muy parecido
+a lo que
+acontece
+también acá
+pero la gran
+diferencia
+es que este
+enfoque es
+top down
+es decir
+parte
+con un grupo
+de ingenieros
+e ingenieras
+del conocimiento
+que deben
+poner ese
+conocimiento
+en nuevos
+conocimientos
+representarlo
+a través de una
+lógica
+de representación
+de conocimiento
+como la lógica
+predicado
+primero
+y ponerlo
+a funcionar
+y luego
+el sistema
+puede generar
+sus propias
+inferencias
+genera nuevas reglas
+por eso
+vi va aprendiendo
+nuevas reglas
+a través de
+razonamiento
+no monotónico
+automático
+como lo introducimos
+hace un minuto
+de clase
+entonces
+en paralelo
+como lo mencionamos
+en la clase
+anterior
+surge en los 90
+la visión
+subsimbólica
+que usaba
+el paradigma
+de las redes
+neuronales
+y cuando
+nuevamente
+esto lo repito
+de la clase
+pasada
+de la semana
+pasada
+que
+no era que
+la
+neurociencia
+hubiese
+hubiese tenido
+ya todas las
+respuestas
+resueltas
+respecto a
+cómo se
+representa
+conocimiento
+en una
+red
+neuronal
+porque no
+no fue así
+si yo les dije
+no existía
+una ciencia
+totalmente tal
+de
+sino que
+más bien
+fue una
+epifanía
+fue una epifanía
+o sea
+emular lo que
+aparentemente
+sucede
+en el
+en el
+en el cerebro
+en una
+arquitectura
+computacional
+y así
+sucedieron
+las redes
+neuronales
+¿ok?
+a fines
+de los 90
+y esta aproximación
+se basa
+en procesar
+grandes
+cantidades
+de datos
+para resolver
+problemas
+más simples
+sin tener que
+preocuparse
+por la
+representación
+de conocimiento
+o sea
+es un
+enfoque
+bottom
+up
+que va
+desde
+los
+datos
+para
+ruga
+¿ok?
+este
+enfoque
+ha
+conducido
+a un
+sinnúmero
+de aplicaciones
+comerciales
+exitosas
+en inteligencia
+artificial
+que son
+aquellas
+como
+vimos al
+comienzo
+de la
+clase
+de hoy
+aquellas
+que son
+poco
+intensivas
+en
+conocimiento
+pero son
+muy
+intensivas
+en
+datos
+¿ok?
+y ha
+contribuido
+al surgimiento
+de
+machine
+learning
+como el
+área
+de
+inteligencia
+artificial
+que más
+entonces
+vamos a ver
+algunas
+de las
+dos
+características
+el
+paradigma
+simbólico
+es
+top
+down
+requiere
+de un
+lenguaje
+de
+representación
+de
+conocimiento
+y de
+un
+sistema
+de
+representación
+de
+conocimientos
+en el
+que se
+codifiquen
+y decodifiquen
+reglas
+de
+conocimiento
+requiere
+que dicho
+sistema
+genere
+y
+mantenga
+bases
+de
+conocimiento
+cuando
+digo
+mantenga
+me
+refiero
+a esto
+del
+conocimiento
+no
+monotónico
+y requiere
+de la figura
+de
+ingenieros
+de
+conocimiento
+o ingenieros
+de
+conocimiento
+cuya
+tarea
+es generar
+un conjunto
+grande
+inicial
+de
+reglas
+es
+intensivo
+en reglas
+de
+conocimiento
+inicial
+profesor
+en el
+sistema
+monotónico
+cuando
+hablan
+de las
+correcciones
+esas
+correcciones
+son
+de
+humanos
+no
+son
+automáticos
+muchas
+gracias
+entonces
+el paradigma
+simbólico
+presupone
+que el
+conocimiento
+debe ser
+representado
+a priori
+en un
+sistema
+de
+representación
+de
+conocimientos
+para que
+luego
+se cree
+nuevo
+conocimiento
+como resultado
+de la
+aplicación
+de dicho
+conocimiento
+por parte
+de un
+agente
+inteligente
+en el
+mundo
+lo que
+genera
+nuevo
+conocimiento
+sobre
+el
+mundo
+que
+debe
+ser
+continuamente
+revisado
+por este
+problema
+del
+razonamiento
+no monotónico
+que habíamos
+asumido
+total
+¿Cuáles
+son los
+problemas
+del
+paradigma
+simbólico?
+Bueno
+el primero
+y que
+más evidente
+es que
+es intensivo
+en
+conocimiento
+inicial
+¿Ok?
+Segundo
+que los
+lenguajes
+de
+representación
+de
+conocimiento
+basados
+en
+lógica
+incluso
+la lógica
+de
+predicado
+primero
+y muchos
+de sus
+subconjuntos
+son
+intratables
+computacionalmente
+como habíamos
+dicho
+antes
+¿Ok?
+Ahora
+nuevamente
+ese
+problema
+como
+dijeron
+algunos
+de ustedes
+recién
+es un
+problema
+que
+debería
+desaparecer
+de aquí
+a un
+tiempo
+más
+y no
+estoy
+hablando
+a
+arquitecturas
+altamente
+performantes
+basadas
+en la
+computación
+clásica
+digital
+sino
+que estoy
+pensando
+en el
+advenimiento
+de la
+computación
+cuántica
+cuando
+ella
+se haga
+realidad
+que es
+una
+cuestión
+de
+tiempo
+además
+eso sería
+concordante
+con
+algunas
+posiciones
+digamos
+en la
+biología
+cuántica
+que
+sugieren
+que
+nosotros
+efectivamente
+también
+nos
+valemos
+de
+efectos
+de la
+mecánica
+cuántica
+cuando
+se trata
+de
+implementar
+procesos
+de
+razonamiento
+en nuestro
+cerebro
+digamos
+y algo
+que no está
+probado
+pero que
+está
+postulado
+vamos
+ahora
+a su
+contraparte
+que es
+el
+paradigma
+subsimbólico
+primero
+es
+bottom
+up
+porque
+está
+dirigido
+desde
+los
+datos
+hacia
+arriba
+no
+requiere
+de
+lenguajes
+de
+representación
+de
+conocimiento
+sino
+que
+de
+una
+red
+neuronal
+en
+donde
+se
+puedan
+representar
+y
+procesar
+grandes
+números
+de
+reglas
+simples
+no
+requiere
+generar
+y
+mantener
+bases
+de
+conocimiento
+es
+capaz
+de
+aprender
+nuevas
+reglas
+a
+partir
+de
+reglas
+más
+simples
+capas
+de
+complejidad
+se
+sugiere
+que el
+conocimiento
+emerge
+aquí
+se
+sugiere
+porque
+no está
+aprobado
+eso
+todavía
+pero
+se
+sugiere
+en este
+paradigma
+que el
+conocimiento
+emerge
+a través
+de
+reglas
+más
+complejas
+en
+capas
+superiores
+que
+reconocen
+patrones
+o sea
+de
+alguna
+manera
+ellas
+son
+muy
+buenas
+a
+reconocer
+patrones
+pero
+no
+puedo
+equilibrar
+y
+dicen
+bueno
+estos
+patrones
+eventualmente
+cuando
+emergen
+en
+una
+próxima
+derivada
+por decirlo
+así
+se pueden
+convertir
+en
+conocimiento
+ok
+pero
+no es
+clara
+esa
+transición
+todavía
+ok
+es muy
+intensivo
+en datos
+para
+entrenar
+redes
+neuronales
+o sea
+al final
+del día
+también
+tienen ese
+problema
+son muy
+intensivas
+en
+entrenar
+redes
+neuronales
+pero
+los datos
+están
+y esa
+es la
+gran
+diferencia
+las
+reglas
+de
+conocimiento
+las
+tengo
+que
+generar
+para
+cada
+sistema
+de
+inteligencia
+artificial
+top
+down
+en cambio
+acá
+el problema
+es el
+entrenamiento
+el costo
+mayor está
+en el
+entrenamiento
+pero los
+datos
+están
+ok
+ahora
+ese
+tema
+lo vimos
+en la
+primera
+clase
+cuando
+surgió
+el paradigma
+subsimbólico
+en realidad
+hubo mucha
+expectativa
+pero pocos
+resultados
+los resultados
+recién
+vinieron
+después
+de la
+primera
+década
+del
+nuevo
+milenio
+y las razones
+las vimos
+en la
+clase
+pasada
+¿se acuerdan
+cuál
+cuál
+fue la
+razón
+que
+escribimos?
+que con
+las
+plataformas
+digitales
+había una
+mayor cantidad
+de datos
+disponibles
+sí
+en general
+esa tendencia
+es creciente
+cada vez más
+ok
+entonces
+es muy
+intensivo
+en datos
+para entrenar
+redes neuronales
+como les dije
+yo
+una sola
+ronda
+de
+entrenamiento
+con
+billones
+incluso
+vamos a ver
+una slide
+que tengo ya
+con algunos
+datos al respecto
+puede costar
+bastantes
+cientos de
+millones de
+dólares
+o sea
+es
+no menor
+ok
+y es muy
+intensiva
+en capacidad
+de cómputo
+también
+y algunas
+arquitecturas
+de redes
+neuronales
+de NVIDIA
+la empresa
+que tiene
+ha liderado
+ese proceso
+ha
+hecho
+posible
+digamos
+que
+la capacidad
+de cómputo
+en el fondo
+es computación
+paralela
+que sigue
+basada
+en
+en gran
+medida
+en la computación
+clásica
+digital
+eso no es
+computación
+cuántica
+pero elevaba
+enormemente
+la capacidad
+de procesamiento
+entonces
+el paradigma
+subsimbólico
+no está
+basado
+en el
+conocimiento
+no son
+sistemas
+basados
+en el
+conocimiento
+el paradigma
+subsimbólico
+presupone
+que el
+conocimiento
+emerge
+a posteriori
+en un
+sistema
+de aprendizaje
+automático
+capaz de
+procesar
+grandes
+volúmenes
+de datos
+para detectar
+patrones
+codificados
+como nuevas
+reglas
+que a su vez
+son reglas
+que nutren
+capas
+superiores
+han surgido
+también
+esos
+language
+models
+como
+modelos
+que entregan
+la distribución
+de probabilidad
+de una palabra
+dentro de una sentencia
+esto aplicando
+estas
+arquitecturas
+basadas
+en machine learning
+para el problema
+de procesamiento
+de la lengua
+natural
+ok
+y los
+large
+language
+models
+que son la gran
+revolución
+digamos
+actual
+son
+language models
+entrenados
+con billones
+de palabras
+y
+esto era un proceso
+muy costoso
+ese proceso
+de entrenamiento
+recién con la aparición
+de los transformers
+los transformadores
+ellos introdujeron
+una nueva arquitectura
+que lida con la
+complejidad computacional
+a través de paralelismo
+a gran escala
+y reduce
+el olvido
+catastrófico
+de dos tipos
+de redes
+las redes
+recurrentes
+neuronales
+eso lo van a ver
+más detalle
+en su curso
+de machine learning
+y las redes
+convolucionales
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+de
+son muy buenas en reconocimiento de patrones y reconocimiento de imágenes y entonces lo que
+ustedes ven es que estos estas arquitecturas de transformers llamados gpt es por generar
+y procesos transformers que están pre entrenados ahora porque el concepto de pre entrenados es
+porque están pre entrenados en forma genérica pues para su dominio de aplicación tienen que volver a
+ser entrenados con datos específicas del dominio de aplicación y ellos han contribuido a variantes
+que están enfocadas más en reconocimiento de visiones que es donde más éxito han tenido y
+también otras que tienen el foco en procesamiento del lenguaje natural que probablemente es lo que
+ustedes más han visto cuando usan char kpt para resúmenes o hacen preguntas y les entrega
+una narrativa en tiempo real relativamente rápido y que aparecen como profesionales los resúmenes
+reduciendo así el tiempo y los costos de entrenamiento de los LLN o sea el gran salto que ocurrió en 2022
+cuando aparecieron las primeras arquitecturas de transformers y que por primera vez se podía hacer
+un proceso de entrenamiento con un número enormemente mayor de parámetros a gran escala y en forma
+relativamente eficiente
+para que tengan una idea
+estos GPT que es la sigla por Generative Pre-Trained Transformers fueron introducidos por OpenAI en 2018
+ok
+y dieron origen a algo que es denominado la inteligencia artificial generativa fue el nombre que les dieron
+porque porque generaban mucho contenido a partir de datos en forma en forma muy eficiente ok sobre todo aquellos que tenían foco no tanto en reconocimiento de patrones para sistemas basados en visión sino que los tenían para sistemas de procesamiento de lenguaje natural en Aries nuevamente les digo que son poco intensivas en datos pero son muy intensivas en datos pero poco intensivas en conocimientos
+entonces miren la primera versión de GPT fue entrenada con 177 millones de parámetros la segunda con 1.2 billones con costos que seguían creciendo cada vez más la tercera versión con 175 billones de parámetros la cuarta lanzada en marzo del 2023 con 1.8 trillones de parámetros
+y
+la actual que fue introducida
+en febrero de este año
+llamada 4.5
+está entrenada con
+no sabemos porque al menos yo no lo he ladrado
+creo que no es una
+información
+que se conozca públicamente todavía pero debe ser bastante más que esta cantidad
+de la versión de Charke PT
+número 4
+ok
+entonces esta nueva tecnología basada en el paradigma subsingólico que en el fondo está basada en deep learning
+basada en redes neuronales ha sido una revolución bastante interesante de seguir
+ok
+y se basó en arquitecturas de redes neuronales altamente perturbantes a través de computación paralela y basada en n capas
+en hardware de procesamiento paralelo de empresas como como envidia
+con dicho todo eso
+estas arquitecturas
+adolecen
+de
+problemas
+bastante importantes
+algunos los tocamos en la clase anterior
+no sé si alguien quiere
+participar y
+hacernos recordar algunos de esos desafíos
+algunos de esos problemas
+recuerdan
+la dificultad para por ejemplo trazar o determinar las reglas intrínsecas de los modelos
+como está llegando a sus conclusiones por ejemplo
+si
+y que más
+la dificultad para los problemas que requerían más razonamiento versus los que son
+los que se entrenan en base a grandes cantidades de datos
+ok
+entonces fíjense
+el
+¿cuál es el problema con las arquitecturas de los transformers generativos pre-entrenados?
+los GPT's
+en los que se basa
+la inteligencia artificial generativa
+y las aplicaciones de CharGPT en sus diversas versiones
+son cajas negras del fin del día
+son cajas negras
+en buena medida
+pero hay un debate en curso
+actualmente
+es relativamente nuevo
+¿saben por qué?
+porque
+se detectó
+o sea
+el gran
+el gran salto
+en el 2018
+fue que con estas arquitecturas
+uno era capaz
+de entrenar
+en forma muy eficiente
+muy rápida
+pero también costosa
+la costura
+ha ido creciendo
+en términos de lo que cuesta
+millones de dólares
+de entrenar estas
+estas arquitecturas de GPT
+con billones o trillones
+de parámetros
+¿ok?
+pero
+se observaba que la eficiencia crecía también
+enormemente
+en un factor de casi 10
+de una versión a la otra
+¿y qué ha ocurrido en el tiempo?
+hay autores
+que han publicado
+algunos artículos
+que manifiestan
+su
+preocupación
+en cierta medida
+porque
+aparentemente
+se está entrando
+en una zona
+de retornos decrecientes
+en términos de eficiencia
+¿qué significaría eso?
+¿y para un mayor procesamiento
+me sale más caro
+que la cantidad
+de procesamiento
+que había antes anterior?
+claro
+y es que
+ya
+el factor
+ya no es 10 veces
+sino que va bajando
+en términos de eficiencia
+o sea
+aparentemente
+estaríamos entrando
+en un límite
+en un límite
+nos estaríamos acercando
+pues estaríamos entrando
+en la zona
+de retornos decrecientes
+y estamos entrando
+en un límite
+a menos de eficiencia
+de estas arquitecturas
+lo cual
+es problemático
+porque
+nuevas versiones
+¿cierto?
+van a entrenarse
+con muchos más parámetros
+pero
+en términos de eficacia
+y
+de los resultados
+que ellas consiguen
+aparentemente
+estamos entrando
+en un límite
+en donde
+esa eficacia
+va a ir bajando
+¿ok?
+¿pero esa
+esa eficacia
+se
+en que se traduce
+en
+mayor demora
+en
+en
+en las
+predicciones
+no
+se traduce
+se traduce
+en
+en
+en el rendimiento
+en el rendimiento
+mismo
+de los resultados
+que te da
+el
+el sistema
+de inteligencia artificial
+basado en estas
+arquitecturas
+¿ok?
+ahora
+hasta ahora
+la arquitectura
+de GPT
+se han beneficiado
+de la existencia
+de grandes
+repositorios de datos
+¿ok?
+especialmente
+por parte de aplicaciones
+de medios sociales
+para entender las redes
+subyacentes
+pero
+esta tecnología
+ha tenido
+muchos éxitos
+en áreas
+tales como
+reconocimiento
+de imágenes
+superando
+capacidades
+cognitivas
+de humanos
+como lo vimos
+antes
+y también
+en algunas
+de NLP
+sin embargo
+este enfoque
+ha sido criticado
+por quienes
+siguen el
+paradigma
+simbólico
+¿ok?
+¿y cuál es la crítica?
+bueno
+la crítica
+es que
+dichos sistemas
+no entiendan
+realmente nada
+sino que son capaces
+de detectar
+patrones
+complejos
+que emergen
+a partir
+de la análisis
+de grandes
+columnas
+de datos
+¿ok?
+el surgimiento
+de las aplicaciones
+de media social
+ha contribuido
+al renacimiento
+de la IA
+basada en este paradigma
+pero pese
+a la alta
+paralelización
+de las actuales
+aplicaciones
+basadas en GPT
+la capacidad
+de cómputo
+sigue siendo
+un impedimento
+¿ok?
+ahora
+en general
+este enfoque
+y en particular
+las arquitecturas
+basadas en las últimas
+versiones
+de chat GPT
+en este caso
+4.5
+si bien
+4.5
+ha intentado
+resolver
+el tema
+de
+las alucinaciones
+estas
+y
+manifiestan
+que se han reducido
+en buena medida
+siguen existiendo
+¿qué son estas
+alucinaciones?
+a ver
+Isabel
+¿qué son estas
+alucinaciones
+de estas arquitecturas?
+bueno
+hola
+las alucinaciones
+entiendo que sería
+falta de información
+o no tienen la capacidad
+para interpretar
+algunos patrones
+o más bien
+son como
+respuestas
+que si bien
+pueden ser
+válidas
+o sea
+no sé si válidas
+es la palabra
+si bien en la lógica
+puede estar
+correcta
+no son
+no existen
+en la realidad
+o sea
+no son reales
+más bien
+aparecen
+como si fuesen
+correctas
+eso
+claro
+aparecen
+a nuestro entender
+se ven como correctas
+pero para quienes
+leo en la materia
+es decir
+para quien no entiende
+pero para quien entiende
+dicen bueno
+esto es falso
+son engañosas
+son engañosas
+exacto
+los falsos
+positivos
+son engañosas
+algunas de ellas
+aparecen
+en el artículo
+de Nature
+que yo le subí
+el cuarto artículo
+que le subí
+a Webcurso
+ok
+eso le voy a comentar
+porque
+de alguna manera
+tiene que ver
+con esa
+de hecho lo pensé
+como parte
+de la eficiencia
+de entregar
+alucinaciones
+que pareciera ser
+real
+pero no
+y se acercaba
+un poco también
+al artículo
+en donde iba tomando
+como esos tres
+KPIs
+estos tres indicadores
+para poder
+al final
+toma la forma
+como
+piensa uno
+piensa lo humano
+porque al final
+uno piensa y dice
+bueno
+yo podría entregar
+una respuesta
+haciéndola parecer
+y yo creo que
+a muchos humanos
+les pasa
+que comentan
+y
+y dicen cosas
+pareciendo ser
+tan reales
+o tan fidedignas
+que no necesariamente
+son reales
+o sea
+de alguna manera
+se parece
+lo que le está
+pasando a la guía
+a lo que le pasa
+a los humanos
+hoy en día
+que no necesariamente
+el conocimiento
+que entregan
+es 100%
+válido
+efectivamente
+profesor
+sí
+una pregunta
+relacionada
+a lo mismo
+dado que usted
+dijo que en realidad
+estos modelos
+de
+subsimbólico
+ya no eran
+tan eficientes
+en términos
+de seguir
+entrenándolos
+como que el retorno
+ya no era el mismo
+el siguiente paso
+de ellos
+cuál es
+ir hacia
+modelos híbridos
+hacia
+empezar a ocupar
+reglas lógicas
+claro
+o sea
+ese es todo
+un acordiente
+que es
+emergente
+yo he estado trabajando
+en esa área
+hace algún tiempo
+y
+es justamente
+la combinación
+de los dos paradigmas
+exactamente
+y a eso le llamamos
+el paradigma híbrido
+ya no es simbólico
+ni subsimbólico
+sino que aprovecha
+las ventajas
+de cada uno
+y trata de
+compensar las debilidades
+de cada uno
+¿ok?
+ok
+es lo que
+usted menciona
+ahí muy
+correctamente
+ahora
+pero en la actualidad
+yo sabía que
+para subsanar
+un poco eso
+existían
+como dos
+alternativas
+una era
+el tema
+de los datos
+sintéticos
+y lo segundo
+o sea
+por el tema
+de los datos
+sintéticos
+hay baterías
+gigantes
+de datos
+que no son
+reales
+pero que representan
+ciertos casos
+y de alguna
+u otra manera
+se ha logrado
+como salir
+de ese hoyo
+haciendo razonamiento
+que las máquinas
+piensen
+antes de
+dar una respuesta
+o que enuncien
+todos los pasos
+que van a tomar
+antes de dar una respuesta
+hay un caso
+super bueno
+porque eso salió
+a raíz de
+el juego del póker
+en donde
+se intentó
+que una IA
+le ganara
+a los campeones
+mundiales de póker
+y en su primera versión
+no pudo
+entonces
+en un análisis
+bien grande
+se determinó
+que lo que hacían
+los jugadores
+de póker
+realmente
+era pensar
+antes de
+hacer una jugada
+y cuando se emuló
+eso dentro
+de la IA
+se dispararon
+los indicadores
+y la IA
+logró ganarle
+por primera vez
+a todos los
+campeones mundiales
+exacto
+muy buen punto
+y lo que menciona
+usted
+tiene un nombre
+se llama
+el tema
+del escadenamiento
+hacia atrás
+es decir
+que obligar
+obligar
+a que
+en cada paso
+de una capa
+a la siguiente
+la arquitectura
+de CharGPT
+no solo te dé
+una
+que creo que fue
+lo que mencionaste
+no solamente
+te dé la solución
+sino que
+cómo llegó
+a la solución
+en cada paso
+claro
+un enunciado
+de todo lo que hizo
+para llegar
+a esa solución
+exacto
+entonces claro
+se está trabajando
+en eso
+de hecho
+CharGPT
+en la versión 4.5
+supongo
+y el tema
+de las alucinaciones
+la redujo
+un 35%
+creo que la última vez
+que lo leí
+en un artículo
+hace un par de semanas
+lo cual
+supone
+una mejora
+considerable
+si piensas
+que ese porcentaje
+era mucho mayor
+en versiones anteriores
+y
+entonces
+aquí hay varias cosas
+yo creo que
+estas versiones
+claramente
+están trabajando
+a través de cosas
+como los datos sintéticos
+que decía
+su compañero
+a través del encadenamiento
+que obliga a la arquitectura
+a ir
+en cada paso
+además
+indicando
+dejar una traza
+de cómo llegó
+a esa
+a esa conclusión
+se pueden eliminar
+algunas de las
+de los problemas
+además
+los datos
+cada vez van a ser
+va a haber
+más cantidad de datos
+o sea
+imagínense
+con el rendimiento
+de la
+internet de las cosas
+hoy en día
+los datos que tenemos
+son fundamentalmente
+de humanos
+interactuando
+con un móvil
+o con algunos
+otros dispositivos
+pero fundamentalmente
+con móviles
+a través
+de la
+del surgimiento
+de la computación
+móvil
+pero el día de mañana
+con la internet
+de las cosas
+va a haber una
+expansión de datos
+aún mucho mayor
+porque esto va a estar
+todo conectado
+o sea
+la interacción
+de los humanos
+no va a ser solamente
+con un móvil
+va a ser con cualquier
+tipo de cosas
+y entre cosas
+y cosas también
+así que imagínense
+el problema
+que yo veo
+es que si estamos
+llegando a un límite
+natural
+alguien postulaba
+una ley de Moore
+pero para este tipo
+de arquitectura
+digamos
+en donde
+va a ser difícil
+seguir manteniendo
+el nivel
+de capacidad
+de procesamiento
+y que eso se refleje
+digamos
+en la eficacia
+de los problemas
+que tenemos que resolver
+si eso es así
+eso es una hipótesis
+entonces necesariamente
+eso va a poner
+el foco más fuerte
+aún
+en I más D
+más I
+en todo el área
+de computación cuántica
+claramente
+ya la inversión
+es grande
+en esa área
+pero eso va a crear
+un incentivo
+mucho mayor
+si estas arquitecturas
+de GPT
+están llegando
+como un límite natural
+de aquí
+a algunas versiones más
+y va a poner
+el foco
+aún mucho más
+en invertir
+fuertemente
+en I más D
+más de lo que se está
+haciendo hoy en día
+para conseguir
+los primeros
+computadores cuánticos
+comerciales
+el que haya aparecido
+un DeepSeq
+por ejemplo
+no va también
+como en la línea opuesta
+es decir
+dado los mismos recursos
+se pueden hacer
+más cosas
+en este tipo
+de soluciones
+sí
+o sea
+eso fue
+un
+fue un golpe
+fue un golpe
+para todo lo que era
+el desarrollo
+en Occidente
+digamos
+cuando digo Occidente
+no estoy hablando
+de OpenAI
+solamente
+o de Gemini
+en el caso de Google
+que son
+arquitecturas paralelas
+pero
+a ver
+yo creo que
+es muy pronto
+para poder decir
+algo al respecto
+porque
+se requería
+hacer un estudio
+basado
+sobre
+información
+mucho más
+profunda
+para ver
+realmente
+hasta qué punto
+es
+es
+es un
+es un quiebre
+con el paradigma
+actual
+¿me entiendes?
+pero iría
+en la línea
+de lo que
+lo que usted dice
+de
+de
+de
+de
+como se llama
+de que el mismo sistema
+se está haciendo
+más eficiente
+sería un paso
+en torno a eso
+a tener una
+ocupación más eficiente
+de los recursos
+para obtener
+los mismos resultados
+exacto
+sí
+ese
+claro
+sí
+que sería
+como
+un poco
+la ley de Moore
+un poco
+eso
+exactamente
+ahora
+este paradigma
+subsimbólico
+como lo dijimos
+anteriormente
+ha sido
+exitoso
+en resolver
+problemas
+que no presentan
+gran complejidad
+en términos de
+representación
+de conocimiento
+pero
+hay muchas áreas
+de inteligencia artificial
+entre ellas
+el entendimiento
+del discurso
+en lenguaje natural
+y uno de los problemas
+más complejos
+de inteligencia artificial
+en términos de representación
+de conocimiento
+que está lejos
+de ser resuelto
+con este enfoque
+y muchos postulan
+enfoques híbridos
+para su solución
+y
+¿qué es el enfoque híbrido?
+los sistemas híbridos
+de representación
+de conocimientos
+usan ambos paradigmas
+el simbólico
+y el subsimbólico
+el artículo
+que yo les subí
+el primero
+habla
+de eso
+y presenta
+un caso concreto
+al respecto
+así que
+como les dije
+en la clase pasada
+lo pueden revisar
+para un poco ver
+a dónde va
+esa línea de investigación
+que está justo
+en la intersección
+de estos dos paradigmas
+¿ok?
+ahora
+el caso
+la investigación
+que usted hizo
+tiene como un objetivo
+que está claro
+que es la toma
+de decisiones
+con respecto
+a la innovación
+que eso
+no es menor
+porque
+hay uno
+no logré
+entenderse
+el modelo
+es transferible
+a otros objetivos
+pero por lo menos
+en el paper
+había un objetivo
+claro
+que era
+o por ejemplo
+está ejemplificado
+en ese tipo
+de toma
+de decisiones
+lo que me lleva
+a pensar
+es si uno
+ocupa
+que sería
+de alguna manera
+eficiente
+ocupar
+los sistemas
+híbridos
+teniendo
+un objetivo
+más puntual
+como un ámbito
+agotado
+en términos
+de lo que se quiere
+resolver
+como dominio
+de aplicación
+dices tú
+claro
+sí
+ok
+agotando el dominio
+tú dices un poco más
+con qué objetivo
+no
+no con
+al revés
+al tener
+un objetivo
+por lo menos
+tendría
+como una
+mayor finalidad
+o una mayor
+aplicabilidad
+al sistema
+híbrido
+que sea simbólico
+y subsimbólico
+sí
+sí
+creo que entiendo
+lo que estás
+queriendo decir
+efectivamente
+yo creo que
+la combinación
+de ambos
+¿por qué?
+porque
+la combinación
+de ambos
+puede ser
+de hecho
+digamos
+ya como
+línea de investigación
+existe hace varios años
+ya la
+la propuesta
+del enfoque híbrido
+en el fondo
+parte de la base
+que
+las aplicaciones
+de IA
+intensivas en datos
+pero menos en conocimiento
+van a darse muy bien
+con el paradigma
+subsimbólico
+y aquellas que son
+altamente intensivas
+en conocimiento
+deberían ser tratadas
+con el
+en combinación
+con el
+paradigma
+subsimbólico
+para ayudar
+¿cierto?
+a generar reglas
+de más alto nivel
+o a tener dispuestas
+reglas de más alto nivel
+que puedan acelerar
+el proceso
+de generar conocimiento
+a partir de los datos
+esa es la gran promesa
+en el fondo
+¿sí?
+sí
+yo les daba
+el ejemplo
+de las reacciones
+¿hay químicos acá o no?
+creo que lo mencioné
+en la primera clase
+a veces
+hemos tenido
+ingenieros químicos
+acá en el curso
+del día
+y el mía
+en años anteriores
+pero
+y lo discutíamos
+esto
+pero ellos
+dábamos el ejemplo
+de una reacción química
+que tiene que tener lugar
+pero no tiene lugar
+porque le falta
+una cierta información
+que viene
+del entorno externo
+que es de más alto nivel
+y a medida que
+en ese sistema
+complejo
+¿cierto?
+se ingresa esa información
+inmediatamente
+la reacción ocurre
+es como que le está faltando
+algo que
+que tiene que ser
+entregado desde arriba
+para que
+la reacción química ocurra
+y algo
+algo similar
+es lo que está ocurriendo acá
+en el sentido de
+aquí hay un
+hay un milagro
+que no está explicado
+con el paradigma subsimbólico
+¿cómo no emergen
+reglas simbólicas
+de alto nivel
+a partir de los datos?
+y eso es una pregunta
+abierta en inteligencia
+hay quienes postulan
+que eso va a ocurrir
+conforme estas
+arquitecturas
+vayan siendo
+más complejas
+¿ok?
+sin necesidad
+de nada más
+y otros que dicen
+no, esto va a tener
+que ser apoyado
+a través de reglas
+de alto nivel
+que vengan
+a través de un paradigma
+subsimbólico
+que van a acelerar
+ese proceso
+que van a ser
+más eficientes
+incluso
+¿ok?
+y ese es el enfoque
+que está un poco
+explicado en ese artículo
+¿ok?
+bien
+¿alguna pregunta
+de lo que hemos visto
+hasta ahora?
+¿ok?
+hemos visto
+harto material
+hoy día
+y vamos a entrar
+vamos a ver
+en lo que nos queda
+un poquito de clase
+nos queda
+unos minutos
+vamos a entrar
+en el módulo 3
+que es
+representando
+conocimientos
+pero con
+un mecanismo
+que es
+probablemente
+el más
+ambicioso
+¿ok?
+está basado
+en lógica
+de primer orden
+de predicado
+pero
+con
+algunos
+constructos
+adicionales
+que vamos
+vamos a estudiar
+y la clase
+de hoy
+la vamos a pasar
+a introducir
+brevemente
+solamente
+y que es
+la llamada
+semántica
+de situaciones
+para darle
+contexto
+esto fue
+desarrollado
+en la universidad
+de Stanford
+¿ok?
+en el centro
+el centro
+se llama
+CSLI
+el centro
+para el estudio
+del lenguaje
+y la información
+que uno
+es un centro
+de
+es uno
+de los centros
+más prestigiosos
+de inteligencia
+artificial
+con poco
+en
+lenguaje
+natural
+¿ok?
+y
+lo que se planteó
+en Stanford
+en su momento
+por los
+investigadores
+que estaban
+en CSLI
+fue
+que la información
+de contexto
+no había
+sistema
+de representación
+de conocimiento
+para representar
+contexto
+en lenguaje
+natural
+que es clave
+para poder
+para poder
+representar
+o poder tener
+éxito
+en representación
+de conocimiento
+en muchos ámbitos
+en muchos dominios
+de aplicación
+en inteligencia
+artificial
+entonces
+como una manera
+de representar
+la información
+contextual
+en un sistema
+de representación
+de conocimiento
+se desarrolló
+lo que se llama
+la semántica
+de situaciones
+que es lo que
+vamos a empezar
+a ver
+en lo que nos queda
+de clase
+¿ok?
+entonces
+a modo de introducción
+¿cierto?
+podemos decir
+o reescribir
+la ecuación
+que define
+la información
+de la siguiente manera
+información
+igual representación
+más restricción
+¿ok?
+¿dónde?
+¿qué sería
+una restricción?
+una restricción
+es una conexión
+entre dos tipos
+de situaciones
+¿ok?
+entonces
+como bien
+dice el nombre
+situation semantics
+es decir
+la semántica
+de situaciones
+está basada
+en situaciones
+hay un todo
+un área
+para los que
+quieran
+aprender
+un poco más
+de esto
+esto está basado
+en el cálculo
+de situaciones
+que es algo
+que no se enseña
+generalmente
+en informática
+pero que
+es un
+es un área
+que ha tenido
+bastante aplicación
+en inteligencia artificial
+a través
+de este mecanismo
+de situation
+semántica
+entonces
+por ejemplo
+consideremos
+la siguiente
+situación
+situación
+1
+hay nubes
+negras
+en el cielo
+situación
+2
+lluvia
+ok
+¿cuál es la
+conexión
+entre esas
+dos situaciones?
+que hay
+una probabilidad
+de lluvia
+ok
+entonces
+estas situaciones
+están conectadas
+o no
+es como un if
+de no
+simbólico
+así
+así como las muestran
+no
+pero
+podrían estar conectadas
+con alguna regla
+ok
+entonces
+según este paradigma
+¿cuál es la conexión?
+¿cuál es la conexión
+que tenemos
+entre S1
+y S2
+fíjense que
+aquí me dice
+que las restricciones
+en la definición
+una restricción
+es una conexión
+entre dos tipos
+de situaciones
+entonces aquí
+tengo un tipo
+de situación
+y aquí tengo
+otro tipo
+de situación
+y lo que tengo
+es una conexión
+es decir
+tengo una restricción
+entre estos dos
+tipos de situaciones
+las restricciones
+pueden estar ocultas
+y toda restricción
+conecta la información
+con su representación
+en este caso
+la conexión
+es que cuando
+hay nubes negras
+en el cielo
+generalmente
+llueve
+¿qué significa esto?
+generalmente llueve
+hay una probabilidad
+de lluvia
+¿y qué tipo
+de probabilidad
+es esa?
+alta
+alta
+causalidad
+es una probabilidad
+que no es subjetiva
+sino que es
+contextual
+es estadística
+claro
+viene del contexto
+viene de la
+evidencia empírica
+¿ok?
+entonces
+los elementos
+que dan origen
+a la información
+son
+situaciones
+tipos
+y restricciones
+y la información
+siempre es acerca
+de un objeto
+de un cierto tipo
+es decir
+es siempre
+sensitiva al contexto
+¿ok?
+entonces veamos un ejemplo
+acá
+tenemos una situación
+S
+yo abstraigo
+esa situación
+a un tipo
+de situación
+o sea yo digo
+esta situación
+S
+es de un tipo
+S mayúscula
+y aquí tengo
+una situación
+R
+que es
+de un tipo
+R mayúscula
+¿ok?
+en general
+las restricciones
+opinan
+a nivel
+de los tipos
+de
+información
+perdón
+de situación
+y no de las
+situaciones
+particulares
+o sea yo tengo
+que abstraer
+de la situación
+particular
+al tipo
+de situación
+como en estos
+dos casos
+yo lo estoy
+haciendo
+con
+estas dos
+situaciones
+R y S
+y a nivel
+de los tipos
+de situación
+yo puedo
+establecer
+la restricción
+¿ok?
+entonces
+para representar
+conocimiento
+en semántica
+de situaciones
+como formalismo
+de representación
+de conocimientos
+necesitamos
+el contexto
+de la situación
+y el objeto
+acerca del que
+se transmite
+información
+y las restricciones
+y los tipos
+asociados
+usados
+para transmitir
+esa información
+conocimiento
+y acción
+¿cierto?
+conocimiento
+es información
+internalizada
+que nos sirve
+para hacer algo
+es decir
+para actuar
+en el mundo
+eso lo habíamos visto
+desde las clases
+anteriores
+¿ok?
+entonces repitiendo
+conocimiento
+es información
+internalizada
+que nos sirve
+para hacer algo
+es decir
+para actuar
+en el mundo
+¿ok?
+¿cuál es la relación
+en quiz número 15?
+¿cuál es la relación
+que existe
+entre conocimiento
+y entendimiento?
+para lograr
+entendimiento
+se requiere
+de conocimiento
+están estrechamente
+relacionados
+el entendimiento
+requiere
+el contexto
+para poder
+tomar
+lo que
+lo que conoce
+y transmitirlo
+en un mensaje
+que sea claro
+¿ok?
+sí
+todo eso es correcto
+entonces
+a ver
+definamos
+entendimiento
+entender
+y explicar
+una situación
+involucra
+la utilización
+de conocimiento
+sobre situaciones
+pasadas
+y la anterior
+conduce al conocimiento
+para reacción
+o sea
+acá
+el entendimiento
+de una situación
+involucra
+la utilización
+de conocimiento
+sobre situaciones
+pasadas
+¿ok?
+profesor
+una consulta
+¿y qué pasa
+si yo le entrego
+información
+errónea
+por ejemplo
+en el mismo caso
+de la
+de las nubes
+negras
+que por ejemplo
+como causal
+no se puede
+le dijera
+que va
+va a haber
+un terremoto
+¿la
+IA
+es capaz
+de distinguir
+de
+cuando la información
+por ejemplo
+no tiene sentido
+en la medida
+que tú
+a ver
+de partida
+sería un error
+codificar
+eso
+en la
+base
+de conocimiento
+pero si
+por alguna
+razón
+estuviese así
+el sistema
+de representación
+de conocimiento
+cometería errores
+o llegaría
+inferencias
+que son
+erradas
+a futuro
+y estas
+serían
+a la luz
+de nuevos
+conocimientos
+nuevas reglas
+que aparecen
+en el mundo
+porque la gente
+está actuando
+en el mundo
+por reglas
+que son falsas
+y van a conclusiones
+que son falsas
+y estas son
+a la luz
+de nueva información
+revocadas
+a futuro
+o sea
+el problema
+tendría que
+subsanarse
+a través
+de este
+mecanismo
+de razonamiento
+no monotónico
+que habíamos visto
+anteriormente
+¿ok?
+¿se entiende?
+es un poco
+lo que ocurre
+también
+en el paradigma
+subsimbólico
+cuando
+cuando los datos
+tienen un sesgo
+entonces
+los resultados
+también van a estar
+acercados
+en la arquitectura
+del
+transform
+¿no?
+y eso ocurre
+eso se observa
+o sea
+cuando los datos
+tienen un cierto sesgo
+entonces
+las conclusiones
+a las cuales
+vas a llegar
+también van a estar
+acercadas
+y acá
+es un poco
+lo mismo
+vas a estar
+infiriendo
+reglas de conocimiento
+que al final
+del día
+van a probar
+que son
+incorrectas
+y las vas a tener
+que revocar
+en el tiempo
+¿ok?
+entonces
+¿por qué la clave
+o la representación
+de conocimientos
+es la clave
+para razonar
+en sistemas
+de inteligencia artificial?
+Bueno
+me parece que
+como nos ha explicado
+durante las clases
+hay muchas maneras
+de representar
+el conocimiento
+pero si uno
+si uno puede
+si uno puede
+transformar
+ese conocimiento
+esa manera
+de representar
+la realidad
+de una manera
+que la represente
+se puede llegar
+a solucionar
+problemas
+por ejemplo
+en minería
+una vez
+realizamos
+un modelo
+de inteligencia artificial
+y
+si bien
+lo entrenamos
+con datos
+como que
+habían ciertos
+factores
+que dependían
+del conocimiento
+del proceso
+entonces
+cuando uno
+hacía como
+un fan tuning
+considerando
+el conocimiento
+del proceso
+llegaba a mejores
+resultados
+porque
+se iba haciendo
+como iteraciones
+en base al conocimiento
+entonces
+en la medida
+que uno
+representa
+el conocimiento
+puede
+entrenarse
+o entrenar
+a un modelo
+y de esa manera
+llegar
+a un modelo
+más
+que razone más
+o que llegue más
+a la realidad
+ok
+perfecto
+ahora
+profesor
+pero a mí
+no me queda
+muy clara
+la pregunta
+porque habíamos
+hablado
+de que
+la representación
+del conocimiento
+no necesariamente
+generaba
+aprendizaje
+en la acción
+porque tiene que ver
+con cómo se modela
+el razonar
+para mí
+tiende a
+tener este efecto
+de causa y error
+y un poco
+aprendo del error
+para poder generar
+una regla
+que es la correcta
+eso también
+lo genera
+la representación
+del conocimiento
+a la luz
+del nuevo conocimiento
+sí
+es decir
+el conocimiento
+que tienes
+que revocar
+es una
+es una
+cualidad
+de
+un sistema
+de representación
+de conocimientos
+no monotónicos
+¿entiendes?
+claro
+pero eso es entrenado
+¿no?
+es un auto
+un autoaprendizaje
+eso es
+es un autoaprendizaje
+en la medida
+que las mismas
+conclusiones
+se prueben
+erradas
+a futuro
+y tú las tienes
+que revocar
+eso no requiere
+intervención humana
+no necesariamente
+¿entiendes?
+ok
+entonces la respuesta
+a esta pregunta
+esto lo habíamos visto
+ya
+es porque en la medida
+que seamos capaces
+de representar
+conocimientos
+en sistemas
+artificial
+lo daremos
+a agentes
+artificiales
+de la capacidad
+de actuar
+y entender
+el mundo
+y de razonar
+en el mundo
+y modificarlo
+ok
+entonces
+eso es un poco
+lo que habíamos visto
+al comienzo
+de la clase de hoy
+ok
+entonces
+¿cuál es la técnica
+que vamos
+o la metodología
+que vamos a usar?
+usar el menor
+formalismo necesario
+¿qué significa eso?
+o sea
+para cosas
+que son más simples
+vamos a utilizar
+un formalismo
+que también es más simple
+usar el menor
+grado de precisión
+necesario
+del formalismo
+o sea
+vamos a ir refinando
+en forma secuencial
+la representación
+incluso en algunas cosas
+que son complejas
+las vamos a dejar
+en lenguaje natural
+y vamos a ir
+especificando más adelante
+vamos a iterar
+aumentando la complejidad
+del formalismo
+y el nivel de precisión
+según se requiera
+si un problema ocurre
+vamos a parar
+y concentrarnos
+en él
+hasta tratar de resolverlo
+y vamos a validar
+en un análisis
+de acuerdo a los datos
+en cada paso
+¿ok?
+esa es la metodología
+en general
+que ocupamos
+para representar
+conocimiento
+y vamos a terminar
+la clase de hoy
+con algo que nos va a ocupar
+la clase siguiente
+porque vamos a hacer
+algunos ejercicios
+de la clase siguiente
+y es esta
+definición
+de estados mentales
+información
+y el mortal
+¿ok?
+el estado mental
+es el modo mental
+de la gente natural
+cuando hablamos
+de la gente natural
+¿de quién estamos hablando?
+¿de nosotros?
+de nosotros
+muy bien
+este otro
+este es el nivel
+más de información
+como lo estamos
+percibiendo aquí
+¿cierto?
+es el nivel
+de la representación
+de conocimiento
+del agente artificial
+¿ok?
+¿y cómo lo vamos
+a representar?
+lo vamos a representar
+en el lenguaje
+de representación
+de conocimiento
+¿ok?
+o sea
+esto está
+en nuestra mente
+nosotros
+como individuos
+personas
+no como agente
+artificial
+tenemos un modelo
+mental
+y ese modelo
+mental
+lo vamos a
+representar
+utilizando
+el lenguaje
+de representación
+de conocimiento
+para que lo pueda
+entender
+un agente
+artificial
+por así decir
+y luego
+tenemos el mundo
+que puede ser
+real o virtual
+en el cual
+estas representaciones
+están actuando
+entonces vamos
+a cerrar
+la clase
+de hoy
+con un primer
+ejercicio preliminar
+de estado mental
+consideren
+estas tres sentencias
+lean la primera
+y me dicen
+que entienden
+¿cuál es el modelo
+mental en el fondo
+que tienen
+cuando leen
+esa primera
+sentencia?
+¿cuál es el modelo
+en el castellano
+¿cierto?
+ok
+¿cuántos?
+a ver
+les voy a hacer
+preguntas concretas
+de acuerdo al modelo
+mental que yo creo
+que todos ustedes
+tienen
+¿cuántos actores
+hay?
+¿cuántos referentes
+fueron introducidos
+en el discurso
+por la primera
+sentencia?
+hay dos
+dos
+dos
+tres
+tres
+yo veo cuatro
+cuatro
+¿o no?
+sí
+¿cuáles son?
+sí
+cuatro
+él
+ella
+parque
+él
+ella
+parque
+un hombre
+bien
+vamos a la segunda
+tenemos los
+los mismos
+cuatro referentes
+¿cierto?
+no
+no son los mismos
+pero en
+términos de números
+son cuatro
+sí
+sí
+ok
+cuarto es distinto
+¿sí o no?
+sí
+yo creo
+yo creo
+que
+leanlo
+en forma
+incremental
+¿ok?
+¿cuál es la diferencia
+entre el modelo
+mental
+del
+el primero
+con el
+la primera
+con la segunda
+sentencia
+¿cuál es la diferencia
+fundamental
+en el modelo?
+¿cuál es?
+la soledad
+como que se ve
+en la segunda
+¿no?
+a ver
+el hombre
+de la primera
+sentencia
+¿con quién está?
+¿con la persona
+o con la
+la mujer?
+¿con el hombre
+o la mujer?
+con la mujer
+¿con la mujer?
+sí
+¿sí?
+¿y en la segunda
+la estatua
+¿con quién está?
+¿con el parque?
+¿con la
+con ella?
+ah
+él la vio
+en el parque
+con una estatua
+es que el parque
+puede
+claro
+el parque
+tiene la estatua
+entonces tiene
+dos lecturas
+es que habría sido
+es como si
+¿cuál es la más
+plausible para ti?
+¿cuál es la que está
+la más
+la más plausible?
+en la segunda
+no sé
+no sé cuál
+porque puede
+puede que haya tenido
+una estatua en la mano
+ella
+es poco plausible
+es una estatua
+de
+lo más probable
+es que tenga
+la característica
+del parque
+para identificar
+a menos que sea
+una anticuaria
+que está vendiendo
+estatuas en el parque
+en el parque
+hay estatuas
+aunque sea súper celoso
+y se esté pasando rollo
+ok
+pero en la primera
+el modelo mental
+que ustedes tienen
+el más plausible
+me parece
+que es aquel
+en donde
+hay alguien
+que en este caso
+es un hombre
+que vio a alguien
+que en este caso
+es una mujer
+en un parque
+y que esa
+esa mujer
+estaba con un hombre
+¿esa sería la lectura
+más plausible
+el modelo mental?
+sí
+correcto
+y en el segundo
+y en el segundo
+el modelo mental
+más obvio
+a pesar que
+la estructura
+de la frase
+es casi idéntica
+pero por semántica
+no por sintaxis
+por semántica
+ustedes dirían
+que la más plausible
+es que
+un hombre
+vio a una mujer
+en un parque
+y ese parque
+tenía
+una estatua
+sí
+pero eso
+eso es como
+en contexto
+de la primera
+porque si
+puede ser
+una frase sola
+yo podría decir
+no sé
+el hombre
+vio una camioneta
+con una estatua
+la vio
+en el parque
+con una estatua
+yo podría estar
+hablando
+de un objeto
+utilizando
+un artículo
+sin pensar
+en una mujer
+sí
+claro
+pero si no
+si es lo único
+que tiene
+esa sentencia
+yo creo que
+eso sería
+el modelo
+claro
+el estado mental
+de quien lee
+la frase
+sí
+ok
+¿cuál es la diferencia
+con la tercera?
+sé que la tercera
+es ambivalente
+yo creo que
+menos ambivalente
+fíjate
+él la vio
+en el parque
+con un telescopio
+sí
+la vio
+a través del telescopio
+él la puede haber visto
+a través del telescopio
+o ella puede haber estado
+en el parque
+con un telescopio
+de las dos
+¿cuál es la más posible?
+depende
+si es de noche
+y puede haber
+ella haber estado
+viendo las estrellas
+sí
+pero dado que no sabemos
+si es de noche o de día
+digamos
+el vio con el telescopio
+a ver
+hagamos un test
+la mayoría piensa
+que acá
+el acto
+el telescopio
+está modificando
+el acto de ver
+es un instrumento
+del acto de ver
+¿quién piensa?
+la mayoría
+¿sí?
+¿y qué otra lectura
+hay acá?
+que ella tiene
+el telescopio
+tiene un telescopio
+y yo también
+pensé en que
+ella tenía
+el telescopio
+¿sí?
+sí
+¿cuál de las dos
+más plausibles?
+depende del punto
+depende del observado
+para mí me fue más fácil
+la segunda
+que recién dijimos
+que la primera
+que tiene como una
+interpretación más
+de cómo
+él la vio
+es que
+no sé
+ahí está el seco
+yo corté
+de las tres
+de la misma forma
+porque
+me hacía sentido
+porque la frase
+no me hace sentido
+me haría sentido
+si dijera
+él la vio
+en un parque
+con una estatua
+o él la vio
+en un parque
+con un telescopio
+ahí podría
+como entenderlo
+distinto
+pero
+dado que estaba
+la primera
+lo que me produce
+es que las siguientes
+me suenan a lo mismo
+solo que
+pero veanla
+veanla
+en forma independiente
+o sea
+no que estén
+conectadas
+la una con la otra
+son tres módulos mentales
+distintos
+ah
+entonces yo
+sí
+yo pensaría
+que
+si leo solo la tres
+pensaría que la vio
+a través
+de un telescopio
+sí
+también pienso
+que hay una preferencia
+para eso
+bueno
+acá estamos
+estamos viendo
+que son
+sentencias ambivas
+obviamente
+algunas vienen
+la ambigüedad
+se resuelve
+de alguna manera
+en donde una
+aparece más plausible
+de que otra
+dependiendo de una serie
+de factores
+a veces la sintaxis
+acá es más bien
+la sintaxis
+pero
+están compitiendo
+distintos criterios
+sintaxis con semántica
+al mismo tiempo
+ok
+y
+el desafío acá
+es que nosotros
+tenemos que representar
+ese conocimiento
+a través de una representación
+y esa representación
+tiene que
+de alguna manera
+resolver
+esa ambigüedad
+ok
+y eso es lo que vamos a ver
+con información
+de contexto
+cuando
+comencemos
+la próxima clase
+ok
+entonces
+como
+resumiendo un poco
+lo que hemos visto hoy
+hemos hecho
+un barrido
+de lo que ha sido
+el campo de representación
+de conocimiento
+desde sus comienzos
+vimos
+el paradigma
+simbólico
+al subsimbólico
+insinuamos
+que existe
+un nuevo paradigma
+que está recién partiendo
+que es el híbrido
+que para quienes tengan interés
+pueden leer el artículo
+número uno
+que les subí
+ahí está descrito
+con mucho más lujo de detalles
+y lo que nos va a ocupar
+en lo que resta
+de la próxima sesión
+va a ser
+terminar esta
+este mecanismo
+de representación
+de conocimiento
+bajado
+basado en semántica
+de situaciones
+vamos a hacer un ejercicio
+con código
+también
+que se los voy
+se los había mencionado
+la clase pasada
+pero decidí hacerlo
+dejarlo para el final
+ok
+como para hacer un
+cuando cerremos
+el capítulo este
+de representación
+de conocimiento
+propiamente tarde
+eso lo vamos a hacer
+la próxima semana
+y
+lo que nos queda
+después de eso
+va a ser
+hablar un poco
+de arquitectura
+del sistema
+y cómo se encaja
+la representación
+de conocimiento
+en distintos tipos
+de arquitecturas
+del sistema
+de inteligencia artificial
+y vamos a concluir
+con algunas
+algunas conclusiones
+valga la redundancia
+que tienen que ver
+con el desarrollo
+y lo que vamos a esperar
+de aquí al desarrollo
+en términos de tendencias futuras
+eso es lo que vamos a hacer
+la próxima clase
+ok
+vale
+entonces bueno
+muchas gracias
+gracias
+gracias
+que tengan una buena semana
+ok
+y bueno
+gracias
+muchas gracias
+muchas gracias
+muchas
+gracias
+gracias
+y
+gracias
+a la próxima
+oooo

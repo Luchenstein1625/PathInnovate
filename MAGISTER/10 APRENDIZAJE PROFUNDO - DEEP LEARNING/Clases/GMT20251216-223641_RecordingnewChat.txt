@@ -1,0 +1,29 @@
+00:08:45	Mauricio A. Valle:	https://docs.google.com/forms/d/e/1FAIpQLSfzlJ2gXEIZswk62MGwG3Rx5woCg5u3qjFtql2LH5EemPrJMw/viewform?usp=publish-editor
+00:43:33	Mauricio A. Valle:	import tensorflow as tf
+from tensorflow.keras import backend as K
+
+def recall(y_true, y_pred):
+    # The original error was 'keras.backend' has no attribute 'ones_like'
+    # This is fixed by using tf.ones_like directly from tensorflow.
+    y_true = tf.ones_like(y_true)
+    true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+    all_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+
+    recall = true_positives / (all_positives + K.epsilon())
+    return recall
+
+# Re-compile the model with the corrected recall function
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy', recall])
+
+# hacemos fit de datos en este pseudo perceptron (entrenamiento).
+# Presentamos los datos a nuestro pseudo perceptron. Esto le dice a Keras que comience el proceso de
+# entrenamiento.
+
+history = model.fit(X, Y, epochs=225, batch_size=100, verbose=0, validation_split=0.2)
+01:08:10	Mauricio A. Valle:	model_perceptron_titanic.ipynb
+01:08:33	FRANCISCO JAVIER ECHEVERRIA VICENCIO:	No caché como subirla por avisos en webcursos. Dejo acá el trozo de código de normalización y el ejecutado:
+#Normalizo
+import numpy as np
+
+dataset[:, :-1] = (dataset[:, :-1] - dataset[:, :-1].mean(axis=0)) / dataset[:, :-1].std(axis=0)
+01:29:37	INES CANALES VERDUGO:	gracias

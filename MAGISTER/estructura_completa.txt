@@ -1,0 +1,1094 @@
+Listado de rutas de carpetas
+El número de serie del volumen es FCC8-D59C
+C:.
+|   01_Introduccion_IA.md
+|   02_Representacion_Conocimiento.md
+|   03_Busqueda_Heuristicas.md
+|   04_Aprendizaje_Automatico.md
+|   05_Agentes_Inteligentes.md
+|   06_Computer_Vision.md
+|   07_Procesamiento_Lenguaje_Natural.md
+|   09_Topicos_Emergentes.md
+|   10_Deep_Learning.md
+|   11_Taller_Diseno.md
+|   12_Simulacion_Agentes.md
+|   14_Topicos_Avanzados_IA_I.md
+|   15_Topicos_Avanzados_IA_II.md
+|   Capstone_Mapping.md
+|   estructura_completa.txt
+|   README.md
+|   
++---01  INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS
+|       01 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 1.srt
+|       01 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 1.txt
+|       01 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 1.vtt
+|       02 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 2.srt
+|       02 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 2.txt
+|       02 INTRODUCCIÓN A LA IA Y CIENCIAS COGNITIVAS Clase 2.vtt
+|       Clase 1 Arquitectura Transformers.pptx
+|       Clase 1a Intro a las Cs Cog v 2025.pptx
+|       Clase 1b Arquitecturas Cog.pptx
+|       GMT20250505-211009_RecordingnewChat.txt
+|       GMT20250512-210942_Recording.cc.vtt
+|       GMT20250512-210942_RecordingnewChat.txt
+|       GMT20250519-211329_Recording_1344x768.srt
+|       GMT20250519-211329_Recording_1344x768.txt
+|       GMT20250519-211329_Recording_1344x768.vtt
+|       Integrating AI in Software Development_ BCE's Innovative Approach.srt
+|       Integrating AI in Software Development_ BCE's Innovative Approach.txt
+|       Integrating AI in Software Development_ BCE's Innovative Approach.vtt
+|       Resumen Clase 1 - Introducción a la Inteligencia Artificial y Ciencias….pdf
+|       
++---02 REPRESENTACIÓN DE CONOCIMIENTOS Sec.1 FIC
+|       02 REPRESENTACIÓN DE CONOCIMIENTOS Clase 1.pdf
+|       02 REPRESENTACIÓN DE CONOCIMIENTOS Clase 2.pdf
+|       A novel method for rule extraction in a knowledge-based innovation tutoring system.pdf
+|       Clase 1.srt
+|       Clase 2.srt
+|       Clase 3.srt
+|       Curso de representacion de conocimientos.pdf
+|       Curso de representacio´n de conocmientos 2025.pdf
+|       Ejercicio de representacio´n de conocimientos 9 de junio de 2025.pdf
+|       GMT20250526-212058_Recording.cc.vtt
+|       GMT20250526-212058_Recording.json
+|       GMT20250526-212058_Recording.srt
+|       GMT20250526-212058_Recording.tsv
+|       GMT20250526-212058_Recording.txt
+|       GMT20250526-212058_Recording.vtt
+|       GMT20250526-212058_RecordingnewChat.txt
+|       GMT20250602-210007_Recording.json
+|       GMT20250602-210007_Recording.srt
+|       GMT20250602-210007_Recording.tsv
+|       GMT20250602-210007_Recording.txt
+|       GMT20250602-210007_Recording.vtt
+|       GMT20250602-210007_RecordingnewChat.txt
+|       GMT20250610-160543_Clip_Tecera clase de RC.json
+|       GMT20250610-160543_Clip_Tecera clase de RC.srt
+|       GMT20250610-160543_Clip_Tecera clase de RC.tsv
+|       GMT20250610-160543_Clip_Tecera clase de RC.txt
+|       GMT20250610-160543_Clip_Tecera clase de RC.vtt
+|       Nature article.pdf
+|       Syllabus DIA RC 2025 .pdf
+|       Temario Prueba RC 2025.pdf
+|       The global stakeholder capitalism model of digital platforms.pdf
+|       
++---03 TÉCNICAS DE BÚSQUEDA Y HEURÍSTICAS
+|       1.AG_Introd.pdf
+|       2.AG_Selection.pdf
+|       3. AG_Cruzamiento.pdf
+|       4.AG_Mutation (1).pdf
+|       4.AG_Mutation.pdf
+|       5.AG_Ejemplo.pdf
+|       Clase 3(2025).pdf
+|       Clase1.json
+|       Clase1.srt
+|       Clase1.tsv
+|       Clase1.txt
+|       Clase1.vtt
+|       Clase2.json
+|       Clase2.srt
+|       Clase2.tsv
+|       Clase2.txt
+|       Clase2.vtt
+|       Clase3.json
+|       Clase3.srt
+|       Clase3.tsv
+|       Clase3.txt
+|       Clase3.vtt
+|       Diplomado(UAI) Clase 1 (2025) Final.pdf
+|       Diplomado(UAI). Clase 3_Real(2025).pdf
+|       Diplomado(UAI). Clase 4(2025) (1).pdf
+|       Diplomado(UAI). Clase 4(2025).pdf
+|       Diplomado(UAI).Clase 2(2025) (1).pdf
+|       Diplomado(UAI).Clase 2(2025).pdf
+|       Para_el_Control.pdf
+|       Rubrica_Tarea(2025).pdf
+|       Syllabus-Te´cnicas de Bu´squeda-DIA2025.pdf
+|       
++---04 APRENDIZAJE AUTOMÁTICO Sec.1 FIC
+|   |   Clase 1 - Zoom.srt
+|   |   Clase 1 - Zoom.txt
+|   |   Clase 1 - Zoom.vtt
+|   |   Clase 2 - Zoom.srt
+|   |   Clase 2 - Zoom.txt
+|   |   Clase 2 - Zoom.vtt
+|   |   Clase 3 - Zoom.srt
+|   |   Clase 3 - Zoom.txt
+|   |   Clase 3 - Zoom.vtt
+|   |   Clase 4 - Zoom.srt
+|   |   Clase 4 - Zoom.txt
+|   |   Clase 4 - Zoom.vtt
+|   |   Introduccio´n al Aprendizaje Automa´tico.pptx
+|   |   Sesion 2 - Classification models.pptx
+|   |   Sesion 3 - Apriori.pptx
+|   |   Sesion 3 - Clustering.pptx
+|   |   Syllabus - Aprendizaje Automatizado.pdf
+|   |   
+|   +---Clase 1
+|   |   |   Clase 1 - Chat.txt
+|   |   |   Clase 1 - Zoom.txt
+|   |   |   Introducción al Aprendizaje Automático.pdf
+|   |   |   Introducción al Aprendizaje Automático.pptx
+|   |   |   
+|   |   \---Notebook
+|   |       |   EDA.ipynb
+|   |       |   test.png
+|   |       |   Visualizacion.ipynb
+|   |       |   
+|   |       \---Data
+|   |               anime_dataset.xlsx
+|   |               WineQT.xlsx
+|   |               
+|   +---Clase 2
+|   |   |   Clase 2 - Chat.txt
+|   |   |   Clase 2 - Transcripcion.cc.vtt
+|   |   |   Clase 2 - Zoom.txt
+|   |   |   Sesion 2 - Classification models.pdf
+|   |   |   Sesion 2 - Classification models.pptx
+|   |   |   
+|   |   \---Notebook
+|   |       |   Sesion 2 - Classification models.ipynb
+|   |       |   
+|   |       \---Data
+|   |               breast-cancer-wisconsin.xlsx
+|   |               Heart.xlsx
+|   |               
+|   +---Clase 3
+|   |   |   Clase 3 - Chat.txt
+|   |   |   Clase 3 - Transcripcion.cc.vtt
+|   |   |   Clase 3 - Zoom.txt
+|   |   |   Sesion 3 - Clustering.pdf
+|   |   |   Sesion 3 - Clustering.pptx
+|   |   |   
+|   |   \---Notebook
+|   |       |   Sesion 3 - Clustering.ipynb
+|   |       |   
+|   |       \---Data
+|   |               wines_data.xlsx
+|   |               
+|   \---Clase 4
+|           Clase 4 - Chat.txt
+|           Clase 4 - Transcripcion.cc.vtt
+|           Clase 4 - Zoom.txt
+|           Q-learning example.ipynb
+|           Sesion 4 - Apriori.pdf
+|           Sesion 4 - Apriori.pptx
+|           
++---05 Agentes Inteligentes
+|   |   Clase 1 - Zoom.srt
+|   |   Clase 1 - Zoom.txt
+|   |   Clase 1 - Zoom.vtt
+|   |   Clase 2 - Zoom.srt
+|   |   Clase 2 - Zoom.txt
+|   |   Clase 2 - Zoom.vtt
+|   |   Clase 3 - Zoom.srt
+|   |   Clase 3 - Zoom.txt
+|   |   Clase 3 - Zoom.vtt
+|   |   Clase 4 - Zoom.srt
+|   |   Clase 4 - Zoom.txt
+|   |   Clase 4 - Zoom.vtt
+|   |   Syllabus DIA Agentes E Canessa Octubre 2025.docx
+|   |   
+|   +---Clase 1
+|   |   |   2_Introduccion_Agentes_2025.pptx
+|   |   |   3_Arquitecturas_para_agentes_2025_v2.pptx
+|   |   |   Clase 1 - Zoom.txt
+|   |   |   
+|   |   \---Lecturas
+|   |           AN INTRODUCCION MULTIAGENT SYSTEMS CAPS. 1.pdf
+|   |           TECH COMPANIES.pdf
+|   |           THE SEVEN DEADLY SINS.pdf
+|   |           
+|   +---Clase 2
+|   |   |   4_Sistemas_Multiagentes_2025_v2.pptx
+|   |   |   Clase 2 - Transcripcion.cc.vtt
+|   |   |   Clase 2 - Zoom.txt
+|   |   |   
+|   |   \---Lecturas
+|   |           GOOGLE´S ITELLIGENCE.pdf
+|   |           IS AL REDING A ONE-TRICK.pdf
+|   |           
+|   +---Clase 3
+|   |   |   3_Arquitecturas_para_agentes_2025_v2.pptx
+|   |   |   Clase 3 - Transcripcion.cc.vtt
+|   |   |   Clase 3 - Zoom.txt
+|   |   |   
+|   |   \---Lecturas
+|   |           Enunciados TAREA AGENTES DIA 2025_1.docx
+|   |           GOOGLE´S ITELLIGENCE ....pdf
+|   |           IS AL REDING A ONE-TRICK ....pdf
+|   |           TECH COMPANIES........pdf
+|   |           The Complete Beginners Guide To AI Agents (Autonomous Agents).pdf
+|   |           THE SEVEN DEADLY SINS .....pdf
+|   |           
+|   \---Clase 4
+|       |   4_Sistemas_Multiagentes_2025_v2.pptx
+|       |   Clase 4 - Zoom.txt
+|       |   
+|       \---Lecturas
+|               The Complete Beginners Guide To AI Agents (Autonomous Agents).pdf
+|               
++---06 - Computer Vision
+|   |   Clase 3 - Zoom.srt
+|   |   Clase 3 - Zoom.txt
+|   |   Clase 3 - Zoom.vtt
+|   |   Clase 4 faltante.srt
+|   |   Clase 4 faltante.txt
+|   |   Clase 4 faltante.vtt
+|   |   
+|   +---Clase 1
+|   |       00 - Clase 0 IA.pdf
+|   |       00 - CLASE 1 INTRO A CV.pdf
+|   |       Clase 1 - Chat.txt
+|   |       Clase 1 - Transcripcion.cc.vtt
+|   |       Clase 1 - Zoom.txt
+|   |       
+|   +---Clase 2
+|   |       Clase 2 - Audio.txt
+|   |       Clase 2 - Chat.txt
+|   |       Clase 2 - Transcripción.cc.vtt
+|   |       Presentación Clase 2 - Computer Vision Tradicional.pdf
+|   |       Tarea.pdf
+|   |       
+|   +---Clase 3
+|   |       Clase 3 - Chat.txt
+|   |       Clase 3 - Zoom.txt
+|   |       Clase 3.pdf
+|   |       
+|   \---Clase 4
+|           Clase 4 - Chat.txt
+|           Clase 4 - Transcripcion.cc.vtt
+|           Clase 4 - Zoom.txt
+|           Clase 4 Deep Learning .pdf
+|           Clase 4 faltante.txt
+|           Pitch Proyecto Computer Vision - 5 min.png
+|           
++---07 PROCESAMIENTO DE LENGUAJE NATURAL
+|   |   Foundations Of Statistical Natural Language Processing.pdf
+|   |   HBR - The Case for Using Small Language Models.pdf
+|   |   links.txt
+|   |   Medium - Awesome NLP — 21 popular NLP libraries of 2022 _ by Fabio Chiusano _ Generative AI.pdf
+|   |   Natural Language Processing with Python.pdf
+|   |   NLP MIA 2025 - 20250908.txt
+|   |   NLP MIA 2025 - 20250922.txt
+|   |   NLP MIA 2025 - 20250929.txt
+|   |   P17-2015.Presentation.pdf
+|   |   UAI - Syllabus NLP MIA 2025.pdf
+|   |   
+|   \---UAI - NLP MIA
+|           10_nlp_zero_shot_classification.ipynb
+|           10_nlp_zero_shot_classification_clase.ipynb
+|           11_at_prompt_engineering.ipynb
+|           12_nlp_question_answering.ipynb
+|           12_nlp_question_answering_clase.ipynb
+|           13_nlp_text_summarisation.ipynb
+|           13_nlp_text_summarisation_clase.ipynb
+|           1_nlp_data_labelling_iaa.ipynb
+|           1_nlp_data_labelling_iaa_clase.ipynb
+|           2.1_nlp_spacy_preprocessing_tokenization_spanish.ipynb
+|           2.1_nlp_spacy_preprocessing_tokenization_spanish_clase.ipynb
+|           2.2_nlp_spacy_preprocessing_tokenization_english.ipynb
+|           2.2_nlp_spacy_preprocessing_tokenization_english_clase.ipynb
+|           3.1_at_count_based_embeddings_spanish.ipynb
+|           3.1_nlp_count_based_embeddings_spanish_clase.ipynb
+|           3.2_nlp_count_based_embeddings_english.ipynb
+|           3.2_nlp_prediction_based_embeddings_spanish.ipynb
+|           3.2_nlp_prediction_based_embeddings_spanish_clase.ipynb
+|           4_nlp_transfomer_tokenization_embeddings.ipynb
+|           4_nlp_transfomer_tokenization_embeddings_clase.ipynb
+|           5_nlp_ner_model.ipynb
+|           5_nlp_ner_model_clase.ipynb
+|           6.1_nlp_text_classification_machine_learning_knn.ipynb
+|           6.1_nlp_text_classification_machine_learning_knn_clase.ipynb
+|           7.1_nlp_text_classification_deep_learning_fnn.ipynb
+|           7.1_nlp_text_classification_deep_learning_fnn_clase.ipynb
+|           7.2_nlp_text_classification_deep_learning_cnn_rnn.ipynb
+|           7.2_nlp_text_classification_deep_learning_cnn_rnn_clase.ipynb
+|           8_nlp_text_classification_transformer.ipynb
+|           8_nlp_text_classification_transformer_clase.ipynb
+|           9_nlp_active_learning.ipynb
+|           9_nlp_active_learning_clase.ipynb
+|           
++---09 TOPICOS EMERGENTES EN INTELIGENCIA ARTIFICIAL
+|   |   01 RAG.json
+|   |   Clase1-TEEIA.txt
+|   |   clase1.jpg
+|   |   Clase2-TEEIA.txt
+|   |   Clase2.png
+|   |   Clase3-TEEIA.txt
+|   |   Guía Tarea Final.pdf
+|   |   ResumenClase3.pdf
+|   |   TopicosEmergentesIA UAI FIC 2025.pptx.pdf
+|   |   
+|   \---ProyectoFinal
+|           guia_crecimiento.pdf
+|           guia_tarea.pdf
+|           GUÍA DE CRECIMIENTO PROFESIONAL Y CAREER LADDERS.docx
+|           Guía Tarea Final.docx
+|           MANIFIESTO DE CULTURA Y OPERACIONES_ THE NOVATECH WAY.docx
+|           manifiesto.pdf
+|           MANUAL DE BENEFICIOS, PERKS Y COMPENSACIÓN TOTAL.docx
+|           manual_beneficios.pdf
+|           politica_dei.pdf
+|           POLÍTICA GLOBAL DE DIVERSIDAD, EQUIDAD E INCLUSIÓN (DEI).docx
+|           PROTOCOLO DE SEGURIDAD DE LA INFORMACIÓN Y TRABAJO REMOTO (WNH).docx
+|           protocolo_seguridad.pdf
+|           SalariosNovaTech.xlsx
+|           
++---10 APRENDIZAJE PROFUNDO - DEEP LEARNING
+|   |   RESUMENCLASES.MD
+|   |   
+|   +---Clases
+|   |       Clase1-DL.srt
+|   |       Clase1-DL.txt
+|   |       Clase1-DL.vtt
+|   |       Clase2-DL.srt
+|   |       Clase2-DL.txt
+|   |       Clase2-DL.vtt
+|   |       Clase3-DL.srt
+|   |       Clase3-DL.txt
+|   |       Clase3-DL.vtt
+|   |       Clase4-DL.srt
+|   |       Clase4-DL.txt
+|   |       Clase4-DL.vtt
+|   |       Clase5-DL.srt
+|   |       Clase5-DL.txt
+|   |       Clase5-DL.vtt
+|   |       Clase6-DL.srt
+|   |       Clase6-DL.txt
+|   |       Clase6-DL.vtt
+|   |       GMT20251201-200451_Recording.cc.vtt
+|   |       GMT20251201-200451_RecordingnewChat.txt
+|   |       GMT20251216-195932_RecordingnewChat.txt
+|   |       GMT20251216-223641_RecordingnewChat.txt
+|   |       GMT20260105-200035_RecordingnewChat.txt
+|   |       GMT20260112-194642_RecordingnewChat.txt
+|   |       GMT20260119-195702_RecordingnewChat.txt
+|   |       Quiz 2 MIA DeepLearning dic25.pdf
+|   |       
+|   \---pdf
+|           1. intro_y_expectativas_odf.pdf
+|           1.3 NN con simplicidad_pdf.pdf
+|           1.4 complex_representations_nn_pdf.pdf
+|           2. El Perceptron_pdf.pdf
+|           2.1 La regla de entrenamiento del Perceptro´n_pdf.pdf
+|           2.1 why hidden layers_pdf.pdf
+|           3. Anatomia_pdf.pdf
+|           3.1. Performance_pdf.pdf
+|           3.2. overfitting_problem_pdf.pdf
+|           3.3. Grid_Search_pdf.pdf
+|           6 ML_Projects_nn_pdf.pdf
+|           Deep Neural Network Hyperparameter Optimization with Orthogonal Array Tuning.pdf
+|           El Batch y el Epoch_aclaraciones_pdf.pdf
+|           Preparacio´n de un Modelo NN_pdf.pdf
+|           SYLLABUS deep_learning_ene25_pdf.pdf
+|           Traffic Sign Recognition – How far are we from the solution(i).pdf
+|           What are artificial neural networks_.pdf
+|           
++---11 TALLER DE DISEÑO E INNOVACIÓN
+|       DisInn_MIA_2026_C1.pdf
+|       DisInn_MIA_2026_C2.pdf
+|       El-ADN-del-Innovador.pdf
+|       GMT20260302-201414_RecordingnewChat.txt
+|       GMT20260309-195058_Recording.cc.vtt
+|       GMT20260309-195058_RecordingnewChat.txt
+|       GMT20260323-194426_Recording.cc.vtt
+|       GMT20260323-194426_RecordingnewChat.txt
+|       GMT20260323-194426_Recording_1600x800.srt
+|       GMT20260323-194426_Recording_1600x800.txt
+|       GMT20260323-194426_Recording_1600x800.vtt
+|       GMT20260330-200150_RecordingnewChat.txt
+|       GMT20260330-200150_Recording_1600x800.srt
+|       GMT20260330-200150_Recording_1600x800.txt
+|       GMT20260330-200150_Recording_1600x800.vtt
+|       Grupos Mural_MIA2026_Marzo (1).docx
+|       Links de Interés.pdf
+|       Mural0.0.png
+|       Mural0.1.png
+|       Mural0.2.png
+|       Mural1.0.png
+|       Mural1.1.2.png
+|       Mural1.1.png
+|       Mural1.2.png
+|       Mural1.3.png
+|       Mural1.4.1.png
+|       Mural1.4.2.png
+|       Mural1.4.3.png
+|       Mural1.4.4.png
+|       Mural1.4.5.png
+|       Mural1.4.png
+|       Mural2.0.png
+|       Mural2.1.png
+|       Mural2.2.png
+|       Mural2.3.png
+|       Mural3.0.png
+|       Mural3.1.1png.png
+|       Mural3.1.2.png
+|       Mural3.1.3.png
+|       Pauta_Final_MIA2026.pdf
+|       Pauta_Inicio_DisInn_MIA2026.pdf
+|       Syllabus_MIA2026.pdf
+|       TDDEI_Clase1.srt
+|       TDDEI_Clase1.txt
+|       TDDEI_Clase1.vtt
+|       TDDEI_Clase2.srt
+|       TDDEI_Clase2.txt
+|       TDDEI_Clase2.vtt
+|       TDDEI_Clase4.srt
+|       TDDEI_Clase4.txt
+|       TDDEI_Clase4.vtt
+|       TDDEI_Clase5.srt
+|       TDDEI_Clase5.txt
+|       TDDEI_Clase5.vtt
+|       ThreeBoxSolution_Vijay_Govindarajan.pdf
+|       
++---12 SIMULACION BASADA EN AGENTES
+|   |   4.3-AIOps_Guia_Agente.pdf
+|   |   Agentic AI.pdf
+|   |   MCP.pdf
+|   |   SE_01.pdf
+|   |   SE_02.pdf
+|   |   SE_03.pdf
+|   |   SE_04.1.pdf
+|   |   SE_04.2.pdf
+|   |   Simulaciones Basadas En Agentes.pdf
+|   |   Sistema_Multi_Agentico_UAI_2026.pdf
+|   |   tota_agente_colombia_UAI.pdf
+|   |   tota_guia_instalacion.pdf
+|   |   why-agents-are-the-next-frontier-of-generative-ai.pdf
+|   |   
+|   \---Clase
+|           01_Clase_SBEA.srt
+|           01_Clase_SBEA.txt
+|           01_Clase_SBEA.vtt
+|           02_Clase_SBEA.srt
+|           02_Clase_SBEA.txt
+|           02_Clase_SBEA.vtt
+|           03_Clase_SBEA.srt
+|           03_Clase_SBEA.txt
+|           03_Clase_SBEA.vtt
+|           04_Clase_SBEA.srt
+|           04_Clase_SBEA.txt
+|           04_Clase_SBEA.vtt
+|           05_Clase_SBEA.srt
+|           05_Clase_SBEA.txt
+|           05_Clase_SBEA.vtt
+|           GMT20260420-210204_Recording.cc.vtt
+|           GMT20260504-210115_Recording.cc.vtt
+|           GMT20260511-205943_Recording.cc.vtt
+|           GMT20260511-205943_RecordingnewChat.txt
+|           
++---13 VISION ARTIFICIAL
+|       Clase1.json
+|       Clase1.srt
+|       Clase1.tsv
+|       Clase1.txt
+|       Clase1.vtt
+|       Clase1_Resumen_MapaMental.png
+|       Clase2.json
+|       Clase2.srt
+|       Clase2.tsv
+|       Clase2.txt
+|       Clase2.vtt
+|       Clase2_Resumen_MapaMental.png
+|       Clase3.json
+|       Clase3.srt
+|       Clase3.tsv
+|       Clase3.txt
+|       Clase3.vtt
+|       Enunciado Tarea 1.pdf
+|       presentacion_cubo.py
+|       presentacion_cubo_fullscreen.py
+|       Taller I - Visio´n Artificial (1).pdf
+|       Universidad_Adolfo_Ibañez_Tarea1_Detallado.docx
+|       
++---14 TÓPICOS AVANZADOS EN INTELIGENCIA ARTIFICIAL 1 Sec.1 FIC
+|       0101 - Introducción.pptx
+|       0101 - Keras_Tensorflow_Sequential.ipynb
+|       0102 - Keras_Tensorflow_Functional API.ipynb
+|       0103 - Pytorch_Sequential.ipynb
+|       0104 - Pytorch_Module.ipynb
+|       0201 - Anomaly detection (AutoEncoder - keras, tensorflow) - Credit Card Fraud Detection.ipynb
+|       0201 - Autoencoder.pptx
+|       0202 - Image generator (VAE - keras, tensorflow) - MNIST.ipynb
+|       0202 - Inception y Xception.pptx
+|       0203 - (Inception_v2 - keras, tensorflow) - CIFAR10.ipynb
+|       0204 - (Xception - keras, tensorflow) - Garbage.ipynb
+|       0301 - (GANs - pytorch) MNIST.ipynb
+|       0301 - GANs y cGANs.pptx
+|       0302 - (cGANs - pytorch) MNIST.ipynb
+|       0401 - (UNet - Keras, tensorflow) MRI_Brain.ipynb
+|       0401 - U-Net.pptx
+|       0501 - (YOLOv1 - Pytorch - VGG16) Pascal VOC.ipynb
+|       0501 - (YOLOv1 - Pytorch) Pascal VOC.ipynb
+|       0501 - YOLOv1.pptx
+|       0502 - (LLM Vanilla - keras, tensorflow) Celular.ipynb
+|       0502 - LLM vanilla.pptx
+|       0503 - (ViT - keras, tensorflow) Fish disease.ipynb
+|       0503 -ViT.pptx
+|       20260608 - Sesion 01.srt
+|       20260608 - Sesion 01.txt
+|       20260608 - Sesion 01.vtt
+|       20260615 - Sesion 02.srt
+|       20260615 - Sesion 02.txt
+|       20260615 - Sesion 02.vtt
+|       20260622 - Sesion 03.srt
+|       20260622 - Sesion 03.txt
+|       20260622 - Sesion 03.vtt
+|       20260706 - Sesion 04.srt
+|       20260706 - Sesion 04.txt
+|       20260706 - Sesion 04.vtt
+|       20260713 - Sesion 05.csv
+|       20260713 - Sesion 05.srt
+|       20260713 - Sesion 05.txt
+|       20260713 - Sesion 05.vtt
+|       syllabus.pdf
+|       Tarea 01.ipynb
+|       Tarea_01_Grupo8_Gonzalez_Medina_Araya.ipynb
+|       
++---15 Sistemas Bioinspirados
+|       GMT20260803-204945_Recording.srt
+|       GMT20260803-204945_Recording.txt
+|       GMT20260803-204945_Recording.vtt
+|       GMT20260803-204945_RecordingnewChat.txt
+|       GMT20260810-204319_Recording.srt
+|       GMT20260810-204319_Recording.txt
+|       GMT20260810-204319_Recording.vtt
+|       GMT20260810-204319_RecordingnewChat.txt
+|       GMT20260817-205432_Recording.srt
+|       GMT20260817-205432_Recording.txt
+|       GMT20260817-205432_Recording.vtt
+|       GMT20260824-205722_Recording.cc.vtt
+|       GMT20260824-205722_Recording_1600x800.srt
+|       GMT20260824-205722_Recording_1600x800.txt
+|       GMT20260824-205722_Recording_1600x800.vtt
+|       GMT20260831-205447_Recording.cc.vtt
+|       GMT20260907-194731_Recording.cc.vtt
+|       GMT20260907-194731_RecordingnewChat.txt
+|       Hormigas_Artificiales.pdf
+|       MIA1(2026).pdf
+|       MIA2(2026).pdf
+|       MIA3(2026).pdf
+|       MIA5(2026).pdf
+|       MIA6(2026).pdf
+|       Paper3_2024.pdf
+|       Rubrica_MIA_2026.pdf
+|       SYLLABUS MIA(2026).pdf
+|       transcription_log.txt
+|       
++---16 TÓPICOS AVANZADOS EN INTELIGENCIA ARTIFICIAL 2
+|       GMT20260921-194836_Recording.cc.vtt
+|       GMT20260928-195740_Recording.cutfile.20260929201558566.cc.vtt
+|       GMT20261005-195852_Recording.cc.vtt
+|       SYLLABUS_TAAI.pdf
+|       TAAI2_Sesion_1_Modelos_Fundacionales_xLMs.pdf
+|       
+\---Otros
+    +---00 Intro
+    |   |   MÁSTER DE FORMACIÓN PERMANENTE EN GENERATIVE AI AND AI AGENTS GOVERNANCE.pdf
+    |   |   
+    |   +---0 - Calendario
+    |   |       calendario Mia 2025.pdf
+    |   |       MIA1 2025.xlsx
+    |   |       
+    |   +---0 - Libros - Papers - Textos Generales
+    |   |   |   Foundations &#x3a_ A (Brief) History of AI 2.pdf
+    |   |   |   Foundations &#x3a_ A (Brief) History of AI.pdf
+    |   |   |   intro to optimization - Practical AI for Practical Problems.pdf
+    |   |   |   Introduction to Azure Machine Learning.pdf
+    |   |   |   Language Models are Few-Shot Learners.pdf
+    |   |   |   Libro Machine Learning.pdf
+    |   |   |   Machine Learning (McGraw-Hill International Editions Computer Science Series) (Tom M. Mitchell).pdf
+    |   |   |   Programming-pytorch-for-deep-learning-creating-and-deploying-deep-learning-applications.pdf
+    |   |   |   Redes Neuronales  Deep Learning (Fernando Berzal).pdf
+    |   |   |   un recorrido por los modelos de lenguaje.pdf
+    |   |   |   
+    |   |   +---0 - Papers
+    |   |   |       International AI Safety Report.pdf
+    |   |   |       NIPS-2017-attention-is-all-you-need-Paper.pdf
+    |   |   |       Superintelligent Agents Pose Catastrophic Risks- Can Scientist AI Offer a Safer Path&#x3f_.pdf
+    |   |   |       The impact of artificial intelligence adoption degree on corporate digital technology innovation.pdf
+    |   |   |       
+    |   |   \---Inteligencia Artificial - Un Enfoque Moderno - Russell & Norvig
+    |   |           algorithms.pdf
+    |   |           Artificial Intelligence A Modern Approach.txt
+    |   |           figures.pdf
+    |   |           
+    |   +---0 - Proyecto Capstone
+    |   |       tesis-mia-24.pdf
+    |   |       
+    |   \---0 - Taller de Integración
+    |           Taller de Integración.pdf
+    |           
+    +---13 CAPSTONE
+    |       Capstone - 2026_07_31 12_38 GMT-04_00 - Recording.srt
+    |       Capstone - 2026_07_31 12_38 GMT-04_00 - Recording.txt
+    |       Capstone - 2026_07_31 12_38 GMT-04_00 - Recording.vtt
+    |       Capstone-Project-MIA2025_20260126.pdf
+    |       Capstone.srt
+    |       Capstone.txt
+    |       Capstone.vtt
+    |       Grupo08.srt
+    |       MIA - Evaluacio´n Capstone Project.xlsx
+    |       MIA - Notas Capstone Project 2025 P2.xlsx
+    |       Presentacion 1 - Proyecto CAPSTONE - Capacity Planning Cloud en Banco BCI.pdf
+    |       Presentacion.srt
+    |       Presentacion.txt
+    |       Presentacion.vtt
+    |       transcription_log.txt
+    |       UAI - Sesion 0 MIA 2025 20260126.srt
+    |       UAI - Sesion 0 MIA 2025 20260126.txt
+    |       UAI - Sesion 0 MIA 2025 20260126.vtt
+    |       WhatsApp Ptt 2026-08-03 at 1.00.30 PM.srt
+    |       WhatsApp Ptt 2026-08-03 at 1.00.30 PM.txt
+    |       WhatsApp Ptt 2026-08-03 at 1.00.30 PM.vtt
+    |       WhatsApp Ptt 2026-08-03 at 11.59.40 AM.srt
+    |       WhatsApp Ptt 2026-08-03 at 11.59.40 AM.txt
+    |       WhatsApp Ptt 2026-08-03 at 11.59.40 AM.vtt
+    |       WhatsApp Ptt 2026-08-04 at 8.42.20 AM.srt
+    |       WhatsApp Ptt 2026-08-04 at 8.42.20 AM.txt
+    |       WhatsApp Ptt 2026-08-04 at 8.42.20 AM.vtt
+    |       
+    +---A - Introducción a Python
+    |   |   FORMATO SYLLABUS 2025 - EE FIC_v1.0.pdf
+    |   |   
+    |   +---01 - Introduccion
+    |   |       01_intro_v.1.7.pdf
+    |   |       Clase 1 - Chat.txt
+    |   |       Clase 1 - Subtitulos.cc.vtt
+    |   |       
+    |   +---02 - Manejo de Ciclos
+    |   |       02_ciclos_1.1.pdf
+    |   |       03_control_flujo_1.2.pdf
+    |   |       04_errores_1.3.pdf
+    |   |       Clase 2 - Chat.txt
+    |   |       
+    |   +---03 - Estructura de Datos
+    |   |       05_estructuras_datos_1.3.pdf
+    |   |       
+    |   +---04 - Numpy
+    |   |       06_bibliotecas_funciones_1.2.pdf
+    |   |       07_matrices_1.1.pdf
+    |   |       08_funciones_1.3.pdf
+    |   |       Clase 4 - Chat.txt
+    |   |       
+    |   +---05 - Pandas
+    |   |       09_pandas_intro_1.2.pdf
+    |   |       10_pandas_agrupaciones.pdf
+    |   |       11_pandas_y_graficos_1.3.pdf
+    |   |       
+    |   +---Datos
+    |   |       data.xlsx
+    |   |       data_venta_verduras.xlsx
+    |   |       pivot-tables.xlsx
+    |   |       
+    |   +---Ejemplos
+    |   |       01_print.py
+    |   |       02_print_cadena.py
+    |   |       03_suma_cadenas.py
+    |   |       04_union_cadenas.py
+    |   |       05_op_aritmeticas_simple.py
+    |   |       06_op_parentesis.py
+    |   |       07_comando_str.py
+    |   |       08_comando_input.py
+    |   |       09_comando_int.py
+    |   |       10_comando_float.py
+    |   |       11_operacion_logica.py
+    |   |       12_condicion_if.py
+    |   |       13_condicion_if_else.py
+    |   |       14_anidados.py
+    |   |       15_anidados_elif.py
+    |   |       16_ciclos_while.py
+    |   |       17_comando_break.py
+    |   |       18_comando_range.py
+    |   |       19_ciclos_for.py
+    |   |       20_ciclo_for.py
+    |   |       21_ciclo_while.py
+    |   |       22_ciclo_for_ejemplo.py
+    |   |       23_doble_ciclo.py
+    |   |       24_doble_ciclo_incremento.py
+    |   |       25_potencia_acumulado.py
+    |   |       25_potencia_acumulado_2.py
+    |   |       26_factorial_acumulado.py
+    |   |       27_lista_ingreso.py
+    |   |       28_promedio_lista.py
+    |   |       29_lista_ordenada.py
+    |   |       30_diccionario.py
+    |   |       31_modifcar_diccionario.py
+    |   |       32_acceder_elemento.py
+    |   |       33_agregar_valor.py
+    |   |       34_recorrer_items.py
+    |   |       35_diccionario_de_diccionario.py
+    |   |       36_bibliotecas.py
+    |   |       37_request_py.py
+    |   |       38_hola_mundo.py
+    |   |       39_hola_mundo_llamado.py
+    |   |       40_funcion_parametro.py
+    |   |       41_suma_numeros.py
+    |   |       42_es_par.py
+    |   |       43_es_par_return.py
+    |   |       44_es_primo.py
+    |   |       45_es_primo_return.py
+    |   |       46_parametros.py
+    |   |       47_dos_funciones.py
+    |   |       48_variables_locales.py
+    |   |       49_mosca.py
+    |   |       50_error.py
+    |   |       51_manejo_error.py
+    |   |       52_manejo_error_tipo.py
+    |   |       53_ejemplo_simple.py
+    |   |       54_drop_data.py
+    |   |       55_unicos.py
+    |   |       56_ejercicio.py
+    |   |       57_agrupar.py
+    |   |       57_agrupar_lambda.py
+    |   |       58_agrupar.py
+    |   |       58_agrupar_ejercicio.py
+    |   |       58_scatter_weight.py
+    |   |       59_scatter_height.py
+    |   |       60_lectura_formulario_csv.py
+    |   |       61_ploty_colab.py
+    |   |       62_ploty.py
+    |   |       63_pandas_pivot.py
+    |   |       64_pivot_household.py
+    |   |       65_cross_tab.py
+    |   |       
+    |   +---Ejercicios
+    |   |       guia_01_ejercicios_condicionales.pdf
+    |   |       guia_02_ejercicios_ciclos_01.pdf
+    |   |       guia_03_ejercicios_ciclos_02.pdf
+    |   |       guia_04_ejercicios_ciclos_anidados.pdf
+    |   |       guia_05_ejercicios_numpy_01.pdf
+    |   |       guia_06_ejercicios_funciones.pdf
+    |   |       guia_07_ejercicios_numpy_funciones.pdf
+    |   |       guia_08_pandas.pdf
+    |   |       
+    |   +---Libros
+    |   |       StatisticsMachineLearningPython.pdf
+    |   |       Thinkpython.pdf
+    |   |       
+    |   +---Otros
+    |   |       01_visual_studio_instalacion.pdf
+    |   |       Cheatsheet.pdf
+    |   |       pep8es.pdf
+    |   |       view.html
+    |   |       www-geeksforgeeks-org-sort-sorteda-np-argsorta-np-lexsortb-python-.pdf
+    |   |       
+    |   \---Tarea
+    |           control_01_CURSO_2025.pdf
+    |           
+    +---agent-ai
+    |   \---ai-agents-masterclass
+    |       |   .gitattributes
+    |       |   .gitignore
+    |       |   LICENSE
+    |       |   README.md
+    |       |   
+    |       +---1-first-agent
+    |       |       .env.example
+    |       |       agents.py
+    |       |       requirements.txt
+    |       |       
+    |       +---10-deploy-ai-agent-langserve
+    |       |   |   .env.example
+    |       |   |   langserve-chatbot.py
+    |       |   |   langserve-endpoints.py
+    |       |   |   requirements.txt
+    |       |   |   runnable.py
+    |       |   |   
+    |       |   \---tools
+    |       |           asana_tools.py
+    |       |           google_drive_tools.py
+    |       |           vector_db_tools.py
+    |       |           
+    |       +---2-langchain-agent
+    |       |       .env.example
+    |       |       langchain-agent.py
+    |       |       requirements.txt
+    |       |       
+    |       +---3-agent-ui
+    |       |       .env.example
+    |       |       agent-with-ui.py
+    |       |       requirements.txt
+    |       |       
+    |       +---4-task-management-agent
+    |       |       .env.example
+    |       |       requirements.txt
+    |       |       task-management-agent.py
+    |       |       
+    |       +---5-rag-agent
+    |       |   |   .env.example
+    |       |   |   local-rag-agent.py
+    |       |   |   requirements.txt
+    |       |   |   
+    |       |   \---meeting_notes
+    |       |           2024-07-18.pdf
+    |       |           2024-07-19.pdf
+    |       |           2024-07-20.txt
+    |       |           2024-07-21.txt
+    |       |           2024-07-22.txt
+    |       |           
+    |       +---6-rag-task-agent
+    |       |   |   .env.example
+    |       |   |   rag-document-loader.py
+    |       |   |   rag-task-agent.py
+    |       |   |   requirements.txt
+    |       |   |   
+    |       |   \---meeting_notes
+    |       |           2024-07-18.pdf
+    |       |           2024-07-19.pdf
+    |       |           2024-07-20.txt
+    |       |           2024-07-21.txt
+    |       |           2024-07-22.txt
+    |       |           
+    |       +---7-langgraph-agent
+    |       |       .env.example
+    |       |       langgraph-task-management-agent.py
+    |       |       requirements.txt
+    |       |       runnable.py
+    |       |       tools.py
+    |       |       
+    |       +---8-n8n-asana-agent
+    |       |       .env.example
+    |       |       n8n-asana-agent.py
+    |       |       n8n_Workflow_Asana_AI_Agent.json
+    |       |       n8n_Workflow_Create_Asana_Task.json
+    |       |       requirements.txt
+    |       |       
+    |       +---9-n8n-rag-agent
+    |       |       n8n_Workflow_Add_Google_Drive_File_to_Vector_DB_Webhook.json
+    |       |       n8n_Workflow_RAG_AI_Agent.json
+    |       |       
+    |       +---cost-saving-ai-router
+    |       |       .env.example
+    |       |       cost-saving-task-agent.py
+    |       |       requirements.txt
+    |       |       
+    |       +---gohighlevel-saas-backend
+    |       |   |   .firebaserc
+    |       |   |   .gitignore
+    |       |   |   firebase.json
+    |       |   |   firestore.indexes.json
+    |       |   |   
+    |       |   \---functions
+    |       |       |   .gitignore
+    |       |       |   jsconfig.json
+    |       |       |   package-lock.json
+    |       |       |   package.json
+    |       |       |   
+    |       |       \---src
+    |       |               emulator_conversation_langchain.js
+    |       |               ghl_conversation_langchain.js
+    |       |               helpers.js
+    |       |               index.js
+    |       |               location_knowledge_base.js
+    |       |               textualy_graph.js
+    |       |               textualy_tools.js
+    |       |               
+    |       +---korvus-simple-rag
+    |       |       .env.example
+    |       |       korvus_rag.py
+    |       |       requirements.txt
+    |       |       
+    |       +---llama3-function-calling-agent
+    |       |       .env.example
+    |       |       llama3-task-agent.py
+    |       |       requirements.txt
+    |       |       
+    |       +---llm-agent-evaluation-framework
+    |       |   |   .env.example
+    |       |   |   llm-eval-chatbot.py
+    |       |   |   requirements.txt
+    |       |   |   runnable.py
+    |       |   |   
+    |       |   \---tools
+    |       |           asana_tools.py
+    |       |           google_drive_tools.py
+    |       |           vector_db_tools.py
+    |       |           
+    |       +---local-ai-packaged
+    |       |   |   .env.example
+    |       |   |   docker-compose.yml
+    |       |   |   LICENSE
+    |       |   |   Local_RAG_AI_Agent_n8n_Workflow.json
+    |       |   |   n8n_pipe.py
+    |       |   |   README.md
+    |       |   |   
+    |       |   +---assets
+    |       |   |       n8n-demo.gif
+    |       |   |       
+    |       |   +---flowise
+    |       |   |       create_google_doc-CustomTool.json
+    |       |   |       get_postgres_tables-CustomTool.json
+    |       |   |       send_slack_message_through_n8n-CustomTool.json
+    |       |   |       summarize_slack_conversation-CustomTool.json
+    |       |   |       Web Search + n8n Agent Chatflow.json
+    |       |   |       
+    |       |   +---n8n
+    |       |   |   \---backup
+    |       |   |       \---workflows
+    |       |   |               Local_RAG_AI_Agent_n8n_Workflow.json
+    |       |   |               
+    |       |   \---n8n-tool-workflows
+    |       |           Create_Google_Doc.json
+    |       |           Get_Postgres_Tables.json
+    |       |           Post_Message_to_Slack.json
+    |       |           Summarize_Slack_Conversation.json
+    |       |           
+    |       +---local-llm-tool-calling
+    |       |       .env.example
+    |       |       local-agent-with-ui.py
+    |       |       requirements.txt
+    |       |       
+    |       +---local-or-managed-llm-rag
+    |       |       LocalVSManagedLLMRAG.drawio
+    |       |       
+    |       +---local-swarm-agent
+    |       |       .env.example
+    |       |       ai-news-complete-mock-data.sql
+    |       |       ai-news-complete-tables.sql
+    |       |       load_sql_data.py
+    |       |       requirements.txt
+    |       |       run.py
+    |       |       sql_agents.py
+    |       |       
+    |       +---madlibs
+    |       |       .env.example
+    |       |       madlibs.py
+    |       |       requirements.txt
+    |       |       
+    |       +---n8n-langchain-agent
+    |       |       .env.example
+    |       |       n8n-langchain-agent.py
+    |       |       requirements.txt
+    |       |       tools.py
+    |       |       
+    |       +---n8n-langchain-agent-advanced
+    |       |       .env.example
+    |       |       n8n-langchain-agent.py
+    |       |       requirements.txt
+    |       |       runnable.py
+    |       |       tools.py
+    |       |       
+    |       +---n8n-rag-pdfs-excel
+    |       |       Supabase_RAG_AI_Agent_PDFs_Excel.json
+    |       |       
+    |       +---n8n-streamlit-agent
+    |       |       n8n-streamlit-agent-basic-auth.py
+    |       |       n8n-streamlit-agent.py
+    |       |       prompts.txt
+    |       |       requirements.txt
+    |       |       Supabase_RAG_AI_Agent_Basic_Auth.json
+    |       |       Supabase_RAG_AI_Agent_Supabase_Auth.json
+    |       |       
+    |       +---o1-ai-agent
+    |       |       .env.example
+    |       |       o1-ai-agent.py
+    |       |       requirements.txt
+    |       |       
+    |       +---pydantic-ai
+    |       |       .env.example
+    |       |       README.md
+    |       |       requirements.txt
+    |       |       streamlit_ui.py
+    |       |       web_search_agent.py
+    |       |       web_search_agent_streamlit.py
+    |       |       
+    |       +---sql-ai-agent
+    |       |       ai-news-complete-mock-data.sql
+    |       |       ai-news-complete-tables.sql
+    |       |       load_sql_data.py
+    |       |       requirements.txt
+    |       |       run.py
+    |       |       sql_agents.py
+    |       |       
+    |       +---streamlit-chatbot
+    |       |       .env.example
+    |       |       requirements.txt
+    |       |       streamlit-chatbot.py
+    |       |       
+    |       +---supabase-n8n-rag-agent
+    |       |       Supabase_RAG_AI_Agent.json
+    |       |       
+    |       \---v0-agent-frontend
+    |           |   Prompts.txt
+    |           |   Supabase_RAG_AI_Agent_n8n_Workflow.json
+    |           |   
+    |           \---v0-agent-frontend
+    |               |   .env.local.example
+    |               |   .eslintrc.json
+    |               |   .gitignore
+    |               |   components.json
+    |               |   next.config.mjs
+    |               |   package-lock.json
+    |               |   package.json
+    |               |   postcss.config.mjs
+    |               |   README.md
+    |               |   tsconfig.json
+    |               |   
+    |               +---app
+    |               |   |   favicon.ico
+    |               |   |   globals.css
+    |               |   |   layout.tsx
+    |               |   |   page.tsx
+    |               |   |   
+    |               |   +---auth
+    |               |   |   \---callback
+    |               |   \---fonts
+    |               |           GeistMonoVF.woff
+    |               |           GeistVF.woff
+    |               |           
+    |               +---components
+    |               |   |   ai-agent-chatbot.tsx
+    |               |   |   
+    |               |   \---ui
+    |               |           button.tsx
+    |               |           input.tsx
+    |               |           scroll-area.tsx
+    |               |           
+    |               \---lib
+    +---B - Diplomado IA PUC v2022
+    |   +---0 - Introducción a IA
+    |   |       Lecture-16-Introduction-to-AI.pdf
+    |   |       
+    |   +---Curso 0 - Seminario Introducción a Inteligencia Artificial y Aprendizaje de Máquina
+    |   |   \---Pdf
+    |   |           claseInicial (2).pdf
+    |   |           DeepLearningIntro.pdf
+    |   |           Intro-AI-ML (2).pdf
+    |   |           K-NN (5).pdf
+    |   |           NNs.pdf
+    |   |           
+    |   \---Curso 1 - Inteligencia Artificial I
+    |       +---Clase 10 - Optimización y Learning Rate
+    |       |       Clases Optimizacion.pptx.pdf
+    |       |       Practico_Optimizacion_Diplomado_IA.ipynb
+    |       |       
+    |       +---Clase 11 - RNN y Seq2Seq
+    |       |       Práctico_Clase_11_RNN_Alumnos.ipynb
+    |       |       
+    |       +---Clase 5 - Redes Convolucionales
+    |       |       CNNs.pdf
+    |       |       Laboratorio_Clase_5_Redes_Convolucionales_IA_vAlumnos.ipynb
+    |       |       
+    |       +---Clase 7 - Trucos CNN y PyTorch
+    |       |       CNNs_Pytorch.pdf
+    |       |       Laboratorio_2_PyTorch_Diplomado_IA_vAlumnos.ipynb
+    |       |       PyTorch.pdf
+    |       |       
+    |       +---Clase 8 -  Funciones de Pérdida, Regularización y Tareas Auxiliares
+    |       |       Clase_8.pdf
+    |       |       Practico_8.ipynb
+    |       |       
+    |       \---Clase 9 - Arquitecturas de Redes Profundas - Interpretabilidad
+    |               Clase 9 (2).pdf
+    |               Laboratorio Clase 9.ipynb
+    |               
+    +---Certificaciones
+    |       GH-300.pdf
+    |       GH-300_Guia_Estudio.pdf
+    |       GH-300_Study_Guide_Full.pdf
+    |       
+    \---web
+            index.html
+            

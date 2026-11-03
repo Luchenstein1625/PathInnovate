@@ -1,0 +1,317 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.000
+Bueno, nosotros lo que trabajamos es un modelo para tratar de predecir de forma temprana el desempeño de consultores tecnológicos a través de aprendizaje profundo.
+
+00:00:14.000 --> 00:00:23.000
+Yo trabajo en una empresa de tecnología, ya prestamos servicios tecnológicos de desarrollo software, gestión de proyectos, etc.
+
+00:00:23.000 --> 00:00:29.000
+Y ahora da raíz neuronal, efectivamente.
+
+00:00:29.000 --> 00:00:36.000
+Por tanto, el contexto se trata de un caso real de una empresa de consultoría tecnológica nacional.
+
+00:00:36.000 --> 00:00:49.000
+Tenemos interés en poder anticipar durante el proceso de contratación de los consultores o asignación a clientes el desempeño de estas personas durante el primer año en la compañía.
+
+00:00:49.000 --> 00:01:00.000
+Y actualmente el desempeño se mide a través de encuestas que se realizan a los encuestas de satisfacción o de evaluación de desempeño que se realizan a los clientes.
+
+00:01:00.000 --> 00:01:12.000
+Y que se consolidan en una calificación final, que es una variable categórica con cuatro categorías, bajo, medio, alto y sobresaliente.
+
+00:01:12.000 --> 00:01:18.000
+Y esa evaluación se ha sacado de un año de asignación al servicio.
+
+00:01:19.000 --> 00:01:34.000
+El problema a resolver es si es que es posible predecir el nivel de desempeño de un trabajador en su primer año utilizando información disponible antes y durante su incorporación a la compañía.
+
+00:01:34.000 --> 00:01:47.000
+La motivación es apoyar las decisiones de selección o asignación de clientes y es un caso, además, realista y representativo para modelos de clasificación o multiclace.
+
+00:01:48.000 --> 00:01:57.860
+La data disponible, en el caso nuestro, la data, en comparación con otros grupos, no es tan grande.
+
+00:01:57.860 --> 00:02:02.860
+Tenemos una data de 1524 registros históricos reales.
+
+00:02:02.860 --> 00:02:05.860
+Son los trabajadores incorporados.
+
+00:02:05.860 --> 00:02:13.860
+Como les comentaba hace un rato, la variable objetivo es una variable categórica con cuatro clases, bajo, medio, alto y sobresaliente.
+
+00:02:13.860 --> 00:02:26.860
+Y además contamos con variables correspondientes a antecedentes personales, antecedentes académicos, experiencia laboral previa, antecedentes propios del proceso de selección
+
+00:02:26.860 --> 00:02:34.860
+y antecedentes del cliente al cual se va a asignar al profesional que está ingresando al servicio.
+
+00:02:34.860 --> 00:02:42.860
+Son solo variables conocidas antes o durante el inicio del primer año de servicio.
+
+00:02:42.860 --> 00:02:51.860
+El data set estábular mixto y tenemos variables numéricas y variables categóricas.
+
+00:02:51.860 --> 00:02:58.860
+Desde el punto de vista del balance de clases están muy ligeramente desbalanceadas.
+
+00:02:58.860 --> 00:03:09.860
+Tenemos un 17% de los casos con clasificación baja, un 29% medio, un 25% alto y un 29% sobresaliente.
+
+00:03:10.860 --> 00:03:21.860
+Tenemos en total, luego de hacer el one-hot encoding, logramos obtener 134 features adicionales.
+
+00:03:21.860 --> 00:03:30.860
+Y con esto entendemos que tenemos un data set adecuado porque había un bajo número de valores perdidos.
+
+00:03:31.860 --> 00:03:41.860
+Las variables categóricas, además, tenían una cardinalidad bastante acotada, bastante moderada, que se puede ver en la tabla de la derecha.
+
+00:03:41.860 --> 00:03:46.860
+Y hay muy pocas correcciones aplicadas a los datos.
+
+00:03:47.860 --> 00:03:55.860
+Y la división que hicimos fue un 70% para train, un 15% para validation y un 15% para test,
+
+00:03:55.860 --> 00:04:01.860
+cuidando de que esté stratificado por clases para mantener la distribución del data.
+
+00:04:04.860 --> 00:04:15.310
+La forma de usar el problema, perdón, el tipo de problema es una clasificación multiclase.
+
+00:04:16.310 --> 00:04:22.310
+Y como modelo base, utilizamos una regresión logística multinomial,
+
+00:04:22.310 --> 00:04:27.310
+que entendemos que es un estándar para clasificaciones multiclases en datos tabulares,
+
+00:04:27.310 --> 00:04:31.310
+y es un modelo que es bastante estable e interpretable.
+
+00:04:31.310 --> 00:04:37.310
+Además, es un buen punto de comparación frente a la red neuronal que pretendemos realizar después
+
+00:04:37.310 --> 00:04:42.310
+y aprovecha correctamente las variables que ya están escaladas y la codificación one-hot.
+
+00:04:43.310 --> 00:04:51.310
+Respecto al modelo de red neuronal, estamos proponiendo una field-sorework, multi-capac,
+
+00:04:51.310 --> 00:04:54.310
+más embedding para las variables categóricas.
+
+00:04:54.310 --> 00:05:00.310
+¿Qué es esto? Porque las variables categóricas tienen una cardinalidad moderada,
+
+00:05:00.310 --> 00:05:06.310
+como veíamos hace un rato, y tenemos la intención de capturar interacciones no lineales.
+
+00:05:07.310 --> 00:05:12.310
+Y también un problema que tenemos es que el data set no es muy masivo.
+
+00:05:12.310 --> 00:05:15.310
+Tenemos alrededor de 1,500 observaciones.
+
+00:05:15.310 --> 00:05:21.310
+Y la arquitectura de la red neuronal sería una capa de entrada
+
+00:05:21.310 --> 00:05:26.310
+con las variables numéricas escaladas, las categóricas con embedding
+
+00:05:26.310 --> 00:05:31.310
+y una concatenación de variables.
+
+00:05:31.310 --> 00:05:35.310
+Luego, capas densas con una función de activación Relu
+
+00:05:35.310 --> 00:05:39.310
+y como salía una capa de enza con función de activación SoftMix.
+
+00:05:39.310 --> 00:05:43.310
+Y la función de pérdida, un sparse categorical cross-entry.
+
+00:05:43.310 --> 00:05:53.520
+Y eso sería por nuestra parte.
+
+00:05:53.520 --> 00:06:31.300
+No se escucha, no se soy yo.
+
+00:06:31.300 --> 00:06:34.300
+No se escucha nada, profesor.
+
+00:06:34.300 --> 00:06:41.290
+Ahora sí, profesor.
+
+00:06:41.290 --> 00:06:47.290
+En la tercera transparencia que tiene ahí los datos, un ejemplo de datos,
+
+00:06:47.290 --> 00:06:54.240
+en la tercera tiene un cuadro ahí con un montón de datos perdidos.
+
+00:06:54.240 --> 00:06:57.240
+Bueno, rayitas.
+
+00:06:57.240 --> 00:07:05.240
+No, no, no, ahí están viendo la pantalla.
+
+00:07:05.240 --> 00:07:08.240
+Los datos perdidos son estos de acá.
+
+00:07:08.240 --> 00:07:12.240
+Tengo cero por ciento perdido, cero por ciento perdido, cero por ciento perdido,
+
+00:07:12.240 --> 00:07:14.240
+un dos por ciento perdido.
+
+00:07:14.240 --> 00:07:17.240
+Eso no son datos, es como un resumen.
+
+00:07:17.240 --> 00:07:18.240
+Ah, ya, ya.
+
+00:07:18.240 --> 00:07:25.240
+Sí, por esta variable de residencia, tenemos un dos por ciento de datos perdidos
+
+00:07:25.240 --> 00:07:29.240
+y ahí es lo que imputamos el desconocido.
+
+00:07:29.240 --> 00:07:33.240
+De ahí, cero, cero, cero, aquí en esta institución de titulación
+
+00:07:33.240 --> 00:07:37.240
+tenemos un 1.3 por ciento y así.
+
+00:07:37.240 --> 00:07:42.240
+Al caso de esta que numérica, por ejemplo, que imputamos mediana
+
+00:07:42.240 --> 00:07:56.980
+que tenemos perdido un 1.2, etcétera.
+
+00:07:56.980 --> 00:08:03.940
+No, no se está escuchando.
+
+00:08:03.940 --> 00:08:05.940
+Yo no escucho el profe.
+
+00:08:05.940 --> 00:08:07.940
+Yo tampoco.
+
+00:08:07.940 --> 00:08:12.940
+El micrófono, de nuevo.
+
+00:08:12.940 --> 00:08:14.940
+Bueno, por el próximo.
+
+00:08:14.940 --> 00:08:17.940
+No están silenciando.
+
+00:08:17.940 --> 00:08:22.940
+Ya, no, la pregunta es qué modelo, qué modelo base van a utilizar
+
+00:08:22.940 --> 00:08:24.940
+para poder comparar las datos.
+
+00:08:24.940 --> 00:08:30.320
+Aquí está la agresión logística multimodernal.
+
+00:08:30.320 --> 00:08:34.080
+Necesito un voluntario.
+
+00:08:34.080 --> 00:08:37.330
+Alguien me puede ir abajo.
+
+00:08:37.330 --> 00:08:39.330
+¿Lo escuchamos profe?
+
+00:08:39.330 --> 00:08:40.330
+Sí, lo escuchamos profe.
+
+00:08:40.330 --> 00:08:41.330
+Sí, ahora sí.
+
+00:08:41.330 --> 00:08:43.330
+Pero puede que se corte de nuevo.
+
+00:08:43.330 --> 00:08:44.330
+Sí.
+
+00:08:44.330 --> 00:08:47.330
+De hecho, esta sala apagaba, parece que es la batería.
+
+00:08:47.330 --> 00:08:49.330
+¿Un otro profe que hable?
+
+00:08:49.330 --> 00:08:50.330
+Del otro micrófono de la sala.
+
+00:08:50.330 --> 00:08:52.330
+Sí, ahí andaba bien.
+
+00:08:52.330 --> 00:08:55.330
+Ya, bueno, ¿el modelo base cuál es entonces?
+
+00:08:55.330 --> 00:08:58.330
+Regresión logística multinomial.
+
+00:08:58.330 --> 00:09:00.330
+Ya, ok, vale.
+
+00:09:00.330 --> 00:09:02.330
+Eso era nomás.
+
+00:09:02.330 --> 00:09:07.330
+Para las personas que van a utilizar modelos multiclass
+
+00:09:07.330 --> 00:09:09.330
+tienen que tomar como modelo base.
+
+00:09:09.330 --> 00:09:12.330
+Ya estoy tratando lo que le voy a decir
+
+00:09:12.330 --> 00:09:15.330
+que las personas que están utilizando algún tipo de modelo multiclass
+
+00:09:15.330 --> 00:09:17.330
+la única alternativa como caso hace
+
+00:09:17.330 --> 00:09:22.770
+para poder comparar es una logit multiclass, ya.
+
+00:09:22.770 --> 00:09:26.770
+Se sería como la única alternativa para tener como modelo base
+
+00:09:26.770 --> 00:09:28.770
+porque no hay muchas más, ¿vale?
+
+00:09:28.770 --> 00:09:30.770
+Pero fuera de eso me parece interesante.
+
+00:09:30.770 --> 00:09:33.770
+Hay que ver, ahí tienen que hacer unas pruebas
+
+00:09:33.770 --> 00:09:36.770
+para ver que el de palaces que tienen en las distintas cuatro clases
+
+00:09:36.770 --> 00:09:40.770
+no les vaya a perturbar demasiado el desempeño.
+
+00:09:40.770 --> 00:09:45.770
+¿Y si les perturba eso, si eventualmente le está fallando
+
+00:09:45.770 --> 00:09:47.770
+tendrían que, tal vez, agrupar,
+
+00:09:47.770 --> 00:09:51.770
+un poco como lo que hicieron con el caso aquí de la línea aérea
+
+00:09:51.770 --> 00:09:57.770
+agrupar las mediciones en 1, 2, malo, 3, 4, bueno, algo así.
+
+00:09:57.770 --> 00:09:58.770
+Perfecto.
+
+00:09:58.770 --> 00:09:59.770
+Perfecto.
+

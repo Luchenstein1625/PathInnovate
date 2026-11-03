@@ -1,0 +1,5375 @@
+WEBVTT
+
+01:46:22.000 --> 01:46:31.000
+Por lo que hemos lo de nuevo en una acción.
+
+01:46:31.000 --> 01:46:35.000
+Empezamos a desplazar.
+
+01:46:35.000 --> 01:46:42.000
+Y adivinaron ya pa dónde va el ómnibus.
+
+01:46:42.000 --> 01:46:45.000
+Se desplaza, se desplaza.
+
+01:46:45.000 --> 01:46:54.000
+Aplicamos las reglas a los los únicos celdas a las que se puede aplicar son aquellas que están cambiando aquí estas rojitas.
+
+01:46:54.000 --> 01:46:57.000
+Vamos dando vuelta.
+
+01:46:57.000 --> 01:46:59.000
+Ya no los estoy sorprendiendo.
+
+01:46:59.000 --> 01:47:02.000
+Ya saben lo que viene.
+
+01:47:02.000 --> 01:47:19.000
+cuál es el fin de esta historia?
+
+01:47:19.000 --> 01:47:21.000
+Ustedes eran muy niño.
+
+01:47:21.000 --> 01:47:26.000
+Mil nueve ochenta y seis
+
+01:47:26.000 --> 01:47:33.000
+En 1986 se jugó la Copa del Mundo en México.
+
+01:47:33.000 --> 01:47:37.000
+Exactamente.
+
+01:47:37.000 --> 01:47:40.000
+Y donde se hizo famoso un fenómeno.
+
+01:47:40.000 --> 01:47:45.000
+Extraordinario que se repite hasta el día de hoy en todos los estadios del mundo.
+
+01:47:45.000 --> 01:47:47.000
+La ola .
+
+01:47:47.000 --> 01:47:50.000
+Lo que acaban de ver ustedes.
+
+01:47:50.000 --> 01:47:52.000
+Es la representación.
+
+01:47:52.000 --> 01:48:02.000
+El programa de la ola si yo le hubiera dicho al principio de la clase piensen en cómo podríamos simular la ola en el estadio nacional.
+
+01:48:02.000 --> 01:48:07.000
+Se va, me van a acusar.
+
+01:48:07.000 --> 01:48:09.000
+está pidiendo gozo imposible el viejito.
+
+01:48:09.000 --> 01:48:13.000
+Está coludido con la FIFA, con el Infantino y todo.
+
+01:48:13.000 --> 01:48:15.000
+No, este es un ejemplo.
+
+01:48:15.000 --> 01:48:19.000
+De cómo un fenómeno tan complejo como la ola.
+
+01:48:19.000 --> 01:48:22.000
+Lo podemos representar con unas reglas.
+
+01:48:22.000 --> 01:48:26.000
+última de ordinaria enferma de fáciles.
+
+01:48:26.000 --> 01:48:29.000
+Basta que lo tengamos en toda la.
+
+01:48:29.000 --> 01:48:32.000
+Bueno, la ola se hizo famosa en México ochenta y seis.
+
+01:48:32.000 --> 01:48:37.000
+Pero sólo efectos históricos no la inventaron ahí.
+
+01:48:37.000 --> 01:48:42.000
+No le cuenten esto a Donald Trump pero fue inventado en Estados Unidos.
+
+01:48:42.000 --> 01:48:45.000
+Un señor que programaba eventos.
+
+01:48:45.000 --> 01:48:49.000
+En una final de béisbol Oklahoma new York.
+
+01:48:49.000 --> 01:48:53.000
+Eh inventó esta.
+
+01:48:53.000 --> 01:48:55.000
+Esta coreografía.
+
+01:48:55.000 --> 01:49:00.000
+Eso fue en el año ochenta y uno, cinco años antes del mundial de.
+
+01:49:00.000 --> 01:49:03.000
+De México.
+
+01:49:03.000 --> 01:49:08.000
+Entonces nosotros tomamos un problema que parecía.
+
+01:49:08.000 --> 01:49:10.000
+Gigantesco
+
+01:49:10.000 --> 01:49:13.000
+Y la solución es.
+
+01:49:13.000 --> 01:49:20.000
+Si bien hoy que interesante lo tomas de celular podría representar otras cosas.
+
+01:49:20.000 --> 01:49:22.000
+Casi lo que ustedes quieran.
+
+01:49:22.000 --> 01:49:26.000
+No hay limitaciones a la potencia de este.
+
+01:49:26.000 --> 01:49:28.000
+Autómata celular.
+
+01:49:28.000 --> 01:49:30.000
+Computacionalmente hablando.
+
+01:49:30.000 --> 01:49:35.000
+Porque en el fondo, en su versión cuatro, vimos que se postula que es equivalente a la máquina de Turing
+
+01:49:35.000 --> 01:49:44.000
+Aunque no no conozco yo una demostración al respecto.
+
+01:49:44.000 --> 01:49:47.000
+Entonces aplicando reglas.
+
+01:49:47.000 --> 01:49:50.000
+Muy sencillas, nosotros podemos
+
+01:49:50.000 --> 01:49:57.000
+Empezar a generar configuraciones extrañas.
+
+01:49:57.000 --> 01:50:01.000
+Y una de las configuraciones o uno de los.
+
+01:50:01.000 --> 01:50:07.000
+Que los elementos que uno usa para ilustrar el uso de los autómatas celulares o como se produce la evolución.
+
+01:50:07.000 --> 01:50:13.000
+Son las hormigas de, de Langton.
+
+01:50:13.000 --> 01:50:16.000
+Langton naturalmente un muchacho al que se le ocurrió.
+
+01:50:16.000 --> 01:50:20.000
+cuáles eran las reglas inverté un conjunto de reglas.
+
+01:50:20.000 --> 01:50:26.000
+Para algo que él llamó sus hormigas.
+
+01:50:26.000 --> 01:50:33.000
+Unas hormigas las dejamos en un punto cualquiera de este plano en 2 dimensiones.
+
+01:50:33.000 --> 01:50:36.000
+Ivanzo en un party.
+
+01:50:36.000 --> 01:50:41.000
+Si la hormiga está parada en una celda blanca, originalmente están todas las celdas.
+
+01:50:41.000 --> 01:50:43.000
+estaba en una celda blanca.
+
+01:50:43.000 --> 01:50:46.000
+La pinta rosadita.
+
+01:50:46.000 --> 01:50:53.000
+Y gira a la derecha.
+
+01:50:53.000 --> 01:50:57.000
+Si es, sí, lo que hay.
+
+01:50:57.000 --> 01:51:00.000
+Es una celda rosadita.
+
+01:51:00.000 --> 01:51:02.000
+La pinta blanca
+
+01:51:02.000 --> 01:51:11.000
+Y se va a la izquierda.
+
+01:51:11.000 --> 01:51:13.000
+Selda blanca
+
+01:51:13.000 --> 01:51:16.000
+La pinta .
+
+01:51:16.000 --> 01:51:21.000
+Blanca la pinta rosadita.
+
+01:51:21.000 --> 01:51:24.000
+Rosadita o ya está rosadita.
+
+01:51:24.000 --> 01:51:29.000
+La pintoblanca no erika.
+
+01:51:29.000 --> 01:51:30.000
+Sí, como una hormiga buena para la broma.
+
+01:51:30.000 --> 01:51:34.000
+Se está blanca la venta rosada que está rosa la venta blanca.
+
+01:51:34.000 --> 01:51:36.000
+Y se mueve y gira.
+
+01:51:36.000 --> 01:51:39.000
+Estas reglas no son difíciles.
+
+01:51:39.000 --> 01:51:41.000
+Miren lo que pasa.
+
+01:51:41.000 --> 01:51:44.000
+Esto es lo que nosotros vamos a repetir.
+
+01:51:44.000 --> 01:51:48.000
+Con estas hormigas de langton.
+
+01:51:48.000 --> 01:51:50.000
+Perdón.
+
+01:51:50.000 --> 01:51:52.000
+Sí, claro.
+
+01:51:52.000 --> 01:51:55.000
+Es la vecina que está.
+
+01:51:55.000 --> 01:51:59.000
+En la celda donde se para, porque está en un punto.
+
+01:51:59.000 --> 01:52:02.000
+Si está blanca la pinta.
+
+01:52:02.000 --> 01:52:05.000
+Y se va a la derecha.
+
+01:52:05.000 --> 01:52:08.000
+Ese es el vecindario afectado.
+
+01:52:08.000 --> 01:52:11.000
+Yeah, y si ese vecindario está rosadito.
+
+01:52:11.000 --> 01:52:14.000
+The su acción, el próximo paso.
+
+01:52:14.000 --> 01:52:17.000
+Del rotulado completo.
+
+01:52:17.000 --> 01:52:22.000
+El color de esta cuadrícula va a cambiar en función de eso pero el color de qué.
+
+01:52:22.000 --> 01:52:25.000
+De la que está a la izquierda o la derecha.
+
+01:52:25.000 --> 01:52:33.000
+O sea, tiene un movimiento de la izquierda dependiendo del color que tenga la actual.
+
+01:52:33.000 --> 01:52:36.000
+Un vecindario así como.
+
+01:52:36.000 --> 01:52:45.000
+Sí, de vecino mal genio, con poco vecindario.
+
+01:52:45.000 --> 01:52:49.000
+Exactamente.
+
+01:52:49.000 --> 01:52:54.000
+Si yo le preguntaba si toma decisiones en función del vecindario no sólo de su.
+
+01:52:54.000 --> 01:52:56.000
+Eh Estado actual.
+
+01:52:56.000 --> 01:52:59.000
+Y el estado siguiente está determinado por el color.
+
+01:52:59.000 --> 01:53:05.000
+Del estado actual
+
+01:53:05.000 --> 01:53:08.000
+Ahí tenemos a la hormiguita.
+
+01:53:08.000 --> 01:53:11.000
+Parada en el centro del mundo.
+
+01:53:11.000 --> 01:53:14.000
+Como está blanca.
+
+01:53:14.000 --> 01:53:16.000
+La pinta rosadita.
+
+01:53:16.000 --> 01:53:19.000
+Y gira a la derecha.
+
+01:53:19.000 --> 01:53:23.000
+Como está blanca, la pinta rosadita.
+
+01:53:23.000 --> 01:53:25.000
+Y gira a la derecha.
+
+01:53:25.000 --> 01:53:29.000
+Tablanca joven, la hormiga, la pinta rosadita.
+
+01:53:29.000 --> 01:53:31.000
+A la derecha.
+
+01:53:31.000 --> 01:53:34.000
+Y ahí, como se fue a la derecha.
+
+01:53:34.000 --> 01:53:37.000
+Como está blanca, la pinta rosadita.
+
+01:53:37.000 --> 01:53:40.000
+Se va a la derecha.
+
+01:53:40.000 --> 01:53:42.000
+De aquí.
+
+01:53:42.000 --> 01:53:44.000
+está rosadita
+
+01:53:44.000 --> 01:53:49.000
+That tiene que pintar blanca y partir a la izquierda.
+
+01:53:49.000 --> 01:53:54.000
+Es esta blanca pinta rosadita y dobla a la derecha.
+
+01:53:54.000 --> 01:53:59.000
+Blanca, rosadita a la derecha.
+
+01:53:59.000 --> 01:54:05.000
+No es muy que bruto que cosa más compleja.
+
+01:54:05.000 --> 01:54:09.000
+Esas son las viciosas hormigas de Langton que nos sirven.
+
+01:54:09.000 --> 01:54:18.000
+para demostrar como operaciones fundamentales de manera acumulativa llevan estructuras interesantes como cuáles?
+
+01:54:18.000 --> 01:54:25.000
+Las primeras 10 mil iteraciones que tienen paciencia pareciera que todo esto es caótico.
+
+01:54:25.000 --> 01:54:28.000
+Pero
+
+01:54:28.000 --> 01:54:30.000
+Tarde o temprano
+
+01:54:30.000 --> 01:54:32.000
+Esto es un eventualmente británico.
+
+01:54:32.000 --> 01:54:34.000
+Tarde o temprano.
+
+01:54:34.000 --> 01:54:36.000
+Las hormigas forman un camino.
+
+01:54:36.000 --> 01:54:39.000
+Cinco mil iteraciones.
+
+01:54:39.000 --> 01:54:42.000
+Así se ven las hormigas.
+
+01:54:42.000 --> 01:54:47.000
+Caótico, ¿no?
+
+01:54:47.000 --> 01:54:52.000
+Diez mil lideraciones.
+
+01:54:52.000 --> 01:54:54.000
+Interesante, pero todavía inexplicable.
+
+01:54:54.000 --> 01:54:56.000
+Doce mil iteraciones.
+
+01:54:56.000 --> 01:55:00.000
+Ajá
+
+01:55:00.000 --> 01:55:06.000
+Se nos apareció una regularidad.
+
+01:55:06.000 --> 01:55:11.000
+Y eso se va a proyecto.
+
+01:55:11.000 --> 01:55:16.000
+Vamos a ver un ejemplo de incendios forestales después del.
+
+01:55:16.000 --> 01:55:20.000
+Que la falta de sabor que nos espera en este momento.
+
+01:55:20.000 --> 01:55:22.000
+Si nos vamos a tomar un copete.
+
+01:55:22.000 --> 01:55:25.000
+Y volvemos, hacemos una pausa.
+
+01:55:25.000 --> 01:55:33.000
+Vamos a comerciales y ya regresamos.
+
+01:55:48.000 --> 01:55:53.000
+Bien, de regreso en el mundo de los autómatas.
+
+01:55:53.000 --> 01:55:55.000
+Me escuchan los que están?
+
+01:55:55.000 --> 01:55:59.000
+En sus naves espaciales respectivas.
+
+01:55:59.000 --> 01:56:03.000
+Sí, profesor
+
+01:56:03.000 --> 01:56:04.000
+Uf.
+
+01:56:04.000 --> 01:56:16.000
+Perfecto, muchas gracias. Consultas, reclamos, dudas, urgencias.
+
+01:56:16.000 --> 01:56:19.000
+Sí.
+
+01:56:19.000 --> 01:56:21.000
+en esa imagen de soy irregular
+
+01:56:21.000 --> 01:56:26.000
+Porque no siempre eso va a depender de lo fino que se pueda detectar en general.
+
+01:56:26.000 --> 01:56:30.000
+Las imágenes con las que se trabaja son imágenes difusas.
+
+01:56:30.000 --> 01:56:34.000
+Como el tanque que les mostré en el, en el bosque.
+
+01:56:34.000 --> 01:56:37.000
+Entonces son, son aproximadas.
+
+01:56:37.000 --> 01:56:39.000
+En una.
+
+01:56:39.000 --> 01:56:43.000
+En una imagen binarizada o segmentada.
+
+01:56:43.000 --> 01:56:48.000
+Es más fácil porque tenemos tramos discretos cierto entonces un cambio es perceptible.
+
+01:56:48.000 --> 01:56:51.000
+Pero detectar un.
+
+01:56:51.000 --> 01:56:55.000
+Una diferencia de borde en una cara.
+
+01:56:55.000 --> 01:57:00.000
+entre la mejilla y el cuello puede ser muy difícil porque el color no necesariamente.
+
+01:57:00.000 --> 01:57:05.000
+Es diferente. Entonces ahí entran otros aspectos de análisis, textura.
+
+01:57:05.000 --> 01:57:10.000
+Por ejemplo .
+
+01:57:10.000 --> 01:57:14.000
+Bien, estábamos viendo estas dichosas hormigas de langton.
+
+01:57:14.000 --> 01:57:17.000
+Que son interesantes porque generan estas.
+
+01:57:17.000 --> 01:57:20.000
+Estructuras regulares o que parecen como.
+
+01:57:20.000 --> 01:57:24.000
+Como regulares aquí.
+
+01:57:24.000 --> 01:57:27.000
+Y los había amenazado.
+
+01:57:27.000 --> 01:57:34.000
+Con un ejemplo de incendios forestales.
+
+01:57:34.000 --> 01:57:38.000
+Podemos usar un autómata celular.
+
+01:57:38.000 --> 01:57:40.000
+Para simular.
+
+01:57:40.000 --> 01:57:41.000
+La acción de un incendio forestal.
+
+01:57:41.000 --> 01:57:43.000
+También a través de reglas.
+
+01:57:43.000 --> 01:57:49.000
+Simple el el incendio forestal es muy difícil de de de tratar de combatir.
+
+01:57:49.000 --> 01:57:51.000
+Se basa en.
+
+01:57:51.000 --> 01:57:54.000
+Apreciaciones eh.
+
+01:57:54.000 --> 01:57:57.000
+Bastante subjetivas.
+
+01:57:57.000 --> 01:58:03.000
+Hoy un poco menos gracias a los drones.
+
+01:58:03.000 --> 01:58:08.000
+YouTube la ocasión de trabajar en.
+
+01:58:08.000 --> 01:58:11.000
+En un sistema de combate de incendios forestales en la.
+
+01:58:11.000 --> 01:58:13.000
+Del biovigo.
+
+01:58:13.000 --> 01:58:15.000
+Donde las.
+
+01:58:15.000 --> 01:58:19.000
+Las variables de entrada eran productos de la observación.
+
+01:58:19.000 --> 01:58:22.000
+De un señor que era un torrero.
+
+01:58:22.000 --> 01:58:28.000
+Y un torrero en un viejo que vivía todo el día su pega en una torre de altura.
+
+01:58:28.000 --> 01:58:31.000
+Que se comunicaba a través de unos instrumentos muy raros.
+
+01:58:31.000 --> 01:58:33.000
+Con otros torreros.
+
+01:58:33.000 --> 01:58:39.000
+De manera de poder triangular la superficie para decir dónde estaba.
+
+01:58:39.000 --> 01:58:41.000
+El humo, cuál era la causa del humo?
+
+01:58:41.000 --> 01:58:45.000
+Y dependiendo del color del humo.
+
+01:58:45.000 --> 01:58:50.000
+Decidían si era interesante ir a atacarlo o no.
+
+01:58:50.000 --> 01:58:53.000
+Y tenían cosas mágicas para uno.
+
+01:58:53.000 --> 01:58:56.000
+Yo yo venía de un mundo más bien.
+
+01:58:56.000 --> 01:59:01.000
+Académico los únicos incendios eran los incendios de la tele.
+
+01:59:01.000 --> 01:59:04.000
+Y de los asados, claro.
+
+01:59:04.000 --> 01:59:08.000
+Pero cuando te dice un experto forestal que.
+
+01:59:08.000 --> 01:59:12.000
+Lo que se está quemando diez kilómetros más allá es.
+
+01:59:12.000 --> 01:59:15.000
+Plantación nativa
+
+01:59:15.000 --> 01:59:19.000
+Porque el humo es azul.
+
+01:59:19.000 --> 01:59:23.000
+Y después tu dices ahí hay otro humo.
+
+01:59:23.000 --> 01:59:28.000
+De plantación nativa es no, eso es una hornilla.
+
+01:59:28.000 --> 01:59:33.000
+Una hornilla es el humo que se produce cuando generan carbón.
+
+01:59:33.000 --> 01:59:36.000
+O eso es rastrojo.
+
+01:59:36.000 --> 01:59:39.000
+O eso es producto de.
+
+01:59:39.000 --> 01:59:44.000
+Están los ragosa y yo miraba y todo era azul para mí o todo era negro, humo.
+
+01:59:44.000 --> 01:59:49.000
+Entonces cuando las medidas dependen de esas cuestiones es muy complicado hoy día con los drones esto se facilita.
+
+01:59:49.000 --> 01:59:53.000
+Pero el combate al fuego es es súper complejo.
+
+01:59:53.000 --> 01:59:55.000
+Lo sufrimos todos los años.
+
+01:59:55.000 --> 01:59:59.000
+Y lo vamos a seguir sufriendo.
+
+01:59:59.000 --> 02:00:01.000
+Está que haya más recursos, claro.
+
+02:00:01.000 --> 02:00:05.000
+Entonces nosotros vamos a hacer un, un, un, un autómata.
+
+02:00:05.000 --> 02:00:09.000
+Uno toma la celular forestal.
+
+02:00:09.000 --> 02:00:11.000
+Vamos a decir que.
+
+02:00:11.000 --> 02:00:16.000
+Una celda, esto es una simplificación, naturalmente, hay mucho más estados posi
+
+02:00:16.000 --> 02:00:19.000
+Está vacía.
+
+02:00:19.000 --> 02:00:21.000
+Tiene un árbol que está sanito.
+
+02:00:21.000 --> 02:00:23.000
+O tiene un árbol que tiene fuego.
+
+02:00:23.000 --> 02:00:25.000
+Esas son nuestras.
+
+02:00:25.000 --> 02:00:29.000
+Tres estados posibles
+
+02:00:29.000 --> 02:00:32.000
+En la bacía no hay árbol.
+
+02:00:32.000 --> 02:00:37.000
+Honor O'K quiere decir que hay un árbol y está sanito.
+
+02:00:37.000 --> 02:00:41.000
+Y árbol fuego hay un árbol y está en llamas.
+
+02:00:41.000 --> 02:00:43.000
+Y en este autómata celular.
+
+02:00:43.000 --> 02:00:47.000
+Podemos representar para efectos de visualización lo que es muy cómodo.
+
+02:00:47.000 --> 02:00:51.000
+Todos estos estados por colores.
+
+02:00:51.000 --> 02:00:56.000
+Vamos a usar blanco, verde y rojo.
+
+02:00:56.000 --> 02:00:58.000
+Blanco.
+
+02:00:58.000 --> 02:01:02.000
+Right, it's awesome. No hay nada.
+
+02:01:02.000 --> 02:01:06.000
+Verde árbol sanito rojo árbol.
+
+02:01:06.000 --> 02:01:10.000
+Con llamas.
+
+02:01:10.000 --> 02:01:13.000
+Este es un bosque denso.
+
+02:01:13.000 --> 02:01:17.000
+Que está lleno de arbolitos con algunos espacios en los que.
+
+02:01:17.000 --> 02:01:29.000
+No hay arbolito.
+
+02:01:29.000 --> 02:01:33.000
+Y se nos incendian dos arbolitos.
+
+02:01:33.000 --> 02:01:40.000
+Y representamos eso de esta manera.
+
+02:01:40.000 --> 02:01:45.000
+Ahora, ok, dado esto.
+
+02:01:45.000 --> 02:01:48.000
+Lo que nos interesa a nosotros es.
+
+02:01:48.000 --> 02:01:51.000
+Analizar
+
+02:01:51.000 --> 02:01:53.000
+Evaluar, predecir
+
+02:01:53.000 --> 02:01:55.000
+cuál es el estado?
+
+02:01:55.000 --> 02:01:59.000
+De los otros árboles naturalmente cuál es el estado del bosque.
+
+02:01:59.000 --> 02:02:04.000
+De los otros actores y para eso tenemos que definir reglas.
+
+02:02:04.000 --> 02:02:07.000
+Primero la vecindad.
+
+02:02:07.000 --> 02:02:10.000
+Las celdas antomas
+
+02:02:10.000 --> 02:02:13.000
+Van a cambiar en función de sus vecinos.
+
+02:02:13.000 --> 02:02:17.000
+Por lo tanto vamos a decidir cuáles son los vecinos.
+
+02:02:17.000 --> 02:02:21.000
+Ya intuimos que los vecinos del árbol son los árboles que están alrededor.
+
+02:02:21.000 --> 02:02:27.000
+Ya intuimos también que si todos los árboles alrededor están con llama, este que está el medio solito.
+
+02:02:27.000 --> 02:02:31.000
+Tiene pocas posibilidades de salvarse.
+
+02:02:31.000 --> 02:02:32.000
+En realidad ni una.
+
+02:02:32.000 --> 02:02:36.000
+Como representamos eso.
+
+02:02:36.000 --> 02:02:39.000
+Vecindad de mudar
+
+02:02:39.000 --> 02:02:42.000
+Los ocho vecinos tres.
+
+02:02:42.000 --> 02:02:48.000
+Arriba dos a los lados tres abajo.
+
+02:02:48.000 --> 02:02:54.000
+cuáles son las reglas para actualizar nuestro autómata que represente este bosque?
+
+02:02:54.000 --> 02:02:58.000
+Son árboles, no está en llamas.
+
+02:02:58.000 --> 02:03:01.000
+Y tiene n vecinos en llamas.
+
+02:03:01.000 --> 02:03:04.000
+Estará en llamas en el próximo paso.
+
+02:03:04.000 --> 02:03:08.000
+Comprobabilidad N dividido por 8.
+
+02:03:08.000 --> 02:03:13.000
+Si los ocho vecinos están en llamas.
+
+02:03:13.000 --> 02:03:17.000
+Nos va a dar 100% de la probabilidad de que estén llamas en el paso siguiente.
+
+02:03:17.000 --> 02:03:21.000
+Pero sí exagerando sólo hay un vecino en llamas va a depender.
+
+02:03:21.000 --> 02:03:26.000
+De qué es lo que va a pasar con ese único vecino también.
+
+02:03:26.000 --> 02:03:33.000
+Si un árbol lo mantenemos en llamas durante 3 siglos de 20 es lo mismo.
+
+02:03:33.000 --> 02:03:36.000
+El árbol muere.
+
+02:03:36.000 --> 02:03:41.000
+Aquí tenemos nuestro bosque en el paso cero.
+
+02:03:41.000 --> 02:03:45.000
+Aquí están los dos árboles en llamas.
+
+02:03:45.000 --> 02:03:48.000
+Paso uno.
+
+02:03:48.000 --> 02:03:51.000
+Pero agarrando fuego el vecino.
+
+02:03:51.000 --> 02:03:55.000
+Paso dos
+
+02:03:55.000 --> 02:03:57.000
+En el paso tres.
+
+02:03:57.000 --> 02:03:59.000
+Se fijan que el.
+
+02:03:59.000 --> 02:04:02.000
+Este se quemó.
+
+02:04:02.000 --> 02:04:08.000
+lleva tres pasos se quemó así que pues quedó vacío, se están quemando esos pobres árboles.
+
+02:04:08.000 --> 02:04:10.000
+Que a su vez.
+
+02:04:10.000 --> 02:04:17.000
+Acton como cortafuegos.
+
+02:04:17.000 --> 02:04:22.000
+Podemos representar toda la evolución de un incendio A traves de estas reglas.
+
+02:04:22.000 --> 02:04:24.000
+Oh, de otras más complejas.
+
+02:04:24.000 --> 02:04:28.000
+En un bosque y visualizar cuál es el impacto.
+
+02:04:28.000 --> 02:04:30.000
+Y predecir.
+
+02:04:30.000 --> 02:04:34.000
+Porque el fuego se propaga en función de varias características que yo aquí me salté.
+
+02:04:34.000 --> 02:04:42.000
+Solo para ilustrar esto, porque un, un factor muy importante en la propagación de incendios forestales es el viento.
+
+02:04:42.000 --> 02:04:50.000
+Lo medioambiental, la temperatura, aquí hay, aquí hay varios factores.
+
+02:04:50.000 --> 02:04:54.000
+Combatir un incendio forestal es complejo y caro.
+
+02:04:54.000 --> 02:04:58.000
+Y hay ciertas reglas.
+
+02:04:58.000 --> 02:05:01.000
+Que .
+
+02:05:01.000 --> 02:05:07.000
+Uno no cree que vayan a ser usadas, pero son reglas como sociales.
+
+02:05:07.000 --> 02:05:12.000
+En los forestales se aprende una maravilla trabajando con esos mundos distintos.
+
+02:05:12.000 --> 02:05:14.000
+Por ejemplo yo no sabía.
+
+02:05:14.000 --> 02:05:17.000
+Que hay ciertas priorizaciones.
+
+02:05:17.000 --> 02:05:20.000
+Una brigada forestal debe priorizar.
+
+02:05:20.000 --> 02:05:26.000
+El salvamento obviamente de primero bosque nativo, bosque experimental que es lo más caro.
+
+02:05:26.000 --> 02:05:32.000
+Pero por sobre eso está la casa del cuidador.
+
+02:05:32.000 --> 02:05:35.000
+Espero que se queme una hectárea con tal de salvarle.
+
+02:05:35.000 --> 02:05:38.000
+Si hay muchos cuadrados a un ciudadano.
+
+02:05:38.000 --> 02:05:40.000
+Por el impacto psicológico que esto tiene.
+
+02:05:40.000 --> 02:05:45.000
+En los humanos reglas no no dichas.
+
+02:05:45.000 --> 02:05:49.000
+Nosotros desarrollamos un sistema bastante exitoso.
+
+02:05:49.000 --> 02:05:56.000
+Os dando otro tipo de técnicas también dentro de inteligencia artificial.
+
+02:05:56.000 --> 02:05:58.000
+Y armamos una presentación que tenía.
+
+02:05:58.000 --> 02:06:04.000
+Poco menos que venía Coldplay.
+
+02:06:04.000 --> 02:06:09.000
+Era una presentacion que teniamos pensada en hora y media con preguntas, respuestas.
+
+02:06:09.000 --> 02:06:11.000
+Todo lo habíamos pensado armamos.
+
+02:06:11.000 --> 02:06:15.000
+Una presentación para el gerente de una empresa forestal.
+
+02:06:15.000 --> 02:06:19.000
+Una persona que tenía muy poco tiempo y muy poco eh.
+
+02:06:19.000 --> 02:06:25.000
+O ingenio y casi nada de paciencia.
+
+02:06:25.000 --> 02:06:30.000
+Y él entró a la sala, hicieron la presentación. Bueno, ellos vienen a mostrar el sistema.
+
+02:06:30.000 --> 02:06:37.000
+Eh a ver dijo y ustedes manejan esto, este y este dato.
+
+02:06:37.000 --> 02:06:40.000
+El viento, la temperatura y el lugar donde ejerce.
+
+02:06:40.000 --> 02:06:45.000
+A ver pongan estos datos y nos dio los datos geográficos del lugar.
+
+02:06:45.000 --> 02:06:48.000
+que pasa ahí? Y nuestros sistemas
+
+02:06:48.000 --> 02:06:50.000
+Que era un prototipo.
+
+02:06:50.000 --> 02:06:55.000
+Dijo hay una palabra clave en forestre que se llama golpe único.
+
+02:06:55.000 --> 02:07:00.000
+Y golpe único significa mande hasta el cocinero si es necesario.
+
+02:07:00.000 --> 02:07:03.000
+Mándelos a todos para allá, porque ese incendio es peludos.
+
+02:07:03.000 --> 02:07:06.000
+Intro sistema dijo golpe único.
+
+02:07:06.000 --> 02:07:08.000
+El tipo se paró y dijo, "Okay."
+
+02:07:08.000 --> 02:07:10.000
+Ya muchachos.
+
+02:07:10.000 --> 02:07:12.000
+Estamos mañana.
+
+02:07:12.000 --> 02:07:14.000
+Tienen los fondos.
+
+02:07:14.000 --> 02:07:17.000
+Pa desarrollarlo.
+
+02:07:17.000 --> 02:07:22.000
+No tenía tiempo para las exquisiteces teóricas, formularios.
+
+02:07:22.000 --> 02:07:24.000
+No, este es el problema.
+
+02:07:24.000 --> 02:07:26.000
+Este es la acción que hay que tomar.
+
+02:07:26.000 --> 02:07:33.000
+Y los después supimos que él nos había dado los datos de un incendio que había padecido la empresa el año anterior.
+
+02:07:33.000 --> 02:07:37.000
+Que se habían quemado cuatrocientas hectáreas de.
+
+02:07:37.000 --> 02:07:39.000
+Bosque nativo.
+
+02:07:39.000 --> 02:07:44.000
+Maduro listo para exportar.
+
+02:07:44.000 --> 02:07:50.000
+Hay factores de todo tipo que uno en general no considera les cuento esto como anécdota porque.
+
+02:07:50.000 --> 02:07:55.000
+Nosotros dijimos pero se tiraban los pelos los viejos del año anterior me contaban.
+
+02:07:55.000 --> 02:08:00.000
+Porque bueno con cienta hectáreas es mucho dinero.
+
+02:08:00.000 --> 02:08:03.000
+Yo dije, "Pero están asegurados, tienen seguro?
+
+02:08:03.000 --> 02:08:05.000
+Claro, si el seguro va a pagar todo.
+
+02:08:05.000 --> 02:08:10.000
+Pero los árabes no nos van a volver a comprar a nosotros.
+
+02:08:10.000 --> 02:08:13.000
+Somos poco confiables.
+
+02:08:13.000 --> 02:08:17.000
+No sabía algo más que solo el efecto.
+
+02:08:17.000 --> 02:08:22.000
+Del capital y con esos mismos datos, el año anterior.
+
+02:08:22.000 --> 02:08:27.000
+La gente había decidido no atacar ese incendio.
+
+02:08:27.000 --> 02:08:30.000
+Con los mismos datos que el gerente nos dio.
+
+02:08:30.000 --> 02:08:34.000
+Si se hubiera atacado, se habría salvado 400 hectáreas.
+
+02:08:34.000 --> 02:08:41.000
+Por eso nos financió.
+
+02:08:41.000 --> 02:08:50.000
+Estos autómatas formales, los autómatas celulares, los autómatas finitos, los de pila, todos los que ustedes seguramente conocen.
+
+02:08:50.000 --> 02:08:54.000
+Preguntan o traten de responder.
+
+02:08:54.000 --> 02:08:56.000
+Que pueden hacer las máquinas?
+
+02:08:56.000 --> 02:09:04.000
+La maquina de Turing, ¿qué es lo que está más allá de las capacidades de estas máquinas?
+
+02:09:04.000 --> 02:09:06.000
+Y lo que ayudan a hacer.
+
+02:09:06.000 --> 02:09:09.000
+Como estas autómatas celulares que acabamos de ver.
+
+02:09:09.000 --> 02:09:14.000
+Que desarrollan conceptos sencillos a través de conceptos sencillos.
+
+02:09:14.000 --> 02:09:18.000
+soluciones a problemas que parecen muy complejos
+
+02:09:18.000 --> 02:09:21.000
+Y que realmente lo son.
+
+02:09:21.000 --> 02:09:27.000
+Implicaciones prácticas sí claro.
+
+02:09:27.000 --> 02:09:31.000
+Aplicaciones al mundo real.
+
+02:09:31.000 --> 02:09:37.000
+Muchas
+
+02:09:37.000 --> 02:09:40.000
+I
+
+02:09:40.000 --> 02:09:47.000
+I contado, pero va a ser muy rapidito donde usamos autómatas celulares para hacer
+
+02:09:47.000 --> 02:09:49.000
+Análisis estelar.
+
+02:09:49.000 --> 02:09:53.000
+Somos imágenes de.
+
+02:09:53.000 --> 02:09:55.000
+El observatorio alma
+
+02:09:55.000 --> 02:09:59.000
+Trabajamos con un astrónomo con varios pero con uno en particular.
+
+02:09:59.000 --> 02:10:04.000
+Un indio extraordinariamente simpático.
+
+02:10:04.000 --> 02:10:07.000
+Y él estudiaba.
+
+02:10:07.000 --> 02:10:11.000
+Temas particulares con galaxias.
+
+02:10:11.000 --> 02:10:13.000
+Como identificar.
+
+02:10:13.000 --> 02:10:16.000
+Ciertas.
+
+02:10:16.000 --> 02:10:24.000
+cierto fenómeno que en realidad la colisión de galaxias.
+
+02:10:24.000 --> 02:10:27.000
+Y la pregunta es cómo nosotros podemos
+
+02:10:27.000 --> 02:10:29.000
+O sea, retomas las celulares.
+
+02:10:29.000 --> 02:10:35.000
+Imagínese el lo importante que puede resultar ser identificar.
+
+02:10:35.000 --> 02:10:39.000
+Como dos galaxias que se acercan.
+
+02:10:39.000 --> 02:10:43.000
+Que están en, en punto de colisión.
+
+02:10:43.000 --> 02:10:47.000
+Y deducir en base a esas proyecciones.
+
+02:10:47.000 --> 02:10:49.000
+Usando autómatas celulares.
+
+02:10:49.000 --> 02:10:52.000
+cuáles son las reglas de desplazamiento?
+
+02:10:52.000 --> 02:11:01.000
+Para ver en qué momento se va a producir esto.
+
+02:11:01.000 --> 02:11:03.000
+Yo soy abuelo.
+
+02:11:03.000 --> 02:11:09.000
+Le conté a mi nieto que nosotros con la, la Vía Láctea con la galaxia Andrómeda estamos en curso de colisión.
+
+02:11:09.000 --> 02:11:14.000
+Y que en unos tres millones de años más o menos vamos a chocar.
+
+02:11:14.000 --> 02:11:17.000
+Casi la cara de preocupado.
+
+02:11:17.000 --> 02:11:21.000
+Pero después le dije que ibamos a estar viejo pa ese entonces así que no iba a importar tanto.
+
+02:11:21.000 --> 02:11:24.000
+Eso lo calmó bastante.
+
+02:11:24.000 --> 02:11:27.000
+Pero podemos usar esto.
+
+02:11:27.000 --> 02:11:30.000
+Para analizar cómo.
+
+02:11:30.000 --> 02:11:32.000
+Se va a desplazar.
+
+02:11:32.000 --> 02:11:36.000
+Cuerpo celeste
+
+02:11:36.000 --> 02:11:39.000
+Tenemos todas las ecuaciones de la física.
+
+02:11:39.000 --> 02:11:42.000
+Para ver cómo se comporta un cometa.
+
+02:11:42.000 --> 02:11:46.000
+Esto no es pura ecuación física.
+
+02:11:46.000 --> 02:11:49.000
+Han escuchado que de repente dicen que un meteorito va a pasar cerca de.
+
+02:11:49.000 --> 02:11:53.000
+Y después resulta que va a empezar a perder masa.
+
+02:11:53.000 --> 02:11:59.000
+Y por lo tanto sus velocidades todas sus condiciones gravitatorias cambian.
+
+02:11:59.000 --> 02:12:02.000
+Y se aleja habitualmente.
+
+02:12:02.000 --> 02:12:04.000
+Hasta ahora no se han acercado.
+
+02:12:04.000 --> 02:12:06.000
+Todo eso es proyección.
+
+02:12:06.000 --> 02:12:12.000
+Y proyección en lo que vimos con los autómatas celulares proyectamos cómo se va a quemar el bosque.
+
+02:12:12.000 --> 02:12:14.000
+Proyectamos cómo se iba a parar.
+
+02:12:14.000 --> 02:12:19.000
+La gente en el estadio en la ola.
+
+02:12:19.000 --> 02:12:21.000
+Predecimos cosas.
+
+02:12:21.000 --> 02:12:24.000
+Lo mismo que hace chat G P D.
+
+02:12:24.000 --> 02:12:31.000
+Pero de manera según yo un poco más entretenida.
+
+02:12:31.000 --> 02:12:35.000
+Creo que uno toma el celular un computador paralelo es un computador que está actuando.
+
+02:12:35.000 --> 02:12:37.000
+Sobre todas las celdas.
+
+02:12:37.000 --> 02:12:43.000
+Al mismo tiempo, cada celda es un procesador.
+
+02:12:43.000 --> 02:12:45.000
+Que actúa sobre ella. Computa.
+
+02:12:45.000 --> 02:12:48.000
+Evalúa el entorno.
+
+02:12:48.000 --> 02:12:55.000
+Gener un resultado.
+
+02:12:55.000 --> 02:12:58.000
+Los procesadores están asociados a las celdas.
+
+02:12:58.000 --> 02:13:02.000
+Como se conectan a través de una vecindad.
+
+02:13:02.000 --> 02:13:08.000
+Esa vecindad que se da en la cuadrícula que les he estado hablando, esta ojo cuadriculada.
+
+02:13:08.000 --> 02:13:20.000
+Una vez más autómata celular de una dimensión autómata celular de dos dimensiones así se ve.
+
+02:13:20.000 --> 02:13:25.000
+El grado de interconexiones es relevante en general es una matriz unidimensional.
+
+02:13:25.000 --> 02:13:27.000
+Pero estos en caso ya.
+
+02:13:27.000 --> 02:13:32.000
+Por ejemplo, el análisis estelar, sí, tiene que hacerse 3 dimensiones.
+
+02:13:32.000 --> 02:13:36.000
+Nosotros podemos jugar en, en dos dimensiones.
+
+02:13:36.000 --> 02:13:39.000
+Cada celda tiene uno de varios estados, el conjunto.
+
+02:13:39.000 --> 02:13:41.000
+de estados cu.
+
+02:13:41.000 --> 02:13:44.000
+Son todo esto es posible.
+
+02:13:44.000 --> 02:13:46.000
+Que puede tener una celda?
+
+02:13:46.000 --> 02:13:56.000
+En el cuando partimos preparándonos para el dieciocho nuestro autómata celular tenía tres estados posibles blanco, azul y rojo.
+
+02:13:56.000 --> 02:14:02.000
+En el caso de la ola tenía dos estados posibles tipo está parado está sentadito.
+
+02:14:02.000 --> 02:14:07.000
+Nos saltamos el proceso de se está hablando, no, ¿para qué?
+
+02:14:07.000 --> 02:14:11.000
+Los modelos simplifican la vida, no la compliquen.
+
+02:14:11.000 --> 02:14:15.000
+Nosotros tenemos que hacer abstracciones, es decir, suponer cosas.
+
+02:14:15.000 --> 02:14:20.000
+Y saltarnos estas complicaciones a y que pasa si la vieja que está al lado no se quiere parar.
+
+02:14:20.000 --> 02:14:22.000
+Y no haremos lo.
+
+02:14:22.000 --> 02:14:26.000
+Esa es la forma de resolver los problemas.
+
+02:14:26.000 --> 02:14:29.000
+Este espacio.
+
+02:14:29.000 --> 02:14:33.000
+Que tiene este autómata?
+
+02:14:33.000 --> 02:14:39.000
+Es el espacio de celda del autómata este grafo.
+
+02:14:39.000 --> 02:14:43.000
+Eh eso me lo voy a ir saltando porque.
+
+02:14:43.000 --> 02:14:46.000
+Es una descripción más bien teórica de lo que.
+
+02:14:46.000 --> 02:14:50.000
+Lo que he estado hablando hasta aquí es la.
+
+02:14:50.000 --> 02:14:54.000
+Es el tipo de describe la conectividad.
+
+02:14:54.000 --> 02:14:58.000
+De cada celda con el resto.
+
+02:14:58.000 --> 02:15:02.000
+The lo que interesa es que la configuración completa
+
+02:15:02.000 --> 02:15:07.000
+El mapa completo de esta transición que yo hago lo bueno es que la hago para él lo van a toda la celda.
+
+02:15:07.000 --> 02:15:11.000
+Es me da el nuevo estado del autómata.
+
+02:15:11.000 --> 02:15:15.000
+Lo que interesa lo relevante es esto.
+
+02:15:15.000 --> 02:15:18.000
+Una computación.
+
+02:15:18.000 --> 02:15:21.000
+Dental autómata celular es un proceso.
+
+02:15:21.000 --> 02:15:24.000
+Local el local a la celda.
+
+02:15:24.000 --> 02:15:26.000
+Depende del estado de la celda.
+
+02:15:26.000 --> 02:15:30.000
+Y de sus vecinos, claro.
+
+02:15:30.000 --> 02:15:32.000
+Por lo tanto siempre.
+
+02:15:32.000 --> 02:15:34.000
+Dependiendo el problema definimos.
+
+02:15:34.000 --> 02:15:38.000
+Vecindad
+
+02:15:38.000 --> 02:15:43.000
+Y los vecinos son todos los que están a una cierta distancia de la celda de interés.
+
+02:15:43.000 --> 02:15:47.000
+Como les decía puede ser von Neumann muy extendido.
+
+02:15:47.000 --> 02:15:54.000
+Va a depender de la naturaleza de nuestro problema.
+
+02:15:54.000 --> 02:15:57.000
+Cuando se habla de migraciones, por ejemplo.
+
+02:15:57.000 --> 02:16:01.000
+Cuando se estudian los movimientos migratorios.
+
+02:16:01.000 --> 02:16:03.000
+Eh.
+
+02:16:03.000 --> 02:16:06.000
+La vecindad suele ser más amplia.
+
+02:16:06.000 --> 02:16:10.000
+Que eh una distancia uno o dos.
+
+02:16:10.000 --> 02:16:13.000
+Que estamos hablando de masas importantes que se.
+
+02:16:13.000 --> 02:16:17.000
+Desplaza.
+
+02:16:17.000 --> 02:16:19.000
+Maquina de estado finito simple.
+
+02:16:19.000 --> 02:16:25.000
+Hay una función de de transición, la delta que describe.
+
+02:16:25.000 --> 02:16:32.000
+Cada función de transición, que son nuestras reglas, describen cómo se va a generar ese cambio.
+
+02:16:32.000 --> 02:16:34.000
+Veamos
+
+02:16:34.000 --> 02:16:42.000
+Un poquito más técnicamente la dinámica de un autómata celular de una sola dimensión.
+
+02:16:42.000 --> 02:16:45.000
+Esta transición el delta D
+
+02:16:45.000 --> 02:16:49.000
+Que afecta a estas celdas.
+
+02:16:49.000 --> 02:16:52.000
+Depende de la que está al lado.
+
+02:16:52.000 --> 02:16:55.000
+Derecho y de la que está al lado izquierdo.
+
+02:16:55.000 --> 02:16:58.000
+Como en la ola en el estadio.
+
+02:16:58.000 --> 02:17:00.000
+Y esa nos va.
+
+02:17:00.000 --> 02:17:03.000
+El valor siguiente que tiene la celda.
+
+02:17:03.000 --> 02:17:06.000
+Ahí está descrito más formalmente.
+
+02:17:06.000 --> 02:17:08.000
+Una función de transición que tiene.
+
+02:17:08.000 --> 02:17:11.000
+Que es argumenta definí la vecindad de uno.
+
+02:17:11.000 --> 02:17:13.000
+Por si acaso
+
+02:17:13.000 --> 02:17:16.000
+El que está atrás.
+
+02:17:16.000 --> 02:17:18.000
+El valor el valor de sí misma.
+
+02:17:18.000 --> 02:17:20.000
+Y el valor de la que está al otro lado.
+
+02:17:20.000 --> 02:17:23.000
+Eso es lo que estoy explicando aquí.
+
+02:17:23.000 --> 02:17:25.000
+Nada más
+
+02:17:25.000 --> 02:17:27.000
+Ahora, ¿cómo defino eso?
+
+02:17:27.000 --> 02:17:32.000
+Puedo hacerlo como en con el incendio de los árboles o como la ola del estadio?
+
+02:17:32.000 --> 02:17:36.000
+Fíjense que aquí hay una regla interesante.
+
+02:17:36.000 --> 02:17:41.000
+Es una manera de expresar como una tabla si yo tengo esta configuración.
+
+02:17:41.000 --> 02:17:45.000
+Esta es la celda de interés, tengo una hacia adelante y una hacia atrás.
+
+02:17:45.000 --> 02:17:47.000
+Esto es mono dimensional.
+
+02:17:47.000 --> 02:17:49.000
+Si yo tengo.
+
+02:17:49.000 --> 02:17:53.000
+Y como una tabla puedo inventar esa tabla.
+
+02:17:53.000 --> 02:17:56.000
+Si yo tengo una configuración que es cero cero cero.
+
+02:17:56.000 --> 02:18:01.000
+Entonces digo que después de la transición en el paso siguiente.
+
+02:18:01.000 --> 02:18:03.000
+Esta celda
+
+02:18:03.000 --> 02:18:05.000
+a valer uno.
+
+02:18:05.000 --> 02:18:07.000
+manteniendo el 0 y 0
+
+02:18:07.000 --> 02:18:12.000
+Esta celda que tiene un cero a la izquierda y uno a la derecha va a mantener el cero.
+
+02:18:12.000 --> 02:18:17.000
+Este que tiene un uno y dos cero va a ser un cero.
+
+02:18:17.000 --> 02:18:19.000
+Y así describo.
+
+02:18:19.000 --> 02:18:21.000
+Para cada trío.
+
+02:18:21.000 --> 02:18:23.000
+cuál es el valor siguiente?
+
+02:18:23.000 --> 02:18:26.000
+Irtricamente hablando, debí poner aquí.
+
+02:18:26.000 --> 02:18:28.000
+0 0 0 0 1 0.
+
+02:18:28.000 --> 02:18:31.000
+Pero queda más claro o.
+
+02:18:31.000 --> 02:18:34.000
+Prestendía enfatizar el hecho de que esta es la que cambia.
+
+02:18:34.000 --> 02:18:37.000
+Este es la que cambia, esta es la elegida.
+
+02:18:37.000 --> 02:18:41.000
+Si tengo puros uno la del medio se va a transformar en cero.
+
+02:18:41.000 --> 02:18:47.000
+Después de aplicar esta regla.
+
+02:18:47.000 --> 02:18:59.000
+Entonces esa regla, esa definición de realidad son 8 reglas.
+
+02:18:59.000 --> 02:19:01.000
+Con esas reglas.
+
+02:19:01.000 --> 02:19:04.000
+Si yo tengo este autómata en la iteración cero.
+
+02:19:04.000 --> 02:19:07.000
+Tengo esto de aquí.
+
+02:19:07.000 --> 02:19:11.000
+En la iteración siguiente tengo eso.
+
+02:19:11.000 --> 02:19:17.000
+Que no me dice mucho, no lo estoy usando para que me diga nada sino para mostrar simplemente que hay.
+
+02:19:17.000 --> 02:19:19.000
+Una posibilidad de.
+
+02:19:19.000 --> 02:19:23.000
+Transformación a través de las distintas iteraciones.
+
+02:19:23.000 --> 02:19:27.000
+Que he puesto aquí, entonces esta configuración.
+
+02:19:27.000 --> 02:19:29.000
+Es distinta de esta configuración.
+
+02:19:29.000 --> 02:19:33.000
+Lo único que hice fue seguir las reglas que están allí.
+
+02:19:33.000 --> 02:19:38.000
+Este, en blanco es un 0 y este rojito es un 1.
+
+02:19:38.000 --> 02:19:40.000
+Después lo pueden revisar, eso mismo.
+
+02:19:40.000 --> 02:19:46.000
+Vaya obligando esa regla.
+
+02:19:46.000 --> 02:19:52.000
+Tal como las redes de tienen una quintupla, o sea, un algebra con cuatro elementos.
+
+02:19:52.000 --> 02:19:56.000
+Nuestro autómata es una cuádruple que tiene.
+
+02:19:56.000 --> 02:20:00.000
+4 elementos y cuáles son?
+
+02:20:00.000 --> 02:20:01.000
+El grafo de interconexión.
+
+02:20:01.000 --> 02:20:08.000
+Que el evento están conectados con cuales porque dije una cuadrícula, pero en términos reales es un grafo.
+
+02:20:08.000 --> 02:20:10.000
+Donde no todos son vecinos.
+
+02:20:10.000 --> 02:20:13.000
+O la, o la vecindad está dada.
+
+02:20:13.000 --> 02:20:17.000
+Como nosotros la vimos en el problema del vendedor viajero.
+
+02:20:17.000 --> 02:20:20.000
+Un conjunto de estados.
+
+02:20:20.000 --> 02:20:23.000
+Una vecindad.
+
+02:20:23.000 --> 02:20:27.000
+Y una dinámica local o la dinámica local la regla delta.
+
+02:20:27.000 --> 02:20:29.000
+Like, dado una configuración.
+
+02:20:29.000 --> 02:20:31.000
+Me genera una configuración siguiente.
+
+02:20:31.000 --> 02:20:33.000
+Una función de transición.
+
+02:20:33.000 --> 02:20:41.000
+Eso es un automata celular.
+
+02:20:41.000 --> 02:20:42.000
+Esta
+
+02:20:42.000 --> 02:20:44.000
+Esta transición
+
+02:20:44.000 --> 02:20:48.000
+Nos dice exactamente qué es lo que pasa en cada.
+
+02:20:48.000 --> 02:20:55.000
+Celda de nuestro autómata.
+
+02:20:55.000 --> 02:20:56.000
+La imagen completa.
+
+02:20:56.000 --> 02:21:00.000
+Es el resultado de la transición de cada celda.
+
+02:21:00.000 --> 02:21:03.000
+Esa es la dinámica global es como se ve la.
+
+02:21:03.000 --> 02:21:08.000
+La matriz después que todas las celdas han sido afectadas.
+
+02:21:08.000 --> 02:21:11.000
+Como se fue desplazando la gente en la hora en el estadio.
+
+02:21:11.000 --> 02:21:17.000
+¿Cómo se fue desplazando el fuego en nuestro bosque?
+
+02:21:17.000 --> 02:21:20.000
+Tenemos un conjunto de configuraciones.
+
+02:21:20.000 --> 02:21:25.000
+Una transición toma un automata celular y lo que genera es otro autómata celular.
+
+02:21:25.000 --> 02:21:27.000
+Decir otra matriz.
+
+02:21:27.000 --> 02:21:35.000
+Un de otros valores, eso es todo.
+
+02:21:35.000 --> 02:21:38.000
+Cuando tenemos todas las celdas cambiadas.
+
+02:21:38.000 --> 02:21:44.000
+Lo que tenemos en esta dinámica global.
+
+02:21:44.000 --> 02:21:47.000
+Es el cambio completo de la configuración del autómata.
+
+02:21:47.000 --> 02:21:50.000
+Desde el Estado T al estado T+ 1.
+
+02:21:50.000 --> 02:21:58.000
+Eso es una computación global.
+
+02:21:58.000 --> 02:22:01.000
+Y esta dinámica global.
+
+02:22:01.000 --> 02:22:03.000
+Depende
+
+02:22:03.000 --> 02:22:05.000
+De la transformación.
+
+02:22:05.000 --> 02:22:08.000
+De cada celda localmente.
+
+02:22:08.000 --> 02:22:14.000
+Nada más.
+
+02:22:14.000 --> 02:22:16.000
+Recuerden que es lo que tenía aquí.
+
+02:22:16.000 --> 02:22:20.000
+Esta transformación global para todos los y.
+
+02:22:20.000 --> 02:22:24.000
+Es todo el conjunto de transformaciones.
+
+02:22:24.000 --> 02:22:28.000
+Considerando cada equis I.
+
+02:22:28.000 --> 02:22:33.000
+Que toma a su vez el vecino de adelante y el vecino que está atrás en un autómata lineal.
+
+02:22:33.000 --> 02:22:36.000
+De una dimensión para no.
+
+02:22:36.000 --> 02:22:38.000
+Enredarlo más.
+
+02:22:38.000 --> 02:22:42.000
+Bueno, aquí están las iteraciones sucesivas, se describe de esa manera.
+
+02:22:42.000 --> 02:22:45.000
+Una forma de una anotación nada más.
+
+02:22:45.000 --> 02:22:48.000
+Entonces.
+
+02:22:48.000 --> 02:22:54.000
+El cambio en el tiempo de una estructura celular.
+
+02:22:54.000 --> 02:22:56.000
+No es otra cosa.
+
+02:22:56.000 --> 02:23:02.000
+Que el cálculo del ciclo completo de transformaciones de cada celda.
+
+02:23:02.000 --> 02:23:06.000
+Tenemos nuestro mundo, que es una matriz de dos dimensiones.
+
+02:23:06.000 --> 02:23:09.000
+Sobre la cual vamos a explicar a cada celda una transformación.
+
+02:23:09.000 --> 02:23:13.000
+Cuando terminamos de hacer eso, terminamos se hacen en paralelo.
+
+02:23:13.000 --> 02:23:22.000
+Lo que tenemos es o el estado siguiente.
+
+02:23:22.000 --> 02:23:26.000
+Se imaginarán que uno tomas en tres dimensiones algo bastante más.
+
+02:23:26.000 --> 02:23:27.000
+Desagradable de tratar.
+
+02:23:27.000 --> 02:23:32.000
+No nos vamos a meter en esas historias.
+
+02:23:32.000 --> 02:23:34.000
+Eh .
+
+02:23:34.000 --> 02:23:37.000
+Aquí ya sería medio difícil.
+
+02:23:37.000 --> 02:23:41.000
+Pero algunos efectos.
+
+02:23:41.000 --> 02:23:45.000
+Sin embargo, puede resultar interesante.
+
+02:23:45.000 --> 02:23:48.000
+En términos de análisis estructurales.
+
+02:23:48.000 --> 02:23:51.000
+Han visto seguramente.
+
+02:23:51.000 --> 02:23:54.000
+La dinámica de movimiento.
+
+02:23:54.000 --> 02:23:56.000
+De los edificios altos .
+
+02:23:56.000 --> 02:24:01.000
+En ciudades como Tokio donde hay sismos importante.
+
+02:24:01.000 --> 02:24:04.000
+Solen mostrar los análisis posteriores.
+
+02:24:04.000 --> 02:24:08.000
+Como hay puntos en los cuales se detecte una debilidad.
+
+02:24:08.000 --> 02:24:11.000
+Porque la propagación o la transformación.
+
+02:24:11.000 --> 02:24:16.000
+Dada el el entorno de un punto, resulta ser crítica.
+
+02:24:16.000 --> 02:24:22.000
+Bueno, se puede tratar como con métodos de elementos finito, los mecánicos usan mucho eso.
+
+02:24:22.000 --> 02:24:31.000
+Pero también lo podemos tratar usando autómata celulares.
+
+02:24:31.000 --> 02:24:36.000
+Este es un autómata, no me voy a meter en código porque si ustedes quieren lo ven.
+
+02:24:36.000 --> 02:24:40.000
+Lo lo ejecutan, pero este
+
+02:24:40.000 --> 02:24:42.000
+Es un autómata celular.
+
+02:24:42.000 --> 02:24:45.000
+De una sola dimensión.
+
+02:24:45.000 --> 02:24:50.000
+Que se llama regla treinta y luego van a saber por qué se llama regla treinta.
+
+02:24:50.000 --> 02:24:53.000
+Es una.
+
+02:24:53.000 --> 02:24:56.000
+Una creatividad de.
+
+02:24:56.000 --> 02:25:07.000
+De los muchachos que estaban trabajando con estos autónomas.
+
+02:25:07.000 --> 02:25:09.000
+Si nosotros tenemos un autómata celular.
+
+02:25:09.000 --> 02:25:17.000
+Lo que descubrieron estos niños es que hay diferentes reglas que eran distintos comportamientos.
+
+02:25:17.000 --> 02:25:20.000
+Podemos ajustar.
+
+02:25:20.000 --> 02:25:23.000
+Cuántas generaciones? ¿Cuántos ciclos vamos a aplicar?
+
+02:25:23.000 --> 02:25:33.000
+Y cuál es el largo de nuestro tomate celular?
+
+02:25:33.000 --> 02:25:38.000
+Eh no no lo voy a no lo voy a seguir.
+
+02:25:38.000 --> 02:25:42.000
+Pero es este código lo pueden probar.
+
+02:25:42.000 --> 02:25:46.000
+Genera distintas líneas no automata celular.
+
+02:25:46.000 --> 02:25:49.000
+Donde lo van a ver evolucionar.
+
+02:25:49.000 --> 02:25:52.000
+Aquí está el código completo la.
+
+02:25:52.000 --> 02:25:55.000
+La línea inicial del autómata, las generaciones.
+
+02:25:55.000 --> 02:25:59.000
+Que es lo que va pasando generación a generación.
+
+02:25:59.000 --> 02:26:04.000
+Hace evolucionar durante diez generaciones es un arreglo de longitud veintiuno.
+
+02:26:04.000 --> 02:26:07.000
+Y se aplica lo que.
+
+02:26:07.000 --> 02:26:11.000
+Luego van, van a saber por qué se llama regla treinta.
+
+02:26:11.000 --> 02:26:13.000
+que bien entretenida la forma.
+
+02:26:13.000 --> 02:26:16.000
+Y esto es el autómata.
+
+02:26:16.000 --> 02:26:19.000
+Del código.
+
+02:26:19.000 --> 02:26:21.000
+Esto es lo que tenemos.
+
+02:26:21.000 --> 02:26:25.000
+Este es nuestra configuración inicial.
+
+02:26:25.000 --> 02:26:36.000
+Como evoluciona este autómata.
+
+02:26:36.000 --> 02:26:39.000
+Es periódico.
+
+02:26:39.000 --> 02:26:45.000
+Fíjense que el autómata va a hacer esto.
+
+02:26:45.000 --> 02:26:49.000
+Con ese código a través de una regla muy sencilla.
+
+02:26:49.000 --> 02:26:51.000
+Yo puedo empezar.
+
+02:26:51.000 --> 02:26:55.000
+Agilizar cosas bastante interesantes
+
+02:26:55.000 --> 02:27:01.000
+Pero solamente lo pongo ahí como elemento introductorio.
+
+02:27:01.000 --> 02:27:04.000
+Para mostrar lo que viene en términos de.
+
+02:27:04.000 --> 02:27:09.000
+Que es lo que puedo hacer yo con un autómata celular?
+
+02:27:09.000 --> 02:27:11.000
+Tenemos un valor de partida.
+
+02:27:11.000 --> 02:27:14.000
+Si tenemos cero uno cada celda es cero o uno.
+
+02:27:14.000 --> 02:27:18.000
+En general podemos usar colores.
+
+02:27:18.000 --> 02:27:25.000
+Cada celda, por supuesto está asociada a la regla de transición.
+
+02:27:25.000 --> 02:27:27.000
+Como va bajando los colores?
+
+02:27:27.000 --> 02:27:31.000
+Ah, si el de lado blanquito, entonces ahora este es negro y el otro es blanco.
+
+02:27:31.000 --> 02:27:33.000
+Negro, va a crecer.
+
+02:27:33.000 --> 02:27:37.000
+hasta llegue un punto como en las hormigas de Langton.
+
+02:27:37.000 --> 02:27:44.000
+En que bueno si el negro entonces se va a transformar en blanco y vamos a volver al estado inicial y tenemos un autómata cíclico.
+
+02:27:44.000 --> 02:27:46.000
+Hay distintos autómatas.
+
+02:27:46.000 --> 02:27:50.000
+Por supuesto.
+
+02:27:50.000 --> 02:27:51.000
+Esto va pasando.
+
+02:27:51.000 --> 02:27:56.000
+Con la regla treinta.
+
+02:27:56.000 --> 02:28:00.000
+Tenemos cuatro celdas en estado uno.
+
+02:28:00.000 --> 02:28:05.000
+De por él pasó uno después del paso dos.
+
+02:28:05.000 --> 02:28:07.000
+Una celda.
+
+02:28:07.000 --> 02:28:13.000
+Negra permanece negra si hay dos o tres vecinos negros.
+
+02:28:13.000 --> 02:28:17.000
+Una celda cambia negra si tiene tres vecinas negras.
+
+02:28:17.000 --> 02:28:42.000
+Si no cambia blanca.
+
+02:28:42.000 --> 02:28:46.000
+Se está ese un ciclo.
+
+02:28:46.000 --> 02:28:49.000
+Y se estabilice bueno aquí tengo diez generaciones.
+
+02:28:49.000 --> 02:28:53.000
+Y empiezo a repetir, empieza a repetir.
+
+02:28:53.000 --> 02:29:03.000
+Entonces empiezan a generar patrones regulares.
+
+02:29:03.000 --> 02:29:06.000
+Cada Zelda tiene ocho.
+
+02:29:06.000 --> 02:29:09.000
+El transición en tiempos discretos.
+
+02:29:09.000 --> 02:29:12.000
+Cada estado es un color.
+
+02:29:12.000 --> 02:29:17.000
+Cuando se aplica a todas las reglas próximo estado se genera a partir de la actual.
+
+02:29:17.000 --> 02:29:21.000
+Now, esta es la forma en que yo genero el nuevo estado que ya le hemos visto.
+
+02:29:21.000 --> 02:29:26.000
+En los sistemas dinámicos.
+
+02:29:26.000 --> 02:29:30.000
+Ciertos puntos exhiben algunas propiedades interesantes.
+
+02:29:30.000 --> 02:29:35.000
+Los sistemas dinámicos son sistemas complejos.
+
+02:29:35.000 --> 02:29:41.000
+Muchas veces hay un punto en el dominio de la función que se llama atractor, sí y solo sí.
+
+02:29:41.000 --> 02:29:44.000
+Hay una vecindad tal.
+
+02:29:44.000 --> 02:29:46.000
+Cierto que tienden.
+
+02:29:46.000 --> 02:29:49.000
+A atraer a ciertos puntos.
+
+02:29:49.000 --> 02:29:52.000
+De la misma forma en el espacio pueden generarse.
+
+02:29:52.000 --> 02:29:55.000
+Rebelentes
+
+02:29:55.000 --> 02:29:57.000
+Now, de una vecindad
+
+02:29:57.000 --> 02:30:00.000
+que un punto que se acerque.
+
+02:30:00.000 --> 02:30:03.000
+Tiende a escaparse.
+
+02:30:03.000 --> 02:30:05.000
+Lo podemos simular en un autómata.
+
+02:30:05.000 --> 02:30:08.000
+Saben quién hace eso?
+
+02:30:08.000 --> 02:30:12.000
+La bacteria.
+
+02:30:12.000 --> 02:30:14.000
+Tenemos un dominio.
+
+02:30:14.000 --> 02:30:18.000
+La bacterias tienden a acercarse a los atractores.
+
+02:30:18.000 --> 02:30:21.000
+Fuentes de glucosa y a escapar.
+
+02:30:21.000 --> 02:30:28.000
+De los rebeldes el fenol.
+
+02:30:28.000 --> 02:30:32.000
+cuál es la gracia de estudiar sistemas dinámicos?
+
+02:30:32.000 --> 02:30:36.000
+Predecir comportamiento a largo plazo.
+
+02:30:36.000 --> 02:30:40.000
+Da un punto inicial.
+
+02:30:40.000 --> 02:30:45.000
+Bueno, ya por el año 55, unos viejos en Canadá se preguntaron.
+
+02:30:45.000 --> 02:30:51.000
+que iba a pasar con la evolución de los salmones?
+
+02:30:51.000 --> 02:30:57.000
+No de que a fin de mes no el otro año no, cinco en diez, en veinticinco años.
+
+02:30:57.000 --> 02:31:00.000
+Eso es un sistema complejo.
+
+02:31:00.000 --> 02:31:04.000
+Pero es un sistema evolutivo un sistema que tiene reglas.
+
+02:31:04.000 --> 02:31:07.000
+Que sabemos cómo se van a comportar.
+
+02:31:07.000 --> 02:31:09.000
+Y eso les permitió.
+
+02:31:09.000 --> 02:31:19.000
+llegar a determinar cuáles son las masas críticas que establecen puntos de equilibrio para evitar un deterioro O un colapso total del medio ambiente.
+
+02:31:19.000 --> 02:31:23.000
+Nos permite identificar puntos interesantes.
+
+02:31:23.000 --> 02:31:25.000
+Ah, aquí podemos hacer tal cosa.
+
+02:31:25.000 --> 02:31:35.000
+Podemos intervenir en aquellos sectores que nos interesan.
+
+02:31:35.000 --> 02:31:44.000
+Cuando un sistema dinámico simple la predicción del comportamiento sintótico es simple.
+
+02:31:44.000 --> 02:31:48.000
+A veces, lamentablemente simple.
+
+02:31:48.000 --> 02:31:51.000
+Quiero decir, si no tomamos medidas drásticas.
+
+02:31:51.000 --> 02:31:55.000
+O no se genera un cambio importante sabemos que los glaciares van a perder.
+
+02:31:55.000 --> 02:31:57.000
+Eh masa.
+
+02:31:57.000 --> 02:32:05.000
+En los próximos años, entonces asintóticamente ya hay predicciones que dicen para el año dos mil sesenta tal glaciar se va a haber recogido tantos metros.
+
+02:32:05.000 --> 02:32:12.000
+No está siendo así en todo el mundo, en todo caso, pero es interesante como vos, como proyección.
+
+02:32:12.000 --> 02:32:15.000
+Hay otros que se puede predecir.
+
+02:32:15.000 --> 02:32:17.000
+Muy poquito .
+
+02:32:17.000 --> 02:32:19.000
+Son sistemas.
+
+02:32:19.000 --> 02:32:22.000
+Que tienen tal nivel de complejidad que apenas puedo yo.
+
+02:32:22.000 --> 02:32:25.000
+Predecir un par de pasos a futuro.
+
+02:32:25.000 --> 02:32:29.000
+Estos sistemas complejos.
+
+02:32:29.000 --> 02:32:32.000
+Se llaman caóticos y la gente.
+
+02:32:32.000 --> 02:32:35.000
+Ha llegado a asociar caótico con.
+
+02:32:35.000 --> 02:32:38.000
+Que sea lo que Dios quiera más bueno.
+
+02:32:38.000 --> 02:32:45.000
+No, pero la cantidad de variables que intervienen de una complejidad tal que no es manejable porque un sistema caótico.
+
+02:32:45.000 --> 02:32:50.000
+Then otras característica.
+
+02:32:50.000 --> 02:32:53.000
+No podemos descomponer.
+
+02:32:53.000 --> 02:32:55.000
+Un sistema caótico en partes.
+
+02:32:55.000 --> 02:32:59.000
+Tenemos que analizar todos sus componentes.
+
+02:32:59.000 --> 02:33:06.000
+El divide and conquer aquí no funciona.
+
+02:33:06.000 --> 02:33:11.000
+Todo depende de las generaciones iniciales.
+
+02:33:11.000 --> 02:33:19.000
+Todas las simulaciones numéricas son inútiles.
+
+02:33:19.000 --> 02:33:20.000
+Cambios
+
+02:33:20.000 --> 02:33:23.000
+Insignificantes, aparentemente.
+
+02:33:23.000 --> 02:33:29.000
+Puede generar efectos catastróficos.
+
+02:33:29.000 --> 02:33:33.000
+Le voy a contar algo que.
+
+02:33:33.000 --> 02:33:38.000
+Me sucedió hace muchos años.
+
+02:33:38.000 --> 02:33:42.000
+Estábamos trabajando con un amigo en un.
+
+02:33:42.000 --> 02:33:46.000
+Haciendo un análisis matemático de un algoritmo.
+
+02:33:46.000 --> 02:33:49.000
+But determinar la complejidad
+
+02:33:49.000 --> 02:33:54.000
+Habíamos desarrollado algunas cosas interesante y estábamos probando formalmente.
+
+02:33:54.000 --> 02:33:57.000
+Su su potencia.
+
+02:33:57.000 --> 02:34:01.000
+Y su complejidad.
+
+02:34:01.000 --> 02:34:05.000
+Y según nuestros cálculos manuales.
+
+02:34:05.000 --> 02:34:09.000
+Ha habido una curva de comportamiento.
+
+02:34:09.000 --> 02:34:12.000
+Que era lo lineal pero aproximadamente lineal.
+
+02:34:12.000 --> 02:34:16.000
+La mayor complejidad se iba poniendo la cosa un poco más densa.
+
+02:34:16.000 --> 02:34:19.000
+Y nuestras predicciones.
+
+02:34:19.000 --> 02:34:25.000
+Decían que se iba a comportar de tal manera después de veinticinco mil ciclos.
+
+02:34:25.000 --> 02:34:29.000
+Y aprobar esto en un computador.
+
+02:34:29.000 --> 02:34:32.000
+Descubrimos que la curva es real.
+
+02:34:32.000 --> 02:34:35.000
+Difería de la curva teórica.
+
+02:34:35.000 --> 02:34:42.000
+La pregunta es qué estamos haciendo mal.
+
+02:34:42.000 --> 02:34:47.000
+Y después de darle mucho tiempo de rascarnos la cabeza de probar mil veces si nos habíamos equivocado.
+
+02:34:47.000 --> 02:34:49.000
+Descubrimos que si poníamos.
+
+02:34:49.000 --> 02:34:52.000
+En vez de real la variable doble precisión.
+
+02:34:52.000 --> 02:34:55.000
+La curva se ha ajustaba automáticamente.
+
+02:34:55.000 --> 02:34:57.000
+La importancia de un decimal.
+
+02:34:57.000 --> 02:34:59.000
+Como nos provoca un desvío?
+
+02:34:59.000 --> 02:35:07.000
+Como en los sistemas caóticos que se va amplificando en el tiempo y que ya es irrecuperable.
+
+02:35:07.000 --> 02:35:09.000
+Me encanta contar estos temas de los astronautas.
+
+02:35:09.000 --> 02:35:12.000
+Que se van en la en la misión espacial.
+
+02:35:12.000 --> 02:35:17.000
+Dice ver te aseguro que le vamos a apuntar a la luna.
+
+02:35:17.000 --> 02:35:21.000
+Estamos corridos como medio milímetro no más que dele.
+
+02:35:21.000 --> 02:35:27.000
+Nuestra trayectoria tiene una desviación de medio milímetro allá abajo.
+
+02:35:27.000 --> 02:35:30.000
+Que va a hacer después de esos miles de kilómetros?
+
+02:35:30.000 --> 02:35:37.000
+Ni van a ver la luna los pajaritos.
+
+02:35:37.000 --> 02:35:40.000
+En esta dinámica caótica.
+
+02:35:40.000 --> 02:35:44.000
+El conjunto de puntos periódicos es denso, o sea
+
+02:35:44.000 --> 02:35:48.000
+La capacidad de predicción.
+
+02:35:48.000 --> 02:35:50.000
+Es imposible.
+
+02:35:50.000 --> 02:35:53.000
+Entonces la gente dice no es que esto es.
+
+02:35:53.000 --> 02:36:00.000
+Es caótico pero caótico significa que la cantidad de variables involucradas en las ecuaciones que tenemos que manejar.
+
+02:36:00.000 --> 02:36:03.000
+Es eh.
+
+02:36:03.000 --> 02:36:07.000
+Diferente a lo que estamos acostumbrados.
+
+02:36:07.000 --> 02:36:10.000
+Los sistemas caóticos son súper útiles.
+
+02:36:10.000 --> 02:36:12.000
+Vamos a ver qué se usan.
+
+02:36:12.000 --> 02:36:16.000
+Para cuestiones médicas. Entonces os lo puede contar el.
+
+02:36:16.000 --> 02:36:19.000
+El otro lunes .
+
+02:36:19.000 --> 02:36:23.000
+En alguna rama.
+
+02:36:23.000 --> 02:36:26.000
+El comportamiento de un autómata celular entonces.
+
+02:36:26.000 --> 02:36:31.000
+Es un sistema dinámico que puede ser muy complejo.
+
+02:36:31.000 --> 02:36:34.000
+Dependiendo de a donde partamos.
+
+02:36:34.000 --> 02:36:36.000
+¿Cuál es la dinámica local?
+
+02:36:36.000 --> 02:36:40.000
+Las reglas tenemos poder.
+
+02:36:40.000 --> 02:36:44.000
+Cualquier componente de los anteriores cualquier tipo podemos llegar a.
+
+02:36:44.000 --> 02:36:54.000
+Manejar en un sistema en un automóta celular, un sistema caótico.
+
+02:36:54.000 --> 02:36:58.000
+Si entendemos bien.
+
+02:36:58.000 --> 02:37:01.000
+Como puede llegar a funcionar un autómata celular.
+
+02:37:01.000 --> 02:37:03.000
+Estamos más cerca de comprender.
+
+02:37:03.000 --> 02:37:06.000
+Ciertas cuestiones que hoy día nos parecen.
+
+02:37:06.000 --> 02:37:10.000
+Tremendamente astringientes.
+
+02:37:10.000 --> 02:37:16.000
+Pero que está en una.
+
+02:37:16.000 --> 02:37:19.000
+Una carga desde hace mucho tiempo.
+
+02:37:19.000 --> 02:37:21.000
+Que hubo algunos
+
+02:37:21.000 --> 02:37:24.000
+Algunos visionarios.
+
+02:37:24.000 --> 02:37:29.000
+Que se preocuparon de ello.
+
+02:37:29.000 --> 02:37:38.000
+Vamos a ver un poquito más adelante, un tipo que se preocupó del cambio climático cuando nadie todavía lo mencionaba.
+
+02:37:38.000 --> 02:37:45.000
+O un señor.
+
+02:37:45.000 --> 02:37:49.000
+Que en el año cincuenta y dos por ahí creo que fue.
+
+02:37:49.000 --> 02:37:53.000
+Se preocupó del impacto futuro que la expansión del Islam iba a tener.
+
+02:37:53.000 --> 02:37:58.000
+Como impacto en el occidente.
+
+02:37:58.000 --> 02:38:02.000
+Esa es olfato.
+
+02:38:02.000 --> 02:38:06.000
+Hola
+
+02:38:06.000 --> 02:38:10.000
+O sea yo .
+
+02:38:10.000 --> 02:38:13.000
+Hay un modelo famoso Voids.
+
+02:38:13.000 --> 02:38:17.000
+Este es el que se usa para la los los movimientos.
+
+02:38:17.000 --> 02:38:19.000
+De enjambre
+
+02:38:19.000 --> 02:38:24.000
+Estos son comportamientos emergentes, aquí están los pajaritos, ¿se acuerdan cuando dibujábamos la
+
+02:38:24.000 --> 02:38:26.000
+Las bandadas de pájaros.
+
+02:38:26.000 --> 02:38:29.000
+Este sistema existe, se llama voids.
+
+02:38:29.000 --> 02:38:33.000
+Lo pueden encontrar en la red y hay bellatos videos
+
+02:38:33.000 --> 02:38:36.000
+de cómo opera y en qué cosas se pueden ir aplicando
+
+02:38:36.000 --> 02:38:40.000
+Cada miembro tiene acceso a todo el espacio.
+
+02:38:40.000 --> 02:38:46.000
+Cada uno de estos bichitos puede desplazarse por todo el espacio, pero
+
+02:38:46.000 --> 02:38:49.000
+Solo reacciona.
+
+02:38:49.000 --> 02:38:52.000
+Con los que están cerca.
+
+02:38:52.000 --> 02:38:56.000
+Comportamiento simple separación.
+
+02:38:56.000 --> 02:38:58.000
+Lo han visto.
+
+02:38:58.000 --> 02:39:03.000
+chocando no una bandada.
+
+02:39:03.000 --> 02:39:09.000
+Alineación se mueven hacia este point se mueven hacia el que está más vecino más próximo.
+
+02:39:09.000 --> 02:39:11.000
+Y cohesion, van.
+
+02:39:11.000 --> 02:39:16.000
+Al promedio del grupo, se aguardan de los drones?
+
+02:39:16.000 --> 02:39:18.000
+Estas son las reglas básicas de movimiento.
+
+02:39:18.000 --> 02:39:23.000
+Las mismas de boys, las mismas de los pájaros, no estamos inventando muchas cosas nuevas.
+
+02:39:23.000 --> 02:39:31.000
+Estamos implementando cosas que copiamos de la naturaleza y que ahora nos resultan interesantes.
+
+02:39:31.000 --> 02:39:36.000
+Podemos ponernos más.
+
+02:39:36.000 --> 02:39:39.000
+Mas creativo.
+
+02:39:39.000 --> 02:39:43.000
+Poner metas.
+
+02:39:43.000 --> 02:39:46.000
+Cuando vienen los ganso en migración.
+
+02:39:46.000 --> 02:39:54.000
+Y hay un árbol que se chuta, hasta aquí no más llegamos, no, le hacen el quite.
+
+02:39:54.000 --> 02:39:57.000
+Los curados no, avanzan hasta que chocan.
+
+02:39:57.000 --> 02:40:06.000
+Ese otro tipo de de movimiento.
+
+02:40:06.000 --> 02:40:10.000
+Esta técnica está en los drones.
+
+02:40:10.000 --> 02:40:14.000
+Se puede usar en la animación computacional.
+
+02:40:14.000 --> 02:40:18.000
+Es posible que ustedes hayan visto.
+
+02:40:18.000 --> 02:40:21.000
+Batman Returns.
+
+02:40:21.000 --> 02:40:23.000
+La película de Batman.
+
+02:40:23.000 --> 02:40:28.000
+Donde hay una bandada de murciélagos.
+
+02:40:28.000 --> 02:40:31.000
+Cuando está Batman así mirando desde arriba.
+
+02:40:31.000 --> 02:40:34.000
+A.
+
+02:40:34.000 --> 02:40:37.000
+Sale sale a la torre en un edificio.
+
+02:40:37.000 --> 02:40:40.000
+y ahí llegan los los pingüinos.
+
+02:40:40.000 --> 02:40:44.000
+No se ve muy bien.
+
+02:40:44.000 --> 02:40:49.000
+Este es una recreación de la imagen, no no puedo poner la original porque
+
+02:40:49.000 --> 02:40:52.000
+Eh son derechos de no sé que Warner Bros.
+
+02:40:52.000 --> 02:40:54.000
+Sí, sí, no, por supuesto.
+
+02:40:54.000 --> 02:41:00.000
+Por eso le puse el Costa Nera Center a la máquina de Da Vinci.
+
+02:41:00.000 --> 02:41:03.000
+Nadie me va a decir, ah , pero este es un copyright no.
+
+02:41:03.000 --> 02:41:06.000
+Ehm este el.
+
+02:41:06.000 --> 02:41:10.000
+Ton Batman y no se ve, pero aquí están los murciélagos.
+
+02:41:10.000 --> 02:41:14.000
+Esos murciélagos en la película están hechos por animación computacional.
+
+02:41:14.000 --> 02:41:17.000
+Y los que recuerden haberla visto o lo recuerden.
+
+02:41:17.000 --> 02:41:19.000
+Eso, pajarracos bajan.
+
+02:41:19.000 --> 02:41:23.000
+usando bolts, no es que le hayan calculado la trayectoria cada uno.
+
+02:41:23.000 --> 02:41:25.000
+Sino que con esas reglas.
+
+02:41:25.000 --> 02:41:27.000
+Se genera la animación.
+
+02:41:27.000 --> 02:41:38.000
+Por lo tanto, nos chocan como pasa en la vida real con los animalitos, nos chocan.
+
+02:41:38.000 --> 02:41:40.000
+Les conté de este señor.
+
+02:41:40.000 --> 02:41:42.000
+Con güey.
+
+02:41:42.000 --> 02:41:46.000
+Se acuerdan si habían tres eh.
+
+02:41:46.000 --> 02:41:52.000
+Vivas, no pasaba nada, si habían 2, las reglas eran
+
+02:41:52.000 --> 02:41:55.000
+Celtas vivas celtas muertas, las muertas están con rosa.
+
+02:41:55.000 --> 02:41:59.000
+Vecindad de Muar, es decir, estos ocho.
+
+02:41:59.000 --> 02:42:03.000
+Vamos a usar esta cuadrícula.
+
+02:42:03.000 --> 02:42:10.000
+Y vamos a ejercitar el juego de la vida.
+
+02:42:10.000 --> 02:42:13.000
+Este es la evolución.
+
+02:42:13.000 --> 02:42:15.000
+En los siglos de acuerdo a las reglas.
+
+02:42:15.000 --> 02:42:23.000
+A las cuatro reglas anteriores.
+
+02:42:23.000 --> 02:42:26.000
+Sirve para simular.
+
+02:42:26.000 --> 02:42:29.000
+Muchas podemos cambiar las reglas claro.
+
+02:42:29.000 --> 02:42:36.000
+Podemos decir si hay una muerta.
+
+02:42:36.000 --> 02:42:39.000
+Podemos tratar de pesquisar.
+
+02:42:39.000 --> 02:42:43.000
+Finalmente, cáncer hoy día lo, lo detectamos.
+
+02:42:43.000 --> 02:42:48.000
+Con la 1a lámina que puse, cuando ya había una cantidad importante de de celdas de células.
+
+02:42:48.000 --> 02:42:50.000
+Contaminada.
+
+02:42:50.000 --> 02:42:54.000
+Podríamos afinar un poquito, mejorar nuestras mediciones.
+
+02:42:54.000 --> 02:42:59.000
+Tal vez
+
+02:42:59.000 --> 02:43:02.000
+Él es con güey.
+
+02:43:02.000 --> 02:43:09.000
+Tiene algo de loco, ¿no?
+
+02:43:09.000 --> 02:43:12.000
+Está viejo, pero no se le ha pasado.
+
+02:43:12.000 --> 02:43:15.000
+Y ahí ya se le había pasado un poco.
+
+02:43:15.000 --> 02:43:17.000
+Loco.
+
+02:43:17.000 --> 02:43:20.000
+Pero nunca se le pasó totalmente.
+
+02:43:20.000 --> 02:43:23.000
+El dos mil veinte se lo llevó el altísimo.
+
+02:43:23.000 --> 02:43:30.000
+El año 70 él inventó este juego.
+
+02:43:30.000 --> 02:43:33.000
+Y por supuesto que inventó otras cosas más.
+
+02:43:33.000 --> 02:43:36.000
+Juego hacía juegos muy interesantes.
+
+02:43:36.000 --> 02:43:39.000
+Él es el creador de este juego de la vida.
+
+02:43:39.000 --> 02:43:42.000
+Pero esto viene.
+
+02:43:42.000 --> 02:43:44.000
+Como ya vimos de la época de Fort Neumann.
+
+02:43:44.000 --> 02:43:52.000
+Estos son autómatas, distintos tipos de autómatas.
+
+02:43:52.000 --> 02:43:54.000
+Distintas reglas nos llevan a generar.
+
+02:43:54.000 --> 02:44:02.000
+Distintas figuras con distintas animaciones.
+
+02:44:02.000 --> 02:44:05.000
+Hay distintas secuencias.
+
+02:44:05.000 --> 02:44:13.000
+My, hay todo un montón de templates para generar esa cosa y darle movimiento y capacidad de transformación.
+
+02:44:13.000 --> 02:44:15.000
+Y eso nos genera
+
+02:44:15.000 --> 02:44:21.000
+Eh. Algunos algunas figuras periódicas movimientos periódicos de.
+
+02:44:21.000 --> 02:44:23.000
+Es todo se.
+
+02:44:23.000 --> 02:44:30.000
+Autómatas. Hay autómatas para todo.
+
+02:44:30.000 --> 02:44:35.000
+Los nombres son divertidos porque estos son los intermitentes.
+
+02:44:35.000 --> 02:44:38.000
+los relojes, las barras.
+
+02:44:38.000 --> 02:44:48.000
+Hay unos que parecen reloj efectivamente.
+
+02:44:48.000 --> 02:44:51.000
+Eso parecen relojes, ¿se dan cuenta.
+
+02:44:51.000 --> 02:44:54.000
+Son nombres que les ponen.
+
+02:44:54.000 --> 02:44:59.000
+Y aquí a partir de una estructura inicial, un conjunto de reglas y generamos esto.
+
+02:44:59.000 --> 02:45:04.000
+O sea la animación computacional hoy día es bastante más sencilla.
+
+02:45:04.000 --> 02:45:06.000
+Con estos conceptos.
+
+02:45:06.000 --> 02:45:11.000
+Las barras podemos generar montones de cosas.
+
+02:45:11.000 --> 02:45:15.000
+Because un bombardero que está disparándole a algún
+
+02:45:15.000 --> 02:45:22.000
+Lugar de interés
+
+02:45:22.000 --> 02:45:25.000
+Pero.
+
+02:45:25.000 --> 02:45:28.000
+Volvamos al autómata elemental.
+
+02:45:28.000 --> 02:45:37.000
+Cada célula tiene un vecino a la izquierda, un vecino a la derecha.
+
+02:45:37.000 --> 02:45:40.000
+Tenemos un autómata.
+
+02:45:40.000 --> 02:45:44.000
+Mono dimensional.
+
+02:45:44.000 --> 02:45:49.000
+Condiciones valores posibles para esta.
+
+02:45:49.000 --> 02:45:51.000
+Estos que vamos a tomar.
+
+02:45:51.000 --> 02:45:55.000
+Bueno, aquí están todas, ¿no? Están las 8.
+
+02:45:55.000 --> 02:45:59.000
+Del 0 0 0 al 1 1 1
+
+02:45:59.000 --> 02:46:01.000
+Tenemos las ocho combinaciones.
+
+02:46:01.000 --> 02:46:05.000
+Entonces la pregunta es nuestra regla como va a operar.
+
+02:46:05.000 --> 02:46:09.000
+Cuando encuentre estas tres.
+
+02:46:09.000 --> 02:46:14.000
+Depende del valor que cuente.
+
+02:46:14.000 --> 02:46:20.000
+Reemplace cada negra con un uno y cada blanca con un cero.
+
+02:46:20.000 --> 02:46:23.000
+Esto es lo que tenemos.
+
+02:46:23.000 --> 02:46:29.000
+El negrita son todo de uno uno uno vamos achicando.
+
+02:46:29.000 --> 02:46:37.000
+Bueno, presentamos algo ya.
+
+02:46:37.000 --> 02:46:40.000
+Y ahora que pusimos los colores.
+
+02:46:40.000 --> 02:46:43.000
+Con números binarios.
+
+02:46:43.000 --> 02:46:48.000
+Vamos a ver cuál es nuestra regla de transición.
+
+02:46:48.000 --> 02:46:52.000
+Cada celda sol está de aquí.
+
+02:46:52.000 --> 02:46:56.000
+Yeah, vamos a poner nuestra transición, dice un 0 o un 1.
+
+02:46:56.000 --> 02:47:01.000
+Un 0 o 1, un 0 o un uno, un 0 o 1, eso da.
+
+02:47:01.000 --> 02:47:03.000
+Dos eleva ocho, o sea.
+
+02:47:03.000 --> 02:47:14.000
+Doscientos cincuenta y seis reglas posibles
+
+02:47:14.000 --> 02:47:18.000
+Ujum bien.
+
+02:47:18.000 --> 02:47:21.000
+Supongamos que.
+
+02:47:21.000 --> 02:47:24.000
+Esa es nuestra regla de actualización.
+
+02:47:24.000 --> 02:47:27.000
+O sea, fíjese si yo digo a ver.
+
+02:47:27.000 --> 02:47:32.000
+Este es mi template, mi regla de actualización va a ser un solo string.
+
+02:47:32.000 --> 02:47:36.000
+Que va a tener ya sea un cero o un uno.
+
+02:47:36.000 --> 02:47:42.000
+Una de las doscientos cincuenta y seis posibles.
+
+02:47:42.000 --> 02:47:44.000
+Supongamos que usamos esta de aquí.
+
+02:47:44.000 --> 02:47:48.000
+Este es nuestra regla de actualizaciones.
+
+02:47:48.000 --> 02:47:51.000
+O sea, si al principio hay uno uno uno.
+
+02:47:51.000 --> 02:47:55.000
+Las tres primeras esto va a ser un cero.
+
+02:47:55.000 --> 02:47:58.000
+Esto de aquí.
+
+02:47:58.000 --> 02:48:02.000
+Esto es nuestra red y así es como va a ir cambiando.
+
+02:48:02.000 --> 02:48:05.000
+Vamos a ir cambiando solo.
+
+02:48:05.000 --> 02:48:12.000
+está del medio
+
+02:48:12.000 --> 02:48:15.000
+Uno uno uno está del medio va a ser un cero.
+
+02:48:15.000 --> 02:48:21.000
+Uno uno cero esta va a ser un uno, uno cero uno esta va a ser un uno.
+
+02:48:21.000 --> 02:48:25.000
+1 0 0, este va a ser un 0, uno cero uno uno.
+
+02:48:25.000 --> 02:48:30.000
+Y así, si tiene uno cero, esto también va a ser un cero.
+
+02:48:30.000 --> 02:48:34.000
+Hey, damos todas las reglas de cómo cambiar.
+
+02:48:34.000 --> 02:48:39.000
+Nuestro estas son las configuraciones que puede encontrar.
+
+02:48:39.000 --> 02:48:43.000
+Ahora si este es una expansión binaria del número.
+
+02:48:43.000 --> 02:48:48.000
+106.
+
+02:48:48.000 --> 02:48:50.000
+Esta regla
+
+02:48:50.000 --> 02:48:54.000
+Se llama regla 106.
+
+02:48:54.000 --> 02:48:59.000
+No sé ahora es como los chistes de los locos se aplica la regla ochenta y cuatro.
+
+02:48:59.000 --> 02:49:09.000
+Este string.
+
+02:49:09.000 --> 02:49:11.000
+La regla cuarenta y cinco.
+
+02:49:11.000 --> 02:49:13.000
+Sesenta y dos más ocho + cuatro más uno.
+
+02:49:13.000 --> 02:49:16.000
+Hi, entonces 0 0 1.
+
+02:49:16.000 --> 02:49:21.000
+cero uno uno cero uno.
+
+02:49:21.000 --> 02:49:29.000
+Cero cero uno cero uno uno cero uno cuarenta y cinco, esa es la regla cuarenta y
+
+02:49:29.000 --> 02:49:31.000
+La 30.
+
+02:49:31.000 --> 02:49:33.000
+La que vimos al comienzo, o sea dije .
+
+02:49:33.000 --> 02:49:36.000
+Esta regla es la regla treinta.
+
+02:49:36.000 --> 02:49:40.000
+Esta es la razón.
+
+02:49:40.000 --> 02:49:46.000
+Este es nuestra regla 30.
+
+02:49:46.000 --> 02:49:50.000
+Este es Wolfram matemático.
+
+02:49:50.000 --> 02:49:53.000
+Te inventó el libro después se ando volviendo un poco loco.
+
+02:49:53.000 --> 02:49:55.000
+Una nueva clase de ciencia.
+
+02:49:55.000 --> 02:50:00.000
+Dice que los los autómatas celulares no son un hecho aislado.
+
+02:50:00.000 --> 02:50:05.000
+Sino que es un paradigma de todos los modelos científicos y esto está asociado a
+
+02:50:05.000 --> 02:50:07.000
+Computabilidad .
+
+02:50:07.000 --> 02:50:13.000
+Pero incomputable o sistemas caóticos.
+
+02:50:13.000 --> 02:50:20.000
+Aquí hay harto ya en lo que avanzar todavía.
+
+02:50:20.000 --> 02:50:24.000
+Esta regla 30 muestra al principio los 10 primeros pasos.
+
+02:50:24.000 --> 02:50:26.000
+El programa.
+
+02:50:26.000 --> 02:50:30.000
+Aparece en la naturaleza fíjense.
+
+02:50:30.000 --> 02:50:33.000
+No es extraña.
+
+02:50:33.000 --> 02:50:38.000
+A la vida
+
+02:50:38.000 --> 02:50:45.000
+La formación
+
+02:50:45.000 --> 02:50:51.000
+En este caso se trata de la caparazón de un mostazo.
+
+02:50:51.000 --> 02:50:53.000
+Como van creciendo.
+
+02:50:53.000 --> 02:50:55.000
+Como va.
+
+02:50:55.000 --> 02:51:01.000
+Como se van desarrollando estas estructuras calcáreas.
+
+02:51:01.000 --> 02:51:03.000
+Para generar
+
+02:51:03.000 --> 02:51:10.000
+Estima.
+
+02:51:10.000 --> 02:51:12.000
+Las reglas ciento ochenta y cuatro.
+
+02:51:12.000 --> 02:51:16.000
+Como le digo hasta como los chistes los logos las ciento ochenta y cuatro ay que bonita.
+
+02:51:16.000 --> 02:51:19.000
+Sí, lo que hace la ciento ochenta y cuatro resuelve.
+
+02:51:19.000 --> 02:51:23.000
+Una cantidad de problemas por ejemplo modelar.
+
+02:51:23.000 --> 02:51:26.000
+Flujo de tráfico en un carril de una autopista.
+
+02:51:26.000 --> 02:51:28.000
+Eh se usa.
+
+02:51:28.000 --> 02:51:32.000
+Podemos usar autómatas celulares para modelar qué es lo que va a pasar.
+
+02:51:32.000 --> 02:51:34.000
+En la ruta sesenta y ocho.
+
+02:51:34.000 --> 02:51:41.000
+Eh el próximo dos tres fines de semana más.
+
+02:51:41.000 --> 02:51:43.000
+Partícula son vehículos.
+
+02:51:43.000 --> 02:51:46.000
+Van en un solo lado y esto me faltó un tilde aquí.
+
+02:51:46.000 --> 02:51:50.000
+La secretaria siempre se olvida, deteniéndose, avanzando, dependiendo de.
+
+02:51:50.000 --> 02:51:53.000
+Los vehículos que hay delante y detrás.
+
+02:51:53.000 --> 02:51:56.000
+Todos ustedes han sufrido seguramente está.
+
+02:51:56.000 --> 02:52:00.000
+Gloriosa experiencia en que van felices y o.
+
+02:52:00.000 --> 02:52:02.000
+Hay un taco.
+
+02:52:02.000 --> 02:52:08.000
+Porque a alguien se le olvidó echarle de encina o algún otro elemento peor?
+
+02:52:08.000 --> 02:52:22.000
+Y cuando para uno, paran todo.
+
+02:52:22.000 --> 02:52:24.000
+En una ocasión.
+
+02:52:24.000 --> 02:52:26.000
+Nos visitó un experto en .
+
+02:52:26.000 --> 02:52:30.000
+Representaciones teóricas raras.
+
+02:52:30.000 --> 02:52:33.000
+Y preguntó.
+
+02:52:33.000 --> 02:52:37.000
+Si yo tengo un carril con ciertas características.
+
+02:52:37.000 --> 02:52:42.000
+Que es lo que debo hacer respecto de la velocidad?
+
+02:52:42.000 --> 02:52:47.000
+Entonces todos decían bueno que la velocidad no sea superior a tanto porque se producen accidentes.
+
+02:52:47.000 --> 02:52:54.000
+Y él dijo la la respuesta correcta es que la velocidad no sea menos a tanto para no producir accidente.
+
+02:52:54.000 --> 02:52:58.000
+Y claro nosotros no lo tenemos habitualmente aquí.
+
+02:52:58.000 --> 02:53:04.000
+Pero no le ha llamado la atención, no sé, afuera en alguna película que velocidad mínima.
+
+02:53:04.000 --> 02:53:06.000
+porque permite un flujo.
+
+02:53:06.000 --> 02:53:08.000
+Tal que.
+
+02:53:08.000 --> 02:53:11.000
+Si ustedes lo analizan en conjunto con esta regla.
+
+02:53:11.000 --> 02:53:15.000
+Nos empieza a decir que hay cosas que no estamos tomando en cuenta.
+
+02:53:15.000 --> 02:53:19.000
+Cuando hablamos de tráfico?
+
+02:53:19.000 --> 02:53:22.000
+En esta regla.
+
+02:53:22.000 --> 02:53:25.000
+Si tenemos un estado uno es un vehículo.
+
+02:53:25.000 --> 02:53:28.000
+Y ese vehículo se moverá.
+
+02:53:28.000 --> 02:53:30.000
+Hacia adelante sólo si hay espacio.
+
+02:53:30.000 --> 02:53:35.000
+Teoría si ustedes dejan un espacio va a venir otro y se va a meter, pero en teoría.
+
+02:53:35.000 --> 02:53:39.000
+Debería ser esto de, sobre todo en tiempos de lluvia.
+
+02:53:39.000 --> 02:53:43.000
+Si se genera un espacio ustedes pueden avanzar si no se genera el espacio.
+
+02:53:43.000 --> 02:53:47.000
+Habrá que esperar.
+
+02:53:47.000 --> 02:53:51.000
+Y esto refleja
+
+02:53:51.000 --> 02:53:58.000
+Esta regla, esta es una, este es un estado de la del autómata.
+
+02:53:58.000 --> 02:53:59.000
+Este puede avanzar.
+
+02:53:59.000 --> 02:54:01.000
+Este puede avanzar.
+
+02:54:01.000 --> 02:54:14.000
+Y este en teoría puede avanzar, pero ninguno de estos puede hacerlo.
+
+02:54:14.000 --> 02:54:17.000
+Cuando hay muchos muchas detenciones el tráfico.
+
+02:54:17.000 --> 02:54:22.000
+So, vuelve muy pesado y podemos simular eso.
+
+02:54:22.000 --> 02:54:25.000
+De hecho eh yo entiendo.
+
+02:54:25.000 --> 02:54:29.000
+Que los encargados de vialidad y todo eso.
+
+02:54:29.000 --> 02:54:34.000
+Hacen este tipo de análisis usando esta u otras herramientas para decidir.
+
+02:54:34.000 --> 02:54:38.000
+Cuando pasar de 2 a 3 pistas o de 3 a 4 o lo que sea.
+
+02:54:38.000 --> 02:54:40.000
+Cuando se hacen esos cambios es en función.
+
+02:54:40.000 --> 02:54:44.000
+De cuán denso se transforma.
+
+02:54:44.000 --> 02:54:53.000
+Los valores de este autómata en función del tráfico esperado de los carriles disponibles, en fin.
+
+02:54:53.000 --> 02:54:54.000
+Tenemos una aproximación.
+
+02:54:54.000 --> 02:55:00.000
+Bastante precisa que nadie se pesca. Se estima que saldrán 30000 vehículos de la región metropolitana.
+
+02:55:00.000 --> 02:55:03.000
+Este fin de año voy a ver los fuegos artificiales.
+
+02:55:03.000 --> 02:55:06.000
+Pero nosotros es un número.
+
+02:55:06.000 --> 02:55:12.000
+Para viejo ha de ser un dolor de cabeza.
+
+02:55:12.000 --> 02:55:17.000
+Podemos usar los autómatas celulares para este modelo depredador presa.
+
+02:55:17.000 --> 02:55:27.000
+Recuerdo que alguna vez en la vida, cuando eran jóvenes, o sea el año pasado, les hablé del modelo zorro y conejos
+
+02:55:27.000 --> 02:55:33.000
+Que los zorros comen conejos.
+
+02:55:33.000 --> 02:55:37.000
+Los conejos comen verdurita.
+
+02:55:37.000 --> 02:55:40.000
+Que los conejos escapan cuando son ágiles.
+
+02:55:40.000 --> 02:55:43.000
+Y no escapan cuando son gordos, porque no pueden correr tanto.
+
+02:55:43.000 --> 02:55:48.000
+Lo gorditos corremos menos que los flequito.
+
+02:55:48.000 --> 02:55:53.000
+Y si hay harto conejo, el zorro engorda, mejor es menos.
+
+02:55:53.000 --> 02:55:56.000
+Se van a salvar más conejo.
+
+02:55:56.000 --> 02:56:01.000
+O sea, mucho zorro, los conejos van a sufrir, si hay pocos zorros los conejos van a engordar.
+
+02:56:01.000 --> 02:56:04.000
+Y este es un un siglo que se va repitiendo.
+
+02:56:04.000 --> 02:56:08.000
+Esto lo podemos modelar con autómatas celulares.
+
+02:56:08.000 --> 02:56:11.000
+Hay un modelo, los Capolterra.
+
+02:56:11.000 --> 02:56:15.000
+Esto es súper interesante.
+
+02:56:15.000 --> 02:56:18.000
+Depredador y presa.
+
+02:56:18.000 --> 02:56:21.000
+El cazador y el casado.
+
+02:56:21.000 --> 02:56:25.000
+Estos son modelos del año.
+
+02:56:25.000 --> 02:56:26.000
+Del cohete.
+
+02:56:26.000 --> 02:56:31.000
+Hay dos especies, zorros conejo. Los conejos nacen y mueren a causa de los depredadores o de
+
+02:56:31.000 --> 02:56:34.000
+Muerte normal, los zorros nacen
+
+02:56:34.000 --> 02:56:37.000
+Y la natalidad es afectada por.
+
+02:56:37.000 --> 02:56:39.000
+Cuánto casan naturalmente.
+
+02:56:39.000 --> 02:56:43.000
+Y mueren de viejos, los conejos no comen.
+
+02:56:43.000 --> 02:56:46.000
+No, ya hacemos la simplificación del modelo.
+
+02:56:46.000 --> 02:56:50.000
+En el modelo del Oscar Volterra.
+
+02:56:50.000 --> 02:56:52.000
+Los cambios de población.
+
+02:56:52.000 --> 02:56:56.000
+Se explican en función del tamaño de la otra población.
+
+02:56:56.000 --> 02:56:58.000
+Son dos poblaciones que interactúan.
+
+02:56:58.000 --> 02:57:00.000
+Ayerto conejo puedo comer conejo.
+
+02:57:00.000 --> 02:57:04.000
+Poco conejo, puedo comer poco conejo.
+
+02:57:04.000 --> 02:57:09.000
+Y las poblaciones tienden a regularse en función de sus tamaños.
+
+02:57:09.000 --> 02:57:16.000
+Entonces el tamaño de los zorros de la población de zorros tiene un efecto negativo claro pa los conejos es malo que haya muchos.
+
+02:57:16.000 --> 02:57:24.000
+El tamaño de la población de conejo es positivo para los zorros, si hay harto conejo, hay harta comida.
+
+02:57:24.000 --> 02:57:27.000
+Los cabolterra son dos muchachos.
+
+02:57:27.000 --> 02:57:30.000
+Uno norteamericano y uno italiano.
+
+02:57:30.000 --> 02:57:33.000
+Que de bueno usaron ecuaciones diferenciales para.
+
+02:57:33.000 --> 02:57:37.000
+De cómo varían las tasas de nacimiento de.
+
+02:57:37.000 --> 02:57:41.000
+De zorros y y conejos cómo se comportan?
+
+02:57:41.000 --> 02:57:44.000
+Esto se aplica a herbívoros.
+
+02:57:44.000 --> 02:57:47.000
+Y las plantas, parásitos.
+
+02:57:47.000 --> 02:57:52.000
+Yeah, ficciones esto herbívoros parece una cosa elemental.
+
+02:57:52.000 --> 02:57:55.000
+Eh .
+
+02:57:55.000 --> 02:57:59.000
+No sé si conocen cómo se cría el ganado.
+
+02:57:59.000 --> 02:58:03.000
+En espacios grandes.
+
+02:58:03.000 --> 02:58:06.000
+Donde el ganado debe alimentarse.
+
+02:58:06.000 --> 02:58:10.000
+Durante un periodo digamos un día dos.
+
+02:58:10.000 --> 02:58:13.000
+Y luego debe ser sacado.
+
+02:58:13.000 --> 02:58:16.000
+A otros espacios para permitir que el pasto se vaya regenerando.
+
+02:58:16.000 --> 02:58:19.000
+Y necesi, se necesite espacio suficiente.
+
+02:58:19.000 --> 02:58:21.000
+Para que en esta rotación.
+
+02:58:21.000 --> 02:58:27.000
+El pasto vuelva a crecer del estado inicial, de manera que cuando llegue el ganado de nuevo.
+
+02:58:27.000 --> 02:58:34.000
+Puedan alimentarse.
+
+02:58:34.000 --> 02:58:38.000
+Como oscila el tamaño de la población.
+
+02:58:38.000 --> 02:58:43.000
+Y lo que descubrieron estos viejos.
+
+02:58:43.000 --> 02:58:53.000
+Es que el PIC mínimo de los depredadores es ligeramente está ligeramente bajo el PIC mínimo de la presa, el conejo.
+
+02:58:53.000 --> 02:58:58.000
+Entonces, en la evolución tenemos que la población crece.
+
+02:58:58.000 --> 02:59:01.000
+Esto es biológico.
+
+02:59:01.000 --> 02:59:05.000
+Matemáticamente esto se modela a través de ecuaciones diferenciales.
+
+02:59:05.000 --> 02:59:08.000
+Y estos dos se juntan.
+
+02:59:08.000 --> 02:59:11.000
+Estos dos viejitos, los que Volterra se juntan.
+
+02:59:11.000 --> 02:59:14.000
+Para establecer un modelo común.
+
+02:59:14.000 --> 02:59:19.000
+Y en ese modelo común.
+
+02:59:19.000 --> 02:59:22.000
+Llegan a las mismas conclusiones, si no hay depredador.
+
+02:59:22.000 --> 02:59:26.000
+Nues zorros, las plagas no es cierto.
+
+02:59:26.000 --> 02:59:29.000
+Es por la ausencia de el el el el.
+
+02:59:29.000 --> 02:59:36.000
+El murciélago, el tejón o lo que sea que se comían los ratones.
+
+02:59:36.000 --> 02:59:38.000
+Si no hay presas
+
+02:59:38.000 --> 02:59:43.000
+El depredador se va a morir.
+
+02:59:43.000 --> 02:59:48.000
+En este modelo los depredadores pueden comer y comer no hay límite.
+
+02:59:48.000 --> 02:59:50.000
+Las poblaciones se desplazan random.
+
+02:59:50.000 --> 02:59:55.000
+Lo que importa es la interacción entre las poblaciones.
+
+02:59:55.000 --> 02:59:57.000
+Lotka y Volterra.
+
+02:59:57.000 --> 03:00:00.000
+Querían hacer
+
+03:00:00.000 --> 03:00:04.000
+Cosas como esta, Volterra, este italiano quería.
+
+03:00:04.000 --> 03:00:11.000
+Modelar qué pasaba con las poblaciones de peces en el Adriático cómo se modulaban.
+
+03:00:11.000 --> 03:00:14.000
+Público en hecho
+
+03:00:14.000 --> 03:00:16.000
+Y Lotka.
+
+03:00:16.000 --> 03:00:18.000
+A un matemático
+
+03:00:18.000 --> 03:00:22.000
+Biólogo también publicó sus propias publicaciones y.
+
+03:00:22.000 --> 03:00:30.000
+le dijo sabes que estuvo leyendo un artículo así partió, estuve leyendo un artículo tuyo interesante yo tengo un modelo que representa más O menos eso.
+
+03:00:30.000 --> 03:00:32.000
+Así que decidieron juntarse.
+
+03:00:32.000 --> 03:00:36.000
+Eso juntarse mandémonos una carta.
+
+03:00:36.000 --> 03:00:39.000
+Eso era juntarse antiguamente.
+
+03:00:39.000 --> 03:00:46.000
+Hoy día es hagamos un .
+
+03:00:46.000 --> 03:00:48.000
+Aquí estaban los
+
+03:00:48.000 --> 03:00:56.000
+Los pescaditos de Volterra en el Adriático.
+
+03:00:56.000 --> 03:00:59.000
+El modelo ideal, ese que esté en la presa.
+
+03:00:59.000 --> 03:01:02.000
+Que crece y crece y crece .
+
+03:01:02.000 --> 03:01:04.000
+El dilurado crece.
+
+03:01:04.000 --> 03:01:11.000
+Consume la presa que baja baja el depredador baja y estas estas curvas fueron lo lo que ellos estimaron.
+
+03:01:11.000 --> 03:01:15.000
+Las curvas reales con datos del año cincuenta y ocho.
+
+03:01:15.000 --> 03:01:19.000
+Son estas.
+
+03:01:19.000 --> 03:01:21.000
+Muy, muy.
+
+03:01:21.000 --> 03:01:23.000
+parecido
+
+03:01:23.000 --> 03:01:26.000
+Lo que ocurre en la realidad.
+
+03:01:26.000 --> 03:01:28.000
+Estamos hablando de
+
+03:01:28.000 --> 03:01:31.000
+Siglo pasado evidentemente.
+
+03:01:31.000 --> 03:01:34.000
+Por eso aparecen encorvado estos personajes.
+
+03:01:34.000 --> 03:01:39.000
+Don Vito y Don Alfred.
+
+03:01:39.000 --> 03:01:45.000
+Ya no están con nosotros.
+
+03:01:45.000 --> 03:01:53.000
+Esto se puede aplicar en la life, o sea, en Artificial Life, claro.
+
+03:01:53.000 --> 03:01:55.000
+La gracia de Alive.
+
+03:01:55.000 --> 03:01:59.000
+Y la gracia de casi todas las cosas que hemos estado viendo hasta aquí.
+
+03:01:59.000 --> 03:02:07.000
+Es que podemos tratar de explicar fenómenos del mundo a partir de elementos muy sencillos.
+
+03:02:07.000 --> 03:02:12.000
+El el movimiento de las hormigas por la captura de alimentos.
+
+03:02:12.000 --> 03:02:16.000
+Un autómata celular para representar la ola del estadio.
+
+03:02:16.000 --> 03:02:19.000
+Como interactúan dos especies.
+
+03:02:19.000 --> 03:02:22.000
+O cómo se va generando la evolución de una especie.
+
+03:02:22.000 --> 03:02:24.000
+A través de los algoritmos genéticos.
+
+03:02:24.000 --> 03:02:27.000
+Como las abejas.
+
+03:02:27.000 --> 03:02:36.000
+Construyen comunidad .
+
+03:02:36.000 --> 03:02:39.000
+Incluida las partículas.
+
+03:02:39.000 --> 03:02:42.000
+Podemos definir átomos en este sistema.
+
+03:02:42.000 --> 03:02:46.000
+Para ver qué pasa con dos elementos que interactúan.
+
+03:02:46.000 --> 03:02:50.000
+Podemos modelar entidades biológicas, entidades quimicas.
+
+03:02:50.000 --> 03:02:53.000
+Formación de moléculas.
+
+03:02:53.000 --> 03:03:01.000
+Cuán natural resulta la formación de moléculas, por ejemplo, proteínas, farmacología.
+
+03:03:01.000 --> 03:03:07.000
+Morfogénesis química multicelular.
+
+03:03:07.000 --> 03:03:12.000
+Por ejemplo, una enfermedad vista desde el autómata celular.
+
+03:03:12.000 --> 03:03:14.000
+Cuatro estados sano.
+
+03:03:14.000 --> 03:03:16.000
+Infectado uno.
+
+03:03:16.000 --> 03:03:22.000
+Infectado 2.
+
+03:03:22.000 --> 03:03:26.000
+Suda celda tiene al menos un vecino.
+
+03:03:26.000 --> 03:03:30.000
+Infectado uno y al menos dos vecinos.
+
+03:03:30.000 --> 03:03:34.000
+Y dos entonces.
+
+03:03:34.000 --> 03:03:36.000
+Si enferma
+
+03:03:36.000 --> 03:03:40.000
+Se guarda el abanito ahí teníamos una cosita aquí una.
+
+03:03:40.000 --> 03:03:45.000
+Y pero esta no es tan complicado porque la estamos tratando.
+
+03:03:45.000 --> 03:03:50.000
+Ese ha sido uno y está, ah , la estamos tratando y dos.
+
+03:03:50.000 --> 03:03:53.000
+En caso contrario, si no se cumple esta condición
+
+03:03:53.000 --> 03:03:55.000
+permanece sanita
+
+03:03:55.000 --> 03:04:02.000
+La celda I se transforma en I2, después de 4 pasos, digamos, en 4 semanas.
+
+03:04:02.000 --> 03:04:08.000
+Vamos a ver cómo evoluciona ese nidita.
+
+03:04:08.000 --> 03:04:10.000
+Y la y dos.
+
+03:04:10.000 --> 03:04:13.000
+Después de la semana se transforma en.
+
+03:04:13.000 --> 03:04:18.000
+Marta.
+
+03:04:18.000 --> 03:04:20.000
+Una celda que está muerta.
+
+03:04:20.000 --> 03:04:24.000
+Se transforma en sala con una cierta probabilidad.
+
+03:04:24.000 --> 03:04:27.000
+Regué el juego de la vida.
+
+03:04:27.000 --> 03:04:30.000
+Si había una que estaba rodeada por muertas por tres sanas.
+
+03:04:30.000 --> 03:04:36.000
+Se recupera .
+
+03:04:36.000 --> 03:04:41.000
+Y uno, la que está muerta con probabilidad de 2.
+
+03:04:41.000 --> 03:04:44.000
+Gradualmente en caso contrario.
+
+03:04:44.000 --> 03:04:57.000
+Sigue occisa.
+
+03:04:57.000 --> 03:05:02.000
+Anímense, anímense.
+
+03:05:02.000 --> 03:05:07.000
+Queda poco vamos a jugar con unos pescaditos.
+
+03:05:07.000 --> 03:05:10.000
+Unos pescaditos chicos.
+
+03:05:10.000 --> 03:05:13.000
+Y unos pescaditos grandes
+
+03:05:13.000 --> 03:05:18.000
+Pescaditos chicos, les vamos a llamar peces a los pescaítos grandes, les vamos a llamar tiburones.
+
+03:05:18.000 --> 03:05:24.000
+Para jugar.
+
+03:05:24.000 --> 03:05:26.000
+Vamos a jugar con un autómata celular.
+
+03:05:26.000 --> 03:05:29.000
+Que va a mostrar esta relación.
+
+03:05:29.000 --> 03:05:34.000
+Cazador presa.
+
+03:05:34.000 --> 03:05:39.000
+Este es un ejemplo que desarrollaron unos muchachos hace bastante tiempo.
+
+03:05:39.000 --> 03:05:43.000
+Y resultó súper esclarecedor.
+
+03:05:43.000 --> 03:05:48.000
+Para ver cómo nosotros podemos usar reglas muy simples para simular procesos complejos.
+
+03:05:48.000 --> 03:05:55.000
+Este modelo lo que busca es representar es una relación cazador o depredador presa.
+
+03:05:55.000 --> 03:06:00.000
+La población inicial tiene una distribución ratdomica de peces, tiburones
+
+03:06:00.000 --> 03:06:02.000
+Y celdas vacías en una matriz de.
+
+03:06:02.000 --> 03:06:08.000
+1000 por 2000, 2 millones de celdas.
+
+03:06:08.000 --> 03:06:11.000
+It es absolutamente artificial.
+
+03:06:11.000 --> 03:06:13.000
+No, no existe esa esa densidad.
+
+03:06:13.000 --> 03:06:22.000
+Vamos a tener un espacio donde hay tiburones, hay peces y hay espacios vacíos.
+
+03:06:22.000 --> 03:06:24.000
+Don Pillone.
+
+03:06:24.000 --> 03:06:27.000
+Nuestra autómata celular es este.
+
+03:06:27.000 --> 03:06:34.000
+Espacio de dos millones de celdas.
+
+03:06:34.000 --> 03:06:40.000
+Vamos a hacer esto, esto es, como les digo, esto es artificial, entonces el 50%.
+
+03:06:40.000 --> 03:06:42.000
+Selda disponible.
+
+03:06:42.000 --> 03:06:46.000
+Son peces el veinticinco por ciento tiburones.
+
+03:06:46.000 --> 03:06:54.000
+Y el veinticinco por ciento vacíos.
+
+03:06:54.000 --> 03:07:02.000
+Los peces son rojos los tiburones son amarillos y las celdas vacías son negras.
+
+03:07:02.000 --> 03:07:06.000
+Así se ve.
+
+03:07:06.000 --> 03:07:12.000
+No es realista pero nos permite ilustrar lo que queremos sobre todo con esta exageración de población.
+
+03:07:12.000 --> 03:07:16.000
+Rojos tiburón, ah?
+
+03:07:16.000 --> 03:07:20.000
+Claro.
+
+03:07:20.000 --> 03:07:26.000
+bajamos el número de depredadores y los espacios también, pero tenemos hartos pescaítos.
+
+03:07:26.000 --> 03:07:31.000
+Hay doce reglas para este autómata celular.
+
+03:07:31.000 --> 03:07:35.000
+Ya ya se dieron cuenta que nuestra matriz.
+
+03:07:35.000 --> 03:07:38.000
+Lo que hay son 3 valores distintos.
+
+03:07:38.000 --> 03:07:41.000
+Pez tiburón vacía.
+
+03:07:41.000 --> 03:07:45.000
+Como cambian de acuerdo a doce reglas.
+
+03:07:45.000 --> 03:07:50.000
+Y las 12 reglas van a considerar características interesantes de esta población.
+
+03:07:50.000 --> 03:07:55.000
+Nacimiento, longevidad y muerte de un pez o tiburón.
+
+03:07:55.000 --> 03:07:59.000
+And y lo podemos poner muy imaginativos.
+
+03:07:59.000 --> 03:08:03.000
+Como se reproducen los peces y tiburones?
+
+03:08:03.000 --> 03:08:07.000
+Que pasa con la sobrepoblación con la baja población?
+
+03:08:07.000 --> 03:08:14.000
+cómo interactúa el pez con el tiburón?
+
+03:08:14.000 --> 03:08:16.000
+Cada celda.
+
+03:08:16.000 --> 03:08:18.000
+Solo va a estar influenciada.
+
+03:08:18.000 --> 03:08:24.000
+Por lo que hay más su vecindario.
+
+03:08:24.000 --> 03:08:38.000
+Es el concepto que hemos estado viendo desde autómatas celulares desde el comienzo.
+
+03:08:38.000 --> 03:08:40.000
+Tenemos
+
+03:08:40.000 --> 03:08:42.000
+2 millones de celdas.
+
+03:08:42.000 --> 03:08:45.000
+Y doce reglas que les vamos a aplicar .
+
+03:08:45.000 --> 03:08:49.000
+A todos esos dos millones de celdas.
+
+03:08:49.000 --> 03:08:51.000
+En cada siglo.
+
+03:08:51.000 --> 03:08:56.000
+Somebocomputados grandes.
+
+03:08:56.000 --> 03:08:59.000
+Veinte mil generaciones
+
+03:08:59.000 --> 03:09:05.000
+Hey, necesitamos harto procesamiento.
+
+03:09:05.000 --> 03:09:08.000
+Qualto nos vamos a demorar?
+
+03:09:08.000 --> 03:09:16.000
+Hoy día poquillo.
+
+03:09:16.000 --> 03:09:19.000
+Lo que hicieron los muchachos fue hacer un clúster que tenía veinte C P U.
+
+03:09:19.000 --> 03:09:22.000
+Hoy día ya eso es un juego.
+
+03:09:22.000 --> 03:09:27.000
+Esa es quince veces más rápido que un PC solo naturalmente.
+
+03:09:27.000 --> 03:09:30.000
+Toma unos cuarenta y cinco minutos.
+
+03:09:30.000 --> 03:09:33.000
+No es tanto.
+
+03:09:33.000 --> 03:09:36.000
+Y que introducir paralelismo.
+
+03:09:36.000 --> 03:09:38.000
+Queremos que sea rápido.
+
+03:09:38.000 --> 03:09:41.000
+Y que significa eso que vamos a tratar zonas.
+
+03:09:41.000 --> 03:09:45.000
+Vamos a separar, claro, para hacerlo más.
+
+03:09:45.000 --> 03:09:46.000
+Manejable.
+
+03:09:46.000 --> 03:09:51.000
+Pero eso no se va a imponer ciertas restricciones.
+
+03:09:51.000 --> 03:09:53.000
+Vamos a ver las reglas primero.
+
+03:09:53.000 --> 03:09:55.000
+Inicialmente ya saben.
+
+03:09:55.000 --> 03:10:00.000
+Peces, tiburones o ácidos.
+
+03:10:00.000 --> 03:10:03.000
+Las celdas vacías negritas, cero.
+
+03:10:03.000 --> 03:10:06.000
+Los peces uno.
+
+03:10:06.000 --> 03:10:08.000
+Que se va a ver como un pixel rojo.
+
+03:10:08.000 --> 03:10:11.000
+Cuando lo traduzcamos para tirar la pantalla
+
+03:10:11.000 --> 03:10:13.000
+Y los tiburones.
+
+03:10:13.000 --> 03:10:15.000
+olor menos 1
+
+03:10:15.000 --> 03:10:18.000
+El Pixel amarillo.
+
+03:10:18.000 --> 03:10:20.000
+La celda va a tener.
+
+03:10:20.000 --> 03:10:24.000
+Cada celda va a tener uno de esos tres valores posibles cero uno menos.
+
+03:10:24.000 --> 03:10:28.000
+Y cuando lo que se lo queramos mostrar al pueblo.
+
+03:10:28.000 --> 03:10:30.000
+Eso lo va a transformar en un color.
+
+03:10:30.000 --> 03:10:36.000
+Que es más fácil que estar viendo cero uno y menos uno.
+
+03:10:36.000 --> 03:10:38.000
+Regla de reproducción.
+
+03:10:38.000 --> 03:10:44.000
+Si la celda actual está vacía.
+
+03:10:44.000 --> 03:10:47.000
+Y si hay
+
+03:10:47.000 --> 03:10:50.000
+4 o más vecinos de una especie.
+
+03:10:50.000 --> 03:10:56.000
+Y tres o más de ellos están en edad de reproducción.
+
+03:10:56.000 --> 03:11:00.000
+Considerando que la edad de reproducción del pez.
+
+03:11:00.000 --> 03:11:04.000
+Es dos o más y le da la reproducción del tiburón es tres o más.
+
+03:11:04.000 --> 03:11:12.000
+Y hay menos de cuatro de la otra especie, esta es la regla complicada, entonces se crea.
+
+03:11:12.000 --> 03:11:14.000
+No una especie un miembro de esa especie.
+
+03:11:14.000 --> 03:11:19.000
+Es un pez más uno edad.
+
+03:11:19.000 --> 03:11:22.000
+Uno al nacer un bebé menos uno valor absoluto.
+
+03:11:22.000 --> 03:11:29.000
+O no, van a nacer, recuerden que el tiburón es menos uno y por eso tenemos sus edades.
+
+03:11:29.000 --> 03:11:32.000
+Entonces, con esa regla.
+
+03:11:32.000 --> 03:11:34.000
+Y esta.
+
+03:11:34.000 --> 03:11:38.000
+Casi ya vacía.
+
+03:11:38.000 --> 03:11:42.000
+Y si están en edad de reproducción.
+
+03:11:42.000 --> 03:11:43.000
+Nací un pescaíto.
+
+03:11:43.000 --> 03:11:46.000
+Edad 1.
+
+03:11:46.000 --> 03:11:48.000
+Si la celda actual.
+
+03:11:48.000 --> 03:11:50.000
+Tiene un pez.
+
+03:11:50.000 --> 03:11:55.000
+La la regla está la otra aplicaba cuando estaba vacía.
+
+03:11:55.000 --> 03:11:57.000
+Ah hay un pez aquí.
+
+03:11:57.000 --> 03:12:02.000
+Sabemos que el pez sabemos, vive diez generaciones.
+
+03:12:02.000 --> 03:12:09.000
+Si tiene cinco o más vecinos que son tiburones.
+
+03:12:09.000 --> 03:12:14.000
+Se lo van a comer.
+
+03:12:14.000 --> 03:12:18.000
+Si los ocho vecinos son peces.
+
+03:12:18.000 --> 03:12:21.000
+Sobrepoblación
+
+03:12:21.000 --> 03:12:25.000
+También se va a morir.
+
+03:12:25.000 --> 03:12:27.000
+Si no se muere.
+
+03:12:27.000 --> 03:12:29.000
+Se vuelve un año más viejo.
+
+03:12:29.000 --> 03:12:33.000
+Aumenta su edad en uno digámoslo así.
+
+03:12:33.000 --> 03:12:37.000
+Si en la celda actual hay un tiburón.
+
+03:12:37.000 --> 03:12:41.000
+Suponemos que el tiburón vive veinte generaciones.
+
+03:12:41.000 --> 03:12:44.000
+Y si tiene.
+
+03:12:44.000 --> 03:12:49.000
+Más de seis, seis o más vecinos que sean tiburones y no hay peces.
+
+03:12:49.000 --> 03:12:51.000
+Se mueren de hambre.
+
+03:12:51.000 --> 03:12:54.000
+Hay muchos tiburones.
+
+03:12:54.000 --> 03:12:55.000
+Tiene una posibilidad.
+
+03:12:55.000 --> 03:12:57.000
+Este es totalmente .
+
+03:12:57.000 --> 03:13:00.000
+periodístico de.
+
+03:13:00.000 --> 03:13:05.000
+0 0 31 de morir por cualquier causa
+
+03:13:05.000 --> 03:13:07.000
+Esta es la aleatoriedad.
+
+03:13:07.000 --> 03:13:13.000
+Se acuerdan de la mutación en los genéticos es la misma historia.
+
+03:13:13.000 --> 03:13:19.000
+Si el tiburón no se muere.
+
+03:13:19.000 --> 03:13:23.000
+Ahí está el tiburón.
+
+03:13:23.000 --> 03:13:25.000
+Este pez tiene poco futuro.
+
+03:13:25.000 --> 03:13:27.000
+Pero estamos viendo.
+
+03:13:27.000 --> 03:13:33.000
+La regla de si se muere.
+
+03:13:33.000 --> 03:13:36.000
+La probabilidad de que se muera es.
+
+03:13:36.000 --> 03:13:38.000
+Es baja, pero ahí está.
+
+03:13:38.000 --> 03:13:43.000
+Le toca a él
+
+03:13:43.000 --> 03:13:45.000
+Tiramos el random.
+
+03:13:45.000 --> 03:13:51.000
+Y el que hubiera una espera que no le toque.
+
+03:13:51.000 --> 03:13:59.000
+No le tocó se salvó caso contrario lo eliminamos.
+
+03:13:59.000 --> 03:14:04.000
+Se usan dos arreglos ehh bidimensionales como ustedes los vieron en los colores.
+
+03:14:04.000 --> 03:14:09.000
+Para representar la matriz en una posición cualquiera.
+
+03:14:09.000 --> 03:14:11.000
+entero positivo hay un pez.
+
+03:14:11.000 --> 03:14:15.000
+Entélo negativo entero.
+
+03:14:15.000 --> 03:14:18.000
+0.
+
+03:14:18.000 --> 03:14:23.000
+El valor absoluto de la celda es la edad.
+
+03:14:23.000 --> 03:14:26.000
+Como el tiburón no se murió y no se murió y no se murió, crementó hacia edad.
+
+03:14:26.000 --> 03:14:29.000
+Como vive máximo diez, llegamos a diez.
+
+03:14:29.000 --> 03:14:32.000
+Se fue el pez vive.
+
+03:14:32.000 --> 03:14:34.000
+Sí.
+
+03:14:34.000 --> 03:14:37.000
+Esto es un código que se llama más para el.
+
+03:14:37.000 --> 03:14:40.000
+Como se manejaron con los tiburones y con los peces?
+
+03:14:40.000 --> 03:14:43.000
+No es muy relevante .
+
+03:14:43.000 --> 03:14:46.000
+Que es lo que hace una CPU?
+
+03:14:46.000 --> 03:14:49.000
+Aplica reglas a la primera secta.
+
+03:14:49.000 --> 03:14:51.000
+Y para cada celda.
+
+03:14:51.000 --> 03:14:54.000
+Repite las mismas reglas a las doce.
+
+03:14:54.000 --> 03:14:59.000
+Después de procesar doce millones de celdas se actualiza.
+
+03:14:59.000 --> 03:15:01.000
+Como.
+
+03:15:01.000 --> 03:15:03.000
+Como esto es simultáneo.
+
+03:15:03.000 --> 03:15:08.000
+Una vez que procese una celda copia el resultado en una matriz transitoria.
+
+03:15:08.000 --> 03:15:13.000
+No es la misma matriz porque si no en el cálculo siguiente va a afectarlo.
+
+03:15:13.000 --> 03:15:17.000
+Al vecino con un cambio posterior.
+
+03:15:17.000 --> 03:15:22.000
+Esa es una generación.
+
+03:15:22.000 --> 03:15:24.000
+Procesó.
+
+03:15:24.000 --> 03:15:27.000
+12 reglas para 2 millones de celtas
+
+03:15:27.000 --> 03:15:32.000
+I tenemos una generación y tenemos que hacer veinte mil.
+
+03:15:32.000 --> 03:15:39.000
+Y este proceso se repite muchas, muchas, muchas generaciones.
+
+03:15:39.000 --> 03:15:42.000
+Cada cien generaciones más menos.
+
+03:15:42.000 --> 03:15:44.000
+Vamos a tomar un pantallazo.
+
+03:15:44.000 --> 03:15:46.000
+Paramos y transformamos.
+
+03:15:46.000 --> 03:15:49.000
+Los ceros en negro, los menos uno en amarillo.
+
+03:15:49.000 --> 03:15:57.000
+O los negativo en amarillo y los positivos en en rojo.
+
+03:15:57.000 --> 03:15:59.000
+Para esto se usó paralelismo, claro.
+
+03:15:59.000 --> 03:16:03.000
+Hay una que es el el máster, ese es el que tiene el.
+
+03:16:03.000 --> 03:16:05.000
+El mundo completo.
+
+03:16:05.000 --> 03:16:09.000
+Hay 18 que son esclavas.
+
+03:16:09.000 --> 03:16:12.000
+Se divide en este este mundo.
+
+03:16:12.000 --> 03:16:15.000
+En partes
+
+03:16:15.000 --> 03:16:22.000
+Una en la que nos actualiza los colores.
+
+03:16:22.000 --> 03:16:24.000
+Y este master.
+
+03:16:24.000 --> 03:16:27.000
+Maneja los bordes.
+
+03:16:27.000 --> 03:16:35.000
+La conexión con la comunicación con los vecinos.
+
+03:16:35.000 --> 03:16:40.000
+Esa parte no es nada de fácil, pero lo hicieron estos niños.
+
+03:16:40.000 --> 03:16:46.000
+Que es lo que hicieron demoraron veinticinco minutos.
+
+03:16:46.000 --> 03:16:50.000
+Muestran 10000 generaciones
+
+03:16:50.000 --> 03:16:55.000
+Este era el valor inicial, ¿se acuerdan?
+
+03:16:55.000 --> 03:16:58.000
+Tiburones amarillitos.
+
+03:16:58.000 --> 03:17:04.000
+Peces rojos negras vacía.
+
+03:17:04.000 --> 03:17:08.000
+Es que hay algo súper interesante.
+
+03:17:08.000 --> 03:17:12.000
+Que es lo que le ha dado validez a este, a este ejemplo?
+
+03:17:12.000 --> 03:17:15.000
+Después de cien generaciones.
+
+03:17:15.000 --> 03:17:18.000
+Se empiezan a mostrar
+
+03:17:18.000 --> 03:17:23.000
+Ciertas separaciones con la población inicial.
+
+03:17:23.000 --> 03:17:27.000
+Después de quinientas generaciones.
+
+03:17:27.000 --> 03:17:29.000
+Se empiezan a armar supoblaciones.
+
+03:17:29.000 --> 03:17:35.000
+Peces y tiburones. La verdad es que hay tanto pez que todavía los tiburones tienen una.
+
+03:17:35.000 --> 03:17:38.000
+La subsistencia.
+
+03:17:38.000 --> 03:17:42.000
+Después de mil generaciones.
+
+03:17:42.000 --> 03:17:45.000
+No se nota muy bien aquí, pero los bordes
+
+03:17:45.000 --> 03:17:48.000
+Empiezan a quedar vacíos.
+
+03:17:48.000 --> 03:17:52.000
+Y se empiezan a producir vacíos también.
+
+03:17:52.000 --> 03:17:57.000
+Y separaciones entre estas agrupaciones.
+
+03:17:57.000 --> 03:18:01.000
+Dos mil generaciones.
+
+03:18:01.000 --> 03:18:09.000
+Cuatro mil generaciones.
+
+03:18:09.000 --> 03:18:11.000
+Ocho mil, cómo evolucionan las poblaciones?
+
+03:18:11.000 --> 03:18:15.000
+Y a los espacios vacíos son más grandes, más importantes.
+
+03:18:15.000 --> 03:18:20.000
+Que, por ejemplo, que son las barreras naturales de defensa?
+
+03:18:20.000 --> 03:18:29.000
+En la generación diez mil quinientos, esto ya va más o menos así.
+
+03:18:29.000 --> 03:18:33.000
+Las fronteras aquí son relativamente.
+
+03:18:33.000 --> 03:18:36.000
+Eh artificiales.
+
+03:18:36.000 --> 03:18:40.000
+Pero es por el tamaño.
+
+03:18:40.000 --> 03:18:44.000
+Absolidamente arbitrario de la población.
+
+03:18:44.000 --> 03:18:49.000
+Como resulta no tan visible de las imágenes pero lógico de esperar.
+
+03:18:49.000 --> 03:18:53.000
+Los peces que subsisten son los que se consiguen alejar de los tiburones.
+
+03:18:53.000 --> 03:18:57.000
+Entonces los grupos de peces que consiguen subsistir son aquellos que se concentran.
+
+03:18:57.000 --> 03:19:04.000
+Sin estar en contacto con los tiburones
+
+03:19:04.000 --> 03:19:07.000
+Los grupos de peces se unen y generan forma.
+
+03:19:07.000 --> 03:19:11.000
+Convexas de comunidades.
+
+03:19:11.000 --> 03:19:14.000
+Eso es importante porque está.
+
+03:19:14.000 --> 03:19:17.000
+Estos grupos convexos.
+
+03:19:17.000 --> 03:19:21.000
+Son los que permiten una mejor posibilidad de supervivencia.
+
+03:19:21.000 --> 03:19:28.000
+Entienden el concepto de convexo en estos grupos?
+
+03:19:28.000 --> 03:19:32.000
+Eh un grupo es convexo.
+
+03:19:32.000 --> 03:19:38.000
+Cuando yo elijo dos elementos cualesquiera dentro de este grupo.
+
+03:19:38.000 --> 03:19:42.000
+Lanzalanina recta y todos los puntos de la línea recta.
+
+03:19:42.000 --> 03:19:44.000
+Están dentro del grupo.
+
+03:19:44.000 --> 03:19:47.000
+Imaginémonos una letra O.
+
+03:19:47.000 --> 03:19:53.000
+O mejor que la letra, imaginémonos un.
+
+03:19:53.000 --> 03:19:56.000
+Un un disco.
+
+03:19:56.000 --> 03:19:58.000
+Una figura en forma de disco.
+
+03:19:58.000 --> 03:20:00.000
+Esa es convexa
+
+03:20:00.000 --> 03:20:05.000
+Es convexo porque si yo tomo dos puntos cualesquiera dentro de este disco y lanzo una línea.
+
+03:20:05.000 --> 03:20:08.000
+Entre ellos todos los puntos de la línea están dentro de la figura.
+
+03:20:08.000 --> 03:20:12.000
+Pero si ahora yo tengo una letra C.
+
+03:20:12.000 --> 03:20:14.000
+Imaginemos una letra C grande.
+
+03:20:14.000 --> 03:20:18.000
+Parecida y yo uno los dos extremos de la C con una línea recta.
+
+03:20:18.000 --> 03:20:22.000
+La mayoría de los elementos va a estar fuera.
+
+03:20:22.000 --> 03:20:26.000
+Del grupo ahí no es convexo.
+
+03:20:26.000 --> 03:20:36.000
+La matemáticos tienen otras definiciones más raras pero queremos nos conectamos ahora.
+
+03:20:36.000 --> 03:20:42.000
+Si va se variaron las condiciones los peces tirones ahora ocupan bastante menos de la matriz.
+
+03:20:42.000 --> 03:20:45.000
+hay sesenta y dos mil pesos treinta y un mil teurones.
+
+03:20:45.000 --> 03:20:48.000
+Las poblaciones son muy pequeñas, las poblaciones los
+
+03:20:48.000 --> 03:20:52.000
+Los tiburones ocupan ya una parte baja de la nariz.
+
+03:20:52.000 --> 03:20:55.000
+De la matriz, la población inicial es esta.
+
+03:20:55.000 --> 03:20:57.000
+Y eh.
+
+03:20:57.000 --> 03:21:04.000
+Nuestras generaciones van cambiando.
+
+03:21:04.000 --> 03:21:06.000
+2000.
+
+03:21:06.000 --> 03:21:10.000
+4 mil.
+
+03:21:10.000 --> 03:21:13.000
+Los grupos se separan.
+
+03:21:13.000 --> 03:21:18.000
+Más rápidamente se establecen fronteras importantes.
+
+03:21:18.000 --> 03:21:20.000
+Se empiezan a producir vacío en las poblaciones.
+
+03:21:20.000 --> 03:21:23.000
+Y así podemos jugar y ver qué pasa.
+
+03:21:23.000 --> 03:21:30.000
+Podemos analizar esto y ver como la introducción de ciertas especies podría provocar un.
+
+03:21:30.000 --> 03:21:36.000
+Distinto balance de supervivencia de especies.
+
+03:21:36.000 --> 03:21:38.000
+Cuando las poblaciones son muy pequeñas.
+
+03:21:38.000 --> 03:21:40.000
+Que pasa?
+
+03:21:40.000 --> 03:21:44.000
+Si las poblaciones son de peces son muy pequeñas.
+
+03:21:44.000 --> 03:21:50.000
+Su velocidad de movimiento es más fácil y son más difíciles de detectar por los tiburones.
+
+03:21:50.000 --> 03:22:01.000
+Cuando hay harto pez es como si hubiera harto conejo, los zorros engordan, pasaría lo mismo con los tiburones?
+
+03:22:01.000 --> 03:22:05.000
+Los tiburones, perdón, los tiburones favorecidos, predominan tiburones.
+
+03:22:05.000 --> 03:22:09.000
+Los peces sobreviven en en nichos.
+
+03:22:09.000 --> 03:22:14.000
+Que es como se da realmente?
+
+03:22:14.000 --> 03:22:17.000
+Poblaciones muy pequeñas.
+
+03:22:17.000 --> 03:22:20.000
+Si las poblaciones son chiquititas.
+
+03:22:20.000 --> 03:22:26.000
+Uno tiende a desaparecer.
+
+03:22:26.000 --> 03:22:31.000
+Pobres tiburones
+
+03:22:31.000 --> 03:22:36.000
+Entonces después nosotros vemos la la conclusión de esto en la televisión dice.
+
+03:22:36.000 --> 03:22:41.000
+Eh se estima que tal tipo de animalito.
+
+03:22:41.000 --> 03:22:44.000
+Queda en el África 300 ejemplares
+
+03:22:44.000 --> 03:22:55.000
+Yo decía, "Ah, qué pena." Y después ve la otra noticia feliz.
+
+03:22:55.000 --> 03:22:58.000
+Aquí nos quedamos sin conocer al tiburón .
+
+03:22:58.000 --> 03:23:00.000
+O como mostrar la clase inicial.
+
+03:23:00.000 --> 03:23:10.000
+Nos quedamos sin conocer al tigre dientes de sable.
+
+03:23:10.000 --> 03:23:16.000
+El bienestar final depende de por supuesto la distribución en este modelo.
+
+03:23:16.000 --> 03:23:19.000
+Que pasa si queremos salvar tiburones?
+
+03:23:19.000 --> 03:23:22.000
+Queremos hacerlo?
+
+03:23:22.000 --> 03:23:30.000
+Es posible que sí, porque no conocemos bien el impacto de los tiburones en el sistema ecológico submarino, ni siquiera conocemos bien lo que está pasando ahí.
+
+03:23:30.000 --> 03:23:36.000
+Somos más de la luna que del fondo del, del, del mar.
+
+03:23:36.000 --> 03:23:38.000
+Los peces pueden vivir en comunidades pequeñas.
+
+03:23:38.000 --> 03:23:41.000
+Veinte treinta
+
+03:23:41.000 --> 03:23:46.000
+Si tenemos menos de doscientos tiburones.
+
+03:23:46.000 --> 03:23:51.000
+Por su velocidad de reproducción.
+
+03:23:51.000 --> 03:23:53.000
+Podemos acelerar el.
+
+03:23:53.000 --> 03:23:56.000
+Estos com procesos computacionales, sí.
+
+03:23:56.000 --> 03:23:58.000
+Hoy día no tiene tanta.
+
+03:23:58.000 --> 03:24:03.000
+tanta importancia a la computadora son extraordinariamente poderosos, el overhead.
+
+03:24:03.000 --> 03:24:08.000
+entre las distintas partes y los distintos computadores se resuelve fácil.
+
+03:24:08.000 --> 03:24:14.000
+Si tenemos que intercambiar muchos datos bueno como siempre se produce un.
+
+03:24:14.000 --> 03:24:18.000
+Un desbalance de en en procesamiento.
+
+03:24:18.000 --> 03:24:26.000
+Y pasamos más haciendo administración que procesamiento realmente.
+
+03:24:26.000 --> 03:24:30.000
+Y quería aprovechar.
+
+03:24:30.000 --> 03:24:37.000
+Estamos acercando al final pero quería contarle la historia.
+
+03:24:37.000 --> 03:24:40.000
+De un señor.
+
+03:24:40.000 --> 03:24:43.000
+Que analizó de todo desde otra perspectiva.
+
+03:24:43.000 --> 03:24:48.000
+Don Tomás Schelling.
+
+03:24:48.000 --> 03:25:04.000
+Él fue premio Nobel en economía en el año dos mil cinco.
+
+03:25:04.000 --> 03:25:06.000
+cuál fue .
+
+03:25:06.000 --> 03:25:10.000
+La gracia por la que le dieron el Nobel.
+
+03:25:10.000 --> 03:25:21.000
+Él trabajaba en teoría de juegos.
+
+03:25:21.000 --> 03:25:28.000
+Conocen teoría de juegos, el concepto, ¿no?
+
+03:25:28.000 --> 03:25:32.000
+En su concepto más simple.
+
+03:25:32.000 --> 03:25:37.000
+En la teoría de juegos tenemos dos adversarios.
+
+03:25:37.000 --> 03:25:39.000
+Lo mencionamos el año pasado.
+
+03:25:39.000 --> 03:25:43.000
+Que intelectúan y lo que gana uno lo pierde el otro.
+
+03:25:43.000 --> 03:25:46.000
+Fundamentalmente eso y en ese caso es todo.
+
+03:25:46.000 --> 03:25:49.000
+Estos esquemas simples se llaman eh.
+
+03:25:49.000 --> 03:25:51.000
+Juego de suma cero.
+
+03:25:51.000 --> 03:25:54.000
+Creo que yo pierdo lo gané el otro.
+
+03:25:54.000 --> 03:25:57.000
+Lo que el otro pierde lo gano yo.
+
+03:25:57.000 --> 03:26:00.000
+Y lo que hizo.
+
+03:26:00.000 --> 03:26:02.000
+Shilling
+
+03:26:02.000 --> 03:26:04.000
+Fue cambiar.
+
+03:26:04.000 --> 03:26:08.000
+Esta idea.
+
+03:26:08.000 --> 03:26:12.000
+A ver.
+
+03:26:12.000 --> 03:26:15.000
+Fue cambiar la idea.
+
+03:26:15.000 --> 03:26:18.000
+Que tenía von Neumann.
+
+03:26:18.000 --> 03:26:19.000
+For noimal.
+
+03:26:19.000 --> 03:26:22.000
+Uno de los creadores de oro y juegos.
+
+03:26:22.000 --> 03:26:27.000
+O sea este for Neumann que inventó el computador que trabajó en la bomba.
+
+03:26:27.000 --> 03:26:29.000
+Que jugó con los.
+
+03:26:29.000 --> 03:26:39.000
+Automata celulares que les dé origen también trabajo en teoría de juego.
+
+03:26:39.000 --> 03:26:46.000
+Y él tenía una visión un poco distinta a la de Schelling.
+
+03:26:46.000 --> 03:26:50.000
+En el año 61, ahí sí que no había nacido ninguno de ustedes.
+
+03:26:50.000 --> 03:26:56.000
+Un año muy interesante.
+
+03:26:56.000 --> 03:26:59.000
+Estamos en plena guerra fría.
+
+03:26:59.000 --> 03:27:06.000
+Estábamos, o sea, yo y los otros, ustedes no.
+
+03:27:06.000 --> 03:27:08.000
+Eso fue el año sesenta y dos.
+
+03:27:08.000 --> 03:27:12.000
+En el año sesenta y uno.
+
+03:27:12.000 --> 03:27:14.000
+Estaban preocupados.
+
+03:27:14.000 --> 03:27:16.000
+En Estados Unidos .
+
+03:27:16.000 --> 03:27:18.000
+De .
+
+03:27:18.000 --> 03:27:20.000
+La guerra futura
+
+03:27:20.000 --> 03:27:25.000
+Que la veían inevitable.
+
+03:27:25.000 --> 03:27:28.000
+Ya von Neumann había muerto.
+
+03:27:28.000 --> 03:27:32.000
+For Neymar había sugerido esta bomba de hidrógeno.
+
+03:27:32.000 --> 03:27:35.000
+Que después se revintieron.
+
+03:27:35.000 --> 03:27:39.000
+Charlie
+
+03:27:39.000 --> 03:27:42.000
+Porque este era un juego de suma cero.
+
+03:27:42.000 --> 03:27:48.000
+Se venía a la guerra después del del año cuarenta y cinco cuando termina la segunda guerra mundial.
+
+03:27:48.000 --> 03:27:51.000
+La gran preocupación fue la Guerra Fría.
+
+03:27:51.000 --> 03:27:56.000
+Los rusos o los norteamericanos ese era la decisión del mundo.
+
+03:27:56.000 --> 03:27:59.000
+Y.
+
+03:27:59.000 --> 03:28:03.000
+Los norteamericanos sintieron en ese año.
+
+03:28:03.000 --> 03:28:05.000
+Que.
+
+03:28:05.000 --> 03:28:07.000
+Estaban perdiendo.
+
+03:28:07.000 --> 03:28:11.000
+Primero la carrera espacial.
+
+03:28:11.000 --> 03:28:15.000
+Año sesenta y uno estaba perdiendo la carrera espacial.
+
+03:28:15.000 --> 03:28:20.000
+Los los rusos ya habían puesto el Sputnikon Gagalin.
+
+03:28:20.000 --> 03:28:24.000
+En el aire.
+
+03:28:24.000 --> 03:28:31.000
+Y sentían que además en esos años que era el primer ministro ruso, había ordenado la.
+
+03:28:31.000 --> 03:28:33.000
+La construcción del muro de Berlín.
+
+03:28:33.000 --> 03:28:39.000
+estaba cerrando Berlín con el muro.
+
+03:28:39.000 --> 03:28:41.000
+Y en.
+
+03:28:41.000 --> 03:28:43.000
+En una pieza
+
+03:28:43.000 --> 03:28:46.000
+Había un ejército de.
+
+03:28:46.000 --> 03:28:49.000
+Asesores de seguridad.
+
+03:28:49.000 --> 03:28:51.000
+De la casa blanca.
+
+03:28:51.000 --> 03:28:58.000
+Entre esos asesores estaba él en aquel entonces muy poco conocido Henry Kissinger.
+
+03:28:58.000 --> 03:29:06.000
+Como una estrategia, un economista con una mirada de futuro interesante.
+
+03:29:06.000 --> 03:29:10.000
+Y en esa pieza cerca cerca de la Casa Blanca.
+
+03:29:10.000 --> 03:29:14.000
+Si el Pentágono en realidad.
+
+03:29:14.000 --> 03:29:16.000
+Una noche
+
+03:29:16.000 --> 03:29:20.000
+Septiembre del 61 debe haber sido.
+
+03:29:20.000 --> 03:29:22.000
+Recibieron una llamada.
+
+03:29:22.000 --> 03:29:24.000
+Telefónica.
+
+03:29:24.000 --> 03:29:28.000
+entraron en crisis, porque la llamada decía que los rusos
+
+03:29:28.000 --> 03:29:32.000
+Habían pasado la línea divisoria de en Berlín?
+
+03:29:32.000 --> 03:29:35.000
+Estaban invadiendo la parte occidental.
+
+03:29:35.000 --> 03:29:37.000
+Y la parte occidental.
+
+03:29:37.000 --> 03:29:41.000
+Luego los los americanos que todavía estaban ocupando los norteamericano.
+
+03:29:41.000 --> 03:29:44.000
+Habían reaccionado.
+
+03:29:44.000 --> 03:29:46.000
+Se venía el conflicto.
+
+03:29:46.000 --> 03:29:50.000
+Grande.
+
+03:29:50.000 --> 03:29:55.000
+for Neumann había calculado previamente que esto se iba a dar.
+
+03:29:55.000 --> 03:29:57.000
+Y lo que él sugería era poner.
+
+03:29:57.000 --> 03:29:59.000
+Más, más, más bombas nucleares.
+
+03:29:59.000 --> 03:30:03.000
+Había suficiente para hacer pedazos todo.
+
+03:30:03.000 --> 03:30:08.000
+La los rusos tenían suficiente poder nuclear para destruir dos veces la tierra.
+
+03:30:08.000 --> 03:30:14.000
+Norteamericanos tenían suficiente poder nuclear para destruir diez veces la tierra.
+
+03:30:14.000 --> 03:30:17.000
+El año sesenta y uno fue el año que.
+
+03:30:17.000 --> 03:30:19.000
+Asumió la presidencia.
+
+03:30:19.000 --> 03:30:22.000
+quien el veinte de enero
+
+03:30:22.000 --> 03:30:26.000
+Y convocó a un montón de expertos.
+
+03:30:26.000 --> 03:30:32.000
+Incluido Kissinger y estaban en esa pieza recibiendo esas llamadas telefónicas.
+
+03:30:32.000 --> 03:30:35.000
+Y como era una situación de crisis.
+
+03:30:35.000 --> 03:30:37.000
+Nadie salía
+
+03:30:37.000 --> 03:30:41.000
+No nadie se va a ir para casa mientras no resolvamos este pastel .
+
+03:30:41.000 --> 03:30:46.000
+Y qué hacemos?
+
+03:30:46.000 --> 03:30:50.000
+¿Qué hacen ustedes en una sala donde tienen que decidir?
+
+03:30:50.000 --> 03:30:56.000
+Sí, atacan o no, sí.
+
+03:30:56.000 --> 03:31:00.000
+No hacen nada, ganaron los rusos.
+
+03:31:00.000 --> 03:31:07.000
+Si hacen algo los rusos no se van a retirar porque sería feo que hubieran salido con los tanques y después tienen que volverse balear.
+
+03:31:07.000 --> 03:31:11.000
+a llorarse y volver con las manos vacías.
+
+03:31:11.000 --> 03:31:15.000
+Y ahí estaban analizando cuál era la idea de.
+
+03:31:15.000 --> 03:31:22.000
+Los más termocéfalos que nunca falta tenemos la bomba al tiro no más.
+
+03:31:22.000 --> 03:31:24.000
+chilling
+
+03:31:24.000 --> 03:31:27.000
+Dijo calma calma cabrito.
+
+03:31:27.000 --> 03:31:29.000
+Esta llamada nos viene de Alemania.
+
+03:31:29.000 --> 03:31:34.000
+Esta llamada viene de la oficina del lado de donde vengo yo, yo la hice.
+
+03:31:34.000 --> 03:31:38.000
+Para ver cómo reaccionan en crisis.
+
+03:31:38.000 --> 03:31:42.000
+Porque la única manera de resolver esto en este juego.
+
+03:31:42.000 --> 03:31:44.000
+Tenía juegos no es.
+
+03:31:44.000 --> 03:31:48.000
+Lo que yo gano, lo que tú pierdes.
+
+03:31:48.000 --> 03:31:52.000
+Es cómo podemos ganar los dos.
+
+03:31:52.000 --> 03:31:54.000
+Negociación.
+
+03:31:54.000 --> 03:31:57.000
+Capacidad de negociación.
+
+03:31:57.000 --> 03:32:02.000
+Que él había desarrollado.
+
+03:32:02.000 --> 03:32:05.000
+Y dijo en ese entonces sesenta y uno.
+
+03:32:05.000 --> 03:32:11.000
+Aquí lo que necesitamos y todo era un problema de falta de comunicación en realidad falta comunicación también.
+
+03:32:11.000 --> 03:32:15.000
+Entre los dirigentes máximos, digamos Kennedy Krush.
+
+03:32:15.000 --> 03:32:17.000
+Y que hizo Schelling?
+
+03:32:17.000 --> 03:32:19.000
+Es un desconocido para todo.
+
+03:32:19.000 --> 03:32:25.000
+Dijo, aquí falta un teléfono rojo.
+
+03:32:25.000 --> 03:32:29.000
+Que lo pusieron después de la crisis de los misiles.
+
+03:32:29.000 --> 03:32:35.000
+Esa es la importancia de Chelin, usó teoría de juegos.
+
+03:32:35.000 --> 03:32:38.000
+O toma de celulares.
+
+03:32:38.000 --> 03:32:44.000
+Para ver cuál eran los puntos de equilibrio y a qué punto de equilibrio llegó él?
+
+03:32:44.000 --> 03:32:47.000
+A que la única forma era negociar.
+
+03:32:47.000 --> 03:32:49.000
+Un desarme nuclear paulatino.
+
+03:32:49.000 --> 03:32:52.000
+Que fue lo que finalmente se dio.
+
+03:32:52.000 --> 03:32:55.000
+chilling se hizo famoso.
+
+03:32:55.000 --> 03:33:01.000
+Todo el mundo le consultaba, le iba a pedir su opinión.
+
+03:33:01.000 --> 03:33:05.000
+Él era un asesor presidencial, era un académico.
+
+03:33:05.000 --> 03:33:10.000
+Él trabaja en la universidad, en Harvard, pues Maryland, estuve en varias universidades, pero
+
+03:33:10.000 --> 03:33:15.000
+El gobierno lo llamaban ciertas asesorías clave.
+
+03:33:15.000 --> 03:33:19.000
+Una de las gracias que me llamó la atención de la historia es que.
+
+03:33:19.000 --> 03:33:25.000
+Ahí no se no le preguntaban a alguien si era del partido o no.
+
+03:33:25.000 --> 03:33:31.000
+Habían demócratas y republicanos me preocupé de averiguar bien si era verdad.
+
+03:33:31.000 --> 03:33:33.000
+Si había de los dos lados.
+
+03:33:33.000 --> 03:33:34.000
+Cooperando con los mismos objetivos.
+
+03:33:34.000 --> 03:33:37.000
+Este mismo Schelling fue el que dijo
+
+03:33:37.000 --> 03:33:45.000
+En el año setenta, lo que se viene en términos climáticos es serio, es una crisis que vamos a tener que enfrentar.
+
+03:33:45.000 --> 03:33:50.000
+Y para eso vamos a tener que negociar, el único problema, dijo que negociar.
+
+03:33:50.000 --> 03:33:56.000
+En estas condiciones es muy difícil porque el desbalance de los países ricos y los países pobres es muy grande.
+
+03:33:56.000 --> 03:34:01.000
+Y por lo tanto un país chico como nosotros capacidad de negociación.
+
+03:34:01.000 --> 03:34:03.000
+cero.
+
+03:34:03.000 --> 03:34:05.000
+Entonces eso hacía muy difícil.
+
+03:34:05.000 --> 03:34:12.000
+Mil nueve setenta. Bueno, en el año sesenta y cuatro.
+
+03:34:12.000 --> 03:34:15.000
+Yo nocton era él.
+
+03:34:15.000 --> 03:34:20.000
+Su secretario de defensa como el secretario de guerra de Estados Unidos.
+
+03:34:20.000 --> 03:34:23.000
+Y fue a hablar con Shelling, esto ya es pelambra.
+
+03:34:23.000 --> 03:34:25.000
+Pues no le cuenten a nadie pero esto ya pasó.
+
+03:34:25.000 --> 03:34:28.000
+Hablar con chelín y le dijo.
+
+03:34:28.000 --> 03:34:32.000
+Sabes que nosotros estamos pensando.
+
+03:34:32.000 --> 03:34:35.000
+Que la manera de resolver el conflicto.
+
+03:34:35.000 --> 03:34:39.000
+Que están haciendo en Vietnam.
+
+03:34:39.000 --> 03:34:44.000
+Había un conflicto de la presión de Vietnam del Norte sobre Vietnam del Sur.
+
+03:34:44.000 --> 03:34:47.000
+Saigón güey.
+
+03:34:47.000 --> 03:34:49.000
+Eh .
+
+03:34:49.000 --> 03:34:51.000
+Ese conflicto.
+
+03:34:51.000 --> 03:34:55.000
+Nosotros creemos que lo podemos resolver.
+
+03:34:55.000 --> 03:34:58.000
+Bombardeando durante 3 semanas.
+
+03:34:58.000 --> 03:35:01.000
+with them del norte.
+
+03:35:01.000 --> 03:35:06.000
+Oh, voy a mandarles todos los aviones, vamos a dejarle.
+
+03:35:06.000 --> 03:35:12.000
+No les van a quedar ganas a los nor vietnamitas de seguir avanzando pal sur.
+
+03:35:12.000 --> 03:35:17.000
+Y le preguntó a Shelling qué le parecía y Schelling le dijo, "Y"
+
+03:35:17.000 --> 03:35:22.000
+Como en cuánto tiempo más o menos vamos a saber si funcionó.
+
+03:35:22.000 --> 03:35:28.000
+En Often dijo, "Pueden ser una.
+
+03:35:28.000 --> 03:35:32.000
+Una pala semana unos tres meses.
+
+03:35:32.000 --> 03:35:36.000
+Un año tal vez o bueno no estamos seguros.
+
+03:35:36.000 --> 03:35:39.000
+Y Shelin dijo .
+
+03:35:39.000 --> 03:35:41.000
+No.
+
+03:35:41.000 --> 03:35:44.000
+No es recomendable.
+
+03:35:44.000 --> 03:35:46.000
+Seis meses después.
+
+03:35:46.000 --> 03:35:49.000
+Estados Unidos bombardeó.
+
+03:35:49.000 --> 03:35:53.000
+Vietnam del norte.
+
+03:35:53.000 --> 03:35:54.000
+Rolling Thunder se llamaba la operación.
+
+03:35:54.000 --> 03:35:58.000
+Y en vez de otra semana estuvieron tres años y medio metidos en Vietnam.
+
+03:35:58.000 --> 03:36:03.000
+Shelling después de eso, se fue.
+
+03:36:03.000 --> 03:36:05.000
+O sea, digo otra cosa.
+
+03:36:05.000 --> 03:36:07.000
+Siempre teoría juego .
+
+03:36:07.000 --> 03:36:10.000
+Les cuento esta historia para que vean cómo se relacionan.
+
+03:36:10.000 --> 03:36:16.000
+Las creaciones fueron Neumann.
+
+03:36:16.000 --> 03:36:20.000
+El mismo chelín la teoría de juegos como sirve como distintas visiones nos permiten.
+
+03:36:20.000 --> 03:36:24.000
+Proyectar cuando conectamos cosas soluciones a problemas reales.
+
+03:36:24.000 --> 03:36:35.000
+Que no sean un calentamiento de cabeza el que pegamos fuerte el que pega primero, eso no funciona.
+
+03:36:35.000 --> 03:36:39.000
+Como se volvió.
+
+03:36:39.000 --> 03:36:44.000
+A la universidad.
+
+03:36:44.000 --> 03:36:46.000
+Norteamericano.
+
+03:36:46.000 --> 03:36:48.000
+Siempre en Vietnam.
+
+03:36:48.000 --> 03:36:53.000
+Propuso un modelo para ver la segregación de grupos.
+
+03:36:53.000 --> 03:36:56.000
+La tendencia a vivir persona.
+
+03:36:56.000 --> 03:36:59.000
+Con personas del mismo grupo.
+
+03:36:59.000 --> 03:37:07.000
+Salvé el mejor ejemplo que un poco chabacano puede ser, pero el San Los Reyes que dijo, yo no me cambio de mi poblacion, de mi barrio, yo vivo en Conchallí.
+
+03:37:07.000 --> 03:37:10.000
+Y como los grupos?
+
+03:37:10.000 --> 03:37:13.000
+Y en distintos países se tienden a agrupar.
+
+03:37:13.000 --> 03:37:16.000
+Y vivir en lugares que le son más afines.
+
+03:37:16.000 --> 03:37:20.000
+Somos visto o escuchado hablar de las pequeñas caracas.
+
+03:37:20.000 --> 03:37:23.000
+que existen en todas las ciudades grandes en Chile.
+
+03:37:23.000 --> 03:37:26.000
+O los barrios chinos.
+
+03:37:26.000 --> 03:37:31.000
+Los barrios italianos en Nueva York como las colonias tienden a juntarse.
+
+03:37:31.000 --> 03:37:36.000
+No forzados, es natural.
+
+03:37:36.000 --> 03:37:39.000
+Que es lo que hizo Schelling?
+
+03:37:39.000 --> 03:37:46.000
+Que no es necesario tener una organización para que se produzca ese cambio que es natural.
+
+03:37:46.000 --> 03:37:48.000
+El cambio
+
+03:37:48.000 --> 03:37:54.000
+en el movimiento de las poblaciones es absolutamente natural.
+
+03:37:54.000 --> 03:37:56.000
+Y esto qué es lo que es?
+
+03:37:56.000 --> 03:38:03.000
+Modelación basada en la gente con restricciones del entorno.
+
+03:38:03.000 --> 03:38:09.000
+Eso es.
+
+03:38:09.000 --> 03:38:11.000
+Y esto significa.
+
+03:38:11.000 --> 03:38:17.000
+patrones globales de segregación.
+
+03:38:17.000 --> 03:38:20.000
+Las personas.
+
+03:38:20.000 --> 03:38:26.000
+A raíz de esta segregación las personas se intercambian información, conocimiento y bienes.
+
+03:38:26.000 --> 03:38:32.000
+Localmente se empiezan a formar los grietos.
+
+03:38:32.000 --> 03:38:36.000
+Si yo vivo en las Condes, no voy a comprar agua chulada.
+
+03:38:36.000 --> 03:38:41.000
+Si yo vivo en Maipú no voy a comprar ropa de Valencia.
+
+03:38:41.000 --> 03:38:43.000
+Se empieza.
+
+03:38:43.000 --> 03:38:50.000
+Como los peces y tiburones de manera natural.
+
+03:38:50.000 --> 03:38:56.000
+Un autómata celular imagínense ahora este autómata celular esta es la población lo caracterizamos.
+
+03:38:56.000 --> 03:39:00.000
+Les aplicamos las operaciones celda celda y tenemos una redistribución.
+
+03:39:00.000 --> 03:39:05.000
+Quien puede hacer esto las grandes compañías que les interesa saber dónde me van a comprar más Coca Cola.
+
+03:39:05.000 --> 03:39:11.000
+Donde instalo más McDonald, donde instalo un bol chino.
+
+03:39:11.000 --> 03:39:21.000
+Bueno, la respuesta es en todos lados, pero en fin, digamos que se puede calcular.
+
+03:39:21.000 --> 03:39:23.000
+Lo de Schelling se estudia.
+
+03:39:23.000 --> 03:39:27.000
+Con la gente.
+
+03:39:27.000 --> 03:39:32.000
+Tenemos rojos verdes.
+
+03:39:32.000 --> 03:39:36.000
+Tienden a estar cada uno con los de su mismo color.
+
+03:39:36.000 --> 03:39:44.000
+Los agentes se desplazan hasta que se quedan cómodos en su entorno.
+
+03:39:44.000 --> 03:39:46.000
+Si el un liderazgo.
+
+03:39:46.000 --> 03:39:57.000
+Sistema auto organizado como las hormigas como las abejas.
+
+03:39:57.000 --> 03:39:59.000
+Estas decisiones colectivas.
+
+03:39:59.000 --> 03:40:03.000
+Estos desplazamientos llevan a nuevos patrones de segregación.
+
+03:40:03.000 --> 03:40:05.000
+Hay un.
+
+03:40:05.000 --> 03:40:10.000
+Bueno, el modelo tiene agentes, entornos.
+
+03:40:10.000 --> 03:40:13.000
+But dos tipos de gente que toman decisiones.
+
+03:40:13.000 --> 03:40:17.000
+Los agentes tienen un modelo interno si el valor de la celda.
+
+03:40:17.000 --> 03:40:20.000
+Buscan estar con los mismos.
+
+03:40:20.000 --> 03:40:24.000
+El entorno pretende ser homogéneo con un cierto espacio.
+
+03:40:24.000 --> 03:40:27.000
+Para la ubicación de nuevos agentes.
+
+03:40:27.000 --> 03:40:29.000
+Vecindad de Moar
+
+03:40:29.000 --> 03:40:31.000
+Para tomar una.
+
+03:40:31.000 --> 03:40:34.000
+Una decisión hay un parámetro de.
+
+03:40:34.000 --> 03:40:39.000
+Con parecidos deben ser para que se pueden venir a vivir a mi barrio.
+
+03:40:39.000 --> 03:40:44.000
+Porcentaje de gente de su mismo grupo.
+
+03:40:44.000 --> 03:40:47.000
+Coco el gran cuento los chistes de segregación de esta forma.
+
+03:40:47.000 --> 03:40:51.000
+Como la gente fue evolucionando desde la calle República Providencia.
+
+03:40:51.000 --> 03:40:55.000
+Eh terminó en Chiguro.
+
+03:40:55.000 --> 03:40:59.000
+Modelo de segregación realista.
+
+03:40:59.000 --> 03:41:02.000
+Cuentos hay de los que se parecen a mí?
+
+03:41:02.000 --> 03:41:12.000
+Hay poco, hay mucho pobre que me voy.
+
+03:41:12.000 --> 03:41:15.000
+Uh, so.
+
+03:41:15.000 --> 03:41:20.000
+Exactamente.
+
+03:41:20.000 --> 03:41:26.000
+Podemos modelar la propagación de un chisme.
+
+03:41:26.000 --> 03:41:31.000
+Claro, los algoritmos meméticos hacen esto.
+
+03:41:31.000 --> 03:41:33.000
+En una generación .
+
+03:41:33.000 --> 03:41:37.000
+Información a los vecinos.
+
+03:41:37.000 --> 03:41:39.000
+No les ha pasado?
+
+03:41:39.000 --> 03:41:47.000
+Es un experimento bonito, uno puede inventar algo.
+
+03:41:47.000 --> 03:41:52.000
+Y se lo cuentan a alguien.
+
+03:41:52.000 --> 03:41:55.000
+Y ese alguien se lo cuenta a otro alguien.
+
+03:41:55.000 --> 03:41:57.000
+Y ese se lo cuenta otro.
+
+03:41:57.000 --> 03:42:00.000
+Y cada vez que va avanzando esto.
+
+03:42:00.000 --> 03:42:03.000
+Se va deformando un poquito.
+
+03:42:03.000 --> 03:42:07.000
+Y le puede llegar al que origina el chisme totalmente cambiado.
+
+03:42:07.000 --> 03:42:15.000
+O el rumor dicen que.
+
+03:42:15.000 --> 03:42:21.000
+Va a subir el precio del caviar.
+
+03:42:21.000 --> 03:42:26.000
+Oye, va a subir el cavidad? No, sí, va a subir el cabello, hay que comprar caviar.
+
+03:42:26.000 --> 03:42:30.000
+Se hace la cola va aquí con precavial.
+
+03:42:30.000 --> 03:42:32.000
+Nunca ha sido así.
+
+03:42:32.000 --> 03:42:37.000
+El rumor puede impactar.
+
+03:42:37.000 --> 03:42:40.000
+Las modas.
+
+03:42:40.000 --> 03:42:43.000
+Es interesante, hay ciertas modas.
+
+03:42:43.000 --> 03:42:46.000
+Eh usar cierto tipo de parca cierto tipo de.
+
+03:42:46.000 --> 03:42:50.000
+Paraguas, en fin, son bodas que se van dando.
+
+03:42:50.000 --> 03:42:52.000
+Se van propagando.
+
+03:42:52.000 --> 03:42:57.000
+para pertenecer a un grupo, para ser aceptado en el grupo.
+
+03:42:57.000 --> 03:43:02.000
+You me dejé el pelo blanco va a ser aceptado en los mayores también.
+
+03:43:02.000 --> 03:43:07.000
+Los ingleses hicieron este estudio de evolución de la población.
+
+03:43:07.000 --> 03:43:11.000
+Las zonas de pobreza.
+
+03:43:11.000 --> 03:43:16.000
+Están más oscurita son las zonas pobres.
+
+03:43:16.000 --> 03:43:22.000
+Que ha ido evolucionando desde el siglo pasado.
+
+03:43:22.000 --> 03:43:26.000
+Hasta la actual la separación del.
+
+03:43:26.000 --> 03:43:29.000
+Con el Támesis.
+
+03:43:29.000 --> 03:43:31.000
+Como lo .
+
+03:43:31.000 --> 03:43:34.000
+Los mayores índices de pobreza se han ido concentrando.
+
+03:43:34.000 --> 03:43:36.000
+El sur del Támexes.
+
+03:43:36.000 --> 03:43:39.000
+Una evolución donde no ha habido.
+
+03:43:39.000 --> 03:43:43.000
+Nunca una orden.
+
+03:43:43.000 --> 03:43:46.000
+Un plan regulador, una sugerencia de reubicación.
+
+03:43:46.000 --> 03:43:49.000
+Son procesos absolutamente
+
+03:43:49.000 --> 03:43:53.000
+Normal.
+
+03:43:53.000 --> 03:43:58.000
+Podemos usarlo para los fenómenos migratorios, sí, claro.
+
+03:43:58.000 --> 03:44:02.000
+Reglas, vecindad de war, creo más vecinos similares se queda.
+
+03:44:02.000 --> 03:44:07.000
+Menos de tres nos vamos.
+
+03:44:07.000 --> 03:44:10.000
+Aquí están los pescaditos.
+
+03:44:10.000 --> 03:44:13.000
+Aquí están parejos.
+
+03:44:13.000 --> 03:44:16.000
+Su memo a ese individuo.
+
+03:44:16.000 --> 03:44:18.000
+Se siente bien.
+
+03:44:18.000 --> 03:44:21.000
+entre los suyos
+
+03:44:21.000 --> 03:44:23.000
+Aquí .
+
+03:44:23.000 --> 03:44:25.000
+La cosa cambia.
+
+03:44:25.000 --> 03:44:31.000
+Ya no está entre los suyos su la mayoría de sus vecinos son van para otro lado.
+
+03:44:31.000 --> 03:44:41.000
+Se va.
+
+03:44:41.000 --> 03:44:46.000
+Como dice un amigo podemos hacer pan con mantequilla con los tomates celular y con todo lo que hemos visto.
+
+03:44:46.000 --> 03:44:48.000
+Pues este caballero para contarles.
+
+03:44:48.000 --> 03:44:52.000
+Para hablar de él ya la próxima semana.
+
+03:44:52.000 --> 03:44:55.000
+El exceso de Boggy un físico.
+
+03:44:55.000 --> 03:44:58.000
+Trabajé en la universidad de Berlín.
+
+03:44:58.000 --> 03:45:03.000
+La verdad que trabaja con los chinos la mayor parte del tiempo.
+
+03:45:03.000 --> 03:45:06.000
+Uno de los creadores de teoría del caos.
+
+03:45:06.000 --> 03:45:11.000
+Candidato al Nobel.
+
+03:45:11.000 --> 03:45:17.000
+La cabeza de este corte
+
+03:45:17.000 --> 03:45:22.000
+Él hace un análisis importante de los fenómenos emergentes de la teoría del caos.
+
+03:45:22.000 --> 03:45:24.000
+Es de origen químico.
+
+03:45:24.000 --> 03:45:29.000
+Que se dedicó a la física se juntó con los biólogos y llegó a generar.
+
+03:45:29.000 --> 03:45:37.000
+mecanismo del tratamiento de la epilepsia en menores y del tratamiento del trastorno fetal alcohólico.
+
+03:45:37.000 --> 03:45:42.000
+del cual les voy a contar la próxima semana cuando ya estemos más cerca del dieciocho.
+
+03:45:42.000 --> 03:45:44.000
+Ha sido un gusto.
+
+03:45:44.000 --> 03:45:47.000
+A verlos visto hoy día.
+
+03:45:47.000 --> 03:45:48.000
+Así es que espero verlos.
+
+03:45:48.000 --> 03:45:50.000
+Hey? Profe.
+
+03:45:50.000 --> 03:45:54.000
+En nuestra clausura que es bailable entiendo.
+
+03:45:54.000 --> 03:45:56.000
+La próxima semana.
+
+03:45:56.000 --> 03:45:58.000
+Sigue, que estén muy bien.
+
+03:45:58.000 --> 03:46:03.000
+Descansen las tareas me han estado llegando, pero no he tenido.
+
+03:46:03.000 --> 03:46:08.000
+El corazón para verlas y calificarlas, estoy esperando volverme más bueno.
+
+03:46:08.000 --> 03:46:14.000
+Que eso va a ser ya mañana en la tarde seguramente de ahí les contaré como me va yendo.
+
+03:46:14.000 --> 03:46:17.000
+Como siempre, un gustazo que estén.
+
+03:46:17.000 --> 03:46:18.000
+Muy bien hasta el lunes jovenes.
+
+03:46:18.000 --> 03:46:23.000
+Profe. Gracias.
+
+03:46:23.000 --> 03:46:24.000
+Ciao!
+
+03:46:24.000 --> 03:46:25.000
+Hasta luego
+
+03:46:25.000 --> 03:46:36.000
+Pero hasta luego, chao.
+

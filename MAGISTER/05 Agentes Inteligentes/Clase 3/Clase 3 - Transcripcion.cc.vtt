@@ -1,0 +1,4832 @@
+WEBVTT
+
+00:37:45.000 --> 00:37:52.000
+Cinco y, por lo tanto, esa es la gracia que tenemos acá, y por eso que todavía los agentes reactivos se ocupa.
+
+00:37:52.000 --> 00:37:54.000
+O sea, vuelvo a decirle.
+
+00:37:54.000 --> 00:38:03.000
+Dependiendo de la situación y las ventajas que tienen cada arquitectura. Uno tiene que hacer un calza entre ellas y no puede usar.
+
+00:38:03.000 --> 00:38:11.000
+Ya ni mucho, ni poco. Aquí. La regla es típica. Acepto use exactamente lo que.
+
+00:38:11.000 --> 00:38:22.000
+Necesita. Dicho eso, hay situaciones. Ya en las cuales, efectivamente, nosotros lo podemos hacer esto con varias arquitecturas, y ahí es donde 1 debería elegir cuál es la que.
+
+00:38:22.000 --> 00:38:32.000
+Tiene mejores, por decir así, costo, beneficio. Acá. Les voy a dar algunos ejemplos.
+
+00:38:32.000 --> 00:38:40.000
+Ya en forma muy general. Por ejemplo, aquí tenemos un robot móvil. Aquí tenemos los sensores.
+
+00:38:40.000 --> 00:38:45.000
+O sea, yo censo, tengo los perceptos ya, y en estas capas.
+
+00:38:45.000 --> 00:38:52.000
+Ok, tengo sus comportamientos. Y fíjense que, fiel a lo que dijimos, las capas inferiores.
+
+00:38:52.000 --> 00:38:58.000
+Manejan comportamientos. Puede decir que más importantes, por ejemplo, la primera capa evadir obstáculos.
+
+00:38:58.000 --> 00:39:05.000
+Es cierto, más importante que, por ejemplo, Wonder Wander. Sería cierto como moverse.
+
+00:39:05.000 --> 00:39:11.000
+Ya explorar, crear mapas de mi mundo, etcétera, etcétera, etcétera.
+
+00:39:11.000 --> 00:39:19.000
+Y, por lo tanto, dependiendo la capa, ya que Gatille, esto partiendo por la que abajo, según las.
+
+00:39:19.000 --> 00:39:25.000
+Condiciones que en los sensores van a hacer lo que finalmente vamos a ordenar, que hagan.
+
+00:39:25.000 --> 00:39:35.000
+Los actuadores. Esto mismo ya otra forma de verlo solamente. Y aquí esto se llama la arquitectura.
+
+00:39:35.000 --> 00:39:44.000
+De subsumisión que, como les digo, vamos a ver algunos ejemplos nuevamente. Lo mismo anterior: tenemos sensores, los sensores, ciertos.
+
+00:39:44.000 --> 00:39:51.000
+Llegan a cada una de estas capas, donde la capa acero tiene precedencia sobre la capa. Uno.
+
+00:39:51.000 --> 00:39:59.000
+Y así sucesivamente. Cada capa tiene una regla o un par condición, acción.
+
+00:39:59.000 --> 00:40:07.000
+Y entrega. De salida una orden para los actuadores de este robot.
+
+00:40:07.000 --> 00:40:11.000
+Y la si segatilla las condiciones de la capa 0, entonces.
+
+00:40:11.000 --> 00:40:22.000
+Lo que digan. Por decirlo así, las capas de más alto nivel queda bloqueado, si no, por ejemplo, segatilla las condiciones para la capa 0 y se capillan las condiciones.
+
+00:40:22.000 --> 00:40:28.000
+Para la capa. Uno va a actuar ya la capa 1, y así hacia.
+
+00:40:28.000 --> 00:40:40.000
+Arriba. Esto mismo lo podemos ver cierto con modulitos. Ok, con módulos más como pensados en electrónica.
+
+00:40:40.000 --> 00:40:43.000
+Y aquí estoy un pelín más.
+
+00:40:43.000 --> 00:40:52.000
+Sofisticado. Tenemos cada módulo. El módulo tiene. Pollo. Mirándolo del lado de ustedes, por la izquierda, tiene entradas.
+
+00:40:52.000 --> 00:40:57.000
+Y por la salida tiene salida. Y la otra gracia que hemos puesto acá.
+
+00:40:57.000 --> 00:41:04.000
+Que ya en este módulo tenemos supersores de entrada, o sea, yo puedo.
+
+00:41:04.000 --> 00:41:09.000
+Suprimir alguna entrada a ese módulo. Vamos a ir inmediatamente.
+
+00:41:09.000 --> 00:41:14.000
+Un ejemplo de por qué? Sos: Bueno, y a su vez, tengo inhibidores de salida.
+
+00:41:14.000 --> 00:41:20.000
+Es decir, que alguna salida de ese módulo ya las puede inhibir. Y, como siempre.
+
+00:41:20.000 --> 00:41:32.000
+Tengo un entrar reset cuando todo falla, cierto desenchufo, el computador, espero 20 s o 15, y lo vuelvo a enchufar aquí exactamente lo mismo. Así que a la grande, si te puedo mandar.
+
+00:41:32.000 --> 00:41:38.000
+Una orden de Riset que a todo en estado inicial. Y parto de nuevo.
+
+00:41:38.000 --> 00:41:47.000
+Ahora, aquí hay un ejemplo. De estos modulitos. No tengo, desgraciadamente, tiempo para ir.
+
+00:41:47.000 --> 00:42:02.000
+Viendo ya y contándoles que cada 1. Estos módulos que hacen, cuáles son sus salidas, cuáles son sus entradas, etcétera. Por lo tanto, lo que sí no quiero dejarlos con este plano.
+
+00:42:02.000 --> 00:42:09.000
+Y que usted digan: Bueno, será por off. Usted como electrónico. Nos puso el plano, porque quería mostrar algo cierto.
+
+00:42:09.000 --> 00:42:14.000
+Y punto. No quiero que efectivamente aprendamos algo de esto.
+
+00:42:14.000 --> 00:42:20.000
+Lo que significa que voy a hacer un zoom en esto que está aquí en el módulo de Wonder.
+
+00:42:20.000 --> 00:42:26.000
+E grave para que, para que se entienda un poco mejor de lo que estoy.
+
+00:42:26.000 --> 00:42:30.000
+Hablando? Entonces, ¿qué pasa? Si este vehículo cierto.
+
+00:42:30.000 --> 00:42:37.000
+Va a tomar en el módulo de grabber. ¿va a tomar una roca, como ustedes están viendo ahí con una.
+
+00:42:37.000 --> 00:42:46.000
+Manito ya qué va a tener que hacer? Se va a tener que parar, excepto que fue un robot súper encachao que pudiera ir tomando la roca. A medida que va.
+
+00:42:46.000 --> 00:42:53.000
+Paseando y, por lo tanto, fíjense que. Una mente. Me voy a ir aquí.
+
+00:42:53.000 --> 00:43:01.000
+Al puntero láser para que los que están en línea lo vean. Hay un inhibidor de heaving, o sea, aquí en el módulo Wonder de alguna forma.
+
+00:43:01.000 --> 00:43:12.000
+Este robot va a ir. Paseando por decir así, lo que significa que para pasear, va a tener que ir cambiando su orientación y su trayectoria.
+
+00:43:12.000 --> 00:43:15.000
+Pero cuando él llega, cierto, el módulo de gruber.
+
+00:43:15.000 --> 00:43:20.000
+Tiene que tomar una piedra. Este módulo inhibe.
+
+00:43:20.000 --> 00:43:26.000
+Cierto, el heaving para mantener el heding que tengo ahora ya.
+
+00:43:26.000 --> 00:43:38.000
+El robot se detiene y el brazo va a tomar la piedra, almacenarla. Y después va a seguir. Entonces eso, como les digo, es un ejemplo más o menos sencillo para.
+
+00:43:38.000 --> 00:43:46.000
+Que se entienda la idea de estos módulos. Ahora bien, estos módulos pueden ser nuevamente módulos entre comillas, análogos.
+
+00:43:46.000 --> 00:43:50.000
+Y hace el tiempo de procesamiento, etcétera, etcétera. Ya.
+
+00:43:50.000 --> 00:43:59.000
+Es, tiene que ser muy en tiempo real y también pueden contener un componente de software o ser simplemente.
+
+00:43:59.000 --> 00:44:11.000
+Yeah módulos de software, dependiendo, como les digo. Probablemente mientras más apegados estos módulos tengan, los sensores van a ser más electrónicos y lo mismo con los.
+
+00:44:11.000 --> 00:44:19.000
+Actuadores. Todo esto. Entonces lo voy a ir encarnando en un, por decirlo así.
+
+00:44:19.000 --> 00:44:25.000
+Robot pero paradigmático. El explorador de Mate Steels.
+
+00:44:25.000 --> 00:44:32.000
+Stills, un investigador de Mit que partió. Mucho con esto y junto con Rodney Brooks.
+
+00:44:32.000 --> 00:44:45.000
+Pensando en la Eca de los 85, la década de los 80, finales de los 80, etcétera. Principio de los 90 en volver al paradigma reactivo.
+
+00:44:45.000 --> 00:44:52.000
+De hecho, ellos ya. Tiraron como yo les contaba al extremo, ¿cierto? Al extremo de más. Todo lo que puedo hacer con bebé y aquella.
+
+00:44:52.000 --> 00:44:59.000
+Con estas cosas súper, por decirlo así, de alto nivel muy ambiciosas. Las podemos hacer.
+
+00:44:59.000 --> 00:45:09.000
+Muy prácticamente igual, con. Con modelos reactivo. Y es por eso que con Ibruks creó el explorador de Marte.
+
+00:45:09.000 --> 00:45:14.000
+Solamente va a contarle una anécdota. Yo he estado en el hotel que tiene en Cambridge. Maití.
+
+00:45:14.000 --> 00:45:20.000
+Y en el lobby del hotel está. Físicamente 1 de estos robots. Ok.
+
+00:45:20.000 --> 00:45:25.000
+Así que ahí ya aviaba. Y cuando encima llego a mi pieza.
+
+00:45:25.000 --> 00:45:34.000
+Cierto, y la colcha de la cama tenía las 5 ecuaciones de Maxfield. Imagínense ropa un ingeniero electrónico con las incubaciones de Max.
+
+00:45:34.000 --> 00:45:41.000
+Y My Zima Nerd, como yo no, no quería más. Ok, ¿no? Pues en serio en el lobby. No sé si ahora todavía está. Pero en el lobby.
+
+00:45:41.000 --> 00:45:47.000
+Del hotel de Mit estaba efectivamente el creador de martes Steels.
+
+00:45:47.000 --> 00:45:52.000
+Cuál es la idea del mundo en el cual se va a desarrollar.
+
+00:45:52.000 --> 00:45:59.000
+Este explorador. ¿cierto? La idea es que yo voy a llegar a un planeta.
+
+00:45:59.000 --> 00:46:05.000
+Distante va a llegar. La madre nodriza y en la madre nodriza.
+
+00:46:05.000 --> 00:46:12.000
+Van a oír 3, ya que aquí no lo alcanzan a oír bien. Pero 3 exploradores chiquititos.
+
+00:46:12.000 --> 00:46:17.000
+Que van a salir. Ahora bien, en este planeta distante, la idea es que van a haber.
+
+00:46:17.000 --> 00:46:22.000
+Fíjense aquí clúster de piedras preciosas, o lo que sea que yo quiero.
+
+00:46:22.000 --> 00:46:28.000
+Recolectar una de las cosas importantes. Aquí está. Roca ya está.
+
+00:46:28.000 --> 00:46:33.000
+Piedras preciosas tienden a estar en grupos, tienden a estar.
+
+00:46:33.000 --> 00:46:39.000
+Agrupada. Ahora bien. Estos puntitos, que están acá color.
+
+00:46:39.000 --> 00:46:48.000
+Como violeta, oscuro, etcétera. Son obstáculos que. Ya los exploradores tienen que batir.
+
+00:46:48.000 --> 00:46:56.000
+Tienen que evadir perdón. Y lo otro es que aquí el terreno es bastante rugoso, y más que eso, el explorador.
+
+00:46:56.000 --> 00:47:07.000
+Ya no tiene, desgraciadamente, mucha energía. Ya no tiene baterías tan poderosas como la madre como la nave madre, lo que significa que no pueden en generar comunicarse entre sí.
+
+00:47:07.000 --> 00:47:25.000
+A que eso facilitaría mucho. Ahora lo que sí, la madre nodriza, que es mucho más grande, tiene suficiente energía y, por lo tanto, la nave madre puede emitir una señal de radio. Y aquí lo que tengo.
+
+00:47:25.000 --> 00:47:31.000
+Cierto, es un gradiente, esa señal ya dado por esto que aquí este color está más.
+
+00:47:31.000 --> 00:47:41.000
+Claro, y aquí se va oscureciendo. Y lo que sí los jugó tienen un receptor. Siempre un receptor. Necesita menos energía que un transmisor.
+
+00:47:41.000 --> 00:47:45.000
+Lo que significa que los robots pueden censar esa señal.
+
+00:47:45.000 --> 00:47:55.000
+Y ojo pueden navegar el gradiente positiva para acercarse a la nave. Y cuando desean alejarse de la nave, navegan gradiente.
+
+00:47:55.000 --> 00:48:03.000
+Negativa. Lo otro es que cada robot tiene entre comillas lo que habla.
+
+00:48:03.000 --> 00:48:07.000
+Ciertos tills de crumbs, o sea, migaja, ahí activa.
+
+00:48:07.000 --> 00:48:11.000
+Cosas que los robots pueden. Dejar, caer.
+
+00:48:11.000 --> 00:48:17.000
+Y pueden detectar. Y al pasar cerca de ella, y aquí están.
+
+00:48:17.000 --> 00:48:22.000
+Pedazos que van a ir dejando los robots, porque lo vamos a ver un poquito más adelante.
+
+00:48:22.000 --> 00:48:29.000
+¿cómo va a funcionar eso. Y acá está una arquitectura de subsumisión.
+
+00:48:29.000 --> 00:48:37.000
+Que vamos a ver inmediatamente implementada en el globo de este explorador de Marte. Fíjense así. Es sencillo.
+
+00:48:37.000 --> 00:48:43.000
+Un loop mientras alcanza el objetivo. En este caso, en el globo. Mi objetivo recoge todas las.
+
+00:48:43.000 --> 00:48:49.000
+Piedras preciosas que están en este, en esta cuadrícula de este planeta.
+
+00:48:49.000 --> 00:48:54.000
+Ya. Y aquí están las 5 reglas que tienen la presencia que está acá.
+
+00:48:54.000 --> 00:48:58.000
+La primera es la más importante, y así hacia abajo.
+
+00:48:58.000 --> 00:49:04.000
+Si detect un obstáculo, entonces cambie de dirección para no.
+
+00:49:04.000 --> 00:49:10.000
+Cierto caerse en este hoyo, no tener que lidiar mayormente con el espectáculo.
+
+00:49:10.000 --> 00:49:17.000
+La regla o si lleva muestras. Cierto, el explorador va a ir recogiendo estas piedras.
+
+00:49:17.000 --> 00:49:23.000
+Y está en la base, o sea, en la madre, nodriza, descargue las muestras.
+
+00:49:23.000 --> 00:49:32.000
+Sí tiene muestra y no está en la base. Entonces navegue gradiente, positivo. ¿cuál es la idea? Si no estoy en la base.
+
+00:49:32.000 --> 00:49:41.000
+Ya. Y tiene muestras. Entonces navego gradiente, positivo y, por lo tanto, de a poco.
+
+00:49:41.000 --> 00:49:51.000
+Me voy acercando a la nave madre. Si detecto una muestra, entonces recójalos. Así estoy algunas de estas muestras. Entonces la recoja.
+
+00:49:51.000 --> 00:50:01.000
+Y finalmente, fíjense esta condición. Bouliana. Tú que siempre se va a cumplir. Entonces muévase aleatoriamente.
+
+00:50:01.000 --> 00:50:07.000
+A fin de simple. Voy a mostrarles ahora el explorador.
+
+00:50:07.000 --> 00:50:12.000
+Cooperativo, perdón. Me faltó esto mismo.
+
+00:50:12.000 --> 00:50:23.000
+Que está acá yo aproximadamente ojo disclaimed. No me vengan a decir: se topó profe. Pero resulta que aquí falta un inhibidor. Falta un supresor.
+
+00:50:23.000 --> 00:50:32.000
+Esa en generales. Para mostrarle esto en estos modulitos, puedo tener un módulo de detectar obstáculos súper importante que está conectado a los sensores.
+
+00:50:32.000 --> 00:50:45.000
+Ya y también detectar muestras. Podríamos tener un. Módulo de planificación de movimiento, un módulo de descargar muestra. Y un módulo de recoger muestra entonces.
+
+00:50:45.000 --> 00:50:54.000
+Los sensores y acá tengo nuevamente movimiento aleatorio. Por lo tanto, inicialmente el Movimiento aleatorio se.
+
+00:50:54.000 --> 00:51:04.000
+Lo que está haciendo es que el robot se mueva aleatoriamente y eso envía comando los actuadores, motores, ruedas, etcétera.
+
+00:51:04.000 --> 00:51:10.000
+Si es que ahora detengo un obstáculo inhibo. Fíjense acá la entrada.
+
+00:51:10.000 --> 00:51:15.000
+De movimiento aleatorio y, por lo tanto, planifico. El movimiento.
+
+00:51:15.000 --> 00:51:24.000
+Para, efectivamente evadir ese obstáculo. Por otro lado. Si es que tengo y detecto una muestra en los sensores.
+
+00:51:24.000 --> 00:51:31.000
+Lo que voy a hacer es: Voy a. Recoger esa muestra, lo que significa que.
+
+00:51:31.000 --> 00:51:45.000
+Tengo que mandar comandos a los brazos, etcétera. Por otro lado, si aquí tengo el ascensor de gradiente y sensor de muestra almacenada, ya tengo algunas muestras almacenadas, activo, cierto.
+
+00:51:45.000 --> 00:51:50.000
+El módulo acá, pero donde planificación de movimiento para acercarme a la nave.
+
+00:51:50.000 --> 00:51:55.000
+Cuando estoy en la nave, inhibo este sensorio de gradiente.
+
+00:51:55.000 --> 00:52:00.000
+Ya y, por lo tanto, paso a recoger muestras.
+
+00:52:00.000 --> 00:52:06.000
+Inhibo cierto, el detectar muestras que están acá recojo las muestras.
+
+00:52:06.000 --> 00:52:11.000
+Y, por lo tanto, voy funcionando a través de esto que está aquí.
+
+00:52:11.000 --> 00:52:20.000
+Como les digo, no les digo que esto esté 100 por 100, depurado y corregido. Pero para darles una sensación.
+
+00:52:20.000 --> 00:52:27.000
+De esto mismo que puedo hacer con esta arquitectura en forma más, por decir así, de programación.
+
+00:52:27.000 --> 00:52:37.000
+La podría planificar con estos módulos, etcétera. Vayámonos ahora al segundo explorador o el explorador cooperador.
+
+00:52:37.000 --> 00:52:45.000
+Aquí se mantienen algunas reglas y agregué otros más. La primera, que es la más, entre comillas, que tiene la mayor presencia.
+
+00:52:45.000 --> 00:52:53.000
+Siete espectáculos. Entonces cambié de dirección. La segunda, si iba a muestra y está en la base, entonces las descargue.
+
+00:52:53.000 --> 00:53:01.000
+Sí tiene muestras y no está en la base, entonces gradiente navegue gradiente, positivo, o sea, se acerques a la nave.
+
+00:53:01.000 --> 00:53:06.000
+Pero ojo aquí agregamos algo y suelte 2 de estas migajas que están.
+
+00:53:06.000 --> 00:53:17.000
+Acá. Si detecto una muestra, entonces recójala. Sí, sense migaja. Entonces recoja una migaja y nagregue gradiente negativa.
+
+00:53:17.000 --> 00:53:22.000
+¿por qué? Porque la idea es que yo dejé en contuna, muestra.
+
+00:53:22.000 --> 00:53:27.000
+Fui soltando 2 migajas hacia la nave. Fíjense que por eso aquí usa.
+
+00:53:27.000 --> 00:53:35.000
+Uso rojo oscuro, pero después. Ya cuando descargué para moverme al clúster donde estaban las rocas.
+
+00:53:35.000 --> 00:53:43.000
+Navego nagriento negativa, y voy cierto, recogiendo una migaja. Y finalmente, la última.
+
+00:53:43.000 --> 00:53:48.000
+Ya es si no tiene nada mejor que hacer. Por decirlo así, muévase aleatoriamente.
+
+00:53:48.000 --> 00:53:54.000
+Pregunta, por favor, de esto, porque debilitó las huellas, o sea, fíjense que aquí hay.
+
+00:53:54.000 --> 00:54:00.000
+Por ejemplo, huellas que son con 2 migajas. Y después, en cambio, voy debilitando estas huellas.
+
+00:54:00.000 --> 00:54:09.000
+Por qué hacer eso y no dejar las huellas permanentes.
+
+00:54:09.000 --> 00:54:17.000
+Acordarse que también los que están en línea están interpelados, o sea, no esperen, ya que solamente los presentes.
+
+00:54:17.000 --> 00:54:23.000
+Digan su opinión. ¿por qué debilitar las huellas.
+
+00:54:23.000 --> 00:54:28.000
+Está claro por qué conviene dejar huellas? ¿cierto? Porque yo entonces tengo por decir así.
+
+00:54:28.000 --> 00:54:35.000
+Una idea de cómo volver a clúster de rocas, porque las rocas están clusterizadas donde.
+
+00:54:35.000 --> 00:54:40.000
+Ojo. Y aquí está lo clave. Posiblemente haya más rocas.
+
+00:54:40.000 --> 00:54:44.000
+Pero ¿qué pasaría si no borramos las huellas a esos.
+
+00:54:44.000 --> 00:54:49.000
+Roca a esos conjuntos clúster de roca.
+
+00:54:49.000 --> 00:54:54.000
+To look at your.
+
+00:54:54.000 --> 00:55:04.000
+Pues favor que se pierdan la ruta. Que se pierden las rutas importantes ya y, además, que se contaminé con más con rutas innecesarios.
+
+00:55:04.000 --> 00:55:10.000
+Yeah perfecto, se tos. Se abría un cráter efectivamente creado por tantas rutas.
+
+00:55:10.000 --> 00:55:20.000
+Y además, ojo. Akoyatse, que aquí lo que estamos balanceando es un concepto súper importante que era sacuárselo. Hemos dicho exploración.
+
+00:55:20.000 --> 00:55:33.000
+Y explotación, lo que hacen en el fondo. La huella es hacer explotación. Dado que yo encontré un clásico con roca. Y tomé alguna roca.
+
+00:55:33.000 --> 00:55:41.000
+Dejo una huella para que yo. O algún otro explorador, otro robot vuelva y explote y siga explotando ese cluster.
+
+00:55:41.000 --> 00:55:52.000
+Pero va a llegar un momento en que. Ese cluster, ya Bate no va a tener más de esas rocas y, por lo tanto, es por eso que voy borrando la huella.
+
+00:55:52.000 --> 00:56:01.000
+De forma de también balancear con exploración. O sea, dado que ya ese cluster lo agoté.
+
+00:56:01.000 --> 00:56:08.000
+No dejo y borro la huella, porque si no todos se irían al cluster, no encontrarían roca y empezarían de nuevo a explorar.
+
+00:56:08.000 --> 00:56:13.000
+Pero eso haría que todos se concentren en una parte del terreno. Ok.
+
+00:56:13.000 --> 00:56:19.000
+Y no explotaríamos más. Entonces eso ya balancea, lo que es explotar.
+
+00:56:19.000 --> 00:56:22.000
+Y explo, o that.
+
+00:56:22.000 --> 00:56:27.000
+Eso respecto a esto que está acá. Ahora lo que voy a hacer.
+
+00:56:27.000 --> 00:56:36.000
+Es mostrarle. La implementación de esto.
+
+00:56:36.000 --> 00:56:45.000
+Esto. Ustedes también lo tienen. Ok, en los modelos que les puse a vuestra disposición.
+
+00:56:45.000 --> 00:56:51.000
+Solamente decir algo. De que acá por implementación tienen que tener esta.
+
+00:56:51.000 --> 00:56:58.000
+Ya este archivo en Ls. El archivo Ls: Es como los archivos cierto de Heather, por decir así.
+
+00:56:58.000 --> 00:57:04.000
+O de los includes de C o C Másma, lo que significa.
+
+00:57:04.000 --> 00:57:09.000
+De que acá en el código. Yo parto, incluyendo esta librería y, por lo tanto.
+
+00:57:09.000 --> 00:57:16.000
+Si ustedes abren esto, y en el mismo directorio no está este archivo. Les va a dar un error. No se encuentra el archivo de includes: bla, bla.
+
+00:57:16.000 --> 00:57:27.000
+Tienen que ponerlo. Ahí está esta librería. Que la podemos ver acá si esto es la que, efectivamente, yo creé hace.
+
+00:57:27.000 --> 00:57:29.000
+Algunos años atrás y le ha ido refinando para.
+
+00:57:29.000 --> 00:57:34.000
+Poder es más fácilmente. Ya, ehh!
+
+00:57:34.000 --> 00:57:44.000
+Usar esta arquitectura. Entonces, ¿qué voy a hacer? Primeramente acá? Y para variar, me pone botones, raros.
+
+00:57:44.000 --> 00:57:51.000
+Disculpen es la típico problema que tengo con. Consume, que te pone botones y que se y te ojalá.
+
+00:57:51.000 --> 00:57:57.000
+Grande para poder hacer las cosas que tú quieres. Ya ahí.
+
+00:57:57.000 --> 00:58:05.000
+Y déjenme acá. Aquí está el mundo. Voy a hacer un pequeño.
+
+00:58:05.000 --> 00:58:10.000
+Zoom más chiquitito para que se pueda ver esto.
+
+00:58:10.000 --> 00:58:20.000
+Mejor, ya cuáles son los botones que aquí puedo seleccionar si queremos agentes cooperadores o no con la diferencia que hemos visto anteriormente.
+
+00:58:20.000 --> 00:58:34.000
+Número de obstáculos ya.
+
+00:58:34.000 --> 00:58:41.000
+Al operador. Por favor, se me está apagando. El cómo se llama.
+
+00:58:41.000 --> 00:58:54.000
+El micrófono no se será. Porque las baterías ya están agotadas, porque yo no he hecho nada o de nuevamente, en mi bolsillo. Tengo un agente que me está.
+
+00:58:54.000 --> 00:58:59.000
+Tratando de sabotear, pero no lo he pasado a llevar ni me metido las manos en los bolsillos. Por si acaso, matías por si.
+
+00:58:59.000 --> 00:59:04.000
+Después en el recreo ya en 15 min más. Podemos revisar eso.
+
+00:59:04.000 --> 00:59:22.000
+Bien.
+
+00:59:22.000 --> 00:59:23.000
+Nuevamente.
+
+00:59:23.000 --> 00:59:26.000
+O se está desconectando esto.
+
+00:59:26.000 --> 00:59:27.000
+Recordó nuevamente.
+
+00:59:27.000 --> 00:59:37.000
+Sí, sí, sé. Y lo extraño es que yo no lo he cortado cachalle. Y no es un botón. Es un switch. Y, sin embargo.
+
+00:59:37.000 --> 00:59:40.000
+Se corta y, por lo tanto, yo no me metido. Ni siquiera.
+
+00:59:40.000 --> 00:59:47.000
+Mano en los bolsillos. Voy a dejarla. Voy a encantar con esta cuestión en la mano, pero algo.
+
+00:59:47.000 --> 00:59:55.000
+Está pasando. Bien, entonces, otra variable que vamos a ocupar en nuestro experto en nuestro experimento es el número de.
+
+00:59:55.000 --> 01:00:01.000
+Rocas que puede llevar el explorador es la capacidad. Cierto que tiene el explorador.
+
+01:00:01.000 --> 01:00:10.000
+Para llevar rocas, en el cual nosotros decimos: Ahí puedes llevar una roca, 2, 3, 4, 5, etcétera. Les voy a mostrar una corrida.
+
+01:00:10.000 --> 01:00:15.000
+Lo he programado de forma de que automáticamente la simulación para.
+
+01:00:15.000 --> 01:00:24.000
+Cuando se han recogido. Toda la roca y, por lo tanto, eso hace más fácil hacer los experimentos en este gráfico que tenemos acá.
+
+01:00:24.000 --> 01:00:31.000
+Aquí tengo el setup. En este caso. Fíjense que está la nave. Nodriza con los 3 exploradores. Acá.
+
+01:00:31.000 --> 01:00:41.000
+Con el mundo que hemos visto. Vamos a poner ya lo vamos a hacer primero con agentes cooperativos, etcétera, etcétera. Go sin.
+
+01:00:41.000 --> 01:00:48.000
+Ya y aquí los agentes están actuando. Y esta curva. Lo que hace esto es mostrar.
+
+01:00:48.000 --> 01:00:56.000
+Tips acá tiempo simulado ver su cantidad cierto de muestras que están recolectadas en.
+
+01:00:56.000 --> 01:01:03.000
+La nave madre. Y como les decía. La simulación para.
+
+01:01:03.000 --> 01:01:07.000
+Cuando ya. Hemos recolectado todas las.
+
+01:01:07.000 --> 01:01:12.000
+Muestra. Voy a. Cierto hacerlo más rápido para que pare.
+
+01:01:12.000 --> 01:01:20.000
+Más rápido. Más rápido todavía.
+
+01:01:20.000 --> 01:01:32.000
+Y queda fíjense una sola ahí. Más rápido apunta los caballos.
+
+01:01:32.000 --> 01:01:41.000
+Y ahí terminamos. ¿qué es lo que una de las variables que vamos a usar aquí es salida. Es la cantidad de tiempo que nos demoramos en recolectar.
+
+01:01:41.000 --> 01:01:46.000
+Todas las rocas que en este caso fueron. 120.
+
+01:01:46.000 --> 01:01:55.000
+Perdón, 100, 47 400 pasos de simulación. Esto ojo no está escalado en tiempo real.
+
+01:01:55.000 --> 01:02:01.000
+Porque se puede hacer perfectamente. De hecho, si ustedes se acuerdan, esto estaba escalado en tiempo real. En el caso de.
+
+01:02:01.000 --> 01:02:07.000
+La simulación de control de tráfico aéreo. Pero aquí, para las conclusiones que tenemos, no es.
+
+01:02:07.000 --> 01:02:13.000
+Necesario. Ahora bien. Les voy a mostrar. Entonces aquí.
+
+01:02:13.000 --> 01:02:22.000
+El código de. Los robóticos para que vean lo sencillo que es efectivamente, hacer esto.
+
+01:02:22.000 --> 01:02:32.000
+Aquí está el código ya, y esta es la parte que me interesa. Si son agentes cooperativos, entonces aquí están las reglas exactamente.
+
+01:02:32.000 --> 01:02:38.000
+Las que vimos anteriormente. Si detecto obstáculo, entonces la acción es elevado al obstáculo.
+
+01:02:38.000 --> 01:02:46.000
+Va llevando roca. Y está en la nave madre, ¿cierto? Entregue o descargue las rocas.
+
+01:02:46.000 --> 01:02:50.000
+En la nave madre, si lleva rocas y no está en la nave madre.
+
+01:02:50.000 --> 01:03:04.000
+Navegue gradiente, positiva y ojo aquí. Se me fue el inglés. En vez de ponerle drop, le puse, drop. Así que nada que cierto simplemente aquí, lo que significa cierto. Deje caer las migajas.
+
+01:03:04.000 --> 01:03:11.000
+Si detecto una roca, entonces recolecte la roca. Sí detectó una migaja.
+
+01:03:11.000 --> 01:03:19.000
+Recojo una migaja y navegue cierto gradiente, negativa. Sí verdadero. Esto siempre se a cumplir.
+
+01:03:19.000 --> 01:03:29.000
+Muévase aleatoriamente, y fíjense que aquí. La precedencia está dada por el orden en que están estas reglas.
+
+01:03:29.000 --> 01:03:38.000
+Esta cierto es, en el fondo. Ya la regla que tiene mayor presencia. Después sigue esta, y así en el orden.
+
+01:03:38.000 --> 01:03:48.000
+Sucesivo. Ahora bien. Si es que los agentes no son cooperativas cooperativos. Pero entonces están exactamente estas reglas que están acá.
+
+01:03:48.000 --> 01:03:55.000
+Que están reducidas según lo que vimos. Cierto obstáculo estaba obstáculo.
+
+01:03:55.000 --> 01:04:01.000
+Sí lleva roca y está en la nave. Madre.
+
+01:04:01.000 --> 01:04:08.000
+Deje la roca en la nave madre. Si es que lleva roca y no está en la nave madre, navegue, gradientes.
+
+01:04:08.000 --> 01:04:12.000
+Positiva, o sea, hace que se si detecto una roca.
+
+01:04:12.000 --> 01:04:23.000
+Recoja la roca y la última, ya que siempre se va a gatillar, pero no se va a ejecutar necesariamente si no tiene nada mejor que hacer, por decir así.
+
+01:04:23.000 --> 01:04:33.000
+Tú ya entonces muévase aleatoriamente. Y Uds. Se fijan. Y me voy a decir profe, pero ahí entonces.
+
+01:04:33.000 --> 01:04:41.000
+La idea es ya de que usted puso esas cuestiones. Con eso está listo. ¿no? Pues claramente es cierto.
+
+01:04:41.000 --> 01:04:44.000
+Lo que tengo que hacer es.
+
+01:04:44.000 --> 01:04:49.000
+Although Dinamarca una esas funciones, por ejemplo, la función detectar obstáculo.
+
+01:04:49.000 --> 01:04:54.000
+Tengo que programarla y evadir obstáculos. También tengo que.
+
+01:04:54.000 --> 01:05:02.000
+Programarla, etcétera. Ya, pero nuevamente, la gracia de eso que ya tengo un blue print, por decir, así que me facilita.
+
+01:05:02.000 --> 01:05:08.000
+Mucho saber lo que vamos a hacer y estos mismos se los voy a mostrar.
+
+01:05:08.000 --> 01:05:15.000
+En una situación del bicho, el bombero que vamos a hacer, la especificación y después la vamos a.
+
+01:05:15.000 --> 01:05:25.000
+Mostrar Ok, usando una arquitectura similar a ésta. Eso es con esto. Y voy a. Voy a dejar.
+
+01:05:25.000 --> 01:05:31.000
+Nuevamente, mi. Ese.
+
+01:05:31.000 --> 01:05:35.000
+Eso abierto. Porque.
+
+01:05:35.000 --> 01:05:43.000
+Ya vamos a irnos a este ejemplo. De acá.
+
+01:05:43.000 --> 01:05:48.000
+Bien, ¿cuál es entonces mano a la obra? El siguiente ejemplo.
+
+01:05:48.000 --> 01:05:54.000
+Sí. Una. Una consulta es que estaba revisando, pero prefiero preguntar.
+
+01:05:54.000 --> 01:06:03.000
+Como en algunos cursos anteriores. Vivimos en en heurística, en técnicas de vimos algoritmos de colonias de hormigas.
+
+01:06:03.000 --> 01:06:11.000
+Ya. Y en el segundo ejemplo, se parecía como la parte de mantener como rutas de feromonas y dejar rutas piernas.
+
+01:06:11.000 --> 01:06:21.000
+El aseo, el algoritmo de optimización hace o si entonces, como como 1 podría, por ejemplo, usar ese ese algoritmo de forma explícita.
+
+01:06:21.000 --> 01:06:32.000
+Pero su definir como todas las reglas. No sé si es más trabajo, una que la otra. Si entiendo no, lo que pasa es que en un en un hace o acuérdate es un algoritmo.
+
+01:06:32.000 --> 01:06:37.000
+Orientado a optimizar. Ok, aquí esto es entre comillas.
+
+01:06:37.000 --> 01:06:44.000
+Otra forma de ver esto sea esta forma. Es simplemente implementar ya agentes reactivos que hagan alguna.
+
+01:06:44.000 --> 01:06:50.000
+Tareas. Ok, pero perfectamente, ya tú podrías. De alguna forma optimizar.
+
+01:06:50.000 --> 01:06:58.000
+Ya el comportamiento de lo agente, ya sea con aprendizaje o usando alguna.
+
+01:06:58.000 --> 01:07:10.000
+Función de optimización. Por ejemplo, ya tú podrías, si esto fuera un agente que se mueve entre algunos puntos, hacer, por ejemplo, un algoritmo asterisco, el E Star. ¿qué sé yo, para planificar.
+
+01:07:10.000 --> 01:07:16.000
+Mejor rutas, etcétera. O sea, no es compatible. Pero la orientación aquí.
+
+01:07:16.000 --> 01:07:22.000
+Es diferente. O sea, estamos creando agentes que van a hacer alguna.
+
+01:07:22.000 --> 01:07:28.000
+Tarea, algún objetivo que en este caso el objetivo es recoger la roca, etc.
+
+01:07:28.000 --> 01:07:34.000
+O sea que quizás 1 podría usar después ese algoritmo para optimizar cómo funcionan los agentes.
+
+01:07:34.000 --> 01:07:43.000
+C, pero yo diría que hace o lo puede gustar para optimizar alguna cosa al revés, no al revés. Sería un poquitito artificial, sí.
+
+01:07:43.000 --> 01:07:51.000
+Oye. Como les digo, ¿qué es lo que quiero hacer? Acá ya habíamos repasado.
+
+01:07:51.000 --> 01:07:58.000
+Lo que hacía el virtual. Con Beyor ya, y la idea, por lo tanto.
+
+01:07:58.000 --> 01:08:04.000
+Va a ser ahora pensarlo, y más. Quiero especificar esto. Pero usando.
+
+01:08:04.000 --> 01:08:10.000
+Ya una arquitectura reactiva. Y, como les digo, esto sí lo tengo programado en el logo.
+
+01:08:10.000 --> 01:08:18.000
+Lo que significa de que vamos a poder chequear después. Les voy a mostrar, evidentemente, que mi implementación.
+
+01:08:18.000 --> 01:08:26.000
+Ahora, ¿qué es la idea que les pido acá? Primero, ¿cierto? Está súper claro, tenemos que pensar.
+
+01:08:26.000 --> 01:08:32.000
+¿cuál es el objetivo de diseño? ¿se acuerdan del famoso.
+
+01:08:32.000 --> 01:08:37.000
+Después ya definir los pares, condición, acción. Si tal cosa.
+
+01:08:37.000 --> 01:08:48.000
+Cierto, voy a hacer tal otra cosa. A lo mejor, a algunos les resulta un poco más fácil pensar.
+
+01:08:48.000 --> 01:08:56.000
+En listar condiciones. Ya listar acciones y después hacer y construir los pares condiciones.
+
+01:08:56.000 --> 01:09:01.000
+Acciones. Y, por último, al final 1 crea la jerarquía.
+
+01:09:01.000 --> 01:09:06.000
+Pares, condición, acción. ¿qué significa esto? Significa?
+
+01:09:06.000 --> 01:09:13.000
+De que efectivamente acá abajo. Les puse ejemplos, por decir así, de primitivas, que podemos usar.
+
+01:09:13.000 --> 01:09:18.000
+La primera, por ejemplo, súper sencilla. Si la condición 1, entonces la acción, 1.
+
+01:09:18.000 --> 01:09:24.000
+Pero podría haber reglas un poquito más complicadas si la condición 2.
+
+01:09:24.000 --> 01:09:32.000
+Y la condición 3. Entonces haga la acción, 2 o cosas como si la condición do y no la condición. Tres.
+
+01:09:32.000 --> 01:09:37.000
+Entonces haga la acción. Es 1 y la acción. Dos.
+
+01:09:37.000 --> 01:09:45.000
+Sí, la condición, 4 o la condición 5. Entonces haga la acción. Cuatro.
+
+01:09:45.000 --> 01:09:49.000
+Y podríamos tener una última condición: que se que se haga siempre.
+
+01:09:49.000 --> 01:09:55.000
+Con la menor presencia. Si, por ejemplo, el trubuliano entonces haga.
+
+01:09:55.000 --> 01:10:02.000
+La acción 6. Nuevamente, no digo que esas acciones que están ahí. Por favor, sean necesarias.
+
+01:10:02.000 --> 01:10:07.000
+Para implementar el visual con Bayer en un agente reactivo.
+
+01:10:07.000 --> 01:10:14.000
+Solamente las pongo. Ya para que ustedes se recuerden un poquito de cuál es la idea.
+
+01:10:14.000 --> 01:10:26.000
+Que hay en esta arquitectura y que, claramente, como hay un. If yo puedo tener varias cláusulas lógicas usando antes.
+
+01:10:26.000 --> 01:10:32.000
+Or lo que ustedes quieren, no, etcétera, etcétera. Y en la parte de la cláusula, if en el den.
+
+01:10:32.000 --> 01:10:38.000
+Ya también yo puedo tener efectivamente varias acciones que.
+
+01:10:38.000 --> 01:10:45.000
+Se pueden hacer con una ya o podría incluso haber un oro, etcétera, etcétera, etcétera. Lo que ustedes.
+
+01:10:45.000 --> 01:10:53.000
+Juzguen pertinente. Sé que las 18 20 se supone que tenemos.
+
+01:10:53.000 --> 01:11:00.000
+Ya nuestro primer break. Se me olvidó decirle a las personas que.
+
+01:11:00.000 --> 01:11:06.000
+Pueden. Subirán ya las cosas, para. El café.
+
+01:11:06.000 --> 01:11:11.000
+Se supone que particizo cordobé. Ya que es muy buen coordinador.
+
+01:11:11.000 --> 01:11:20.000
+De Yards sacó de dado. Sí, muchas gracias ya porque si no, no es muchas veces que les diga, Hagamos el break que vayamos para afuera. Cierto.
+
+01:11:20.000 --> 01:11:24.000
+Y nos topamos con que no hay nada para comer y tomar.
+
+01:11:24.000 --> 01:11:32.000
+Sé que nos faltan. Tres minutos. Pa: el break. Pero de nuevo, quiero hacer lo que hice a lo mejor indebidamente.
+
+01:11:32.000 --> 01:11:37.000
+Mea culpa. La vez pasada decirles, Ya hagamos: está usted en 3 min? Cierto? Aturémonos.
+
+01:11:37.000 --> 01:11:42.000
+¿qué les parece entonces? Y los mismos que están en línea, les propongo que hagamos el break.
+
+01:11:42.000 --> 01:11:50.000
+Ahora. Eh, no nos vamos a morir por tomarnos 2 min más de ley. Volvemos a las 18 35, por favor.
+
+01:11:50.000 --> 01:11:57.000
+Y ahí continuamos con este ejercicio más pausadamente. Lo hacemos más reposadamente.
+
+01:11:57.000 --> 01:12:02.000
+Y ahora sí que voy a pagar esta cuestión. No se me pregunten por qué se me apaga en el bolsillo.
+
+01:12:02.000 --> 01:12:11.000
+No, no, no, no entiendo. Y, en cambio, afino. Así que nos vemos. Ya voy a pausar la grabación.
+
+01:12:11.000 --> 01:12:16.000
+Nos vemos en. Quince minutos más, aproximadamente.
+
+01:12:16.000 --> 01:12:46.000
+Listo.
+
+01:27:36.000 --> 01:27:48.000
+Eh? Grabación en pausa. Voy a comenzar a. Reanudar. Ahí estamos reanudando. La grabación. Está también el audio, y voy a.
+
+01:27:48.000 --> 01:27:53.000
+Compartir. Pantalla. Y ahí estamos.
+
+01:27:53.000 --> 01:28:02.000
+Entonces. Si alguien que está en línea me dice si es que efectivamente me están escuchando y están viéndola.
+
+01:28:02.000 --> 01:28:05.000
+Pepet, las lámina, la diapositiva ya. Gracias. Oye. ¿cuál va a ser entonces? La idea acá.
+
+01:28:05.000 --> 01:28:11.000
+Sí.
+
+01:28:11.000 --> 01:28:17.000
+Igual que el otro. Eh? Un minuto o algo así.
+
+01:28:17.000 --> 01:28:22.000
+Para que piensen entonces. Y lo que les voy a proponer.
+
+01:28:22.000 --> 01:28:32.000
+Ya es que nuevamente piensen en. Ya sea pares, condición, acción directamente o piensen en condiciones y acciones.
+
+01:28:32.000 --> 01:28:38.000
+Y después las pareamos. Y finalmente ya le ponemos.
+
+01:28:38.000 --> 01:28:48.000
+Ya le ponemos precedencia esos pares: condición, acción. Dicho eso, como les había contado yo. Esto lo tengo programado. Lo que significa.
+
+01:28:48.000 --> 01:28:56.000
+De que vamos a poder efectivamente ya comprobarlo, a lo menos.
+
+01:28:56.000 --> 01:29:03.000
+Si es que estamos cerca o no de mi implementación, que, evidentemente no tiene por qué ser.
+
+01:29:03.000 --> 01:29:06.000
+La mejor de todas. Pero a lo menos como vamos a ver.
+
+01:29:06.000 --> 01:29:15.000
+Funciona. Déjenme ver acá aquí. Lo que voy a hacer acá perdón es crear.
+
+01:29:15.000 --> 01:29:17.000
+Una nueva Viapo.
+
+01:29:17.000 --> 01:29:24.000
+Yeah, porque quiero tener más. Para poder efectivamente.
+
+01:29:24.000 --> 01:29:31.000
+Bien, acá voy a poner. Voy a activar mi lápiz. Vayan pensando, por favor.
+
+01:29:31.000 --> 01:29:39.000
+Entonces la idea va a ser aquí vamos a tener una lista.
+
+01:29:39.000 --> 01:29:44.000
+Condición. Y acá.
+
+01:29:44.000 --> 01:29:49.000
+Acción. Se tienen que acordar del bicho al conveyor.
+
+01:29:49.000 --> 01:29:56.000
+Y, como les digo, podemos ir listando las condiciones después las acciones y después las podemos ir.
+
+01:29:56.000 --> 01:30:03.000
+Pareando. Y finalmente le ponemos preferencia. Como les digo, les doy.
+
+01:30:03.000 --> 01:30:11.000
+Desde ahora ya un minuto, para que si ustedes puedan notar o pensar esto y después cierto.
+
+01:30:11.000 --> 01:30:41.000
+Vamos completando esto, que está acá.
+
+01:30:45.000 --> 01:30:50.000
+Ya bueno que fuera del bolsillo a ver si ahora no Elena.
+
+01:30:50.000 --> 01:31:00.000
+Bueno, para.
+
+01:31:00.000 --> 01:31:03.000
+Permiso. Yes, and.
+
+01:31:03.000 --> 01:31:14.000
+But aid viendo esto. Bien se cumplió aproximadamente el minuto. Entonces, por favor, en cualquier ordenada, quiero que me hayan diciendo.
+
+01:31:14.000 --> 01:31:20.000
+Condición. ¿cierto? ¿qué es lo que va a pasar? ¿qué es lo que voy a percibir y cuál sería.
+
+01:31:20.000 --> 01:31:41.000
+La acción a realizar nuevamente. Puede ser que me den condición y la acción, o solamente una condición o solamente una acción y no se preocupen por la presencia. O sea, a esto es más importante o menos importante, sí, en la diaposele que hay que definir primero el objetivo, entonces acá acá el objetivo sería como agregar productos.
+
+01:31:41.000 --> 01:31:47.000
+Por ejemplo, al inventario, Espérate, Espérate, espérate aquí. Gracias. Puedo acordarme eso.
+
+01:31:47.000 --> 01:31:59.000
+Porque asumo, dependiendo del. Déjame poner acá. No sé qué me está pasando.
+
+01:31:59.000 --> 01:32:05.000
+Anotar. Ojalá que. Para variar. Me está, como te digo, esta cuestión.
+
+01:32:05.000 --> 01:32:08.000
+Ah, ya ya sé lo que está pasando.
+
+01:32:08.000 --> 01:32:17.000
+Yeah Boy a tener que ponerlo por acá lo hace que estaba escribiendo en la barra.
+
+01:32:17.000 --> 01:32:26.000
+Objetivo. ¿cuál sería el objetivo? Acá agregar productos, por ejemplo, al inventario. Puede ser ojo.
+
+01:32:26.000 --> 01:32:27.000
+Isabel acuérdate, virtual conveyor.
+
+01:32:27.000 --> 01:32:32.000
+Es como mover la caja. No. Yo diría que es como mover las cajas. Puede ser de una estación de carga a un punto entrega.
+
+01:32:32.000 --> 01:32:36.000
+¿cierto? Exacto, o sea, es.
+
+01:32:36.000 --> 01:32:43.000
+Probablemente mover. Cadera.
+
+01:32:43.000 --> 01:32:47.000
+Una. Uno.
+
+01:32:47.000 --> 01:32:53.000
+Dos, por decir así y aquí, a lo mejor podríamos agregarle. Podríamos agregarle.
+
+01:32:53.000 --> 01:32:54.000
+Evitando colisiones.
+
+01:32:54.000 --> 01:33:01.000
+Algo como cierto seguro, en forma. Segura y.
+
+01:33:01.000 --> 01:33:04.000
+Rápida, si es que.
+
+01:33:04.000 --> 01:33:12.000
+Pensamos en eso perfecto. Déjame ver aquí. Voy a decir que puedo cambiar. No me gusta nada. Ese color.
+
+01:33:12.000 --> 01:33:23.000
+Pongamos ya el color negro. Y vayámonos entonces, como les digo, dado eso a acción, condición.
+
+01:33:23.000 --> 01:33:32.000
+O condición acción. Si ustedes me pueden ir. Algunas condiciones y algunas y algunas acciones. Por favor.
+
+01:33:32.000 --> 01:33:48.000
+Y multiplicar en la etiqueta alta. La verdad es que, por lo que yo veo de el vídeo, el visto conveyor, reconozco que tengo una ventaja. Cierto que lo he visto más que ustedes, probablemente para implementar esto.
+
+01:33:48.000 --> 01:33:57.000
+Acuérdate que ellos. El robot no identificaba la caja ni nada, sino que llegaba. Y tú le cargabas las cajas.
+
+01:33:57.000 --> 01:34:02.000
+Y probablemente con una pistola, o que yo podía leer un código algo así.
+
+01:34:02.000 --> 01:34:10.000
+Pero no veo de buena a primera que el robot tenga que identificar cajas.
+
+01:34:10.000 --> 01:34:17.000
+Quizás podría ser si él, si el perdón, alguien dijo por ahí algo obstáculo.
+
+01:34:17.000 --> 01:34:18.000
+Sí, sí.
+
+01:34:18.000 --> 01:34:20.000
+Yeah, entonces ahí.
+
+01:34:20.000 --> 01:34:22.000
+What?
+
+01:34:22.000 --> 01:34:30.000
+Obstáculo. Y si es que quieres, ¿cuál sería la acción? Entonces, si yo identifico un obstáculo.
+
+01:34:30.000 --> 01:34:31.000
+Okay. You add it.
+
+01:34:31.000 --> 01:34:33.000
+Detenerse inmediatamente.
+
+01:34:33.000 --> 01:34:41.000
+Esto me gustó más esquivar, aunque podría ser efectivamente detener si Juan Pablo sí es que usted hablaba del peso.
+
+01:34:41.000 --> 01:34:51.000
+Entonces no hacía mucha discriminación de las cajas, pero debería, cuando nota que tiene un peso encima, o sea, si peso mayor igual a 0.
+
+01:34:51.000 --> 01:34:58.000
+Debería moverse, o sea, tendría que, en el fondo, una condición de.
+
+01:34:58.000 --> 01:35:03.000
+Fíjate. Peso, carga.
+
+01:35:03.000 --> 01:35:08.000
+Y la acción sería. Eh? No.
+
+01:35:08.000 --> 01:35:21.000
+Puedo? Llevar o no ¿cierto? O sea una cosa así, los operadores ya sabe qué más.
+
+01:35:21.000 --> 01:35:22.000
+Hello!
+
+01:35:22.000 --> 01:35:31.000
+Demasiado peso. Quite qué sé yo listo que otra cosa más frecuencia. De nuevo, el objetivo mueca de una estación, 1 a la 2. También habíamos visto que cuando tenía poca carga, iba a la estación de carga. Entonces, si Low Battery.
+
+01:35:31.000 --> 01:35:37.000
+Entonces ¿cierto? Cargar. Perfecto.
+
+01:35:37.000 --> 01:35:43.000
+Batería. Baja. ¿cierto? Ir.
+
+01:35:43.000 --> 01:35:52.000
+A estación de carga y cargar. Batería. Ok, pero fíjense que quieren mover ¿cierto? De estoy en una estación. Uno.
+
+01:35:52.000 --> 01:35:58.000
+Professor.
+
+01:35:58.000 --> 01:36:05.000
+Estoy en una estación. Dos cierto. Y tengo que ir a cargar de 1 a de 2 para hacer eso. Según el vídeo que tengo que hacer.
+
+01:36:05.000 --> 01:36:09.000
+Profesor.
+
+01:36:09.000 --> 01:36:13.000
+Si yo estoy en la estación 1. Y quiero mover, carga a la estación 2.
+
+01:36:13.000 --> 01:36:14.000
+Uh I did las estaciones, y hay de la cierto llamado.
+
+01:36:14.000 --> 01:36:18.000
+De debería haber un. Llamado sí.
+
+01:36:18.000 --> 01:36:27.000
+O sea, llamado. Del robot. Yo lo llamo la estación 1, si tú y la acción de robot es.
+
+01:36:27.000 --> 01:36:28.000
+Al estacionar.
+
+01:36:28.000 --> 01:36:43.000
+Acudir a estación de. Llamado cargo. Ahí las cosas ¿cierto? Y después de ello, aquí está el robotito y lo cargo que tengo que hacer con el robot, entonces.
+
+01:36:43.000 --> 01:36:51.000
+Si ya lo cargué porque no. O sea, probablemente si esto es despachar.
+
+01:36:51.000 --> 01:36:57.000
+Podemos ponerle otro, despachar el robot y, por lo tanto, el robot.
+
+01:36:57.000 --> 01:37:06.000
+Va a estación cierto de destino.
+
+01:37:06.000 --> 01:37:17.000
+Okay. Qué otra cosa más podríamos pensar que a lo mejor tendríamos que agregar acá si es que un robot más inteligente que.
+
+01:37:17.000 --> 01:37:26.000
+Pareciera que en el video sería así. Cuando yo siento, me voy desde acá.
+
+01:37:26.000 --> 01:37:31.000
+Hacia acá. ¿qué pasa si esta estación está mucho.
+
+01:37:31.000 --> 01:37:37.000
+Más alejadas, y hay varias posibilidades. De rutas.
+
+01:37:37.000 --> 01:37:44.000
+Cierto, sea. Algo como condición.
+
+01:37:44.000 --> 01:37:55.000
+La condición ruta. Selección ya, y la acción es crear.
+
+01:37:55.000 --> 01:38:04.000
+Seleccionar. Y la mejor tendríamos que es típico. Probablemente debería ser menor distancia.
+
+01:38:04.000 --> 01:38:09.000
+O algo así. Lotos. Uds. ¿se recuerdan la persona.
+
+01:38:09.000 --> 01:38:18.000
+Aquí, ponía. Una zona de exclusión y, por lo tanto, el robot tenía que censar esa zona.
+
+01:38:18.000 --> 01:38:24.000
+Cierto y evadirla que de nuevo, alguien me puede decir profe. Esto es lo mismo que.
+
+01:38:24.000 --> 01:38:29.000
+Identificar un obstáculo y esquivar. Pero dado que ellos se acuerdan, mostraban.
+
+01:38:29.000 --> 01:38:38.000
+Que el robot se encontraba con otro robot, Amyrolábala, la marcha, o se encontraba con una persona y le esquivaba. Voy a.
+
+01:38:38.000 --> 01:38:43.000
+Y a poner y reconozco, motivado por como yo lo hice, cierto condición.
+
+01:38:43.000 --> 01:38:49.000
+Yeah, sería. Un identificación de zona.
+
+01:38:49.000 --> 01:38:55.000
+Exclusión y. Entre comillas. También le voy a poner aquí.
+
+01:38:55.000 --> 01:39:01.000
+Esquivar zona de exclusión. Y probablemente.
+
+01:39:01.000 --> 01:39:09.000
+Yeah, fíjense que aquí tenemos. Muy probablemente se nos quedan algo a lo mejor algunas cosas en el tintero.
+
+01:39:09.000 --> 01:39:15.000
+Pero ya, efectivamente, yo creo que tenemos una, 2, 3, 4.
+
+01:39:15.000 --> 01:39:19.000
+Cuatro o 5, 6, 7 reglas y, por lo tanto.
+
+01:39:19.000 --> 01:39:24.000
+Seguramente podría haber otra, pero creo que están las más importantes.
+
+01:39:24.000 --> 01:39:33.000
+Finalmente, lo último que tenemos que hacer en este caso es ponerle precedencia. Y vamos a poner 1, 2, 3, 4.
+
+01:39:33.000 --> 01:39:40.000
+¿cuál sería aquí la regla más importante.
+
+01:39:40.000 --> 01:39:42.000
+El llamado.
+
+01:39:42.000 --> 01:39:52.000
+Yo diría que no, porque tú lo puedes llamar. Pero acuérdate que esto, si tú lo llamas y la pones como la más importante, a lo mejor.
+
+01:39:52.000 --> 01:40:00.000
+Yo atiendo el llamado y, por lo tanto, ya gatilla eso. Y después puede gatillar más abajo.
+
+01:40:00.000 --> 01:40:07.000
+Identificar obstáculo y esquivar. Y lo que significaría cierto que eso se gatillería después.
+
+01:40:07.000 --> 01:40:12.000
+Eso es lo que yo creo. Despachar lo que yo creo que probablemente.
+
+01:40:12.000 --> 01:40:13.000
+¿cierto? Esta sería. La regla. Uno.
+
+01:40:13.000 --> 01:40:17.000
+Carga, batería.
+
+01:40:17.000 --> 01:40:24.000
+Y ésta a lo mejor la regla también 1 o 1 prima se dan cuenta, porque porque aquí.
+
+01:40:24.000 --> 01:40:29.000
+Evadir obstáculo, o sea, aquí quiero que la seguridad.
+
+01:40:29.000 --> 01:40:38.000
+Sea lo más importante ya y, por lo tanto, evadir obstáculos que el obstáculo puede ser una persona. Otro robot.
+
+01:40:38.000 --> 01:40:44.000
+Etcétera. Y esta podría ser a lo mejor la número 2, aunque porque le puse 1.
+
+01:40:44.000 --> 01:40:51.000
+Ojo asterisco acá porque, a lo mejor, la zona de exclusión efectivamente también.
+
+01:40:51.000 --> 01:40:58.000
+Puede quedar la grande. Después de esas 2, ¿cuál sería la siguiente? ¿queda pesar la carga.
+
+01:40:58.000 --> 01:41:04.000
+Carga o batería llamado robot. Desplazar el robot.
+
+01:41:04.000 --> 01:41:13.000
+Y esta aquí era Chupaya, a selección de ruta.
+
+01:41:13.000 --> 01:41:18.000
+¿cuál de esas creen que debería ser la número 3.
+
+01:41:18.000 --> 01:41:26.000
+De nuevo peso, pesar la carga y ver si puedo o no llevarla. Si la batería está baja y irme a cargar.
+
+01:41:26.000 --> 01:41:34.000
+Que me llamen que me despachen. Ya o seleccionad la ruta.
+
+01:41:34.000 --> 01:41:40.000
+Profesor, pero en este caso no debieran ser solamente. Por ejemplo, a mí me da la impresión que la batería es crucial.
+
+01:41:40.000 --> 01:41:45.000
+Pero no deberían solo atender llamados a aquellos que tengan la batería.
+
+01:41:45.000 --> 01:41:47.000
+Alta como para poder responder.
+
+01:41:47.000 --> 01:41:55.000
+De acuerdo? De acuerdo, pero lo que estamos diciendo acá y estoy de acuerdo contigo más sigue la voy a poner aquí como número.
+
+01:41:55.000 --> 01:42:01.000
+Entonces acuérdate que esto, una arquitectura muy sencilla. Entonces lo que va a pasar acá.
+
+01:42:01.000 --> 01:42:13.000
+Cierto que si tú pones como número 3 cargas batería baja, una vez que, efectivamente el robot encuentre que su batería está baja, se va a ir a cargarla, aunque.
+
+01:42:13.000 --> 01:42:20.000
+Tenga que trasladar, cargue aquella. ¿y ¿por qué considero yo que es la número 3? Porque si el robot se queda sin batería.
+
+01:42:20.000 --> 01:42:30.000
+En una parte de la bodega. Primero causa obstáculo, y segundo, alguien va a tener que ir pescar el rollo, llevarlo a la estación de.
+
+01:42:30.000 --> 01:42:34.000
+Cierto de carga, etcétera. Por lo tanto, por eso.
+
+01:42:34.000 --> 01:42:40.000
+Que primero las consideraciones de seguridad y después, si es que yo censo que batería está.
+
+01:42:40.000 --> 01:42:46.000
+Suficientemente baja, de forma que no puedo atender llamados o no puedo cegar con un despacho. Me voy a.
+
+01:42:46.000 --> 01:42:55.000
+Cargar la batería. Y después, ¿cierto? Yo diría que está número.
+
+01:42:55.000 --> 01:43:00.000
+Cuatro. Probablemente atender el llamado.
+
+01:43:00.000 --> 01:43:04.000
+A lo mejor número 5 es veces que yo puedo.
+
+01:43:04.000 --> 01:43:09.000
+Con la carga que me tienen. Ya número.
+
+01:43:09.000 --> 01:43:16.000
+Seis despacha de robots. Y número 7, ya.
+
+01:43:16.000 --> 01:43:24.000
+Seleccionar la ruta. Podríamos a discutir un poquito esta prioridad. Pero, como les dijo que hice, yo pensé primero en.
+
+01:43:24.000 --> 01:43:31.000
+Seguridad. Después pensé en por los problemas que nos podía.
+
+01:43:31.000 --> 01:43:38.000
+Hacer esto, pensar en la batería. Baja y después la funcionalidad que son. Llamo al robot.
+
+01:43:38.000 --> 01:43:46.000
+Ya, ehh! Veo que no lo sobrecargo para que pueda funcionar lo despacho.
+
+01:43:46.000 --> 01:43:57.000
+Y cierto, una vez que lo despaché. Selecciono la ruta, podríamos poner efectivamente algo así como cierto condición.
+
+01:43:57.000 --> 01:44:04.000
+Si ruta asignada. Cierto, sigo.
+
+01:44:04.000 --> 01:44:10.000
+La ruta, y esa podría ser la 8 parejas más explícito que el robot. ¿cierto? Los despachos.
+
+01:44:10.000 --> 01:44:16.000
+Selecciona, piensa en la ruta, crea la ruta y después sigue esa ruta, etc.
+
+01:44:16.000 --> 01:44:21.000
+Como les digo. Cuestión inicial.
+
+01:44:21.000 --> 01:44:26.000
+Voy a.
+
+01:44:26.000 --> 01:44:32.000
+A. Irme.
+
+01:44:32.000 --> 01:44:39.000
+A mostrarles la implementación que tengo acá.
+
+01:44:39.000 --> 01:44:50.000
+Ojalá que zoom no me dé muchos problemas. Bien. Ah, y aquí quedó esta cuestión entremedio.
+
+01:44:50.000 --> 01:44:56.000
+To Wei.
+
+01:44:56.000 --> 01:45:02.000
+Como puedo borrar. Esto de acá tengo que irme a.
+
+01:45:02.000 --> 01:45:09.000
+Permiso y dejar de compartir. Y voy a volver a compartir a ver si se va esto.
+
+01:45:09.000 --> 01:45:14.000
+Compartir. Y.
+
+01:45:14.000 --> 01:45:19.000
+Yeah, yeah tenía esto. Pero bueno. Cuando la borracha.
+
+01:45:19.000 --> 01:45:32.000
+Yeah. Perfecto. Quedarse ya entonces fíjense que acá. Y como quito esta cuestión, porque no puedo, no puedo mover el botón que está debajo.
+
+01:45:32.000 --> 01:45:34.000
+Yeah. Yes, sir.
+
+01:45:34.000 --> 01:45:40.000
+No, ya hay.
+
+01:45:40.000 --> 01:45:50.000
+Porque lo que pasa es que quiero cierto. Apretar el botón que está abajo. Esa cuestión.
+
+01:45:50.000 --> 01:45:53.000
+Ah, yeah. Listo. Perfecto.
+
+01:45:53.000 --> 01:45:55.000
+Yeah yeah.
+
+01:45:55.000 --> 01:46:02.000
+Sí, y no voy a. Listo quitar esto.
+
+01:46:02.000 --> 01:46:07.000
+Aquí. Para ver todo esto. Fíjense aquí. Tengo.
+
+01:46:07.000 --> 01:46:14.000
+Este. El mundo son hasta 3 robots. ¿cierto? Primero, no voy a tener.
+
+01:46:14.000 --> 01:46:19.000
+No voy a tener trabajadores. Tampoco voy a tener una probabilidad.
+
+01:46:19.000 --> 01:46:26.000
+Trabajadores se muevan y le voy a pedir que la trayectoria de los robots en el fondo se cree.
+
+01:46:26.000 --> 01:46:33.000
+Voy a crecer aquí. Setup. Aquí tengo el área restringida. Aquí tengo las.
+
+01:46:33.000 --> 01:46:39.000
+Tres estaciones de carga con los 3 robots, los 3 robots. Para tener estas estaciones.
+
+01:46:39.000 --> 01:46:46.000
+De cada código de batería. Y aquí tengo las estaciones donde van a ser cargados y a donde pueden ser.
+
+01:46:46.000 --> 01:46:52.000
+Despachado, si es que yo quiero. Puedo cierto, variar esta área.
+
+01:46:52.000 --> 01:46:57.000
+Que está acá en este caso la hice más grande para hacerle un poco más.
+
+01:46:57.000 --> 01:47:01.000
+Complicado aquí.
+
+01:47:01.000 --> 01:47:08.000
+Setup, perdón. El setup. Vuelvo a hacer esto, que está acá.
+
+01:47:08.000 --> 01:47:18.000
+Y aquí voy a hacer el Go. Y, por lo tanto, voy a, por ejemplo, a la Loading Station. Uno. Voy a llamar.
+
+01:47:18.000 --> 01:47:25.000
+Un robot. El robot llegó aquí. Y aquí cierto, tengo varias acciones. Tengo las estaciones a donde lo puedo despachar.
+
+01:47:25.000 --> 01:47:35.000
+O liberar al robot. ¿qué significa liderar al robot? Cierto que yo digo, y el robot puede ser llamado por cualquier otra estación, en este caso.
+
+01:47:35.000 --> 01:47:40.000
+Le voy a pedir que vaya a la Loading Station 4, que es la que está acá.
+
+01:47:40.000 --> 01:47:47.000
+Despacho al robot, ¿cierto? Y ahí llegó el robot. Fíjense que evadió efectivamente esta.
+
+01:47:47.000 --> 01:47:54.000
+Zona que está acá. Aquí, por ejemplo, puedo llamar a otro robot.
+
+01:47:54.000 --> 01:47:57.000
+Llegó el robot que está acá. Lo voy a despachar.
+
+01:47:57.000 --> 01:48:02.000
+Ya en este caso a la loading Station, 2.
+
+01:48:02.000 --> 01:48:07.000
+Ahí se fue a la loading station. Dos. Todavía me queda. Fíjense que aquí el robot hizo como una pequeña.
+
+01:48:07.000 --> 01:48:12.000
+Curva. Ok, podría haberse dado cuenta mucho antes que aquí podía.
+
+01:48:12.000 --> 01:48:18.000
+Cierto ya evadir, pero esto es por problemas de los sensores que tienen cierto una.
+
+01:48:18.000 --> 01:48:25.000
+Ciertas solamente alcance. Voy a llamar, por ejemplo, acá.
+
+01:48:25.000 --> 01:48:32.000
+Nuevamente otro robot. Aquí llegó. Y miren, por ejemplo.
+
+01:48:32.000 --> 01:48:36.000
+Aquí la loading station. Uno va a llamar un robot.
+
+01:48:36.000 --> 01:48:43.000
+If you sé lo que he is aquí waiting for a robot, y ningún robot ha llegado, porque porque cada 1 de estos robots están.
+
+01:48:43.000 --> 01:48:49.000
+Ocupados. Por lo tanto, si aquí, por ejemplo. Yo, este robot.
+
+01:48:49.000 --> 01:48:55.000
+Lo libero debería irse a la logging station. Uno se dan cuenta y se fue.
+
+01:48:55.000 --> 01:49:00.000
+A la loading station 1 lo otro que les quiero mostrar.
+
+01:49:00.000 --> 01:49:06.000
+Voy a despachar este robot, o sea, pueden haber 2 robots efectivamente, en una misma.
+
+01:49:06.000 --> 01:49:11.000
+Ya voy a. Bajar la velocidad.
+
+01:49:11.000 --> 01:49:17.000
+¿por qué? Porque lo que quiero es. Que vean cierto.
+
+01:49:17.000 --> 01:49:25.000
+Lo voy a hacer un poquito más rápido. Les cuento lo que quiero que vean. ¿qué pasa cuando el robot tiene ya.
+
+01:49:25.000 --> 01:49:29.000
+Batería baja, o sea, el Spa, te está censando su batería.
+
+01:49:29.000 --> 01:49:34.000
+Se dan cuenta. Ahí, se puso un color. Amarillo y, por lo tanto.
+
+01:49:34.000 --> 01:49:39.000
+Si, por ejemplo, yo le digo, ándate a la Louding Station, 1.
+
+01:49:39.000 --> 01:49:44.000
+Y lo despacho. Me dice: Miren. Ningún robot.
+
+01:49:44.000 --> 01:49:51.000
+Batería cargada. Por lo tanto, eso lo indica el operador que yo tengo que liberar al robot.
+
+01:49:51.000 --> 01:49:56.000
+Y al liberarlo, el robot. Se va a ir a la estación de carga.
+
+01:49:56.000 --> 01:50:01.000
+Más cercana se va a empezar a cargar. Y, evidentemente, que eso.
+
+01:50:01.000 --> 01:50:06.000
+Demora un. Voy a acelerar esto.
+
+01:50:06.000 --> 01:50:11.000
+Ahí está. Caregao, lo que significa, si es que ahora yo, por ejemplo.
+
+01:50:11.000 --> 01:50:20.000
+Yeah. Llamo a un robot. Un robot se dan cuenta. Ese robot está cargado. Fue a la estación.
+
+01:50:20.000 --> 01:50:28.000
+¿por qué no se movió ninguno de estos 2, porque estos todavía no han sido liberados.
+
+01:50:28.000 --> 01:50:32.000
+Qué otra cosa más les voy a mostrar. Lo que les voy a mostrar. No creo que se escuche aquí el honk.
+
+01:50:32.000 --> 01:50:39.000
+Pero igual. Ahora lo vamos a hacer con obstáculos móviles, que en este caso son.
+
+01:50:39.000 --> 01:50:42.000
+By The Sonaja que se están moviendo por acá.
+
+01:50:42.000 --> 01:50:48.000
+La probabilidad de que se muevan las personas. Ahí está, y, por lo tanto, cierto en este caso.
+
+01:50:48.000 --> 01:50:53.000
+Dispatch road y el robot. Se dan cuenta ahí para y hace.
+
+01:50:53.000 --> 01:50:59.000
+Escucha del tipo, ¿no? Eso que le está tocando la bocina a los trabajadores.
+
+01:50:59.000 --> 01:51:06.000
+En este caso. De aquí voy a despachar. A los voy a liberar.
+
+01:51:06.000 --> 01:51:15.000
+Cierto, a los robots. Y aquí yo pido un robot. Entonces se dan cuenta ese robot.
+
+01:51:15.000 --> 01:51:20.000
+Y llegó acá, etcétera, etcétera, etcétera. Podríamos hecho mejores de los.
+
+01:51:20.000 --> 01:51:26.000
+Personas se ponen mucho después se van quitando, pero es para mostrarles que también lidia.
+
+01:51:26.000 --> 01:51:31.000
+Con personas en el ambiente, más la zona. Efectivamente.
+
+01:51:31.000 --> 01:51:39.000
+De exclusión. Les voy a mostrar el código. Que es lo interesante.
+
+01:51:39.000 --> 01:51:41.000
+Me voy a ir aquí a.
+
+01:51:41.000 --> 01:51:54.000
+Setup robot, donde está setup robots. Y aquí es donde efectivamente, les voy a contar un poquitito. Perdón. Se me olvida de que.
+
+01:51:54.000 --> 01:52:00.000
+Si me voy y lo muestro en la en el telón, aquí en la sala, dejó desubicado.
+
+01:52:00.000 --> 01:52:10.000
+A los que están en línea. Nuevamente en esta arquitectura, igual que la otra vez. Esta es la regla más importante y después son las reglas que están acá.
+
+01:52:10.000 --> 01:52:27.000
+Comentadselas brevemente. Primera regla. Cierto seguridad, ante todo. Siete, detecto un obstáculo y no está idle. O sea, no está en ralentí, que es para mí, es idle idle es que está sin una tarea que ejecutar.
+
+01:52:27.000 --> 01:52:36.000
+Entonces ya. Un obstáculo. Por lo tanto, Eva, el obstáculo solamente si es que no está.
+
+01:52:36.000 --> 01:52:51.000
+Ya idol, porque porque si está idol, está parado no haciendo nada. Ya no tiene que evadir el obstáculo. O sea que me dice profe, pero que si bien una persona bueno, esa persona tendrá que moverse, ¿cierto? Al alrededor del robot, el robot está ahí.
+
+01:52:51.000 --> 01:52:56.000
+Parado sin hacer nada. Segunda regla. Siete, todo robot.
+
+01:52:56.000 --> 01:53:04.000
+Y nuevamente no está. No haciendo nada o está activo. Pongámosle en positivo mejor.
+
+01:53:04.000 --> 01:53:10.000
+Y no está. En la estación de carga.
+
+01:53:10.000 --> 01:53:24.000
+Cierto, simplemente evite a otros robots. ¿por qué les pongo aquí esto y no en una estación de carga. Fue lo típico que pasó cuando 1 simula mucho que me pasaba.
+
+01:53:24.000 --> 01:53:26.000
+Cierto, el robot estaba en la estación de carga.
+
+01:53:26.000 --> 01:53:32.000
+Se pensaba que venía otro bote y decía: Ah, cresta, tengo que ir. Si iba a la estación de caries.
+
+01:53:32.000 --> 01:53:37.000
+Si estoy en la estación de carga, oye anule ese comportamiento, simplemente ya.
+
+01:53:37.000 --> 01:53:42.000
+No se mueva. El otro robot va a tener que evitarlo, etcétera.
+
+01:53:42.000 --> 01:53:53.000
+They Said detectó una zona prohibida, se acuerda en la zona de exclusión y está haciendo algo elevada la zona de exclusión.
+
+01:53:53.000 --> 01:54:01.000
+Fíjense que acá, ya lo que hago es separarlo. Esto es cierto evadir obstáculo, y esta es zona.
+
+01:54:01.000 --> 01:54:06.000
+Pay perfectamente. Podría haber hecho las 2 cosas en una, pero me pareció.
+
+01:54:06.000 --> 01:54:11.000
+Más lógico y más fácil de programar, separando esas otras 2 cosas.
+
+01:54:11.000 --> 01:54:16.000
+Siguiente: regla. Sí, la batería está baja.
+
+01:54:16.000 --> 01:54:20.000
+Y está haciendo algo y no está en la estación de carga.
+
+01:54:20.000 --> 01:54:28.000
+Cierto, seleccione una estación de carga, porque porque la idea es que se vaya si esto es, la estación de carga.
+
+01:54:28.000 --> 01:54:31.000
+Más cercana de las que no haya un robot.
+
+01:54:31.000 --> 01:54:38.000
+Cadegándose. Próxima regla. Si está aquí, si es que no está haciendo nada.
+
+01:54:38.000 --> 01:54:46.000
+Y su destino es una estación de carga y no está en la estación de carga. Entonces váyase a destino.
+
+01:54:46.000 --> 01:54:53.000
+Nuevamente una implementación particular. Ya porque vamos a ver que vaya a hacer la estación de destino.
+
+01:54:53.000 --> 01:55:01.000
+O qué iba a ser usada más adelante. Lo que pasa es que yo defino cuál es la estación de destino y, por lo tanto, es legal y.
+
+01:55:01.000 --> 01:55:09.000
+Que la estación de destino sea la estación de carga seleccionada.
+
+01:55:09.000 --> 01:55:14.000
+Siguiente regla: sí. ¿cierto?
+
+01:55:14.000 --> 01:55:20.000
+La su destino, esa estación de carga y está en la estación de carga.
+
+01:55:20.000 --> 01:55:29.000
+Y la batería todavía no está totalmente cargada, cargue, batería. O sea, lo que hago aquí nuevamente, es que decirle al robot oiga.
+
+01:55:29.000 --> 01:55:38.000
+Cuando Ud. Esté en la estación de carga, la carga no instantánea se demor y, por lo tanto, tiene que esperar a que su sensor le indique que la carga está.
+
+01:55:38.000 --> 01:55:46.000
+De batería completa para poder cierto moverse. Después, si no está en una.
+
+01:55:46.000 --> 01:55:56.000
+Perdón si la batería no está baja. Y no está haciendo nada. Atienda un llamado, o sea, nuevamente aquí. Lo que estoy diciendo es que.
+
+01:55:56.000 --> 01:56:04.000
+Tengo que estar. Nadie me está ocupando. Por eso que estoy idle. Y, además, tengo mi batería, cierto cargada.
+
+01:56:04.000 --> 01:56:09.000
+O no la tengo baja. Entonces atienda un llamado.
+
+01:56:09.000 --> 01:56:16.000
+Y finalmente, la última. Sí, cierto, estoy haciendo algo, y no estoy en el.
+
+01:56:16.000 --> 01:56:21.000
+Muévase a ese destino. Y el destino. Aquí puede ser, como les digo.
+
+01:56:21.000 --> 01:56:31.000
+Nuevamente una de las estaciones de carga ya. Ya que me mandaron de una a otro, o sea, el destino o.
+
+01:56:31.000 --> 01:56:39.000
+Cierto, una estación de carga de batería. Y esos son, como les digo, la reglas.
+
+01:56:39.000 --> 01:56:47.000
+Fíjense que acá un comportamiento que, de nuevo. No es tan tan sencillo. La verdad es que la gracia de usar esto.
+
+01:56:47.000 --> 01:56:54.000
+Ya es que nuevamente no les digo que yo, de buena a primera puse esta cuestión y me funcionó, o sea, como les contaba.
+
+01:56:54.000 --> 01:57:00.000
+Fui haciendo los comportamientos más sencillos. Primero, y después le fui agregando.
+
+01:57:00.000 --> 01:57:06.000
+Reglas. Pero la gracia de tener una arquitectura como esta es que.
+
+01:57:06.000 --> 01:57:14.000
+Nuevamente, 1 tiene una hoja de ruta para. Poder hacer esto.
+
+01:57:14.000 --> 01:57:19.000
+Un. Pero aquí que estaba seguro que lo tenía puesto.
+
+01:57:19.000 --> 01:57:26.000
+Grito ya en. Lámina para que no digan que digo.
+
+01:57:26.000 --> 01:57:32.000
+Transparencia que les cuento, pero se los digo acá porque de todas formas está claro.
+
+01:57:32.000 --> 01:57:39.000
+Uno de los grandes problemas que tú tienes con esto es las interacciones que hay entre las reglas.
+
+01:57:39.000 --> 01:57:45.000
+Ya sea cierto con los If. Con la parte de lo que tenemos que hacer y con las precedencias.
+
+01:57:45.000 --> 01:57:51.000
+Y eso no hay forma de entenderlo. Bien. Si no simulas. Ok.
+
+01:57:51.000 --> 01:57:58.000
+Les voy a dar unos ejemplos mucho más básicos, pero que se van a entender mejor a continuación.
+
+01:57:58.000 --> 01:58:04.000
+Y ese es el gran problema que tiene en general, las ya arquitecturas reactivas.
+
+01:58:04.000 --> 01:58:11.000
+Son súper básicas. Uno puede hacer cosas super encachadas muy poco, cálculo, computacionalmente.
+
+01:58:11.000 --> 01:58:22.000
+Muy eficiente, pero. Como yo les conté hace unas clases atrás: simulen, simulen, simulen, o sea, yo. Efectivamente, muchas de las cláusulas.
+
+01:58:22.000 --> 01:58:36.000
+Como les conté que puse aquí. No es que Nintendo no haya dicho Oye, el canesa Mampota se puso a pensar esta cuestión. Ya y ahí están todas las reglas y funcionó. La primera. Claramente, partí con las reglas más básicas, más obvias.
+
+01:58:36.000 --> 01:58:43.000
+Ya al ir le agregando reglas, empecé a ver interacciones no deseadas, las que le conté. ¿cierto? Por ejemplo.
+
+01:58:43.000 --> 01:58:50.000
+El de nuevo robot estaba en su estación de carga calgándose de vuelta. Venía un rubio y decía.
+
+01:58:50.000 --> 01:58:58.000
+Tengo que evadirse para otro lado, cosas por el estilo y, por lo tanto, reconozco así 1 súper súper, Aristóteles Platón, no sé.
+
+01:58:58.000 --> 01:59:05.000
+Se pasea 5 semanas pensando todos los detalles. Yo creo que, cognitivamente hablando, eso es muy difícil.
+
+01:59:05.000 --> 01:59:16.000
+Ya lo que 1 hace. Para el común de los mortales e ir creando esto y simulando harto, darse cuenta de los problemas y los va solucionando. Pero, créanme, como les digo.
+
+01:59:16.000 --> 01:59:27.000
+Que esto es factible hacerlo, y esta solución. Créanme de que es una solución real. De hecho, los sensores están simulados aquí allá, etcétera.
+
+01:59:27.000 --> 01:59:36.000
+Tienen rangos aquí y allá. Si ustedes me dicen: Profe, ¿podría los sensores a él, los modelados de más bajo nivel elementales, llegar cierto.
+
+01:59:36.000 --> 01:59:41.000
+Y llegar y ponerle otras cosas más, o llegarles cosas más en.
+
+01:59:41.000 --> 01:59:48.000
+Los módulos que representan a los sensores, etc. Ya, y es por eso que me gusta esta simulación.
+
+01:59:48.000 --> 01:59:53.000
+Muy nuevamente, rápidamente visual. ¿cierto? Uno tiene mucho control.
+
+01:59:53.000 --> 01:59:59.000
+Puede simular muchísimas condiciones y, por lo tanto, refinar esto, que está.
+
+01:59:59.000 --> 02:00:04.000
+Acá. No sé si tiene alguna duda o pregunta para.
+
+02:00:04.000 --> 02:00:11.000
+Seguir. Todo esto nuevamente.
+
+02:00:11.000 --> 02:00:17.000
+Tenue no es por tirarme flores, ni mucho menos. O sea, no, no. Yo soy 1 vacío. Espero.
+
+02:00:17.000 --> 02:00:25.000
+O personalista. Esto se basa en esta librería, que cree que tiene una serie de.
+
+02:00:25.000 --> 02:00:31.000
+Funciones, aquella, etcétera, etcétera, que facilitan lo anterior. Ok.
+
+02:00:31.000 --> 02:00:37.000
+No les voy a entrar a mostrar esto en detalle. Sería cierto, un curso.
+
+02:00:37.000 --> 02:00:49.000
+Aparte, según creo yo. Solamente contarles que ahí está bastante documentada y además, tengo documentación, o sea, como varios colegas emplean esto, etcétera. Tengo un documento.
+
+02:00:49.000 --> 02:00:54.000
+Ya que describe esto, lo que significa que ya tiene la librería.
+
+02:00:54.000 --> 02:01:00.000
+Ya no me acuerdo. Si es la última versión o no, creo que sí. Septiembre del 2 021. No sé si la.
+
+02:01:00.000 --> 02:01:10.000
+Mejorada o no, porque está. Para mi gusto bastante buena. Los que algún día quieran ocupar algo como esto. Evidentemente, que expandir logo.
+
+02:01:10.000 --> 02:01:20.000
+Más que bienvenido en entregarles la documentación que, según yo, de nuevo, como la cuestión no es tampoco tan complicada. Según yo, la documentación.
+
+02:01:20.000 --> 02:01:27.000
+Como les digo, bastante entendible. Una última cosa. Y con esto termino.
+
+02:01:27.000 --> 02:01:37.000
+Esta arquitectura no está optimizada para. Tiempo computacional, o sea, que no es muy eficiente. Computacionalmente hablando.
+
+02:01:37.000 --> 02:01:43.000
+Pero dado ya de que los agentes reactivos prácticamente son muy Streamline.
+
+02:01:43.000 --> 02:01:48.000
+Ya no hay mayor problema que sea así. O sea, yo podría.
+
+02:01:48.000 --> 02:01:54.000
+Mejorar la computacionalmente hablando me entienden, o sea, que fuera incluso más rápida.
+
+02:01:54.000 --> 02:02:02.000
+Pero, como les digo, creo que es suficientemente rápida, de forma que la limitación viene por los aspectos físicos.
+
+02:02:02.000 --> 02:02:09.000
+De los actuadores sensoria, aquella que, por lo que se demora en procesar espacios.
+
+02:02:09.000 --> 02:02:14.000
+Solamente para que. Sepan? Eso sí.
+
+02:02:14.000 --> 02:02:20.000
+Isabel.
+
+02:02:20.000 --> 02:02:27.000
+Si bien en el entendido que esta herramienta es.
+
+02:02:27.000 --> 02:02:33.000
+Para poder generar simulación. Como nosotros en el mundo real. Llevamos esta simulación.
+
+02:02:33.000 --> 02:02:37.000
+A un código utilizando ese modelo. L. L. M.
+
+02:02:37.000 --> 02:02:41.000
+Una. Esa pregunta me fija. Alguien me la tenía que hacer.
+
+02:02:41.000 --> 02:02:52.000
+Y además, me gusta la de taconizada y. No nos coludimos algún día. Les cuento una anécdota de colusión. ¿y qué sé? Yo.
+
+02:02:52.000 --> 02:02:57.000
+De una cuestión nada que no y sabe te respondo.
+
+02:02:57.000 --> 02:03:02.000
+Primero, ya, Ned, logo. Tú lo puedes interfaz a con actuador y sensores. Y yo lo he hecho.
+
+02:03:02.000 --> 02:03:08.000
+Lo que significa que un ambiente súper flexible y claro.
+
+02:03:08.000 --> 02:03:13.000
+La única lata entre comillas que tiene nomás. Cierto que tenéis que aprender.
+
+02:03:13.000 --> 02:03:18.000
+Un lenguaje que de nuevo no es tan complicado y que se yo.
+
+02:03:18.000 --> 02:03:23.000
+Una sola vez he tenido que lidiar con problemas.
+
+02:03:23.000 --> 02:03:28.000
+Cuando tengo tasas. De información que tengo que manejar, sensores que te entregan.
+
+02:03:28.000 --> 02:03:37.000
+Una muy alta tasa ya de información y de información, y que tú te la tienes que manejar.
+
+02:03:37.000 --> 02:03:45.000
+Súper rápido ahí. Entonces, ¿qué es lo que yo hago? Yo soy. Reconozco. Defiendo a netflogo. De todas formas.
+
+02:03:45.000 --> 02:03:48.000
+De hecho, he estado en el team de desarrollo en algunas cosas.
+
+02:03:48.000 --> 02:03:52.000
+Lo que pasa es que en el logo tú lo puedes interfacer con Python, etcétera, etcétera.
+
+02:03:52.000 --> 02:03:57.000
+Entonces escribí algunas rutinas en Python y qué sé yo? Y las llamé desde acá.
+
+02:03:57.000 --> 02:04:04.000
+Cachai, eso. Segundo para el que me dice: No es que a mí me gusta Python, y ese es mi ambiente.
+
+02:04:04.000 --> 02:04:14.000
+¿qué hago yo? Yo simplemente corro aquí todas las simulaciones ahí o por aves. Cachai. Y cuando ya tengo todo cladito. Eso es fácil. Esa cuestión trasladarla.
+
+02:04:14.000 --> 02:04:18.000
+Cachai a un lenguaje usando Ifden o Case, o qué sé yo.
+
+02:04:18.000 --> 02:04:27.000
+Cachai, pero. Te prometo que nunca he tenido problemas y la verdad que, manejando acto actuador y actos sensores, porque en el plogo interfasa.
+
+02:04:27.000 --> 02:04:37.000
+Directamente. Cachai tiene. Tiene algunas cuestiones para hacer eso. Y de nuevo, si no escribí en Python, aquella me he tenido interfaz ahí con esto.
+
+02:04:37.000 --> 02:04:41.000
+Si lo único que yo te dije que me queda pendiente para este verano.
+
+02:04:41.000 --> 02:04:47.000
+Mi señor es la que está alegando lo que no he hecho: interfasar la conapi para poder usar el Lm.
+
+02:04:47.000 --> 02:04:52.000
+Meter el Lm acá. Eso todavía no lo hago. Y me tinca. Estoy entusiasmado. Cachai.
+
+02:04:52.000 --> 02:04:58.000
+El otro día me quedé hasta como a las 3 de la mañana, haciendo unas cuestiones para ir empezando a ir.
+
+02:04:58.000 --> 02:05:04.000
+Para allá se ríen, pero en serio, así soy nurponen. Y si no, no estaría aquí haciendo cuestiones raras.
+
+02:05:04.000 --> 02:05:09.000
+Okay. Pero eso es lo único que me falta. Y tú me decís, ¿cómo hacerlo? Tengo una idea.
+
+02:05:09.000 --> 02:05:14.000
+Pero me ha funcionado para cuestiones sencillas, pero quiero sacarle más el jugo.
+
+02:05:14.000 --> 02:05:19.000
+¿qué es lo que vamos a ver ahora? La arquitectura híbrida cuando veamos generativa. Cachai.
+
+02:05:19.000 --> 02:05:23.000
+Porque en eso todavía estoy al debe. No he metido suficientemente las manos.
+
+02:05:23.000 --> 02:05:29.000
+Ahí me queda respecto, por ejemplo, a una implementación empresarial como nosotros llegamos a.
+
+02:05:29.000 --> 02:05:34.000
+A diseñar quizás este mismo tipo a la gente a ver. Yo lo he hecho.
+
+02:05:34.000 --> 02:05:37.000
+Primero yo lo que hago justo net low.
+
+02:05:37.000 --> 02:05:41.000
+Could take pacto obviando sensores. Y esto, o sea.
+
+02:05:41.000 --> 02:05:47.000
+Los implementos. Sencillamente después le voy agregando toda la complejidad a los sensores.
+
+02:05:47.000 --> 02:05:53.000
+Y después, como digo, los interfazos. Isabel hipodotipo con esta cuestión.
+
+02:05:53.000 --> 02:05:57.000
+Está asegurarme de meter después con los sensores y toda la cuestión que está funcionando bien.
+
+02:05:57.000 --> 02:06:08.000
+Y de ahí reconozco. Pesco a mi ayudante y les digo: Aquí está la cuestión y todo listo. Ahora me lo pasan. Me entendí a tal lenguaje en común de acuerdo con.
+
+02:06:08.000 --> 02:06:17.000
+El que va a tener el sistema funcionando, etcétera. Cachai: Así lo hago, a lo menos.
+
+02:06:17.000 --> 02:06:30.000
+Real. ¿cómo le pasó lo que pasa. Ya muy rápidamente. Aquí hay extensiones y esas extensiones, lo que te permite comunicarte con tarjetas Arduino. Con las tarjetas go go.
+
+02:06:30.000 --> 02:06:40.000
+Del M, I, T. E. Entonces ahí tenía la interfaz directo, excepto que tú querías ser una interfaz mucho más rápida que me ha tocado hacer la cachat, y ahí.
+
+02:06:40.000 --> 02:06:46.000
+Electrónico o en la gozo. Y tenéis que hacer tú la cuestión, pero no si efectivamente tiene.
+
+02:06:46.000 --> 02:06:58.000
+Cierto? Ehh? Tiene. Tiene extensiones para poder hacer ese vínculo, ya sea en comunicación sencilla, serial, aquella como en otros tipos de comunicación, etcétera.
+
+02:06:58.000 --> 02:07:04.000
+Pero créeme, lo he hecho. De hecho, tengo una aplicación que es un sonar one.
+
+02:07:04.000 --> 02:07:11.000
+Y un sonar que entonces funciona, descubre los obstáculos, te los da en una pantalla, te traquea.
+
+02:07:11.000 --> 02:07:17.000
+Se olfateaba rumbo y velocidad de los obstáculo de una serie de cuestiones con filtro calman y todo el deseo.
+
+02:07:17.000 --> 02:07:26.000
+Y todo hecho acá. Y ahí ahí, por ejemplo, tuve problemas de, efectivamente, la tasa de manejo de información. De repente se me fue en Collera.
+
+02:07:26.000 --> 02:07:32.000
+Quería hacer en el filtro Kallman especialmente mejor. El fotogramas necesita mucha.
+
+02:07:32.000 --> 02:07:38.000
+Cantidad de datos y, por lo tanto, hoy, por ejemplo, tuvo que hacerle una interfaz especial para poder manejar esa cantidad.
+
+02:07:38.000 --> 02:07:50.000
+Como Dmi, direct memory access, ¿cierto? De me app perdón para meterlos a memoria. Y ahí después lo vaya procesando. Ahí no me dio con comunicación, sería y Arduino go, go.
+
+02:07:50.000 --> 02:07:57.000
+Pero lo puedes hacer de nuevo. Para mí, esta herramienta es fabulosa. Lo que más es gratis. Cachai, una hora, yo.
+
+02:07:57.000 --> 02:08:05.000
+He donado ahí un poco de plata en mis proyectos y también he colaborado en otra herramienta, que es que anexa esta que se llama behavior, search.
+
+02:08:05.000 --> 02:08:13.000
+Ahí está lo que decía Enrique Viherwood Search es la que tiene algoritmos genético simulating a kneeling. Hace o no nos gustaba.
+
+02:08:13.000 --> 02:08:17.000
+Reconozco a Enrique a choque mío. No me gusta el aseo.
+
+02:08:17.000 --> 02:08:22.000
+Y te puedo después contar, porque entonces es una herramienta optimización que puedes.
+
+02:08:22.000 --> 02:08:30.000
+Interfacet con Net. Logo a una extensión que, como te digo, tiene de nuevo para optimizar algoritmo genético. Simuleten aneiling.
+
+02:08:30.000 --> 02:08:33.000
+Más que nada, hay una serie de otras cuestiones.
+
+02:08:33.000 --> 02:08:38.000
+Bien.
+
+02:08:38.000 --> 02:08:43.000
+Déjenme. Y ahora nos vamos a.
+
+02:08:43.000 --> 02:08:53.000
+Algo mucho más sencillo. Ustedes se van a reír.
+
+02:08:53.000 --> 02:09:02.000
+Ya, pero lo que quiero hacer acá es poner patente el problema de la interacciones. Por lo tanto, el ejemplo que está.
+
+02:09:02.000 --> 02:09:08.000
+Acá es un ejemplo mucho más sencillo que el anterior. Es algo súper elemental.
+
+02:09:08.000 --> 02:09:11.000
+Ya lo voy a hacer yo aquí en clase.
+
+02:09:11.000 --> 02:09:16.000
+No es ninguna cuestión del otro mundo como sana dar cuenta, pero sí.
+
+02:09:16.000 --> 02:09:21.000
+Quiero, si ustedes también lo pueden hacer, especialmente lo que están en línea, en su casa, etcétera.
+
+02:09:21.000 --> 02:09:26.000
+Ya voy a. A orir déjenme.
+
+02:09:26.000 --> 02:09:33.000
+Por si acaso esto lo voy a quitar. Porque después me voy a estar confundiendo.
+
+02:09:33.000 --> 02:09:39.000
+Samsanction. Esto que era.
+
+02:09:39.000 --> 02:09:41.000
+Chao.
+
+02:09:41.000 --> 02:09:46.000
+But also gótico. También Chao. Si voy a dejar el explorador de.
+
+02:09:46.000 --> 02:09:51.000
+Mállate. Pero antes de eso.
+
+02:09:51.000 --> 02:09:56.000
+Siendo mis mismas instrucciones. Me voy a ir a esto, que está acá.
+
+02:09:56.000 --> 02:10:05.000
+Algo elemental, pero solamente para mostrar. Lo importante que esto de las interacciones.
+
+02:10:05.000 --> 02:10:12.000
+Le cuento ¿cuál es la idea? Acá la idea acá es un mundo. El mundo todavía todos los años. Digo lo mismo, y todavía no lo hago.
+
+02:10:12.000 --> 02:10:19.000
+En este mundo. Los cuadrados. Color verde, son obstáculo.
+
+02:10:19.000 --> 02:10:29.000
+Yeah y los cuadrados color rojo debería ser al revés. Son cosas que tenemos que recoger, parecido, cierto al explorador de Marte y.
+
+02:10:29.000 --> 02:10:35.000
+Electrodahor es el autito que está acá al centro.
+
+02:10:35.000 --> 02:10:41.000
+Y en esta arquitectura, básicamente. Ya lo que tenemos son.
+
+02:10:41.000 --> 02:10:46.000
+Tres acciones. Que están opuestas a la.
+
+02:10:46.000 --> 02:10:55.000
+Izquierdo usted evadir obstáculo. Recolectar la muestra moverse aleatoriamente a un patch.
+
+02:10:55.000 --> 02:11:00.000
+Cierto, no verde, porque el verde, es cierto, es un obstáculo y moverse a la.
+
+02:11:00.000 --> 02:11:05.000
+Derecha y, por lo tanto. Lo que quiero que apriesen acá.
+
+02:11:05.000 --> 02:11:10.000
+Que están esas reglas y tienen, evidentemente, ya esa precedencia.
+
+02:11:10.000 --> 02:11:14.000
+Lo que significa que voy a correr varias veces este.
+
+02:11:14.000 --> 02:11:20.000
+Y les voy a pedir que observen la simulación y vean, Ok.
+
+02:11:20.000 --> 02:11:32.000
+¿qué problema tiene. Hacer esta arquitectura, en la cual la regla 1 debe ir obstáculo. La 2 recolectan muestras las 3 muestras aleatoriamente: un patch no verde.
+
+02:11:32.000 --> 02:11:39.000
+Y moverse a la derecha. Y voy a ir cierto simulando esto.
+
+02:11:39.000 --> 02:11:47.000
+Voy a.
+
+02:11:47.000 --> 02:11:53.000
+Esto también se detiene cuando cierto. Hemos recolectado todas las muestras.
+
+02:11:53.000 --> 02:11:59.000
+Como esto aleatorio, evidentemente que podría no darse la situación, pero espero que.
+
+02:11:59.000 --> 02:12:06.000
+De repente sé ella. Sigamos con esto. Acá.
+
+02:12:06.000 --> 02:12:15.000
+Y parece que aquí no se va a dar.
+
+02:12:15.000 --> 02:12:25.000
+Ahí ahí se dio. Bien aquí. Lo que estoy mostrando es tiempo en Tics, tiempo simulado, ya que no es tiempo escalado real.
+
+02:12:25.000 --> 02:12:32.000
+Y aquí la cantidad muestra recolectadas y no se ocupen. Estos son un histograma de la acción ejecutada.
+
+02:12:32.000 --> 02:12:42.000
+Vean el mundo. Por favor. Y díganme dónde encuentran un extraño problema que está pasando. Acá.
+
+02:12:42.000 --> 02:12:47.000
+Se encuentran algo que no es. Bueno, no había sido óptimo.
+
+02:12:47.000 --> 02:12:54.000
+Sería mucho que no es bueno que vuelve a hacer algo al un recorrido que ya hizo previamente.
+
+02:12:54.000 --> 02:13:03.000
+Ya eso. Evidentemente, que no es óptimo, pero hay algo peor que pasó peor que pasó por 2 recuadros rojos y no tomó las manos. Ya.
+
+02:13:03.000 --> 02:13:11.000
+Fíjense acá justamente, como dice Enrique. Ahí ¿cierto? Donde puse el cursor. Espero que lo vean los que están en línea.
+
+02:13:11.000 --> 02:13:17.000
+Ya pasó varias veces, a lo menos 2 veces por esa muestra, y no la.
+
+02:13:17.000 --> 02:13:25.000
+Recogió, Ok. Y a qué se debe creer? Uds. Eso.
+
+02:13:25.000 --> 02:13:27.000
+You know.
+
+02:13:27.000 --> 02:13:35.000
+No, no. Aquí no hay problema: capacidad. No la identificó. Como muestra.
+
+02:13:35.000 --> 02:13:42.000
+Lo identificó correctamente como muestra al ordenamiento el ordenamiento. Mire, fíjense.
+
+02:13:42.000 --> 02:13:49.000
+Me voy a ir y voy a abrir. El mismo.
+
+02:13:49.000 --> 02:13:55.000
+El 2. Y acá.
+
+02:13:55.000 --> 02:14:05.000
+Voy a hacer un inicializar. Me voy a ir más lentamente para que se pueda ver.
+
+02:14:05.000 --> 02:14:10.000
+Simular.
+
+02:14:10.000 --> 02:14:18.000
+Y fíjense que eso. Igual si esto está haciendo varios trayectos la misma vez, porque es súper tonto.
+
+02:14:18.000 --> 02:14:24.000
+Ya, pero. Efectivamente.
+
+02:14:24.000 --> 02:14:31.000
+Y le queda una. Se dan cuenta, o sea, nos está marcando, no está usando. Y ahí terminó.
+
+02:14:31.000 --> 02:14:38.000
+Y aquí no se dio. Fíjense nuevamente abajo y a su izquierda las acciones.
+
+02:14:38.000 --> 02:14:43.000
+Primero está recolectar, muestra y segundo, aire, obstáculo, etcétera.
+
+02:14:43.000 --> 02:14:47.000
+O sea, en esto. Muy sencillamente.
+
+02:14:47.000 --> 02:14:53.000
+El problema que tenemos. Este, que está acá ya enrique.
+
+02:14:53.000 --> 02:14:57.000
+Disculpa. Le voy a poner en presentación para que se vea mejor.
+
+02:14:57.000 --> 02:15:04.000
+El Ruy, que ya lo mostró. Cierto. De repente, yo llegaba a recoger una muestra. Pero como mi primera.
+
+02:15:04.000 --> 02:15:13.000
+Cierto prioridad era si detecto un obstáculo, entonces, Eva, yo llego. Encontré que hay obstáculo. Además, en mi.
+
+02:15:13.000 --> 02:15:21.000
+Sensor. Estoy detectando la piedra preciosa, pero además, lo obstáculo y, por lo tanto, me muevo y no la recolecto.
+
+02:15:21.000 --> 02:15:30.000
+En el segundo. En cambio, cambié. Cierto, la presencia y, por lo tanto, yo llego recolecto la muestra.
+
+02:15:30.000 --> 02:15:35.000
+Y después, Ok, evado el obstáculo. Y, por lo tanto.
+
+02:15:35.000 --> 02:15:41.000
+Si se dan cuenta, son 3 reglas. Apenas. Y aún así pueden haber.
+
+02:15:41.000 --> 02:15:47.000
+Ya interacción entre las reglas, que 1 no las imagina de buena a primera ya y que, por lo tanto, hay que.
+
+02:15:47.000 --> 02:15:54.000
+Mejorar. Es por eso yo les contaba que en el de nuevo, en las reglas que eran mucho más compleja.
+
+02:15:54.000 --> 02:16:06.000
+Hay muchas más en número del virtual con veo que les mostré claramente cierto. Tuve que darme la lata de empezar sencillo. Y al agregar cosas, darme cuenta interacciones.
+
+02:16:06.000 --> 02:16:13.000
+Rara e isla mejorando. Y eso es parte de la arquitectura.
+
+02:16:13.000 --> 02:16:19.000
+Reactiva de los problemas que tenemos para mayor abundamiento. Usted median oye, pero esto.
+
+02:16:19.000 --> 02:16:21.000
+Es más o menos como.
+
+02:16:21.000 --> 02:16:27.000
+Elemental. Ok, vamos a hacer el siguiente experimento. Y por eso.
+
+02:16:27.000 --> 02:16:36.000
+El explorador de Marte no lo. No lo he cerrado. Y aquí sí que les voy a pedir, por favor, cooperación, porque si no vamos a estar hasta la.
+
+02:16:36.000 --> 02:16:42.000
+Diez de la noche haciendo el experimento. Quiero distribuir la tarea entre varios de ustedes.
+
+02:16:42.000 --> 02:16:45.000
+Qué es lo que vamos a hacer. Vamo a mantener.
+
+02:16:45.000 --> 02:16:52.000
+Todas las condiciones, como están en la simulación. Así que, por favor, no la vayan a cambiar, porque si no me arruinan el experimento.
+
+02:16:52.000 --> 02:17:02.000
+Ya, y vamos a manipular solamente 2 variables sistemáticamente cooperative agents, o sea, si los agentes son cooperativos o no.
+
+02:17:02.000 --> 02:17:08.000
+Si dejan esta huella, etcétera, etcétera, y la capacidad de llevar rocas, entonces vamos a hacer.
+
+02:17:08.000 --> 02:17:16.000
+Cuatro coro y experimentales. Variando cierto el Copydiff agents and of Enon.
+
+02:17:16.000 --> 02:17:25.000
+Y la cantidad de rocas que puede llevar un explorador explorador en 1 y en 10, o sea, muy baja capacidad de llevar.
+
+02:17:25.000 --> 02:17:32.000
+Roca. En el caso, primero pueden llevar una roca y tienen que volver a la nave madre. Y en estas de acá.
+
+02:17:32.000 --> 02:17:37.000
+Pueden llevar hasta. Almacenar hasta 10 rocas para.
+
+02:17:37.000 --> 02:17:42.000
+Llevar a la nave madre y, por lo tanto, ¿cuál va a ser nuestra.
+
+02:17:42.000 --> 02:17:52.000
+Variable de el output que vamos a medir y que vamos a usar para el análisis. Si esto es el tiempo que se demoran en recolectar todas las rocas.
+
+02:17:52.000 --> 02:17:59.000
+Que en el caso de esto lo hice. Se lo puse en inglés porque una conferencia puedo hacer todo el number of Tics.
+
+02:17:59.000 --> 02:18:08.000
+Since Start of Simulation. Aquí se cobra las condiciones 5 veces. Ahí es donde les voy a pedir que cada 1. Yo lo voy a hacer aquí.
+
+02:18:08.000 --> 02:18:15.000
+Ya una vez que varios más lo hagan. Para en el fondo, como esto es probabilístico tener.
+
+02:18:15.000 --> 02:18:22.000
+Cierto, una promedio más representativo. Entonces aquí.
+
+02:18:22.000 --> 02:18:28.000
+Me. Voy. Para acá. Este se va.
+
+02:18:28.000 --> 02:18:38.000
+Aquí tengo esto. Voy a partir con las condiciones ¿cierto? La primera buena que circular entre estos ojos, porque no me acuerdo de memoria.
+
+02:18:38.000 --> 02:18:42.000
+Era. Covid, Agents of.
+
+02:18:42.000 --> 02:18:49.000
+Y llevar muestras 1. Entonces aquí, fíjense. Pongo llevar muestras 1.
+
+02:18:49.000 --> 02:18:57.000
+Cooperative agents of. Setup, go sin.
+
+02:18:57.000 --> 02:19:01.000
+No están dejando huellas, porque ciertos son no cooperativos.
+
+02:19:01.000 --> 02:19:07.000
+Y lo que puedo hacer acá. Okay.
+
+02:19:07.000 --> 02:19:13.000
+Aumentar la rapidez para. Ya haces las corridas.
+
+02:19:13.000 --> 02:19:20.000
+Más rápido, o sea, aquí se está refrescando el mundo con mucho menos.
+
+02:19:20.000 --> 02:19:26.000
+Frecuencia y, por lo tanto, sendo la ocurría más rápido. De hecho, puedo setear aquí.
+
+02:19:26.000 --> 02:19:31.000
+No y. Va a terminar.
+
+02:19:31.000 --> 02:19:37.000
+Esa es la primera condición. Se está demorando, obviamente, bastante.
+
+02:19:37.000 --> 02:19:40.000
+Yeah.
+
+02:19:40.000 --> 02:19:44.000
+Si no me equivoco, a lo menos en mí, y ahí estamos listos.
+
+02:19:44.000 --> 02:19:48.000
+Y aquí el number of ticks in start of simulation.
+
+02:19:48.000 --> 02:19:54.000
+217 0, 7, 20. Voy a desplegar una pequeña planilla.
+
+02:19:54.000 --> 02:20:02.000
+Para irla llenando, ir haciendo el análisis. Eh? ¿cierto? Cooperative? Y 1.
+
+02:20:02.000 --> 02:20:11.000
+Y eso era. 217 727.
+
+02:20:11.000 --> 02:20:21.000
+217 727. Y ahí es donde les pido, por favor, que alguien más haga el experimento y me dé.
+
+02:20:21.000 --> 02:20:25.000
+Su valor.
+
+02:20:25.000 --> 02:20:31.000
+For the forward.
+
+02:20:31.000 --> 02:20:39.000
+Sería con agentes no cooperativos, o sea o no o los agentes cooperativos.
+
+02:20:39.000 --> 02:20:41.000
+Y ya.
+
+02:20:41.000 --> 02:20:50.000
+Number of rooks Espérate. Y este, que está acá de todo esto lo es igual. Este agente en off y acá.
+
+02:20:50.000 --> 02:20:54.000
+Número de rocas para llevar 1.
+
+02:20:54.000 --> 02:21:03.000
+Put Forward. Y, de nuevo, lo que puede hacer es poner el Slider acuérdate. Lo que yo les vi en este Slider lo ponen faster para hacerla.
+
+02:21:03.000 --> 02:21:11.000
+La, la. La simulación más rápida.
+
+02:21:11.000 --> 02:21:14.000
+Todo esto lo dejas igual como está, o sea.
+
+02:21:14.000 --> 02:21:29.000
+Porque si no, Isabel no va a nada que ver el número obstáculos, 200 el número de rocas por clúster, 10 50 clúster eso lo deja igual. Solamente vamos a manipular el Cooperative Agency, el number of.
+
+02:21:29.000 --> 02:21:31.000
+Rocks, to carry explorer.
+
+02:21:31.000 --> 02:21:38.000
+Que en este caso es off, y 1 para esta condición lo hacen y me dan, por favor, el valor.
+
+02:21:38.000 --> 02:21:52.000
+A lo menos necesitamos 2 para tener una relación standard. También poder.
+
+02:21:52.000 --> 02:21:55.000
+Do you know no me? Interesa.
+
+02:21:55.000 --> 02:22:01.000
+Sí, el número de Ticks. Por favor. 100, 3 000.
+
+02:22:01.000 --> 02:22:09.000
+390. Listo, a lo menos ahí tenemos. Tenemos 2 muestras. Si alguien más me puede dar una más.
+
+02:22:09.000 --> 02:22:17.000
+Panel. A lo menos 3 valores. Con esas condiciones.
+
+02:22:17.000 --> 02:22:23.000
+Fíjate que lo hizo en la mitad del tiempo que me lo hizo a mí.
+
+02:22:23.000 --> 02:22:30.000
+It no cooperativo ¿cierto? Y número de rocas que puede llevar el explorador. Una.
+
+02:22:30.000 --> 02:22:37.000
+Ya. 100, 10 359.
+
+02:22:37.000 --> 02:22:40.000
+Yeah.
+
+02:22:40.000 --> 02:22:46.000
+Listo. Ya ahí teníamos. Vámonos a la siguiente condición.
+
+02:22:46.000 --> 02:22:52.000
+Seguimos no cooperadores, pero vamos a aumentar a 10. Acá el Slider.
+
+02:22:52.000 --> 02:22:57.000
+Número de rocas que llevan. Entonces voy a hacer setup.
+
+02:22:57.000 --> 02:23:04.000
+Go, seem.
+
+02:23:04.000 --> 02:23:09.000
+Debería ser bastante más. Rápido.
+
+02:23:09.000 --> 02:23:15.000
+Lo interesante. Esto. Listo a mí me dio.
+
+02:23:15.000 --> 02:23:19.000
+C, 77 000. Cero. 83.
+
+02:23:19.000 --> 02:23:27.000
+Entonces voy a poner aquí 77, 83. Les pido cierto que usted.
+
+02:23:27.000 --> 02:23:36.000
+Me den algunos valores más para. Igonarse en este caso es: seguimos con Covid agents off.
+
+02:23:36.000 --> 02:23:45.000
+Ya. Pero aquí el número de rocas. De llevar en el explorador 10.
+
+02:23:45.000 --> 02:23:51.000
+Seguro que dejaste el Cooperative Agents.
+
+02:23:51.000 --> 02:23:57.000
+Yeah. Diez, 1 000. 374.
+
+02:23:57.000 --> 02:24:02.000
+Tu computador es más rápido que el mío. Y sabes, tú agentes son mejores.
+
+02:24:02.000 --> 02:24:04.000
+100, 40.
+
+02:24:04.000 --> 02:24:11.000
+Perdón. 100, 40 200. Evidentemente, que hay cosas cierto aquí que son.
+
+02:24:11.000 --> 02:24:21.000
+Aleatoria. Y si me dan un valor más. Para tener cierto en los 2 4 valores: viajes.
+
+02:24:21.000 --> 02:24:26.000
+Diecisiete, 1 006.
+
+02:24:26.000 --> 02:24:35.000
+Yo lo corrí varias veces en todo. Sí, eso lo Isabel. Te te fijaste bien en que todo el resto esté bien.
+
+02:24:35.000 --> 02:24:43.000
+Yeah, Well Set Up, espero que la conclusión es igual. Se mantenga. Vayámonos ahora agentes cooperativos.
+
+02:24:43.000 --> 02:24:46.000
+Y, por lo tanto, ya que tenemos esto en 10.
+
+02:24:46.000 --> 02:24:55.000
+Hagamos cooperativos. Diez, o sea, el Slider de acá. Lo ponemos en On, Ok setup.
+
+02:24:55.000 --> 02:24:57.000
+Y.
+
+02:24:57.000 --> 02:25:04.000
+Go, SIM.
+
+02:25:04.000 --> 02:25:11.000
+Listo, y a mí me da 27 303. La corrida.
+
+02:25:11.000 --> 02:25:19.000
+27 303. Y espero haber lo que les da a ustedes.
+
+02:25:19.000 --> 02:25:29.000
+Cooperativo, 10 cooperativo, Díaz. Diez, 1 908, 10 908.
+
+02:25:29.000 --> 02:25:37.000
+Catorce 1 311 1 311 1 000. Noemí. Cuatro, 93.
+
+02:25:37.000 --> 02:25:44.000
+93, y entonces vayámonos a. La última en número de rocas.
+
+02:25:44.000 --> 02:26:00.000
+101, y nuevamente cooperativos en on. Voy a hacerlo yo para tener un.
+
+02:26:00.000 --> 02:26:04.000
+It's
+
+02:26:04.000 --> 02:26:20.000
+Y después nos vamos a las conclusiones, que es lo que me interesa.
+
+02:26:20.000 --> 02:26:26.000
+Déjame ponerlo. Acá. Cuánto Isabel? Trece 1 000.
+
+02:26:26.000 --> 02:26:38.000
+179. El mío ya aérea está listo. Chuta, 100, 49, 800, 7, o sea, hay una gran variabilidad.
+
+02:26:38.000 --> 02:26:43.000
+Pero está bien. Déjame ver 149, 800, 7. Lo tengo bien.
+
+02:26:43.000 --> 02:26:46.000
+Yeah.
+
+02:26:46.000 --> 02:26:51.000
+Inmediatamente. Déjame poner. 100, 49.
+
+02:26:51.000 --> 02:26:58.000
+800? Siete. ¿sí? Cuánto? Nueve, 1 500.
+
+02:26:58.000 --> 02:27:06.000
+96 y. Ocho 1 100.
+
+02:27:06.000 --> 02:27:10.000
+Yeah, menos mal que se dio igual. El resultado como para que se vea.
+
+02:27:10.000 --> 02:27:18.000
+Ya aquí tengo. A veces se llama extremo. No importa, les cuento. Aquí están los promedios.
+
+02:27:18.000 --> 02:27:23.000
+Ya fíjense que hay una gran variabilidad. La desviación estándar es bastante grande.
+
+02:27:23.000 --> 02:27:29.000
+Lo que significa, ya de que, efectivamente, algo está pasando.
+
+02:27:29.000 --> 02:27:35.000
+Les voy a mostrar este gráfico. Por favor, estoy ahora en la.
+
+02:27:35.000 --> 02:27:40.000
+Estoy para los que están en línea. Estoy en la.
+
+02:27:40.000 --> 02:27:45.000
+En el telón de la sala. Así que les pido paciencia.
+
+02:27:45.000 --> 02:27:53.000
+Seguirme. En el eje X, tenemos cooperativo y no cooperativo, Ok, que son 2 condiciones.
+
+02:27:53.000 --> 02:27:58.000
+Ya, y la línea azul es. Capacidad de llevar rocas.
+
+02:27:58.000 --> 02:28:06.000
+Uno, ya. La línea naranja es capacidad de llevar rocas igual a.
+
+02:28:06.000 --> 02:28:16.000
+Diez y en el eje, y tenemos. El tiempo ya simulado, que son cantidad de.
+
+02:28:16.000 --> 02:28:24.000
+Ticks y, por lo tanto. ¿cuál es la cosa aquí? Rara.
+
+02:28:24.000 --> 02:28:29.000
+Fíjense que cuando los agentes. Son cooperativos.
+
+02:28:29.000 --> 02:28:34.000
+La diferencia. Entre que hace llevar.
+
+02:28:34.000 --> 02:28:41.000
+Una roca o 10 rocas es bastante pequeña, o dicho de otra forma, cuando la capacidad de llevar.
+
+02:28:41.000 --> 02:28:45.000
+Ya, eh? Rocas. Si ustedes se fijan, acá.
+
+02:28:45.000 --> 02:28:53.000
+¿cierto? Es 1. Ya efectivamente el tiempo en que se alarga.
+
+02:28:53.000 --> 02:29:01.000
+La recolección entre cooperativos y no cooperativos. Es mayor que cuando la capacidad es igual a.
+
+02:29:01.000 --> 02:29:13.000
+Diez, o dicho de otra forma, ya. Las condiciones de cooperación y no cooperación, y las condiciones de capacidad de llevar roca están interactuando.
+
+02:29:13.000 --> 02:29:19.000
+Si nos vamos. Y ahora sí, me voy. Para que los que estén en línea lo vean.
+
+02:29:19.000 --> 02:29:24.000
+Espero que puedan ver ya mi cursor. Fíjense que.
+
+02:29:24.000 --> 02:29:32.000
+Esta pendiente. Es mucho más grande que la pendiente que.
+
+02:29:32.000 --> 02:29:39.000
+Acá, lo que significa. Ya de que cuando llevamos pocas rocas.
+
+02:29:39.000 --> 02:29:47.000
+La capacidad de cooperar o no. Es mucho más importante que cuando llevamos muchas rocas.
+
+02:29:47.000 --> 02:29:54.000
+De hecho, de hecho, si sacáramos esta diferencia, acá por la variabilidad que hay.
+
+02:29:54.000 --> 02:29:58.000
+Bajo cooperativo. Tener una capacidad.
+
+02:29:58.000 --> 02:30:06.000
+De una o 10 rocas que llevar. Esta diferencia no es estadísticamente significativa.
+
+02:30:06.000 --> 02:30:11.000
+En cambio, bajo no cooperación. Llevar una roca.
+
+02:30:11.000 --> 02:30:17.000
+O 10 rocas. Da una diferencia mucho más.
+
+02:30:17.000 --> 02:30:23.000
+Grande. Es decir, que lo que nos están diciendo esto.
+
+02:30:23.000 --> 02:30:31.000
+Que ser cooperador o no cooperador es súper importante cuando la capacidad de llevar roca es pequeña, en este caso una roca.
+
+02:30:31.000 --> 02:30:37.000
+Y cuando la capacidad de llevar rocas. Es, en el fondo.
+
+02:30:37.000 --> 02:30:44.000
+Mayor, entonces, efectivamente. Ok, aquí. Esta diferencia.
+
+02:30:44.000 --> 02:30:51.000
+Se hace más. Grande. Y la pregunta es: ¿Por qué se da eso.
+
+02:30:51.000 --> 02:31:00.000
+Por qué cooperar o no cooperar. La importancia que tiene reflejado en el tiempo de simulación para hacer la tarea.
+
+02:31:00.000 --> 02:31:03.000
+Ya es más importante, con una capacidad de rosca.
+
+02:31:03.000 --> 02:31:11.000
+Chica que con una capacidad de rocas grande.
+
+02:31:11.000 --> 02:31:15.000
+O sea, no siempre está. Si ustedes se fijan, acá.
+
+02:31:15.000 --> 02:31:20.000
+Vuelvo de otra forma. Siempre esta barra de capacidad. Diez.
+
+02:31:20.000 --> 02:31:34.000
+Está abajo de esta que está aquí. O sea, no están diciendo Oye, sean cooperadores o no cooperadores igual. Esta condición de llevar 10 rocas es importante, de acuerdo y lo otro que no está diciendo cierto en cooperador.
+
+02:31:34.000 --> 02:31:43.000
+Ya es mejor que no cooperador. Pero esa pendiente, esa diferencia entre cooperador y no cooperador, es menor.
+
+02:31:43.000 --> 02:31:54.000
+Que cuando la capacidad de roca es menor. ¿por qué?
+
+02:31:54.000 --> 02:31:59.000
+Ya perfecto. Isaac: Perdón, porque me río. No me estoy riendo de ti. Sabes.
+
+02:31:59.000 --> 02:32:07.000
+Me estoy riendo porque él está hecho un tando que hace la primera. Entonces no me dejáis lucirme así. No haga nada. No es por eso.
+
+02:32:07.000 --> 02:32:16.000
+No sí va por ahí, ¿cierto? Va por la cantidad de movimientos que tengo que hacer. Y lo que entonces, ¿qué significa a ver.
+
+02:32:16.000 --> 02:32:25.000
+Donde hacemos más movimiento en general. In cooperador o no cooperador.
+
+02:32:25.000 --> 02:32:31.000
+Probablemente no cooperador, ¿cierto? Porque porque estoy en cooperador. Estoy dejando huella.
+
+02:32:31.000 --> 02:32:42.000
+Ya de acuerdo con eso. Y entonces, ¿por qué aquí esta diferencia con capacidad? Uno ya el tiempo sube mucho más.
+
+02:32:42.000 --> 02:32:50.000
+Que, con capacidad, 10 entre no cooperador y cooperador entre cooperador y no cooperador.
+
+02:32:50.000 --> 02:32:53.000
+Va por lo que ustedes dice, porque hay mucho más.
+
+02:32:53.000 --> 02:32:59.000
+Movimientos. Pero, además, ¿por qué interactúa con esa capacidad? Fíjense en una.
+
+02:32:59.000 --> 02:33:04.000
+Yo puedo llevar una roca, y en el otro puedo llevar 10 rock.
+
+02:33:04.000 --> 02:33:13.000
+Enrique. Eso es lo que me parece más interesante que al llevar una roca en cooperador, es más eficiente que llevando 10 rocas en un cooperador.
+
+02:33:13.000 --> 02:33:20.000
+Y claro, es porque, como dejas el camino, entonces, como que lo otro es aleatoriamente llegar a donde están las rocas.
+
+02:33:20.000 --> 02:33:25.000
+Aunque lleves de a 10 en el otro, construir el camino para llegar a donde está.
+
+02:33:25.000 --> 02:33:30.000
+Todas las rocas. Entonces tienes que recorrer menos caminos para llegar de nuevo.
+
+02:33:30.000 --> 02:33:35.000
+Ah, como la fuente. Si que te entendí bien, y por ahí va la cosa.
+
+02:33:35.000 --> 02:33:40.000
+¿qué es lo que pasa? Pasa lo siguiente: si yo puedo llevar.
+
+02:33:40.000 --> 02:33:48.000
+Ya una roca a la vez. Lo que decía Isabel, voy a tener que ir muchas veces.
+
+02:33:48.000 --> 02:34:01.000
+Al clúster para ir tomando la roca y llevarla a la nave madre. Por lo tanto.
+
+02:34:01.000 --> 02:34:14.000
+En cambio, puedo llevar. De Javier Roca. Llegar y poder llegar más fácilmente al cluster no es tan importante porque puedo llevar de 10 rocas. Entonces la cantidad de viajes.
+
+02:34:14.000 --> 02:34:20.000
+Disminuye. Claro. Pero lo interesante es que en el no cooperador de 10 rocas.
+
+02:34:20.000 --> 02:34:23.000
+Igual es más lento que el cooperador de una.
+
+02:34:23.000 --> 02:34:29.000
+Dónde, o sea, el el punto de allí arriba, ese versus el azul.
+
+02:34:29.000 --> 02:34:34.000
+No. Este es más largo que este acuérdate de que aquí no no me refiero.
+
+02:34:34.000 --> 02:34:41.000
+Al de una pero cooperador ahí. Ese es más, ese es más rápido que el no cooperador de 10.
+
+02:34:41.000 --> 02:34:52.000
+Ah, claro, exacto, claro que sí. Y lo cual es lógico, no porque este es mejor cierto. O sea, que estamos diciendo acá fíjense la condición de cooperador.
+
+02:34:52.000 --> 02:34:57.000
+Siempre es mejor que la no cooperadora, incluso cuando llevas bien esta diferencia.
+
+02:34:57.000 --> 02:35:02.000
+Esta diferencia, de hecho no estadísticamente significativa. Y sí, esto, o sea.
+
+02:35:02.000 --> 02:35:12.000
+Ser cooperador o no cooperador. Es. Cierto más importante, cuando la capacidad de roca es chiquitita, que es grande por lo que decíamos, claro, pero el tema es que, además.
+
+02:35:12.000 --> 02:35:17.000
+Siendo cooperador, llevando una es mejor que ser no cooperador, llevando 10.
+
+02:35:17.000 --> 02:35:23.000
+Ser cooperador llevando una es mejor que no cooperador, llevando días.
+
+02:35:23.000 --> 02:35:29.000
+No cooperador, llevando llevando días así, claro, la roja.
+
+02:35:29.000 --> 02:35:34.000
+No cooperado, llevando 10 exacto. Eh? En este caso se da así.
+
+02:35:34.000 --> 02:35:40.000
+Sí, la verdad es que muchas veces no se da eso. Pero aquí tiene toda la razón que además.
+
+02:35:40.000 --> 02:35:47.000
+Sea eso que está acá. Entonces fíjense que aquí es una. Es una nuevamente una.
+
+02:35:47.000 --> 02:35:54.000
+Decisión de diseño más o menos importante. ¿por qué? Porque, lógicamente, que complejizo esto y necesito.
+
+02:35:54.000 --> 02:36:01.000
+Un mejor diseño, etcétera, para entre no cooperador y cooperador. Pero también yo podría decir.
+
+02:36:01.000 --> 02:36:06.000
+De que si al. Robot no le doy tanta inteligencia.
+
+02:36:06.000 --> 02:36:14.000
+Pero le doy una mayor capacidad de carga a lo mejor. Eso tiene que ver con mejores motores para trasladarse, etcétera.
+
+02:36:14.000 --> 02:36:22.000
+Ya puede que me concentre en la capacidad, y eso no está muy concentra en cooperador y no.
+
+02:36:22.000 --> 02:36:27.000
+Ok. Y, por lo tanto, tengo que tomar esas decisiones de diseño.
+
+02:36:27.000 --> 02:36:34.000
+¿por qué les cuento esto, que está acá. Porque nuevamente cierto, si 1 lo piensa.
+
+02:36:34.000 --> 02:36:39.000
+Súper bien cuando está diseñando esto, ya podría sacar estas conclusiones.
+
+02:36:39.000 --> 02:36:48.000
+Pero la verdad es que no es fácil sacarlas de buenas. A primera, como les digo, excepto que ustedes sean una mente brillante aquí allá y, etcétera.
+
+02:36:48.000 --> 02:36:51.000
+Por lo tanto, para todo el resto de los mortales.
+
+02:36:51.000 --> 02:36:57.000
+¿qué tenemos que hacer, hacer el sistema, simular, tomar datos, analizar, etcétera.
+
+02:36:57.000 --> 02:37:03.000
+Y por eso que mi máxima es Simulen Simulen simulen simulen.
+
+02:37:03.000 --> 02:37:09.000
+Y sigan simulando porque van a obtener. Normalmente condiciones.
+
+02:37:09.000 --> 02:37:21.000
+O van a obtener resultados sorprendentes, súper importante. Así que eso es lo que les quería mostrar de buenas a primera con esto, que está.
+
+02:37:21.000 --> 02:37:31.000
+Que está acá. Déjenme ver 19 55. Nos quedan 5 min.
+
+02:37:31.000 --> 02:37:40.000
+Así que hagamos uso. De el tiempo, acá.
+
+02:37:40.000 --> 02:37:45.000
+Esas eran las conclusiones que teníamos. Aquí. Bien.
+
+02:37:45.000 --> 02:37:51.000
+Última arquitectura. Que la verdad, que la podemos pasar bastante rápidamente.
+
+02:37:51.000 --> 02:37:57.000
+Ya. Eh? ¿por qué la arquitectura híbrida que nuevamente yo les contase toda la ley del péndulo.
+
+02:37:57.000 --> 02:38:08.000
+Tenemos arquitectura. Sistemas de agentes inteligentes que piensan aquella, etcétera. Oye no. Esta cuestión tiene una serie de problemas con tiempos computacionales con.
+
+02:38:08.000 --> 02:38:16.000
+Se toda la complejidad, los algoritmos, etcétera. Vayámonos entonces a sistemas reactivos que hacen cosas súper encachadas.
+
+02:38:16.000 --> 02:38:24.000
+Bastante más sencilla, etcétera. Y finalmente llegamos a la conclusión que sabes que más, como dice ahí.
+
+02:38:24.000 --> 02:38:37.000
+Muchas veces un enfoque completamente deliberativo. Estábamos hablando de la arquitectura, vedi, etcétera, o reactivos inadecuados para construir agentes. Y entonces me.
+
+02:38:37.000 --> 02:38:42.000
+Los 2 enfoques en una arquitectura híbrida y, por lo tanto.
+
+02:38:42.000 --> 02:38:51.000
+Desde un punto de vista como teórico, es súper fácil. Simplemente tenemos un componente deliberativo. Por ejemplo, Edi.
+
+02:38:51.000 --> 02:38:57.000
+Y lo mezclamos con un comportamiento perdón con una arquitectura reactiva que no use.
+
+02:38:57.000 --> 02:39:09.000
+Un razonamiento complejo y ustedes comprenderán que normalmente. Por lo tanto, el componente reactivo tiene que lidiar con cosas rápidas.
+
+02:39:09.000 --> 02:39:16.000
+Ya que tienen que ser ejecutadas muy rápidamente y que no tengo tiempo para planificar y darle vuelta.
+
+02:39:16.000 --> 02:39:22.000
+Ya y, por lo tanto, le damos algún tipo de precedencia.
+
+02:39:22.000 --> 02:39:29.000
+Sobre el componente reactivo. Cuando empezamos a oler de los tipos de arquitectura, les hablé esto. El ejemplo clásico. Si yo tengo un vehículo.
+
+02:39:29.000 --> 02:39:40.000
+Ya con navegación autónoma. Simplemente planificad la ruta, a ver qué rutas están saturadas y no elegir la mejor ruta a lo Ways.
+
+02:39:40.000 --> 02:39:45.000
+Eso probablemente lo podemos hacer con una arquitectura más pensante, deliberativa.
+
+02:39:45.000 --> 02:39:56.000
+Y cuando yo voy en una ruta y se me cruza por delante un peatón. Y tengo que frenar eso. Cierto, tendría un componente reactivo por.
+
+02:39:56.000 --> 02:40:06.000
+Las razones que le les acabo de decir. Ahora dentro de la arquitectura híbria. Y con esto.
+
+02:40:06.000 --> 02:40:14.000
+Nos vamos en un ratito más. Al segundo recreo. También aquí incluyo los agentes generativos.
+
+02:40:14.000 --> 02:40:22.000
+Esto, por favor, es decisión mía de incluirlos acá, o sea, hay debate, o sea, no les puedo decir yo, de que.
+
+02:40:22.000 --> 02:40:29.000
+Cualquier investigador de esta área y ya no un agente generativo. Es un agente.
+
+02:40:29.000 --> 02:40:37.000
+Ya lo tengo clasificada. Acá por los motivos que les voy a.
+
+02:40:37.000 --> 02:40:41.000
+That? Ah, pero no es algo que. Sea así. Bien.
+
+02:40:41.000 --> 02:40:50.000
+¿en qué baso esto más que nada en el trabajo de estas personas? Un trabajo bastante reciente en Stanford y Google.
+
+02:40:50.000 --> 02:40:55.000
+Ya de finales del 2 023, y han habido ya algunos avances.
+
+02:40:55.000 --> 02:41:02.000
+Me voy a basar más que nada en el paper de ellos, porque creo que un paper suficientemente.
+
+02:41:02.000 --> 02:41:09.000
+Explícito y que se entiende. Les cuento aquí tengo la arquitectura.
+
+02:41:09.000 --> 02:41:16.000
+Qué les voy a pedir que una vez que se la explique, creo que es obvia, pero igual, déjenme darme el gusto de explicarles.
+
+02:41:16.000 --> 02:41:21.000
+Les voy a pedir que me digan a qué tipo de la arquitecturas que vimos anteriormente.
+
+02:41:21.000 --> 02:41:25.000
+Se parece. Les cuento. Tengo un mecanismo de.
+
+02:41:25.000 --> 02:41:34.000
+Percepción. El mecanismo de percepción hace entrar a lo que aquí denominan un Memory Stream, un memory string o una memoria, una base de datos que va.
+
+02:41:34.000 --> 02:41:40.000
+Ya guardando estas percepciones. De ahí algunas de estas.
+
+02:41:40.000 --> 02:41:45.000
+Memory Stream. Algunos conjuntos está basado con percepciones, acciones, etc.
+
+02:41:45.000 --> 02:41:54.000
+Ya las voy a sacar. Van a ver. Por lo tanto, Memorias Ok, que yo saco esta base de datos.
+
+02:41:54.000 --> 02:41:59.000
+Y en base a esta hago 2 cosas: planifico.
+
+02:41:59.000 --> 02:42:06.000
+Con lo cual el plan es parte. Este nuevo sistema. Estoy mezclando todo acá y me realimenta en un loop.
+
+02:42:06.000 --> 02:42:16.000
+Y, por otro lado, tengo reflexión, o sea, con las memorias que tengo en mi casa, puedo reflexionar respecto al estado del mundo, etcétera. Eso realimenta el Memory Stream.
+
+02:42:16.000 --> 02:42:21.000
+Y esto es un bucle. Y finalmente, el memory string.
+
+02:42:21.000 --> 02:42:28.000
+Defío, algo que. Tengo que hacer. Nos tenemos que ir al próximo recreo, pero antes de eso.
+
+02:42:28.000 --> 02:42:35.000
+Ya pregunta: Si Uds. Ven eso así. No poniéndole tan nombre específico, etcétera.
+
+02:42:35.000 --> 02:42:42.000
+Qué tipo de arquitectura ustedes dirían que es. Perdón!
+
+02:42:42.000 --> 02:42:45.000
+Good.
+
+02:42:45.000 --> 02:42:53.000
+Yo ya he dicho: cresta. Sí, ya bueno. Les cuento qué es lo que yo vería? Acá.
+
+02:42:53.000 --> 02:42:59.000
+Que efectivamente reflexiono, percibo planifico y, por lo tanto, todo esto.
+
+02:42:59.000 --> 02:43:03.000
+Tiene un sabor A B d I, pero, por otro lado.
+
+02:43:03.000 --> 02:43:10.000
+Este loop acá. Saco algunas cosas. Cierto reflexiono.
+
+02:43:10.000 --> 02:43:14.000
+Tiro para allá tiene también un poquitito de sabor reactivo.
+
+02:43:14.000 --> 02:43:20.000
+Okay. Y claro. Si es que esta parte de aquí es súper rápida.
+
+02:43:20.000 --> 02:43:27.000
+Y, efectivamente, gatilla regla súper sencilla. Probablemente es como percepción.
+
+02:43:27.000 --> 02:43:29.000
+Me entienden. If, then.
+
+02:43:29.000 --> 02:43:33.000
+Y actúo. Y es por eso que esta es.
+
+02:43:33.000 --> 02:43:43.000
+Según yo humildemente hablando, una arquitectura híbrida. ¿qué vamos a hacer a vuelta del recreo? Porque ya me pasé como un minuto y tanto.
+
+02:43:43.000 --> 02:43:48.000
+Voy a ir desmenuzando y mostrándole cada una de estas cosas.
+
+02:43:48.000 --> 02:43:51.000
+Ok. ¿y cómo se implementan, etcétera.
+
+02:43:51.000 --> 02:43:56.000
+It's it. Y con eso terminaríamos por fin las.
+
+02:43:56.000 --> 02:44:04.000
+Arquitectura, no a lo mejor, si es que. Me da el tiempo. Les muestro una arquitectura híbrida. Bdi con reactiva.
+
+02:44:04.000 --> 02:44:09.000
+Es una aplicación no muy encachada. Pero también podríamos ver algo de esto.
+
+02:44:09.000 --> 02:44:16.000
+Bien, si no me equivoco. Son las 19 50 y.
+
+02:44:16.000 --> 02:44:22.000
+Siete. Volvemos, por favor, en 15 min más lo mismo. Por favor, para los que están.
+
+02:44:22.000 --> 02:44:28.000
+En línea listo para que descansemos un. Ratito.
+
+02:44:28.000 --> 02:44:31.000
+Voy a pausar la grabación.
+
+02:44:31.000 --> 02:45:01.000
+Yeah, y nos vemos entonces en 15 min más. Voy a apagar el micrófono.
+
+02:51:15.000 --> 02:51:22.000
+Espero cierto poder a lo menos ver la idea de agente generativo.
+
+02:51:22.000 --> 02:51:28.000
+Ya lo voy a hacer a través nuevamente, más o menos informalmente.
+
+02:51:28.000 --> 02:51:38.000
+Mostrándoles ideas de esto, que está acá. No voy a mostrar este demo de simulación, porque porque un demo muy lento.
+
+02:51:38.000 --> 02:51:44.000
+Ya hay que estar a lo menos media hora y verlo súper bien. Para entenderlo.
+
+02:51:44.000 --> 02:51:50.000
+Se los dejo como inquietud, pero ya les digo que un demo largo no es un demo.
+
+02:51:50.000 --> 02:51:56.000
+Cierto que sea fácil de ver. Hay que ir haciendo muchas cosas, pero los que tengan tiempo algún día.
+
+02:51:56.000 --> 02:52:01.000
+Se los recomiendo es bien interesante. Así que no voy a meter mucho en eso, pero les dejo.
+
+02:52:01.000 --> 02:52:06.000
+El link para los que quieran. Velo.
+
+02:52:06.000 --> 02:52:11.000
+Bien, eh, ¿cuál es la idea? Entonces vayamos viendo el famoso.
+
+02:52:11.000 --> 02:52:13.000
+Memory, stream or memoria.
+
+02:52:13.000 --> 02:52:19.000
+Podríamos caracterizarlo como que es una base de datos de entre comillas. Las experiencias.
+
+02:52:19.000 --> 02:52:30.000
+Del agente. Y esa experiencia. Las podemos encarnar en varias unas de varias cosas. Primero, el elemento más básico que son.
+
+02:52:30.000 --> 02:52:38.000
+Observaciones. Cierto cosas que directamente yo puedo percibir. Y punto. Y aquí puse.
+
+02:52:38.000 --> 02:52:51.000
+Para los que me dijeron la arquitectura Bdi y yo arrisqué la nariz, y ahora tengo que morderme la lengua. Se me había olvidado que había puesto esto. Esto es una última modificación. Efectivamente, podríamos hablar de perfecto.
+
+02:52:51.000 --> 02:53:01.000
+Después tenemos las reflexiones, pensamiento de más alto nivel, más abstracto. Cierto que las observaciones, y aquí entonces les puse.
+
+02:53:01.000 --> 02:53:08.000
+Las creencias que se o María está cocinando. María María podría necesitar abastecer su refrigerador ojo.
+
+02:53:08.000 --> 02:53:17.000
+Estos ejemplos, los saqué. Ya de el demo que ustedes pueden ver y del Pp correspondiente.
+
+02:53:17.000 --> 02:53:22.000
+O sea, aquí. La idea es que yo voy más allá de la observación.
+
+02:53:22.000 --> 02:53:27.000
+Directa, es decir, el ejemplo que tengo acá típico.
+
+02:53:27.000 --> 02:53:34.000
+Me acuerdo que esto me lo enseñó, un profe que era: estudiaba lenguaje, etcétera, ya que tú vienes.
+
+02:53:34.000 --> 02:53:40.000
+Llegas al trabajo. Y alguien te pregunto, Oye, ¿llegó Juanito.
+
+02:53:40.000 --> 02:53:46.000
+Y tu respuesta es: ¿No he visto a Volkswagen escarabajo amarillo en el estacionamiento.
+
+02:53:46.000 --> 02:53:51.000
+Se dan cuenta y, por lo tanto, aquí está implícito que yo sé, y él sabe.
+
+02:53:51.000 --> 02:54:00.000
+Que Juanito llega siempre en un escarabajo amarillo. Y como no vi el escarabajo en amarillo en el estacionamiento, probablemente Juanito no llegó y.
+
+02:54:00.000 --> 02:54:09.000
+Y esa es una reflexión. Y aquí es donde está lo que yo les comentaba algunos, dado que yo hago ciencia cognitiva y que todo está en el lenguaje.
+
+02:54:09.000 --> 02:54:12.000
+Ya lo que yo no entendía de que, efectivamente.
+
+02:54:12.000 --> 02:54:20.000
+A veces ya un lenguaje. No tiene que ser 100 por 100.
+
+02:54:20.000 --> 02:54:28.000
+Stated, pero, por decirlo así. Porque el problema es que cuando necesitamos situar al auditor en un contexto y reflexionar.
+
+02:54:28.000 --> 02:54:37.000
+Más abstractamente. Necesitamos un poco de esa. Ambigüedad. Y después están los planes.
+
+02:54:37.000 --> 02:54:50.000
+Cierto lo que la gente va a hacer. Una secuencia de axones futura. Y en este plazo, para esta arquitectura, ellos lo incluyen como primero, un lugar donde debe o puede ejecutarse cada acción.
+
+02:54:50.000 --> 02:54:57.000
+Un tiempo de inicio para el plan ya y una duración, y con eso se tomamos.
+
+02:54:57.000 --> 02:55:03.000
+Planificando. Ahora cada elemento de memoria tiene varias cosas.
+
+02:55:03.000 --> 02:55:15.000
+¿qué son importantes. Primero una marca de tiempo, se tu timestamp. ¿para qué? Para poder saber qué cosas han pasado, que reflexión, observaciones han pasado, cuáles.
+
+02:55:15.000 --> 02:55:27.000
+Vienen después. La actualidad. ¿qué tan recientemente fue accesado el elemento guardado en memoria? ¿cierto? Aquí pongo la palabra que usan ellos en inglés. No es así.
+
+02:55:27.000 --> 02:55:35.000
+Y después viene la importancia y acá. En ese paper. Ellos dan un ejemplo: distingue elementos generales.
+
+02:55:35.000 --> 02:55:42.000
+Entre comillas. Ellos dicen mundano del quehacer normal. A.
+
+02:55:42.000 --> 02:55:56.000
+Aquellos más importantes, y ellos dan un ejemplo como mundanos lavarse los dientes. ¿cierto? Esto están simulando un pueblo a gente que hacen una serie de cosas y volvántate efectivamente, los agentes se despierten de la mañana.
+
+02:55:56.000 --> 02:56:04.000
+Van al baño, se lavan, los dientes se duchan, después, toman desayuno, etcétera. Esas son cosas mundanas.
+
+02:56:04.000 --> 02:56:10.000
+Betsu, cosas más importantes, como ya romper una relación familiar.
+
+02:56:10.000 --> 02:56:17.000
+Y finalmente, relevancia. Y esto ya es bien importante.
+
+02:56:17.000 --> 02:56:24.000
+Como dice ahí, refleja la relación entre el elemento con la situación que vive la gente y sabemos, por lo tanto.
+
+02:56:24.000 --> 02:56:30.000
+Que, dependiendo del contacto de lo que estamos haciendo, hay algunas cosas que son.
+
+02:56:30.000 --> 02:56:38.000
+Más o menos importantes para la situación. Dada. Respecto también a los planes.
+
+02:56:38.000 --> 02:56:42.000
+Es algo que vimos que en vez de y en un bucle también se hace.
+
+02:56:42.000 --> 02:56:52.000
+Los agentes pueden reaccionar. En el sentido de que yo puedo dado el stream, por ejemplo, si chupa ya, y resulta que hoy.
+
+02:56:52.000 --> 02:56:59.000
+Manejando una persona adelante. Y por lo Nato reaccionó y freno. Pero además, pueden replanificar, o sea.
+
+02:56:59.000 --> 02:57:06.000
+Cosas que yo tengo un plan para hacer algo cambia el mundo. De cierta forma.
+
+02:57:06.000 --> 02:57:12.000
+Ya reflexiono respecto a esto y cambio mi plan. Y aquí se acuerdan el famoso ejemplo que yo les daba de llevar.
+
+02:57:12.000 --> 02:57:21.000
+Muy sencillo, ya una mesa de un lugar a otro, en el cual yo puedo decir: Voy a ir y voy a tomar la mesa. La voy a agarrar y la voy a llevar.
+
+02:57:21.000 --> 02:57:32.000
+De un lado de la sala para otro. Y llegó donde la mesa. Veo que está demasiado pesada. No me la puedo y, por lo tanto, tengo que replanificar. Tendría que buscar ayuda, etcétera.
+
+02:57:32.000 --> 02:57:38.000
+Y eso también lo permite. Esta. Arquitectura.
+
+02:57:38.000 --> 02:57:44.000
+Creo que aquí no se ve mucho, pero solamente para mostrarles la idea de un Memory Stream.
+
+02:57:44.000 --> 02:57:54.000
+Cierto está el Timestamp, y está efectivamente el hecho, etcétera, etcétera. O sea, y esto, evidentemente, que es una memoria que tiene.
+
+02:57:54.000 --> 02:58:02.000
+Cada 1 de los agentes. Aquí está lo que yo les contaba. Yo tengo el Memory Stream.
+
+02:58:02.000 --> 02:58:07.000
+Ya tengo, por ejemplo, una pregunta. De qué voy a hacer ahora.
+
+02:58:07.000 --> 02:58:13.000
+Tengo una situación y basada en esa situación. Yo busco en mí.
+
+02:58:13.000 --> 02:58:20.000
+Memory screen y, por lo tanto, a cada una de las cosas que creo que puedo sacar de acá.
+
+02:58:20.000 --> 02:58:25.000
+Les doy cierto? Un valor. De de res en sí.
+
+02:58:25.000 --> 02:58:31.000
+Qué tan hace poco se hizo esto. Ya en una escala de 0 a 1.
+
+02:58:31.000 --> 02:58:37.000
+La importancia que tiene para mi situación. Ya, y la relevancia.
+
+02:58:37.000 --> 02:58:42.000
+Consumo esto y, por lo tanto, ordeno. Por puntaje.
+
+02:58:42.000 --> 02:58:46.000
+Y, por lo tanto, lo que significa que voy a.
+
+02:58:46.000 --> 02:58:52.000
+En el fondo Sacad las cosas que tienen ya mayor puntaje.
+
+02:58:52.000 --> 02:59:00.000
+Para ser sacadas de memoria. Y en base a eso, por ejemplo, lo que saqué aquí, que es lo más importante.
+
+02:59:00.000 --> 02:59:06.000
+Sería esta que dices esto: yo estoy ansioso. Estoy esperando, cierto, a la fiesta de.
+
+02:59:06.000 --> 02:59:15.000
+San Valentín, cierto, y que se está planificando en el café de Jobs, etcétera. Y esto sería cierto.
+
+02:59:15.000 --> 02:59:20.000
+Ya la respuesta a la pregunta de esta gente. Isabela.
+
+02:59:20.000 --> 02:59:26.000
+Y, por lo tanto, como les digo, es bastante parecido a lo que hemos visto.
+
+02:59:26.000 --> 02:59:33.000
+En lo que es B, D, I. Acá. Hay un ejemplo de la famosa observaciones y.
+
+02:59:33.000 --> 02:59:40.000
+Reflexione. La observación. Están puestas ojo, como ustedes pueden ver ahí en color.
+
+02:59:40.000 --> 02:59:46.000
+Azul, ya las reflexiona en este color más naranjo o marrón.
+
+02:59:46.000 --> 02:59:49.000
+Y, por lo tanto, me voy a ir ahora para acá.
+
+02:59:49.000 --> 02:59:55.000
+Pata, tener puntero. Para? Porque creo.
+
+02:59:55.000 --> 03:00:02.000
+Y no perdonen. Es que no me aparece.
+
+03:00:02.000 --> 03:00:07.000
+Aquí está. Déjenme verse que puedo poner el puntero.
+
+03:00:07.000 --> 03:00:14.000
+En acercar qué raro que no me aparezca. Estos problemas, de de sumpo.
+
+03:00:14.000 --> 03:00:18.000
+And no me aparece aquí para cambiar de puntero a láser.
+
+03:00:18.000 --> 03:00:22.000
+Pero bueno, ojalá que los que están en línea vean esto.
+
+03:00:22.000 --> 03:00:32.000
+Por ejemplo, fíjense que aquí hay un plan. Ok, y este plan. Entonces ustedes lo leen. No lo voy a leer, ¿cierto? En este caso, esta persona.
+
+03:00:32.000 --> 03:00:40.000
+Está cierto, tomando notas para un paper de investigación y, etcétera, etcétera.
+
+03:00:40.000 --> 03:00:51.000
+Escribiendo haciendo un proyecto brainstorming de ideas ya. Y eso yo reflexiono respecto a este plan y igual, la persona que lo está haciendo, que esté Klaus.
+
+03:00:51.000 --> 03:01:03.000
+Cierto, Klaus Humila está dedicado a investigación. Después tengo estas otras 2 observaciones. Klaus Miller está leyendo sobre gentrificación.
+
+03:01:03.000 --> 03:01:11.000
+Estados Unidos está leyendo sobre diseño urbano y estas 2. Entonces observaciones me permiten la reflexión de qué.
+
+03:01:11.000 --> 03:01:22.000
+Que Klaus Muller está pasando varias horas. Leyendo y está la junto, por lo tanto, con estas otras observaciones directas.
+
+03:01:22.000 --> 03:01:27.000
+Que Klaus Mugler está haciendo conexiones entre diferentes papers, artículos.
+
+03:01:27.000 --> 03:01:39.000
+La mesa en la biblioteca está siendo usada. Para Eh material de investigación y hacer conexiones entre los artículos.
+
+03:01:39.000 --> 03:01:46.000
+La mesa en la en la biblioteca está usada para.
+
+03:01:46.000 --> 03:01:56.000
+Discutir material. De investigación, etcétera. Y todo esto. Entonces esta observación y esta reflexión, que son parte de la observación que está acá.
+
+03:01:56.000 --> 03:02:01.000
+Me permiten decir que cierto Klaus Mugler está haciendo.
+
+03:02:01.000 --> 03:02:05.000
+O está engage, está.
+
+03:02:05.000 --> 03:02:13.000
+Cool está. Ya está efectuando actividades de investigación. Y, finalmente, la observación es que están acá.
+
+03:02:13.000 --> 03:02:19.000
+Que Klaus Muir está cierto buscando por artículos relevantes con la ayuda de un bibliotecario.
+
+03:02:19.000 --> 03:02:32.000
+Que está haciendo cierto más investigación. Ya para, o está haciendo en el Fondo investigación con un bibliotecario para avanzar su investigación y.
+
+03:02:32.000 --> 03:02:37.000
+Y está discutiendo su investigación con un bibliotecario. Hace que.
+
+03:02:37.000 --> 03:02:41.000
+Nuevamente, igual que acá. Digamos que.
+
+03:02:41.000 --> 03:02:46.000
+Klaus Muir está dedicado a investigación, y dado estas 3 reflexiones.
+
+03:02:46.000 --> 03:02:54.000
+Cierto, yo puedo decir, Ajá, entonces Klaus Muller está altamente dedicado a investigación porque saqué que está dedicado a investigación y que, además.
+
+03:02:54.000 --> 03:03:03.000
+Cierto, está en actividades de investigación y, por lo tanto, este el tipo.
+
+03:03:03.000 --> 03:03:07.000
+Como les decía, de pensamiento, basado en observaciones y.
+
+03:03:07.000 --> 03:03:12.000
+Reflexiones que se hacen en la base de datos en el memory.
+
+03:03:12.000 --> 03:03:21.000
+Stream y. Hay un ejemplo: ya de tipos de planes. Están las horas.
+
+03:03:21.000 --> 03:03:25.000
+Ya están las rutinas. Por ejemplo, aquí la gente se despierta.
+
+03:03:25.000 --> 03:03:31.000
+Se lava, los dientes se toma una ducha, se cocina.
+
+03:03:31.000 --> 03:03:39.000
+Ya. Desayuno después, entonces se pone al día. Cachap: Si esto se pone al día lo que se está haciendo, etcétera.
+
+03:03:39.000 --> 03:03:46.000
+Lo que va a hacer después packing, o sea, toma sus cuestiones, las mete en una mochila y todo, y se va a su.
+
+03:03:46.000 --> 03:03:52.000
+Lugar de trabajo. Y eso sería un ejemplo ya de una acciones y de.
+
+03:03:52.000 --> 03:04:01.000
+Planes. Y, finalmente, lo último bien importante aquí que yo les mencioné es la comunicación entre.
+
+03:04:01.000 --> 03:04:05.000
+Agentes y acá. Se hace de la siguiente.
+
+03:04:05.000 --> 03:04:10.000
+Forma. Primero.
+
+03:04:10.000 --> 03:04:15.000
+Ya. Eh? Lo que vemos es primero, situarnos en el contexto.
+
+03:04:15.000 --> 03:04:21.000
+Y de lo que está haciendo John. En este caso, cierto, John vué, vuelve temprano.
+
+03:04:21.000 --> 03:04:27.000
+Desde su trabajo. Y conectado con eso. Entonces.
+
+03:04:27.000 --> 03:04:34.000
+Y ojo esto lo hacemos a través de L. L. M. Tenemos la observación que al llegar temprano a su casa.
+
+03:04:34.000 --> 03:04:39.000
+John. Eh? Perdón, ve que.
+
+03:04:39.000 --> 03:04:47.000
+Ya vamos a ir después. Kennedy está tomando un pequeño paseo alrededor de su lugar de trabajo.
+
+03:04:47.000 --> 03:04:55.000
+Y el sumario de esto. Entonces lo siguiente. En la base de datos. Sabemos que Eddie Link es.
+
+03:04:55.000 --> 03:05:03.000
+Hijo de John Lean. Que a Eddie está haciendo una composición.
+
+03:05:03.000 --> 03:05:11.000
+Musical para su clase. Y que a Eddie le gusta hacer pequeños paseos en el jardín.
+
+03:05:11.000 --> 03:05:19.000
+Cuando cierto está escuchando o pensando en música. Entonces la pregunta aquí.
+
+03:05:19.000 --> 03:05:26.000
+Para el agente que la gente, lo que tiene que hacer es bueno. ¿y qué le vas a decir a Eddie respecto a su.
+
+03:05:26.000 --> 03:05:33.000
+Proyecto de composición musical, porque porque le quiere decir algo. Y la respuesta es.
+
+03:05:33.000 --> 03:05:39.000
+O la Ey. ¿cómo te está yendo tu composición musical.
+
+03:05:39.000 --> 03:05:44.000
+Para tu clase y, por lo tanto, fíjense que acá efectivamente.
+
+03:05:44.000 --> 03:05:54.000
+Tenemos este diálogo en una contextualización. Yo llego. Veo a mi hijo. Sé que mi hijo tiene que hacer una composición. Sé que le gusta h vuelta.
+
+03:05:54.000 --> 03:06:01.000
+Cuando está pensando en eso. Y entonces, claro, le pregunto: Oye, ¿cómo te está yendo con tu proyecto composición musical.
+
+03:06:01.000 --> 03:06:05.000
+Y esa es la idea de esto. Fíjense que esto.
+
+03:06:05.000 --> 03:06:14.000
+No es muy estructurado. Lo que significa que tiene de nuevo la potencia de una gran expresión comunicativa.
+
+03:06:14.000 --> 03:06:20.000
+Pero a expensas. De generar alguna ambigüedad.
+
+03:06:20.000 --> 03:06:24.000
+Y, por lo tanto, eso es lo que hay que balancear.
+
+03:06:24.000 --> 03:06:28.000
+Y lo que hemos estado haciendo con Sergio en el fondo, o sea.
+
+03:06:28.000 --> 03:06:31.000
+Creamos lo que se llama la teoría del acuerdo conceptual.
+
+03:06:31.000 --> 03:06:38.000
+Que nos permita entender conceptos, manejarlos y la grasa que lo matematizamos.
+
+03:06:38.000 --> 03:06:42.000
+Y tenemos ya una probabilidad de acuerdo, verdadero. Y una probabilidad de acuerdo ilusorio.
+
+03:06:42.000 --> 03:06:46.000
+La probabilidad de acuerdo verdadero es que cuando yo te digo.
+
+03:06:46.000 --> 03:06:55.000
+Un concepto. Y digo un adderas, como se dice en inglés, ya tú puedas entender realmente lo que estoy diciendo y.
+
+03:06:55.000 --> 03:07:00.000
+Y la probabilidad de acuerdo ilusorio es que yo te diga algo. Y tú creas que entendiste.
+
+03:07:00.000 --> 03:07:11.000
+Siendo que no entendiste. Y eso hay que balancearlo. Y nuevamente, cuando partimos con esto, yo decía: no, pues un lenguaje de comunicación tiene que tener una poblaría de acuerdo. Verdadero.
+
+03:07:11.000 --> 03:07:15.000
+Igual a 1 y una probabilidad de acuerdo ilusor igual a 0.
+
+03:07:15.000 --> 03:07:26.000
+He said como discutía que no aquélla. Tendría que explicarles mucho más cómo se calculan esas probabilidades, etcétera, para que se entienda. Pero, créanme, efectivamente.
+
+03:07:26.000 --> 03:07:30.000
+Ya incluso en ciencia hay que tener un poquitito de.
+
+03:07:30.000 --> 03:07:36.000
+Ya probabilidad de acuerdo ilusorio, o sea, algo un poco más de contexto.
+
+03:07:36.000 --> 03:07:47.000
+Eh? Crear? Puede decir así: el aceite. Que nos permite discutir, etcétera, y, por lo tanto, ya eso es un balance bastante fino.
+
+03:07:47.000 --> 03:07:54.000
+Dependiendo, evidentemente, del tipo de área, el tipo de conversación, etc.
+
+03:07:54.000 --> 03:07:58.000
+Y lo bueno que esto lo hemos calculado y lo hemos refrendado en personas.
+
+03:07:58.000 --> 03:08:08.000
+Y haciendo experimentos súper encachados que nos han permitido, como les digo, ganarme ganarnos hartos proyectos aquella en Chile, 1 en Estados Unidos.
+
+03:08:08.000 --> 03:08:13.000
+Y publicar bastante. Así que eso les quería.
+
+03:08:13.000 --> 03:08:19.000
+Contar respecto a esto. Con esto terminamos la arquitectura.
+
+03:08:19.000 --> 03:08:24.000
+Y antes de pasar a sistemas multi agentes. Por favor, me gustaría.
+
+03:08:24.000 --> 03:08:31.000
+Ya si tienen alguna. Duda o consulta de esto.
+
+03:08:31.000 --> 03:08:40.000
+Básicamente decirles que entonces hemos visto arquitecturas. Ya.
+
+03:08:40.000 --> 03:08:43.000
+Razonadora simbólica. Razonadora, práctica.
+
+03:08:43.000 --> 03:08:50.000
+Eso serían agentes razonadores. Después nos fuimos al otro extremo que agente reactivo.
+
+03:08:50.000 --> 03:08:57.000
+Vimos sus ventajas y desventajas, y finalmente volvimos a arquitecturas híbridas.
+
+03:08:57.000 --> 03:09:04.000
+Y como parte de la arquitectura híbrida. Y esto es una decisión mía o una.
+
+03:09:04.000 --> 03:09:11.000
+En el fondo, taxonomía mía. Yo diría que los agentes generativos, Ok, efectivamente, son una arquitectura.
+
+03:09:11.000 --> 03:09:19.000
+Más o menos híbrida o dentro de la clasificación. Yo diría que está más cercana a una iria que a una reactiva.
+
+03:09:19.000 --> 03:09:25.000
+O una totalmente deliberativa. ¿qué vamos a hacer a continuación?
+
+03:09:25.000 --> 03:09:32.000
+Que pasada al próximo estadio, porque aquí no hemos estado fijando un poquitito en.
+
+03:09:32.000 --> 03:09:37.000
+Los agentes. Ok. La idea aquí va a ser. Entonces.
+
+03:09:37.000 --> 03:09:45.000
+Pasar a sistemas multi agentes, y ahí, evidentemente, va a haber interacción entre gente.
+
+03:09:45.000 --> 03:09:49.000
+Más complicadas que las que hemos estado viendo hasta el momento y, por lo tanto, hay una serie.
+
+03:09:49.000 --> 03:09:57.000
+De cosas que interesante. Ver preguntas, por favor, los que están en línea. Sé que ella es medio tarde.
+
+03:09:57.000 --> 03:10:01.000
+Todavía nos queda casi. 55 min.
+
+03:10:01.000 --> 03:10:09.000
+Sino Enrique tiene una pregunta perfecto: una consulta. Los agentes generativos, por ejemplo.
+
+03:10:09.000 --> 03:10:17.000
+Supongamos un call Center. Si un agente es reactivo? Una pregunta le da una respuesta, pero el paciente o la persona o el Call Center le dice.
+
+03:10:17.000 --> 03:10:23.000
+Mira. Me gustaría que me trataras de esta manera o prefiero que me contactes en este momento que en otro.
+
+03:10:23.000 --> 03:10:27.000
+Ahí podría ser generativo y recordar con referencias exacto.
+
+03:10:27.000 --> 03:10:40.000
+Exacto? Sí, sí enrique exactamente así. Sería esto a gente como te digo de nuevo siempre, o sea, lo que hay que tener. Claro que hasta el momento en hasta el momento, el problema que estamos lidiando.
+
+03:10:40.000 --> 03:10:45.000
+Es que mientras los agentes sean más. Entre comillas generales.
+
+03:10:45.000 --> 03:11:02.000
+Más probabilidad haya, como te digo, que se equivoquen, etcétera. Se toca alucinen y otros. De hecho, en este Pp, si tú lo ves, ellos, por ejemplo, prueban y efectivamente haya agentes que alucinan aquí allá, etcétera, etcétera. Nada, por lo tanto, es una tensión.
+
+03:11:02.000 --> 03:11:08.000
+Y nuevamente, una pregunta filosófica. Y a nosotros nos pasa lo mismo.
+
+03:11:08.000 --> 03:11:19.000
+Cachaiio. ¿no? Entonces a lo mejor, si vamos algo más general a algo más generalizado, la mejor vamos a tener que de alguna forma acostumbrarnos a lidiar con eso.
+
+03:11:19.000 --> 03:11:27.000
+Que estoy hablando. Enfermedades mentales. Cierto cosas así, o sea, que nuestro agente efectivamente tengan entre comillas.
+
+03:11:27.000 --> 03:11:36.000
+Ya enfermedades mentales, locuras. Problemas cognitivos, etcétera. Sería lo ideal que no los tuvieran.
+
+03:11:36.000 --> 03:11:41.000
+A mí no me extrañaría que no sé por 50 años más o que ya podamos lidiar con eso, pero.
+
+03:11:41.000 --> 03:11:48.000
+Hasta el momento todavía. Es como es nomás. Ok. No podemos balancear generalidad.
+
+03:11:48.000 --> 03:11:53.000
+Con especificidad, etcétera. Bastante bien, o sea, todavía estamos tratando de hacer.
+
+03:11:53.000 --> 03:12:00.000
+Las 2 cosas. Qué le voy a mostrar.
+
+03:12:00.000 --> 03:12:06.000
+Solamente. Mi caballito de batalla net, logo.
+
+03:12:06.000 --> 03:12:13.000
+Se me había olvidado. Teníamos esto, que está aquí y les voy a mostrar, porque también se lo entregué.
+
+03:12:13.000 --> 03:12:21.000
+¿dónde está el famoso. Ponte los lentes canesa.
+
+03:12:21.000 --> 03:12:38.000
+Taxi, hybrid, tool.
+
+03:12:38.000 --> 03:12:43.000
+Los que están en línea están viendo esto ¿cierto?
+
+03:12:43.000 --> 03:12:45.000
+See? Yeah, it does.
+
+03:12:45.000 --> 03:12:58.000
+Miren, les cuento. Es una cosa súper elemental. O sea, no crean que es una mansa simulación, pero solamente para decirles que esto, claro.
+
+03:12:58.000 --> 03:13:01.000
+Se puede hacer? ¿qué es lo que tenemos? Acá.
+
+03:13:01.000 --> 03:13:07.000
+Tenemos una ciudad muy elemental. En que tenemos esta grilla.
+
+03:13:07.000 --> 03:13:12.000
+Esta grilla que está acá muestra las calles donde se puede transitar.
+
+03:13:12.000 --> 03:13:20.000
+Ok, en los 4. Esquina tiene algunas. En el fondo, lugares donde podemos vivir.
+
+03:13:20.000 --> 03:13:28.000
+Aquí está el supermercado. Aquí está la casa de 1. Aquí está el aeropuerto y.
+
+03:13:28.000 --> 03:13:33.000
+Y aquí está tu oficina. Y, por lo tanto, este taxi, que está aquí un taxi rojo.
+
+03:13:33.000 --> 03:13:50.000
+Que pacte en una posición. Tiene que llegar a algún otro destino, el origen ¿cierto? Y el destino lo puedo elegir. Acá, por ejemplo, aquí elegimos el aeropuerto y el destino es el supermercado. Por eso que aquí tiene esta Diana.
+
+03:13:50.000 --> 03:14:01.000
+De color. Acá. Y, por lo tanto, ¿qué va a hacer el taxi? El taxi dependiendo de las condiciones de tráfico? Fíjese que aquí le pongo 20 0.
+
+03:14:01.000 --> 03:14:09.000
+Cierto autos, ya porque porque aquí, claro, tengo tráfico. O sea, hay un set, un desmadre.
+
+03:14:09.000 --> 03:14:15.000
+De tráfico. Hay tacos. Ya va a tener que elegir la mejor ruta.
+
+03:14:15.000 --> 03:14:22.000
+Ya, y además, él podría reir planificando. Las rutas.
+
+03:14:22.000 --> 03:14:29.000
+Okay. Al irse moviéndose, podría encontrar con tráfico.
+
+03:14:29.000 --> 03:14:33.000
+Y se encuentra con tráfico. Evidentemente que no tiene que chocar. Tiene que.
+
+03:14:33.000 --> 03:14:42.000
+Puede nadie ahora? Sí, esto tiene un solo carril. Aquí ya no le puse la simulación con 2 carrillos y todas estas cuestiones, porque.
+
+03:14:42.000 --> 03:14:48.000
+Como les digo, no sería meterle más. Cosa visual, no más, pero no es para tanto.
+
+03:14:48.000 --> 03:14:55.000
+Voy a terminar esto, que está acá. Aquí está el setup.
+
+03:14:55.000 --> 03:15:01.000
+Me. Voy a. Poned. No me acuerdo si esta simulación es muy rápido o no la voy a poner lenta.
+
+03:15:01.000 --> 03:15:09.000
+Ya, y les voy a. En el fondo. Ahí se va moviendo el taxi.
+
+03:15:09.000 --> 03:15:17.000
+Cierto, se está planificando. Su ruta. Según eso le conviene irse.
+
+03:15:17.000 --> 03:15:23.000
+Por acá. Cada vez que se detiene es porque deja pasar entre comillas.
+
+03:15:23.000 --> 03:15:28.000
+Un auto ahí. Por eso que no puede pasar la intersección está. Mea.
+
+03:15:28.000 --> 03:15:36.000
+The subirse por acá.
+
+03:15:36.000 --> 03:15:42.000
+Después le voy a mostrar cosas más. Y después, ¿cierto? Ahí.
+
+03:15:42.000 --> 03:15:46.000
+Donde nos encontró con el manso taco. No se puede mover.
+
+03:15:46.000 --> 03:15:56.000
+De hecho, a ver. Ahí está tocando la bocina. Cada vez que encuentro un auto toca la bocina, no significa que me tengo que parar dejó de pasar del auto.
+
+03:15:56.000 --> 03:16:01.000
+Y ahí es medio hinchado. Ahora. Así que por eso no la tengo ibilitada. Y ahí.
+
+03:16:01.000 --> 03:16:05.000
+Finalmente. Va a llegar a.
+
+03:16:05.000 --> 03:16:08.000
+Destino, taxi.
+
+03:16:08.000 --> 03:16:18.000
+Destination. ¿qué es lo que. En el fondo, les voy a mostrar acá.
+
+03:16:18.000 --> 03:16:23.000
+Voy a ir um. Déjenme el setup.
+
+03:16:23.000 --> 03:16:32.000
+Se tap taxi. Y aquí entonces está. Lo que me interesa. Fíjense que es una arquitectura híbrida.
+
+03:16:32.000 --> 03:16:35.000
+Pero súper sencilla. ¿qué es lo que hacemos? Acá.
+
+03:16:35.000 --> 03:16:46.000
+Primero tenemos esta regla. Si hay un vehículo delante de nosotros, entonces evite colisión, y después de eso, ejecute intenciones.
+
+03:16:46.000 --> 03:16:53.000
+Y ejecutar intenciones. ¿cierto? Ahí es donde le puse ese nombre genérico. Va a una arquitectura.
+
+03:16:53.000 --> 03:16:56.000
+B d I. Por lo tanto, es lo que.
+
+03:16:56.000 --> 03:17:04.000
+El ejemplo que siempre le ha estado. Dicho esto, yo planifico una ruta, pero cuando voy tomando esa ruta, si me encuentro con obstáculos delante mío.
+
+03:17:04.000 --> 03:17:11.000
+Tengo que evitar esos obstáculos. Lo que les voy a mostrar acá.
+
+03:17:11.000 --> 03:17:23.000
+De nuevo, me demoraría mucho tiempo. En mostrarle ya para que se entienda exactamente, ya lo que es la arquitectura ve de y lo que está haciendo.
+
+03:17:23.000 --> 03:17:29.000
+Más la arquitectura cierto reactiva que esa es bastante más.
+
+03:17:29.000 --> 03:17:37.000
+Sencilla, pero. Se las voy a mostrar muy rápidamente mostrar las intenciones.
+
+03:17:37.000 --> 03:17:42.000
+Y mostrar. ¿cierto?
+
+03:17:42.000 --> 03:17:50.000
+Las creencias. Voy a hacer. Nuevamente setup.
+
+03:17:50.000 --> 03:17:57.000
+Lo que voy a hacer acá es: Voy a cambiar la ruta. Le voy a decir que pacta en la Oficina.
+
+03:17:57.000 --> 03:18:03.000
+En la oficina y que se vaya a la casa.
+
+03:18:03.000 --> 03:18:07.000
+Para que sea una ruta un poco más complicada.
+
+03:18:07.000 --> 03:18:11.000
+Chupa ya ya es que esto tengo que.
+
+03:18:11.000 --> 03:18:15.000
+Yeah, I see.
+
+03:18:15.000 --> 03:18:21.000
+Voy a ponerlo aquí más rápido para que el setup se haga rápido. Setup.
+
+03:18:21.000 --> 03:18:26.000
+¿cierto? Entonces parto aquí el taxi en la casa.
+
+03:18:26.000 --> 03:18:32.000
+Tengo que llegar a mi. Casa, lo que significa de que aquí lo que voy a mostrar ahora.
+
+03:18:32.000 --> 03:18:38.000
+If rivervosamente. Y esa es la lata. Acepto que lo hice demasiado verbosamente. ¿cómo van cambiando.
+
+03:18:38.000 --> 03:18:45.000
+Los billiabs. ¿cierto? Cómo van cambiando las intenciones, etcétera, y, por lo tanto, lo voy a hacer.
+
+03:18:45.000 --> 03:18:51.000
+De una vez. Entonces aca cierto. Por ejemplo.
+
+03:18:51.000 --> 03:18:59.000
+Tengo que tengo un Billeb. Que estoy en el origen, y, efectivamente, el taxi está en el origen.
+
+03:18:59.000 --> 03:19:02.000
+Ya go 11.
+
+03:19:02.000 --> 03:19:08.000
+Y, por lo tanto, aquí agregué las intenciones. La intención es que agregué acá son.
+
+03:19:08.000 --> 03:19:14.000
+Cierto, tengo que calcular una ruta. Ya hasta que el taxi esté en su origen.
+
+03:19:14.000 --> 03:19:19.000
+Y después de calcular la ruta, la siguiente tensión es.
+
+03:19:19.000 --> 03:19:26.000
+Moverme usando esa ruta hasta llegar al destino, lo que significa que, por lo tanto.
+
+03:19:26.000 --> 03:19:33.000
+Ya. Mi belief es que yo voy a calcular esa ruta y que estoy todavía en mi origen, lo cual es verdad.
+
+03:19:33.000 --> 03:19:37.000
+Siguiente paso. Entonces.
+
+03:19:37.000 --> 03:19:43.000
+Estoy siguiendo la ruta. Y si se fijan aquí, entonces la intención es.
+
+03:19:43.000 --> 03:19:49.000
+Seguid la ruta planificada hasta que esté en el destino. Y mi creencia es que estoy.
+
+03:19:49.000 --> 03:19:55.000
+Siguiendo la ruta hasta llegar a mí. Destino. Y entonces.
+
+03:19:55.000 --> 03:20:05.000
+Mantengo esa intención. Si se fijan acá. Ya de que voy siguiendo la ruta hasta llegar a mí.
+
+03:20:05.000 --> 03:20:09.000
+Destino. Y ahora estoy en la intersección.
+
+03:20:09.000 --> 03:20:15.000
+Que está acá, y fíjense que acá. Entonces mi intención ahora.
+
+03:20:15.000 --> 03:20:26.000
+Es calcular la ruta al destino y después seguir esa ruta, o sea, una vez que llegue aquí. Ahora, mi intención es calcular.
+
+03:20:26.000 --> 03:20:34.000
+Una nueva. Mi nuevas creencias son que estoy calculando la ruta y estoy en la intersección.
+
+03:20:34.000 --> 03:20:37.000
+Que está acá. Si yo sigo con esto.
+
+03:20:37.000 --> 03:20:44.000
+Because vuelvo a la intención de seguir la ruta, porque ya esta es la ruta. La nueva ruta que.
+
+03:20:44.000 --> 03:20:50.000
+Calculé y sigo. Ya hacia mi destino que en este caso, seguir.
+
+03:20:50.000 --> 03:20:55.000
+Derecho. Cuando llego aquí.
+
+03:20:55.000 --> 03:21:00.000
+Vuelvo a hacer esto, de que sé que mi bilis, que.
+
+03:21:00.000 --> 03:21:06.000
+Estoy ya en esta intersección y, por lo tanto, voy a recalcular esa ruta.
+
+03:21:06.000 --> 03:21:14.000
+La recalculo. Y una vez que se recalculó, sigo esa nueva ruta, que es en este caso.
+
+03:21:14.000 --> 03:21:19.000
+Ya seguir lo que está. Acá. Llego acá.
+
+03:21:19.000 --> 03:21:26.000
+Nuevamente, como estoy en una intersección. Vuelvo a calcular la ruta y después.
+
+03:21:26.000 --> 03:21:30.000
+Cierto. En este caso elegí la mejor ruta que es hacia acá.
+
+03:21:30.000 --> 03:21:38.000
+Y, por lo tanto. Finalmente, Ping, llegué.
+
+03:21:38.000 --> 03:21:43.000
+Location at destination. O sea, pienso que estoy en mi destino, que es así.
+
+03:21:43.000 --> 03:21:49.000
+Cierto que es estar en la intersección 13 que es las coordenadas.
+
+03:21:49.000 --> 03:21:53.000
+Que indican ya dónde está mi casa. Y con eso se termina.
+
+03:21:53.000 --> 03:22:04.000
+La simulación. Por lo tanto, lo que les mostré aquí verbosamente, como les digo, sería, lo podríamos analizar 1 por 1. No es mi intención.
+
+03:22:04.000 --> 03:22:12.000
+Ya. Ese es mi deseo, pero no lo voy a convertir en una intención es que, efectivamente, aquí me manejo con deseos.
+
+03:22:12.000 --> 03:22:19.000
+Que son, dónde está mi taxi, etcétera, etcétera, con intenciones y lo que está en el background. Además, acá.
+
+03:22:19.000 --> 03:22:29.000
+Como se los mostré. Es esto que está acá, o sea, si me encuentro con un vehículo delante mío, cierto.
+
+03:22:29.000 --> 03:22:38.000
+Paro para evitar la. Para como eso no lo entregó en pantalla. Es por eso cierto que si aquí.
+
+03:22:38.000 --> 03:22:44.000
+Voy a volver a hacer el setup. Cierto, y lo hago.
+
+03:22:44.000 --> 03:22:53.000
+Que corra. No lo voy a hacer tan rápido. Voy, tomamos escuchar el famoso Hong, El Ping.
+
+03:22:53.000 --> 03:23:04.000
+Y ahí llegó. Ok, eso ahora, estos light de acá, lo que hacen es permite solamente mostrarlo. Believes solamente las intenciones.
+
+03:23:04.000 --> 03:23:11.000
+Ojo como este, un es un sistema sencillo. Reconozco que tiene solamente e intención, o sea.
+
+03:23:11.000 --> 03:23:17.000
+No distingo entre deseo, ya e intención, o sea, inmediatamente de acuerdo a los bilips.
+
+03:23:17.000 --> 03:23:26.000
+Ya él crea. Directamente intenciones, pero podríamos, evidentemente, hacer algo un poco más.
+
+03:23:26.000 --> 03:23:37.000
+Complicado. Pero para mostrarle cierto, una arquitectura híbrida. Entre B D I y reactivo más allá de los agentes generativos.
+
+03:23:37.000 --> 03:23:43.000
+No sé si hay alguna pregunta de esto.
+
+03:23:43.000 --> 03:23:54.000
+Ya a esta hora parece que no mucho. Bien. Dicho eso, entonces me voy y abro el último.
+
+03:23:54.000 --> 03:24:06.000
+Tema. Que me mover estas franjas de acá.
+
+03:24:06.000 --> 03:24:11.000
+Y me voy a esto, que está aquí para avanzar.
+
+03:24:11.000 --> 03:24:16.000
+En esta Ppt. Es la que yo les contaba. Cierto que hay.
+
+03:24:16.000 --> 03:24:22.000
+Varias transparencias ocultas y fácil, como 15 o algo así.
+
+03:24:22.000 --> 03:24:30.000
+Esa es mi resguardo, mi colchón. ¿cierto? O sea, avanzamos más rápido ya ahora y la próxima vez les muestro esos detalles.
+
+03:24:30.000 --> 03:24:37.000
+Si no, no son solamente detalles. Pero, efectivamente, si hay tiempo, porque no.
+
+03:24:37.000 --> 03:24:46.000
+Verlos. Bien. Que son sistemas multi agentes. La cuestión como mano obvia es un sistema que tiene mucho agentes, pero este.
+
+03:24:46.000 --> 03:24:52.000
+Ya diagrama que está acá. Creo que muestra algo que no es tan intuitivo.
+
+03:24:52.000 --> 03:25:00.000
+Cada 1 de estos círculos. A veces que ahora me permite poner el puntero láser. No, no, me permite.
+
+03:25:00.000 --> 03:25:10.000
+Cada 1 de estos. Círculos. Ok, es un agente. Y, por lo tanto, esas flechas que hay entre la gente, lo que están modelando.
+
+03:25:10.000 --> 03:25:15.000
+Es Ok. La interacción que hay entre esos agentes.
+
+03:25:15.000 --> 03:25:31.000
+Y que son esas elipses. Puntea. Son relaciones organizacionales que tienes eso a gente. Lo que faltaría un poquito mostrar ahí, pero sé por qué no lo hacen es que ustedes comprenderán que también una gente puede tener.
+
+03:25:31.000 --> 03:25:42.000
+Relaciones ya interinstitucionales inter organizacionales. Nos está mostrando ahí. Pero, ¿cuál es lo más importante?
+
+03:25:42.000 --> 03:25:57.000
+El óvalo que está más abajo. Con los óvalos pequeños que salen de cada 1 de los agentes. ¿cuál es la idea que cuando yo estoy en un sistema multi agente y, por lo tanto, me estoy desempeñando en un ambiente.
+
+03:25:57.000 --> 03:26:03.000
+Yo tengo entre comillas una esfera de influencia que actúa sobre el ambiente.
+
+03:26:03.000 --> 03:26:10.000
+Y esas esferas de influencia pueden coincidir como los ejemplos que tenemos ahí de esos 2 agentes.
+
+03:26:10.000 --> 03:26:16.000
+Más a la derecha. Por lo tanto, yo tengo que coordinar negociar.
+
+03:26:16.000 --> 03:26:23.000
+Entre esos agentes. Para primero, que esa fue la influencia. Me permita hacer las cosas mejor.
+
+03:26:23.000 --> 03:26:27.000
+O me permita. Eh?
+
+03:26:27.000 --> 03:26:33.000
+Simplemente evitar. Ya acciones conflictivas, o sea, interferencias mutuas.
+
+03:26:33.000 --> 03:26:41.000
+Y ese es el problema que tienen estos sistemas multi agentes que la gente sepa. No solamente tiene que lidiar.
+
+03:26:41.000 --> 03:26:46.000
+Con un ambiente que está más o menos bajo su control.
+
+03:26:46.000 --> 03:26:54.000
+Sino que tiene que lidiar con otro agente que pueden tener otras intenciones y que, por lo tanto, tienen que ponernos de acuerdo.
+
+03:26:54.000 --> 03:27:00.000
+¿para qué, para poder lograr esas intenciones. Dicho eso, evidentemente que.
+
+03:27:00.000 --> 03:27:04.000
+Ustedes comprenderán que este es el. Es el.
+
+03:27:04.000 --> 03:27:08.000
+Es, por decir así, el tipo de sistema más común.
+
+03:27:08.000 --> 03:27:17.000
+Y es bien similar a lo que nosotros hacemos como humanos. Cierto, cada 1 tiene sus intenciones. Pertenece a organizaciones diferentes.
+
+03:27:17.000 --> 03:27:24.000
+Tiene cosas que está haciendo, que pueden interferir, mejorar lo que está haciendo otro, o empeorarlo.
+
+03:27:24.000 --> 03:27:29.000
+Podemos tener interferencias mutuas y, por lo tanto, vamos a tener que lidiar.
+
+03:27:29.000 --> 03:27:36.000
+Con eso. Déjenme aquí algo está pasando, que no está.
+
+03:27:36.000 --> 03:27:42.000
+Ahí. Sí, o sea, ahí están ya los puntos que estamos viendo.
+
+03:27:42.000 --> 03:27:52.000
+Un sistema multiagente tiene una cantidad de agentes, pero más importante, interactúan a través de comunicación o, a lo mejor, algún otro mecanismo.
+
+03:27:52.000 --> 03:28:03.000
+Ya. La comunicación nuevamente puede ser explícita. En bla, bla, o simplemente mirando el ambiente. Y bien, y viendo cómo.
+
+03:28:03.000 --> 03:28:11.000
+Lo que hace un agente cambia el mundo sobre el que yo también, o el ambiente sobre el que estoy.
+
+03:28:11.000 --> 03:28:18.000
+Ya trabajando luego, evidentemente, que son capaces de actuar lógicamente, en ese ambiente.
+
+03:28:18.000 --> 03:28:25.000
+Tienen diferentes esferas de influencia que pueden coincidir y están unidos ya por otras relaciones que.
+
+03:28:25.000 --> 03:28:36.000
+Podríamos hablar de relaciones organizacionales, etc. Y eso hace que esto lo haga bastante más complicado con un sistema en el cual tengo.
+
+03:28:36.000 --> 03:28:47.000
+Un agente. Una de las cosas importantes. Esto que está acá, o sea, la idea, es que el sistema de gente va a tener que trabajar juntos para.
+
+03:28:47.000 --> 03:28:53.000
+Para lograr su meta de diseño, incluso cierto, aunque no lo quiera.
+
+03:28:53.000 --> 03:28:59.000
+Nuevamente por la interferencias mutua que podemos tener, o sea, aunque yo diga, sabes que más.
+
+03:28:59.000 --> 03:29:04.000
+Yo. Esto lo voy a hacer solo a lo mejor. Lo que yo voy a hacer. Va a interferir.
+
+03:29:04.000 --> 03:29:12.000
+Con lo que otro gente va a hacer y, por lo tanto, vamos a tener que entre comillas, trabajar en conjunto, aunque no cooperemos.
+
+03:29:12.000 --> 03:29:19.000
+En el ejemplo anterior se todaa. Lo ya se conecta. Si a si yo esta silla, mi objetivo es tomarla y llevarla.
+
+03:29:19.000 --> 03:29:23.000
+Al otro lado ya de Eh de la sala.
+
+03:29:23.000 --> 03:29:34.000
+Aunque yo diga: Sabes qué maestro yo lo voy a hacer solo si hay otro agente que está moviendo otro mobiliario. Otro mobiliario. Voy a tener que lidiar con eso.
+
+03:29:34.000 --> 03:29:43.000
+Porque no puedo llegar a pescar la silla pasada a llevar a loto. Se me cae la silla, se me rompe, etcétera, sino que, por lo tanto, a lo menos ya voy a.
+
+03:29:43.000 --> 03:29:51.000
+Tener que entre comillas ya trabajar en conjunto, aunque él, el otro agente, no me ayuda a mí.
+
+03:29:51.000 --> 03:29:56.000
+Ni tampoco yo. Yo lo ayudo a él. Pero a lo menos evitar esa interferencia mutua.
+
+03:29:56.000 --> 03:30:03.000
+Dicho eso, en este caso. Ya podemos distinguir entre.
+
+03:30:03.000 --> 03:30:10.000
+Lo que podríamos llamar agentes benevolentes y agentes egoístas o auto interesados.
+
+03:30:10.000 --> 03:30:17.000
+¿cuál es la idea de agente benevolente? Básicamente. Que todos los agentes nos pertenecen.
+
+03:30:17.000 --> 03:30:24.000
+El sistema es mío, por decirlo así, y, por lo tanto, yo puedo diseñar la cooperación.
+
+03:30:24.000 --> 03:30:33.000
+Ok. Y no hay objetivos. Diferentes, o lo que bien dices, pues ahí nuestro interés también su interés.
+
+03:30:33.000 --> 03:30:37.000
+O sea, y, por lo tanto, lo que significa.
+
+03:30:37.000 --> 03:30:45.000
+Es que claramente, cuando estamos hablando a gente agentes benevolente, eso simplifica.
+
+03:30:45.000 --> 03:30:51.000
+Muchísimo el diseño del sistema. De hecho, hay una rama de la inteligencia artificial.
+
+03:30:51.000 --> 03:30:57.000
+El Cooperative Distributed problem Solving, C. D. P. S. Que justamente liga con eso. Y vamos a ver.
+
+03:30:57.000 --> 03:31:02.000
+Como ejemplo de esto, una, la arquitecturas más avanzadas para hacer lo que es la.
+
+03:31:02.000 --> 03:31:09.000
+Famosa cierto Contract Net, que de nuevo es algo muy intuitivo.
+
+03:31:09.000 --> 03:31:18.000
+Ahora bien, el problema es cuando tenemos agentes que representan a diferentes individuos, organizaciones.
+
+03:31:18.000 --> 03:31:27.000
+Que tienen cierto metas que pueden. Diferir y, por lo tanto, ahí no podemos, ustedes comprenderán, asumir.
+
+03:31:27.000 --> 03:31:33.000
+Benevolencia, y claramente, ahí tenemos que asumir por defecto. Desgraciadamente.
+
+03:31:33.000 --> 03:31:38.000
+Que van a ver agentes que quieren lograr lo mejor posible maximizando.
+
+03:31:38.000 --> 03:31:45.000
+Su utilidad, su objetivo a expensas de la utilidad.
+
+03:31:45.000 --> 03:31:47.000
+Ok. De el resto, y, por lo tanto, ahí sí.
+
+03:31:47.000 --> 03:31:56.000
+Existe potencial de conflicto. Claramente, eso ya puede dificultar el diseño enormemente.
+
+03:31:56.000 --> 03:32:05.000
+Sí, Juan Pablo, si activa el sí, creo. Diana de ventajas que tienen los agentes egoístas.
+
+03:32:05.000 --> 03:32:14.000
+Es casi como que no sé. Yo tengo mi grupo de amigos con el que juega la pelota y jugamos en buena todo y de repente vienen.
+
+03:32:14.000 --> 03:32:26.000
+Vieron pesado y. Entonces va a la pelota y se lleva la pelota claro. Entonces, bajo qué circunstancias me vería la obligación y está hablando en el campo empresarial.
+
+03:32:26.000 --> 03:32:33.000
+De utilizar agentes egoístas, ya. Y cómo y cómo lo discrimina también como lo identifico ya.
+
+03:32:33.000 --> 03:32:38.000
+Y te cuento la. Juan Pablo. ¿cuál es la idea? Acá.
+
+03:32:38.000 --> 03:32:54.000
+Siempre que tu tenga gente que representen. Diferentes organizaciones, etcétera. Ahí ya está hablando de la gente, entre comillas. A lo mejor, el nombre es muy fuerte, egoísta. Vamos a ver que no son tan egoístas o la idea hacer un diseño.
+
+03:32:54.000 --> 03:33:02.000
+Que haga que los agentes no sean en el fondo tan egoísta, pero claramente que ahí va a haber un conflicto, o sea, si yo hago esta gente, abastecimiento.
+
+03:33:02.000 --> 03:33:10.000
+Que tenía ya con proveedores. Maniqueístamente hablando al proveedor para tratar de venderte lo más caro posible.
+
+03:33:10.000 --> 03:33:19.000
+Ya, y tú ahí atrás, de comprar lo más barato posible. De hecho, porque se me viene esta mente, porque si después tengo tiempo en la próxima clase, les voy a mostrar un juego. Tengo que.
+
+03:33:19.000 --> 03:33:27.000
+De simulación de esa cuestión. Cachai: Ahora bien. ¿cuál es la gracia? ¿qué es lo que 1 vamos más adelante.
+
+03:33:27.000 --> 03:33:36.000
+Que claramente aquí hay potencial de conflicto. Pero claro que hay entre comillas. Un interés mutuo salió como proveedor. Te quiero vender caro.
+
+03:33:36.000 --> 03:33:44.000
+Pero quiero vender, y tú, como agente. Comprador, queréis comprar barato, pero quieres comprar.
+
+03:33:44.000 --> 03:33:51.000
+Y ahí es donde está en cómo lidiamos con esto, porque, efectivamente, hay un interés común.
+
+03:33:51.000 --> 03:33:59.000
+Cachai, si no hay interés común en absoluto. Simplemente los agentes no van a cooperar.
+
+03:33:59.000 --> 03:34:09.000
+Pero el problema es que, claro, yo. Queriendo comprar, quiero comprar lo más barato y de mejor calidad. Y tú como proveedor, me queréis vender lo más caro posible. Cachai.
+
+03:34:09.000 --> 03:34:20.000
+Y eso lo hago en que lidiar. Y esas negociaciones entre gente. Y para eso vamos a ver protocolos aquí, haya, etcétera.
+
+03:34:20.000 --> 03:34:35.000
+Ahora vamos a decir efectivamente. Viendo ya el caso más sencillo. O sea, imaginemos que aquí yo estoy creando agente, ya que están haciendo algo para la universidad.
+
+03:34:35.000 --> 03:34:44.000
+Y, por lo tanto, todos tienen un objetivo común y compartido, pero igual tenemos que coordinarnos para hacerlo.
+
+03:34:44.000 --> 03:34:46.000
+Lo mejor posible y, por lo tanto, eso es.
+
+03:34:46.000 --> 03:34:51.000
+Cierto. Cdps. Cooperative distributed problem, solving.
+
+03:34:51.000 --> 03:34:54.000
+Y todo lo que vamos a ver a continuación.
+
+03:34:54.000 --> 03:35:02.000
+Si Ud. Me dicen profe. Pero si eso es lo que hacemos los humanos, y qué sé yo? Muy gran cuestión? Bueno, sí, claro, exactamente inspirado. Por eso.
+
+03:35:02.000 --> 03:35:12.000
+Norway de nada nuevo bajo el sol. Ok, lo que sí le vamos a agregar algunas cosas para permitir que lo hagan agentes computacionales.
+
+03:35:12.000 --> 03:35:23.000
+Ya. Y si estuviera Alejandro. Se acuerdan que yo le había dicho cuando lleguemos a eso? Alejandro, Ojalá que Alejandro esté la próxima clase.
+
+03:35:23.000 --> 03:35:30.000
+Oh, no. Pero ahí vamos a ir viendo. ¿cómo hacemos esto en esto? No es tanto bien.
+
+03:35:30.000 --> 03:35:36.000
+Básicamente para hacer esto. Tenemos 2 ideas primarias.
+
+03:35:36.000 --> 03:35:48.000
+Compartid tareas. Ya o sea, yo tengo una tarea. La pongo en subtareas, la hacen los agentes y después componemos esos subtareas para hacer la tarea global.
+
+03:35:48.000 --> 03:35:52.000
+Esto en general, es lo que vamos a ver con la contact Net.
+
+03:35:52.000 --> 03:35:57.000
+O ya podemos tener una noción mucho más sencilla.
+
+03:35:57.000 --> 03:36:05.000
+Que simplemente compartir los resultados y, por lo tanto, es algo mucho más limitado. Vamos a partir.
+
+03:36:05.000 --> 03:36:12.000
+Por analizar esto, que está acá compartir tareas, etcétera, y después solamente compartir resultados.
+
+03:36:12.000 --> 03:36:18.000
+Después les voy a dar ejemplos más precisos. Ya lo vamos a ver al.
+
+03:36:18.000 --> 03:36:23.000
+Final. Y aquí está en el fondo la contract Net.
+
+03:36:23.000 --> 03:36:31.000
+¿cuál es la idea que la distribución de las tareas? Efectivamente, es como una negociación de un contrato.
+
+03:36:31.000 --> 03:36:34.000
+Y es por eso que se llama la red de.
+
+03:36:34.000 --> 03:36:39.000
+Contrato. Pero sobre esto vamos a poner un protocolo.
+
+03:36:39.000 --> 03:36:48.000
+Que especifica el contenido de la comunicación. Ya no sólo la forma. Vamos a ver más en detalle eso, y ahí es donde.
+
+03:36:48.000 --> 03:36:55.000
+Tengo ya unas transparencias ocultas, ya que después voy a deshabilitar el modo de presentación para.
+
+03:36:55.000 --> 03:37:00.000
+Mostrarles esas transparencias con un poquitito más de detalle.
+
+03:37:00.000 --> 03:37:07.000
+Esto es un detalle técnico para lo que son un poquito más con puttines. Nosotros sabemos cierto que el sistema es distribuido, etc.
+
+03:37:07.000 --> 03:37:13.000
+Nosotros, cierto, hacemos transferencias de control entre cada 1.
+
+03:37:13.000 --> 03:37:19.000
+De los bucles y las hebras de ejecución acá. En el fondo, estamos.
+
+03:37:19.000 --> 03:37:31.000
+Ya haciendo transferencia, no solamente en un sentido, sino que en varios sentidos, que usted comprenderán que son de un agente a otro y de otro agente, a su vez, al.
+
+03:37:31.000 --> 03:37:41.000
+Siguiente: cuáles son las fases. Que prescribe la contract net. Y aquí, nuevamente, si ustedes me dicen, esto es exactamente como lo hacemos los humanos.
+
+03:37:41.000 --> 03:37:49.000
+Claro está, efectivamente inspirado. Vamos a ver el detalle de cada una de estas.
+
+03:37:49.000 --> 03:37:55.000
+Cosa. Este monito, que está acá representa cada una. Esta fase.
+
+03:37:55.000 --> 03:38:01.000
+Lo puse ahí como para tener algo más visual, y ustedes puedan relacionar. Pero ojo.
+
+03:38:01.000 --> 03:38:06.000
+No voy a ver esto en detalle o con más bla, bla hasta que.
+
+03:38:06.000 --> 03:38:11.000
+Veamos cada una de estas fases. Descomponer el problema.
+
+03:38:11.000 --> 03:38:19.000
+Distribuirlos sus problemas. Solucionando su problema y síntesis de la respuesta, que es cierto.
+
+03:38:19.000 --> 03:38:23.000
+Lo que está. Acá.
+
+03:38:23.000 --> 03:38:29.000
+Entonces tenemos que vamos a tener varios agentes en el lenguaje.
+
+03:38:29.000 --> 03:38:35.000
+De la Contract Net son noos para nosotros. Efectivamente, los tenemos presentados.
+
+03:38:35.000 --> 03:38:42.000
+Personitas, actores, a gente. Ahora bien, entonces, ¿cuál es la idea cuando un agente.
+
+03:38:42.000 --> 03:38:51.000
+O que, y recibe una tarea. Y no puede resolver la tarea él mismo. Por algún motivo vamos a ver por qué.
+
+03:38:51.000 --> 03:38:55.000
+La descomponen su tarea. Y aquí, nuevamente, fíjense que.
+
+03:38:55.000 --> 03:39:01.000
+La palabra clave es si es posible. O sea, tenemos que tener un mecanismo que nos indique.
+
+03:39:01.000 --> 03:39:08.000
+Si una tarea la podemos descomponer en subtarea. Ojo las anuncia al resto.
+
+03:39:08.000 --> 03:39:14.000
+Ya actuando como un administrador, recibe las ofertas del resto.
+
+03:39:14.000 --> 03:39:18.000
+Y afina la tarea para que la haga un agente.
+
+03:39:18.000 --> 03:39:23.000
+Como les digo, va muy bien viendo agregando detalle.
+
+03:39:23.000 --> 03:39:28.000
+A esto. Y, por lo tanto.
+
+03:39:28.000 --> 03:39:34.000
+Lo que estamos haciendo acá. Es cierto.
+
+03:39:34.000 --> 03:39:42.000
+Que pasó. Lo que está acá.
+
+03:39:42.000 --> 03:39:47.000
+Perdón, algo está. Está fallando esta cuestión o este, pero.
+
+03:39:47.000 --> 03:39:53.000
+Voy a ir mejor manual porque se saltó.
+
+03:39:53.000 --> 03:39:59.000
+Acá. Y aquí vamos a ver cierto en detalle, reconocer el problema.
+
+03:39:59.000 --> 03:40:03.000
+Tengo que hacer algo. Sé que no puedo hacerlo.
+
+03:40:03.000 --> 03:40:12.000
+También no me gustaría hacerlo por mí mismo, porque, aunque lo puedo hacer, me puedo tardar mucho. La solución puede ser de baja calidad.
+
+03:40:12.000 --> 03:40:18.000
+Tengo otros agentes y, por lo tanto, lo que hago, es decirle al resto: Oye.
+
+03:40:18.000 --> 03:40:23.000
+Por favor, necesito ayuda con hacer esta tarea o esta sub.
+
+03:40:23.000 --> 03:40:29.000
+Tareas y, por lo tanto, hago un anuncio a través de mi red.
+
+03:40:29.000 --> 03:40:36.000
+De estos agentes que tengo acá. Por ejemplo, estos 2 serían capaces de realizar esa tarea o subterea.
+
+03:40:36.000 --> 03:40:44.000
+Por lo tanto, ya me dicen: Si yo te la puedo hacer con alguna especificación de tiempo que ya vamos a ver los detalles y.
+
+03:40:44.000 --> 03:40:56.000
+Y entonces estos 2 agentes que pueden hacer la tarea ya finalmente le digo a 1 de ellos que me la haga.
+
+03:40:56.000 --> 03:41:05.000
+Luego vamos a ver y le vamos a poner más detalles a cada 1 de estas cosas. Primero, la etapa cierto de reconocimiento.
+
+03:41:05.000 --> 03:41:11.000
+Lo que significa que la gente tiene un objetivo y se da cuenta que o no.
+
+03:41:11.000 --> 03:41:16.000
+Puede lograr ya ese objetivo, porque no tiene la capacidad para hacer.
+
+03:41:16.000 --> 03:41:23.000
+La tarea o parte de las tareas, o, como les decía, simplemente se da cuenta que preferiría.
+
+03:41:23.000 --> 03:41:29.000
+No hacer la tarea por sí mismo. ¿por qué? Porque va a ser una solución de baja calidad.
+
+03:41:29.000 --> 03:41:36.000
+No tiene el tiempo suficiente, etcétera.
+
+03:41:36.000 --> 03:41:46.000
+Después de eso, entonces viene el anuncio. La idea del anuncio. Cierto que le tengo que decir al resto. Por favor, ayúdenme con esto.
+
+03:41:46.000 --> 03:41:51.000
+Y, por lo tanto, esa especificación tiene que tener de nuevo descripción de lo que quiero hacer.
+
+03:41:51.000 --> 03:42:00.000
+Ya restricciones que se o fechas límites, la calidad, etcétera. Y alguna meta información, por ejemplo, oye.
+
+03:42:00.000 --> 03:42:05.000
+Ustedes. Necesito que me envíen las ofertas para hacer esta tarea.
+
+03:42:05.000 --> 03:42:12.000
+Ya en tal o cual fecha, etcétera. Y este anuncio normalmente es.
+
+03:42:12.000 --> 03:42:23.000
+Difundido ya al resto de los agentes, pero podría, en vez de ser difundido a todos los agentes a lo mejor si yo conozco mi agente, si sabes que más.
+
+03:42:23.000 --> 03:42:32.000
+A este. No se lo voy a enviar, porque sé que no tiene la capacidad para hacerlo o hacerlo como yo quiero y, por lo tanto, podría ser toser.
+
+03:42:32.000 --> 03:42:38.000
+Algo dirigido. Después viene el proceso.
+
+03:42:38.000 --> 03:42:44.000
+De oferta. Cada agente nuevamente ve si es capaz de realizar.
+
+03:42:44.000 --> 03:42:53.000
+La tarea o no. Tiene que, evidentemente, determinar las restricciones de calidad ojo información aquí de precio.
+
+03:42:53.000 --> 03:43:02.000
+Qué quiere decir con precio? Ya no es necesariamente que yo te vaya a cobrar, sino que ustedes comprenderán que si yo tengo que hacer varias tareas, de alguna forma.
+
+03:43:02.000 --> 03:43:12.000
+Tengo que ser eficiente en. Asignarle algunos agentes que tienen disponibilidad ahora y a otros no, dejarlos que no hagan nada y, por lo tanto.
+
+03:43:12.000 --> 03:43:18.000
+Precio aquí no es que te vaya a cobrar, sino que de alguna forma, reflejar.
+
+03:43:18.000 --> 03:43:28.000
+Cierto? ¿cuál es tu interés por hacer la tarea, etcétera, y, por lo tanto, los agentes que efectivamente cumplen lo anterior hacen una oferta, un.
+
+03:43:28.000 --> 03:43:34.000
+Tender.
+
+03:43:34.000 --> 03:43:41.000
+Después de eso, entonces, la gente recibe. Cierto de alguna forma de asigna.
+
+03:43:41.000 --> 03:43:46.000
+¿quién puede o quiere hacerlo ahí tiene que mezclar una serie.
+
+03:43:46.000 --> 03:43:51.000
+De criterios y a la gente que él seleccionó tiene que.
+
+03:43:51.000 --> 03:43:56.000
+Evidentemente, decirle, ya que él tiene que hacer la tarea ojo.
+
+03:43:56.000 --> 03:44:03.000
+Esto también involucra subcontratos. Es decir, ya puede haber una coalición.
+
+03:44:03.000 --> 03:44:13.000
+Y alguno agente sin mira, recibí esta oferta. Yo puedo hacer esta parte. ¿quién me coopera con esto? Y así haber una cadena hacia abajo para.
+
+03:44:13.000 --> 03:44:20.000
+En el fondo, generar subcontrato. Eso es algo que se puede hacer.
+
+03:44:20.000 --> 03:44:25.000
+Y aquí creo que vienen. Las transparencias ocultas.
+
+03:44:25.000 --> 03:44:33.000
+Que creo que tengo tiempo para hacerla.
+
+03:44:33.000 --> 03:44:39.000
+Consulta, quizás el primer principio, pero Dale, esto aplica solo para sistemas como.
+
+03:44:39.000 --> 03:44:50.000
+Colaborativos con agentes benevolentes con información. Estamos viendo. Todo, mi agentes van a estar diseñados.
+
+03:44:50.000 --> 03:44:54.000
+Para, como te digo, cooperar entre sí. No, hay, no hay.
+
+03:44:54.000 --> 03:44:59.000
+Objetivos conflictivos. Ya los agentes quieren cooperar entre sí.
+
+03:44:59.000 --> 03:45:10.000
+Nadie te dice que vayan a cooperar bien. Pero efectivamente van a cooperar. O sea, aquí no hay una negociación en que ya yo te ayudo con esto.
+
+03:45:10.000 --> 03:45:20.000
+Pero como vamos y aquí allá, etcétera. Ok. Y cuando habla, por ejemplo, del tender en un subcontrato igual es como una especie de negociación, pero es una negociación.
+
+03:45:20.000 --> 03:45:30.000
+Solamente en base a si yo lo puedo hacer, que también lo puedo hacer, de qué fecha y qué sé? Yo caché y el precio aquí, como te digo, solamente.
+
+03:45:30.000 --> 03:45:38.000
+Para tratar de no decir: sabes qué más. Esta gente tiene 50 0 tareas? Porque justamente entendí, hay las tareas.
+
+03:45:38.000 --> 03:45:44.000
+Perdón. La tarea que él puede realizar idóneamente ya es la que necesitamos.
+
+03:45:44.000 --> 03:45:52.000
+Y a otro no está haciendo nada, porque no es tan idóneo. Pero si lo tengo sobrecargado, yo sé que no aceptan efectivo. Por lo tanto.
+
+03:45:52.000 --> 03:46:03.000
+Ya en esa, en esa señal de precio. Yo puedo meter esto. ¿de qué tan ocupado estoy entonces la gente me dice: Oye si yo lo puedo hacer, pero te voy a cobrar.
+
+03:46:03.000 --> 03:46:09.000
+100 000 unidades, tu tipo? ¿por qué todos? Para el mismo lado.
+
+03:46:09.000 --> 03:46:17.000
+Sino que las 100 000 unidades están reflejando que estoy hasta la tengo 50 cuestiones que hacer. Entonces el otro me dice: No, yo, en cambio, te cobro.
+
+03:46:17.000 --> 03:46:26.000
+En vez de 50 000. Te cobro 20 000 porque porque estoy desocupado. Cachai, ese día. Entonces yo digo: lo ideal sería que le hicieron.
+
+03:46:26.000 --> 03:46:41.000
+Pero algo que está muy ocupado, ¿cierto? Y eso se refleja entre comillas. En este precio. Ya se lo asignó al otro.
+
+03:46:41.000 --> 03:46:48.000
+Esa gente tiene que existir un. No, no ente centralizado. Perdón. Se me olvidó tu nombre.
+
+03:46:48.000 --> 03:46:59.000
+Sí, porque, Francisco, la acotación cierto de que a veces el límite a hacer estas cosas es todo el aspecto institucional. ¿te acuerdan.
+
+03:46:59.000 --> 03:47:05.000
+Ah, chuta, entonces no seguro que fuiste. Tú. Bueno, en la primera clase, no vayamos a tu.
+
+03:47:05.000 --> 03:47:12.000
+A tu hueste. Claro, perdón, si me podéis repetir la pregunta, ya parece que me está pensando.
+
+03:47:12.000 --> 03:47:20.000
+Se menciona a veces como que hay un. Como que hay un agente centralizador que hace. Esto es perfecto. Entiendo que no es necesario eso.
+
+03:47:20.000 --> 03:47:28.000
+Como una. Te. No necesariamente tienes que tener un agente centralizado. Esto es necesariamente distribuido.
+
+03:47:28.000 --> 03:47:33.000
+Para tratar de que la cosa sea concurrente y en paralelo.
+
+03:47:33.000 --> 03:47:40.000
+Pero tú podrías ponerle a veces un agente centralizado. Cierto que te maneje esto.
+
+03:47:40.000 --> 03:47:44.000
+Cacheos, o sea, podríais tener como un gerente general. Me entendí o no.
+
+03:47:44.000 --> 03:47:50.000
+Para algunas cosas raras poder lidiar con ellas. Me entendió no tener una visión.
+
+03:47:50.000 --> 03:47:56.000
+A lo mejor fueta de una visión parcial. Tener una visión un poco más global lo podría hacer.
+
+03:47:56.000 --> 03:48:03.000
+Pero aquí lo estamos pensando totalmente, descentralizadamente. Y si se y te cuento.
+
+03:48:03.000 --> 03:48:10.000
+Rama de agentes que estudian. Eso me entendió qué tan centralizado tiene que ser aquella. De hecho, tengo.
+
+03:48:10.000 --> 03:48:16.000
+Un estudiante doctorado que está trabajando. En hacer un sistema agente para lidiar.
+
+03:48:16.000 --> 03:48:23.000
+Con emergencia, inundación, aquella etcétera, y la revisión de biografía. Efectivamente.
+
+03:48:23.000 --> 03:48:36.000
+Existen estos, voy tener una gente central. El problema que se te cae. La gente central sería todo. Pero si tenéis agentes como esto, totalmente distribuido a lo mejor las soluciones rápidas, pero su óptima, etcétera.
+
+03:48:36.000 --> 03:48:42.000
+De qué balancear, enrique disculpe en línea con lo que plantea Francisco.
+
+03:48:42.000 --> 03:48:47.000
+Si no existiera esa gente como centralizador u orquestador.
+
+03:48:47.000 --> 03:48:54.000
+Como el resto de los agentes, elige. Que tan idóneo es su par.
+
+03:48:54.000 --> 03:49:02.000
+Para desempeñar una determinada tarea, porque usted hablaba un ejemplo que el el no sé. Por ejemplo, Francisco puede ser más idóneo como agente para ejecutar la tarea. Ellos no.
+
+03:49:02.000 --> 03:49:10.000
+Sí, ¿cómo se hace esa básicamente como tú. Estás diseñando tu mecanismo.
+
+03:49:10.000 --> 03:49:22.000
+Yeah, to provee un mecanismo para saber eso. Que todos lo sepamos. Cachai Francisco, ¿cierto? Es calculista estructural, así que me hace de cálculo de estructura y todo, en cambio.
+
+03:49:22.000 --> 03:49:33.000
+Two Way, lo que significa que tú te has pedido el estudio terreno y toda la cuestión, y, por lo tanto, todo lo declaramos aquella y lo vamos actualizando, etcétera.
+
+03:49:33.000 --> 03:49:46.000
+Te doy cuenta porque el sistema me pertenece. Por lo tanto, no es que Francisco diga: No no voy a declarar esto porque aquí, allá Cachai, y eso es lo bueno de la benevolencia en el fondo. Y, por lo tanto, la gente centralizadora aquí también.
+
+03:49:46.000 --> 03:49:50.000
+Tendría acceso a todo toda la gente centralizada y.
+
+03:49:50.000 --> 03:49:57.000
+Que sería lo ideal. En una organización. Se sobre todos. Tenemos nuestra agenda más o menos, y hay que lidiar con los.
+
+03:49:57.000 --> 03:50:07.000
+Objetivos personales versus lo de la empresa. Y ahí está toda la teoría económica de la gente principal. Esto como alineada a los agentes para que actúen.
+
+03:50:07.000 --> 03:50:15.000
+A favor del principal y no con sus propios objetivos y no importando el objetivo común, etcétera, etcétera. Pero.
+
+03:50:15.000 --> 03:50:18.000
+Por lo tanto, aquí no estamos lidiando con eso.
+
+03:50:18.000 --> 03:50:30.000
+Cuando pasemos a gente egoísta ahí tienes eso. Cierto que de nuevo, dentro incluso de una organización claramente cierto. Uno sabe quién departamento hay realidad. La activa yo conozco. Es.
+
+03:50:30.000 --> 03:50:45.000
+Marketing reventa fue su producción por toda la cuestión es el que yo he visto que sacan pluma, etcétera, etcétera, sino que son de una misma organización. Te da y cuenta. Entonces ahí ya empezamos el día con entre comillas, no benevolencia.
+
+03:50:45.000 --> 03:50:53.000
+O egoísmo que nuevamente, 1, cuando al egoísmo claro, suena demasiado fuerte, prefiero hablar de no benevolencia, o sea ahí.
+
+03:50:53.000 --> 03:50:58.000
+Cierto oye. Tenemos que ver si me conviene o no.
+
+03:50:58.000 --> 03:51:09.000
+Después tenemos que también poder especificar. Fíjense ustedes la calidad de servicio que tenemos, y nuevamente, eso es un desafío.
+
+03:51:09.000 --> 03:51:13.000
+Porque no es siempre fácil ya especificar esa calidad de servicios, especificarla.
+
+03:51:13.000 --> 03:51:23.000
+De forma que la podemos utilizar. Lo que está acá ¿cierto? Vamos a tener diferentes ofertas, y la pregunta.
+
+03:51:23.000 --> 03:51:28.000
+Es, efectivamente, cómo seleccionar esa oferta, e incluso cuando tenemos.
+
+03:51:28.000 --> 03:51:32.000
+Ya múltiples criterios. Y ahí hay una serie de.
+
+03:51:32.000 --> 03:51:45.000
+Por decir así, técnicas, económicas ya y etcétera, etcétera, que nos ayudan a esto, que está acá porque, por ejemplo, una respuesta fácil del doctor y hago una suma ponderada, algún criterio.
+
+03:51:45.000 --> 03:51:52.000
+Y punto, pero de nuevo, en optimización. Uno le enseñan que la suma ponderada es una forma.
+
+03:51:52.000 --> 03:51:57.000
+No muy idónea a hacer esas cosas, etcétera. Nosotros, por ejemplo, vamos a ver lo que se llama.
+
+03:51:57.000 --> 03:52:03.000
+Lo que decía Alejandro, ya lo que es el óptimo de Pareto, etcétera. Aquí es toda una rama.
+
+03:52:03.000 --> 03:52:08.000
+De Economía.
+
+03:52:08.000 --> 03:52:15.000
+Bien tipos de mensajes que. Empleamos cierto para hacer esto.
+
+03:52:15.000 --> 03:52:20.000
+El anuncio de las tareas. Tenemos que tener algún mensaje pensado en el anuncio de las tareas.
+
+03:52:20.000 --> 03:52:30.000
+Después. Otro mensaje para la oferta, mensajes para asignación, reportes intermedios. Claramente, nuevamente, piensa en muy buenamente.
+
+03:52:30.000 --> 03:52:42.000
+Yo a un agente le dije: Quisiera esto porque me gustaría que me mantuviera actualizado, porque a lo mejor el agente se equivocó y él pensó que lo iba a hacer súper bien. Y después se encuentra que no lo está haciendo tan bien.
+
+03:52:42.000 --> 03:52:47.000
+Reporte final. Con, lógicamente, la inscripción de los resultados.
+
+03:52:47.000 --> 03:52:53.000
+También podríamos tener un mensaje entre comillas, determinación no del reporte final.
+
+03:52:53.000 --> 03:53:00.000
+O sea, si es que por algún motivo, el agente se da cuenta que no está avanzando el otro día. Y yo le digo: Sabes qué más compadre.
+
+03:53:00.000 --> 03:53:06.000
+Lleguemos hasta aquí nomás. Voy a asignar la tarea ya a otro agente, o lo voy a resolver.
+
+03:53:06.000 --> 03:53:19.000
+Yo mismo. Modificaciones entonces para la eficiencia, para que esto sea más eficiente, ya algunas la he mencionado anteriormente.
+
+03:53:19.000 --> 03:53:25.000
+Esta que está acá cierto, en vez de hacer un broadcasting, difundir la oferta.
+
+03:53:25.000 --> 03:53:30.000
+Yo las puedo. Ya decirle a los agentes que yo ya sé.
+
+03:53:30.000 --> 03:53:36.000
+Qué son los más idóneos para hacer algo, o sea.
+
+03:53:36.000 --> 03:53:44.000
+Contratos dirigidos cuando yo, como administrador, ¿cierto? Sé cuáles son los agentes para hacer eso.
+
+03:53:44.000 --> 03:53:49.000
+Y lo otro que también podríamos tener es esto que está acá, que es parecido al de oquillos. Decía.
+
+03:53:49.000 --> 03:53:56.000
+De escribir ya respuestas. Simplemente ya en vez de asignar un contrato.
+
+03:53:56.000 --> 03:54:02.000
+Que tengan que hacer algo. Yo pido información de algo.
+
+03:54:02.000 --> 03:54:08.000
+O sea, dime tú tal y cual cuestión, sabes tú tal o cual cosa y punto. Y por lo tanto, eso sería.
+
+03:54:08.000 --> 03:54:17.000
+Un mecanismo más sencillo que el de la asignación de las tareas, el contrato, etcétera. Y esto que está acá.
+
+03:54:17.000 --> 03:54:24.000
+Para evitar lo que yo les decía. O sea, yo veo que todo el resto está ocupado, si estoy desocupado y, por lo tanto, invierto.
+
+03:54:24.000 --> 03:54:31.000
+Esto. Y digo: Oye, pues, si acaso yo estoy desocupado y ustedes ya conocen cuáles son mis habilidades.
+
+03:54:31.000 --> 03:54:37.000
+Cierto y, por lo tanto, ocúpenme. Para que no haya.
+
+03:54:37.000 --> 03:54:41.000
+Un desequilibrio en eso.
+
+03:54:41.000 --> 03:54:51.000
+For the Mato, entonces de mensaje. Esto también para eficiencia. Primero, tenemos lots, ¿cierto? O sea, no a cada rato, que si no la comunicación.
+
+03:54:51.000 --> 03:55:03.000
+Se volvería demasiado extensa. Gastaríamos mucho tiempo comunicarme. Normalmente tengo ranuras para anuncio, tareas cada cierto tiempo, etc.
+
+03:55:03.000 --> 03:55:11.000
+Cierto en la cual, nuevamente, tengo que especificar elegibilidad. ¿qué características hacen que la gente sea.
+
+03:55:11.000 --> 03:55:17.000
+Elegible la abstracción de la tarea que quiero realizar, la especificación que debe contar.
+
+03:55:17.000 --> 03:55:21.000
+Tener esa oferta que yo estoy.
+
+03:55:21.000 --> 03:55:30.000
+Pidiendo y claramente un tiempo de expiración. Es decir, Oye, saben que más después de tal fecha y hora ya no me interesa si hacen o no.
+
+03:55:30.000 --> 03:55:35.000
+La tarea.
+
+03:55:35.000 --> 03:55:45.000
+Y aquí, entonces tenemos un. Mensaje ¿cierto? Aquí hay un lenguaje especial: el common interno lengua que usa el lenguaje.
+
+03:55:45.000 --> 03:55:53.000
+Común entre los nodos. En este caso, cierto, el asterrico típico dice: Tú es difusión a todos los agentes de la red.
+
+03:55:53.000 --> 03:55:59.000
+Desde la gente 25. El tipo de mensaje es cierto. Anuncio de una tarea.
+
+03:55:59.000 --> 03:56:06.000
+Y ahí sentó. Uno podría poner nuevamente un número de identificación del contrato, etc.
+
+03:56:06.000 --> 03:56:15.000
+Elegibilidad. O sea, qué es lo que yo necesito. Tiene que tener cierto un mecanismo para hacer la F, T.
+
+03:56:15.000 --> 03:56:20.000
+La transformada rápida de Fourier, o sea, estos típicos entre comillas sacados de.
+
+03:56:20.000 --> 03:56:23.000
+Control de tráfico aéreo es el ejemplo que me gusta.
+
+03:56:23.000 --> 03:56:28.000
+¿qué pasa de que cuando yo envío una onda del radar.
+
+03:56:28.000 --> 03:56:37.000
+Y vuelve. Hay efecto doppler, cierto o sea, la onda que vuelve, puede aumentar o disminuir su frecuencia dependiendo.
+
+03:56:37.000 --> 03:56:43.000
+Hacia el blanco con el que rebotó se está alejando o está viniendo. Y ese corrimiento doppler.
+
+03:56:43.000 --> 03:56:48.000
+Yo con eso, puedo calcular. Su velocidad.
+
+03:56:48.000 --> 03:56:52.000
+Y más importante que eso todavía. ¿qué pasa que los aviones.
+
+03:56:52.000 --> 03:56:57.000
+Pasan por encima de terreno. Y ese terreno también a mí.
+
+03:56:57.000 --> 03:57:03.000
+Me devuelve energía. Por lo tanto, se llaman en hogares cráter y, por lo tanto, tú.
+
+03:57:03.000 --> 03:57:12.000
+Podes tener n cantidad de cráter. Ya por los cerros y todo, incluso árboles o aquí allá, ya que no ves los aviones, entonces.
+
+03:57:12.000 --> 03:57:14.000
+I rather que se llaman lo.
+
+03:57:14.000 --> 03:57:17.000
+Moving target. Indicator: mtai.
+
+03:57:17.000 --> 03:57:23.000
+En el cual tú el blanco, fuera detectarlo, porque devuelve esa radiación.
+
+03:57:23.000 --> 03:57:32.000
+Hay un corrimiento. Ya de frecuencia y, por lo tanto, lo detecta los blancos en movimiento como los aviones se desplazan.
+
+03:57:32.000 --> 03:57:43.000
+A una velocidad bastante considerable. ¿cierto? Ese corrimiento es bastante notable. De hecho, cierto, los rares, los carabineros ya usan efectivamente un hogar.
+
+03:57:43.000 --> 03:57:49.000
+Doppler. Hay ya 30 o 40 km/h. Hay un corrimiento aquí. Los aviones, evidentemente, que.
+
+03:57:49.000 --> 03:57:54.000
+Tiene una velocidad mucho más grande. Abstracción de la tarea.
+
+03:57:54.000 --> 03:58:03.000
+Cierto, tengo que hacer la transformada de Fourier el número de puntos, la Ft. Es cierto, el número de puntos tiene que ser.
+
+03:58:03.000 --> 03:58:08.000
+Una potencia de 2, en este caso doble o 10 000. 24.
+
+03:58:08.000 --> 03:58:12.000
+Puntos, ya. Eh?
+
+03:58:12.000 --> 03:58:18.000
+El nombre que está pidiendo eso el no 25, que es de la.
+
+03:58:18.000 --> 03:58:25.000
+El el el del de la posición de ese no.
+
+03:58:25.000 --> 03:58:33.000
+Que en el caso de control de tráfico aéreo re importante latitud 64 norte longitud, 10 hueste oeste.
+
+03:58:33.000 --> 03:58:38.000
+Ya después. Aquí te indica que es importante para ti.
+
+03:58:38.000 --> 03:58:43.000
+El tiempo de completitud, o sea, cuando eso tiene que estar.
+
+03:58:43.000 --> 03:58:46.000
+Listo, o sea, yo quiero que lo hagan. Por eso que ffetepo.
+
+03:58:46.000 --> 03:58:55.000
+Lo hagan bastante rápido. Ok. Y aquí está el famoso tiempo de expiración. O sea cierto, yo quiero que esto esté.
+
+03:58:55.000 --> 03:58:58.000
+Obviamente, o la entrega de la oferta sea antes.
+
+03:58:58.000 --> 03:59:04.000
+De el 29 de noviembre del 2 024 a las 16 45.
+
+03:59:04.000 --> 03:59:11.000
+Zulú, oda, zulú, oda local, etcétera, etcétera. Eso es un ejemplo de esto. Ahora hay.
+
+03:59:11.000 --> 03:59:13.000
+Muchos otros tipos de.
+
+03:59:13.000 --> 03:59:19.000
+Yeah mensajes. Y es por eso que yo les contaba.
+
+03:59:19.000 --> 03:59:25.000
+De que, efectivamente, hay un protocolo. De comunicaciones detrás de esto.
+
+03:59:25.000 --> 03:59:30.000
+El gran problema que nuevamente tenemos es que mientras más específico lo hagamos.
+
+03:59:30.000 --> 03:59:38.000
+Mucho mejor, ¿cierto? Porque yo me aseguro de que enrique el agente Enrique de Enrique, 1 enrique Obama a entender.
+
+03:59:38.000 --> 03:59:42.000
+Y el Francisco también. Pero cada vez que lo específico más.
+
+03:59:42.000 --> 03:59:46.000
+¿qué pasa si rente? Digo, Chupa, ya necesito comunicar.
+
+03:59:46.000 --> 03:59:54.000
+Algún otro tipo de tarea emergente, me entiendes. En este momento no lo había pensado que tenía que hacerlo. Ponía importante hacerlo.
+
+03:59:54.000 --> 04:00:01.000
+Y nadie lo pensó. Sería todo. No más. Entonces eso es lo que estamos tratando de alancear como le.
+
+04:00:01.000 --> 04:00:07.000
+Se supo en específico, pero. También puede generalizar, y eso es bastante.
+
+04:00:07.000 --> 04:00:12.000
+Complicado.
+
+04:00:12.000 --> 04:00:22.000
+Bien esto en cuanto a. Lo que acabamos de ver ahora. Parto por la.
+
+04:00:22.000 --> 04:00:29.000
+Ppt, que no tengo culpa. Sé que ya estamos en las finales finales. Déjenme pasar.
+
+04:00:29.000 --> 04:00:36.000
+Aguantes, una o 2 más. Yo también estoy cansado. Así que el esfuerzo mutua para que no crean que soy.
+
+04:00:36.000 --> 04:00:46.000
+Desalmado, un agente desalmado. Bien, aquí está. Y con esto voy terminando la arquitectura de pizarra o blackboard.
+
+04:00:46.000 --> 04:00:52.000
+Este es otra forma de lidiar con sistemas multi agente bastante más.
+
+04:00:52.000 --> 04:00:55.000
+Sencilla, y por eso que se llama el Blackboard.
+
+04:00:55.000 --> 04:01:06.000
+Básicamente, todos estamos haciendo algo. Tengo un blackboard. Los agentes pueden leer y escribir al blackboard y, por lo tanto, vamos haciendo lo que está acá.
+
+04:01:06.000 --> 04:01:16.000
+Escribo soluciones parciales. Yo le digo: Oye, entonces. Voy a hacer un ejemplo super mundano en poder decirte.
+
+04:01:16.000 --> 04:01:20.000
+En un agente que yo digo, Sabes que más. Entonces queremos comprar tal y cuales cosas.
+
+04:01:20.000 --> 04:01:35.000
+Y, por lo tanto, aquí los agentes empiezan a buscar proveedores, etcétera, y voy poniendo equipos. El proveer 1 me ofrece a tal precio por unidad tal fecha de entrega y la calidad que yo he visto. Él es.
+
+04:01:35.000 --> 04:01:41.000
+Decente, y así sucesivamente. Y, por lo tanto, cierto, el resto va habiendo este blackboard.
+
+04:01:41.000 --> 04:01:48.000
+Va sacando información que les interesa para ir avanzando esa tarea.
+
+04:01:48.000 --> 04:01:56.000
+La 1, 2, 3, 4, la. Quinta línea que dice esto de que usted comprender que rápidamente el blackboard.
+
+04:01:56.000 --> 04:02:02.000
+Se abarrota de cosas y, por lo tanto, puedo tener en el fondo una jerarquía.
+
+04:02:02.000 --> 04:02:13.000
+O sea, tener de nuevo. Los hechos más importantes, por decir más generales, y después tener otros Black Box para.
+
+04:02:13.000 --> 04:02:22.000
+Cosas más detalladas. Voy a dar un ejemplo cierto en la primera, que yo puedo decir: Sabes qué más hagamos una revisión preliminar.
+
+04:02:22.000 --> 04:02:33.000
+De los proveedores, a los cuales les vamos a cotizar y después tener otro Blackpool con las cotizaciones y otro blackboard, ¿cierto? Con la información extra, etcétera.
+
+04:02:33.000 --> 04:02:37.000
+Sí, sé que la obra no ayuda mucho, pero una pregunta.
+
+04:02:37.000 --> 04:02:45.000
+No importa si termino en esta, por ejemplo, por ejemplo, si si 1 tiene 6 agentes en un sistema multigente.
+
+04:02:45.000 --> 04:02:53.000
+Y 1 puede combinar hacer híbrido la arquitectura, por ejemplo, que el 10 por 100 de cada gente.
+
+04:02:53.000 --> 04:03:01.000
+Haga algunas tareas en modo pizarra, y el 90 por 100 puede ser las trabaja en tareas como discreto y podría ser.
+
+04:03:01.000 --> 04:03:06.000
+Te cuento, Enrique. No lo he visto. No lo he visto, pero sí puede ser.
+
+04:03:06.000 --> 04:03:09.000
+O sea, no, no lo excluye. Así de buenas a primera.
+
+04:03:09.000 --> 04:03:12.000
+Bien, 2 cositas más. Y terminamos.
+
+04:03:12.000 --> 04:03:18.000
+Yeah, el gran problema que tenemos con esto. Excepto lo mismo que pasa en la base de datos.
+
+04:03:18.000 --> 04:03:29.000
+Ya acceso, o sea, cuando yo estoy escribiendo, acá ¿cierto? A lo mejor, alguien puede estar escribiendo algo, pero el otro no puede llegar borrármelo y cambiarme. Yo que sé. Lo mismo pasa.
+
+04:03:29.000 --> 04:03:32.000
+Excepto con la fase ato y el famoso.
+
+04:03:32.000 --> 04:03:42.000
+Daily embrace, etc, etc, etc. Y el otro problema, este que está acá claro, no tenemos actividad realmente concurrente, porque todos estamos trabajando.
+
+04:03:42.000 --> 04:03:54.000
+Más o menos en lo mismo en lo otro. No porque yo digo, Tú te encargas de eso. Trabaja en paralelo, tú en otro. Aquí no. Aquí estamos entre todos. Y claro, nos estamos ayudando. Eso sí, cierto que si yo estoy buscando proveedor.
+
+04:03:54.000 --> 04:03:57.000
+Y otro ya lo tienen. Y digo, Ah, ya perfecto.
+
+04:03:57.000 --> 04:04:03.000
+Estoy de acuerdo. Ya elijo este proveedor y ahora, por lo tanto, yo ya sigo negociando con este.
+
+04:04:03.000 --> 04:04:08.000
+Y, por lo tanto, efectivamente me ayudaron. Pero no es exactamente todo.
+
+04:04:08.000 --> 04:04:13.000
+In paralelo. Por eso. Que este método.
+
+04:04:13.000 --> 04:04:23.000
+Ya un método bastante más. Sencillo y ya son casi las 9 y media. Les agradezco la paciencia.
+
+04:04:23.000 --> 04:04:32.000
+La próxima clase. Continuamos desde. Voy a ver aquí. No está el número desde la 22 y nos quedan todavía.
+
+04:04:32.000 --> 04:04:36.000
+Como 50 transparencias. Así que estamos más o menos bien.
+
+04:04:36.000 --> 04:04:42.000
+Professy una consulta pequeñita. La próxima clase. ¿vamos a ver algún ejemplo práctico de esto de multigente.
+
+04:04:42.000 --> 04:04:45.000
+Sí, sí.
+
+04:04:45.000 --> 04:04:52.000
+Disclaimer paganos. Lo vamos a ver en general. A mí me voy. A be.
+
+04:04:52.000 --> 04:04:57.000
+Disculpa mi información mental más tirado para robótica.
+
+04:04:57.000 --> 04:05:00.000
+Yeah, okay. Pero vamos a ver. Vamos a ver.
+
+04:05:00.000 --> 04:05:05.000
+Si no me equivoco. Uno, 2, 3 ejemplos. Okay, 1 es fútbol.
+
+04:05:05.000 --> 04:05:17.000
+La Rogocup. Ya 1 de una línea de ensamblaje, pero con robots con ad, pero que se coordinan entre ellos. Qué sé yo y otra, el Instituto Tecnológico de Syurich.
+
+04:05:17.000 --> 04:05:25.000
+Pero y simulado en el logo, y después llevaba no. Luego ya verán. Simplemente lo voy a ver en.
+
+04:05:25.000 --> 04:05:34.000
+En vídeo. ¡ah, Ok. En vídeo, sí, pero no va a mostrar, por ejemplo, el lenguaje o no, no.
+
+04:05:34.000 --> 04:05:36.000
+No conozco, no lo voy a mostrar. O sea, van a ser ejemplo.
+
+04:05:36.000 --> 04:05:41.000
+Solamente decir: Miren esto, existe, etcétera.
+
+04:05:41.000 --> 04:05:43.000
+Yeah. Where's the profe?
+
+04:05:43.000 --> 04:05:48.000
+Then. Ah, bien, muchas gracias a los que estaban los que están en línea.
+
+04:05:48.000 --> 04:05:56.000
+Nos vemos entonces el próximo. Lunes que tengan buen fin de semana largo.
+
+04:05:56.000 --> 04:06:00.000
+Ya, ehh? Y. Lleguen tranquilaipo. No.
+
+04:06:00.000 --> 04:06:08.000
+Listo
+

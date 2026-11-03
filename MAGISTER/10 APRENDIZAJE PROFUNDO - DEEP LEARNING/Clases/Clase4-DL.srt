@@ -1,0 +1,9544 @@
+1
+00:00:02,450 --> 00:00:08,450
+dejo la palabra abierta por si alguien del curso de los que están ahí online o los que están acá
+
+2
+00:00:08,450 --> 00:00:14,930
+tengan dudas respecto al trabajo que hay que hacer. Es importante porque aquí la idea no es ser
+
+3
+00:00:14,930 --> 00:00:20,530
+teórico sino que es un trabajo aplicado y importante que ya tengan ese documento, o sea,
+
+4
+00:00:20,530 --> 00:00:25,250
+veanlo, si no lo han visto veanlo ahora en este mismo instante y por favor si tienen alguna duda o
+
+5
+00:00:25,250 --> 00:00:29,370
+pregunta que quieran hacerme ahora este un buen momento porque me están viendo la cara,
+
+6
+00:00:29,850 --> 00:00:36,210
+ese igual de más, después me pueden preguntar por correo, pero tengo un pequeño delay con
+
+7
+00:00:36,210 --> 00:00:41,930
+la respuesta de los correos porque esto no lo cura, entonces si quieren tener alguna duda respecto
+
+8
+00:00:41,930 --> 00:00:48,010
+a la tarea por favor ahí me aprovechan de preguntar. La tarea como si ustedes ven el documento es
+
+9
+00:00:48,010 --> 00:00:55,010
+bastante sencillo, la idea aquí es que una condición súper importante es que lo que vayan a
+
+10
+00:00:55,010 --> 00:01:03,730
+hacer sea sobre la base de datos, una base de datos reales. O sea, como esto va a ser sobre la base de
+
+11
+00:01:03,730 --> 00:01:08,810
+un equipo van a ver varias personas, entonces tal vez uno no puede compartir los datos pero si otra
+
+12
+00:01:08,810 --> 00:01:15,170
+persona lo puede tener acceso, pero da lo mismo, lo importante es que puedan utilizar datos reales.
+
+13
+00:01:15,170 --> 00:01:20,530
+¿Por qué? Porque ahí si ustedes se van a dar cuenta de todos los pormenores que implica
+
+14
+00:01:20,530 --> 00:01:24,570
+trabajar con datos reales y además también es más motivante sobre todo para la persona
+
+15
+00:01:24,570 --> 00:01:28,930
+que está trabajando, para que uno pueda ver que efectivamente se pueden hacer cosas interesantes,
+
+16
+00:01:28,930 --> 00:01:34,450
+ya. Entonces eso es un factor importante, ir desde ya ahora, o sea que igual quedan como
+
+17
+00:01:34,450 --> 00:01:39,130
+3 o 4 semanas para que termine el curso, ir desde ya, o sea no dejen esto para última hora,
+
+18
+00:01:39,130 --> 00:01:44,490
+ir desde ya viendo y coordinándose entre las personas de su equipo, quién puede conseguir los
+
+19
+00:01:44,490 --> 00:01:49,170
+datos, qué sé yo, eso es lo primero, lo primero que hay que hacer es empezar a ver
+
+20
+00:01:49,170 --> 00:01:55,330
+el tema de los datos. Una vez que ya tienen asegurado los datos, que yo como si tienen problemas
+
+21
+00:01:55,330 --> 00:02:01,530
+de confidencialidad y todo eso, no se hagan problemas porque ustedes no tienen que mostrar
+
+22
+00:02:01,530 --> 00:02:04,610
+la base de datos ni tampoco tienen que enviarla a ninguna persona, lo único que tienen que
+
+23
+00:02:04,610 --> 00:02:09,170
+mostrar son los resultados como están planteados ahí en el trabajo, no es necesario mostrar
+
+24
+00:02:09,170 --> 00:02:14,170
+datos específicos, ¿ya?
+
+25
+00:02:14,170 --> 00:02:20,810
+Sí, respecto a eso ya, bueno, una cosa de la confidencialidad, los datos que no voy filtrando,
+
+26
+00:02:20,810 --> 00:02:25,730
+root, nombre en particular, yo que trabajo con un paciente, no hay problema con eso,
+
+27
+00:02:25,730 --> 00:02:30,930
+pero también el excel que yo tengo, con el que he estado trabajando, igual lo he ido
+
+28
+00:02:30,930 --> 00:02:36,650
+filtrando en función de cosas que yo desde ya sé que no me van a aportar para el problema que tengo,
+
+29
+00:02:37,010 --> 00:02:44,570
+bechas, el tipo de examen que con lo que estoy trabajando, etcétera, y he ido filtrando
+
+30
+00:02:44,570 --> 00:02:49,210
+directamente esas variables y ahí tengo que preguntar, ¿qué son las cosas filtradas de
+
+31
+00:02:49,210 --> 00:02:53,450
+ya? En el excel tengo que ir derecho a eliminar o igual tengo que dejar escrito que
+
+32
+00:02:53,450 --> 00:02:58,130
+diré, por ejemplo, un drop o, o sea, que hiciera estos datos.
+
+33
+00:02:58,130 --> 00:03:05,750
+Ya, a ver, muy simple, mira, la respuesta es muy simple, lo primero, claro, yo
+
+34
+00:03:05,790 --> 00:03:09,550
+recién le estaba comentando de que claro, pues he trabajado y empezará a hacer algo,
+
+35
+00:03:09,550 --> 00:03:14,870
+hay que tener los datos y asegurarse con los datos, pero tal vez algo que vale la pena
+
+36
+00:03:14,870 --> 00:03:20,830
+mencionar y que es súper importante y creo que también sale, es claro, ante incluso de definir,
+
+37
+00:03:20,830 --> 00:03:25,350
+digamos, de tener los datos, es definir cuál va a ser el task, cuál va a ser la actividad,
+
+38
+00:03:25,350 --> 00:03:30,430
+que ustedes van a van a desarrollar, o sea, qué tipo de modelo, por esto me refiero a tener
+
+39
+00:03:30,510 --> 00:03:36,190
+claro, desde el principio paso cero, es definir si esto se va a hacer, esto se va a tratar de un
+
+40
+00:03:36,190 --> 00:03:42,750
+problema de clasificación, de regresión, de regresión, de un problema multiclas, entonces si
+
+41
+00:03:42,750 --> 00:03:47,470
+tú tienes, primero, entonces si tú tienes claro ese cuál va a ser el task, qué tipo de predicción
+
+42
+00:03:47,470 --> 00:03:52,630
+vas a hacer, ya inmediatamente tú va a tener mejor, mejor claridad de cuáles son las variables
+
+43
+00:03:52,630 --> 00:03:58,270
+que vas a tener que filtrar o quedarte con la base de datos y tener claro cuál va a
+
+44
+00:03:58,270 --> 00:04:02,710
+ser la variable clas, entonces la respuesta ante tu pregunta, sí, por supuesto, tú filtran
+
+45
+00:04:02,710 --> 00:04:07,950
+o más todos los datos que sean necesarios, pero pensando en dejar todo aquello que sea
+
+46
+00:04:07,950 --> 00:04:12,550
+importante para ese task, ese problema que ya tienes en mente, o que tienen en mente.
+
+47
+00:04:13,550 --> 00:04:19,630
+Claro, el punto es que yo seguí sacando esos datos y mi data set igual va impulsando mis
+
+48
+00:04:19,630 --> 00:04:24,830
+capacidades, entonces igual quiero a menos pequeños, tenemos edad, besos, enfermedad 1,
+
+49
+00:04:24,870 --> 00:04:30,430
+enfermedad 2 y un teo multiclas en el fondo de tres condiciones, que es para sacar costos,
+
+50
+00:04:30,430 --> 00:04:38,550
+influye que el data set en cuanto a variables sea pequeño, tengo cinco clases, no sé si eso es mucho,
+
+51
+00:04:38,550 --> 00:04:46,230
+es poco. No te escuché mucho lo último, pero te refiere a que tienes pocas predicciones,
+
+52
+00:04:46,230 --> 00:04:54,510
+pocas columnas. Tengo como cinco columnas. Ya, pero cuántos datos, cuántas instancias
+
+53
+00:04:54,590 --> 00:05:00,190
+tienes, porque si eso tú lo compensas por tener una buena cantidad de datos de gamo en
+
+54
+00:05:00,190 --> 00:05:06,590
+tecaso pací, no sé qué serán pacientes, personas, igual ya se puede hacer algo, pero
+
+55
+00:05:06,590 --> 00:05:11,710
+si tienes pocas columnas, además tienes pocas instancias, una mocha muy chica, para este
+
+56
+00:05:11,710 --> 00:05:19,950
+asunto de redes neuronales no te va a funcionar. Claro, tengo un n de 500, que en verdad puede
+
+57
+00:05:19,950 --> 00:05:25,790
+hacer muchos más, porque lo saco por el programa que acumula pacientes durante varios años, entonces
+
+58
+00:05:25,790 --> 00:05:32,110
+el n no es problema, es más que nada las variables que tengo. Ya, entonces lo que tú puedes hacer
+
+59
+00:05:32,110 --> 00:05:37,990
+por mientras, si ya tienes esa disponibilidad de datos tú ya puedes empezar a sacar esa
+
+60
+00:05:37,990 --> 00:05:46,590
+muestra de 500, ya que no es que sea poco, y tener más por supuesto, pero ya entonces
+
+61
+00:05:46,750 --> 00:05:51,150
+mientras tú puedes sacar esa muestra de 500 y empezar a hacer una prueba piloto así
+
+62
+00:05:51,150 --> 00:05:57,870
+rápida, para ver qué es lo que te da, y si eso da prometedor o se da, se ve interesante, en
+
+63
+00:05:57,870 --> 00:06:04,190
+paralelo tú ves gestionando la posibilidad después de agregar más instancia, de
+
+64
+00:06:04,190 --> 00:06:09,150
+conseguirte otras 500, en fin, entonces ahí mi recomendación es que hagas un piloto
+
+65
+00:06:09,150 --> 00:06:14,950
+con esa muestra chiquitita de 500 y vea qué te sale, y si parece prometedor la cosa,
+
+66
+00:06:14,950 --> 00:06:19,710
+a pesar de que tiene solamente 5 variables, dale con más, trata de conseguirte más.
+
+67
+00:06:29,870 --> 00:06:36,510
+Bueno, eso es lo que tú estás presuponiendo, no nunca sabes, a veces hay sorpresas,
+
+68
+00:06:36,510 --> 00:06:43,310
+no quites cosas porque tú creas, tal vez hay que agregarla, procesarla, tal vez más pega,
+
+69
+00:06:43,310 --> 00:06:49,870
+porque hay más procesamiento, y en una eso te salva el día, no sé, no hay que hacer,
+
+70
+00:06:49,870 --> 00:06:54,990
+aquí, aquí en a diferencia de econometría y en estadística, aquí tú le puedes dar
+
+71
+00:06:54,990 --> 00:07:00,030
+toda la información, o sea, tú deja que el algoritmo discrimine cuál van a ser
+
+72
+00:07:00,030 --> 00:07:09,600
+las variables más importantes, eso lo hace el algoritmo. Ya, empiezan a salir dudas interesantes,
+
+73
+00:07:09,600 --> 00:07:14,760
+que son cosas de cosas del, ahí cuando hay que meter la mano en el modo.
+
+74
+00:07:15,760 --> 00:07:22,760
+No sé, yo realmente tengo la más purta, me escucho. No sé si hay que tratar de ver un problema que
+
+75
+00:07:22,760 --> 00:07:29,320
+si o si tenga que ser presupuesto solamente con, con red neuronal y que no se justifique usar
+
+76
+00:07:29,320 --> 00:07:35,040
+lo otro algoritmo que habíamos planteado en las testes pasadas, según lo veo como complicado.
+
+77
+00:07:36,000 --> 00:07:43,840
+Ya, bueno, a ver, aquí, o sea, este curso de deep learning, así que aquí el algoritmo estrés
+
+78
+00:07:43,840 --> 00:07:48,680
+ya es el algoritmo, o sea, todo aquí es el algoritmo de Fit for War and Back Propagation
+
+79
+00:07:48,680 --> 00:07:53,440
+para poder entrar en la red neuronal. Ahora, entonces, tú tienes que generar o tienes que plantear.
+
+80
+00:07:53,440 --> 00:07:58,800
+Yo lo decía, lo decía en el ámbito de que hay que justificar, usarlo, usarlo bien teóricamente,
+
+81
+00:07:58,800 --> 00:08:01,600
+a su refería no dice que el curso es de este tema.
+
+82
+00:08:02,560 --> 00:08:05,480
+Te refieres, ¿por qué justificar una red neuronal?
+
+83
+00:08:08,360 --> 00:08:14,640
+Ah, bueno, bueno, tú sabes que hay varias justificaciones y entre ellas puedes considerar
+
+84
+00:08:14,640 --> 00:08:19,000
+cualquiera de ellas por las cuales uno utiliza, por ejemplo, una red neuronal cuando, por ejemplo,
+
+85
+00:08:19,000 --> 00:08:24,480
+uno sabe, uno dice que la relación en los patrones que hay son demasiado no lineales,
+
+86
+00:08:24,480 --> 00:08:29,160
+entonces imagínate que tienes varias variables y entonces es muy difícil,
+
+87
+00:08:29,520 --> 00:08:33,880
+si algo que es bueno la red neuronal es precisamente para encontrar todos esos patrones no lineales
+
+88
+00:08:33,880 --> 00:08:37,400
+que de otra forma u otro algoritmo les sería muy costoso, muy difícil.
+
+89
+00:08:37,400 --> 00:08:41,280
+Entonces, ahí tú puedes justificar el uso de este tipo de herramientas,
+
+90
+00:08:41,280 --> 00:08:48,960
+de este tipo de herramientas, de este modelo en esas ventajas que nosotros comentamos
+
+91
+00:08:48,960 --> 00:08:50,440
+al principio de la clase, ¿te recuerdas?
+
+92
+00:08:51,560 --> 00:08:56,560
+Sí, y por otro lado, la otra estrategia es como la preselección de variables,
+
+93
+00:08:56,680 --> 00:09:01,840
+y tú solo las otras transformaciones multidimensionales se pueden emplear también,
+
+94
+00:09:01,840 --> 00:09:05,360
+o la idea es dejarlo como directamente.
+
+95
+00:09:05,360 --> 00:09:11,640
+Acá naturalmente que van a estar obligados a hacer todo tan sonado,
+
+96
+00:09:11,640 --> 00:09:16,440
+van a tener que hacer un preprocesamiento de datos y tal vez hacer transformaciones variable,
+
+97
+00:09:16,440 --> 00:09:20,040
+o sea, un clean data cleaning y todas esas cosas que ya saben,
+
+98
+00:09:20,040 --> 00:09:26,000
+eso lo tienen que hacer de todas maneras, tal vez no es lo más importante
+
+99
+00:09:26,000 --> 00:09:29,720
+en la evaluación, hay que hacerlo, hay que mencionarlo o describirlo,
+
+100
+00:09:29,720 --> 00:09:35,280
+pero tampoco se trata de hacer un report así como una vitácula de cada paso que hicieron,
+
+101
+00:09:35,280 --> 00:09:40,760
+porque aquí el plato fuerte es precisamente el desempeño de la red neuronal,
+
+102
+00:09:40,760 --> 00:09:48,600
+y otra cosa antes que se me olvide, aquí, claro, aquí la estrella del asunto
+
+103
+00:09:48,600 --> 00:09:52,840
+son las redes neuronales, pero siempre recuerden, plantar un modelo base,
+
+104
+00:09:53,560 --> 00:09:58,400
+un modelo base que es el que ustedes tienen que batir, mejorar,
+
+105
+00:09:58,400 --> 00:10:02,440
+o sea, puede ser un, y ahí tú puedes colocar un algoritmo de tu gusto,
+
+106
+00:10:02,440 --> 00:10:06,840
+no sé, un random forest o una Ibai, no sé,
+
+107
+00:10:06,840 --> 00:10:08,880
+alguno de estos algoritmos que tú lo vas a utilizar,
+
+108
+00:10:08,880 --> 00:10:10,680
+ahí sí puedo hacer la comparación.
+
+109
+00:10:10,680 --> 00:10:14,200
+Exacto, eso es súper importante y hay gente que se lo olvida,
+
+110
+00:10:14,200 --> 00:10:18,600
+o sea, aquí la idea es precisamente demostrar que una red neuronal
+
+111
+00:10:18,600 --> 00:10:21,840
+lo puede hacer mucho mejor que un modelo más simple,
+
+112
+00:10:21,840 --> 00:10:24,200
+entonces ese modelo simple que ustedes elijan,
+
+113
+00:10:24,200 --> 00:10:26,640
+tiene que ser el modelo base contra el cual comparar,
+
+114
+00:10:26,640 --> 00:10:31,040
+y por supuesto van a tener que definir cuál va a ser la medida de desempeño contra cuál de comparar.
+
+115
+00:10:31,040 --> 00:10:38,380
+¿Y el eleccionado triste de que no diera peor que hay que tratar de dar de vuelta no a la cosa?
+
+116
+00:10:38,380 --> 00:10:40,340
+Perdón, ¿cómo?
+
+117
+00:10:40,340 --> 00:10:45,820
+¿En el eleccionado triste de que no diera peor hay que tratar de dar de vuelta a la cosa no más?
+
+118
+00:10:46,700 --> 00:10:50,300
+No, no, no, no, si no hay que, no, o sea,
+
+119
+00:10:50,300 --> 00:10:56,020
+si eventualmente tienen un, o sea, si ustedes colocan un modelo base,
+
+120
+00:10:56,020 --> 00:10:58,260
+un modelo base, estoy hablando de un modelo base simple,
+
+121
+00:10:58,260 --> 00:11:02,340
+tal vez un modelo de regresión lineal, o no sé, una Ibai,
+
+122
+00:11:02,340 --> 00:11:05,420
+o sí, ya, sin hacer los hyperparados,
+
+123
+00:11:05,420 --> 00:11:07,260
+o sea, nada de eso, sí, como el base base.
+
+124
+00:11:08,500 --> 00:11:12,060
+Claro, un modelo base que esté bien entrenado,
+
+125
+00:11:12,060 --> 00:11:13,660
+pero que sea como base,
+
+126
+00:11:13,740 --> 00:11:19,740
+y que sea mucho más simple que una red neuronal en términos de costo computacional,
+
+127
+00:11:19,740 --> 00:11:23,740
+por ejemplo, una Ibai, eso, un decision tree, no es cierto,
+
+128
+00:11:23,740 --> 00:11:28,380
+siempre va a ser mucho más fácil, mucho más simple que una red neuronal.
+
+129
+00:11:28,380 --> 00:11:32,780
+Entonces, si llega, si llegase a pasar,
+
+130
+00:11:32,780 --> 00:11:37,980
+de que por más que tú vas ya optimizado la red neuronal
+
+131
+00:11:37,980 --> 00:11:40,540
+y su desempeño sigue siendo peor,
+
+132
+00:11:40,540 --> 00:11:44,460
+que el modelo base no hay que torcer la cosa,
+
+133
+00:11:44,460 --> 00:11:48,980
+o sea, bueno, Dios sí, y ahí tú tienes la tarea de explicar
+
+134
+00:11:48,980 --> 00:11:52,820
+de cuál podrías hacer las causas que podrías estar pasando, eso,
+
+135
+00:11:52,820 --> 00:11:54,660
+pero no hay que vaya a estar malo.
+
+136
+00:11:55,940 --> 00:11:56,980
+Gracias, profe.
+
+137
+00:11:58,780 --> 00:12:00,540
+Profe, una última pregunta.
+
+138
+00:12:00,540 --> 00:12:06,060
+Por ejemplo, cuando dice que hay que hacer algunos experimentos,
+
+139
+00:12:06,060 --> 00:12:09,940
+por ejemplo, si yo cambio, el optimizador cuesta como un experimento diferente
+
+140
+00:12:09,940 --> 00:12:13,340
+o necesariamente tengo que modificar la arquitectura del modelo.
+
+141
+00:12:13,340 --> 00:12:19,060
+No te acasamos a escuchar si te puede acercar un poco más,
+
+142
+00:12:19,060 --> 00:12:21,820
+porque está, se escucha muy chico, muy de paso.
+
+143
+00:12:21,820 --> 00:12:23,460
+Ahí sí, sí, sí.
+
+144
+00:12:23,460 --> 00:12:24,780
+Ahí está un poco mejor.
+
+145
+00:12:24,780 --> 00:12:27,740
+Ya, lo que pasa es que usted, en el archivo,
+
+146
+00:12:27,740 --> 00:12:30,180
+dice como probar con distintos experimentos, ¿verdad?
+
+147
+00:12:30,180 --> 00:12:30,980
+Ya.
+
+148
+00:12:30,980 --> 00:12:35,700
+La pregunta es, si yo cambio el optimizador, por ejemplo,
+
+149
+00:12:35,780 --> 00:12:40,580
+o no sé, el Denny Ray, se corre como un nuevo experimento
+
+150
+00:12:40,580 --> 00:12:44,220
+para no ir modificando siempre la arquitectura del modelo
+
+151
+00:12:44,220 --> 00:12:46,060
+o tiene que ser la arquitectura del modelo
+
+152
+00:12:46,060 --> 00:12:49,420
+la que tengo que estar cambiando, la cantidad de capas, etcétera.
+
+153
+00:12:49,420 --> 00:12:51,260
+¿Qué se afectan más?
+
+154
+00:12:51,260 --> 00:12:57,540
+O sea, cada equipo es libre de escoger la arquitectura,
+
+155
+00:12:57,540 --> 00:13:01,180
+por un lado, la arquitectura que crea que es la más conveniente
+
+156
+00:13:01,180 --> 00:13:04,300
+y también es libre de seleccionar los hiperparámetros
+
+157
+00:13:04,340 --> 00:13:08,140
+que crean que son los que le van a pegar más al desempeño.
+
+158
+00:13:08,140 --> 00:13:10,220
+Entonces, claro, lo más básico,
+
+159
+00:13:10,220 --> 00:13:13,100
+lo primero es partir con algún diseño de arquitectura.
+
+160
+00:13:13,100 --> 00:13:17,500
+Tal vez partes, tú puedes partir con un modelo base de neuronal.
+
+161
+00:13:17,500 --> 00:13:18,780
+Por ejemplo, un perceptron.
+
+162
+00:13:18,780 --> 00:13:21,180
+Ya, listo, ya se ajustó, funciona más o menos.
+
+163
+00:13:21,180 --> 00:13:23,340
+Y resulta que, como funciona más o menos,
+
+164
+00:13:23,340 --> 00:13:26,300
+le voy a agregar un más neurón y otra cama más.
+
+165
+00:13:26,300 --> 00:13:29,100
+Listo, entonces, y ahí tú puedes ir evaluando
+
+166
+00:13:29,100 --> 00:13:32,860
+cómo es la mejora al quitar o a agregar algo
+
+167
+00:13:32,860 --> 00:13:34,420
+respecto a la arquitectura.
+
+168
+00:13:34,420 --> 00:13:37,500
+Y sobre eso, después, también, si tú quieres,
+
+169
+00:13:37,500 --> 00:13:40,540
+le puedes modificar algún hiperparámetro que tenga que ver,
+
+170
+00:13:40,540 --> 00:13:45,860
+por ejemplo, como la tasa de aprendizaje o el, como se llama,
+
+171
+00:13:45,860 --> 00:13:47,940
+o el optimizador.
+
+172
+00:13:47,940 --> 00:13:51,220
+En fin, hay varias alternas, el regularizador.
+
+173
+00:13:51,220 --> 00:13:53,460
+En fin, hay varias cosas que uno puede modificar.
+
+174
+00:13:53,460 --> 00:13:56,420
+Nos las hemos hablado todas, pero ahí, con la media que vayamos
+
+175
+00:13:56,420 --> 00:14:00,500
+basando en el curso, van a ver ustedes que tienen esto al
+
+176
+00:14:00,500 --> 00:14:03,380
+final, ustedes son los arquitectos de un modelo.
+
+177
+00:14:03,380 --> 00:14:06,380
+Ya el tema del código, ya no pasa segundo plano.
+
+178
+00:14:06,380 --> 00:14:12,670
+Aquí es la arquitectura, ¿sí?
+
+179
+00:14:12,670 --> 00:14:14,150
+Profesor.
+
+180
+00:14:14,150 --> 00:14:14,910
+Sí.
+
+181
+00:14:14,910 --> 00:14:18,550
+Y yo tengo otra duda por acá.
+
+182
+00:14:18,550 --> 00:14:22,750
+Para el caso de la arquitectura de clasificación,
+
+183
+00:14:22,750 --> 00:14:28,270
+que tenemos que tener una base de datos etiquetada ya o no?
+
+184
+00:14:28,270 --> 00:14:34,150
+Si tú planteas y que sería súper útil para la empresa y como
+
+185
+00:14:34,150 --> 00:14:38,310
+motivante para ti, que sería interesante generar un modelo de
+
+186
+00:14:38,310 --> 00:14:40,470
+clasificación para resolver un problema,
+
+187
+00:14:40,470 --> 00:14:44,070
+evidentemente, que vas a tener que asegurarte de que tus datos
+
+188
+00:14:44,070 --> 00:14:47,670
+tengan una variable clase y que naturalmente estén etiquetados.
+
+189
+00:14:47,670 --> 00:14:49,870
+O sea, si un problema de clasificación binario,
+
+190
+00:14:49,870 --> 00:14:53,830
+tus datos van a tener que tener una variable que diga sí o no,
+
+191
+00:14:53,830 --> 00:14:56,590
+0 o 1, algo así, ¿no?
+
+192
+00:14:56,590 --> 00:15:06,020
+Ocas, me queda claro.
+
+193
+00:15:06,020 --> 00:15:06,780
+Ya.
+
+194
+00:15:06,780 --> 00:15:08,460
+Bueno, sigamos entonces.
+
+195
+00:15:08,460 --> 00:15:11,500
+Bueno, si alguien de repente tiene preguntas,
+
+196
+00:15:11,500 --> 00:15:15,500
+le aparezco alguna pregunta a dudas, me dice, ¿ya?
+
+197
+00:15:15,500 --> 00:15:20,140
+Estamos aquí en una, bueno, ya, entonces, ya.
+
+198
+00:15:20,140 --> 00:15:24,940
+Ya, dudas del trabajo final, OK, pasemos al segundo punto y el
+
+199
+00:15:24,940 --> 00:15:28,540
+segundo punto tiene que ver, ah, y a los que están pensando en
+
+200
+00:15:28,540 --> 00:15:30,180
+el control del control del control.
+
+201
+00:15:30,180 --> 00:15:34,740
+Un nuevo de explicar esto, vamos a pasar el control en una
+
+202
+00:15:34,740 --> 00:15:38,100
+cuestión súper rápida de 1 minuto y como ya les puse ahí,
+
+203
+00:15:38,100 --> 00:15:40,420
+hay mucha gente que no puede, porque hay que invertir.
+
+204
+00:15:40,420 --> 00:15:43,220
+Bueno, lo tendrá que ver de aquí hasta la,
+
+205
+00:15:43,220 --> 00:15:44,860
+esta cuestión va a estar prendida hasta las 9 de la
+
+206
+00:15:44,860 --> 00:15:47,780
+mañana, pero ojo que esto es one shoot.
+
+207
+00:15:47,780 --> 00:15:49,700
+O sea, se responde una vez y después ya no se puede
+
+208
+00:15:49,700 --> 00:15:51,900
+llamar, ¿ya?
+
+209
+00:15:51,900 --> 00:15:53,220
+Eso.
+
+210
+00:15:53,220 --> 00:15:58,780
+Entonces, antes de eso, aquí me gustaría que salgan al menos
+
+211
+00:15:58,780 --> 00:16:01,660
+de la primera hora entendiendo el por qué o la
+
+212
+00:16:01,660 --> 00:16:07,700
+explicación de por qué hay que agregar más capa, ¿ya?
+
+213
+00:16:07,700 --> 00:16:10,140
+Y aquí, entonces, para esto, como va a ser lo más
+
+214
+00:16:10,140 --> 00:16:13,140
+interesante, vamos a acceder aquí a una página web,
+
+215
+00:16:13,140 --> 00:16:16,620
+pero yo voy a hacer, de hecho, ustedes que están acá con el
+
+216
+00:16:16,620 --> 00:16:18,940
+computador y en la casa lo pueden ir haciendo conmigo.
+
+217
+00:16:18,940 --> 00:16:20,540
+Entonces, ahí les voy a explicar.
+
+218
+00:16:20,540 --> 00:16:23,620
+Entonces, aquí la cosa, vamos a imaginar que estamos en un
+
+219
+00:16:23,620 --> 00:16:27,020
+problema de clasificación binario, ¿ya?
+
+220
+00:16:27,060 --> 00:16:30,940
+Y vamos a partir sin ninguna capa, es decir,
+
+221
+00:16:30,940 --> 00:16:33,660
+con el modelo más elemental y básico que es de la red
+
+222
+00:16:33,660 --> 00:16:35,420
+neuronal, que era el que ustedes ya conocen,
+
+223
+00:16:35,420 --> 00:16:37,060
+ya me imagino hasta el túnel, hasta el aquí,
+
+224
+00:16:37,060 --> 00:16:39,420
+hasta aquí, con el perceptron.
+
+225
+00:16:39,420 --> 00:16:45,620
+Y entonces, la idea es que nos vayamos a esa página web
+
+226
+00:16:45,620 --> 00:16:49,780
+que está ahí, que se llama PlaygroundTensorFlow.org, ¿ya?
+
+227
+00:16:49,780 --> 00:16:52,540
+Como yo no puedo proyectar dos pantallas al mismo tiempo,
+
+228
+00:16:52,540 --> 00:16:56,460
+yo lo voy a hacer también, pero la idea es que lo vayan
+
+229
+00:16:56,460 --> 00:16:58,220
+haciendo ustedes conmigo, ¿ya?
+
+230
+00:16:58,220 --> 00:17:05,060
+Entonces, de mi segundo aquí va, a ver si lo puedo hacer aquí.
+
+231
+00:17:05,060 --> 00:17:16,680
+Playground.TensorFlow.org.
+
+232
+00:17:27,790 --> 00:17:32,190
+Entonces, cuando ustedes excedan a la página web, ¿ya?
+
+233
+00:17:32,190 --> 00:17:35,430
+Ustedes deberían ver algo como esto, ¿no es cierto?
+
+234
+00:17:35,430 --> 00:17:38,110
+Aquí, tanto ahí en la página web, ¿ya?
+
+235
+00:17:39,070 --> 00:17:42,830
+Entonces, van a ver, no igual, pero algo similar.
+
+236
+00:17:42,830 --> 00:17:48,830
+Entonces, aquí van a ver ustedes en tiempo real, ¿no?
+
+237
+00:17:48,830 --> 00:17:51,110
+Porque se los dice un profesorcito, dito, dito.
+
+238
+00:17:51,110 --> 00:17:56,030
+Sino que porque la cuestión lo va a simular aquí directamente.
+
+239
+00:17:56,030 --> 00:17:59,470
+¿Qué es lo que pasa bajo ciertas circunstancias?
+
+240
+00:17:59,470 --> 00:18:02,750
+Entonces, lo primero que vamos a hacer es comenzar
+
+241
+00:18:02,750 --> 00:18:04,950
+con un perceptron, ¿vale?
+
+242
+00:18:04,950 --> 00:18:08,350
+Y para poder observar y graficar esto,
+
+243
+00:18:08,350 --> 00:18:10,750
+vamos a utilizar solamente dos variables predictoras,
+
+244
+00:18:10,750 --> 00:18:13,990
+para que podamos, digamos, graficarlo en un plano 2D.
+
+245
+00:18:13,990 --> 00:18:15,950
+Pues si tuviésemos cuatro variables, lo podríamos, ¿ya?
+
+246
+00:18:15,950 --> 00:18:16,990
+Dos variables.
+
+247
+00:18:16,990 --> 00:18:23,270
+Y esas dos variables predictoras va a ser el x1 y el x2, ¿vale?
+
+248
+00:18:23,270 --> 00:18:25,470
+Y, adicionalmente, si se fijan aquí,
+
+249
+00:18:25,470 --> 00:18:29,590
+hay un montón de, un montón de hiperparámetros.
+
+250
+00:18:29,590 --> 00:18:32,150
+Vamos a dejar la tasa de aprendizaje,
+
+251
+00:18:32,150 --> 00:18:35,950
+como aparece la transparencia, en 0.1, ¿ya?
+
+252
+00:18:35,950 --> 00:18:38,590
+Voy a copiar los mismos parámetros que están.
+
+253
+00:18:38,590 --> 00:18:40,030
+Yo lo estoy haciendo en la página web,
+
+254
+00:18:40,030 --> 00:18:44,350
+pero yo estoy proyectando acá lo que aparece en la transparencia.
+
+255
+00:18:44,350 --> 00:18:47,550
+Entonces, vamos a dejar el learning rate en 0.1.
+
+256
+00:18:47,550 --> 00:18:52,030
+La función de activación, vamos a elegir una relu
+
+257
+00:18:52,030 --> 00:18:56,510
+y regularización nada, regularización rate nada.
+
+258
+00:18:56,510 --> 00:18:58,230
+Es un problema de clasificación.
+
+259
+00:18:58,230 --> 00:19:02,550
+Y, adicionalmente, vamos a seleccionar un set de datos
+
+260
+00:19:02,550 --> 00:19:05,470
+de este estilo, digamos, de este estilo,
+
+261
+00:19:05,470 --> 00:19:08,630
+en donde hay 2.2 grupos que están como bien separaditos.
+
+262
+00:19:08,630 --> 00:19:11,350
+Muy similar a lo que habíamos hecho la,
+
+263
+00:19:11,350 --> 00:19:12,590
+y ni me acuerdo de la clase pasada,
+
+264
+00:19:12,590 --> 00:19:15,030
+pero ya con los de estos en, o antes pasada,
+
+265
+00:19:15,030 --> 00:19:16,430
+yo se me trasladaba.
+
+266
+00:19:16,430 --> 00:19:18,390
+Bueno, sé que vimos hasta usted, ¿ya?
+
+267
+00:19:18,390 --> 00:19:21,750
+Y hicimos una simulación con dos datos y 10 separaditos, ¿ya?
+
+268
+00:19:21,750 --> 00:19:24,550
+Y como se trata de un perceptron,
+
+269
+00:19:24,550 --> 00:19:27,310
+lo que vamos a hacer aquí es vamos a quitarle todo esto.
+
+270
+00:19:27,390 --> 00:19:30,470
+Todas estas placeras se las vamos a quitar, ¿no es esto?
+
+271
+00:19:31,870 --> 00:19:37,030
+Ya, y hay, directo, de una.
+
+272
+00:19:37,030 --> 00:19:39,350
+Que o, o sea, eso que tienen a, o sea,
+
+273
+00:19:39,350 --> 00:19:40,230
+eso que tienen, bien digo,
+
+274
+00:19:40,230 --> 00:19:42,150
+eso que tienen ahí en las transparencias,
+
+275
+00:19:42,150 --> 00:19:45,190
+hay que tratar de llegar a eso en la página de esa manera.
+
+276
+00:19:45,190 --> 00:19:49,590
+Ah, lo otro es que vamos a colocar aquí el ratio de training
+
+277
+00:19:49,590 --> 00:19:51,670
+a 80%, ¿ya?
+
+278
+00:19:51,670 --> 00:19:52,590
+Eso me estaba faltando.
+
+279
+00:19:52,590 --> 00:19:54,190
+¿Qué quiere decir eso que vamos a utilizar?
+
+280
+00:19:54,190 --> 00:19:55,590
+De esos set de datos,
+
+281
+00:19:55,590 --> 00:19:59,310
+ese grupo de datos, sí, digamos, 1 y 0,
+
+282
+00:19:59,310 --> 00:20:00,790
+que están diferenciados por los colores,
+
+283
+00:20:00,790 --> 00:20:04,750
+el color menos 1, ese color naranjo,
+
+284
+00:20:04,750 --> 00:20:06,550
+y el color 1 de color azulito, ¿verdad?
+
+285
+00:20:06,550 --> 00:20:10,070
+Celeste, vamos a utilizar el 80% de entrenamiento
+
+286
+00:20:10,070 --> 00:20:12,270
+y el otro 20% para el test.
+
+287
+00:20:12,270 --> 00:20:13,310
+¿Ya?
+
+288
+00:20:13,310 --> 00:20:19,230
+El batch size, lo vamos a dejar en 10 y noise set, ¿vale?
+
+289
+00:20:19,230 --> 00:20:21,510
+Entonces, ¿qué es lo que vamos a hacer ahora?
+
+290
+00:20:21,510 --> 00:20:24,270
+Si se dan cuenta en la parte superior izquierda
+
+291
+00:20:24,270 --> 00:20:26,910
+aparece un botón play, ¿ya?
+
+292
+00:20:26,910 --> 00:20:29,150
+Y ustedes le van a dar ese botón play
+
+293
+00:20:29,150 --> 00:20:32,030
+y se van a dar cuenta que inmediatamente,
+
+294
+00:20:32,030 --> 00:20:36,710
+super rápido, aparecen, ocurren dos cosas, ¿ya?
+
+295
+00:20:36,710 --> 00:20:39,550
+La primera es que si se dan cuenta aquí, al lado,
+
+296
+00:20:39,550 --> 00:20:42,550
+en esta parte cita de la esquina superior derecha,
+
+297
+00:20:42,550 --> 00:20:47,670
+sale graficada la función de pérdida, ¿ok?
+
+298
+00:20:47,670 --> 00:20:51,350
+La función de pérdida y si se dan cuenta,
+
+299
+00:20:51,350 --> 00:20:52,830
+¿cómo es la función de pérdida?
+
+300
+00:20:52,830 --> 00:20:54,150
+Al principio es alta, ¿no es cierto?
+
+301
+00:20:54,230 --> 00:20:56,990
+Porque los pesos parten a todos los desordenados, ¿qué sé yo?
+
+302
+00:20:56,990 --> 00:20:59,110
+Y en este proceso de aprendizaje, ¿se acuerdan?
+
+303
+00:20:59,110 --> 00:21:02,830
+El algoritmo del perceptron que lo que va haciendo
+
+304
+00:21:02,830 --> 00:21:04,990
+va ajustando los pesos iteráticamente, ¿qué sé yo?
+
+305
+00:21:04,990 --> 00:21:07,030
+Para que ese loss, esa función de pérdida,
+
+306
+00:21:07,030 --> 00:21:08,190
+vaya disminuyendo.
+
+307
+00:21:08,190 --> 00:21:09,430
+¿Y qué es lo que vieron ahí?
+
+308
+00:21:09,430 --> 00:21:11,870
+Que del momento que oprimir un play,
+
+309
+00:21:11,870 --> 00:21:15,270
+el ese loss bajó rápido, super rápido.
+
+310
+00:21:15,270 --> 00:21:17,390
+Eso es lo que uno quiere, ¿vale?
+
+311
+00:21:17,390 --> 00:21:21,350
+Y otra cosa que aparece es que aparecen estas tuverías,
+
+312
+00:21:21,350 --> 00:21:22,870
+estas callerías ahí que están ahí, ¿ves?
+
+313
+00:21:22,870 --> 00:21:24,830
+Que se dan cuenta de que eso representa,
+
+314
+00:21:24,830 --> 00:21:27,470
+el grosor de esta callería estaría representando
+
+315
+00:21:27,470 --> 00:21:30,190
+el tamaño del peso, el valor absoluto del peso
+
+316
+00:21:30,190 --> 00:21:32,910
+que puede ser positivo o negativo, ¿ya?
+
+317
+00:21:32,910 --> 00:21:36,390
+Entonces, si ustedes lo dejan a correr inmediatamente,
+
+318
+00:21:36,390 --> 00:21:41,310
+que se dan cuenta, se dan cuenta que rápidamente
+
+319
+00:21:41,310 --> 00:21:44,070
+disminuyó esa función de pérdida y en forma
+
+320
+00:21:44,070 --> 00:21:47,910
+prácticamente instantánea, el modelo, el perceptron,
+
+321
+00:21:47,910 --> 00:21:50,550
+logró generar un boundary decision,
+
+322
+00:21:50,550 --> 00:21:54,350
+en este caso una recta que separa íntegramente
+
+323
+00:21:54,350 --> 00:21:57,990
+cada una de las dos clases, ¿ya?
+
+324
+00:21:57,990 --> 00:22:01,870
+Ustedes lo pueden recetear y correr otra vez
+
+325
+00:22:01,870 --> 00:22:05,630
+para convencerse de que lo hace super bien, ¿ya?
+
+326
+00:22:05,630 --> 00:22:09,830
+Entonces fíjense que, o sea, se me sigue, ¿verdad?
+
+327
+00:22:09,830 --> 00:22:11,910
+Una pregunta para la audiencia.
+
+328
+00:22:11,910 --> 00:22:14,430
+¿Por qué lo hace tan rápido y tan bien?
+
+329
+00:22:14,430 --> 00:22:17,620
+¿Cuál es la explicación?
+
+330
+00:22:17,620 --> 00:22:19,860
+Sí.
+
+331
+00:22:19,860 --> 00:22:22,460
+¿Ya? ¿Y el perceptron, qué es lo que hace?
+
+332
+00:22:22,460 --> 00:22:26,540
+¿Para qué es lo que es bueno?
+
+333
+00:22:26,540 --> 00:22:27,220
+Exactamente.
+
+334
+00:22:27,220 --> 00:22:30,740
+Entonces, en realidad no nos debería sorprender para nada
+
+335
+00:22:30,740 --> 00:22:33,820
+que si yo tengo un set de datos, los setos dos predictores
+
+336
+00:22:33,820 --> 00:22:37,820
+que determinan la instancia, digamos, en un plano
+
+337
+00:22:37,820 --> 00:22:39,780
+indigencional y que están bien separados,
+
+338
+00:22:39,780 --> 00:22:42,540
+no es ninguna sorpresa de que el perceptron haya logrado
+
+339
+00:22:42,540 --> 00:22:45,860
+en forma rápida y totalmente perfecta una separación
+
+340
+00:22:45,860 --> 00:22:47,900
+total, fantástico.
+
+341
+00:22:47,900 --> 00:22:49,220
+Ningún problema.
+
+342
+00:22:49,220 --> 00:22:53,780
+Ya, eso ya lo sabíamos, no debe ser ninguna sorpresa.
+
+343
+00:22:53,780 --> 00:22:57,660
+Pasemos entonces, pongámosle un poquito más de,
+
+344
+00:22:57,660 --> 00:23:00,620
+como se llama, de color al asunto, ¿ya?
+
+345
+00:23:00,620 --> 00:23:03,380
+Vamos a hacer exacto, vamos a recetear nuestra cuestión y vamos
+
+346
+00:23:03,380 --> 00:23:06,780
+a hacer exactamente lo mismo, pero con la única diferencia
+
+347
+00:23:06,780 --> 00:23:10,020
+de que ahora el set de datos que le vamos a colocar
+
+348
+00:23:10,020 --> 00:23:14,060
+es un set de datos que claramente ustedes pueden
+
+349
+00:23:14,060 --> 00:23:18,260
+encontrar una recta que pueda separar los azules de los
+
+350
+00:23:18,260 --> 00:23:21,140
+narajos, ciertamente que no, ¿no, cierto?
+
+351
+00:23:21,140 --> 00:23:24,500
+O sea, antes de que aprieten button play,
+
+352
+00:23:24,500 --> 00:23:27,060
+¿cómo lo va a hacer el perceptron?
+
+353
+00:23:27,060 --> 00:23:30,740
+Bueno, bueno, porque el perceptron, como bien dijo,
+
+354
+00:23:30,740 --> 00:23:34,540
+solamente es capaz de discriminar y es binary decision,
+
+355
+00:23:34,540 --> 00:23:38,380
+generar binary decision, que sean totalmente lineales.
+
+356
+00:23:38,380 --> 00:23:40,820
+Y esta cuestión no se puede separar linealmente.
+
+357
+00:23:40,820 --> 00:23:43,100
+Entonces, cuando yo apriete button play,
+
+358
+00:23:43,100 --> 00:23:46,010
+¿qué es lo que va a pasar?
+
+359
+00:23:46,090 --> 00:23:49,690
+Lo que va a pasar es que, oh, ocurrió algo.
+
+360
+00:23:49,690 --> 00:23:53,290
+Fíjense, el total loss, a mí por lo menos en la transparencia,
+
+361
+00:23:53,290 --> 00:23:55,450
+llegó como a 0,5.
+
+362
+00:23:55,450 --> 00:23:59,130
+O sea, el de a caro y sí es como del 50%.
+
+363
+00:23:59,130 --> 00:24:02,730
+Y no es cierto, y si ustedes se dan cuenta,
+
+364
+00:24:02,730 --> 00:24:06,610
+a ver, voy a ver si puedo transpasar esto para allá.
+
+365
+00:24:06,610 --> 00:24:09,810
+Esta es mi simulación en este momento, ¿ya?
+
+366
+00:24:09,810 --> 00:24:11,930
+Ahí está corriendo, ahí está corriendo.
+
+367
+00:24:11,930 --> 00:24:14,170
+¿Y qué es lo que ven?
+
+368
+00:24:14,170 --> 00:24:16,530
+¿Qué es lo que ven?
+
+369
+00:24:16,530 --> 00:24:19,090
+Llegó a un objetivo, disminuyó, sí, disminuyó,
+
+370
+00:24:19,090 --> 00:24:21,890
+llegó a un objetivo, pero ese objetivo, ese desempeño,
+
+371
+00:24:21,890 --> 00:24:22,970
+¿cómo está?
+
+372
+00:24:22,970 --> 00:24:25,210
+Está como en la mona.
+
+373
+00:24:25,210 --> 00:24:30,170
+De hecho, aquí no está, de hecho,
+
+374
+00:24:30,170 --> 00:24:32,690
+la mitad lo está discriminando bien y la otra mitad lo
+
+375
+00:24:32,690 --> 00:24:35,730
+está discriminando mal, porque está trazando aquí,
+
+376
+00:24:35,730 --> 00:24:37,810
+por cierto, está trazando un banner de decision,
+
+377
+00:24:37,810 --> 00:24:39,370
+que es básicamente una línea recta.
+
+378
+00:24:39,370 --> 00:24:41,730
+Entonces, la mitad de las cuestiones quedan bien,
+
+379
+00:24:41,730 --> 00:24:43,570
+bien clasificadas y la otra medida quedan mal,
+
+380
+00:24:43,570 --> 00:24:46,690
+por eso es que está dando 0,5.
+
+381
+00:24:46,690 --> 00:24:50,450
+Entonces, se dan cuenta que ahí yo lo puedo parar acá,
+
+382
+00:24:50,450 --> 00:24:52,890
+y no voy a lograr nada mejor que eso.
+
+383
+00:24:52,890 --> 00:24:59,250
+Entonces, la primera error que el estudiante comete acá es
+
+384
+00:24:59,250 --> 00:25:03,610
+decir, ah, como esto es un problema no lineal,
+
+385
+00:25:03,610 --> 00:25:06,650
+el perceptor lo va a hacer mal, hasta ahí todo bien.
+
+386
+00:25:06,650 --> 00:25:10,530
+Y como lo va a hacer mal, este los,
+
+387
+00:25:10,530 --> 00:25:13,530
+este comportamiento de la función de pérdida,
+
+388
+00:25:13,530 --> 00:25:17,530
+no va a convergir, se va a disparar y ahí está el error.
+
+389
+00:25:17,530 --> 00:25:22,930
+O sea, dicho de otra manera, el perceptron y con el algoritmo
+
+390
+00:25:22,930 --> 00:25:27,850
+el perceptron hizo todo lo posible para encontrar un óptimo.
+
+391
+00:25:27,850 --> 00:25:28,730
+¿Encontró un óptimo?
+
+392
+00:25:28,730 --> 00:25:31,890
+Sí, encontró un óptimo, ya no convergí más, o sea,
+
+393
+00:25:31,890 --> 00:25:35,410
+ya no sigue disminuyendo, pero el desempeño es pésimo,
+
+394
+00:25:35,410 --> 00:25:39,010
+pero eso no quiere decir que no haya encontrado un óptimo.
+
+395
+00:25:39,010 --> 00:25:39,650
+¿Se entiende eso?
+
+396
+00:25:39,650 --> 00:25:44,090
+Eso es clave porque la gente no confunde lo que es desempeño
+
+397
+00:25:44,090 --> 00:25:46,410
+con lo que es los, pérdida.
+
+398
+00:25:46,410 --> 00:25:47,570
+¿Encontró un óptimo?
+
+399
+00:25:47,570 --> 00:25:51,330
+Sí, pero eso no quiere decir que encontrar un óptimo
+
+400
+00:25:51,330 --> 00:25:55,330
+me vaya a dar un buen desempeño, ¿ya?
+
+401
+00:25:55,330 --> 00:25:56,490
+Que tenerlo aquí anodal.
+
+402
+00:25:56,490 --> 00:25:59,010
+O sea, hay que, no sé, de alguna manera acuerdarse
+
+403
+00:25:59,010 --> 00:26:01,770
+de eso porque aquí estamos viendo que encontró la de usted,
+
+404
+00:26:01,770 --> 00:26:05,650
+¿ya?
+
+405
+00:26:05,650 --> 00:26:07,650
+OK.
+
+406
+00:26:07,650 --> 00:26:12,130
+Ninguna no ya tampoco, o sea, hayamos que lo iba a hacer mal, ¿no?
+
+407
+00:26:12,130 --> 00:26:16,050
+Fíjense que, ah, bueno, y si ustedes quieren ver ahí el
+
+408
+00:26:16,050 --> 00:26:19,730
+boundary decision que encontró el perceptron,
+
+409
+00:26:19,730 --> 00:26:23,290
+ustedes lo colocan aquí discrete size output y aquí se
+
+410
+00:26:23,290 --> 00:26:26,290
+noten por el boundary decision, ¿no?
+
+411
+00:26:26,290 --> 00:26:29,770
+Y como ven aquí, más o menos en la mitad lo está haciendo
+
+412
+00:26:29,770 --> 00:26:32,250
+como la mona y la otra, así por suerte, ¿no?
+
+413
+00:26:32,250 --> 00:26:35,330
+Nunca va a mejorar, nunca va a hacer un desempeño
+
+414
+00:26:35,330 --> 00:26:37,570
+mejor del 50%, ¿ya?
+
+415
+00:26:37,570 --> 00:26:41,970
+A pesar de que haya encontrado un óptimo que es súper local.
+
+416
+00:26:41,970 --> 00:26:42,810
+¿Ya?
+
+417
+00:26:42,810 --> 00:26:44,010
+¡Listo!
+
+418
+00:26:44,010 --> 00:26:45,650
+¿Faltaste?
+
+419
+00:26:45,650 --> 00:26:48,890
+Genial esta semulación porque si uno va viendo con los ojitos
+
+420
+00:26:48,890 --> 00:26:52,210
+de la cara, ¿qué es lo que está pasando, ¿ya?
+
+421
+00:26:52,210 --> 00:26:54,930
+Entonces, pasemos al siguiente caso.
+
+422
+00:26:54,930 --> 00:26:57,290
+¿Cómo sabemos de antemán?
+
+423
+00:26:57,290 --> 00:26:58,570
+Porque lo pudimos ver, ¿no?
+
+424
+00:26:58,570 --> 00:26:59,370
+¿Cierto?
+
+425
+00:26:59,370 --> 00:27:03,250
+Son dos variables, lo podemos graficar y vemos que da,
+
+426
+00:27:03,330 --> 00:27:09,770
+veamos que si uno ve el que desecho boundary
+
+427
+00:27:09,770 --> 00:27:13,530
+necesito yo para poder discriminar correctamente los azules
+
+428
+00:27:13,530 --> 00:27:16,290
+de los narajos, ciertamente en una línea recta,
+
+429
+00:27:16,290 --> 00:27:19,050
+¿qué desecho boundary tendría que utilizar acá?
+
+430
+00:27:19,050 --> 00:27:21,770
+Una circunferencia, ¿vale?
+
+431
+00:27:21,770 --> 00:27:24,490
+Y no sé si ustedes se acuerdan del colegio,
+
+432
+00:27:24,490 --> 00:27:26,050
+¿alguien se acuerda en la casa o acá?
+
+433
+00:27:26,050 --> 00:27:28,490
+¿Se acuerdan cuál es la cocción geometría analítica?
+
+434
+00:27:28,490 --> 00:27:29,170
+Yo me acuerdo.
+
+435
+00:27:29,170 --> 00:27:30,930
+No sé quién día hablo enseñano y día en el colegio,
+
+436
+00:27:30,930 --> 00:27:33,210
+pero me acuerdo que en el colegio me enseñaba
+
+437
+00:27:33,210 --> 00:27:36,130
+¿cuál es la ecuación de una circunferencia?
+
+438
+00:27:36,130 --> 00:27:37,530
+¿De acuerdo a usted o no?
+
+439
+00:27:37,530 --> 00:27:39,330
+¿Cuál es la ecuación de una circunferencia?
+
+440
+00:27:39,330 --> 00:27:40,930
+¿Del diámetro?
+
+441
+00:27:40,930 --> 00:27:42,770
+Creo que era x cuadrado y griega cuadrado
+
+442
+00:27:42,770 --> 00:27:43,690
+igual a r cuadrado, ¿no?
+
+443
+00:27:43,690 --> 00:27:44,290
+Por ahí vamos, ¿no?
+
+444
+00:27:44,290 --> 00:27:45,650
+Exacto, eso, ¿ya?
+
+445
+00:27:45,650 --> 00:27:47,650
+Eso es el primer.
+
+446
+00:27:47,650 --> 00:27:50,810
+Ya, si uno coloca x cuadrado,
+
+447
+00:27:50,810 --> 00:27:54,770
+maí cuadrado igual a r cuadrado y yo lo grafico,
+
+448
+00:27:54,770 --> 00:27:58,210
+la gráfica va a ser una circunferencia de radio r,
+
+449
+00:27:58,210 --> 00:27:59,410
+¿ya?
+
+450
+00:27:59,410 --> 00:28:01,050
+Entonces, piensen lo siguiente.
+
+451
+00:28:01,050 --> 00:28:04,770
+Ya sabemos que el tipo de decision boundary que yo necesito
+
+452
+00:28:04,770 --> 00:28:07,650
+para poder discriminar ambas clases es una circunferencia.
+
+453
+00:28:07,650 --> 00:28:10,970
+Y tengo dos features, o sea, tengo dos predictores,
+
+454
+00:28:10,970 --> 00:28:13,890
+que se llaman x1 y x2.
+
+455
+00:28:13,890 --> 00:28:18,290
+Entonces, ¿adivinen ustedes qué otro feature podría yo
+
+456
+00:28:18,290 --> 00:28:22,330
+inventar para poder generar esta figurita?
+
+457
+00:28:22,330 --> 00:28:26,140
+¿Cuál será?
+
+458
+00:28:26,140 --> 00:28:29,340
+Le do más, como x cuadrado y x cuadrado.
+
+459
+00:28:29,340 --> 00:28:32,740
+Exactamente, o sea, si yo ahora, o sea,
+
+460
+00:28:32,740 --> 00:28:34,460
+claro que si yo le meto a la máquina,
+
+461
+00:28:34,460 --> 00:28:37,220
+a un perceptor, en este caso, x1 y x2,
+
+462
+00:28:37,220 --> 00:28:39,180
+no va a ser como la una o la otra.
+
+463
+00:28:39,180 --> 00:28:41,780
+Pero yo, como soy clever, ¿no, cierto?
+
+464
+00:28:41,780 --> 00:28:43,660
+Yo digo, ah, OK.
+
+465
+00:28:43,660 --> 00:28:46,900
+Yo ya tengo la sospecha de que aquí hay una relación
+
+466
+00:28:46,900 --> 00:28:47,740
+no lineal.
+
+467
+00:28:47,740 --> 00:28:49,820
+Entonces, si yo voy a hacer un feature,
+
+468
+00:28:49,820 --> 00:28:50,320
+¿no, cierto?
+
+469
+00:28:50,320 --> 00:28:51,940
+Voy a crear un nuevo feature.
+
+470
+00:28:51,940 --> 00:28:53,100
+¿Cómo le dicen eso a ustedes?
+
+471
+00:28:53,100 --> 00:28:53,980
+¿Cómo se lo enseñaron?
+
+472
+00:28:53,980 --> 00:28:55,740
+No sé de qué nombre ahora le dicen,
+
+473
+00:28:55,740 --> 00:29:00,700
+esta, crear variables compuestas, ¿no, cierto?
+
+474
+00:29:00,700 --> 00:29:02,820
+A partir de las variables que yo tengo,
+
+475
+00:29:02,820 --> 00:29:04,540
+creo nuevas variables.
+
+476
+00:29:04,540 --> 00:29:08,260
+Entonces, yo lo que voy a hacer es agregar al set de
+
+477
+00:29:08,260 --> 00:29:12,860
+features el, ahí, le voy a agregar aquí,
+
+478
+00:29:12,860 --> 00:29:17,940
+le voy a agregar el x1 cuadrado y el x2 cuadrado y se lo
+
+479
+00:29:17,940 --> 00:29:20,420
+voy a agregar como si fuesen otros dos features
+
+480
+00:29:20,420 --> 00:29:23,220
+adicional, ¿de acuerdo?
+
+481
+00:29:23,220 --> 00:29:25,860
+Entonces, se lo agrego, le lo hacen ahí,
+
+482
+00:29:25,860 --> 00:29:28,420
+se lo agregan, lo voy a mostrar también aquí
+
+483
+00:29:28,420 --> 00:29:29,420
+para que lo ven.
+
+484
+00:29:29,420 --> 00:29:35,670
+Ahí, ah, ah, ahí, ya.
+
+485
+00:29:35,670 --> 00:29:38,870
+Ahí, entonces, ahí se los agregue y voy a apretar
+
+486
+00:29:38,870 --> 00:29:41,950
+botón play con la esperanza de que ahora,
+
+487
+00:29:41,950 --> 00:29:43,950
+ah, y vea, uy, pero miren, miren, miren,
+
+488
+00:29:43,950 --> 00:29:46,110
+pero miren lo que está pasando.
+
+489
+00:29:46,110 --> 00:29:52,070
+Voy a colocar aquí discretizar esta cosa.
+
+490
+00:29:52,070 --> 00:29:52,830
+¿Cómo se ve mejor?
+
+491
+00:29:52,830 --> 00:29:53,670
+Así mejor, ¿no?
+
+492
+00:29:53,670 --> 00:29:55,310
+Bueno.
+
+493
+00:29:55,310 --> 00:29:57,430
+¿Qué les parece?
+
+494
+00:29:57,430 --> 00:29:59,750
+¿Qué está pasando ahí?
+
+495
+00:29:59,750 --> 00:30:02,350
+Primero, lo primero que hay que darse cuenta de
+
+496
+00:30:02,350 --> 00:30:07,150
+que el LOS, tanto el LOS del entrenamiento
+
+497
+00:30:07,150 --> 00:30:09,670
+como el LOS ha calculado sobre el test,
+
+498
+00:30:09,670 --> 00:30:12,710
+ambos bajar, ¿ya?
+
+499
+00:30:12,710 --> 00:30:14,950
+Y otra cosa que está pareciendo aquí que parece ser
+
+500
+00:30:14,950 --> 00:30:16,550
+bien interesante, ¿ya?
+
+501
+00:30:16,550 --> 00:30:20,190
+Que fíjense los pesos, esto es un tercer trompo, ¿ah?
+
+502
+00:30:20,190 --> 00:30:22,790
+Los pesos de estas dos variables que conectan
+
+503
+00:30:22,790 --> 00:30:25,430
+la parte no lineal están súper, las cañerías,
+
+504
+00:30:25,430 --> 00:30:27,550
+las dos cañerías están súper guatonas,
+
+505
+00:30:27,550 --> 00:30:29,350
+mientras que estas dos cañerías de acá,
+
+506
+00:30:29,350 --> 00:30:31,350
+que son los pesos de la parte lineal,
+
+507
+00:30:31,390 --> 00:30:33,710
+son así unas hilitas, un hilito.
+
+508
+00:30:33,710 --> 00:30:38,500
+¿Por qué creen que está ocurriendo eso?
+
+509
+00:30:38,500 --> 00:30:40,820
+O sea, ¿qué significa eso en castellano?
+
+510
+00:30:40,820 --> 00:30:45,260
+¿En castellano qué significa que estas dos cañerías
+
+511
+00:30:45,260 --> 00:30:47,780
+estén más gordas que las otras?
+
+512
+00:30:47,780 --> 00:30:49,220
+Tienen mayor peso.
+
+513
+00:30:49,220 --> 00:30:51,660
+¿Y si tienen mayor peso, por qué?
+
+514
+00:30:51,660 --> 00:30:53,860
+¿Por qué lo están diciendo que tengan mayor peso?
+
+515
+00:30:53,860 --> 00:30:56,220
+¿Explican más la forma que está y o los datos
+
+516
+00:30:56,220 --> 00:30:58,140
+que estáis tratando de predecir?
+
+517
+00:30:58,140 --> 00:31:01,180
+¿Por qué explican mejor la forma o la arreglo de los datos
+
+518
+00:31:01,180 --> 00:31:03,500
+que estáis tratando de predecir?
+
+519
+00:31:03,500 --> 00:31:06,700
+Porque eso quiere decir que estos dos features
+
+520
+00:31:06,700 --> 00:31:09,420
+son los que básicamente, los que más importan
+
+521
+00:31:09,420 --> 00:31:13,220
+en generar la clasificación, en este caso,
+
+522
+00:31:13,220 --> 00:31:15,900
+en la parte de la circunferencia.
+
+523
+00:31:15,900 --> 00:31:17,260
+Porque se acuerdan nosotros,
+
+524
+00:31:17,260 --> 00:31:19,100
+X1 cuadrado más X2 cuadrado, ¿no es cierto?
+
+525
+00:31:19,100 --> 00:31:19,820
+Igual es el recuadrado.
+
+526
+00:31:19,820 --> 00:31:22,020
+Bueno, precisamente estos dos features,
+
+527
+00:31:22,020 --> 00:31:24,140
+que son los que generan la parte no lineal,
+
+528
+00:31:24,140 --> 00:31:26,140
+son los que le están dando mayor importancia.
+
+529
+00:31:26,140 --> 00:31:29,220
+Y esto lo podemos ver acá, porque es un problema muy sencillo,
+
+530
+00:31:29,220 --> 00:31:31,180
+pero es un problema real imposible, ¿no?
+
+531
+00:31:31,180 --> 00:31:32,460
+O sea, mire qué interesante.
+
+532
+00:31:32,460 --> 00:31:37,620
+O sea, claramente vemos ahí que...
+
+533
+00:31:37,620 --> 00:31:41,380
+O sea, ¿qué es lo que pone de manifiesto este ejemplo?
+
+534
+00:31:41,380 --> 00:31:43,740
+Pone de manifiesto que usted no puede cargarle
+
+535
+00:31:43,740 --> 00:31:46,740
+toda la masa, toda toda la responsabilidad
+
+536
+00:31:46,740 --> 00:31:48,020
+a la red neuronal.
+
+537
+00:31:48,020 --> 00:31:50,900
+Usted, hay un trabajo de Clever
+
+538
+00:31:50,900 --> 00:31:53,660
+de antes de presentarle a la máquina los datos,
+
+539
+00:31:53,660 --> 00:31:56,260
+hacer el Future Engineering.
+
+540
+00:31:56,260 --> 00:31:58,740
+Generar variables compuestas que puedan ayudar
+
+541
+00:31:58,740 --> 00:32:01,820
+a la máquina a hacer un mejor deserpello.
+
+542
+00:32:01,820 --> 00:32:04,300
+¿Qué pasó ahí? Porque ahí, como que...
+
+543
+00:32:04,300 --> 00:32:06,980
+No está prediciendo bien,
+
+544
+00:32:06,980 --> 00:32:12,340
+pero igual pesa los dos variables cuadrados.
+
+545
+00:32:12,340 --> 00:32:13,300
+¿Por qué no está prediciendo?
+
+546
+00:32:13,300 --> 00:32:15,580
+O sea, queda como todo azul en el mono, yo...
+
+547
+00:32:15,580 --> 00:32:19,180
+Al discretizar, queda así.
+
+548
+00:32:19,180 --> 00:32:22,860
+¿Ahí? Bueno, ¿eh?
+
+549
+00:32:22,860 --> 00:32:23,900
+Vamos a resetear esto, ¿ah?
+
+550
+00:32:23,900 --> 00:32:25,140
+Ya.
+
+551
+00:32:25,140 --> 00:32:32,010
+Regenerar.
+
+552
+00:32:32,010 --> 00:32:33,170
+Eso.
+
+553
+00:32:33,330 --> 00:32:34,450
+Pero recién no pasó eso.
+
+554
+00:32:34,450 --> 00:32:36,610
+¿Qué pasó ahí cuando no llegó a esas...?
+
+555
+00:32:36,610 --> 00:32:38,970
+Lo tenía...
+
+556
+00:32:38,970 --> 00:32:41,690
+Lo tenían discretizado, yo creo, por eso.
+
+557
+00:32:41,690 --> 00:32:42,810
+¿Ah, no, no hay así?
+
+558
+00:32:42,810 --> 00:32:43,690
+No sé.
+
+559
+00:32:43,690 --> 00:32:44,810
+No, no me gusta como eso.
+
+560
+00:32:44,810 --> 00:32:45,730
+Ya.
+
+561
+00:32:45,730 --> 00:32:47,890
+Infuera.
+
+562
+00:32:47,890 --> 00:32:49,250
+¿Ya?
+
+563
+00:32:49,250 --> 00:32:54,610
+Claro, sí, aquí estaría la circunferencia que genera...
+
+564
+00:32:54,610 --> 00:32:56,850
+Aquí viene la pregunta tramposa del profesor,
+
+565
+00:32:56,850 --> 00:33:00,750
+malo, malo, malo, malo.
+
+566
+00:33:00,790 --> 00:33:06,910
+¿El perceptrón está capturando la no-linialidad del problema?
+
+567
+00:33:06,910 --> 00:33:08,510
+Cáchanse la pregunta, ¿no?
+
+568
+00:33:08,510 --> 00:33:12,390
+Así de malo, pregunta capciosa.
+
+569
+00:33:12,390 --> 00:33:13,710
+Vuelvo a preguntar.
+
+570
+00:33:13,710 --> 00:33:17,750
+¿El perceptrón está detectando la no-linialidad?
+
+571
+00:33:17,750 --> 00:33:19,110
+No.
+
+572
+00:33:19,110 --> 00:33:21,430
+¿No? ¿Por qué no?
+
+573
+00:33:21,430 --> 00:33:23,990
+Lo que me acuerdo la clase basada puede ser que esté equivocado,
+
+574
+00:33:23,990 --> 00:33:27,430
+pero que el perceptrón no capta no-linialidad, ¿o no?
+
+575
+00:33:27,430 --> 00:33:29,990
+Ya, entonces, si es así,
+
+576
+00:33:29,990 --> 00:33:35,630
+¿cómo es posible que lo esté haciendo también ahora?
+
+577
+00:33:35,630 --> 00:33:43,740
+¿Por qué?
+
+578
+00:33:43,740 --> 00:33:47,180
+O sea, estoy mostrando un ejemplo en el cual un perceptrón
+
+579
+00:33:47,180 --> 00:33:51,300
+lo está haciendo el después para un problema no-linial,
+
+580
+00:33:51,300 --> 00:33:55,180
+pero sabemos que el perceptrón no puede detectar no-linialidad.
+
+581
+00:33:55,180 --> 00:33:57,020
+Entonces, ¿cuál es la trampa?
+
+582
+00:33:57,020 --> 00:33:59,500
+¿Por qué lo está haciendo también?
+
+583
+00:33:59,500 --> 00:34:01,460
+La cantidad de capa, ¿o no?
+
+584
+00:34:01,460 --> 00:34:03,140
+Lo hagamos, estamos en un perceptrón,
+
+585
+00:34:03,140 --> 00:34:04,660
+no hay ninguna capa aquí.
+
+586
+00:34:04,700 --> 00:34:09,100
+¿Por qué se están ajustando los peso, profes?
+
+587
+00:34:09,100 --> 00:34:11,220
+Sí, claro, los peso aquí se nota claramente
+
+588
+00:34:11,220 --> 00:34:14,060
+que los pesos de la parte no-linial son la tiempo.
+
+589
+00:34:14,060 --> 00:34:15,700
+Y se supone que esto itera,
+
+590
+00:34:15,700 --> 00:34:21,260
+y se genera el procedimiento de aprendizaje del perceptrón.
+
+591
+00:34:21,260 --> 00:34:24,380
+Así es, así es, pero está bien.
+
+592
+00:34:24,380 --> 00:34:28,620
+Entonces, si me dijeron que no, la pregunta era,
+
+593
+00:34:28,620 --> 00:34:33,500
+¿está detectando el perceptrón la no-linialidad del problema?
+
+594
+00:34:33,500 --> 00:34:34,540
+La respuesta es no.
+
+595
+00:34:34,540 --> 00:34:35,980
+Entonces, si la respuesta es no,
+
+596
+00:34:35,980 --> 00:34:39,220
+¿cómo es capaz que haya logrado generar este bander decision?
+
+597
+00:34:39,220 --> 00:34:41,100
+¿Dónde está el truco?
+
+598
+00:34:41,100 --> 00:34:43,820
+¿Dónde está el truco?
+
+599
+00:34:43,820 --> 00:34:46,460
+Porque hice feature engineering.
+
+600
+00:34:46,460 --> 00:34:47,780
+Eso es la serie de la respuesta.
+
+601
+00:34:47,780 --> 00:34:50,820
+Es decir, como este es un problema sencillo,
+
+602
+00:34:50,820 --> 00:34:53,100
+yo ya venía cocinado esto, entonces yo le agregó.
+
+603
+00:34:53,100 --> 00:34:55,340
+Yo ya sabía de esta mano que con una pelota,
+
+604
+00:34:55,340 --> 00:34:57,700
+digamos, de decision bander,
+
+605
+00:34:57,700 --> 00:34:59,100
+yo sé la pelota, lo puedo mirar,
+
+606
+00:34:59,100 --> 00:35:02,420
+con X cuadrado y X 1 cuadrado, ¿ya?
+
+607
+00:35:02,420 --> 00:35:05,060
+Es por eso, pero aquí en ningún momento
+
+608
+00:35:05,060 --> 00:35:09,860
+el perceptrón fue capaz de encontrar la no-linialidad.
+
+609
+00:35:09,860 --> 00:35:12,220
+Sigue siendo lineal esto.
+
+610
+00:35:12,220 --> 00:35:14,700
+El perceptrón sigue siendo lineal.
+
+611
+00:35:14,700 --> 00:35:17,860
+Lo que pasa es que nosotros le incorporamos la parte no-linial
+
+612
+00:35:17,860 --> 00:35:19,700
+desde antes, fuera del modelo.
+
+613
+00:35:19,700 --> 00:35:21,180
+Es lo mismo que hacen los economistas,
+
+614
+00:35:21,180 --> 00:35:24,140
+la gente de economía con los modelos econométicos,
+
+615
+00:35:24,140 --> 00:35:27,140
+donde ellos saben de antemano por teoría
+
+616
+00:35:27,140 --> 00:35:30,340
+de que el sueldo tiene un componente cuadrático
+
+617
+00:35:30,340 --> 00:35:33,740
+que se dio sobre los perros al revés.
+
+618
+00:35:33,740 --> 00:35:35,820
+Los años de experiencia tienen un componente cuadrático,
+
+619
+00:35:35,820 --> 00:35:39,260
+nosotros sobre los ingresos.
+
+620
+00:35:39,260 --> 00:35:43,100
+Entonces, ellos le colocan años de experiencia al cuadrado.
+
+621
+00:35:43,100 --> 00:35:46,020
+El mismo ejemplo de por qué el circulito lo detecta bien.
+
+622
+00:35:46,020 --> 00:35:49,020
+Porque si usáis cuatro líneas así, lo detectáis, ¿cierto?
+
+623
+00:35:49,020 --> 00:35:51,060
+Cuatro perceptrones.
+
+624
+00:35:51,060 --> 00:35:55,020
+Con un X, un I, X cuadrado, X cuadrado, ¿verdad?
+
+625
+00:35:55,020 --> 00:35:57,100
+Es una cuestión de una circunferencia.
+
+626
+00:35:57,100 --> 00:35:59,140
+Pero eso no es lineal.
+
+627
+00:35:59,140 --> 00:36:00,620
+Aquí no hay cuatro perceptrones.
+
+628
+00:36:00,620 --> 00:36:06,230
+Esto sea una pura célula y que genera una pura apariencia de eso.
+
+629
+00:36:06,230 --> 00:36:10,150
+Porque por más que te sirva para segmentar, eso no es lineal.
+
+630
+00:36:10,150 --> 00:36:10,670
+Eso debería.
+
+631
+00:36:10,670 --> 00:36:13,670
+No está mutiado.
+
+632
+00:36:13,670 --> 00:36:16,470
+No sé si no está hablando a nosotros o a otras.
+
+633
+00:36:16,470 --> 00:36:18,030
+No, yo creo que no está mutiado.
+
+634
+00:36:18,030 --> 00:36:19,510
+Ah, no, está explicando algo cortito.
+
+635
+00:36:19,510 --> 00:36:21,670
+Bueno, está.
+
+636
+00:36:21,670 --> 00:36:23,150
+Pero lo explicó mal, pues.
+
+637
+00:36:23,150 --> 00:36:25,110
+Lo explicó mal.
+
+638
+00:36:25,110 --> 00:36:29,950
+No hay cuatro perceptrones, hay uno, no hay uno, no más.
+
+639
+00:36:30,910 --> 00:36:33,070
+No, hay cuatro variables.
+
+640
+00:36:33,070 --> 00:36:35,270
+Hay cuatro features, pero el perceptrón es uno.
+
+641
+00:36:35,270 --> 00:36:36,790
+Hay un perceptrón, no más.
+
+642
+00:36:36,790 --> 00:36:38,790
+Ya, ven que no hay nada aquí, estupas.
+
+643
+00:36:38,790 --> 00:36:40,790
+El perceptrón estaría aquí.
+
+644
+00:36:40,790 --> 00:36:48,190
+La neurona nos sale explícita aquí, pero estaría ahí metida, ¿ya?
+
+645
+00:36:48,190 --> 00:36:50,270
+OK, vale.
+
+646
+00:36:50,270 --> 00:36:57,920
+Entonces, pasemos a seguir este caso, ¿ya?
+
+647
+00:36:57,920 --> 00:37:00,160
+A ver, veamos qué pasa.
+
+648
+00:37:00,200 --> 00:37:05,480
+Si ahora le agregamos un, ¿cómo se llama?
+
+649
+00:37:05,480 --> 00:37:07,720
+Un, ah, perdón.
+
+650
+00:37:07,720 --> 00:37:11,640
+Se le agregamos un set de datos que es de este estilo, ¿ya?
+
+651
+00:37:11,640 --> 00:37:13,640
+Este, ¿se dan cuenta que este es más complicado?
+
+652
+00:37:13,640 --> 00:37:20,720
+Porque acá está como, ve, hay como cuatro clásteres,
+
+653
+00:37:20,720 --> 00:37:23,840
+dos clásteres, pero uno separado, digamos, en forma opuesta.
+
+654
+00:37:23,840 --> 00:37:25,120
+Aquí vamos a estar los azules.
+
+655
+00:37:25,120 --> 00:37:26,560
+La de Gora lo opuesta a los azules.
+
+656
+00:37:26,560 --> 00:37:29,600
+Y aquí forma opuesta también lo narramos.
+
+657
+00:37:29,640 --> 00:37:31,840
+Entonces, claro, aquí es fácil verlo,
+
+658
+00:37:31,840 --> 00:37:33,320
+porque tenemos dos variables.
+
+659
+00:37:33,320 --> 00:37:35,640
+Y uno se, igual que en el ejemplo anterior,
+
+660
+00:37:35,640 --> 00:37:37,920
+yo me preguntaría qué clase de información,
+
+661
+00:37:37,920 --> 00:37:40,640
+cuál sería el feature engineer y cuál sería la variable,
+
+662
+00:37:40,640 --> 00:37:45,880
+que yo debería colocarle para, para, para ayudar al perceptrón
+
+663
+00:37:45,880 --> 00:37:49,920
+a que, digamos, a, a, a, a, a, a, a, a que esta costón logre
+
+664
+00:37:49,920 --> 00:37:53,160
+generar de alguna manera un decision boundary que logre
+
+665
+00:37:53,160 --> 00:37:57,660
+de discriminar estas dos, estas.
+
+666
+00:37:57,660 --> 00:37:58,860
+X1 y X2.
+
+667
+00:37:58,860 --> 00:38:01,460
+X1 y X2.
+
+668
+00:38:01,460 --> 00:38:02,660
+Efectivamente, ¿no es cierto?
+
+669
+00:38:02,660 --> 00:38:06,100
+Si ustedes se recuerdan, si ustedes se recuerdan,
+
+670
+00:38:06,100 --> 00:38:09,060
+a ver, si puedo, como era aquí, voy a escribir la pizarra,
+
+671
+00:38:09,060 --> 00:38:12,260
+aquí tengo que notar pizarra.
+
+672
+00:38:12,260 --> 00:38:15,340
+Acá, si ustedes hacían, por ejemplo,
+
+673
+00:38:15,340 --> 00:38:19,460
+y igual a 1 partido por x, ¿no es cierto?
+
+674
+00:38:19,460 --> 00:38:20,700
+¿Qué es lo que les daba eso?
+
+675
+00:38:20,700 --> 00:38:23,220
+Les daba una cosa así, ¿no es cierto?
+
+676
+00:38:23,220 --> 00:38:27,180
+Una cosa así, ¿no es cierto?
+
+677
+00:38:27,180 --> 00:38:29,980
+Entonces, en 0, esto se da, la tendencia se da infinito,
+
+678
+00:38:29,980 --> 00:38:33,900
+a ver, se indefine la, la, la, la deriva, ¿verdad?
+
+679
+00:38:33,900 --> 00:38:37,420
+Y conforme el x aumenta, que pasa con, si pasa,
+
+680
+00:38:37,420 --> 00:38:41,180
+si el x es muy grande, el valor de y es cada vez más chiquitito,
+
+681
+00:38:41,180 --> 00:38:43,580
+por eso va, va, va, va, va, va, va, va, va, va, va, va.
+
+682
+00:38:43,580 --> 00:38:46,980
+Entonces, yo podría aprovecharme,
+
+683
+00:38:46,980 --> 00:38:50,780
+así, analíticamente, yo podría aprovecharme de esa función
+
+684
+00:38:50,780 --> 00:38:55,620
+y, e, e, e, intuir, e, intuir que,
+
+685
+00:38:55,620 --> 00:38:57,660
+si yo coloco en vez de x cuadrado,
+
+686
+00:38:57,660 --> 00:39:00,700
+y hay que en 1 cuadrado coloco algo como esto,
+
+687
+00:39:00,700 --> 00:39:03,340
+en una de esa, el, el, el,
+
+688
+00:39:03,340 --> 00:39:06,340
+yo estoy ayudando al, al perceptron
+
+689
+00:39:06,340 --> 00:39:09,820
+a que se genere un decisión bandera
+
+690
+00:39:09,820 --> 00:39:11,580
+y que siga ese, ese patrón de allá.
+
+691
+00:39:11,580 --> 00:39:14,180
+Entonces, vamos a ver qué es lo que pasa.
+
+692
+00:39:14,180 --> 00:39:18,100
+Eh, ¿a qué? Aquí sí.
+
+693
+00:39:18,100 --> 00:39:21,740
+Entonces, lo voy a resetear.
+
+694
+00:39:21,740 --> 00:39:25,780
+Y fíjense que, inmediatamente, aquí el los,
+
+695
+00:39:25,780 --> 00:39:28,100
+miren, usted es el los y se volvió a 0,
+
+696
+00:39:28,100 --> 00:39:29,980
+digamos, a prácticamente 0.
+
+697
+00:39:29,980 --> 00:39:33,900
+Y, inmediatamente se dan cuenta ustedes que el peso,
+
+698
+00:39:33,900 --> 00:39:37,020
+el peso sináptico asociado a esta interacción,
+
+699
+00:39:37,020 --> 00:39:39,420
+no cierto, a ese comportamiento que es no lineal,
+
+700
+00:39:39,420 --> 00:39:42,580
+es mucho más fuerte, esta cañería es mucho más gruesa,
+
+701
+00:39:42,580 --> 00:39:44,140
+que estas dos de aquí,
+
+702
+00:39:44,140 --> 00:39:45,940
+que están representando la parte linea, no más.
+
+703
+00:39:45,940 --> 00:39:49,020
+¿Sigue siendo, si hay valores distintos de 0?
+
+704
+00:39:49,020 --> 00:39:51,300
+Sí, ahí está, pero comparada con esta,
+
+705
+00:39:51,300 --> 00:39:53,660
+esta es la que, esta es la que manda, ¿no?
+
+706
+00:39:53,660 --> 00:39:56,060
+Esta es la que está ayudando al perceptron
+
+707
+00:39:56,060 --> 00:39:58,620
+a darse cuenta de que existe
+
+708
+00:39:58,620 --> 00:40:02,180
+esta función discriminadora que está aquí, ¿ya?
+
+709
+00:40:02,180 --> 00:40:04,500
+¿Ya? Fantástico.
+
+710
+00:40:04,500 --> 00:40:06,100
+O sea, de nuevo, al tiro,
+
+711
+00:40:06,100 --> 00:40:09,500
+otro ejemplo de que a veces es bueno
+
+712
+00:40:09,500 --> 00:40:12,060
+hacer el featuring engineering y no decirle,
+
+713
+00:40:12,060 --> 00:40:15,860
+no importa si la red neuronal lo va a hacer.
+
+714
+00:40:15,860 --> 00:40:17,020
+¿Está bien? Sí.
+
+715
+00:40:17,020 --> 00:40:19,180
+La práctica hay que confiar a toda la red neuronal,
+
+716
+00:40:19,180 --> 00:40:21,540
+pero si uno de antes no le puede dar una ayudadita,
+
+717
+00:40:21,540 --> 00:40:23,420
+mejor todavía.
+
+718
+00:40:23,420 --> 00:40:25,740
+Sorri, me perdí una parte. ¿Por qué?
+
+719
+00:40:25,740 --> 00:40:27,340
+Porque ahí tiene una relación no lineal,
+
+720
+00:40:27,340 --> 00:40:31,980
+¿por qué la está pudiendo tener dentro del perceptrón?
+
+721
+00:40:31,980 --> 00:40:33,020
+¿Por qué la está aquí?
+
+722
+00:40:33,020 --> 00:40:36,660
+¿Por qué está dentro del perceptrón una relación no lineal,
+
+723
+00:40:36,660 --> 00:40:39,460
+si no lo tiene en una capa interior?
+
+724
+00:40:39,460 --> 00:40:42,260
+Por la misma razón que lo que pasó en el caso anterior,
+
+725
+00:40:42,260 --> 00:40:45,700
+por el caso anterior, cuando teníamos acá...
+
+726
+00:40:50,040 --> 00:40:52,440
+Se me perdió aquí la...
+
+727
+00:40:52,440 --> 00:40:55,920
+Bueno, ¿te acuerdas cuando lo hicimos con la circunferencia?
+
+728
+00:40:56,000 --> 00:40:59,360
+Teníamos estas dos cosas prendidas acá, ¿no es cierto?
+
+729
+00:40:59,360 --> 00:41:01,040
+El X1 cuadrado y el X2 cuadrado.
+
+730
+00:41:01,040 --> 00:41:03,680
+Ay, pero la entrada del X1 y X2, ya perfecto.
+
+731
+00:41:03,680 --> 00:41:05,680
+Ya, pues ahora, a la entrada...
+
+732
+00:41:05,680 --> 00:41:09,240
+Ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya.
+
+733
+00:41:09,240 --> 00:41:13,480
+No es esa la entrada, no es que sea la combinación de neuronas.
+
+734
+00:41:13,480 --> 00:41:16,080
+Aquí sigue siendo el perceptrón, ¿no más?
+
+735
+00:41:16,080 --> 00:41:17,640
+Es uno. Ya, listo.
+
+736
+00:41:17,640 --> 00:41:23,910
+Feature, esta es la entrada.
+
+737
+00:41:23,910 --> 00:41:26,950
+El mismo caso anterior solamente que con otro.
+
+738
+00:41:26,950 --> 00:41:28,230
+Ya.
+
+739
+00:41:29,390 --> 00:41:35,540
+Ya, ok. Vámonos aquí.
+
+740
+00:41:35,540 --> 00:41:38,660
+Entonces, algunas conclusiones para cerrar el caso.
+
+741
+00:41:40,940 --> 00:41:43,740
+Nosotros, en el perceptrón, ¿no es cierto?
+
+742
+00:41:43,740 --> 00:41:46,260
+Lo que tienen que ustedes comprender y no se vayan a confundir
+
+743
+00:41:46,260 --> 00:41:48,380
+es que el perceptrón jamás,
+
+744
+00:41:48,380 --> 00:41:51,820
+jamás va a lograr descubrir cosas no lineales.
+
+745
+00:41:51,820 --> 00:41:54,060
+Si nosotros queremos darle esa capacidad
+
+746
+00:41:54,060 --> 00:41:58,180
+de que pueda enfrentarse a un problema no lineal,
+
+747
+00:41:58,220 --> 00:42:01,820
+nosotros tendríamos que de antemano, en los features,
+
+748
+00:42:01,820 --> 00:42:04,900
+agregarle esa información no lineal, ¿vale?
+
+749
+00:42:04,900 --> 00:42:08,620
+El problema está que en la práctica, en los problemas reales,
+
+750
+00:42:08,620 --> 00:42:11,420
+que son mucho más complejos, donde hay cientos de variables,
+
+751
+00:42:11,420 --> 00:42:14,220
+cientos de features, nosotros no sabemos de antemano
+
+752
+00:42:14,220 --> 00:42:17,100
+cuáles podrían hacer esa relación en lineales.
+
+753
+00:42:17,100 --> 00:42:19,940
+Entonces, no sé.
+
+754
+00:42:19,940 --> 00:42:22,380
+Ya. Aquí, aquí eran dos variables,
+
+755
+00:42:22,380 --> 00:42:24,620
+no más y era, digamos, lo podíamos graficar.
+
+756
+00:42:24,620 --> 00:42:26,500
+Entonces, queda claro el asunto.
+
+757
+00:42:27,460 --> 00:42:29,540
+No sé, esa es una cosa.
+
+758
+00:42:29,540 --> 00:42:31,780
+Y lo otro es que cuando nosotros lo hacemos eso,
+
+759
+00:42:31,780 --> 00:42:34,180
+es decir, nosotros le agregamos ex ante,
+
+760
+00:42:34,180 --> 00:42:36,660
+no sé, como feature, la parte no lineal,
+
+761
+00:42:36,660 --> 00:42:38,820
+lo que estamos, como dice ahí,
+
+762
+00:42:38,820 --> 00:42:43,100
+es que básicamente estamos potenciando el perceptrón
+
+763
+00:42:43,100 --> 00:42:45,260
+para que, de alguna manera,
+
+764
+00:42:45,260 --> 00:42:48,300
+el perceptrón vea este problema que es no lineal,
+
+765
+00:42:48,300 --> 00:42:50,060
+lo vea como lineal.
+
+766
+00:42:50,060 --> 00:42:51,220
+Sigue siendo lineal.
+
+767
+00:42:51,220 --> 00:42:53,660
+O sea, el perceptrón va a resolver el problema lineal.
+
+768
+00:42:53,740 --> 00:42:56,260
+Pero nosotros le estamos dándole
+
+769
+00:42:56,260 --> 00:42:59,460
+este capacidad para que,
+
+770
+00:42:59,460 --> 00:43:01,180
+con esta información de antemano,
+
+771
+00:43:01,180 --> 00:43:03,820
+de que la cosa es no lineal, ¿ya?
+
+772
+00:43:03,820 --> 00:43:06,100
+Pero de nuevo, no se va a confundir con el hecho
+
+773
+00:43:06,100 --> 00:43:08,460
+de que siempre, siempre el perceptrón maneja solamente
+
+774
+00:43:08,460 --> 00:43:11,580
+cosa lineal. Samuel tiene la mano levantada, ¿verdad?
+
+775
+00:43:13,780 --> 00:43:16,980
+Sí, acá, profesor, disculpe.
+
+776
+00:43:16,980 --> 00:43:20,700
+Al no ser como automáticamente detectada
+
+777
+00:43:20,700 --> 00:43:21,900
+por el perceptrón,
+
+778
+00:43:21,940 --> 00:43:25,100
+y nosotros darle esas relaciones que no son lineales,
+
+779
+00:43:25,100 --> 00:43:28,700
+hay algún como estándar o lista en la que deberíamos tirar
+
+780
+00:43:28,700 --> 00:43:33,100
+primero, así como las cosas que más no deberían llamar la
+
+781
+00:43:33,100 --> 00:43:36,500
+atención, o son totalmente específicas del problema,
+
+782
+00:43:36,500 --> 00:43:38,420
+tendríamos que tener un conocimiento por cada problema,
+
+783
+00:43:38,420 --> 00:43:41,380
+o por ejemplo, sabemos que es normalmente que vamos a ver
+
+784
+00:43:41,380 --> 00:43:43,660
+alguna relación cuadrática o de X1, X2.
+
+785
+00:43:45,580 --> 00:43:46,820
+Es lo que tú dices, es decir,
+
+786
+00:43:46,820 --> 00:43:49,180
+si yo tengo ya un conocimiento previo del problema,
+
+787
+00:43:49,180 --> 00:43:52,140
+mi seda de antemano que existe una relación lineal
+
+788
+00:43:52,140 --> 00:43:54,720
+de algún tipo, yo se la puedo agregar como un
+
+789
+00:43:54,720 --> 00:43:57,660
+featuring engineer y yo puedo agregar una variable
+
+790
+00:43:57,660 --> 00:44:01,260
+compuesta para ayudar, y hay que hacerlo, vale la pena,
+
+791
+00:44:01,260 --> 00:44:04,140
+porque puede ayudar mucho a mejorar el desempeño de la máquina.
+
+792
+00:44:04,140 --> 00:44:05,500
+Pero si yo tengo un problema...
+
+793
+00:44:05,500 --> 00:44:06,940
+Sí, yo tengo un problema de señal estándar,
+
+794
+00:44:06,940 --> 00:44:09,300
+si hay una lista así como de la que deberíamos tratar
+
+795
+00:44:09,300 --> 00:44:13,380
+primero, no, es simplemente por problemas.
+
+796
+00:44:13,380 --> 00:44:14,820
+No, no hay receta específica,
+
+797
+00:44:14,820 --> 00:44:18,020
+depende del problema en el particular.
+
+798
+00:44:18,140 --> 00:44:19,140
+Muchas gracias.
+
+799
+00:44:20,140 --> 00:44:22,220
+Sí, no, no, no existe esa...
+
+800
+00:44:22,220 --> 00:44:24,820
+Tal vez pueden haber ciertas recomendaciones,
+
+801
+00:44:24,820 --> 00:44:27,140
+pero por ejemplo en genética, ya, bueno,
+
+802
+00:44:27,140 --> 00:44:29,420
+en genética hay ciertos tratamientos previos
+
+803
+00:44:29,420 --> 00:44:31,940
+que se hacen en los datos antes de pasarlo al modelo.
+
+804
+00:44:31,940 --> 00:44:36,300
+Ya, pero eso en genética y va a depender mucho del data domain,
+
+805
+00:44:36,300 --> 00:44:38,980
+digamos, del dominio de datos, digo, en que uno esté metido.
+
+806
+00:44:41,140 --> 00:44:42,140
+Ya.
+
+807
+00:44:42,140 --> 00:44:45,180
+Ok, entonces, quíngase lo siguiente.
+
+808
+00:44:45,620 --> 00:44:46,620
+También, sí, aquí también.
+
+809
+00:44:46,620 --> 00:44:48,540
+Lo que vamos a hacer ahora,
+
+810
+00:44:48,540 --> 00:44:50,580
+vamos a pasar a una...
+
+811
+00:44:50,580 --> 00:44:52,820
+Nos vamos a olvidar ahora del perceptron,
+
+812
+00:44:52,820 --> 00:44:56,740
+o sea, más bien vamos a utilizar un multilayer perceptron,
+
+813
+00:44:56,740 --> 00:45:00,740
+es decir, vamos a quitar toda la parte non-lineal,
+
+814
+00:45:00,740 --> 00:45:02,420
+y imaginemos en el caso que tenemos un problema,
+
+815
+00:45:02,420 --> 00:45:03,980
+que no tenemos ideas,
+
+816
+00:45:03,980 --> 00:45:05,860
+¿cuáles son las relaciones non-lineales?
+
+817
+00:45:05,860 --> 00:45:07,780
+Y lo único que tenemos son los datos en Bruton,
+
+818
+00:45:07,780 --> 00:45:09,620
+¿ocierto? x1 y x2,
+
+819
+00:45:09,620 --> 00:45:12,700
+y ahora entonces vamos a crear una capa,
+
+820
+00:45:12,780 --> 00:45:16,580
+y esa capa va a tener 3 neuronas, ¿vale?
+
+821
+00:45:16,580 --> 00:45:19,460
+Nuestra esperanza es que solamente con la información
+
+822
+00:45:19,460 --> 00:45:22,060
+de estos datos en Bruton, el x1 y el x2,
+
+823
+00:45:22,060 --> 00:45:26,380
+logre discriminar el problema lineal que tenemos ahí.
+
+824
+00:45:26,380 --> 00:45:28,060
+¿No es cierto que ya sabíamos de antemano
+
+825
+00:45:28,060 --> 00:45:29,620
+que se trataba de un...
+
+826
+00:45:29,620 --> 00:45:31,940
+que vamos con el feature de x1 con x2,
+
+827
+00:45:31,940 --> 00:45:34,980
+la interacción lo lograba discriminar?
+
+828
+00:45:34,980 --> 00:45:38,580
+No se lo vamos a dar, no se lo vamos a esconder, ¿ya?
+
+829
+00:45:38,580 --> 00:45:40,580
+Entonces, voy a mostrar de nuevo acá,
+
+830
+00:45:40,580 --> 00:45:43,140
+pero ¿dónde quedó la quita?
+
+831
+00:45:43,140 --> 00:45:45,740
+Entonces, voy a sacar esto,
+
+832
+00:45:45,740 --> 00:45:47,420
+voy a resetear,
+
+833
+00:45:47,420 --> 00:45:50,100
+y vamos a generar ese mismo set de datos,
+
+834
+00:45:50,100 --> 00:45:52,620
+y le tengo que agregar una capa escondida
+
+835
+00:45:52,620 --> 00:45:55,980
+con 3 neuronas, ¿ya?
+
+836
+00:45:55,980 --> 00:45:59,660
+Y quiero que se den cuenta que en el momento
+
+837
+00:45:59,660 --> 00:46:01,820
+que yo oprima a Play,
+
+838
+00:46:01,820 --> 00:46:03,900
+lo primero que ustedes tienen que darse cuenta
+
+839
+00:46:03,900 --> 00:46:08,020
+es dirigir sus ojos acá, a la función de Pérdia, ¿ya?
+
+840
+00:46:08,020 --> 00:46:09,060
+Eso es lo primero que hay que seguir,
+
+841
+00:46:09,060 --> 00:46:12,980
+y después dirigen su mirada a las cañerías, a los pesos.
+
+842
+00:46:12,980 --> 00:46:15,980
+Entonces, vean que lo veas,
+
+843
+00:46:15,980 --> 00:46:17,980
+miren ustedes qué pasa con las funciones de Pérdia.
+
+844
+00:46:17,980 --> 00:46:20,660
+Antes disminuíe al tiro de un paraguazo,
+
+845
+00:46:20,660 --> 00:46:24,660
+pero ahora ya no es tal, ya la cosa no es,
+
+846
+00:46:24,660 --> 00:46:27,540
+llega un mínimo, llega una solución,
+
+847
+00:46:27,540 --> 00:46:31,420
+sí, llega una solución, pero es como más suavecita, ¿no?
+
+848
+00:46:31,420 --> 00:46:32,780
+Lo voy a parar.
+
+849
+00:46:32,780 --> 00:46:36,900
+Ahora, noten ustedes ahí qué está pasando,
+
+850
+00:46:36,940 --> 00:46:41,220
+le estoy metiendo solamente equiuno y equidro,
+
+851
+00:46:41,220 --> 00:46:43,580
+eso es lineal, no es nada, no es lineal,
+
+852
+00:46:43,580 --> 00:46:46,180
+pero aún así, con esas 3 neuronas,
+
+853
+00:46:46,180 --> 00:46:50,660
+ya está empezando ahí a buscarles ese plano separador,
+
+854
+00:46:50,660 --> 00:46:52,780
+intrincado, complicado,
+
+855
+00:46:52,780 --> 00:46:59,260
+que nos permitiría dividir las instancias, ¿ya?
+
+856
+00:47:01,820 --> 00:47:03,260
+Yo no sé cómo le está dando a ustedes,
+
+857
+00:47:03,260 --> 00:47:05,420
+pero yo lo voy a repetir porque no me gusta,
+
+858
+00:47:05,540 --> 00:47:07,540
+no me gusta, no me gusta, ¿ya?
+
+859
+00:47:07,540 --> 00:47:11,020
+Es que ahí, yo lo apreté varias veces,
+
+860
+00:47:11,020 --> 00:47:13,940
+pero a veces está bien y en la que tiene usted
+
+861
+00:47:13,940 --> 00:47:16,860
+es como si estuviera encorchando un máximo local.
+
+862
+00:47:17,860 --> 00:47:22,660
+Entonces, cuando la parte que viene naranja
+
+863
+00:47:22,660 --> 00:47:26,340
+toca el punto azul, no sube más porque es menos eficiente.
+
+864
+00:47:28,710 --> 00:47:30,990
+Sí, no te acaso de escuchar muy bien,
+
+865
+00:47:30,990 --> 00:47:32,910
+pero lo que yo alcance es escuchar,
+
+866
+00:47:32,910 --> 00:47:34,070
+es que es lo que está bien,
+
+867
+00:47:34,070 --> 00:47:35,150
+lo que tú me dices es que,
+
+868
+00:47:35,190 --> 00:47:37,950
+claro, lo que yo estoy viendo acá no es una solución que...
+
+869
+00:47:37,950 --> 00:47:42,110
+Ah, ahora sí, ahora sí te escuchas muy bien.
+
+870
+00:47:42,110 --> 00:47:44,110
+Claro, hay otra interacción cuando apreté play,
+
+871
+00:47:44,110 --> 00:47:45,590
+probablemente lo va a separar,
+
+872
+00:47:45,590 --> 00:47:48,030
+como corresponde, pero también sucede
+
+873
+00:47:48,030 --> 00:47:51,590
+que cuando lo activa ahí es como escuchar un máximo local.
+
+874
+00:47:52,590 --> 00:47:55,950
+Es decir, cuando trata de buscar ya una función
+
+875
+00:47:55,950 --> 00:47:59,390
+que tenga menos pérdida al tocar el punto azul,
+
+876
+00:47:59,390 --> 00:48:00,910
+por ejemplo, se restringe ahí
+
+877
+00:48:00,910 --> 00:48:02,630
+porque ya está bajando un punto azul,
+
+878
+00:48:02,630 --> 00:48:03,630
+pues se no pasa de...
+
+879
+00:48:06,150 --> 00:48:07,070
+Así es, perfecto.
+
+880
+00:48:07,070 --> 00:48:11,350
+O sea, lo que yo tengo al menos yo en mi pantalla,
+
+881
+00:48:11,350 --> 00:48:14,190
+yo tengo una solución ya que está haciendo su pega,
+
+882
+00:48:14,190 --> 00:48:17,350
+lo mejor posible, pero a mí por lo menos no me satisface
+
+883
+00:48:17,350 --> 00:48:20,990
+porque veo que no está discriminando bien
+
+884
+00:48:20,990 --> 00:48:22,550
+toda la parte superior, ¿no es cierto?
+
+885
+00:48:22,550 --> 00:48:25,910
+Tal vez si lo dejo andar más tiempo en una esa,
+
+886
+00:48:25,910 --> 00:48:28,630
+logra salirse de ese óptimo local
+
+887
+00:48:28,630 --> 00:48:32,510
+y encuentra un mejor óptimo, pero pues hay que no.
+
+888
+00:48:32,510 --> 00:48:33,790
+Entonces, ¿qué es lo que tendría que hacer?
+
+889
+00:48:33,790 --> 00:48:36,710
+Pararlo, resetearlo, ¿no es cierto?
+
+890
+00:48:36,710 --> 00:48:41,790
+Voy a generar ese dato y lo vuelvo y ahí sí lo ponen.
+
+891
+00:48:41,790 --> 00:48:44,150
+¿Ya?
+
+892
+00:48:44,150 --> 00:48:45,670
+Ahí ustedes pueden jugar y darse cuenta
+
+893
+00:48:45,670 --> 00:48:47,990
+de todas las cosillas que pueden pasar.
+
+894
+00:48:47,990 --> 00:48:50,230
+Entonces, eso es lo que me pasó al principio,
+
+895
+00:48:50,230 --> 00:48:54,110
+como bien decía a quien, Javier, ¿por qué pasó?
+
+896
+00:48:54,110 --> 00:48:54,830
+¿Por qué pasó?
+
+897
+00:48:54,830 --> 00:48:58,630
+Porque la máquina encuentra un óptimo,
+
+898
+00:48:58,630 --> 00:49:00,030
+encuentra una solución,
+
+899
+00:49:00,030 --> 00:49:04,150
+pero esa solución no necesariamente un óptimo global,
+
+900
+00:49:04,150 --> 00:49:06,070
+puede ser un óptimo local,
+
+901
+00:49:06,070 --> 00:49:09,310
+lo cual genera un desempeño que no es adecuado.
+
+902
+00:49:09,310 --> 00:49:10,590
+Entonces, ¿qué es lo que hay que hacer ahí?
+
+903
+00:49:10,590 --> 00:49:14,310
+Será por los valores iniciales de los pesos que son aleatorios.
+
+904
+00:49:14,310 --> 00:49:14,910
+Así es.
+
+905
+00:49:14,910 --> 00:49:17,950
+Si esta aleatoria hace que encuentre un máximo local
+
+906
+00:49:17,950 --> 00:49:25,390
+y después el proceso puede que encuentre un máximo total.
+
+907
+00:49:25,390 --> 00:49:28,710
+Así es, precisamente, a todo no va a dar distinto,
+
+908
+00:49:28,710 --> 00:49:32,750
+de hecho cuando usted, más adelante,
+
+909
+00:49:32,750 --> 00:49:35,110
+cuando nosotros estemos haciendo un ejercicio,
+
+910
+00:49:35,110 --> 00:49:37,070
+a todo no va a dar tal vez desempeño
+
+911
+00:49:37,070 --> 00:49:40,550
+desligeramente distinto y no nos va a dar exactamente igual.
+
+912
+00:49:40,550 --> 00:49:41,070
+¿Y por qué?
+
+913
+00:49:41,070 --> 00:49:43,390
+Porque todos estamos partiendo de condiciones iniciales
+
+914
+00:49:43,390 --> 00:49:45,270
+distintas, ¿ya?
+
+915
+00:49:45,270 --> 00:49:48,670
+Y esa es la razón por la cual cuando ustedes hacen
+
+916
+00:49:48,670 --> 00:49:50,990
+este tipo de cosas, cuando ustedes entrenan este tipo de
+
+917
+00:49:50,990 --> 00:49:53,870
+máquina, ustedes no la entrenan una vez,
+
+918
+00:49:53,870 --> 00:49:55,950
+la entrenan varias veces, es decir,
+
+919
+00:49:55,950 --> 00:49:59,550
+la hacen entrenar con distintos puntos de partida
+
+920
+00:49:59,550 --> 00:50:03,070
+y analizan después los resultados finales y sacan un promedio de
+
+921
+00:50:03,070 --> 00:50:04,910
+eso, ¿ya?
+
+922
+00:50:04,910 --> 00:50:06,670
+Eso es importante.
+
+923
+00:50:06,670 --> 00:50:11,550
+La red neuronal es determinística en el algoritmo,
+
+924
+00:50:11,550 --> 00:50:14,750
+pero no necesariamente siempre, eso no significa que siempre
+
+925
+00:50:14,750 --> 00:50:17,790
+el resultado va a ser el mismo porque siempre va a partir
+
+926
+00:50:17,790 --> 00:50:20,790
+con condiciones iniciales distintas, ¿ya?
+
+927
+00:50:20,790 --> 00:50:22,590
+Entonces, ¿qué maravilla?
+
+928
+00:50:22,590 --> 00:50:25,310
+Fíjense usted, ¿qué tenemos a ver?
+
+929
+00:50:25,310 --> 00:50:27,910
+Sí, ¿ya bien?
+
+930
+00:50:27,910 --> 00:50:29,870
+Esto es para este problema.
+
+931
+00:50:29,870 --> 00:50:34,270
+Si yo complejizo el problema y tengo un dataset infinito,
+
+932
+00:50:34,270 --> 00:50:38,270
+el costo de cómputo es muchísimo mayor,
+
+933
+00:50:38,270 --> 00:50:39,790
+ya no puedo iterar tantas veces.
+
+934
+00:50:39,790 --> 00:50:43,310
+Entonces, ¿cuál sería el camino de solución ahí o solo
+
+935
+00:50:43,310 --> 00:50:46,510
+encorchar un óptimo local?
+
+936
+00:50:46,510 --> 00:50:47,550
+¿Un dataset infinito?
+
+937
+00:50:47,550 --> 00:50:48,550
+Bueno, diga un dataset.
+
+938
+00:50:48,550 --> 00:50:53,270
+No, o sea, casi, te me refiero a gigante.
+
+939
+00:50:53,270 --> 00:50:54,710
+Sí, o sea, de nuevo.
+
+940
+00:50:54,750 --> 00:50:57,110
+¿Tiene ningún problema más complejo que esto?
+
+941
+00:50:57,110 --> 00:50:59,350
+Aquí lo único que puede hacer, o sea,
+
+942
+00:50:59,350 --> 00:51:03,230
+tú ni siquiera, o sea, los problemas que son tan complicados
+
+943
+00:51:03,230 --> 00:51:07,470
+con tantas variables y con muy noríales,
+
+944
+00:51:07,470 --> 00:51:13,350
+tú nunca, digamos, vas a ser casi imposible que tú tengas
+
+945
+00:51:13,350 --> 00:51:15,710
+la certeza de que este es un mínimo global.
+
+946
+00:51:15,710 --> 00:51:21,030
+O sea, el plano, o sea, hay un concepto que en física lo
+
+947
+00:51:21,030 --> 00:51:25,230
+ven mucho que se llama el Landscape de Energía.
+
+948
+00:51:25,230 --> 00:51:28,110
+Voy a tratar de explicar un poquito esto.
+
+949
+00:51:28,110 --> 00:51:29,630
+Acá es la piscina.
+
+950
+00:51:33,070 --> 00:51:36,350
+Lo que hace, lo que trata de hacer la máquina, básicamente,
+
+951
+00:51:36,350 --> 00:51:41,190
+es tratar de minimizar un, digamos, un hiperplano.
+
+952
+00:51:41,190 --> 00:51:42,630
+No lo puedo dibujar un hiperplano,
+
+953
+00:51:42,630 --> 00:51:46,110
+pero supongamos que esto fuese en dos mesos, ¿cierto?
+
+954
+00:51:46,110 --> 00:51:50,190
+Él trata de encontrar los valores de los pesos
+
+955
+00:51:50,230 --> 00:51:54,230
+sinápticos y de los vallas tal que minimicen,
+
+956
+00:51:54,230 --> 00:51:56,270
+o sea, la pérdida, ¿ya?
+
+957
+00:51:56,270 --> 00:51:59,350
+Esta pérdida también le dice en energía.
+
+958
+00:51:59,350 --> 00:52:00,510
+Se puede asociar con energía.
+
+959
+00:52:00,510 --> 00:52:05,430
+Entonces, si uno grafica la energía con los distintos
+
+960
+00:52:05,430 --> 00:52:08,350
+soluciones de los pesos sinápticos,
+
+961
+00:52:08,350 --> 00:52:11,710
+esto da como unas sábanas y con varias montañas.
+
+962
+00:52:11,710 --> 00:52:14,310
+Imagínense la cordillera en Los Andes, bien profunda,
+
+963
+00:52:14,310 --> 00:52:16,590
+y está lleno de cerros, cerros de montañas,
+
+964
+00:52:16,590 --> 00:52:18,710
+que se llama una montaña súper alta,
+
+965
+00:52:18,750 --> 00:52:21,030
+unos planos que se llenó.
+
+966
+00:52:21,030 --> 00:52:24,750
+Entonces, resulta ser que en el proceso de aprendizaje,
+
+967
+00:52:24,750 --> 00:52:29,670
+de repente, caímos por acá y quedamos en esta solución,
+
+968
+00:52:29,670 --> 00:52:30,270
+¿no es cierto?
+
+969
+00:52:30,270 --> 00:52:32,350
+Que representa un mínimo local.
+
+970
+00:52:32,350 --> 00:52:34,070
+Pero el problema es tan complicado,
+
+971
+00:52:34,070 --> 00:52:37,790
+tan complicado que resulta imposible darse cuenta
+
+972
+00:52:37,790 --> 00:52:39,430
+si estamos en un problema, digamos,
+
+973
+00:52:39,430 --> 00:52:41,150
+estamos en un mínimo local o global,
+
+974
+00:52:41,150 --> 00:52:46,070
+porque esto es como tratar de encontrar la depresión más
+
+975
+00:52:46,070 --> 00:52:49,230
+profunda de una cordillera de Los Andes que es gigantesca.
+
+976
+00:52:49,230 --> 00:52:51,910
+O sea, no podemos, es demasiado complicado.
+
+977
+00:52:51,910 --> 00:52:56,750
+Entonces, en esos casos, no hay ninguna posibilidad de poder
+
+978
+00:52:56,750 --> 00:52:58,870
+saber si estamos en ese local o global,
+
+979
+00:52:58,870 --> 00:53:00,350
+pero encontramos una solución.
+
+980
+00:53:00,350 --> 00:53:03,110
+Y lo único que podríamos hacer entonces es volver a repetir
+
+981
+00:53:03,110 --> 00:53:06,590
+el entrenamiento y partir con distintas condiciones de entrada.
+
+982
+00:53:06,590 --> 00:53:09,710
+Y ver si tal vez vamos a encontrar aquí este otro
+
+983
+00:53:09,710 --> 00:53:12,950
+mínimo y en este mínimo que está acá encontramos un
+
+984
+00:53:12,950 --> 00:53:15,550
+desempeño ligeramente superior.
+
+985
+00:53:16,430 --> 00:53:18,910
+¿Hacemos descenso de gradiente, profe?
+
+986
+00:53:18,910 --> 00:53:19,910
+¿Verdad?
+
+987
+00:53:19,910 --> 00:53:22,670
+¿Aunque se hubo un descenso de gradiente?
+
+988
+00:53:22,670 --> 00:53:24,070
+Sí, con el descenso de gradiente.
+
+989
+00:53:24,070 --> 00:53:27,390
+Es el algoritmo para poder encontrar un mínimo.
+
+990
+00:53:27,390 --> 00:53:30,150
+Problema que aquí tenemos cientos de miles de doble
+
+991
+00:53:30,150 --> 00:53:31,310
+B que tenemos que encontrar.
+
+992
+00:53:31,310 --> 00:53:33,110
+Es un problema demasiado complicado.
+
+993
+00:53:33,110 --> 00:53:34,750
+Nada te asegura, ¿no?
+
+994
+00:53:34,750 --> 00:53:36,190
+Es imposible estar seguro.
+
+995
+00:53:36,190 --> 00:53:38,350
+Hay alguien que te diga que encontré un mínimo global
+
+996
+00:53:38,350 --> 00:53:41,150
+en un problema con cientos de miles o millones de pesos.
+
+997
+00:53:41,150 --> 00:53:42,910
+Es fácil.
+
+998
+00:53:42,910 --> 00:53:44,670
+Mentiros.
+
+999
+00:53:45,510 --> 00:53:53,310
+Ok, entonces fantástico.
+
+1000
+00:53:53,310 --> 00:53:56,430
+Bueno, para cerrar aquí el tema, ¿se han cuenta ustedes que
+
+1001
+00:53:56,430 --> 00:53:58,670
+ya este es problema más real?
+
+1002
+00:53:58,670 --> 00:54:01,470
+Porque ya no sabemos, no sabemos como es la cosa al inmediato.
+
+1003
+00:54:01,470 --> 00:54:02,270
+Entonces, ¿qué hacemos?
+
+1004
+00:54:02,270 --> 00:54:05,270
+Hemos añadido una capa adicional contra el neurono.
+
+1005
+00:54:05,270 --> 00:54:07,550
+Entonces, piensen ustedes que si este fuese un problema
+
+1006
+00:54:07,550 --> 00:54:09,910
+mucho más complicado, ¿qué tendríamos que hacer?
+
+1007
+00:54:09,910 --> 00:54:14,710
+Eventualmente añadir más neuronas.
+
+1008
+00:54:14,710 --> 00:54:16,910
+Añadir más neuronas.
+
+1009
+00:54:17,750 --> 00:54:23,460
+Entonces, eso es lo que viene a continuación, ¿no es cierto?
+
+1010
+00:54:23,460 --> 00:54:25,060
+Añadimos más neuronas.
+
+1011
+00:54:25,060 --> 00:54:29,260
+Pero voy a añadir más neuronas, no para que lo haga mejor
+
+1012
+00:54:29,260 --> 00:54:31,020
+si ya lo hizo perfecto.
+
+1013
+00:54:31,020 --> 00:54:34,260
+Vamos a hacer algo, vamos a hacer lo siguiente.
+
+1014
+00:54:34,260 --> 00:54:37,300
+A este mismo ejemplo lo voy a resetear.
+
+1015
+00:54:37,300 --> 00:54:39,580
+Ya voy a regenerar un set de datos.
+
+1016
+00:54:39,580 --> 00:54:41,220
+Voy a seguir con los mismos features.
+
+1017
+00:54:41,220 --> 00:54:45,140
+Pero ahora le voy a agregar un poquito de ruido.
+
+1018
+00:54:45,340 --> 00:54:49,340
+Pero ahora le voy a agregar un poquito de ruido.
+
+1019
+00:54:49,340 --> 00:54:51,580
+30% le voy a agregar.
+
+1020
+00:54:51,580 --> 00:54:52,700
+¿Qué significa de ruido?
+
+1021
+00:54:52,700 --> 00:54:55,500
+Significa, si se dan cuenta, hay alguna,
+
+1022
+00:54:55,500 --> 00:54:57,820
+eso significa básicamente que ahora las dos clases que han
+
+1023
+00:54:57,820 --> 00:54:59,420
+un poco más traslapada.
+
+1024
+00:54:59,420 --> 00:55:02,740
+O sea, este naranjo que está en la zona azul,
+
+1025
+00:55:02,740 --> 00:55:06,140
+tal vez debería haber sido un azul y lo etiquetaron mal.
+
+1026
+00:55:06,140 --> 00:55:06,660
+¿Sabes cuenta?
+
+1027
+00:55:06,660 --> 00:55:09,180
+O al resto, este que está aquí en la zona naranja,
+
+1028
+00:55:09,180 --> 00:55:11,580
+quedó este que está azul, que llegó en la zona naranja,
+
+1029
+00:55:12,540 --> 00:55:16,660
+y lo etiquetaron azules y quedaron ruido, error.
+
+1030
+00:55:16,660 --> 00:55:18,020
+Con lo que va a ser la vierra real,
+
+1031
+00:55:18,020 --> 00:55:20,220
+hay muchas mediciones que están malas.
+
+1032
+00:55:20,220 --> 00:55:22,700
+O siempre las mediciones tienen un grado de error.
+
+1033
+00:55:22,700 --> 00:55:29,820
+Entonces, aquí básicamente quiero ver, ya no estoy preocupado
+
+1034
+00:55:29,820 --> 00:55:32,060
+por la complejidad, sino que estoy preocupado ahora por la
+
+1035
+00:55:32,060 --> 00:55:37,380
+capacidad que tiene esta cuestión de cómo lo hacer,
+
+1036
+00:55:37,380 --> 00:55:41,300
+cómo se va a enfrentar al ruido que tengo en ese dado.
+
+1037
+00:55:42,100 --> 00:55:44,340
+Entonces, de nuevo, en el momento que yo apriete el
+
+1038
+00:55:44,340 --> 00:55:46,260
+Photon Play, ¿qué es lo que tienen que hacer?
+
+1039
+00:55:46,260 --> 00:55:50,660
+Mirar qué cosa, la esquina superior derecha, el LOS,
+
+1040
+00:55:50,660 --> 00:55:51,820
+la función de pérdida.
+
+1041
+00:55:51,820 --> 00:55:56,390
+Vean ustedes qué es lo que va a pasar, ¿no es cierto?
+
+1042
+00:55:56,390 --> 00:56:00,630
+Y vayan dándose cuenta, también vayan dándose cuenta de
+
+1043
+00:56:00,630 --> 00:56:02,070
+qué es lo que pasa con el LOS,
+
+1044
+00:56:02,070 --> 00:56:07,670
+evaluado sobre el training y evaluado sobre el test.
+
+1045
+00:56:07,670 --> 00:56:09,390
+¿Y cómo lo está haciendo ahí?
+
+1046
+00:56:09,390 --> 00:56:12,270
+Al menos en mi simulación.
+
+1047
+00:56:12,310 --> 00:56:15,740
+A lo menos no más, por lo cierto.
+
+1048
+00:56:15,740 --> 00:56:19,420
+Está verudo, está complicado, porque mira, mira.
+
+1049
+00:56:19,420 --> 00:56:21,340
+Y nosotros ya sabemos cuál es el decisión,
+
+1050
+00:56:21,340 --> 00:56:24,180
+Andrés, era esa curva así, ¿no es cierto?
+
+1051
+00:56:24,180 --> 00:56:27,820
+Diogo Kochok y no está dando eso, pero no importa.
+
+1052
+00:56:27,820 --> 00:56:30,540
+Mientras tú hace la pregunta, ¿cuál es tu nombre?
+
+1053
+00:56:30,540 --> 00:56:31,940
+Felipe, mientras Felipe hace la pregunta,
+
+1054
+00:56:31,940 --> 00:56:34,500
+yo lo voy a seguir simulando, dime.
+
+1055
+00:56:34,500 --> 00:56:41,020
+OK, ¿cómo define el sistema, no sé si al azar o qué,
+
+1056
+00:56:41,100 --> 00:56:44,060
+¿cuáles son las funciones de las neuronas interiores?
+
+1057
+00:56:44,060 --> 00:56:45,900
+¿Cuáles son las funciones de las neuronas?
+
+1058
+00:56:45,900 --> 00:57:15,900
+Son lineales, no lineales y kikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikik
+
+1059
+00:57:15,900 --> 00:57:47,790
+En general si, nadie va a estar en una misma capa colocando funciones de activaciones distintas para cada neurona, eso es raro, nunca he visto algo así, no, osea todas las neuronas en una capa van a tener siempre la misma función de activación, eso es lo primero. Lo segundo, ¿Cuál función de activación? Porque hay varias, ya, en general si, nadie va a estar en una misma capa colocando funciones de activaciones distintas para cada neurona, eso es raro, nunca he visto algo así, no, osea todas las neuronas en una capa van a tener siempre la misma función de activación, eso es lo primero. Lo segundo, ¿Cuál función de activación? Porque hay varias, ya, en general si, nadie va a estar en una misma capa colocando funciones de activaciones distintas para cada neurona, eso es raro, nunca he visto algo así, no, osea todas las neuronas en una capa van a tener siempre la
+
+1060
+00:57:47,790 --> 00:58:17,790
+misma función de activación. Por ejemplo, ¿Podría ser una tarjeta hiperbólica? Sí, podría ser una tarjeta hiperbólica. El problema, si tú me preguntáis ¿Por qué preferiría yo una reloj que una tarjeta hiperbólica? Porque resulta que en este proceso de aprendizaje, te acuerdas que aparece un error y ese error hay que retransmitirlo y esa retransmisión hacia adentro de la, hacia, hacia atrás, se hace a través de los gradientes, es decir, hay que calcular deriva. Entonces, eso implica que hay que calcular la deriva de una tarjeta hiperbólica.
+
+1061
+00:58:17,790 --> 00:58:47,790
+Entonces, y eso es costo computacional. Entonces, ¿Por qué no mejor utilizamos otra función de activación cuya deriva no sea tan complicada? Ya, ah, entonces alguien se lo burrió esta famosa reloj. ¿Y qué tiene, y cuál es la gracia de la reloj? Primera, es que si tú te da cuenta tiene dos derivadas que son súper fáciles. Cero, osea, no sé, pero la pendiente está aquí cero y en la parte positiva pues la pendiente uno. Osea, el término computacional es cero, uno, cero, uno, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, c
+
+1062
+00:58:47,790 --> 00:59:17,790
+ero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero,
+
+1063
+00:59:17,790 --> 00:59:47,790
+cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero
+
+1064
+00:59:47,790 --> 01:00:19,230
+cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero, cero
+
+1065
+01:00:19,230 --> 01:00:27,270
+lo hizo mal, ayo, no se la bubo, ¿te cae? Entonces lo voy a hacer de nuevo, a ver que
+
+1066
+01:00:27,270 --> 01:00:32,950
+pasa, porque, porque a lo mejor me fui muy achancho, entonces lo que voy a hacer, lo voy a disminuir
+
+1067
+01:00:32,950 --> 01:00:42,430
+un poquito más del ruido, originalmente estaba en 30, si estaba en 3, lo voy a dejar en 25,
+
+1068
+01:00:42,430 --> 01:00:48,870
+voy a regenerar, voy a resetear y lo voy a hacer de nuevo, fíjate, ay mira, mira,
+
+1069
+01:00:48,870 --> 01:00:53,310
+ahí está como, cachando el mote ahí, está tratando, buscale, buscale, buscale,
+
+1070
+01:00:53,310 --> 01:00:57,110
+subió, después bajó, encontró un mínimo, que siguió, hay ruido, que siguió,
+
+1071
+01:00:57,110 --> 01:01:06,060
+de repente se equivoca, pero anda ahí, está tiritónaco, de nuevo fallo, fíjate,
+
+1072
+01:01:07,260 --> 01:01:11,740
+o sea antes al principio no había fallado, ¿por qué? ¿por qué ahora está complicando?
+
+1073
+01:01:11,740 --> 01:01:15,460
+Miren, miren lo que está pasando, miren lo que está pasando en las dos curvas,
+
+1074
+01:01:15,540 --> 01:01:21,980
+¿qué está pasando? La del test, ¿cómo es? 0-3 en los, mientras que del training los es 0-20,
+
+1075
+01:01:21,980 --> 01:01:29,860
+y se están separando, ¿qué está pasando ahí? Y eso aquí significa que las dos se están
+
+1076
+01:01:29,860 --> 01:01:37,380
+separando, eso es síntoma de, eso se llama overfitting, lo está haciendo súper bien
+
+1077
+01:01:37,380 --> 01:01:45,020
+con el entrenamiento, pero está fallando muy mal con los de test, o sea aquí tenía un
+
+1078
+01:01:45,060 --> 01:01:50,220
+problema en donde lo está haciendo mal y además estoy teniendo overfitting, el escenario más
+
+1079
+01:01:50,220 --> 01:02:00,650
+horrible que voy a imaginarme, mal, ¿ya? De nuevo, a ver, entonces, y de nuevo, bueno,
+
+1080
+01:02:00,650 --> 01:02:04,250
+¿y por qué está pasando esto? Porque ya sabíamos que la solución inicial, lo encontramos,
+
+1081
+01:02:04,250 --> 01:02:12,170
+ya tiró, ahora ya no puede, porque el ruido, le hemos puesto el ruido, ¿ya? Lo voy a
+
+1082
+01:02:12,170 --> 01:02:18,890
+parar porque todavía no aparece lo que quiero mostrar, a ver si me sale, lo voy a poner
+
+1083
+01:02:18,890 --> 01:02:45,000
+menos ruido, 15% por ahí, ahí, parece que voy a tener que mostrar de la figura, no, no
+
+1084
+01:02:45,000 --> 01:02:52,820
+ocurre lo que yo quiero que ocurra, bueno, ahí está, ahí está, ahí está corriendo un poquito la
+
+1085
+01:02:53,780 --> 01:03:00,020
+ya, ahí se está, fíjense que se usó esto.
+
+1086
+01:03:00,020 --> 01:03:04,020
+Una mejor cita, ¿no mostró?
+
+1087
+01:03:04,020 --> 01:03:09,020
+A ver, veamos si puede, a ver, déjame ver los poderes acá para,
+
+1088
+01:03:14,020 --> 01:03:29,500
+ahí sí, a ver, ya, a ver, a ver, que explicanos, ¿qué dices tú, qué está pasando ahí?
+
+1089
+01:03:30,500 --> 01:03:33,500
+Encochó una solución mejor.
+
+1090
+01:03:33,500 --> 01:03:37,820
+Pero por qué, a ver, primero, ¿por qué dice que es mejor?
+
+1091
+01:03:37,820 --> 01:03:47,820
+Porque está previsiendo mejor la cantidad de puntos naranja y puntos azules dentro de la zona azul y naranja,
+
+1092
+01:03:47,820 --> 01:03:53,820
+aunque cuando tiene error, pero mucho menor al error que los modelos que se están correndo,
+
+1093
+01:03:53,820 --> 01:03:56,820
+de las iteraciones que se están haciendo.
+
+1094
+01:03:56,820 --> 01:04:01,820
+Ya, bueno, por lo menos es mejor que el que me está dando, tiene un loco.
+
+1095
+01:04:01,820 --> 01:04:02,820
+Sí, claro, sí.
+
+1096
+01:04:02,820 --> 01:04:04,820
+En el mismo, ¿ya?
+
+1097
+01:04:04,820 --> 01:04:07,820
+Sí, y con ruido el 30.
+
+1098
+01:04:07,820 --> 01:04:12,820
+Ya, pero, ok, ok, pero, ¿vale?
+
+1099
+01:04:12,820 --> 01:04:18,820
+No es perfecto, o sea, tengo puntos naranjos de la zona azul y tengo puntos azules de la zona naranja.
+
+1100
+01:04:18,820 --> 01:04:24,820
+Ya, pero dale play y síguelo, déjalo entrenar mucho más tiempo, ¿ya?
+
+1101
+01:04:24,820 --> 01:04:28,160
+Está echando.
+
+1102
+01:04:28,160 --> 01:04:34,160
+Sí, y permíteme, permíteme, permíteme ahora mostrar lo que me está dando a mí, para mostrarles lo que quiero.
+
+1103
+01:04:34,160 --> 01:04:37,160
+Hay algo.
+
+1104
+01:04:37,160 --> 01:04:43,160
+Entonces, no sé, ¿están viéndolo, están viendo en la casa mi?
+
+1105
+01:04:43,160 --> 01:04:44,160
+Sí.
+
+1106
+01:04:44,160 --> 01:04:45,160
+Sí, ya, bien.
+
+1107
+01:04:45,160 --> 01:04:49,160
+Entonces, fíjense acá, ¿qué está pasando acá?
+
+1108
+01:04:49,160 --> 01:04:53,160
+Fíjense que como que esta parte del decision boundary se está metiendo,
+
+1109
+01:04:53,160 --> 01:04:56,160
+como que está invadiendo esta zona, ¿no es cierto?
+
+1110
+01:04:56,160 --> 01:04:58,160
+Está invadiendo esta zona.
+
+1111
+01:04:58,160 --> 01:05:03,160
+Nosotros sabemos que la original, digamos, el decision boundary correcto cuál es.
+
+1112
+01:05:03,160 --> 01:05:05,160
+Se para la octona en 4, ¿no es cierto?
+
+1113
+01:05:05,160 --> 01:05:06,160
+Es el correcto.
+
+1114
+01:05:06,160 --> 01:05:11,160
+Entonces, aquí va bien, por aquí va bien, pero fíjense como que esta zona de acá está invadida,
+
+1115
+01:05:11,160 --> 01:05:14,160
+o sea, como que se está metiendo para acá, ¿ya?
+
+1116
+01:05:14,160 --> 01:05:16,160
+¿Y por qué se está metiendo?
+
+1117
+01:05:16,160 --> 01:05:21,160
+Porque lo que ve la máquina es que hay algunos puntos, aquí hay algunos puntos naranjos
+
+1118
+01:05:21,160 --> 01:05:23,160
+que están en la zona azul.
+
+1119
+01:05:23,160 --> 01:05:28,160
+Entonces, de alguna manera, precisamente veo que, por un lado veo que estoy teniendo overfitting
+
+1120
+01:05:28,160 --> 01:05:31,160
+y, ¿qué significa overfitting?
+
+1121
+01:05:31,160 --> 01:05:36,160
+Significa que en este afán de la máquina, por tratar de predecir correctamente
+
+1122
+01:05:36,160 --> 01:05:40,160
+estos puntos que yo estoy viendo con la cara, que son ruido,
+
+1123
+01:05:40,160 --> 01:05:44,160
+en esa afán de predecir correctamente esto, que es ruido, que debe haber sido azul y no naranjo,
+
+1124
+01:05:44,160 --> 01:05:45,160
+¿qué está pasando?
+
+1125
+01:05:45,160 --> 01:05:49,160
+Se está distorsionando el decision boundary
+
+1126
+01:05:49,160 --> 01:05:54,160
+que también lo dejo queda en evidencia con el exceso de peso
+
+1127
+01:05:54,160 --> 01:05:57,160
+o la intensidad del peso sináptico que hay acá.
+
+1128
+01:05:57,160 --> 01:06:01,160
+Fíjense la cañería, la cañería gruesa que tengo acá, ¿ya?
+
+1129
+01:06:01,160 --> 01:06:04,160
+Es decir, en otras palabras, lo que yo tengo aquí
+
+1130
+01:06:04,160 --> 01:06:09,160
+tengo un síntoma de overfitting que se está produciendo producto derecho
+
+1131
+01:06:09,160 --> 01:06:12,160
+de que por algún motivo, en este caso por el ruido,
+
+1132
+01:06:12,160 --> 01:06:16,160
+tengo instancias que están, de alguna manera,
+
+1133
+01:06:16,160 --> 01:06:18,160
+de, ¿cómo se dice?
+
+1134
+01:06:18,160 --> 01:06:21,160
+Se está de, ¿cómo se dice?
+
+1135
+01:06:21,160 --> 01:06:24,160
+La palabra aquí, está interferiendo,
+
+1136
+01:06:24,160 --> 01:06:28,160
+está demoronando, digamos, está defaneciendo
+
+1137
+01:06:28,160 --> 01:06:31,160
+el correcto decision boundary producto de este ruido
+
+1138
+01:06:31,160 --> 01:06:34,160
+y eso se manifiesta a través de dos síntomas.
+
+1139
+01:06:34,160 --> 01:06:39,160
+Uno, por esta divergencia del los entre el test y el ting
+
+1140
+01:06:39,160 --> 01:06:42,160
+y por los pesos sinápticos que se empiezan a aumentar,
+
+1141
+01:06:42,160 --> 01:06:45,160
+empiezan a, a esa cañería comienzan a hacerse demasiado grande.
+
+1142
+01:06:46,160 --> 01:06:50,160
+Esto yo creo que se ve mucho mejor en el ejemplo que tengo en la transparencia.
+
+1143
+01:06:50,160 --> 01:06:53,160
+Fíjense usted en el ejemplo de la transparencia acá,
+
+1144
+01:06:53,160 --> 01:06:57,160
+yo lo hice aquí con un caso mucho más simple, ¿ya?
+
+1145
+01:06:57,160 --> 01:07:01,160
+En donde nosotros sabíamos que el decision boundary
+
+1146
+01:07:01,160 --> 01:07:04,160
+era una línea recta, pero le puse ruido, ¿verdad?
+
+1147
+01:07:04,160 --> 01:07:06,160
+¿Y qué pasó? Fíjense, por ejemplo,
+
+1148
+01:07:06,160 --> 01:07:09,160
+aquí estos puntitos que están aquí, están claramente,
+
+1149
+01:07:09,160 --> 01:07:13,160
+son tres puntos solos que están claramente bien metidos adentro
+
+1150
+01:07:13,160 --> 01:07:17,160
+en la zona, de la zona naranja y que lo más probable
+
+1151
+01:07:17,160 --> 01:07:19,160
+es que sean ruidos, mal clasificados.
+
+1152
+01:07:19,160 --> 01:07:21,160
+Entonces, ¿qué es lo que hace la máquina?
+
+1153
+01:07:21,160 --> 01:07:25,160
+La máquina comienza, digamos, torpemente a tratar
+
+1154
+01:07:25,160 --> 01:07:28,160
+de clasificar correctamente estos tres puntos
+
+1155
+01:07:28,160 --> 01:07:30,160
+que deberían haber sido naranjo, pero no lo son.
+
+1156
+01:07:30,160 --> 01:07:32,160
+¿Y qué está pasando entonces?
+
+1157
+01:07:32,160 --> 01:07:35,160
+Al hacer esta distorsión de este decision boundary
+
+1158
+01:07:35,160 --> 01:07:37,160
+queda manifestado por un exceso,
+
+1159
+01:07:37,160 --> 01:07:40,160
+una amplitud de demasiado grande, algunos pesos.
+
+1160
+01:07:40,160 --> 01:07:43,160
+Por tratar de generar este huevo frito raro,
+
+1161
+01:07:43,160 --> 01:07:46,160
+este decision boundary tan complicado que está aquí.
+
+1162
+01:07:46,160 --> 01:07:48,160
+Ok, ya vale, o sea,
+
+1163
+01:07:48,160 --> 01:07:50,160
+en la práctica nos vamos a estar viendo todos los pesos,
+
+1164
+01:07:50,160 --> 01:07:52,160
+porque podemos tener cientos de milas de pesos,
+
+1165
+01:07:52,160 --> 01:07:53,160
+nos lo podemos monitorear todo.
+
+1166
+01:07:53,160 --> 01:07:55,160
+Entonces, ¿qué es lo que tenemos que ver?
+
+1167
+01:07:55,160 --> 01:07:57,160
+Al final, nosotros, miserables seres humanos,
+
+1168
+01:07:57,160 --> 01:08:00,160
+lo único que tenemos acceso al desarrollo de esta cuestión
+
+1169
+01:08:00,160 --> 01:08:03,160
+es eso que está apuntando mi lápiz negro.
+
+1170
+01:08:03,160 --> 01:08:08,160
+La divergencia de los entre el train y el test.
+
+1171
+01:08:08,160 --> 01:08:11,540
+Esa es la historia.
+
+1172
+01:08:11,540 --> 01:08:13,540
+Esa es la historia.
+
+1173
+01:08:13,540 --> 01:08:15,540
+O sea, cuando yo observo que hay una divergencia
+
+1174
+01:08:15,540 --> 01:08:18,540
+entre el loss del train y el test,
+
+1175
+01:08:18,540 --> 01:08:20,540
+pasan todas estas cuestiones que están ocurriendo aquí,
+
+1176
+01:08:20,540 --> 01:08:22,540
+porque yo no las puedo ver.
+
+1177
+01:08:22,540 --> 01:08:24,540
+Así que, por eso tengo que fijarme tanto
+
+1178
+01:08:24,540 --> 01:08:27,540
+en la evolución de la función de pérdida.
+
+1179
+01:08:27,540 --> 01:08:28,540
+¿Ya?
+
+1180
+01:08:28,540 --> 01:08:30,540
+Eso es lo que hay que hacer al final.
+
+1181
+01:08:30,540 --> 01:08:33,540
+Entonces, para resumir el cuento aquí,
+
+1182
+01:08:33,540 --> 01:08:36,540
+para resumir el cuento aquí,
+
+1183
+01:08:36,540 --> 01:08:38,540
+tenemos que la vía real, sí, vamos a tener ruido.
+
+1184
+01:08:38,540 --> 01:08:40,540
+Sí, por supuesto, no lo podemos.
+
+1185
+01:08:40,540 --> 01:08:42,540
+Y no sabemos cuál es la instancia que tienen ruido,
+
+1186
+01:08:42,540 --> 01:08:44,540
+así que estamos sanados.
+
+1187
+01:08:44,540 --> 01:08:45,540
+¿Qué es lo que va a pasar?
+
+1188
+01:08:45,540 --> 01:08:46,540
+Va a pasar esto.
+
+1189
+01:08:46,540 --> 01:08:48,540
+Y la única manera que yo tengo de ver
+
+1190
+01:08:48,540 --> 01:08:50,540
+que está pasando algo como esto,
+
+1191
+01:08:50,540 --> 01:08:52,540
+es observando la función de pérdida.
+
+1192
+01:08:52,540 --> 01:08:55,230
+¿Ya?
+
+1193
+01:08:55,230 --> 01:08:57,230
+Entonces, ya deben estar preguntándose,
+
+1194
+01:08:57,230 --> 01:08:58,230
+bueno, profe, pero si ya sabemos
+
+1195
+01:08:58,230 --> 01:08:59,230
+que esta cuestión va a pasar,
+
+1196
+01:08:59,230 --> 01:09:00,230
+porque es ruido y toda la cuestión,
+
+1197
+01:09:00,230 --> 01:09:02,230
+¿qué podemos hacer?
+
+1198
+01:09:02,230 --> 01:09:04,230
+O sea, ¿no podemos morir ahogados
+
+1199
+01:09:04,230 --> 01:09:05,230
+o ahogados del dolor?
+
+1200
+01:09:05,230 --> 01:09:07,230
+Tenemos que aplicar algún tipo de receta
+
+1201
+01:09:07,230 --> 01:09:09,230
+para resolver este problema, ¿ya?
+
+1202
+01:09:09,230 --> 01:09:11,230
+Y ahí aparece, entonces,
+
+1203
+01:09:11,230 --> 01:09:14,230
+el concepto de regularizador, ¿ya?
+
+1204
+01:09:14,230 --> 01:09:16,230
+Para ustedes, tomen nota,
+
+1205
+01:09:16,230 --> 01:09:18,230
+digamos, lo tengan claro.
+
+1206
+01:09:18,230 --> 01:09:20,230
+El concepto es súper simple.
+
+1207
+01:09:20,230 --> 01:09:23,230
+El regularizador es un impuesto.
+
+1208
+01:09:23,230 --> 01:09:25,230
+Es como que viene el Estado
+
+1209
+01:09:25,230 --> 01:09:28,230
+y dice, oye, compadre, tú estás ahí.
+
+1210
+01:09:28,230 --> 01:09:30,230
+Voy a volver aquí el ejemplo.
+
+1211
+01:09:30,230 --> 01:09:34,230
+Oye, Vigito, usted lo está generando
+
+1212
+01:09:34,230 --> 01:09:37,230
+un decision boundary demasiado ajustado,
+
+1213
+01:09:37,230 --> 01:09:39,230
+demasiado entrincado.
+
+1214
+01:09:39,230 --> 01:09:41,230
+Está ahí ganando mucha plata.
+
+1215
+01:09:41,230 --> 01:09:42,230
+Entonces, viene el Estado y dice,
+
+1216
+01:09:42,230 --> 01:09:44,230
+no, vamos a aplicarle un impuesto
+
+1217
+01:09:44,230 --> 01:09:47,230
+porque este decision boundary
+
+1218
+01:09:47,230 --> 01:09:49,230
+no puede ser este tan entrincado,
+
+1219
+01:09:49,230 --> 01:09:50,230
+no puede ser tan complicado.
+
+1220
+01:09:50,230 --> 01:09:52,230
+Así que, para restringirte
+
+1221
+01:09:52,230 --> 01:09:54,230
+tu capacidad de crear
+
+1222
+01:09:54,230 --> 01:09:57,230
+un decision boundary demasiado ajustado
+
+1223
+01:09:57,230 --> 01:09:59,230
+a los datos, que seguramente
+
+1224
+01:09:59,230 --> 01:10:00,230
+producto de estar ruido,
+
+1225
+01:10:00,230 --> 01:10:02,230
+te voy a aplicar en un impuesto.
+
+1226
+01:10:02,230 --> 01:10:04,230
+Y ese impuesto es un impuesto a la ganancia.
+
+1227
+01:10:04,230 --> 01:10:07,230
+Es un impuesto al desarrollo
+
+1228
+01:10:07,230 --> 01:10:09,230
+de este decision boundary tan complicado.
+
+1229
+01:10:09,230 --> 01:10:12,230
+En otras palabras, es un impuesto
+
+1230
+01:10:12,230 --> 01:10:14,230
+por generar pesos,
+
+1231
+01:10:14,230 --> 01:10:16,230
+algunos de los pesos que están empezando
+
+1232
+01:10:16,230 --> 01:10:19,230
+a agrandarse demasiado, ¿ya?
+
+1233
+01:10:19,230 --> 01:10:22,230
+O sea, si asiste un peso sináptico
+
+1234
+01:10:22,230 --> 01:10:24,230
+demasiado grande, va a venir alguien,
+
+1235
+01:10:24,230 --> 01:10:25,230
+va a venir el servicio,
+
+1236
+01:10:25,230 --> 01:10:27,230
+y usted no te va a cobrar.
+
+1237
+01:10:27,230 --> 01:10:28,230
+Y si te pase la categoría,
+
+1238
+01:10:28,230 --> 01:10:30,230
+te va a cobrar más.
+
+1239
+01:10:30,230 --> 01:10:32,230
+O sea, es el regularizador.
+
+1240
+01:10:32,230 --> 01:10:34,230
+O sea, es realmente el servicio.
+
+1241
+01:10:34,230 --> 01:10:36,230
+Entonces, ese fenómeno,
+
+1242
+01:10:36,230 --> 01:10:38,230
+como ya les acabo de comentar,
+
+1243
+01:10:38,230 --> 01:10:40,230
+se llama overfitting
+
+1244
+01:10:40,230 --> 01:10:42,230
+y actualmente la única manera
+
+1245
+01:10:42,230 --> 01:10:44,230
+que tenemos para evitar, no para evitar,
+
+1246
+01:10:44,230 --> 01:10:46,230
+sino que para disminuir
+
+1247
+01:10:46,230 --> 01:10:48,230
+las consecuencias de este overfitting
+
+1248
+01:10:48,230 --> 01:10:51,230
+es aplicando algún tipo de regularizador.
+
+1249
+01:10:51,230 --> 01:10:54,230
+Y hay varios tipos de regularizadores.
+
+1250
+01:10:54,230 --> 01:10:56,230
+Hay varios tipos.
+
+1251
+01:10:56,230 --> 01:10:58,230
+Entonces,
+
+1252
+01:10:58,230 --> 01:11:00,230
+pasemos a este ejemplo.
+
+1253
+01:11:00,230 --> 01:11:03,230
+Entonces, en donde voy a ir al caso lineal,
+
+1254
+01:11:03,230 --> 01:11:05,230
+le voy a aplicar 30 de ruido,
+
+1255
+01:11:05,230 --> 01:11:07,230
+como originalmente estaba,
+
+1256
+01:11:07,230 --> 01:11:10,230
+70 de training.
+
+1257
+01:11:10,230 --> 01:11:12,230
+Y aquí arriba, si se dan cuenta,
+
+1258
+01:11:12,230 --> 01:11:14,230
+le voy a aplicar un learning break
+
+1259
+01:11:14,230 --> 01:11:17,230
+de 0.0, ¿cuánto dice? 0.03.
+
+1260
+01:11:17,230 --> 01:11:20,510
+Ahí, le voy a aplicar.
+
+1261
+01:11:20,510 --> 01:11:22,510
+Miren, solamente para jugar,
+
+1262
+01:11:22,510 --> 01:11:25,510
+le puse ahí una tarjeta hiperbólica,
+
+1263
+01:11:25,510 --> 01:11:28,510
+una tarjeta hiperbólica a la capa escondida
+
+1264
+01:11:28,510 --> 01:11:30,510
+y ahora antes,
+
+1265
+01:11:30,510 --> 01:11:32,510
+antes donde no decía regularizador,
+
+1266
+01:11:32,510 --> 01:11:34,510
+decía known,
+
+1267
+01:11:34,510 --> 01:11:36,510
+ahora le voy a aplicar un regularizador
+
+1268
+01:11:36,510 --> 01:11:38,510
+que en este caso se llama el L2.
+
+1269
+01:11:38,510 --> 01:11:40,510
+Voy a explicar luego qué será.
+
+1270
+01:11:40,510 --> 01:11:42,510
+Ahora le voy a aplicar una tasa impuesto.
+
+1271
+01:11:42,510 --> 01:11:44,510
+¿Y la tasa impuesto?
+
+1272
+01:11:44,510 --> 01:11:46,510
+Estoy compartiendo el APPT solamente.
+
+1273
+01:11:46,510 --> 01:11:48,510
+¿Perdón?
+
+1274
+01:11:48,510 --> 01:11:50,510
+Está compartiendo el APPT.
+
+1275
+01:11:50,510 --> 01:11:52,510
+No sé si estamos dando algo adicional.
+
+1276
+01:11:52,510 --> 01:11:54,510
+Sí, estoy compartiendo el APPT.
+
+1277
+01:11:54,510 --> 01:11:56,510
+Ahí ustedes,
+
+1278
+01:11:56,510 --> 01:11:58,510
+los subjuntos le van colocando estos mismos parámetros
+
+1279
+01:11:58,510 --> 01:12:00,510
+que tengo en la APPT.
+
+1280
+01:12:00,510 --> 01:12:02,510
+Entonces, regularizador L2
+
+1281
+01:12:02,510 --> 01:12:04,510
+y la tasa impuesto que le voy a aplicar
+
+1282
+01:12:04,510 --> 01:12:06,510
+es de 0.03.
+
+1283
+01:12:06,510 --> 01:12:08,510
+¿Ya?
+
+1284
+01:12:08,510 --> 01:12:10,510
+0.03.
+
+1285
+01:12:10,510 --> 01:12:12,510
+Ahora, ya, lo voy a colocar aquí para que quede igual.
+
+1286
+01:12:12,510 --> 01:12:16,980
+Entonces,
+
+1287
+01:12:16,980 --> 01:12:18,980
+ustedes ya saben ya
+
+1288
+01:12:18,980 --> 01:12:20,980
+que sin regularizador,
+
+1289
+01:12:20,980 --> 01:12:22,980
+que es lo que empezaba a hacer la máquina,
+
+1290
+01:12:22,980 --> 01:12:24,980
+empezaba a crear un decision boundary
+
+1291
+01:12:24,980 --> 01:12:26,980
+súper inclincao ahí,
+
+1292
+01:12:26,980 --> 01:12:28,980
+tratando de
+
+1293
+01:12:28,980 --> 01:12:30,980
+clasificar correctamente las intanzas
+
+1294
+01:12:30,980 --> 01:12:32,980
+que estaban con ruido, ya, overfitting.
+
+1295
+01:12:32,980 --> 01:12:34,980
+Pero ahora le puse el impuesto.
+
+1296
+01:12:34,980 --> 01:12:36,980
+Entonces, veamos qué es lo que pasa.
+
+1297
+01:12:36,980 --> 01:12:38,980
+Y nuevamente, no es cierto,
+
+1298
+01:12:38,980 --> 01:12:40,980
+miren ustedes que
+
+1299
+01:12:40,980 --> 01:12:42,980
+aquí
+
+1300
+01:12:42,980 --> 01:12:44,980
+esto es un problema incentivo.
+
+1301
+01:12:44,980 --> 01:12:46,980
+O sea, ya no tengo los incentivos
+
+1302
+01:12:46,980 --> 01:12:48,980
+para empezar a buscar puntos en el rara.
+
+1303
+01:12:48,980 --> 01:12:52,380
+Entonces, aquí
+
+1304
+01:12:52,380 --> 01:12:54,380
+ve, digamos, se refleja
+
+1305
+01:12:54,380 --> 01:12:56,380
+y noten usted,
+
+1306
+01:12:56,380 --> 01:12:58,380
+¿está divergiendo esto? Hasta ahora no,
+
+1307
+01:12:58,380 --> 01:13:00,380
+no diverge, no hay overfitting.
+
+1308
+01:13:00,380 --> 01:13:02,380
+Ya, no hay overfitting, vamos bien,
+
+1309
+01:13:02,380 --> 01:13:04,380
+vamos por el camino, ¿no?
+
+1310
+01:13:04,380 --> 01:13:06,380
+Camino amarillo, vamos bien, vamos bien.
+
+1311
+01:13:06,380 --> 01:13:08,380
+Y además, ven ustedes que
+
+1312
+01:13:08,380 --> 01:13:10,380
+se parece mucho al decision boundary
+
+1313
+01:13:10,380 --> 01:13:12,380
+original que tiene que ser, ¿no?
+
+1314
+01:13:12,380 --> 01:13:14,380
+Claro, por supuesto que aquí
+
+1315
+01:13:14,380 --> 01:13:16,380
+como que se abre porque
+
+1316
+01:13:16,380 --> 01:13:18,380
+queda un medio vacío esto, pero
+
+1317
+01:13:18,380 --> 01:13:20,380
+va por muy buen camino,
+
+1318
+01:13:20,380 --> 01:13:22,380
+pero a pesar de eso,
+
+1319
+01:13:22,380 --> 01:13:24,380
+noten ustedes cómo se está
+
+1320
+01:13:24,380 --> 01:13:26,380
+formando a pesar de que tengo impuesto.
+
+1321
+01:13:26,380 --> 01:13:28,380
+Está empezando a deformar.
+
+1322
+01:13:28,380 --> 01:13:30,380
+Está empezando a deformar aquí la voz.
+
+1323
+01:13:32,380 --> 01:13:34,380
+Pero todavía no
+
+1324
+01:13:34,380 --> 01:13:36,380
+observo que esté divergiendo.
+
+1325
+01:13:36,380 --> 01:13:38,380
+Yo veo que los tanto
+
+1326
+01:13:38,380 --> 01:13:40,380
+del training como del test
+
+1327
+01:13:40,380 --> 01:13:42,380
+están más o menos iguales. Mientras
+
+1328
+01:13:42,380 --> 01:13:44,380
+se mantenga así,
+
+1329
+01:13:44,380 --> 01:13:46,380
+yo estoy feliz.
+
+1330
+01:13:46,380 --> 01:13:48,380
+Puedo aceptar este nivel de distorsión.
+
+1331
+01:13:48,380 --> 01:13:50,380
+Estoy feliz.
+
+1332
+01:13:50,380 --> 01:13:52,380
+Pero si la cuestión se empieza
+
+1333
+01:13:52,380 --> 01:13:54,380
+a volverme a lo que empieza a buscar
+
+1334
+01:13:54,380 --> 01:13:56,380
+cuestiones raras, cosa que no creo que ocurre,
+
+1335
+01:13:56,380 --> 01:13:58,380
+lo ocurre, no sé, lo voy a ver acá.
+
+1336
+01:13:58,380 --> 01:14:00,380
+¿Ya?
+
+1337
+01:14:00,380 --> 01:14:02,380
+¿Se da cuenta?
+
+1338
+01:14:02,380 --> 01:14:04,380
+Esto es lo bueno de esta simulación que uno
+
+1339
+01:14:04,380 --> 01:14:06,380
+con algo simple lo puede ver que lo que está pasando.
+
+1340
+01:14:06,380 --> 01:14:10,240
+¿Ya?
+
+1341
+01:14:18,240 --> 01:14:20,240
+No se escucha la pregunta.
+
+1342
+01:14:20,240 --> 01:14:22,240
+Ah.
+
+1343
+01:14:22,240 --> 01:14:24,240
+Esa función de regularización
+
+1344
+01:14:24,240 --> 01:14:26,240
+se aplica después de que se hace
+
+1345
+01:14:26,240 --> 01:14:28,240
+el pesaje de
+
+1346
+01:14:28,240 --> 01:14:30,240
+o el repesaje de lo
+
+1347
+01:14:30,240 --> 01:14:32,240
+se aplica.
+
+1348
+01:14:32,240 --> 01:14:34,240
+O se aplica dentro de la función
+
+1349
+01:14:34,240 --> 01:14:36,240
+¿En qué momento se aplica?
+
+1350
+01:14:36,240 --> 01:14:38,240
+Se aplica durante el proceso.
+
+1351
+01:14:38,240 --> 01:14:40,240
+¿Y cómo?
+
+1352
+01:14:40,240 --> 01:14:42,240
+A ver.
+
+1353
+01:14:42,240 --> 01:14:44,240
+Déjame ver aquí, esto lo pare
+
+1354
+01:14:44,240 --> 01:14:46,240
+si lo pare. ¿Dónde está aquí?
+
+1355
+01:14:46,240 --> 01:14:48,240
+La pisa, vaya la pisa.
+
+1356
+01:14:48,240 --> 01:14:50,240
+Perdón, disculpe, a mí no me queda claro
+
+1357
+01:14:50,240 --> 01:14:52,240
+que significa el proceso
+
+1358
+01:14:52,240 --> 01:14:54,240
+de regularización.
+
+1359
+01:14:54,240 --> 01:14:56,240
+Ya.
+
+1360
+01:14:56,240 --> 01:14:58,240
+Le contesto ahí de
+
+1361
+01:14:58,240 --> 01:15:00,240
+regularización lo explico, muy simple.
+
+1362
+01:15:00,240 --> 01:15:02,240
+¿Te acuerdas en el caso anterior
+
+1363
+01:15:02,240 --> 01:15:04,240
+que
+
+1364
+01:15:04,240 --> 01:15:06,240
+déjame ir a la transparencia, que ahí
+
+1365
+01:15:06,240 --> 01:15:08,240
+está mejor la cosa?
+
+1366
+01:15:08,240 --> 01:15:10,240
+¿Te acuerdas de este caso de acá?
+
+1367
+01:15:10,240 --> 01:15:12,240
+¿Estás viendo, no es cierto?
+
+1368
+01:15:12,240 --> 01:15:14,240
+Sí.
+
+1369
+01:15:14,240 --> 01:15:16,240
+Y mira, tú sabes,
+
+1370
+01:15:16,240 --> 01:15:18,240
+tú te acuerdas que el verdadero de
+
+1371
+01:15:18,240 --> 01:15:20,240
+array aquí es una línea recta
+
+1372
+01:15:20,240 --> 01:15:22,240
+para poder separar
+
+1373
+01:15:22,240 --> 01:15:24,240
+las ambas clases.
+
+1374
+01:15:24,240 --> 01:15:26,240
+Pero resulta ser que como tengo ahora
+
+1375
+01:15:26,240 --> 01:15:28,240
+muestras que tienen ruido, fíjate que hay unas muestras
+
+1376
+01:15:28,240 --> 01:15:30,240
+de color azul que están bien metidas
+
+1377
+01:15:30,240 --> 01:15:32,240
+en la zona de la otra clase.
+
+1378
+01:15:32,240 --> 01:15:34,240
+Entonces, esto es lo más probable
+
+1379
+01:15:34,240 --> 01:15:36,240
+que sea un error, un error de medición.
+
+1380
+01:15:36,240 --> 01:15:38,240
+Pero entonces, ¿qué es lo que pasa?
+
+1381
+01:15:38,240 --> 01:15:40,240
+En el momento que yo la red comienza
+
+1382
+01:15:40,240 --> 01:15:42,240
+a entrenar, la red
+
+1383
+01:15:42,240 --> 01:15:44,240
+identifica todos estos puntos,
+
+1384
+01:15:44,240 --> 01:15:46,240
+¿no es cierto? Y en su afán
+
+1385
+01:15:46,240 --> 01:15:48,240
+por tratar de encontrar en su afán
+
+1386
+01:15:48,240 --> 01:15:50,240
+en su desesperación y obsesión
+
+1387
+01:15:50,240 --> 01:15:52,240
+por tratar de clasificar correctamente
+
+1388
+01:15:52,240 --> 01:15:54,240
+todas las instancias,
+
+1389
+01:15:54,240 --> 01:15:56,240
+está de acá, la está clasificando mal,
+
+1390
+01:15:56,240 --> 01:15:58,240
+¿no es cierto? Entonces, ¿qué es lo que va a hacer?
+
+1391
+01:15:58,240 --> 01:16:00,240
+Va a tratar de buscar
+
+1392
+01:16:00,240 --> 01:16:02,240
+un decision boundary
+
+1393
+01:16:02,240 --> 01:16:04,240
+súper intencado,
+
+1394
+01:16:04,240 --> 01:16:06,240
+súper complicado para tratar de
+
+1395
+01:16:06,240 --> 01:16:08,240
+abarcar a este punto azul
+
+1396
+01:16:08,240 --> 01:16:10,240
+de hecho aquí lo está haciendo, ¿no es cierto?
+
+1397
+01:16:10,240 --> 01:16:12,240
+Pero tú sabes de antemano
+
+1398
+01:16:12,240 --> 01:16:14,240
+que eso no está bien,
+
+1399
+01:16:14,240 --> 01:16:16,240
+no es correcto porque el verdadero
+
+1400
+01:16:16,240 --> 01:16:18,240
+decision boundary es una línea recta,
+
+1401
+01:16:18,240 --> 01:16:20,240
+entonces esto es ruido.
+
+1402
+01:16:20,240 --> 01:16:22,240
+Entonces, ¿qué sucede cuando
+
+1403
+01:16:22,240 --> 01:16:24,240
+la red neuronal
+
+1404
+01:16:24,240 --> 01:16:26,240
+comienza a distorsionar
+
+1405
+01:16:26,240 --> 01:16:28,240
+su decision boundary producto de este ruido?
+
+1406
+01:16:28,240 --> 01:16:30,240
+Esto se manifiesta
+
+1407
+01:16:30,240 --> 01:16:32,240
+en la función
+
+1408
+01:16:32,240 --> 01:16:34,240
+de pérdida en que tú empiezas
+
+1409
+01:16:34,240 --> 01:16:36,240
+a ver que la pérdida aplicada
+
+1410
+01:16:36,240 --> 01:16:38,240
+sobre el training
+
+1411
+01:16:38,240 --> 01:16:40,240
+y el test comienzan a diverger.
+
+1412
+01:16:40,240 --> 01:16:42,240
+El del test se hace mucho más alto
+
+1413
+01:16:42,240 --> 01:16:44,240
+entonces
+
+1414
+01:16:44,240 --> 01:16:46,240
+la máquina está perdiendo la capacidad
+
+1415
+01:16:46,240 --> 01:16:48,240
+de generalizar
+
+1416
+01:16:48,240 --> 01:16:50,240
+y por otro lado empieza a ver
+
+1417
+01:16:50,240 --> 01:16:52,240
+que hay algunos pesos de la red
+
+1418
+01:16:52,240 --> 01:16:54,240
+que se empiezan a agrandar mucho.
+
+1419
+01:16:54,240 --> 01:16:56,240
+Eso no es bueno.
+
+1420
+01:16:56,240 --> 01:16:58,240
+Todo esto que está pasando acá
+
+1421
+01:16:58,240 --> 01:17:00,240
+no es bueno, ¿por qué no es bueno?
+
+1422
+01:17:00,240 --> 01:17:02,240
+Porque lo que tú quieres es tener
+
+1423
+01:17:02,240 --> 01:17:04,240
+una máquina que lo prediga bien
+
+1424
+01:17:04,240 --> 01:17:06,240
+no solamente sobre el training
+
+1425
+01:17:06,240 --> 01:17:08,240
+sino que también sobre el test
+
+1426
+01:17:08,240 --> 01:17:10,240
+y aquí lo está haciendo mal sobre el test,
+
+1427
+01:17:10,240 --> 01:17:12,240
+de esta distorsión
+
+1428
+01:17:12,240 --> 01:17:14,240
+que se está produciendo.
+
+1429
+01:17:14,240 --> 01:17:16,240
+Todo esto se llama
+
+1430
+01:17:16,240 --> 01:17:18,240
+overfitting, estás sobreajustando
+
+1431
+01:17:18,240 --> 01:17:20,240
+y para evitar
+
+1432
+01:17:20,240 --> 01:17:22,240
+este problema llamado overfitting
+
+1433
+01:17:22,240 --> 01:17:24,240
+tú vas a aplicar una técnica
+
+1434
+01:17:24,240 --> 01:17:26,240
+que se llama regularización
+
+1435
+01:17:26,240 --> 01:17:28,240
+y la regularización consiste
+
+1436
+01:17:28,240 --> 01:17:30,240
+hasta ahora, solamente para que lo entienda
+
+1437
+01:17:30,240 --> 01:17:32,240
+es un desincentivo
+
+1438
+01:17:32,240 --> 01:17:34,240
+a la máquina, es como un impuesto
+
+1439
+01:17:34,240 --> 01:17:36,240
+para evitar de que estos
+
+1440
+01:17:36,240 --> 01:17:38,240
+pesos crezcan demasiado.
+
+1441
+01:17:38,240 --> 01:17:40,240
+Si hay un peso aquí
+
+1442
+01:17:40,240 --> 01:17:42,240
+que está agrandándose demasiado
+
+1443
+01:17:42,240 --> 01:17:44,240
+por tratar de hacer este
+
+1444
+01:17:44,240 --> 01:17:46,240
+deshicho en bandera y super complicado
+
+1445
+01:17:46,240 --> 01:17:48,240
+va a venir el servicio de impuesto intero
+
+1446
+01:17:48,240 --> 01:17:50,240
+y te va a aplicar un impuesto.
+
+1447
+01:17:50,240 --> 01:17:52,240
+Entonces tú ya no vas a querer que este peso sea demasiado grande
+
+1448
+01:17:52,240 --> 01:17:54,240
+lo va a mantener acotadito.
+
+1449
+01:17:54,240 --> 01:17:56,240
+Entonces de esa manera
+
+1450
+01:17:56,240 --> 01:17:58,240
+tú predienes que se genere demasiado overfitting.
+
+1451
+01:17:58,240 --> 01:18:00,240
+¿Ya?
+
+1452
+01:18:00,240 --> 01:18:04,960
+Esa es la idea, la idea.
+
+1453
+01:18:04,960 --> 01:18:06,960
+¿Sí? Gracias.
+
+1454
+01:18:06,960 --> 01:18:08,960
+Ya, ahora, contestando
+
+1455
+01:18:08,960 --> 01:18:10,960
+una pregunta de Felipe
+
+1456
+01:18:10,960 --> 01:18:12,960
+¿Quiere o no?
+
+1457
+01:18:12,960 --> 01:18:14,960
+¿Cuál era?
+
+1458
+01:18:14,960 --> 01:18:16,960
+¿Qué parte?
+
+1459
+01:18:16,960 --> 01:18:18,960
+Ah, sí.
+
+1460
+01:18:18,960 --> 01:18:20,960
+Ya.
+
+1461
+01:18:20,960 --> 01:18:22,960
+Por ejemplo, en un problema, te acuerdas de un perceptrón
+
+1462
+01:18:22,960 --> 01:18:24,960
+¿Cuál era la función?
+
+1463
+01:18:24,960 --> 01:18:26,960
+¿Cuál era un perceptrón
+
+1464
+01:18:26,960 --> 01:18:28,960
+de regresión?
+
+1465
+01:18:28,960 --> 01:18:30,960
+¿Cuál era la función de pérdida?
+
+1466
+01:18:30,960 --> 01:18:32,960
+¿Cuál era la función de pérdida?
+
+1467
+01:18:32,960 --> 01:18:34,960
+¿Cuál era la función de pérdida?
+
+1468
+01:18:34,960 --> 01:18:36,960
+En este caso, la función de pérdida
+
+1469
+01:18:36,960 --> 01:18:38,960
+es simplemente
+
+1470
+01:18:38,960 --> 01:18:40,960
+¿Qué es lo que es?
+
+1471
+01:18:40,960 --> 01:18:42,960
+Es el I
+
+1472
+01:18:42,960 --> 01:18:44,960
+generado por el modelo
+
+1473
+01:18:44,960 --> 01:18:46,960
+menos el I real
+
+1474
+01:18:46,960 --> 01:18:48,960
+el al cuadrado y esto yo lo voy a sumar
+
+1475
+01:18:48,960 --> 01:18:50,960
+y lo voy a añadir por uno por que volé.
+
+1476
+01:18:50,960 --> 01:18:52,960
+Ah, bueno, le saco la,
+
+1477
+01:18:52,960 --> 01:18:54,960
+y a esto le saco la reicuada.
+
+1478
+01:18:54,960 --> 01:18:56,960
+Pero
+
+1479
+01:18:56,960 --> 01:18:58,960
+resulta ser que yo podría hacerle doble click
+
+1480
+01:18:58,960 --> 01:19:00,960
+a esto
+
+1481
+01:19:00,960 --> 01:19:02,960
+y tú sabes que en el perceptrón
+
+1482
+01:19:02,960 --> 01:19:04,960
+este I
+
+1483
+01:19:04,960 --> 01:19:06,960
+que es lo que es
+
+1484
+01:19:06,960 --> 01:19:08,960
+es simplemente la sumatoria
+
+1485
+01:19:08,960 --> 01:19:10,960
+de cada uno de los pesos
+
+1486
+01:19:10,960 --> 01:19:12,960
+multiplicado por los features
+
+1487
+01:19:12,960 --> 01:19:14,960
+¿De acuerdo?
+
+1488
+01:19:14,960 --> 01:19:16,960
+Más el bias
+
+1489
+01:19:16,960 --> 01:19:18,960
+Más el bias.
+
+1490
+01:19:18,960 --> 01:19:20,960
+Entonces me va a quedar un chorizo demasiado grande
+
+1491
+01:19:20,960 --> 01:19:22,960
+¿No es cierto? Pero ¿Ustedes imagina
+
+1492
+01:19:22,960 --> 01:19:24,960
+que yo podría colocar esta expresión acá
+
+1493
+01:19:24,960 --> 01:19:26,960
+la podría colocar aquí y ahora el LOS me va a quedar
+
+1494
+01:19:26,960 --> 01:19:28,960
+¿No es cierto?
+
+1495
+01:19:28,960 --> 01:19:30,960
+Entonces, percatarse que este LOS
+
+1496
+01:19:30,960 --> 01:19:32,960
+es función de qué cosa
+
+1497
+01:19:32,960 --> 01:19:34,960
+función de los pesos sinápticos
+
+1498
+01:19:34,960 --> 01:19:36,960
+vale
+
+1499
+01:19:36,960 --> 01:19:38,960
+ahí está, entonces todos los
+
+1500
+01:19:38,960 --> 01:19:40,960
+todas funciones de pérdida en cualquier red neuronal
+
+1501
+01:19:40,960 --> 01:19:42,960
+es función de sus pesos naturalmente
+
+1502
+01:19:42,960 --> 01:19:44,960
+¿Ya?
+
+1503
+01:19:44,960 --> 01:19:46,960
+Entonces ¿Qué sucede? Resulta que como yo
+
+1504
+01:19:46,960 --> 01:19:48,960
+recién le estaba explicando la, no sé
+
+1505
+01:19:48,960 --> 01:19:50,960
+quién era una señora
+
+1506
+01:19:50,960 --> 01:19:52,960
+señorita no sé quién era pero bueno, le estaba explicando
+
+1507
+01:19:52,960 --> 01:19:54,960
+recién que cuando ocurre
+
+1508
+01:19:54,960 --> 01:19:56,960
+overfitting
+
+1509
+01:19:56,960 --> 01:19:58,960
+hay uno de estos pesos
+
+1510
+01:19:58,960 --> 01:20:00,960
+¿Ya? En este caso en presente
+
+1511
+01:20:00,960 --> 01:20:02,960
+hay uno de estos pesos que se empieza
+
+1512
+01:20:02,960 --> 01:20:04,960
+a escabar, se empieza a hacer demasiado grande
+
+1513
+01:20:04,960 --> 01:20:06,960
+¿Ya?
+
+1514
+01:20:06,960 --> 01:20:08,960
+Entonces, cuando uno de estos pesos
+
+1515
+01:20:08,960 --> 01:20:10,960
+se empieza a hacer muy grande
+
+1516
+01:20:10,960 --> 01:20:12,960
+eso es síntoma de que
+
+1517
+01:20:12,960 --> 01:20:14,960
+este desichon Bander está empezando
+
+1518
+01:20:14,960 --> 01:20:16,960
+como en exceso a reuscarse
+
+1519
+01:20:16,960 --> 01:20:18,960
+producto de este ruido y se produce
+
+1520
+01:20:18,960 --> 01:20:20,960
+el overfitting, entonces
+
+1521
+01:20:20,960 --> 01:20:22,960
+yo a esta función de pérdida
+
+1522
+01:20:22,960 --> 01:20:24,960
+L, que es la original
+
+1523
+01:20:24,960 --> 01:20:26,960
+le voy a agregar un impuesto
+
+1524
+01:20:26,960 --> 01:20:28,960
+y este impuesto
+
+1525
+01:20:28,960 --> 01:20:30,960
+así la tasa de impuesto
+
+1526
+01:20:30,960 --> 01:20:32,960
+multiplicado por
+
+1527
+01:20:32,960 --> 01:20:34,960
+no sé, una función
+
+1528
+01:20:34,960 --> 01:20:36,960
+lo voy a colocar R
+
+1529
+01:20:36,960 --> 01:20:38,960
+este R es función de W
+
+1530
+01:20:38,960 --> 01:20:40,960
+entonces podría, voy a inventar
+
+1531
+01:20:40,960 --> 01:20:42,960
+podría hacer W cuadrado
+
+1532
+01:20:42,960 --> 01:20:44,960
+¿Qué significa
+
+1533
+01:20:44,960 --> 01:20:46,960
+esta cuestión?
+
+1534
+01:20:46,960 --> 01:20:48,960
+Significa que ahora
+
+1535
+01:20:48,960 --> 01:20:52,560
+entonces
+
+1536
+01:20:52,560 --> 01:20:54,560
+¿Sí?
+
+1537
+01:20:54,560 --> 01:20:59,020
+Es una constante, es como la tasa
+
+1538
+01:20:59,020 --> 01:21:01,020
+Le pongo un lambda muy grande
+
+1539
+01:21:01,020 --> 01:21:03,020
+para minimizar muy fuerte y va a quedar
+
+1540
+01:21:03,020 --> 01:21:05,020
+con dos variables o muy pocas
+
+1541
+01:21:05,020 --> 01:21:07,020
+pero si muy bajo va a penalizar muy poco
+
+1542
+01:21:07,020 --> 01:21:09,020
+Entonces ¿Cuál es la ciencia
+
+1543
+01:21:09,020 --> 01:21:11,020
+de definir ese lambda?
+
+1544
+01:21:11,020 --> 01:21:13,020
+Ensayo y error
+
+1545
+01:21:13,020 --> 01:21:15,020
+Entonces, para terminar la idea
+
+1546
+01:21:15,020 --> 01:21:17,020
+Entonces
+
+1547
+01:21:17,020 --> 01:21:19,020
+te das cuenta que en todo problema
+
+1548
+01:21:19,020 --> 01:21:21,020
+en una red neuronal
+
+1549
+01:21:21,020 --> 01:21:23,020
+qué es lo que uno anda buscando
+
+1550
+01:21:23,020 --> 01:21:25,020
+que anda buscando minimizar
+
+1551
+01:21:25,020 --> 01:21:27,020
+que uno anda buscando este
+
+1552
+01:21:27,020 --> 01:21:29,020
+pero ahora como le agregaste
+
+1553
+01:21:29,020 --> 01:21:31,020
+ese impuesto al sistema
+
+1554
+01:21:31,020 --> 01:21:33,020
+no sólo gente quiere minimizar
+
+1555
+01:21:33,020 --> 01:21:35,020
+la verbia, también quiere minimizar el impuesto
+
+1556
+01:21:35,020 --> 01:21:37,020
+Entonces
+
+1557
+01:21:37,020 --> 01:21:39,020
+al colocarle este término
+
+1558
+01:21:39,020 --> 01:21:41,020
+va a haber incentivos
+
+1559
+01:21:41,020 --> 01:21:43,020
+para que no se te disparan los W
+
+1560
+01:21:43,020 --> 01:21:45,020
+si no te va a aumentar mucho el impuesto
+
+1561
+01:21:45,020 --> 01:21:48,300
+¿Ya?
+
+1562
+01:21:48,300 --> 01:21:50,300
+Entonces
+
+1563
+01:21:50,300 --> 01:21:52,300
+eso está explicado un poquito más adelante
+
+1564
+01:21:52,300 --> 01:21:54,300
+pero
+
+1565
+01:21:54,300 --> 01:21:56,300
+ya se entendió la cuestión
+
+1566
+01:21:56,300 --> 01:21:58,300
+Ahí está
+
+1567
+01:21:58,300 --> 01:22:00,300
+aquí lo tengo más bonito
+
+1568
+01:22:00,300 --> 01:22:02,300
+¿Ya?
+
+1569
+01:22:02,300 --> 01:22:04,300
+Entonces como le decía
+
+1570
+01:22:04,300 --> 01:22:06,300
+esta regularización lo que hace
+
+1571
+01:22:06,300 --> 01:22:08,300
+es aplicar este PNR
+
+1572
+01:22:08,300 --> 01:22:10,300
+para evitar de que estos
+
+1573
+01:22:10,300 --> 01:22:12,300
+pesos se empiezan a escapar
+
+1574
+01:22:12,300 --> 01:22:14,300
+¿Ya?
+
+1575
+01:22:14,300 --> 01:22:16,300
+Esencialmente hay dos tipos de regularización
+
+1576
+01:22:16,300 --> 01:22:18,300
+la L1 y la L2
+
+1577
+01:22:18,300 --> 01:22:20,300
+En la L2
+
+1578
+01:22:20,300 --> 01:22:22,300
+consiste simplemente
+
+1579
+01:22:22,300 --> 01:22:24,300
+en aplicar lambda multiplicado
+
+1580
+01:22:24,300 --> 01:22:26,300
+por los pesos cuadrados
+
+1581
+01:22:26,300 --> 01:22:28,300
+simplemente los pesos cuadrados
+
+1582
+01:22:28,300 --> 01:22:30,300
+fíjate que existe, hay un peso que se empieza a disparar
+
+1583
+01:22:30,300 --> 01:22:32,300
+que va a pasar con la función de verbia
+
+1584
+01:22:32,300 --> 01:22:34,300
+se te va a disparar
+
+1585
+01:22:34,300 --> 01:22:36,300
+entonces va a venir
+
+1586
+01:22:36,300 --> 01:22:38,300
+el funcionario ese I
+
+1587
+01:22:38,300 --> 01:22:40,300
+que te va
+
+1588
+01:22:40,300 --> 01:22:42,300
+entonces no
+
+1589
+01:22:42,300 --> 01:22:44,300
+aumenta tanto el peso pues hombre
+
+1590
+01:22:44,300 --> 01:22:46,300
+porque aquí no nos sirve
+
+1591
+01:22:46,300 --> 01:22:48,300
+entonces ahí tiene esa alternativa
+
+1592
+01:22:48,300 --> 01:22:50,300
+y la alternativa es la regularización L1
+
+1593
+01:22:50,300 --> 01:22:52,300
+que
+
+1594
+01:22:52,300 --> 01:22:54,300
+se dan cuenta que en vez de utilizar la norma
+
+1595
+01:22:54,300 --> 01:22:56,300
+en este caso la cuadrado
+
+1596
+01:22:56,300 --> 01:22:58,300
+utiliza el valor absoluto
+
+1597
+01:22:58,300 --> 01:23:00,300
+¿Ya?
+
+1598
+01:23:00,300 --> 01:23:02,300
+eso es la cosa
+
+1599
+01:23:02,300 --> 01:23:04,300
+pero ahí está probando todos los pesos
+
+1600
+01:23:04,300 --> 01:23:06,300
+todos los pesos
+
+1601
+01:23:06,300 --> 01:23:08,300
+y por qué no hace algo
+
+1602
+01:23:08,300 --> 01:23:10,300
+es a la mejor forma
+
+1603
+01:23:10,300 --> 01:23:12,300
+por qué no lo hace como lo hizo en el TensorFlow
+
+1604
+01:23:12,300 --> 01:23:14,300
+de prender y apagar
+
+1605
+01:23:14,300 --> 01:23:16,300
+neurona aleatoriamente
+
+1606
+01:23:16,300 --> 01:23:18,300
+¿Cómo? es el último
+
+1607
+01:23:18,300 --> 01:23:20,300
+en el TensorFlow usted fue y empezó a prender
+
+1608
+01:23:20,300 --> 01:23:22,300
+y apagar algunas entradas
+
+1609
+01:23:22,300 --> 01:23:24,300
+por los pesos respectivos
+
+1610
+01:23:24,300 --> 01:23:26,300
+al limitar el valor
+
+1611
+01:23:26,300 --> 01:23:28,300
+de los pesos lo limita con él
+
+1612
+01:23:28,300 --> 01:23:30,300
+¿Ya? pero no es que
+
+1613
+01:23:30,300 --> 01:23:32,300
+se te prendan o apagan entradas
+
+1614
+01:23:32,300 --> 01:23:34,300
+¿La entrada?
+
+1615
+01:23:34,300 --> 01:23:36,300
+no la entrada
+
+1616
+01:23:36,300 --> 01:23:40,190
+¿Ya?
+
+1617
+01:23:40,190 --> 01:23:42,190
+ahora si tú me dices
+
+1618
+01:23:42,190 --> 01:23:44,190
+ah pero el que hizo L1 o L2
+
+1619
+01:23:44,190 --> 01:23:46,190
+no hay una regla
+
+1620
+01:23:46,190 --> 01:23:48,190
+no hay una receta aquí que te miren
+
+1621
+01:23:48,190 --> 01:23:50,190
+es como un árbol de decisión
+
+1622
+01:23:50,190 --> 01:23:52,190
+si usted tiene
+
+1623
+01:23:52,190 --> 01:23:54,190
+¿Ya?
+
+1624
+01:23:54,190 --> 01:23:56,190
+entonces aquí ya me escapo
+
+1625
+01:23:56,190 --> 01:23:58,190
+permítame
+
+1626
+01:23:58,190 --> 01:24:00,190
+el asunto está que
+
+1627
+01:24:00,190 --> 01:24:02,190
+al final como esto se trata de minimizar
+
+1628
+01:24:02,190 --> 01:24:04,190
+la función de pérdida
+
+1629
+01:24:04,190 --> 01:24:06,190
+ya con esto ya termino
+
+1630
+01:24:06,190 --> 01:24:08,190
+y vamos al control
+
+1631
+01:24:08,190 --> 01:24:10,190
+pero para terminar la idea cerrar la idea
+
+1632
+01:24:10,190 --> 01:24:12,190
+como la todo esto se trata
+
+1633
+01:24:12,190 --> 01:24:14,190
+finalmente esto es un problema de optimización
+
+1634
+01:24:14,190 --> 01:24:16,190
+no lineal que trata de minimizar
+
+1635
+01:24:16,190 --> 01:24:18,190
+esta función de pérdida
+
+1636
+01:24:18,190 --> 01:24:20,190
+ustedes se acuerdan de a lo mejor los que son ingenieros
+
+1637
+01:24:20,190 --> 01:24:22,190
+y que había un ramo que se llamaba calculo 1
+
+1638
+01:24:22,190 --> 01:24:24,190
+después calculo 2 y calculo 3 y 4
+
+1639
+01:24:24,190 --> 01:24:26,190
+incluye en algunos casos
+
+1640
+01:24:26,190 --> 01:24:28,190
+que todo estaba basado en tratar de encontrar métodos
+
+1641
+01:24:28,190 --> 01:24:30,190
+para minimizar esta función
+
+1642
+01:24:30,190 --> 01:24:32,190
+entonces para poder minimizar esta función
+
+1643
+01:24:32,190 --> 01:24:34,190
+lo que uno tenía que hacer
+
+1644
+01:24:34,190 --> 01:24:36,190
+es hacer la derivada
+
+1645
+01:24:36,190 --> 01:24:38,190
+de esta función y como yo quería encontrar
+
+1646
+01:24:38,190 --> 01:24:40,190
+cuáles son los pesos óptimos
+
+1647
+01:24:40,190 --> 01:24:42,190
+los doble ve yo tengo que empezar a derivar
+
+1648
+01:24:42,190 --> 01:24:44,190
+con respecto a los pesos
+
+1649
+01:24:44,190 --> 01:24:46,190
+entonces fíjense que ahora antes lo hacía solamente
+
+1650
+01:24:46,190 --> 01:24:48,190
+con los pesos de esta función
+
+1651
+01:24:48,190 --> 01:24:50,190
+con los pesos de toda esta función
+
+1652
+01:24:50,190 --> 01:24:52,190
+con la regularización incluida
+
+1653
+01:24:52,190 --> 01:24:54,190
+entonces claro
+
+1654
+01:24:54,190 --> 01:24:56,190
+esto no es necesario que se lo aprendan matemáticamente
+
+1655
+01:24:56,190 --> 01:24:58,190
+pero sí la idea
+
+1656
+01:25:00,190 --> 01:25:02,190
+porque es importante esto
+
+1657
+01:25:02,190 --> 01:25:04,190
+porque este método por el cual
+
+1658
+01:25:04,190 --> 01:25:06,190
+después con el que voy a hablar
+
+1659
+01:25:06,190 --> 01:25:08,190
+en la segunda hora el método del gradadiente
+
+1660
+01:25:08,190 --> 01:25:10,190
+nos permite
+
+1661
+01:25:10,190 --> 01:25:12,190
+aproximar estos pesos en forma sucesiva
+
+1662
+01:25:12,190 --> 01:25:14,190
+para encontrar un mínimo
+
+1663
+01:25:14,190 --> 01:25:16,190
+no sé si global pero por lo menos mínimo
+
+1664
+01:25:16,190 --> 01:25:18,190
+eso
+
+1665
+01:25:18,190 --> 01:25:20,190
+por allá si el espacio tiene alguna duda
+
+1666
+01:25:20,190 --> 01:25:22,190
+consulta
+
+1667
+01:25:22,190 --> 01:25:25,540
+¿no?
+
+1668
+01:25:25,540 --> 01:25:27,540
+los profes
+
+1669
+01:25:27,540 --> 01:25:29,540
+me recuerda
+
+1670
+01:25:29,540 --> 01:25:32,910
+a qué hora es el break
+
+1671
+01:25:32,910 --> 01:25:34,910
+a las 7
+
+1672
+01:25:34,910 --> 01:25:36,910
+ah, estamos bien
+
+1673
+01:25:36,910 --> 01:25:38,910
+entonces dame un segundito
+
+1674
+01:25:38,910 --> 01:25:40,910
+para activar el control vale
+
+1675
+01:25:40,910 --> 01:25:42,910
+como le decía
+
+1676
+01:25:42,910 --> 01:25:44,910
+son solamente
+
+1677
+01:25:44,910 --> 01:25:50,500
+unas poquitas preguntas
+
+1678
+01:25:50,500 --> 01:26:14,580
+segundo por favor
+
+1679
+01:26:14,580 --> 01:26:16,580
+están viendo ahí
+
+1680
+01:26:16,580 --> 01:26:18,580
+en el web curso
+
+1681
+01:26:18,580 --> 01:26:20,580
+en la clase 3
+
+1682
+01:26:20,580 --> 01:26:22,580
+hay un montón de leceras
+
+1683
+01:26:22,580 --> 01:26:24,580
+puesta ahí y hay un link que aparece
+
+1684
+01:26:24,580 --> 01:26:26,580
+que dice ahí
+
+1685
+01:26:26,580 --> 01:26:28,580
+acceso quiz 1
+
+1686
+01:26:28,580 --> 01:26:30,580
+ustedes pinchen ahí
+
+1687
+01:26:30,580 --> 01:26:32,580
+y haga click en el enlace
+
+1688
+01:26:32,580 --> 01:26:34,580
+van ahí acceso quiz 1
+
+1689
+01:26:34,580 --> 01:26:36,580
+y los va a llevar
+
+1690
+01:26:36,580 --> 01:26:38,580
+a una página web de Google Forms
+
+1691
+01:26:38,580 --> 01:26:40,580
+ya no es necesario
+
+1692
+01:26:40,580 --> 01:26:42,580
+pues se lo guíen con su cuenta de e-mail
+
+1693
+01:26:42,580 --> 01:26:44,580
+pero si es necesario
+
+1694
+01:26:44,580 --> 01:26:46,580
+que coloquen su corrente
+
+1695
+01:26:46,580 --> 01:26:48,580
+institucional de la WAI
+
+1696
+01:26:48,580 --> 01:26:50,580
+WAI
+
+1697
+01:26:50,580 --> 01:26:52,580
+eso es todo
+
+1698
+01:26:52,580 --> 01:26:54,580
+así
+
+1699
+01:26:54,580 --> 01:26:56,580
+en web curso
+
+1700
+01:26:56,580 --> 01:26:58,580
+acceso quiz 1
+
+1701
+01:26:58,580 --> 01:27:00,580
+y ahí responden las preguntas
+
+1702
+01:27:00,580 --> 01:27:02,580
+está además de decir
+
+1703
+01:27:02,580 --> 01:27:04,580
+que estoy individual
+
+1704
+01:27:04,580 --> 01:27:06,580
+esto es individual
+
+1705
+01:27:06,580 --> 01:27:08,580
+repito
+
+1706
+01:27:08,580 --> 01:27:10,580
+van a web cursos
+
+1707
+01:27:10,580 --> 01:27:12,580
+en web cursos
+
+1708
+01:27:12,580 --> 01:27:14,580
+clase 3
+
+1709
+01:27:14,580 --> 01:27:16,580
+acceso quiz 1
+
+1710
+01:27:16,580 --> 01:27:18,580
+y le va a llevar
+
+1711
+01:27:18,580 --> 01:27:20,580
+a un Google Forms
+
+1712
+01:27:20,580 --> 01:27:22,580
+para que respondan las preguntas
+
+1713
+01:27:22,580 --> 01:27:24,580
+ya
+
+1714
+01:27:24,580 --> 01:27:26,580
+link 2
+
+1715
+01:27:26,580 --> 01:27:28,580
+ahí está ya gracias profe
+
+1716
+01:27:28,580 --> 01:27:30,580
+ya son las 18.30
+
+1717
+01:27:30,580 --> 01:27:32,580
+yo creo que
+
+1718
+01:27:32,580 --> 01:27:34,580
+no más de
+
+1719
+01:27:34,580 --> 01:27:36,580
+15 minutos más como máximo
+
+1720
+01:27:36,580 --> 01:27:44,940
+a ustedes que están aquí
+
+1721
+01:27:44,940 --> 01:27:46,940
+lo responden al tiro si son al tiro
+
+1722
+01:27:46,940 --> 01:27:48,940
+para la gente
+
+1723
+01:27:48,940 --> 01:27:50,940
+hay gente que me escribió que están de viaje
+
+1724
+01:27:50,940 --> 01:27:52,940
+no sé qué parte del mundo
+
+1725
+01:27:52,940 --> 01:27:54,940
+puede decir de nuevo qué parte del web
+
+1726
+01:27:54,940 --> 01:27:56,940
+cursos está
+
+1727
+01:27:56,940 --> 01:27:58,940
+en web cursos se van a la clase 3
+
+1728
+01:27:58,940 --> 01:28:00,940
+hay un link
+
+1729
+01:28:00,940 --> 01:28:02,940
+hay una entrada que dice
+
+1730
+01:28:02,940 --> 01:28:04,940
+acceso quiz 1
+
+1731
+01:28:04,940 --> 01:28:08,350
+y ahí
+
+1732
+01:28:08,350 --> 01:28:10,350
+lo guiaron
+
+1733
+01:28:10,350 --> 01:28:12,350
+ya
+
+1734
+01:28:12,350 --> 01:28:14,350
+ya
+
+1735
+01:28:14,350 --> 01:28:16,350
+como yo
+
+1736
+01:28:16,350 --> 01:28:18,350
+perfecto
+
+1737
+01:28:18,350 --> 01:28:20,350
+como yo estoy ahora aquí
+
+1738
+01:28:20,350 --> 01:28:22,350
+físicamente y estoy en línea
+
+1739
+01:28:22,350 --> 01:28:24,350
+si alguien tiene una duda me puede aprovechar
+
+1740
+01:28:24,350 --> 01:28:26,350
+de preguntar por eso es que lo que están ahora
+
+1741
+01:28:26,350 --> 01:28:28,350
+lo pueden responder ahora porque estoy
+
+1742
+01:28:28,350 --> 01:28:30,350
+si tienen duda no me preguntan
+
+1743
+01:28:30,350 --> 01:28:32,350
+si no
+
+1744
+01:28:32,350 --> 01:28:34,350
+está abierto
+
+1745
+01:28:34,350 --> 01:28:36,350
+si para la gente que está viajando
+
+1746
+01:28:36,350 --> 01:28:38,350
+que si yo está abierto está la nueva
+
+1747
+01:28:38,350 --> 01:28:40,350
+chute lo responde una vez
+
+1748
+01:28:40,350 --> 01:28:43,820
+ya
+
+1749
+01:28:43,820 --> 01:29:26,720
+sobre si
+
+1750
+01:29:26,720 --> 01:29:28,720
+que duda que tengas sobre alguna pregunta
+
+1751
+01:29:28,720 --> 01:29:30,720
+me aprovechan de preguntar ahora
+
+1752
+01:29:30,720 --> 01:29:48,180
+y a ver si
+
+1753
+01:29:48,180 --> 01:29:50,180
+con el micrófono va a escuchar
+
+1754
+01:29:50,180 --> 01:29:52,180
+¿en cuál pregunta?
+
+1755
+01:29:52,180 --> 01:29:54,180
+la pregunta 2 dice no puede resolver el problema
+
+1756
+01:29:54,180 --> 01:29:56,180
+x
+
+1757
+01:29:56,180 --> 01:29:58,180
+o r que
+
+1758
+01:29:58,180 --> 01:30:00,180
+porque un preceptor no simple de una etapa
+
+1759
+01:30:00,180 --> 01:30:02,180
+no puede resolver el problema al xor
+
+1760
+01:30:02,180 --> 01:30:04,180
+xor
+
+1761
+01:30:04,180 --> 01:30:06,180
+lo voy a colocar en el episodio
+
+1762
+01:30:06,180 --> 01:30:08,180
+lo voy a colocar en el episodio
+
+1763
+01:30:08,180 --> 01:30:13,220
+lo voy a colocar en el episodio
+
+1764
+01:30:13,220 --> 01:30:15,220
+lo voy a colocar en el episodio
+
+1765
+01:30:15,220 --> 01:30:17,220
+lo voy a colocar en el episodio
+
+1766
+01:30:17,220 --> 01:30:19,220
+lo voy a colocar en el episodio
+
+1767
+01:30:19,220 --> 01:30:21,220
+lo voy a colocar en el episodio
+
+1768
+01:30:21,220 --> 01:30:23,220
+lo voy a colocar en el episodio
+
+1769
+01:30:23,220 --> 01:30:25,220
+lo voy a colocar en el episodio
+
+1770
+01:30:25,220 --> 01:30:27,220
+lo voy a colocar en el episodio
+
+1771
+01:30:27,220 --> 01:30:29,220
+lo voy a colocar en el episodio
+
+1772
+01:30:29,220 --> 01:30:31,220
+lo voy a colocar en el episodio
+
+1773
+01:30:31,220 --> 01:30:33,220
+lo voy a colocar en el episodio
+
+1774
+01:30:33,220 --> 01:30:35,220
+lo voy a colocar en el episodio
+
+1775
+01:30:35,220 --> 01:30:37,220
+lo voy a colocar en el episodio
+
+1776
+01:30:37,220 --> 01:30:39,220
+lo voy a colocar en el episodio
+
+1777
+01:30:39,220 --> 01:31:07,710
+lo voy a colocar en el episodio
+
+1778
+01:31:07,710 --> 01:31:09,710
+lo voy a colocar en el episodio
+
+1779
+01:31:09,710 --> 01:31:11,710
+lo voy a colocar en el episodio
+
+1780
+01:31:11,710 --> 01:31:15,760
+lo voy a colocar en el episodio
+
+1781
+01:31:15,760 --> 01:32:02,940
+lo voy a colocar en el episodio
+
+1782
+01:32:02,940 --> 01:32:06,670
+lo voy a colocar en el episodio
+
+1783
+01:32:06,670 --> 01:32:08,670
+lo voy a colocar en el episodio
+
+1784
+01:32:08,670 --> 01:32:10,670
+lo voy a colocar en el episodio
+
+1785
+01:32:10,670 --> 01:32:12,670
+lo voy a colocar en el episodio
+
+1786
+01:32:12,670 --> 01:32:14,670
+lo voy a colocar en el episodio
+
+1787
+01:32:14,670 --> 01:32:16,670
+lo voy a colocar en el episodio
+
+1788
+01:32:16,670 --> 01:33:43,790
+lo voy a colocar en el episodio
+
+1789
+01:33:43,790 --> 01:33:45,790
+profesor en la pregunta 4
+
+1790
+01:33:45,790 --> 01:33:47,790
+no menciona si la clasificación
+
+1791
+01:33:47,790 --> 01:33:49,790
+tiene que ser
+
+1792
+01:33:49,790 --> 01:33:51,790
+multiclase
+
+1793
+01:33:51,790 --> 01:33:53,790
+o binaria
+
+1794
+01:33:53,790 --> 01:33:55,790
+pregunta 4
+
+1795
+01:33:55,790 --> 01:33:57,790
+para un problema de clasificación
+
+1796
+01:33:57,790 --> 01:33:59,790
+qué clase de función de activación
+
+1797
+01:33:59,790 --> 01:34:01,790
+haya
+
+1798
+01:34:05,790 --> 01:34:07,790
+y ahora está mal escrito
+
+1799
+01:34:07,790 --> 01:34:09,790
+sí, muy ideal
+
+1800
+01:34:09,790 --> 01:34:14,450
+déjenme
+
+1801
+01:34:14,450 --> 01:34:16,450
+binaria
+
+1802
+01:34:16,450 --> 01:34:18,450
+para la pregunta 4
+
+1803
+01:34:18,450 --> 01:34:20,450
+ok, gracias
+
+1804
+01:34:20,450 --> 01:34:22,450
+la pregunta 4 se refiere
+
+1805
+01:34:22,450 --> 01:34:35,970
+a un problema de clasificación binaria
+
+1806
+01:34:35,970 --> 01:34:39,980
+si o por eso es normal
+
+1807
+01:34:39,980 --> 01:34:44,450
+bueno
+
+1808
+01:34:44,450 --> 01:38:24,780
+estamos bien
+
+1809
+01:38:24,780 --> 01:38:26,780
+si
+
+1810
+01:38:26,780 --> 01:38:28,780
+alguien termina
+
+1811
+01:38:28,780 --> 01:41:42,720
+me avisa
+
+1812
+01:41:42,720 --> 01:41:44,720
+estamos ya
+
+1813
+01:41:44,720 --> 01:41:46,720
+estamos muy complicados
+
+1814
+01:41:46,720 --> 01:41:48,720
+estamos muy complicados
+
+1815
+01:41:48,720 --> 01:41:50,720
+estamos muy complicados
+
+1816
+01:41:50,720 --> 01:41:52,720
+estamos muy parecidas
+
+1817
+01:41:52,720 --> 01:41:54,720
+estamos muy parecidas
+
+1818
+01:41:54,720 --> 01:41:56,720
+estamos muy parecidas
+
+1819
+01:41:56,720 --> 01:41:58,720
+estamos muy parecidas
+
+1820
+01:41:58,720 --> 01:42:00,720
+los profesores pillos
+
+1821
+01:42:00,720 --> 01:42:02,720
+no son malos
+
+1822
+01:42:02,720 --> 01:42:04,720
+no son malos
+
+1823
+01:42:04,720 --> 01:42:06,720
+no es para sacarse 7
+
+1824
+01:42:06,720 --> 01:42:08,720
+es para sacarse 5 barrios
+
+1825
+01:42:08,720 --> 01:42:18,430
+profesor
+
+1826
+01:42:18,430 --> 01:42:20,430
+va a continuar la clasa
+
+1827
+01:42:20,430 --> 01:42:22,430
+el tiro o el break
+
+1828
+01:42:22,430 --> 01:42:24,430
+después de esto
+
+1829
+01:42:24,430 --> 01:42:26,430
+el break a la 7
+
+1830
+01:42:26,430 --> 01:42:28,430
+entonces
+
+1831
+01:42:28,430 --> 01:42:30,430
+una vez terminado esto
+
+1832
+01:42:30,430 --> 01:42:32,430
+yo creo que ya casi todos terminaron
+
+1833
+01:42:32,430 --> 01:42:34,430
+voy a iniciar el problema del batch
+
+1834
+01:42:34,430 --> 01:42:36,430
+el echo
+
+1835
+01:42:36,430 --> 01:42:38,430
+unos minutitos hasta la 7
+
+1836
+01:42:38,430 --> 01:42:40,430
+pues que a la 7 salimos
+
+1837
+01:42:40,430 --> 01:42:58,980
+ya vale profe, gracias
+
+1838
+01:42:58,980 --> 01:43:02,640
+vamos a pasear Gordo
+
+1839
+01:43:02,640 --> 01:43:19,230
+venga
+
+1840
+01:43:19,230 --> 01:43:21,230
+hay muchos chacarros con este asunto
+
+1841
+01:43:21,230 --> 01:43:28,640
+con el micrófono abierto
+
+1842
+01:43:28,640 --> 01:43:30,640
+ya, en un minuto más
+
+1843
+01:43:30,640 --> 01:43:32,640
+voy a comentar este problemita del batch
+
+1844
+01:43:32,640 --> 01:43:34,640
+y el epox
+
+1845
+01:43:34,640 --> 01:43:36,640
+antes de pasar a la segunda hora
+
+1846
+01:43:36,640 --> 01:43:38,640
+es hiper aplicada
+
+1847
+01:43:38,640 --> 01:43:40,640
+así que tienen que
+
+1848
+01:43:40,640 --> 01:43:42,640
+lastima que nos rasga su computador
+
+1849
+01:43:42,640 --> 01:43:44,640
+porque la segunda hora
+
+1850
+01:43:44,640 --> 01:43:46,640
+no se bueno pero
+
+1851
+01:43:46,640 --> 01:43:48,640
+a toco vamos a utilizar
+
+1852
+01:43:48,640 --> 01:43:50,640
+acto ejemplo
+
+1853
+01:43:50,640 --> 01:43:59,970
+hay que hacer pues
+
+1854
+01:43:59,970 --> 01:44:01,970
+la ventaja
+
+1855
+01:44:01,970 --> 01:44:03,970
+que si puede traer el computador
+
+1856
+01:44:03,970 --> 01:44:05,970
+lo traiga y la ventaja
+
+1857
+01:44:05,970 --> 01:44:07,970
+me tiene a mi como ahí
+
+1858
+01:44:07,970 --> 01:44:09,970
+la otra
+
+1859
+01:44:09,970 --> 01:44:11,970
+la otra
+
+1860
+01:44:11,970 --> 01:44:13,970
+la próxima clase
+
+1861
+01:44:13,970 --> 01:44:15,970
+siempre va a haber instancia aplicada
+
+1862
+01:44:15,970 --> 01:44:19,570
+siempre va a ser ejemplo
+
+1863
+01:44:19,570 --> 01:44:21,570
+ejemplo
+
+1864
+01:44:21,570 --> 01:44:23,570
+pero esta hora que viene más tuave
+
+1865
+01:44:23,570 --> 01:44:36,420
+bueno
+
+1866
+01:44:36,420 --> 01:44:38,420
+faltando
+
+1867
+01:44:38,420 --> 01:44:40,420
+10 minutos para la 7
+
+1868
+01:44:40,420 --> 01:44:42,420
+déjenme por favor
+
+1869
+01:44:42,420 --> 01:44:44,420
+introducir este tema
+
+1870
+01:44:44,420 --> 01:44:46,420
+de la batch y el epox
+
+1871
+01:44:46,420 --> 01:44:48,420
+es un asunto
+
+1872
+01:44:48,420 --> 01:44:50,420
+no es teórico pero es de índole práctico
+
+1873
+01:44:50,420 --> 01:44:52,420
+que es necesario tener bien claro
+
+1874
+01:44:52,420 --> 01:44:54,420
+cuando ustedes vean
+
+1875
+01:44:54,420 --> 01:44:56,420
+cuando empiezan a entrenar sus primeros modelos
+
+1876
+01:44:56,420 --> 01:44:58,420
+es parte de las decisiones
+
+1877
+01:44:58,420 --> 01:45:00,420
+que tienen que tomar
+
+1878
+01:45:00,420 --> 01:45:02,420
+no directamente, no tiene que ver
+
+1879
+01:45:02,420 --> 01:45:04,420
+con la arquitectura propiamente tal
+
+1880
+01:45:04,420 --> 01:45:06,420
+pero si es una decisión
+
+1881
+01:45:06,420 --> 01:45:08,420
+que afecta mucho al entrenamiento
+
+1882
+01:45:08,420 --> 01:45:10,420
+de la máquina
+
+1883
+01:45:10,420 --> 01:45:12,420
+y esto
+
+1884
+01:45:12,420 --> 01:45:14,420
+son unas transparencias
+
+1885
+01:45:14,420 --> 01:45:16,420
+muy pequeñas
+
+1886
+01:45:16,420 --> 01:45:18,420
+muy cortitas que tratan de dar
+
+1887
+01:45:18,420 --> 01:45:20,420
+un poquito de luz respecto a esto
+
+1888
+01:45:20,420 --> 01:45:22,420
+para que usted lo tenga super claro
+
+1889
+01:45:22,420 --> 01:45:24,420
+y sepa la diferencia que hay entre este asunto
+
+1890
+01:45:24,420 --> 01:45:26,420
+del batch y del epox
+
+1891
+01:45:26,420 --> 01:45:28,420
+ya
+
+1892
+01:45:28,420 --> 01:45:30,420
+ok
+
+1893
+01:45:30,420 --> 01:45:32,420
+entonces en general
+
+1894
+01:45:32,420 --> 01:45:34,420
+yo todavía no les he explicado
+
+1895
+01:45:34,420 --> 01:45:36,420
+de qué se trata el gradient descent
+
+1896
+01:45:36,420 --> 01:45:38,420
+pero solamente para tener la idea
+
+1897
+01:45:38,420 --> 01:45:40,420
+el gradient descent es el algoritmo
+
+1898
+01:45:40,420 --> 01:45:42,420
+por el cual la máquina trata
+
+1899
+01:45:42,420 --> 01:45:44,420
+este mínimo de esta función
+
+1900
+01:45:44,420 --> 01:45:46,420
+de pérdida, no sé esto lo que comentábamos
+
+1901
+01:45:46,420 --> 01:45:48,420
+recientemente
+
+1902
+01:45:48,420 --> 01:45:50,420
+este intento por llegar
+
+1903
+01:45:50,420 --> 01:45:52,420
+a un mínimo global
+
+1904
+01:45:52,420 --> 01:45:54,420
+y que para problemas muy complicados
+
+1905
+01:45:54,420 --> 01:45:56,420
+nunca vamos a ver si llegamos a un mínimo
+
+1906
+01:45:56,420 --> 01:45:58,420
+global, tal vez encontramos un mínimo local
+
+1907
+01:45:58,420 --> 01:46:00,420
+pero esa forma
+
+1908
+01:46:00,420 --> 01:46:02,420
+el proceso por el cual se ha logrado
+
+1909
+01:46:02,420 --> 01:46:04,420
+encontrar un mínimo sea global o local
+
+1910
+01:46:04,420 --> 01:46:06,420
+se llama gradient descent
+
+1911
+01:46:06,420 --> 01:46:08,420
+y este gradient descent
+
+1912
+01:46:08,420 --> 01:46:10,420
+funciona a través de esto
+
+1913
+01:46:10,420 --> 01:46:12,420
+que yo les explicaba
+
+1914
+01:46:12,420 --> 01:46:14,420
+o les adelantaba
+
+1915
+01:46:14,420 --> 01:46:16,420
+que tenía que ver con las
+
+1916
+01:46:16,420 --> 01:46:18,420
+derivadas y los gradientes
+
+1917
+01:46:18,420 --> 01:46:20,420
+por eso se llama gradient descent
+
+1918
+01:46:20,420 --> 01:46:22,420
+en general hay tres tipos
+
+1919
+01:46:22,420 --> 01:46:24,420
+digamos hay tres sabores
+
+1920
+01:46:24,420 --> 01:46:26,420
+del helado
+
+1921
+01:46:26,420 --> 01:46:28,420
+tres sabores del gradient descent
+
+1922
+01:46:28,420 --> 01:46:30,420
+el algoritmo en esencia es el mismo
+
+1923
+01:46:30,420 --> 01:46:32,420
+pero hay tres tipos
+
+1924
+01:46:32,420 --> 01:46:34,420
+que varían según la cantidad
+
+1925
+01:46:34,420 --> 01:46:36,420
+de datos o instancias
+
+1926
+01:46:36,420 --> 01:46:38,420
+que yo le meto al sistema
+
+1927
+01:46:38,420 --> 01:46:40,420
+que se produzca una actualización de los pesos
+
+1928
+01:46:40,420 --> 01:46:42,420
+acuérdense
+
+1929
+01:46:42,420 --> 01:46:44,420
+usted es que
+
+1930
+01:46:44,420 --> 01:46:46,420
+por favor no se la volvió
+
+1931
+01:46:46,420 --> 01:46:48,420
+la tienen que escribir en negamo en bronce
+
+1932
+01:46:48,420 --> 01:46:50,420
+en reneuronales
+
+1933
+01:46:50,420 --> 01:46:52,420
+learning
+
+1934
+01:46:52,420 --> 01:46:54,420
+aprendizaje significa
+
+1935
+01:46:54,420 --> 01:46:56,420
+el ajuste de los pesos
+
+1936
+01:46:56,420 --> 01:46:58,420
+para tratar de diminuir la función
+
+1937
+01:46:58,420 --> 01:47:00,420
+de pérdida ¿vale?
+
+1938
+01:47:00,420 --> 01:47:02,420
+eso no se les puede ir de la cabeza
+
+1939
+01:47:02,420 --> 01:47:04,420
+entonces para que
+
+1940
+01:47:04,420 --> 01:47:06,420
+se genere este upgrade de los pesos
+
+1941
+01:47:06,420 --> 01:47:08,420
+¿te se acuerdan lo cierto?
+
+1942
+01:47:08,420 --> 01:47:10,420
+que entran los datos ¿verdad?
+
+1943
+01:47:10,420 --> 01:47:12,420
+fit forward
+
+1944
+01:47:12,420 --> 01:47:14,420
+se traspasa la información hacia adelante
+
+1945
+01:47:14,420 --> 01:47:16,420
+hasta la última capa
+
+1946
+01:47:16,420 --> 01:47:18,420
+y en la última capa que se produce
+
+1947
+01:47:18,420 --> 01:47:20,420
+una predicción, itongo
+
+1948
+01:47:20,420 --> 01:47:22,420
+y ese itongo se compara
+
+1949
+01:47:22,420 --> 01:47:24,420
+con el i verdadero
+
+1950
+01:47:24,420 --> 01:47:26,420
+no son iguales
+
+1951
+01:47:26,420 --> 01:47:28,420
+hay un error y ese error
+
+1952
+01:47:28,420 --> 01:47:30,420
+a través de un backpropagation
+
+1953
+01:47:30,420 --> 01:47:32,420
+se tiene que retransmitir de adelante hacia atrás
+
+1954
+01:47:32,420 --> 01:47:34,420
+hacia atrás para ir actualizando sus pesos
+
+1955
+01:47:34,420 --> 01:47:36,420
+¿vale?
+
+1956
+01:47:36,420 --> 01:47:38,420
+para poder hacer eso
+
+1957
+01:47:38,420 --> 01:47:40,420
+al principio como le decía
+
+1958
+01:47:40,420 --> 01:47:42,420
+se mete la instancia ¿no cierto?
+
+1959
+01:47:42,420 --> 01:47:44,420
+se propaga la información hacia adelante
+
+1960
+01:47:44,420 --> 01:47:46,420
+tengo distintas formas
+
+1961
+01:47:46,420 --> 01:47:48,420
+de alimentar
+
+1962
+01:47:48,420 --> 01:47:50,420
+a la máquina ¿ya?
+
+1963
+01:47:50,420 --> 01:47:52,420
+en general
+
+1964
+01:47:52,420 --> 01:47:54,420
+hay tres distintas formas
+
+1965
+01:47:54,420 --> 01:47:56,420
+para hacerlo simple
+
+1966
+01:47:56,420 --> 01:47:58,420
+le voy colocando instancia
+
+1967
+01:47:58,420 --> 01:48:00,420
+de alguna
+
+1968
+01:48:00,420 --> 01:48:02,420
+un vector, una instancia
+
+1969
+01:48:02,420 --> 01:48:04,420
+pero el
+
+1970
+01:48:04,420 --> 01:48:06,420
+lo cierto en el siguiente ejemplo
+
+1971
+01:48:06,420 --> 01:48:08,420
+de si un cliente va a ser default
+
+1972
+01:48:08,420 --> 01:48:10,420
+o no, le meto el vector
+
+1973
+01:48:10,420 --> 01:48:12,420
+que me indica a un cliente cuánto hijo tiene
+
+1974
+01:48:12,420 --> 01:48:14,420
+cuánta corriente, su pasillo, qué sé yo
+
+1975
+01:48:14,420 --> 01:48:16,420
+entonces se la mete
+
+1976
+01:48:16,420 --> 01:48:18,420
+y le voy metiendo de alguna
+
+1977
+01:48:18,420 --> 01:48:20,420
+una instancia de alguna
+
+1978
+01:48:20,420 --> 01:48:22,420
+entonces se va a hacer de alguna
+
+1979
+01:48:22,420 --> 01:48:24,420
+todo el proceso de fit forward
+
+1980
+01:48:24,420 --> 01:48:26,420
+y se va a producir una predicción
+
+1981
+01:48:26,420 --> 01:48:28,420
+se va a comparar con el real
+
+1982
+01:48:28,420 --> 01:48:30,420
+y de nuevo en la prueba
+
+1983
+01:48:30,420 --> 01:48:32,420
+en ese caso se va metiendo de una
+
+1984
+01:48:32,420 --> 01:48:34,420
+el otro caso
+
+1985
+01:48:34,420 --> 01:48:36,420
+que sería el caso extremo
+
+1986
+01:48:36,420 --> 01:48:38,420
+en vez de meterle de alguna instancia
+
+1987
+01:48:38,420 --> 01:48:40,420
+le meto la base de dato entera
+
+1988
+01:48:40,420 --> 01:48:42,420
+si por ejemplo
+
+1989
+01:48:42,420 --> 01:48:44,420
+Felipe creo que era, no me acuerdo quién era
+
+1990
+01:48:44,420 --> 01:48:46,420
+que me preguntaba
+
+1991
+01:48:46,420 --> 01:48:48,420
+tengo una base de data de 500 instancias
+
+1992
+01:48:48,420 --> 01:48:50,420
+500 filas
+
+1993
+01:48:50,420 --> 01:48:52,420
+entonces una forma
+
+1994
+01:48:52,420 --> 01:48:54,420
+de hacer el upgrade
+
+1995
+01:48:54,420 --> 01:48:56,420
+en vez de estar metiéndole
+
+1996
+01:48:56,420 --> 01:48:58,420
+las 500 de alguna
+
+1997
+01:48:58,420 --> 01:49:00,420
+500 al tiro
+
+1998
+01:49:00,420 --> 01:49:02,420
+de un guacanazo
+
+1999
+01:49:02,420 --> 01:49:04,420
+entonces qué va a pasar ahí
+
+2000
+01:49:04,420 --> 01:49:06,420
+obviamente se va a trasagantar
+
+2001
+01:49:06,420 --> 01:49:08,420
+bueno pero si tengo alta memoria y tengo buen procesador
+
+2002
+01:49:08,420 --> 01:49:10,420
+le meto las 500 de una a la más
+
+2003
+01:49:10,420 --> 01:49:12,420
+y se va a
+
+2004
+01:49:12,420 --> 01:49:14,420
+a generar un upgrade de los pesos
+
+2005
+01:49:14,420 --> 01:49:16,420
+un upgrade de los pesos
+
+2006
+01:49:16,420 --> 01:49:18,420
+con esas 500 instancias
+
+2007
+01:49:18,420 --> 01:49:20,420
+que usted está preguntando
+
+2008
+01:49:20,420 --> 01:49:22,420
+si me preguntó como
+
+2009
+01:49:22,420 --> 01:49:24,420
+aquí qué onda
+
+2010
+01:49:24,420 --> 01:49:26,420
+y la otra alternativa
+
+2011
+01:49:26,420 --> 01:49:28,420
+que es una alternativa un poco más
+
+2012
+01:49:28,420 --> 01:49:30,420
+la que se utiliza
+
+2013
+01:49:30,420 --> 01:49:32,420
+es un mix entre los
+
+2014
+01:49:32,420 --> 01:49:34,420
+entre los dos extremos
+
+2015
+01:49:34,420 --> 01:49:36,420
+en vez de tirarle de alguna
+
+2016
+01:49:36,420 --> 01:49:38,420
+o en vez de tirarle todo al tiro
+
+2017
+01:49:38,420 --> 01:49:40,420
+le tiro un poquito no no
+
+2018
+01:49:40,420 --> 01:49:42,420
+o sea le tiro batch
+
+2019
+01:49:42,420 --> 01:49:44,420
+en inglés batch significa lote
+
+2020
+01:49:44,420 --> 01:49:46,420
+le voy tirando
+
+2021
+01:49:46,420 --> 01:49:48,420
+o le voy presentando a la máquina
+
+2022
+01:49:48,420 --> 01:49:50,420
+lotes pequeños
+
+2023
+01:49:50,420 --> 01:49:52,420
+no tan grandes como el tamaño de la base de dato
+
+2024
+01:49:52,420 --> 01:49:54,420
+pero no tan chiquititos como una instancia
+
+2025
+01:49:54,420 --> 01:49:56,420
+vale
+
+2026
+01:49:56,420 --> 01:49:58,420
+entonces eso es las tres formas
+
+2027
+01:49:58,420 --> 01:50:00,420
+de ir alimentando el proceso
+
+2028
+01:50:00,420 --> 01:50:02,420
+de aprendizaje a la red neuronal
+
+2029
+01:50:02,420 --> 01:50:04,420
+vale de a uno
+
+2030
+01:50:04,420 --> 01:50:06,420
+todo de un guascazo
+
+2031
+01:50:06,420 --> 01:50:08,420
+o por lotes o batches
+
+2032
+01:50:08,420 --> 01:50:10,420
+ok cada uno de los
+
+2033
+01:50:10,420 --> 01:50:12,420
+cada una de las tres alternativas tiene
+
+2034
+01:50:12,420 --> 01:50:14,420
+sus procesos constantes
+
+2035
+01:50:14,420 --> 01:50:16,420
+el primero
+
+2036
+01:50:16,420 --> 01:50:18,420
+que es el batch gd
+
+2037
+01:50:18,420 --> 01:50:20,420
+grand descent
+
+2038
+01:50:20,420 --> 01:50:22,420
+ahí se procesan toda la instancia de entrenamiento
+
+2039
+01:50:22,420 --> 01:50:24,420
+para cada interacción del grand descent
+
+2040
+01:50:24,420 --> 01:50:26,420
+ya entonces que es lo que sucede
+
+2041
+01:50:26,420 --> 01:50:28,420
+acá es que
+
+2042
+01:50:28,420 --> 01:50:30,420
+voy a ir a la pizarra y para que se entienda
+
+2043
+01:50:30,420 --> 01:50:32,420
+pizarra
+
+2044
+01:50:32,420 --> 01:50:34,420
+ahí está la pizarra
+
+2045
+01:50:34,420 --> 01:50:36,420
+entonces aquí en este caso
+
+2046
+01:50:36,420 --> 01:50:38,420
+cierto aquí está la red neuronal
+
+2047
+01:50:38,420 --> 01:50:42,590
+si
+
+2048
+01:50:42,590 --> 01:50:44,590
+ahí está la red neuronal vale
+
+2049
+01:50:44,590 --> 01:50:46,590
+entonces aquí está el vector
+
+2050
+01:50:46,590 --> 01:50:48,590
+aquí voy a tener mi base de dato
+
+2051
+01:50:48,590 --> 01:50:50,590
+voy a tener una base de dato
+
+2052
+01:50:50,590 --> 01:50:52,590
+y cada fila representa una instancia
+
+2053
+01:50:52,590 --> 01:50:54,590
+aquí está el feature 1
+
+2054
+01:50:54,590 --> 01:50:56,590
+el predictor 1, 2, 3
+
+2055
+01:50:56,590 --> 01:50:58,590
+y aquí tengo el cliente 1
+
+2056
+01:50:58,590 --> 01:51:00,590
+el cliente 2
+
+2057
+01:51:00,590 --> 01:51:02,590
+con su respectiva información
+
+2058
+01:51:02,590 --> 01:51:04,590
+entonces en este caso
+
+2059
+01:51:04,590 --> 01:51:06,590
+que es lo que va a pasar a esta red neuronal
+
+2060
+01:51:06,590 --> 01:51:08,590
+va a entrar
+
+2061
+01:51:08,590 --> 01:51:10,590
+un vector
+
+2062
+01:51:10,590 --> 01:51:12,590
+¿cierto? cada pelotita representa
+
+2063
+01:51:12,590 --> 01:51:14,590
+una variable
+
+2064
+01:51:14,590 --> 01:51:16,590
+entonces yo le voy pictose primero
+
+2065
+01:51:16,590 --> 01:51:18,590
+le paso, le presento a la red neuronal
+
+2066
+01:51:18,590 --> 01:51:20,590
+el cliente 1
+
+2067
+01:51:20,590 --> 01:51:22,590
+se produce el fit forward
+
+2068
+01:51:22,590 --> 01:51:24,590
+quiero que sea aquí una predicción
+
+2069
+01:51:24,590 --> 01:51:26,590
+por aquí yo comparo
+
+2070
+01:51:26,590 --> 01:51:28,590
+el valor real
+
+2071
+01:51:28,590 --> 01:51:30,590
+¿cierto? y aquí hay un loss
+
+2072
+01:51:30,590 --> 01:51:32,590
+por ejemplo si un problema de regresión
+
+2073
+01:51:32,590 --> 01:51:34,590
+sería un root min square
+
+2074
+01:51:34,590 --> 01:51:36,590
+si un problema de clasificación binaria
+
+2075
+01:51:36,590 --> 01:51:38,590
+que serían loss
+
+2076
+01:51:38,590 --> 01:51:40,590
+una función
+
+2077
+01:51:40,590 --> 01:51:42,590
+de entropiedad cruzada
+
+2078
+01:51:42,590 --> 01:51:44,590
+para cada problema hay un loss
+
+2079
+01:51:44,590 --> 01:51:46,590
+y a este loss entonces
+
+2080
+01:51:46,590 --> 01:51:48,590
+después lo tengo que
+
+2081
+01:51:48,590 --> 01:51:50,590
+hacer un vector
+
+2082
+01:51:50,590 --> 01:51:52,590
+va a provocar hacia atrás
+
+2083
+01:51:52,590 --> 01:51:54,590
+y ahí
+
+2084
+01:51:54,590 --> 01:51:56,590
+se va a generar
+
+2085
+01:51:56,590 --> 01:51:58,590
+un nuevo peso
+
+2086
+01:51:58,590 --> 01:52:00,590
+el peso de T
+
+2087
+01:52:00,590 --> 01:52:02,590
+el peso de mañana va a ser el peso
+
+2088
+01:52:02,590 --> 01:52:04,590
+que había antes
+
+2089
+01:52:04,590 --> 01:52:06,590
+más una tasa de aprendizaje
+
+2090
+01:52:06,590 --> 01:52:08,590
+multiplicado por algo que se llama
+
+2091
+01:52:08,590 --> 01:52:10,590
+el gradiente de la función de pérdida
+
+2092
+01:52:10,590 --> 01:52:12,590
+lo vamos a ver
+
+2093
+01:52:12,590 --> 01:52:14,590
+entonces ¿qué sucede aquí?
+
+2094
+01:52:14,590 --> 01:52:16,590
+se generó con una instancia
+
+2095
+01:52:16,590 --> 01:52:18,590
+que metí, con todo este proceso de fit forward
+
+2096
+01:52:18,590 --> 01:52:20,590
+se produjo una actualización
+
+2097
+01:52:20,590 --> 01:52:22,590
+del peso de todos los pesos
+
+2098
+01:52:22,590 --> 01:52:24,590
+que están aquí
+
+2099
+01:52:24,590 --> 01:52:26,590
+eso se llama
+
+2100
+01:52:26,590 --> 01:52:28,590
+epochs
+
+2101
+01:52:28,590 --> 01:52:30,590
+eso fue un epochs
+
+2102
+01:52:30,590 --> 01:52:32,590
+un epochs representa
+
+2103
+01:52:32,590 --> 01:52:34,590
+la actualización de todos los pesos de un área
+
+2104
+01:52:34,590 --> 01:52:36,590
+entonces si por ejemplo la base de datos
+
+2105
+01:52:36,590 --> 01:52:38,590
+tengo 500
+
+2106
+01:52:38,590 --> 01:52:40,590
+instancias
+
+2107
+01:52:40,590 --> 01:52:42,590
+y yo la voy haciendo, la voy presentando de una
+
+2108
+01:52:42,590 --> 01:52:44,590
+¿cuántas actualizaciones voy a tener?
+
+2109
+01:52:44,590 --> 01:52:50,300
+500 por lo cierto
+
+2110
+01:52:50,300 --> 01:52:52,300
+porque si la estoy presentando de 1
+
+2111
+01:52:52,300 --> 01:52:54,300
+y la base de datos es de 500
+
+2112
+01:52:54,300 --> 01:52:56,300
+ahora eso no quiere decir
+
+2113
+01:52:56,300 --> 01:52:58,300
+que después se las vuelve a presentar
+
+2114
+01:52:58,300 --> 01:53:00,300
+yo la puedo presentar las mismas instancias
+
+2115
+01:53:00,300 --> 01:53:02,300
+todas las veces que quieran
+
+2116
+01:53:02,300 --> 01:53:04,300
+entonces ese sería
+
+2117
+01:53:04,300 --> 01:53:06,300
+una forma
+
+2118
+01:53:06,300 --> 01:53:08,300
+de gradient descent
+
+2119
+01:53:08,300 --> 01:53:10,300
+hoy aquí de nuevo al postre
+
+2120
+01:53:10,300 --> 01:53:12,300
+ok
+
+2121
+01:53:12,300 --> 01:53:16,220
+entonces
+
+2122
+01:53:16,220 --> 01:53:18,220
+ese sería una forma
+
+2123
+01:53:18,220 --> 01:53:20,220
+y se le dice
+
+2124
+01:53:20,220 --> 01:53:22,220
+a este que está acá, digamos, a este que yo le voy presentando
+
+2125
+01:53:22,220 --> 01:53:24,220
+de una, naturalmente usted debe
+
+2126
+01:53:24,220 --> 01:53:26,220
+empezar que en la práctica
+
+2127
+01:53:26,220 --> 01:53:28,220
+¿saben por qué no se utiliza?
+
+2128
+01:53:28,220 --> 01:53:30,220
+¿por qué creen ustedes que no se utiliza?
+
+2129
+01:53:30,220 --> 01:53:32,220
+¿qué pasa si, claro, una base de datos de 500
+
+2130
+01:53:32,220 --> 01:53:34,220
+pero si uno tiene por ejemplo
+
+2131
+01:53:34,220 --> 01:53:37,630
+800 mil datos
+
+2132
+01:53:37,630 --> 01:53:39,630
+¿cuántos epochs necesito
+
+2133
+01:53:39,630 --> 01:53:41,630
+hacer para que recién
+
+2134
+01:53:41,630 --> 01:53:43,630
+para que la máquina haya
+
+2135
+01:53:43,630 --> 01:53:45,630
+sido estimulada
+
+2136
+01:53:45,630 --> 01:53:47,630
+con toda mi base de datos
+
+2137
+01:53:47,630 --> 01:53:49,630
+800 mil
+
+2138
+01:53:49,630 --> 01:53:51,630
+¿no es cierto?
+
+2139
+01:53:51,630 --> 01:53:53,630
+entonces ya es un problema
+
+2140
+01:53:53,630 --> 01:53:55,630
+¿y cuál es el otro problema que es más serio?
+
+2141
+01:53:55,630 --> 01:53:57,630
+es que si yo le voy presentando de alguna
+
+2142
+01:53:57,630 --> 01:53:59,630
+ustedes saben, no sé
+
+2143
+01:53:59,630 --> 01:54:01,630
+que los datos tienen error
+
+2144
+01:54:01,630 --> 01:54:03,630
+hay algunos datos que están corruptos
+
+2145
+01:54:03,630 --> 01:54:05,630
+otros datos que corresponden a una clase
+
+2146
+01:54:05,630 --> 01:54:07,630
+entonces si yo le voy presentando
+
+2147
+01:54:07,630 --> 01:54:09,630
+de uno
+
+2148
+01:54:09,630 --> 01:54:11,630
+la máquina queda más expuesta
+
+2149
+01:54:11,630 --> 01:54:13,630
+al ruido
+
+2150
+01:54:13,630 --> 01:54:15,630
+esa es la razón por la cual
+
+2151
+01:54:15,630 --> 01:54:17,630
+es muy raro que uno le esté
+
+2152
+01:54:17,630 --> 01:54:19,630
+utilizando ese método de ir
+
+2153
+01:54:19,630 --> 01:54:21,630
+presentando de una de una
+
+2154
+01:54:21,630 --> 01:54:23,630
+por eso es que se dice estocástico
+
+2155
+01:54:23,630 --> 01:54:25,630
+estocástico adnisen
+
+2156
+01:54:25,630 --> 01:54:27,630
+es porque le voy metiendo de uno
+
+2157
+01:54:27,630 --> 01:54:29,630
+es como que estuve metiendo
+
+2158
+01:54:29,630 --> 01:54:31,630
+información aleatoria
+
+2159
+01:54:31,630 --> 01:54:33,630
+una por una
+
+2160
+01:54:33,630 --> 01:54:35,630
+¿vale?
+
+2161
+01:54:35,630 --> 01:54:37,630
+después entonces está
+
+2162
+01:54:37,630 --> 01:54:39,630
+bueno, la otra alternativa
+
+2163
+01:54:39,630 --> 01:54:41,630
+yo partí al red
+
+2164
+01:54:41,630 --> 01:54:43,630
+la otra alternativa entonces
+
+2165
+01:54:43,630 --> 01:54:45,630
+en vez de ir metiendo de una
+
+2166
+01:54:45,630 --> 01:54:47,630
+entonces
+
+2167
+01:54:47,630 --> 01:54:49,630
+en vez de...
+
+2168
+01:54:49,630 --> 01:54:51,630
+son 500 instancias
+
+2169
+01:54:51,630 --> 01:54:53,630
+todo esto que está aquí
+
+2170
+01:54:53,630 --> 01:54:55,630
+van 500 factores
+
+2171
+01:54:55,630 --> 01:54:57,630
+directamente
+
+2172
+01:54:57,630 --> 01:54:59,630
+a la red neuronal
+
+2173
+01:54:59,630 --> 01:55:01,630
+entonces aquí
+
+2174
+01:55:01,630 --> 01:55:03,630
+está el error donde la gente se equivoca
+
+2175
+01:55:03,630 --> 01:55:05,630
+si yo estoy utilizando este método
+
+2176
+01:55:05,630 --> 01:55:07,630
+no hay 500
+
+2177
+01:55:07,630 --> 01:55:09,630
+actualizaciones
+
+2178
+01:55:09,630 --> 01:55:11,630
+es una sola
+
+2179
+01:55:11,630 --> 01:55:13,630
+actualización del peso
+
+2180
+01:55:13,630 --> 01:55:15,630
+fue hecha con 500
+
+2181
+01:55:15,630 --> 01:55:17,630
+instancias
+
+2182
+01:55:17,630 --> 01:55:19,630
+es como decir que
+
+2183
+01:55:19,630 --> 01:55:21,630
+la red neuronal un lote
+
+2184
+01:55:21,630 --> 01:55:23,630
+del tamaño de la base de datos
+
+2185
+01:55:23,630 --> 01:55:25,630
+entonces
+
+2186
+01:55:25,630 --> 01:55:27,630
+¿qué desventajas creen ustedes que tiene
+
+2187
+01:55:27,630 --> 01:55:29,630
+ese procedimiento?
+
+2188
+01:55:29,630 --> 01:55:31,630
+¿qué creen ustedes?
+
+2189
+01:55:31,630 --> 01:55:33,630
+imagínense que tengo de nuevo una base de datos de 800 mil
+
+2190
+01:55:33,630 --> 01:55:35,630
+instancias
+
+2191
+01:55:35,630 --> 01:55:41,220
+¿qué va a pasar?
+
+2192
+01:55:41,220 --> 01:55:43,220
+¿con puto?
+
+2193
+01:55:43,220 --> 01:55:45,220
+¿con puto como así?
+
+2194
+01:55:45,220 --> 01:55:47,220
+¿que va a creer más cómputo?
+
+2195
+01:55:47,220 --> 01:55:49,220
+¿que va a pedir que?
+
+2196
+01:55:49,220 --> 01:55:51,220
+voy a requerir más cómputo
+
+2197
+01:55:53,220 --> 01:55:55,220
+si tengo una base de datos de 800 mil
+
+2198
+01:55:55,220 --> 01:55:57,220
+yo aplico este método
+
+2199
+01:55:57,220 --> 01:55:59,220
+en donde le presento las 800 mil
+
+2200
+01:55:59,220 --> 01:56:01,220
+instancias de un paraguazo
+
+2201
+01:56:01,220 --> 01:56:03,220
+¿qué quieren ustedes que va a pasar
+
+2202
+01:56:03,220 --> 01:56:05,220
+con el computador?
+
+2203
+01:56:05,220 --> 01:56:07,220
+hay un problema así
+
+2204
+01:56:07,220 --> 01:56:09,220
+hay un problema de memoria
+
+2205
+01:56:09,220 --> 01:56:11,220
+ya
+
+2206
+01:56:11,220 --> 01:56:13,220
+no va
+
+2207
+01:56:13,220 --> 01:56:15,220
+la desventaja de ese método
+
+2208
+01:56:15,220 --> 01:56:17,220
+es que si tú utilizas eso
+
+2209
+01:56:17,220 --> 01:56:19,220
+va a tener un problema posiblemente de memoria
+
+2210
+01:56:19,220 --> 01:56:21,220
+si te va a trancar la computadora
+
+2211
+01:56:21,220 --> 01:56:23,220
+no tiene un computador con mucha memoria
+
+2212
+01:56:23,220 --> 01:56:25,220
+acuérdense que
+
+2213
+01:56:25,220 --> 01:56:27,220
+va a tener que utilizar
+
+2214
+01:56:27,220 --> 01:56:29,220
+va a tener que hacer una multiplicación
+
+2215
+01:56:29,220 --> 01:56:31,220
+voy a hacer la multiplicación de matrices
+
+2216
+01:56:31,220 --> 01:56:33,220
+el tamaño de la matriz
+
+2217
+01:56:33,220 --> 01:56:35,220
+que va a tener que multiplicar base de 800 mil
+
+2218
+01:56:35,220 --> 01:56:37,220
+por la cantidad de pesos
+
+2219
+01:56:37,220 --> 01:56:39,220
+que hay en una capa
+
+2220
+01:56:39,220 --> 01:56:41,220
+si te trancas el computador
+
+2221
+01:56:41,220 --> 01:56:43,220
+si le metís 800 mil de una
+
+2222
+01:56:43,220 --> 01:56:45,220
+por esas razones que es muy raro
+
+2223
+01:56:45,220 --> 01:56:47,220
+utilizar este método
+
+2224
+01:56:49,220 --> 01:56:51,220
+al final ¿qué es lo que se usa?
+
+2225
+01:56:51,220 --> 01:56:53,220
+se usa el método
+
+2226
+01:56:53,220 --> 01:56:55,220
+del mini batch
+
+2227
+01:56:55,220 --> 01:56:57,220
+es decir una combinación en champa
+
+2228
+01:56:57,220 --> 01:56:59,220
+no utilizo, no le voy metiendo de una
+
+2229
+01:56:59,220 --> 01:57:01,220
+pero tampoco le meto todo de un viaje
+
+2230
+01:57:01,220 --> 01:57:03,220
+sino que le meto por ejemplo
+
+2231
+01:57:03,220 --> 01:57:05,220
+le voy metiendo bloques de 64
+
+2232
+01:57:05,220 --> 01:57:07,220
+cierro el ojo
+
+2233
+01:57:07,220 --> 01:57:09,220
+elijo 64 de acá
+
+2234
+01:57:09,220 --> 01:57:11,220
+esas 64 van
+
+2235
+01:57:11,220 --> 01:57:13,220
+y de nuevo
+
+2236
+01:57:13,220 --> 01:57:15,220
+insisto y repito
+
+2237
+01:57:15,220 --> 01:57:17,220
+que sea majadero
+
+2238
+01:57:17,220 --> 01:57:19,220
+aquí no van a haber
+
+2239
+01:57:19,220 --> 01:57:21,220
+64 upgrades
+
+2240
+01:57:21,220 --> 01:57:23,220
+del peso
+
+2241
+01:57:23,220 --> 01:57:25,220
+no, va a haber una
+
+2242
+01:57:25,220 --> 01:57:27,220
+pero esa va a ser creada
+
+2243
+01:57:27,220 --> 01:57:29,220
+con 64
+
+2244
+01:57:29,220 --> 01:57:31,220
+instancias y esa fue una epox
+
+2245
+01:57:31,220 --> 01:57:33,220
+por eso es lo que
+
+2246
+01:57:33,220 --> 01:57:35,220
+que usted tiene que comprender ahora
+
+2247
+01:57:35,220 --> 01:57:37,220
+la diferencia entre el batch
+
+2248
+01:57:37,220 --> 01:57:39,220
+batch
+
+2249
+01:57:39,220 --> 01:57:41,220
+que en este caso fue de 64
+
+2250
+01:57:41,220 --> 01:57:43,220
+y el epox
+
+2251
+01:57:43,220 --> 01:57:45,220
+el epox es un proceso
+
+2252
+01:57:45,220 --> 01:57:47,220
+por el cual se actualiza
+
+2253
+01:57:47,220 --> 01:57:49,220
+con los pesos de una red
+
+2254
+01:57:49,220 --> 01:57:51,220
+entonces
+
+2255
+01:57:51,220 --> 01:57:53,220
+cuál es la ventaja de este método por blote
+
+2256
+01:57:53,220 --> 01:57:55,220
+es que por un lado
+
+2257
+01:57:55,220 --> 01:57:57,220
+minimizo
+
+2258
+01:57:57,220 --> 01:57:59,220
+la red neuronal no queda afecto tanto ruido
+
+2259
+01:57:59,220 --> 01:58:01,220
+tanto error
+
+2260
+01:58:01,220 --> 01:58:03,220
+y por otro lado
+
+2261
+01:58:03,220 --> 01:58:05,220
+lo estoy haciendo
+
+2262
+01:58:05,220 --> 01:58:07,220
+estoy aprovechando de mejor manera
+
+2263
+01:58:07,220 --> 01:58:09,220
+la capacidad de computo en el sentido de que
+
+2264
+01:58:09,220 --> 01:58:11,220
+no tengo que ir uno por uno
+
+2265
+01:58:11,220 --> 01:58:13,220
+así que le voy metiendo bloques más grave
+
+2266
+01:58:13,220 --> 01:58:15,220
+más rápido y entonces esas actualizaciones de los presos
+
+2267
+01:58:15,220 --> 01:58:17,220
+van a quedar un poquito más robustas
+
+2268
+01:58:17,220 --> 01:58:19,220
+más inmunes al ruido
+
+2269
+01:58:19,220 --> 01:58:21,220
+porque van a haber
+
+2270
+01:58:21,220 --> 01:58:23,220
+en la curva de los
+
+2271
+01:58:23,220 --> 01:58:25,220
+va disminuyendo sin tanto sobresalto
+
+2272
+01:58:25,220 --> 01:58:27,220
+dime
+
+2273
+01:58:27,220 --> 01:58:29,220
+bueno aquí la pregunta obviamente nace
+
+2274
+01:58:29,220 --> 01:58:31,220
+uno entiende que ambos tenemos son malos
+
+2275
+01:58:31,220 --> 01:58:33,220
+pero qué penaliza más
+
+2276
+01:58:33,220 --> 01:58:35,220
+epox o batch en cuanto a cantidad de
+
+2277
+01:58:35,220 --> 01:58:37,220
+que penalizo más
+
+2278
+01:58:37,220 --> 01:58:39,220
+si en cuanto a computo
+
+2279
+01:58:39,220 --> 01:58:41,220
+porque yo voy a decir
+
+2280
+01:58:41,220 --> 01:58:43,220
+uso un mini batch
+
+2281
+01:58:43,220 --> 01:58:45,220
+de 64
+
+2282
+01:58:45,220 --> 01:58:47,220
+pero igual me voy al extremo de meterle mucha epox
+
+2283
+01:58:47,220 --> 01:58:49,220
+y lo mismo
+
+2284
+01:58:49,220 --> 01:58:51,220
+puedo meter menos epox
+
+2285
+01:58:51,220 --> 01:58:53,220
+pero aumentar un poco el batch
+
+2286
+01:58:53,220 --> 01:58:55,220
+qué priorizo más
+
+2287
+01:58:55,220 --> 01:58:57,220
+para tratar de ahorrar computo en el equipo
+
+2288
+01:58:57,220 --> 01:58:59,220
+depende si yo sé que tengo un buen computador
+
+2289
+01:58:59,220 --> 01:59:01,220
+hasta memoria y tengo la posibilidad
+
+2290
+01:59:01,220 --> 01:59:03,220
+de una GPU y hasta memoria RAM
+
+2291
+01:59:03,220 --> 01:59:05,220
+mientras el tamaño del batch
+
+2292
+01:59:05,220 --> 01:59:07,220
+sea más grande mejor
+
+2293
+01:59:07,220 --> 01:59:09,220
+pero está cierto límite también
+
+2294
+01:59:09,220 --> 01:59:11,220
+entonces básicamente
+
+2295
+01:59:11,220 --> 01:59:13,220
+yo trato de que el batch sea lo más grande posible
+
+2296
+01:59:13,220 --> 01:59:15,220
+hasta
+
+2297
+01:59:15,220 --> 01:59:17,220
+donde mi capacidad computacional
+
+2298
+01:59:17,220 --> 01:59:19,220
+en este caso de hardware
+
+2299
+01:59:19,220 --> 01:59:21,220
+me lo permita
+
+2300
+01:59:21,220 --> 01:59:23,220
+mientras más grande el batch mejor
+
+2301
+01:59:23,220 --> 01:59:25,220
+eso por un lado pero con la de esa limitante de hardware
+
+2302
+01:59:25,220 --> 01:59:27,220
+por otro lado
+
+2303
+01:59:27,220 --> 01:59:29,220
+la cantidad de epox
+
+2304
+01:59:29,220 --> 01:59:31,220
+que yo le tengo que determinar
+
+2305
+01:59:31,220 --> 01:59:33,220
+que es la cantidad de veces
+
+2306
+01:59:33,220 --> 01:59:35,220
+que se va a actualizar los pesos de la red
+
+2307
+01:59:35,220 --> 01:59:37,220
+es otra decisión
+
+2308
+01:59:37,220 --> 01:59:39,220
+que nos está ligada con el tamaño del batch
+
+2309
+01:59:39,220 --> 01:59:41,220
+es una decisión
+
+2310
+01:59:41,220 --> 01:59:43,220
+que tiene que ver
+
+2311
+01:59:43,220 --> 01:59:45,220
+con la capacidad
+
+2312
+01:59:45,220 --> 01:59:47,220
+digamos con la
+
+2313
+01:59:47,220 --> 01:59:49,220
+con darle la oportunidad
+
+2314
+01:59:49,220 --> 01:59:51,220
+a la red neuronal para que aprende
+
+2315
+01:59:51,220 --> 01:59:53,220
+para que encuentre un óptimo
+
+2316
+01:59:53,220 --> 01:59:55,220
+si yo por ejemplo le doy solamente 5 epox
+
+2317
+01:59:55,220 --> 01:59:57,220
+yo voy a ver la curva de los
+
+2318
+01:59:57,220 --> 01:59:59,220
+y resulta que lo paré justo
+
+2319
+01:59:59,220 --> 02:00:01,220
+cuando estaba disminuyendo pero todavía no alcanzó
+
+2320
+02:00:01,220 --> 02:00:03,220
+su mínimo, entonces quiere decir
+
+2321
+02:00:03,220 --> 02:00:05,220
+que tengo que ponerle más epox
+
+2322
+02:00:05,220 --> 02:00:07,220
+ahí cuenta
+
+2323
+02:00:07,220 --> 02:00:09,220
+dos cosas distintas que cada uno
+
+2324
+02:00:09,220 --> 02:00:11,220
+usted tiene que tomar en consideración
+
+2325
+02:00:11,220 --> 02:00:13,220
+pero no hay una fórmula
+
+2326
+02:00:13,220 --> 02:00:15,220
+no hay una regla que dice
+
+2327
+02:00:15,220 --> 02:00:17,220
+usted tiene que ser para este problema
+
+2328
+02:00:17,220 --> 02:00:19,220
+son 100 epox, no hay que
+
+2329
+02:00:19,220 --> 02:00:21,220
+hay que vivirlo
+
+2330
+02:00:21,220 --> 02:00:23,220
+profe pero
+
+2331
+02:00:23,220 --> 02:00:25,220
+son completamente independientes
+
+2332
+02:00:25,220 --> 02:00:27,220
+entendiendo que los datos igual son finitos
+
+2333
+02:00:27,220 --> 02:00:29,220
+si yo tengo un batch
+
+2334
+02:00:29,220 --> 02:00:31,220
+de 100 y tengo los 500 datos
+
+2335
+02:00:31,220 --> 02:00:33,220
+si hago 50 epox
+
+2336
+02:00:33,220 --> 02:00:35,220
+ya me estoy repitiendo los datos y en otros problemas
+
+2337
+02:00:35,220 --> 02:00:37,220
+son independientes de la lección
+
+2338
+02:00:37,220 --> 02:00:39,220
+pero naturalmente si yo tengo
+
+2339
+02:00:39,220 --> 02:00:41,220
+un set de datos que en este caso
+
+2340
+02:00:41,220 --> 02:00:43,220
+no lo he limitado, sino que es muy grande
+
+2341
+02:00:43,220 --> 02:00:45,220
+yo diseño la cantidad de
+
+2342
+02:00:45,220 --> 02:00:47,220
+en este caso de batches
+
+2343
+02:00:47,220 --> 02:00:49,220
+y de épocos
+
+2344
+02:00:49,220 --> 02:00:51,220
+a menos recorrerlos todos
+
+2345
+02:00:51,220 --> 02:00:53,220
+pero por otro lado también
+
+2346
+02:00:53,220 --> 02:00:55,220
+panó recorrer los mismos
+
+2347
+02:00:55,220 --> 02:00:57,220
+datos muchas veces
+
+2348
+02:00:57,220 --> 02:00:59,220
+eso es irrelevante
+
+2349
+02:00:59,220 --> 02:01:01,220
+que yo quiero que ocurre
+
+2350
+02:01:01,220 --> 02:01:03,220
+ojalá no ocurra eso
+
+2351
+02:01:03,220 --> 02:01:05,220
+yo no le presento a la máquina una vez
+
+2352
+02:01:05,220 --> 02:01:07,220
+no, no, obvio, pero hay un límite
+
+2353
+02:01:07,220 --> 02:01:09,220
+de 50 veces, 100 veces
+
+2354
+02:01:09,220 --> 02:01:11,220
+un millón de veces es irrelevante
+
+2355
+02:01:11,220 --> 02:01:13,220
+cuántas veces yo estoy recorriendo el mismo set de datos
+
+2356
+02:01:13,220 --> 02:01:15,220
+la respuesta depende de la curva de pérdida
+
+2357
+02:01:15,220 --> 02:01:17,220
+si la curva de pérdida tú ves que ya encontró
+
+2358
+02:01:17,220 --> 02:01:19,220
+un óptimo, o sea, ya no disminuye más
+
+2359
+02:01:19,220 --> 02:01:21,220
+no hay mucho más que hacer
+
+2360
+02:01:21,220 --> 02:01:23,220
+no, es un resultado de ver eso
+
+2361
+02:01:23,220 --> 02:01:25,220
+nada más, no es algo que vaya calculando a priori
+
+2362
+02:01:25,220 --> 02:01:27,220
+claro, de ahí
+
+2363
+02:01:27,220 --> 02:01:29,220
+están, después de que están importantes
+
+2364
+02:01:29,220 --> 02:01:31,220
+ver, los gallos que están en
+
+2365
+02:01:31,220 --> 02:01:33,220
+Gemini o Nantropic están pasando
+
+2366
+02:01:33,220 --> 02:01:35,220
+todo el día viendo curva de pérdida
+
+2367
+02:01:35,220 --> 02:01:37,220
+entonces por eso al final
+
+2368
+02:01:37,220 --> 02:01:39,220
+al final todo cerro
+
+2369
+02:01:39,220 --> 02:01:41,220
+saber las curvas de pérdida
+
+2370
+02:01:41,220 --> 02:01:43,220
+estamos pasados 5 minutos
+
+2371
+02:01:43,220 --> 02:01:45,220
+así que mi disculpa, nos vamos al break
+
+2372
+02:01:45,220 --> 02:01:47,220
+que dura ¿cuánto? 30 minutos me parece
+
+2373
+02:01:49,220 --> 02:01:51,220
+muchas gracias Andrés por manten... veo Andrés
+
+2374
+02:01:51,220 --> 02:01:53,220
+lo ves, gracias
+
+2375
+02:01:53,220 --> 02:01:55,220
+por tener la cámara
+
+2376
+02:01:55,220 --> 02:01:58,590
+rendida
+
+2377
+02:01:58,590 --> 02:02:00,590
+ya nos vamos al break y volvemos
+
+2378
+02:02:00,590 --> 02:02:02,590
+en 30 minutos
+
+2379
+02:02:02,590 --> 02:02:04,590
+volvemos a la otra sesión, ¿no es cierto?
+
+2380
+02:02:04,590 --> 02:02:06,590
+al linto
+
+2381
+02:02:06,590 --> 02:02:08,590
+saber, hagamos
+
+2382
+02:02:08,590 --> 02:02:10,590
+un experimento y no corté
+
+2383
+02:02:10,590 --> 02:02:12,590
+pues yo voy a parar la grabación pero no me voy a salir
+
+2384
+02:02:12,590 --> 02:02:14,590
+entonces no es necesario volver
+
+2385
+02:02:14,590 --> 02:02:16,590
+a la misma, ¿vale?
+
+2386
+02:02:16,590 --> 02:02:18,590
+ok, super, gracias por ser
+

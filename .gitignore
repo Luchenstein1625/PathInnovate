@@ -6,6 +6,4 @@ __pycache__/
 *.pyc
 .env
 # Magister (copia local del material del curso; no subir)
-MAGISTER/
-Magister/
 *.zip

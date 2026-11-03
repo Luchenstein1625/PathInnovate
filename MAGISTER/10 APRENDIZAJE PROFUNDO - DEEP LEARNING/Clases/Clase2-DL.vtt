@@ -1,0 +1,9368 @@
+WEBVTT
+
+00:00:01.490 --> 00:00:17.490
+Listo, sí, ahí sí. Decía yo que la idea es que esta clase pueda ser aplicada, pueden hacer algunas cosas, por lo tanto, será imprescindible que puedan ustedes en su computador tener desde ya abierto el...
+
+00:00:17.490 --> 00:00:25.490
+Bueno, lo que ustedes utilicen para Python, el Google Colab, para yo proponer algunos ejemplos, algunas cositas para ir haciendo.
+
+00:00:25.490 --> 00:00:29.490
+Como siempre, vamos a partir de lo más simple, a lo más complicado.
+
+00:00:29.490 --> 00:00:36.490
+Y dos cosas antes de comenzar, de lleno por la continuación.
+
+00:00:36.490 --> 00:00:41.490
+Primero, una pregunta que te puedo anotar ahí para el pensante.
+
+00:00:41.490 --> 00:00:45.490
+Antes de comenzar, el preceptron, que siguen lo que quedamos la clase pasada.
+
+00:00:45.490 --> 00:00:48.490
+Una pregunta para el pensante.
+
+00:00:49.490 --> 00:00:55.490
+Y aquí, yo le voy a plantear la siguiente pregunta y me gustaría, si alguien, y aquí no hay respuesta correcta ni mala.
+
+00:00:55.490 --> 00:01:01.490
+O sea, simplemente salirse un poco de la cosa técnica y pensar, pensar un poco en este asunto.
+
+00:01:01.490 --> 00:01:16.490
+Imaginemos, imaginemos que desarrollamos, por lo que yo también conocí de la empresa, desarrolló un modelo de red neuronal que logra predecir si una persona tiene depresión.
+
+00:01:16.490 --> 00:01:27.490
+Imagínense que fuese una empresa, no soy un cuerpo de, o sea, una empresa que especializaba en temas de psiquiaria, psicológicos, o sea, no sé, excepto en el tema.
+
+00:01:27.490 --> 00:01:34.490
+Pero el asunto es que tienen un modelo entrenado de red neuronal con muchos datos y muchos, muchos, muchos datos históricos,
+
+00:01:34.490 --> 00:01:38.490
+que predice supervién si una persona tiene depresión o no.
+
+00:01:38.490 --> 00:01:47.490
+Es súper contextual, es súper personalizado, en general, la capacidad que tiene esta cosa para predicir lo hace súper bien.
+
+00:01:47.490 --> 00:01:51.490
+La pregunta es la siguiente, ¿tubó nada o qué existe eso?
+
+00:01:51.490 --> 00:01:55.490
+¿Qué problema ven ustedes con eso de aplicarlo?
+
+00:01:55.490 --> 00:02:00.490
+Porque, imagínense usted en el caso, en el caso de Egozo, ¿cierto?
+
+00:02:00.490 --> 00:02:05.490
+Tiene la herramienta, lo hace, lo hace después, lo hace súper bien.
+
+00:02:05.490 --> 00:02:10.490
+Ya, uno dice fantástico, pero ¿qué creen ustedes? ¿qué problema puede haber con esto?
+
+00:02:10.490 --> 00:02:12.490
+¿Qué se le ocurre usted?
+
+00:02:12.490 --> 00:02:16.490
+No estoy hablando de temas legales, sino que con la herramienta en sí.
+
+00:02:16.490 --> 00:02:17.490
+¿Qué opinan?
+
+00:02:17.490 --> 00:02:21.490
+O les parece fantástico y ya, nada que decir.
+
+00:02:21.490 --> 00:02:24.860
+¿Qué opinan?
+
+00:02:24.860 --> 00:02:33.860
+¿Todavía está muy ambiguo mi pregunta o no sé si se ve para dónde va la cosa?
+
+00:02:34.860 --> 00:02:40.860
+No entiendo hacia dónde va la pregunta, si es un tema de, por ejemplo, de gobernación de datos,
+
+00:02:40.860 --> 00:02:47.860
+quizá hay un tema de información confidencial, a lo mejor.
+
+00:02:47.860 --> 00:02:51.860
+Ya, no, mirad, María Sara, supone que somos psicólogos, ya.
+
+00:02:51.860 --> 00:02:54.860
+No, yo no sé si habrá un psicólogo psiquiático,
+
+00:02:54.860 --> 00:02:59.860
+pero tú sabes, y si ya está el psicólogo de haber estudiado,
+
+00:02:59.860 --> 00:03:03.860
+¿de cuáles son los motivos, las teorías que hay detrás de todo esto?
+
+00:03:03.860 --> 00:03:07.860
+¿Por qué una persona entra en un estado de depresión?
+
+00:03:07.860 --> 00:03:11.860
+Ok, y entonces, lo que hace, actualmente,
+
+00:03:11.860 --> 00:03:13.860
+o lo que haría un psicólogo tradicionalmente,
+
+00:03:13.860 --> 00:03:18.860
+es de alguna manera hacerle preguntas y cuentas o observar a la persona
+
+00:03:18.860 --> 00:03:21.860
+y, en función de ese conocimiento,
+
+00:03:21.860 --> 00:03:24.860
+diluciar si la persona está o no en una depresión.
+
+00:03:24.860 --> 00:03:27.860
+Y importante, porque, si está en depresión,
+
+00:03:27.860 --> 00:03:30.860
+entonces, formularon un tipo de medicamento o alguna receta,
+
+00:03:30.860 --> 00:03:32.860
+algo para medicar a la persona, no sé.
+
+00:03:32.860 --> 00:03:33.860
+¿En sol?
+
+00:03:33.860 --> 00:03:35.860
+Activo, entonces...
+
+00:03:35.860 --> 00:03:37.860
+Que gente esperando entrar, perdón.
+
+00:03:37.860 --> 00:03:40.860
+Ah, gente... ah, ya, perdón.
+
+00:03:40.860 --> 00:03:45.070
+Gracias, para avisar.
+
+00:03:45.070 --> 00:03:50.070
+Entonces, no voy por el lado legal y de lo en NASA,
+
+00:03:50.070 --> 00:03:51.070
+sino que por el...
+
+00:03:51.070 --> 00:03:53.070
+Desde el punto de vista profesional,
+
+00:03:53.070 --> 00:03:57.070
+usted está tradicionalmente estudiado en algo
+
+00:03:57.070 --> 00:04:00.070
+para poder determinar si esta persona tiene depresión o no.
+
+00:04:00.070 --> 00:04:02.070
+Pero ahora tienen una máquina,
+
+00:04:02.070 --> 00:04:03.070
+una red neuronal,
+
+00:04:03.070 --> 00:04:06.070
+que lo hace maravillosamente bien.
+
+00:04:06.070 --> 00:04:08.070
+Paquiera un poco la pregunta.
+
+00:04:08.070 --> 00:04:11.070
+Usted, a la máquina,
+
+00:04:11.070 --> 00:04:14.070
+¿sabe de teoría psicología,
+
+00:04:14.070 --> 00:04:16.070
+estudió psicología en la máquina?
+
+00:04:16.070 --> 00:04:17.070
+No.
+
+00:04:17.070 --> 00:04:19.070
+¿Sabe algo psiquiatría en la máquina?
+
+00:04:19.070 --> 00:04:21.070
+Le metí información de teorías
+
+00:04:21.070 --> 00:04:24.070
+respecto a si una persona está en depresión o no.
+
+00:04:24.070 --> 00:04:25.070
+No.
+
+00:04:25.070 --> 00:04:29.060
+Entonces, ¿qué opina usted?
+
+00:04:29.060 --> 00:04:30.060
+¿Cuál es el problema?
+
+00:04:30.060 --> 00:04:32.060
+O sea, ¿qué problema?
+
+00:04:32.060 --> 00:04:38.510
+Otro de ellas están muy ambículos.
+
+00:04:38.510 --> 00:04:40.510
+¿Usamos la máquina sí o no más?
+
+00:04:40.510 --> 00:04:43.510
+¿Y qué es lo que nos van a checar la máquina?
+
+00:04:43.510 --> 00:04:44.510
+La máquina, vamos a decir,
+
+00:04:44.510 --> 00:04:46.510
+la persona tiene depresión.
+
+00:04:46.510 --> 00:04:48.510
+¿Cuál es el otro resultado posible?
+
+00:04:48.510 --> 00:04:50.510
+La persona no tiene depresión.
+
+00:04:50.510 --> 00:04:52.510
+Ya, ¿y listo?
+
+00:04:52.510 --> 00:04:57.970
+¿Qué opina?
+
+00:04:57.970 --> 00:04:58.970
+¿La usamos o no la usamos?
+
+00:04:59.970 --> 00:05:01.970
+¿La usarían ustedes?
+
+00:05:01.970 --> 00:05:05.970
+A lo mejor, si usted pongas en el caso de un babco,
+
+00:05:05.970 --> 00:05:07.970
+yo tengo una máquina
+
+00:05:07.970 --> 00:05:09.970
+que predice e-infi,
+
+00:05:09.970 --> 00:05:13.970
+pero fantásticamente bien si una persona va a ser default financiero.
+
+00:05:13.970 --> 00:05:16.970
+Pero el único resultado que me da la máquina
+
+00:05:16.970 --> 00:05:19.970
+es que si va a ser default o no va a ser default.
+
+00:05:19.970 --> 00:05:21.970
+No me dice nada.
+
+00:05:21.970 --> 00:05:23.970
+En cambio, un humano,
+
+00:05:23.970 --> 00:05:27.970
+¿qué podría decir, aparte de llegar a la construcción?
+
+00:05:27.970 --> 00:05:30.970
+¿Puede evaluar más cantidad de datos
+
+00:05:30.970 --> 00:05:33.970
+o la multidimensionalidad de los datos?
+
+00:05:33.970 --> 00:05:36.970
+Ya, Roger, pero perfecto.
+
+00:05:36.970 --> 00:05:39.970
+Y supongen que le emitimos a la máquina
+
+00:05:39.970 --> 00:05:42.970
+todos esos multidimensionales.
+
+00:05:42.970 --> 00:05:45.970
+Y podemos, de alguna manera,
+
+00:05:45.970 --> 00:05:48.970
+que tenemos toda la cantidad de datos infinitas,
+
+00:05:48.970 --> 00:05:51.970
+todos los datos posibles y sequestrías del planeta
+
+00:05:51.970 --> 00:05:53.970
+para entrenar la máquina.
+
+00:05:53.970 --> 00:05:56.970
+Y la máquina lo hace fantásticamente bien.
+
+00:05:56.970 --> 00:05:59.970
+Pero el resultado final, ¿cuál es?
+
+00:05:59.970 --> 00:06:01.970
+¿Tiene depresión?
+
+00:06:01.970 --> 00:06:03.970
+¿No tiene depresión?
+
+00:06:03.970 --> 00:06:05.970
+¿Y se acabó la historia?
+
+00:06:05.970 --> 00:06:07.970
+Ya.
+
+00:06:07.970 --> 00:06:09.970
+Yo la pregunto a usted,
+
+00:06:09.970 --> 00:06:11.970
+si tuviese una situación como esa,
+
+00:06:11.970 --> 00:06:13.970
+¿ustedes la usan y se quedan tranquilos con eso
+
+00:06:13.970 --> 00:06:15.970
+y se acabó la historia?
+
+00:06:15.970 --> 00:06:17.970
+¿Tiene depresión?
+
+00:06:17.970 --> 00:06:19.970
+No, es que, profesor,
+
+00:06:19.970 --> 00:06:21.970
+hay que evaluar un psicólogo
+
+00:06:21.970 --> 00:06:24.970
+o el experto de evaluar otras dimensiones también.
+
+00:06:24.970 --> 00:06:26.970
+Una cosa es que tenga,
+
+00:06:26.970 --> 00:06:28.970
+pero yo no sé si la máquina podría decir
+
+00:06:28.970 --> 00:06:30.970
+en qué nivel,
+
+00:06:30.970 --> 00:06:32.970
+cuál es la causa,
+
+00:06:32.970 --> 00:06:34.970
+si hay más de una causa,
+
+00:06:34.970 --> 00:06:36.970
+no sé, no he ido nunca el psicólogo,
+
+00:06:36.970 --> 00:06:38.970
+pero imagino que son cosas
+
+00:06:38.970 --> 00:06:40.970
+que se pueden evaluar.
+
+00:06:40.970 --> 00:06:42.970
+Creo que hay otras dimensiones
+
+00:06:42.970 --> 00:06:44.970
+que no sé si la máquina
+
+00:06:44.970 --> 00:06:46.970
+podría considerarlas.
+
+00:06:46.970 --> 00:06:48.970
+Bueno, a eso me refería, profesor,
+
+00:06:48.970 --> 00:06:50.970
+como datos que tienen que ver
+
+00:06:50.970 --> 00:06:52.970
+con emociones, quizás,
+
+00:06:52.970 --> 00:06:54.970
+no pueden ser como
+
+00:06:54.970 --> 00:06:56.970
+cuantificables.
+
+00:06:56.970 --> 00:06:58.970
+En efecto, perfecto.
+
+00:06:58.970 --> 00:07:00.970
+O sea,
+
+00:07:00.970 --> 00:07:02.970
+por un lado, Inés nos dice que
+
+00:07:02.970 --> 00:07:04.970
+tal vez hay alguna información adicional
+
+00:07:04.970 --> 00:07:06.970
+que yo puedo obtener,
+
+00:07:06.970 --> 00:07:08.970
+yo como humano,
+
+00:07:08.970 --> 00:07:10.970
+que estudie mucho tiempo acerca
+
+00:07:10.970 --> 00:07:12.970
+de los estados depresivos,
+
+00:07:12.970 --> 00:07:14.970
+a diferencia de esta maravillosa
+
+00:07:14.970 --> 00:07:16.970
+máquina que lo único que
+
+00:07:16.970 --> 00:07:18.970
+responde es, ¿tiene
+
+00:07:18.970 --> 00:07:20.970
+o no tiene?
+
+00:07:20.970 --> 00:07:22.970
+¿Puede que lo haga súper bien?
+
+00:07:22.970 --> 00:07:24.970
+¿Puede que lo haga súper bien?
+
+00:07:24.970 --> 00:07:26.970
+¿Puede que lo haga súper bien?
+
+00:07:26.970 --> 00:07:28.970
+¿Puede que lo haga súper bien?
+
+00:07:28.970 --> 00:07:30.970
+¿Puede que lo haga súper bien?
+
+00:07:30.970 --> 00:07:32.970
+¿Puede que lo haga súper bien?
+
+00:07:32.970 --> 00:07:34.970
+¿Puede que lo haga súper bien?
+
+00:07:34.970 --> 00:07:36.970
+¿Puede que lo haga súper bien?
+
+00:07:36.970 --> 00:07:38.970
+¿Puede que lo haga súper bien?
+
+00:07:38.970 --> 00:07:40.970
+¿Puede que lo haga súper bien?
+
+00:07:40.970 --> 00:07:42.970
+¿Puede que lo haga súper bien?
+
+00:07:42.970 --> 00:07:44.970
+¿Puede que lo haga súper bien?
+
+00:07:44.970 --> 00:07:46.970
+¿Puede que lo haga súper bien?
+
+00:07:46.970 --> 00:07:48.970
+¿Puede que lo haga súper bien?
+
+00:07:48.970 --> 00:07:50.970
+¿Puede que lo haga súper bien?
+
+00:07:50.970 --> 00:07:52.970
+¿Puede que lo haga súper bien?
+
+00:07:52.970 --> 00:07:54.970
+¿Puede que lo haga súper bien?
+
+00:07:54.970 --> 00:07:56.970
+¿Puede que lo haga súper bien?
+
+00:07:56.970 --> 00:07:58.970
+¿Puede que lo haga súper bien?
+
+00:07:58.970 --> 00:08:00.970
+¿Puede que lo haga súper bien?
+
+00:08:00.970 --> 00:08:02.970
+¿Puede que lo haga súper bien?
+
+00:08:02.970 --> 00:08:04.970
+¿Puede que lo haga súper bien?
+
+00:08:04.970 --> 00:08:06.970
+¿Puede que lo haga súper bien?
+
+00:08:06.970 --> 00:08:08.970
+¿Puede que lo haga súper bien?
+
+00:08:08.970 --> 00:08:10.970
+¿Puede que lo haga súper bien?
+
+00:08:10.970 --> 00:08:12.970
+¿Puede que lo haga súper bien?
+
+00:08:12.970 --> 00:08:14.970
+¿Puede que lo haga súper bien?
+
+00:08:14.970 --> 00:08:16.970
+¿Puede que lo haga súper bien?
+
+00:08:16.970 --> 00:08:18.970
+¿Puede que lo haga súper bien?
+
+00:08:18.970 --> 00:08:20.970
+¿Puede que lo haga súper bien?
+
+00:08:20.970 --> 00:08:22.970
+¿Puede que lo haga súper bien?
+
+00:08:22.970 --> 00:08:24.970
+¿Puede que lo haga súper bien?
+
+00:08:24.970 --> 00:08:26.970
+¿Puede que lo haga súper bien?
+
+00:08:26.970 --> 00:08:28.970
+¿Puede que lo haga súper bien?
+
+00:08:28.970 --> 00:08:30.970
+¿Puede que lo haga súper bien?
+
+00:08:30.970 --> 00:08:32.970
+¿Puede que lo haga súper bien?
+
+00:08:32.970 --> 00:08:34.970
+¿Puede que lo haga súper bien?
+
+00:08:34.970 --> 00:08:36.970
+¿Puede que lo haga súper bien?
+
+00:08:36.970 --> 00:08:38.970
+¿Puede que lo haga súper bien?
+
+00:08:38.970 --> 00:08:40.970
+¿Puede que lo haga súper bien?
+
+00:08:40.970 --> 00:08:42.970
+¿Puede que lo haga súper bien?
+
+00:08:42.970 --> 00:08:44.970
+¿Puede que lo haga súper bien?
+
+00:08:44.970 --> 00:08:46.970
+¿Puede que lo haga súper bien?
+
+00:08:46.970 --> 00:08:48.970
+¿Puede que lo haga súper bien?
+
+00:08:48.970 --> 00:08:50.970
+¿Puede que lo haga súper bien?
+
+00:08:50.970 --> 00:08:52.970
+¿Puede que lo haga súper bien?
+
+00:08:52.970 --> 00:08:54.970
+¿Puede que lo haga súper bien?
+
+00:08:54.970 --> 00:08:56.970
+¿Puede que lo haga súper bien?
+
+00:08:56.970 --> 00:08:58.970
+¿Puede que lo haga súper bien?
+
+00:08:58.970 --> 00:09:00.970
+¿Puede que lo haga súper bien?
+
+00:09:00.970 --> 00:09:02.970
+¿Puede que lo haga súper bien?
+
+00:09:02.970 --> 00:09:04.970
+¿Puede que lo haga súper bien?
+
+00:09:04.970 --> 00:09:06.970
+¿Puede que lo haga súper bien?
+
+00:09:06.970 --> 00:09:08.970
+¿Puede que lo haga súper bien?
+
+00:09:08.970 --> 00:09:10.970
+¿Puede que lo haga súper bien?
+
+00:09:10.970 --> 00:09:12.970
+¿Puede que lo haga súper bien?
+
+00:09:12.970 --> 00:09:14.970
+¿Puede que lo haga súper bien?
+
+00:09:14.970 --> 00:09:16.970
+¿Puede que lo haga súper bien?
+
+00:09:16.970 --> 00:09:18.970
+¿Puede que lo haga súper bien?
+
+00:09:18.970 --> 00:09:20.970
+¿Puede que lo haga súper bien?
+
+00:09:20.970 --> 00:09:22.970
+¿Puede que lo haga súper bien?
+
+00:09:22.970 --> 00:09:24.970
+¿Puede que lo haga súper bien?
+
+00:09:24.970 --> 00:09:26.970
+¿Puede que lo haga súper bien?
+
+00:09:26.970 --> 00:09:28.970
+¿Puede que lo haga súper bien?
+
+00:09:28.970 --> 00:09:30.970
+¿Puede que lo haga súper bien?
+
+00:09:30.970 --> 00:09:32.970
+¿Puede que lo haga súper bien?
+
+00:09:32.970 --> 00:09:34.970
+¿Puede que lo haga súper bien?
+
+00:09:34.970 --> 00:09:36.970
+¿Puede que lo haga súper bien?
+
+00:09:36.970 --> 00:09:38.970
+¿Puede que lo haga súper bien?
+
+00:09:38.970 --> 00:09:40.970
+¿Puede que lo haga súper bien?
+
+00:09:40.970 --> 00:09:42.970
+¿Puede que lo haga súper bien?
+
+00:09:42.970 --> 00:09:44.970
+¿Puede que lo haga súper bien?
+
+00:09:44.970 --> 00:09:46.970
+¿Puede que lo haga súper bien?
+
+00:09:46.970 --> 00:09:48.970
+¿Puede que lo haga súper bien?
+
+00:09:48.970 --> 00:09:50.970
+¿Puede que lo haga súper bien?
+
+00:09:50.970 --> 00:09:52.970
+¿Puede que lo haga súper bien?
+
+00:09:52.970 --> 00:09:54.970
+¿Puede que lo haga súper bien?
+
+00:09:54.970 --> 00:09:56.970
+¿Puede que lo haga súper bien?
+
+00:09:56.970 --> 00:09:58.970
+¿Puede que lo haga súper bien?
+
+00:09:58.970 --> 00:10:00.970
+¿Puede que lo haga súper bien?
+
+00:10:00.970 --> 00:10:02.970
+¿Puede que lo haga súper bien?
+
+00:10:02.970 --> 00:10:04.970
+¿Puede que lo haga súper bien?
+
+00:10:04.970 --> 00:10:06.970
+¿Puede que lo haga súper bien?
+
+00:10:06.970 --> 00:10:08.970
+¿Puede que lo haga súper bien?
+
+00:10:08.970 --> 00:10:10.970
+¿Puede que lo haga súper bien?
+
+00:10:10.970 --> 00:10:12.970
+¿Puede que lo haga súper bien?
+
+00:10:12.970 --> 00:10:14.970
+¿Puede que lo haga súper bien?
+
+00:10:14.970 --> 00:10:16.970
+¿Puede que lo haga súper bien?
+
+00:10:16.970 --> 00:10:18.970
+¿Puede que lo haga súper bien?
+
+00:10:18.970 --> 00:10:20.970
+¿Puede que lo haga súper bien?
+
+00:10:20.970 --> 00:10:22.970
+¿Puede que lo haga súper bien?
+
+00:10:22.970 --> 00:10:24.970
+¿Puede que lo haga súper bien?
+
+00:10:24.970 --> 00:10:26.970
+¿Puede que lo haga súper bien?
+
+00:10:26.970 --> 00:10:28.970
+¿Puede que lo haga súper bien?
+
+00:10:28.970 --> 00:10:30.970
+¿Puede que lo haga súper bien?
+
+00:10:30.970 --> 00:10:32.970
+¿Puede que lo haga súper bien?
+
+00:10:32.970 --> 00:10:34.970
+¿Puede que lo haga súper bien?
+
+00:10:34.970 --> 00:10:36.970
+¿Puede que lo haga súper bien?
+
+00:10:36.970 --> 00:10:38.970
+¿Puede que lo haga súper bien?
+
+00:10:38.970 --> 00:10:40.970
+¿Puede que lo haga súper bien?
+
+00:10:40.970 --> 00:10:42.970
+¿Puede que lo haga súper bien?
+
+00:10:42.970 --> 00:10:44.970
+¿Puede que lo haga súper bien?
+
+00:10:44.970 --> 00:10:46.970
+¿Puede que lo haga súper bien?
+
+00:10:46.970 --> 00:10:48.970
+¿Puede que lo haga súper bien?
+
+00:10:48.970 --> 00:10:50.970
+¿Puede que lo haga súper bien?
+
+00:10:50.970 --> 00:10:52.970
+¿Puede que lo haga súper bien?
+
+00:10:52.970 --> 00:10:54.970
+¿Puede que lo haga súper bien?
+
+00:10:54.970 --> 00:10:58.220
+¿Puede que lo haga súper bien?
+
+00:10:58.220 --> 00:11:00.220
+¿Puede que lo haga súper bien?
+
+00:11:00.220 --> 00:11:02.220
+¿Puede que lo haga súper bien?
+
+00:11:02.220 --> 00:11:04.220
+¿Puede que lo haga súper bien?
+
+00:11:04.220 --> 00:11:06.220
+¿Puede que lo haga súper bien?
+
+00:11:06.220 --> 00:11:08.220
+¿Puede que lo haga súper bien?
+
+00:11:08.220 --> 00:11:10.220
+¿Puede que lo haga súper bien?
+
+00:11:10.220 --> 00:11:12.220
+¿Puede que lo haga súper bien?
+
+00:11:12.220 --> 00:11:14.220
+¿Puede que lo haga súper bien?
+
+00:11:14.220 --> 00:11:16.220
+¿Puede que lo haga súper bien?
+
+00:11:16.220 --> 00:11:18.220
+¿Puede que lo haga súper bien?
+
+00:11:18.220 --> 00:11:20.220
+¿Puede que lo haga súper bien?
+
+00:11:20.220 --> 00:11:22.220
+¿Puede que lo haga súper bien?
+
+00:11:22.220 --> 00:11:24.220
+¿Puede que lo haga súper bien?
+
+00:11:24.220 --> 00:11:26.220
+¿Puede que lo haga súper bien?
+
+00:11:26.220 --> 00:11:28.220
+¿Puede que lo haga súper bien?
+
+00:11:28.220 --> 00:11:30.220
+¿Puede que lo haga súper bien?
+
+00:11:30.220 --> 00:11:32.220
+¿Puede que lo haga súper bien?
+
+00:11:32.220 --> 00:11:34.220
+¿Puede que lo haga súper bien?
+
+00:11:34.220 --> 00:11:36.220
+¿Puede que lo haga súper bien?
+
+00:11:36.220 --> 00:11:38.220
+¿Puede que lo haga súper bien?
+
+00:11:38.220 --> 00:11:40.220
+¿Puede que lo haga súper bien?
+
+00:11:40.220 --> 00:11:42.220
+¿Puede que lo haga súper bien?
+
+00:11:42.220 --> 00:11:44.220
+¿Puede que lo haga súper bien?
+
+00:11:44.220 --> 00:11:46.220
+¿Puede que lo haga súper bien?
+
+00:11:46.220 --> 00:11:48.220
+¿Puede que lo haga súper bien?
+
+00:11:48.220 --> 00:11:50.220
+¿Puede que lo haga súper bien?
+
+00:11:50.220 --> 00:11:52.220
+¿Puede que lo haga súper bien?
+
+00:11:52.220 --> 00:11:54.220
+¿Puede que lo haga súper bien?
+
+00:11:54.220 --> 00:11:56.220
+¿Puede que lo haga súper bien?
+
+00:11:56.220 --> 00:11:58.220
+¿Puede que lo haga súper bien?
+
+00:11:58.220 --> 00:12:00.220
+¿Puede que lo haga súper bien?
+
+00:12:00.220 --> 00:12:02.220
+¿Puede que lo haga súper bien?
+
+00:12:02.220 --> 00:12:04.220
+¿Puede que lo haga súper bien?
+
+00:12:04.220 --> 00:12:06.220
+¿Puede que lo haga súper bien?
+
+00:12:06.220 --> 00:12:08.220
+¿Puede que lo haga súper bien?
+
+00:12:08.220 --> 00:12:10.220
+¿Puede que lo haga súper bien?
+
+00:12:10.220 --> 00:12:12.220
+¿Puede que lo haga súper bien?
+
+00:12:12.220 --> 00:12:14.220
+¿Puede que lo haga súper bien?
+
+00:12:14.220 --> 00:12:16.220
+¿Puede que lo haga súper bien?
+
+00:12:16.220 --> 00:12:18.220
+¿Puede que lo haga súper bien?
+
+00:12:18.220 --> 00:12:20.220
+¿Puede que lo haga súper bien?
+
+00:12:20.220 --> 00:12:22.220
+¿Puede que lo haga súper bien?
+
+00:12:22.220 --> 00:12:24.220
+¿Puede que lo haga súper bien?
+
+00:12:24.220 --> 00:12:26.220
+¿Puede que lo haga súper bien?
+
+00:12:26.220 --> 00:12:28.220
+¿Puede que lo haga súper bien?
+
+00:12:28.220 --> 00:12:30.220
+¿Puede que lo haga súper bien?
+
+00:12:30.220 --> 00:12:32.220
+¿Puede que lo haga súper bien?
+
+00:12:32.220 --> 00:12:34.220
+¿Puede que lo haga súper bien?
+
+00:12:34.220 --> 00:12:36.220
+¿Puede que lo haga súper bien?
+
+00:12:36.220 --> 00:12:38.220
+¿Puede que lo haga súper bien?
+
+00:12:38.220 --> 00:12:40.220
+¿Puede que lo haga súper bien?
+
+00:12:40.220 --> 00:12:42.220
+¿Puede que lo haga súper bien?
+
+00:12:42.220 --> 00:12:44.220
+¿Puede que lo haga súper bien?
+
+00:12:44.220 --> 00:12:46.220
+¿Puede que lo haga súper bien?
+
+00:12:46.220 --> 00:12:48.220
+¿Puede que lo haga súper bien?
+
+00:12:48.220 --> 00:12:50.220
+¿Puede que lo haga súper bien?
+
+00:12:50.220 --> 00:12:52.220
+¿Puede que lo haga súper bien?
+
+00:12:52.220 --> 00:12:54.220
+¿Puede que lo haga súper bien?
+
+00:12:54.220 --> 00:12:56.220
+¿Puede que lo haga súper bien?
+
+00:12:56.220 --> 00:12:58.220
+¿Puede que lo haga súper bien?
+
+00:12:58.220 --> 00:13:00.220
+¿Puede que lo haga súper bien?
+
+00:13:00.220 --> 00:13:02.220
+¿Puede que lo haga súper bien?
+
+00:13:02.220 --> 00:13:04.220
+¿Puede que lo haga súper bien?
+
+00:13:04.220 --> 00:13:06.220
+¿Puede que lo haga súper bien?
+
+00:13:06.220 --> 00:13:08.220
+¿Puede que lo haga súper bien?
+
+00:13:08.220 --> 00:13:10.220
+¿Puede que lo haga súper bien?
+
+00:13:10.220 --> 00:13:12.220
+¿Puede que lo haga súper bien?
+
+00:13:12.220 --> 00:13:14.220
+¿Puede que lo haga súper bien?
+
+00:13:14.220 --> 00:13:16.220
+¿Puede que lo haga súper bien?
+
+00:13:16.220 --> 00:13:18.220
+¿Puede que lo haga súper bien?
+
+00:13:18.220 --> 00:13:20.220
+¿Puede que lo haga súper bien?
+
+00:13:20.220 --> 00:13:22.220
+¿Puede que lo haga súper bien?
+
+00:13:22.220 --> 00:13:24.220
+¿Puede que lo haga súper bien?
+
+00:13:24.220 --> 00:13:26.220
+¿Puede que lo haga súper bien?
+
+00:13:26.220 --> 00:13:28.220
+¿Puede que lo haga súper bien?
+
+00:13:28.220 --> 00:13:30.220
+¿Puede que lo haga súper bien?
+
+00:13:30.220 --> 00:13:32.220
+¿Puede que lo haga súper bien?
+
+00:13:32.220 --> 00:13:34.220
+¿Puede que lo haga súper bien?
+
+00:13:34.220 --> 00:13:36.220
+¿Puede que lo haga súper bien?
+
+00:13:36.220 --> 00:13:38.220
+¿Puede que lo haga súper bien?
+
+00:13:38.220 --> 00:13:40.220
+¿Puede que lo haga súper bien?
+
+00:13:40.220 --> 00:13:42.220
+¿Puede que lo haga súper bien?
+
+00:13:42.220 --> 00:13:44.220
+¿Puede que lo haga súper bien?
+
+00:13:44.220 --> 00:13:46.220
+¿Puede que lo haga súper bien?
+
+00:13:46.220 --> 00:13:48.220
+¿Puede que lo haga súper bien?
+
+00:13:48.220 --> 00:13:50.220
+¿Puede que lo haga súper bien?
+
+00:13:50.220 --> 00:13:52.220
+¿Puede que lo haga súper bien?
+
+00:13:52.220 --> 00:13:54.220
+¿Puede que lo haga súper bien?
+
+00:13:54.220 --> 00:13:56.220
+¿Puede que lo haga súper bien?
+
+00:13:56.220 --> 00:13:58.220
+¿Puede que lo haga súper bien?
+
+00:13:58.220 --> 00:14:00.220
+¿Puede que lo haga súper bien?
+
+00:14:00.220 --> 00:14:02.220
+¿Puede que lo haga súper bien?
+
+00:14:02.220 --> 00:14:04.220
+¿Puede que lo haga súper bien?
+
+00:14:04.220 --> 00:14:06.220
+¿Puede que lo haga súper bien?
+
+00:14:06.220 --> 00:14:08.220
+¿Puede que lo haga súper bien?
+
+00:14:08.220 --> 00:14:10.220
+¿Puede que lo haga súper bien?
+
+00:14:10.220 --> 00:14:12.220
+¿Puede que lo haga súper bien?
+
+00:14:12.220 --> 00:14:14.220
+¿Puede que lo haga súper bien?
+
+00:14:14.220 --> 00:14:16.220
+¿Puede que lo haga súper bien?
+
+00:14:16.220 --> 00:14:18.220
+¿Puede que lo haga súper bien?
+
+00:14:18.220 --> 00:14:20.220
+¿Puede que lo haga súper bien?
+
+00:14:20.220 --> 00:14:22.220
+¿Puede que lo haga súper bien?
+
+00:14:22.220 --> 00:14:24.220
+¿Puede que lo haga súper bien?
+
+00:14:24.220 --> 00:14:26.220
+¿Puede que lo haga súper bien?
+
+00:14:26.220 --> 00:14:28.220
+¿Puede que lo haga súper bien?
+
+00:14:28.220 --> 00:14:30.220
+¿Puede que lo haga súper bien?
+
+00:14:30.220 --> 00:14:32.220
+¿Puede que lo haga súper bien?
+
+00:14:32.220 --> 00:14:34.220
+¿Puede que lo haga súper bien?
+
+00:14:34.220 --> 00:14:36.220
+¿Puede que lo haga súper bien?
+
+00:14:36.220 --> 00:14:38.220
+¿Puede que lo haga súper bien?
+
+00:14:38.220 --> 00:14:40.220
+¿Puede que lo haga súper bien?
+
+00:14:40.220 --> 00:14:42.220
+¿Puede que lo haga súper bien?
+
+00:14:42.220 --> 00:14:44.220
+¿Puede que lo haga súper bien?
+
+00:14:44.220 --> 00:14:46.220
+¿Puede que lo haga súper bien?
+
+00:14:46.220 --> 00:14:48.220
+¿Puede que lo haga súper bien?
+
+00:14:48.220 --> 00:14:50.220
+¿Puede que lo haga súper bien?
+
+00:14:50.220 --> 00:14:52.220
+¿Puede que lo haga súper bien?
+
+00:14:52.220 --> 00:14:54.220
+¿Puede que lo haga súper bien?
+
+00:14:54.220 --> 00:14:56.220
+¿Puede que lo haga súper bien?
+
+00:14:56.220 --> 00:14:58.220
+¿Puede que lo haga súper bien?
+
+00:14:58.220 --> 00:15:00.220
+¿Puede que lo haga súper bien?
+
+00:15:00.220 --> 00:15:02.220
+¿Puede que lo haga súper bien?
+
+00:15:02.220 --> 00:15:04.220
+¿Puede que lo haga súper bien?
+
+00:15:04.220 --> 00:15:06.220
+¿Puede que lo haga súper bien?
+
+00:15:06.220 --> 00:15:08.220
+¿Puede que lo haga súper bien?
+
+00:15:08.220 --> 00:15:10.220
+¿Puede que lo haga súper bien?
+
+00:15:10.220 --> 00:15:12.220
+¿Puede que lo haga súper bien?
+
+00:15:12.220 --> 00:15:14.220
+¿Puede que lo haga súper bien?
+
+00:15:14.220 --> 00:15:16.220
+¿Puede que lo haga súper bien?
+
+00:15:16.220 --> 00:15:18.220
+¿Puede que lo haga súper bien?
+
+00:15:18.220 --> 00:15:20.220
+¿Puede que lo haga súper bien?
+
+00:15:20.220 --> 00:15:22.220
+¿Puede que lo haga súper bien?
+
+00:15:22.220 --> 00:15:24.220
+¿Puede que lo haga súper bien?
+
+00:15:24.220 --> 00:15:26.220
+¿Puede que lo haga súper bien?
+
+00:15:26.220 --> 00:15:28.220
+¿Puede que lo haga súper bien?
+
+00:15:28.220 --> 00:15:30.220
+¿Puede que lo haga súper bien?
+
+00:15:30.220 --> 00:15:32.220
+¿Puede que lo haga súper bien?
+
+00:15:32.220 --> 00:15:34.220
+¿Puede que lo haga súper bien?
+
+00:15:34.220 --> 00:15:36.220
+¿Puede que lo haga súper bien?
+
+00:15:36.220 --> 00:15:38.220
+¿Puede que lo haga súper bien?
+
+00:15:38.220 --> 00:15:40.220
+¿Puede que lo haga súper bien?
+
+00:15:40.220 --> 00:15:42.220
+¿Puede que lo haga súper bien?
+
+00:15:42.220 --> 00:15:44.220
+¿Puede que lo haga súper bien?
+
+00:15:44.220 --> 00:15:46.220
+¿Puede que lo haga súper bien?
+
+00:15:46.220 --> 00:15:48.220
+¿Puede que lo haga súper bien?
+
+00:15:48.220 --> 00:15:50.220
+¿Puede que lo haga súper bien?
+
+00:15:50.220 --> 00:15:52.220
+¿Puede que lo haga súper bien?
+
+00:15:52.220 --> 00:15:54.220
+¿Puede que lo haga súper bien?
+
+00:15:54.220 --> 00:15:56.220
+¿Puede que lo haga súper bien?
+
+00:15:56.220 --> 00:15:58.220
+¿Puede que lo haga súper bien?
+
+00:15:58.220 --> 00:16:00.220
+¿Puede que lo haga súper bien?
+
+00:16:00.220 --> 00:16:02.220
+¿Puede que lo haga súper bien?
+
+00:16:02.220 --> 00:16:04.220
+¿Puede que lo haga súper bien?
+
+00:16:04.220 --> 00:16:06.220
+¿Puede que lo haga súper bien?
+
+00:16:06.220 --> 00:16:08.220
+¿Puede que lo haga súper bien?
+
+00:16:08.220 --> 00:16:10.220
+¿Puede que lo haga súper bien?
+
+00:16:10.220 --> 00:16:12.220
+¿Puede que lo haga súper bien?
+
+00:16:12.220 --> 00:16:14.220
+¿Puede que lo haga súper bien?
+
+00:16:14.220 --> 00:16:16.220
+¿Puede que lo haga súper bien?
+
+00:16:16.220 --> 00:16:18.220
+¿Puede que lo haga súper bien?
+
+00:16:18.220 --> 00:16:20.220
+¿Puede que lo haga súper bien?
+
+00:16:20.220 --> 00:16:22.220
+¿Puede que lo haga súper bien?
+
+00:16:22.220 --> 00:16:24.220
+¿Puede que lo haga súper bien?
+
+00:16:24.220 --> 00:16:26.220
+¿Puede que lo haga súper bien?
+
+00:16:26.220 --> 00:16:28.220
+¿Puede que lo haga súper bien?
+
+00:16:28.220 --> 00:16:30.220
+¿Puede que lo haga súper bien?
+
+00:16:30.220 --> 00:16:32.220
+¿Puede que lo haga súper bien?
+
+00:16:32.220 --> 00:16:34.220
+¿Puede que lo haga súper bien?
+
+00:16:34.220 --> 00:16:36.220
+¿Puede que lo haga súper bien?
+
+00:16:36.220 --> 00:16:38.220
+¿Puede que lo haga súper bien?
+
+00:16:38.220 --> 00:16:40.220
+¿Puede que lo haga súper bien?
+
+00:16:40.220 --> 00:16:42.220
+¿Puede que lo haga súper bien?
+
+00:16:42.220 --> 00:16:44.220
+¿Puede que lo haga súper bien?
+
+00:16:44.220 --> 00:16:46.220
+¿Puede que lo haga súper bien?
+
+00:16:46.220 --> 00:16:48.220
+¿Puede que lo haga súper bien?
+
+00:16:48.220 --> 00:16:50.220
+¿Puede que lo haga súper bien?
+
+00:16:50.220 --> 00:16:52.220
+¿Puede que lo haga súper bien?
+
+00:16:52.220 --> 00:16:54.220
+¿Puede que lo haga súper bien?
+
+00:16:54.220 --> 00:16:56.220
+¿Puede que lo haga súper bien?
+
+00:16:56.220 --> 00:16:58.220
+¿Puede que lo haga súper bien?
+
+00:16:58.220 --> 00:17:00.220
+¿Puede que lo haga súper bien?
+
+00:17:00.220 --> 00:17:02.220
+¿Puede que lo haga súper bien?
+
+00:17:02.220 --> 00:17:04.220
+¿Puede que lo haga súper bien?
+
+00:17:04.220 --> 00:17:06.220
+¿Puede que lo haga súper bien?
+
+00:17:06.220 --> 00:17:08.220
+¿Puede que lo haga súper bien?
+
+00:17:08.220 --> 00:17:10.220
+¿Puede que lo haga súper bien?
+
+00:17:10.220 --> 00:17:12.220
+¿Puede que lo haga súper bien?
+
+00:17:12.220 --> 00:17:14.220
+¿Puede que lo haga súper bien?
+
+00:17:14.220 --> 00:17:16.220
+¿Puede que lo haga súper bien?
+
+00:17:16.220 --> 00:17:18.220
+¿Puede que lo haga súper bien?
+
+00:17:18.220 --> 00:17:20.220
+¿Puede que lo haga súper bien?
+
+00:17:20.220 --> 00:17:22.220
+¿Puede que lo haga súper bien?
+
+00:17:22.220 --> 00:17:24.220
+¿Puede que lo haga súper bien?
+
+00:17:24.220 --> 00:17:26.220
+¿Puede que lo haga súper bien?
+
+00:17:26.220 --> 00:17:28.220
+¿Puede que lo haga súper bien?
+
+00:17:28.220 --> 00:17:30.220
+¿Puede que lo haga súper bien?
+
+00:17:30.220 --> 00:17:32.220
+¿Puede que lo haga súper bien?
+
+00:17:32.220 --> 00:17:34.220
+¿Puede que lo haga súper bien?
+
+00:17:34.220 --> 00:17:36.220
+¿Puede que lo haga súper bien?
+
+00:17:36.220 --> 00:17:38.220
+¿Puede que lo haga súper bien?
+
+00:17:38.220 --> 00:17:40.220
+¿Puede que lo haga súper bien?
+
+00:17:40.220 --> 00:17:42.220
+¿Puede que lo haga súper bien?
+
+00:17:42.220 --> 00:17:44.220
+¿Puede que lo haga súper bien?
+
+00:17:44.220 --> 00:17:46.220
+¿Puede que lo haga súper bien?
+
+00:17:46.220 --> 00:17:48.220
+¿Puede que lo haga súper bien?
+
+00:17:48.220 --> 00:17:50.220
+¿Puede que lo haga súper bien?
+
+00:17:50.220 --> 00:17:52.220
+¿Puede que lo haga súper bien?
+
+00:17:52.220 --> 00:17:54.220
+¿Puede que lo haga súper bien?
+
+00:17:54.220 --> 00:17:56.220
+¿Puede que lo haga súper bien?
+
+00:17:56.220 --> 00:17:58.220
+¿Puede que lo haga súper bien?
+
+00:17:58.220 --> 00:18:00.220
+¿Puede que lo haga súper bien?
+
+00:18:00.220 --> 00:18:02.220
+¿Puede que lo haga súper bien?
+
+00:18:02.220 --> 00:18:04.220
+¿Puede que lo haga súper bien?
+
+00:18:04.220 --> 00:18:06.220
+¿Puede que lo haga súper bien?
+
+00:18:06.220 --> 00:18:08.220
+¿Puede que lo haga súper bien?
+
+00:18:08.220 --> 00:18:10.220
+¿Puede que lo haga súper bien?
+
+00:18:10.220 --> 00:18:12.220
+¿Puede que lo haga súper bien?
+
+00:18:12.220 --> 00:18:14.220
+¿Puede que lo haga súper bien?
+
+00:18:14.220 --> 00:18:16.220
+¿Puede que lo haga súper bien?
+
+00:18:16.220 --> 00:18:18.220
+¿Puede que lo haga súper bien?
+
+00:18:18.220 --> 00:18:20.220
+¿Puede que lo haga súper bien?
+
+00:18:20.220 --> 00:18:22.220
+¿Puede que lo haga súper bien?
+
+00:18:22.220 --> 00:18:24.220
+¿Puede que lo haga súper bien?
+
+00:18:24.220 --> 00:18:26.220
+¿Puede que lo haga súper bien?
+
+00:18:26.220 --> 00:18:28.220
+¿Puede que lo haga súper bien?
+
+00:18:28.220 --> 00:18:30.220
+¿Puede que lo haga súper bien?
+
+00:18:30.220 --> 00:18:32.220
+¿Puede que lo haga súper bien?
+
+00:18:32.220 --> 00:18:34.220
+¿Puede que lo haga súper bien?
+
+00:18:34.220 --> 00:18:36.220
+¿Puede que lo haga súper bien?
+
+00:18:36.220 --> 00:18:38.220
+¿Puede que lo haga súper bien?
+
+00:18:38.220 --> 00:18:40.220
+¿Puede que lo haga súper bien?
+
+00:18:40.220 --> 00:18:42.220
+¿Puede que lo haga súper bien?
+
+00:18:42.220 --> 00:18:44.220
+¿Puede que lo haga súper bien?
+
+00:18:44.220 --> 00:18:46.220
+¿Puede que lo haga súper bien?
+
+00:18:46.220 --> 00:18:48.220
+¿Puede que lo haga súper bien?
+
+00:18:48.220 --> 00:18:50.220
+¿Puede que lo haga súper bien?
+
+00:18:50.220 --> 00:18:52.220
+¿Puede que lo haga súper bien?
+
+00:18:52.220 --> 00:18:54.220
+¿Puede que lo haga súper bien?
+
+00:18:54.220 --> 00:18:56.220
+¿Puede que lo haga súper bien?
+
+00:18:56.220 --> 00:18:58.220
+¿Puede que lo haga súper bien?
+
+00:18:58.220 --> 00:19:00.220
+¿Puede que lo haga súper bien?
+
+00:19:00.220 --> 00:19:02.220
+¿Puede que lo haga súper bien?
+
+00:19:02.220 --> 00:19:04.220
+¿Puede que lo haga súper bien?
+
+00:19:04.220 --> 00:19:06.220
+¿Puede que lo haga súper bien?
+
+00:19:06.220 --> 00:19:08.220
+¿Puede que lo haga súper bien?
+
+00:19:08.220 --> 00:19:10.220
+¿Puede que lo haga súper bien?
+
+00:19:10.220 --> 00:19:12.220
+¿Puede que lo haga súper bien?
+
+00:19:12.220 --> 00:19:14.220
+¿Puede que lo haga súper bien?
+
+00:19:14.220 --> 00:19:16.220
+¿Puede que lo haga súper bien?
+
+00:19:16.220 --> 00:19:18.220
+¿Puede que lo haga súper bien?
+
+00:19:18.220 --> 00:19:20.220
+¿Puede que lo haga súper bien?
+
+00:19:20.220 --> 00:19:22.220
+¿Puede que lo haga súper bien?
+
+00:19:22.220 --> 00:19:24.220
+¿Puede que lo haga súper bien?
+
+00:19:24.220 --> 00:19:26.220
+¿Puede que lo haga súper bien?
+
+00:19:26.220 --> 00:19:28.220
+¿Puede que lo haga súper bien?
+
+00:19:28.220 --> 00:19:30.220
+¿Puede que lo haga súper bien?
+
+00:19:30.220 --> 00:19:32.220
+¿Puede que lo haga súper bien?
+
+00:19:32.220 --> 00:19:34.220
+¿Puede que lo haga súper bien?
+
+00:19:34.220 --> 00:19:36.220
+¿Puede que lo haga súper bien?
+
+00:19:36.220 --> 00:19:38.220
+¿Puede que lo haga súper bien?
+
+00:19:38.220 --> 00:19:40.220
+¿Puede que lo haga súper bien?
+
+00:19:40.220 --> 00:19:42.220
+¿Puede que lo haga súper bien?
+
+00:19:42.220 --> 00:19:44.220
+¿Puede que lo haga súper bien?
+
+00:19:44.220 --> 00:19:46.220
+¿Puede que lo haga súper bien?
+
+00:19:46.220 --> 00:19:48.220
+¿Puede que lo haga súper bien?
+
+00:19:48.220 --> 00:19:50.220
+¿Puede que lo haga súper bien?
+
+00:19:50.220 --> 00:19:52.220
+¿Puede que lo haga súper bien?
+
+00:19:52.220 --> 00:19:54.220
+¿Puede que lo haga súper bien?
+
+00:19:54.220 --> 00:19:56.220
+¿Puede que lo haga súper bien?
+
+00:19:56.220 --> 00:19:58.220
+¿Puede que lo haga súper bien?
+
+00:19:58.220 --> 00:20:00.220
+¿Puede que lo haga súper bien?
+
+00:20:00.220 --> 00:20:02.220
+¿Puede que lo haga súper bien?
+
+00:20:02.220 --> 00:20:04.220
+¿Puede que lo haga súper bien?
+
+00:20:04.220 --> 00:20:06.220
+¿Puede que lo haga súper bien?
+
+00:20:06.220 --> 00:20:08.220
+¿Puede que lo haga súper bien?
+
+00:20:08.220 --> 00:20:10.220
+¿Puede que lo haga súper bien?
+
+00:20:10.220 --> 00:20:12.220
+¿Puede que lo haga súper bien?
+
+00:20:12.220 --> 00:20:14.220
+¿Puede que lo haga súper bien?
+
+00:20:14.220 --> 00:20:16.220
+¿Puede que lo haga súper bien?
+
+00:20:16.220 --> 00:20:18.220
+¿Puede que lo haga súper bien?
+
+00:20:18.220 --> 00:20:20.220
+¿Puede que lo haga súper bien?
+
+00:20:20.220 --> 00:20:22.220
+¿Puede que lo haga súper bien?
+
+00:20:22.220 --> 00:20:24.220
+¿Puede que lo haga súper bien?
+
+00:20:24.220 --> 00:20:26.220
+¿Puede que lo haga súper bien?
+
+00:20:26.220 --> 00:20:28.220
+¿Puede que lo haga súper bien?
+
+00:20:28.220 --> 00:20:30.220
+¿Puede que lo haga súper bien?
+
+00:20:30.220 --> 00:20:32.220
+¿Puede que lo haga súper bien?
+
+00:20:32.220 --> 00:20:34.220
+¿Puede que lo haga súper bien?
+
+00:20:34.220 --> 00:20:36.220
+¿Puede que lo haga súper bien?
+
+00:20:36.220 --> 00:20:38.220
+¿Puede que lo haga súper bien?
+
+00:20:38.220 --> 00:20:40.220
+¿Puede que lo haga súper bien?
+
+00:20:40.220 --> 00:20:42.220
+¿Puede que lo haga súper bien?
+
+00:20:42.220 --> 00:20:44.220
+¿Puede que lo haga súper bien?
+
+00:20:44.220 --> 00:20:46.220
+¿Puede que lo haga súper bien?
+
+00:20:46.220 --> 00:20:48.220
+¿Puede que lo haga súper bien?
+
+00:20:48.220 --> 00:20:50.220
+¿Puede que lo haga súper bien?
+
+00:20:50.220 --> 00:20:52.220
+¿Puede que lo haga súper bien?
+
+00:20:52.220 --> 00:20:54.220
+¿Puede que lo haga súper bien?
+
+00:20:54.220 --> 00:20:56.220
+¿Puede que lo haga súper bien?
+
+00:20:56.220 --> 00:20:58.220
+¿Puede que lo haga súper bien?
+
+00:20:58.220 --> 00:21:00.220
+¿Puede que lo haga súper bien?
+
+00:21:00.220 --> 00:21:02.220
+¿Puede que lo haga súper bien?
+
+00:21:02.220 --> 00:21:04.220
+¿Puede que lo haga súper bien?
+
+00:21:04.220 --> 00:21:06.220
+¿Puede que lo haga súper bien?
+
+00:21:06.220 --> 00:21:08.220
+¿Puede que lo haga súper bien?
+
+00:21:08.220 --> 00:21:10.220
+¿Puede que lo haga súper bien?
+
+00:21:10.220 --> 00:21:12.220
+¿Puede que lo haga súper bien?
+
+00:21:12.220 --> 00:21:14.220
+¿Puede que lo haga súper bien?
+
+00:21:14.220 --> 00:21:16.220
+¿Puede que lo haga súper bien?
+
+00:21:16.220 --> 00:21:18.220
+¿Puede que lo haga súper bien?
+
+00:21:18.220 --> 00:21:20.220
+¿Puede que lo haga súper bien?
+
+00:21:20.220 --> 00:21:22.220
+¿Puede que lo haga súper bien?
+
+00:21:22.220 --> 00:21:24.220
+¿Puede que lo haga súper bien?
+
+00:21:24.220 --> 00:21:26.220
+¿Puede que lo haga súper bien?
+
+00:21:26.220 --> 00:21:29.590
+¿Puede que lo haga súper bien?
+
+00:21:29.590 --> 00:21:31.590
+¿Puede que lo haga súper bien?
+
+00:21:31.590 --> 00:21:33.590
+¿Puede que lo haga súper bien?
+
+00:21:33.590 --> 00:21:35.590
+¿Puede que lo haga súper bien?
+
+00:21:35.590 --> 00:21:37.590
+¿Puede que lo haga súper bien?
+
+00:21:37.590 --> 00:21:39.590
+¿Puede que lo haga súper bien?
+
+00:21:39.590 --> 00:21:41.590
+¿Puede que lo haga súper bien?
+
+00:21:41.590 --> 00:21:43.590
+¿Puede que lo haga súper bien?
+
+00:21:43.590 --> 00:21:45.590
+¿Puede que lo haga súper bien?
+
+00:21:45.590 --> 00:21:47.590
+¿Puede que lo haga súper bien?
+
+00:21:47.590 --> 00:21:49.590
+¿Puede que lo haga súper bien?
+
+00:21:49.590 --> 00:21:51.590
+¿Puede que lo haga súper bien?
+
+00:21:51.590 --> 00:21:53.590
+¿Puede que lo haga súper bien?
+
+00:21:53.590 --> 00:21:55.590
+¿Puede que lo haga súper bien?
+
+00:21:55.590 --> 00:21:57.590
+¿Puede que lo haga súper bien?
+
+00:21:57.590 --> 00:21:59.590
+¿Puede que lo haga súper bien?
+
+00:21:59.590 --> 00:22:01.590
+¿Puede que lo haga súper bien?
+
+00:22:01.590 --> 00:22:03.590
+¿Puede que lo haga súper bien?
+
+00:22:03.590 --> 00:22:05.590
+¿Puede que lo haga súper bien?
+
+00:22:05.590 --> 00:22:07.590
+¿Puede que lo haga súper bien?
+
+00:22:07.590 --> 00:22:09.590
+¿Puede que lo haga súper bien?
+
+00:22:09.590 --> 00:22:11.590
+¿Puede que lo haga súper bien?
+
+00:22:11.590 --> 00:22:13.590
+¿Puede que lo haga súper bien?
+
+00:22:13.590 --> 00:22:15.590
+¿Puede que lo haga súper bien?
+
+00:22:15.590 --> 00:22:17.590
+¿Puede que lo haga súper bien?
+
+00:22:17.590 --> 00:22:19.590
+¿Puede que lo haga súper bien?
+
+00:22:19.590 --> 00:22:21.590
+¿Puede que lo haga súper bien?
+
+00:22:21.590 --> 00:22:23.590
+¿Puede que lo haga súper bien?
+
+00:22:23.590 --> 00:22:25.590
+¿Puede que lo haga súper bien?
+
+00:22:25.590 --> 00:22:27.590
+¿Puede que lo haga súper bien?
+
+00:22:27.590 --> 00:22:29.590
+¿Puede que lo haga súper bien?
+
+00:22:29.590 --> 00:22:31.590
+¿Puede que lo haga súper bien?
+
+00:22:31.590 --> 00:22:33.590
+¿Puede que lo haga súper bien?
+
+00:22:33.590 --> 00:22:35.590
+¿Puede que lo haga súper bien?
+
+00:22:35.590 --> 00:22:37.590
+¿Puede que lo haga súper bien?
+
+00:22:37.590 --> 00:22:39.590
+¿Puede que lo haga súper bien?
+
+00:22:39.590 --> 00:22:41.590
+¿Puede que lo haga súper bien?
+
+00:22:41.590 --> 00:22:43.590
+¿Puede que lo haga súper bien?
+
+00:22:43.590 --> 00:22:45.590
+¿Puede que lo haga súper bien?
+
+00:22:45.590 --> 00:22:47.590
+Bueno, aquí en este bonito
+
+00:22:47.590 --> 00:22:49.590
+está mejor explicado
+
+00:22:49.590 --> 00:22:51.590
+mucho más bonito el proceso
+
+00:22:51.590 --> 00:22:53.590
+del aprendizaje.
+
+00:22:53.590 --> 00:22:55.590
+Entonces de nuevo
+
+00:22:55.590 --> 00:22:57.590
+aquí está el input
+
+00:22:57.590 --> 00:22:59.590
+aquí estaría la red neuronal
+
+00:22:59.590 --> 00:23:01.590
+en donde nosotros sería
+
+00:23:01.590 --> 00:23:03.590
+caso de un perceptron sería solamente una neurona
+
+00:23:03.590 --> 00:23:05.590
+la neurona procesa esto
+
+00:23:05.590 --> 00:23:07.590
+sale
+
+00:23:07.590 --> 00:23:09.590
+una output
+
+00:23:09.590 --> 00:23:11.590
+y ese output se compara con el target
+
+00:23:11.590 --> 00:23:13.590
+este sería el oprima
+
+00:23:13.590 --> 00:23:15.590
+que sería luego nos estamos siguiendo
+
+00:23:15.590 --> 00:23:17.590
+la registra anterior y en función
+
+00:23:17.590 --> 00:23:19.590
+de esa diferencia
+
+00:23:19.590 --> 00:23:21.590
+se tiene que generar
+
+00:23:21.590 --> 00:23:23.590
+esa diferencia, se tiene que propagar
+
+00:23:23.590 --> 00:23:25.590
+hacia la neurona
+
+00:23:25.590 --> 00:23:27.590
+para que
+
+00:23:27.590 --> 00:23:29.590
+para ajustar los pesos.
+
+00:23:29.590 --> 00:23:31.590
+Entonces aquí volvemos de nuevo
+
+00:23:31.590 --> 00:23:33.590
+lo que habíamos alcanzado a ver de la clase pasada
+
+00:23:33.590 --> 00:23:35.590
+en que recuerden ustedes
+
+00:23:35.590 --> 00:23:37.590
+que
+
+00:23:37.590 --> 00:23:39.590
+qué es lo que siente
+
+00:23:39.590 --> 00:23:41.590
+la red neuronal
+
+00:23:41.590 --> 00:23:43.590
+si la red neuronal
+
+00:23:43.590 --> 00:23:45.590
+nosotros entra un input
+
+00:23:45.590 --> 00:23:47.590
+y este input va a ser
+
+00:23:47.590 --> 00:23:49.590
+multiplicado por un peso
+
+00:23:49.590 --> 00:23:51.590
+la salida vendría siendo
+
+00:23:51.590 --> 00:23:53.590
+simplemente
+
+00:23:53.590 --> 00:23:55.590
+el input por el peso
+
+00:23:55.590 --> 00:23:57.590
+el peso sináptico
+
+00:23:57.590 --> 00:23:59.590
+pero esto es lo que yo le denomino
+
+00:23:59.590 --> 00:24:01.590
+lo que siente
+
+00:24:01.590 --> 00:24:03.590
+pero solamente justo a la salida
+
+00:24:03.590 --> 00:24:05.590
+de la red neuronal
+
+00:24:05.590 --> 00:24:07.590
+uno le coloca lo que habíamos visto también
+
+00:24:07.590 --> 00:24:09.590
+por favor si alguien no se acuerda
+
+00:24:09.590 --> 00:24:11.590
+habíamos visto que le poníamos algo
+
+00:24:11.590 --> 00:24:13.590
+que se llamaba la función de
+
+00:24:13.590 --> 00:24:15.590
+no sé si recuerdan
+
+00:24:15.590 --> 00:24:17.590
+función de qué cosa?
+
+00:24:17.590 --> 00:24:19.590
+de activación
+
+00:24:19.590 --> 00:24:21.590
+muy bien, función de activación
+
+00:24:21.590 --> 00:24:23.590
+entonces en realidad el oprima
+
+00:24:23.590 --> 00:24:25.590
+es función de
+
+00:24:25.590 --> 00:24:27.590
+y, disculpenme aquí la que hicieran la piega
+
+00:24:27.590 --> 00:24:29.590
+pero la letra
+
+00:24:29.590 --> 00:24:31.590
+pero ya pulmamos una
+
+00:24:31.590 --> 00:24:33.590
+entonces en realidad la salida
+
+00:24:33.590 --> 00:24:35.590
+vendría siendo lo que siente
+
+00:24:35.590 --> 00:24:37.590
+la neurona aplicada
+
+00:24:37.590 --> 00:24:39.590
+sobre esta función de activación
+
+00:24:39.590 --> 00:24:41.590
+y esta función de activación hay
+
+00:24:41.590 --> 00:24:43.590
+de todos los tipos, de todos los sabores
+
+00:24:43.590 --> 00:24:45.590
+entonces la más clásica con la que uno
+
+00:24:45.590 --> 00:24:47.590
+parte aprendiendo es la famosa función escalón
+
+00:24:47.590 --> 00:24:49.590
+verdad en que si
+
+00:24:49.590 --> 00:24:51.590
+el input es menor o igual
+
+00:24:51.590 --> 00:24:53.590
+que 0 que lo que responde
+
+00:24:53.590 --> 00:24:55.590
+un 0 y si es mayor que 0 responde
+
+00:24:55.590 --> 00:24:57.590
+un 1, no sé esto va a ser
+
+00:24:57.590 --> 00:24:59.590
+un 1 o un 0
+
+00:24:59.590 --> 00:25:01.590
+dependiendo de lo que acabo de contar
+
+00:25:01.590 --> 00:25:03.590
+y ahí hemos transformado
+
+00:25:03.590 --> 00:25:05.590
+la
+
+00:25:05.590 --> 00:25:07.590
+básica, ahora si este modelo nos sirve
+
+00:25:07.590 --> 00:25:09.590
+para un problema de clasificación
+
+00:25:09.590 --> 00:25:11.590
+porque la salida es binaria
+
+00:25:11.590 --> 00:25:13.590
+eso
+
+00:25:13.590 --> 00:25:15.590
+obviamente esto es una neurona
+
+00:25:15.590 --> 00:25:17.590
+si dicen muchas otras más neuronas
+
+00:25:17.590 --> 00:25:19.590
+sería
+
+00:25:19.590 --> 00:25:21.590
+más complicadas
+
+00:25:21.590 --> 00:25:23.590
+por ejemplo acá
+
+00:25:23.590 --> 00:25:25.590
+en este monicargo que está acá
+
+00:25:25.590 --> 00:25:27.590
+seguimos teniendo
+
+00:25:27.590 --> 00:25:29.590
+con la única diferencia que este perceptron
+
+00:25:29.590 --> 00:25:31.590
+no tiene un estímulo
+
+00:25:31.590 --> 00:25:33.590
+sino que tiene 1, 2, 3
+
+00:25:33.590 --> 00:25:35.590
+hasta el estímulo
+
+00:25:35.590 --> 00:25:37.590
+bueno, para nosotros
+
+00:25:37.590 --> 00:25:39.590
+estos estímulos son las variables
+
+00:25:39.590 --> 00:25:41.590
+predictora, los future, los predictores
+
+00:25:41.590 --> 00:25:43.590
+las variables independientes
+
+00:25:43.590 --> 00:25:45.590
+son las cosas que
+
+00:25:45.590 --> 00:25:47.590
+es la información que nosotros
+
+00:25:47.590 --> 00:25:49.590
+vamos a introducir
+
+00:25:49.590 --> 00:25:51.590
+a la neurona para que esta neurona
+
+00:25:51.590 --> 00:25:53.590
+logre generar
+
+00:25:53.590 --> 00:25:55.590
+no sé estos logren contar
+
+00:25:55.590 --> 00:25:57.590
+este plano separador
+
+00:25:57.590 --> 00:25:59.590
+para discriminar a los depresidos
+
+00:25:59.590 --> 00:26:01.590
+de los no depresivos
+
+00:26:01.590 --> 00:26:03.590
+la misma historia
+
+00:26:03.590 --> 00:26:05.590
+entonces como tengo n
+
+00:26:05.590 --> 00:26:07.590
+inputs en este caso voy a tener
+
+00:26:07.590 --> 00:26:09.590
+n besos sinápticos
+
+00:26:09.590 --> 00:26:11.590
+antes tenía 1 porque era una entrada
+
+00:26:11.590 --> 00:26:13.590
+ahora tengo n
+
+00:26:13.590 --> 00:26:15.590
+pero la historia es la misma
+
+00:26:15.590 --> 00:26:17.590
+la historia es la misma, si se fijan
+
+00:26:17.590 --> 00:26:19.590
+aquí aparece cada una de las entradas
+
+00:26:19.590 --> 00:26:21.590
+se multiplica por su respectivo
+
+00:26:21.590 --> 00:26:23.590
+peso y todas
+
+00:26:23.590 --> 00:26:25.590
+esas multiplicaciones de las entradas
+
+00:26:25.590 --> 00:26:27.590
+o estímulos por los pesos
+
+00:26:27.590 --> 00:26:29.590
+se suman acá
+
+00:26:29.590 --> 00:26:31.590
+aquí se añade un
+
+00:26:31.590 --> 00:26:33.590
+Bayas que yo le había explicado
+
+00:26:33.590 --> 00:26:35.590
+que equivale
+
+00:26:35.590 --> 00:26:37.590
+equivale a desplazar
+
+00:26:37.590 --> 00:26:39.590
+la línea recta en el eje y
+
+00:26:39.590 --> 00:26:41.590
+un desplazamiento
+
+00:26:41.590 --> 00:26:43.590
+si yo lo quiero escribir
+
+00:26:43.590 --> 00:26:45.590
+matemáticamente sería la sumatoria
+
+00:26:45.590 --> 00:26:47.590
+del X sub y
+
+00:26:47.590 --> 00:26:49.590
+X1a
+
+00:26:49.590 --> 00:26:51.590
+por W1
+
+00:26:51.590 --> 00:26:53.590
+más un Bayas
+
+00:26:53.590 --> 00:26:55.590
+y
+
+00:26:55.590 --> 00:26:57.590
+todo esto es lo que siente
+
+00:26:57.590 --> 00:26:59.590
+la neurona
+
+00:26:59.590 --> 00:27:01.590
+entonces
+
+00:27:01.590 --> 00:27:03.590
+a esto que es lo que siente
+
+00:27:03.590 --> 00:27:05.590
+la neurona le vamos a aplicar
+
+00:27:05.590 --> 00:27:07.590
+una función de activación que podría
+
+00:27:07.590 --> 00:27:09.590
+hacer el escalón o un asismo
+
+00:27:09.590 --> 00:27:11.590
+y ver cualquier otra cosa
+
+00:27:11.590 --> 00:27:13.590
+y eso va a generar que cosa
+
+00:27:13.590 --> 00:27:15.590
+un 0 o un 1 como se ha indicado bien
+
+00:27:15.590 --> 00:27:17.590
+ya
+
+00:27:17.590 --> 00:27:19.590
+estamos
+
+00:27:19.590 --> 00:27:21.590
+yo creo que ya estamos empezando
+
+00:27:21.590 --> 00:27:23.590
+sintonizarnos con el único pasado
+
+00:27:23.590 --> 00:27:25.590
+¿cuál es el pasado?
+
+00:27:25.590 --> 00:27:27.590
+pero
+
+00:27:27.590 --> 00:27:29.590
+centro de ReLU
+
+00:27:29.590 --> 00:27:31.590
+la ReLU también habíamos
+
+00:27:31.590 --> 00:27:33.590
+visto la ReLU
+
+00:27:33.590 --> 00:27:35.590
+bueno ya que comentas
+
+00:27:35.590 --> 00:27:37.590
+no sé si a gen se acuerda
+
+00:27:37.590 --> 00:27:39.590
+pero a ver es una pregunta así
+
+00:27:39.590 --> 00:27:41.590
+algo leo
+
+00:27:43.590 --> 00:27:45.590
+por ejemplo aquí a la salida
+
+00:27:45.590 --> 00:27:47.590
+a la salida salida
+
+00:27:47.590 --> 00:27:49.590
+uno le coloca una ReLU
+
+00:27:49.590 --> 00:27:51.590
+como función de activación
+
+00:27:51.590 --> 00:27:53.590
+acuérdense que la ReLU es de este estilo
+
+00:27:53.590 --> 00:27:55.590
+aquí está el input
+
+00:27:55.590 --> 00:27:57.590
+lo que siente
+
+00:27:57.590 --> 00:27:59.590
+la entrada
+
+00:27:59.590 --> 00:28:01.590
+y aquí está la salida
+
+00:28:01.590 --> 00:28:03.590
+si la entrada es menor
+
+00:28:03.590 --> 00:28:05.590
+igual que 0
+
+00:28:05.590 --> 00:28:07.590
+la neurona se mantiene apagada
+
+00:28:07.590 --> 00:28:09.590
+dispara un 0
+
+00:28:09.590 --> 00:28:11.590
+mientras que si la entrada es mayor
+
+00:28:11.590 --> 00:28:13.590
+igual que 0
+
+00:28:13.590 --> 00:28:15.590
+la salida va a ser proporcionada
+
+00:28:15.590 --> 00:28:17.590
+a la entrada
+
+00:28:17.590 --> 00:28:19.590
+la pregunta es
+
+00:28:19.590 --> 00:28:21.590
+uno le puede colocar una ReLU
+
+00:28:21.590 --> 00:28:23.590
+a la capa de salida
+
+00:28:23.590 --> 00:28:25.590
+no se supone que va la softmax
+
+00:28:25.590 --> 00:28:27.590
+porque la softmax es la que permite
+
+00:28:27.590 --> 00:28:29.590
+tener esta disrepancia como
+
+00:28:29.590 --> 00:28:31.590
+en tercer ayuno que
+
+00:28:31.590 --> 00:28:33.590
+donde ya está más chiquitita la decisión
+
+00:28:33.590 --> 00:28:35.590
+la softmax
+
+00:28:35.590 --> 00:28:37.590
+ya que pues
+
+00:28:37.590 --> 00:28:39.590
+la versión más rúa
+
+00:28:39.590 --> 00:28:41.590
+de la softmax es la famosa calón
+
+00:28:41.590 --> 00:28:43.590
+vale
+
+00:28:43.590 --> 00:28:45.590
+pero tendría sentido
+
+00:28:45.590 --> 00:28:47.590
+colocarle una ReLU
+
+00:28:47.590 --> 00:28:49.590
+por ejemplo para un problema de clasificación
+
+00:28:49.590 --> 00:28:51.590
+es la bien que nosotros le colocamos
+
+00:28:51.590 --> 00:28:55.030
+una ReLU al final
+
+00:28:55.030 --> 00:28:57.030
+si o no
+
+00:28:57.030 --> 00:28:59.030
+tengo entendido profesor que la ReLU
+
+00:28:59.030 --> 00:29:01.030
+es una capa escondida
+
+00:29:01.030 --> 00:29:03.030
+que es intermedia o sea no está en la salida
+
+00:29:03.030 --> 00:29:05.030
+¿por qué no está en la salida?
+
+00:29:07.030 --> 00:29:14.280
+¿por qué no podría estar?
+
+00:29:14.280 --> 00:29:16.280
+bueno pregunta
+
+00:29:16.280 --> 00:29:18.280
+la respuesta está aquí
+
+00:29:18.280 --> 00:29:20.280
+si tenemos un problema de clasificación
+
+00:29:20.280 --> 00:29:22.280
+nuestras salidas que nos interesan es 0 1
+
+00:29:22.280 --> 00:29:24.280
+el final
+
+00:29:24.280 --> 00:29:26.280
+no vamos a tener eso
+
+00:29:26.280 --> 00:29:28.280
+vamos a tener 0 y valores continuos
+
+00:29:28.280 --> 00:29:30.280
+por lo tanto
+
+00:29:30.280 --> 00:29:32.280
+no podemos
+
+00:29:32.280 --> 00:29:34.280
+y esto es importante porque usted después a mano
+
+00:29:34.280 --> 00:29:36.280
+o sea con las manos
+
+00:29:36.280 --> 00:29:38.280
+que tenemos nosotros en los brazos
+
+00:29:38.280 --> 00:29:40.280
+ustedes tienen que colocar ahí
+
+00:29:40.280 --> 00:29:42.280
+decirle a la máquina
+
+00:29:42.280 --> 00:29:44.280
+si le vamos a colocar una ReLU
+
+00:29:44.280 --> 00:29:46.280
+o una calón
+
+00:29:46.280 --> 00:29:48.280
+o una softmax
+
+00:29:48.280 --> 00:29:50.280
+entonces no tienen ningún sentido
+
+00:29:50.280 --> 00:29:52.280
+si está en un problema de clasificación
+
+00:29:52.280 --> 00:29:54.280
+no tienen ningún sentido que
+
+00:29:54.280 --> 00:29:56.280
+a la salida nosotros le pongamos
+
+00:29:56.280 --> 00:29:58.280
+una función de activación
+
+00:29:58.280 --> 00:30:00.280
+ReLU porque no nos sirve
+
+00:30:00.280 --> 00:30:02.280
+lo que nos sirve es colocar
+
+00:30:02.280 --> 00:30:04.280
+algún tipo de función de activación
+
+00:30:04.280 --> 00:30:06.280
+que nos sirva para el problema de clasificación
+
+00:30:06.280 --> 00:30:08.280
+que puede ser
+
+00:30:08.280 --> 00:30:10.280
+en la práctica es
+
+00:30:10.280 --> 00:30:12.280
+como decía
+
+00:30:12.280 --> 00:30:14.280
+una softmax
+
+00:30:14.280 --> 00:30:16.280
+y la softmax es muy parecida
+
+00:30:16.280 --> 00:30:18.280
+a la escalón solamente que tiene la gracia
+
+00:30:18.280 --> 00:30:20.280
+de que es un poquito más suavecida
+
+00:30:22.280 --> 00:30:24.280
+la misma historia
+
+00:30:24.280 --> 00:30:26.280
+aquí está el input
+
+00:30:26.280 --> 00:30:28.280
+aquí está la salida
+
+00:30:28.280 --> 00:30:30.280
+y
+
+00:30:30.280 --> 00:30:32.280
+cuando la entrada
+
+00:30:32.280 --> 00:30:34.280
+es muy negativa
+
+00:30:34.280 --> 00:30:36.280
+muy baja
+
+00:30:36.280 --> 00:30:38.280
+va a generar de que la salida sea
+
+00:30:38.280 --> 00:30:40.280
+un 0
+
+00:30:40.280 --> 00:30:42.280
+mientras que si la entrada es muy positiva
+
+00:30:42.280 --> 00:30:44.280
+va a generar de que esta neurona
+
+00:30:44.280 --> 00:30:46.280
+se dispara en un 1
+
+00:30:46.280 --> 00:30:48.280
+y si está muy cercana a 0 o 0
+
+00:30:48.280 --> 00:30:50.280
+va a quedar así como medio entre
+
+00:30:50.280 --> 00:30:52.280
+ningún lado
+
+00:30:52.280 --> 00:30:54.280
+la gracia que tiene
+
+00:30:54.280 --> 00:30:56.280
+esta softmax
+
+00:30:56.280 --> 00:30:58.280
+es que uno la puede interpretar como una probadía
+
+00:30:58.280 --> 00:31:00.280
+a diferencia de una escalón
+
+00:31:00.280 --> 00:31:02.280
+que la función es dura
+
+00:31:02.280 --> 00:31:04.280
+0 o un rito y además
+
+00:31:04.280 --> 00:31:06.280
+que tiene el problema que la había aguantado también
+
+00:31:06.280 --> 00:31:08.280
+que la función es calor
+
+00:31:08.280 --> 00:31:10.280
+no tiene derivada
+
+00:31:10.280 --> 00:31:12.280
+la derivada justo ahí
+
+00:31:12.280 --> 00:31:14.280
+cuando uno trata de calcular la derivada justo en ese momento
+
+00:31:14.280 --> 00:31:16.280
+de quiebre
+
+00:31:16.280 --> 00:31:18.280
+la derivada ahí
+
+00:31:18.280 --> 00:31:20.280
+eso es infinito
+
+00:31:20.280 --> 00:31:22.280
+no nos sirve porque
+
+00:31:22.280 --> 00:31:24.280
+en el proceso de val propagation
+
+00:31:24.280 --> 00:31:26.280
+hay que estar calculando derivada
+
+00:31:26.280 --> 00:31:28.280
+la máquina internamente tiene que calcular la derivada
+
+00:31:28.280 --> 00:31:30.280
+y si le ponemos una función
+
+00:31:30.280 --> 00:31:32.280
+de activación en calón
+
+00:31:32.280 --> 00:31:34.280
+la máquina
+
+00:31:34.280 --> 00:31:36.280
+va a morir porque no va a poder calcular la derivada
+
+00:31:36.280 --> 00:31:38.280
+y
+
+00:31:38.280 --> 00:31:40.280
+vamos a tener problemas
+
+00:31:40.280 --> 00:31:42.280
+mientras que la softmax no porque la derivada
+
+00:31:42.280 --> 00:31:44.280
+es suavecida
+
+00:31:44.280 --> 00:31:46.280
+siempre es continua
+
+00:31:46.280 --> 00:31:48.280
+ya
+
+00:31:48.280 --> 00:31:50.280
+no se les va a olvidar ese tipo de cosas porque esto es parte
+
+00:31:50.280 --> 00:31:52.280
+del diseño
+
+00:31:54.280 --> 00:31:56.280
+más adelante les traigo
+
+00:31:56.280 --> 00:31:58.280
+un simpático problema de detección de signos
+
+00:31:58.280 --> 00:32:00.280
+de tráfico
+
+00:32:00.280 --> 00:32:02.280
+imagina usted que tienen
+
+00:32:02.280 --> 00:32:04.280
+un sistema en donde va tracando
+
+00:32:04.280 --> 00:32:06.280
+no sé todos los distintos tipos
+
+00:32:06.280 --> 00:32:08.280
+de signos de tráfico
+
+00:32:08.280 --> 00:32:10.280
+y la máquina tiene que gachar
+
+00:32:10.280 --> 00:32:12.280
+que signo es
+
+00:32:12.280 --> 00:32:14.280
+un signo pare
+
+00:32:14.280 --> 00:32:16.280
+de máxima velocidad 50 kilómetros
+
+00:32:16.280 --> 00:32:18.280
+la máquina tiene que gachar
+
+00:32:18.280 --> 00:32:20.280
+y cuántos tipos de signos hay
+
+00:32:20.280 --> 00:32:22.280
+muchos
+
+00:32:22.280 --> 00:32:24.280
+entonces si yo quiero
+
+00:32:24.280 --> 00:32:26.280
+generar o diseñar una máquina
+
+00:32:26.280 --> 00:32:28.280
+que me admita identificar
+
+00:32:28.280 --> 00:32:30.280
+reconocer
+
+00:32:30.280 --> 00:32:32.280
+cualquiera de esos 62 signos
+
+00:32:32.280 --> 00:32:34.280
+distintos que hay
+
+00:32:34.280 --> 00:32:36.280
+ya no estoy ante un problema de clasificación
+
+00:32:36.280 --> 00:32:38.280
+mirario es un problema de
+
+00:32:38.280 --> 00:32:40.280
+multi-class
+
+00:32:40.280 --> 00:32:42.280
+en donde tengo 62
+
+00:32:42.280 --> 00:32:44.280
+posibles alternativas
+
+00:32:44.280 --> 00:32:46.280
+y yo tengo que elegir
+
+00:32:46.280 --> 00:32:48.280
+una de esas 62
+
+00:32:48.280 --> 00:32:50.280
+puedo elegir
+
+00:32:50.280 --> 00:32:52.280
+puede ser este y la otra
+
+00:32:52.280 --> 00:32:54.280
+una vez me tengo que casar
+
+00:32:54.280 --> 00:32:56.280
+entonces es un problema multi-class
+
+00:32:56.280 --> 00:32:58.280
+y como yo ya sé de antemano
+
+00:32:58.280 --> 00:33:00.280
+que es un problema de multi-class
+
+00:33:00.280 --> 00:33:02.280
+yo ya sé entonces
+
+00:33:02.280 --> 00:33:04.280
+el tipo de función de activación
+
+00:33:04.280 --> 00:33:06.280
+que yo le voy a colocar
+
+00:33:06.280 --> 00:33:08.280
+a la red neuronar a la salida
+
+00:33:08.280 --> 00:33:10.280
+estoy adelantando pero
+
+00:33:10.280 --> 00:33:12.280
+para que vayan
+
+00:33:12.280 --> 00:33:14.280
+bien
+
+00:33:14.280 --> 00:33:16.280
+volvamos al mícero perceptor
+
+00:33:16.280 --> 00:33:18.280
+entonces ya sabemos esto
+
+00:33:18.280 --> 00:33:20.280
+verdad ya le había explicado que
+
+00:33:20.280 --> 00:33:22.280
+básicamente hay varias entradas
+
+00:33:22.280 --> 00:33:24.280
+x1 hasta xn
+
+00:33:24.280 --> 00:33:26.280
+el x0 le vamos a llamar
+
+00:33:26.280 --> 00:33:28.280
+vallas aquí el seco
+
+00:33:28.280 --> 00:33:30.280
+y básicamente la salida
+
+00:33:30.280 --> 00:33:32.280
+o lo que siente la neurona
+
+00:33:32.280 --> 00:33:34.280
+es la sumatoria de todos esos
+
+00:33:34.280 --> 00:33:36.280
+sinápticos por sus respectivas
+
+00:33:36.280 --> 00:33:38.280
+entradas
+
+00:33:38.280 --> 00:33:40.280
+y después entonces uno le aplica
+
+00:33:40.280 --> 00:33:42.280
+esta función escalón
+
+00:33:42.280 --> 00:33:44.280
+o aquí dice signum lo mismo
+
+00:33:44.280 --> 00:33:46.280
+y el resultado puede ser
+
+00:33:46.280 --> 00:33:48.280
+1 o 1-1
+
+00:33:48.280 --> 00:33:50.280
+a veces uno utiliza el 1
+
+00:33:50.280 --> 00:33:52.280
+o el 1 0
+
+00:33:52.280 --> 00:33:54.280
+o 1-1
+
+00:33:54.280 --> 00:33:56.280
+ok
+
+00:33:56.280 --> 00:33:58.280
+entonces esto es muy importante
+
+00:33:58.280 --> 00:34:00.280
+porque esto va a funcionar
+
+00:34:00.280 --> 00:34:02.280
+fantásticamente bien
+
+00:34:02.280 --> 00:34:04.280
+siempre y cuando
+
+00:34:04.280 --> 00:34:06.280
+el grupo
+
+00:34:06.280 --> 00:34:08.280
+esto depresivo y no depresivo
+
+00:34:08.280 --> 00:34:10.280
+sea separable a través de un
+
+00:34:10.280 --> 00:34:12.280
+interplan si yo tengo una situación
+
+00:34:12.280 --> 00:34:14.280
+en donde el perceptron
+
+00:34:14.280 --> 00:34:16.280
+tenga que determinar
+
+00:34:16.280 --> 00:34:18.280
+un boundary decision
+
+00:34:18.280 --> 00:34:20.280
+una función discriminativa
+
+00:34:20.280 --> 00:34:22.280
+que no es lineal
+
+00:34:22.280 --> 00:34:24.280
+esta cuestión no va a servir
+
+00:34:24.280 --> 00:34:26.280
+no va a ser mal
+
+00:34:26.280 --> 00:34:28.280
+vaya a clasificar un depresivo con no depresivo
+
+00:34:28.280 --> 00:34:30.280
+y un no depresivo con depresivo
+
+00:34:30.280 --> 00:34:32.280
+eso se llama
+
+00:34:32.280 --> 00:34:34.280
+entonces importante
+
+00:34:34.280 --> 00:34:36.280
+para el pensante
+
+00:34:36.280 --> 00:34:38.280
+pero nada
+
+00:34:38.280 --> 00:34:40.280
+porque solamente
+
+00:34:40.280 --> 00:34:42.280
+porque ustedes creen que solamente maneja este tipo
+
+00:34:42.280 --> 00:34:44.280
+de funciones lineales
+
+00:34:44.280 --> 00:34:46.280
+porque el perceptron
+
+00:34:46.280 --> 00:34:48.280
+solo maneja
+
+00:34:48.280 --> 00:34:50.280
+problemas de clasificación
+
+00:34:50.280 --> 00:34:52.280
+que sean separables de forma lineal
+
+00:34:52.280 --> 00:34:54.280
+que será
+
+00:34:54.280 --> 00:34:56.280
+por cachalía
+
+00:34:56.280 --> 00:35:00.070
+necesaria una explicación certificada
+
+00:35:00.070 --> 00:35:02.070
+que será eso
+
+00:35:02.070 --> 00:35:06.410
+solamente maneja
+
+00:35:06.410 --> 00:35:08.410
+clasificación pero que sea separable
+
+00:35:08.410 --> 00:35:10.410
+lineal
+
+00:35:10.410 --> 00:35:13.910
+por qué será eso
+
+00:35:13.910 --> 00:35:15.910
+puede ser porque no quieren que
+
+00:35:15.910 --> 00:35:17.910
+intervengan entre dos
+
+00:35:17.910 --> 00:35:19.910
+variables separadas
+
+00:35:19.910 --> 00:35:21.910
+cada una tiene que ser por separada
+
+00:35:21.910 --> 00:35:23.910
+porque es una entrada diferente
+
+00:35:23.910 --> 00:35:25.910
+creo
+
+00:35:25.910 --> 00:35:27.910
+y cada entrada no afecta a la otra de al lado
+
+00:35:27.910 --> 00:35:29.910
+bien
+
+00:35:29.910 --> 00:35:31.910
+o sea tú dices que en este problema
+
+00:35:31.910 --> 00:35:33.910
+en este problema
+
+00:35:33.910 --> 00:35:35.910
+no hay efecto de interacción
+
+00:35:35.910 --> 00:35:37.910
+que es uno por x2
+
+00:35:37.910 --> 00:35:39.910
+no es importante
+
+00:35:39.910 --> 00:35:41.910
+no es por entrenamiento
+
+00:35:41.910 --> 00:35:43.910
+no es por entrenamiento lo que entiendo
+
+00:35:43.910 --> 00:35:45.910
+sino que por un problema matemático
+
+00:35:45.910 --> 00:35:49.900
+nosotros
+
+00:35:49.900 --> 00:35:51.900
+le estamos ingresando
+
+00:35:51.900 --> 00:35:53.900
+todas estas funciones
+
+00:35:53.900 --> 00:35:55.900
+todas estas funciones
+
+00:35:55.900 --> 00:35:57.900
+y fíjese a ustedes
+
+00:35:57.900 --> 00:35:59.900
+lo siguiente que nos estamos ingresando
+
+00:35:59.900 --> 00:36:01.900
+por ejemplo te acuerdas
+
+00:36:01.900 --> 00:36:03.900
+que le comenzaba por ejemplo
+
+00:36:03.900 --> 00:36:05.900
+imagínense que hay un efecto importante
+
+00:36:05.900 --> 00:36:07.900
+es cuadrático de x1
+
+00:36:07.900 --> 00:36:09.900
+imagínense que de x1
+
+00:36:09.900 --> 00:36:11.900
+es
+
+00:36:11.900 --> 00:36:13.900
+la exposición al sol
+
+00:36:13.900 --> 00:36:15.900
+no sé
+
+00:36:15.900 --> 00:36:17.900
+la exposición al sol está inversamente al cuadrado
+
+00:36:17.900 --> 00:36:19.900
+respecto
+
+00:36:19.900 --> 00:36:21.900
+relacionado con la depresión
+
+00:36:21.900 --> 00:36:23.900
+las personas que tienen poco so
+
+00:36:23.900 --> 00:36:25.900
+que tienen poco luz
+
+00:36:25.900 --> 00:36:27.900
+tienen nada depresión
+
+00:36:27.900 --> 00:36:29.900
+y ese efecto es cuadrado
+
+00:36:29.900 --> 00:36:31.900
+y aquí yo no estoy colocando nada cuadrático
+
+00:36:31.900 --> 00:36:33.900
+así como está la bosa
+
+00:36:33.900 --> 00:36:35.900
+eventualmente el preceptron
+
+00:36:35.900 --> 00:36:37.900
+que es solamente una neurona
+
+00:36:37.900 --> 00:36:39.900
+que tal vez
+
+00:36:39.900 --> 00:36:41.900
+no va a poder detectar esto
+
+00:36:41.900 --> 00:36:43.900
+esto es una parábola
+
+00:36:43.900 --> 00:36:45.900
+no es una parábola
+
+00:36:45.900 --> 00:36:47.900
+eso es no linea
+
+00:36:47.900 --> 00:36:49.900
+entonces
+
+00:36:49.900 --> 00:36:51.900
+no lo va a poder detectar
+
+00:36:51.900 --> 00:36:53.900
+no lo va a poder detectar
+
+00:36:53.900 --> 00:36:55.900
+profe
+
+00:36:55.900 --> 00:36:57.900
+porque en el fondo
+
+00:36:57.900 --> 00:36:59.900
+lo que estoy haciendo siempre
+
+00:36:59.900 --> 00:37:01.900
+es un cálculo
+
+00:37:01.900 --> 00:37:03.900
+una suma ponderada
+
+00:37:03.900 --> 00:37:05.900
+pero siempre la estoy comparando con cero
+
+00:37:05.900 --> 00:37:07.900
+entonces el horizonte siempre es una linea
+
+00:37:07.900 --> 00:37:11.400
+o un plano
+
+00:37:11.400 --> 00:37:13.400
+ya sí pero por qué el plano
+
+00:37:13.400 --> 00:37:15.400
+porque una linea y no otra
+
+00:37:15.400 --> 00:37:17.400
+no puede ser otra cosa
+
+00:37:17.400 --> 00:37:19.400
+no puede ser un círculo
+
+00:37:19.400 --> 00:37:21.400
+porque si estoy comparando
+
+00:37:21.400 --> 00:37:23.400
+con cero
+
+00:37:23.400 --> 00:37:25.400
+mi horizonte de decisión
+
+00:37:25.400 --> 00:37:27.400
+siempre va a ser uno
+
+00:37:27.400 --> 00:37:29.400
+puedo separar solo dos cosas
+
+00:37:29.400 --> 00:37:31.400
+necesito si o si dos curvas
+
+00:37:31.400 --> 00:37:33.400
+necesito si o dos perceptores
+
+00:37:33.400 --> 00:37:35.400
+si o si
+
+00:37:35.400 --> 00:37:37.400
+no te escucho muy bien
+
+00:37:37.400 --> 00:37:39.400
+está como lejos la cosa
+
+00:37:39.400 --> 00:37:41.400
+pero por lo que alcancé a ver aquí
+
+00:37:41.400 --> 00:37:43.400
+hay como dos cosas que hay que separar
+
+00:37:43.400 --> 00:37:45.400
+por favor no se confundan
+
+00:37:45.400 --> 00:37:47.400
+uno es lo que está aquí adentro
+
+00:37:47.400 --> 00:37:49.400
+que es lo que yo le digo
+
+00:37:49.400 --> 00:37:51.400
+lo que siente la neurona
+
+00:37:51.400 --> 00:37:53.400
+y otra cosa es la función de activación
+
+00:37:53.400 --> 00:37:55.400
+dos cosas
+
+00:37:55.400 --> 00:37:57.400
+fíjense lo siguiente
+
+00:37:57.400 --> 00:37:59.400
+pensemos en un problema de solamente
+
+00:37:59.400 --> 00:38:01.400
+x1 y y2
+
+00:38:01.400 --> 00:38:03.400
+solamente dos variables
+
+00:38:03.400 --> 00:38:05.400
+entonces
+
+00:38:05.400 --> 00:38:07.400
+x1 y y2
+
+00:38:07.400 --> 00:38:09.400
+entonces piensen lo siguiente
+
+00:38:09.400 --> 00:38:11.400
+como sería lo que siente la neurona
+
+00:38:11.400 --> 00:38:13.400
+sería x1
+
+00:38:13.400 --> 00:38:15.400
+multiplicado por W1
+
+00:38:15.400 --> 00:38:17.400
+cuáles se quedó W1 son los pesos sinápticos
+
+00:38:17.400 --> 00:38:19.400
+hay una contante un número
+
+00:38:19.400 --> 00:38:21.400
+más
+
+00:38:21.400 --> 00:38:23.400
+x2 multiplicado por
+
+00:38:23.400 --> 00:38:25.400
+W2
+
+00:38:25.400 --> 00:38:27.400
+más un vallas
+
+00:38:27.400 --> 00:38:29.400
+vamos a contarle
+
+00:38:29.400 --> 00:38:31.400
+esto, esto tal cual que está aquí
+
+00:38:31.400 --> 00:38:33.400
+esto si lo grafican
+
+00:38:33.400 --> 00:38:40.840
+que le va a dar
+
+00:38:40.840 --> 00:38:42.840
+esto no es una universidad, esto es colegio
+
+00:38:42.840 --> 00:38:44.840
+si lo grafican esto
+
+00:38:44.840 --> 00:38:48.570
+como se llama esto
+
+00:38:48.570 --> 00:38:51.820
+esta ecuación, qué es lo que es
+
+00:38:51.820 --> 00:38:53.820
+por ejemplo
+
+00:38:53.820 --> 00:38:55.820
+3 por x1
+
+00:38:55.820 --> 00:38:57.820
+más 4 por
+
+00:38:57.820 --> 00:38:59.820
+x2 más
+
+00:38:59.820 --> 00:39:01.820
+0.5
+
+00:39:01.820 --> 00:39:03.820
+si yo lo grafico eso
+
+00:39:03.820 --> 00:39:05.820
+igual a 0
+
+00:39:05.820 --> 00:39:07.820
+grafican eso, qué clase
+
+00:39:07.820 --> 00:39:14.780
+va a dar
+
+00:39:14.780 --> 00:39:16.780
+una línea recta
+
+00:39:16.780 --> 00:39:18.780
+una línea recta y como son dos dimensiones
+
+00:39:18.780 --> 00:39:20.780
+una línea recta no es cierto
+
+00:39:20.780 --> 00:39:22.780
+si fue ser 3
+
+00:39:22.780 --> 00:39:24.780
+3 input
+
+00:39:24.780 --> 00:39:26.780
+en vez de ser una línea recta
+
+00:39:26.780 --> 00:39:28.780
+va a ser un plano
+
+00:39:28.780 --> 00:39:30.780
+una zábana
+
+00:39:30.780 --> 00:39:32.780
+cierto?
+
+00:39:32.780 --> 00:39:34.780
+si fuese en 4
+
+00:39:34.780 --> 00:39:36.780
+ya de 4 va adelante
+
+00:39:36.780 --> 00:39:38.780
+no me cuesta imaginar, pero sería
+
+00:39:38.780 --> 00:39:40.780
+un hiperplano
+
+00:39:40.780 --> 00:39:42.780
+todo es lineal
+
+00:39:42.780 --> 00:39:44.780
+entonces fíjense usted
+
+00:39:44.780 --> 00:39:46.780
+se dan cuenta que
+
+00:39:46.780 --> 00:39:48.780
+lo único que es
+
+00:39:48.780 --> 00:39:50.780
+caba de procesar
+
+00:39:50.780 --> 00:39:52.780
+de captar
+
+00:39:52.780 --> 00:39:54.780
+la rena uranal
+
+00:39:54.780 --> 00:39:56.780
+que consiste en una misera neuronal
+
+00:39:56.780 --> 00:39:58.780
+son solamente
+
+00:39:58.780 --> 00:40:00.780
+cosas de este estilo
+
+00:40:00.780 --> 00:40:02.780
+hiperplano
+
+00:40:02.780 --> 00:40:04.780
+vale
+
+00:40:04.780 --> 00:40:06.780
+vale, entonces
+
+00:40:06.780 --> 00:40:08.780
+el hiperplano que aparece
+
+00:40:08.780 --> 00:40:10.780
+en la línea recta está que aparece
+
+00:40:10.780 --> 00:40:12.780
+esto que está aquí
+
+00:40:12.780 --> 00:40:14.780
+esa es la línea recta
+
+00:40:14.780 --> 00:40:16.780
+que logró encontrar
+
+00:40:16.780 --> 00:40:18.780
+el preceptorón después de haberlo alimentado varias veces
+
+00:40:18.780 --> 00:40:20.780
+con varios ejemplos
+
+00:40:20.780 --> 00:40:22.780
+eso lo hizo solito, lo encontró
+
+00:40:22.780 --> 00:40:24.780
+pero una línea recta
+
+00:40:24.780 --> 00:40:26.780
+ahora bien
+
+00:40:26.780 --> 00:40:28.780
+ahora por
+
+00:40:28.780 --> 00:40:30.780
+¿dónde entra la cuestión aquí
+
+00:40:30.780 --> 00:40:32.780
+la función de activación
+
+00:40:32.780 --> 00:40:34.780
+estamos claros que una línea en la línea recta
+
+00:40:34.780 --> 00:40:36.780
+estamos separando los dos grupos
+
+00:40:36.780 --> 00:40:38.780
+a través de una línea recta
+
+00:40:38.780 --> 00:40:40.780
+la función de activación
+
+00:40:40.780 --> 00:40:42.780
+lo único que hace
+
+00:40:42.780 --> 00:40:44.780
+es darle la capacidad
+
+00:40:44.780 --> 00:40:46.780
+o decirle a la neurona
+
+00:40:46.780 --> 00:40:48.780
+decirle ok
+
+00:40:48.780 --> 00:40:50.780
+todos estos compadres que están por arriba
+
+00:40:50.780 --> 00:40:52.780
+de este valor le voy a colocar un 0
+
+00:40:52.780 --> 00:40:54.780
+y todos los que están por debajo de este valor
+
+00:40:54.780 --> 00:40:56.780
+le voy a colocar uno listo
+
+00:40:56.780 --> 00:40:58.780
+se acabó
+
+00:40:58.780 --> 00:41:00.780
+¿la linealidad?
+
+00:41:00.780 --> 00:41:02.780
+no rompe la linealidad
+
+00:41:02.780 --> 00:41:04.780
+la función de activación que está al final
+
+00:41:04.780 --> 00:41:06.780
+en este caso
+
+00:41:06.780 --> 00:41:08.780
+la función de activación al final de la capa de salida
+
+00:41:08.780 --> 00:41:10.780
+es una neurona aquí
+
+00:41:10.780 --> 00:41:12.780
+nos sirve solamente para
+
+00:41:12.780 --> 00:41:14.780
+poder darle
+
+00:41:14.780 --> 00:41:16.780
+interpretación al problema que nosotros tenemos en manos
+
+00:41:16.780 --> 00:41:18.780
+en este caso el problema de clasificación
+
+00:41:18.780 --> 00:41:20.780
+es para convertir
+
+00:41:20.780 --> 00:41:22.780
+lo que siente la neurona
+
+00:41:22.780 --> 00:41:24.780
+en un 0 o en un 1
+
+00:41:24.780 --> 00:41:26.780
+pero los que ustedes se tienen que comprender
+
+00:41:26.780 --> 00:41:28.780
+de dar cuenta que en ningún momento
+
+00:41:28.780 --> 00:41:30.780
+nosotros
+
+00:41:30.780 --> 00:41:32.780
+esto se ha convertido en algo no lineal
+
+00:41:32.780 --> 00:41:34.780
+todos estos son puras
+
+00:41:34.780 --> 00:41:36.780
+puras combinaciones lineales
+
+00:41:36.780 --> 00:41:38.780
+con tantos por variar
+
+00:41:38.780 --> 00:41:40.780
+ya
+
+00:41:40.780 --> 00:41:44.060
+¿entende hasta ahí la cosa?
+
+00:41:44.060 --> 00:41:46.060
+yo sé que hay gente que está pensando
+
+00:41:46.060 --> 00:41:48.060
+oye, este dijo
+
+00:41:48.060 --> 00:41:50.060
+nos dijo que la semana pasada
+
+00:41:50.060 --> 00:41:52.060
+nos vendió la comadre
+
+00:41:52.060 --> 00:41:54.060
+que esto es maravilloso porque
+
+00:41:54.060 --> 00:41:56.060
+las funciones, las redes neuronales
+
+00:41:56.060 --> 00:41:58.060
+todas las no linealidades
+
+00:41:58.060 --> 00:42:00.060
+que existen en los distintos
+
+00:42:00.060 --> 00:42:02.060
+en los distintos variables
+
+00:42:02.060 --> 00:42:04.060
+y las cosas ilogarismas
+
+00:42:04.060 --> 00:42:06.060
+y las cosas más implicadas
+
+00:42:06.060 --> 00:42:08.060
+se acuerdan al ejemplo del papel
+
+00:42:08.060 --> 00:42:10.060
+el papel aruba ¿no es esto?
+
+00:42:10.060 --> 00:42:12.060
+ya
+
+00:42:12.060 --> 00:42:14.060
+es que espera
+
+00:42:14.060 --> 00:42:16.060
+estamos en un perceptrono más
+
+00:42:16.060 --> 00:42:18.060
+pues una neurona
+
+00:42:18.060 --> 00:42:20.060
+nada más una neurona
+
+00:42:20.060 --> 00:42:24.330
+ya, bueno
+
+00:42:24.330 --> 00:42:26.330
+eso es lo que
+
+00:42:26.330 --> 00:42:28.330
+¿qué hora es?
+
+00:42:28.330 --> 00:42:30.330
+sí, no sé, las 5 o no sé qué hora es
+
+00:42:30.330 --> 00:42:32.330
+pero siento la fase 6
+
+00:42:32.330 --> 00:42:34.330
+no sé qué hora es
+
+00:42:34.330 --> 00:42:36.330
+claro, tienen que comprender que el perceptron
+
+00:42:36.330 --> 00:42:38.330
+en este momento lo único que es capaz
+
+00:42:38.330 --> 00:42:40.330
+de generar y de descubrir
+
+00:42:40.330 --> 00:42:42.330
+funciones separadoras o boundary decisions
+
+00:42:42.330 --> 00:42:44.330
+que son separables lineales
+
+00:42:44.330 --> 00:42:46.330
+listos, ya
+
+00:42:46.330 --> 00:42:48.330
+pero bueno, ¿qué pasa si
+
+00:42:48.330 --> 00:42:50.330
+a lo mejor tengo un problema más complejo?
+
+00:42:50.330 --> 00:42:52.330
+no
+
+00:42:52.330 --> 00:42:54.330
+respecto a un problema complicado
+
+00:42:54.330 --> 00:42:56.330
+no se puede separar por una línea recta
+
+00:42:56.330 --> 00:42:58.330
+bueno, ahí viene entonces
+
+00:42:58.330 --> 00:43:00.330
+la capacidad
+
+00:43:00.330 --> 00:43:02.330
+que yo les vendía la clase basada
+
+00:43:02.330 --> 00:43:04.330
+en donde yo puedo tratar
+
+00:43:04.330 --> 00:43:06.330
+la máquina, van a tratar de empezar
+
+00:43:06.330 --> 00:43:08.330
+a generar boundary decision
+
+00:43:08.330 --> 00:43:10.330
+mucho más complicado en la medida que yo vaya
+
+00:43:10.330 --> 00:43:12.330
+incorporando mayor cantidad de neurona
+
+00:43:12.330 --> 00:43:14.330
+por ejemplo, en este caso acá
+
+00:43:14.330 --> 00:43:16.330
+si ustedes lo ven, aquí yo tengo
+
+00:43:16.330 --> 00:43:18.330
+un perceptron
+
+00:43:18.330 --> 00:43:20.330
+aquí tengo otro perceptron
+
+00:43:20.330 --> 00:43:22.330
+no sé esto esté de acá
+
+00:43:22.330 --> 00:43:24.330
+es como que
+
+00:43:24.330 --> 00:43:26.330
+es como que
+
+00:43:26.330 --> 00:43:28.330
+tomase el poder de cada uno
+
+00:43:28.330 --> 00:43:30.330
+los 3 perceptrones por separado
+
+00:43:30.330 --> 00:43:32.330
+y ahora los junto
+
+00:43:32.330 --> 00:43:34.330
+entonces
+
+00:43:34.330 --> 00:43:36.330
+así pero cada perceptron
+
+00:43:36.330 --> 00:43:38.330
+genera un boundary decision
+
+00:43:38.330 --> 00:43:40.330
+que es
+
+00:43:40.330 --> 00:43:42.330
+línea, si claro
+
+00:43:42.330 --> 00:43:44.330
+pero ahora cuando yo coloco 3
+
+00:43:44.330 --> 00:43:46.330
+cuando yo coloco 3 neurones en esta capa
+
+00:43:46.330 --> 00:43:48.330
+3 perceptrones
+
+00:43:48.330 --> 00:43:50.330
+ahora el boundary decision
+
+00:43:50.330 --> 00:43:52.330
+es una sola línea recta
+
+00:43:52.330 --> 00:43:54.330
+a lo mejor ya tengo la capacidad de generar
+
+00:43:54.330 --> 00:43:56.330
+por ejemplo una cosa como esta
+
+00:43:56.330 --> 00:44:00.060
+y veis ahí
+
+00:44:00.060 --> 00:44:02.060
+y eso, bueno
+
+00:44:02.060 --> 00:44:04.060
+es una región
+
+00:44:04.060 --> 00:44:06.060
+un triángulo que está generado por 3
+
+00:44:06.060 --> 00:44:08.060
+líneas rectas que a su vez generaron
+
+00:44:08.060 --> 00:44:10.060
+un boundary decision
+
+00:44:10.060 --> 00:44:12.060
+todo lo que está aquí adentro
+
+00:44:12.060 --> 00:44:14.060
+y todo lo que está aquí adentro
+
+00:44:14.060 --> 00:44:16.060
+son los depresivos
+
+00:44:16.060 --> 00:44:18.060
+y todos los puntos que quedaron aquí afuera
+
+00:44:18.060 --> 00:44:20.060
+son los no depresivos
+
+00:44:20.060 --> 00:44:22.060
+ahora lo veré
+
+00:44:22.060 --> 00:44:24.060
+con 3, agregué
+
+00:44:24.060 --> 00:44:26.060
+2 neuronitas más a la cuestión
+
+00:44:26.060 --> 00:44:28.060
+y ahora generé un boundary decision
+
+00:44:28.060 --> 00:44:30.060
+más complejo
+
+00:44:30.060 --> 00:44:32.060
+lo que ustedes tienen que comprender ahora
+
+00:44:32.060 --> 00:44:34.060
+habiendo pasado 45 segundos
+
+00:44:34.060 --> 00:44:36.060
+de lo que acabo de decir anteriormente
+
+00:44:36.060 --> 00:44:38.060
+es que el hecho de llegar
+
+00:44:38.060 --> 00:44:40.060
+más neurona
+
+00:44:40.060 --> 00:44:42.060
+es geométricamente
+
+00:44:42.060 --> 00:44:44.060
+hablando es generar
+
+00:44:44.060 --> 00:44:46.060
+espacios de decisión más complicados
+
+00:44:46.060 --> 00:44:48.060
+entonces si en vez de 3
+
+00:44:48.060 --> 00:44:50.060
+le voló con 1, le voló con 4
+
+00:44:50.060 --> 00:44:52.060
+¿no? como aquí haré el espacio de decisión
+
+00:44:52.060 --> 00:44:54.060
+les voy a decir una cuestión mucho más complicada
+
+00:44:54.060 --> 00:44:56.060
+una cuestión así
+
+00:44:56.060 --> 00:44:58.060
+¿no es cierto?
+
+00:44:58.060 --> 00:45:00.060
+y ya eso comienza
+
+00:45:00.060 --> 00:45:02.060
+hacer no linear, no es cierto que comienza a complicarse mucho
+
+00:45:02.060 --> 00:45:04.060
+¿entienden?
+
+00:45:04.060 --> 00:45:06.060
+se entiende la idea
+
+00:45:06.060 --> 00:45:08.060
+no tengo una
+
+00:45:08.060 --> 00:45:10.060
+no les tengo una
+
+00:45:10.060 --> 00:45:12.060
+no les tengo una simulación para poder esto
+
+00:45:12.060 --> 00:45:14.060
+sería interesante eso, tener una simulación
+
+00:45:14.060 --> 00:45:16.060
+para que uno pueda ver
+
+00:45:16.060 --> 00:45:18.060
+como se genera un boundary decision
+
+00:45:18.060 --> 00:45:20.060
+en la medida en la que uno le agrega más neurona
+
+00:45:20.060 --> 00:45:22.060
+pero se lo pueden imaginar por lo pronto
+
+00:45:22.060 --> 00:45:24.060
+que básicamente el hecho de agregar más neurona
+
+00:45:24.060 --> 00:45:26.060
+es que uno está
+
+00:45:26.060 --> 00:45:28.060
+colocando más percipciones
+
+00:45:28.060 --> 00:45:30.060
+y generando
+
+00:45:30.060 --> 00:45:32.060
+estos espacios más complicados
+
+00:45:32.060 --> 00:45:34.060
+ya, el profesor ilustrativo
+
+00:45:34.060 --> 00:45:36.060
+cuando mencionaba que una red neuronal
+
+00:45:36.060 --> 00:45:38.060
+es claro con el perceptron
+
+00:45:38.060 --> 00:45:40.060
+y cuando se combinan varios perceptrones
+
+00:45:40.060 --> 00:45:42.060
+se transforma en deep learning
+
+00:45:42.060 --> 00:45:44.060
+que era una especie de
+
+00:45:44.060 --> 00:45:46.060
+como fancy
+
+00:45:46.060 --> 00:45:48.060
+le llamamos llamarlo como esta acumulación de perceptrones
+
+00:45:48.060 --> 00:45:50.060
+una deep learning
+
+00:45:50.060 --> 00:45:52.060
+si, si
+
+00:45:52.060 --> 00:45:54.060
+ahora claro, en efecto
+
+00:45:54.060 --> 00:45:56.060
+aquí yo esto no es ningún deep learning
+
+00:45:56.060 --> 00:45:58.060
+es simplemente perceptron, multiclass
+
+00:45:58.060 --> 00:46:00.060
+no sé esto es donde
+
+00:46:00.060 --> 00:46:02.060
+básicamente
+
+00:46:02.060 --> 00:46:04.060
+si yo tengo un problema de clasificación
+
+00:46:04.060 --> 00:46:06.060
+y que yo quiero distinguir un perro gato
+
+00:46:06.060 --> 00:46:08.060
+perro gato vaca
+
+00:46:08.060 --> 00:46:10.060
+entonces yo aquí yo podría
+
+00:46:10.060 --> 00:46:12.060
+tres salidas
+
+00:46:12.060 --> 00:46:14.060
+por ejemplo a una función de activación
+
+00:46:14.060 --> 00:46:16.060
+que fuese una softmax
+
+00:46:16.060 --> 00:46:18.060
+y el resultado fuese interpretable
+
+00:46:18.060 --> 00:46:20.060
+con una probabilidad
+
+00:46:20.060 --> 00:46:22.060
+y por ejemplo si aquí me da 0.9
+
+00:46:22.060 --> 00:46:24.060
+entonces en un 90% probabilidad
+
+00:46:24.060 --> 00:46:26.060
+de que se traten un perro
+
+00:46:26.060 --> 00:46:28.060
+pero lo que quiero decir con esto
+
+00:46:28.060 --> 00:46:30.060
+es que el agregar más neurona
+
+00:46:30.060 --> 00:46:32.060
+nos permite
+
+00:46:32.060 --> 00:46:34.060
+que la máquina genere
+
+00:46:34.060 --> 00:46:36.060
+estos boundary decision más complicados
+
+00:46:36.060 --> 00:46:38.060
+pero ahora viene otra pregunta
+
+00:46:38.060 --> 00:46:40.060
+que pasa si a esto
+
+00:46:40.060 --> 00:46:42.060
+más neurona ahora le coloco
+
+00:46:42.060 --> 00:46:44.060
+otra capa
+
+00:46:44.060 --> 00:46:46.060
+otro layer, ¿no es cierto?
+
+00:46:46.060 --> 00:46:48.060
+necesamente conectado
+
+00:46:48.060 --> 00:46:50.060
+es distinto, esto es agregar
+
+00:46:50.060 --> 00:46:52.060
+más neurona
+
+00:46:52.060 --> 00:46:54.060
+más neurona nos permite
+
+00:46:54.060 --> 00:46:56.060
+complicizar el boundary decision
+
+00:46:56.060 --> 00:46:58.060
+pero ¿cuál es el efecto?
+
+00:46:58.060 --> 00:47:00.060
+el efecto de agregar otra capa más
+
+00:47:00.060 --> 00:47:02.060
+el efecto
+
+00:47:02.060 --> 00:47:04.060
+de agregar otra capa más en simple
+
+00:47:04.060 --> 00:47:06.060
+es precisamente
+
+00:47:06.060 --> 00:47:08.060
+darle la oportunidad
+
+00:47:08.060 --> 00:47:10.060
+en la capacidad
+
+00:47:10.060 --> 00:47:12.060
+de que la máquina
+
+00:47:12.060 --> 00:47:14.060
+comience a descubrir
+
+00:47:14.060 --> 00:47:16.060
+estos posibles patrones no lineales
+
+00:47:16.060 --> 00:47:18.060
+estas interacciones
+
+00:47:18.060 --> 00:47:20.060
+estos cuadráticos, estos cúbicos
+
+00:47:20.060 --> 00:47:22.060
+de todas estas cuestiones no lineales
+
+00:47:22.060 --> 00:47:24.060
+que están dentro de estas relaciones
+
+00:47:24.060 --> 00:47:26.060
+que hay entre estas pareas
+
+00:47:26.060 --> 00:47:28.060
+o sea, si usted me pregunta
+
+00:47:28.060 --> 00:47:30.060
+uno puede asociar
+
+00:47:30.060 --> 00:47:32.060
+el hecho de agregar más neuronas
+
+00:47:32.060 --> 00:47:34.060
+con
+
+00:47:34.060 --> 00:47:36.060
+generar un boundary decision
+
+00:47:36.060 --> 00:47:38.060
+más complicado
+
+00:47:38.060 --> 00:47:40.060
+y por otro lado, el agregar más capas
+
+00:47:40.060 --> 00:47:42.060
+aparte de eso, le da
+
+00:47:42.060 --> 00:47:44.060
+más oportunidad de descubrir
+
+00:47:44.060 --> 00:47:46.060
+todas estas intrincadas interacciones
+
+00:47:46.060 --> 00:47:48.060
+que podrían existir
+
+00:47:48.060 --> 00:47:50.060
+entre los mismos inputs
+
+00:47:50.060 --> 00:47:52.060
+de información que uno le da
+
+00:47:52.060 --> 00:47:54.060
+a la máquina para que pueda entrenar
+
+00:47:54.060 --> 00:47:56.060
+creo que
+
+00:47:56.060 --> 00:47:58.060
+ese era tu
+
+00:47:58.060 --> 00:48:00.060
+comentario
+
+00:48:00.060 --> 00:48:03.590
+ahora
+
+00:48:03.590 --> 00:48:05.590
+¿qué es lo que pasa que la gente
+
+00:48:05.590 --> 00:48:07.590
+le traga?
+
+00:48:07.590 --> 00:48:09.590
+la gente le traga y el neuronale dice
+
+00:48:09.590 --> 00:48:11.590
+ya no, pongamos todos los chans
+
+00:48:11.590 --> 00:48:13.590
+toda la carne de la gorrilla y pongámosle
+
+00:48:13.590 --> 00:48:15.590
+no más
+
+00:48:15.590 --> 00:48:17.590
+5, 6,
+
+00:48:17.590 --> 00:48:19.590
+y tampoco
+
+00:48:19.590 --> 00:48:21.590
+va a haber un problema ahí
+
+00:48:21.590 --> 00:48:23.590
+porque de nuevo
+
+00:48:23.590 --> 00:48:25.590
+va a haber un problema que yo le explicaba
+
+00:48:25.590 --> 00:48:27.590
+en la clase pasada de este problema
+
+00:48:27.590 --> 00:48:29.590
+en donde uno trata de resolver
+
+00:48:29.590 --> 00:48:31.590
+un sistema de tres ecuaciones
+
+00:48:31.590 --> 00:48:33.590
+con
+
+00:48:33.590 --> 00:48:35.590
+tres puntos
+
+00:48:35.590 --> 00:48:37.590
+para poder resolver un sistema de ecuaciones
+
+00:48:37.590 --> 00:48:39.590
+de tres encomunidad necesito
+
+00:48:39.590 --> 00:48:41.590
+por lo menos tres puntos
+
+00:48:41.590 --> 00:48:43.590
+entonces
+
+00:48:43.590 --> 00:48:45.590
+yo no puedo
+
+00:48:45.590 --> 00:48:47.590
+ir más chancho en el sentido de colocar
+
+00:48:47.590 --> 00:48:49.590
+sol y dimensionar un modelo
+
+00:48:49.590 --> 00:48:51.590
+en que el modelo va a tener que aprender
+
+00:48:51.590 --> 00:48:53.590
+una multitud de parámetros
+
+00:48:53.590 --> 00:48:55.590
+de decir, todos esos doble B
+
+00:48:55.590 --> 00:48:57.590
+un montón de doble B
+
+00:48:57.590 --> 00:48:59.590
+con pocos datos
+
+00:48:59.590 --> 00:49:01.590
+puede tener problemas sol y dimensionados
+
+00:49:01.590 --> 00:49:03.590
+por el riesgo de producir algo que es
+
+00:49:03.590 --> 00:49:05.590
+qué horror, qué terrible
+
+00:49:05.590 --> 00:49:07.590
+algo que le tenemos, miedo
+
+00:49:07.590 --> 00:49:09.590
+miedo, miedo, miedo, que se llama
+
+00:49:09.590 --> 00:49:11.590
+overfit, eso es el terror
+
+00:49:11.590 --> 00:49:13.590
+del arreglo
+
+00:49:13.590 --> 00:49:17.220
+va
+
+00:49:17.220 --> 00:49:19.220
+y bueno, y aquí otra la misma
+
+00:49:19.220 --> 00:49:21.220
+me anda hablando de lo mismo que ya he repitido
+
+00:49:21.220 --> 00:49:23.220
+un montón de veces, básicamente aquí está aplicada
+
+00:49:23.220 --> 00:49:25.220
+la función de actuación, no es cierto?
+
+00:49:25.220 --> 00:49:27.220
+si menos igual que 0, un 0, menos 1
+
+00:49:27.220 --> 00:49:29.220
+y si más es que 0
+
+00:49:29.220 --> 00:49:31.220
+bien, y aquí
+
+00:49:31.220 --> 00:49:33.220
+y les presento la regla
+
+00:49:33.220 --> 00:49:35.220
+del preceptor
+
+00:49:35.220 --> 00:49:37.220
+es el fundamento
+
+00:49:37.220 --> 00:49:39.220
+y el algoritmo más cadenígola
+
+00:49:39.220 --> 00:49:41.220
+que puede existir
+
+00:49:41.220 --> 00:49:43.220
+para entrenar
+
+00:49:43.220 --> 00:49:45.220
+una red neuronal, miren usted
+
+00:49:45.220 --> 00:49:47.220
+esto creo que lo había hablado
+
+00:49:47.220 --> 00:49:49.220
+creo que ya
+
+00:49:49.220 --> 00:49:51.220
+esta actua del año se mezclaban los
+
+00:49:51.220 --> 00:49:53.220
+tiempos, pero bueno
+
+00:49:53.220 --> 00:49:55.220
+si esto lo hablé
+
+00:49:55.220 --> 00:49:57.220
+y me dice que lo hablé
+
+00:49:57.220 --> 00:49:59.220
+lo sigo, sino lo rebaso
+
+00:49:59.220 --> 00:50:01.220
+piense lo siguiente, supongamos que
+
+00:50:01.220 --> 00:50:03.220
+tenemos
+
+00:50:03.220 --> 00:50:05.220
+x que son los input
+
+00:50:05.220 --> 00:50:07.220
+y en la salida
+
+00:50:07.220 --> 00:50:09.220
+y en la salida real
+
+00:50:09.220 --> 00:50:11.220
+el target, vale
+
+00:50:11.220 --> 00:50:13.220
+entonces el f de x que vendría haciendo el f de x
+
+00:50:13.220 --> 00:50:15.220
+sería la predicción que hace el preceptor
+
+00:50:15.220 --> 00:50:17.220
+y aquí está
+
+00:50:17.220 --> 00:50:19.220
+se da cuenta que f de x
+
+00:50:19.220 --> 00:50:21.220
+que lo que es, es la aplicación
+
+00:50:21.220 --> 00:50:23.220
+del escalón
+
+00:50:23.220 --> 00:50:25.220
+la función de actuación de escalón
+
+00:50:25.220 --> 00:50:27.220
+aplicado sobre lo que siente
+
+00:50:27.220 --> 00:50:29.220
+la suma total de los WB por aquí
+
+00:50:29.220 --> 00:50:31.220
+entonces empiece lo siguiente
+
+00:50:31.220 --> 00:50:33.220
+si el valor real
+
+00:50:33.220 --> 00:50:35.220
+el target
+
+00:50:35.220 --> 00:50:37.220
+es 1
+
+00:50:37.220 --> 00:50:39.220
+y lo que me entrega el preceptor
+
+00:50:39.220 --> 00:50:41.220
+es menos 1, que significa
+
+00:50:41.220 --> 00:50:43.220
+que me quede corto
+
+00:50:43.220 --> 00:50:45.220
+mi predicción es
+
+00:50:45.220 --> 00:50:47.220
+menos 1 y el valor real es 1
+
+00:50:47.220 --> 00:50:49.220
+entonces me quede corto
+
+00:50:49.220 --> 00:50:51.220
+tengo que
+
+00:50:51.220 --> 00:50:53.220
+apuntar más arriba
+
+00:50:53.220 --> 00:50:55.220
+para poder llegar al objetivo
+
+00:50:55.220 --> 00:50:57.220
+para poder hacer eso
+
+00:50:57.220 --> 00:50:59.220
+en el preceptor aquí equivale
+
+00:50:59.220 --> 00:51:01.220
+y aquí vale a tratar de agrandar
+
+00:51:01.220 --> 00:51:03.220
+el WB
+
+00:51:03.220 --> 00:51:05.220
+para que no me quede corto, naturalmente
+
+00:51:05.220 --> 00:51:07.220
+que el X no lo puedo cambiar
+
+00:51:07.220 --> 00:51:09.220
+porque el X es el input
+
+00:51:09.220 --> 00:51:11.220
+eso no lo puedo cambiar
+
+00:51:11.220 --> 00:51:13.220
+pero si puedo cambiar el WB
+
+00:51:13.220 --> 00:51:15.220
+entonces como aquí yo me quede corto
+
+00:51:15.220 --> 00:51:17.220
+corto
+
+00:51:17.220 --> 00:51:19.220
+lo que tengo que hacer
+
+00:51:19.220 --> 00:51:21.220
+es agrandar el WB
+
+00:51:21.220 --> 00:51:23.220
+ahora, puede encontrar
+
+00:51:23.220 --> 00:51:25.220
+si me paso
+
+00:51:25.220 --> 00:51:27.220
+si la bala se me pasa
+
+00:51:27.220 --> 00:51:29.220
+si paso, es decir
+
+00:51:29.220 --> 00:51:31.220
+el valor real era menos 1
+
+00:51:31.220 --> 00:51:33.220
+pero el preceptor me previse más 1
+
+00:51:33.220 --> 00:51:35.220
+y me pase
+
+00:51:35.220 --> 00:51:37.220
+y lo que tengo que hacer
+
+00:51:37.220 --> 00:51:39.220
+es agrandar el WB
+
+00:51:39.220 --> 00:51:41.220
+no sé
+
+00:51:41.220 --> 00:51:43.220
+porque a esa circunstancia
+
+00:51:43.220 --> 00:51:45.220
+voy a decir, bueno
+
+00:51:45.220 --> 00:51:47.220
+la siguiente interacción
+
+00:51:47.220 --> 00:51:49.220
+va a ser el WB que tengo
+
+00:51:49.220 --> 00:51:51.220
+menos
+
+00:51:51.220 --> 00:51:53.220
+el valor del IN
+
+00:51:53.220 --> 00:51:55.220
+fija que estoy el WB
+
+00:51:55.220 --> 00:51:57.220
+para hacer el WB que tengo
+
+00:51:57.220 --> 00:51:59.220
+menos algo
+
+00:51:59.220 --> 00:52:01.220
+este es el caso en donde me quede
+
+00:52:01.220 --> 00:52:03.220
+me quede largo
+
+00:52:03.220 --> 00:52:05.220
+y aquí al red
+
+00:52:05.220 --> 00:52:07.220
+si me quede corto
+
+00:52:07.220 --> 00:52:09.220
+que hago
+
+00:52:09.220 --> 00:52:11.220
+el WB mañana, hacer el WB que tengo ahora
+
+00:52:11.220 --> 00:52:13.220
+más X
+
+00:52:13.220 --> 00:52:15.220
+lo agrandar
+
+00:52:15.220 --> 00:52:17.220
+y así
+
+00:52:17.220 --> 00:52:19.220
+resulta que aquí
+
+00:52:19.220 --> 00:52:21.220
+aquí está la neurona
+
+00:52:21.220 --> 00:52:23.220
+entra la cosa
+
+00:52:23.220 --> 00:52:25.220
+aquí tengo f de X
+
+00:52:25.220 --> 00:52:27.220
+lo compro con el I
+
+00:52:27.220 --> 00:52:29.220
+y digo
+
+00:52:29.220 --> 00:52:31.220
+me quede corto
+
+00:52:31.220 --> 00:52:33.220
+que hago aquí
+
+00:52:33.220 --> 00:52:35.220
+a este WB que está aquí
+
+00:52:35.220 --> 00:52:37.220
+lo voy a agrandar
+
+00:52:37.220 --> 00:52:39.220
+como lo voy a agrandar, hacer WB más X
+
+00:52:39.220 --> 00:52:41.220
+si me quede corto
+
+00:52:41.220 --> 00:52:43.220
+si me quede chico
+
+00:52:43.220 --> 00:52:45.220
+lo voy a agrandar
+
+00:52:45.220 --> 00:52:47.220
+y después le vuelvo a ingresar
+
+00:52:47.220 --> 00:52:49.220
+e ingresar el input y así voy
+
+00:52:49.220 --> 00:52:51.220
+si así, entonces
+
+00:52:51.220 --> 00:52:53.220
+¿cuál es el propósito de esto?
+
+00:52:53.220 --> 00:52:55.220
+el propósito es
+
+00:52:55.220 --> 00:52:57.220
+precisamente acuerdas de lo que dije al principio
+
+00:52:57.220 --> 00:52:59.220
+es tratar
+
+00:52:59.220 --> 00:53:01.220
+de que en forma consecutiva
+
+00:53:01.220 --> 00:53:03.220
+a través del tiempo, en la medida que yo le voy
+
+00:53:03.220 --> 00:53:05.220
+presentando los estímulos
+
+00:53:05.220 --> 00:53:07.220
+las muestras muchas veces
+
+00:53:07.220 --> 00:53:09.220
+esta diferencia entre lo que entrega
+
+00:53:09.220 --> 00:53:11.220
+el perceptron y el valor verdadero
+
+00:53:11.220 --> 00:53:13.220
+sea cada vez más chiquitita
+
+00:53:13.220 --> 00:53:15.220
+vaya de incluyendo
+
+00:53:15.220 --> 00:53:17.220
+de hecho yo podría graficar aquí
+
+00:53:17.220 --> 00:53:19.220
+no sé si esto aquí yo podría graficar el error
+
+00:53:19.220 --> 00:53:21.220
+o el loss
+
+00:53:21.220 --> 00:53:23.220
+y aquí voy a graficar
+
+00:53:23.220 --> 00:53:25.220
+lo que se llaman las epochs
+
+00:53:25.220 --> 00:53:27.220
+no sé si esto lo hago del tiempo
+
+00:53:27.220 --> 00:53:29.220
+en la iteración 1
+
+00:53:29.220 --> 00:53:31.220
+en la iteración 2
+
+00:53:31.220 --> 00:53:33.220
+en la iteración 3
+
+00:53:33.220 --> 00:53:35.220
+y yo lo que debiera ver
+
+00:53:35.220 --> 00:53:37.220
+es que claro, al principio el error es
+
+00:53:37.220 --> 00:53:39.220
+el porté titánico
+
+00:53:39.220 --> 00:53:41.220
+porque al principio como son los WB
+
+00:53:41.220 --> 00:53:43.220
+comparto con los WB al lote
+
+00:53:43.220 --> 00:53:45.220
+son unos números tirados al azar
+
+00:53:45.220 --> 00:53:47.220
+entonces al principio el error va a ser horrendo
+
+00:53:47.220 --> 00:53:49.220
+pero en la medida que
+
+00:53:49.220 --> 00:53:51.220
+vaya aplicando este algoritmo
+
+00:53:51.220 --> 00:53:53.220
+el aprendizaje
+
+00:53:53.220 --> 00:53:55.220
+que lo que debería yo ver
+
+00:53:55.220 --> 00:53:57.220
+debería ver que apapuladamente
+
+00:53:57.220 --> 00:53:59.220
+este error o este loss
+
+00:53:59.220 --> 00:54:01.220
+vaya disminuyendo
+
+00:54:01.220 --> 00:54:03.220
+de hecho, usualmente uno lo que espera
+
+00:54:03.220 --> 00:54:05.220
+es que al principio el error disminuya
+
+00:54:05.220 --> 00:54:07.220
+muy rápido
+
+00:54:07.220 --> 00:54:09.220
+y después con el tiempo
+
+00:54:09.220 --> 00:54:11.220
+esa tasa de disminución
+
+00:54:11.220 --> 00:54:13.220
+es algo así
+
+00:54:13.220 --> 00:54:15.220
+algo así
+
+00:54:15.220 --> 00:54:17.220
+esto es
+
+00:54:17.220 --> 00:54:19.220
+al final
+
+00:54:19.220 --> 00:54:21.220
+en la práctica
+
+00:54:21.220 --> 00:54:23.220
+esto es lo que uno anda preocupado
+
+00:54:23.220 --> 00:54:25.220
+todo el tiempo
+
+00:54:27.220 --> 00:54:29.220
+¿por qué deberíamos esperar que la tasa disminuya?
+
+00:54:29.220 --> 00:54:31.220
+¿por qué no podríamos ver algo lineal
+
+00:54:31.220 --> 00:54:33.220
+por ejemplo de bajada?
+
+00:54:33.220 --> 00:54:35.220
+algo así
+
+00:54:35.220 --> 00:54:37.220
+como una disminución lineal
+
+00:54:37.220 --> 00:54:39.220
+así, así
+
+00:54:39.220 --> 00:54:41.220
+yo entendería porque siempre es cada vez menos el error
+
+00:54:41.220 --> 00:54:43.220
+pero ¿por qué la tasa es cada vez menos
+
+00:54:43.220 --> 00:54:45.220
+como exponencial?
+
+00:54:45.220 --> 00:54:47.220
+porque
+
+00:54:47.220 --> 00:54:49.220
+se supone que al principio
+
+00:54:49.220 --> 00:54:51.220
+la tasa del error es gigante
+
+00:54:51.220 --> 00:54:53.220
+¿por qué? porque como decía
+
+00:54:53.220 --> 00:54:55.220
+todos estos WB
+
+00:54:55.220 --> 00:54:57.220
+todos estos pesos generales están hechos al azar
+
+00:54:57.220 --> 00:54:59.220
+pero al principio
+
+00:54:59.220 --> 00:55:01.220
+lo que tiene que hacer la máquina
+
+00:55:01.220 --> 00:55:03.220
+y lo que hace la máquina en realidad es que conforme
+
+00:55:03.220 --> 00:55:05.220
+va ajustando estos pesos
+
+00:55:05.220 --> 00:55:07.220
+como el error al principio es tan alto
+
+00:55:07.220 --> 00:55:09.220
+inmediatamente
+
+00:55:09.220 --> 00:55:11.220
+los ajustes más grandes que se producen
+
+00:55:11.220 --> 00:55:13.220
+para tratar de disminuir este error
+
+00:55:13.220 --> 00:55:15.220
+se producen al principio
+
+00:55:15.220 --> 00:55:17.220
+por eso es que uno ve
+
+00:55:17.220 --> 00:55:19.220
+que la disminución del error
+
+00:55:19.220 --> 00:55:21.220
+es muy grande al principio
+
+00:55:21.220 --> 00:55:23.220
+pero después ya
+
+00:55:23.220 --> 00:55:25.220
+cuando tú ya como las muestras
+
+00:55:25.220 --> 00:55:27.220
+siguen siendo las mismas
+
+00:55:27.220 --> 00:55:29.220
+y tú se las estás presentando una y otra vez
+
+00:55:29.220 --> 00:55:31.220
+y una y otra vez
+
+00:55:31.220 --> 00:55:33.220
+esta cosa sigue disminuyendo
+
+00:55:33.220 --> 00:55:35.220
+pero ya no puede disminuir tanto el error como al principio
+
+00:55:35.220 --> 00:55:37.220
+porque estos pesos están bastante ya más
+
+00:55:37.220 --> 00:55:39.220
+afinados
+
+00:55:39.220 --> 00:55:41.220
+entonces lo único que tú estás haciendo
+
+00:55:41.220 --> 00:55:43.220
+es que en la medida que pasa el tiempo
+
+00:55:43.220 --> 00:55:45.220
+son ajustes muy chiquitos, muy finos los pesos
+
+00:55:45.220 --> 00:55:47.220
+entonces uno puede esperar
+
+00:55:47.220 --> 00:55:49.220
+de que esta tasa
+
+00:55:49.220 --> 00:55:51.220
+de disminución del error sea con un constante
+
+00:55:51.220 --> 00:55:53.220
+al principio es muy rápido
+
+00:55:53.220 --> 00:55:55.220
+y después ya comienza de caer
+
+00:55:55.220 --> 00:55:57.220
+hasta que llega
+
+00:55:57.220 --> 00:55:59.220
+hasta que comienza a convergir
+
+00:55:59.220 --> 00:56:01.220
+producto de esto
+
+00:56:01.220 --> 00:56:03.220
+de que en el principio
+
+00:56:03.220 --> 00:56:05.220
+es más fuerte y después va disminuyendo
+
+00:56:05.220 --> 00:56:07.220
+porque los datos que tú le estás presentando
+
+00:56:07.220 --> 00:56:09.220
+no son siempre todos igual
+
+00:56:09.220 --> 00:56:11.220
+no son siempre todos distintos
+
+00:56:11.220 --> 00:56:13.220
+tú se va a rescatar esto
+
+00:56:13.220 --> 00:56:17.340
+muchas gracias
+
+00:56:17.340 --> 00:56:19.340
+disculpe
+
+00:56:19.340 --> 00:56:21.340
+otra pregunta más
+
+00:56:21.340 --> 00:56:23.340
+cuando tengo
+
+00:56:23.340 --> 00:56:25.340
+varios pesos diferentes
+
+00:56:25.340 --> 00:56:27.340
+para varios X en el fondo
+
+00:56:27.340 --> 00:56:29.340
+el cuánto los varío a cada uno
+
+00:56:29.340 --> 00:56:31.340
+para cada X desde la misma cantidad
+
+00:56:31.340 --> 00:56:33.340
+también es al azar
+
+00:56:33.340 --> 00:56:35.340
+siempre que sea, a grande o a chicar
+
+00:56:35.340 --> 00:56:37.340
+ya
+
+00:56:37.340 --> 00:56:39.340
+en el algoritmo primitivo
+
+00:56:39.340 --> 00:56:41.340
+que estoy presentando aquí
+
+00:56:41.340 --> 00:56:43.340
+que es el algoritmo cadernípolar
+
+00:56:43.340 --> 00:56:45.340
+de perceptron, aquí está la respuesta
+
+00:56:45.340 --> 00:56:47.340
+fija, por ejemplo
+
+00:56:47.340 --> 00:56:49.340
+aquí el WB lo estoy disminuyendo
+
+00:56:49.340 --> 00:56:51.340
+un equivalente al valor del input
+
+00:56:51.340 --> 00:56:53.340
+aquí el WB
+
+00:56:53.340 --> 00:56:55.340
+lo estoy aumentando el valor del input
+
+00:56:55.340 --> 00:56:57.340
+por ejemplo, si el input
+
+00:56:57.340 --> 00:56:59.340
+es igual a 1, no es cierto entró 1
+
+00:56:59.340 --> 00:57:01.340
+1 y resulta ser que
+
+00:57:01.340 --> 00:57:03.340
+el resultado fue
+
+00:57:03.340 --> 00:57:05.340
+alimentar el 1 1
+
+00:57:05.340 --> 00:57:07.340
+y en realidad debió haber sido un menos 1
+
+00:57:07.340 --> 00:57:09.340
+que significa eso que el WB está muy alto
+
+00:57:09.340 --> 00:57:11.340
+entonces
+
+00:57:11.340 --> 00:57:13.340
+a la siguiente iteración el WB
+
+00:57:13.340 --> 00:57:15.340
+va a ser WB menos
+
+00:57:22.180 --> 00:57:24.180
+disculpe pero entonces
+
+00:57:24.180 --> 00:57:26.180
+cuánto disminuir
+
+00:57:26.180 --> 00:57:28.180
+eso también es estanderizado
+
+00:57:28.180 --> 00:57:30.180
+depende de la situación
+
+00:57:30.180 --> 00:57:32.180
+y como digo, si hay para varios X
+
+00:57:32.180 --> 00:57:34.180
+disminución o agrandamiento
+
+00:57:34.180 --> 00:57:36.180
+es igual para todos
+
+00:57:36.180 --> 00:57:38.180
+si hay varios X
+
+00:57:38.180 --> 00:57:40.180
+este sería por ejemplo
+
+00:57:40.180 --> 00:57:42.180
+si tú tienes X1 y X2
+
+00:57:42.180 --> 00:57:44.180
+esta misma formulita
+
+00:57:44.180 --> 00:57:46.180
+esto sería
+
+00:57:46.180 --> 00:57:48.180
+el WB1 sería igual al WB1
+
+00:57:48.180 --> 00:57:50.180
+de ayer
+
+00:57:50.180 --> 00:57:52.180
+menos el X1
+
+00:57:52.180 --> 00:57:54.180
+y como tienes otro peso
+
+00:57:54.180 --> 00:57:56.180
+el WB2
+
+00:57:56.180 --> 00:57:58.180
+va a ser igual al WB2 de ayer
+
+00:57:58.180 --> 00:58:00.180
+menos el X2
+
+00:58:00.180 --> 00:58:02.180
+aquí la disminución
+
+00:58:02.180 --> 00:58:04.180
+en el caso del WB1
+
+00:58:04.180 --> 00:58:06.180
+lo va a disminuir
+
+00:58:06.180 --> 00:58:08.180
+en el valor de la entrada
+
+00:58:08.180 --> 00:58:10.180
+que corresponde al X1
+
+00:58:10.180 --> 00:58:12.180
+y aquí al valor de la entrada que corresponde al X2
+
+00:58:12.180 --> 00:58:14.180
+en este algoritmo
+
+00:58:14.180 --> 00:58:16.180
+porque
+
+00:58:16.180 --> 00:58:18.180
+hay muchas variantes
+
+00:58:18.180 --> 00:58:20.180
+este es el algoritmo más primitivo
+
+00:58:20.180 --> 00:58:22.180
+lo que va a pasar
+
+00:58:22.180 --> 00:58:24.180
+cuando el hecho lo va a mover
+
+00:58:24.180 --> 00:58:26.180
+es que
+
+00:58:26.180 --> 00:58:28.180
+si te das cuenta
+
+00:58:28.180 --> 00:58:30.180
+las disminuciones, los ajustes
+
+00:58:30.180 --> 00:58:32.180
+que tú estás haciendo acá
+
+00:58:32.180 --> 00:58:34.180
+son bastante fuertes
+
+00:58:34.180 --> 00:58:36.180
+son muy fuertes
+
+00:58:36.180 --> 00:58:38.180
+lo que va a pasar
+
+00:58:38.180 --> 00:58:40.180
+es que eventualmente
+
+00:58:40.180 --> 00:58:42.180
+esto se va a comportar así
+
+00:58:42.180 --> 00:58:44.180
+va a estar el error
+
+00:58:44.180 --> 00:58:46.180
+y como es todo ajuste de los pesos
+
+00:58:46.180 --> 00:58:48.180
+son tan fuertes
+
+00:58:48.180 --> 00:58:50.180
+que la disminución del error
+
+00:58:50.180 --> 00:58:52.180
+va a ser una cosa como esta
+
+00:58:52.180 --> 00:58:54.180
+así como muy sobre saltar
+
+00:58:54.180 --> 00:58:56.180
+tiene que disminuir con el tiempo
+
+00:58:56.180 --> 00:58:58.180
+porque los ajustes son demasiado fuertes
+
+00:58:58.180 --> 00:59:00.180
+de repente
+
+00:59:00.180 --> 00:59:02.180
+lo disminuye demasiado
+
+00:59:02.180 --> 00:59:04.180
+pero lo disminuiste demasiado
+
+00:59:04.180 --> 00:59:06.180
+entonces se fue para el otro lado
+
+00:59:06.180 --> 00:59:08.180
+pero esos ajustes
+
+00:59:08.180 --> 00:59:10.180
+que usted ocupa son iguales
+
+00:59:10.180 --> 00:59:12.180
+a la salida
+
+00:59:12.180 --> 00:59:14.180
+como les fue
+
+00:59:14.180 --> 00:59:16.180
+bien
+
+00:59:16.180 --> 00:59:18.180
+por ejemplo acá la salida era 1 o
+
+00:59:18.180 --> 00:59:20.180
+menos 1
+
+00:59:20.180 --> 00:59:22.180
+y usted ocupa esos X como 1 o menos 1
+
+00:59:22.180 --> 00:59:24.180
+siempre esos ajustamientos son en base a la salida
+
+00:59:24.180 --> 00:59:26.180
+con su igual valor
+
+00:59:26.180 --> 00:59:28.180
+si, estos ajustes
+
+00:59:28.180 --> 00:59:30.180
+va a ser el WD-
+
+00:59:30.180 --> 00:59:32.180
+suponte que el X1
+
+00:59:32.180 --> 00:59:34.180
+y el X1 fue
+
+00:59:34.180 --> 00:59:36.180
+0.5
+
+00:59:36.180 --> 00:59:38.180
+y el X2 que entra
+
+00:59:38.180 --> 00:59:40.180
+es igual a
+
+00:59:40.180 --> 00:59:42.180
+0.1
+
+00:59:42.180 --> 00:59:44.180
+entonces después si tengo que ajustar acá
+
+00:59:44.180 --> 00:59:46.180
+va a ser WD1
+
+00:59:46.180 --> 00:59:48.180
+de antes menos 0.5
+
+00:59:48.180 --> 00:59:50.180
+WD2 menos 0.1
+
+00:59:50.180 --> 00:59:52.180
+ya, ahí está, muchas gracias
+
+00:59:52.180 --> 00:59:54.180
+ahora lo que estoy diciendo
+
+00:59:54.180 --> 00:59:56.180
+es otro tema
+
+00:59:56.180 --> 00:59:58.180
+que este ajuste
+
+00:59:58.180 --> 01:00:00.180
+para poder
+
+01:00:00.180 --> 01:00:02.180
+disminuir este error
+
+01:00:02.180 --> 01:00:04.180
+es muy tosco
+
+01:00:04.180 --> 01:00:06.180
+y eso va a producir que eventualmente
+
+01:00:06.180 --> 01:00:08.180
+el aprendizaje sea medio sobre saltado
+
+01:00:08.180 --> 01:00:10.180
+entonces lo que uno hace
+
+01:00:10.180 --> 01:00:12.180
+es en vez de hacerlo de esa manera
+
+01:00:12.180 --> 01:00:14.180
+es hacerlo de esa manera
+
+01:00:14.180 --> 01:00:16.180
+pero aplicándole aquí
+
+01:00:16.180 --> 01:00:18.180
+un pequeño factor
+
+01:00:18.180 --> 01:00:20.180
+un pequeño constante que es lo que se llama
+
+01:00:20.180 --> 01:00:22.180
+la tasa de aprendizaje
+
+01:00:22.180 --> 01:00:24.180
+la tasa de aprendizaje
+
+01:00:24.180 --> 01:00:26.180
+es un valor que está
+
+01:00:26.180 --> 01:00:28.180
+usualmente 0
+
+01:00:28.180 --> 01:00:30.180
+puede ser 0.1
+
+01:00:30.180 --> 01:00:32.180
+0.01
+
+01:00:32.180 --> 01:00:34.180
+son valores chiquitos
+
+01:00:34.180 --> 01:00:36.180
+que precisamente lo que hacen
+
+01:00:36.180 --> 01:00:38.180
+es limitar
+
+01:00:38.180 --> 01:00:40.180
+ese grado de ajuste para que no sea
+
+01:00:40.180 --> 01:00:42.180
+tan brusco el aprendizaje
+
+01:00:42.180 --> 01:00:44.180
+hay aprendizaje pero que sea más suave
+
+01:00:44.180 --> 01:00:46.180
+por eso es que uno le aplica aquí
+
+01:00:46.180 --> 01:00:48.180
+una tasa de aprendizaje
+
+01:00:48.180 --> 01:00:52.650
+ya
+
+01:00:52.650 --> 01:00:54.650
+que dicho sea paso
+
+01:00:54.650 --> 01:00:56.650
+la tasa de aprendizaje es un parámetro
+
+01:00:56.650 --> 01:00:58.650
+un híber parámetro del modelo
+
+01:00:58.650 --> 01:01:00.650
+sube lo importante que uno lo tiene que probar
+
+01:01:00.650 --> 01:01:02.650
+porque como ustedes están pensando
+
+01:01:02.650 --> 01:01:04.650
+que genera
+
+01:01:04.650 --> 01:01:06.650
+un impacto muy profundo
+
+01:01:06.650 --> 01:01:08.650
+en la forma en que abrende la manera
+
+01:01:08.650 --> 01:01:10.650
+si usted le colocó una tasa
+
+01:01:10.650 --> 01:01:12.650
+de aprendizaje por ejemplo igual a
+
+01:01:12.650 --> 01:01:14.650
+0.99
+
+01:01:14.650 --> 01:01:16.650
+que casi 1
+
+01:01:16.650 --> 01:01:18.650
+tal vez
+
+01:01:18.650 --> 01:01:20.650
+va a ser demasiado
+
+01:01:20.650 --> 01:01:22.650
+fuerte
+
+01:01:22.650 --> 01:01:24.650
+va a ser demasiado brusco el aprendizaje
+
+01:01:24.650 --> 01:01:26.650
+y va a oscilar mucho
+
+01:01:26.650 --> 01:01:28.650
+pero por otro lado si le ponen una tasa de aprendizaje
+
+01:01:28.650 --> 01:01:30.650
+es un aprendizaje de 0.01
+
+01:01:30.650 --> 01:01:32.650
+y el autor van a ver que
+
+01:01:32.650 --> 01:01:34.650
+se demora y va claro
+
+01:01:34.650 --> 01:01:36.650
+va disminuyendo de nuevo
+
+01:01:36.650 --> 01:01:38.650
+pero
+
+01:01:38.650 --> 01:01:40.650
+no se
+
+01:01:40.650 --> 01:01:42.650
+hasta que se se que
+
+01:01:42.650 --> 01:01:44.650
+la zona central de Chile va a quedar
+
+01:01:44.650 --> 01:01:46.650
+una tasa de aprendizaje
+
+01:01:46.650 --> 01:01:48.650
+hay que manejar eso
+
+01:01:48.650 --> 01:01:50.650
+hay que ir buscando cuál es la mejor tasa
+
+01:01:50.650 --> 01:01:52.650
+de aprendizaje
+
+01:01:52.650 --> 01:01:54.650
+ya entonces
+
+01:01:54.650 --> 01:01:56.650
+damos acá
+
+01:01:56.650 --> 01:01:58.650
+primer cosa
+
+01:01:58.650 --> 01:02:00.650
+primer modelo que
+
+01:02:00.650 --> 01:02:02.650
+echamos el vistazo a este modelo que está acá
+
+01:02:02.650 --> 01:02:04.650
+de un segundo
+
+01:02:04.650 --> 01:02:06.650
+para también dirigirme
+
+01:02:06.650 --> 01:02:08.650
+y sería bueno que usted también vaya
+
+01:02:08.650 --> 01:02:10.650
+abriendo eso
+
+01:02:10.650 --> 01:02:12.650
+lo pueden tener carregado
+
+01:02:12.650 --> 01:02:14.650
+en el Google cola
+
+01:02:14.650 --> 01:02:16.650
+yo lo que voy a hacer es mostrarle
+
+01:02:16.650 --> 01:02:18.650
+lo que yo tengo
+
+01:02:18.650 --> 01:02:20.650
+pero también ustedes tengan la chance
+
+01:02:20.650 --> 01:02:22.650
+la oportunidad de ir corriendo
+
+01:02:22.650 --> 01:02:24.650
+damos acá
+
+01:02:24.650 --> 01:02:26.650
+a ver
+
+01:02:26.650 --> 01:02:28.650
+a ver
+
+01:02:28.650 --> 01:02:35.830
+es pantalla abierta y entonces
+
+01:02:35.830 --> 01:02:37.830
+es un model
+
+01:02:37.830 --> 01:02:39.830
+Perceptron
+
+01:02:39.830 --> 01:02:41.830
+es un model Perceptron
+
+01:02:41.830 --> 01:03:03.350
+y ahora
+
+01:03:03.350 --> 01:03:05.350
+me tengo que ir
+
+01:03:05.350 --> 01:03:15.060
+ahí deberían estar viendo
+
+01:03:15.060 --> 01:03:17.060
+lo que yo estoy proyectando ahí
+
+01:03:17.060 --> 01:03:38.040
+entonces
+
+01:03:38.040 --> 01:03:40.040
+que tengo acá
+
+01:03:40.040 --> 01:03:42.040
+tengo aquí yo estoy creando acá
+
+01:03:42.040 --> 01:03:44.040
+es importante
+
+01:03:44.040 --> 01:03:46.040
+librería no sé
+
+01:03:46.040 --> 01:03:48.040
+aquí tenemos a vos por favor
+
+01:03:48.040 --> 01:03:50.040
+la persona que no es letrada en Python
+
+01:03:50.040 --> 01:03:52.040
+no te maes a preguntarme
+
+01:03:52.040 --> 01:03:54.040
+aquí no hay
+
+01:03:54.040 --> 01:03:56.040
+sabe naciendo así que
+
+01:03:56.040 --> 01:03:58.040
+aunque sea básica la pregunta
+
+01:03:58.040 --> 01:04:00.040
+no hay problema ya
+
+01:04:00.040 --> 01:04:02.040
+yo aquí lo que estoy haciendo
+
+01:04:02.040 --> 01:04:04.040
+es generando un set de datos artificial
+
+01:04:04.040 --> 01:04:06.040
+estoy generando un X
+
+01:04:06.040 --> 01:04:08.040
+que vendrían siendo
+
+01:04:08.040 --> 01:04:10.040
+dos variables
+
+01:04:10.040 --> 01:04:12.040
+que son malas en nuestros predictores
+
+01:04:12.040 --> 01:04:14.040
+y una variable clase
+
+01:04:14.040 --> 01:04:16.040
+una variable clase
+
+01:04:16.040 --> 01:04:18.040
+y la gracia de esto es que
+
+01:04:18.040 --> 01:04:20.040
+esto me permite a mí generar
+
+01:04:20.040 --> 01:04:22.040
+artificialmente un set de datos
+
+01:04:22.040 --> 01:04:24.040
+que yo puedo controlar
+
+01:04:24.040 --> 01:04:26.040
+en dos dimensiones puedo controlar
+
+01:04:26.040 --> 01:04:28.040
+el grado de solapamiento que tienes las dos clases
+
+01:04:28.040 --> 01:04:30.040
+por ejemplo
+
+01:04:30.040 --> 01:04:32.040
+así como está la cosa
+
+01:04:32.040 --> 01:04:34.040
+estoy generando dos features
+
+01:04:34.040 --> 01:04:36.040
+con dos centros cada uno
+
+01:04:36.040 --> 01:04:38.040
+y así como está
+
+01:04:38.040 --> 01:04:40.040
+que si se fijan
+
+01:04:40.040 --> 01:04:42.040
+por ejemplo el rojo podrían ser los deprecidos
+
+01:04:42.040 --> 01:04:44.040
+y los azules no no deprecidos
+
+01:04:44.040 --> 01:04:46.040
+entonces
+
+01:04:46.040 --> 01:04:48.040
+piensen ustedes los siguientes
+
+01:04:48.040 --> 01:04:50.040
+tenemos esa situación en donde quiero predecir
+
+01:04:50.040 --> 01:04:52.040
+con dos features
+
+01:04:52.040 --> 01:04:54.040
+con dos predictores quiero predecirla
+
+01:04:54.040 --> 01:04:56.040
+si un individuo va a ser deprecido
+
+01:04:56.040 --> 01:04:58.040
+y tengo esta situación
+
+01:04:58.040 --> 01:05:00.040
+tengo estas dos
+
+01:05:00.040 --> 01:05:02.040
+como son solamente dos variables
+
+01:05:02.040 --> 01:05:04.040
+lo puedo graficar
+
+01:05:04.040 --> 01:05:06.040
+si fuese más tendría que ser un PCI
+
+01:05:06.040 --> 01:05:08.040
+y si yo tenía
+
+01:05:08.040 --> 01:05:10.040
+bueno, entonces pregunta
+
+01:05:10.040 --> 01:05:12.040
+esto es para ir viendo si
+
+01:05:12.040 --> 01:05:14.040
+alguien va cachando el motor
+
+01:05:14.040 --> 01:05:16.040
+este es un
+
+01:05:16.040 --> 01:05:18.040
+este es un problema que linealmente
+
+01:05:18.040 --> 01:05:20.040
+separable o no
+
+01:05:20.040 --> 01:05:22.040
+lo opinan ustedes
+
+01:05:22.040 --> 01:05:24.040
+si
+
+01:05:24.040 --> 01:05:26.040
+si
+
+01:05:26.040 --> 01:05:28.040
+osea
+
+01:05:28.040 --> 01:05:30.040
+a ver David
+
+01:05:30.040 --> 01:05:32.040
+si nos podría
+
+01:05:32.040 --> 01:05:34.040
+yo no puedo
+
+01:05:34.040 --> 01:05:36.040
+como te imaginas tu una linea recta
+
+01:05:36.040 --> 01:05:38.040
+porque como son dos dimensiones sería una linea recta
+
+01:05:38.040 --> 01:05:40.040
+como podría yo con una linea recta
+
+01:05:40.040 --> 01:05:42.040
+discriminar
+
+01:05:42.040 --> 01:05:44.040
+perfectamente los rojos
+
+01:05:44.040 --> 01:05:46.040
+de los azules
+
+01:05:46.040 --> 01:05:48.040
+osea perfectamente
+
+01:05:48.040 --> 01:05:50.040
+está difícil con una sola linea
+
+01:05:50.040 --> 01:05:52.040
+pero si con un gran porcentaje de éxito
+
+01:05:52.040 --> 01:05:54.040
+que finalmente ha sido pero al menos el mundo real
+
+01:05:54.040 --> 01:05:56.040
+hasta donde tengo entendido
+
+01:05:56.040 --> 01:05:58.040
+real neuronales que sean como 100%
+
+01:05:58.040 --> 01:06:00.040
+correctas para
+
+01:06:00.040 --> 01:06:02.040
+problemas del mundo real
+
+01:06:02.040 --> 01:06:04.040
+pero el problema
+
+01:06:04.040 --> 01:06:06.040
+es linealmente clasificable
+
+01:06:06.040 --> 01:06:08.040
+la respuesta
+
+01:06:08.040 --> 01:06:10.040
+no, no, porque yo no puedo
+
+01:06:10.040 --> 01:06:12.040
+yo aquí yo no puedo
+
+01:06:12.040 --> 01:06:14.040
+discriminar las clases
+
+01:06:14.040 --> 01:06:16.040
+yo no puedo separar con una función
+
+01:06:16.040 --> 01:06:18.040
+lineal, no puedo separarla
+
+01:06:18.040 --> 01:06:20.040
+con una linea recta
+
+01:06:20.040 --> 01:06:22.040
+que vio que está sola más
+
+01:06:22.040 --> 01:06:24.040
+bueno, podría quedarle
+
+01:06:24.040 --> 01:06:26.040
+flexibilidad a la curva en el fondo
+
+01:06:26.040 --> 01:06:28.040
+está haciéndola con polinomio
+
+01:06:28.040 --> 01:06:30.040
+ya, ok
+
+01:06:30.040 --> 01:06:32.040
+tal vez con un polinome y yo podría
+
+01:06:32.040 --> 01:06:34.040
+tal vez aquí inventar un polinoma
+
+01:06:34.040 --> 01:06:36.040
+y súper intrincado que pasa por ahí
+
+01:06:36.040 --> 01:06:38.040
+cuando yo
+
+01:06:38.040 --> 01:06:40.040
+el mouse
+
+01:06:40.040 --> 01:06:42.040
+usted veré el mouse que yo lo... bueno
+
+01:06:42.040 --> 01:06:44.040
+no
+
+01:06:44.040 --> 01:06:46.040
+si
+
+01:06:46.040 --> 01:06:48.040
+estaría vendrea oversteering
+
+01:06:48.040 --> 01:06:50.040
+entonces yo podría inventar aquí un polinoma
+
+01:06:50.040 --> 01:06:52.040
+pero súper, súper intrincado que pasa por aquí
+
+01:06:52.040 --> 01:06:54.040
+por aquí, por aquí, por aquí
+
+01:06:54.040 --> 01:06:56.040
+pero pregunta
+
+01:06:56.040 --> 01:06:58.040
+¿Acuál es si está el perceptron?
+
+01:06:58.040 --> 01:07:00.040
+¿El perceptron puede lidiar
+
+01:07:00.040 --> 01:07:02.040
+en consecuencia con este tipo de problemas?
+
+01:07:02.040 --> 01:07:04.040
+si
+
+01:07:04.040 --> 01:07:06.040
+o no
+
+01:07:06.040 --> 01:07:08.040
+como monocapa
+
+01:07:08.040 --> 01:07:10.040
+el perceptron
+
+01:07:10.040 --> 01:07:13.610
+el perceptron
+
+01:07:13.610 --> 01:07:15.610
+no, no puede
+
+01:07:15.610 --> 01:07:17.610
+porque del momento que el problema
+
+01:07:17.610 --> 01:07:19.610
+es linearmente separable
+
+01:07:19.610 --> 01:07:21.610
+el perceptron va a fallar
+
+01:07:21.610 --> 01:07:23.610
+va a fallar, yo no estoy diciendo que
+
+01:07:23.610 --> 01:07:25.610
+no podamos
+
+01:07:25.610 --> 01:07:27.610
+entrenar el perceptron para este problema
+
+01:07:27.610 --> 01:07:29.610
+yo no estoy diciendo eso
+
+01:07:29.610 --> 01:07:31.610
+lo que estoy diciendo es que
+
+01:07:31.610 --> 01:07:33.610
+en conforme a lo que ya habíamos pidido
+
+01:07:33.610 --> 01:07:35.610
+que el perceptron solamente es capaz
+
+01:07:35.610 --> 01:07:37.610
+de generar soluciones
+
+01:07:37.610 --> 01:07:39.610
+en donde
+
+01:07:39.610 --> 01:07:41.610
+la instancia sea linearmente separable
+
+01:07:41.610 --> 01:07:43.610
+yo ya sé de antemano
+
+01:07:43.610 --> 01:07:45.610
+con esta información que tengo
+
+01:07:45.610 --> 01:07:47.610
+de antemano que el perceptron
+
+01:07:47.610 --> 01:07:49.610
+no va a poder servir la pega
+
+01:07:49.610 --> 01:07:51.610
+porque simplemente no es linearmente separable
+
+01:07:51.610 --> 01:07:53.610
+la instancia está solabada
+
+01:07:53.610 --> 01:07:55.610
+no se puede
+
+01:07:55.610 --> 01:07:57.610
+o sea, no lo va a servir
+
+01:07:57.610 --> 01:07:59.610
+lo puedo entrenar, si lo puedo entrenar
+
+01:07:59.610 --> 01:08:01.610
+pero no lo va a servir
+
+01:08:01.610 --> 01:08:03.610
+porque no hay manera de
+
+01:08:03.610 --> 01:08:05.610
+encontrar una línea recta
+
+01:08:05.610 --> 01:08:07.610
+que separe la foto
+
+01:08:07.610 --> 01:08:09.610
+pero no importa
+
+01:08:09.610 --> 01:08:11.610
+lo vamos a hacer igual
+
+01:08:11.610 --> 01:08:13.610
+entonces aquí está hecho
+
+01:08:13.610 --> 01:08:15.610
+en la práctica, a vosotros no lo van a hacer a mano
+
+01:08:15.610 --> 01:08:17.610
+pero aquí está hecho a mano
+
+01:08:17.610 --> 01:08:19.610
+por dentro como la auto
+
+01:08:19.610 --> 01:08:21.610
+profesor, dime
+
+01:08:21.610 --> 01:08:23.610
+mire, hice correr el archivo
+
+01:08:23.610 --> 01:08:25.610
+digamos en
+
+01:08:25.610 --> 01:08:27.610
+Beach & Studio Code y también en
+
+01:08:27.610 --> 01:08:29.610
+Colab
+
+01:08:29.610 --> 01:08:31.610
+pero aparecen los grupos bien separados
+
+01:08:31.610 --> 01:08:33.610
+o sea se podría tirar una línea
+
+01:08:33.610 --> 01:08:35.610
+que separe estos dos
+
+01:08:35.610 --> 01:08:37.610
+no como el gráfico que tiene usted
+
+01:08:37.610 --> 01:08:39.610
+no sé si hizo algo en el archivo
+
+01:08:39.610 --> 01:08:41.610
+son distintos
+
+01:08:41.610 --> 01:08:43.610
+son diferentes
+
+01:08:43.610 --> 01:08:45.610
+pueden ser, recuerden que pueden ser diferentes
+
+01:08:45.610 --> 01:08:47.610
+porque
+
+01:08:47.610 --> 01:08:49.610
+en la medida que hay a veces cuando yo uso esto
+
+01:08:49.610 --> 01:08:51.610
+yo los modifico en el sitio
+
+01:08:51.610 --> 01:08:53.610
+que está arriba, son dos grupos separados
+
+01:08:53.610 --> 01:08:55.610
+pero acá el ejemplo están mezclados
+
+01:08:57.610 --> 01:08:59.610
+si, a ustedes pueden
+
+01:08:59.610 --> 01:09:01.610
+meterle mano aquí
+
+01:09:01.610 --> 01:09:03.610
+por ejemplo acá
+
+01:09:03.610 --> 01:09:05.610
+en el cluster STDT
+
+01:09:05.610 --> 01:09:07.610
+si le metes mano ahí
+
+01:09:07.610 --> 01:09:09.610
+y en prueba van, ahí pueden
+
+01:09:09.610 --> 01:09:11.610
+sintéticamente muestras que estén bien separados
+
+01:09:11.610 --> 01:09:13.610
+o más solapados
+
+01:09:13.610 --> 01:09:15.610
+yo estoy partiendo por el caso en donde están solapados
+
+01:09:15.610 --> 01:09:17.610
+para explicarlo
+
+01:09:17.610 --> 01:09:19.610
+pero ahí usted
+
+01:09:19.610 --> 01:09:21.610
+ok, entonces ya sabemos que
+
+01:09:21.610 --> 01:09:23.610
+el perceptron no lo va a hacer bien
+
+01:09:23.610 --> 01:09:25.610
+pero no importa
+
+01:09:25.610 --> 01:09:27.610
+yo fíjense qué es lo que estoy haciendo ahí
+
+01:09:27.610 --> 01:09:29.610
+estoy definiendo a mano
+
+01:09:29.610 --> 01:09:31.610
+la función
+
+01:09:31.610 --> 01:09:33.610
+la función escalón, se dan cuenta de la función escalón
+
+01:09:35.610 --> 01:09:37.610
+y aquí está
+
+01:09:37.610 --> 01:09:39.610
+el algoritmo del perceptron
+
+01:09:39.610 --> 01:09:41.610
+el algoritmo cabernicola por el cual
+
+01:09:41.610 --> 01:09:43.610
+los pesos se van ajustando para tratar
+
+01:09:43.610 --> 01:09:45.610
+de ir reduciendo el oro
+
+01:09:45.610 --> 01:09:47.610
+dicho sea vaso, anoten ahí, abuérense usted
+
+01:09:47.610 --> 01:09:49.610
+el aprendizaje
+
+01:09:49.610 --> 01:09:51.610
+en redes neuronales
+
+01:09:51.610 --> 01:09:53.610
+significa nada más y nada menos
+
+01:09:53.610 --> 01:09:55.610
+que ir ajustando los pesos sinápticos
+
+01:09:55.610 --> 01:09:57.610
+eso se llama aprendizaje
+
+01:09:57.610 --> 01:09:59.610
+entonces aquí tengo una función
+
+01:09:59.610 --> 01:10:01.610
+que lo que hace es exactamente
+
+01:10:01.610 --> 01:10:03.610
+aplicar el mismo algoritmo
+
+01:10:03.610 --> 01:10:05.610
+que les he acabado de explicar en la transparencia
+
+01:10:05.610 --> 01:10:07.610
+y se dan cuenta
+
+01:10:07.610 --> 01:10:09.610
+esto lo está haciendo a través de varias veces
+
+01:10:09.610 --> 01:10:11.610
+varias iteraciones
+
+01:10:11.610 --> 01:10:13.610
+fíjense que aquí entonces yo estoy
+
+01:10:13.610 --> 01:10:15.610
+generando
+
+01:10:15.610 --> 01:10:17.610
+aquí yo estoy aplicando
+
+01:10:17.610 --> 01:10:19.610
+la función step, la escalón
+
+01:10:19.610 --> 01:10:21.610
+sobre qué cosa
+
+01:10:21.610 --> 01:10:23.610
+qué es lo que es esto
+
+01:10:23.610 --> 01:10:25.610
+esto es la sumatoria de los x multiplicado por los t
+
+01:10:25.610 --> 01:10:27.610
+que en este caso es lo kv
+
+01:10:27.610 --> 01:10:29.610
+entonces le estoy aplicando la función escalón
+
+01:10:29.610 --> 01:10:31.610
+a lo que siente
+
+01:10:31.610 --> 01:10:33.610
+el perceptron que es una neurona
+
+01:10:33.610 --> 01:10:35.610
+una neurona nada más
+
+01:10:35.610 --> 01:10:37.610
+y después que lo que hago chequeo
+
+01:10:37.610 --> 01:10:39.610
+si es que chequeo como en la diferencia
+
+01:10:39.610 --> 01:10:41.610
+estoy chequeando la diferencia
+
+01:10:41.610 --> 01:10:43.610
+la predicción con el valor real
+
+01:10:43.610 --> 01:10:45.610
+y
+
+01:10:45.610 --> 01:10:47.610
+no siento que lo que hago
+
+01:10:47.610 --> 01:10:49.610
+ajusto el valor del peso
+
+01:10:49.610 --> 01:10:51.610
+de acuerdo a esa diferencia
+
+01:10:51.610 --> 01:10:53.610
+y la multiplico por x sub i
+
+01:10:53.610 --> 01:10:55.610
+en este caso x sub 1
+
+01:10:55.610 --> 01:10:57.610
+x sub 2
+
+01:10:57.610 --> 01:10:59.610
+y la multiplico para que no sea tan brusco
+
+01:10:59.610 --> 01:11:01.610
+la actualización
+
+01:11:01.610 --> 01:11:03.610
+la multiplico por lr
+
+01:11:03.610 --> 01:11:05.610
+que para nosotros el lrs
+
+01:11:05.610 --> 01:11:07.610
+learning rate con la tasa de aprendizaje
+
+01:11:07.610 --> 01:11:09.610
+exacto
+
+01:11:09.610 --> 01:11:11.610
+si ustedes tienen dos pantallas y chequean el algoritmo
+
+01:11:11.610 --> 01:11:13.610
+con esto que hay aquí es lo mismo
+
+01:11:13.610 --> 01:11:15.610
+tienen la versión en código y la versión secudo
+
+01:11:15.610 --> 01:11:17.610
+entonces
+
+01:11:17.610 --> 01:11:19.610
+lo cargan y
+
+01:11:19.610 --> 01:11:21.610
+adicionalmente hay una función adicional
+
+01:11:21.610 --> 01:11:23.610
+que nos permite gráficar
+
+01:11:23.610 --> 01:11:25.610
+el decision boundary
+
+01:11:25.610 --> 01:11:27.610
+es decir en este caso la línea recta
+
+01:11:27.610 --> 01:11:29.610
+que ha aprendido el perceptron
+
+01:11:29.610 --> 01:11:31.610
+y el vd1, vd2 y vd6
+
+01:11:31.610 --> 01:11:33.610
+para poder separar
+
+01:11:33.610 --> 01:11:35.610
+lo mejor posible
+
+01:11:35.610 --> 01:11:37.610
+este problema
+
+01:11:37.610 --> 01:11:39.610
+mira usted lo que me dio aquí
+
+01:11:39.610 --> 01:11:41.610
+utilicé
+
+01:11:41.610 --> 01:11:43.610
+una tasa de aprendizaje al principio
+
+01:11:43.610 --> 01:11:45.610
+de 0.05
+
+01:11:45.610 --> 01:11:47.610
+y aquí tengo
+
+01:11:47.610 --> 01:11:49.610
+una primera iteración
+
+01:11:49.610 --> 01:11:51.610
+lo hice una vez no más
+
+01:11:51.610 --> 01:11:53.610
+si rican ahí estoy
+
+01:11:53.610 --> 01:11:55.610
+teta
+
+01:11:55.610 --> 01:11:57.610
+la tasa de mal clasificado
+
+01:11:57.610 --> 01:11:59.610
+la trigo de la función
+
+01:11:59.610 --> 01:12:01.610
+que es perceptron x y y
+
+01:12:01.610 --> 01:12:03.610
+y hago el plot
+
+01:12:03.610 --> 01:12:05.610
+y mire lo que pasó
+
+01:12:05.610 --> 01:12:07.610
+esto es horrible no sirve para nada
+
+01:12:07.610 --> 01:12:09.610
+pero este es la primera pasada
+
+01:12:09.610 --> 01:12:11.610
+no más este es un epochs
+
+01:12:11.610 --> 01:12:13.610
+una vez
+
+01:12:13.610 --> 01:12:15.610
+listo con que
+
+01:12:15.610 --> 01:12:17.610
+ya lo voy a hacer de nuevo
+
+01:12:17.610 --> 01:12:19.610
+y mire lo que pasó
+
+01:12:19.610 --> 01:12:21.610
+sigue estando más o menos
+
+01:12:21.610 --> 01:12:23.610
+la tasa de clasificación al principio
+
+01:12:23.610 --> 01:12:25.610
+es de 37 por cierto
+
+01:12:25.610 --> 01:12:27.610
+se está quedando en el más imperio
+
+01:12:27.610 --> 01:12:29.610
+de los datos en clasificar los mal
+
+01:12:29.610 --> 01:12:31.610
+después
+
+01:12:31.610 --> 01:12:33.610
+bajó lo hizo mejor
+
+01:12:33.610 --> 01:12:35.610
+se ajustó un poquito más y está tratando ahí
+
+01:12:35.610 --> 01:12:37.610
+como de lo dando
+
+01:12:37.610 --> 01:12:39.610
+así lo hizo mejor posible
+
+01:12:39.610 --> 01:12:41.610
+y ahora bajó al 30%
+
+01:12:41.610 --> 01:12:43.610
+pero note usted
+
+01:12:43.610 --> 01:12:45.610
+que el vd11
+
+01:12:45.610 --> 01:12:47.610
+como que no vea
+
+01:12:47.610 --> 01:12:49.610
+después lo hice
+
+01:12:49.610 --> 01:12:51.610
+con 10 epochs
+
+01:12:51.610 --> 01:12:53.610
+con 10 epochs
+
+01:12:53.610 --> 01:12:55.610
+este es la maravilla del asunto
+
+01:12:55.610 --> 01:12:57.610
+en la medida que yo voy
+
+01:12:57.610 --> 01:12:59.610
+entrenando este le voy presentando varias veces
+
+01:12:59.610 --> 01:13:01.610
+todos los
+
+01:13:01.610 --> 01:13:03.610
+las instancias
+
+01:13:03.610 --> 01:13:05.610
+que pasa con los pesos
+
+01:13:05.610 --> 01:13:07.610
+los pesos se van ajustando
+
+01:13:07.610 --> 01:13:09.610
+dicho de manera
+
+01:13:09.610 --> 01:13:11.610
+esta vendiente, esta línea recta
+
+01:13:11.610 --> 01:13:13.610
+se empieza a ajustarse
+
+01:13:13.610 --> 01:13:15.610
+empieza a ajustarse
+
+01:13:15.610 --> 01:13:17.610
+y está tratando de ajustarse
+
+01:13:17.610 --> 01:13:19.610
+después con 100 epochs
+
+01:13:19.610 --> 01:13:21.610
+logró ajustarse lo más posible
+
+01:13:21.610 --> 01:13:23.610
+con ese 100 epochs
+
+01:13:23.610 --> 01:13:25.610
+logré
+
+01:13:25.610 --> 01:13:27.610
+una tasa de más clasificado del 26%
+
+01:13:27.610 --> 01:13:29.610
+y ustedes me van a decir
+
+01:13:29.610 --> 01:13:31.610
+es a gusto porque no sirve más para nada
+
+01:13:31.610 --> 01:13:33.610
+pero no importa, ya sabíamos de antemano
+
+01:13:33.610 --> 01:13:35.610
+que este a gusto lo iba a hacer mal
+
+01:13:35.610 --> 01:13:37.610
+porque es un míster oferse tronco
+
+01:13:37.610 --> 01:13:39.610
+tratando de clasificar un problema que es no lineal
+
+01:13:39.610 --> 01:13:44.230
+ok
+
+01:13:44.230 --> 01:13:46.230
+entonces lo que ustedes pueden hacer
+
+01:13:46.230 --> 01:13:48.230
+como ahí Javier se cuenta
+
+01:13:48.230 --> 01:13:50.230
+que si ustedes le cambian aquí esto
+
+01:13:50.230 --> 01:13:52.230
+si le cambian esto
+
+01:13:52.230 --> 01:13:54.230
+pueden hacer que estos dos grupos
+
+01:13:54.230 --> 01:13:56.230
+que hayan más separado
+
+01:13:56.230 --> 01:13:58.230
+y si lo hacen así
+
+01:13:58.230 --> 01:14:00.230
+y entrenan en el perceptron
+
+01:14:00.230 --> 01:14:02.230
+van a ver que este valor de acá
+
+01:14:02.230 --> 01:14:04.230
+de esta serie más clasificado
+
+01:14:04.230 --> 01:14:06.230
+ya no va a ser 26%, va a ser 0%
+
+01:14:06.230 --> 01:14:08.230
+lo va a hacer solo
+
+01:14:08.230 --> 01:14:10.230
+es la gracia que lo hace solo
+
+01:14:10.230 --> 01:14:12.230
+lo hace solo
+
+01:14:12.230 --> 01:14:14.230
+¿Algún voluntario
+
+01:14:14.230 --> 01:14:16.230
+para poder mostrar
+
+01:14:16.230 --> 01:14:18.230
+su ejemplo?
+
+01:14:18.230 --> 01:14:20.230
+esta es la parte interesante
+
+01:14:20.230 --> 01:14:22.230
+de hacerlo online
+
+01:14:22.230 --> 01:14:24.230
+que alguien puede
+
+01:14:24.230 --> 01:14:26.230
+compartir su versión
+
+01:14:26.230 --> 01:14:28.230
+de los hechos
+
+01:14:28.230 --> 01:14:30.230
+tengo un tema
+
+01:14:30.230 --> 01:14:32.230
+porque aparentemente el archivo
+
+01:14:32.230 --> 01:14:34.230
+que este cargo no es el mismo que tiene usted
+
+01:14:34.230 --> 01:14:36.230
+más allá de la distribución
+
+01:14:36.230 --> 01:14:38.230
+de los datos
+
+01:14:38.230 --> 01:14:40.230
+por ejemplo la parte final
+
+01:14:40.230 --> 01:14:42.230
+que veo ahí que dice tarea
+
+01:14:42.230 --> 01:14:44.230
+yo no la veo en el archivo que subió
+
+01:14:44.230 --> 01:14:46.230
+entonces esa parte de abajo
+
+01:14:46.230 --> 01:14:48.230
+no está
+
+01:14:48.230 --> 01:14:50.230
+en el donde
+
+01:14:50.230 --> 01:14:52.230
+reemplaza
+
+01:14:52.230 --> 01:14:54.230
+el 1,05x5
+
+01:14:54.230 --> 01:14:56.230
+y ahí te da ver
+
+01:14:56.230 --> 01:14:58.230
+no no no
+
+01:14:58.230 --> 01:15:00.230
+pero abajo más abajo
+
+01:15:00.230 --> 01:15:02.230
+todo esto que tiene el profe no lo veo yo en el archivo
+
+01:15:02.230 --> 01:15:04.230
+si no lo está en el archivo
+
+01:15:04.230 --> 01:15:06.230
+ah aquí lo tenéis que copiar varias veces el código
+
+01:15:06.230 --> 01:15:08.230
+pues lo vais arreglando en las epochs
+
+01:15:08.230 --> 01:15:10.230
+no abajo dice tarea
+
+01:15:10.230 --> 01:15:12.230
+si si está bien
+
+01:15:12.230 --> 01:15:14.230
+como le decía
+
+01:15:14.230 --> 01:15:16.230
+yo el esqueleto
+
+01:15:16.230 --> 01:15:18.230
+el cuerpo general del código es el mismo
+
+01:15:18.230 --> 01:15:20.230
+solamente que a veces yo hago
+
+01:15:20.230 --> 01:15:22.230
+modificaciones acá
+
+01:15:22.230 --> 01:15:24.230
+y claro
+
+01:15:24.230 --> 01:15:26.230
+cuando uno la hace modificaciones en google
+
+01:15:26.230 --> 01:15:28.230
+collab que lo guarda automático
+
+01:15:28.230 --> 01:15:30.230
+entonces no van a ver exactamente lo mismo
+
+01:15:30.230 --> 01:15:32.230
+que yo tengo pero el esqueleto lo mismo
+
+01:15:32.230 --> 01:15:34.230
+aquí lo que está acá en la tarea
+
+01:15:34.230 --> 01:15:36.230
+claro aquí
+
+01:15:36.230 --> 01:15:38.230
+son las tareas sugeridas para hacerla en clase
+
+01:15:38.230 --> 01:15:40.230
+por ejemplo la primera tarea
+
+01:15:40.230 --> 01:15:42.230
+y tal vez Javier
+
+01:15:42.230 --> 01:15:44.230
+nos podría ayudar con eso que ya lo hizo
+
+01:15:44.230 --> 01:15:46.230
+voy a mostrarnos como lo hizo
+
+01:15:46.230 --> 01:15:48.230
+la primera tarea que consiste precisamente
+
+01:15:48.230 --> 01:15:50.230
+el generar un ser de datos sintético
+
+01:15:50.230 --> 01:15:52.230
+donde las clases estén más separadas
+
+01:15:52.230 --> 01:15:54.230
+aquí yo las tengo juntas
+
+01:15:54.230 --> 01:15:57.800
+ya y correr esta cuestión
+
+01:15:57.800 --> 01:15:59.800
+y ver qué es lo que pasa
+
+01:15:59.800 --> 01:16:01.800
+después hay otra otra sugerencia
+
+01:16:01.800 --> 01:16:03.800
+que consiste modificar
+
+01:16:03.800 --> 01:16:05.800
+por ahí puse
+
+01:16:05.800 --> 01:16:07.800
+la modificar
+
+01:16:07.800 --> 01:16:09.800
+que puse
+
+01:16:09.800 --> 01:16:13.210
+ah la uso
+
+01:16:13.210 --> 01:16:15.210
+espera un poquito modificar la tasa
+
+01:16:15.210 --> 01:16:17.210
+aprendizaje
+
+01:16:17.210 --> 01:16:19.210
+otra cosa que pueden hacer acá modificar el alfa
+
+01:16:19.210 --> 01:16:21.210
+también ver qué lo que pasa
+
+01:16:21.210 --> 01:16:24.970
+y saber
+
+01:16:24.970 --> 01:16:26.970
+María saber fue el que me decía
+
+01:16:26.970 --> 01:16:28.970
+me tiene que dejar compartir
+
+01:16:28.970 --> 01:16:30.970
+si para saber que no tengo la otra parte
+
+01:16:30.970 --> 01:16:32.970
+del archivo como que está incompleto
+
+01:16:32.970 --> 01:16:34.970
+o sea maya de la diferencia
+
+01:16:34.970 --> 01:16:36.970
+como decía yo de distribución
+
+01:16:36.970 --> 01:16:38.970
+maya de eso
+
+01:16:38.970 --> 01:16:40.970
+tengo un archivo que no está completo
+
+01:16:40.970 --> 01:16:42.970
+no sé si alguien le pasa lo mismo
+
+01:16:42.970 --> 01:16:44.970
+pero
+
+01:16:44.970 --> 01:16:46.970
+lo que pasa es que claro
+
+01:16:46.970 --> 01:16:48.970
+como dice la compañera
+
+01:16:48.970 --> 01:16:50.970
+el archivo en esencia está bien
+
+01:16:50.970 --> 01:16:52.970
+al principio
+
+01:16:52.970 --> 01:16:54.970
+tiene un par de errores
+
+01:16:54.970 --> 01:16:56.970
+básicamente si uno lo cargara en colabo
+
+01:16:56.970 --> 01:16:58.970
+por la función append ya
+
+01:16:58.970 --> 01:17:00.970
+cuando hace el tema de la epoch
+
+01:17:00.970 --> 01:17:02.970
+para almacenar el recuento de errores
+
+01:17:02.970 --> 01:17:04.970
+y al final usted tiene una tarea
+
+01:17:04.970 --> 01:17:06.970
+el archivo que sube
+
+01:17:06.970 --> 01:17:08.970
+en completo
+
+01:17:08.970 --> 01:17:10.970
+pero envicho al studio code
+
+01:17:10.970 --> 01:17:12.970
+en lo mismo yo lo estoy corriendo los dos
+
+01:17:12.970 --> 01:17:14.970
+lo mismo que dijo la compañera
+
+01:17:14.970 --> 01:17:16.970
+ya
+
+01:17:16.970 --> 01:17:18.970
+bueno esto yo lo puse después
+
+01:17:18.970 --> 01:17:20.970
+no más
+
+01:17:20.970 --> 01:17:22.970
+lo coloco en el chat
+
+01:17:22.970 --> 01:17:24.970
+si quieren
+
+01:17:24.970 --> 01:17:26.970
+y esto que está aquí
+
+01:17:26.970 --> 01:17:28.970
+no lo hagan caso estas cuestiones
+
+01:17:28.970 --> 01:17:30.970
+son grabados
+
+01:17:30.970 --> 01:17:32.970
+son pruebas que yo hago adicionales
+
+01:17:32.970 --> 01:17:34.970
+que si yo quiero
+
+01:17:34.970 --> 01:17:36.970
+voy a colocar aquí
+
+01:17:36.970 --> 01:17:38.970
+dejamos buscar el chat
+
+01:17:38.970 --> 01:17:40.970
+y lo coloco chat
+
+01:17:40.970 --> 01:17:42.970
+donde está el chat
+
+01:17:42.970 --> 01:17:44.970
+en mi ventana ahí está que tengo aquí
+
+01:17:44.970 --> 01:17:46.970
+eh
+
+01:17:46.970 --> 01:17:51.690
+se me fue el chat
+
+01:17:51.690 --> 01:17:55.670
+chat aquí está
+
+01:17:55.670 --> 01:17:57.670
+y ahora le voy a dar los permisos necesarios
+
+01:17:57.670 --> 01:17:59.670
+para que Javier
+
+01:17:59.670 --> 01:18:01.670
+acá estoy ya
+
+01:18:01.670 --> 01:18:03.670
+creo compartiendo
+
+01:18:03.670 --> 01:18:05.670
+ya la puse un tito
+
+01:18:07.670 --> 01:18:09.670
+ahora si
+
+01:18:09.670 --> 01:18:11.670
+ya
+
+01:18:11.670 --> 01:18:13.670
+yo lo voy a cambiar, lo pongo más separado
+
+01:18:13.670 --> 01:18:15.670
+porque así
+
+01:18:15.670 --> 01:18:17.670
+no se como quieres
+
+01:18:17.670 --> 01:18:19.670
+esto es el ejercicio que hizo usted
+
+01:18:19.670 --> 01:18:21.670
+está con
+
+01:18:21.670 --> 01:18:23.670
+1 como está con cluster standard
+
+01:18:23.670 --> 01:18:25.670
+igual 5
+
+01:18:25.670 --> 01:18:27.670
+pero nos estamos viendo
+
+01:18:27.670 --> 01:18:29.670
+ah no nos están viendo
+
+01:18:29.670 --> 01:18:31.670
+si se ve
+
+01:18:31.670 --> 01:18:33.670
+en qué chat copió
+
+01:18:33.670 --> 01:18:35.670
+porque no veo tampoco
+
+01:18:35.670 --> 01:18:37.670
+en el chat
+
+01:18:39.670 --> 01:18:41.670
+en el chat
+
+01:18:41.670 --> 01:18:43.670
+ah parece que se lo mande solamente
+
+01:18:43.670 --> 01:18:45.670
+Roger
+
+01:18:45.670 --> 01:19:06.810
+meeting
+
+01:19:06.810 --> 01:19:08.810
+ya ahí si
+
+01:19:08.810 --> 01:19:10.810
+deberían verlo todo ya
+
+01:19:10.810 --> 01:19:12.810
+y por algún motivo no veo
+
+01:19:12.810 --> 01:19:14.810
+voy a volver a compartir
+
+01:19:14.810 --> 01:19:16.810
+ahí estoy compartiendo ahora
+
+01:19:16.810 --> 01:19:18.810
+ahora si ahí lo veo
+
+01:19:18.810 --> 01:19:22.470
+ok
+
+01:19:22.470 --> 01:19:24.470
+ya al principio lo que cambié fue el cluster
+
+01:19:24.470 --> 01:19:26.470
+standard a 5
+
+01:19:26.470 --> 01:19:28.470
+y eso me permitió
+
+01:19:28.470 --> 01:19:30.470
+que la nube de puntos
+
+01:19:30.470 --> 01:19:32.470
+estuviera trasladada
+
+01:19:32.470 --> 01:19:34.470
+en cualquier minas
+
+01:19:34.470 --> 01:19:36.470
+claro luego acá está
+
+01:19:36.470 --> 01:19:38.470
+la definición de la función
+
+01:19:38.470 --> 01:19:40.470
+etcétera y al principio
+
+01:19:40.470 --> 01:19:42.470
+hice bueno
+
+01:19:42.470 --> 01:19:44.470
+repliqué lo mismo que hizo usted
+
+01:19:44.470 --> 01:19:46.470
+primero con un epoch
+
+01:19:46.470 --> 01:19:48.470
+pues si así
+
+01:19:48.470 --> 01:19:50.470
+después esto con 5 epochs
+
+01:19:50.470 --> 01:19:52.470
+me genera esa
+
+01:19:52.470 --> 01:19:54.470
+esa linea, esa recta
+
+01:19:54.470 --> 01:19:56.470
+luego con 10 epochs
+
+01:19:56.470 --> 01:19:58.470
+empieza a acercar ahí
+
+01:19:58.470 --> 01:20:00.470
+finalmente con
+
+01:20:02.470 --> 01:20:04.470
+con 100
+
+01:20:08.470 --> 01:20:10.470
+y después de que la tasa de rol
+
+01:20:10.470 --> 01:20:12.470
+igual empieza a disminuir
+
+01:20:12.470 --> 01:20:14.470
+la tasa de rol pero ya llega
+
+01:20:14.470 --> 01:20:16.470
+a un mínimo
+
+01:20:16.470 --> 01:20:18.470
+ya no es posible
+
+01:20:18.470 --> 01:20:20.470
+seguir disminuyendo la tasa de rol
+
+01:20:20.470 --> 01:20:22.470
+porque simplemente ya el problema
+
+01:20:22.470 --> 01:20:24.470
+con una linea recta ya no nos puede
+
+01:20:24.470 --> 01:20:26.470
+clasificar más correctamente
+
+01:20:26.470 --> 01:20:28.470
+entonces, tú te recuerdas
+
+01:20:28.470 --> 01:20:30.470
+como lo hiciste para separarlo bien
+
+01:20:30.470 --> 01:20:32.470
+acá
+
+01:20:32.470 --> 01:20:34.470
+exacto
+
+01:20:34.470 --> 01:20:36.470
+que la linea es 1.05
+
+01:20:36.470 --> 01:20:38.470
+creo que es lo original
+
+01:20:38.470 --> 01:20:42.650
+entonces ahí lo corro
+
+01:20:42.650 --> 01:20:44.650
+al red, ahí es
+
+01:20:44.650 --> 01:20:46.650
+ahí queda separado
+
+01:20:46.650 --> 01:20:48.650
+y voy a correr ahora los
+
+01:20:50.650 --> 01:20:52.650
+a correr los
+
+01:20:52.650 --> 01:20:54.650
+los cuerpos
+
+01:20:54.650 --> 01:20:56.650
+entonces con un epoch
+
+01:20:56.650 --> 01:20:58.650
+la primera iteración ya listo
+
+01:20:58.650 --> 01:21:00.650
+ya lo hizo
+
+01:21:00.650 --> 01:21:02.650
+y la tasa de rol
+
+01:21:02.650 --> 01:21:04.650
+pues todo debería ser 100
+
+01:21:04.650 --> 01:21:09.340
+osea 0
+
+01:21:09.340 --> 01:21:11.340
+no te la puso
+
+01:21:11.340 --> 01:21:13.340
+ahí para que la ponga
+
+01:21:13.340 --> 01:21:15.340
+voy a colocarlo en el chat
+
+01:21:15.340 --> 01:21:17.340
+ahí para que la colombia
+
+01:21:17.340 --> 01:21:29.640
+ahí
+
+01:21:29.640 --> 01:21:31.640
+este ejemplo
+
+01:21:31.640 --> 01:21:33.640
+es simplemente didáctico
+
+01:21:33.640 --> 01:21:35.640
+en el sentido de que
+
+01:21:35.640 --> 01:21:37.640
+una persona aquí puede darse cuenta
+
+01:21:37.640 --> 01:21:39.640
+como
+
+01:21:39.640 --> 01:21:42.980
+como
+
+01:21:42.980 --> 01:21:44.980
+como se llama como uno puede
+
+01:21:44.980 --> 01:21:46.980
+como el perceptron va ajustando
+
+01:21:46.980 --> 01:21:48.980
+como va a ir aprendiendo las cosas
+
+01:21:48.980 --> 01:21:50.980
+en la medida de ir disminuyendo
+
+01:21:50.980 --> 01:21:52.980
+la versión error del m
+
+01:21:52.980 --> 01:21:54.980
+y claro
+
+01:21:54.980 --> 01:21:56.980
+y lo está definido el m
+
+01:21:56.980 --> 01:21:58.980
+arriba
+
+01:22:00.980 --> 01:22:02.980
+hay un m ahí perdido
+
+01:22:02.980 --> 01:22:04.980
+150 grader
+
+01:22:04.980 --> 01:22:06.980
+y dónde está
+
+01:22:06.980 --> 01:22:10.550
+el famoso m
+
+01:22:10.550 --> 01:22:23.850
+el famoso m
+
+01:22:23.850 --> 01:22:25.850
+claro que
+
+01:22:25.850 --> 01:22:27.850
+el m está definido y es la
+
+01:22:27.850 --> 01:22:29.850
+ah no perdón
+
+01:22:29.850 --> 01:22:31.850
+ahí está dentro del
+
+01:22:31.850 --> 01:22:33.850
+la 12
+
+01:22:33.850 --> 01:22:37.350
+línea 12 del 21
+
+01:22:37.350 --> 01:22:39.350
+ahí el 11 ya
+
+01:22:39.350 --> 01:22:41.350
+ah mn
+
+01:22:45.350 --> 01:22:49.300
+algo falta
+
+01:22:49.300 --> 01:22:51.300
+está dentro de las funciones
+
+01:22:51.300 --> 01:22:53.300
+le voy a dar 350
+
+01:22:53.300 --> 01:22:55.300
+al final
+
+01:22:55.300 --> 01:23:02.810
+con un print
+
+01:23:02.810 --> 01:23:13.190
+lo colócale
+
+01:23:13.190 --> 01:23:15.190
+colócale para que no tengas problemas
+
+01:23:15.190 --> 01:23:17.190
+colócale ahí afuera de la función
+
+01:23:17.190 --> 01:23:19.190
+en cualquier parte pero fuera de la función
+
+01:23:19.190 --> 01:23:21.190
+m igual a 150
+
+01:23:21.190 --> 01:23:24.760
+persona 150
+
+01:23:24.760 --> 01:23:26.760
+pero afuera
+
+01:23:26.760 --> 01:23:28.760
+afuera de la función
+
+01:23:28.760 --> 01:23:36.710
+claro ahí m
+
+01:23:36.710 --> 01:23:38.710
+m de maurice
+
+01:23:38.710 --> 01:23:42.820
+vuelve a cargar la
+
+01:23:42.820 --> 01:23:48.790
+y debería no
+
+01:23:48.790 --> 01:23:50.790
+0.0193
+
+01:23:50.790 --> 01:23:52.790
+si hay
+
+01:23:52.790 --> 01:23:54.790
+parece que hay un punto
+
+01:23:54.790 --> 01:23:56.790
+ahí perdido hay algo raro ahí
+
+01:23:56.790 --> 01:23:58.790
+hay un puntito ahí me he perdido
+
+01:23:58.790 --> 01:24:00.790
+no se vea curioso
+
+01:24:00.790 --> 01:24:02.790
+cual es el de acá este
+
+01:24:02.790 --> 01:24:04.790
+no o sea a sin prevista se ve que lo hace
+
+01:24:04.790 --> 01:24:06.790
+perfecto pero igual da
+
+01:24:06.790 --> 01:24:08.790
+0.0193 si
+
+01:24:08.790 --> 01:24:10.790
+habría que ver por qué no se por qué
+
+01:24:10.790 --> 01:24:12.790
+ya dejo compartir
+
+01:24:12.790 --> 01:24:14.790
+ya
+
+01:24:14.790 --> 01:24:16.790
+ya
+
+01:24:16.790 --> 01:24:18.790
+gracias a ver
+
+01:24:18.790 --> 01:24:24.060
+pregunta a la gente
+
+01:24:24.060 --> 01:24:26.060
+bueno los que lo
+
+01:24:26.060 --> 01:24:28.060
+no sé si tienen problemas
+
+01:24:28.060 --> 01:24:30.060
+un error podido por ahí que se puede ver
+
+01:24:30.060 --> 01:24:32.060
+o estamos claros con el
+
+01:24:32.060 --> 01:24:34.060
+este es un ejemplo que más me gusta
+
+01:24:34.060 --> 01:24:36.060
+enseñar que ahí uno puede ver
+
+01:24:36.060 --> 01:24:38.060
+aquí uno puede ver así
+
+01:24:38.060 --> 01:24:40.060
+con los ojos de la cara de algunos
+
+01:24:40.060 --> 01:24:42.060
+cómo se va ajustando aquí la recta
+
+01:24:42.060 --> 01:24:44.060
+y es un claro indicio de que la máquina
+
+01:24:44.060 --> 01:24:46.060
+está haciendo todo lo posible
+
+01:24:46.060 --> 01:24:48.060
+de disminuir ese error a pesar de que
+
+01:24:48.060 --> 01:24:50.060
+y sabemos de antemano de que el
+
+01:24:50.060 --> 01:24:52.060
+preceptor no puede lidiar con ese tipo de
+
+01:24:52.060 --> 01:24:54.060
+problema como decía David
+
+01:24:54.060 --> 01:24:56.060
+efectivamente la vía real
+
+01:24:56.060 --> 01:24:58.060
+hay muchos problemas que no son totalmente
+
+01:24:58.060 --> 01:25:00.060
+separables y ahí claro
+
+01:25:00.060 --> 01:25:02.060
+vamos a estar vamos a tener que estar
+
+01:25:02.060 --> 01:25:04.060
+dispuesto a aceptar o generar
+
+01:25:04.060 --> 01:25:06.060
+digamos tolerar algún grado de
+
+01:25:06.060 --> 01:25:08.060
+error pero no porque la red neuronal
+
+01:25:08.060 --> 01:25:10.060
+no sea capaz de discriminarla
+
+01:25:10.060 --> 01:25:12.060
+y simplemente porque hay un factor que
+
+01:25:12.060 --> 01:25:14.060
+nosotros no controlamos que tiene que ver
+
+01:25:14.060 --> 01:25:16.060
+el ruido, error de la medición
+
+01:25:16.060 --> 01:25:18.060
+si por ejemplo tenemos medición
+
+01:25:18.060 --> 01:25:20.060
+y la medición está sujeta de error
+
+01:25:20.060 --> 01:25:22.060
+eso ya y si viene la dada
+
+01:25:22.060 --> 01:25:24.060
+no lo podemos tirar
+
+01:25:24.060 --> 01:25:27.340
+así con la cosa, ¿todo bien?
+
+01:25:27.340 --> 01:25:29.340
+entonces
+
+01:25:31.340 --> 01:25:33.340
+todo bien profe
+
+01:25:33.340 --> 01:25:35.340
+súper, yo
+
+01:25:35.340 --> 01:25:37.340
+¿a qué hora es el break?
+
+01:25:37.340 --> 01:25:39.340
+creo que a las 7
+
+01:25:39.340 --> 01:25:41.340
+a las 7, bien ya, entonces deje
+
+01:25:41.340 --> 01:25:43.340
+vamos a pasar aquí un secundito
+
+01:25:43.340 --> 01:25:45.340
+volver a la transparencia
+
+01:25:45.340 --> 01:25:56.300
+y volver a la transparencia
+
+01:25:56.300 --> 01:25:58.300
+bueno
+
+01:25:58.300 --> 01:26:00.300
+este famoso
+
+01:26:00.300 --> 01:26:02.300
+esta famosa limitación
+
+01:26:02.300 --> 01:26:04.300
+que yo les comentaba
+
+01:26:04.300 --> 01:26:06.300
+respecto a que el preceptor
+
+01:26:06.300 --> 01:26:08.300
+solamente puede lidiar
+
+01:26:08.300 --> 01:26:10.300
+con problemas que son linearmente separables
+
+01:26:10.300 --> 01:26:12.300
+es tan importante que se llama
+
+01:26:12.300 --> 01:26:14.300
+teoría del preceptor
+
+01:26:14.300 --> 01:26:16.300
+se llama eso
+
+01:26:16.300 --> 01:26:18.300
+y es importante
+
+01:26:18.300 --> 01:26:20.300
+porque esencialmente nos está diciendo
+
+01:26:20.300 --> 01:26:22.300
+nos está asegurando
+
+01:26:22.300 --> 01:26:24.300
+de que una máquina
+
+01:26:24.300 --> 01:26:26.300
+llamada preceptor
+
+01:26:26.300 --> 01:26:28.300
+lo hace perfectamente bien
+
+01:26:28.300 --> 01:26:30.300
+siempre y cuando
+
+01:26:30.300 --> 01:26:32.300
+el problema será linearmente separable
+
+01:26:32.300 --> 01:26:34.300
+pero ¿qué es lo que pasa?
+
+01:26:34.300 --> 01:26:36.300
+ahora, volviendo a la vida real
+
+01:26:36.300 --> 01:26:38.300
+y no a la teoría
+
+01:26:38.300 --> 01:26:40.300
+la teoría es súper importante
+
+01:26:40.300 --> 01:26:42.300
+pero en el caso de un tétar
+
+01:26:42.300 --> 01:26:44.300
+pero está un problema real
+
+01:26:44.300 --> 01:26:46.300
+supongo que tenga un problema
+
+01:26:46.300 --> 01:26:48.300
+que tenga, vamos a imaginar
+
+01:26:48.300 --> 01:26:50.300
+tengo X1
+
+01:26:50.300 --> 01:26:52.300
+X2, X3, X3, hasta X50
+
+01:26:52.300 --> 01:26:54.300
+o sea tengo 500
+
+01:26:54.300 --> 01:26:56.300
+my features
+
+01:26:56.300 --> 01:26:58.300
+preceptores
+
+01:26:58.300 --> 01:27:00.300
+claro, en el ejemplo que vimos recientemente
+
+01:27:00.300 --> 01:27:02.300
+aquí en Google collab
+
+01:27:02.300 --> 01:27:04.300
+nosotros teníamos
+
+01:27:04.300 --> 01:27:06.300
+X1 y X2
+
+01:27:06.300 --> 01:27:08.300
+o sea lo podíamos ver
+
+01:27:08.300 --> 01:27:10.300
+pero yo sí tengo 500 dimensiones
+
+01:27:10.300 --> 01:27:12.300
+olvidate
+
+01:27:12.300 --> 01:27:14.300
+o sea ustedes podrían ver
+
+01:27:14.300 --> 01:27:16.300
+un problema con 500 features
+
+01:27:16.300 --> 01:27:18.300
+si el problema es
+
+01:27:18.300 --> 01:27:20.300
+solavable o no, está en el grado
+
+01:27:20.300 --> 01:27:22.300
+solavamiento
+
+01:27:22.300 --> 01:27:24.300
+no se puede ver
+
+01:27:24.300 --> 01:27:26.300
+por más que hagan un PCA
+
+01:27:26.300 --> 01:27:28.300
+o algún tipo de técnica de aprendizaje
+
+01:27:28.300 --> 01:27:30.300
+no supervisado o clustering
+
+01:27:30.300 --> 01:27:32.300
+para poder representar toda esta información
+
+01:27:32.300 --> 01:27:34.300
+de 500 variables en dos dimensiones
+
+01:27:34.300 --> 01:27:36.300
+es muy difícil que imposible
+
+01:27:36.300 --> 01:27:38.300
+darse cuenta si un problema
+
+01:27:38.300 --> 01:27:40.300
+es en el grado complicado
+
+01:27:40.300 --> 01:27:42.300
+es imposible darse cuenta
+
+01:27:42.300 --> 01:27:44.300
+que si está solavado o no solavado
+
+01:27:44.300 --> 01:27:46.300
+son 500 dimensiones
+
+01:27:46.300 --> 01:27:48.300
+entonces desde el punto de vista práctico
+
+01:27:48.300 --> 01:27:50.300
+no podemos
+
+01:27:50.300 --> 01:27:52.300
+no podemos saber de antemano
+
+01:27:52.300 --> 01:27:54.300
+si nos va a servir un perceptron
+
+01:27:54.300 --> 01:27:56.300
+para este problema o no
+
+01:27:56.300 --> 01:27:58.300
+por qué es lo que lo aplicamos
+
+01:27:58.300 --> 01:28:00.300
+no podemos ver
+
+01:28:00.300 --> 01:28:02.300
+en un problema multidimensional
+
+01:28:02.300 --> 01:28:04.300
+el solavamiento
+
+01:28:04.300 --> 01:28:06.300
+entonces
+
+01:28:06.300 --> 01:28:08.300
+aquí aparecen cosas bien simpáticas
+
+01:28:08.300 --> 01:28:10.300
+en el sentido de que
+
+01:28:10.300 --> 01:28:12.300
+bueno aquí ya sabemos
+
+01:28:12.300 --> 01:28:14.300
+que el aprendizaje es supervisado
+
+01:28:14.300 --> 01:28:16.300
+con el que acabamos de ver
+
+01:28:16.300 --> 01:28:18.300
+por lo que vieron ahí a mano
+
+01:28:18.300 --> 01:28:20.300
+en forma primitiva pero bastante práctica
+
+01:28:20.300 --> 01:28:22.300
+como
+
+01:28:22.300 --> 01:28:24.300
+básicamente este proceso de
+
+01:28:24.300 --> 01:28:26.300
+donde está aquí este proceso
+
+01:28:26.300 --> 01:28:28.300
+de comparación que se hacía varias veces
+
+01:28:28.300 --> 01:28:30.300
+hacía que
+
+01:28:30.300 --> 01:28:32.300
+estos WS se llevan modificando
+
+01:28:32.300 --> 01:28:34.300
+no para ir disminuyendo
+
+01:28:34.300 --> 01:28:36.300
+el valor de los pesos sinárticos
+
+01:28:36.300 --> 01:28:38.300
+es para ir disminuyendo
+
+01:28:38.300 --> 01:28:40.300
+este grado de diferencia entre
+
+01:28:40.300 --> 01:28:42.300
+el tarjet y el valor
+
+01:28:42.300 --> 01:28:44.300
+que me dice la neurona
+
+01:28:44.300 --> 01:28:46.300
+eso siempre era importante
+
+01:28:46.300 --> 01:28:48.300
+de hecho en la práctica
+
+01:28:48.300 --> 01:28:50.300
+todos los ingenieros que están en los LLM
+
+01:28:50.300 --> 01:28:52.300
+chachivitis, lobo de GMS
+
+01:28:52.300 --> 01:28:54.300
+se basan todo el día viendo las funciones vermias
+
+01:28:54.300 --> 01:28:56.300
+y eso es lo que hacen
+
+01:28:56.300 --> 01:28:58.300
+porque ellos quieren ver a través de la función de vermias
+
+01:28:58.300 --> 01:29:00.300
+si la máquina está aprendiendo
+
+01:29:00.300 --> 01:29:02.300
+o no
+
+01:29:02.300 --> 01:29:04.300
+para uno desde el punto de vista práctico
+
+01:29:04.300 --> 01:29:06.300
+uno no puede ver
+
+01:29:06.300 --> 01:29:08.300
+o sea no es que no pueda
+
+01:29:08.300 --> 01:29:10.300
+no tiene sentido andar analizando
+
+01:29:10.300 --> 01:29:12.300
+que lo que pasa en cada peso
+
+01:29:12.300 --> 01:29:14.300
+si tengo una red neuronal que tiene
+
+01:29:14.300 --> 01:29:16.300
+cientos de miles de pesos
+
+01:29:16.300 --> 01:29:18.300
+no me interesa ver que lo que pasa con el peso
+
+01:29:18.300 --> 01:29:20.300
+número 1588
+
+01:29:20.300 --> 01:29:22.300
+al final desde el punto de vista agregado
+
+01:29:22.300 --> 01:29:24.300
+lo que a uno anda interesado es
+
+01:29:24.300 --> 01:29:26.300
+es en ir evaluando la
+
+01:29:26.300 --> 01:29:28.300
+famosa función de vermias
+
+01:29:30.300 --> 01:29:32.300
+entonces
+
+01:29:32.300 --> 01:29:34.300
+y para que ustedes no se confundan
+
+01:29:34.300 --> 01:29:36.300
+que yo podría tener
+
+01:29:36.300 --> 01:29:38.300
+el preceptrón
+
+01:29:38.300 --> 01:29:40.300
+que lo voy a aplicar sobre este problema
+
+01:29:40.300 --> 01:29:42.300
+y entonces
+
+01:29:42.300 --> 01:29:44.300
+que lo que va a hacer el preceptrón
+
+01:29:44.300 --> 01:29:46.300
+va a empezar a
+
+01:29:46.300 --> 01:29:48.300
+empezar a tratar de hacer todo lo posible
+
+01:29:48.300 --> 01:29:50.300
+por tratar de discriminar a ambas clases
+
+01:29:50.300 --> 01:29:52.300
+que lo ya sabemos de Atemana o que lo va a hacer
+
+01:29:52.300 --> 01:29:54.300
+especialmente mal porque no hay linealmente separable
+
+01:29:54.300 --> 01:29:56.300
+y va a tratar
+
+01:29:56.300 --> 01:29:58.300
+y va a tratar y va a tratar
+
+01:29:58.300 --> 01:30:00.300
+hasta que finalmente va a encontrar
+
+01:30:00.300 --> 01:30:02.300
+un mínimo de pérdida
+
+01:30:02.300 --> 01:30:04.300
+aquí está el lozo
+
+01:30:04.300 --> 01:30:06.300
+aquí es algo que la gente le profunde mucho
+
+01:30:06.300 --> 01:30:08.300
+no lo puede entender
+
+01:30:08.300 --> 01:30:10.300
+pero que no le pasa
+
+01:30:10.300 --> 01:30:12.300
+como es posible
+
+01:30:12.300 --> 01:30:14.300
+que el preceptrón
+
+01:30:14.300 --> 01:30:16.300
+haya encontrado una solución
+
+01:30:16.300 --> 01:30:18.300
+que es mala, pero encontró una solución
+
+01:30:18.300 --> 01:30:20.300
+para este problema
+
+01:30:20.300 --> 01:30:22.300
+del cual sabemos de Atemano
+
+01:30:22.300 --> 01:30:24.300
+que no puede ni dar porque no hay linealmente separable
+
+01:30:24.300 --> 01:30:26.300
+que es lo que está pasando ahí
+
+01:30:26.300 --> 01:30:28.300
+tiene sentido esto
+
+01:30:28.300 --> 01:30:30.300
+o sea
+
+01:30:30.300 --> 01:30:32.300
+voy a tratar la pregunta de otra manera
+
+01:30:32.300 --> 01:30:34.300
+si yo tengo este problema
+
+01:30:34.300 --> 01:30:36.300
+enfrento un preceptrón con este problema
+
+01:30:36.300 --> 01:30:38.300
+que ya sabemos de Atemano
+
+01:30:38.300 --> 01:30:40.300
+entonces que yo debería esperar
+
+01:30:40.300 --> 01:30:42.300
+que esto se vaya para arriba
+
+01:30:42.300 --> 01:30:44.300
+que empeores
+
+01:30:44.300 --> 01:30:47.770
+que quede constante, que cosa
+
+01:30:47.770 --> 01:30:49.770
+esto como bien ingenieria
+
+01:30:49.770 --> 01:30:51.770
+pero bueno
+
+01:30:51.770 --> 01:30:53.770
+disleder
+
+01:30:53.770 --> 01:30:55.770
+pues
+
+01:30:55.770 --> 01:30:57.770
+aquí es la cosa rara
+
+01:30:57.770 --> 01:30:59.770
+estoy aplicando el preceptrón
+
+01:30:59.770 --> 01:31:01.770
+para tratar de descubrir un decision boundary
+
+01:31:01.770 --> 01:31:03.770
+que claramente no hay lineal
+
+01:31:03.770 --> 01:31:05.770
+y que lo que va a hacer preceptrón
+
+01:31:05.770 --> 01:31:07.770
+va a encontrar una solución
+
+01:31:07.770 --> 01:31:09.770
+pésima, pero encontró una solución
+
+01:31:09.770 --> 01:31:11.770
+y ahí está y uno ve la función de pérdida
+
+01:31:11.770 --> 01:31:13.770
+y la función de pérdida es
+
+01:31:13.770 --> 01:31:17.500
+tiene sentido no
+
+01:31:17.500 --> 01:31:19.500
+hay algún problema con eso
+
+01:31:19.500 --> 01:31:21.500
+Roger acasé a ver que dijo mano barriga
+
+01:31:21.500 --> 01:31:23.500
+¿por qué?
+
+01:31:23.500 --> 01:31:25.500
+¿por qué mano barriga?
+
+01:31:25.500 --> 01:31:27.500
+tiene sentido buscar
+
+01:31:27.500 --> 01:31:29.500
+la menor pérdida
+
+01:31:29.500 --> 01:31:31.500
+eso entendí
+
+01:31:31.500 --> 01:31:33.500
+perfecto
+
+01:31:33.500 --> 01:31:35.500
+la menor pérdida no tiene por qué ser cero
+
+01:31:35.500 --> 01:31:37.500
+aunque no sea la correcta
+
+01:31:37.500 --> 01:31:39.500
+la atendera
+
+01:31:39.500 --> 01:31:41.500
+a la menor pérdida
+
+01:31:41.500 --> 01:31:43.500
+exactamente
+
+01:31:43.500 --> 01:31:45.500
+exactamente Samuel Reyes
+
+01:31:45.500 --> 01:31:47.500
+como ustedes lo vivieron
+
+01:31:47.500 --> 01:31:49.500
+lo vivieron
+
+01:31:49.500 --> 01:31:51.500
+en el problema del Python
+
+01:31:51.500 --> 01:31:53.500
+vieron que era un problema
+
+01:31:53.500 --> 01:31:55.500
+solapado y que lo que hizo el preceptrón
+
+01:31:55.500 --> 01:31:57.500
+hizo todo lo mejor posible
+
+01:31:57.500 --> 01:31:59.500
+por encontrar el decision boundary
+
+01:31:59.500 --> 01:32:01.500
+que trataba de reducir el error
+
+01:32:01.500 --> 01:32:03.500
+lo cual condujo a encontrar
+
+01:32:03.500 --> 01:32:05.500
+un mínimo
+
+01:32:05.500 --> 01:32:07.500
+de
+
+01:32:07.500 --> 01:32:09.500
+como se llama de error
+
+01:32:09.500 --> 01:32:11.500
+¿no es cierto?
+
+01:32:11.500 --> 01:32:13.500
+aquí hay que comprenderlo
+
+01:32:13.500 --> 01:32:15.500
+aunque el problema sea muy peruvo
+
+01:32:15.500 --> 01:32:17.500
+la red neuronal
+
+01:32:17.500 --> 01:32:19.500
+va a ser todo por lo posible
+
+01:32:19.500 --> 01:32:21.500
+la red neuronal sigue optimizando
+
+01:32:21.500 --> 01:32:23.500
+por muy peruvo que sea
+
+01:32:23.500 --> 01:32:25.500
+por muy complicado que sea el problema
+
+01:32:25.500 --> 01:32:27.500
+la red neuronal
+
+01:32:27.500 --> 01:32:29.500
+va a buscar
+
+01:32:29.500 --> 01:32:31.500
+de alguna manera una solución
+
+01:32:31.500 --> 01:32:33.500
+y esta solución cuando empieza a converger
+
+01:32:33.500 --> 01:32:35.500
+comienza a converger
+
+01:32:35.500 --> 01:32:37.500
+y ya nos sigue más para abajo
+
+01:32:37.500 --> 01:32:39.500
+quiere decir que encontró un mínimo
+
+01:32:39.500 --> 01:32:41.500
+¿se acuerdan ustedes
+
+01:32:41.500 --> 01:32:43.500
+para la gente? y aquí por favor la gente
+
+01:32:43.500 --> 01:32:45.500
+no en ingeniería
+
+01:32:45.500 --> 01:32:47.500
+¿me preguntas cierto? de nuevo
+
+01:32:47.500 --> 01:32:49.500
+nos hicieron cálculos
+
+01:32:49.500 --> 01:32:51.500
+pero si yo tengo una función
+
+01:32:51.500 --> 01:32:53.500
+por ejemplo esta función
+
+01:32:53.500 --> 01:32:55.500
+¿no es cierto? aquí está
+
+01:32:55.500 --> 01:32:57.500
+aquí está el LOS
+
+01:32:57.500 --> 01:32:59.500
+yo quiero minimizar el LOS
+
+01:32:59.500 --> 01:33:01.500
+quiero que la pérdida del error sea lo más chico
+
+01:33:01.500 --> 01:33:03.500
+¿dónde está el mínimo?
+
+01:33:03.500 --> 01:33:05.500
+aquí ¿no es cierto?
+
+01:33:05.500 --> 01:33:07.500
+ahí está el mínimo
+
+01:33:07.500 --> 01:33:09.500
+listo y ahí estaré feliz
+
+01:33:09.500 --> 01:33:11.500
+porque encontré el mínimo
+
+01:33:11.500 --> 01:33:13.500
+pero resulta ser
+
+01:33:13.500 --> 01:33:15.500
+que el problema es tan peruvo
+
+01:33:15.500 --> 01:33:17.500
+tan complicado
+
+01:33:17.500 --> 01:33:19.500
+que yo no puedo ver eso
+
+01:33:19.500 --> 01:33:21.500
+y eventualmente lo que va a hacer la máquina
+
+01:33:21.500 --> 01:33:23.500
+va a encontrar un mínimo
+
+01:33:23.500 --> 01:33:25.500
+pero el mínimo que encontró
+
+01:33:25.500 --> 01:33:27.500
+es este de acá
+
+01:33:27.500 --> 01:33:29.500
+y ese es un mínimo local
+
+01:33:29.500 --> 01:33:31.500
+no un mínimo global
+
+01:33:31.500 --> 01:33:33.500
+pero yo en mi ignorancia
+
+01:33:33.500 --> 01:33:35.500
+voy a quedar feliz igual
+
+01:33:35.500 --> 01:33:37.500
+porque encontró un mínimo
+
+01:33:37.500 --> 01:33:39.500
+entonces usted va a decir ¡uy no!
+
+01:33:39.500 --> 01:33:41.500
+pero la tasa de error
+
+01:33:41.500 --> 01:33:43.500
+era como de 27%
+
+01:33:43.500 --> 01:33:45.500
+pero lo importa
+
+01:33:45.500 --> 01:33:47.500
+y eso la pega
+
+01:33:47.500 --> 01:33:49.500
+no podemos esperar
+
+01:33:49.500 --> 01:33:51.500
+que el ajusteo mejore esto
+
+01:33:51.500 --> 01:33:53.500
+es un problema
+
+01:33:53.500 --> 01:33:55.500
+no lidia
+
+01:33:55.500 --> 01:33:57.500
+lidia solamente con problemas
+
+01:33:57.500 --> 01:33:59.500
+quiero que se den cuenta
+
+01:33:59.500 --> 01:34:01.500
+que en la vida real
+
+01:34:01.500 --> 01:34:03.500
+uno no sabe, no tiene mucha información
+
+01:34:03.500 --> 01:34:05.500
+y lo único que sabe es la función de pérdida
+
+01:34:05.500 --> 01:34:07.500
+y en la medida que la función de pérdida
+
+01:34:07.500 --> 01:34:09.500
+converja, eso quiere decir
+
+01:34:09.500 --> 01:34:11.500
+que en la máquina del proceso
+
+01:34:11.500 --> 01:34:13.500
+de aprendizaje ha encontrado un mínimo
+
+01:34:13.500 --> 01:34:15.500
+ha encontrado un mínimo
+
+01:34:15.500 --> 01:34:17.500
+el problema es que no sabemos si ese mínimo es global
+
+01:34:17.500 --> 01:34:19.500
+o local
+
+01:34:19.500 --> 01:34:21.500
+ese es la cuestión
+
+01:34:21.500 --> 01:34:23.500
+naturalmente que nosotros quisiéramos que fuese global
+
+01:34:23.500 --> 01:34:25.500
+pero
+
+01:34:25.500 --> 01:34:27.500
+solamente Dios sabe
+
+01:34:27.500 --> 01:34:29.500
+si será global o global
+
+01:34:29.500 --> 01:34:31.500
+ya, aquí en este caso
+
+01:34:31.500 --> 01:34:33.500
+es como si tuviésemos un W1
+
+01:34:33.500 --> 01:34:35.500
+esto estoy buscando
+
+01:34:35.500 --> 01:34:37.500
+el W para que lo sea más chiquitito
+
+01:34:37.500 --> 01:34:39.500
+pero en un problema real
+
+01:34:39.500 --> 01:34:41.500
+cuánto W hay
+
+01:34:41.500 --> 01:34:43.500
+miles, millones de W
+
+01:34:43.500 --> 01:34:45.500
+o sea este es un problema multivariado
+
+01:34:45.500 --> 01:34:47.500
+no de check variables sino que
+
+01:34:47.500 --> 01:34:49.500
+miles de variables
+
+01:34:49.500 --> 01:34:51.500
+anda a encontrar el mínimo global
+
+01:34:51.500 --> 01:34:53.500
+de una función
+
+01:34:53.500 --> 01:34:55.500
+de millones de variables
+
+01:34:55.500 --> 01:34:57.500
+es un problema súper no complicado
+
+01:34:57.500 --> 01:34:59.500
+pues vean que el tipo de problemas que usted
+
+01:34:59.500 --> 01:35:01.500
+va
+
+01:35:01.500 --> 01:35:03.500
+es complicado
+
+01:35:03.500 --> 01:35:05.500
+bueno
+
+01:35:05.500 --> 01:35:07.500
+ya
+
+01:35:07.500 --> 01:35:09.500
+entonces acá
+
+01:35:09.500 --> 01:35:11.500
+hay un documento que yo les puse ahí
+
+01:35:11.500 --> 01:35:13.500
+no lo voy a mostrar ahora
+
+01:35:13.500 --> 01:35:15.500
+está disponiendo un buen curso
+
+01:35:15.500 --> 01:35:17.500
+no es para
+
+01:35:17.500 --> 01:35:19.500
+a abortar el W
+
+01:35:19.500 --> 01:35:21.500
+es para que lo lean de obligatoria
+
+01:35:21.500 --> 01:35:23.500
+tienen que echarle una mirada
+
+01:35:23.500 --> 01:35:25.500
+que es la regla de perceptron
+
+01:35:25.500 --> 01:35:27.500
+la regla de aprendizaje de perceptron
+
+01:35:27.500 --> 01:35:29.500
+solamente está más bonito pero hay que echarle
+
+01:35:29.500 --> 01:35:31.500
+una mirada
+
+01:35:31.500 --> 01:35:33.500
+aquí
+
+01:35:33.500 --> 01:35:35.500
+por ejemplo
+
+01:35:35.500 --> 01:35:37.500
+se acuerdan ustedes
+
+01:35:37.500 --> 01:35:39.500
+tal vez no lo saben pero hay una operador
+
+01:35:39.500 --> 01:35:41.500
+que se llama el operador I
+
+01:35:41.500 --> 01:35:43.500
+si ocurre
+
+01:35:43.500 --> 01:35:45.500
+esto 1 1
+
+01:35:45.500 --> 01:35:47.500
+y ocurre 1 1
+
+01:35:47.500 --> 01:35:49.500
+el operador ante esa situación
+
+01:35:49.500 --> 01:35:51.500
+que lo que va a entregar 1 1
+
+01:35:51.500 --> 01:35:53.500
+1 1 1
+
+01:35:53.500 --> 01:35:55.500
+y 1 1 que lo que va a salir 1 1
+
+01:35:55.500 --> 01:35:57.500
+eso se llama un operador and
+
+01:35:57.500 --> 01:35:59.500
+con función
+
+01:35:59.500 --> 01:36:01.500
+y fíjense que la salida de este operador and
+
+01:36:01.500 --> 01:36:03.500
+va a ser siempre 0
+
+01:36:03.500 --> 01:36:05.500
+siempre que exista un 0
+
+01:36:05.500 --> 01:36:07.500
+si ocurre
+
+01:36:07.500 --> 01:36:09.500
+1 1 y ocurre un 0
+
+01:36:09.500 --> 01:36:11.500
+la salida va a ser un 0
+
+01:36:11.500 --> 01:36:13.500
+0 1 0 0 0
+
+01:36:13.500 --> 01:36:15.500
+entonces piense lo siguiente
+
+01:36:15.500 --> 01:36:17.500
+el operador and
+
+01:36:17.500 --> 01:36:19.500
+porque estoy hablando de esto
+
+01:36:19.500 --> 01:36:21.500
+porque el operador and
+
+01:36:21.500 --> 01:36:23.500
+es un operador clásico
+
+01:36:23.500 --> 01:36:25.500
+que se utiliza en electrónica
+
+01:36:25.500 --> 01:36:27.500
+en circuito
+
+01:36:27.500 --> 01:36:29.500
+como se llama
+
+01:36:29.500 --> 01:36:31.500
+en muchas ciencias
+
+01:36:31.500 --> 01:36:33.500
+y uno podría graficar esto
+
+01:36:33.500 --> 01:36:35.500
+este operador and lo podía graficar
+
+01:36:35.500 --> 01:36:37.500
+donde aquí yo voy a colocar x1
+
+01:36:37.500 --> 01:36:39.500
+en el eje y en el eje
+
+01:36:39.500 --> 01:36:41.500
+y fíjense
+
+01:36:41.500 --> 01:36:43.500
+acá está el 0
+
+01:36:43.500 --> 01:36:45.500
+acá están los autos
+
+01:36:45.500 --> 01:36:47.500
+aquí está el eje
+
+01:36:47.500 --> 01:36:49.500
+se acuenta este puntito de ahí
+
+01:36:49.500 --> 01:36:51.500
+el 1 corresponde a 0
+
+01:36:51.500 --> 01:36:53.500
+pero corresponde a 1 1
+
+01:36:53.500 --> 01:36:55.500
+este puntito de aquí
+
+01:36:55.500 --> 01:36:57.500
+corresponde a ese de ahí
+
+01:36:57.500 --> 01:36:59.500
+y todos los demás son los que están ahí
+
+01:36:59.500 --> 01:37:01.500
+entonces la pregunta es la siguiente
+
+01:37:01.500 --> 01:37:03.500
+podría modelar una compuerta and
+
+01:37:03.500 --> 01:37:07.420
+con un perceptron
+
+01:37:07.420 --> 01:37:09.420
+la respuesta aquí es de acuerdo de la
+
+01:37:09.420 --> 01:37:11.420
+si no es cierto
+
+01:37:11.420 --> 01:37:14.730
+porque se tiene
+
+01:37:14.730 --> 01:37:16.730
+una sola línea
+
+01:37:16.730 --> 01:37:18.730
+porque yo puedo ver
+
+01:37:18.730 --> 01:37:20.730
+y es súper fácil de hacer cuenta
+
+01:37:20.730 --> 01:37:22.730
+que yo puedo discriminar
+
+01:37:22.730 --> 01:37:24.730
+los ceros
+
+01:37:24.730 --> 01:37:26.730
+de los unos
+
+01:37:26.730 --> 01:37:28.730
+con cualquier línea recta
+
+01:37:28.730 --> 01:37:30.730
+la discrimina perfectamente
+
+01:37:30.730 --> 01:37:32.730
+osea con un perceptron
+
+01:37:32.730 --> 01:37:34.730
+entrenado correctamente
+
+01:37:34.730 --> 01:37:36.730
+puedo fabricar una compuerta and
+
+01:37:36.730 --> 01:37:38.730
+ya
+
+01:37:38.730 --> 01:37:42.710
+aquí tengo una compuerta or
+
+01:37:42.710 --> 01:37:44.710
+osea
+
+01:37:44.710 --> 01:37:46.710
+si ocurre un 1
+
+01:37:46.710 --> 01:37:48.710
+o ocurre un 1
+
+01:37:48.710 --> 01:37:50.710
+la respuesta es un 1
+
+01:37:50.710 --> 01:37:52.710
+pero si ocurre un 1 o un 0
+
+01:37:52.710 --> 01:37:54.710
+también va a ser un 1
+
+01:37:54.710 --> 01:37:56.710
+la única condición en la cual va a salir un 0
+
+01:37:56.710 --> 01:37:58.710
+es que ninguno
+
+01:37:58.710 --> 01:38:00.710
+los 12 hace un 0
+
+01:38:00.710 --> 01:38:02.710
+entonces pregunta
+
+01:38:02.710 --> 01:38:04.710
+ahí
+
+01:38:04.710 --> 01:38:06.710
+un perceptron es capaz
+
+01:38:06.710 --> 01:38:08.710
+de modelar una compuerta or
+
+01:38:08.710 --> 01:38:10.710
+si
+
+01:38:10.710 --> 01:38:12.710
+osea habría que hacer
+
+01:38:12.710 --> 01:38:14.710
+aquí el monito verdad
+
+01:38:14.710 --> 01:38:16.710
+y se van a dar cuenta que si hacen el monito
+
+01:38:16.710 --> 01:38:18.710
+por ejemplo el 1 con el 1
+
+01:38:18.710 --> 01:38:20.710
+abrece un 1
+
+01:38:20.710 --> 01:38:22.710
+despues
+
+01:38:22.710 --> 01:38:24.710
+el 1 con un 0
+
+01:38:24.710 --> 01:38:26.710
+bueno
+
+01:38:26.710 --> 01:38:28.710
+1 o menos 1
+
+01:38:28.710 --> 01:38:30.710
+va a estar aquí un 0
+
+01:38:30.710 --> 01:38:32.710
+despues
+
+01:38:32.710 --> 01:38:34.710
+un 1
+
+01:38:34.710 --> 01:38:36.710
+y aquí esta el 0
+
+01:38:36.710 --> 01:38:38.710
+yo podria tirar cualquier función
+
+01:38:38.710 --> 01:38:40.710
+cualquier linea recta
+
+01:38:40.710 --> 01:38:42.710
+y van a quedar separada inmediatamente
+
+01:38:42.710 --> 01:38:44.710
+el 0 de luna
+
+01:38:44.710 --> 01:38:46.710
+osea
+
+01:38:46.710 --> 01:38:48.710
+si el perceptron
+
+01:38:48.710 --> 01:38:50.710
+es capaz de modelar una compuerta or
+
+01:38:50.710 --> 01:38:52.710
+una compuerta and
+
+01:38:52.710 --> 01:38:54.710
+pero será capaz de modelar
+
+01:38:54.710 --> 01:39:01.930
+una compuerta xor
+
+01:39:01.930 --> 01:39:03.930
+fíjense aquí
+
+01:39:03.930 --> 01:39:05.930
+aquí es distinto, es como una mezcla entre la and
+
+01:39:05.930 --> 01:39:07.930
+y la or en el sentido de que la unica condición
+
+01:39:07.930 --> 01:39:09.930
+por la cual se produce un 1
+
+01:39:09.930 --> 01:39:11.930
+es cuando son distintos
+
+01:39:11.930 --> 01:39:16.420
+pero cuando son iguales se apaga
+
+01:39:16.420 --> 01:39:18.420
+entonces el perceptron
+
+01:39:18.420 --> 01:39:20.420
+se puede modelar
+
+01:39:20.420 --> 01:39:22.420
+el xor se podria modelar con un perceptron
+
+01:39:22.420 --> 01:39:26.920
+no
+
+01:39:26.920 --> 01:39:28.920
+no, no, cierto
+
+01:39:28.920 --> 01:39:30.920
+por que no?
+
+01:39:30.920 --> 01:39:32.920
+porque si usted hace
+
+01:39:32.920 --> 01:39:34.920
+el mismo ejercicio
+
+01:39:34.920 --> 01:39:36.920
+si usted hace el ejercicio
+
+01:39:36.920 --> 01:39:38.920
+no hay que un acá
+
+01:39:38.920 --> 01:39:40.920
+le va a quedar una cosa aquí
+
+01:39:40.920 --> 01:39:42.920
+le va a quedar acá
+
+01:39:42.920 --> 01:39:44.920
+le va a quedar 0
+
+01:39:44.920 --> 01:39:46.920
+0
+
+01:39:46.920 --> 01:39:48.920
+1 y 1
+
+01:39:48.920 --> 01:39:50.920
+y yo les pregunto
+
+01:39:50.920 --> 01:39:52.920
+traten de encontrar una linea recta
+
+01:39:52.920 --> 01:39:54.920
+que separe los 0 y los 1
+
+01:39:54.920 --> 01:39:56.920
+no se puede ver
+
+01:39:56.920 --> 01:39:58.920
+osea
+
+01:39:58.920 --> 01:40:00.920
+un perceptron no podria modelar
+
+01:40:00.920 --> 01:40:02.920
+esta condición normal
+
+01:40:04.920 --> 01:40:06.920
+es la típica
+
+01:40:06.920 --> 01:40:08.920
+es la típica
+
+01:40:08.920 --> 01:40:10.920
+simplemente para darse cuenta de que
+
+01:40:10.920 --> 01:40:12.920
+es la idea de que es super importante
+
+01:40:12.920 --> 01:40:14.920
+de por que los perceptrones solamente
+
+01:40:14.920 --> 01:40:16.920
+sirven para cosas que serán lineales
+
+01:40:16.920 --> 01:40:18.920
+bien
+
+01:40:18.920 --> 01:40:20.920
+vamos a ir
+
+01:40:20.920 --> 01:40:22.920
+a un siguiente ejemplo
+
+01:40:22.920 --> 01:40:24.920
+unos minutos hasta salir al rect
+
+01:40:24.920 --> 01:40:26.920
+vamos a ver el ejemplo
+
+01:40:26.920 --> 01:40:28.920
+de re neuronal
+
+01:40:28.920 --> 01:40:30.920
+más
+
+01:40:30.920 --> 01:40:32.920
+yo creo que esto es la época de los dinosauros
+
+01:40:32.920 --> 01:40:34.920
+pero no importa
+
+01:40:34.920 --> 01:40:36.920
+se le cuenta como funciona
+
+01:40:36.920 --> 01:40:38.920
+de que se trata este ejemplo
+
+01:40:38.920 --> 01:40:40.920
+aquí tengo una neurona
+
+01:40:42.920 --> 01:40:44.920
+tengo una entrada
+
+01:40:44.920 --> 01:40:46.920
+lo que va a sentir
+
+01:40:46.920 --> 01:40:48.920
+la neurona va a ser x1 por del
+
+01:40:48.920 --> 01:40:50.920
+W
+
+01:40:50.920 --> 01:40:52.920
+acá no va a haber ninguna función
+
+01:40:52.920 --> 01:40:54.920
+de activación a la salida directo
+
+01:40:54.920 --> 01:40:56.920
+no hay función de activación
+
+01:40:56.920 --> 01:40:58.920
+por lo tanto la única salida acá
+
+01:40:58.920 --> 01:41:00.920
+es
+
+01:41:00.920 --> 01:41:02.920
+la salida va a ser el logo
+
+01:41:02.920 --> 01:41:04.920
+va a ser que lo que va a hacer
+
+01:41:04.920 --> 01:41:06.920
+x1 multiplicado
+
+01:41:06.920 --> 01:41:08.920
+por
+
+01:41:08.920 --> 01:41:10.920
+W por W
+
+01:41:10.920 --> 01:41:12.920
+ok
+
+01:41:12.920 --> 01:41:14.920
+entonces yo voy a generar
+
+01:41:14.920 --> 01:41:16.920
+un set de datos en donde
+
+01:41:16.920 --> 01:41:18.920
+aquí voy a tener x1
+
+01:41:18.920 --> 01:41:20.920
+voy a generar por un número alatorio
+
+01:41:20.920 --> 01:41:22.920
+por ejemplo 1 2
+
+01:41:22.920 --> 01:41:24.920
+menos 3
+
+01:41:24.920 --> 01:41:26.920
+menos 2
+
+01:41:26.920 --> 01:41:28.920
+y voy a generar un set de datos
+
+01:41:28.920 --> 01:41:30.920
+de entrenamiento en donde el I
+
+01:41:30.920 --> 01:41:32.920
+el I real
+
+01:41:32.920 --> 01:41:34.920
+va a ser el negativo
+
+01:41:34.920 --> 01:41:36.920
+o sea si la entrada es 1 1
+
+01:41:36.920 --> 01:41:38.920
+yo quiero que
+
+01:41:38.920 --> 01:41:40.920
+un menos 1
+
+01:41:40.920 --> 01:41:42.920
+si la entrada es 1 2
+
+01:41:42.920 --> 01:41:44.920
+yo quiero un menos 2
+
+01:41:44.920 --> 01:41:46.920
+si entra un menos 3 3
+
+01:41:46.920 --> 01:41:48.920
+en el fondo
+
+01:41:48.920 --> 01:41:50.920
+quiero entrenar una red neuronada
+
+01:41:50.920 --> 01:41:52.920
+que lo que haga es aplicar
+
+01:41:52.920 --> 01:41:54.920
+un número
+
+01:41:54.920 --> 01:41:56.920
+es multiplicar punto
+
+01:41:56.920 --> 01:41:58.920
+habiendo dicho eso
+
+01:41:58.920 --> 01:42:00.920
+cuál es el valor de W
+
+01:42:00.920 --> 01:42:02.920
+que tiene que encontrar el perceptron
+
+01:42:02.920 --> 01:42:04.920
+cuál es el valor que tiene que tener W
+
+01:42:04.920 --> 01:42:10.760
+parece que está faltando café
+
+01:42:10.760 --> 01:42:12.760
+no es menos 1
+
+01:42:12.760 --> 01:42:14.760
+menos 1
+
+01:42:14.760 --> 01:42:16.760
+exactamente
+
+01:42:16.760 --> 01:42:18.760
+la salida
+
+01:42:18.760 --> 01:42:20.760
+la quiero multiplicar por menos 1
+
+01:42:20.760 --> 01:42:22.760
+lo que tiene que hacer el perceptron
+
+01:42:22.760 --> 01:42:24.760
+por si solo sin que yo le diga
+
+01:42:24.760 --> 01:42:26.760
+tiene que gachar
+
+01:42:26.760 --> 01:42:28.760
+tiene que darse cuenta solito
+
+01:42:28.760 --> 01:42:30.760
+que el peso sináptico
+
+01:42:30.760 --> 01:42:32.760
+que tiene que existir aquí
+
+01:42:32.760 --> 01:42:34.760
+el valor de este peso sináptico
+
+01:42:34.760 --> 01:42:36.760
+tiene que gachar solito
+
+01:42:36.760 --> 01:42:38.760
+que este W e tiene que ser igual a
+
+01:42:38.760 --> 01:42:40.760
+menos 1
+
+01:42:40.760 --> 01:42:42.760
+ya
+
+01:42:42.760 --> 01:42:44.760
+aclaro ¿Cierto?
+
+01:42:44.760 --> 01:42:46.760
+¿Cuál es la capa escondida?
+
+01:42:46.760 --> 01:42:48.760
+en un perceptron es el mismo
+
+01:42:48.760 --> 01:42:50.760
+la neuronada
+
+01:42:50.760 --> 01:42:52.760
+¿Cuál es la función de actuación?
+
+01:42:52.760 --> 01:42:54.760
+no hay
+
+01:42:54.760 --> 01:42:56.760
+¿Cuál debería ser la medida de desempeño
+
+01:42:56.760 --> 01:42:58.760
+para ajustar W e?
+
+01:42:58.760 --> 01:43:00.760
+¿Cuál debería ser la medida de desempeño?
+
+01:43:00.760 --> 01:43:02.760
+aquí
+
+01:43:02.760 --> 01:43:04.760
+¿No es cierto?
+
+01:43:04.760 --> 01:43:06.760
+debería ser y
+
+01:43:06.760 --> 01:43:08.760
+menos
+
+01:43:08.760 --> 01:43:10.760
+fd fd
+
+01:43:10.760 --> 01:43:12.760
+¿No es cierto?
+
+01:43:12.760 --> 01:43:14.760
+de hecho
+
+01:43:14.760 --> 01:43:16.760
+para evitar el problema de los signos
+
+01:43:16.760 --> 01:43:18.760
+usualmente uno trabaja con esto
+
+01:43:18.760 --> 01:43:20.760
+lo eleva al cuadrado
+
+01:43:20.760 --> 01:43:22.760
+uno lo que quiere es minimizar
+
+01:43:22.760 --> 01:43:24.760
+el cuadrado
+
+01:43:24.760 --> 01:43:26.760
+y como son varias muestras
+
+01:43:26.760 --> 01:43:28.760
+¿Cuántas instancias?
+
+01:43:28.760 --> 01:43:30.760
+1, 2, 3, 4
+
+01:43:30.760 --> 01:43:32.760
+en la sumatoria
+
+01:43:32.760 --> 01:43:34.760
+esto que estoy escribiendo acá
+
+01:43:34.760 --> 01:43:36.760
+vendría siendo
+
+01:43:36.760 --> 01:43:38.760
+la función de pérdida
+
+01:43:38.760 --> 01:43:40.760
+que yo quiero minimizar
+
+01:43:40.760 --> 01:43:42.760
+¿Estás en cuenta de usted que esta función
+
+01:43:42.760 --> 01:43:44.760
+de pérdida como está el cuadrado
+
+01:43:44.760 --> 01:43:46.760
+se trata de un problema de optimización no lineal
+
+01:43:46.760 --> 01:43:48.760
+pero de nuevo a los que son ingenierias
+
+01:43:48.760 --> 01:43:50.760
+había un cursito por ahí
+
+01:43:50.760 --> 01:43:52.760
+que les dio mucho excruir seguramente
+
+01:43:52.760 --> 01:43:54.760
+que se llamaba efectivamente optimización no lineal
+
+01:43:54.760 --> 01:43:56.760
+donde había que derivar
+
+01:43:56.760 --> 01:43:58.760
+igual al acero
+
+01:43:58.760 --> 01:44:00.760
+el hamiltoniano
+
+01:44:00.760 --> 01:44:02.760
+el agustre no
+
+01:44:02.760 --> 01:44:04.760
+pero a lo mismo
+
+01:44:04.760 --> 01:44:06.760
+ustedes tienen que comprender
+
+01:44:06.760 --> 01:44:08.760
+es que si se da cuenta
+
+01:44:08.760 --> 01:44:10.760
+esta es la función de pérdida
+
+01:44:10.760 --> 01:44:12.760
+que el perceptron quiere que sea lo más chico posible
+
+01:44:12.760 --> 01:44:14.760
+ahí cuenta
+
+01:44:14.760 --> 01:44:16.760
+esto se llama root minsquare
+
+01:44:16.760 --> 01:44:18.760
+¿Ya?
+
+01:44:18.760 --> 01:44:20.760
+vale
+
+01:44:20.760 --> 01:44:22.760
+vayámonos al
+
+01:44:22.760 --> 01:44:24.760
+de hecho vayámonos al model neuron 01
+
+01:44:24.760 --> 01:44:26.760
+alguna pregunta doble
+
+01:44:26.760 --> 01:44:28.760
+ustedes ya saben me interrumpen
+
+01:44:28.760 --> 01:44:30.760
+todas las veces que sean necesarios
+
+01:44:30.760 --> 01:44:32.760
+si hay algo que está mejor
+
+01:44:32.760 --> 01:44:36.200
+stop share me voy a ir
+
+01:44:36.200 --> 01:44:38.200
+al de nuevo me voy a ir al músculo
+
+01:44:38.200 --> 01:44:41.960
+model 1 neuron
+
+01:44:41.960 --> 01:44:57.400
+model 1 neuron
+
+01:44:57.400 --> 01:44:59.400
+voy a compartir acá
+
+01:44:59.400 --> 01:45:06.580
+ahí está explicado
+
+01:45:06.580 --> 01:45:08.580
+lo mismo que acabo de decir
+
+01:45:08.580 --> 01:45:10.580
+está explicado por ahí, no sé esto
+
+01:45:10.580 --> 01:45:12.580
+y a diferencia
+
+01:45:12.580 --> 01:45:14.580
+del caso anterior en que
+
+01:45:14.580 --> 01:45:16.580
+el ejemplo anterior
+
+01:45:16.580 --> 01:45:18.580
+habíamos hecho todo a mano
+
+01:45:18.580 --> 01:45:20.580
+a mano, así programó a mano
+
+01:45:20.580 --> 01:45:22.580
+aquí vamos a hacer uso de
+
+01:45:22.580 --> 01:45:24.580
+famoso Keras TensorFlow
+
+01:45:24.580 --> 01:45:26.580
+Keras TensorFlow es una aplicación
+
+01:45:26.580 --> 01:45:28.580
+una API de alto nivel
+
+01:45:28.580 --> 01:45:30.580
+que nos permite
+
+01:45:30.580 --> 01:45:32.580
+utilizar funciones
+
+01:45:32.580 --> 01:45:34.580
+ya programadas incorporadas
+
+01:45:34.580 --> 01:45:36.580
+para poder diseñar
+
+01:45:36.580 --> 01:45:38.580
+nuestras redes neuronales sin
+
+01:45:38.580 --> 01:45:40.580
+tener que programar tanto
+
+01:45:40.580 --> 01:45:42.580
+entonces si se da cuenta
+
+01:45:42.580 --> 01:45:44.580
+aquí lo primero que estoy haciendo
+
+01:45:44.580 --> 01:45:46.580
+es decir, la información
+
+01:45:46.580 --> 01:45:48.580
+fluye en un sentido
+
+01:45:48.580 --> 01:45:50.580
+de la capa de entrada hasta la capa
+
+01:45:50.580 --> 01:45:52.580
+de salida, eso significa
+
+01:45:52.580 --> 01:45:54.580
+que el entorno
+
+01:45:54.580 --> 01:45:56.580
+ese archivo lo subió al colab
+
+01:45:56.580 --> 01:45:58.580
+porque en el archivo zip no viene
+
+01:45:58.580 --> 01:46:00.580
+en el web
+
+01:46:00.580 --> 01:46:02.580
+en el web
+
+01:46:02.580 --> 01:46:04.580
+en el web
+
+01:46:04.580 --> 01:46:06.580
+en el web
+
+01:46:06.580 --> 01:46:08.580
+en el web
+
+01:46:08.580 --> 01:46:10.580
+en el web
+
+01:46:10.580 --> 01:46:12.580
+en el web
+
+01:46:12.580 --> 01:46:14.580
+no viene
+
+01:46:14.580 --> 01:46:16.580
+en el web curso no, pero debiera
+
+01:46:16.580 --> 01:46:18.580
+estar en el
+
+01:46:18.580 --> 01:46:20.580
+y si no está, lo coloco de forma
+
+01:46:20.580 --> 01:46:22.580
+inmediata
+
+01:46:22.580 --> 01:46:24.580
+gracias
+
+01:46:24.580 --> 01:46:26.580
+en el archivo
+
+01:46:26.580 --> 01:46:28.580
+en web cursos está model
+
+01:46:28.580 --> 01:46:30.580
+y un bajo perceptron one
+
+01:46:30.580 --> 01:46:32.580
+si
+
+01:46:32.580 --> 01:46:34.580
+no, en el web curso no está, debería estar
+
+01:46:34.580 --> 01:46:38.020
+en el web hub
+
+01:46:38.020 --> 01:46:40.020
+la urrele de yitja donde la tiene
+
+01:46:40.020 --> 01:46:42.020
+ah, el urrele yitja
+
+01:46:42.020 --> 01:46:44.020
+te lo voy a compartir
+
+01:46:44.020 --> 01:46:46.020
+como se llama
+
+01:46:46.020 --> 01:46:48.020
+en sílabos, te lo voy a compartir
+
+01:46:48.020 --> 01:46:50.020
+por chan
+
+01:46:50.020 --> 01:46:56.890
+no me lo sé
+
+01:46:56.890 --> 01:46:58.890
+no me lo sé tan poco, aunque es mío
+
+01:46:58.890 --> 01:47:08.310
+este repositorio lo tiene público
+
+01:47:08.310 --> 01:47:10.310
+sigue público
+
+01:47:10.310 --> 01:47:12.310
+repositorio
+
+01:47:12.310 --> 01:47:14.310
+se acaba de buscar
+
+01:47:14.310 --> 01:47:16.310
+diplan
+
+01:47:16.310 --> 01:47:18.310
+repositorio
+
+01:47:18.310 --> 01:47:20.310
+ahí lo encontré
+
+01:47:20.310 --> 01:47:22.310
+entonces, ¿dónde está el chat ahora?
+
+01:47:24.310 --> 01:47:26.310
+chot, chot, chot
+
+01:47:26.310 --> 01:47:43.480
+se me escondió el chat ahora
+
+01:47:43.480 --> 01:47:45.480
+ah, ahí lo puse
+
+01:47:45.480 --> 01:48:15.930
+ok, entonces
+
+01:48:15.930 --> 01:48:17.930
+donde había quedado
+
+01:48:17.930 --> 01:48:19.930
+aquí, está explicando esto
+
+01:48:19.930 --> 01:48:21.930
+secuencial, y de eso
+
+01:48:21.930 --> 01:48:23.930
+de eso significa
+
+01:48:23.930 --> 01:48:25.930
+que el tipo de red neuronón que nosotros estamos trabajando
+
+01:48:25.930 --> 01:48:27.930
+son aquí en donde
+
+01:48:27.930 --> 01:48:29.930
+todas las neuronas
+
+01:48:29.930 --> 01:48:31.930
+de una capa a la otra están
+
+01:48:31.930 --> 01:48:33.930
+claramente todas conectadas con todas
+
+01:48:33.930 --> 01:48:35.930
+pero no entre ellas
+
+01:48:35.930 --> 01:48:37.930
+es decir, neuronas de una misma capa
+
+01:48:37.930 --> 01:48:39.930
+no se pueden conectar entre ellas, pero entre capas
+
+01:48:39.930 --> 01:48:41.930
+sí, tan densamente conectadas
+
+01:48:41.930 --> 01:48:43.930
+eso significa
+
+01:48:43.930 --> 01:48:45.930
+entonces, no sé, importa esas dos cosas
+
+01:48:45.930 --> 01:48:47.930
+y aquí viene la magia del sur
+
+01:48:47.930 --> 01:48:49.930
+si se dan cuenta aquí estoy inicializando el modelo
+
+01:48:49.930 --> 01:48:51.930
+este tipo secuencial
+
+01:48:51.930 --> 01:48:53.930
+y aquí le estoy diciendo
+
+01:48:53.930 --> 01:48:55.930
+ok, viejito, a este modelo
+
+01:48:55.930 --> 01:48:57.930
+que está vacío, agrégale
+
+01:48:57.930 --> 01:48:59.930
+una primera capa
+
+01:48:59.930 --> 01:49:01.930
+va a tener
+
+01:49:01.930 --> 01:49:03.930
+como int, como shape
+
+01:49:03.930 --> 01:49:05.930
+como
+
+01:49:05.930 --> 01:49:07.930
+dimensión de entrada solamente
+
+01:49:07.930 --> 01:49:09.930
+un 1, un 1
+
+01:49:09.930 --> 01:49:11.930
+y va a tener solamente
+
+01:49:11.930 --> 01:49:13.930
+una misera neurona
+
+01:49:13.930 --> 01:49:15.930
+es decir, estamos modelando
+
+01:49:15.930 --> 01:49:19.530
+a través de tensorflow
+
+01:49:19.530 --> 01:49:21.530
+y luego le decimos
+
+01:49:21.530 --> 01:49:23.530
+viejito ahora compila
+
+01:49:23.530 --> 01:49:25.530
+el modelo, ¿qué significa eso?
+
+01:49:25.530 --> 01:49:27.530
+significa que el modelo
+
+01:49:27.530 --> 01:49:29.530
+va a ser entrenado
+
+01:49:29.530 --> 01:49:31.530
+a través de una función de pérdida
+
+01:49:31.530 --> 01:49:33.530
+que es el minScoreError
+
+01:49:33.530 --> 01:49:35.530
+que es el punto en lo que ha estado de explicar
+
+01:49:35.530 --> 01:49:37.530
+y a través de un optimizador
+
+01:49:37.530 --> 01:49:39.530
+que se llama adam
+
+01:49:39.530 --> 01:49:41.530
+que lo que hace, básicamente a través del proceso
+
+01:49:41.530 --> 01:49:43.530
+de gradient descent
+
+01:49:43.530 --> 01:49:45.530
+que es el proceso de optimización
+
+01:49:45.530 --> 01:49:47.530
+trata de encontrar
+
+01:49:47.530 --> 01:49:49.530
+el mínimo de esta función
+
+01:49:49.530 --> 01:49:51.530
+de pérdida
+
+01:49:51.530 --> 01:49:53.530
+ahora
+
+01:49:53.530 --> 01:49:55.530
+tenemos que generar nuestros set de datos de entrenamiento
+
+01:49:55.530 --> 01:49:57.530
+fíjense acá
+
+01:49:57.530 --> 01:49:59.530
+mira, aquí está el data input
+
+01:49:59.530 --> 01:50:01.530
+el X
+
+01:50:01.530 --> 01:50:03.530
+y cuál va a ser el target
+
+01:50:03.530 --> 01:50:05.530
+lo mismo pero sin negativo
+
+01:50:05.530 --> 01:50:07.530
+es fíjense, es un problema de cabros
+
+01:50:07.530 --> 01:50:09.530
+chicos estamos todos en riesgo
+
+01:50:09.530 --> 01:50:11.530
+pero no importa
+
+01:50:11.530 --> 01:50:13.530
+y entonces al principio
+
+01:50:13.530 --> 01:50:15.530
+y esto también lo hay que decir
+
+01:50:15.530 --> 01:50:17.530
+ahora se permite toda la memoria
+
+01:50:17.530 --> 01:50:19.530
+todo se me ilumina
+
+01:50:19.530 --> 01:50:21.530
+la clase pasada y me gusta pero como parte estoy entrenándose
+
+01:50:21.530 --> 01:50:23.530
+efectivamente aquí parte
+
+01:50:23.530 --> 01:50:25.530
+cuando el tensorflow
+
+01:50:25.530 --> 01:50:27.530
+se inicializamos el modelo
+
+01:50:27.530 --> 01:50:29.530
+y los pesos sin artigos
+
+01:50:29.530 --> 01:50:31.530
+tienen que partir con un valor
+
+01:50:31.530 --> 01:50:33.530
+entonces con qué valor parten
+
+01:50:33.530 --> 01:50:35.530
+en este caso parten con valores inicializados
+
+01:50:35.530 --> 01:50:37.530
+con valores aleatorias
+
+01:50:37.530 --> 01:50:39.530
+por ejemplo, aquí partió con un
+
+01:50:39.530 --> 01:50:41.530
+en mi caso, si ustedes lo hacen, nos agarran de distinto
+
+01:50:41.530 --> 01:50:43.530
+me partió con un valor
+
+01:50:43.530 --> 01:50:45.530
+de menos 1.55
+
+01:50:45.530 --> 01:50:47.530
+y qué es lo que tiene que suceder
+
+01:50:47.530 --> 01:50:49.530
+a través de este proceso
+
+01:50:49.530 --> 01:50:51.530
+de minimización de pérdida
+
+01:50:51.530 --> 01:50:53.530
+este valor de menos 1.55
+
+01:50:53.530 --> 01:50:55.530
+tienen que empezar a bajar
+
+01:50:55.530 --> 01:50:57.530
+va a bajar, va a bajar
+
+01:50:57.530 --> 01:50:59.530
+pero tienen que empezar a ajustarse
+
+01:50:59.530 --> 01:51:03.930
+hasta llegar a un valor de
+
+01:51:03.930 --> 01:51:05.930
+cuánto tiene que ser el valor de doble
+
+01:51:05.930 --> 01:51:07.930
+menos 1
+
+01:51:07.930 --> 01:51:09.930
+para poder entrenar
+
+01:51:09.930 --> 01:51:11.930
+el modelo
+
+01:51:11.930 --> 01:51:13.930
+aquí en tensorflow
+
+01:51:13.930 --> 01:51:15.930
+es tan complicado
+
+01:51:15.930 --> 01:51:17.930
+pero tan complicado que basta con decir
+
+01:51:17.930 --> 01:51:19.930
+fit al modelo
+
+01:51:19.930 --> 01:51:21.930
+al objeto modelo
+
+01:51:21.930 --> 01:51:23.930
+utilizando todos mis datos
+
+01:51:23.930 --> 01:51:25.930
+de entrenamiento que en este caso
+
+01:51:25.930 --> 01:51:27.930
+serían los x, data input
+
+01:51:27.930 --> 01:51:29.930
+y aquí recoloco el target
+
+01:51:29.930 --> 01:51:31.930
+data label
+
+01:51:31.930 --> 01:51:33.930
+y qué pasa, qué pasa
+
+01:51:33.930 --> 01:51:35.930
+lo entren a verdad
+
+01:51:35.930 --> 01:51:37.930
+y después lo hago correcto
+
+01:51:37.930 --> 01:51:39.930
+lo pruebo, por ejemplo quiero hacer
+
+01:51:39.930 --> 01:51:41.930
+una predicción de 2.5
+
+01:51:41.930 --> 01:51:43.930
+obviamente que si yo hago la predicción
+
+01:51:43.930 --> 01:51:45.930
+2.5, que es lo que tiene que salir
+
+01:51:45.930 --> 01:51:47.930
+menos 2.5 y que es lo que salió
+
+01:51:47.930 --> 01:52:19.300
+más como 5.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000
+
+01:52:19.300 --> 01:53:01.240
+000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.
+
+01:53:01.240 --> 01:53:11.860
+que se conoce el data type X, que es of type list. A ver, veámonos, veámonos, para ver si te
+
+01:53:11.860 --> 01:53:30.950
+puedan oír. Corri el entrenamiento ahí, entrenamos la red, tomamos el credit 2.5, puede que sea
+
+01:53:30.950 --> 01:53:44.390
+los paréntesis. ¿Qué dice la baja? ¿Han reconocido el data type? Places listas. Ah, lo está poniendo
+
+01:53:44.390 --> 01:53:51.630
+formos fotomotoristas. Hay que ponerle más paréntesis de sus curchetos, ¿no? Doble. ¿Y cuántas importadas
+
+01:53:51.630 --> 01:54:01.510
+al Nupi? Model predict. A ver, voy a colocar lo que es. No, no sé, no alcanzo a ver si
+
+01:54:01.510 --> 01:54:08.630
+lo tenía igual. Model predict paréntesis, después doble paréntesis, doble corchete. No,
+
+01:54:08.630 --> 01:54:18.430
+dice paréntesis y corchete. Ah, ya. Doble corchete. Sí, ahí lo puse en el chat. Ya, perfecto. A
+
+01:54:18.430 --> 01:54:38.720
+COVID-19. Para que sea arraig. Model predict arraig. Ya, pero a ver, colócale model predict
+
+01:54:38.720 --> 01:54:57.190
+paréntesis, Np, arraig, igual como lo puse en el chat. Está igual, ¿no? Parece que te falta un,
+
+01:54:57.190 --> 01:55:08.940
+te falta. Voy a cobrar y ver. Arraig. El primer, el primer, no es doble corchete,
+
+01:55:08.940 --> 01:55:18.030
+en realidad. Es paréntesis, pues corchete. Ahí sí, ahí también. Y típico el paíton es autónoma.
+
+01:55:18.030 --> 01:55:26.780
+Sí, no sé, a mí también pasa que los arraig, los tensores y los listas y los diccionarios,
+
+01:55:27.740 --> 01:55:37.440
+ya. ¿Todo bien por allá en el ciberespacio? Sí, pero entendiendo todo, perfecto. Bueno,
+
+01:55:37.440 --> 01:55:42.360
+a la vuelta, como que ya estábamos en la sola siete en punto, a la vuelta vamos a hacer lo siguiente.
+
+01:55:42.360 --> 01:55:50.240
+Vamos a volver, no sé si volver, pero al menos los vamos a tratar de resolver un problema de
+
+01:55:50.240 --> 01:55:56.520
+detección de diabetes, para saber si una persona tiene diabetes o no, utilizando el famoso
+
+01:55:56.520 --> 01:56:03.880
+perceptual. Entonces, solamente antes de, antes de pausar a usted, pregunta. Bueno, todos saben lo que es
+
+01:56:03.880 --> 01:56:08.240
+diabetes, no sé, que un exceso de nivel de azúcar y eso se mira a través de un examen, ya los que
+
+01:56:08.240 --> 01:56:12.120
+son más viejos, los que escupos como yo, que tienen que estar aquí en los medios y todo eso,
+
+01:56:12.120 --> 01:56:17.840
+tienen que hacer una serie de exámenes, ¿sabes? Entonces, hay muchos exámenes y no sé,
+
+01:56:18.160 --> 01:56:27.000
+básicamente son indicadores, ¿no? Entonces, pregunta así por cachatía. ¿Usted es que el problema de
+
+01:56:27.000 --> 01:56:33.560
+clasificación de una persona que tiene o no diabetes, es resolvible? No sé, vamos a decir de
+
+01:56:33.560 --> 01:56:39.560
+resolvible, no sé, ¿se puede resolver otra vez un perceptual? ¿Quién viene a usted? Les dejo la
+
+01:56:39.560 --> 01:56:51.480
+pregunta mientras van a buscar café. Ya. Y lo otro es que, ah, hay lo otro, que, a ver, la grabación
+
+01:56:51.480 --> 01:56:57.120
+la voy a cortar y les voy a pedir para que no quede la grabación, el tamaño, el hacheo,
+
+01:56:57.120 --> 01:57:03.400
+el gigante, que ingresen con el siguiente link del Luzum, que está pues también disponible,
+
+01:57:03.400 --> 01:57:09.000
+entonces entramos con el siguiente link, ¿vale? Entonces, yo ahora me voy a desconectar y después
+
+01:57:09.000 --> 01:57:15.720
+entro en 20 minutos. ¿Cuánto es dura esto? 20 o 30 minutos? 30. 30, si te dime, entonces,
+
+01:57:15.720 --> 01:57:22.280
+entro con el siguiente link, ¿vale? Ok, gracias, gracias. Chau. Chau, gracias, nos vemos.
+
+01:57:22.280 --> 01:57:28.840
+Y sí, por mi parte creo que sí. Queda resolver. Vamos, vamos.
+

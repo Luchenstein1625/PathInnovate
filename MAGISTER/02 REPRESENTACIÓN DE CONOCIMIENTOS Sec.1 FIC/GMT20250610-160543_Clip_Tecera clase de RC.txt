@@ -1,0 +1,11784 @@
+la tarea del portonazo que habíamos conversado.
+A ver, Sergio, ¿estás ahí, cierto?
+Sí, profesor.
+Ok, bien. Entonces estamos compartiendo pantalla. ¿Lo ven todos?
+¿Se ve? Sí.
+Sí, se ve, profesor.
+Bien. Yo la verdad, bueno, siempre pregunta de a dónde venimos.
+Yo no vengo de la informática ni de este mundo, así que intenté hacer algo en fondo
+para poder tratar de aprender un poco más y aplicar lo que nos había enseñado.
+Claro.
+No sé cómo estará, pero...
+Está muy bien, Sergio. Hay algunas cosas, algunos detalles, pero gracias por el esfuerzo.
+Entonces, acá está la figura del portonazo que creo que todos ustedes conocen,
+a pesar de que hay algunos alumnos extranjeros, pero entiendo que ustedes les explicaron
+en la clase anterior de qué se trataba esto, ¿no?
+Y Sergio partió con definir algunas, hizo algunas definiciones antes de entrar propiamente tal
+a la representación, ¿ok?
+Y nos habla de ciertas propiedades, por ejemplo, nos dice que la ubicación es en la calle
+al llegar a una casa.
+Y introduce algunos objetos.
+Los objetos generalmente son los referentes en el discurso, ¿ok?
+Y él habla aquí de un automóvil, un delineado, una víctima.
+En el fondo, Sergio, hay algunos más que podríamos...
+Yo leí tu código y esto está bien, pero creo que podríamos haber introducido algunos más.
+Y te lo voy a explicar mientras vamos viendo lo que nos entregaste, ¿ok?
+Entonces, los roles que en el fondo son actores, también son referentes en el discurso.
+O sea, serían objetos también, ¿cierto?
+Tenemos al delincuente que inicia la acción del robo, la víctima que es conductor del vehículo
+y el automóvil que es objeto, digamos, del robo propiamente tal, ¿ok?
+Condiciones de entrada, nos puso acá víctima.
+La víctima se encuentra dentro del automóvil.
+El automóvil está detenido frente al portón de la casa.
+El delincuente se acerca al automóvil, ¿ok?
+Todo esto lo podríamos haber representado también, pero habría quedado muy largo, ¿no?
+Entonces, está bien lo que hace Sergio acá, danos las condiciones de entrada.
+En el mundo real, esto también lo tendríamos que tener representado en algún momento, ¿ok?
+Y los resultados de la acción que se pretende aquí representar es
+la víctima deja el automóvil, lo abandona.
+Aquí podríamos incluso haber dicho, Sergio, entre medio,
+la víctima deja el automóvil para abrir el portón,
+a pesar de que generalmente es eléctrico, ¿no?
+No necesita abandonarlo, pero habría sido una posibilidad también, ¿ok?
+Entonces, la víctima deja el automóvil,
+el delincuente obtiene el control del automóvil
+y el delincuente huye con el automóvil.
+Entonces, Sergio aquí aplicó una de las metodologías,
+o sea, a partir de lo más genérico
+y después ir detallando un poco más la representación
+conforme nosotros vamos haciéndola más específica, ¿no?
+Entonces, hay un nivel de subespecificación
+hasta cierto punto de la representación,
+lo cual no es nada errado,
+de acuerdo a nuestra metodología,
+que muchas cosas que no las podemos representar todavía
+las dejamos subespecificadas, ¿ok?
+Entonces, partiendo de esa situación inicial de la víctima
+que se encuentra en su automóvil cerca de su casa
+y llega un delincuente.
+Entonces, la secuencia de acciones,
+aquí está lo que Sergio nos codificó.
+Entonces, Sergio, a ver,
+andanos explicando paso por paso.
+La primera primitiva que tú usaste
+es una primitiva de acción.
+Explícanos aquí qué estás representando.
+Bueno, ahí busca representar que el delincuente
+se acerca al automóvil a la víctima.
+Ok, y el P-trans es una transferencia de...
+¿Te acuerdas de eso?
+De un objeto físico.
+De un objeto físico, sí.
+Transferencia física de un objeto, exactamente.
+Ok, y aquí tú pusiste su...
+¿Por qué partiste con el 2 y el 4?
+Si son los primeros referentes que estás introduciendo
+en la representación.
+Ah, no, es un desorden nomás.
+Ya, ok.
+La ubicación tampoco la escribí al principio.
+Sí, exacto.
+Es porque seguiste este orden de acá, me parece, ¿no?
+Sí.
+Ok.
+Bien.
+Entonces...
+¿Debiera, bueno, me imagino que por lógica
+debería ir avanzando de números?
+Sí, conforme los va introduciendo en el dominio de discurso,
+en el discurso, digamos, generalmente se hace así.
+Pero en la medida que seas consistente, digamos,
+no habría problema, porque está identificado
+con el subíndice, el superíndice, en este caso,
+el objeto que estás introduciendo en el discurso.
+Después, explícanos la fase, la acción 2, acá.
+Esa sería como la amenaza, digamos,
+el speak del delincuente hacia la víctima.
+Ok.
+Viendo que se haga el auto...
+Fíjate que aquí podrías haber introducido
+la amenaza como un objeto en el discurso también, ¿ok?
+Y acá te habría quedado algo así como...
+Aquí tendrías un referente adicional,
+que en este caso es la amenaza,
+y te quedaría aquí como delincuente con el superíndice 2,
+speak,
+víctima,
+eso lo puedes dejar así, tal cual,
+pero acá puedes introducir, fíjate, la amenaza,
+porque tú en el punto 3,
+¿qué estás modelando acá?
+¿Qué estás representando?
+El miedo.
+Claro.
+Solo que M-Trans no es específica para miedo,
+sino que es una transferencia mental que puede ser cualquier cosa.
+Puede ser miedo, puede ser alegría, puede ser cualquier cosa.
+Entonces,
+siendo que es una primitiva de una transferencia de un estado mental,
+tú podrías haber aquí introducido
+la amenaza como un referente,
+y quien está haciendo esa amenaza,
+en este caso no sería la víctima,
+porque por eso tú pusiste víctima en los dos lados.
+En el fondo,
+quien está amenazando es el delincuente,
+y por lo tanto el delincuente aquí,
+M-Trans,
+amenaza víctima.
+No sé si me entiendes, Sergio.
+Sí, sí, sí.
+Ok,
+tal como el ejemplo que veíamos en clases,
+como el garzón entregado a la comanda,
+al huésped que estaba en el restaurante,
+aquí más o menos es una situación similar,
+solo que está ocupando una primitiva de acción,
+que en este caso es una transferencia mental,
+que no la necesitamos en el ejemplo anterior.
+Después, punto 4, está correcto.
+¿Qué estás representando acá, Sergio?
+Estaba tomando el arma del delincuente.
+Perfecto.
+Eso está muy bien.
+¿Y después la siguiente?
+Bueno, ahí ya es la amenaza, digamos,
+del delincuente con el arma hacia la víctima.
+Sí.
+Ok, muy bien.
+De hecho acá,
+esta primitiva es súper, súper de alto nivel, digamos.
+Propel está definida como una aplicación de fuerza física a un objeto.
+Así es su definición, digamos,
+en el mecanismo,
+en el formalismo de representación de conocimiento.
+Pero tú lo estás usando acá para significar que él está,
+de alguna manera,
+tomando el arma,
+moviendo el arma
+y con ello apuntando a la víctima.
+Eso es lo que me estás representando acá, ¿correcto?
+Sí.
+Después, en el punto 6,
+tú estás representando,
+explícanos lo que estás representando acá.
+Del delincuente sacando a la víctima del automóvil.
+Sí.
+Claro.
+Eso se entiende.
+¿Y después en la siguiente?
+Ella, en el fondo,
+es la representación de que ya salió.
+Después el ingreso del 8,
+ya el ingreso del delincuente al automóvil.
+Sí.
+No sé si van así,
+como en esos pasos,
+ni son las...
+están correctas las primitivas.
+Sí, lo que pasa es que, a ver,
+en este, en este,
+el número de primitivas que les mostré
+no es el número,
+es uno, como les dije,
+no es taxativo,
+existen más primitivas.
+Entonces, tú estás utilizando
+algunas que son más genéricas,
+podríamos definir,
+o en el mecanismo se podrían definir
+primitivas que son más específicas
+y que nos sirven mejor
+para representar esta situación
+que es bien específica,
+pero el espíritu de representación
+está correcto.
+Después, en estas dos,
+¿qué estás representando acá, Sergio?
+Bueno, después que el fondo,
+el 9 que toma el automóvil...
+Sí, el delincuente se apodera del automóvil,
+en el fondo.
+Y después, en el fondo,
+que sella el automóvil
+y lo último ya es que se traslada,
+digamos, a la educación.
+Claro, o sea que el delincuente
+ya en el automóvil,
+¿cierto?
+Toma posesión de él
+y finalmente
+el automóvil se aleja
+de la situación.
+Entonces, claro,
+si Dios quisiera...
+Tu representación está correcta,
+si bien probablemente
+lo que necesitaríamos acá
+es introducir
+primitivas de acción
+más específicas
+que me den...
+que me representen,
+digamos,
+la situación un poco más...
+Hay cosas que están aquí
+subrepresentadas,
+que no están siendo representadas
+por falta de esas mismas
+primitivas,
+entonces...
+Al final,
+¿cómo es las que habían
+en la clase?
+Exacto, sí.
+¿Pueden crear más
+o existen otras...?
+Sí,
+en realidad el usuario
+como tal
+no puede crear nuevas,
+pero en el mismo formalismo,
+digamos,
+hay que...
+hay que poder definirlas
+para que después
+se puedan usar
+en distintos tipos
+de situaciones.
+Y aquí, finalmente,
+lo que nos da Sergio
+es un resumen
+de las primitivas
+de acción que ocupó.
+¿Ok?
+Ok.
+Como yo les dije,
+esto es...
+Esto es una representación
+usando frames y scripts
+que no están basados
+en lógica.
+¿Ok?
+Entonces,
+muchas gracias, Sergio,
+por haberte tomado
+el tiempo de hacer esto.
+Y lo que vamos a hacer ahora
+es vamos...
+a ir...
+¿No sé?
+¿Sí?
+Disculpe,
+antes de que cambie
+ahí el tema,
+¿existen más primitivas
+de acción
+o esas son las únicas...?
+No,
+existen más,
+sí,
+por supuesto.
+Y dependiendo,
+porque no hay un mecanismo
+de frames,
+hay varios formalismos,
+solo que,
+como les decía yo,
+se pueden aplicar,
+pero no están basados
+en lógica,
+¿ok?
+Entonces,
+han caído un poco
+en desuso
+para representación
+de conocimientos.
+Tuvieron mucha aplicación
+en los 70,
+80 y 90,
+y con la excepción
+de Siri,
+que se aplicó incluso
+con una versión
+bien específica,
+las primitivas ahí
+eran bien diseñadas
+para el dominio
+de aplicación,
+que era buscar
+búsqueda de información
+sobre restaurantes
+en una ciudad,
+en este caso,
+San José,
+al sur de Silicon Valley.
+Entonces,
+estaban súper bien
+especificadas
+y eran bastantes,
+entonces me ayudaban
+a poder representar
+cualquier situación
+en ese ámbito,
+pero si yo me salía
+de ámbito
+y les decía,
+ahora implementa
+el portonazo,
+por ejemplo,
+no iban a funcionar
+porque no estaban
+diseñados para eso,
+¿ok?
+Ok.
+Bien,
+no sé si están viendo
+el archivo
+que les estoy compartiendo
+ahora.
+Sí,
+sí se ve.
+Sí,
+profesor,
+se ve.
+Sí.
+Ok,
+entonces miren,
+para los que lo quieran
+hacer después,
+yo les di una serie
+de instrucciones acá,
+esto,
+a ver,
+la ventaja de esto
+es que es código abierto,
+¿ok?
+Entonces,
+no hay licencias
+que pagar,
+es muy distinto
+a otros formalismos
+de representación
+de conocimiento
+que son propietarios,
+no son de código abierto,
+hay que pagar
+o licencias
+o bien pagar
+un alquiler,
+como en el caso
+de algunos LLMs
+que te obligan
+a pagar
+una cierta cantidad,
+pero en este caso,
+la gran ventaja
+es que
+es un
+lenguaje,
+una implementación
+de Prolog,
+en particular
+que es de código abierto,
+porque hay varias,
+pero esta en particular
+es de código abierto,
+así que los que tengan interés
+lo pueden bajar
+y lo pueden
+comenzar a utilizar.
+Lo que vamos a hacer
+es,
+y ya lo tengo instalado,
+así que vamos a ir
+siguiendo un poco
+estas instrucciones
+y vamos a ir explicando
+un poco
+en qué consiste esto.
+Ahora,
+el Prolog es un lenguaje
+muy ocupado
+en representación
+de conocimiento
+porque fue una
+de las primeras
+implementaciones
+robustas
+de lógica
+de predicado
+a primer orden,
+que fue un formalismo
+que vimos
+en la segunda clase,
+la clase de la semana
+pasada,
+y es,
+ha tenido
+innumerables aplicaciones
+en inteligencia artificial,
+en varios dominios
+de aplicación,
+en particular
+en el procesamiento
+del lenguaje natural,
+¿ok?
+Y lo que vamos
+a explicar
+es cómo funciona
+esto,
+porque hasta ahora
+yo les he hablado
+los lenguajes
+de representación,
+les he hablado
+los sistemas
+de representación,
+pero de alguna manera
+no lo hemos
+sentido en carne propia
+porque no lo hemos
+aplicado,
+porque no teníamos
+una implementación
+propiamente tal
+para poder hacerlo.
+Entonces,
+el propósito
+de la primera parte
+de la clase
+es justamente
+hacer eso.
+Y a la luz
+de lo que vamos
+a hacer,
+los ejercicios
+que vamos
+a hacer,
+explicar los conceptos
+y ahí les va
+a quedar mucho
+más claro,
+¿ok?
+Entonces,
+yo voy a ir,
+tengo que salir
+de acá,
+lo primero
+que vamos
+a hacer
+es un poco
+ver cómo
+funciona
+este mecanismo
+de representación
+de conocimientos
+a la luz
+de cosas
+súper básicas
+que vamos
+a ir explicando.
+Entonces,
+les voy a compartir
+la aplicación
+de Prolog
+propiamente tal,
+¿ok?
+Vamos a ver.
+Ok,
+¿qué están viendo
+allí?
+Una consola.
+Una consola.
+Aquí estamos
+en la consola,
+yo ya lo tengo
+instalado
+y en el fondo
+en Prolog
+lo que yo hago
+en esta consola
+voy a ir
+ingresando
+ciertas expresiones
+en Prolog
+y vamos
+a ver
+el juego
+entre
+esta consola
+en donde yo
+voy a
+ingresar
+en el lenguaje
+de representación
+de conocimiento
+que es
+lógica
+de predicado
+a primer orden
+voy a ir
+ingresando
+expresiones
+y vamos
+a ver
+después
+la interacción
+entre esta consola
+en donde están
+las expresiones
+en el lenguaje
+de representación
+de conocimientos
+propiamente tal
+que es Prolog
+y qué efectos
+está teniendo
+en el sistema
+en la base
+de conocimientos
+propiamente tal
+y en el sistema
+de representación
+de conocimientos.
+Entonces,
+vamos a partir
+con cosas
+bien básicas
+como por ejemplo
+una expresión
+como la siguiente
+¿ok?
+Miren,
+en Prolog
+generalmente
+el prompt
+es lo que aparece
+para antes
+justo de que yo
+ingrese
+las expresiones
+siempre con
+un signo
+de interrogación
+y el guión
+medio
+¿no?
+Y las expresiones
+siempre se ingresan
+usando
+el lenguaje
+de representación
+de conocimientos
+y finalizan
+con un punto
+Entonces,
+¿qué está simbolizado?
+A ver,
+esto es
+prácticamente
+todo el mundo
+lo va a entender
+porque es
+igual como lo aprendemos
+en matemáticas
+¿qué está indicando esto?
+¿Qué es 5
+menor que 4?
+¿Qué es 5
+mayor a 4?
+O sea,
+menor a 4
+¿X menos 5?
+¿No?
+Sí,
+5 menor que 4
+Ok,
+yo le di retorno
+de carro a esto
+después del punto
+y me indica
+que es falso
+porque
+recuerden
+que esto es
+lo pueden pensar
+como si fuese
+un lenguaje
+de representación
+de conocimientos
+obviamente
+porque eso es lo que es
+pero piénsenlo
+como un programa
+como una sentencia
+en un lenguaje
+de programación
+cualquiera
+que en este caso
+es un lenguaje
+de programación
+lógica
+que corresponda
+a una expresión
+en lenguaje natural
+entonces esto
+es una expresión
+aritmética
+en prolog
+y es falsa
+porque no se cumple
+la premisa
+¿ok?
+¿estamos de acuerdo?
+Sí,
+profesor
+Sí
+que en la guía
+número uno
+la pregunta
+es ¿por qué
+la siguiente expresión
+es verdadera?
+Ah,
+perdón
+debe decir
+es falsa
+Gracias
+por la salvedad
+Gracias por la salvedad
+¿ok?
+Ok,
+vamos a ir
+a la siguiente
+Yo estoy siguiendo
+el PDF
+así que si lo tienen abierto
+lo pueden ir leyendo
+allí también
+la siguiente expresión
+es una
+vamos a ir
+cosas súper básicas
+vamos a partir
+lo más básico
+lo más complejo
+Ok,
+¿qué representa esto?
+Fíjense que es un símbolo
+dos iguales
+dos iguales
+no sé si alguien lo conoce
+esto
+a ver los informáticos
+¿qué está representando esto?
+Sí
+uno solo es igual
+y dos son idénticos
+Ok,
+esto es una comparación
+a nivel de caracteres
+no de los valores
+¿correcto?
+Por lo tanto
+esto debería ser correcto
+¿o no?
+Sí
+Sí
+Sí
+Ok
+Ok
+¿es correcto?
+porque está comparando
+a nivel de un string
+todos saben
+lo que es un string
+de caracteres
+¿o no?
+Sí
+No
+¿Quién dijo no?
+Yo
+Paula Milanesi
+Paula,
+mira,
+cuando tú tienes
+una comparación
+un string
+de caracteres
+son en el fondo
+una secuencia
+de caracteres
+que pueden ser
+alfanuméricos
+pueden ser
+de distinto tipo
+los caracteres
+pueden ser números
+pueden ser letras
+pueden ser símbolos
+como el arroba
+el signo exclamación
+y eso cuando tienes
+una secuencia
+de eso
+eso es un string
+de caracteres
+¿se entiende?
+Sí
+Sí
+Por ejemplo
+cuando te piden
+que tú crees
+una password
+en una aplicación
+cualquiera
+tú lo que haces
+es ingresar
+una string
+de caracteres
+y finalmente
+te piden ciertas reglas
+que tengan
+cierto número
+de caracteres
+que involucre
+números
+letras
+mayúsculas
+y minúsculas
+etcétera
+hay distintas reglas
+eso es una string
+de caracteres
+¿ok Paula?
+Sí
+profesor
+gracias
+Bueno
+en este caso
+es más
+no está
+evidente
+porque son números
+pero uno podría
+alguien se podría
+un poco confundir
+y decir
+claro acá
+el 5 igual al 5
+porque tiene el valor
+pero no son los valores
+de la expresión
+lo que estoy comparando
+estoy comparando
+la secuencia de caracteres
+¿esto qué debería darme?
+Verdadero
+Verdadero
+¿y por qué verdadero?
+porque sintácticamente
+son iguales
+a ambos lados
+ok
+efectivamente
+Isabel
+es verdadero
+porque está
+comparando
+una string
+de caracteres
+y los strings
+de caracteres
+del lado izquierdo
+y derecho
+son idénticos
+¿sí o no?
+correcto
+ok
+vamos a ir
+a otra expresión
+ok
+esto
+falso
+falso
+¿y por qué es falso esto?
+porque no está
+hablando
+de elaboración
+matemática
+está
+hablando
+sintácticamente
+ok
+es falso
+exactamente
+entonces ustedes
+están en lo correcto
+¿por qué?
+porque nuevamente
+esto es una comparación
+de caracteres
+¿sí o no?
+las expresiones
+en términos
+de los caracteres
+que la componen
+son evidentemente
+distintas
+si bien
+aritméticamente
+corresponden
+si yo las evaluara
+aritméticamente
+me daría
+la misma
+debería ser
+verdadero
+y no falso
+ok
+ok
+vamos a ir
+a otra expresión
+que es muy parecida
+pero tiene una pequeña
+diferencia
+ok
+esta expresión
+es igual que la anterior
+¿o no?
+no
+no
+no es la diferencia
+que esta calcula
+primero
+y después compara
+compara valores
+hace el cálculo
+hace el cálculo
+matemático
+no compara
+literal
+ok
+perfecto
+y eso
+es porque
+el operador
+es distinto
+al anterior
+¿cierto?
+sí
+miren
+acá el operador
+da dos signos
+iguales
+y acá el operador
+son
+dos signos
+iguales
+con dos puntos
+al medio
+y eso
+efectivamente
+debería estar
+simbolizando eso
+por lo tanto
+¿cómo es la expresión
+Inés?
+ahí
+esa es verdadera
+y explícanos
+por qué es verdadero
+porque
+ese operador
+primero calcula
+entonces
+primero dice
+a un lado
+hay cinco
+al otro lado
+hay cuatro más uno
+que también es cinco
+y luego compara
+cinco y cinco
+dice que
+cinco es igual
+sí
+cuatro más uno
+si se da la confesión
+de cuatro más uno
+pero debería validar
+que es
+no
+esa no es la del sí
+diría yo
+¿es comparación
+aritmética o no?
+sí
+es lo que
+acaba de hacer
+lo que explicó Inés
+¿estamos claros
+ahí o no?
+sí
+ok Inés
+vamos a ir a lo siguiente
+ok
+¿qué operador
+es este?
+distinto
+distinto
+y la evaluación
+equival
+sí
+la evaluación
+es aritmética
+y el
+y el operador
+equivalente
+al distinto
+en matemáticas
+ok
+y no es distinto
+por lo tanto
+esta
+expresión es
+falsa
+falsa
+ok
+vamos a ir a otra
+expresión
+ok
+¿qué me indica esta expresión?
+por la cuatro
+por lo tanto
+es falsa
+menor
+igual
+ok
+efectivamente
+esta es una
+inequación
+y en este caso
+es falso
+porque cinco
+no es menor
+en valor
+a cuatro
+ok
+entonces
+miren
+yo podría
+seguir
+yo podría
+seguir
+generando
+expresiones
+en el lenguaje
+de representación
+de conocimiento
+que en este caso
+es prolog
+y evaluándolas
+ok
+pero en muchos
+casos
+nosotros
+de hecho
+en el curso
+hablamos todo el tiempo
+de tres cosas
+la representación
+propiamente tal
+que es esto
+la base de conocimiento
+que es otra cosa
+y el sistema
+de representación
+de conocimiento
+que es donde
+yo interpreto
+reglas
+escritas
+en ese lenguaje
+son tres
+cosas que
+tenemos que tener
+claro
+y que nos va a quedar
+claro ahora
+entonces
+si yo quiero
+ingresar
+conocimiento
+del mundo
+para que una gente
+pueda actuar
+en el mundo
+yo tengo que tener
+una base de conocimiento
+generalmente
+ok
+y eso es lo que
+vamos a simular ahora
+entonces
+les voy a compartir
+aquí pantalla
+con
+la base de conocimiento
+que la vamos a ir
+poblando
+a medida que vamos
+haciendo este ejercicio
+ok
+entonces yo voy a salir
+de aquí
+y ahora les voy a compartir
+la base de conocimiento
+¿la ven?
+sí
+ok
+la base de conocimiento
+yo ya instalé
+algunas reglas
+de conocimiento
+y fíjense
+que están
+en la lógica
+de predicado
+primero
+entonces
+yo tengo tres predicados
+¿cuáles son los tres predicados?
+hombre
+mujer
+hijo
+y tengo tres objetos
+¿cuáles son?
+Juan María José
+Juan María José
+ya
+estos están
+entonces
+vamos a suponer
+que yo los
+acabo de ingresar
+entonces
+hay que
+hay que grabar esto
+ok
+entonces me dice
+que en el mundo
+hay tres objetos
+Juan María
+y José
+entonces Juan
+es un hombre
+María es una mujer
+y José
+es un hijo
+ok
+no me está diciendo
+si es hijo
+de Juan y María
+no me está diciendo nada
+me está diciendo
+solamente que
+es José
+entonces tengo tres
+reglas de conocimiento
+del mundo
+en mi base
+de conocimientos
+entonces lo que vamos a hacer
+es cargar
+cargar esto
+en el sistema
+de representación
+de conocimientos
+¿cómo lo hago?
+para eso
+tengo que ir
+nuevamente a la consola
+ok
+entonces voy a salir
+de la base
+de conocimientos
+ahora
+y voy a ir
+a la consola
+ok
+salgo de acá
+voy de nuevo
+a la consola
+estamos en la consola
+ahora
+¿cierto?
+sí
+y prueba
+bueno
+yo la base
+de conocimientos
+la tengo
+como un archivo
+en el fondo
+este comando
+es para cargar
+conocimientos
+en la base
+que está en la base
+de conocimientos
+cargarla en el sistema
+de representación
+de conocimientos
+ok
+entonces
+aquí está
+el camino
+el path
+yo lo tengo
+en el desktop
+la base
+de conocimientos
+y fíjense
+que termina
+con pl
+porque
+esa es la extensión
+para
+prolog
+ok
+entonces
+veamos
+qué pasa
+si le doy
+retorno a esto
+ok
+¿qué me dice
+el sistema?
+ahora
+fíjense
+que esta interacción
+tiene lugar
+con el sistema
+de representación
+de conocimientos
+o sea
+tengo la base
+de conocimiento
+pero yo cargo
+ese conocimiento
+en el sistema
+de representación
+de conocimientos
+y el sistema
+me dice
+ok
+las representaciones
+están
+correctas
+en prolog
+¿cierto?
+y las cargó
+en el sistema
+de representación
+de conocimientos
+o sea
+ya están disponibles
+y ya puedo
+hacer consultas
+por ejemplo
+¿ok?
+¿se entiende
+ese concepto
+¿no?
+entonces
+ya introdujimos
+los tres conceptos
+claves
+o sea
+el primero
+es la consola
+donde yo puedo
+ir haciendo
+preguntas
+lógicas
+al sistema
+usando el lenguaje
+de representación
+que en este caso
+no necesitaba
+conocimiento
+del lenguaje
+porque eran
+consultas
+que no
+involucraban
+conocimiento
+del mundo
+sin embargo
+yo creé
+una base
+de conocimiento
+en la caridad
+del sistema
+de representación
+y ahora
+yo puedo
+hacer preguntas
+sobre lo que acabo
+de ingresar
+que es específico
+que corresponde
+al dominio
+de aplicación
+bien simple
+obviamente
+pero nos va
+a permitir
+ver cómo funciona
+todo esto
+¿ok?
+entonces vamos a hacer
+algunas preguntas
+¿ok?
+a la base
+de conocimiento
+si yo hago
+si yo hago
+esa pregunta
+¿qué estoy preguntando?
+¿esto está en la consola?
+¿esta es una expresión?
+en el lenguaje
+de representación
+de conocimiento
+que es prólogo
+en este caso
+si yo ingreso
+a esto
+¿qué va a ocurrir?
+verdadero
+verdadero
+si yo ingreso
+a esto
+entonces el sistema
+de representación
+va a tener
+que interpretar
+esto
+y darme una respuesta
+va a tener que
+ir a la luz
+de los hechos
+que están cargados
+en la base
+de conocimiento
+¿ok?
+veamos
+me dice
+true
+o sea
+me dice exactamente
+que el objeto
+Juan
+es un hombre
+¿por qué?
+¿por qué me dice eso?
+es que la base
+de conocimiento
+así lo dice
+está cargada
+esa información
+porque en la base
+de conocimiento
+ese hecho
+está cargado
+y yo ya lo cargué
+en el sistema
+de representación
+de conocimiento
+por lo tanto
+está disponible
+en el universo
+de discurso
+¿ok?
+vamos a hacer
+y ahí no es necesario
+como agregar
+un operador
+el operador
+no
+o sea
+yo podría
+hacer consultas
+mucho más complicadas
+lo vamos a ver
+en un minuto más
+estamos partiendo
+por lo más básico
+en este caso
+lo que yo estoy ingresando
+es un predicado
+y un objeto
+lo único que estoy
+preguntando acá
+ok
+existe en el universo
+de discurso
+un objeto llamado
+Juan
+que cumple
+con la condición
+de ser hombre
+y esto
+recuerden
+es un predicado
+yo les dije
+teoría de conjunto
+¿se acuerdan
+cuando vimos esa clase
+que definimos
+lo que era un predicado
+¿se acuerdan?
+ok
+es todo lo que estoy haciendo
+entonces
+yo podría hacer
+alguna consulta
+¿quién me hizo
+la pregunta
+de eso
+del operador?
+Gonzalo acá
+Gonzalo
+yo podría
+preguntar
+algo más complejo
+que involucrar
+un conector lógico
+por ejemplo
+¿me entiendes o no?
+sí
+ya vamos
+a ver ejemplos
+de eso
+¿ok?
+aquí
+aquí no hay ningún operador
+aquí lo que hay
+es un predicado
+y un objeto
+y lo que está viendo
+el sistema
+es si
+en la lógica
+de predicado
+está diciendo
+existe un objeto
+del cual
+predicamos
+que es hombre
+o no
+es todo lo que está
+si hay uno
+es correcto
+y si no
+es falso
+¿ok?
+¿ok Gonzalo?
+sí, profesor
+Gonzalo
+está en su auto
+usted me parece
+¿no?
+¿no?
+está viajando
+parece
+no, profesor
+acá
+apago el micrófono
+porque anda
+mi hijo
+por acá
+ok
+bien
+vamos a hacer
+otra consulta
+ahora
+¿ok?
+ok
+¿qué estoy consultando
+aquí?
+si María es mujer
+si María es mujer
+claro
+y si
+si en la base
+de conocimiento
+hay información
+que soporte
+esta
+esta expresión
+¿ok?
+¿y por qué me dice
+que sí?
+me dice
+correcto
+porque está
+explícito
+dice
+mujer
+María
+tal cual
+porque está
+expresada
+en la base
+de conocimiento
+y esa base
+de conocimiento
+yo la cargué
+al sistema
+de representación
+de conocimiento
+ok
+con este comando
+que está aquí
+recuerden eso
+ok
+vamos a ir
+ahora
+a otra pregunta
+ok
+¿qué estoy preguntando
+ahora
+al sistema
+de representación
+de conocimiento?
+si José es hijo
+exacto
+más explícitamente
+si estoy preguntando
+si hay un objeto
+en el mundo
+en el mundo
+que yo estoy
+instanciando
+llamado José
+que cumple con la
+condición
+o sea que el predicado
+del cual
+él parte
+es que es hijo
+¿ok?
+y la respuesta
+también es correcta
+porque esos tres
+hechos
+ya nosotros
+ya los habíamos
+ingresado
+no a través
+de la consola
+lo podría haber hecho
+a través de la consola
+también
+pero
+es engorroso
+porque si yo quiero
+tengo muchos
+muchos
+expresiones
+y mejor hacerlo
+en la base
+de conocimiento
+es ir cargando
+las propiamente
+tablas
+¿ok?
+el punto es que
+están disponibles
+en el sistema
+de representación
+de conocimiento
+y por lo tanto
+por esa razón
+están disponibles
+¿ok?
+vamos a ir
+antes de ir
+a eso
+les voy a hacer
+una pregunta
+de repaso
+nosotros vimos
+¿se acuerdan
+del trade-off
+de expresividad?
+¿se acuerdan
+que era eso?
+nosotros dijimos
+que en los años 80
+hubo una transición
+al final de los 80
+y todos los 90
+y después del milenio
+hubo una transición
+en todo el tema
+de representación
+de conocimientos
+para que los lenguajes
+estuvieran basados
+en lógica
+y nosotros
+hablamos de
+Frege
+de Gottloff
+Frege
+y dijimos
+que él había inventado
+la lógica
+predicado a primer orden
+ahí en 1800
+y tanto
+a mediados de ese siglo
+y pasaron 100
+y surge la inteligencia
+artificial
+y una de las
+implementaciones
+más exitosas
+de
+de la lógica
+predicada a primer orden
+es justamente
+esta que estamos usando
+hoy día
+ahora
+en este ejercicio
+¿ok?
+entonces
+no
+el prolog
+es bien expresiva
+como lógica
+pero
+no
+no
+no
+no es tan expresiva
+para abarcar
+todo lo que se puede
+representar en lógica
+de predicado a primer orden
+¿cuál es la razón
+para eso?
+¿por qué la restringimos?
+¿se acuerdan
+de esa pregunta?
+para que sea más eficiente
+para que el algoritmo
+sea más eficiente
+o sea
+le dijimos
+mientras más expresivo
+es mejor
+porque puedo representar
+más conocimiento
+pero tengo un trade-off
+los algoritmos
+son en P-Complete
+son
+en P-Complete
+en APS
+significa
+que son
+como decía
+su compañero
+no son eficientes
+y eso es malo
+entonces
+¿cuál algoritmo
+utiliza
+Prolog?
+esa es la pregunta
+que les quería hacer
+y
+¿utiliza
+uno
+que
+siendo
+eficiente
+todavía
+porque es
+es capaz
+de representar
+bastante conocimiento
+y razonar
+sobre mucho conocimiento
+¿cuál es?
+¿de todos los que
+hay
+como al
+que decía
+como del mundo cerrado?
+ah
+ya vamos
+ya vamos
+el supuesto
+del mundo cerrado
+sí Inés
+pero ese no es
+el algoritmo
+ese es un supuesto
+ese es un supuesto
+para lidiar
+con razonamiento
+no monotónico
+lo vamos
+a ver también
+vamos a hacer
+un ejercicio
+de eso ahora
+ok
+pero yo les voy a enseñar
+varios
+algoritmos
+y uno de ellos
+es un algoritmo
+que es muy usado
+en particular
+lo usa Prolog
+en su implementación
+de lógica
+de predicado
+primero
+y se llama
+el algoritmo
+de unificación
+entonces
+¿por qué se los digo?
+es porque
+lo que vamos a hacer
+ahora
+vamos a poner a prueba
+este algoritmo
+de unificación
+entonces
+habiendo introducido
+todo esto
+yo hago
+la siguiente pregunta
+ok
+¿qué estoy
+¿qué significa
+esta expresión?
+x
+es una variable
+el objeto x
+es una variable
+que diga quién es mujer
+¿cómo?
+que hay un objeto x
+si
+si
+existe mujer
+entonces miren
+para que Prolog
+me pueda responder
+esta pregunta
+va a tener que usar
+el algoritmo
+de unificación
+y ya lo vamos
+a redefinir nuevamente
+más específicamente
+más adelante
+pero
+de partida
+esa x
+está en mayúscula
+¿por qué?
+porque es una variable
+puede ser
+porque es una variable
+ok
+¿y qué me está
+preguntando esto?
+si el objeto x
+es mujer
+si el objeto x
+es mujer
+la pregunta
+es un poco distinta
+la pregunta es
+¿existe un objeto?
+ah
+existe
+existe un objeto
+que
+y podamos predicar
+sobre ese objeto
+que es mujer
+y si existe
+unifícalo
+y devuélvelo
+en la
+en la variable x
+eso es lo que estoy preguntando
+¿se han tenido la pregunta?
+¿no?
+sí
+sí
+o sea
+lo que va a hacer
+el algoritmo
+de unificación
+en este caso
+va a ir a la base
+de datos
+perdón
+a la base
+de conocimiento
+va a buscar
+todos los objetos
+va a ver
+si hay un objeto
+que en este caso
+compro con el predicado
+de ser mujer
+y si es así
+me va a instanciar
+el valor
+el objeto
+en la variable x
+es decir
+le va a asignar
+ese objeto
+a la variable x
+¿se entiende o no?
+sí
+¿qué pasa si hay más
+de una mujer?
+ya vamos a ver
+ok
+¿qué me respondió
+el sistema?
+que es igual a María
+me dice
+efectivamente
+hay un objeto
+y es María
+o sea que
+fíjese que x
+no tenía valor
+esa variable
+la introduje yo
+y tiene que ser
+con mayúsculas
+como decían ustedes
+para notar
+que es una variable
+sin valor
+y me
+en caso de ser
+de haber un objeto
+que cumpla con esa condición
+entonces me va a cargar
+ese valor
+en la variable x
+me lo va
+me lo va a indicar acá
+o sea
+esto
+esto es solo
+el algoritmo de unificación
+¿ok?
+¿te entiende o no?
+no profe
+yo como que me perdí
+con el tema
+de la unificación
+a ver
+dime lo que entendiste
+es que
+puedo entender
+es que lo que no sé
+si el algoritmo de unificación
+está dado
+por esa sintaxis
+o sea
+mujer
+el algoritmo de unificación
+es subyace
+al
+al
+mecanismo
+de razonamiento automático
+de esta implementación
+de lógica
+de predicado
+o sea
+¿cómo razona?
+porque recuerden
+yo les dije
+¿por qué
+queremos que el
+lenguaje de representación
+esté basado en lógica?
+para razonar
+automáticamente
+¿ok?
+¿y qué
+algoritmo
+de razonamiento
+automático
+hay?
+hay muchos
+va a depender
+de la lógica
+¿ok?
+en esta implementación
+de Prolog
+el algoritmo
+es el algoritmo
+de unificación
+¿ok?
+ok
+ahora
+ya lo vamos a definir
+un poco más técnicamente
+más adelante
+porque este es un ejemplo
+súper simple
+de unificación
+¿ok?
+es una variable
+con un objeto
+es súper simple
+¿ok?
+en el fondo
+yo
+lo que sé
+si es también
+una
+es un mismo
+pro
+fuera con minúscula
+ahí sería
+falso
+¿entendería?
+porque estaría
+como un objeto
+que se llame
+de esa manera
+ahí claro
+tendríamos un problema
+porque para poder
+para poder designar
+la variable
+como ha sido tu compañero
+recién
+debe estar en mayúscula
+¿ok?
+entonces vamos a otro ejercicio
+y vamos a ver
+¿cuántos hijos
+tenemos en la base
+de datos?
+en la base
+de conocimientos
+uno
+bueno
+entonces vamos
+vamos a introducir
+para hacer
+dado que ustedes
+me preguntaron eso
+lo vamos
+vamos a ver
+qué pasa
+si hay más de un objeto
+que cumple con el predicado
+entonces vamos
+vamos a simular eso
+y ver qué pasa
+vamos a ir a la base
+de conocimientos
+ahora
+voy a salir de aquí
+voy a ir a la base
+de conocimientos
+y voy a agregar
+un objeto adicional
+del cual se va a cumplir
+que sea
+también
+único
+¿ok?
+entonces
+vamos a salvar
+esta información
+en la base
+de conocimientos
+profesor
+¿qué pasa
+si en la base
+de conocimientos
+hay una variable
+con la
+o sea
+hay un
+un dato
+que no se llama
+por ejemplo
+hijo
+y entre paréntesis
+que no se cierra
+¿qué significa eso?
+o x mayúscula
+por ejemplo
+que o sea
+cumpla una condición
+sea hombre
+mujer o hijo
+pero que entre paréntesis
+tenga x mayúscula
+tú puedes tener
+reglas
+que indiquen
+variables
+lo vamos a ver
+más adelante
+o sea
+las reglas
+acá en la base
+de conocimientos
+no solamente
+involucran
+objetos
+y predicados
+sino que pueden
+se colgó
+el profe
+o fui yo
+el profe
+se le fue
+el audio
+está muy compleja
+la pregunta
+se le cayó
+el internet
+parece
+profesor
+mucha representación
+recarga
+ese conocimiento
+a mí me parece
+que la María Isabel
+tomó como
+el host
+ahí volvió
+sí
+ahora dice
+que el profe
+tiene el host
+¿me escuchan?
+sí
+profesor
+sí
+profesor
+vamos a ir a la consola
+les decía
+¿estamos viendo
+la consola?
+sí
+¿qué tengo que hacer
+para cargar
+ese nuevo
+objeto
+con su predicado
+en el sistema
+de representación
+de conocimiento?
+ejecutar
+penal
+ejecutar
+compilar
+vamos a cargar
+ese nuevo
+objeto
+ok
+ahí está cargado
+y ahora
+vamos a hacer
+algo similar
+ok
+¿qué pasa acá ahora?
+el algoritmo
+de unificación
+va a ir
+en el sistema
+de representación
+va a ir a la base
+va a ver
+si hay un hijo
+o un objeto
+que cumpla
+con el predicado
+hijo
+y lo va a unificar
+con la variable
+x
+es decir
+le va a asignar
+ese valor
+a la variable x
+eso es lo que va a pasar
+pero ahora
+está un poco
+más complicado
+¿por qué?
+porque hay dos
+hay dos
+o sea
+y eso lo vamos a ver
+más adelante
+en la segunda parte
+de la clase de hoy
+cuando veamos
+relaciones
+anafóricas
+¿qué es una relación
+anafórica?
+¿alguien sabe?
+no
+anafórica
+es cuando yo
+introduzco
+un referente
+en el discurso
+y luego
+hago referencia
+a él
+entonces
+como ya está
+disponible
+el sistema
+de representación
+va a ir a la base
+lo va a ir
+a la base
+de conocimiento
+va a decir
+este objeto
+ya está introducido
+y se está
+haciendo referencia
+a él
+entonces está disponible
+para que yo pueda
+hacer preguntas
+sobre ese
+referencia
+eso es lo que yo
+estoy haciendo ahora
+eso es lo que
+¿qué va a pasar acá?
+si yo le doy
+retorno a esto
+creo que uno de ustedes
+me hizo la pregunta
+por eso
+por eso introdujimos
+otro
+objeto
+en este caso
+es
+también un hijo
+o sea
+ahora tenemos
+dos hijos
+en la base
+de representación
+de conocimiento
+¿no?
+claro
+debería devolver los dos
+yo creo que uno
+devuelve uno
+primero
+devuelve uno
+veamos
+el primero
+que encuentro
+al parecer
+sí
+sí o no
+sí
+claro
+ok
+vamos ahora
+a ingresar
+una expresión
+nueva
+ok
+¿qué va a pasar ahora?
+¿qué debería pasar?
+¿no lo va a encontrar?
+falso
+no
+falso
+necesito el objeto
+dentro de un
+y de su conocimiento
+ok
+efectivamente
+no está
+ok
+o sea
+no hay ningún objeto
+que cumpla con esta
+condición en la base
+de conocimiento
+pregunta
+a ver
+para Inés
+que hizo
+esa salvedad
+recién
+¿qué algoritmo
+de razonamiento
+no monotónico
+está ocupando
+Prolog
+para decir
+falso?
+ya
+ahí si era
+el CWA
+que era
+como el
+del punto cerrado
+¿no?
+exactamente
+que dice
+que si no es
+o sea
+si no es verdadero
+en la base
+de conocimiento
+o sea
+solo es verdadero
+lo que está
+lo que está escrito
+lo que no
+de lo que no tiene
+conocimiento
+lo presupone
+falso
+exacto
+así es
+entonces acá tenemos
+un ejemplo
+de
+la
+el supuesto
+del mundo cerrado
+ok
+de razonamiento
+no monotónico
+ok
+que está
+implementado
+también en Prolog
+ok
+que era una
+de las maneras
+de lidiar
+con ese problema
+del razonamiento
+no monotónico
+que veíamos recién
+la clase pasada
+profesor
+una consulta
+no
+no puedo
+entender
+la diferencia
+entre
+entre un
+entre
+como un
+entre esto
+como un proceso
+de unificación
+con una serie
+de reglas
+if then
+porque al final
+como que es
+yo le doy un argumento
+entonces
+tiene que entregarme
+un resultado
+si
+no
+no
+no entiendo
+como
+como la diferencia
+¿cuál
+es la diferencia
+en general
+de
+Felipe
+la diferencia
+es que
+en esas
+relaciones
+if then
+en el fondo
+no hay
+razonamiento
+automático
+no hay
+encadenamiento
+ni para atrás
+ni para adelante
+entonces
+cosas como
+el if then
+se pueden implementar
+en Prolog
+también
+pero Prolog
+es mucho más poderoso
+y lo vamos a ver
+cuando veamos
+un ejemplo más complejo
+ahí te va a quedar
+más claro Felipe
+ya
+ok
+entonces
+no funciona
+como un árbol
+esto
+no
+no
+esto funciona
+como
+a ver
+eso lo vimos
+teóricamente
+pero se los voy a explicar
+ahora con ejemplos
+lo que va
+lo que
+lo que estamos
+operando acá
+son estructuras
+de datos
+mucho más complejas
+que el árbol
+es una estructura
+que se llama
+matrices
+de atributo
+valor
+que pueden ser
+muy complejas
+porque pueden tener
+muchos grados
+de recursividad
+Felipe
+hacia adentro
+¿me entiendes o no?
+y de hecho
+vamos a ver
+un par de ejemplos
+ahora en la primera
+parte de la clase
+de hoy
+ok
+ok
+vamos a introducir
+una nueva regla
+en la base
+de conocimiento
+entonces voy a salir
+de la consola
+nuevamente
+voy a ir
+a la base
+de conocimientos
+y voy a incluir
+ahora un predicado
+de dos
+¿cuál es la herida
+de este predicado?
+fíjense
+todos los predicados
+que teníamos
+ahora
+eran unarios
+este predicado
+es binario
+es decir
+tiene herida
+número dos
+¿por qué?
+porque requiere
+dos objetos
+porque requiere
+dos objetos
+exacto
+es un predicado
+de dos
+de herida
+dos
+¿y qué significa
+esto
+Gonzalo?
+que él
+por lo que entiendo
+el predicado
+debería buscar
+cómo interactúan
+dos objetos
+para que
+sea verdadero
+entonces
+cumplir esa regla
+dentro de la base
+de conocimiento
+que esos dos objetos
+en específico
+cumplen con ese predicado
+no otros
+el predicado
+pareja
+es siempre
+tomado de argumento
+donde dice
+que el primer argumento
+es pareja
+del segundo
+¿ok?
+perfecto
+la consulta
+informáticamente
+lo puedo ver
+como una lista
+que tiene
+objetos
+dentro de ellos
+¿cierto?
+no
+no
+no lo puedes ver
+la figura
+es distinta
+acá
+el predicado
+no es
+no es una lista
+¿ok?
+en esa misma
+pregunta
+Rofe
+¿es como un vector?
+¿donde
+la dimensión
+el inicial
+y el segundo
+es como otra
+dimensión?
+es más bien
+como lo que hemos
+mencionado
+con tu compañero
+que la clase
+pasada
+que me decía
+que estos
+predicados
+eran
+en este caso
+digamos
+lo modelamos
+como teoría
+de conjuntos
+pero en el fondo
+más genéricamente
+es una relación
+el predicado
+es una relación
+que en este caso
+está tomando
+dos
+dos objetos
+o sea
+tiene heridas
+dos
+por ejemplo
+yo podría
+yo podría decir
+aquí lock
+en lugar de pareja
+podría decir lock
+por locación
+y decir pareja
+perdón
+Juan
+y podría poner
+la ubicación
+podría decir aquí
+Santiago
+por ejemplo
+¿ok?
+y eso también
+es una relación
+pero es una relación
+ya distinta
+porque
+está modelando
+otra cosa
+está modelando
+la ubicación
+de un objeto
+¿ok?
+¿profesor?
+¿sí?
+pero eso es
+tiene
+tiene un orden
+porque tú dijiste
+me parece que dijiste
+el primero
+es
+el sujeto
+del segundo
+o sea
+Juan
+pareja
+María
+que no sería
+lo mismo
+y solo se puede
+leer así
+podría leer
+como
+Juan y María
+son pareja
+claro
+o sea
+así como está
+predicado
+me está diciendo
+que Juan
+es pareja
+de María
+está como
+está
+escrito aquí
+¿ok?
+pero se podrían
+agregar
+las dos
+las dos opciones
+dentro de la base
+de conocimiento
+vamos a ver
+vamos a salvar
+esto
+nos vamos a salir
+de acá
+nos vamos a ir
+ahora
+pero una pregunta
+la estructura
+que tiene el programa
+siempre fuerza
+a que el primer
+objeto
+sea relación
+del segundo
+o es
+porque imagino
+que pareja
+una cosa
+que le podría
+haber puesto
+cualquier cosa
+en vez de decir
+pareja
+podría haber dicho
+conviviente
+o lo que sea
+y el programa
+no reconoce
+la palabra
+pero siempre
+lo lee
+como
+el primer
+objeto
+es dependiente
+del segundo
+así es
+ok
+entonces
+¿qué vamos a hacer
+que tenemos que hacer
+acá nuevamente?
+tenemos que cargar
+ese conocimiento
+en el sistema
+¿cierto?
+sí
+ok
+ahí está cargado
+y ahora yo
+ya que está cargado
+vamos a ver
+¿qué pasa?
+voy a hacer la pregunta
+¿qué debería ocurrir ahora?
+verdadero
+indicar que es verdadero
+ok
+¿funcionó?
+sí
+pero ahora vamos a hacer
+la pregunta
+que me dijo Inés
+¿dónde está Inés?
+acá
+estoy en Zoom
+¿se alcanza a ver o no?
+sí
+pareja María Juan
+sí
+¿qué debería ocurrir ahora?
+ustedes dicen
+que debería decir
+true o no?
+falso
+falso
+no debería decir falso
+por el orden
+¿y qué me dijo?
+falso
+ok
+entonces ustedes me dicen
+bueno acá tenemos un problema
+porque no
+¿cómo modelamos el hecho
+que nosotros sabemos
+de que esta
+esta relación
+es de unívoca
+no es unívoca
+entonces bueno
+lo podemos hacer
+pero tenemos que ingresar
+algo en la base
+de conocimiento
+¿qué tenemos que hacer?
+colocar otro pareja
+María Juan
+entonces
+vamos a ver
+cómo lo hacemos aquí
+vamos a ir a
+la base de conocimiento
+vamos a salir de aquí
+vamos a ir a
+a la base de conocimiento
+¿la están viendo?
+sí
+y ahora yo voy a
+¿qué regla tendría que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+que
+la relación
+esta pareja
+en particular
+porque hay relaciones
+que no son
+de unívocas
+pero esto sí lo es
+entonces de alguna manera
+tengo que poder
+dar de ese conocimiento
+al
+al
+a la base de conocimiento
+¿cómo lo hago?
+lo hago así
+¿qué significa esto?
+que
+espera que
+la primera
+es verdadera
+si la segunda
+lo es
+no porque ambas
+son verdaderas
+no
+dice
+dice
+es lo mismo
+esta regla me está diciendo
+lo siguiente
+que si
+que si
+el predicado
+pareja
+lo predico
+de los elementos
+X
+e Y
+entonces
+ese predicado
+también
+es válido
+para los
+para los
+los objetos
+para las variables
+Y
+o sea
+en el sentido
+contrario
+¿ok?
+se lee
+y se lee
+se leería
+si la
+si el primer
+predicado
+es verdadero
+también es verdadero
+para el segundo
+eso significaría
+guión
+claro independiente
+independiente
+de cuál sea
+el valor
+de esas variables
+¿me entienden?
+correcto
+para cualquier pareja
+en el fondo
+sí
+ok
+¿ese es guión
+o un menos?
+sí
+es el signo de asimación
+guión
+guión
+medio
+guión medio
+sí
+ok
+entonces
+salvamos esto
+en la base de conocimiento
+y ahora lo tenemos que
+cargar
+en el sistema
+de representación
+de conocimiento
+¿ok?
+ok
+ahora está cargado
+y ahora podemos hacer
+la pregunta de nuevo
+¿no?
+¿no está?
+Rofe
+no sé si está
+o ya soy yo
+tiene que compartir
+la otra
+¿estoy comprando
+en el editor?
+la base de conocimiento
+la base de conocimiento
+ah perdón
+déjeme salir de aquí
+ok
+ok
+yo ya
+¿vieron que ya ejecuté
+ese comando?
+por lo tanto
+esto está cargado
+¿cierto?
+en la base
+en el sistema
+de representación
+de conocimiento
+ahora sabe
+que ese predicado
+pareja
+esa relación
+es de unívoca
+entonces
+vamos a hacer
+la pregunta
+de nuevo
+¿ok?
+ok
+¿qué me debería dar
+ahora Inés?
+ahora
+ahora
+¿verdad?
+muy bien
+y ahí
+en general
+cuando eso ocurra
+yo voy a poder
+siempre
+decir que esa relación
+es de unívoca
+de esa manera
+¿ok?
+profesor
+si fueran
+por ejemplo
+se han predicado
+amigos
+si fueran
+cinco objetos
+hay que agregar
+dentro de la base
+de conocimiento
+todas las opciones
+de combinaciones
+posibles
+¿no hay como
+alguna forma
+de escribirlo
+para que
+consigue todo
+de inmediato
+como un solo
+como
+la regla
+sería más
+más compleja
+porque hay más
+combinaciones
+posibles
+entonces hay que agregar
+todas las reglas
+siempre
+no existe como
+algo que te
+permite
+escribirlo
+de una sola vez
+para que genere
+todas las opciones
+de combinación
+posibles
+sí
+sí
+exacto
+perfecto
+ahora vamos a
+todo lo que hemos hecho
+hasta ahora
+es súper
+súper simple
+son
+predicados
+no compuestos
+entonces vamos a
+introducir
+predicados
+compuestos
+ahora
+para hacer
+cosas más
+complicadas
+¿ok?
+y para eso
+vamos a introducir
+los conectores
+lógicos
+vamos a partir
+por ahí
+entonces vamos a
+vamos a introducir
+los conectores
+lógicos
+en este lenguaje
+de representación
+la coma
+representa
+el símbolo
+y
+el conector
+lógico
+y
+por lo tanto
+¿qué valor
+tiene esto?
+falso
+falso y verdadero
+falso
+perdón
+verdadero y falso
+claro pero
+el conector
+recuerda
+aquí hay una coma
+entre estos dos
+valores
+entonces
+la coma
+representa
+el conector
+lógico
+y
+verdadero y falso
+es falso
+en lógica
+esa es la pregunta
+esa es la pregunta
+tu compañero dijo
+que era verdadero
+y falso
+a ver
+¿quién dijo eso?
+yo profesor
+dije verdadero y falso
+Felipe
+¿y eso está correcto o no?
+en lógica
+lógica a proposición
+en lógica no
+claro
+son distintos
+claro
+es falso
+lógica
+eso es falso
+claro
+vamos a
+introducir
+ahora
+el otro
+conector
+lógico
+que es
+el O
+no el I
+el O
+y eso es con el
+punto y coma
+¿ok?
+por lo tanto
+esta expresión
+¿qué debería ser?
+es verdadera
+¿se acuerda
+de su clase
+de lógica
+Inés?
+sí
+efectivamente
+es verdadero
+porque
+cuando conecto
+con el O
+esa expresión
+lógica
+ahora no es
+falso
+es verdadera
+¿ok?
+después
+alguien me hablaba
+de las listas
+¿cierto?
+sí profe
+más o menos
+relacionado con los
+vectores
+con matrices
+ok
+entonces vamos a ver
+vamos a introducir
+eso
+¿cómo
+introducimos
+listas
+en Prolog
+¿ok?
+a ver
+yo estoy usando
+una función
+que está
+predefinida
+no la tenemos
+que definir
+está predefinida
+en Prolog
+y es una función
+de listas
+lo que hace
+esto
+es toma
+un objeto
+esta función
+member
+toma un objeto
+toma dos
+argumentos
+un objeto
+y una lista
+y pregunta
+si el objeto
+es miembro
+de la lista
+o no
+y la lista
+es siempre
+con corchetes
+¿ok?
+¿la ven acá?
+por lo tanto
+¿cuántos elementos
+tiene la lista?
+tres
+tiene tres
+¿cierto?
+¿y qué estoy
+preguntando aquí?
+si tres
+pertenece a la lista
+¿qué debería dar
+esta expresión?
+true
+si es que está
+en la base
+de conocimiento
+no
+esto es independiente
+porque
+esto no
+necesitas consultar
+la base de conocimiento
+porque está indicando
+los valores
+ya directamente
+¿entiendes?
+sí
+ok
+ok
+muy bien
+es verdadero
+efectivamente
+el tres
+parte
+de esa lista
+vamos a ver
+la otra expresión
+profesor
+¿sí?
+el hecho
+de la pertenencia
+a la lista
+es mediante
+una igualdad
+aritmética
+o
+es
+no te entendí
+no te escuché
+que
+si la igualdad
+es
+aritmética
+o la igualdad
+es tipo
+string
+pertenecer
+a la lista
+claro
+es como objeto
+no aritmético
+o sea que
+si yo pongo
+member
+1 más 2
+coma
+la misma lista
+me va a ser
+falso
+son objetos
+ok
+no son expresiones
+aritméticas
+veamos otra expresión
+y que también
+es muy simple
+ok
+esto que me debe dar
+esto es fácil
+falso
+falso
+no
+muy bien
+eh
+les voy a compartir
+ahora
+el pdf
+una parte
+del pdf
+que les subí
+ok
+lo están viendo
+si
+ok
+entonces aquí está explicado
+el algoritmo de unificación
+cómo funciona
+porque lo que hemos visto hasta ahora
+es muy básico
+pero vamos a ver que
+hay expresiones complejas
+de unificación
+que nos permiten hacer cosas
+mucho más potentes
+en
+en lógica de predicado
+primero
+entonces
+en prolog
+el algoritmo de unificación
+es el más usado
+para el racionamiento lógico
+es lo que yo les expliqué a Rosario
+y se denota por el símbolo
+lado uno
+igual lado dos
+este algoritmo
+se basa en dos reglas básicas
+bueno
+son más de dos reglas
+en el fondo
+si ambos lados son átomos
+es decir
+son constantes
+se unifican
+si son iguales solamente
+ok
+o sea
+el objeto
+tiene que ser
+el mismo objeto
+para que se puedan unificar
+si no
+es falso
+si uno de los lados
+es una variable
+y el otro no
+entonces la variable
+recibe ese valor
+que está del otro lado
+que fue lo que hicimos
+cuando preguntamos
+por
+cuando nos retornó
+x igual María
+¿se acuerdan?
+si ambos lados
+son variables
+que también puede ocurrir
+entonces
+ambas variables
+apuntan al mismo
+registro de memoria
+por lo tanto
+cualquier valor
+que una suma
+le asigna
+o cambia el valor
+a la otra
+porque están
+todas apuntando
+al mismo
+registro de memoria
+para los que no son
+informáticos
+probablemente
+es un poco
+difícil de entender
+pero es como que
+tienes dos variables
+que apuntan
+al mismo
+registro de memoria
+entonces
+si tú cambias
+el registro de memoria
+cambia para las dos
+porque las dos
+están apuntando
+a ese mismo
+registro
+¿se entiende?
+ok
+sí
+y lo más complicado
+si ambos lados
+son expresiones
+complejas
+entonces se aplican
+dos reglas
+ambas expresiones
+deben asociarse
+al mismo predicado
+ok
+y tienen que tener
+la misma herida
+para poder unificar
+¿qué herida?
+herida
+herida
+el número
+de argumentos
+que toma
+el predicado
+por ejemplo
+el predicado
+pareja
+tomaba
+dos
+dos
+dos argumentos
+entonces
+tiene herida
+número dos
+ok
+entonces tú
+no puedes unificar
+en el fondo
+para que entiendan
+en palabras más simples
+no puedes unificar
+algo que tiene
+un predicado
+que tiene unidad
+tres
+con lo que tiene
+unidad cuatro
+haría cuatro
+tienen que tener
+la misma herida
+ok
+Gonzalo
+quería hacer
+una pregunta
+sí
+entiendo bien
+entonces yo no podría
+leyéndome
+al ejemplo
+que estábamos haciendo
+recién
+yo no podría
+por ejemplo
+unificar
+a Juan y José
+porque uno
+representa
+el predicado
+hijo
+y el otro
+representa
+el predicado
+Juan y José
+no los puedo unificar
+porque como objetos
+son objetos distintos
+solamente podría
+unificar Juan
+con Juan
+¿me entiendes?
+perfecto
+esa es la regla
+número uno
+que está aquí arriba
+pero la más compleja
+y vamos a ver
+algunos ejemplos ahora
+que eso tiene
+expresiones complejas
+que involucran
+predicados
+si quieres unificar
+un predicado
+con otro
+entonces tienen que
+tener la misma
+la misma
+la misma aridad
+vamos a ver
+unos ejemplos
+para que lo entiendan
+más
+más claramente
+porque esto suena
+todavía muy abstracto
+¿ok?
+perfecto
+entonces
+voy a ir
+voy a salir de aquí
+y voy a ir
+a la base
+de conocimiento
+ahora
+ok
+¿la están viendo?
+sí
+miren
+voy a
+y ahora
+voy a tener que
+voy a tener que
+explicar algo
+porque es bastante
+más complicado
+lo que hemos visto
+hasta ahora
+pero es mucho
+más interesante
+y les va
+a dar una idea
+de lo potente
+que es
+como el lenguaje
+de representación
+de conocimientos
+con el algoritmo
+de unificación
+ok
+voy a introducir
+expresiones complejas
+¿las ven o no?
+y se las voy a explicar
+porque tengo que
+explicarlo esto
+que es bastante
+más complejo
+primero que nada
+este signo
+es el signo
+de comentario
+¿ok?
+todos saben
+lo que es el signo
+de comentario
+en lenguaje
+de programación
+¿o no?
+sí
+no
+no profesor
+bueno
+hay gente
+que no sabe
+así que lo tengo
+que explicar
+cuando tú
+quieres comentar
+una rutina
+o la lógica
+o una rutina
+en palabras
+tú lo puedes
+para efectos
+de documentación
+generalmente
+se hace
+entonces tú
+utilizas
+el signo
+de comentario
+y le dices
+al sistema
+esto no es parte
+del código
+así que ignórelo
+esto es para
+el programador
+que está leyendo
+este código
+y le esté dando
+información
+para que lo pueda
+entender
+¿se entiende o no?
+sí
+¿lo entiende Gonzalo?
+sí
+entonces yo comenté
+acá
+yo dije
+miren
+aquí
+lo que dije
+esto
+el sistema
+de representación
+de conocimientos
+no lo va
+no lo va a leer
+porque esto
+es un comentario
+mío
+para otro humano
+que va a leer
+el código
+y para que lo entienda
+¿ok?
+entonces lo que estoy
+diciendo acá
+es que yo introduje
+el predicado
+auto
+y el predicado
+auto
+¿qué haría tiene?
+cuatro
+haría cuatro
+y el predicado
+chofer
+¿qué haría tiene?
+tres
+tres
+muy bien
+¿y qué componentes
+tiene?
+el predicado auto
+se compone
+de cuatro elementos
+patente
+consumo
+consumo
+en kilómetros
+por litro
+tipo de combustible
+que usa el vehículo
+y lista de choferes
+que conducen
+el vehículo
+y así ustedes
+pueden definir
+predicados
+bastante más
+complicados
+fíjense que acá
+esto todo
+es bien simple
+porque es un
+valor único
+en este caso
+la patente
+es un string
+de caracteres
+el consumo
+va a ser
+un valor numérico
+el tipo
+de combustible
+nuevamente
+un string
+de caracteres
+que va a ser
+por ejemplo
+benzina
+o diésel
+y la lista
+de choferes
+es algo más
+complejo
+porque como
+estructura de datos
+esto ahora
+es una lista
+y una lista
+puede tener
+como veíamos
+recién
+varios objetos
+adentro
+de la lista
+¿ok?
+entonces este
+predicado auto
+es relativamente
+complejo
+y el predicado
+chofer
+que tiene
+variedad
+tres
+como pueden
+ver aquí
+uno
+dos
+y tres
+es un
+poco
+más
+simple
+porque tiene
+menos objetos
+y además
+porque tiene
+el nombre
+del chofer
+tiene
+los años
+de experiencia
+del chofer
+y tiene
+los kilómetros
+conducidos
+por ese chofer
+que de alguna
+manera me da
+la
+toda información
+sobre el chofer
+pero en este caso
+son tres cosas
+el nombre del chofer
+los años de experiencia
+y los kilómetros
+¿se entiende
+hasta ahí o no?
+¿lo entienden
+es?
+sí
+ok
+ahora
+esto es
+el comentario
+el código
+propiamente tal
+es el que está
+aquí abajo
+entonces lo voy a explicar
+para que se vea mejor
+lo voy a expandir
+un poquito aquí
+para que quepa
+en una sola línea
+¿ok?
+entonces aquí tenemos
+los dos predicados
+a ver
+predicado auto
+tengo dos autos
+el primer auto
+tiene la patente
+123
+tiene un consumo
+de 0.4 kilómetros
+por litro
+el tipo de combustible
+que usa es benzina
+y la lista
+de choferes
+que lo conducen
+está acá
+y esto es una expresión
+un poco más compleja
+involucra una lista
+¿ok?
+y fíjese
+que esta lista
+es bien compleja
+porque cada elemento
+a su vez
+involucra un predicado
+¿y qué haría tiene
+este predicado?
+ese tiene tres
+tres
+y como
+como estoy
+chofer
+si tiene tres
+acá también
+tiene que tener tres
+y el chofer
+acá también
+tiene que tener tres
+son
+es la lista
+entonces la lista
+de choferes
+es una lista
+donde cada elemento
+de la lista
+involucra
+un predicado
+de Aridad 3
+¿y qué me dice
+el predicado
+chofer de Aridad 3?
+bueno me da primero
+como primer elemento
+de este predicado
+chofer
+me dice que
+su nombre es
+Antonio
+me dice
+que sus años
+de experiencia
+son 10
+y que los kilómetros
+conducidos
+son 10.000
+y tenemos
+otro chofer
+porque este
+es el segundo
+elemento
+de la lista
+que a su vez
+tiene un predicado
+que es el mismo
+el chofer
+porque me indica
+la misma información
+me dice
+el nombre
+del chofer
+me dice
+el consumo
+el tipo
+perdón
+el consumo
+que en este caso
+son
+no
+no me dice
+el consumo
+me dice
+los
+años de experiencia
+este tiene
+muchos más años
+de experiencia
+tiene 20
+y tiene
+20.000 kilómetros
+conducidos
+y finalmente
+tenemos
+Alfredo
+el tercer chofer
+se llama
+Alfredo
+tiene 30 años
+de experiencia
+y tiene
+30.000 kilómetros
+conducidos
+eso solamente
+para el
+primer auto
+¿se dan cuenta?
+ahora tenemos
+otro auto
+entonces
+como es el mismo
+predicado
+¿cuál es la
+variedad
+de este?
+cuatro
+cuatro
+donde el primero
+es un string
+de caracteres
+que representa
+la patente
+el otro
+es un valor
+numérico
+que son
+que indica
+el
+el consumo
+en este caso
+es 0.3 kilómetros
+por litro
+el tercer
+elemento
+de este
+predicado
+auto
+es el tipo
+de combustible
+esto me lo está
+indicando
+acá arriba
+en el comentario
+me está diciendo
+de qué se trata
+entonces acá
+el tipo
+de combustible
+es diésel
+en este caso
+particular
+y
+el cuarto
+elemento
+es la lista
+de choferes
+que conducen
+ese auto
+que en este caso
+es una lista
+y que tiene
+en este caso
+dice que esta lista
+es más corta
+¿cuántos elementos
+tiene esta lista?
+dos
+¿por qué esta lista
+tiene tres
+y esta lista
+tiene dos
+¿puede ser?
+¿eso se puede dar?
+sí
+porque son autosistentes
+claro
+¿por qué?
+porque esto no
+hemos predicado
+no
+perdón
+porque esto
+de acá
+la lista
+esta lista
+de acá
+puede tener
+tantos elementos
+como yo quiera
+en este caso
+esta lista
+tiene tres elementos
+que son tres choferes
+uno
+dos
+y tres
+y esta lista
+tiene
+solamente dos choferes
+por lo tanto
+acá no hablamos
+de herida
+hablamos del número
+de miembros
+que tiene la lista
+o elementos
+que tiene la lista
+que puede ser
+ahí
+pueden diferir
+en donde no pueden diferir
+es que el chofer
+o sea que
+el predicado
+chofer
+tiene tres
+argumentos
+tiene herida tres
+y eso se debe respetar
+porque esto
+es un predicado
+¿se dan cuenta?
+y acá también
+tiene tres
+y aquí también
+tiene tres
+y acá también
+debe tener tres
+en este caso
+el primer chofer
+es Pedro
+que tiene cinco años
+de experiencia
+y cinco mil kilómetros
+conducidos
+y este chofer
+también tiene que tener
+tres elementos
+porque
+es el mismo predicado
+entonces tiene
+uno, dos y tres
+acá hablamos de Pablo
+con quince años
+de experiencia
+y quince mil kilómetros
+de
+conducidos
+¿se entiende?
+¿se entiende?
+¿se entiende?
+sí
+profesor
+yo tengo una
+una consulta
+¿cómo?
+porque tú dijiste
+el segundo argumento
+que eran los
+el consumo
+sí
+dijiste kilómetros
+por litro
+sí
+cero cuatro
+pero eso
+pero
+pero eso
+podría ser
+otra cosa
+o sea
+o sea
+o sí
+podría ser
+no sé
+cero cuatro
+metros
+por litro
+no sé
+sí
+es correcto
+¿y cómo haces
+para especificar eso?
+para determinar eso?
+bueno
+si lo podría hacer
+porque te quedaría
+más complicada
+la fórmula
+nada más
+tendrías que tú
+involucrarlo
+eventualmente
+con otro
+con otro predicado
+pero acá
+están para efectos
+de simplificación
+estamos presuponiendo
+que en kilómetros
+por litro
+¿se entiende?
+ok
+profesor
+sí
+tengo una duda
+un poco
+como conceptual
+sí
+en el sentido
+de cómo definir
+la variedad
+de los predicados
+sí
+porque por ejemplo
+yo defino
+hombre Juan
+en la primera
+línea de código
+sí
+y ahí
+por así decirlo
+se instancia
+que el predicado
+hombre
+es un
+es un predicado
+con variedad
+uno
+y eso hace que
+después se restringe
+hacia abajo
+no
+no es que se restringe
+en este caso
+hombre tiene
+variedad uno
+como predicado
+tú podrías decir
+hombre Juan
+hombre José
+siempre va a tener
+un elemento
+y lo mismo
+¿dónde yo
+defino esa variedad?
+al momento
+de definir
+el predicado
+yo podría
+yo por ejemplo
+aquí
+si necesito
+más información
+yo puedo
+agregarle
+argumentos
+solo que
+debo ser
+consistente
+en el predicado
+aquí
+si son cuatro
+los argumentos
+deben ser siempre cuatro
+pero podrían haber sido
+cinco o seis
+y yo voy poniendo
+más información
+porque esa
+la pregunta
+que me hacía Felipe
+recién hace una hora
+atrás me parece
+yo le dije
+que
+lo que representa
+esto son
+matrices
+atributo
+valor
+entonces
+por ejemplo
+el atributo
+auto
+ve
+que es un predicado
+en el fondo
+el atributo
+¿cuántos valores
+tiene acá?
+perdón
+el predicado
+auto
+lo modelo
+con esta matriz
+atributo valor
+en donde
+yo puedo
+a priori
+tener
+la variedad
+que yo quiera
+es el predicado
+en la medida
+va a depender
+de qué información
+necesito modelar
+en el universo
+de discurso
+¿ok?
+no está predefinido
+en la lógica
+salvo
+algunos predicados
+que están definidos
+por definición
+pero
+son funciones
+como por defecto
+como member
+o cosas así
+hay cosas
+que están definidas
+en el lenguaje
+antes
+y que tú
+tienes que saber
+por ejemplo
+member
+toma dos
+argumentos
+eso lo tienes
+que saber
+pero es lógico
+eso
+porque se desprende
+de la función
+de esa función
+pero
+para efectos
+de modelar
+el mundo
+tú vas creando
+tus propios predicados
+y lo vas modelando
+yo necesito
+la más información
+yo le puedo agregar
+un argumento
+auto
+pero ahí tengo
+que ser consistente
+con todos los
+autos
+como predicados
+¿entienden?
+sí
+o sea que
+en la primera
+en el primer momento
+que uno define
+un elemento auto
+hacia abajo
+restringe
+que todos los demás
+por así decirlo
+deban tenerlo
+porque en el fondo
+que si yo escribo
+primero hombre Juan
+pero después más abajo
+escribo hombre Juan
+coma Jaime
+esa segunda línea
+se va a hacer
+va a crear
+como un error
+debido a que
+en la primera línea
+yo instancié
+cómo funcionaba
+el predicado hombre
+exacto
+justamente
+así en el fondo
+de la primera definición
+se define
+como la estructura
+del predicado
+claro
+yo por ejemplo
+aquí podría haber dicho
+auto
+patente
+consumo
+tipo de combustible
+lista de chofer
+y valor
+valor
+ok
+pero para el ejemplo
+probablemente
+no lo necesito
+entonces yo lo restringí
+a esos cuatro valores
+solamente
+pero tú podrías agregar
+más atributos
+¿me entiendes?
+claro
+sí
+gracias
+ok
+profesor otra pregunta
+si entonces
+una matriz
+yo cuando hago
+una consulta
+al predicado
+no necesariamente
+tengo que definir
+todos los atributos
+puedo definir
+alguno nomás
+muy buena pregunta
+Felipe
+exactamente
+tú puedes omitir
+alguno
+pero ya lo vamos a ver
+porque lo vamos a tener
+esa funcionalidad
+la vamos a tener
+que utilizar ahora
+ok
+profesor
+¿qué pasa cuando
+cuando un objeto
+responde a dos predicados?
+porque por ejemplo
+Juan
+claro
+yo lo puedo agregar
+dentro del universo
+conocimiento
+que es hombre
+Jorge
+es hijo
+pero también puede ser hombre
+claro
+pero ahí debería
+como agregar
+como una
+una fila
+para cada uno
+y que
+porque por ejemplo
+Jorge podría ser hombre
+y hijo
+y ahora también
+podría ser
+Juan
+podría ser también
+hijo de otra persona
+podría ir agregándolo
+claro
+ahora tú lo puedes definir
+eso
+un objeto puede tener
+puede pertenecer
+a más de un predicado
+puede tener
+claro que sí
+por supuesto
+y los elementos
+podrían cambiar
+dependiendo
+del predicado
+porque
+o no necesariamente
+porque por ejemplo
+yo podría señalar
+que Juan
+es el objeto
+y podría señalar
+Juan
+edad
+papá de alguien
+peso
+y dónde vive
+y eso podría ser
+como todos los elementos
+sí
+pero si yo estoy pensando
+en Juan
+como
+me estoy enrando un poco
+pero Juan como papá
+podría considerar
+que es papá
+de X personas
+claro
+pero el predicado
+una vez que tú lo defines
+ahí tiene que ser consistente
+o sea un objeto
+puede ser parte
+más de un predicado
+por ejemplo
+un objeto puede tener
+una propiedad
+por ejemplo
+Juan puede ser hombre
+pero Juan también puede
+ser parte de un predicado
+en la ocasión
+que dice
+Juan está ahora en Santiago
+está en otro lugar
+¿me entiendes?
+Juan puede aparecer
+en varios lugares
+y puede ser parte
+de varios predicados
+con distintas variedades
+pero un predicado
+cuando lo defines
+tiene que tener una variedad
+y para hacer la unificación
+tiene que
+respetar el número
+de argumentos
+que tiene el predicado
+¿te entiendes?
+perfecto
+sí
+perfecto
+ahora
+la pregunta de Felipe
+era interesante
+porque él decía
+los debo especificar
+y la verdad es que no
+pero sí los tienes
+que considerar
+y vamos a ver eso
+en un ejemplo
+¿ok?
+ok
+entonces voy a salvar esto
+esto significa
+que voy a
+profe
+¿sí?
+el predicado
+es lo mismo
+que el atributo
+¿o no?
+no
+vale
+no
+ok
+ok
+vamos a ir a la
+consola
+ok
+¿están viendo
+la consola?
+¿qué tenemos
+que hacer?
+tenemos que cargar
+todo ese conocimiento
+que ahora está
+en la base
+de conocimiento
+y en el sistema
+de representación
+de conocimiento
+¿cómo lo hacemos
+Jesús?
+con esta
+funciona
+¿no?
+ok
+entonces cargamos
+el conocimiento
+ahora
+y ahora
+viene nuestra
+primera
+pregunta
+vamos a ingresar
+a ver
+yo les voy a hacer
+la siguiente pregunta
+quiero saber
+cuáles
+son las patentes
+de todos los autos
+que consumen
+benzina
+utilizando
+el algoritmo
+de unificación
+yo lo puedo hacer
+entonces
+miren
+lo que quiero hacer
+quiero saber
+todos los autos
+que consumen
+benzina
+entonces
+¿qué predicado
+voy a usar?
+de todos los que hay allí
+de todos los que teníamos
+¿cuáles vamos a usar?
+vamos a usar
+el predicado auto
+auto
+porque la información
+está en ese predicado
+ok
+¿cuántos
+cuántos argumentos
+tiene ese predicado?
+cuatro
+tiene cuatro
+¿cuáles son?
+¿se acuerdan?
+patente
+consumo
+el primero es
+patente
+el segundo es
+consumo
+consumo
+ok
+¿consumo interesa
+para esta pregunta
+o no?
+no
+no
+¿tipo de combustible
+interesa para esta pregunta
+¿o no?
+sí
+y el último
+era lista de choferes
+esa lista de choferes
+para esta pregunta
+en particular
+¿interesa o no?
+no
+no
+perfecto
+entonces
+los únicos
+que interesan
+son el primero
+y el tercero
+¿están de acuerdo?
+sí
+sí
+profesor
+tengo una duda
+¿por qué el consumo
+no importa
+si dicen que
+para todos los que
+consumen
+benzina
+era la pregunta?
+o sea
+¿entiendería que el consumo
+debe ser mayor a cero?
+no
+no
+me está diciendo
+todos los
+que consumen
+yo podría decir
+los que usan benzina
+o los que funcionan
+con benzina
+olvídate de la
+que consuma
+ok
+eso
+ya
+vale
+ok
+entonces
+¿cómo lo hago?
+parece
+¿es complicado
+o es fácil
+o difícil
+preguntar esto?
+fíjense
+para un argumento
+tengo el valor
+y para otro argumento
+yo quiero el valor
+¿para qué argumento
+tengo el valor?
+¿para cuál
+de estos
+de estos argumentos?
+primero
+tenemos
+tenemos cuatro argumentos
+en este predicado
+el segundo
+y el cuarto
+no nos interesan
+nos interesan
+el primero
+y el tercero
+para el primero
+y el tercero
+¿cuál es el argumento
+que tengo
+y cuál es el que
+quiero conseguir?
+tengo el tercero
+benzina
+y quiero obtener
+el primero
+y la patente
+el primero
+ok
+muy bien
+tienen el tercero
+y quieren el primero
+¿sí o no?
+sí
+entonces yo les propongo
+lo siguiente
+¿ven eso?
+sí
+sí
+ok
+esta es una expresión
+que va a utilizar
+unificación
+patente está con mayúscula
+y benzina está con minúscula
+¿sí o no?
+ah
+correcto
+¿qué va a hacer esto?
+va a utilizar
+el algoritmo
+de unificación
+va a unificar
+patente
+con
+el primer valor
+de cada uno
+de los autos
+porque va a decir
+yo tengo
+en la base de conocimiento
+que yo cargué
+al sistema
+de representación
+de conocimiento
+yo tengo dos autos
+¿sí o no?
+que tienen cuatro argumentos
+cada uno
+entonces
+¿qué va a hacer
+el algoritmo
+de unificación?
+el algoritmo
+de unificación
+va a decir
+ok
+el primer argumento
+aquí
+y el tercero
+son los que cuentan
+¿sí o no?
+perfecto
+el primero
+yo lo quiero obtener
+en el fondo
+le estoy diciendo
+mira
+unifícame
+utiliza el algoritmo
+de unificación
+con los predicados
+autos que tienes
+en la base
+de conocimiento
+unifica
+benzina
+¿con qué predicado
+lo va a
+fíjate que
+está en minúscula
+¿qué significa eso?
+que es un valor
+que es un valor
+ok
+por lo tanto
+¿qué va a hacer?
+va a ir al primero
+que es autos
+y el primero
+funcionaba con
+¿se acuerdan o no?
+benzina
+benzina
+con benzina
+y las reglas
+del algoritmo
+que yo les mostré
+y el algoritmo
+de unificación
+decía
+que si son objetos
+es verdadero
+si los dos objetos
+son iguales
+¿sí o no?
+¿se acuerdan o no?
+por lo tanto
+en el primer caso
+va a decir
+benzina
+y va a encontrar
+benzina
+¿son iguales?
+sí
+para el primer auto
+van a ser iguales
+y el algoritmo
+de unificación
+va a dar
+verdadero
+¿sí o no?
+sí
+para el segundo
+va a decir
+el valor
+en benzina
+y va a encontrar
+¿qué valor
+en el segundo
+auto
+en el segundo
+predicado?
+diesel
+¿va a unificar
+o no?
+no
+no va a unificar
+no
+por lo tanto
+va a dar falso
+por lo tanto
+solamente
+en el primer caso
+¿qué va a hacer?
+dijo ok
+le asigné benzina
+al valor
+porque está con minúscula
+encontré
+benzina
+unificó
+de verdadero
+por lo tanto
+yo voy a ir ahora
+al primer argumento
+y ese primer argumento
+se lo voy a asignar
+a la variable patente
+¿se entiende o no?
+va a unificar
+patente
+que no tiene valor
+con el valor
+que está
+en el primer argumento
+del primer predicado
+de auto
+¿se entiende la lógica o no?
+sí
+por lo tanto
+¿qué debería dar esto?
+pat
+1, 2, 3
+creo que era
+¿qué te dio?
+y el valor
+de la variable patente
+que tú definiste aquí
+porque esta variable patente
+no está definida
+en ningún lado
+yo la definí aquí
+al momento
+de hacer la pregunta
+¿le asignó
+qué valor?
+profesor
+consulta
+pero al
+dejar con mayúscula
+la patente
+automáticamente
+¿se declara
+que es una variable
+a la que yo le quiero
+asignar el resultado?
+sí
+¿y qué pasa
+si yo tengo
+algún valor
+que empiece
+con
+mayúscula
+por ejemplo
+patente
+si hubiese sido
+un valor
+dentro de lo que
+se definió
+más arriba
+o en la regla
+es que por definición
+las variables
+van con mayúsculas
+¿entiendes?
+ahora en las reglas
+tú puedes usar
+mayúsculas también
+por ejemplo
+acá
+acá
+acá nosotros
+introdujimos una regla
+¿dónde está?
+no está acá
+está en la base
+de conocimiento
+déjame mostrarte
+vamos a salir
+de aquí
+vamos a ir
+a la base
+de conocimiento
+ok
+¿esta regla
+está con mayúscula
+o con minúscula?
+está con mayúscula
+ok
+ahí tiene
+son reglas
+que involucran
+están especificadas
+no
+es x y y
+y puede ser
+cualquier variable
+y x
+¿me entiendes?
+pero
+o sea
+lo que me está diciendo
+esta regla
+tiene que ser
+mayúsculas
+¿cierto?
+en cambio
+los otros
+son todas minúsculas
+aquí me está diciendo
+que el pecado pareja
+se cumple de x
+si se cumple
+con dos variables
+cualquiera que sean
+x y y
+que pueden tener
+cualquier valor
+también se cubren
+en el sentido contrario
+ok
+y ahí tienes mayúscula
+no tienes minúscula
+o sea
+eso
+eso es así
+aquí
+por ejemplo
+es minúscula
+porque es valor
+y aquí también
+¿se entiende?
+son todos valores
+acá
+pero
+puedes tener
+reglas
+que involucren
+variables
+como en el caso
+de este
+y ya vamos a ver
+otros ejemplos
+más adelante
+ok
+profesor
+si
+y si
+hubiéramos tenido
+en la base
+de conocimiento
+más autos
+que ocupen
+benzina
+entonces
+habría unificado
+también
+y te habría dado
+el primero
+va a buscar
+el primero
+ok
+va a buscar
+el primero
+y tú puedes
+descartar
+y ver los otros
+también
+¿entiendes?
+profesor
+ok
+esto es muy similar
+cuando usted puso
+no recuerdo si
+hombre
+entre paréntesis
+x
+o mujer
+entre paréntesis
+x
+sí
+donde
+en el fondo
+también se hacía
+una especie
+de algoritmo
+de unificación
+¿cierto?
+correcto
+entonces
+el algoritmo
+de unificación
+siempre
+unifica
+hacia un objeto
+y no por ejemplo
+una lista de objetos
+también puede ser
+vamos a verlo
+tenemos un ejemplo
+de eso
+ok
+ok
+gracias
+entonces a ver
+hagamos la pregunta
+ahora con
+Diesel
+ok
+hacemos eso
+¿no?
+sí
+sí
+sí
+así estaba el valor
+¿no?
+así estaba escrito
+díselo ¿no?
+¿sí o no?
+sí
+creo que sí
+¿y quiénes da?
+¿no?
+1, 2, 4
+está correcto
+porque ese sí funciona
+con Diesel
+y es el único
+que funciona
+con Diesel
+nada más
+¿ok?
+profesor
+¿sí?
+consulta
+la respuesta
+siempre es el primer
+valor
+pero yo puedo
+ordenar
+la base
+de conocimiento
+antes de que
+entregue
+el primer valor
+si tengo
+más de un auto
+más patente
+y quiero
+ordenar
+antes de que
+me entregue
+el primer valor
+claro
+tú la puedes
+cambiar
+el orden
+por supuesto
+que sí
+pero eso sería
+ordenarlo
+en tiempo
+de ejecución
+no
+ordenarlo
+en la base
+de conocimiento
+no
+eso sería
+lo que me estás
+diciendo tú
+sería cambiarlo
+antes del momento
+de ejecución
+una vez que
+estás ejecutando
+primero que unifique
+te va a entregar
+ese valor
+ok
+ok
+ok
+entonces ahora
+vamos a hacer
+un ejercicio
+un poco más complicado
+vamos a escribir
+una regla
+en la base
+de conocimiento
+que entregue
+la cantidad
+de choferes
+que conducen
+un auto
+da una patente
+se entiende
+¿no?
+pero creo que
+no está compartiendo
+la base de conocimiento
+ah perdón
+estoy compartiendo
+la consola
+vamos a ir
+a la base
+de conocimiento
+entonces
+vamos a ir
+fíjense
+vamos a ir
+¿cuál es la pregunta
+que ahora yo me hago?
+yo me hago
+dado una patente
+quiero
+el número de
+choferes
+que conducen
+ese auto
+porque
+un auto
+un auto
+tiene asociada
+una patente
+que es distinta
+para cada auto
+entonces
+dada una patente
+quiero saber
+el número
+de choferes
+que conducen
+ese auto
+¿se entiende
+la pregunta
+¿no?
+¿sí?
+sí
+ok
+entonces
+ahora lo que tengo
+es la patente
+¿cómo lo hago?
+entonces
+vamos al auto
+nuevamente
+¿cuál es el predicado
+que tengo que usar?
+el predicado auto
+¿no?
+auto
+sí
+¿cuáles son los argumentos
+que importan ahora?
+el uno y el cuatro
+patente
+y choferes
+hay una cuestión
+que se me olvidó
+decirles
+y que responde
+a la pregunta
+de Felipe
+déjeme volver
+un poquito atrás
+ok
+¿está Felipe ahí o no?
+¿quién lo estoy
+por qué puse
+nadie me preguntó eso
+pasó desapercibido
+y yo me olvidé
+de explicarlo
+¿por qué?
+Felipe me dijo
+tengo que tener
+los valores
+para cada argumento
+¿no?
+del predicado
+y yo le dije
+no, no necesariamente
+pero tienes que respetar
+la realidad
+aquí yo respeté
+la realidad
+yo le estoy diciendo
+el valor del primero
+le digo
+olvídate del valor
+del segundo
+porque no interesa
+y eso se indica así
+le paso el valor
+del tercero
+y el cuarto valor
+tampoco interesa
+entonces se lo indico así
+¿se entiende?
+aquí yo respeté
+la realidad
+en esta pregunta
+en esta expresión
+porque le estoy diciendo
+el segundo argumento
+y el cuarto argumento
+no los considere
+y eso se hace
+de esta manera
+con el underscore
+el guión bajo
+¿ok?
+Profesor
+yo sé que ya
+la respondió antes
+pero solo para estar seguro
+entrega
+el primer valor
+que encuentra
+con eso
+no es que entrega
+todos los valores
+sí
+ya
+el primero
+ahora
+volvamos a la base
+de conocimientos
+ok
+entonces
+dada una
+una patente
+yo quiero saber
+cuántos choferes
+conducen el auto
+entonces
+¿cuáles son los argumentos
+que me interesan ahora?
+el primero y el cuatro
+de la lista
+el primero y el cuatro
+¿cierto?
+ajá
+ok
+vamos a ver
+cómo lo podemos hacer
+entonces
+yo puedo
+les estoy compartiendo
+la
+la base de conocimiento
+la base de conocimiento
+yo puedo escribir
+una función
+que me calcule eso
+entonces yo quiero
+que me expliquen
+esta función
+la función se llama
+cantidad
+y tiene los siguientes
+los siguientes comandos
+primero
+esto es un comando
+esto es un comando
+que va a aparecer
+en la consola
+ok
+entonces en la consola
+yo le pido
+que escriba
+qué cosa
+ingrese la patente
+print
+va a aparecer
+ingrese la patente
+va a quedar
+el prompt
+ahí esperando
+y luego viene
+un comando
+read patente
+¿sí o no?
+ajá
+¿correcto?
+entonces
+cuando yo le digo
+read patente
+la patente
+es una variable
+está en mayúscula
+no tiene valor
+pero al leer
+ahora sí va a tener valor
+¿y qué valor va a tener?
+¿qué valor
+que nosotros
+escribamos consola?
+el valor
+que el usuario
+ingrese en consola
+o sea
+la variable patente
+que yo la creé
+en este minuto
+en ese minuto allí
+¿ah no?
+que no tiene valor
+¿alguien está?
+sí
+y claro como decía
+Andrés Rogéria
+¿no?
+sí
+de Brasil
+sí
+¿viste de sur del Brasil
+o del norte del Brasil?
+centro
+centro
+de São Paulo
+São Paulo
+ok
+¿es paulistano?
+sí
+ok
+ok Roger
+exactamente
+es el valor
+que yo le asigno
+es el valor
+la variable patente
+se instancia
+con el valor
+que el usuario
+ingrese
+y luego
+decíamos que solamente
+me interesa
+el primer
+y el cuarto argumento
+y efectivamente
+entonces
+¿qué estoy haciendo aquí?
+¿y cómo le digo?
+mire
+el segundo argumento
+y el tercero
+son
+los puede olvidar
+no interesan
+¿ok?
+entonces
+va a intentar
+unificar patente
+que ya tiene un valor
+que va a ser el valor
+que el usuario
+ingresó
+por consola
+lo va a intentar
+unificar
+con el primer auto
+y no sabemos
+qué patente es
+porque el usuario
+tiene que ingresar
+la patente
+vamos a sumar
+que
+suponer que
+es la patente
+PAT 123
+entonces
+¿va a unificar
+o no unificar?
+con el primer auto
+va a unificar
+segundo elemento
+no lo va a considerar
+tercero argumento
+tampoco
+cuarto argumento
+si lo va
+a
+considerar
+y lo va
+el valor
+que tenga
+esa lista
+se la va a asignar
+a otra variable
+que también estoy creando
+en este momento
+¿cómo se llama
+esa variable
+Lista de choferes
+Lista de choferes
+¿y qué valor
+le va a asignar?
+la lista
+la lista
+que tenga
+el primero
+o el segundo auto
+dependiendo
+si el usuario
+ingresó
+a PAT 123
+o PAT 124
+por consola
+exacto
+¿ok?
+hasta ahí
+todo bien
+o sea
+hasta ahí
+cumplí qué cosa
+cumplí con qué
+yo tengo
+la lista
+de choferes
+la tengo
+ya identificada
+pero yo quiero
+el número
+de choferes
+entonces yo puedo
+utilizar
+una función
+predefinida
+que se llama
+largo
+y esa función
+toma
+dos argumentos
+es una función
+predefinida
+no es un predicado
+¿ok?
+esto es una función
+predefinida
+en
+en prolog
+le paso la lista
+que está
+que está
+ya
+con el valor
+de la lista
+de choferes
+en donde
+unifique
+y la función
+me entrega
+la cantidad
+de elementos
+que tiene
+esa lista
+¿se entiende?
+sí
+y finalmente
+yo le digo
+bueno
+ahora como tengo
+la cantidad
+y eso es lo que
+quería
+yo escribo
+en la consola
+la cantidad
+es
+dos puntos
+y escriba
+el valor
+que tenga
+la variable
+de cantidad
+¿se entiende?
+¿no?
+sí
+es muy complicado
+esto
+¿no?
+¿lo ven?
+¿profesor?
+sí
+en
+la
+cuarta línea
+donde dice
+auto
+sí
+el algoritmo
+de unificación
+primero ve
+si patente
+existe como
+variable definida
+para poder
+hacer unificación
+no
+no porque
+es una
+es una variable
+que se está creando
+en ese
+no pero
+en auto
+porque
+en read
+no existe
+todavía
+sí
+una vez que
+uno ingresa
+el valor
+sí
+ya existe
+¿cierto?
+claro
+entonces después
+viene como
+el algoritmo
+de unificación
+cuando uno
+ejecuta auto
+con todas las variables
+que están ahí
+claro
+cuando tú ejecutas
+esto de acá
+¿qué va a pasar?
+el algoritmo de unificación
+va a decir
+ok
+vamos a argumento
+para argumento
+voy a tratar
+de unificar
+el valor
+que yo ya tengo
+que va a ser
+uno de estos dos
+de acá
+¿sí o no?
+con
+el valor
+del primero
+y con el valor
+del segundo
+entonces vamos a suponer
+que el usuario
+ingresó
+el segundo
+supongamos que el usuario
+ingresa acá
+pat 124
+entonces
+¿qué va a pasar acá?
+cuando yo ejecuto
+esto de acá
+el tercer paso
+va a pasar
+que el valor
+de la patente
+va a ser cuál
+pat 124
+¿sí o no?
+sí
+porque el usuario
+ingresó
+pat 124
+entonces va a tratar
+de unificarlo
+con el primer auto
+¿lo va a unificar
+o no?
+no
+claro
+pero entonces
+lo que pasa
+es que
+mi pregunta
+es que
+cuando
+la variable
+ya está definida
+el algoritmo
+de unificación
+lo que hace
+es buscar
+a diferencia
+de lista
+de choferes
+que como la variable
+no existe
+el algoritmo
+lo que hace
+es asignar
+¿o no?
+lo que hace
+más que buscar
+es trata de unificar
+entonces fíjate
+trata de unificar
+estos dos argumentos
+y va en esa orden
+partiendo por este
+entonces
+como
+como ya
+la patente
+es 124
+y no 123
+entonces
+con el primer
+elemento
+no va a poder
+unificar
+el algoritmo
+de unificación
+te va a dar falso
+no te va a dar
+de verdadero
+por lo tanto
+ya no hay más
+nada que unificar
+ya no unificó
+va a ir al segundo
+y te va a decir
+ahora
+si unifica
+porque
+esta parte
+si unificó
+¿ok?
+y esta variable
+de acá
+no tiene valor
+esa es la gran diferencia
+cuando tú haces esto
+esta variable
+tiene valor
+porque lo leyó
+por consola
+y esta variable
+no tiene valor
+no tiene ningún
+valor asignado
+¿entiendes?
+está esperando
+por un valor
+entonces
+si yo unifico esto
+esta variable
+tiene valor
+y por lo tanto
+va a unificar
+solo con el segundo
+no con el primero
+y por lo tanto
+cuando llegue
+al cuarto argumento
+va a decir
+bueno
+esta variable
+no tiene valor
+por lo tanto
+va a poder unificar
+con
+y le va a asignar
+este valor
+en la unificación
+para el cuarto elemento
+le va a asignar
+esa lista
+va a poder unificar
+porque esto
+no tiene un valor
+definido
+no tiene valor
+todavía
+¿me entiendes?
+sí
+¿se entiende
+Benjamín o no?
+sí
+entonces ahí
+asigna
+a lista de choferes
+le asigna
+un valor
+que fue el que
+pudo unificar
+que corresponde
+al segundo auto
+y no al primero
+ya
+¿se entiende Benjamín?
+consulta
+la variable
+esta cantidad
+que aparece ahí
+¿se define
+o está prescrita
+que es una suma?
+no
+esta
+que va a contar
+esta es una función
+que tú
+la estás definiendo
+tal como la función
+length
+como la función
+member
+que están predefinidas
+hay otras que tú
+puedes definir
+tú puedes definir
+cualquier tipo de función
+nosotros estamos definiendo
+esta en particular
+¿se entiende o no?
+con este símbolo de aquí
+claro
+pero mi pregunta
+va más que nada
+a entender
+¿cómo sabe?
+porque yo no le he dicho
+que sume
+o que cuente
+no
+¿y dónde está sumando
+y cuentando?
+cuando dice cantidad
+después dice escribir cantidad
+¿cómo asume
+que va a escribir
+por ejemplo
+dos?
+porque acá
+length
+esta función
+una vez que yo tengo
+la lista
+esta lista tiene un largo
+tiene un número de elementos
+un número de elementos
+entonces existe
+una función
+en
+en
+en
+en prolog predefinida
+no la tienes que escribir
+tú
+la puedes llegar y usar
+que toma dos argumentos
+la lista
+y el número de elementos
+de la lista
+ya
+perfecto
+entonces tú
+tú dices length
+la lista
+yo ya la tengo
+lo que no tengo
+es la
+el largo de la lista
+la cantidad
+entonces
+lo
+aquí nuevamente
+estás creando una
+fíjate que
+acá
+cantidad
+es con mayúscula
+con mayúscula
+una variable
+esto
+esto es distinto
+a cantidad
+que es una función
+son cosas distintas
+¿me entiendes?
+ok
+profe
+y aquí
+estás
+modelando una función
+que
+cuando le aprietas
+la función
+te va a decir
+la cantidad
+es x
+en base a un input
+pero
+se podría pedir
+que simplemente
+guarde la variable
+si claro
+que le borráramos
+todo el write
+de abajo
+por supuesto
+y la puedo usar
+en otra instancia
+y la puedo
+claro
+por supuesto
+que sí
+va a quedar
+definida
+en esta variable
+en la variable
+la cantidad
+¿se entendió?
+sí
+ok
+yo salvé
+este código
+vamos a ir
+a la consola
+¿y qué tenemos
+que hacer ahora?
+la nueva entera
+en el sistema
+de representación
+de conocimientos
+debería funcionar
+ahí funcionó
+por lo tanto
+la función cantidad
+ya está
+disponible
+la puedo usar
+veamos qué pasa
+si la ejecutamos
+¿les parece o no?
+ok
+¿qué pasa
+si le doy retorno
+a esto?
+me debería pedir
+la patente
+entre la patente
+del auto
+ok
+¿cuál vamos a usar?
+¿la primera o la segunda?
+¿cualquiera?
+¿cualquiera?
+¿ustedes me dicen?
+la segunda
+¿primera?
+la segunda
+porque siempre lee
+el primero
+cualquiera
+vamos a partir
+con la primera
+le tengo que poner
+punto al final
+ok
+para recuerden
+que siempre
+las expresiones
+deben
+ir así
+entonces
+¿qué me va
+a indicar
+esto?
+la cantidad
+de patentes
+¿la cantidad
+es?
+la cantidad
+de choferes
+que pueden
+conducir
+esa patente
+¿y está correcto
+es tres o no?
+sí
+sí
+vamos a ir
+a la otra
+¿la otra
+cuántas tenía?
+dos
+dos
+la cantidad
+es dos
+¿cuándo podría
+arrojar un
+false
+esa sentencia
+profe?
+utilizando
+una patente
+que no existe
+¿no?
+claro
+y ahí en esa línea
+profesor
+una consulta
+¿el
+prolog
+acepta
+por ejemplo
+condiciones
+if then
+para
+poder
+por ejemplo
+programar
+ahí
+si la patente
+no existe
+envíe un mensaje
+que la patente
+es inexistente?
+sí
+también pueden hacerlo
+¿ok?
+ya
+gracias
+ok
+vamos a hacer
+un último
+antes de salir
+del recreo
+profesor
+¿sí?
+esto quedó guardado
+como en la base
+de conocimiento
+esto también se puede
+ejecutar directo
+en el programa
+¿cierto?
+¿hay algún motivo
+por el que tenga
+que estar allá?
+¿tú dices
+todo por consola?
+claro
+sí podría
+pero generalmente
+tú escribes
+el código
+en la base
+de conocimiento
+y después
+lo cargas
+al
+al
+a la consola
+al ingresarlo
+por consola
+te queda después
+disponible
+en el sistema
+de representación
+de conocimiento
+entonces tienes
+dos maneras
+de poder cargar
+el sistema
+de representación
+de conocimiento
+con conocimiento
+uno es vía
+consola
+y otro es vía
+la base
+de conocimiento
+¿ok?
+perfecto
+y si fuese
+vía consola
+las variables
+por ejemplo
+que se van definiendo
+¿se van perdiendo
+o se van almacenando?
+quedan en el sistema
+de representación
+de conocimiento
+ya
+ok
+profesor
+¿sí?
+otra pregunta
+¿me es fácil
+entender esto
+para una lógica
+o para
+o sea
+como la representación
+del conocimiento
+utilizar esto
+en un algoritmo
+simbólico
+pero no me lo puedo
+imaginar
+en un subsimbólico
+claro
+¿por qué?
+¿cómo entra?
+¿cómo funciona eso?
+si el figurador
+subsimbólico
+lo hace
+en sí mismo
+crea su propio
+conocimiento
+claro
+pero no es lo mismo
+es lo que
+veíamos en la clase
+o sea
+lo que vas a ver
+ahí son patrones
+que vienen
+de correlaciones
+de múltiples
+correlaciones
+de cientos
+y miles
+de parámetros
+no son reglas
+simbólicas
+de alto nivel
+lo que estamos
+viendo aquí
+son reglas
+simbólicas
+de alto nivel
+¿se entiende?
+pero entonces
+como que
+el algoritmo
+el algoritmo
+subsimbólico
+crearía
+su propia
+base
+de conocimiento
+¿cómo
+es eso?
+a ver
+no le llamaríamos
+base de conocimiento
+a eso
+o sea
+si tú le preguntas
+a alguien
+que trabaja
+en paradigmas
+subsimbólicos
+te va a hablar
+del conocimiento
+pero si tú le preguntas
+a alguien
+que trabaja
+en paradigmas
+subsimbólicos
+te va a decir
+eso está lejos
+eso es una base
+de conocimiento
+eso son más bien
+patrones
+que
+era lo que
+discutíamos
+en clases pasadas
+que
+una de las ventajas
+es que
+si está todo
+basado en datos
+y hay muchos datos
+disponibles
+tienes una gran ventaja
+¿ok?
+pero la desventaja
+de ese paradigma
+y es por lo que
+tú me haces la pregunta
+es que estas reglas
+no se pueden obtener
+con el paradigma
+subsimbólico
+a este nivel
+de
+a este nivel
+de representación
+¿se entiende o no?
+se entiende
+y por eso decíamos
+que hay aplicaciones
+que son
+que son
+se dan bien
+con el paradigma
+subsimbólico
+que son las
+intensivas en datos
+pero
+las que son intensivas
+en conocimiento
+de alto nivel
+como esto
+que hay muchas aplicaciones
+que lo requieren
+ahí no
+no
+no funcionan
+bien
+no te dan bien
+¿ok?
+entonces
+hay un curso
+que van a tener
+ustedes
+que es
+Machine Learning
+no sé cuándo
+lo van a tener
+pero viene
+después de este curso
+y ahí se van a enfocar
+en las cosas
+que se pueden representar
+con el paradigma
+subsimbólico
+que está
+a un nivel
+muy por debajo
+de lo que estamos
+viendo aquí
+¿se entienden?
+clarísimo
+gracias
+ok
+ok
+ok
+vamos a escribir
+una última regla
+¿ok?
+y de ahí nos vamos
+al recreo
+vamos a escribir
+una regla
+en la base
+de conocimientos
+que dada la patente
+de un auto
+y una cantidad
+de benzina
+que le queda
+al auto
+calcule la cantidad
+de kilómetros
+que el auto
+puede todavía recorrer
+esto está un poco
+más complicado
+¿ok?
+¿se entendió?
+estamos viendo
+la consola
+sí
+estamos viendo
+la base
+sí
+la consola
+vamos a ir
+a la base
+¿están viendo
+la base?
+sí
+ok
+entonces
+voy a volver
+a repetir
+el desafío
+¿ok?
+escribir una regla
+en la base
+de conocimientos
+que dada
+vamos a
+vamos a
+suponer
+que tenemos
+una patente
+de un auto
+de un dato
+y también
+la cantidad
+de benzina
+que le queda
+al auto
+que nos
+calcule
+el sistema
+la cantidad
+de kilómetros
+que el auto
+puede todavía
+recorrer
+¿ok?
+¿se entiende?
+entonces
+vamos a ver
+¿qué predicado
+vamos a usar?
+de los
+¿qué tenemos?
+auto
+patente
+de consumo
+ok
+¿y esos son
+qué
+qué predicados?
+auto
+auto
+¿se puede hacer eso
+si en ninguno
+de los elementos
+del
+del predicado
+auto
+está
+en la cantidad
+de benzina
+que tiene el auto?
+sí
+se puede
+vamos a ver
+cómo se puede hacer
+eh
+ok
+¿el tipo
+de combustible
+juega un rol
+acá o no?
+no
+no
+no
+entonces
+vamos a ver
+vamos
+a escribir
+una función
+que nos haga
+esto
+y usted
+yo quiero
+que me la expliquen
+la van a explicar
+ustedes
+no yo
+ok
+a ver
+hasta dónde
+podemos
+entender esto
+fíjense que
+esta era una función
+cantidad
+esa es relativamente
+simple
+está un poquito
+más complicado
+ok
+entonces
+fíjense que acá
+hay una función
+que toma
+¿cuántos argumentos?
+dos
+tres
+¿cuántos son
+conocidos?
+dos
+patentes
+y combustibles
+¿y cuál es
+desconocido?
+densidad
+y desquilantidad
+dos
+ok
+y fíjense
+lo que
+y esto me dice
+esta es una función
+está tomando tres argumentos
+donde yo dos se los paso
+con valor
+son todas variables
+están todas en mayúsculas
+le paso los de la patente
+y el combustible
+estas tienen valor
+van a estar instanciadas
+pero esta
+es el dato que yo quiero
+¿sí o no?
+entonces
+¿qué me está haciendo esto?
+yo quiero pasarle el valor
+de la primera
+el valor de la segunda
+y
+obtener el valor
+de la tercera
+¿sí o no?
+sí
+fíjense
+si hago eso
+si yo le paso el valor
+de la primera
+y de la segunda
+y no el de la tercera
+entonces
+¿qué va a pasar acá?
+en la segunda parte
+de esta
+de esta función
+va a tomar auto
+y fíjense
+que aquí
+estamos usando
+un conector
+este es bastante
+más complicado
+porque estamos usando
+un conector lógico
+ahora
+el punto acá
+es que yo le voy a pasar
+el valor de la patente
+y el valor del consumo
+¿sí o no?
+y los otros dos argumentos
+¿qué va a pasar?
+no nos va a conseguir
+ok
+y aquí
+a la variable
+cantidad de kilómetros
+aquí
+esta es una función
+en prolog
+eso está predefinido
+¿ok?
+le va a asignar
+el valor
+de una expresión aritmética
+va a multiplicar
+esta expresión aritmética
+¿qué cosa?
+el consumo
+¿cierto?
+y el consumo
+va a venir de dónde?
+de auto
+predicado auto
+de autoconsumo
+¿sí?
+y se lo va a multiplicar
+por combustible
+y combustible
+no está en ningún predicado
+¿de dónde viene eso?
+del input
+del input de acá
+¿se entiende o no?
+pero ese combustible
+profesor
+entonces
+es un input
+que tendría que ingresar
+el usuario
+no se refiere
+al tipo de combustible
+que aparece
+arriba
+en el predicado auto
+donde dice
+benzina o diésel
+exacto
+no es lo mismo
+entonces
+no sería
+un argumento conocido
+sino que es un argumento
+desconocido
+desconocido
+sí exactamente
+muy bien
+perdón
+¿quién dijo
+que era desconocido?
+yo
+Rodrigo Roland
+ok
+pero es conocido
+¿sabes por qué Rodrigo?
+porque tú se lo vas a pasar
+por consola
+o sea
+esta función
+cantidad de kilómetros
+tú la vas a usar
+tal como usamos cantidad
+solo que esta función cantidad
+no tomaba ningún argumento
+en este caso
+va a tomar tres argumentos
+este valor
+va a ser conocido
+se lo vas a tener que entregar
+ok
+ok
+¿ok Rodrigo?
+sí
+y este también
+sí
+me refería a que no está
+en la base de conocimiento
+pero sí me queda claro
+que
+que es conocido
+porque se lo ingresa
+el usuario
+como un
+este
+exacto
+profesor
+una consulta
+¿y por qué uso
+ese de ahí
+un conector
+el dos puntos
+con el guión
+medio?
+sí
+igual que acá
+fíjate
+cantidad de comas
+está poniendo varios comandos
+uno después del otro
+¿ok?
+claro
+pero en este caso
+en particular
+no ocupa
+la coma
+ocupa
+este otro
+el de los dos puntos
+guión
+¿por qué?
+no si acá también
+mira
+este dos puntos guión
+y este dos puntos guión
+ambas son funciones
+ok
+igual que esta acá
+también es una función
+¿te das cuenta?
+¿no?
+sí
+entonces vamos a salvar esto
+vamos a ir a la consola
+¿qué tenemos que hacer acá?
+cargar esto
+funciona en el sistema
+de representación
+¿cómo hacemos eso?
+ok
+está cargada
+y ahora
+vamos a invocarla
+entonces
+¿qué dijimos?
+que teníamos que pasarle
+dos argumentos
+con valor
+y un tercero
+sin valor
+¿qué va a pasar aquí?
+fíjense
+invocamos la función
+en cantidad de kilómetros
+paréntesis
+y con tres argumentos
+el primero
+es la patente del vehículo
+PAT123
+el segundo argumento
+es
+el combustible
+que le queda
+y el tercero
+es la cantidad
+de kilómetros
+¿sí o no?
+ok
+¿cuánto era el consumo?
+para los que se acuerdan
+¿cuánto era el consumo
+del primer auto
+PAT123?
+cero cuatro
+creo
+cero cuatro
+cero cuatro
+cero cuatro
+entonces
+si
+si nos quedan
+veinte litros
+de combustible
+¿cuánto kilómetros
+podemos andar?
+ocho
+ocho
+ok
+cantidad de kilómetros
+es ocho
+vamos a ir al
+para patente
+124
+¿cuánto era el consumo
+acá?
+creo que
+cero tres
+ok
+seis
+muy bien
+de hacer
+tres
+efectivamente
+¿se entiende
+cómo funciona
+el algoritmo
+de unificación
+o no?
+y se entiende
+que aquí
+podemos hacer
+cosas bastante
+más complicadas
+entonces
+el propósito
+del
+del ejercicio
+este
+era
+bajar a tierra
+mucho
+los conceptos
+que habíamos
+manejado
+en particular
+la diferencia
+entre lo que es
+la base
+de conocimiento
+el lenguaje
+de representación
+de conocimiento
+y el sistema
+de representación
+de conocimiento
+propiamente
+tal
+¿no?
+y
+de hecho
+este formalismo
+de representación
+que estuvimos
+utilizando
+en la primera parte
+de la clase
+de hoy
+se ha utilizado
+extensivamente
+en sistemas
+de lenguaje natural
+y razonamiento
+automático
+en lenguaje natural
+¿ok?
+que es distinto
+a otras aplicaciones
+de lenguaje natural
+que no requieren
+un razonamiento
+por ejemplo
+extracción
+de hacer resúmenes
+por ejemplo
+lo que hacen ustedes
+con chat GPT
+eso es intensivo
+en datos
+pero no en razonamiento
+traducción automática
+también
+pero si ustedes
+quieren un sistema
+de diálogo
+inteligente
+en donde
+un humano
+interprete
+diálogo
+con una máquina
+eso es altamente
+intensivo
+en conocimiento
+por requiere
+razonamiento
+automático
+y para ello
+necesitamos
+formalismos
+de representación
+de conocimientos
+basados en
+al menos
+en subconjuntos
+bastante expresivos
+de lógica
+he predicado
+primera
+que es lo que
+acabamos de ver
+en la clase
+de hoy
+en la primera
+parte
+de la clase
+de hoy
+¿ok?
+profesor
+en prolog
+aproximadamente
+¿cuántas funciones
+ya vienen
+predeterminadas?
+porque de repente
+claro
+no podemos
+tratar de crear
+funciones
+que ya existen
+sí
+bueno
+estos son ejemplos
+bien específicos
+no los van a encontrar
+pero
+la lista
+o sea
+hay varias
+implementaciones
+de prolog
+pero esta
+que es de código
+abierto
+debe tener
+más de
+más de
+300
+debe tener
+fácilmente
+¿alguna otra
+pregunta
+Guinness
+todo claro?
+¿sí?
+bueno
+fue una sesión
+un primer módulo largo
+ya son las 7 y media
+casi
+así que les propongo
+que nos vayamos
+al recreo
+y volvamos
+si tienen
+a las 8
+¿les parece?
+ok
+perfecto
+ok
+se agradece
+perfecto
+nos vemos
+gracias profe
+nos vemos
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+gracias
+ok
+estamos de vuelta
+sí
+sí
+muy bien
+entonces vamos a continuar la última parte
+del último formalismo que estábamos viendo
+¿se acuerdan cómo se llamaba el formalismo?
+profesor
+sí
+disculpe
+¿le puedo quitar unos minutos?
+sí
+sí
+profesor mire
+mi nombre es Juan Pablo Amin
+estábamos acá con los compañeros
+los que estamos presencial
+sí
+que somos 12
+el día de hoy acá
+y
+estábamos viendo
+que efectivamente
+bueno
+la clase de hoy
+una clase
+sumamente práctica
+sumamente práctica
+donde finalmente
+venimos a plasmar
+toda la
+la entrega de conocimiento
+presentada en las clases anteriores
+entonces
+dado que la evaluación
+usted nos decía
+que va a ser una evaluación escrita
+que va a contemplar una parte teórica
+y una parte también de ejercicio
+eh
+queríamos ver la posibilidad
+y
+obviamente planteándose a usted
+de
+reemplazar finalmente
+esa evaluación escrita
+por un trabajo
+así como lo hicimos en la asignatura anterior
+un trabajo
+en grupos
+eh
+donde finalmente
+en base a un
+a un anunciado
+una problemática
+que usted nos dé
+nosotros
+podamos finalmente
+en un periodo de no sé
+de una a dos semanas
+eh
+poder entregárselo
+eh
+consideraciones
+eh
+somos los que estamos acá
+no
+no sabemos si el resto
+de los compañeros
+que están ahí en línea
+eh
+también
+se adhieren finalmente
+a esta propuesta
+pero va a depender mucho
+finalmente de lo que usted
+piense
+eh
+nosotros finalmente
+lo vemos por el lado
+de poner en práctica
+todos los conocimientos
+y sobre todo también
+considerando cómo va a ser
+la asignatura anterior
+donde también tuvimos
+un trabajo práctico
+eh
+eh
+vemos que
+se aprende también bastante
+eh
+ahondando en la materia
+y poniendo en práctica
+también todo ese
+ese conocimiento
+no sé
+eh
+qué opina usted al respecto
+eh
+sí
+lo
+lo habíamos hecho en el pasado
+y lo habíamos cambiado
+al
+al informe
+o sea
+al
+a la prueba
+pero miren yo
+al final de la clase de hoy
+voy a dejarle un
+un minuto
+al temario
+lo que vamos
+lo que sería la prueba
+con
+con ejemplos concretos
+con un ejemplo concreto
+para que
+se
+se
+se interioricen ustedes
+de
+de cómo sería la prueba
+¿no?
+no es nada del otro mundo
+eh
+es bastante
+digamos
+de alto nivel
+así que no
+no
+no
+no
+no
+no
+preocuparse
+pero me gustaría
+presentárselo a eso
+al final de la clase de hoy
+¿ok?
+pero entonces
+con eso
+disculpe
+no hay posibilidad
+de hacer un trabajo
+en principio no
+ya
+pero
+como les digo
+o sea
+lo hemos hecho ya
+en el pasado
+lo hemos hecho
+con
+con reiteradas
+grupos
+y
+y como les digo
+es
+es algo que
+involucra las dos cosas
+y es más individual
+no es tan grupal
+o sea
+de hecho es individual
+que fue una de las críticas
+que hubo en su momento
+¿ok?
+ok
+muchas gracias
+gracias
+bien
+bueno
+miren
+lo que
+en lo que nos queda
+de clase de hoy
+vamos a ver
+eh
+la última parte
+de ese formalismo
+que estábamos viendo
+en
+en la última clase
+que es
+semántica de situaciones
+¿ok?
+que yo
+como yo les dije
+fue formulado
+en un
+en un centro
+que es probablemente
+uno de los números
+uno en todo este tema
+de
+de lenguaje natural
+que es
+como les decía
+en clases anteriores
+el desafío mayor
+de la
+inteligencia artificial
+en términos de representación
+de conocimiento
+ese centro se llama
+el centro para el estudio
+del lenguaje
+y la información
+que está en Stanford
+y ahí fue
+formulado
+este
+este formalismo
+que estábamos viendo
+entonces
+nosotros habíamos partido
+con este formalismo
+y habíamos dicho
+que
+eh
+si bien la lógica
+orientó
+a muchos
+de los lenguajes
+que usamos
+para representación
+de conocimientos
+eh
+y si bien
+semántica de situaciones
+también está basada
+en lógica
+había un problema
+con
+los formalismos
+anteriores
+que no representaban
+representaban bien
+el contexto
+el contexto
+en las cuales
+eh
+ocurre un discurso
+en lenguaje natural
+o una
+eh
+una
+digamos
+un problema
+de representación
+de conocimiento
+y sobre todo
+de razonamiento
+automático
+en lenguaje natural
+y uno de los principales
+problemas
+era eso
+la falta
+de poder representar
+el contexto
+y ese fue
+uno de los mecanismos
+que dio
+o sea
+una de las problemáticas
+que dio
+como origen
+a este
+a este
+nuevo formalismo
+que se llama
+semántica de situaciones
+que
+digamos
+el más
+el más ambicioso
+de los que se tiene
+hasta ahora
+y hay algunas
+implementaciones
+en sistemas
+de representación
+de conocimientos
+que están basadas
+en este
+en este formalismo
+entonces la unidad
+fundamental
+de este formalismo
+son los llamados
+infons
+ok
+y un infon
+es algo como esto
+ok
+esto un poco
+repaso
+lo que vimos
+en la clase anterior
+que
+en este caso
+esto se lee
+el contexto
+P
+cierto
+soporta
+el ítem
+de información
+o infon
+que son las 18 horas
+y esto
+tiene directa relación
+con lo que vimos
+en la clase
+en la clase
+práctica
+que tuvimos
+en el primer módulo
+en donde
+esto que está acá
+se representa
+a través de
+lógica de predicado
+de primer orden
+ok
+entonces está
+íntimamente relacionado
+pero es una extensión
+de lo que vimos
+en
+en la clase
+número 2
+y lo que
+practicamos
+en
+en esta clase
+infons
+entonces
+tienen esta forma
+en donde
+se lee
+el infon
+o infon
+compuesto
+en caso
+que sea
+compuesto
+¿cierto?
+sigma
+es verdadero
+en la situación
+S
+o bien
+dicho de otra manera
+S
+soporta
+a sigma
+ok
+profesor
+disculpe
+es que nos está
+proyectando
+ahí en la pantalla
+vemos negro
+dice que se pausó
+se pausó
+el compartir pantalla
+no vemos nada
+voy a reiniciar
+gracias
+gracias
+y ahora lo ven
+sí
+sí
+ok
+entonces
+esto
+es
+un infon
+tiene esta forma
+en donde
+esto se lee
+el infon
+o infon
+compuesto
+sigma
+es verdadero
+en la situación
+S
+o bien
+S
+soporta
+S
+donde
+sigma
+es una proposición
+en lógica
+predicada
+a primera
+hora
+ok
+entonces
+un infon
+tiene esta forma
+donde
+fíjense
+que es
+lo común
+a lo que vimos
+en la primera
+parte
+de la clase
+de hoy
+y esto
+que está acá
+o sea
+un infon
+toma
+esta
+forma
+o bien
+esta forma
+entonces
+hasta acá
+todo es conocido
+lo que
+lo que se adiciona
+es esto de aquí
+al final
+la cola
+del infon
+¿cierto?
+esto que representa
+era como una lista
+fíjense
+es un predicado
+predicado
+con n argumentos
+¿cierto?
+era lo que teníamos
+hasta ahora
+solo que
+en lugar de llamarle
+predicado
+¿cómo le llamamos acá?
+una relación
+una relación
+¿ok?
+una relación
+en área
+porque tiene
+n argumentos
+que son
+los argumentos
+a1n
+que suelen
+incluir
+una locación
+espacio-temporal
+o sea
+dentro de estos
+argumentos
+que tiene
+el infon
+adentro
+también
+algunos de estos
+argumentos
+representan
+una locación
+espacio-temporal
+¿y el 1 y el 0
+qué representan?
+es una polaridad
+es decir
+si se cumple
+no la relación
+¿ok?
+entonces por ejemplo
+bien alto nivel
+esto
+acá
+¿qué representa
+este infon?
+este infon
+representa
+que la relación
+presente
+está tomando
+¿cuántos argumentos
+acá?
+tres
+tres
+bueno
+tres más la polaridad
+¿cierto?
+nos dice
+que Juan Pérez
+en la tarde
+2 de junio
+de 2025
+esa es una locación
+temporal
+esta es una locación
+de ubicación
+¿cierto?
+está
+presente
+en la locación
+no está presente
+en la locación
+L1
+porque la polaridad
+aquí es negativa
+¿ok?
+y L1
+ha sido dejada
+indeterminada
+o sea
+no sabemos
+dónde
+pero sí
+tenemos la
+locación temporal
+¿ok?
+profesor
+¿sí?
+¿podría explicar
+una segunda vez
+lo que acaba de explicar
+como no
+no me queda tan claro
+¿qué es lo que no
+le quedó claro
+para poder
+intentar explicarlo?
+¿de la
+de la
+diapositiva anterior?
+¿sí?
+esta de aquí
+y los
+infons
+en el fondo
+el infons
+también es una relación
+que
+que
+que
+toma
+una relación
+más
+un
+un 0-1
+el infon
+incluye la polaridad
+porque un infon
+tiene esta forma
+donde la polaridad
+puede ser 1
+como en este caso
+o puede ser 0
+o sea la relación
+se cumple o no se cumple
+y de los argumentos a 1 a n
+¿ok?
+¿relación se cumple
+o no se cumple?
+dependiendo si la polaridad
+es 1 o 0
+entonces una relación
+cuyo uno de sus argumentos
+también es una relación
+o sea no
+la relación
+es esta
+y los argumentos
+son todos estos de aquí
+más una polaridad
+la polaridad
+es como
+es como si fuera
+un argumento adicional
+que te está diciendo
+si se cumple o no
+la relación
+ya
+pero toda esa composición
+con el o
+¿sí?
+no, no, no
+el o
+el o acá
+es porque
+la relación
+se cumple
+o no se cumple
+o sea
+es una
+una de dos
+¿me entiendes?
+ah
+no es que sea
+como el o
+de unir
+estas dos cosas
+no, no, no
+esto está diciendo
+que o bien
+la relación
+se cumple
+o bien
+no se cumple
+¿ok?
+ah ya
+ok
+no hay conexión
+entre ambos
+no
+por ejemplo
+acá
+este es un infon
+y acá la relación
+no se cumple
+¿te das cuenta?
+claro
+o sea el señor
+Juan Pérez
+no está presente
+en la tarde
+del 2 de junio
+en alguna locación
+que quedó
+indeterminada
+¿ok?
+ahora
+la ontología
+son
+individuos
+son
+se denotan
+con letras minúsculas
+relaciones
+con letras mayúsculas
+locaciones espaciales
+con la letra L
+y subíndices
+las locaciones temporales
+con la letra T
+y subíndices
+las situaciones
+con la letra S
+y subíndices
+los tipos de situaciones
+se pueden representar
+con letra mayúscula
+que puede ser
+S, T, V, V, etc
+y los parámetros
+son elementos
+que están indeterminados
+que corresponden
+a objetos
+locaciones
+o situaciones
+que no están
+determinadas todavía
+es decir
+no tienen valor
+no conocemos
+el valor
+de esos parámetros
+¿ok?
+y nosotros decimos
+que están indeterminados
+entonces
+estos son los tipos básicos
+locaciones temporales
+locaciones espaciales
+individuos
+en el discurso
+que son objetos
+relaciones
+en áreas
+¿cierto?
+situaciones
+tipos de situaciones
+tipos de infos
+tipos de un tipo
+inclusive
+parámetros
+y la polaridad
+entonces vamos a ver
+algunos ejemplos
+¿ok?
+los parámetros
+como decíamos antes
+se denotan
+con apóstrofes
+¿ok?
+entonces
+si hay una
+variable acá
+con apóstrofe
+significa que está
+indeterminada
+¿no?
+entonces
+en este caso
+es L
+una locación
+de ubicación
+indeterminada
+en este caso
+es T
+una ubicación
+de tiempo
+indeterminada
+este es un objeto
+indeterminado
+esta es una situación
+indeterminada
+¿ok?
+y los objetos
+pueden tener
+tipo
+que se denota así
+para indicar
+que el objeto
+es de tipo T
+¿ok?
+anclas
+también se usan
+para darle
+asignarle un valor
+a un parámetro
+recuerden
+los parámetros
+no tienen un valor
+determinado
+o sea
+no lo conocemos
+todavía
+entonces
+para conocerlo
+tenemos que
+anclarlo
+tenemos que
+asignarle
+un
+valor
+a los parámetros
+en el ínfono
+¿ok?
+y otra cosa
+súper importante
+acá en esta forma
+mismo
+es el mecanismo
+de abstracción
+este es un
+tipo de abstracción
+de situaciones
+por ejemplo
+que se denota
+con este
+operador
+barra
+o pipe
+¿cierto?
+que significa
+que este es
+un infon
+¿cierto?
+es decir
+la situación
+es el soporte
+del infon
+sigma
+este es un infon
+y aquí estoy
+abstrayendo
+por la situación
+entonces
+por ejemplo
+un ejemplo
+concreto
+¿este infon
+qué representa?
+entonces fíjense
+la relación
+¿cuál es?
+corred
+¿cuántos
+argumentos
+está tomando
+el infon?
+tres
+más una polaridad
+fíjense
+que
+hay un objeto
+que está corriendo
+en algún lugar
+en algún momento
+no sabemos
+no sabemos
+en qué lugar
+no sabemos
+en qué momento
+tampoco sabemos
+quién es
+o qué es
+podría ser una persona
+podría ser un animal
+cualquier
+cierto
+objeto
+que sea capaz
+de hacerlo
+sería una posibilidad
+y acá
+estamos
+entonces
+esta situación
+representa
+el hecho
+de que alguien
+está corriendo
+en algún momento
+en algún lugar
+eso es lo que
+representa el tiempo
+pero ahora
+yo estoy
+abstrayendo
+por
+esa situación
+y eso
+¿qué me da?
+me da
+el tipo
+de situación
+genérico
+donde alguien
+corre
+en alguna locación
+y en algún
+cierto momento
+entonces
+cuando yo
+abstraigo
+a este nivel
+a nivel de situación
+me da un tipo
+de situación
+es decir
+toda la situación
+en donde
+ocurre un evento
+de correr
+cierto
+sería
+estaría
+en ese tipo
+de situación
+que es la que
+estoy definiendo
+aquí
+a través del
+mecanismo
+de abstracción
+pero también
+puedo
+observar
+a nivel
+de objetos
+es decir
+acá
+por ejemplo
+tengo un
+infón
+igual que
+en el otro
+caso
+pero yo estoy
+abstrayendo
+por un parámetro
+x
+que está
+dentro del
+infón
+dentro de
+este sigma
+aquí
+o sea que
+no está
+especificado
+vamos a ver
+el ejemplo
+más adelante
+ok
+entonces
+este sigma
+se compone
+de una relación
+de n
+argumentos
+cierto
+y de una
+polaridad
+entonces algún
+argumento
+x
+que está
+aquí
+adentro
+del infón
+está indeterminado
+y yo abstraigo
+sobre eso
+y eso me da
+otro significado
+ok
+entonces veamos
+qué significa
+lo siguiente
+s
+la situación
+s
+soporta
+este infón
+y este infón
+que me está
+indicando
+qué significa
+esto
+la relación
+es
+ver
+y toma
+estos cuatro
+argumentos
+donde
+tres de ellos
+son parámetros
+se dan cuenta
+tres de ellos
+están indeterminados
+y uno
+está determinado
+entonces
+¿qué me está
+representando
+esto?
+era la E
+recuerdan
+son siempre
+situaciones
+las que estamos
+representando
+ok
+¿qué es
+la E?
+la E
+ok
+la E
+es
+fíjense
+este es
+John
+John está
+especificado
+como que
+John
+era P
+el actor
+que está
+viendo
+y E
+es lo que
+está siendo
+visto
+por John
+ok
+que no está
+no está
+especificado
+acá
+no sabemos
+entonces
+esto
+¿qué representa?
+representa un infón
+¿qué infón?
+el infón
+donde
+John ve algo
+en algún momento
+en algún lugar
+¿te entienden o no?
+¿por qué digo
+en algún momento
+en algún lugar?
+porque
+la locación
+no está
+determinada
+y el tiempo
+tampoco
+la polaridad
+es uno
+por lo tanto
+John
+efectivamente
+está viendo
+¿y qué está
+viendo John?
+algo
+y ese algo
+también está
+indeterminado
+entonces
+si me preguntan
+¿qué significa
+este infón?
+significa
+o esta situación
+esta situación
+corresponde
+a la situación
+en la cual
+John ve algo
+en algún momento
+en algún lugar
+¿y qué pasa
+si yo abstraigo?
+fíjense que ahora
+yo no estoy
+abstrayendo
+por la situación
+¿estoy abstrayendo
+por qué?
+por lo que ve
+por el objeto
+visto
+entonces
+es el tipo
+de situaciones
+en donde
+algo
+algo
+es visto
+por John
+en algún momento
+en algún lugar
+sienta
+la abstracción
+que vimos recién
+¿te dan cuenta?
+¿te dan cuenta?
+¿te dan cuenta?
+¿profe
+siempre son
+dos parámetros
+al principio?
+no
+pueden ser más
+dependiendo
+de la relación
+porque esas relaciones
+toman
+n posibles
+argumentos
+voy a aprender
+de la relación
+y tal como
+veíamos
+en el caso
+de
+de
+Prolog
+¿cierto?
+también tengo
+infos
+compuestos
+y los
+infos compuestos
+son a través
+de la conjunción
+es decir
+el conector
+lógico
+y
+o la
+dis
+función
+a través
+del conector
+lógico
+o
+¿ok?
+tal como
+lo veíamos
+en la primera
+clase
+la primera
+parte
+de la clase
+de hoy
+a eso
+le llamamos
+infos compuestos
+que pueden ser
+más complejos
+¿ok?
+y estos infos
+compuestos
+se definen
+como
+la clase
+de infos
+que resultan
+bajo las operaciones
+de conjunción
+o disfunción
+como lo veíamos
+recién
+o bajo las operaciones
+de cuantificación
+existencial
+o universal
+como ustedes
+la conocían
+de sus cursos
+de lógica
+proposicional
+en el colegio
+¿ok?
+si bien hay otros
+cuantificadores
+pero
+los más usados
+son esos dos
+el cuantificador
+existencial
+y el universal
+ahora
+en lenguaje natural
+obviamente
+tenemos muchos más
+porque
+el existencial
+es que existe
+al menos un objeto
+que cumple
+con una cierta condición
+y el universal
+es que todos los objetos
+en el universo
+de discursos
+cumplen con esa
+condición
+pero hay muchos otros
+cuantificadores
+¿quién me puede
+nombrar
+en castellano
+otros cuantificadores
+que van más allá
+de la cuantificación
+existencial
+y universal
+en el lenguaje
+que usamos nosotros
+normalmente
+hay uno
+como que es
+de existencia única
+sí
+también
+también existe
+existe un único
+¿cierto?
+pero
+nosotros usamos
+muchos cuantificadores
+lo que pasa es que
+nos enseñan
+un curso
+de
+lógica
+proposicional
+al menos
+no
+enseñanza media
+por ejemplo
+la mayoría
+castellana
+es un cuantificador
+algunos
+también es un
+cuantificador
+¿qué otro más
+hay lo que hable
+de frecuencia?
+todos
+para todo
+para todo
+poco
+todos
+poco
+muy poco
+o un número
+en específico
+tres personas
+cumplen con
+claro
+y eso también
+se tiene que poder
+representar de alguna
+manera en lenguaje
+natural
+todos esos son
+cuantificadores
+ok
+entonces esos son
+los hipocompuestos
+después tenemos
+restricciones que
+conectan tipos de
+situaciones
+por ejemplo
+acá hay un ejemplo
+que
+deja claro
+este tipo de
+restricciones
+la situación
+SS2
+es esta
+es que
+fíjese
+este infon
+¿qué me está diciendo?
+es un infon
+compuesto
+¿ven?
+tengo este infon
+tengo este infon
+de aquí
+y tengo este infon
+de acá
+es compuesto
+porque está conectado
+por el
+conector lógico
+de
+concunción
+el primer infon
+me dice que
+alguien está
+hablando
+alguien habla
+en algún momento
+te uno
+y en un momento
+en un lugar
+en un lugar
+y que
+y al mismo tiempo
+dice que
+ese
+ese alguien
+dice
+la palabra
+fire
+lo representamos así
+está diciendo
+fire
+ok
+en el mismo lugar
+el e uno
+y en el t uno
+o sea
+esta situación
+ese dos
+representa
+fíjese
+que está
+abstrayendo
+por la situación
+ese dos
+entonces
+¿qué me está
+representando?
+está representando
+el tipo
+el tipo
+de situaciones
+en las cuales
+hay alguien
+hablando
+y gritando
+en el fondo
+o diciendo
+la palabra
+fuego
+eso es todo
+lo que me está
+diciendo
+este infon
+compuesto
+que está
+en este caso
+es
+estoy abstrayendo
+por la situación
+es el tipo
+de situación
+donde hay alguien
+hablando
+y diciendo
+la palabra
+fuego
+profesor
+el que esté
+la palabra
+fuego
+en mayúscula
+significa algo
+no
+ok
+nada en particular
+entonces
+esto me dice
+que ese dos
+involucra
+ese uno
+fíjense que
+hay una conexión
+entre el tipo
+de situación
+ese dos
+que acabo de escribir
+esto de acá
+y la situación
+ese uno
+y la situación
+ese uno
+es
+que cuando
+hay alguien
+en el fondo
+y esto lo sabemos
+nosotros
+lo aprendemos
+como regla
+de conocimiento
+eso lo sabemos
+cuando hay alguien
+gritando fuerte
+la palabra
+fuego
+es porque
+hay fuego
+en algún lugar
+ok
+si ese alguien
+está
+y si ese alguien
+está
+emitiendo eso
+esa palabra
+está diciendo
+esa palabra
+en algún lugar
+el E1
+T1
+entonces
+implica que hay
+fuego
+hay fuego
+en ese lugar
+el E1
+T1
+entonces
+hay una conexión
+entre el tipo
+de situación
+S2
+y el tipo
+de situación
+S1
+en donde
+hay alguien
+en donde
+hay fuego
+en el fondo
+y además
+S1
+involucra
+la situación
+S0
+o sea
+están todas
+conectadas
+a estos tipos
+de situaciones
+la S0
+me está diciendo
+que
+es el tipo
+de situaciones
+donde hay
+humo
+entonces
+y aquí
+a través
+de este
+mecanismo
+estamos haciendo
+la conexión
+entre tres
+tipos de
+situaciones
+una en la cual
+hay alguien
+en algún lugar
+L1
+en algún momento
+T1
+diciendo que hay
+fuego
+por lo cual
+inferimos
+porque
+S2
+involucra
+S1
+de que
+en ese lugar
+L1
+y T1
+debe haber
+fuego
+y si hay fuego
+debe haber
+humo
+ok
+entonces
+hicimos
+las conexiones
+entre estos
+tres tipos
+de situaciones
+S0
+S1
+y S2
+profesor
+consulta
+en ese ejercicio
+porque
+hablando
+y dice
+hay que conectarlo
+no se asume
+que cuando dice
+alguien algo
+está hablando
+por supuesto
+pero acá
+no está diciendo
+el contenido
+de lo que está diciendo
+no te está diciendo
+que está diciendo
+o que está
+claro
+es que yo iba más
+a la segunda parte
+si yo solo
+omito la primera
+y digo
+hay alguien que dice
+fuego
+en L1
+T1
+y es 1
+tiene lógica
+si tiene lógica
+tiene lógica
+acá
+en el fondo
+tú me dirías
+que podría ser
+visto como redundante
+o sea
+podríamos
+en el mismo
+primer info
+en eso
+si
+si
+tú tienes razón
+podríamos dejarlo
+así también
+ok
+profesor
+si
+o sea
+como resumiendo
+la abstracción
+de un info
+es que se define
+alguna de las variables
+independiente
+que la otra variable
+no esté definida
+como la acción
+de correo
+a ver
+en el info
+pueden haber
+en el info
+pueden haber parámetros
+o puede que no los hayan
+no necesariamente
+pero
+si queremos ser genéricos
+cuando hablamos
+de tipos de situaciones
+muy probablemente
+vamos a tener parámetros
+metidos allá
+cosas que no necesariamente
+tienen que tener un valor
+pero que deben estar allí
+pero el info
+habría abstracción
+si yo no defino
+ninguno de los
+parámetros
+del info
+no
+sería un info
+indeterminado
+para que haya abstracción
+tiene que aplicar
+el operador de abstracción
+acá
+ya sea de objeto
+como habíamos antes
+o de situación
+ok
+ok
+gracias
+entonces
+las restricciones
+conectan
+tipos de situaciones
+esa es la parábola
+el concepto
+claro acá
+y los agentes
+naturales
+aprenden
+estas restricciones
+durante su proceso
+de ir por el mundo
+o sea
+es lo que hacemos nosotros
+desde que
+desde que nacemos
+en el fondo
+empezamos a
+conectar tipos de situaciones
+y ver que una situación
+involucra a otra situación
+y de esa manera
+vamos
+vamos adquiriendo
+conocimiento
+en nuestra base
+de conocimiento
+ok
+entonces
+la resolución
+de ambigodades
+puede involucrar
+múltiples estrategias
+ok
+y la pregunta es
+cuando
+el discurso
+este
+cuando lo que tenemos
+que representar
+es ambivo
+seguimos
+cada una de ellas
+en forma secuencial
+o en forma paralela
+para llegar a la forma
+más satisfactoria
+de eso habíamos hablado
+nosotros
+en clases pasadas
+y aquí en conclusión
+llegábamos
+¿se acuerdan?
+en forma paralela
+¿y eso venía
+de dónde?
+¿de qué disciplina
+Javier?
+¿de la biología cuántica?
+de la psicolingüística
+ah
+¿y de qué
+de qué se ocupan
+los psicolingüistas
+Javier?
+no me acuerdo
+son
+son psicólogos
+cognitivos
+que quieren entender
+cómo los humanos
+procesan
+el lenguaje natural
+a eso se dedica
+la psicolingüística
+¿ok?
+entonces claro
+efectivamente
+hay teorías
+psicolingüísticas
+que dicen
+que ante la
+engruidad
+nosotros
+no las
+interpretamos
+en forma secuencial
+sino que lo hacemos
+en forma paralela
+¿ok?
+entonces veamos
+un ejemplo acá
+de
+semántica
+de situaciones
+hay
+m personas
+caminando
+representemos eso
+m personas
+caminando
+entonces tengo
+una situación
+S1
+que soporta
+el siguiente
+infon
+este infon
+es compuesto
+¿se dan cuenta?
+aquí tengo
+varios conectores
+lógicos
+entonces
+tenemos una persona
+caminando
+¿cuándo?
+ahora
+tenemos un lugar
+¿el lugar
+está especificado
+o no?
+entonces
+este
+este infon
+está representando
+a alguien
+un P1
+alguien
+que no está
+determinado
+en un tiempo
+tan poco determinado
+que está
+es como el acto
+de caminar
+pero acá
+por una persona
+y por m personas
+hay m personas
+caminando
+¿se dan cuenta
+que lo que yo estoy
+representando acá
+dejó todo indeterminado
+lo único que sé
+es que hay m personas
+y que esas m personas
+están caminando
+no sé cuándo
+no sé dónde
+¿ok?
+¿por qué el T
+dice ahora?
+¿por qué?
+sí
+porque están caminando
+están como en
+gerundio
+¿ok?
+ah
+como presente
+sí
+presente
+una actividad
+que está teniendo lugar
+en el preciso momento
+donde uno lo está
+emitiendo
+¿ok?
+por eso dice ahora
+donde P1
+a Pm
+son parámetros
+de personas
+¿ok?
+profe
+una consulta
+usted habló
+de las diferentes
+locaciones
+una locación
+en este caso
+T sería una locación
+temporal
+y el otro parámetro
+de locación
+no es necesario
+agregarlo acá
+que sería
+no sé
+caminando en el parque
+claro
+pero si lo pones
+como indeterminado
+a ver
+en realidad
+lo podríamos haber puesto
+¿ok?
+porque
+porque
+si están caminando
+todos sabemos
+que tiene que ser
+en algún lugar
+no puede ser
+en ningún lugar
+¿o no?
+claro
+entonces tú tienes razón
+podríamos haber puesto
+L
+L1
+L1
+L1
+indeterminado
+no sabemos dónde
+pero en algún lugar
+tienen que estar
+caminando
+ahora la pregunta
+¿están todos caminando
+en el mismo lugar
+o en lugares distintos?
+si son en el mismo lugar
+tengo que poner
+el mismo L1
+L1
+L1
+L1 apóstrofe
+claro
+tendría que poner acá
+caminar
+P1 apóstrofe
+T prima
+T apóstrofe
+ahora
+y L
+L1 apóstrofe
+y el mismo L1
+en los otros
+¿sí o no?
+sí
+sin embargo
+cuando tú dices
+hay M personas caminando
+es ambiguo
+porque tú dices
+ok
+no sé dónde están caminando
+tampoco sé
+sé que están caminando ahora
+porque están gerundio
+pero no sé
+pero la ambigüedad acá
+¿están todos caminando
+en el mismo lugar
+o cada uno está caminando
+en lugares completamente distintos?
+eso no lo sé
+¿sí o no?
+claro
+y las dos cosas
+las puedo representar
+para el primer caso
+tendría que poner
+un L1 igual
+en todas estas expresiones
+en todos estos ínfons
+tendría que agregar
+un L1 apóstrofe
+y si todos están caminando
+en lugares distintos
+entonces tendría
+L1 apóstrofe
+a LM apóstrofe
+porque todos los lugares
+son distintos
+¿se dan cuenta?
+segunda situación
+hay M personas caminando
+un hombre lleva un puesto
+un traje negro
+ok
+¿cuál es el modelo mental
+que tienen
+hasta cuando han leído
+estas dos sentencias?
+¿qué hay que definir
+hombre
+y qué lleva puesto?
+bien
+pero
+hay algo
+o sea
+basado en el conocimiento
+del mundo
+que ustedes tienen
+en su base de conocimiento
+y razonando
+con los hechos
+que ustedes tienen
+le hace sentido
+hasta el momento
+yo creo que no
+yo creo que lo único
+que pueden inferir
+o sea
+no hacen la conexión
+no están haciendo
+la conexión
+con otro tipo de situación
+lo único que dicen
+este es el tipo de situación
+en donde hay M personas
+caminando
+en algún lugar
+ahora
+y un hombre
+lleva un puesto
+un traje negro
+pero no hacen
+la conexión
+con otro tipo
+de situaciones
+para inferir
+más conocimiento
+todavía no por lo menos
+ok
+lo vamos a representar
+de esta manera
+esto es lo que teníamos
+antes
+ya lo teníamos
+pero ahora
+lo nuevo
+es que
+hay alguien
+un hombre
+no sé quién
+por eso está con apóstol
+que lleva un traje negro
+que lo representamos
+así
+TN
+por simplicidad
+y que
+claramente
+el modelo mental
+es que un hombre
+lleva un puesto
+de traje negro
+está conectado
+con esto
+o sea
+es como concomitante
+¿sí o no?
+está ocurriendo
+en el mismo momento
+¿o no?
+claro
+profesor
+pero
+¿es una de las personas
+que están caminando?
+perdón
+eso mismo iba a preguntar
+no
+eso no
+no necesariamente
+lo podemos inferir
+pero podría ser
+ahora
+¿cuál de las dos
+interpretaciones
+estamos poniendo acá?
+es que
+es otra persona
+es un hombre
+o sea
+es como que
+hay m personas
+caminando
+y además
+hay un hombre
+y además
+un hombre
+ok
+pero en el mismo tiempo
+es concomitante
+en el tiempo ahora
+ok
+y ahora
+yo creo que
+con la tercera frase
+ustedes ya van a poder
+conectar
+con algún tipo
+de situación
+la tercera es
+seis hombres
+van llevando
+un carjón largo
+de madera
+¿cómo hiciste
+esa conexión?
+¿qué conectaste?
+el traje negro
+con el cajón
+y llevan caminando
+sí
+o sea
+aquí
+se trata
+de un funeral
+¿o no?
+sí
+claro
+pero hay gente
+caminando
+seis hombres
+llevan en el cajón
+¿y el hombre
+que lleva
+el traje negro
+va en el cajón?
+no
+porque lleva
+un traje negro
+fíjate
+todas las situaciones
+que conectaste
+para poder razonar
+primero
+yo creo que es plausible
+lo que dice Inés
+pero
+no es tan plausible
+porque
+porque
+es que solo dice
+que lleva
+solo dice
+que lleva
+un traje negro
+lleva puesto
+un traje negro
+no dice
+que va caminando
+no, no, no dice
+lleva puesto
+un traje negro
+pero
+pero
+si
+si
+si
+seis hombres
+van llevando
+un cajón largo
+de madera
+ese
+que en este caso
+sería un ataúd
+¿o no?
+ajá
+sí
+generalmente
+cuando van
+en la procesión
+va tapado
+o sea
+no va abierto
+para que lo puedan ver
+ok
+claro
+y todo eso
+ustedes lo saben
+porque están conectando
+con otras situaciones
+que tienen asociado
+más conocimiento
+esta conexión acá
+para el razonamiento
+lógico
+está conectando
+varios tipos
+de situaciones
+distintas
+pero recién
+pudimos hacer
+fuimos capaces
+de hacer
+esa conexión
+cuando leímos
+la tercera
+sentencia
+¿se da cuenta?
+exacto
+entonces
+ahora tenemos
+lo que teníamos
+antes
+¿qué es lo nuevo?
+lo nuevo es
+seis hombres
+que van
+en un calcón
+de madera
+y aquí están
+los seis hombres
+hombre uno
+cajón de madera
+y hombre seis
+todos conectados
+con su
+conector
+lógico
+¿ok?
+entonces fíjense
+escenas
+son descripciones
+relativamente
+inconexas
+e incompletas
+de una situación
+y están sujetas
+a múltiples
+interpretaciones
+en cambio
+historias
+son descripciones
+de una situación
+que presentan
+una estructura
+se identifica
+en ella
+la acción
+descrita
+y se reconoce
+que ella
+consiste
+en un conjunto
+coherente
+de actividades
+pero sigue
+estando sujeta
+a diferentes
+interpretaciones
+¿ok?
+o sea
+tengo más
+información
+hice más conexiones
+con otras situaciones
+pero todavía
+sigue siendo
+una historia
+y una explicación
+además de
+describirse
+la situación
+a través
+de un conjunto
+coherente
+de actividades
+se entrega
+una explicación
+funcional
+de lo que sucede
+y los objetivos
+de la actividad
+y se describen
+los roles
+de cada gente
+que juega
+en ella
+eso ya sería
+una explicación
+y para poder
+hacer eso
+se requiere
+de un mecanismo
+de representación
+de conocimiento
+que sea capaz
+de hacer la conexión
+con distintos
+tipos de situaciones
+¿ok?
+entonces
+lo que veímos
+lo que vimos
+de
+la situación
+S1
+a la S3
+es decir
+estas tres
+de acá
+describen
+una escena
+una historia
+o una explicación
+una escena
+puede ser
+una escena
+pero todavía
+no entendemos
+muy bien
+de qué se trata
+podría
+podría ser
+un montaje
+en un concierto
+metalero
+llevando
+las cajas
+de instrumentos
+no necesariamente
+un funeral
+exacto
+sí
+pero yo creo
+que a leer
+la tercera
+la mayoría
+de la gente
+se hace inferencia
+claro
+sí
+es verdad
+lo que usted dice
+porque depende
+mucho del contexto
+porque si
+alguien
+hace poco
+tuvo un funeral
+va a pensar en esto
+o alguien
+si estuvo hace poco
+en un concierto
+va a pensar en esto
+fíjense
+un ejercicio
+ahí para que
+lo practiquen
+representan ahora
+la situación
+que se presenta
+con estas cuatro
+sentencias
+y ahora está
+mucho mejor
+descrito
+un funeral
+está teniendo lugar
+el sacerdote
+vistiendo traje negro
+encabeza la procesión
+atrás
+de él
+van seis personas
+llevando el ataúd
+el resto
+de la procesión
+va caminando
+más atrás
+¿eso qué es?
+¿una explicación?
+¿una escena?
+¿una historia?
+¿qué es?
+¿una historia?
+eso sería
+una explicación
+¿una explicación?
+una historia
+porque tiene estructura
+pero es más que ello
+o sea
+tiene una estructura
+lógica
+y es más bien
+una explicación
+¿ok?
+ahora
+y eso lo vimos
+en la primera
+en la primera
+parte de la trascada
+cuando ustedes me preguntaban
+bueno
+hay dos referentes
+cuál encuentra
+el primero
+el segundo
+etcétera
+eso tiene que ver
+con algo que también
+es súper fundamental
+en representación
+de conocimientos
+que tiene que ver
+con las llamadas
+los referentes
+en el discurso
+¿ok?
+y los referentes
+en el discurso
+a veces
+se introducen
+explícitamente
+como en este caso
+¿cuál es el referente
+que yo estoy introduciendo
+explícitamente
+en la situación 5?
+el mal tiempo
+el frente
+el frente de mal tiempo
+el frente de mal tiempo
+por eso tiene
+un súper índice 1
+aquí
+entonces
+acá
+yo lo estoy
+introduciendo
+explícitamente
+¿ok?
+pero yo lo puedo
+introducir
+explícitamente
+¿ok?
+y si lo introduzco
+entonces queda
+disponible
+en el universo
+de discurso
+para que yo pueda
+hacer referencia
+de ese referente
+por ejemplo
+esto
+es un ejemplo
+de una catáfora
+¿ok?
+catáfora
+es un
+es una referencia
+a un referente
+que todavía
+no ha sido introducido
+entonces ustedes
+me van a decir
+¿pero cómo yo puedo
+introducir
+o sea
+cómo puedo hacer
+referencia
+a un referente
+si todavía
+no lo he introducido
+en el discurso?
+y la figura
+esa figura
+literaria
+digamos
+que la usamos
+en el lenguaje
+que usamos todos
+se llama catáfora
+cuando
+nosotros
+hacemos una referencia
+un referente
+que ya está
+introducido
+en el discurso
+ya está disponible
+es una anáfora
+pero cuando
+hacemos referencia
+a un referente
+que todavía
+no ha sido
+introducido
+en el recurso
+es una catáfora
+¿ok?
+entonces fíjense
+a cinco minutos
+de haber convertido
+el gol
+del empate
+¿cierto?
+el centro delantero
+del equipo visitante
+fue expulsado
+del campo
+del campo
+del juego
+¿dónde está
+aquí?
+la catáfora
+es que
+fíjense
+a cinco minutos
+de haber convertido
+el gol
+del empate
+cuando
+supongamos
+que esta sentencia
+para acá
+y esto
+no existe
+¿ok?
+esta segunda parte
+de la sentencia
+no existe
+he leído hasta aquí
+lo único
+que estoy
+introduciendo
+es que
+es que
+hubo un gol
+o sea
+ustedes dicen
+del gol
+del empate
+entonces ustedes
+dicen
+bueno
+muy probablemente
+esto tiene que ver
+con un partido
+de fútbol
+y se convirtió
+un gol
+entonces
+y ustedes dicen
+ok
+si se convirtió
+un gol
+y conociendo
+las reglas
+del fútbol
+es que
+alguien
+convirtió
+el gol
+tiene que haber
+habido
+alguien
+que convirtió
+el gol
+¿o no?
+claro
+está como tácito
+que alguien
+hizo un gol
+claro
+pero no fue
+introducido
+en el discurso
+pero igual
+está disponible
+por lo tanto
+cuando ustedes
+continúan leyendo
+y dicen
+a cinco minutos
+haber convertido
+el gol
+y después
+continúa la sentencia
+con el centro
+delantero
+del equipo
+visitante
+fue expulsado
+del campo
+de juego
+les hace sentido
+porque van a
+conectar
+inmediatamente
+y van a decir
+ok
+ese individuo
+que convirtió
+el gol
+es justamente
+el centro
+delantero
+del equipo
+visitante
+y ahí se hace
+la conexión
+entre un referente
+que no fue
+introducido
+explícitamente
+pero que está
+disponible
+por la situación
+que representa
+esta
+esta
+frase
+se entiende
+¿no?
+el centro
+delantero
+del equipo
+visitante
+fue expulsado
+del campo
+de juego
+entonces
+eso es un ejemplo
+de una catáfora
+no una anáfora
+fíjense
+esta otra sentencia
+eso es lo que
+lo caracteriza
+su habilidad
+de resolver
+problemas
+entonces
+cuando
+acá la cosa
+es un poco
+más compleja
+porque
+supongan que
+ustedes leen
+esta acá
+¿qué entienden?
+¿qué es lo que
+queda como
+raro
+o indeterminado?
+fíjense
+¿qué es lo que
+lo caracteriza?
+y además
+sintácticamente
+sintácticamente
+hay un lo
+y hay un lo
+que lo representa
+pero este lo
+y este lo
+son
+son referentes
+distintos
+este lo
+está representando
+una persona
+una persona
+claro
+y el otro
+la cosa
+la característica
+y eso
+y este
+este otro
+representa
+esto que lo
+caracteriza
+¿sí o no?
+y ustedes
+se pregunten
+y si leen
+hasta acá
+van a decir
+ok
+pero ¿qué es
+lo que lo
+caracteriza?
+no tienen ni idea
+¿y qué es?
+viene después
+entonces
+esta
+esta referencia
+esta referencia
+aquí
+se conecta
+con esto
+¿sí o no?
+sí
+y se conecta
+con esto
+también
+¿o no?
+con el pronombre
+sí
+exacto
+y esto
+queda indeterminado
+¿alguien sabe
+de quién estamos
+hablando?
+no, no tenemos
+idea
+y todo eso
+nosotros lo tenemos
+que de alguna
+manera
+desambiguar
+lo tenemos
+que anclar
+en el lenguaje
+semántica
+y esto
+¿quedó anclado
+o no?
+esto acá
+no estaba anclado
+cuando lo intubo
+no
+no estaba anclado
+pero ¿cuándo lo anclé?
+acá
+cuando parece
+estaba aquí
+¿sí o no?
+muy bien
+y esto también
+ancla eso
+también
+pero esto
+quedó indeterminado
+en esta sentencia
+no sabemos
+de quién estamos
+hablando
+¿ok?
+acá tenemos
+miren
+para conectar esto
+necesitamos
+semántica
+de situaciones
+porque tenemos
+que
+tenemos que abstraer
+y ver los tipos
+de situaciones
+cuando yo digo
+el bebé lloró
+entonces yo estoy
+introduciendo
+un referente
+en el discurso
+que es el bebé
+¿por qué yo no
+tengo ningún
+problema
+de continuar
+con su mamá
+lo tomó en brazos
+y nunca
+nunca nadie
+va a decir
+que esto está
+mal escrito
+o sea
+hace todo sentido
+¿por qué la mamá
+está disponible
+si nadie la introdujo
+en el discurso
+y sin embargo
+todos entendemos
+y hacemos la conexión
+es que esta mamá
+es la mamá
+de este bebé
+y ustedes van a decir
+bueno
+pero ¿cómo yo
+puedo hacer referencia
+a la mamá
+si no fue
+introducido
+yo lo que introduje
+fue el bebé
+pero no la mamá
+entonces ¿por qué
+está disponible aquí
+para que sea
+yo pueda hacer
+esa referencia
+sin problema
+¿por qué?
+porque
+nosotros sabemos
+por experiencia
+que cada bebé
+tiene que tener
+su correspondiente
+mamá
+hay una relación
+dentro de parámetros
+normales
+hay situaciones
+excepcionales
+eso lo estoy haciendo
+a través de estas conexiones
+entre los tipos
+de situaciones
+o sea
+¿cómo lo diríamos acá?
+diríamos
+en un tipo de situación
+donde hay un bebé
+se conecta
+con un tipo
+de situación
+en donde
+ese bebé
+efectivamente
+tiene una mamá
+¿cierto?
+con todo lo que ello implica
+en términos de
+del cuidado
+de una madre
+con su bebé
+entonces
+nos hace sentido
+pero es porque
+nosotros estamos conectando
+tipos de situaciones
+que nos dan
+conocimiento del mundo
+¿se entiende?
+y ese es el objetivo
+de la semántica
+de situaciones
+de hacer esas conexiones
+de contexto
+entre distintas situaciones
+para poder accesar
+nuevo conocimiento
+y poder hacer sentido
+nosotros lo hacemos
+sin problemas
+pero las máquinas
+tienen problemas
+en hacer eso
+¿ok?
+y esto es una metáfora
+que es más complicada
+o sea
+si me preguntan
+cómo representar esto
+esto es todo un desafío
+nosotros lo podemos hacer
+pero es difícil
+¿saben de dónde viene esto?
+¿no?
+poesía
+es un tango muy famoso
+¿saben cuál es?
+no
+volver
+lo han escuchado
+¿no?
+volver
+sí
+de años no
+nada
+¿y cómo es la parte
+que introduce esto?
+volver
+con la frente
+marchita
+las nieves
+del tiempo
+aplateando misión
+¿se acuerdan o no?
+está hablando
+de que envejeció
+sí
+exacto
+entonces
+esto nos hace sentido
+pero
+¿cómo yo lo puedo representar?
+lógicamente
+en un formalismo
+digamos
+de representación
+de conocimiento
+es complicado
+es muy complicado
+porque
+aquí hay abstracción
+hacer la conexión
+entre los tipos
+sería complicado
+ya en palabras
+es difícil decir
+o sea
+cuando uno envejece
+le salen canas
+entonces
+es como que
+le pinten de blanco
+y
+las nieves
+y por lo tanto
+las nieves del tiempo
+o sea
+el tiempo
+nos hace envejecer
+eso nos hace ser iscana
+y acá
+las nieves del tiempo
+existe una conexión
+platear-omnisiana
+o sea
+en el fondo
+no es correcto
+porque no
+no las pintó
+sin embargo
+hay una conexión
+de neta
+ustedes me entienden
+hacer
+conectar esto
+y hacer una representación
+es inclusive
+mucho más complejo
+¿ok?
+y hay cosas
+¿se acuerdan
+cuando veíamos
+ambigüedad
+semánticas
+como por ejemplo
+perdón
+sintácticas
+como eso lo vimos
+en la segunda clase
+cuando decíamos
+bueno
+cosas como
+el hombre
+vio a la mujer
+con el telescopio
+¿se acuerdan de eso?
+¿no?
+sí
+y cuando ustedes
+leen incrementalmente
+eso
+hay una ambigüedad
+acá
+porque
+la mujer va
+con el telescopio
+o el hombre
+la vio con el telescopio
+hay dos interpretaciones
+la ambigüedad
+claro
+estamos divididos
+ok
+entonces
+¿cuál es la más plausible?
+que él la vio
+con el telescopio
+que él la vio
+con el telescopio
+y es posible
+que la mujer
+vaya con el telescopio
+sí
+pero es
+sí
+más escaso
+claro
+ahí hay una ambigüedad
+pero el origen
+de la ambigüedad
+es sintáctica
+es sintáctica
+acá
+¿de dónde viene
+la ambigüedad?
+no
+viene de la sintaxis
+¿de dónde viene?
+a ver
+lea
+lea
+lea Inés
+la frase
+cada 20 minutos
+una persona
+se asaltaba
+en Santiago
+ok
+hoy están
+para hasta ahí
+¿cuál es el modelo mental
+que tienes
+cuando lees la primera
+sintaxis?
+que cada 20 minutos
+asaltan a una persona
+en Santiago
+claro
+pero esa persona
+es la misma
+o es una persona
+distinta
+distinta
+todos llegamos
+a esa conclusión
+¿sí o no?
+sí
+o sea
+cada 20 minutos
+alguna persona
+es asaltada
+en Santiago
+sí
+y después
+cuando lees
+hoy estamos
+en Santiago
+para entrevistarla
+¿qué pasa ahí
+Ángel?
+hoy
+es como si me dijeran
+que asaltaron
+a una sola persona
+a la misma persona
+cada 20 minutos
+sí
+y no tiene
+ese modelo
+de beneficio
+no
+eso es muy
+implausible
+¿o no Inés?
+sí
+yo diría
+es como ilógico
+es como ilógico
+sí
+claro
+por eso que
+esta es una
+ambigüedad
+de alcance
+¿qué quiere decir?
+que acá hay un
+cuantificador
+¿se dan cuenta?
+una persona
+es un
+cuantificador
+existe
+una persona
+¿se dan cuenta?
+es un
+cuantificador
+entonces
+la pregunta
+aquí la ambigüedad
+semántica
+es
+¿cómo es el
+alcance
+del
+¿cómo es el
+alcance
+de este
+cuantificador?
+¿es estrecho
+o es amplio?
+si es
+estrecho
+si es estrecho
+es una
+está solamente
+involucrando
+a una persona
+pero no en toda
+la actividad
+pero si
+el alcance
+de ese
+cuantificador
+es amplio
+significa que
+existe una
+persona única
+a la cual
+le pasa esto
+todo el tiempo
+¿me entienden?
+¿no?
+y por lo tanto
+esta ambigüedad
+viene de la semántica
+no viene de la sintáctica
+y fíjense
+que
+aquí hay una
+relación
+anafórica
+porque
+este
+cuantificador
+introdujo a esa
+persona
+y ahora
+está haciendo
+referencia
+a esa
+persona
+¿sí o no?
+sí
+y esto
+es un poco
+ilógico
+pero gramaticalmente
+está perfecto
+¿o no?
+el castellano
+es gramatical
+esta
+no es
+más terra
+sin embargo
+no se condice
+con el conocimiento
+del mundo
+que nosotros tenemos
+o sea
+la representación
+mental
+que nosotros
+hacemos
+y la tenemos
+que representar
+en el sistema
+de representación
+de conocimiento
+no se condice
+con la interpretación
+para que
+fuera
+consistente
+¿cómo debería
+ser la segunda
+frase?
+que van a
+entrevistar
+a una víctima
+podría ser
+yo creo que
+para que
+a ver
+aquí me da otra
+opinión
+de cómo deberíamos
+modificar
+la segunda
+sentencia
+para que fuera
+lógica
+o coherente
+con la primera
+interpretación
+que uno tiene
+al leer
+la primera
+sentencia
+hoy estamos
+en
+a una de ellas
+sí
+o bien
+hoy estamos
+en Santiago
+para entrevistar
+las
+las
+¿sí o no?
+bien
+miles
+claro
+cada 20 minutos
+sí
+claro que sí
+ahí sería más plausible
+ahí no habría roja
+entonces si dijera
+ahí estamos
+en Santiago
+para entrevistar
+las
+a esas personas
+¿sí o no?
+claro
+al menos
+la interpretación
+no se nos caería
+¿ok?
+sí
+entonces
+fíjense
+estos son los llamados
+garden paths
+y jungle paths
+es decir
+garden path
+es cuando la amigüedad
+viene por la sintaxis
+como acá
+acá la ambigüedad
+viene con la sintaxis
+pero
+es jungle path
+es más
+más difícil aún
+de representar
+cuando viene
+por la semántica
+entonces
+en caso
+que venga
+la ambigüedad
+por la
+sintaxis
+hablamos de un
+garden path
+como acá
+el niño
+le disparó
+a la mujer
+con
+la espada
+de samurái
+y aquí
+se nos cae
+todo
+se nos cae
+todo
+porque
+con la espada
+de samurái
+no se puede
+disparar
+¿sí o no?
+cuando ustedes
+leen
+el niño
+le disparó
+a la mujer
+con
+y esperan
+y esperan
+que venga
+después
+un instrumento
+un arma
+un arma
+de fuego
+o un arco
+pero cuando
+continúa
+con la espada
+de samurái
+significa que
+bueno
+entonces
+la mujer
+es la que
+andaba
+con la espada
+de samurái
+¿o no?
+ok
+entonces
+esto es un
+garden path
+la ambigüedad
+viene por la
+sintaxis
+y acá
+lo que habíamos
+recién
+es un jungle path
+porque la
+ambigüedad
+viene por la
+semántica
+no por la sintaxis
+y eso es más complicado
+aún de representar
+eso es lo que
+acabamos de decir
+aquí
+ok
+y nosotros
+hacemos eso
+en lenguaje natural
+imagínense
+leemos un texto
+tenemos una conversación
+y estamos haciendo
+esas conexiones
+y ese proceso
+de desambiguación
+y de hacer sentido
+de reanalizar
+etcétera
+todo el tiempo
+y sin
+aparentemente
+sin esfuerzo
+tan grande
+para nosotros
+ok
+les quise
+concluir
+esta parte
+con
+con
+semántica
+de situaciones
+porque es la
+frontera
+de lo que es
+representación
+de conocimientos
+hoy en día
+y
+como muchos
+de ustedes
+tenían interés
+en la interacción
+de
+de hecho
+una de las preguntas
+que me hicieron hoy
+en la primera parte
+de la realidad
+del recreo
+fue
+eh
+alguien me dijo
+que no veía
+cómo poder representar
+esto en
+en el lenguaje
+subsimbólico
+no sé quién fue
+pero uno
+de ustedes me hizo
+esa pregunta
+yo profesor
+¿quién fue?
+Felipe
+acá
+Felipe
+Felipe
+exacto
+entonces
+miren
+les subió
+un artículo
+muy reciente
+se los acabo
+de subir
+a
+webcursos
+lo van a ver
+los que tengan
+interés
+les recomiendo
+que lo lean
+no es técnico
+está en inglés
+pero no es técnico
+y
+es muy reciente
+y
+pone
+es una crítica
+en el fondo
+muy buena
+a
+todo este hype
+que hay
+con los
+LLM
+en términos
+de representar
+el significado
+y la lógica
+en el fondo
+entender el lenguaje
+natural
+entonces
+la crítica
+es que ellos
+dicen
+bueno
+esto es LLM
+se basan
+en correlaciones
+de múltiples
+parámetros
+billones
+y trillones
+de parámetros
+en distintas
+capas
+que determinan
+la forma
+los patrones
+la estructura
+de una sentencia
+pero no su significado
+y dan argumentos
+muy buenos
+respecto a dónde
+va todo esto
+entonces
+a los que tengan
+interés
+les recomiendo
+que lo lean
+se lo subí
+justamente
+porque
+varias personas
+del curso
+me han estado
+haciendo esta pregunta
+y
+yo creo que
+ese artículo
+que le subí
+es súper importante
+¿ok?
+el título es
+ya se los digo
+se los voy a
+mostrar acá
+¿todo
+¿lo ven o no?
+¿todo
+NLU?
+no
+no se ve
+nada
+no estás presentando
+no estás compartiendo
+sí, no estoy compartiendo
+un momento
+parece que ahora
+estoy compartiendo
+¿no?
+ahora sí
+¿lo ven o no?
+sí
+sí, sí se ve
+este es el artículo
+que le subí
+del año
+es reciente
+el título es
+hacia
+o
+yendo hacia
+la
+el entendimiento
+del lenguaje natural
+el tópico es
+acerca del significado
+la forma
+y el
+entendimiento
+en el fondo
+del lenguaje natural
+en la era
+de los datos
+o sea
+en la era
+del paradigma
+subsimbólico
+en el fondo
+¿ok?
+así que los que quieran
+lo pueden leer
+este es el artículo
+que se los recomiendo
+¿ok?
+super gracias
+ok
+bien
+vamos a volver
+al
+al PPT
+disculpen
+creo que le estoy
+compartiendo
+el otro
+todavía
+¿no?
+sí
+esta es la última
+del otro
+ok
+ahora sí
+¿estás en el mismo?
+me parece que no
+ahí sí
+ahí sí
+casos de arquitectura
+de sistemas de hijos
+que quiero terminar
+vamos a hacer
+dos cosas
+primero vamos a terminar
+la clase
+propiamente tal
+con este módulo
+y con una
+unas preguntas
+finales
+ok
+pero antes quería
+mostrarles alguna
+arquitectura del sistema
+de inteligencia artificial
+y dónde se encaja
+el módulo de
+representación de conocimiento
+y vamos a ver
+cuatro ejemplos
+ok
+el primero
+es un sistema
+de presentación
+de información
+multimodal
+basada en el conocimiento
+tiene relación un poco
+con el artículo 1
+que le subí
+a canvas
+no sé si lo leyeron
+pero para los que
+lo leyeron
+probablemente
+se van a acordar
+el objetivo
+de este sistema
+fue
+representar
+conocimiento
+sobre
+lenguaje natural
+ilustraciones
+animación
+y anotación
+ok
+y uno
+de los desafíos
+era habilitar
+las referencias
+cruzadas multimodales
+¿se acuerdan de eso?
+eso lo hablamos
+en la primera clase
+¿se acuerda Gonzalo
+lo que es una
+referencia cruzada
+multimodal?
+no profesor
+no
+es cuando tú
+por ejemplo
+estás introduciendo
+referentes
+en el discurso
+pero a través
+de distintas modalidades
+por ejemplo
+lo que hemos visto
+hasta ahora
+era todo
+lenguaje natural
+pero
+en un lenguaje
+en un sistema
+de presentación
+de información
+multimodal
+tú tienes
+distintas modalidades
+para poder introducir
+referentes
+por ejemplo
+lo puedes hacer
+a través
+de lenguaje natural
+lo puedes hacer
+a través
+de anotaciones
+lo puedes hacer
+a través
+de animaciones
+o de gráficos
+¿me entiendes?
+entonces supone
+un sistema
+de presentación
+de información
+para aprender
+a manejar
+un dispositivo X
+por ejemplo
+una máquina
+de hacer café
+entonces
+es un lenguaje
+es una presentación
+multimodal
+entonces el usuario
+va a tener una pantalla
+va a ver la máquina
+del café
+entonces se va a desplegar
+un objeto
+en el
+rincón
+superior izquierdo
+de la pantalla
+y que el usuario
+lo va a ver
+y tú puedes hacer
+referencia
+a ese referente
+que fue introducido
+no con lenguaje natural
+fue introducido
+a través del gráfico
+y tú puedes decir
+observe el objeto
+que está
+en su
+en la esquina
+superior izquierda
+de su pantalla
+¿ok?
+esa referencia
+al objeto
+que está
+en la esquina
+superior izquierda
+de la pantalla
+¿ok?
+es una referencia
+y tú le estás diciendo
+eso en lenguaje natural
+le estás escribiendo
+observe eso
+le pones una notación
+o una indicación
+en lenguaje natural
+en el sistema
+eso es una referencia
+a un referente
+que fue introducido
+con gráfico
+y no con lenguaje natural
+¿se entiende o no?
+y por lo tanto
+es una referencia
+que usaba
+multimodal
+entonces
+la arquitectura
+fue más o menos
+esta
+tú tenías
+la base
+de conocimiento
+¿cierto?
+y un modelo
+de planificación
+que lo que hacía
+era generaba
+las presentaciones
+multimodales
+este módulo
+de planning
+del planeador
+en el fondo
+el planificador
+más bien
+en castellano
+decidía
+qué contenido
+iba en gráfica
+en lenguaje natural
+en anotaciones
+o en animación
+¿ok?
+eso era
+super crucial
+el planificador
+porque te he indicado
+eso
+había una
+forma lógica
+logical form
+LF
+que
+era común
+entonces
+eso iba
+esta lógica
+esta forma lógica
+multimodal
+representada
+conocimiento
+para
+estas cuatro
+modalidades
+para el generador
+de los gráficos
+para el generador
+de texto
+en lenguaje natural
+para las anotaciones
+y para la animación
+¿ok?
+y eso
+se presentaba
+al usuario
+finalmente
+¿ok?
+entonces
+como vemos
+aquí
+la componente
+de
+representación
+del conocimiento
+está
+en el corazón
+de
+el
+sistema
+de representación
+pero acá
+no hay
+interacción
+de vuelta
+del usuario
+para con el
+sistema
+¿te das cuenta?
+es todo generacional
+aquí
+se genera
+lenguaje natural
+pero no se está
+interpretando
+lenguaje natural
+¿ok?
+vamos a ver
+un segundo
+ejemplo
+de un simulador
+de conducción
+basado en el
+conocimiento
+acá
+nuevamente
+tienes
+dos bases
+una base
+de conocimiento
+en la capa
+de datos
+pero para los
+que no son
+informáticos
+acá
+en general
+una arquitectura
+de un sistema
+informático
+cualquiera
+y en particular
+uno de
+inteligencia artificial
+se divide en capas
+capas de datos
+capas de procesamiento
+y la capa
+de presentación
+hoy en día
+con todo lo que es
+cloud computing
+esto se ha
+se ha llevado
+todo a la nube
+prácticamente
+entonces
+acá
+en este sistema
+de inteligencia artificial
+tienes dos
+bases
+en la capa
+de datos
+tienes
+la base
+de conocimiento
+propiamente tal
+y tienes la
+base de datos
+gráfica
+¿ok?
+que aquí se generan
+los llamados
+moving models
+es decir
+cuando tú tienes
+un simulador de vuelo
+por ejemplo
+o un simulador
+de conducción
+tú tienes que simular
+distintos modelos
+que se van
+que son objetos
+que son representados
+con gráficas
+en el caso
+de un simulador
+de conducción
+van a ser camiones
+peatones
+otros vehículos
+que están transitando
+por la carretera
+etcétera
+en el caso
+de un simulador
+de vuelo
+es mucho más simple
+obviamente
+pero en el caso
+de un simulador
+de conducción
+que fue
+un proyecto
+en el cual
+tuve que participar
+hace algún tiempo
+es bastante
+más complejo
+entonces
+para ello
+se requiere
+también una
+base de datos
+gráfica
+la componente
+en la cual
+yo trabajé
+fue esta de acá
+la componente
+de representación
+de conocimiento
+y nuevamente
+esto pasa
+a un
+a un planificador
+y acá
+se genera
+en el fondo
+una realidad virtual
+una realidad virtual
+un poco aumentada
+¿ok?
+en el cual
+parte del conocimiento
+representado
+es generado
+a través de gráficos
+o de gráficos
+en general
+porque la carretera
+y el lugar
+en donde
+está transitando
+es gráfico
+pero también
+estos moving models
+que son los objetos
+que se mueven
+en la simulación
+como por ejemplo
+otros vehículos
+otros camiones
+peatones
+etcétera
+¿ok?
+audio
+y movimiento
+porque la cabina
+también tenía
+una componente
+hidráulica
+en donde
+se simulaba
+el movimiento
+y los sonidos
+en la cabina
+propiamente
+tal
+y eso
+llevaba a una simulación
+¿ok?
+nuevamente
+acá no había
+no había interacción
+de vuelta
+¿se dan cuenta?
+o sea
+aquí habían
+distintos planes
+que el planificador
+había generado
+que
+eran
+los pueden
+los pueden ver
+como
+módulos de un curso
+desde lo más básico
+a lo más complejo
+entonces
+eso es
+lo que se representaba
+acá
+para los que
+leyeron
+el artículo
+1
+que yo les mostré
+este caso 3
+sistema de recomendación
+para gestión
+de innovación
+basada en el conocimiento
+fue un proyecto
+bastante
+de punta
+que consistió
+en lo siguiente
+consistió
+en
+en poder
+hacer algo
+que
+en Silicon Valley
+es
+está altamente
+disponible
+pero en lugares
+como Chile
+o en lugares
+en países
+en vida de desarrollo
+es mucho más difícil
+que es
+la gestión
+de innovación
+tecnológica
+en general
+para todo lo que
+son proyectos
+de innovación
+tecnológica
+todas las reglas
+de gestión
+propiamente tal
+están en
+están en las redes
+es decir
+van a encontrar
+expertos
+personas
+digamos
+que los van a poder
+guiar
+en ese proceso
+ok
+parece que alguien
+puso la radio
+si
+leínece
+ok
+entonces
+pero
+si yo voy
+a un país
+como
+como
+Argentina
+o Chile
+o Brasil
+países en vida de desarrollo
+entonces ese conocimiento
+no está disponible
+la idea fue
+a través de un sistema
+de inteligencia artificial
+poder
+aprender estas reglas
+e instanciarlas
+también
+entonces
+este
+este fue
+el sistema
+la arquitectura
+del sistema
+de recomendación
+para gestión
+de innovación
+basada en conocimiento
+ok
+y aquí
+si hay
+interacción
+del usuario
+se dan cuenta
+porque el usuario
+por ejemplo
+puede ser un equipo
+de emprendedores
+o el emprendedor
+con su equipo
+y tiene una duda
+muy concreta
+de gestión
+de innovación
+entonces
+ellos formulan
+una pregunta
+¿cierto?
+a través
+de la nube
+¿cierto?
+y esto
+tiene que ser
+analizado
+a través de
+parsing
+en lenguaje natural
+la parte sintáctica
+y también
+la parte semántica
+para poder
+llegar a una
+forma lógica
+la forma lógica
+es una representación
+lógica
+del contenido
+de la pregunta
+¿ok?
+y en función
+de esta
+y esto es un paradigma
+híbrido
+de representación
+porque acá
+hay una componente
+más bien basada
+en datos
+porque
+con la pregunta
+propiamente tal
+ya
+entendía
+porque yo hice
+el procesamiento
+de parser
+donde hice
+procesamiento
+sintáctico
+y semántico
+para derivar
+el contenido
+de la pregunta
+lo que la pregunta
+significa en el fondo
+yo allí
+paso por un primer
+paso de recuperar
+de recuperar
+las reglas
+a partir de la pregunta
+que me hizo el usuario
+y estas pueden ser
+cientos de millones
+de reglas
+¿ok?
+que están acá
+en la capa de datos
+tanto en la base de datos
+como en la base de conocimiento
+y el desafío acá
+es filtrar
+de millones posibles
+de reglas
+aquellas que son más relevantes
+de acuerdo a la pregunta
+del usuario
+esas preguntas
+son filtradas
+y se pasa
+a un segundo
+segundo stage
+en donde esas reglas
+son ranqueadas
+en orden
+de importancia
+y son
+representadas
+y generadas
+o sea
+la regla
+tiene que ser
+comunicada
+después posteriormente
+también en lenguaje natural
+entonces hay un proceso
+de parsing
+que va
+desde el lenguaje natural
+a una representación
+de una forma lógica
+en un lenguaje
+de representación
+de conocimiento
+y después cuando esas reglas
+son seleccionadas
+¿cierto?
+pasa por el proceso inverso
+que una representación
+semántica
+debe
+generar
+una respuesta
+en lenguaje natural
+para el usuario
+que se
+plasma una recomendación
+entonces en el fondo
+fue un poco
+como llevar
+el conocimiento
+que hay
+en redes
+de innovación
+muy compleja
+como Silicon Valley
+y poder tener
+esas reglas
+disponibles
+en una base
+de conocimiento
+y poder
+disponibilizarlas
+en regiones
+emergentes
+de innovación
+y emprendimiento
+eso fue un poco
+la lógica
+de la primera
+y el caso 4
+es un caso
+típico
+de
+Machine
+Translation
+en donde
+acá
+en la
+representación
+se usa
+como una
+interlingua
+¿ok?
+entonces
+ustedes me dicen
+bueno
+¿cómo
+como yo
+llevo
+del
+del inglés
+al castellano
+una sentencia
+cuando estoy
+haciendo
+Machine
+Translation
+¿ok?
+en el fondo
+lo que hago
+es llevo
+del inglés
+la llevo
+a una representación
+lógica
+en un lenguaje
+de representación
+de conocimiento
+que es independiente
+del lenguaje final
+una vez que yo ya tengo
+esa traducción hecha
+o sea
+llevé del inglés
+a la representación
+lógica
+¿cierto?
+yo la puedo llevar
+a cualquier otro
+lenguaje
+porque esa representación
+lógica
+me da el significado
+de la sentencia
+que es independiente
+del lenguaje
+final
+al lenguaje objeto
+¿ok?
+entonces
+ese esquema
+es un esquema
+de interlingua
+en el fondo
+donde la representación
+semántica
+y de conocimiento
+que yo
+extraigo
+a partir del
+lenguaje de origen
+una vez que la tengo
+representada
+yo la puedo llevar
+a castellano
+a francés
+o a cualquier otro
+idioma
+porque el significado
+yo ya lo
+destilé
+yo ya lo representé
+a partir de la
+de la sentencia
+original
+por eso se llama
+el enfoque
+de interlingua
+que es un poco
+distinto a lo que se hace
+ahora con el LM
+que han tenido
+también un buen
+resultado
+en términos
+de machine
+translation
+¿ok?
+entonces le quería
+mencionar eso
+brevemente
+y
+quería llevar
+un poco
+a las conclusiones
+de lo que
+hemos visto
+en estas tres sesiones
+¿ok?
+entonces
+lo voy a hacer
+a modo
+de test
+y ustedes
+pueden participar
+directamente
+en la respuesta
+o sea
+la primera pregunta
+es
+¿es la computación
+cuántica
+un requerimiento
+inalienable
+para resolver
+los grandes desafíos
+de la IA?
+¿cuál es la respuesta
+a esa pregunta
+basada en lo que hemos
+discutido en estas tres sesiones?
+que sí
+sí
+que sí
+para poder procesar
+grande cantidad
+de datos
+ok
+y si es así
+¿por qué?
+para poder procesar
+gran cantidad
+de información
+exacto
+para
+claro
+para poder
+para hacer
+todo aquello
+que es imposible
+con un computador
+clásico
+y que aparentemente
+nosotros lo hacemos
+tan fácil
+cuando digo nosotros
+me refiero
+a nuestra especie
+en los seres humanos
+para poder hacerlo
+también en un computador
+que con toda probabilidad
+no va a ser un computador
+clásico
+digital
+sino que va a ser
+esto de acá
+un computador cuántico
+ok
+¿qué tan lejos
+estamos de obtener
+commercial-grade
+quantum computers
+para la reproducción
+de estos problemas?
+bueno
+eso entra en el terreno
+de la especulación
+obviamente no podemos
+decir si son de aquí
+a 10 años
+o 20 años
+pero
+es probable
+que sea
+más temprano
+de lo que nosotros
+pensamos
+¿ok?
+prototipos ya hay
+ya hay algunos
+prototipos
+pero commercial-grade
+quantum computers
+todavía no
+¿ok?
+y hay temas
+de ingeniería
+que son
+son complejos
+de llevar
+son complejos
+de llevar
+por el tema
+que yo les mencionaba
+en la primera clase
+que es
+que
+no logramos
+bien entender
+cómo evitar
+el problema
+de coherencia
+de las propiedades
+de la mecánica cuántica
+en particular
+el entrelazamiento
+y la superposición
+y
+lo que sabemos
+ahora es que
+para que no
+desaparezcan
+esas propiedades
+que el beneficio
+que tenemos
+cuando usamos
+un computador cuántico
+se deben mantener
+estos sistemas
+a muy baja temperatura
+¿ok?
+lo cual hace
+que la implementación
+sea
+muy costosa
+y hay muchos problemas
+que no están resueltos
+todavía
+¿ok?
+Ahora
+¿por qué debemos
+aislar
+dichos sistemas
+de computación cuántica
+de su entorno
+y llevar
+a las condiciones
+que dominan
+el mundo subatómico?
+Es porque
+es porque
+si no lo hago
+pierdo las propiedades
+de la mecánica cuántica
+y si las pierdo
+ya pierdo
+las ventajas
+de tener un computador
+cuántico
+¿ok?
+¿Sucede lo mismo
+en el mundo biológico?
+¿Cuál es la respuesta
+a la cual
+llegábamos?
+¿Se acuerdan?
+Sí
+La evidencia
+veíamos en clase
+que la evidencia
+indica que no
+en el sentido
+de que aparentemente
+en procesos
+bioquímicos
+a nivel molecular
+que es macroscópico
+¿ok?
+el nivel molecular
+es macroscópico
+no es subatómico
+estos efectos cuánticos
+hay una zona
+en la cual
+siguen existiendo
+y se mantienen
+entonces
+yo creo que la biología
+va a dar
+algunas luces
+a la ingeniería
+de computación
+en este caso
+en términos
+de cómo hacer
+que esa decoherencia
+no ocurra
+es decir
+que los efectos cuánticos
+se mantengan
+a pesar de que
+no estoy bajo
+esas condiciones
+extremas
+que se requieren
+para que
+para que ya se mantengan
+y la biología
+probablemente
+nos va a dar
+algunas luces
+de cómo eso sucede
+en el mundo biológico
+¿son fenómenos cuánticos
+claves para la emergencia
+de la vida?
+Absolutamente
+lo veíamos
+con el caso
+de la
+de la
+de la fotosíntesis
+es cierto que lo vimos
+en la primera clase
+¿explican dichos efectos
+fenómenos
+dichos efectos
+fenómenos psicológicos
+que no tienen
+explicaciones
+o igual
+para el mismo
+materialista
+de ciencia
+colectiva?
+Sí
+en particular
+explican una serie
+de cosas
+por ejemplo
+los psicólogos
+pensaban
+que nosotros
+los humanos
+ante la ambigüedad
+la gran ambigüedad
+del lenguaje natural
+procesamos información
+en forma serial
+o sea
+preferimos
+una
+una interpretación
+y después
+si falla
+entonces tenemos
+que reanalizar
+todo de nuevo
+y la evidencia
+de la psicolingüística
+nos dice que
+aparentemente
+eso no es así
+somos capaces
+de tener
+esas interpretaciones
+en forma paralela
+disponibles
+sin mayor esfuerzo
+entonces
+eso es bastante
+poco
+o sea
+nos parece poco
+producible
+porque requeriría
+un esfuerzo enorme
+de procesamiento
+y sin embargo
+aparentemente
+sí lo estamos haciendo
+lo cual nos lleva
+a una conjetura
+que
+el cerebro
+aparentemente
+opera como
+un computador
+cuántico
+o se vale
+de ciertos
+mecanismos
+que lo hacen
+explotar
+algunos de esos
+efectos
+ok
+también vimos
+el tema
+del determinismo
+versus
+indeterminismo
+y la cuantía
+del libro
+de agentes
+naturales
+lo vimos
+desde el punto
+de vista
+de inteligencia
+artificial
+o sea
+y ahí
+hay mucho
+debate
+todavía
+entre los
+colegas
+de distintas
+disciplinas
+no solo
+de inteligencia
+artificial
+o sea
+si toman
+agentes
+de ciencias
+de computación
+dura
+y pura
+van a decir
+que
+en rigor
+sí pueden
+llegar a tener
+y si pueden
+tener
+conciencia
+ok
+pero si van
+a otras disciplinas
+en ciencia cognitiva
+y en biología
+ahí las
+opiniones
+son más bien
+divergentes
+ok
+otro punto
+importante
+es que
+la emergencia
+de la computación
+cuántica
+hará posible
+lidiar
+con los problemas
+duros
+de la IAG
+es decir
+con la
+excepción
+estratégica
+y los altos
+requerimientos
+de capacidad
+de cómputo
+de los grandes
+desafíos
+de la IAG
+se acuerdan
+lo que es
+la IAG
+inteligencia artificial
+general
+generativa
+no
+generativa
+generativa
+es lo que
+ustedes con
+el LM
+es hoy
+la general
+es mucho más
+ambiciosa
+que es
+tenía un slide
+en donde yo le decía
+distintas áreas
+de la inteligencia artificial
+que hoy en día
+son como silos
+silos
+separados unos de otros
+que no están muy
+interconectados
+el desafío
+de la IAG
+es poder
+unir todo esto
+tal como ocurre
+en un ser humano
+por ejemplo
+que tenemos
+todas las capacidades
+integradas
+y las usamos
+y ellas
+se entrelazan
+unas con otras
+y eso todavía
+no lo tenemos
+entonces
+ese es el gran desafío
+de la IAG
+general
+otro gran punto
+y por eso
+para los que tengan interés
+los invito a leer
+el cuarto
+ese artículo
+que les mencioné hoy
+es el paradigma
+subsimbólico
+basado en machine learning
+que hoy sigue basado
+en la computación clásica
+y como tal
+pese a sus recientes éxitos
+con deep learning
+y con la computación paralela
+altamente performante
+de empresas como NVIDIA
+deberá sí o sí
+migrar a computación cuántica
+para pasar a resolver
+problemas basados
+en grandes volúmenes
+de datos
+imagínense lo que
+significa eso
+porque nosotros
+recién estamos hoy día
+en una transición
+hacia la industria 4.0
+y eso que significa
+hoy en día
+si ustedes se ponen a pensar
+la gran cantidad
+de datos
+que están disponibles
+se basan solamente
+en un tipo de interacción
+que es fundamentalmente
+hoy día
+un móvil
+con un humano
+el día de mañana
+la interacción
+con la interacción
+con la internet
+de las cosas
+la internet de todo
+va a significar
+interacción
+no solamente
+humano-computador
+sino que va a significar
+humano-computador
+humano-casa
+humano-semáforos
+humano-ropa
+humano-ascensores
+o cualquier otra cosa
+que esté conectada
+a internet
+¿ok?
+entonces la explosión
+de datos
+va a ser enorme
+con lo cual
+con lo cual
+¿cierto?
+la necesidad
+de capacidad
+de cómputo
+va a explotar
+aún más
+de lo que
+ya es
+hoy
+¿ok?
+y allí
+además del tema
+de la
+computación cuántica
+lo que estamos viendo
+es una convergencia
+de los dos grandes
+paradigmas que vimos
+el paradigma simbólico
+no subsimbólico
+y a ello
+le llamamos
+el paradigma
+híbrido
+¿ok?
+entonces
+algunos de los grandes
+desafíos
+para esa
+inteligencia general
+artificial
+son entre otros
+el entendimiento
+del discurso
+múltimo
+al que involucre
+diversos agentes
+naturales y artificiales
+en sistemas de realidad
+virtual aumentada
+en el metaverso
+hacia el imperioso
+surgimiento
+de las computadoras
+cuánticas
+evidentemente
+y lo anterior
+hace imperativo
+el desarrollo
+de nuevos sistemas
+y lenguajes
+de representación
+de conocimientos
+híbridos
+que integren
+en el contexto
+multimodal
+del multiverso
+basado en el paradigma
+simbólico
+y subsimbólico
+más o menos
+para allí
+a donde va
+la disciplina
+¿ok?
+yo les hablé
+de mi experiencia
+de que
+ya se había vivido
+esto que están
+viviendo ustedes
+hoy
+y el interés
+que tienen
+en este curso
+y en particular
+en inteligencia artificial
+se debe en gran parte
+a eso
+lo que estamos viendo
+este renacimiento
+de la inteligencia artificial
+la pregunta es
+¿va a ser diferente
+esta vez?
+yo creo que todo
+indica que sí
+¿ok?
+esa primera etapa
+no hubo mucho hype
+y no se entregó
+no se entregaron
+aplicaciones comerciales
+en muchas áreas
+y que ocurrió
+en los 90
+y durante el cambio
+del milenio
+hoy en día
+de nuevo hay hype
+y por eso
+les recomiendo
+que vean
+ese artículo
+que les mencioné
+que les subí hoy
+a webcursos
+pero que sí
+todo hace pensar
+de que ahora
+es más bien diferente
+¿ok?
+que no estamos repitiendo
+un poco el error
+de los años 80 y 90
+de hecho
+hoy en día
+contamos con
+con
+con aplicaciones
+commercial rates
+que con estos
+LLMs
+han logrado
+una performance
+tremenda
+hay áreas que son
+que son incluso
+más performantes
+que
+que lo que podemos hacer
+nosotros los humanos
+en particular
+todo lo que es visión
+y reconocimiento
+de imágenes
+pero
+hay otras áreas
+que siguen representando
+un desafío
+y
+el paradigma
+es uno de los
+uno de los
+grandes desafíos
+para poder
+tener
+commercial grade
+applications
+que resuelvan
+problemas intensivos
+no solamente
+en datos
+sino que también
+en conocimiento
+¿ok?
+ok
+entonces
+lo que quería
+aprovechar de hacer
+hay temas éticos
+que nos corresponden
+a este curso
+que también
+nos mencionamos
+en la primera clase
+pero probablemente
+no sé si tienen
+un módulo especial
+a eso
+pero es un tema
+que obviamente
+se nos viene
+y se nos viene fuerte
+yo estoy trabajando
+en esa área
+en un área
+que se llama
+Trustworthy
+que es como poder
+es el gran problema
+de
+si el día
+mañana
+los humanos
+tenemos que delegar
+decisiones
+en sistemas
+de inteligencia
+artificial
+y esos sistemas
+no son capaces
+de poder
+trazar
+cómo llegaron
+a una
+a una
+recomendación
+entonces tenemos
+problemas graves
+¿no?
+y toda una área nueva
+no tiene más de 10 años
+de incluso menos
+desde que se originó
+que tiene que ver
+con estos temas
+que tiene una componente
+es muy multidisciplinaria
+esa área
+no solamente tiene que ver
+con la parte técnica
+tiene que ver
+con temas de ética
+en la sociedad
+también
+entonces
+tiene todo que ver
+con temas de gobernanza
+gobernanza
+en la inteligencia artificial
+y hay un artículo
+que les recomiendo
+que lo subí a web
+que es este
+que está acá
+¿ok?
+que ahí
+presentamos este modelo
+son dos los artículos
+uno habla del modelo
+de capitalismo global
+de stakeholders
+de partes interesadas
+de plataformas digitales
+que tienen que ver
+con inteligencia artificial
+y el segundo
+que tiene que ver
+con llamas
+directamente asociados
+con inteligencia artificial
+tiene que ver
+todo este problema
+de desmaterialización global
+que tiene lugar
+en gran escala
+con
+con
+con
+hacer representaciones
+digitales
+de personas
+en donde la representación
+digital
+muchas veces
+tiene más conocimiento
+de lo que ustedes mismos
+conocen
+de sí mismos
+en los fondos
+¿ok?
+así que
+eso es
+y quería aprovechar
+los últimos minutos
+dado que
+no los voy a
+o sea
+vamos a poder seguir
+interactuando
+pero por email
+y no así
+como lo estamos
+haciendo ahora
+les voy a compartir
+y se los voy a subir
+a canvas
+también
+¿ok?
+voy a compartir pantalla
+ahora
+con esto
+no lo están viendo
+me parece
+lo están viendo
+¿cierto?
+sí
+a ver
+lea
+el
+el
+el
+temario
+de la prueba
+de representación
+de conocimientos
+20-25
+hasta
+29 se ve
+sí
+visión sobre la consistencia
+y procesos cognitivos
+de ella
+ok
+miren
+esto
+esto es lo que
+vamos a controlar
+¿ok?
+y les voy a explicar
+cómo va a ser
+estos son los temas
+visión sobre la conciencia
+y procesos cognitivos
+NEI
+ciencia cognitiva
+corriente principal
+o mainstream
+versus otra oficial
+eso está en los apuntos
+está todo esto
+en los apuntos
+que les estudié
+el problema
+de la representación
+agencia de conciencia
+y realidad
+que es un agente artificial
+agencia de conciencia
+y realidad
+que es un agente consciente
+datos
+información y conocimiento
+información
+versus representación
+rol de representación
+de conocimiento
+en un sistema de IA
+lenguaje natural
+como lenguaje de representación
+en sistemas de IA
+lenguaje
+y sistema de representación
+de conocimientos
+desde sistemas expertos
+o semánticas
+de situaciones
+que es lo que vimos hoy
+finalmente
+lenguaje
+y sistema
+de representación
+de conocimientos
+el train problem
+lenguaje
+y sistema
+de representación
+de conocimientos
+basados en lógica
+de predicado
+el paradigma
+simbólico
+de la IA
+el paradigma
+subsimbólico
+y el paradigma
+híbrido
+del cual
+hablamos
+bastante
+cuál es el lenguaje
+de representación
+de conocimientos
+más ambicioso
+para entregar
+representación
+semántica
+a lenguaje natural
+en sistemas
+de IA
+que es
+situation semantics
+es lo que vimos hoy
+y habíamos comenzado
+a ver la clase
+pasada
+y ejercicios simples
+de representación
+de conocimientos
+usando
+tanto scripts
+como expresiones
+lógicas
+como las que vimos hoy
+o una expresión
+usando infos
+muy simples
+les quise dar
+un ejemplo
+van a poder
+usar los apuntes
+que tienen
+y
+las preguntas
+van a ser
+de este tipo
+por ejemplo
+con respecto
+a datos
+de información
+y conocimiento
+alternativa 1
+la información
+es parte
+de la conciencia
+delictiva
+de una sociedad
+en tanto
+que el conocimiento
+existe en la mente
+de una persona
+solamente
+2
+el conocimiento
+lo debemos adquirir
+mientras nos desenvolvemos
+en la sociedad
+3
+el conocimiento
+es más fundamental
+que la información
+después tenemos
+1 y 2
+2 y 3
+1 y 3
+todas o ninguna
+¿cuál sería
+la solución a esto?
+a ver Francisco
+¿te acuerdas?
+échale un vistazo
+a tu apunte
+yo creo que
+la información
+es parte
+de la conciencia
+colectiva
+de una sociedad
+tanto el conocimiento
+de una persona
+el conocimiento
+de una persona
+mientras nos desenvolvemos
+la sociedad
+el conocimiento
+es más fundamental
+yo creo que 1 y 2
+1 y 2
+entonces
+¿dónde tienes que marcar acá?
+el tercer punto
+ok
+va a haber
+un circulito aquí
+tienes que
+si fuera uno
+solamente uno
+¿dónde tienes que marcar?
+el cuarto
+no solamente uno
+¿dónde tienes que marcar?
+¿ninguna de las anteriores?
+no aquí
+ah porque está
+uno
+ok
+la alternativa
+es uno y dos
+dos y tres
+uno y tres
+¿entiendes?
+solamente uno
+es aquí
+tienes que marcar acá
+solamente dos
+tienes que marcar acá
+solamente tres
+tienes que marcar aquí
+uno y dos
+tienes que marcar acá
+dos y tres aquí
+uno y tres acá
+todas o ninguna
+tienes que marcar acá
+¿se entiende
+¿se entiende no Francisco?
+sí
+porque Francisco
+dice que es uno y dos
+por lo tanto
+¿dónde tiene que marcar?
+la cuarta
+la cuarta
+la cuarta
+entonces son bien genéricas
+las preguntas
+si repasan todo el material
+lo van a ver
+no van a tener problemas
+y lo pueden usar
+así que
+no
+¿profe?
+¿es online
+o es presencial?
+es online
+vamos a dejar
+un tiempo
+lo que ha sucedido
+en clases pasadas
+es que
+no todos pueden
+entonces me han pedido
+que la deje abierta
+por un tiempo
+más de
+o sea generalmente
+las pruebas
+para resolverla
+menos de una hora
+pero generalmente
+doy dos horas
+pero me han pedido
+que la deje abierta
+por algún tiempo
+para que se puedan
+se puedan digamos
+conectar
+en distintas horas
+eso lo podemos coordinar
+por eso
+lo hemos hecho
+así en el pasado
+por eso
+pero existía la figura
+del delegado
+delegada
+pero no sé si
+no sé por qué
+no la tienen ahora
+entonces si ustedes
+a través de Patricio
+o directamente
+me escriben
+¿a través de Patricio?
+yo creo que a través
+de Patricio
+es mejor
+para poder tener
+un punto
+de coordinación
+pero fue solo
+alternativas
+o alternativas
+y desarrollos
+las representaciones
+van a venir
+dentro de un formato
+de alternativas
+o sea la aplicación
+va a venir también
+en un formato
+de alternativas
+por ejemplo
+les puedo poner
+un info
+en acá
+y decir que representa
+este info
+y te va a dar
+algunas alternativas
+de lo que significa
+¿se entiende?
+eso es más aplicado
+ya no es tan conceptual
+y en el caso
+de los ejercicios
+profes
+ahí vamos a tener
+que nosotros escribir
+o también se van a dar
+ejemplos de representación
+ejemplos
+sí
+y ya
+perfecto
+iba a ser
+y van bueno
+van a contar
+del tiempo
+que necesiten
+y si necesitan
+que esté abierto
+más tiempo
+lo tenemos
+que coordinar
+con Patricio
+¿ok?
+profesor
+¿puede poner
+la lámina 1?
+¿lámina 1?
+sí
+¿esta?
+eso
+ah ya
+también tenía
+una duda
+con un concepto
+gracias
+ok
+ok
+¿alguna otra pregunta?
+¿cuál era la respuesta
+correcta profe?
+yo creo que
+Francisco andaba bien
+Francisco fue
+¿no?
+sí
+ok
+bueno
+si no hay más
+se evalúa
+profe con algún
+porcentaje
+esto
+o va de 1 a 7
+o porcentaje
+de aprobación
+no va de 1 a 7
+claro exactamente
+ya
+perfecto
+ok bueno
+fue un placer
+hacerles este curso
+les agradezco
+de antemano
+por el interés
+que han tenido
+espero que les vaya
+muy bien
+en el
+ya sea el diploma
+o el mía
+cualquiera que sea
+la opción
+que ustedes siguieron
+y
+si tienen dudas
+no duden
+en contactarnos
+ok
+muchas gracias
+por la participación
+gracias
+gracias profe
+gracias profe
+gracias profe
+buena clase
+gracias
+muchas gracias
+gracias

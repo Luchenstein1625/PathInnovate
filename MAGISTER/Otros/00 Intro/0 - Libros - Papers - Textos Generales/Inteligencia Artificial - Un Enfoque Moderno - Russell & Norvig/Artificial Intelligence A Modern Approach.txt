@@ -1,0 +1,22 @@
+# **Artificial Intelligence: A Modern Approach, 4th US ed.**
+
+**by ~[Stuart Russell]
+(http://www.cs.berkeley.edu/~russell)
+
+~ and 
+
+~[Peter Norvig](http://www.norvig.com/)~**
+
+[Artificial Intelligence: A Modern Approach, 4th US ed.]
+
+(https://aima.cs.berkeley.edu/)
+
+https://github.com/aimacode
+
+[· AIMA Exercises](https://aimacode.github.io/aima-exercises/)
+
+**AIMA Exercises** - GitHub
+
+[aimacode/aima-exercises: Exercises for the book Artificial Intelligence: A Modern Approach](https://github.com/aimacode/aima-exercises)
+
+https://aimacode.github.io/aima-exercises/
