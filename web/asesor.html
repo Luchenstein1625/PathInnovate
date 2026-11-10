@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Asesor PathInnovate</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1b2430;--mut:#5d6b7c;--line:#dde2e9;--ac:#1f6feb;--ok:#177a3c;--warn:#b25e09;--bad:#b42318}
+@media(prefers-color-scheme:dark){:root{--bg:#10151c;--card:#18202a;--tx:#e8edf3;--mut:#9aa8b8;--line:#2a3542;--ac:#5aa2ff;--ok:#4cc27a;--warn:#f0a04b;--bad:#ff7b72}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,Segoe UI,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.5rem;margin:.2em 0}.sub{color:var(--mut);margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+label{display:block;font-weight:600;font-size:.9rem;margin:12px 0 4px}small{color:var(--mut);font-weight:400}
+input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 14px}
+.chk{display:flex;gap:8px;align-items:flex-start;font-weight:500;margin:8px 0}.chk input{width:auto;margin-top:5px}
+button{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:11px 20px;font:inherit;font-weight:600;cursor:pointer;margin-top:16px}
+button:disabled{opacity:.6}.chip{display:inline-block;padding:6px 14px;border-radius:999px;font-weight:700;font-size:1.15rem;border:2px solid var(--ok);color:var(--ok)}
+.chip.no{border-color:var(--warn);color:var(--warn)}.err{color:var(--bad);font-weight:600}
+ol,ul{padding-left:1.2em;margin:.4em 0}li{margin:.25em 0}.kpi{display:flex;gap:18px;flex-wrap:wrap;margin:12px 0}.kpi div{min-width:130px}
+.kpi b{display:block;font-size:1.25rem}.mut{color:var(--mut);font-size:.85rem}.exp{white-space:pre-wrap;border-left:3px solid var(--ac);padding-left:12px}
+.tag{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;margin:2px 4px 2px 0;font-size:.85rem;font-weight:600}
+</style></head><body><main>
+<h1>Asesor PathInnovate</h1>
+<p class="sub">Te dice cual es la solucion mas simple que resuelve tu problema y se paga sola, para que no te vendan algo mas caro de lo que necesitas.</p>
+<form id="f" class="card">
+ <label>Cuentanos tu negocio o problema <small>(opcional; con IA lo convertimos en datos)</small></label>
+ <textarea id="texto" rows="3" placeholder="Ej: Tengo una panaderia y mis clientes preguntan siempre lo mismo por WhatsApp"></textarea>
+ <div class="grid">
+  <div><label>¿Que necesitas?</label><select id="tarea"><option value="">(que lo deduzca del texto)</option>
+   <option value="faq">Responder preguntas repetidas</option><option value="consulta_docs">Responder buscando en documentos</option>
+   <option value="prediccion">Predecir algo (demanda, fraude, abandono)</option><option value="accion">Ejecutar acciones (aprobar, reembolsar)</option>
+   <option value="asignacion">Asignar turnos, rutas o recursos</option></select></div>
+  <div><label>Casos por mes <small>(consultas, pedidos...)</small></label><input id="volumen" type="number" min="0" step="any"></div>
+  <div><label>Costo de atender 1 caso hoy <small>(USD)</small></label><input id="costo_caso" type="number" min="0" step="any"></div>
+  <div><label>Preguntas distintas <small>(si aplica)</small></label><input id="preguntas_distintas" type="number" min="0"></div>
+  <div><label>Casos con resultado conocido <small>(para predecir)</small></label><input id="etiquetados" type="number" min="0"></div>
+  <div><label>Personas/recursos a asignar</label><input id="recursos" type="number" min="0"></div>
+ </div>
+ <label class="chk"><input type="checkbox" id="regulado"> Mi rubro tiene normativa estricta (banca, salud, seguros)</label>
+ <label class="chk"><input type="checkbox" id="privacidad"> Los datos no pueden salir de mi organizacion</label>
+ <label class="chk"><input type="checkbox" id="herramienta_existente"> Ya existe una herramienta que lo resuelve (agenda online, formulario, plantilla)</label>
+ <label class="chk"><input type="checkbox" id="pasos_variables"> Las acciones tienen varios pasos que cambian segun cada caso</label>
+ <label class="chk"><input type="checkbox" id="lenguaje"> Debe entender mensajes libres de clientes</label>
+ <label class="chk"><input type="checkbox" id="llm"> Usar IA (ChatGPT / Hugging Face) para entender mi texto y explicar el resultado <small>(necesita claves en .env)</small></label>
+ <button id="go" type="submit">Pedir recomendacion</button>
+</form>
+<div id="out"></div>
+<p class="mut">Los costos son supuestos editables (config/advisor_costs.json), no cotizaciones. La decision la toma un arbol de reglas auditable; la IA solo explica.</p>
+</main>
+<script>
+const $=id=>document.getElementById(id), out=$("out");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const usd=n=>"$"+Number(n).toLocaleString("en-US");
+$("f").addEventListener("submit",async e=>{
+ e.preventDefault(); const b=$("go"); b.disabled=true; b.textContent="Analizando...";
+ const body={texto:$("texto").value,llm:$("llm").checked};
+ ["tarea","volumen","costo_caso","preguntas_distintas","etiquetados","recursos"].forEach(k=>body[k]=$(k).value||null);
+ ["regulado","privacidad","herramienta_existente","pasos_variables","lenguaje"].forEach(k=>body[k]=$(k).checked);
+ try{
+  const r=await (await fetch("/api/decide",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)})).json();
+  render(r);
+ }catch(x){out.innerHTML='<div class="card err">No se pudo conectar con el servidor local.</div>'}
+ b.disabled=false; b.textContent="Pedir recomendacion";
+});
+function render(r){
+ let h="";
+ if(r.entendido_del_texto) h+=`<div class="card mut">Entendido de tu texto (revisalo): ${esc(JSON.stringify(r.entendido_del_texto))}</div>`;
+ if(r.error){out.innerHTML=h+`<div class="card err">${esc(r.error)}</div>`;return}
+ const d=r.decision, no=d.recomendacion==="NO_AUTOMATIZAR_AUN";
+ h+=`<div class="card"><span class="chip ${no?"no":""}">${esc(d.recomendacion.replaceAll("_"," "))}</span>
+  <p>${d.componentes.map(c=>`<span class="tag">${esc(c)}</span>`).join("")}</p>
+  <div class="kpi"><div><span class="mut">Costo 12 meses</span><b>${usd(d.costo_12m_usd)}</b></div>
+  <div><span class="mut">Ahorro estimado 12 meses</span><b>${usd(d.ahorro_12m_usd)}</b></div>
+  <div><span class="mut">Se paga en 12 meses</span><b>${d.se_paga_en_12m?"Si":"No"}</b></div>
+  <div><span class="mut">Recuperas inversion en</span><b>${d.payback_meses??"n/a"} meses</b></div></div>
+  <b>Como se llego</b><ol>${d.camino.map(c=>`<li>${esc(c)}</li>`).join("")}</ol></div>`;
+ if(d.sobreventa_evitada.length) h+=`<div class="card"><b>Si te ofrecen algo mas caro, pagarias de mas (12 meses):</b><ul>${d.sobreventa_evitada.map(s=>`<li><b>${esc(s.alternativa)}</b>: +${usd(s.sobrecosto_12m_usd)}. ${esc(s.por_que_no)}</li>`).join("")}</ul></div>`;
+ if(r.explicacion) h+=`<div class="card"><b>En palabras simples</b><p class="exp">${esc(r.explicacion)}</p></div>`;
+ if(r.explicacion_error) h+=`<div class="card mut">No se pudo generar la explicacion con IA: ${esc(r.explicacion_error)}. La recomendacion de arriba sigue siendo valida.</div>`;
+ out.innerHTML=h;
+}
+</script></body></html>

@@ -157,6 +157,13 @@ def cmd_innovate(args):
 def main(argv=None):
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    raw = list(sys.argv[1:] if argv is None else argv)
+    if raw and raw[0] in ("recommend", "advise"):     # asesor anti-sobreventa (copilot/advisor.py)
+        from .advisor import main as advisor_main
+        return advisor_main(raw[1:])
+    if raw and raw[0] == "web":                       # interfaz web local (copilot/web.py)
+        from .web import main as web_main
+        return web_main(raw[1:])
     p = argparse.ArgumentParser(prog="copilot", description="Copiloto del Magíster (apoyo a la tarea TAAI2)")
     p.add_argument("--data", default=DATA)
     p.add_argument("--out", default=OUT)
@@ -202,6 +209,9 @@ def main(argv=None):
     s.add_argument("--queries", type=int, default=50000, help="consultas mensuales")
     s.add_argument("--llm", action="store_true", help="agrega critica de un LLM (requiere ANTHROPIC_API_KEY)")
     s.set_defaults(fn=cmd_innovate)
+
+    sub.add_parser("recommend", help="asesor anti-sobreventa: la solucion mas simple que alcanza (ver --help con: recommend --help)", add_help=False)
+    sub.add_parser("web", help="interfaz web local del asesor (http://127.0.0.1:8000)", add_help=False)
 
     args = p.parse_args(argv)
     args.fn(args)

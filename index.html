@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+      const ord = CFG_ORDER.filter(c => R.configs[c]), COL = { rag_openai: '#10b981', rag_local: '#6366f1', llm_solo: '#f59e0b', hibrido: '#06b6d4', hibrido_local: '#22c55e', motor_reglas: '#ec4899' };
+      chartLatency.data.labels = ord.map(c => R.configs[c].label); chartLatency.data.datasets[0].data = ord.map(c => R.configs[c].metricas.latencia_p50_s);
+      chartLatency.data.datasets[0].backgroundColor = ord.map(c => COL[c]); chartLatency.update();<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -14,6 +16,32 @@
       .print-card { border: 1px solid #cbd5e1 !important; background: #ffffff !important; color: #0f172a !important; box-shadow: none !important; }
       .print-text { color: #0f172a !important; }
     }
+  #tab-asesor{--bg:#0b1220;--card:#111a2b;--tx:#e8edf3;--mut:#9aa8b8;--line:#243044;--ac:#6366f1;--ok:#4cc27a;--warn:#f0a04b;--bad:#ff7b72;color:var(--tx)}
+#tab-asesor *{box-sizing:border-box}
+#tab-asesor h2.as-t{font-size:1.5rem;margin:.2em 0}
+#tab-asesor .sub{color:var(--mut);margin:0 0 20px}
+#tab-asesor .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+#tab-asesor label{display:block;font-weight:600;font-size:.9rem;margin:12px 0 4px}
+#tab-asesor small{color:var(--mut);font-weight:400}
+#tab-asesor input,#tab-asesor select,#tab-asesor textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+#tab-asesor .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 14px}
+#tab-asesor .chk{display:flex;gap:8px;align-items:flex-start;font-weight:500;margin:8px 0}
+#tab-asesor .chk input{width:auto;margin-top:5px}
+#tab-asesor button{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:11px 20px;font:inherit;font-weight:600;cursor:pointer;margin-top:16px}
+#tab-asesor button:disabled{opacity:.6}
+#tab-asesor .chip{display:inline-block;padding:6px 14px;border-radius:999px;font-weight:700;font-size:1.15rem;border:2px solid var(--ok);color:var(--ok)}
+#tab-asesor .chip.no{border-color:var(--warn);color:var(--warn)}
+#tab-asesor .err{color:var(--bad);font-weight:600}
+#tab-asesor ol,#tab-asesor ul{padding-left:1.2em;margin:.4em 0}
+#tab-asesor li{margin:.25em 0}
+#tab-asesor .kpi{display:flex;gap:18px;flex-wrap:wrap;margin:12px 0}
+#tab-asesor .kpi div{min-width:130px}
+#tab-asesor .kpi b{display:block;font-size:1.25rem}
+#tab-asesor .mut{color:var(--mut);font-size:.85rem}
+#tab-asesor .exp{white-space:pre-wrap;border-left:3px solid var(--ac);padding-left:12px}
+#tab-asesor .tag{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;margin:2px 4px 2px 0;font-size:.85rem;font-weight:600}
+.as-hidden{display:none!important}
+.as-tabbtn{padding:8px 16px;border-radius:8px;font-size:.85rem;font-weight:600;border:1px solid #334155;color:#94a3b8;background:#0f172a}.as-tabbtn.on{background:#4f46e5;color:#fff;border-color:#6366f1}
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen font-sans p-4 md:p-8">
@@ -52,8 +80,47 @@
       </button>
     </div>
   </header>
+  <!-- Pestañas: Asesor (nuevo) + Benchmark (existente) -->
+  <nav class="max-w-7xl mx-auto mt-4 flex gap-2 no-print" id="as-tabs">
+    <button class="as-tabbtn" data-tab="asesor" type="button">Asesor anti-sobreventa</button>
+    <button class="as-tabbtn" data-tab="benchmark" type="button">Benchmark de modelos</button>
+  </nav>
+  <section id="tab-asesor" class="max-w-7xl mx-auto mt-6 as-hidden"><div class="as-wrap" style="max-width:860px">
+   <h2 class="as-t">Asesor anti-sobreventa</h2>
+   <p class="sub">Te dice cuál es la solución más simple que resuelve tu problema y se paga sola, para que no te vendan algo más caro de lo que necesitas.</p>
+   <div id="as-offline" class="card err" style="display:none">Para usar el asesor abre la página desde el servidor local: ejecuta <b>python -m copilot web</b> y entra a <b>http://127.0.0.1:8000</b>. El Benchmark funciona también abriendo este archivo directamente.</div>
+   <form id="as-f" class="card">
+ <label>Cuentanos tu negocio o problema <small>(opcional; con IA lo convertimos en datos)</small></label>
+ <textarea id="as-texto" rows="3" placeholder="Ej: Tengo una panaderia y mis clientes preguntan siempre lo mismo por WhatsApp"></textarea>
+ <div class="grid">
+  <div><label>¿Que necesitas?</label><select id="as-tarea"><option value="">(que lo deduzca del texto)</option>
+   <option value="faq">Responder preguntas repetidas</option><option value="consulta_docs">Responder buscando en documentos</option>
+   <option value="prediccion">Predecir algo (demanda, fraude, abandono)</option><option value="accion">Ejecutar acciones (aprobar, reembolsar)</option>
+   <option value="asignacion">Asignar turnos, rutas o recursos</option></select></div>
+  <div><label>Casos por mes <small>(consultas, pedidos...)</small></label><input id="as-volumen" type="number" min="0" step="any"></div>
+  <div><label>Costo de atender 1 caso hoy <small>(USD)</small></label><input id="as-costo_caso" type="number" min="0" step="any"></div>
+  <div><label>Preguntas distintas <small>(si aplica)</small></label><input id="as-preguntas_distintas" type="number" min="0"></div>
+  <div><label>Casos con resultado conocido <small>(para predecir)</small></label><input id="as-etiquetados" type="number" min="0"></div>
+  <div><label>Personas/recursos a asignar</label><input id="as-recursos" type="number" min="0"></div>
+  <div><label>Meses de historial en planilla</label><input id="as-meses_historial" type="number" min="0"></div>
+ </div>
+ <label class="chk"><input type="checkbox" id="as-regulado"> Mi rubro tiene normativa estricta (banca, salud, seguros)</label>
+ <label class="chk"><input type="checkbox" id="as-privacidad"> Los datos no pueden salir de mi organizacion</label>
+ <label class="chk"><input type="checkbox" id="as-herramienta_existente"> Ya existe una herramienta que lo resuelve (agenda online, formulario, plantilla)</label>
+ <label class="chk"><input type="checkbox" id="as-pasos_variables"> Las acciones tienen varios pasos que cambian segun cada caso</label>
+ <label class="chk"><input type="checkbox" id="as-sin_personal_tecnico"> No tengo personal técnico (equipo de TI)</label>
+ <label class="chk"><input type="checkbox" id="as-agente_atencion"> Quiero un agente de atención al cliente que responda con políticas o cifras</label>
+ <label class="chk"><input type="checkbox" id="as-lenguaje"> Debe entender mensajes libres de clientes</label>
+ <label class="chk"><input type="checkbox" id="as-llm"> Usar IA (ChatGPT / Hugging Face) para entender mi texto y explicar el resultado <small>(necesita claves en .env)</small></label>
+ <button id="as-go" type="submit">Pedir recomendacion</button>
+</form>
+<div id="as-out"></div>
 
-  <main class="max-w-7xl mx-auto mt-6 space-y-6">
+   <div id="as-out"></div><p class="mut">Los costos son supuestos editables (config/advisor_costs.json), no cotizaciones. La decision la toma un arbol de reglas auditable; la IA solo explica.</p>
+  </div></section>
+
+
+  <main id="tab-benchmark" class="max-w-7xl mx-auto mt-6 space-y-6">
 
     <!-- Cuadro de Consulta -->
     <section class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl shadow-lg no-print">
@@ -454,7 +521,7 @@
     }
 
     // ---- Datos reales: todo sale de resultados.js (lo genera run_eval.py) ----
-    const CFG_ORDER = ['rag_openai', 'rag_local', 'llm_solo', 'hibrido', 'hibrido_local'];
+    const CFG_ORDER = ['rag_openai', 'rag_local', 'llm_solo', 'hibrido', 'hibrido_local', 'motor_reglas'];
     const pct = v => (v === null || v === undefined) ? 'n/a' : Math.round(v * 100) + '%';
     const norm = t => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     function bestQuestion(text) {
@@ -463,7 +530,7 @@
       return best;
     }
     function renderAnswers() {
-      const R = RESULTADOS, q = bestQuestion(document.getElementById('query-input').value), ids = ['card-openai', 'card-hf', 'card-baseline', 'card-neuro', 'card-neuro-local'];
+      const R = RESULTADOS, q = bestQuestion(document.getElementById('query-input').value), ids = ['card-openai', 'card-hf', 'card-baseline', 'card-neuro', 'card-neuro-local', 'card-motor'];
       CFG_ORDER.forEach((c, i) => {
         const r = (R.respuestas[q.id] || {})[c]; const el = document.getElementById(ids[i]); if (!el) return;
         el.textContent = r ? r.answer : 'Sin respuesta registrada (error en la corrida).';
@@ -482,9 +549,23 @@
       last.parentElement.appendChild(clone);
       last.parentElement.className = last.parentElement.className.replace('lg:grid-cols-4', 'lg:grid-cols-3 xl:grid-cols-5');
     }
+    function ensureMotor() {   // 6ª tarjeta: motor de reglas del asesor (solo si el conjunto de datos la trae)
+      const has = !!(RESULTADOS.configs && RESULTADOS.configs.motor_reglas);
+      let el = document.getElementById('card-motor');
+      if (has && !el) {
+        const src = document.getElementById('card-neuro').closest('.print-card'), clone = src.cloneNode(true);
+        clone.querySelector('#card-neuro').id = 'card-motor';
+        clone.classList.remove('border-indigo-500/40'); clone.classList.add('border-pink-500/40');
+        src.parentElement.appendChild(clone);
+        src.parentElement.className = src.parentElement.className.replace('xl:grid-cols-5', 'xl:grid-cols-6').replace('lg:grid-cols-4', 'lg:grid-cols-3 xl:grid-cols-6');
+        el = clone.querySelector('#card-motor');
+      }
+      if (el) el.closest('.print-card').style.display = has ? '' : 'none';
+    }
     function applyResultados() {
       const R = RESULTADOS, m = R.meta;
       ensureLocalHybrid();
+      ensureMotor();
       const cards = document.querySelectorAll('section.space-y-3 .grid > .print-card');
       CFG_ORDER.forEach((c, i) => {
         const cf = R.configs[c]; if (!cf) return; const k = cf.metricas, card = cards[i]; if (!card) return;
@@ -505,7 +586,7 @@
       document.getElementById('btn-cpu').parentElement.style.display = 'none';   // un solo dispositivo medido por corrida
       const lat = CFG_ORDER.map(c => R.configs[c] ? R.configs[c].metricas.latencia_p50_s : 0);
       chartLatency.data.labels = CFG_ORDER.map(c => R.configs[c] ? R.configs[c].label : c); chartLatency.data.datasets[0].data = lat;
-      chartLatency.data.datasets[0].backgroundColor = ['#10b981', '#6366f1', '#f59e0b', '#06b6d4', '#22c55e']; chartLatency.update();
+      chartLatency.data.datasets[0].backgroundColor = ['#10b981', '#6366f1', '#f59e0b', '#06b6d4', '#22c55e', '#ec4899']; chartLatency.update();
       if (R.tco) {
         const names = { api: 'API comercial', slm_self_hosted: 'SLM propio', hybrid: 'Híbrido' }, E = R.tco.estrategias, ks = Object.keys(E);
         document.getElementById('tco-title').textContent = 'TCO a ' + R.tco.meses + ' meses por alternativa (USD) · equilibrio ≈ ' + Math.round(R.tco.equilibrio_consultas_mes).toLocaleString('es-CL') + ' consultas/mes';
@@ -546,5 +627,50 @@
       if (window.RESULTADOS || window.RESULTADOS_ASESOR) { buildSwitch(); useDataset(window.RESULTADOS ? 'tarea' : 'asesor'); } else { executePipeline(); document.querySelector('header').insertAdjacentHTML('afterend', '<p class="max-w-7xl mx-auto mt-3 text-xs text-amber-400">Sin resultados.js: se muestran textos de ejemplo, no mediciones. Ejecuta python run_eval.py.</p>'); }
     };
   </script>
+
+<script>
+(function(){
+const $=id=>document.getElementById("as-"+id), out=$("out");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const usd=n=>"$"+Number(n).toLocaleString("en-US");
+$("f").addEventListener("submit",async e=>{
+ e.preventDefault(); const b=$("go"); b.disabled=true; b.textContent="Analizando...";
+ const body={texto:$("texto").value,llm:$("llm").checked};
+ ["tarea","volumen","costo_caso","preguntas_distintas","etiquetados","recursos","meses_historial"].forEach(k=>body[k]=$(k).value||null);
+ ["regulado","privacidad","herramienta_existente","pasos_variables","lenguaje","sin_personal_tecnico","agente_atencion"].forEach(k=>body[k]=$(k).checked);
+ try{
+  const r=await (await fetch("/api/decide",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)})).json();
+  render(r);
+ }catch(x){out.innerHTML='<div class="card err">No se pudo conectar con el servidor local.</div>'}
+ b.disabled=false; b.textContent="Pedir recomendacion";
+});
+function render(r){
+ let h="";
+ if(r.entendido_del_texto) h+=`<div class="card mut">Entendido de tu texto (revisalo): ${esc(JSON.stringify(r.entendido_del_texto))}</div>`;
+ if(r.error){out.innerHTML=h+`<div class="card err">${esc(r.error)}</div>`;return}
+ const d=r.decision, no=d.recomendacion==="NO_AUTOMATIZAR_AUN";
+ h+=`<div class="card"><span class="chip ${no?"no":""}">${esc(d.recomendacion.replaceAll("_"," "))}</span>
+  <p>${d.componentes.map(c=>`<span class="tag">${esc(c)}</span>`).join("")}</p>
+  <div class="kpi"><div><span class="mut">Costo 12 meses</span><b>${usd(d.costo_12m_usd)}</b></div>
+  <div><span class="mut">Ahorro estimado 12 meses</span><b>${usd(d.ahorro_12m_usd)}</b></div>
+  <div><span class="mut">Se paga en 12 meses</span><b>${d.se_paga_en_12m?"Si":"No"}</b></div>
+  <div><span class="mut">Recuperas inversion en</span><b>${d.payback_meses??"n/a"} meses</b></div></div>
+  <b>Como se llego</b><ol>${d.camino.map(c=>`<li>${esc(c)}</li>`).join("")}</ol></div>`;
+ if(d.sobreventa_evitada.length) h+=`<div class="card"><b>Si te ofrecen algo mas caro, pagarias de mas (12 meses):</b><ul>${d.sobreventa_evitada.map(s=>`<li><b>${esc(s.alternativa)}</b>: +${usd(s.sobrecosto_12m_usd)}. ${esc(s.por_que_no)}</li>`).join("")}</ul></div>`;
+ if(r.explicacion) h+=`<div class="card"><b>En palabras simples</b><p class="exp">${esc(r.explicacion)}</p></div>`;
+ if(r.explicacion_error) h+=`<div class="card mut">No se pudo generar la explicacion con IA: ${esc(r.explicacion_error)}. La recomendacion de arriba sigue siendo valida.</div>`;
+ out.innerHTML=h;
+}
+
+ const tabs={asesor:document.getElementById("tab-asesor"),benchmark:document.getElementById("tab-benchmark")};
+ const online=location.protocol!=="file:";
+ if(!online) document.getElementById("as-offline").style.display="block";
+ function show(t){ Object.entries(tabs).forEach(([k,el])=>el.classList.toggle("as-hidden",k!==t));
+  document.querySelectorAll(".as-tabbtn").forEach(b=>b.classList.toggle("on",b.dataset.tab===t));
+  try{history.replaceState(null,"","#"+t)}catch(e){} }
+ document.querySelectorAll(".as-tabbtn").forEach(b=>b.addEventListener("click",()=>show(b.dataset.tab)));
+ const h=location.hash.slice(1); show(tabs[h]?h:(online?"asesor":"benchmark"));
+})();
+</script>
 </body>
 </html>

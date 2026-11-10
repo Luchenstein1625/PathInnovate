@@ -1,17 +1,16 @@
-# PathInnovate · Magister Copilot
+# PathInnovate
 
-Herramienta de línea de comandos para la **Tarea grupal TAAI2** (Máster en IA · UAI · Tópicos Avanzados en IA 2). Hace dos cosas:
+Orienta a cualquier persona a **innovar con IA sin que le vendan algo más caro de lo que necesita**. Recomienda la solución más simple que resuelve su problema y se paga sola (nada de IA, reglas, ML clásico, RAG con API, modelo propio o agente), y explica por qué las alternativas más caras no hacen falta.
 
-1. **Apoyo al informe:** busca en el material de las clases, arma la tabla de trazabilidad (Anexo A), calcula presupuesto y sensibilidad (Anexo B), planifica el trabajo del grupo y revisa un borrador.
-2. **Asesor anti-sobreventa:** a partir de una idea o del perfil de un negocio, recomienda la automatización **más simple que alcanza** (bot de reglas, RAG, ML clásico, neurosimbólico, agente, SLM propio) y avisa cuándo algo más caro no se justifica.
+Además sirve de apoyo a la **Tarea grupal TAAI2** (Magíster en IA · UAI): busca en el material de las clases, arma la trazabilidad (Anexo A), calcula presupuesto (Anexo B) y revisa borradores. El PDF del informe lo escribe el grupo.
 
-> El PDF del informe **no se genera aquí**: lo escribe el grupo. Este proyecto entrega números, tablas y evidencia para pegar en él.
+**Principio de diseño:** la decisión la toma un árbol de reglas determinista y auditable. El LLM (ChatGPT / Hugging Face) solo convierte texto libre en datos y explica; no decide y no puede subir la recomendación a algo más caro.
 
 ---
 
-## 1. Instalación
+## 1. Instalación (una vez)
 
-Requiere Python 3.11 o superior.
+Requiere Python 3.11+. En PowerShell, dentro de la carpeta del proyecto:
 
 ```powershell
 python -m venv .venv
@@ -19,157 +18,185 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Usa `python -m pip` y no `pip` a secas: si copiaste la carpeta, el `pip.exe` del venv puede apuntar a la ruta antigua y fallar.
+Usa `python -m pip`, no `pip` a secas (si copiaste la carpeta, el `pip.exe` del venv puede apuntar a la ruta vieja).
+Para las evaluaciones con modelos (`run_eval*.py`, `run_pipeline.py`): `python -m pip install -r requirements-eval.txt`.
+El asesor y la web **no necesitan** instalar nada extra.
 
-Solo para la evaluación con GPU (`run_eval*.py`):
+## 2. Configuración (`.env`)
 
-```powershell
-python -m pip install -r requirements-eval.txt
-```
-
-## 2. Configuración
-
-| Qué | Dónde | Para qué |
-|---|---|---|
-| Carpeta del magíster | `MAGISTER/` en la raíz, o `MAGISTER_ROOT` en `.env`, o `--root` | Material de las clases (transcripciones, chats, PDF, PPTX) |
-| Claves de LLM (opcional) | `.env` (copia `.env.example`) | Solo para `--llm` y `run_eval*.py` |
-| Temario del syllabus | `config/topics.csv` | Temas S1 a S6, palabras clave y sección del informe |
-| Secciones y tiempos | `config/sections.csv` | Entrada de `plan` |
-| Equipo | `config/team.csv` | Horas y fortalezas por integrante (entrada de `plan`) |
-
-Variables de `.env`:
+Copia `.env.example` a `.env` y completa. **Sin comentarios en la misma línea que el valor.**
 
 ```
-MAGISTER_ROOT=
-LLM_PROVIDER=openai        # openai | huggingface | anthropic
-LLM_MODEL=                 # obligatorio, según la documentación del proveedor
+LLM_PROVIDER=openai,huggingface
+LLM_MODEL_OPENAI=
+LLM_MODEL_HUGGINGFACE=Qwen/Qwen3.5-4B
 OPENAI_API_KEY=
 HF_TOKEN=
-ANTHROPIC_API_KEY=
+MAGISTER_ROOT=
 ```
 
-**Seguridad:** `.env` está en `.gitignore`, pero **no** queda protegido si comprimes la carpeta en un zip. Antes de compartir o subir el proyecto, borra el `.env` del zip. Si una clave se expuso, regenérala.
+| Variable | Qué hace |
+|---|---|
+| `LLM_PROVIDER` | Cadena con respaldo: `openai,huggingface` prueba ChatGPT y, si falla, Hugging Face. También `hf_local` (modelo en tu PC con transformers) y `anthropic`. |
+| `LLM_MODEL_OPENAI` | Opcional. Si está vacío usa `gpt-4o-mini`. |
+| `LLM_MODEL_HUGGINGFACE` | Modelo del router de Hugging Face (debe estar disponible para tu cuenta). |
+| `OPENAI_API_KEY`, `HF_TOKEN` | Tus claves. |
+| `MAGISTER_ROOT` | Carpeta con las clases (por defecto `MAGISTER/` en la raíz). |
 
-## 3. Flujo rápido
+Sin claves todo funciona igual, salvo lo marcado como "LLM".
+
+**Seguridad:** `.env` está en `.gitignore` pero **no** queda protegido si comprimes la carpeta. Borra `.env` antes de zipear o compartir. Si una clave se expuso, regenérala.
+
+---
+
+## 3. Asesor anti-sobreventa (el producto)
+
+### 3.1 Por terminal
 
 ```powershell
-python -m copilot init                 # crea config/ y carpetas
-python -m copilot scan                 # inventaria el material
-python -m copilot ingest               # construye el índice de búsqueda
+python -m copilot recommend --tarea faq --volumen 600 --costo-caso 1.5 --preguntas-distintas 15
+```
+(`python -m copilot.advisor ...` es equivalente.)
+
+| Opción | Significado |
+|---|---|
+| `--tarea` | `faq` (preguntas repetidas), `consulta_docs` (responder buscando en documentos), `prediccion`, `accion` (aprobar/reembolsar/ejecutar), `asignacion` (turnos, rutas, recursos) |
+| `--volumen` | Casos por mes |
+| `--costo-caso` | USD que cuesta hoy atender un caso a mano |
+| `--preguntas-distintas` | Cuántas preguntas distintas hay (FAQ con menos de 50 ⇒ reglas, sin IA) |
+| `--etiquetados` | Casos con resultado conocido (predicción: menos de 500 ⇒ reglas y recolectar datos) |
+| `--recursos` | Personas/vehículos a asignar (5 o menos ⇒ planilla) |
+| `--cobertura` | Fracción automatizable, 0 a 1 (por defecto 0.7) |
+| `--regulado` | Normativa estricta ⇒ agrega verificador y humano |
+| `--privacidad` | Los datos no pueden salir de la organización ⇒ modelo propio (si hay equipo técnico) |
+| `--herramienta-existente` | Ya hay una agenda/formulario/plantilla que lo resuelve ⇒ NO_IA |
+| `--pasos-variables` | Debe ejecutar acciones de varios pasos (reembolso + correo, reasignar rutas) ⇒ agente con humano que valida |
+| `--lenguaje` | Además debe responder en lenguaje natural (con `accion` o `prediccion` arma la arquitectura combinada) |
+| `--meses-historial` | Meses de datos históricos en planilla (12 o más ⇒ ML clásico) |
+| `--sin-personal-tecnico` | No hay equipo técnico ⇒ servicio administrado (API) con acuerdo de datos, aunque haya privacidad |
+| `--agente-atencion` | Agente de atención al cliente que responde con políticas o cifras ⇒ agrega verificador |
+| `--texto "..."` | Describe el negocio en texto libre (con `--llm` lo convierte en datos) |
+| `--llm` | Usa ChatGPT/HF para entender el texto y explicar el resultado |
+| `--json` | Salida en JSON |
+
+Ejemplos:
+```powershell
+# Banco: datos que no pueden salir + normativa
+python -m copilot recommend --tarea consulta_docs --volumen 20000 --costo-caso 2 --regulado --privacidad
+# Pocos datos para predecir
+python -m copilot recommend --tarea prediccion --volumen 2000 --costo-caso 3 --etiquetados 80
+# Texto libre + LLM (revisa la línea "Datos entendidos del texto")
+python -m copilot recommend --texto "Tengo una panadería, me escriben 300 consultas al mes por WhatsApp con lo mismo" --costo-caso 1 --preguntas-distintas 12 --llm
+```
+
+La salida trae: recomendación, componentes, **árbol de decisión paso a paso**, costo y ahorro a 12 meses, recuperación de la inversión y cuánto **pagarías de más** por cada alternativa más cara. Si no se paga sola, responde `NO_AUTOMATIZAR_AUN`.
+
+Los costos por peldaño son **supuestos**. Para cambiarlos crea `config/advisor_costs.json` con `{"API_RAG": [1500, 80, 0.0006]}` (instalación USD, fijo mensual USD, variable por caso USD). Verifica precios reales y fecha en el Anexo B.
+
+### 3.2 Página única (Asesor + Benchmark)
+
+```powershell
+python -m copilot web            # abre http://127.0.0.1:8000
+python -m copilot web --port 9000 --no-browser
+```
+Abre una sola página con dos pestañas: **Asesor anti-sobreventa** (formulario en lenguaje simple) y **Benchmark de modelos** (costos y respuestas de cada configuración, el panel de antes). Escucha solo en tu PC (127.0.0.1), así tus claves no salen. Cierra con Ctrl+C. Si marcas "Usar IA", necesita las claves del `.env`.
+
+---
+
+## 4. Material de las clases
+
+Todos los comandos aceptan `--data` (por defecto `data/`), `--out` (`output/`) y `--config` (`config/`).
+
+```powershell
+python -m copilot init                     # crea config/ y carpetas base
+python -m copilot scan                     # inventaria MAGISTER/ (--include-otros, --include-capstone, --max-mb, --root)
+python -m copilot ingest                   # extrae texto y construye el índice (--rescan para rehacer el inventario)
 python -m copilot ask "qué es destilación" -k 5
-python -m copilot innovate "asistente que atienda reclamos y asigne casos a ejecutivos"
-python -m copilot recommend --tarea consulta_docs --volumen 3000 --costo-caso 2
-python -m copilot.engine_taai2 budget --xlsx Anexo_B.xlsx
-python -m unittest discover -s tests -t .
+python -m copilot ask "qué es RAG" --session S1 --course 16 --per-file 1
+python -m copilot ask "qué es RAG" --prompt        # imprime un prompt con fuentes para pegar en un chat
+python -m copilot ask "qué es RAG" --llm           # LLM: responde usando las fuentes
+python -m copilot outline --course 16 --window 15 --top 8   # temario por tramos de tiempo
 ```
+`ask` filtra por `--course`, `--session S1..S5`, `--kind` (transcript, chat, slides...), `-k` (resultados) y `--per-file`. Cada fragmento trae clase y minuto.
 
-## 4. Comandos
+## 5. Informe de la tarea
 
-Todos aceptan `--data` (por defecto `data/`), `--out` (`output/`) y `--config` (`config/`).
-
-### Material de las clases
-| Comando | Qué hace |
-|---|---|
-| `init` | Crea la configuración y las carpetas base |
-| `scan` | Recorre `MAGISTER/` y escribe el inventario (`--include-otros`, `--include-capstone`, `--max-mb`) |
-| `ingest` | Extrae texto y construye el índice (`--rescan` rehace el inventario) |
-| `ask "pregunta"` | Busca fragmentos con clase y minuto. Filtros: `--course`, `--session S1..S5`, `--kind`, `-k`, `--per-file`. `--prompt` imprime un prompt con fuentes para pegarlo en un chat. `--llm` responde con el modelo del `.env` |
-| `outline --course 16` | Temario de la clase por tramos de tiempo (`--window`, `--top`) |
-
-### Informe de la tarea
-| Comando | Qué hace |
-|---|---|
-| `trace` | Borrador del Anexo A: cada tema del syllabus con sus apariciones en las clases |
-| `check borrador.docx` | Revisa qué temas del syllabus cubre un borrador (`.md`, `.txt`, `.docx` o `.pdf`) |
-| `plan` | Calendario de 14 días con reparto de secciones según `config/` |
-
-### Propuesta de solución
-| Comando | Qué hace |
-|---|---|
-| `innovate "idea"` | Elige componentes y técnicas **por reglas sobre el texto** (texto → SLM/LLM + RAG; datos tabulares → Random Forest/Boosting; asignación → optimización; normas → verificador simbólico; procesos → planificador), cita evidencia de las clases o marca `SIN EVIDENCIA`, y compara tres presupuestos. `--queries` fija las consultas mensuales; `--llm` agrega una crítica del modelo |
-| `recommend --tarea … --volumen …` | Recorre la escalera de lo simple a lo caro y elige el peldaño más simple que resuelve el problema y se paga solo. `--tarea`: `faq`, `consulta_docs`, `prediccion`, `accion`, `asignacion`. Opciones: `--costo-caso`, `--etiquetados`, `--regulado`, `--privacidad` |
-
-### Cálculos (módulo `engine_taai2`)
 ```powershell
-python -m copilot.engine_taai2 budget --queries 50000 --strategy all --xlsx Anexo_B.xlsx
-python -m copilot.engine_taai2 reliability --acc 0.95,0.9,0.92 --hitl 2:0.8
-python -m copilot.engine_taai2 risks
-python -m copilot.engine_taai2 optimize --agents 3 --durations 5,3,8,2,7,4,6,1
-python -m copilot.engine_taai2 plan "meta del proyecto"
+python -m copilot trace                    # borrador del Anexo A (output/trazabilidad_borrador.md/.csv)
+python -m copilot check borrador.docx      # qué temas del syllabus cubre un borrador (.md .txt .docx .pdf)
+python -m copilot plan                     # calendario de 14 días (output/plan_14_dias.md/.csv), según config/
+```
+Edita `config/team.csv` (horas y fortalezas), `config/sections.csv` (secciones y tiempos) y `config/topics.csv` (syllabus) antes de `plan` y `trace`.
+
+## 6. De una idea a una propuesta técnica (`innovate`)
+
+```powershell
+python -m copilot innovate "asistente que atienda reclamos y asigne casos a ejecutivos" --queries 50000
+python -m copilot innovate "su idea" --llm        # LLM: agrega una crítica
+```
+Elige componentes por reglas sobre el texto, cita evidencia de las clases (o marca `SIN EVIDENCIA`), compara tres presupuestos y escribe `output/innovacion.md`. Requiere haber hecho `ingest` para citar clases.
+
+## 7. Cálculos de la tarea (`engine_taai2`)
+
+```powershell
+python -m copilot.engine_taai2 budget --queries 50000 --strategy all --xlsx Anexo_B.xlsx   # TCO 12/36 meses, VAN, sensibilidad
+python -m copilot.engine_taai2 budget --queries 50000 --strategy api                      # api | slm_self_hosted | hybrid | all
+python -m copilot.engine_taai2 reliability --acc 0.95,0.9,0.92 --hitl 2:0.8              # precisión del flujo completo
+python -m copilot.engine_taai2 risks                                                      # matriz de riesgos
+python -m copilot.engine_taai2 optimize --agents 3 --durations 5,3,8,2,7,4,6,1            # reparto de tareas (greedy vs recocido)
+python -m copilot.engine_taai2 plan "meta del proyecto"                                   # plan neuro-simbólico
 python -m copilot.engine_taai2 traceability > Anexo_A.md
-python -m copilot.engine_taai2 check-pdf TAAI2_Tarea_Grupo-N_Apellidos.pdf
+python -m copilot.engine_taai2 check-pdf TAAI2_Tarea_Grupo-N.pdf                          # revisa el PDF final
 ```
 
-### Evaluación (requiere clave de OpenAI y, sin `--skip-local`, GPU)
+## 8. Evaluación y panel de resultados
+
+Requiere `requirements-eval.txt` y `OPENAI_API_KEY`. Sin `--skip-local` descarga y corre un modelo local (Qwen 1.5B; lento sin GPU).
+
 ```powershell
-python run_eval.py --repeats 3              # reglas de la tarea
-python run_eval_asesor.py --repeats 3       # dominio del asesor (necesita eval_asesor/preguntas.json y corpus.json)
+python run_eval.py --repeats 3 --skip-local            # reglas de la tarea -> eval/resultados.json, resultados.js, Anexo_B.xlsx
+python run_eval_asesor.py --repeats 3 --skip-local     # dominio del asesor -> eval_asesor/resultados_asesor.json/.js
+python run_eval_asesor.py --preguntas eval_asesor/preguntas_externas.json --salida eval_asesor/externas   # otro conjunto, sin pisar lo anterior
+python run_eval_motor.py                              # agrega la 6a config "Motor de reglas (asesor)" al benchmark del asesor (extractor OpenAI + árbol de decisión)
+python run_eval_motor.py --sin-llm                    # igual, solo con palabras clave (costo 0; es el piso, muy pobre)
+python run_eval_motor.py --preguntas eval_asesor/preguntas_externas.json --base eval_asesor/externas/resultados_asesor.json   # prueba justa: preguntas que las reglas no vieron
+python run_pipeline.py                                 # demo de punta a punta (OpenAI vs Hugging Face + verificador + plan)
 ```
-Agrega `--skip-local` para omitir el modelo local (Qwen). Abre `index.html` en el navegador para ver los resultados.
+`run_eval_motor.py` **no repite** las otras 5 configuraciones: lee el resultado ya medido (`resultados_asesor.json`, o el `.js` si no hay `.json`), agrega `motor_reglas` y reescribe ambos archivos. Si no entiende de qué trata la pregunta, se abstiene en vez de adivinar. Las reglas del motor y las etiquetas de referencia las definió el mismo grupo, así que la comparación honesta es la del conjunto externo.
 
-## 5. Cómo funciona
+`run_pipeline.py` usa `python-dotenv` (ya en `requirements-eval.txt`) y carga el modelo local de Hugging Face.
 
-```
- MAGISTER/ (clases)            idea o perfil del negocio
-      │ scan + ingest                │
-      ▼                              ▼
- data/index.json  ──búsqueda──▶  innovate / recommend / ask
- (BM25 por clase y minuto)            │
-                                      ▼
-                   reglas  →  presupuesto  →  verificador  →  salida .md
-```
-
-| Módulo | Función | Sesión |
-|---|---|---|
-| `extract.py`, `scan.py`, `index.py`, `textutil.py` | Lee las clases, las parte en fragmentos y busca por palabras (BM25), citando archivo y minuto | S1 |
-| `llm.py`, `llm_dual.py` | Conexión opcional a OpenAI, Hugging Face o Anthropic; comparación de API contra modelo local | S1, S6 |
-| `verifier.py` | Verifica citas existentes y que las dependencias no tengan ciclos | S3 |
-| `engine_taai2.py` | Presupuesto (TCO, VAN, equilibrio, sensibilidad, Excel), confiabilidad de la cadena, riesgos, plan STRIPS, optimización por recocido simulado, Anexo A, chequeo de PDF | S2 a S6 |
-| `optimizer.py`, `planner.py` | Reparto de tareas del equipo minimizando el makespan; calendario de 14 días | S4, S5 |
-| `innovate.py`, `advisor.py` | Propuesta de técnicas por idea y escalera de recomendación con chequeo económico | S1 a S6 |
-| `evaluator.py`, `evaluator_asesor.py`, `budget_extras.py` | Benchmark con preguntas fijas, métricas de alucinación y costo, y complementos de presupuesto | S1 a S6 |
-| `trace.py`, `outline.py` | Anexo A y temarios por tramos | Todas |
-
-Las recomendaciones de `innovate` y `recommend` son **reglas escritas por el equipo**, no un modelo entrenado: son un punto de partida que el grupo debe justificar.
-
-## 6. Archivos que usa (entradas)
-
-| Archivo o carpeta | Lo usa |
-|---|---|
-| `MAGISTER/` | `scan`, `ingest` |
-| `config/topics.csv` | `trace`, `check`, `traceability`, `innovate` |
-| `config/sections.csv`, `config/team.csv` | `plan` |
-| `.env` | `--llm`, `run_eval*.py` |
-| Borrador del informe (`.md`, `.txt`, `.docx`, `.pdf`) | `check`, `check-pdf` |
-| `eval/preguntas*.json`, `eval/corpus.json` | `run_eval.py` |
-| `eval_asesor/preguntas.json`, `eval_asesor/corpus.json` | `run_eval_asesor.py` |
-
-## 7. Archivos que genera (salidas)
-
-| Archivo | Lo genera | Va en el informe |
-|---|---|---|
-| `data/inventory.csv` | `scan` | — |
-| `data/chunks.jsonl`, `data/index.json`, `data/meta.json` | `ingest` | — |
-| `output/trazabilidad_borrador.md` y `.csv` | `trace` | Anexo A |
-| `output/temario_<curso>.md` | `outline` | Apoyo |
-| `output/chequeo_borrador.md` | `check` | Revisión previa a entregar |
-| `output/plan_14_dias.md` y `.csv` | `plan` | Organización del grupo |
-| `output/innovacion.md` | `innovate` | Secciones 2 a 6, 8 y 12 (borrador) |
-| `output/recomendacion.md` | `recommend` | Secciones 10 y 12 |
-| `Anexo_B.xlsx` (hojas Supuestos, TCO, Sensibilidad) | `engine_taai2 budget --xlsx`, `run_eval.py` | Anexo B |
-| `eval/resultados.json` y `resultados.js` | `run_eval.py` | Sección 11 |
-| `eval_asesor/resultados_asesor.json`, `.js` y `Anexo_B.xlsx` | `run_eval_asesor.py` | Sección 11 |
-
-Las carpetas `data/`, `output/`, `MAGISTER/` y `.venv/` están en `.gitignore`: el material del curso no se sube al repositorio.
-
-## 8. Qué queda fuera
-
-- **El informe PDF** de 20 a 35 páginas, la recomendación, los riesgos adaptados a su solución y los Anexos C (uso de IA) y D (aportes por integrante).
-- **Cifras reales:** precios, costos de personal, CAPEX y tasa de descuento son supuestos hasta que el grupo los respalde con fuentes y fecha en el Anexo B.
-- **Declaración de IA:** si usan `--llm` o cualquier asistente, va en el Anexo C. Lo que firman es del grupo, incluidas las cifras y las citas.
+**Panel (pestaña Benchmark):** se ve en `http://127.0.0.1:8000` con `python -m copilot web`, o abriendo `index.html` con doble clic (en ese modo la pestaña Asesor no funciona; necesita internet por las librerías de gráficos). Lee `resultados.js` y `eval_asesor/resultados_asesor.js`; si no existen muestra textos de ejemplo y lo avisa. Tiene un selector entre el benchmark de la tarea (5 configuraciones) y el del asesor (6: se suma el motor de reglas tras `run_eval_motor.py`).
 
 ## 9. Pruebas
 
 ```powershell
 python -m unittest discover -s tests -t .
 ```
+
+## 10. Qué hay en cada carpeta
+
+| Ruta | Contenido |
+|---|---|
+| `copilot/advisor.py`, `asesor_llm.py`, `web.py`, `llm.py` | Asesor, capa LLM, interfaz web, conexión a ChatGPT/Hugging Face |
+| `copilot/engine_taai2.py`, `budget_extras.py`, `innovate.py`, `planner.py`, `optimizer.py`, `verifier.py` | Presupuesto, riesgos, propuesta, planificación, optimización, verificador simbólico |
+| `copilot/scan.py`, `extract.py`, `index.py`, `outline.py`, `trace.py`, `cli.py` | Material de las clases e interfaz de comandos |
+| `index.html` | Página única: pestaña Asesor + pestaña Benchmark de modelos |
+| `config/` | `team.csv`, `sections.csv`, `topics.csv`, `advisor_costs.json` (opcional) |
+| `copilot/motor_asesor.py`, `run_eval_motor.py` | Mide el motor de reglas con las mismas preguntas y métricas que los LLM |
+| `eval/`, `eval_asesor/` | Preguntas, corpus y resultados de los benchmarks |
+| `MAGISTER/` | Transcripciones y chats de las clases (entrada de `scan`/`ingest`) |
+| `data/`, `output/` | Índice de búsqueda y salidas generadas |
+| `Anexo_B.xlsx`, `Anexo_B_FINAL.xlsx` | Supuestos y presupuesto del informe |
+
+## 11. Problemas comunes
+
+| Síntoma | Causa y solución |
+|---|---|
+| `HTTP 400 de openai (modelo=...)` | El modelo no existe en tu cuenta. Define `LLM_MODEL_OPENAI` o déjalo vacío (usa `gpt-4o-mini`). |
+| `HTTP 400 de huggingface` | El modelo no está disponible en el router para tu cuenta. Prueba otro en `LLM_MODEL_HUGGINGFACE` o usa solo `LLM_PROVIDER=openai`. El mensaje trae el detalle del proveedor. |
+| El LLM falla | El asesor sigue funcionando por reglas y lo avisa con `!`; la recomendación no depende del LLM. |
+| `Define LLM_PROVIDER` | Falta la línea en `.env` o tiene un comentario pegado en la misma línea. |
+| `ask` no devuelve nada | Falta `python -m copilot ingest`. |
+| `ModuleNotFoundError: dotenv` | `python -m pip install -r requirements-eval.txt`. |
+| El LLM clasificó mal tu texto | Revisa la línea "Datos entendidos del texto" y pasa los datos clave por flags (tienen prioridad). |
