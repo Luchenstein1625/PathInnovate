@@ -1,5 +1,10 @@
 # PathInnovate
 
+## Entrega actualizada con feedback y FINAL3
+
+Los documentos vigentes están en [entrega/](entrega/LEEME.md): PDF, Word y Excel sincronizados, con cinco gráficos integrados. Consulta [la matriz de correcciones y límites](docs/APLICACION_FEEDBACK.md). El resultado permite un piloto supervisado; no autoriza escalar. Fecha: 15/11/2026, 23:59 Chile. Las identidades/aportes del grupo y la validación independiente requieren ratificación real.
+
+
 Orienta a cualquier persona a **innovar con IA sin que le vendan algo más caro de lo que necesita**. Recomienda la solución más simple que resuelve su problema y se paga sola (nada de IA, reglas, ML clásico, RAG con API, modelo propio o agente), y explica por qué las alternativas más caras no hacen falta.
 
 Además sirve de apoyo a la **Tarea grupal TAAI2** (Magíster en IA · UAI): busca en el material de las clases, arma la trazabilidad (Anexo A), calcula presupuesto (Anexo B) y revisa borradores. El PDF del informe lo escribe el grupo.
@@ -143,6 +148,7 @@ python -m copilot.engine_taai2 budget --queries 50000 --strategy all --xlsx Anex
 python -m copilot.engine_taai2 budget --queries 50000 --strategy api                      # api | slm_self_hosted | hybrid | all
 python -m copilot.engine_taai2 reliability --acc 0.95,0.9,0.92 --hitl 2:0.8              # precisión del flujo completo
 python -m copilot.engine_taai2 risks                                                      # matriz de riesgos
+python -m copilot.engine_taai2 portfolio --presupuesto 12000 --horas 70 --json docs/portafolio_candidatas.json
 python -m copilot.engine_taai2 optimize --agents 3 --durations 5,3,8,2,7,4,6,1            # reparto de tareas (greedy vs recocido)
 python -m copilot.engine_taai2 plan "meta del proyecto"                                   # plan neuro-simbólico
 python -m copilot.engine_taai2 traceability > Anexo_A.md
@@ -187,7 +193,7 @@ python -m unittest discover -s tests -t .
 | `eval/`, `eval_asesor/` | Preguntas, corpus y resultados de los benchmarks |
 | `MAGISTER/` | Transcripciones y chats de las clases (entrada de `scan`/`ingest`) |
 | `data/`, `output/` | Índice de búsqueda y salidas generadas |
-| `Anexo_B.xlsx`, `Anexo_B_FINAL.xlsx` | Supuestos y presupuesto del informe |
+| `entrega/Anexo_B_PathInnovate.xlsx` | Presupuesto vigente del informe; los otros anexos son históricos |
 
 ## 11. Problemas comunes
 

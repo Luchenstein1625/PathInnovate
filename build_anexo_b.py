@@ -1,11 +1,13 @@
 """Genera Anexo_B_v2.xlsx con FORMULAS trazables (todo recalcula al cambiar un supuesto en la hoja Supuestos).
 Uso: python build_anexo_b.py [salida.xlsx]   y luego recalcular con LibreOffice o abrir en Excel."""
-import sys
+import sys, json
+from pathlib import Path
+B = json.loads((Path(__file__).resolve().parent / "config/budget_current.json").read_text(encoding="utf-8"))["assumptions"]
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.comments import Comment
 
-OUT = sys.argv[1] if len(sys.argv) > 1 else "Anexo_B_v2.xlsx"
+OUT = sys.argv[1] if len(sys.argv) > 1 else "entrega/Anexo_B_PathInnovate.xlsx"
 F = "Arial"; BLUE = Font(name=F, color="0000FF"); BLK = Font(name=F); BOLD = Font(name=F, bold=True)
 HEAD = PatternFill("solid", fgColor="D9E2F3"); WARN = PatternFill("solid", fgColor="FFF2CC")
 wb = Workbook()
@@ -20,7 +22,7 @@ for r, t in enumerate(["Anexo B · Supuestos y presupuesto del Asesor de tecnolo
     "Azul = dato de entrada editable (hoja Supuestos). Negro = fórmula. Todas las hojas recalculan al cambiar una entrada.",
     "Tipo de dato: MEDIDO (sale de las evaluaciones del proyecto), FUENTE (página oficial con fecha) o SUPUESTO (del grupo; debe justificarse).",
     "Hojas: Supuestos > TCO > Equilibrio > Sensibilidad > Escenarios.",
-    "Cambios respecto de la versión anterior: tokens medidos del asesor (612,8 de entrada y 64,5 de salida), GPU disponible 24/7 (730 h),",
+    "Cambios respecto de la versión anterior: tokens medidos del asesor (522,7 de entrada y 55,3 de salida), GPU disponible 24/7 (730 h),",
     "personal por rol y dedicación, y líneas de datos, licencias y capacitación. Todo con fórmulas."], 1):
     lg.cell(row=r, column=1, value=t).font = BOLD if r == 1 else BLK
 lg.column_dimensions["A"].width = 130
@@ -36,12 +38,12 @@ def inp(key, label, val, unit, tipo, src, date="2026-11-12", fmt=None):
     for col, v in ((3, unit), (4, tipo), (5, src), (6, date)): sp.cell(row=r, column=col, value=v).font = BLK
     if tipo == "SUPUESTO": sp.cell(row=r, column=4).fill = WARN
     R[key] = f"Supuestos!$B${r}"
-SRC_EV = "eval_asesor/resultados_asesor_FINAL2.json, config híbrido, 96 respuestas (incluye reintentos)"
+SRC_EV = "eval_asesor/resultados_asesor_FINAL3.json, config híbrido, 96 respuestas (incluye reintentos)"
 inp("Q", "Consultas al mes", 50000, "consultas/mes", "SUPUESTO", "Consultora ficticia: 10.000 clientes activos × 5 consultas al mes", fmt="#,##0")
-inp("TIN", "Tokens de entrada por consulta", 612.8, "tokens", "MEDIDO", SRC_EV, "2026-11-01", "0.0")
-inp("TOUT", "Tokens de salida por consulta", 64.5, "tokens", "MEDIDO", SRC_EV, "2026-11-01", "0.0")
-inp("PIN", "Precio de entrada del modelo (gpt-4o-mini)", 0.15, "USD por millón de tokens", "FUENTE", "Página oficial de precios de OpenAI; verificar vigencia antes de entregar", "2026-11-01", "0.00")
-inp("POUT", "Precio de salida del modelo (gpt-4o-mini)", 0.60, "USD por millón de tokens", "FUENTE", "Página oficial de precios de OpenAI; verificar vigencia antes de entregar", "2026-11-01", "0.00")
+inp("TIN", "Tokens de entrada por consulta", B["prompt_tokens"], "tokens", "MEDIDO", SRC_EV, "2026-11-12", "0.0")
+inp("TOUT", "Tokens de salida por consulta", B["completion_tokens"], "tokens", "MEDIDO", SRC_EV, "2026-11-12", "0.0")
+inp("PIN", "Precio de entrada del modelo (gpt-4o-mini)", B["api_in_per_mtok"], "USD por millón de tokens", "FUENTE", "https://developers.openai.com/api/docs/models/gpt-4o-mini", "2026-11-12", "0.00")
+inp("POUT", "Precio de salida del modelo (gpt-4o-mini)", B["api_out_per_mtok"], "USD por millón de tokens", "FUENTE", "https://developers.openai.com/api/docs/models/gpt-4o-mini", "2026-11-12", "0.00")
 inp("GPU", "Costo por hora de GPU", 1.20, "USD/h", "SUPUESTO", "Sin fuente: reemplazar por precio de lista del proveedor de nube, con fecha", fmt="0.00")
 inp("H", "Horas de GPU al mes", 730, "h/mes", "SUPUESTO", "Servicio disponible 24/7 (corrige las 19,3 h de cómputo medido en la corrida)", fmt="#,##0")
 inp("INFRA_API", "Infraestructura base (alternativa API)", 50, "USD/mes", "SUPUESTO", "Cloud Run con escala a cero, registros y secretos", fmt="#,##0")
@@ -58,7 +60,7 @@ inp("AUTO", "Tasa de automatización", 0.5, "fracción", "SUPUESTO", "Sin fuente
 inp("TASA", "Tasa de descuento anual", 0.10, "tasa", "SUPUESTO", "Sin fuente: justificar con una referencia financiera", fmt="0%")
 inp("DELTA", "Variación para la sensibilidad", 0.30, "fracción", "SUPUESTO", "±30 % sobre cada variable", fmt="0%")
 
-sp.cell(row=sp.max_row + 2, column=1, value="Personal por rol (todo SUPUESTO: pendiente fuente de remuneraciones con fecha)").font = BOLD
+sp.cell(row=sp.max_row + 2, column=1, value="Personal por rol: tarifas internas de planificacion; no remuneraciones verificadas").font = BOLD
 r0 = sp.max_row + 1; head(sp, r0, ["Rol", "Costo mensual completo (USD)", "Dedicación API", "Dedicación híbrido", "Dedicación modelo propio", ""])
 roles = [("Ingeniero de IA", 5000, .3, .5, .8), ("DevOps", 4500, .1, .2, .25), ("Consultor revisor de casos derivados", 3000, .2, .2, .15)]
 for i, (n, c, a, h, s) in enumerate(roles, r0 + 1):
@@ -176,4 +178,15 @@ for r, (nom, m) in enumerate([("Precio de los tokens ÷ 10", dict(ONE, p="0.1"))
     for col in range(2, 6): x.cell(row=r, column=col).font = BLK
 x.column_dimensions["A"].width = 40
 for col in "BCDE": x.column_dimensions[col].width = 18
+# Interpretacion financiera y capacidad; mismos controles del anexo final.
+e['C5'] = 'Cruce algebraico de OPEX con costos y capacidad constantes; no es un umbral operativo validado.'
+e.append([]);e.append(['Limite de capacidad','No medido','No extrapolar una GPU a millones de consultas.'])
+e.append(['Comparacion de calidad','No equivalente','Validar automatizacion por alternativa.'])
+for address,value in {'A6':'Monetizacion alternativa (no sumar al ahorro interno)','A7':'Clientes de pago (supuesto)','B7':1000,'A8':'Precio mensual USD (supuesto)','B8':5,'A9':'Ingresos mensuales','B9':'=B7*B8','A10':'OPEX mensual API','B10':'=TCO!B7','A11':'Margen operativo mensual antes de CAPEX e impuestos','B11':'=B9-B10','A12':'Margen operativo porcentual','B12':'=IF(B9>0,B11/B9,0)','A14':'Revision humana (capacidad supuesta)','A15':'Horas laborales/mes por FTE','B15':160,'A16':'Minutos por derivacion','B16':3,'A17':'Capacidad mensual del consultor API','B17':'=Supuestos!C27*B15*60/B16','A18':'Abstencion interna FINAL3','B18':.156,'A19':'Derivaciones mensuales','B19':'=Supuestos!B2*B18','A20':'Brecha de capacidad mensual','B20':'=MAX(0,B19-B17)','A22':'Conclusion','B22':'No escalar sin dimensionar y financiar capacidad humana.'}.items():
+    x[address]=value
+x['B12'].number_format='0.0%';x['B18'].number_format='0.0%'
+for cell in ['B9','B10','B11']:x[cell].number_format='#,##0.00'
+sp['B33']='=IF(Supuestos!$B$32=0,12,(1-(1+Supuestos!$B$32)^(-12))/Supuestos!$B$32)'
+sp['B34']='=IF(Supuestos!$B$32=0,36,(1-(1+Supuestos!$B$32)^(-36))/Supuestos!$B$32)'
+Path(OUT).parent.mkdir(parents=True, exist_ok=True)
 wb.save(OUT); print("escrito", OUT)

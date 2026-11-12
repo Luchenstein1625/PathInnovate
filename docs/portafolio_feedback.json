@@ -1,0 +1,74 @@
+{
+  "presupuesto_setup_usd": 12000,
+  "horas_disponibles": 70,
+  "combinaciones_evaluadas": 64,
+  "exacto": {
+    "elegidas": [
+      "ML para predecir abandono de clientes",
+      "Optimizador de rutas de reparto"
+    ],
+    "setup_usd": 10000,
+    "horas": 70,
+    "beneficio_neto_mensual_usd": 2660
+  },
+  "voraz": {
+    "elegidas": [
+      "Planilla de cierre de caja (sin IA)",
+      "Bot de reglas para preguntas frecuentes",
+      "RAG sobre el manual de la empresa",
+      "ML para predecir abandono de clientes"
+    ],
+    "setup_usd": 7900,
+    "horas": 70,
+    "beneficio_neto_mensual_usd": 2580
+  },
+  "cpu_seconds": 0.00015325200001825579,
+  "items": [
+    {
+      "nombre": "Planilla de cierre de caja (sin IA)",
+      "setup": 100,
+      "mensual": 0,
+      "ahorro": 150,
+      "horas": 3
+    },
+    {
+      "nombre": "Bot de reglas para preguntas frecuentes",
+      "setup": 800,
+      "mensual": 30,
+      "ahorro": 400,
+      "horas": 12
+    },
+    {
+      "nombre": "RAG sobre el manual de la empresa",
+      "setup": 3000,
+      "mensual": 80,
+      "ahorro": 900,
+      "horas": 25,
+      "depende_de": [
+        "Bot de reglas para preguntas frecuentes"
+      ]
+    },
+    {
+      "nombre": "ML para predecir abandono de clientes",
+      "setup": 4000,
+      "mensual": 60,
+      "ahorro": 1300,
+      "horas": 30
+    },
+    {
+      "nombre": "Optimizador de rutas de reparto",
+      "setup": 6000,
+      "mensual": 80,
+      "ahorro": 1500,
+      "horas": 40
+    },
+    {
+      "nombre": "Agente de agendamiento con humano",
+      "setup": 12000,
+      "mensual": 200,
+      "ahorro": 2600,
+      "horas": 80
+    }
+  ],
+  "tipo_datos": "Supuestos ilustrativos, no ahorro medido"
+}

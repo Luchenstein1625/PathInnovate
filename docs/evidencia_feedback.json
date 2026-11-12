@@ -1,0 +1,324 @@
+[
+  {
+    "archivo": "eval_asesor/resultados_asesor_FINAL3.json",
+    "sha256": "86bb18515d769219b6ba33868514c1c4fa865f29fd6db0f2a73c50f351ff2a24",
+    "meta": {
+      "dominio": "asesoría de innovación con IA para emprendedores",
+      "fecha": "2026-11-12T18:56:40",
+      "dispositivo": "gpu-cuda",
+      "modelo_openai": "gpt-4o-mini",
+      "modelo_local": "Qwen/Qwen2.5-1.5B-Instruct",
+      "n_preguntas": 32,
+      "repeticiones": 3,
+      "k_contexto": 5,
+      "recall_regla_correcta_en_top_k": 1.0,
+      "python": "3.12.7",
+      "nota": "Reglas y etiquetas definidas por el grupo (supuestos a validar con un experto). sobredimensionada = etiqueta de mayor complejidad que la de referencia.",
+      "archivo_preguntas": "C:\\Users\\Windows 10 Pro\\Desktop\\Magister\\16 TÓPICOS AVANZADOS EN INTELIGENCIA ARTIFICIAL 2\\Tarea Grupal\\PathInnovate\\eval_asesor\\preguntas.json"
+    },
+    "diagnosticos": {
+      "llm_solo": {
+        "n_respuestas_archivadas": 32,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 32,
+            "n_aprobadas": 0,
+            "tasa_condicional": 0.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          }
+        ],
+        "tasa_conjunta": 0.0
+      },
+      "rag_openai": {
+        "n_respuestas_archivadas": 32,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 32,
+            "n_aprobadas": 30,
+            "tasa_condicional": 0.9375
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 30,
+            "n_aprobadas": 30,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 30,
+            "n_aprobadas": 24,
+            "tasa_condicional": 0.8
+          }
+        ],
+        "tasa_conjunta": 0.75
+      },
+      "rag_local": {
+        "n_respuestas_archivadas": 32,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 32,
+            "n_aprobadas": 0,
+            "tasa_condicional": 0.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          }
+        ],
+        "tasa_conjunta": 0.0
+      },
+      "hibrido": {
+        "n_respuestas_archivadas": 32,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 32,
+            "n_aprobadas": 26,
+            "tasa_condicional": 0.8125
+          }
+        ],
+        "tasa_conjunta": 0.8125
+      },
+      "hibrido_local": {
+        "n_respuestas_archivadas": 32,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 32,
+            "n_aprobadas": 32,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 32,
+            "n_aprobadas": 22,
+            "tasa_condicional": 0.6875
+          }
+        ],
+        "tasa_conjunta": 0.6875
+      }
+    },
+    "limitacion": "El JSON conserva respuestas individuales de la repeticion 0. Las metricas agregadas internas cubren 3 repeticiones; no se reconstruyen las 96 respuestas desde 32. Citas y cifras son controles sintacticos, no validacion semantica ni juicio independiente. Tasas condicionales calculadas sobre supervivientes; no se multiplican marginales independientes."
+  },
+  {
+    "archivo": "eval_asesor/externas/resultados_asesor.json",
+    "sha256": "d4a50a7c6afe97e57082429c8d581fcc96485fdbb1ffa15ebc0e766fdcb1ddc7",
+    "meta": {
+      "dominio": "asesoría de innovación con IA para emprendedores",
+      "fecha": "2026-11-10T19:55:19",
+      "dispositivo": "n/a",
+      "modelo_openai": "gpt-4o-mini",
+      "modelo_local": "Qwen/Qwen2.5-1.5B-Instruct",
+      "n_preguntas": 31,
+      "repeticiones": 1,
+      "k_contexto": 5,
+      "recall_regla_correcta_en_top_k": null,
+      "python": "3.12.7",
+      "nota": "Reglas y etiquetas definidas por el grupo (supuestos a validar con un experto). sobredimensionada = etiqueta de mayor complejidad que la de referencia.",
+      "archivo_preguntas": "eval_asesor\\preguntas_externas.json",
+      "motor_reglas": "extractor LLM (gpt-4o-mini) + decide()"
+    },
+    "diagnosticos": {
+      "llm_solo": {
+        "n_respuestas_archivadas": 31,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 31,
+            "n_aprobadas": 0,
+            "tasa_condicional": 0.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          }
+        ],
+        "tasa_conjunta": 0.0
+      },
+      "rag_openai": {
+        "n_respuestas_archivadas": 31,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 31,
+            "n_aprobadas": 27,
+            "tasa_condicional": 0.8709677419354839
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 27,
+            "n_aprobadas": 27,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 27,
+            "n_aprobadas": 21,
+            "tasa_condicional": 0.7777777777777778
+          }
+        ],
+        "tasa_conjunta": 0.6774193548387096
+      },
+      "hibrido": {
+        "n_respuestas_archivadas": 31,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 31,
+            "n_aprobadas": 25,
+            "tasa_condicional": 0.8064516129032258
+          }
+        ],
+        "tasa_conjunta": 0.8064516129032258
+      },
+      "motor_reglas": {
+        "n_respuestas_archivadas": 31,
+        "repeticion": 0,
+        "etapas": [
+          {
+            "etapa": "formato",
+            "n_entrada": 31,
+            "n_aprobadas": 31,
+            "tasa_condicional": 1.0
+          },
+          {
+            "etapa": "citas_sintacticas",
+            "n_entrada": 31,
+            "n_aprobadas": 0,
+            "tasa_condicional": 0.0
+          },
+          {
+            "etapa": "cifras_en_contexto",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          },
+          {
+            "etapa": "etiqueta_referencia",
+            "n_entrada": 0,
+            "n_aprobadas": 0,
+            "tasa_condicional": null
+          }
+        ],
+        "tasa_conjunta": 0.0
+      }
+    },
+    "limitacion": "El JSON conserva respuestas individuales de la repeticion 0. Las metricas agregadas internas cubren 3 repeticiones; no se reconstruyen las 96 respuestas desde 32. Citas y cifras son controles sintacticos, no validacion semantica ni juicio independiente. Tasas condicionales calculadas sobre supervivientes; no se multiplican marginales independientes."
+  }
+]

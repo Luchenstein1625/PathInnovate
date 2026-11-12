@@ -2,7 +2,7 @@
 Etiquetas: NO_IA < REGLAS < ML_TABULAR/API_RAG < SLM_PROPIO < AGENTE. Las 5 configuraciones son las de evaluator.py.
 Limitación declarada: el corpus son reglas del grupo (supuestos a validar) y las etiquetas de referencia las fijó el
 grupo; mide recuperación + aplicación de reglas, no la calidad de un experto externo."""
-import datetime, json, platform, re
+import datetime, json, platform, re, hashlib, subprocess
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -130,11 +130,18 @@ def run_benchmark_asesor(runner, preguntas, corpus, repeats=1, include_local=Tru
                 except Exception as e:
                     errors.append({"cfg": c, "q": q["id"], "error": str(e)[:200]}); continue
                 row = {"qid": q["id"], "rep": rep, "answer": ans, "latency": lat, "cost": cost, "tok_in": tok[0], "tok_out": tok[1],
-                       "tokens": tok[0] + tok[1], "retries": ret, "reparada": rp, **score(q, ans, chunks, c != "llm_solo")}
+                       "tokens": tok[0] + tok[1], "contexto_ids": [chunk["id"] for chunk in chunks], "retries": ret, "reparada": rp, **score(q, ans, chunks, c != "llm_solo")}
                 rows[c].append(row)
                 if rep == 0:
                     resp.setdefault(q["id"], {})[c] = row
-    return {"meta": {"dominio": "asesoría de innovación con IA para emprendedores", "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
+    def digest(value):
+        return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+    try:
+        commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL).strip()
+    except (OSError, subprocess.CalledProcessError):
+        commit = None
+    return {"filas": rows, "meta": {"commit_codigo": commit, "sha256_corpus": digest(corpus),
+                     "sha256_preguntas": digest(preguntas), "filas_completas": True, "dominio": "asesoría de innovación con IA para emprendedores", "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
                      "dispositivo": getattr(runner, "device_label", "n/a"), "modelo_openai": getattr(runner, "openai_model", "?"),
                      "modelo_local": getattr(runner, "local_model_id", "?"), "n_preguntas": len(preguntas), "repeticiones": repeats,
                      "k_contexto": k, "recall_regla_correcta_en_top_k": round(sum(hit) / len(hit), 3) if hit else None,

@@ -48,29 +48,34 @@ def chain_reliability(acc: List[float], hitl: Optional[Dict[int, float]] = None)
 # ---------------- S6: presupuesto ----------------
 # (valor, unidad, fuente, fecha). Son SUPUESTOS: verificar precios en paginas oficiales antes de citarlos.
 FUENTE_PRECIO = "Supuesto del grupo; VERIFICAR en pagina oficial del proveedor"
+_CURRENT = json.loads((Path(__file__).resolve().parents[1] / "config/budget_current.json").read_text(encoding="utf-8"))["assumptions"]
 @dataclass
 class Assumptions:
-    monthly_queries: int = 50000
-    prompt_tokens: int = 1500
-    completion_tokens: int = 500
-    api_in_per_mtok: float = 2.50
-    api_out_per_mtok: float = 10.00
-    gpu_hour: float = 1.20
-    gpu_hours_month: float = 730.0
-    infra_base_month: float = 100.0
-    personnel_api: float = 2500.0
-    personnel_self: float = 5500.0
-    personnel_hybrid: float = 4000.0
-    capex_api: float = 5000.0
-    capex_self: float = 15000.0
-    capex_hybrid: float = 10000.0
-    slm_share_hybrid: float = 0.8
-    manual_cost_per_case: float = 0.40
-    automation_rate: float = 0.5
-    discount_rate_annual: float = 0.10
+    monthly_queries: int = _CURRENT["monthly_queries"]
+    prompt_tokens: int = _CURRENT["prompt_tokens"]
+    completion_tokens: int = _CURRENT["completion_tokens"]
+    api_in_per_mtok: float = _CURRENT["api_in_per_mtok"]
+    api_out_per_mtok: float = _CURRENT["api_out_per_mtok"]
+    gpu_hour: float = _CURRENT["gpu_hour"]
+    gpu_hours_month: float = _CURRENT["gpu_hours_month"]
+    infra_base_month: float = _CURRENT["infra_base_month"]
+    personnel_api: float = _CURRENT["personnel_api"]
+    personnel_self: float = _CURRENT["personnel_self"]
+    personnel_hybrid: float = _CURRENT["personnel_hybrid"]
+    capex_api: float = _CURRENT["capex_api"]
+    capex_self: float = _CURRENT["capex_self"]
+    capex_hybrid: float = _CURRENT["capex_hybrid"]
+    slm_share_hybrid: float = _CURRENT["slm_share_hybrid"]
+    manual_cost_per_case: float = _CURRENT["manual_cost_per_case"]
+    automation_rate: float = _CURRENT["automation_rate"]
+    discount_rate_annual: float = _CURRENT["discount_rate_annual"]
 
+    infra_api_month: float = _CURRENT["infra_api_month"]
+    licenses_month: float = _CURRENT["licenses_month"]
+    data_capex: float = _CURRENT["data_capex"]
+    training_capex: float = _CURRENT["training_capex"]
     def table(self) -> List[tuple]:
-        d = "2026-10-31"
+        d = "2026-11-12"
         units = {"monthly_queries": "consultas/mes", "prompt_tokens": "tokens", "completion_tokens": "tokens",
                  "api_in_per_mtok": "USD/1M tok", "api_out_per_mtok": "USD/1M tok", "gpu_hour": "USD/h",
                  "gpu_hours_month": "h/mes", "discount_rate_annual": "tasa", "slm_share_hybrid": "fraccion",
@@ -91,15 +96,15 @@ class BudgetCalculator:
             return n * (a.prompt_tokens * a.api_in_per_mtok + a.completion_tokens * a.api_out_per_mtok) / 1e6
         gpu = a.gpu_hour * a.gpu_hours_month
         if s == "api":
-            return {"tokens": tok(q), "infra": 50.0, "personal": a.personnel_api}
+            return {"tokens": tok(q), "infra": a.infra_api_month, "personal": a.personnel_api, "licencias": a.licenses_month}
         if s == "slm_self_hosted":
-            return {"tokens": 0.0, "infra": gpu + a.infra_base_month, "personal": a.personnel_self}
+            return {"tokens": 0.0, "infra": gpu + a.infra_base_month, "personal": a.personnel_self, "licencias": a.licenses_month}
         if s == "hybrid":
-            return {"tokens": tok(q * (1 - a.slm_share_hybrid)), "infra": gpu + a.infra_base_month, "personal": a.personnel_hybrid}
+            return {"tokens": tok(q * (1 - a.slm_share_hybrid)), "infra": gpu + a.infra_base_month, "personal": a.personnel_hybrid, "licencias": a.licenses_month}
         raise ValueError(s)
 
     def _capex(self, s: str) -> float:
-        return {"api": self.a.capex_api, "slm_self_hosted": self.a.capex_self, "hybrid": self.a.capex_hybrid}[s]
+        return {"api": self.a.capex_api, "slm_self_hosted": self.a.capex_self, "hybrid": self.a.capex_hybrid}[s] + self.a.data_capex + self.a.training_capex
 
     def _benefit(self) -> float:
         return self.a.monthly_queries * self.a.automation_rate * self.a.manual_cost_per_case
@@ -110,7 +115,7 @@ class BudgetCalculator:
         return {"horizonte_meses": months, "estrategia": strategy, "capex_usd": round(capex, 2), "opex_usd": round(opex, 2),
                 "desglose_opex": {"inferencia_tokens_usd": round(m["tokens"] * months, 2),
                                   "infraestructura_cloud_usd": round(m["infra"] * months, 2),
-                                  "personal_operaciones_usd": round(m["personal"] * months, 2)},
+                                  "personal_operaciones_usd": round(m["personal"] * months, 2), "licencias_usd": round(m["licencias"] * months, 2)},
                 "tco_total_usd": round(capex + opex, 2)}
 
     def npv(self, months: int, strategy: str) -> float:
@@ -276,26 +281,58 @@ PORTAFOLIO_EJEMPLO = [  # ilustrativo: supuestos para una pyme; setup y mensual 
     {"nombre": "Agente de agendamiento con humano", "setup": 12000, "mensual": 200, "ahorro": 2600},
 ]
 
-def select_portfolio(items: List[Dict[str, Any]], budget: float) -> Dict[str, Any]:
-    """Maximiza el beneficio neto mensual sum(ahorro-mensual) sujeto a sum(setup) <= budget.
-    Exacto por enumeracion (2^n, razonable hasta n~20) y comparado con la heuristica voraz por razon beneficio/setup."""
-    n = len(items); net = lambda x: x["ahorro"] - x["mensual"]
-    best, best_mask, evaluados = -1.0, 0, 0
-    for mask in range(1 << n):
-        evaluados += 1
-        sel = [items[i] for i in range(n) if mask >> i & 1]
-        if sum(x["setup"] for x in sel) <= budget:
-            g = sum(net(x) for x in sel)
-            if g > best:
-                best, best_mask = g, mask
-    exact = [items[i] for i in range(n) if best_mask >> i & 1]
-    greedy, used = [], 0.0
+def select_portfolio(items: List[Dict[str, Any]], budget: float, hours_available: Optional[float] = None) -> Dict[str, Any]:
+    """Exact enumeration and greedy baseline, with setup budget, hours and dependency closure.
+    Hours are total implementation effort, not a calendar makespan. At most 20 items.
+    Optional item keys: horas (nonnegative), depende_de (list of item names).
+    """
+    if not math.isfinite(budget) or budget < 0 or (hours_available is not None and (not math.isfinite(hours_available) or hours_available < 0)):
+        raise ValueError("Presupuesto y horas deben ser finitos y no negativos")
+    if len(items) > 20:
+        raise ValueError("Enumeracion limitada a 20 candidatas")
+    names = [x["nombre"] for x in items]
+    if len(set(names)) != len(names):
+        raise ValueError("Nombres duplicados")
+    by = {x["nombre"]: x for x in items}
+    for x in items:
+        for k in ("setup", "mensual", "ahorro", "horas"):
+            v = x.get(k, 0)
+            if not isinstance(v, (int, float)) or not math.isfinite(v) or v < 0:
+                raise ValueError("Costos, ahorro y horas deben ser finitos y no negativos")
+        if any(d not in by for d in x.get("depende_de", [])):
+            raise ValueError("Dependencia inexistente")
+    def closure(name, visiting=None):
+        visiting = set() if visiting is None else visiting
+        if name in visiting:
+            raise ValueError("Dependencia circular")
+        out = {name}
+        for dep in by[name].get("depende_de", []):
+            out |= closure(dep, visiting | {name})
+        return out
+    closures = {n: closure(n) for n in names}
+    def feasible(sel):
+        chosen = {x["nombre"] for x in sel}
+        return (sum(x["setup"] for x in sel) <= budget and
+                (hours_available is None or sum(x.get("horas", 0) for x in sel) <= hours_available) and
+                all(set(x.get("depende_de", [])) <= chosen for x in sel))
+    net = lambda x: x["ahorro"] - x["mensual"]
+    exact, best = [], 0.0
+    for mask in range(1 << len(items)):
+        sel = [x for i, x in enumerate(items) if mask >> i & 1]
+        value = sum(net(x) for x in sel)
+        if feasible(sel) and value > best:
+            exact, best = sel, value
+    greedy = []
     for x in sorted(items, key=lambda x: -net(x) / max(x["setup"], 1)):
-        if used + x["setup"] <= budget and net(x) > 0:
-            greedy.append(x); used += x["setup"]
+        wanted = {z["nombre"] for z in greedy} | closures[x["nombre"]]
+        sel = [z for z in items if z["nombre"] in wanted]
+        if feasible(sel) and sum(net(z) for z in sel) > sum(net(z) for z in greedy):
+            greedy = sel
     pack = lambda sel: {"elegidas": [x["nombre"] for x in sel], "setup_usd": sum(x["setup"] for x in sel),
+                        "horas": sum(x.get("horas", 0) for x in sel),
                         "beneficio_neto_mensual_usd": sum(net(x) for x in sel)}
-    return {"presupuesto_setup_usd": budget, "combinaciones_evaluadas": evaluados, "exacto": pack(exact), "voraz": pack(greedy)}
+    return {"presupuesto_setup_usd": budget, "horas_disponibles": hours_available,
+            "combinaciones_evaluadas": 1 << len(items), "exacto": pack(exact), "voraz": pack(greedy)}
 
 # ---------------- CLI ----------------
 def run_cli(argv=None):
@@ -311,7 +348,7 @@ def run_cli(argv=None):
     r.add_argument("--acc", default="0.95,0.9,0.92,0.97")
     r.add_argument("--hitl", default="", help="ej: 3:0.8")
     sp.add_parser("risks")
-    pf = sp.add_parser("portfolio"); pf.add_argument("--presupuesto", type=float, default=12000); pf.add_argument("--json", help="archivo con la lista de automatizaciones")
+    pf = sp.add_parser("portfolio"); pf.add_argument("--presupuesto", type=float, default=12000); pf.add_argument("--horas", type=float); pf.add_argument("--json", help="archivo con la lista de automatizaciones")
     o = sp.add_parser("optimize")
     o.add_argument("--agents", type=int, default=3)
     o.add_argument("--durations", default="5,3,8,2,7,4,6,1")
@@ -333,7 +370,7 @@ def run_cli(argv=None):
     elif a.cmd == "risks": dump(risk_register())
     elif a.cmd == "portfolio":
         items = json.loads(Path(a.json).read_text(encoding="utf-8")) if a.json else PORTAFOLIO_EJEMPLO
-        dump(select_portfolio(items, a.presupuesto))
+        dump(select_portfolio(items, a.presupuesto, a.horas))
     elif a.cmd == "optimize": dump(optimize_assignment([float(x) for x in a.durations.split(",")], a.agents))
     elif a.cmd == "check-pdf": dump(check_pdf(a.pdf))
     else: ap.print_help()

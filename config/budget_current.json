@@ -1,0 +1,29 @@
+{
+  "base_evidencia": "eval_asesor/resultados_asesor_FINAL3.json",
+  "fecha": "2026-11-12",
+  "tipo": "Proyeccion condicionada; roles/GPU/beneficio son supuestos",
+  "assumptions": {
+    "monthly_queries": 50000,
+    "prompt_tokens": 522.7,
+    "completion_tokens": 55.3,
+    "api_in_per_mtok": 0.15,
+    "api_out_per_mtok": 0.6,
+    "gpu_hour": 1.2,
+    "gpu_hours_month": 730,
+    "infra_base_month": 100,
+    "infra_api_month": 50,
+    "personnel_api": 2550,
+    "personnel_self": 5575,
+    "personnel_hybrid": 4000,
+    "capex_api": 5000,
+    "capex_self": 15000,
+    "capex_hybrid": 10000,
+    "slm_share_hybrid": 0.8,
+    "manual_cost_per_case": 0.4,
+    "automation_rate": 0.5,
+    "discount_rate_annual": 0.1,
+    "licenses_month": 50,
+    "data_capex": 1500,
+    "training_capex": 1000
+  }
+}
