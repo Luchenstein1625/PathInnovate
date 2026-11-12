@@ -266,6 +266,37 @@ def check_pdf(path: str) -> Dict[str, Any]:
     return {"paginas_total": len(pages), "paginas_sin_anexos": body, "rango_20_35_ok": 20 <= body <= 35,
             "secciones_faltantes": missing, "veredicto_presente": any(re.search(r"viable con condiciones|no viable|\bviable\b", t) for t in low)}
 
+# ---------------- S5: seleccion de portafolio de automatizaciones (mochila) ----------------
+PORTAFOLIO_EJEMPLO = [  # ilustrativo: supuestos para una pyme; setup y mensual en USD
+    {"nombre": "Planilla de cierre de caja (sin IA)", "setup": 100, "mensual": 0, "ahorro": 150},
+    {"nombre": "Bot de reglas para preguntas frecuentes", "setup": 800, "mensual": 30, "ahorro": 400},
+    {"nombre": "RAG sobre el manual de la empresa", "setup": 3000, "mensual": 80, "ahorro": 900},
+    {"nombre": "ML para predecir abandono de clientes", "setup": 4000, "mensual": 60, "ahorro": 1300},
+    {"nombre": "Optimizador de rutas de reparto", "setup": 6000, "mensual": 80, "ahorro": 1500},
+    {"nombre": "Agente de agendamiento con humano", "setup": 12000, "mensual": 200, "ahorro": 2600},
+]
+
+def select_portfolio(items: List[Dict[str, Any]], budget: float) -> Dict[str, Any]:
+    """Maximiza el beneficio neto mensual sum(ahorro-mensual) sujeto a sum(setup) <= budget.
+    Exacto por enumeracion (2^n, razonable hasta n~20) y comparado con la heuristica voraz por razon beneficio/setup."""
+    n = len(items); net = lambda x: x["ahorro"] - x["mensual"]
+    best, best_mask, evaluados = -1.0, 0, 0
+    for mask in range(1 << n):
+        evaluados += 1
+        sel = [items[i] for i in range(n) if mask >> i & 1]
+        if sum(x["setup"] for x in sel) <= budget:
+            g = sum(net(x) for x in sel)
+            if g > best:
+                best, best_mask = g, mask
+    exact = [items[i] for i in range(n) if best_mask >> i & 1]
+    greedy, used = [], 0.0
+    for x in sorted(items, key=lambda x: -net(x) / max(x["setup"], 1)):
+        if used + x["setup"] <= budget and net(x) > 0:
+            greedy.append(x); used += x["setup"]
+    pack = lambda sel: {"elegidas": [x["nombre"] for x in sel], "setup_usd": sum(x["setup"] for x in sel),
+                        "beneficio_neto_mensual_usd": sum(net(x) for x in sel)}
+    return {"presupuesto_setup_usd": budget, "combinaciones_evaluadas": evaluados, "exacto": pack(exact), "voraz": pack(greedy)}
+
 # ---------------- CLI ----------------
 def run_cli(argv=None):
     ap = argparse.ArgumentParser(description="Magister Copilot TAAI2")
@@ -280,6 +311,7 @@ def run_cli(argv=None):
     r.add_argument("--acc", default="0.95,0.9,0.92,0.97")
     r.add_argument("--hitl", default="", help="ej: 3:0.8")
     sp.add_parser("risks")
+    pf = sp.add_parser("portfolio"); pf.add_argument("--presupuesto", type=float, default=12000); pf.add_argument("--json", help="archivo con la lista de automatizaciones")
     o = sp.add_parser("optimize")
     o.add_argument("--agents", type=int, default=3)
     o.add_argument("--durations", default="5,3,8,2,7,4,6,1")
@@ -299,6 +331,9 @@ def run_cli(argv=None):
         h = {int(k): float(v) for k, v in (x.split(":") for x in a.hitl.split(",") if x)}
         dump(chain_reliability([float(x) for x in a.acc.split(",")], h))
     elif a.cmd == "risks": dump(risk_register())
+    elif a.cmd == "portfolio":
+        items = json.loads(Path(a.json).read_text(encoding="utf-8")) if a.json else PORTAFOLIO_EJEMPLO
+        dump(select_portfolio(items, a.presupuesto))
     elif a.cmd == "optimize": dump(optimize_assignment([float(x) for x in a.durations.split(",")], a.agents))
     elif a.cmd == "check-pdf": dump(check_pdf(a.pdf))
     else: ap.print_help()

@@ -77,3 +77,16 @@ class TestLLM(unittest.TestCase):
         with mock.patch.dict(os.environ, {}, clear=True), mock.patch("copilot.llm.load_env"):
             with self.assertRaises(SystemExit):
                 llm.complete("x")
+
+
+class TestPortfolio(unittest.TestCase):
+    def test_exacto_supera_o_iguala_voraz(self):
+        from copilot.engine_taai2 import select_portfolio, PORTAFOLIO_EJEMPLO
+        r = select_portfolio(PORTAFOLIO_EJEMPLO, 12000)
+        self.assertGreaterEqual(r["exacto"]["beneficio_neto_mensual_usd"], r["voraz"]["beneficio_neto_mensual_usd"])
+        self.assertLessEqual(r["exacto"]["setup_usd"], 12000)
+        self.assertEqual(r["combinaciones_evaluadas"], 2 ** len(PORTAFOLIO_EJEMPLO))
+
+    def test_presupuesto_cero(self):
+        from copilot.engine_taai2 import select_portfolio
+        self.assertEqual(select_portfolio([{"nombre": "a", "setup": 10, "mensual": 0, "ahorro": 5}], 0)["exacto"]["elegidas"], [])
